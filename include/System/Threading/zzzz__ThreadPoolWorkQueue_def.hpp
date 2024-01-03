@@ -9,7 +9,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ThreadPoolWorkQueue)
 namespace System::Threading {
-class IThreadPoolWorkItem;
+template <typename T> class __ThreadPoolWorkQueue__SparseArray_1;
+}
+namespace System::Threading {
+class ThreadPoolWorkQueueThreadLocals;
 }
 namespace System::Threading {
 class __ThreadPoolWorkQueue__WorkStealingQueue;
@@ -18,10 +21,7 @@ namespace System::Threading {
 class __ThreadPoolWorkQueue__QueueSegment;
 }
 namespace System::Threading {
-template <typename T> class __ThreadPoolWorkQueue__SparseArray_1;
-}
-namespace System::Threading {
-class ThreadPoolWorkQueueThreadLocals;
+class IThreadPoolWorkItem;
 }
 // Forward declare root types
 namespace System::Threading {
@@ -103,7 +103,7 @@ public:
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Threading {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2701)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2701))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2732))
 // CS Name: ::ThreadPoolWorkQueue::WorkStealingQueue*
 class CORDL_TYPE __ThreadPoolWorkQueue__WorkStealingQueue : public ::System::Object {

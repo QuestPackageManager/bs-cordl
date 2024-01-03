@@ -8,37 +8,37 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(GameplayModifiersPanelController)
 namespace GlobalNamespace {
+class IRefreshable;
+}
+namespace GlobalNamespace {
+class GameplayModifiersModelSO;
+}
+namespace TMPro {
+class TextMeshProUGUI;
+}
+namespace System {
+class Action;
+}
+namespace GlobalNamespace {
+class GameplayModifierParamsSO;
+}
+namespace HMUI {
+class ToggleBinder;
+}
+namespace GlobalNamespace {
+class __GameplayModifiersPanelController____c__DisplayClass16_0;
+}
+namespace GlobalNamespace {
 class GameplayModifiers;
 }
 namespace UnityEngine::UI {
 class Toggle;
 }
 namespace GlobalNamespace {
-class __GameplayModifiersPanelController____c__DisplayClass16_0;
-}
-namespace System {
-class Action;
+class GameplayModifierToggle;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace HMUI {
-class ToggleBinder;
-}
-namespace GlobalNamespace {
-class GameplayModifiersModelSO;
-}
-namespace GlobalNamespace {
-class IRefreshable;
-}
-namespace TMPro {
-class TextMeshProUGUI;
-}
-namespace GlobalNamespace {
-class GameplayModifierToggle;
-}
-namespace GlobalNamespace {
-class GameplayModifierParamsSO;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -120,7 +120,7 @@ static_assert(offsetof(::GlobalNamespace::__GameplayModifiersPanelController____
 // SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10251))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5636))
 // CS Name: ::GameplayModifiersPanelController*
 class CORDL_TYPE GameplayModifiersPanelController : public ::UnityEngine::MonoBehaviour {

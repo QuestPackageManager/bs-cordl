@@ -8,10 +8,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(XRFeatureDescriptor)
 namespace UnityEngine::InputSystem::XR {
-struct FeatureType;
+struct UsageHint;
 }
 namespace UnityEngine::InputSystem::XR {
-struct UsageHint;
+struct FeatureType;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;

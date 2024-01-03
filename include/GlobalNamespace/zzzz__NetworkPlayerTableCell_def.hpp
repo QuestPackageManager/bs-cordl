@@ -9,17 +9,17 @@ CORDL_MODULE_EXPORT(NetworkPlayerTableCell)
 namespace HMUI {
 struct __SelectableCell__TransitionType;
 }
-namespace UnityEngine {
-struct Color;
-}
-namespace UnityEngine {
-class GameObject;
-}
 namespace UnityEngine::UI {
 class Image;
 }
 namespace TMPro {
 class TextMeshProUGUI;
+}
+namespace UnityEngine {
+struct Color;
+}
+namespace UnityEngine {
+class GameObject;
 }
 // Forward declare root types
 namespace GlobalNamespace {

@@ -5,11 +5,14 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 CORDL_MODULE_EXPORT(MethodProviderWithContainer_2)
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
 namespace Zenject {
 class DiContainer;
+}
+namespace System {
+template <typename T1, typename T2, typename TResult> class Func_3;
+}
+namespace System {
+class Object;
 }
 namespace Zenject {
 struct TypeValuePair;
@@ -17,20 +20,17 @@ struct TypeValuePair;
 namespace System {
 class Type;
 }
-namespace System {
-template <typename T1, typename T2, typename TResult> class Func_3;
-}
-namespace Zenject {
-class InjectContext;
-}
-namespace System {
-class Action;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace Zenject {
 class IProvider;
 }
 namespace System {
-class Object;
+class Action;
+}
+namespace Zenject {
+class InjectContext;
 }
 // Forward declare root types
 namespace Zenject {

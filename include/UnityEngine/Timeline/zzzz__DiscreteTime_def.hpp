@@ -8,10 +8,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(DiscreteTime)
 namespace System {
-class IComparable;
+class Object;
 }
 namespace System {
-class Object;
+class IComparable;
 }
 // Forward declare root types
 namespace UnityEngine::Timeline {

@@ -9,17 +9,17 @@ CORDL_MODULE_EXPORT(MaterialReferenceManager)
 namespace UnityEngine {
 class Material;
 }
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace TMPro {
-class TMP_FontAsset;
-}
 namespace TMPro {
 class TMP_SpriteAsset;
 }
 namespace TMPro {
 class TMP_ColorGradient;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace TMPro {
+class TMP_FontAsset;
 }
 // Forward declare root types
 namespace TMPro {

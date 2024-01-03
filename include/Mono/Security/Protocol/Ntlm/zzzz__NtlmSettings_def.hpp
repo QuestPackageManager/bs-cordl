@@ -18,7 +18,7 @@ MARK_REF_PTR_T(::Mono::Security::Protocol::Ntlm::NtlmSettings);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Mono::Security::Protocol::Ntlm {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(13766))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13766)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13768))
 // CS Name: ::Mono.Security.Protocol.Ntlm::NtlmSettings*
 class CORDL_TYPE NtlmSettings : public ::System::Object {

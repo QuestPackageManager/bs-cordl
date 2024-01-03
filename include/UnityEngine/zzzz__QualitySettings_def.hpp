@@ -6,13 +6,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(QualitySettings)
 namespace UnityEngine {
-struct ColorSpace;
-}
-namespace UnityEngine {
 class ScriptableObject;
 }
 namespace UnityEngine::Rendering {
 class RenderPipelineAsset;
+}
+namespace UnityEngine {
+struct ColorSpace;
 }
 // Forward declare root types
 namespace UnityEngine {

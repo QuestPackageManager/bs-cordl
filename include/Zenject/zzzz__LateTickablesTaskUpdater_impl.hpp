@@ -2,9 +2,9 @@
 #include "Zenject/zzzz__ILateTickable_impl.hpp"
 #include "Zenject/zzzz__TaskUpdater_1_impl.hpp"
 #include "Zenject/zzzz__LateTickablesTaskUpdater_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 #include "Zenject/zzzz__ILateTickable_def.hpp"
 #include "Zenject/zzzz__InjectTypeInfo_def.hpp"
-#include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::Zenject::LateTickablesTaskUpdater.UpdateItem
 template <>
 

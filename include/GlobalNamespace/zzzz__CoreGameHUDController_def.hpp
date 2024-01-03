@@ -7,13 +7,13 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(CoreGameHUDController)
 namespace UnityEngine {
-class GameObject;
-}
-namespace UnityEngine {
 class CanvasGroup;
 }
 namespace GlobalNamespace {
 class __CoreGameHUDController__InitData;
+}
+namespace UnityEngine {
+class GameObject;
 }
 // Forward declare root types
 namespace GlobalNamespace {

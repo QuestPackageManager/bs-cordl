@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include <cstddef>
 CORDL_MODULE_EXPORT(EventDebuggerLogIMGUICall)
-namespace UnityEngine::UIElements {
-class EventBase;
-}
 namespace System {
 class IDisposable;
+}
+namespace UnityEngine::UIElements {
+class EventBase;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

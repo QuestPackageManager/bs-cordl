@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include "Newtonsoft/Json/Serialization/zzzz__JsonContainerContract_def.hpp"
 CORDL_MODULE_EXPORT(JsonISerializableContract)
-namespace System {
-class Object;
-}
 namespace Newtonsoft::Json::Serialization {
 template <typename T> class ObjectConstructor_1;
+}
+namespace System {
+class Object;
 }
 namespace System {
 class Type;

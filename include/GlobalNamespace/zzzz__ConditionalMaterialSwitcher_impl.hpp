@@ -1,9 +1,9 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__ConditionalMaterialSwitcher_def.hpp"
-#include "UnityEngine/zzzz__Material_def.hpp"
 #include "GlobalNamespace/zzzz__BoolSO_def.hpp"
 #include "UnityEngine/zzzz__Renderer_def.hpp"
+#include "UnityEngine/zzzz__Material_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::ConditionalMaterialSwitcher.Awake
 template <>
 

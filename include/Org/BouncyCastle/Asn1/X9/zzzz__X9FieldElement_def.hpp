@@ -6,16 +6,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(X9FieldElement)
 namespace Org::BouncyCastle::Asn1 {
-class Asn1OctetString;
-}
-namespace Org::BouncyCastle::Math {
-class BigInteger;
+class Asn1Object;
 }
 namespace Org::BouncyCastle::Math::EC {
 class ECFieldElement;
 }
+namespace Org::BouncyCastle::Math {
+class BigInteger;
+}
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
+class Asn1OctetString;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::X9 {

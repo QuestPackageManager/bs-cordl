@@ -6,6 +6,9 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Asn1StreamParser)
+namespace Org::BouncyCastle::Asn1 {
+class IAsn1Convertible;
+}
 namespace System::IO {
 class Stream;
 }
@@ -14,9 +17,6 @@ class Asn1EncodableVector;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
-}
-namespace Org::BouncyCastle::Asn1 {
-class IAsn1Convertible;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1 {

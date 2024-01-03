@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(DefaultAllocationStrategy)
+namespace System {
+class Object;
+}
 namespace UnityEngine::ResourceManagement::Util {
 class IAllocationStrategy;
 }
 namespace System {
 class Type;
-}
-namespace System {
-class Object;
 }
 // Forward declare root types
 namespace UnityEngine::ResourceManagement::Util {

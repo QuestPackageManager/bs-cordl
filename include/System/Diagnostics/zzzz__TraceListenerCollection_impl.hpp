@@ -1,14 +1,14 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Diagnostics/zzzz__TraceListenerCollection_def.hpp"
-#include "System/Collections/zzzz__IList_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
-#include "System/Diagnostics/zzzz__TraceListener_def.hpp"
-#include "System/Collections/zzzz__ArrayList_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "System/Diagnostics/zzzz__TraceListener_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "System/Collections/zzzz__ICollection_def.hpp"
 #include "System/zzzz__Array_def.hpp"
+#include "System/Collections/zzzz__ArrayList_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/Collections/zzzz__IList_def.hpp"
 //  Writing Method size for method: ::System::Diagnostics::TraceListenerCollection._ctor
 template <>
 

@@ -5,10 +5,10 @@
 #include "Zenject/zzzz__MonoMemoryPool_4_impl.hpp"
 #include "GlobalNamespace/zzzz__BTSStarTextEffectController_def.hpp"
 #include "GlobalNamespace/zzzz__BTSStarTextEffectController_def.hpp"
-#include "UnityEngine/zzzz__Transform_def.hpp"
-#include "UnityEngine/zzzz__Sprite_def.hpp"
-#include "UnityEngine/zzzz__SpriteRenderer_def.hpp"
 #include "UnityEngine/zzzz__Animation_def.hpp"
+#include "UnityEngine/zzzz__Transform_def.hpp"
+#include "UnityEngine/zzzz__SpriteRenderer_def.hpp"
+#include "UnityEngine/zzzz__Sprite_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::BTSStarTextEffectController.get_animationDuration
 template <>
 

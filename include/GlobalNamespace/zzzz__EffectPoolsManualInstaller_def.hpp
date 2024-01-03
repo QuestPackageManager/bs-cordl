@@ -5,22 +5,22 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(EffectPoolsManualInstaller)
 namespace GlobalNamespace {
-class BeatEffect;
-}
-namespace GlobalNamespace {
-class NoteCutSoundEffect;
-}
-namespace GlobalNamespace {
 class FlyingSpriteEffect;
 }
 namespace Zenject {
 class DiContainer;
 }
 namespace GlobalNamespace {
+class NoteCutSoundEffect;
+}
+namespace GlobalNamespace {
 class FlyingTextEffect;
 }
 namespace GlobalNamespace {
 class FlyingScoreEffect;
+}
+namespace GlobalNamespace {
+class BeatEffect;
 }
 namespace GlobalNamespace {
 class BombCutSoundEffect;

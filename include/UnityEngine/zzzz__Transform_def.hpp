@@ -10,16 +10,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Transform)
 namespace UnityEngine {
-class __Transform__Enumerator;
+struct Space;
 }
 namespace UnityEngine {
-struct RotationOrder;
+struct Vector3;
 }
 namespace UnityEngine {
 struct Quaternion;
 }
 namespace UnityEngine {
-struct Vector3;
+class __Transform__Enumerator;
 }
 namespace System::Collections {
 class IEnumerator;
@@ -31,7 +31,7 @@ namespace UnityEngine {
 struct Matrix4x4;
 }
 namespace UnityEngine {
-struct Space;
+struct RotationOrder;
 }
 namespace System {
 class Object;

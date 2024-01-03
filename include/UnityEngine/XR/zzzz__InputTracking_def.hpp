@@ -6,20 +6,20 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(InputTracking)
-namespace System {
-template <typename T> class Action_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
 namespace UnityEngine::XR {
 struct XRNode;
 }
 namespace UnityEngine::XR {
-struct __InputTracking__TrackingStateEventType;
+struct XRNodeState;
+}
+namespace System {
+template <typename T> class Action_1;
 }
 namespace UnityEngine::XR {
-struct XRNodeState;
+struct __InputTracking__TrackingStateEventType;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 // Forward declare root types
 namespace UnityEngine::XR {

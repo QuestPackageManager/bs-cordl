@@ -3,8 +3,8 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "RootMotion/FinalIK/zzzz__VRIK_def.hpp"
 #include "RootMotion/FinalIK/zzzz__VRIK_def.hpp"
-#include "RootMotion/FinalIK/zzzz__IKSolver_def.hpp"
 #include "RootMotion/FinalIK/zzzz__IKSolverVR_def.hpp"
+#include "RootMotion/FinalIK/zzzz__IKSolver_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
 //  Writing Method size for method: ::RootMotion::FinalIK::__VRIK__References.GetTransforms
 template <>

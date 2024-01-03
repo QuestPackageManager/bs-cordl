@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__BloomFilterUtil_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "GlobalNamespace/zzzz__BloomFilterUtil_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 template <typename T> constexpr int32_t& GlobalNamespace::__BloomFilterUtil____c__DisplayClass1_0_1<T>::__get_hashCount() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___hashCount;

@@ -7,11 +7,11 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(OneModifierComposite)
-namespace System {
-class Object;
-}
 namespace UnityEngine::InputSystem {
 struct InputBindingCompositeContext;
+}
+namespace System {
+class Object;
 }
 namespace System {
 class Type;

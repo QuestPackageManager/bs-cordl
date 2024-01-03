@@ -8,6 +8,15 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(SaberSwingRatingCounter)
 namespace GlobalNamespace {
+template <typename T> class LazyCopyHashSet_1;
+}
+namespace UnityEngine {
+struct Vector3;
+}
+namespace UnityEngine {
+struct Quaternion;
+}
+namespace GlobalNamespace {
 struct BladeMovementDataElement;
 }
 namespace GlobalNamespace {
@@ -17,22 +26,13 @@ namespace GlobalNamespace {
 class ISaberMovementData;
 }
 namespace GlobalNamespace {
-class ISaberMovementDataProcessor;
-}
-namespace UnityEngine {
-struct Quaternion;
-}
-namespace GlobalNamespace {
 class ISaberSwingRatingCounter;
 }
-namespace UnityEngine {
-struct Vector3;
+namespace GlobalNamespace {
+class ISaberMovementDataProcessor;
 }
 namespace GlobalNamespace {
 class ISaberSwingRatingCounterDidChangeReceiver;
-}
-namespace GlobalNamespace {
-template <typename T> class LazyCopyHashSet_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -44,7 +44,7 @@ MARK_REF_PTR_T(::GlobalNamespace::SaberSwingRatingCounter);
 // SizeInfo { instance_size: 208, native_size: -1, calculated_instance_size: 208, calculated_native_size: 201, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10163)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10163)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4196))
 // CS Name: ::SaberSwingRatingCounter*
 class CORDL_TYPE SaberSwingRatingCounter : public ::System::Object {

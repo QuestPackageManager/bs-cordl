@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(PreviewDifficultyBeatmapSet)
 namespace GlobalNamespace {
-class BeatmapCharacteristicSO;
+struct BeatmapDifficulty;
 }
 namespace GlobalNamespace {
-struct BeatmapDifficulty;
+class BeatmapCharacteristicSO;
 }
 // Forward declare root types
 namespace GlobalNamespace {

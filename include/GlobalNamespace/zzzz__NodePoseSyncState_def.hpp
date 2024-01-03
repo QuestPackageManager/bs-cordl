@@ -8,25 +8,25 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(NodePoseSyncState)
 namespace GlobalNamespace {
-struct PoseSerializable;
+struct __NodePoseSyncState__NodePose;
 }
 namespace LiteNetLib::Utils {
-class INetSerializable;
+class NetDataReader;
 }
 namespace GlobalNamespace {
 template <typename T> class IEquatableByReference_1;
-}
-namespace LiteNetLib::Utils {
-class NetDataWriter;
-}
-namespace GlobalNamespace {
-struct __NodePoseSyncState__NodePose;
 }
 namespace GlobalNamespace {
 template <typename TStateTable, typename TType, typename TState> class IStateTable_3;
 }
 namespace LiteNetLib::Utils {
-class NetDataReader;
+class INetSerializable;
+}
+namespace GlobalNamespace {
+struct PoseSerializable;
+}
+namespace LiteNetLib::Utils {
+class NetDataWriter;
 }
 // Forward declare root types
 namespace GlobalNamespace {

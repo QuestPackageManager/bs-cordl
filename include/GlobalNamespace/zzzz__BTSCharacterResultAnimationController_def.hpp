@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(BTSCharacterResultAnimationController)
 namespace GlobalNamespace {
-class MaterialPropertyBlockFloatAnimator;
+class MaterialPropertyBlockColorSetter;
 }
 namespace GlobalNamespace {
-class MaterialPropertyBlockColorSetter;
+class MaterialPropertyBlockFloatAnimator;
 }
 namespace UnityEngine {
 class GameObject;

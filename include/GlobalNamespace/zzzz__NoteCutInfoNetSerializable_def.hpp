@@ -13,10 +13,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(NoteCutInfoNetSerializable)
 namespace LiteNetLib::Utils {
+class NetDataReader;
+}
+namespace GlobalNamespace {
+class NoteData;
+}
+namespace LiteNetLib::Utils {
 class NetDataWriter;
 }
-namespace UnityEngine {
-struct Vector3;
+namespace GlobalNamespace {
+struct __NoteData__GameplayType;
 }
 namespace UnityEngine {
 struct Quaternion;
@@ -24,20 +30,14 @@ struct Quaternion;
 namespace GlobalNamespace {
 struct NoteCutInfo;
 }
+namespace UnityEngine {
+struct Vector3;
+}
 namespace GlobalNamespace {
 struct ColorType;
 }
-namespace LiteNetLib::Utils {
-class NetDataReader;
-}
-namespace GlobalNamespace {
-struct __NoteData__GameplayType;
-}
 namespace GlobalNamespace {
 struct NoteLineLayer;
-}
-namespace GlobalNamespace {
-class NoteData;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -49,8 +49,8 @@ MARK_REF_PTR_T(::GlobalNamespace::NoteCutInfoNetSerializable);
 // SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 136, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15039)), TypeDefinitionIndex(TypeDefinitionIndex(14757)), TypeDefinitionIndex(TypeDefinitionIndex(14752)),
-// TypeDefinitionIndex(TypeDefinitionIndex(15041)), TypeDefinitionIndex(TypeDefinitionIndex(15033)), TypeDefinitionIndex(TypeDefinitionIndex(14760))} Self:
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14752)), TypeDefinitionIndex(TypeDefinitionIndex(14760)), TypeDefinitionIndex(TypeDefinitionIndex(15041)),
+// TypeDefinitionIndex(TypeDefinitionIndex(14757)), TypeDefinitionIndex(TypeDefinitionIndex(15033)), TypeDefinitionIndex(TypeDefinitionIndex(15039))} Self:
 // TypeDefinitionIndex(TypeDefinitionIndex(15026)) CS Name: ::NoteCutInfoNetSerializable*
 class CORDL_TYPE NoteCutInfoNetSerializable : public ::GlobalNamespace::PoolableSerializable {
 public:

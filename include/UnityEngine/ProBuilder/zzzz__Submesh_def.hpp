@@ -8,11 +8,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Submesh)
+namespace UnityEngine::ProBuilder {
+class Face;
+}
 namespace UnityEngine {
 class Mesh;
-}
-namespace UnityEngine::ProBuilder {
-class ProBuilderMesh;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
@@ -21,7 +21,7 @@ namespace UnityEngine {
 struct MeshTopology;
 }
 namespace UnityEngine::ProBuilder {
-class Face;
+class ProBuilderMesh;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder {
@@ -33,7 +33,7 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::Submesh);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10109))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10109)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12206))
 // CS Name: ::UnityEngine.ProBuilder::Submesh*
 class CORDL_TYPE Submesh : public ::System::Object {

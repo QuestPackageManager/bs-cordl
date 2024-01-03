@@ -11,23 +11,17 @@ CORDL_MODULE_EXPORT(DateTimeUtils)
 namespace System {
 struct DateTimeKind;
 }
-namespace System::Globalization {
-class CultureInfo;
+namespace Newtonsoft::Json::Utilities {
+struct StringReference;
 }
-namespace Newtonsoft::Json {
-struct DateFormatHandling;
-}
-namespace System::Xml {
-struct XmlDateTimeSerializationMode;
-}
-namespace System {
-template <typename T> struct Nullable_1;
-}
-namespace System {
-struct TimeSpan;
+namespace Newtonsoft::Json::Utilities {
+struct DateTimeParser;
 }
 namespace Newtonsoft::Json {
 struct DateTimeZoneHandling;
+}
+namespace System::Xml {
+struct XmlDateTimeSerializationMode;
 }
 namespace System {
 struct DateTime;
@@ -35,14 +29,20 @@ struct DateTime;
 namespace System {
 struct DateTimeOffset;
 }
-namespace Newtonsoft::Json::Utilities {
-struct StringReference;
-}
-namespace Newtonsoft::Json::Utilities {
-struct DateTimeParser;
-}
 namespace System::IO {
 class TextWriter;
+}
+namespace Newtonsoft::Json {
+struct DateFormatHandling;
+}
+namespace System {
+template <typename T> struct Nullable_1;
+}
+namespace System {
+struct TimeSpan;
+}
+namespace System::Globalization {
+class CultureInfo;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Utilities {

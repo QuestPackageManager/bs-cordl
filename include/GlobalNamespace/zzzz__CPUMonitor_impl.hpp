@@ -2,9 +2,9 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__CPUMonitor_def.hpp"
 #include "System/Diagnostics/zzzz__Process_def.hpp"
+#include "GlobalNamespace/zzzz__IPollable_def.hpp"
 #include "GlobalNamespace/zzzz__RollingAverage_def.hpp"
 #include "GlobalNamespace/zzzz__ICPUMonitor_def.hpp"
-#include "GlobalNamespace/zzzz__IPollable_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::CPUMonitor.PollUpdate
 template <>
 

@@ -8,49 +8,49 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(MockPlayerGamePoseGeneratorMirror)
 namespace GlobalNamespace {
-class NoteSpawnInfoNetSerializable;
-}
-namespace GlobalNamespace {
-class IGameplayRpcManager;
-}
-namespace GlobalNamespace {
-class NoteCutInfoNetSerializable;
+class MultiplayerLevelCompletionResults;
 }
 namespace GlobalNamespace {
 class IConnectedPlayer;
 }
 namespace GlobalNamespace {
-class IMultiplayerSessionManager;
+class NodePoseSyncStateManager;
 }
 namespace GlobalNamespace {
 class ObstacleSpawnInfoNetSerializable;
-}
-namespace System {
-class Action;
-}
-namespace GlobalNamespace {
-class MockBeatmapData;
-}
-namespace GlobalNamespace {
-class MultiplayerLevelCompletionResults;
-}
-namespace GlobalNamespace {
-class SliderSpawnInfoNetSerializable;
-}
-namespace GlobalNamespace {
-class GameplayModifiers;
-}
-namespace GlobalNamespace {
-class StandardScoreSyncStateNetSerializable;
 }
 namespace GlobalNamespace {
 class NoteMissInfoNetSerializable;
 }
 namespace GlobalNamespace {
-class NodePoseSyncStateManager;
+class IGameplayRpcManager;
+}
+namespace GlobalNamespace {
+class IMultiplayerSessionManager;
+}
+namespace GlobalNamespace {
+class SliderSpawnInfoNetSerializable;
+}
+namespace GlobalNamespace {
+class StandardScoreSyncStateNetSerializable;
+}
+namespace System {
+class Action;
+}
+namespace GlobalNamespace {
+class NoteCutInfoNetSerializable;
 }
 namespace BeatSaber::AvatarCore {
 class OptionalAvatarDataPacket;
+}
+namespace GlobalNamespace {
+class GameplayModifiers;
+}
+namespace GlobalNamespace {
+class NoteSpawnInfoNetSerializable;
+}
+namespace GlobalNamespace {
+class MockBeatmapData;
 }
 // Forward declare root types
 namespace GlobalNamespace {

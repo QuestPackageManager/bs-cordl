@@ -18,7 +18,7 @@ MARK_REF_PTR_T(::GlobalNamespace::BeatmapEventTypeExtensions);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14724)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(14724))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14725))
 // CS Name: ::BeatmapEventTypeExtensions*
 class CORDL_TYPE BeatmapEventTypeExtensions : public ::System::Object {

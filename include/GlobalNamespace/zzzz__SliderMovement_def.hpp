@@ -8,22 +8,22 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(SliderMovement)
 namespace GlobalNamespace {
-class IAudioTimeSource;
-}
-namespace UnityEngine {
-struct Vector3;
-}
-namespace GlobalNamespace {
 class PlayerTransforms;
-}
-namespace System {
-class Action;
 }
 namespace System {
 template <typename T> class Action_1;
 }
+namespace GlobalNamespace {
+class IAudioTimeSource;
+}
 namespace UnityEngine {
 class Transform;
+}
+namespace System {
+class Action;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -35,7 +35,7 @@ MARK_REF_PTR_T(::GlobalNamespace::SliderMovement);
 // SizeInfo { instance_size: 176, native_size: -1, calculated_instance_size: 176, calculated_native_size: 176, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10252))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4824))
 // CS Name: ::SliderMovement*
 class CORDL_TYPE SliderMovement : public ::UnityEngine::MonoBehaviour {

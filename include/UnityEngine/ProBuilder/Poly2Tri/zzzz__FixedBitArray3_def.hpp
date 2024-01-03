@@ -7,23 +7,23 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(FixedBitArray3)
-namespace System::Collections {
-class IEnumerable;
-}
 namespace System {
 class Object;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
-namespace System::Collections {
-class IEnumerator;
 }
 namespace System {
 class IDisposable;
 }
+namespace System::Collections {
+class IEnumerable;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
+}
+namespace System::Collections {
+class IEnumerator;
 }
 namespace UnityEngine::ProBuilder::Poly2Tri {
 class __FixedBitArray3___Enumerate_d__10;

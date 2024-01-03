@@ -2,10 +2,10 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "RootMotion/FinalIK/zzzz__VRIKRootController_def.hpp"
-#include "UnityEngine/zzzz__Transform_def.hpp"
-#include "RootMotion/FinalIK/zzzz__VRIK_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "UnityEngine/zzzz__Transform_def.hpp"
 #include "RootMotion/FinalIK/zzzz__VRIKCalibrator_def.hpp"
+#include "RootMotion/FinalIK/zzzz__VRIK_def.hpp"
 //  Writing Method size for method: ::RootMotion::FinalIK::VRIKRootController.get_pelvisTargetRight
 template <>
 

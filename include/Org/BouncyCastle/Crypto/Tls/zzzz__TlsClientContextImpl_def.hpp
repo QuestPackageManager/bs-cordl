@@ -10,11 +10,11 @@ class TlsContext;
 namespace Org::BouncyCastle::Crypto::Tls {
 class SecurityParameters;
 }
-namespace Org::BouncyCastle::Crypto::Tls {
-class TlsClientContext;
-}
 namespace Org::BouncyCastle::Security {
 class SecureRandom;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class TlsClientContext;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {

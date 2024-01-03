@@ -6,13 +6,13 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(GameplayModifiersConfiguration)
 namespace GlobalNamespace {
+class __GameplayModifiersConfiguration__CutAngleTolerance;
+}
+namespace GlobalNamespace {
 class __GameplayModifiersConfiguration__NoteUniformScale;
 }
 namespace GlobalNamespace {
 class __GameplayModifiersConfiguration__SongSpeed;
-}
-namespace GlobalNamespace {
-class __GameplayModifiersConfiguration__CutAngleTolerance;
 }
 // Forward declare root types
 namespace GlobalNamespace {

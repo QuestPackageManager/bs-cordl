@@ -8,16 +8,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Rfc3394WrapEngine)
 namespace Org::BouncyCastle::Crypto {
-class IBlockCipher;
+class ICipherParameters;
 }
 namespace Org::BouncyCastle::Crypto {
-class IWrapper;
+class IBlockCipher;
 }
 namespace Org::BouncyCastle::Crypto::Parameters {
 class KeyParameter;
 }
 namespace Org::BouncyCastle::Crypto {
-class ICipherParameters;
+class IWrapper;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Engines {

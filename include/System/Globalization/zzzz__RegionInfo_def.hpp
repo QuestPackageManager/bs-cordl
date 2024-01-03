@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(RegionInfo)
-namespace System::Globalization {
-class CultureInfo;
-}
 namespace System {
 class Object;
+}
+namespace System::Globalization {
+class CultureInfo;
 }
 // Forward declare root types
 namespace System::Globalization {

@@ -11,43 +11,43 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(HEU_SessionManager)
 namespace HoudiniEngineUnity {
-struct HAPI_ObjectInfo;
-}
-namespace System {
-class Type;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace HoudiniEngineUnity {
-struct HAPI_GroupType;
-}
-namespace HoudiniEngineUnity {
-class HEU_SessionBase;
-}
-namespace HoudiniEngineUnity {
-class HEU_SessionData;
-}
-namespace HoudiniEngineUnity {
 class __HEU_SessionManager__CreateSessionFromTypeDelegate;
 }
 namespace HoudiniEngineUnity {
-struct HAPI_Transform;
+struct HAPI_License;
 }
 namespace HoudiniEngineUnity {
 struct HAPI_RSTOrder;
 }
 namespace HoudiniEngineUnity {
-struct HAPI_License;
+class HEU_SessionBase;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace HoudiniEngineUnity {
+class HEU_SessionData;
+}
+namespace HoudiniEngineUnity {
+struct HAPI_GroupType;
 }
 namespace System {
-class IAsyncResult;
+class Type;
+}
+namespace HoudiniEngineUnity {
+struct HAPI_Transform;
+}
+namespace HoudiniEngineUnity {
+struct HAPI_ObjectInfo;
+}
+namespace System {
+class AsyncCallback;
 }
 namespace System {
 class Object;
 }
 namespace System {
-class AsyncCallback;
+class IAsyncResult;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {

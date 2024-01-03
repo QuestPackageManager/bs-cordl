@@ -7,31 +7,31 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ConnectedPlayerOptionalAvatarDataProvider)
 namespace BeatSaber::AvatarCore {
-class OptionalAvatarDataSyncHandler;
-}
-namespace BeatSaber::AvatarCore {
 struct OptionalAvatarData;
-}
-namespace System {
-template <typename T> class Action_1;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace System {
-class IDisposable;
 }
 namespace BeatSaber::AvatarCore {
 struct AvatarDisplayContext;
 }
 namespace GlobalNamespace {
-class IConnectedPlayer;
+class IMultiplayerSessionManager;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace GlobalNamespace {
-class IMultiplayerSessionManager;
+class IConnectedPlayer;
 }
 namespace BeatSaber::AvatarCore {
 class IOptionalAvatarDataProvider;
+}
+namespace System {
+template <typename T> class Action_1;
+}
+namespace System {
+class IDisposable;
+}
+namespace BeatSaber::AvatarCore {
+class OptionalAvatarDataSyncHandler;
 }
 // Forward declare root types
 namespace BeatSaber::AvatarCore {

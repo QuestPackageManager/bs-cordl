@@ -4,8 +4,8 @@
 #include "Tweening/zzzz__ColorTween_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
 #include "GlobalNamespace/zzzz__EaseType_def.hpp"
-#include "Zenject/zzzz__StaticMemoryPool_7_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
+#include "Zenject/zzzz__StaticMemoryPool_7_def.hpp"
 //  Writing Method size for method: ::Tweening::ColorTween._ctor
 template <>
 

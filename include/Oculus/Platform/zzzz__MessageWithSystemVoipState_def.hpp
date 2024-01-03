@@ -19,8 +19,8 @@ MARK_REF_PTR_T(::Oculus::Platform::MessageWithSystemVoipState);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13262)), TypeDefinitionIndex(TypeDefinitionIndex(13483)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13262), inst:
-// 983 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(13325)) CS Name: ::Oculus.Platform::MessageWithSystemVoipState*
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13262), inst: 983 }), TypeDefinitionIndex(TypeDefinitionIndex(13262)),
+// TypeDefinitionIndex(TypeDefinitionIndex(13483))} Self: TypeDefinitionIndex(TypeDefinitionIndex(13325)) CS Name: ::Oculus.Platform::MessageWithSystemVoipState*
 class CORDL_TYPE MessageWithSystemVoipState : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::SystemVoipState*> {
 public:
   // Declarations

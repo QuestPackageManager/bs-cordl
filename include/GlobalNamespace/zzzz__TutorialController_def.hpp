@@ -7,37 +7,37 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(TutorialController)
 namespace GlobalNamespace {
+class AudioFading;
+}
+namespace GlobalNamespace {
 class ILevelStartController;
-}
-namespace GlobalNamespace {
-class __TutorialController___OutroCoroutine_d__19;
-}
-namespace GlobalNamespace {
-class TutorialSongController;
-}
-namespace GlobalNamespace {
-class TutorialScenesTransitionSetupDataSO;
-}
-namespace GlobalNamespace {
-class PauseController;
-}
-namespace GlobalNamespace {
-class IntroTutorialController;
-}
-namespace System::Collections {
-class IEnumerator;
-}
-namespace System {
-class Action;
-}
-namespace GlobalNamespace {
-class Signal;
 }
 namespace System {
 template <typename T> class Action_1;
 }
 namespace GlobalNamespace {
-class AudioFading;
+class PauseController;
+}
+namespace GlobalNamespace {
+class TutorialScenesTransitionSetupDataSO;
+}
+namespace System {
+class Action;
+}
+namespace System::Collections {
+class IEnumerator;
+}
+namespace GlobalNamespace {
+class __TutorialController___OutroCoroutine_d__19;
+}
+namespace GlobalNamespace {
+class Signal;
+}
+namespace GlobalNamespace {
+class TutorialSongController;
+}
+namespace GlobalNamespace {
+class IntroTutorialController;
 }
 namespace System {
 class Object;

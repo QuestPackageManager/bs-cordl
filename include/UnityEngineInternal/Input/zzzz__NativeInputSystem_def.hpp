@@ -8,8 +8,11 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(NativeInputSystem)
+namespace UnityEngineInternal::Input {
+class NativeUpdateCallback;
+}
 namespace System {
-template <typename T, typename TResult> class Func_2;
+template <typename T> class Action_1;
 }
 namespace System {
 template <typename T1, typename T2> class Action_2;
@@ -18,10 +21,7 @@ namespace UnityEngineInternal::Input {
 struct NativeInputUpdateType;
 }
 namespace System {
-template <typename T> class Action_1;
-}
-namespace UnityEngineInternal::Input {
-class NativeUpdateCallback;
+template <typename T, typename TResult> class Func_2;
 }
 // Forward declare root types
 namespace UnityEngineInternal::Input {

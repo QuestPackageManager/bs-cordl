@@ -7,35 +7,35 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(PSVRHelper)
-namespace GlobalNamespace {
-struct VRPlatformSDK;
-}
-namespace UnityEngine {
-struct Pose;
-}
-namespace UnityEngine {
-struct Quaternion;
-}
-namespace GlobalNamespace {
-class IVRPlatformHelper;
-}
-namespace UnityEngine {
-struct Vector2;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
 namespace UnityEngine::XR {
 struct XRNode;
-}
-namespace UnityEngine {
-struct Vector3;
 }
 namespace UnityEngine::XR {
 struct XRNodeState;
 }
 namespace System {
 class Action;
+}
+namespace UnityEngine {
+struct Vector3;
+}
+namespace UnityEngine {
+struct Quaternion;
+}
+namespace UnityEngine {
+struct Vector2;
+}
+namespace UnityEngine {
+struct Pose;
+}
+namespace GlobalNamespace {
+class IVRPlatformHelper;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace GlobalNamespace {
+struct VRPlatformSDK;
 }
 // Forward declare root types
 namespace GlobalNamespace {

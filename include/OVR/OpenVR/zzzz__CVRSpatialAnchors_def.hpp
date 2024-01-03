@@ -8,17 +8,17 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(CVRSpatialAnchors)
+namespace OVR::OpenVR {
+struct EVRSpatialAnchorError;
+}
 namespace System::Text {
 class StringBuilder;
 }
 namespace OVR::OpenVR {
-struct EVRSpatialAnchorError;
+struct SpatialAnchorPose_t;
 }
 namespace OVR::OpenVR {
 struct ETrackingUniverseOrigin;
-}
-namespace OVR::OpenVR {
-struct SpatialAnchorPose_t;
 }
 // Forward declare root types
 namespace OVR::OpenVR {
@@ -30,7 +30,7 @@ MARK_REF_PTR_T(::OVR::OpenVR::CVRSpatialAnchors);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8551))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8551)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8578))
 // CS Name: ::OVR.OpenVR::CVRSpatialAnchors*
 class CORDL_TYPE CVRSpatialAnchors : public ::System::Object {

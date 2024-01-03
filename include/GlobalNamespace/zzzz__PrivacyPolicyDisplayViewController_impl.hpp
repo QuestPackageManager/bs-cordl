@@ -1,8 +1,8 @@
 #pragma once
 #include "HMUI/zzzz__ViewController_impl.hpp"
 #include "GlobalNamespace/zzzz__PrivacyPolicyDisplayViewController_def.hpp"
-#include "GlobalNamespace/zzzz__LocalizedTextAsset_def.hpp"
 #include "HMUI/zzzz__TextPageScrollView_def.hpp"
+#include "GlobalNamespace/zzzz__LocalizedTextAsset_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::PrivacyPolicyDisplayViewController.DidActivate
 template <>
 

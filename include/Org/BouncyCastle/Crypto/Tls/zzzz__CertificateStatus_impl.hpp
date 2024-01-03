@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__CertificateStatus_def.hpp"
-#include "System/IO/zzzz__Stream_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "System/IO/zzzz__Stream_def.hpp"
 #include "Org/BouncyCastle/Asn1/Ocsp/zzzz__OcspResponse_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Tls::CertificateStatus._ctor
 template <>

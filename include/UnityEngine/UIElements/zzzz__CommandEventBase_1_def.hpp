@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "UnityEngine/UIElements/zzzz__EventBase_1_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(CommandEventBase_1)
-namespace UnityEngine {
-class Event;
-}
 namespace UnityEngine::UIElements {
 class ICommandEvent;
+}
+namespace UnityEngine {
+class Event;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

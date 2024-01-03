@@ -10,19 +10,43 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(PlayerData)
 namespace GlobalNamespace {
-class ColorSchemesSettings;
+class GameplayModifiers;
+}
+namespace GlobalNamespace {
+class IPreviewBeatmapLevel;
+}
+namespace GlobalNamespace {
+class PracticeSettings;
 }
 namespace GlobalNamespace {
 class MultiplayerModeSettings;
 }
 namespace GlobalNamespace {
-class PlayerMissionStatsData;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
+class PlayerAllOverallStatsData;
 }
 namespace GlobalNamespace {
-struct PlayerSensitivityFlag;
+class PlayerLevelStatsData;
+}
+namespace GlobalNamespace {
+class IDifficultyBeatmap;
+}
+namespace GlobalNamespace {
+class BeatmapCharacteristicSO;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace GlobalNamespace {
+struct LevelKey;
+}
+namespace System::Collections::Generic {
+template <typename T> class HashSet_1;
+}
+namespace System {
+class Action;
+}
+namespace GlobalNamespace {
+class PlayerMissionStatsData;
 }
 namespace GlobalNamespace {
 struct BeatmapDifficulty;
@@ -31,49 +55,25 @@ namespace GlobalNamespace {
 class OverrideEnvironmentSettings;
 }
 namespace GlobalNamespace {
-class BeatmapCharacteristicSO;
-}
-namespace GlobalNamespace {
-class MissionHelpSO;
-}
-namespace System {
-class Action;
-}
-namespace GlobalNamespace {
-class IPreviewBeatmapLevel;
-}
-namespace GlobalNamespace {
-class PlayerAgreements;
-}
-namespace GlobalNamespace {
-struct LevelKey;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace GlobalNamespace {
-class PracticeSettings;
-}
-namespace GlobalNamespace {
-class PlayerAllOverallStatsData;
-}
-namespace GlobalNamespace {
-class GameplayModifiers;
-}
-namespace GlobalNamespace {
-class PlayerLevelStatsData;
-}
-namespace GlobalNamespace {
 struct UserAgeCategory;
-}
-namespace GlobalNamespace {
-class IDifficultyBeatmap;
 }
 namespace GlobalNamespace {
 class PlayerSpecificSettings;
 }
+namespace GlobalNamespace {
+struct PlayerSensitivityFlag;
+}
+namespace GlobalNamespace {
+class MissionHelpSO;
+}
+namespace GlobalNamespace {
+class PlayerAgreements;
+}
 namespace System::Collections::Generic {
-template <typename T> class HashSet_1;
+template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace GlobalNamespace {
+class ColorSchemesSettings;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -85,8 +85,8 @@ MARK_REF_PTR_T(::GlobalNamespace::PlayerData);
 // SizeInfo { instance_size: 216, native_size: -1, calculated_instance_size: 216, calculated_native_size: 216, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(4658)), TypeDefinitionIndex(TypeDefinitionIndex(4660)),
-// TypeDefinitionIndex(TypeDefinitionIndex(14717))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4628)) CS Name: ::PlayerData*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14717)), TypeDefinitionIndex(TypeDefinitionIndex(4658)), TypeDefinitionIndex(TypeDefinitionIndex(2613)),
+// TypeDefinitionIndex(TypeDefinitionIndex(4660))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4628)) CS Name: ::PlayerData*
 class CORDL_TYPE PlayerData : public ::System::Object {
 public:
   // Declarations

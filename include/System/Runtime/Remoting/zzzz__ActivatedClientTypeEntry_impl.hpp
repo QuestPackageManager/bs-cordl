@@ -1,8 +1,8 @@
 #pragma once
 #include "System/Runtime/Remoting/zzzz__TypeEntry_impl.hpp"
 #include "System/Runtime/Remoting/zzzz__ActivatedClientTypeEntry_def.hpp"
-#include "System/Runtime/Remoting/Contexts/zzzz__IContextAttribute_def.hpp"
 #include "System/zzzz__Type_def.hpp"
+#include "System/Runtime/Remoting/Contexts/zzzz__IContextAttribute_def.hpp"
 //  Writing Method size for method: ::System::Runtime::Remoting::ActivatedClientTypeEntry._ctor
 template <>
 

@@ -7,11 +7,11 @@ CORDL_MODULE_EXPORT(ConditionalImageMaterialSwitcher)
 namespace UnityEngine {
 class Material;
 }
-namespace GlobalNamespace {
-class BoolSO;
-}
 namespace UnityEngine::UI {
 class Image;
+}
+namespace GlobalNamespace {
+class BoolSO;
 }
 // Forward declare root types
 namespace GlobalNamespace {

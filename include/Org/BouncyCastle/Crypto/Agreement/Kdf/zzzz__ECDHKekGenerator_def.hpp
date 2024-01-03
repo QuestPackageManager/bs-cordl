@@ -7,16 +7,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ECDHKekGenerator)
 namespace Org::BouncyCastle::Crypto {
-class IDigest;
+class IDerivationParameters;
 }
 namespace Org::BouncyCastle::Crypto {
 class IDerivationFunction;
 }
+namespace Org::BouncyCastle::Crypto {
+class IDigest;
+}
 namespace Org::BouncyCastle::Asn1 {
 class DerObjectIdentifier;
-}
-namespace Org::BouncyCastle::Crypto {
-class IDerivationParameters;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Agreement::Kdf {

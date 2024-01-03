@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(Gost3410KeyPairGenerator)
 namespace Org::BouncyCastle::Crypto {
-class IAsymmetricCipherKeyPairGenerator;
+class KeyGenerationParameters;
 }
 namespace Org::BouncyCastle::Crypto {
-class KeyGenerationParameters;
+class IAsymmetricCipherKeyPairGenerator;
 }
 namespace Org::BouncyCastle::Crypto::Parameters {
 class Gost3410KeyGenerationParameters;

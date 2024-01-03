@@ -2,17 +2,15 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "Mono/zzzz__CertificateImportFlags_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ISystemCertificateProvider)
-namespace System::Security::Cryptography::X509Certificates {
-class X509Certificate;
-}
 namespace Microsoft::Win32::SafeHandles {
 class SafePasswordHandle;
 }
-namespace Mono {
-struct CertificateImportFlags;
+namespace System::Security::Cryptography::X509Certificates {
+class X509Certificate;
 }
 namespace System::Security::Cryptography::X509Certificates {
 class X509CertificateImpl;
@@ -30,7 +28,7 @@ MARK_REF_PTR_T(::Mono::ISystemCertificateProvider);
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Mono {
 // Is value type: false
-// Dependencies: {}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2223))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2225))
 // CS Name: ::Mono::ISystemCertificateProvider*
 class CORDL_TYPE ISystemCertificateProvider {

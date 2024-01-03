@@ -6,14 +6,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Asn1EncodableVector)
-namespace System::Collections {
-class IEnumerable;
-}
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Encodable;
 }
 namespace System::Collections {
 class IEnumerator;
+}
+namespace System::Collections {
+class IEnumerable;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1 {

@@ -8,17 +8,26 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(TimeStampResponseGenerator)
-namespace Org::BouncyCastle::Asn1 {
-class Asn1EncodableVector;
+namespace System::Collections {
+class IList;
+}
+namespace Org::BouncyCastle::Asn1::Cmp {
+class PkiStatusInfo;
+}
+namespace Org::BouncyCastle::Tsp {
+class __TimeStampResponseGenerator__FailInfo;
 }
 namespace Org::BouncyCastle::Tsp {
 class TimeStampRequest;
 }
-namespace Org::BouncyCastle::Tsp {
-class TimeStampResponse;
+namespace System {
+struct DateTime;
 }
-namespace Org::BouncyCastle::Utilities::Date {
-class DateTimeObject;
+namespace Org::BouncyCastle::Tsp {
+class TimeStampTokenGenerator;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1EncodableVector;
 }
 namespace Org::BouncyCastle::Asn1::Cmp {
 struct PkiStatus;
@@ -26,20 +35,11 @@ struct PkiStatus;
 namespace Org::BouncyCastle::Math {
 class BigInteger;
 }
-namespace Org::BouncyCastle::Tsp {
-class __TimeStampResponseGenerator__FailInfo;
+namespace Org::BouncyCastle::Utilities::Date {
+class DateTimeObject;
 }
 namespace Org::BouncyCastle::Tsp {
-class TimeStampTokenGenerator;
-}
-namespace System::Collections {
-class IList;
-}
-namespace Org::BouncyCastle::Asn1::Cmp {
-class PkiStatusInfo;
-}
-namespace System {
-struct DateTime;
+class TimeStampResponse;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Tsp {

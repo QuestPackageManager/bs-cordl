@@ -12,20 +12,20 @@ CORDL_MODULE_EXPORT(SpriteAsset)
 namespace UnityEngine::TextCore::Text {
 class SpriteCharacter;
 }
+namespace UnityEngine::TextCore::Text {
+class SpriteGlyph;
+}
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
-namespace UnityEngine::TextCore {
-struct FaceInfo;
-}
-namespace System::Collections::Generic {
-template <typename T> class HashSet_1;
+namespace UnityEngine::TextCore::Text {
+class TextSettings;
 }
 namespace UnityEngine {
 class Texture;
 }
-namespace UnityEngine::TextCore::Text {
-class TextSettings;
+namespace UnityEngine::TextCore {
+struct FaceInfo;
 }
 namespace UnityEngine::TextCore::Text {
 class __SpriteAsset____c;
@@ -33,8 +33,8 @@ class __SpriteAsset____c;
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
-namespace UnityEngine::TextCore::Text {
-class SpriteGlyph;
+namespace System::Collections::Generic {
+template <typename T> class HashSet_1;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;

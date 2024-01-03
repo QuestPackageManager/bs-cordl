@@ -1,13 +1,13 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "BeatSaber/AvatarCore/zzzz__OptionalAvatarDataPacket_def.hpp"
-#include "LiteNetLib/Utils/zzzz__INetSerializable_def.hpp"
 #include "LiteNetLib/Utils/zzzz__NetDataWriter_def.hpp"
-#include "GlobalNamespace/zzzz__PacketPool_1_def.hpp"
-#include "GlobalNamespace/zzzz__IPoolablePacket_def.hpp"
 #include "LiteNetLib/Utils/zzzz__NetDataReader_def.hpp"
-#include "GlobalNamespace/zzzz__ByteArrayNetSerializable_def.hpp"
 #include "BeatSaber/AvatarCore/zzzz__OptionalAvatarData_def.hpp"
+#include "GlobalNamespace/zzzz__ByteArrayNetSerializable_def.hpp"
+#include "GlobalNamespace/zzzz__IPoolablePacket_def.hpp"
+#include "LiteNetLib/Utils/zzzz__INetSerializable_def.hpp"
+#include "GlobalNamespace/zzzz__PacketPool_1_def.hpp"
 //  Writing Method size for method: ::BeatSaber::AvatarCore::OptionalAvatarDataPacket.get_pool
 template <>
 

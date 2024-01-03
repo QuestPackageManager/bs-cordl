@@ -8,14 +8,14 @@ CORDL_MODULE_EXPORT(Identity)
 namespace System::Runtime::Remoting::Contexts {
 class DynamicPropertyCollection;
 }
-namespace System {
-class Type;
-}
 namespace System::Runtime::Remoting::Messaging {
 class IMessage;
 }
 namespace System::Runtime::Remoting::Messaging {
 class IMessageSink;
+}
+namespace System {
+class Type;
 }
 namespace System::Runtime::Remoting {
 class ObjRef;

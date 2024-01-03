@@ -8,11 +8,11 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(DrawIfAttribute)
-namespace System {
-class Object;
-}
 namespace GlobalNamespace {
 struct __DrawIfAttribute__DisablingType;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -78,7 +78,7 @@ static_assert(offsetof(::GlobalNamespace::__DrawIfAttribute__DisablingType, valu
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10170)), TypeDefinitionIndex(TypeDefinitionIndex(16249))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(16249)), TypeDefinitionIndex(TypeDefinitionIndex(10170))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(16250))
 // CS Name: ::DrawIfAttribute*
 class CORDL_TYPE DrawIfAttribute : public ::UnityEngine::PropertyAttribute {

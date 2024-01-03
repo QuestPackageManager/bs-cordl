@@ -14,20 +14,20 @@ class ParticleSystem;
 namespace GlobalNamespace {
 class ColorManager;
 }
-namespace UnityEngine {
-struct Vector3;
-}
-namespace UnityEngine {
-struct __ParticleSystem__EmissionModule;
+namespace GlobalNamespace {
+class SaberManager;
 }
 namespace UnityEngine {
 class BoxCollider;
 }
-namespace GlobalNamespace {
-class SaberManager;
+namespace UnityEngine {
+struct __ParticleSystem__EmissionModule;
 }
 namespace GlobalNamespace {
 class Saber;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace GlobalNamespace {

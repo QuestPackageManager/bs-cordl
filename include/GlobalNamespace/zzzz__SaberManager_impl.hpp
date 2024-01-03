@@ -3,10 +3,10 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__SaberManager_def.hpp"
-#include "GlobalNamespace/zzzz__Saber_def.hpp"
-#include "GlobalNamespace/zzzz__SaberType_def.hpp"
 #include "GlobalNamespace/zzzz__SaberManager_def.hpp"
 #include "System/zzzz__Action_2_def.hpp"
+#include "GlobalNamespace/zzzz__SaberType_def.hpp"
+#include "GlobalNamespace/zzzz__Saber_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::__SaberManager__InitData._ctor
 template <>
 

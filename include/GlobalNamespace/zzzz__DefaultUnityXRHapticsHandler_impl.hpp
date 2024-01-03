@@ -2,8 +2,8 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/XR/zzzz__XRNode_impl.hpp"
 #include "GlobalNamespace/zzzz__DefaultUnityXRHapticsHandler_def.hpp"
-#include "UnityEngine/XR/zzzz__XRNode_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
+#include "UnityEngine/XR/zzzz__XRNode_def.hpp"
 #include "GlobalNamespace/zzzz__IUnityXRHapticsHandler_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::DefaultUnityXRHapticsHandler._ctor
 template <>

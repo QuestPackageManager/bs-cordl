@@ -15,14 +15,14 @@ MARK_REF_PTR_T(::Microsoft::CodeAnalysis::EmbeddedAttribute);
 namespace Microsoft::CodeAnalysis {
 // Is value type: false
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6729))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16052))
 // CS Name: ::Microsoft.CodeAnalysis::EmbeddedAttribute*
 class CORDL_TYPE EmbeddedAttribute : public ::System::Attribute {
 public:
   // Declarations
   static inline ::Microsoft::CodeAnalysis::EmbeddedAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2da15c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a0ac94, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "EmbeddedAttribute", modifiers: "&&", def_value: None }]

@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "UnityEngine/Experimental/XR/Interaction/zzzz__BasePoseProvider_def.hpp"
-#include "UnityEngine/zzzz__Pose_def.hpp"
 #include "UnityEngine/SpatialTracking/zzzz__PoseDataFlags_def.hpp"
+#include "UnityEngine/zzzz__Pose_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Experimental::XR::Interaction::BasePoseProvider.GetPoseFromProvider
 template <>
 

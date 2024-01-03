@@ -7,10 +7,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(PrivateKeyInfo)
 namespace Org::BouncyCastle::Asn1 {
-class DerInteger;
+class Asn1Set;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Set;
+class Asn1Encodable;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Sequence;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1TaggedObject;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Object;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class AlgorithmIdentifier;
@@ -19,22 +28,13 @@ namespace Org::BouncyCastle::Asn1 {
 class Asn1OctetString;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Encodable;
+class DerBitString;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
+class DerInteger;
 }
 namespace System {
 class Object;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1TaggedObject;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
-}
-namespace Org::BouncyCastle::Asn1 {
-class DerBitString;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Pkcs {

@@ -4,20 +4,20 @@
 CORDL_MODULE_INIT
 #include "Newtonsoft/Json/zzzz__JsonConverter_def.hpp"
 CORDL_MODULE_EXPORT(ColorConverter)
-namespace System {
-class Object;
-}
-namespace System {
-class Type;
-}
 namespace Newtonsoft::Json {
 class JsonSerializer;
 }
 namespace Newtonsoft::Json {
-class JsonReader;
+class JsonWriter;
 }
 namespace Newtonsoft::Json {
-class JsonWriter;
+class JsonReader;
+}
+namespace System {
+class Type;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Converters {

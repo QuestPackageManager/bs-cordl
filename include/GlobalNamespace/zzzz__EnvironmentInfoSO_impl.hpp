@@ -1,16 +1,16 @@
 #pragma once
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_impl.hpp"
 #include "GlobalNamespace/zzzz__EnvironmentInfoSO_def.hpp"
+#include "GlobalNamespace/zzzz__EnvironmentIntensityReductionOptions_def.hpp"
+#include "GlobalNamespace/zzzz__DefaultEnvironmentEvents_def.hpp"
+#include "BeatmapSaveDataVersion3/zzzz__BeatmapLightshowSaveData_def.hpp"
+#include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
+#include "GlobalNamespace/zzzz__EnvironmentLightGroups_def.hpp"
 #include "GlobalNamespace/zzzz__EnvironmentTypeSO_def.hpp"
 #include "GlobalNamespace/zzzz__ColorSchemeSO_def.hpp"
 #include "GlobalNamespace/zzzz__SceneInfo_def.hpp"
-#include "GlobalNamespace/zzzz__EnvironmentLightGroups_def.hpp"
-#include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
-#include "GlobalNamespace/zzzz__EnvironmentIntensityReductionOptions_def.hpp"
 #include "GlobalNamespace/zzzz__EnvironmentSizeData_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "GlobalNamespace/zzzz__DefaultEnvironmentEvents_def.hpp"
-#include "BeatmapSaveDataVersion3/zzzz__BeatmapLightshowSaveData_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::EnvironmentInfoSO.get_sceneInfo
 template <>
 

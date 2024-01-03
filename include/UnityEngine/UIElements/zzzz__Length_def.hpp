@@ -9,9 +9,6 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Length)
 namespace UnityEngine::UIElements {
-struct LengthUnit;
-}
-namespace UnityEngine::UIElements {
 struct __Length__Unit;
 }
 namespace System {
@@ -19,6 +16,9 @@ class Object;
 }
 namespace System {
 template <typename T> class IEquatable_1;
+}
+namespace UnityEngine::UIElements {
+struct LengthUnit;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

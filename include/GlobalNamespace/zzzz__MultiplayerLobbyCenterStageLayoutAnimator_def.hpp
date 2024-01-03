@@ -8,11 +8,11 @@ CORDL_MODULE_EXPORT(MultiplayerLobbyCenterStageLayoutAnimator)
 namespace UnityEngine {
 class RectTransform;
 }
-namespace Tweening {
-class TimeTweeningManager;
-}
 namespace UnityEngine {
 struct Vector3;
+}
+namespace Tweening {
+class TimeTweeningManager;
 }
 // Forward declare root types
 namespace GlobalNamespace {

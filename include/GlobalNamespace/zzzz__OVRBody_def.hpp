@@ -10,13 +10,7 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVRBody)
 namespace GlobalNamespace {
-struct __OVRPlugin__Vector3f;
-}
-namespace GlobalNamespace {
-class __OVRSkeleton__IOVRSkeletonDataProvider;
-}
-namespace GlobalNamespace {
-class __OVRSkeletonRenderer__IOVRSkeletonRendererDataProvider;
+struct __OVRPlugin__Quatf;
 }
 namespace System {
 template <typename T> class Action_1;
@@ -24,23 +18,29 @@ template <typename T> class Action_1;
 namespace GlobalNamespace {
 struct __OVRSkeletonRenderer__SkeletonRendererData;
 }
-namespace System {
-template <typename T> struct Nullable_1;
+namespace GlobalNamespace {
+struct __OVRPlugin__Vector3f;
 }
 namespace GlobalNamespace {
 struct __OVRPlugin__Step;
 }
-namespace GlobalNamespace {
-struct __OVRPlugin__Quatf;
+namespace System {
+template <typename T> struct Nullable_1;
 }
 namespace GlobalNamespace {
-struct __OVRPlugin__BodyState;
+class __OVRSkeletonRenderer__IOVRSkeletonRendererDataProvider;
 }
 namespace GlobalNamespace {
 struct __OVRSkeleton__SkeletonType;
 }
 namespace GlobalNamespace {
 struct __OVRSkeleton__SkeletonPoseData;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__BodyState;
+}
+namespace GlobalNamespace {
+class __OVRSkeleton__IOVRSkeletonDataProvider;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -52,7 +52,7 @@ MARK_REF_PTR_T(::GlobalNamespace::OVRBody);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7679)), TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(7786))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(7786)), TypeDefinitionIndex(TypeDefinitionIndex(7679))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7526))
 // CS Name: ::OVRBody*
 class CORDL_TYPE OVRBody : public ::UnityEngine::MonoBehaviour {

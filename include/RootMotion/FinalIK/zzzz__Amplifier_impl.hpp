@@ -5,8 +5,8 @@
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "RootMotion/FinalIK/zzzz__Amplifier_def.hpp"
 #include "RootMotion/FinalIK/zzzz__Amplifier_def.hpp"
-#include "RootMotion/FinalIK/zzzz__IKSolverFullBodyBiped_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
+#include "RootMotion/FinalIK/zzzz__IKSolverFullBodyBiped_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::__Amplifier__Body__EffectorLink._ctor
 template <>

@@ -2,8 +2,8 @@
 #include "System/Globalization/zzzz__CompareOptions_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Mono/Globalization/Unicode/zzzz__SortKeyBuffer_def.hpp"
-#include "System/Globalization/zzzz__SortKey_def.hpp"
 #include "System/Globalization/zzzz__CompareOptions_def.hpp"
+#include "System/Globalization/zzzz__SortKey_def.hpp"
 //  Writing Method size for method: ::Mono::Globalization::Unicode::SortKeyBuffer._ctor
 template <>
 

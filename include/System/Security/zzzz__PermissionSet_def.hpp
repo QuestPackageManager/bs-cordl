@@ -9,28 +9,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(PermissionSet)
 namespace System::Collections {
-class IEnumerable;
-}
-namespace System::Runtime::Serialization {
-class IDeserializationCallback;
-}
-namespace System {
-class Array;
-}
-namespace System::Security {
-class ISecurityEncodable;
+class ICollection;
 }
 namespace System::Collections {
 class ArrayList;
 }
-namespace System::Security {
-class IPermission;
-}
-namespace System::Security::Permissions {
-struct PermissionState;
+namespace System {
+class Array;
 }
 namespace System::Collections {
 class IEnumerator;
+}
+namespace System::Security::Permissions {
+struct PermissionState;
 }
 namespace System::Security {
 class SecurityElement;
@@ -38,8 +29,17 @@ class SecurityElement;
 namespace System {
 class Object;
 }
+namespace System::Security {
+class IPermission;
+}
+namespace System::Security {
+class ISecurityEncodable;
+}
+namespace System::Runtime::Serialization {
+class IDeserializationCallback;
+}
 namespace System::Collections {
-class ICollection;
+class IEnumerable;
 }
 // Forward declare root types
 namespace System::Security {

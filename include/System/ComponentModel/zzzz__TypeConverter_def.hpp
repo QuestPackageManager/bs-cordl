@@ -8,32 +8,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(TypeConverter)
-namespace System {
-class Attribute;
-}
-namespace System::Collections {
-class ICollection;
-}
-namespace System::Globalization {
-class CultureInfo;
-}
-namespace System::ComponentModel {
-class PropertyDescriptorCollection;
-}
-namespace System {
-class Object;
-}
-namespace System {
-class Exception;
-}
 namespace System::ComponentModel {
 class __TypeConverter__StandardValuesCollection;
 }
 namespace System {
 class Type;
 }
-namespace System::Collections {
-class IDictionary;
+namespace System::Globalization {
+class CultureInfo;
 }
 namespace System::ComponentModel {
 class __TypeConverter__SimplePropertyDescriptor;
@@ -42,13 +24,31 @@ namespace System::ComponentModel {
 class ITypeDescriptorContext;
 }
 namespace System {
+class Object;
+}
+namespace System {
+class Exception;
+}
+namespace System {
+class Attribute;
+}
+namespace System::ComponentModel {
+class PropertyDescriptorCollection;
+}
+namespace System::Collections {
+class ICollection;
+}
+namespace System::Collections {
+class IDictionary;
+}
+namespace System::Collections {
+class IEnumerator;
+}
+namespace System {
 class Array;
 }
 namespace System::Collections {
 class IEnumerable;
-}
-namespace System::Collections {
-class IEnumerator;
 }
 // Forward declare root types
 namespace System::ComponentModel {

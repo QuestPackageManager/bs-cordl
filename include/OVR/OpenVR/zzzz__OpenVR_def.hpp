@@ -2,46 +2,32 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "OVR/OpenVR/zzzz__EVRApplicationType_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(OpenVR)
 namespace OVR::OpenVR {
-struct EVRApplicationType;
-}
-namespace OVR::OpenVR {
-class CVRInput;
-}
-namespace OVR::OpenVR {
-class CVRRenderModels;
-}
-namespace OVR::OpenVR {
-class __OpenVR__COpenVRContext;
+class CVRScreenshots;
 }
 namespace OVR::OpenVR {
 class CVRExtendedDisplay;
 }
 namespace OVR::OpenVR {
+class CVRCompositor;
+}
+namespace OVR::OpenVR {
 class CVRSystem;
-}
-namespace OVR::OpenVR {
-class CVRSpatialAnchors;
-}
-namespace OVR::OpenVR {
-class CVRScreenshots;
 }
 namespace OVR::OpenVR {
 struct EVRInitError;
 }
 namespace OVR::OpenVR {
-class CVROverlay;
-}
-namespace OVR::OpenVR {
-class CVRCompositor;
-}
-namespace OVR::OpenVR {
 class CVRApplications;
+}
+namespace OVR::OpenVR {
+class CVRChaperoneSetup;
 }
 namespace OVR::OpenVR {
 class CVRTrackedCamera;
@@ -50,10 +36,25 @@ namespace OVR::OpenVR {
 class CVRSettings;
 }
 namespace OVR::OpenVR {
+struct EVRApplicationType;
+}
+namespace OVR::OpenVR {
+class CVRRenderModels;
+}
+namespace OVR::OpenVR {
+class CVROverlay;
+}
+namespace OVR::OpenVR {
 class CVRChaperone;
 }
 namespace OVR::OpenVR {
-class CVRChaperoneSetup;
+class CVRInput;
+}
+namespace OVR::OpenVR {
+class CVRSpatialAnchors;
+}
+namespace OVR::OpenVR {
+class __OpenVR__COpenVRContext;
 }
 // Forward declare root types
 namespace OVR::OpenVR {
@@ -331,7 +332,7 @@ static_assert(offsetof(::OVR::OpenVR::__OpenVR__COpenVRContext, ___m_pVRSpatialA
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8603)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8729))
 // CS Name: ::OVR.OpenVR::OpenVR*
 class CORDL_TYPE OpenVR : public ::System::Object {

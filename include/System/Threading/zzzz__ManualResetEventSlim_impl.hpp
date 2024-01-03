@@ -1,9 +1,9 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Threading/zzzz__ManualResetEventSlim_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "System/Threading/zzzz__ManualResetEvent_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
 #include "System/Threading/zzzz__WaitHandle_def.hpp"
 #include "System/Threading/zzzz__CancellationToken_def.hpp"

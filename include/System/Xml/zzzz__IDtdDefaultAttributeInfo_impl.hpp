@@ -1,7 +1,7 @@
 #pragma once
 #include "System/Xml/zzzz__IDtdDefaultAttributeInfo_def.hpp"
-#include "System/zzzz__Object_def.hpp"
 #include "System/Xml/zzzz__IDtdAttributeInfo_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::System::Xml::IDtdDefaultAttributeInfo.get_DefaultValueExpanded
 template <>
 

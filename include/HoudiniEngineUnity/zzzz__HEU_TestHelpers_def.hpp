@@ -8,22 +8,22 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(HEU_TestHelpers)
 namespace HoudiniEngineUnity {
-template <typename T> class IEquivable_1;
-}
-namespace HoudiniEngineUnity {
 template <typename T> class __HEU_TestHelpers__RequireClass_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace UnityEngine {
 class GameObject;
 }
 namespace HoudiniEngineUnity {
-template <typename T> class IEquivableWrapperClass_1;
+template <typename T> class IEquivable_1;
 }
 namespace HoudiniEngineUnity {
 template <typename T> class __HEU_TestHelpers__RequireStruct_1;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace HoudiniEngineUnity {
+template <typename T> class IEquivableWrapperClass_1;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {

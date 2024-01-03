@@ -8,38 +8,38 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(LightsAnimator)
+namespace Tweening {
+class TimeTweeningManager;
+}
+namespace GlobalNamespace {
+class TubeBloomPrePassLight;
+}
 namespace GlobalNamespace {
 struct EaseType;
 }
-namespace UnityEngine {
-struct Color;
+namespace GlobalNamespace {
+class __LightsAnimator___DisableDirectionalLightsCoroutine_d__11;
 }
-namespace Tweening {
-class TimeTweeningManager;
+namespace System::Collections {
+class IEnumerator;
 }
 namespace Tweening {
 class ColorTween;
 }
 namespace GlobalNamespace {
-class TubeBloomPrePassLight;
-}
-namespace System::Collections {
-class IEnumerator;
-}
-namespace GlobalNamespace {
-class __LightsAnimator___DisableDirectionalLightsCoroutine_d__11;
-}
-namespace GlobalNamespace {
 class DirectionalLight;
 }
-namespace System {
-class Object;
+namespace UnityEngine {
+struct Color;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
 namespace System {
 class IDisposable;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace GlobalNamespace {

@@ -6,23 +6,23 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(VRPointer)
-namespace VRUIControls {
-class VRLaserPointer;
-}
-namespace UnityEngine::EventSystems {
-class PointerEventData;
-}
 namespace UnityEngine {
 class Transform;
 }
 namespace UnityEngine::EventSystems {
 class EventSystem;
 }
+namespace UnityEngine::EventSystems {
+class PointerEventData;
+}
 namespace GlobalNamespace {
 class VRController;
 }
 namespace UnityEngine {
 struct Vector3;
+}
+namespace VRUIControls {
+class VRLaserPointer;
 }
 // Forward declare root types
 namespace VRUIControls {

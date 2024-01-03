@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(MultiplayerMenuClient)
 namespace GlobalNamespace {
-class MenuPlayerController;
+class INodePoseSyncStateManager;
 }
 namespace GlobalNamespace {
-class INodePoseSyncStateManager;
+class MenuPlayerController;
 }
 // Forward declare root types
 namespace GlobalNamespace {

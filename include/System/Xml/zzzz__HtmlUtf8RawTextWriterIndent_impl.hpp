@@ -1,8 +1,8 @@
 #pragma once
 #include "System/Xml/zzzz__HtmlUtf8RawTextWriter_impl.hpp"
 #include "System/Xml/zzzz__HtmlUtf8RawTextWriterIndent_def.hpp"
-#include "System/Xml/zzzz__XmlWriterSettings_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"
+#include "System/Xml/zzzz__XmlWriterSettings_def.hpp"
 //  Writing Method size for method: ::System::Xml::HtmlUtf8RawTextWriterIndent._ctor
 template <>
 

@@ -6,17 +6,17 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(TlsNullCipher)
-namespace Org::BouncyCastle::Crypto::Tls {
-class TlsContext;
-}
 namespace Org::BouncyCastle::Crypto {
 class IDigest;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class TlsMac;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class TlsCipher;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class TlsMac;
+class TlsContext;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {

@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include "HoudiniEngineUnity/zzzz__HEU_AssetEventData_def.hpp"
 CORDL_MODULE_EXPORT(HEU_BakedEventData)
-namespace UnityEngine {
-class GameObject;
-}
 namespace HoudiniEngineUnity {
 class HEU_HoudiniAsset;
+}
+namespace UnityEngine {
+class GameObject;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;

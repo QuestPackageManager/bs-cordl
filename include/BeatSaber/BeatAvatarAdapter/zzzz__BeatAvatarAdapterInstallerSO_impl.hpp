@@ -1,12 +1,12 @@
 #pragma once
 #include "BeatSaber/AvatarCore/zzzz__AbstractAdapterInstallerSO_impl.hpp"
 #include "BeatSaber/BeatAvatarAdapter/zzzz__BeatAvatarAdapterInstallerSO_def.hpp"
-#include "Zenject/zzzz__DiContainer_def.hpp"
-#include "BeatSaber/BeatAvatarAdapter/AvatarEditor/zzzz__EditAvatarColorViewController_def.hpp"
 #include "BeatSaber/BeatAvatarAdapter/zzzz__BeatAvatarSystemSettings_def.hpp"
-#include "BeatSaber/BeatAvatarAdapter/AvatarEditor/zzzz__BeatAvatarEditorViewController_def.hpp"
-#include "BeatSaber/BeatAvatarSDK/zzzz__SkinColorSetSO_def.hpp"
+#include "BeatSaber/BeatAvatarAdapter/AvatarEditor/zzzz__EditAvatarColorViewController_def.hpp"
 #include "BeatSaber/BeatAvatarSDK/zzzz__AvatarPartsModelSO_def.hpp"
+#include "BeatSaber/BeatAvatarSDK/zzzz__SkinColorSetSO_def.hpp"
+#include "Zenject/zzzz__DiContainer_def.hpp"
+#include "BeatSaber/BeatAvatarAdapter/AvatarEditor/zzzz__BeatAvatarEditorViewController_def.hpp"
 //  Writing Method size for method: ::BeatSaber::BeatAvatarAdapter::BeatAvatarAdapterInstallerSO.InstallBindings
 template <>
 

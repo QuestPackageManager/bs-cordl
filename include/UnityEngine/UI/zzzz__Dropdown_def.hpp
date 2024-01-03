@@ -10,17 +10,20 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(Dropdown)
+namespace UnityEngine::UI::CoroutineTween {
+struct FloatTween;
+}
 namespace UnityEngine::UI {
-class __Dropdown__DropdownItem;
+class __Dropdown___DelayedDestroyDropdownList_d__75;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace UnityEngine::EventSystems {
-class ISubmitHandler;
+class IPointerClickHandler;
 }
 namespace UnityEngine::UI {
-class __Dropdown__OptionDataList;
-}
-namespace UnityEngine::UI {
-class Image;
+class Text;
 }
 namespace UnityEngine {
 class Sprite;
@@ -28,68 +31,65 @@ class Sprite;
 namespace UnityEngine::EventSystems {
 class BaseEventData;
 }
-namespace UnityEngine::EventSystems {
-class ICancelHandler;
+namespace UnityEngine::UI {
+class Toggle;
 }
-namespace UnityEngine {
-class RectTransform;
+namespace UnityEngine::UI {
+class __Dropdown__OptionDataList;
+}
+namespace UnityEngine::UI {
+class __Dropdown__DropdownEvent;
 }
 namespace UnityEngine {
 class Canvas;
 }
-namespace UnityEngine::UI {
-class __Dropdown___DelayedDestroyDropdownList_d__75;
-}
-namespace UnityEngine::UI {
-class Text;
-}
-namespace UnityEngine {
-class GameObject;
-}
 namespace UnityEngine::EventSystems {
-class IEventSystemHandler;
-}
-namespace UnityEngine::UI::CoroutineTween {
-struct FloatTween;
-}
-namespace UnityEngine::UI::CoroutineTween {
-template <typename T> class TweenRunner_1;
+class ICancelHandler;
 }
 namespace UnityEngine::EventSystems {
 class PointerEventData;
 }
 namespace UnityEngine::UI {
-class Toggle;
-}
-namespace UnityEngine::UI {
-class __Dropdown____c__DisplayClass63_0;
+class Image;
 }
 namespace UnityEngine::EventSystems {
-class IPointerClickHandler;
-}
-namespace UnityEngine::UI {
-class __Dropdown__DropdownEvent;
+class IEventSystemHandler;
 }
 namespace UnityEngine::UI {
 class __Dropdown__OptionData;
 }
+namespace UnityEngine::UI {
+class __Dropdown____c__DisplayClass63_0;
+}
+namespace UnityEngine::UI {
+class __Dropdown__DropdownItem;
+}
+namespace UnityEngine {
+class GameObject;
+}
 namespace System::Collections {
 class IEnumerator;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace UnityEngine::UI::CoroutineTween {
+template <typename T> class TweenRunner_1;
+}
+namespace UnityEngine::EventSystems {
+class ISubmitHandler;
+}
+namespace UnityEngine {
+class RectTransform;
 }
 namespace UnityEngine::EventSystems {
 class IPointerEnterHandler;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
 }
 namespace System {
 class IDisposable;
 }
 namespace System {
 class Object;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
 }
 // Forward declare root types
 namespace UnityEngine::UI {
@@ -414,7 +414,7 @@ static_assert(offsetof(::UnityEngine::UI::__Dropdown__OptionDataList, ___m_Optio
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10465), inst: 98 }), TypeDefinitionIndex(TypeDefinitionIndex(10465))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10465)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10465), inst: 98 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13036))
 // CS Name: ::Dropdown::DropdownEvent*
 class CORDL_TYPE __Dropdown__DropdownEvent : public ::UnityEngine::Events::UnityEvent_1<int32_t> {

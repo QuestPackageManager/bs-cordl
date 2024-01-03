@@ -9,6 +9,9 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(ChainOperationTypelessDepedency_1)
+namespace UnityEngine::ResourceManagement::AsyncOperations {
+template <typename TObject> struct AsyncOperationHandle_1;
+}
 namespace System {
 template <typename T, typename TResult> class Func_2;
 }
@@ -21,17 +24,14 @@ struct AsyncOperationHandle;
 namespace System {
 template <typename T> class Action_1;
 }
+namespace System {
+class Object;
+}
 namespace System::Collections::Generic {
 template <typename T> class HashSet_1;
 }
 namespace UnityEngine::ResourceManagement::AsyncOperations {
 struct DownloadStatus;
-}
-namespace UnityEngine::ResourceManagement::AsyncOperations {
-template <typename TObject> struct AsyncOperationHandle_1;
-}
-namespace System {
-class Object;
 }
 // Forward declare root types
 namespace UnityEngine::ResourceManagement {
@@ -45,8 +45,8 @@ namespace UnityEngine::ResourceManagement {
 // cpp template
 template <typename TObject>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14034)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14032), inst: 788 }), GenericInstantiation(GenericInstantiation
-// { tdi: TypeDefinitionIndex(14033), inst: 788 }), TypeDefinitionIndex(TypeDefinitionIndex(14033)), TypeDefinitionIndex(TypeDefinitionIndex(14032)), TypeDefinitionIndex(TypeDefinitionIndex(14036))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14033)), TypeDefinitionIndex(TypeDefinitionIndex(14034)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14032), inst:
+// 788 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14033), inst: 788 }), TypeDefinitionIndex(TypeDefinitionIndex(14036)), TypeDefinitionIndex(TypeDefinitionIndex(14032))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13950))
 // CS Name: ::UnityEngine.ResourceManagement::ChainOperationTypelessDepedency`1<TObject>*
 class CORDL_TYPE ChainOperationTypelessDepedency_1 : public ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<TObject> {

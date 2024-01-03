@@ -11,14 +11,14 @@ class LinkedDictionary;
 namespace System::Collections {
 class IDictionaryEnumerator;
 }
-namespace System::Collections {
-class IEnumerator;
-}
 namespace System {
 class Object;
 }
 namespace System::Collections {
 struct DictionaryEntry;
+}
+namespace System::Collections {
+class IEnumerator;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Utilities::Collections {

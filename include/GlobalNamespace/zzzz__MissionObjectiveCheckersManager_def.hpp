@@ -7,22 +7,22 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(MissionObjectiveCheckersManager)
 namespace GlobalNamespace {
-class MissionObjectiveChecker;
+class MissionObjectiveResult;
 }
 namespace GlobalNamespace {
-class __MissionObjectiveCheckersManager__InitData;
+class ILevelEndActions;
 }
 namespace GlobalNamespace {
 class MissionObjectiveTypeSO;
+}
+namespace GlobalNamespace {
+class MissionObjectiveChecker;
 }
 namespace System {
 class Action;
 }
 namespace GlobalNamespace {
-class MissionObjectiveResult;
-}
-namespace GlobalNamespace {
-class ILevelEndActions;
+class __MissionObjectiveCheckersManager__InitData;
 }
 namespace GlobalNamespace {
 class MissionObjective;

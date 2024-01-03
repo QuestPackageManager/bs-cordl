@@ -6,17 +6,17 @@ CORDL_MODULE_INIT
 #include "UnityEngine/UIElements/zzzz__UxmlFactory_2_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ButtonStripField)
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
 namespace UnityEngine::UIElements {
-class __ButtonStripField__UxmlTraits;
+class Button;
 }
 namespace UnityEngine::UIElements {
 class __ButtonStripField__UxmlFactory;
 }
 namespace UnityEngine::UIElements {
-class Button;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+class __ButtonStripField__UxmlTraits;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

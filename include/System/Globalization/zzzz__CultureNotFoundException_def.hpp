@@ -26,8 +26,8 @@ MARK_REF_PTR_T(::System::Globalization::CultureNotFoundException);
 // SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 168, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Globalization {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 98 }), TypeDefinitionIndex(TypeDefinitionIndex(2344)),
-// TypeDefinitionIndex(TypeDefinitionIndex(2448))} Self: TypeDefinitionIndex(TypeDefinitionIndex(3660)) CS Name: ::System.Globalization::CultureNotFoundException*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(2344)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 98
+// })} Self: TypeDefinitionIndex(TypeDefinitionIndex(3660)) CS Name: ::System.Globalization::CultureNotFoundException*
 class CORDL_TYPE CultureNotFoundException : public ::System::ArgumentException {
 public:
   // Declarations

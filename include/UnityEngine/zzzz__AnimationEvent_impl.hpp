@@ -4,8 +4,8 @@
 #include "UnityEngine/zzzz__AnimatorClipInfo_impl.hpp"
 #include "UnityEngine/zzzz__AnimatorStateInfo_impl.hpp"
 #include "UnityEngine/zzzz__AnimationEvent_def.hpp"
-#include "UnityEngine/zzzz__AnimationState_def.hpp"
 #include "UnityEngine/zzzz__Object_def.hpp"
+#include "UnityEngine/zzzz__AnimationState_def.hpp"
 //  Writing Method size for method: ::UnityEngine::AnimationEvent._ctor
 template <>
 

@@ -8,22 +8,22 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(TerrainCallbacks)
 namespace UnityEngine {
-class TerrainData;
-}
-namespace UnityEngine {
-struct RectInt;
-}
-namespace UnityEngine {
 class __TerrainCallbacks__HeightmapChangedCallback;
 }
 namespace UnityEngine {
 class __TerrainCallbacks__TextureChangedCallback;
 }
 namespace UnityEngine {
-class Terrain;
+struct RectInt;
+}
+namespace UnityEngine {
+class TerrainData;
 }
 namespace System {
 class Object;
+}
+namespace UnityEngine {
+class Terrain;
 }
 // Forward declare root types
 namespace UnityEngine {

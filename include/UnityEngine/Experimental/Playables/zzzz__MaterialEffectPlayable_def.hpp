@@ -6,13 +6,13 @@ CORDL_MODULE_INIT
 #include <cstddef>
 CORDL_MODULE_EXPORT(MaterialEffectPlayable)
 namespace UnityEngine::Playables {
-struct PlayableHandle;
-}
-namespace UnityEngine::Playables {
 class IPlayable;
 }
 namespace System {
 template <typename T> class IEquatable_1;
+}
+namespace UnityEngine::Playables {
+struct PlayableHandle;
 }
 // Forward declare root types
 namespace UnityEngine::Experimental::Playables {

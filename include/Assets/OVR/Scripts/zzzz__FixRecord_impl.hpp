@@ -1,8 +1,8 @@
 #pragma once
 #include "Assets/OVR/Scripts/zzzz__Record_impl.hpp"
 #include "Assets/OVR/Scripts/zzzz__FixRecord_def.hpp"
-#include "UnityEngine/zzzz__Object_def.hpp"
 #include "Assets/OVR/Scripts/zzzz__FixMethodDelegate_def.hpp"
+#include "UnityEngine/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::Assets::OVR::Scripts::FixRecord._ctor
 template <>
 

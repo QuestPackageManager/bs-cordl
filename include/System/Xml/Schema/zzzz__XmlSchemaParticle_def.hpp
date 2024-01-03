@@ -8,14 +8,14 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(XmlSchemaParticle)
-namespace System {
-struct Decimal;
-}
 namespace System::Xml::Schema {
 class __XmlSchemaParticle__EmptyParticle;
 }
 namespace System::Xml::Schema {
 struct __XmlSchemaParticle__Occurs;
+}
+namespace System {
+struct Decimal;
 }
 // Forward declare root types
 namespace System::Xml::Schema {

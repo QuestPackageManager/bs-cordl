@@ -3,8 +3,8 @@
 #include "GlobalNamespace/zzzz__NoteData_impl.hpp"
 #include "GlobalNamespace/zzzz__NoteExecutionRating_impl.hpp"
 #include "GlobalNamespace/zzzz__NoteExecutionRating_def.hpp"
-#include "GlobalNamespace/zzzz__NoteData_def.hpp"
 #include "GlobalNamespace/zzzz__NoteExecutionRating_def.hpp"
+#include "GlobalNamespace/zzzz__NoteData_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::GlobalNamespace::__NoteExecutionRating__Rating::__NoteExecutionRating__Rating(int32_t value__) noexcept {
   this->value__ = value__;

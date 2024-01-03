@@ -6,6 +6,9 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ShaderWarmupSceneStart)
+namespace System::Collections {
+class IEnumerator;
+}
 namespace GlobalNamespace {
 class GameScenesManager;
 }
@@ -14,9 +17,6 @@ class __ShaderWarmupSceneStart___Start_d__2;
 }
 namespace GlobalNamespace {
 class ShaderWarmupSceneSetupData;
-}
-namespace System::Collections {
-class IEnumerator;
 }
 namespace System {
 class IDisposable;

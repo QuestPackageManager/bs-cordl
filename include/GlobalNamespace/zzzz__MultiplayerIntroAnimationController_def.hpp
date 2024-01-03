@@ -12,20 +12,17 @@ CORDL_MODULE_EXPORT(MultiplayerIntroAnimationController)
 namespace System::Collections::Generic {
 template <typename T> class IReadOnlyList_1;
 }
-namespace UnityEngine {
-struct PropertyName;
-}
-namespace UnityEngine {
-class GameObject;
-}
-namespace GlobalNamespace {
-class MultiplayerPlayersManager;
-}
 namespace UnityEngine::Playables {
 class PlayableDirector;
 }
+namespace System::Collections::Generic {
+template <typename T> class Queue_1;
+}
 namespace GlobalNamespace {
 class MultiplayerLayoutProvider;
+}
+namespace System {
+class Random;
 }
 namespace GlobalNamespace {
 class MultiplayerScoreRingManager;
@@ -33,11 +30,14 @@ class MultiplayerScoreRingManager;
 namespace System {
 class Action;
 }
-namespace System {
-class Random;
+namespace UnityEngine {
+class GameObject;
 }
-namespace System::Collections::Generic {
-template <typename T> class Queue_1;
+namespace GlobalNamespace {
+class MultiplayerPlayersManager;
+}
+namespace UnityEngine {
+struct PropertyName;
 }
 namespace GlobalNamespace {
 class IMultiplayerSessionManager;

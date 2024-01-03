@@ -9,13 +9,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(CmsEnvelopedGenerator)
 namespace Org::BouncyCastle::Cms {
-class CmsPbeKey;
+class CmsAttributeTableGenerator;
 }
 namespace Org::BouncyCastle::Crypto::Parameters {
 class KeyParameter;
 }
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Encodable;
+namespace Org::BouncyCastle::X509 {
+class X509Certificate;
 }
 namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;
@@ -23,26 +23,26 @@ class ICipherParameters;
 namespace Org::BouncyCastle::Crypto {
 class AsymmetricKeyParameter;
 }
+namespace System::Collections {
+class IList;
+}
 namespace Org::BouncyCastle::Asn1::Cms {
 class KekIdentifier;
-}
-namespace Org::BouncyCastle::Cms {
-class CmsAttributeTableGenerator;
 }
 namespace Org::BouncyCastle::Security {
 class SecureRandom;
 }
-namespace System::Collections {
-class IList;
-}
-namespace Org::BouncyCastle::X509 {
-class X509Certificate;
-}
-namespace System::Collections {
-class ICollection;
+namespace Org::BouncyCastle::Cms {
+class CmsPbeKey;
 }
 namespace Org::BouncyCastle::Cms {
 class RecipientInfoGenerator;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Encodable;
+}
+namespace System::Collections {
+class ICollection;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class AlgorithmIdentifier;

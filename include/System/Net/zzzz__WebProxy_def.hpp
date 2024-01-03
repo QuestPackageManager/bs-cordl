@@ -8,7 +8,16 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(WebProxy)
 namespace System::Collections {
+class ArrayList;
+}
+namespace System::Collections {
 class Hashtable;
+}
+namespace System::Net {
+class IWebProxy;
+}
+namespace System::Runtime::Serialization {
+class SerializationInfo;
 }
 namespace System::Text::RegularExpressions {
 class Regex;
@@ -16,26 +25,17 @@ class Regex;
 namespace System::Runtime::Serialization {
 class ISerializable;
 }
-namespace System::Net {
-class AutoWebProxyScriptEngine;
-}
-namespace System::Net {
-class IWebProxy;
+namespace System {
+class Uri;
 }
 namespace System::Net {
 class ICredentials;
 }
-namespace System {
-class Uri;
-}
-namespace System::Runtime::Serialization {
-class SerializationInfo;
+namespace System::Net {
+class AutoWebProxyScriptEngine;
 }
 namespace System::Runtime::Serialization {
 struct StreamingContext;
-}
-namespace System::Collections {
-class ArrayList;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;

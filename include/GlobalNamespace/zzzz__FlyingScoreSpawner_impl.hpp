@@ -3,12 +3,12 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__FlyingScoreSpawner_def.hpp"
+#include "GlobalNamespace/zzzz__FlyingObjectEffect_def.hpp"
+#include "GlobalNamespace/zzzz__FlyingScoreSpawner_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
 #include "GlobalNamespace/zzzz__IFlyingObjectEffectDidFinishEvent_def.hpp"
-#include "GlobalNamespace/zzzz__FlyingScoreSpawner_def.hpp"
 #include "GlobalNamespace/zzzz__FlyingScoreEffect_def.hpp"
 #include "GlobalNamespace/zzzz__IReadonlyCutScoreBuffer_def.hpp"
-#include "GlobalNamespace/zzzz__FlyingObjectEffect_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::GlobalNamespace::__FlyingScoreSpawner__SpawnPosition::__FlyingScoreSpawner__SpawnPosition(int32_t value__) noexcept {
   this->value__ = value__;

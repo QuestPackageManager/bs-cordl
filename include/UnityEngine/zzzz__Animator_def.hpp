@@ -10,46 +10,7 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Animator)
 namespace UnityEngine {
-struct Quaternion;
-}
-namespace UnityEngine::Playables {
-struct PlayableGraph;
-}
-namespace UnityEngine {
-struct HumanBodyBones;
-}
-namespace UnityEngine {
-class RuntimeAnimatorController;
-}
-namespace UnityEngine {
-class Avatar;
-}
-namespace System {
-class Type;
-}
-namespace UnityEngine {
-struct AvatarIKGoal;
-}
-namespace UnityEngine {
-class Transform;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace System {
-class Object;
-}
-namespace UnityEngine {
 struct AvatarTarget;
-}
-namespace UnityEngine {
-struct Vector3;
-}
-namespace UnityEngine {
-struct MatchTargetWeightMask;
-}
-namespace UnityEngine {
-struct StateInfoIndex;
 }
 namespace UnityEngine {
 class ScriptableObject;
@@ -61,25 +22,64 @@ namespace UnityEngine {
 class AnimatorControllerParameter;
 }
 namespace UnityEngine {
-struct AnimatorRecorderMode;
+class RuntimeAnimatorController;
 }
 namespace UnityEngine {
-struct AnimatorUpdateMode;
+struct HumanBodyBones;
 }
 namespace UnityEngine {
-struct AvatarIKHint;
+struct AvatarIKGoal;
 }
 namespace UnityEngine {
-class StateMachineBehaviour;
-}
-namespace UnityEngine {
-struct AnimatorStateInfo;
+struct AnimatorTransitionInfo;
 }
 namespace UnityEngine {
 struct AnimatorCullingMode;
 }
 namespace UnityEngine {
-struct AnimatorTransitionInfo;
+struct Vector3;
+}
+namespace UnityEngine {
+struct AnimatorUpdateMode;
+}
+namespace UnityEngine::Playables {
+struct PlayableGraph;
+}
+namespace UnityEngine {
+class StateMachineBehaviour;
+}
+namespace UnityEngine {
+struct MatchTargetWeightMask;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace UnityEngine {
+class Transform;
+}
+namespace UnityEngine {
+struct Quaternion;
+}
+namespace UnityEngine {
+class Avatar;
+}
+namespace UnityEngine {
+struct AvatarIKHint;
+}
+namespace UnityEngine {
+struct AnimatorStateInfo;
+}
+namespace System {
+class Object;
+}
+namespace System {
+class Type;
+}
+namespace UnityEngine {
+struct AnimatorRecorderMode;
+}
+namespace UnityEngine {
+struct StateInfoIndex;
 }
 // Forward declare root types
 namespace UnityEngine {

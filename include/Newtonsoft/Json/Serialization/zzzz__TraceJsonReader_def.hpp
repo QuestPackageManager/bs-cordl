@@ -8,35 +8,35 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(TraceJsonReader)
-namespace Newtonsoft::Json {
-struct JsonToken;
+namespace System {
+class Object;
 }
 namespace System {
 struct DateTimeOffset;
 }
 namespace System {
-struct DateTime;
-}
-namespace System {
 struct Decimal;
-}
-namespace System {
-template <typename T> struct Nullable_1;
-}
-namespace System {
-class Object;
 }
 namespace Newtonsoft::Json {
 class JsonTextWriter;
 }
 namespace Newtonsoft::Json {
-class IJsonLineInfo;
+class JsonReader;
 }
 namespace System {
 class Type;
 }
 namespace Newtonsoft::Json {
-class JsonReader;
+class IJsonLineInfo;
+}
+namespace System {
+struct DateTime;
+}
+namespace System {
+template <typename T> struct Nullable_1;
+}
+namespace Newtonsoft::Json {
+struct JsonToken;
 }
 namespace System::IO {
 class StringWriter;

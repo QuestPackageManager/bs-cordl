@@ -1,10 +1,10 @@
 #pragma once
 #include "Zenject/zzzz__KeyedFactoryBase_2_impl.hpp"
 #include "Zenject/zzzz__KeyedFactory_4_def.hpp"
-#include "Zenject/zzzz__InjectTypeInfo_def.hpp"
 #include "System/zzzz__Type_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "Zenject/zzzz__InjectTypeInfo_def.hpp"
 template <typename TBase, typename TKey, typename TParam1, typename TParam2>
 inline ::System::Collections::Generic::IEnumerable_1<::System::Type*>* Zenject::KeyedFactory_4<TBase, TKey, TParam1, TParam2>::get_ProvidedTypes() {
   auto* ___internal_method =

@@ -10,20 +10,23 @@ CORDL_MODULE_EXPORT(JConstructor)
 namespace System::Collections::Generic {
 template <typename T> class IList_1;
 }
-namespace Newtonsoft::Json::Linq {
-class JsonLoadSettings;
-}
-namespace Newtonsoft::Json::Linq {
-class JToken;
+namespace Newtonsoft::Json {
+class JsonWriter;
 }
 namespace Newtonsoft::Json::Linq {
 class JsonMergeSettings;
 }
-namespace Newtonsoft::Json {
-class JsonWriter;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace Newtonsoft::Json::Linq {
+class JToken;
 }
 namespace System {
 class Object;
+}
+namespace Newtonsoft::Json::Linq {
+struct JTokenType;
 }
 namespace Newtonsoft::Json {
 class JsonConverter;
@@ -32,10 +35,7 @@ namespace Newtonsoft::Json {
 class JsonReader;
 }
 namespace Newtonsoft::Json::Linq {
-struct JTokenType;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+class JsonLoadSettings;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Linq {

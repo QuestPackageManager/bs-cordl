@@ -4,10 +4,10 @@
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IKeyboardEvent)
 namespace UnityEngine {
-struct EventModifiers;
+struct KeyCode;
 }
 namespace UnityEngine {
-struct KeyCode;
+struct EventModifiers;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

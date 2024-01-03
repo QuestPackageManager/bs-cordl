@@ -7,50 +7,50 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(FileWebRequest)
-namespace System::Net {
-class ICredentials;
-}
 namespace System::Threading {
 class ManualResetEvent;
-}
-namespace System::Net {
-class LazyAsyncResult;
-}
-namespace System::Runtime::Serialization {
-struct StreamingContext;
-}
-namespace System {
-class Object;
-}
-namespace System::Runtime::Serialization {
-class SerializationInfo;
-}
-namespace System::Net {
-class WebHeaderCollection;
-}
-namespace System::Net {
-class IWebProxy;
 }
 namespace System::IO {
 class Stream;
 }
 namespace System::Net {
-class WebResponse;
-}
-namespace System {
-class AsyncCallback;
-}
-namespace System::Runtime::Serialization {
-class ISerializable;
+class ICredentials;
 }
 namespace System::Threading {
 class WaitCallback;
 }
 namespace System {
-class IAsyncResult;
+class Uri;
 }
 namespace System {
-class Uri;
+class AsyncCallback;
+}
+namespace System {
+class Object;
+}
+namespace System::Net {
+class IWebProxy;
+}
+namespace System {
+class IAsyncResult;
+}
+namespace System::Net {
+class WebResponse;
+}
+namespace System::Runtime::Serialization {
+struct StreamingContext;
+}
+namespace System::Net {
+class WebHeaderCollection;
+}
+namespace System::Runtime::Serialization {
+class ISerializable;
+}
+namespace System::Net {
+class LazyAsyncResult;
+}
+namespace System::Runtime::Serialization {
+class SerializationInfo;
 }
 // Forward declare root types
 namespace System::Net {

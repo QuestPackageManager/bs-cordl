@@ -9,19 +9,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(StyleRotate)
 namespace System {
-template <typename T> class IEquatable_1;
+class Object;
 }
 namespace UnityEngine::UIElements {
-template <typename T> class IStyleValue_1;
-}
-namespace System {
-class Object;
+struct StyleKeyword;
 }
 namespace UnityEngine::UIElements {
 struct Rotate;
 }
 namespace UnityEngine::UIElements {
-struct StyleKeyword;
+template <typename T> class IStyleValue_1;
+}
+namespace System {
+template <typename T> class IEquatable_1;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -33,7 +33,7 @@ MARK_VAL_T(::UnityEngine::UIElements::StyleRotate);
 // SizeInfo { instance_size: 28, native_size: 28, calculated_instance_size: 28, calculated_native_size: 44, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7295)), TypeDefinitionIndex(TypeDefinitionIndex(7300))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7300)), TypeDefinitionIndex(TypeDefinitionIndex(7295))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7320))
 // CS Name: ::UnityEngine.UIElements::StyleRotate
 struct CORDL_TYPE StyleRotate {

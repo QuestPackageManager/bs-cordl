@@ -2,9 +2,9 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__TimeSpan_impl.hpp"
 #include "System/Runtime/Remoting/Lifetime/zzzz__LifetimeServices_def.hpp"
+#include "System/Runtime/Remoting/zzzz__ServerIdentity_def.hpp"
 #include "System/Runtime/Remoting/Lifetime/zzzz__LeaseManager_def.hpp"
 #include "System/zzzz__TimeSpan_def.hpp"
-#include "System/Runtime/Remoting/zzzz__ServerIdentity_def.hpp"
 //  Writing Method size for method: ::System::Runtime::Remoting::Lifetime::LifetimeServices.get_LeaseManagerPollTime
 template <>
 

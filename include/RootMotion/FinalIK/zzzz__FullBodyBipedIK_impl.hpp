@@ -1,9 +1,9 @@
 #pragma once
 #include "RootMotion/FinalIK/zzzz__IK_impl.hpp"
 #include "RootMotion/FinalIK/zzzz__FullBodyBipedIK_def.hpp"
-#include "RootMotion/zzzz__BipedReferences_def.hpp"
-#include "RootMotion/FinalIK/zzzz__IKSolverFullBodyBiped_def.hpp"
 #include "RootMotion/FinalIK/zzzz__IKSolver_def.hpp"
+#include "RootMotion/FinalIK/zzzz__IKSolverFullBodyBiped_def.hpp"
+#include "RootMotion/zzzz__BipedReferences_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
 //  Writing Method size for method: ::RootMotion::FinalIK::FullBodyBipedIK.OpenUserManual
 template <>

@@ -11,20 +11,11 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(TimeNotificationBehaviour)
-namespace UnityEngine::Timeline {
-class __TimeNotificationBehaviour____c;
-}
 namespace UnityEngine::Playables {
-template <typename T> struct ScriptPlayable_1;
+struct DirectorWrapMode;
 }
 namespace UnityEngine::Playables {
 class INotification;
-}
-namespace UnityEngine::Playables {
-struct Playable;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
 }
 namespace UnityEngine::Playables {
 struct FrameData;
@@ -32,11 +23,11 @@ struct FrameData;
 namespace UnityEngine::Playables {
 struct PlayableOutput;
 }
-namespace UnityEngine::Timeline {
-struct NotificationFlags;
+namespace UnityEngine::Playables {
+struct Playable;
 }
 namespace UnityEngine::Playables {
-struct DirectorWrapMode;
+template <typename T> struct ScriptPlayable_1;
 }
 namespace UnityEngine::Timeline {
 struct __TimeNotificationBehaviour__NotificationEntry;
@@ -44,8 +35,17 @@ struct __TimeNotificationBehaviour__NotificationEntry;
 namespace UnityEngine::Playables {
 struct PlayableGraph;
 }
+namespace UnityEngine::Timeline {
+class __TimeNotificationBehaviour____c;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
 namespace System {
 template <typename T> class Comparison_1;
+}
+namespace UnityEngine::Timeline {
+struct NotificationFlags;
 }
 // Forward declare root types
 namespace UnityEngine::Timeline {
@@ -181,7 +181,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::Timeline::__TimeNot
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10428)), TypeDefinitionIndex(TypeDefinitionIndex(10425))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10428)), TypeDefinitionIndex(TypeDefinitionIndex(10425)), TypeDefinitionIndex(TypeDefinitionIndex(13906))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13912))
 // CS Name: ::UnityEngine.Timeline::TimeNotificationBehaviour*
 class CORDL_TYPE TimeNotificationBehaviour : public ::UnityEngine::Playables::PlayableBehaviour {

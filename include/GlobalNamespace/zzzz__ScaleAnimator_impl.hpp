@@ -1,11 +1,11 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__ScaleAnimator_def.hpp"
-#include "UnityEngine/zzzz__Quaternion_def.hpp"
+#include "Tweening/zzzz__TimeTweeningManager_def.hpp"
+#include "UnityEngine/zzzz__Transform_def.hpp"
 #include "GlobalNamespace/zzzz__EaseType_def.hpp"
 #include "Tweening/zzzz__Tween_1_def.hpp"
-#include "UnityEngine/zzzz__Transform_def.hpp"
-#include "Tweening/zzzz__TimeTweeningManager_def.hpp"
+#include "UnityEngine/zzzz__Quaternion_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::ScaleAnimator.OnDestroy
 template <>

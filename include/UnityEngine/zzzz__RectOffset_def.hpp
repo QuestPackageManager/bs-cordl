@@ -9,7 +9,7 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(RectOffset)
 namespace System {
-class IFormattable;
+class Object;
 }
 namespace UnityEngine {
 struct Rect;
@@ -18,7 +18,7 @@ namespace System {
 class IFormatProvider;
 }
 namespace System {
-class Object;
+class IFormattable;
 }
 // Forward declare root types
 namespace UnityEngine {

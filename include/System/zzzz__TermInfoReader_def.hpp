@@ -9,10 +9,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(TermInfoReader)
 namespace System {
-struct TermInfoStrings;
+struct TermInfoNumbers;
 }
 namespace System {
-struct TermInfoNumbers;
+struct TermInfoStrings;
 }
 // Forward declare root types
 namespace System {

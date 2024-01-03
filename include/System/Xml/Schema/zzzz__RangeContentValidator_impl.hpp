@@ -1,10 +1,10 @@
 #pragma once
 #include "System/Xml/Schema/zzzz__ContentValidator_impl.hpp"
 #include "System/Xml/Schema/zzzz__RangeContentValidator_def.hpp"
-#include "System/Xml/Schema/zzzz__Positions_def.hpp"
 #include "System/Xml/Schema/zzzz__BitSet_def.hpp"
-#include "System/Xml/Schema/zzzz__XmlSchemaContentType_def.hpp"
+#include "System/Xml/Schema/zzzz__Positions_def.hpp"
 #include "System/Xml/Schema/zzzz__SymbolsDictionary_def.hpp"
+#include "System/Xml/Schema/zzzz__XmlSchemaContentType_def.hpp"
 //  Writing Method size for method: ::System::Xml::Schema::RangeContentValidator._ctor
 template <>
 

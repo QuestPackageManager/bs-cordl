@@ -1,10 +1,10 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__Spectrogram_def.hpp"
-#include "UnityEngine/zzzz__MaterialPropertyBlock_def.hpp"
 #include "GlobalNamespace/zzzz__MaterialPropertyBlockController_def.hpp"
-#include "GlobalNamespace/zzzz__BasicSpectrogramData_def.hpp"
 #include "UnityEngine/zzzz__MeshRenderer_def.hpp"
+#include "UnityEngine/zzzz__MaterialPropertyBlock_def.hpp"
+#include "GlobalNamespace/zzzz__BasicSpectrogramData_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::Spectrogram.get_materialPropertyBlock
 template <>
 

@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(Tween)
-namespace GlobalNamespace {
-struct EaseType;
-}
 namespace System {
 class Action;
+}
+namespace GlobalNamespace {
+struct EaseType;
 }
 // Forward declare root types
 namespace Tweening {

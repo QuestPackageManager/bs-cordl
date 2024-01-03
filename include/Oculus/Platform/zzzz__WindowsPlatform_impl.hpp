@@ -2,12 +2,12 @@
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Oculus/Platform/zzzz__WindowsPlatform_def.hpp"
+#include "Oculus/Platform/zzzz__WindowsPlatform_def.hpp"
 #include "Oculus/Platform/Models/zzzz__PlatformInitialize_def.hpp"
 #include "Oculus/Platform/zzzz__Request_1_def.hpp"
-#include "Oculus/Platform/zzzz__WindowsPlatform_def.hpp"
 #include "System/zzzz__AsyncCallback_def.hpp"
-#include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__IAsyncResult_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::Oculus::Platform::__WindowsPlatform__UnityLogDelegate._ctor
 template <>
 

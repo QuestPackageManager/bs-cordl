@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(DefaultTlsDHVerifier)
-namespace Org::BouncyCastle::Crypto::Tls {
-class TlsDHVerifier;
+namespace System::Collections {
+class IList;
 }
 namespace Org::BouncyCastle::Math {
 class BigInteger;
 }
-namespace System::Collections {
-class IList;
+namespace Org::BouncyCastle::Crypto::Tls {
+class TlsDHVerifier;
 }
 namespace Org::BouncyCastle::Crypto::Parameters {
 class DHParameters;

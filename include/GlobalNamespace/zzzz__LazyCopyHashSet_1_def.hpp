@@ -8,11 +8,11 @@ CORDL_MODULE_EXPORT(LazyCopyHashSet_1)
 namespace System::Collections::Generic {
 template <typename T> class HashSet_1;
 }
-namespace GlobalNamespace {
-template <typename T> class ILazyCopyHashSet_1;
-}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
+}
+namespace GlobalNamespace {
+template <typename T> class ILazyCopyHashSet_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {

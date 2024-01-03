@@ -6,14 +6,14 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(OVRSceneVolume)
-namespace UnityEngine {
-struct Vector3;
-}
 namespace GlobalNamespace {
 class IOVRSceneComponent;
 }
 namespace GlobalNamespace {
 class OVRSceneAnchor;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace GlobalNamespace {

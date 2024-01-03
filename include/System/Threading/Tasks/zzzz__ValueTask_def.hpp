@@ -11,23 +11,23 @@ CORDL_MODULE_EXPORT(ValueTask)
 namespace System {
 class Object;
 }
-namespace System::Threading::Tasks::Sources {
-class IValueTaskSource;
-}
 namespace System {
 template <typename T> class Action_1;
 }
 namespace GlobalNamespace {
 class __ValueTask__ValueTaskSourceAsTask____c;
 }
+namespace System::Threading::Tasks::Sources {
+class IValueTaskSource;
+}
 namespace System {
 template <typename T> class IEquatable_1;
 }
 namespace System::Threading::Tasks {
-class __ValueTask__ValueTaskSourceAsTask;
+class Task;
 }
 namespace System::Threading::Tasks {
-class Task;
+class __ValueTask__ValueTaskSourceAsTask;
 }
 namespace System::Runtime::CompilerServices {
 struct ConfiguredValueTaskAwaitable;
@@ -98,8 +98,8 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__ValueTask__Va
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 98, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Threading::Tasks {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2773), inst: 900 }), TypeDefinitionIndex(TypeDefinitionIndex(2773)),
-// TypeDefinitionIndex(TypeDefinitionIndex(2794))} Self: TypeDefinitionIndex(TypeDefinitionIndex(2763)) CS Name: ::ValueTask::ValueTaskSourceAsTask*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2773)), TypeDefinitionIndex(TypeDefinitionIndex(2794)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2773), inst: 900
+// })} Self: TypeDefinitionIndex(TypeDefinitionIndex(2763)) CS Name: ::ValueTask::ValueTaskSourceAsTask*
 class CORDL_TYPE __ValueTask__ValueTaskSourceAsTask : public ::System::Threading::Tasks::Task_1<::System::Threading::Tasks::VoidTaskResult> {
 public:
   // Declarations

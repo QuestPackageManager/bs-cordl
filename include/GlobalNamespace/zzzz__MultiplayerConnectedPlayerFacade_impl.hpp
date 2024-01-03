@@ -5,15 +5,15 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "Zenject/zzzz__PlaceholderFactory_3_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerConnectedPlayerFacade_def.hpp"
-#include "UnityEngine/zzzz__GameObject_def.hpp"
-#include "GlobalNamespace/zzzz__MultiplayerConnectedPlayerIntroAnimator_def.hpp"
-#include "GlobalNamespace/zzzz__MultiplayerBigAvatarAnimator_def.hpp"
-#include "GlobalNamespace/zzzz__IConnectedPlayerBeatmapObjectEventManager_def.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerConnectedPlayerFacade_def.hpp"
-#include "GlobalNamespace/zzzz__MultiplayerConnectedPlayerSongTimeSyncController_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapObjectManager_def.hpp"
-#include "BeatSaber/AvatarCore/zzzz__Avatar_def.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerScoreDiffText_def.hpp"
+#include "UnityEngine/zzzz__GameObject_def.hpp"
+#include "GlobalNamespace/zzzz__IConnectedPlayerBeatmapObjectEventManager_def.hpp"
+#include "BeatSaber/AvatarCore/zzzz__Avatar_def.hpp"
+#include "GlobalNamespace/zzzz__MultiplayerBigAvatarAnimator_def.hpp"
+#include "GlobalNamespace/zzzz__MultiplayerConnectedPlayerSongTimeSyncController_def.hpp"
+#include "GlobalNamespace/zzzz__MultiplayerConnectedPlayerIntroAnimator_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapObjectManager_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::MultiplayerConnectedPlayerFacade.get_introAnimator
 template <>
 

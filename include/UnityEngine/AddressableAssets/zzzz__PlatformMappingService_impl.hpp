@@ -2,8 +2,8 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/AddressableAssets/zzzz__PlatformMappingService_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
-#include "UnityEngine/AddressableAssets/zzzz__AddressablesPlatform_def.hpp"
 #include "UnityEngine/zzzz__RuntimePlatform_def.hpp"
+#include "UnityEngine/AddressableAssets/zzzz__AddressablesPlatform_def.hpp"
 //  Writing Method size for method: ::UnityEngine::AddressableAssets::PlatformMappingService.GetAddressablesPlatformInternal
 template <>
 

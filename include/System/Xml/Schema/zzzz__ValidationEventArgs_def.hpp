@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include "System/zzzz__EventArgs_def.hpp"
 CORDL_MODULE_EXPORT(ValidationEventArgs)
 namespace System::Xml::Schema {
-struct XmlSeverityType;
+class XmlSchemaException;
 }
 namespace System::Xml::Schema {
-class XmlSchemaException;
+struct XmlSeverityType;
 }
 // Forward declare root types
 namespace System::Xml::Schema {
@@ -21,7 +21,7 @@ MARK_REF_PTR_T(::System::Xml::Schema::ValidationEventArgs);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2376)), TypeDefinitionIndex(TypeDefinitionIndex(11745))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11745)), TypeDefinitionIndex(TypeDefinitionIndex(2376))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11709))
 // CS Name: ::System.Xml.Schema::ValidationEventArgs*
 class CORDL_TYPE ValidationEventArgs : public ::System::EventArgs {

@@ -9,41 +9,41 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(WriteObjectInfo)
-namespace System::Runtime::Serialization {
-struct StreamingContext;
-}
-namespace System::Runtime::Serialization::Formatters::Binary {
-class ObjectWriter;
+namespace System {
+class Type;
 }
 namespace System::Runtime::Serialization {
 class ISerializationSurrogate;
-}
-namespace System::Reflection {
-class MemberInfo;
-}
-namespace System::Runtime::Serialization {
-class SerializationBinder;
-}
-namespace System::Runtime::Serialization {
-class IFormatterConverter;
 }
 namespace System::Runtime::Serialization {
 class ISurrogateSelector;
 }
 namespace System::Runtime::Serialization::Formatters::Binary {
-class SerObjectInfoCache;
-}
-namespace System::Runtime::Serialization {
-class SerializationInfo;
-}
-namespace System {
-class Type;
+class ObjectWriter;
 }
 namespace System::Runtime::Serialization::Formatters::Binary {
 class SerObjectInfoInit;
 }
+namespace System::Runtime::Serialization {
+struct StreamingContext;
+}
+namespace System::Runtime::Serialization {
+class IFormatterConverter;
+}
+namespace System::Runtime::Serialization {
+class SerializationBinder;
+}
+namespace System::Runtime::Serialization {
+class SerializationInfo;
+}
+namespace System::Reflection {
+class MemberInfo;
+}
 namespace System {
 class Object;
+}
+namespace System::Runtime::Serialization::Formatters::Binary {
+class SerObjectInfoCache;
 }
 // Forward declare root types
 namespace System::Runtime::Serialization::Formatters::Binary {

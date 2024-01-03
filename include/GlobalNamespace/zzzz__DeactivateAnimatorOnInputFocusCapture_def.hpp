@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(DeactivateAnimatorOnInputFocusCapture)
-namespace GlobalNamespace {
-class IVRPlatformHelper;
-}
 namespace UnityEngine {
 class Animator;
+}
+namespace GlobalNamespace {
+class IVRPlatformHelper;
 }
 // Forward declare root types
 namespace GlobalNamespace {

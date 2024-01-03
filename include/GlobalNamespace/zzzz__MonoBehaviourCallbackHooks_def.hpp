@@ -19,7 +19,7 @@ MARK_REF_PTR_T(::GlobalNamespace::MonoBehaviourCallbackHooks);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13966)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13966), inst: 1062 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13966), inst: 1062 }), TypeDefinitionIndex(TypeDefinitionIndex(13966))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13948))
 // CS Name: ::MonoBehaviourCallbackHooks*
 class CORDL_TYPE MonoBehaviourCallbackHooks : public ::UnityEngine::ResourceManagement::Util::ComponentSingleton_1<::GlobalNamespace::MonoBehaviourCallbackHooks*> {

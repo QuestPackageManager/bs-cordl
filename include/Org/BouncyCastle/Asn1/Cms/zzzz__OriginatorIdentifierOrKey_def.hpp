@@ -11,25 +11,25 @@ namespace Org::BouncyCastle::Asn1 {
 class Asn1Encodable;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1TaggedObject;
+class Asn1Object;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class SubjectKeyIdentifier;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1OctetString;
-}
-namespace Org::BouncyCastle::Asn1::Cms {
-class IssuerAndSerialNumber;
+class IAsn1Choice;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
+class Asn1OctetString;
 }
 namespace System {
 class Object;
 }
 namespace Org::BouncyCastle::Asn1 {
-class IAsn1Choice;
+class Asn1TaggedObject;
+}
+namespace Org::BouncyCastle::Asn1::Cms {
+class IssuerAndSerialNumber;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Cms {

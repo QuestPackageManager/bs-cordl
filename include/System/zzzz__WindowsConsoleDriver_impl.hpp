@@ -2,10 +2,10 @@
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__WindowsConsoleDriver_def.hpp"
-#include "System/zzzz__IConsoleDriver_def.hpp"
-#include "System/zzzz__ConsoleKeyInfo_def.hpp"
 #include "System/zzzz__Handles_def.hpp"
 #include "System/zzzz__ConsoleScreenBufferInfo_def.hpp"
+#include "System/zzzz__IConsoleDriver_def.hpp"
+#include "System/zzzz__ConsoleKeyInfo_def.hpp"
 #include "System/zzzz__InputRecord_def.hpp"
 //  Writing Method size for method: ::System::WindowsConsoleDriver._ctor
 template <>

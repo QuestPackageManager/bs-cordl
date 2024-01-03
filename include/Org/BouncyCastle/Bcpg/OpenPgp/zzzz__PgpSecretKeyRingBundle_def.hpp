@@ -8,22 +8,22 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(PgpSecretKeyRingBundle)
 namespace System::Collections {
+class IList;
+}
+namespace System::Collections {
 class IDictionary;
-}
-namespace System::IO {
-class Stream;
-}
-namespace Org::BouncyCastle::Bcpg::OpenPgp {
-class PgpSecretKey;
 }
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
 class PgpSecretKeyRing;
 }
-namespace System::Collections {
-class IEnumerable;
+namespace Org::BouncyCastle::Bcpg::OpenPgp {
+class PgpSecretKey;
+}
+namespace System::IO {
+class Stream;
 }
 namespace System::Collections {
-class IList;
+class IEnumerable;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Bcpg::OpenPgp {

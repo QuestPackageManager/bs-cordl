@@ -4,15 +4,15 @@
 #include "Zenject/zzzz__MemoryPool_1_impl.hpp"
 #include "GlobalNamespace/zzzz__HapticsAudioClipPlayer_def.hpp"
 #include "GlobalNamespace/zzzz__HapticsAudioClipPlayer_def.hpp"
+#include "UnityEngine/zzzz__AudioSource_def.hpp"
 #include "Libraries/HM/HMLib/VR/zzzz__HapticPresetSO_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
 #include "UnityEngine/XR/zzzz__XRNode_def.hpp"
-#include "UnityEngine/zzzz__AudioSource_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
-#include "UnityEngine/zzzz__WaitForEndOfFrame_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
+#include "UnityEngine/zzzz__WaitForEndOfFrame_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::HapticsAudioClipPlayer.PlayHapticsPreset
 template <>
 

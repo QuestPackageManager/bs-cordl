@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(SmoothCameraController)
 namespace GlobalNamespace {
-class SmoothCamera;
+class MainSettingsModelSO;
 }
 namespace GlobalNamespace {
-class MainSettingsModelSO;
+class SmoothCamera;
 }
 // Forward declare root types
 namespace GlobalNamespace {

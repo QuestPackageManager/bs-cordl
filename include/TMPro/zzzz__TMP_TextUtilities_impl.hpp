@@ -2,14 +2,14 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "TMPro/zzzz__TMP_TextUtilities_def.hpp"
-#include "TMPro/zzzz__TMP_Text_def.hpp"
 #include "UnityEngine/zzzz__Camera_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
-#include "TMPro/zzzz__TMP_TextUtilities_def.hpp"
-#include "UnityEngine/zzzz__Transform_def.hpp"
+#include "UnityEngine/zzzz__RectTransform_def.hpp"
 #include "TMPro/zzzz__CaretPosition_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
-#include "UnityEngine/zzzz__RectTransform_def.hpp"
+#include "TMPro/zzzz__TMP_TextUtilities_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "UnityEngine/zzzz__Transform_def.hpp"
+#include "TMPro/zzzz__TMP_Text_def.hpp"
 //  Writing Method size for method: ::TMPro::__TMP_TextUtilities__LineSegment._ctor
 template <>
 

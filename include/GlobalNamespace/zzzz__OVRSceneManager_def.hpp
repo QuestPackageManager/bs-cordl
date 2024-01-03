@@ -14,49 +14,46 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVRSceneManager)
 namespace GlobalNamespace {
-struct OVRAnchor;
-}
-namespace System::Collections::Generic {
-template <typename T> class HashSet_1;
-}
-namespace GlobalNamespace {
-class OVRCameraRig;
-}
-namespace GlobalNamespace {
 class __OVRSceneManager__Classification;
-}
-namespace GlobalNamespace {
-struct __OVRSceneManager___OnApplicationPause_d__28;
 }
 namespace System {
 class Action;
 }
 namespace GlobalNamespace {
-struct __OVRSceneManager__LogForwarder;
-}
-namespace GlobalNamespace {
-class OVRSceneAnchor;
+struct OVRAnchor;
 }
 namespace GlobalNamespace {
 class OVRScenePrefabOverride;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace UnityEngine {
+class Transform;
+}
+namespace GlobalNamespace {
+class __OVRSceneManager____c__DisplayClass40_0;
+}
+namespace GlobalNamespace {
+struct __OVRSceneManager___QueryForExistingAnchorsTransform_d__29;
 }
 namespace GlobalNamespace {
 class __OVRSceneManager__Development;
 }
-namespace UnityEngine {
-class Transform;
+namespace GlobalNamespace {
+struct __OVRSceneManager__LogForwarder;
+}
+namespace GlobalNamespace {
+class __OVRSceneManager____c__DisplayClass37_0;
 }
 namespace System {
-template <typename T1, typename T2> class Action_2;
+template <typename T> struct Nullable_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
-namespace GlobalNamespace {
-struct __OVRSceneManager___QueryForExistingAnchorsTransform_d__29;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace System {
+template <typename T1, typename T2> class Action_2;
 }
 namespace GlobalNamespace {
 template <typename TResult> struct OVRTask_1;
@@ -65,16 +62,19 @@ namespace System {
 struct Guid;
 }
 namespace GlobalNamespace {
-class __OVRSceneManager____c__DisplayClass40_0;
+struct __OVRSceneManager___OnApplicationPause_d__28;
+}
+namespace GlobalNamespace {
+class OVRSceneAnchor;
+}
+namespace System::Collections::Generic {
+template <typename T> class HashSet_1;
+}
+namespace GlobalNamespace {
+class OVRCameraRig;
 }
 namespace GlobalNamespace {
 class __OVRSceneManager__RoomLayoutInformation;
-}
-namespace GlobalNamespace {
-class __OVRSceneManager____c__DisplayClass37_0;
-}
-namespace System {
-template <typename T> struct Nullable_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class IReadOnlyList_1;
@@ -86,13 +86,13 @@ namespace GlobalNamespace {
 class OVRScenePlane;
 }
 namespace System::Runtime::CompilerServices {
+class IAsyncStateMachine;
+}
+namespace System::Runtime::CompilerServices {
 struct AsyncVoidMethodBuilder;
 }
 namespace GlobalNamespace {
 template <typename T> struct __OVRObjectPool__ListScope_1;
-}
-namespace System::Runtime::CompilerServices {
-class IAsyncStateMachine;
 }
 namespace GlobalNamespace {
 template <typename TResult> struct __OVRTask_1__Awaiter;
@@ -389,9 +389,9 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRSceneManag
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(8146), inst: 980 }), TypeDefinitionIndex(TypeDefinitionIndex(8072)), GenericInstantiation(GenericInstantiation {
-// tdi: TypeDefinitionIndex(8072), inst: 105 }), TypeDefinitionIndex(TypeDefinitionIndex(8146)), TypeDefinitionIndex(TypeDefinitionIndex(7510)), TypeDefinitionIndex(TypeDefinitionIndex(3400))} Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(7965)) CS Name: ::OVRSceneManager::<OnApplicationPause>d__28
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3400)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(8072), inst: 105 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(7510)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(8146), inst: 980 }), TypeDefinitionIndex(TypeDefinitionIndex(8146)),
+// TypeDefinitionIndex(TypeDefinitionIndex(8072))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7965)) CS Name: ::OVRSceneManager::<OnApplicationPause>d__28
 struct CORDL_TYPE __OVRSceneManager___OnApplicationPause_d__28 {
 public:
   // Declarations
@@ -467,10 +467,10 @@ static_assert(offsetof(::GlobalNamespace::__OVRSceneManager___OnApplicationPause
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(8072), inst: 105 }), TypeDefinitionIndex(TypeDefinitionIndex(8146)),
-// TypeDefinitionIndex(TypeDefinitionIndex(8072)), TypeDefinitionIndex(TypeDefinitionIndex(2406)), TypeDefinitionIndex(TypeDefinitionIndex(3400)), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(8146), inst: 980 }), TypeDefinitionIndex(TypeDefinitionIndex(7510)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(8146), inst: 314 })} Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(7966)) CS Name: ::OVRSceneManager::<QueryForExistingAnchorsTransform>d__29
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(8146), inst: 980 }), TypeDefinitionIndex(TypeDefinitionIndex(8146)), GenericInstantiation(GenericInstantiation {
+// tdi: TypeDefinitionIndex(8146), inst: 314 }), TypeDefinitionIndex(TypeDefinitionIndex(7510)), TypeDefinitionIndex(TypeDefinitionIndex(3400)), TypeDefinitionIndex(TypeDefinitionIndex(2406)),
+// TypeDefinitionIndex(TypeDefinitionIndex(8072)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(8072), inst: 105 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(7966)) CS
+// Name: ::OVRSceneManager::<QueryForExistingAnchorsTransform>d__29
 struct CORDL_TYPE __OVRSceneManager___QueryForExistingAnchorsTransform_d__29 {
 public:
   // Declarations
@@ -535,8 +535,8 @@ static_assert(offsetof(::GlobalNamespace::__OVRSceneManager___QueryForExistingAn
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(8075), inst: 105 }), TypeDefinitionIndex(TypeDefinitionIndex(2613)),
-// TypeDefinitionIndex(TypeDefinitionIndex(8075))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7967)) CS Name: ::OVRSceneManager::<>c__DisplayClass37_0*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8075)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(8075), inst: 105
+// })} Self: TypeDefinitionIndex(TypeDefinitionIndex(7967)) CS Name: ::OVRSceneManager::<>c__DisplayClass37_0*
 class CORDL_TYPE __OVRSceneManager____c__DisplayClass37_0 : public ::System::Object {
 public:
   // Declarations
@@ -600,8 +600,8 @@ static_assert(offsetof(::GlobalNamespace::__OVRSceneManager____c__DisplayClass37
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(8075), inst: 105 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(8075))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7968)) CS Name: ::OVRSceneManager::<>c__DisplayClass40_0*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8075)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(8075), inst: 105
+// })} Self: TypeDefinitionIndex(TypeDefinitionIndex(7968)) CS Name: ::OVRSceneManager::<>c__DisplayClass40_0*
 class CORDL_TYPE __OVRSceneManager____c__DisplayClass40_0 : public ::System::Object {
 public:
   // Declarations

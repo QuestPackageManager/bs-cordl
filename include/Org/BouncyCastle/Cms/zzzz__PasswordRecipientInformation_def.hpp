@@ -4,6 +4,9 @@
 CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Cms/zzzz__RecipientInformation_def.hpp"
 CORDL_MODULE_EXPORT(PasswordRecipientInformation)
+namespace Org::BouncyCastle::Cms {
+class CmsTypedStream;
+}
 namespace Org::BouncyCastle::Asn1::Cms {
 class PasswordRecipientInfo;
 }
@@ -15,9 +18,6 @@ class AlgorithmIdentifier;
 }
 namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;
-}
-namespace Org::BouncyCastle::Cms {
-class CmsTypedStream;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Cms {

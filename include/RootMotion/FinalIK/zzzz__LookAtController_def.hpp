@@ -6,14 +6,14 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(LookAtController)
-namespace RootMotion::FinalIK {
-class LookAtIK;
+namespace UnityEngine {
+struct Vector3;
 }
 namespace UnityEngine {
 class Transform;
 }
-namespace UnityEngine {
-struct Vector3;
+namespace RootMotion::FinalIK {
+class LookAtIK;
 }
 // Forward declare root types
 namespace RootMotion::FinalIK {

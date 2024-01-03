@@ -21,7 +21,7 @@ MARK_REF_PTR_T(::GlobalNamespace::TimelinePauseMarker);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10159)), TypeDefinitionIndex(TypeDefinitionIndex(13888))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13888)), TypeDefinitionIndex(TypeDefinitionIndex(10159))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14406))
 // CS Name: ::TimelinePauseMarker*
 class CORDL_TYPE TimelinePauseMarker : public ::UnityEngine::Timeline::Marker {

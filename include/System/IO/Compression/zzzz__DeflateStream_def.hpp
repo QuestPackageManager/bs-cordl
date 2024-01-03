@@ -12,52 +12,52 @@ namespace System::Threading {
 struct CancellationToken;
 }
 namespace System::Threading::Tasks {
-template <typename TResult> struct ValueTask_1;
-}
-namespace System::IO::Compression {
-class DeflateStreamNative;
-}
-namespace System::IO::Compression {
-struct CompressionLevel;
-}
-namespace System {
-class Object;
-}
-namespace System::IO {
-class Stream;
-}
-namespace System::Threading::Tasks {
 struct ValueTask;
-}
-namespace System::IO {
-struct SeekOrigin;
-}
-namespace System {
-template <typename T> struct ReadOnlyMemory_1;
-}
-namespace System {
-class AsyncCallback;
-}
-namespace System {
-template <typename T> struct Span_1;
-}
-namespace System {
-template <typename T> struct Memory_1;
-}
-namespace System {
-class IAsyncResult;
-}
-namespace System::IO::Compression {
-class __DeflateStream__ReadMethod;
 }
 namespace System {
 template <typename T> struct ReadOnlySpan_1;
 }
 namespace System::IO::Compression {
-struct CompressionMode;
+class __DeflateStream__WriteMethod;
 }
 namespace System::IO::Compression {
-class __DeflateStream__WriteMethod;
+struct CompressionMode;
+}
+namespace System::Threading::Tasks {
+template <typename TResult> struct ValueTask_1;
+}
+namespace System {
+class Object;
+}
+namespace System::IO {
+struct SeekOrigin;
+}
+namespace System::IO::Compression {
+class DeflateStreamNative;
+}
+namespace System {
+template <typename T> struct Span_1;
+}
+namespace System {
+class IAsyncResult;
+}
+namespace System {
+class AsyncCallback;
+}
+namespace System::IO::Compression {
+struct CompressionLevel;
+}
+namespace System {
+template <typename T> struct ReadOnlyMemory_1;
+}
+namespace System::IO {
+class Stream;
+}
+namespace System {
+template <typename T> struct Memory_1;
+}
+namespace System::IO::Compression {
+class __DeflateStream__ReadMethod;
 }
 // Forward declare root types
 namespace System::IO::Compression {

@@ -9,8 +9,14 @@ CORDL_MODULE_EXPORT(InitializableManager)
 namespace Zenject {
 class __InitializableManager__InitializableInfo;
 }
-namespace System {
-class Type;
+namespace Zenject {
+class __InitializableManager____c__DisplayClass2_0;
+}
+namespace Zenject {
+class __InitializableManager____c;
+}
+namespace Zenject {
+class InjectTypeInfo;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
@@ -18,17 +24,11 @@ template <typename T> class List_1;
 namespace Zenject {
 class IInitializable;
 }
+namespace System {
+class Type;
+}
 namespace ModestTree::Util {
 template <typename T1, typename T2> class ValuePair_2;
-}
-namespace Zenject {
-class __InitializableManager____c__DisplayClass2_0;
-}
-namespace Zenject {
-class InjectTypeInfo;
-}
-namespace Zenject {
-class __InitializableManager____c;
 }
 namespace System {
 class Object;

@@ -3,8 +3,8 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__ObstacleSaberSoundEffect_def.hpp"
 #include "UnityEngine/zzzz__AudioSource_def.hpp"
-#include "GlobalNamespace/zzzz__SaberType_def.hpp"
 #include "GlobalNamespace/zzzz__ObstacleSaberSparkleEffectManager_def.hpp"
+#include "GlobalNamespace/zzzz__SaberType_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::ObstacleSaberSoundEffect.Awake
 template <>
 

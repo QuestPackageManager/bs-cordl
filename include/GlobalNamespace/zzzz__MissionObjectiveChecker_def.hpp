@@ -11,10 +11,10 @@ namespace System {
 template <typename T> class Action_1;
 }
 namespace GlobalNamespace {
-struct __MissionObjectiveChecker__Status;
+class MissionObjectiveTypeSO;
 }
 namespace GlobalNamespace {
-class MissionObjectiveTypeSO;
+struct __MissionObjectiveChecker__Status;
 }
 namespace GlobalNamespace {
 class MissionObjective;

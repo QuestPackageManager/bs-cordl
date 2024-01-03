@@ -7,11 +7,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(AuthenticodeBase)
-namespace System::IO {
-class Stream;
-}
 namespace System::Security::Cryptography {
 class HashAlgorithm;
+}
+namespace System::IO {
+class Stream;
 }
 // Forward declare root types
 namespace Mono::Security::Authenticode {

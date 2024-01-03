@@ -13,13 +13,7 @@ namespace System {
 class Action;
 }
 namespace GlobalNamespace {
-class FloatSO;
-}
-namespace UnityEngine {
-class WaitUntil;
-}
-namespace GlobalNamespace {
-class IAudioTimeSource;
+class __AudioTimeSyncController__InitData;
 }
 namespace UnityEngine {
 class AudioSource;
@@ -28,7 +22,13 @@ namespace GlobalNamespace {
 struct __AudioTimeSyncController__State;
 }
 namespace GlobalNamespace {
-class __AudioTimeSyncController__InitData;
+class IAudioTimeSource;
+}
+namespace GlobalNamespace {
+class FloatSO;
+}
+namespace UnityEngine {
+class WaitUntil;
 }
 namespace UnityEngine {
 class AudioClip;
@@ -196,7 +196,7 @@ static_assert(offsetof(::GlobalNamespace::__AudioTimeSyncController__State, valu
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 141, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(4052))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4052)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4053))
 // CS Name: ::AudioTimeSyncController*
 class CORDL_TYPE AudioTimeSyncController : public ::UnityEngine::MonoBehaviour {

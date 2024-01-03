@@ -7,22 +7,22 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(MultiplayerLocalPlayerScoreDiffTextManager)
 namespace GlobalNamespace {
-class __CoreGameHUDController__InitData;
-}
-namespace GlobalNamespace {
-class MultiplayerController;
-}
-namespace GlobalNamespace {
 class MultiplayerScoreDiffText;
-}
-namespace GlobalNamespace {
-struct __MultiplayerController__State;
 }
 namespace GlobalNamespace {
 class IMultiplayerSessionManager;
 }
 namespace GlobalNamespace {
+class MultiplayerController;
+}
+namespace GlobalNamespace {
+class __CoreGameHUDController__InitData;
+}
+namespace GlobalNamespace {
 class MultiplayerScoreProvider;
+}
+namespace GlobalNamespace {
+struct __MultiplayerController__State;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -34,8 +34,8 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerLocalPlayerScoreDiffTextManager);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 70, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2448)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 105 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(10225))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5227)) CS Name: ::MultiplayerLocalPlayerScoreDiffTextManager*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(2448)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 105
+// })} Self: TypeDefinitionIndex(TypeDefinitionIndex(5227)) CS Name: ::MultiplayerLocalPlayerScoreDiffTextManager*
 class CORDL_TYPE MultiplayerLocalPlayerScoreDiffTextManager : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations

@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(Contract)
-namespace System {
-template <typename T> class Predicate_1;
-}
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
+}
+namespace System {
+template <typename T> class Predicate_1;
 }
 // Forward declare root types
 namespace System::Diagnostics::Contracts {

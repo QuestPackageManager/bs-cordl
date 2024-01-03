@@ -2,10 +2,10 @@
 #include "UnityEngine/InputSystem/XR/zzzz__Eyes_impl.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputControl_1_impl.hpp"
 #include "UnityEngine/InputSystem/XR/zzzz__EyesControl_def.hpp"
+#include "UnityEngine/InputSystem/XR/zzzz__Eyes_def.hpp"
+#include "UnityEngine/InputSystem/Controls/zzzz__QuaternionControl_def.hpp"
 #include "UnityEngine/InputSystem/Controls/zzzz__AxisControl_def.hpp"
 #include "UnityEngine/InputSystem/Controls/zzzz__Vector3Control_def.hpp"
-#include "UnityEngine/InputSystem/Controls/zzzz__QuaternionControl_def.hpp"
-#include "UnityEngine/InputSystem/XR/zzzz__Eyes_def.hpp"
 //  Writing Method size for method: ::UnityEngine::InputSystem::XR::EyesControl.get_leftEyePosition
 template <>
 

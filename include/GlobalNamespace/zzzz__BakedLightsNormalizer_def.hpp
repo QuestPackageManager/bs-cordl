@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(BakedLightsNormalizer)
-namespace GlobalNamespace {
-class LightmapLightWithIds;
-}
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace GlobalNamespace {
+class LightmapLightWithIds;
 }
 namespace GlobalNamespace {
 struct __LightConstants__BakeId;

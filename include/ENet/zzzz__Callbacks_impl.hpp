@@ -2,10 +2,10 @@
 #include "ENet/zzzz__ENetCallbacks_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "ENet/zzzz__Callbacks_def.hpp"
-#include "ENet/zzzz__ENetCallbacks_def.hpp"
-#include "ENet/zzzz__NoMemoryCallback_def.hpp"
 #include "ENet/zzzz__AllocCallback_def.hpp"
 #include "ENet/zzzz__FreeCallback_def.hpp"
+#include "ENet/zzzz__NoMemoryCallback_def.hpp"
+#include "ENet/zzzz__ENetCallbacks_def.hpp"
 //  Writing Method size for method: ::ENet::Callbacks.get_NativeData
 template <>
 

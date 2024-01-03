@@ -8,25 +8,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ViewControllerTransitionHelpers)
 namespace HMUI {
-class __ViewControllerTransitionHelpers____c__DisplayClass6_0;
-}
-namespace HMUI {
 class __ViewControllerTransitionHelpers___DoVerticalTransition_d__6;
-}
-namespace HMUI {
-class __ViewControllerTransitionHelpers___DoPresentTransition_d__3;
 }
 namespace HMUI {
 class __ViewControllerTransitionHelpers___DoDismissTransition_d__4;
 }
 namespace HMUI {
-class __ViewControllerTransitionHelpers___DoHorizontalTransition_d__5;
+class ViewController;
+}
+namespace HMUI {
+class __ViewControllerTransitionHelpers___AnimationCoroutine_d__8;
 }
 namespace System::Collections {
 class IEnumerator;
-}
-namespace HMUI {
-class __ViewControllerTransitionHelpers____c__DisplayClass5_0;
 }
 namespace System {
 template <typename T> class Action_1;
@@ -35,19 +29,25 @@ namespace HMUI {
 struct __ViewController__AnimationDirection;
 }
 namespace HMUI {
-class __ViewControllerTransitionHelpers___AnimationCoroutine_d__8;
+class __ViewControllerTransitionHelpers____c__DisplayClass5_0;
 }
 namespace HMUI {
-class ViewController;
+class __ViewControllerTransitionHelpers___DoPresentTransition_d__3;
+}
+namespace HMUI {
+class __ViewControllerTransitionHelpers___DoHorizontalTransition_d__5;
+}
+namespace HMUI {
+class __ViewControllerTransitionHelpers____c__DisplayClass6_0;
 }
 namespace System {
 class Object;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
-}
 namespace System {
 class IDisposable;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
 }
 // Forward declare root types
 namespace HMUI {
@@ -87,7 +87,7 @@ MARK_REF_PTR_T(::HMUI::__ViewControllerTransitionHelpers____c__DisplayClass6_0);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 60, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13601)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(13601))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13606))
 // CS Name: ::ViewControllerTransitionHelpers::<DoPresentTransition>d__3*
 class CORDL_TYPE __ViewControllerTransitionHelpers___DoPresentTransition_d__3 : public ::System::Object {
@@ -234,7 +234,7 @@ static_assert(offsetof(::HMUI::__ViewControllerTransitionHelpers___DoPresentTran
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 60, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13601)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(13601))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13607))
 // CS Name: ::ViewControllerTransitionHelpers::<DoDismissTransition>d__4*
 class CORDL_TYPE __ViewControllerTransitionHelpers___DoDismissTransition_d__4 : public ::System::Object {

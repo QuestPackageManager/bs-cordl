@@ -6,16 +6,13 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(AudioLatencyViewController)
 namespace GlobalNamespace {
-class SongPreviewPlayer;
-}
-namespace HMUI {
-class ToggleBinder;
+class FloatSO;
 }
 namespace UnityEngine {
 class CanvasGroup;
 }
-namespace UnityEngine::UI {
-class Toggle;
+namespace HMUI {
+class RangeValuesTextSlider;
 }
 namespace GlobalNamespace {
 class BoolSO;
@@ -23,11 +20,14 @@ class BoolSO;
 namespace GlobalNamespace {
 class VisualMetronome;
 }
-namespace GlobalNamespace {
-class FloatSO;
-}
 namespace HMUI {
-class RangeValuesTextSlider;
+class ToggleBinder;
+}
+namespace GlobalNamespace {
+class SongPreviewPlayer;
+}
+namespace UnityEngine::UI {
+class Toggle;
 }
 // Forward declare root types
 namespace GlobalNamespace {

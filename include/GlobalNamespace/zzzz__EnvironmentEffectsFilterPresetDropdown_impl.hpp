@@ -3,8 +3,8 @@
 #include "GlobalNamespace/zzzz__ValueDropdownController_1_impl.hpp"
 #include "GlobalNamespace/zzzz__EnvironmentEffectsFilterPresetDropdown_def.hpp"
 #include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
-#include "GlobalNamespace/zzzz__EnvironmentEffectsFilterPreset_def.hpp"
 #include "System/zzzz__Tuple_2_def.hpp"
+#include "GlobalNamespace/zzzz__EnvironmentEffectsFilterPreset_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::EnvironmentEffectsFilterPresetDropdown.GetNamedValues
 template <>
 

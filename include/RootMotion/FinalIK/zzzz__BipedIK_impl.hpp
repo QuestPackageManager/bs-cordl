@@ -1,12 +1,12 @@
 #pragma once
 #include "RootMotion/zzzz__SolverManager_impl.hpp"
 #include "RootMotion/FinalIK/zzzz__BipedIK_def.hpp"
+#include "RootMotion/zzzz__BipedReferences_def.hpp"
 #include "UnityEngine/zzzz__Quaternion_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "RootMotion/FinalIK/zzzz__BipedIKSolvers_def.hpp"
 #include "RootMotion/FinalIK/zzzz__IKSolverLimb_def.hpp"
 #include "UnityEngine/zzzz__AvatarIKGoal_def.hpp"
-#include "RootMotion/FinalIK/zzzz__BipedIKSolvers_def.hpp"
-#include "RootMotion/zzzz__BipedReferences_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
 //  Writing Method size for method: ::RootMotion::FinalIK::BipedIK.OpenUserManual
 template <>
 

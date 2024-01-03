@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "HMUI/zzzz__TableCell_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(FileBrowserTableCell)
-namespace UnityEngine::UI {
-class Image;
-}
 namespace HMUI {
 struct __SelectableCell__TransitionType;
 }
 namespace TMPro {
 class TextMeshProUGUI;
+}
+namespace UnityEngine::UI {
+class Image;
 }
 // Forward declare root types
 namespace GlobalNamespace {

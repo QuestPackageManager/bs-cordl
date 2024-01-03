@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include "System/Security/zzzz__CodeAccessPermission_def.hpp"
 CORDL_MODULE_EXPORT(ReflectionPermission)
 namespace System::Security {
-class SecurityElement;
+class IPermission;
 }
 namespace System::Security {
-class IPermission;
+class SecurityElement;
 }
 namespace System::Security::Permissions {
 struct ReflectionPermissionFlag;
@@ -24,7 +24,7 @@ MARK_REF_PTR_T(::System::Security::Permissions::ReflectionPermission);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Security::Permissions {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2903)), TypeDefinitionIndex(TypeDefinitionIndex(2882))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2882)), TypeDefinitionIndex(TypeDefinitionIndex(2903))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2904))
 // CS Name: ::System.Security.Permissions::ReflectionPermission*
 class CORDL_TYPE ReflectionPermission : public ::System::Security::CodeAccessPermission {

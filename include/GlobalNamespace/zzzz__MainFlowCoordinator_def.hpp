@@ -12,106 +12,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(MainFlowCoordinator)
 namespace GlobalNamespace {
-class MultiplayerModeSelectionFlowCoordinator;
-}
-namespace GlobalNamespace {
-class PlayerDataModel;
-}
-namespace GlobalNamespace {
-class SoloFreePlayFlowCoordinator;
-}
-namespace BeatSaber::AvatarCore {
-class AvatarSystemCollection;
-}
-namespace GlobalNamespace {
-class MenuDestination;
-}
-namespace GlobalNamespace {
-class PartyFreePlayFlowCoordinator;
+struct __MainFlowCoordinator___PresentMultiplayerModeSelectionFlowCoordinatorWithDisclaimerAndAvatarCreator_d__43;
 }
 namespace GlobalNamespace {
 class __MainFlowCoordinator___ProcessMenuDestinationRequestAfterFrameCoroutine_d__44;
-}
-namespace HMUI {
-class ViewController;
-}
-namespace GlobalNamespace {
-struct __EditAvatarFlowCoordinatorHelper__FinishAction;
-}
-namespace GlobalNamespace {
-class HelpFlowCoordinator;
-}
-namespace GlobalNamespace {
-class FadeInOutController;
-}
-namespace GlobalNamespace {
-class SettingsFlowCoordinator;
-}
-namespace GlobalNamespace {
-class IBeatmapLevelPack;
-}
-namespace HMUI {
-struct __ViewController__AnimationType;
-}
-namespace GlobalNamespace {
-struct __MainFlowCoordinator___ProcessMenuDestinationRequest_d__42;
 }
 namespace GlobalNamespace {
 class OptionsViewController;
 }
 namespace GlobalNamespace {
-struct __MainFlowCoordinator___HandleEditAvatarFlowCoordinatorHelperDidFinish_d__35;
-}
-namespace HMUI {
-class FlowCoordinator;
-}
-namespace GlobalNamespace {
-struct __MainMenuViewController__MenuButton;
-}
-namespace GlobalNamespace {
-class MenuLightsPresetSO;
-}
-namespace GlobalNamespace {
-class PlayerOptionsViewController;
-}
-namespace GlobalNamespace {
-class MainMenuViewController;
-}
-namespace GlobalNamespace {
-class BeatmapLevelsModel;
-}
-namespace GlobalNamespace {
-class CampaignFlowCoordinator;
-}
-namespace GlobalNamespace {
-struct __MainFlowCoordinator___PresentMultiplayerModeSelectionFlowCoordinatorWithDisclaimerAndAvatarCreator_d__43;
-}
-namespace GlobalNamespace {
-class MenuLightsManager;
-}
-namespace GlobalNamespace {
-class AppStaticSettingsSO;
-}
-namespace GlobalNamespace {
-class EditAvatarFlowCoordinatorHelper;
-}
-namespace GlobalNamespace {
-class IAnalyticsModel;
-}
-namespace GlobalNamespace {
-struct __OptionsViewController__OptionsButton;
-}
-namespace GlobalNamespace {
 struct __HowToPlayViewController__HowToPlayOptions;
 }
 namespace GlobalNamespace {
-struct __SettingsFlowCoordinator__FinishAction;
-}
-namespace GlobalNamespace {
-class IPreviewBeatmapLevel;
-}
-namespace System::Collections {
-class IEnumerator;
+struct __EditAvatarFlowCoordinatorHelper__FinishAction;
 }
 namespace GlobalNamespace {
 class MenuTransitionsHelper;
@@ -120,28 +33,115 @@ namespace GlobalNamespace {
 class SimpleDialogPromptViewController;
 }
 namespace GlobalNamespace {
-struct __MainFlowCoordinator___HandleMultiplayerDisclaimerDidFinishAction_d__30;
+class MenuDestination;
+}
+namespace GlobalNamespace {
+struct __MainFlowCoordinator___ProcessMenuDestinationRequest_d__42;
+}
+namespace GlobalNamespace {
+class IPreviewBeatmapLevel;
+}
+namespace BeatSaber::AvatarCore {
+class AvatarSystemCollection;
+}
+namespace GlobalNamespace {
+class EditAvatarFlowCoordinatorHelper;
+}
+namespace HMUI {
+class FlowCoordinator;
 }
 namespace GlobalNamespace {
 class LevelSelectionFlowCoordinator;
+}
+namespace GlobalNamespace {
+struct __MainFlowCoordinator___HandleMultiplayerDisclaimerDidFinishAction_d__30;
+}
+namespace GlobalNamespace {
+struct __SettingsFlowCoordinator__FinishAction;
+}
+namespace GlobalNamespace {
+class SoloFreePlayFlowCoordinator;
+}
+namespace GlobalNamespace {
+class BeatmapLevelsModel;
+}
+namespace GlobalNamespace {
+class FadeInOutController;
+}
+namespace GlobalNamespace {
+class PartyFreePlayFlowCoordinator;
+}
+namespace GlobalNamespace {
+class IBeatmapLevelPack;
+}
+namespace GlobalNamespace {
+class MenuLightsManager;
+}
+namespace GlobalNamespace {
+class PlayerOptionsViewController;
+}
+namespace GlobalNamespace {
+class PlayerDataModel;
+}
+namespace HMUI {
+class ViewController;
+}
+namespace GlobalNamespace {
+class AppStaticSettingsSO;
+}
+namespace GlobalNamespace {
+struct __MainFlowCoordinator___HandleEditAvatarFlowCoordinatorHelperDidFinish_d__35;
+}
+namespace GlobalNamespace {
+class MultiplayerModeSelectionFlowCoordinator;
+}
+namespace GlobalNamespace {
+class IAnalyticsModel;
+}
+namespace GlobalNamespace {
+class SettingsFlowCoordinator;
+}
+namespace GlobalNamespace {
+class MenuLightsPresetSO;
+}
+namespace GlobalNamespace {
+struct __MainMenuViewController__MenuButton;
+}
+namespace GlobalNamespace {
+struct __OptionsViewController__OptionsButton;
+}
+namespace GlobalNamespace {
+class MainMenuViewController;
+}
+namespace GlobalNamespace {
+class HelpFlowCoordinator;
+}
+namespace HMUI {
+struct __ViewController__AnimationType;
+}
+namespace System::Collections {
+class IEnumerator;
+}
+namespace GlobalNamespace {
+class CampaignFlowCoordinator;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
 namespace System {
-class IDisposable;
+class Object;
 }
 namespace System {
-class Object;
+class IDisposable;
+}
+namespace System::Runtime::CompilerServices {
+class IAsyncStateMachine;
 }
 namespace System::Runtime::CompilerServices {
 struct AsyncVoidMethodBuilder;
 }
 namespace System::Runtime::CompilerServices {
 template <typename TResult> struct TaskAwaiter_1;
-}
-namespace System::Runtime::CompilerServices {
-class IAsyncStateMachine;
 }
 namespace System::Runtime::CompilerServices {
 struct TaskAwaiter;
@@ -176,8 +176,8 @@ MARK_VAL_T(::GlobalNamespace::__MainFlowCoordinator___ProcessMenuDestinationRequ
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 105 }), TypeDefinitionIndex(TypeDefinitionIndex(3400)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3393)), TypeDefinitionIndex(TypeDefinitionIndex(3394))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5502)) CS Name:
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3400)), TypeDefinitionIndex(TypeDefinitionIndex(3393)), TypeDefinitionIndex(TypeDefinitionIndex(3394)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 105 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(5502)) CS Name:
 // ::MainFlowCoordinator::<HandleMultiplayerDisclaimerDidFinishAction>d__30
 struct CORDL_TYPE __MainFlowCoordinator___HandleMultiplayerDisclaimerDidFinishAction_d__30 {
 public:
@@ -246,8 +246,9 @@ static_assert(offsetof(::GlobalNamespace::__MainFlowCoordinator___HandleMultipla
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3400)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 105
-// }), TypeDefinitionIndex(TypeDefinitionIndex(5490))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5503)) CS Name: ::MainFlowCoordinator::<HandleEditAvatarFlowCoordinatorHelperDidFinish>d__35
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5490)), TypeDefinitionIndex(TypeDefinitionIndex(3400)), TypeDefinitionIndex(TypeDefinitionIndex(3394)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 105 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(5503)) CS Name:
+// ::MainFlowCoordinator::<HandleEditAvatarFlowCoordinatorHelperDidFinish>d__35
 struct CORDL_TYPE __MainFlowCoordinator___HandleEditAvatarFlowCoordinatorHelperDidFinish_d__35 {
 public:
   // Declarations
@@ -382,8 +383,9 @@ static_assert(offsetof(::GlobalNamespace::__MainFlowCoordinator___ProcessMenuDes
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(3400)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 105
-// })} Self: TypeDefinitionIndex(TypeDefinitionIndex(5505)) CS Name: ::MainFlowCoordinator::<PresentMultiplayerModeSelectionFlowCoordinatorWithDisclaimerAndAvatarCreator>d__43
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3394)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 105 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(3400))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5505)) CS Name:
+// ::MainFlowCoordinator::<PresentMultiplayerModeSelectionFlowCoordinatorWithDisclaimerAndAvatarCreator>d__43
 struct CORDL_TYPE __MainFlowCoordinator___PresentMultiplayerModeSelectionFlowCoordinatorWithDisclaimerAndAvatarCreator_d__43 {
 public:
   // Declarations

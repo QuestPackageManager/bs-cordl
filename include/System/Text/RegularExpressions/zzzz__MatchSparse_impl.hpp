@@ -1,9 +1,9 @@
 #pragma once
 #include "System/Text/RegularExpressions/zzzz__Match_impl.hpp"
 #include "System/Text/RegularExpressions/zzzz__MatchSparse_def.hpp"
-#include "System/Text/RegularExpressions/zzzz__Regex_def.hpp"
-#include "System/Text/RegularExpressions/zzzz__GroupCollection_def.hpp"
 #include "System/Collections/zzzz__Hashtable_def.hpp"
+#include "System/Text/RegularExpressions/zzzz__GroupCollection_def.hpp"
+#include "System/Text/RegularExpressions/zzzz__Regex_def.hpp"
 //  Writing Method size for method: ::System::Text::RegularExpressions::MatchSparse._ctor
 template <>
 

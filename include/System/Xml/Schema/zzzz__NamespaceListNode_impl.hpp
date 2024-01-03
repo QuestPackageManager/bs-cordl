@@ -1,12 +1,12 @@
 #pragma once
 #include "System/Xml/Schema/zzzz__SyntaxTreeNode_impl.hpp"
 #include "System/Xml/Schema/zzzz__NamespaceListNode_def.hpp"
-#include "System/Xml/Schema/zzzz__NamespaceList_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "System/Xml/Schema/zzzz__InteriorNode_def.hpp"
-#include "System/Xml/Schema/zzzz__SymbolsDictionary_def.hpp"
-#include "System/Collections/zzzz__ICollection_def.hpp"
 #include "System/Xml/Schema/zzzz__Positions_def.hpp"
+#include "System/Xml/Schema/zzzz__SymbolsDictionary_def.hpp"
+#include "System/Xml/Schema/zzzz__InteriorNode_def.hpp"
+#include "System/Xml/Schema/zzzz__NamespaceList_def.hpp"
+#include "System/Collections/zzzz__ICollection_def.hpp"
 #include "System/Xml/Schema/zzzz__BitSet_def.hpp"
 //  Writing Method size for method: ::System::Xml::Schema::NamespaceListNode._ctor
 template <>

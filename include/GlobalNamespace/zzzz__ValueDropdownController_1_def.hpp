@@ -7,15 +7,6 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ValueDropdownController_1)
-namespace GlobalNamespace {
-template <typename T> class __ValueDropdownController_1____c;
-}
-namespace System {
-template <typename T1, typename T2> class Action_2;
-}
-namespace HMUI {
-class SimpleTextDropdown;
-}
 namespace System {
 template <typename T1, typename T2> class Tuple_2;
 }
@@ -24,6 +15,15 @@ template <typename T> class IReadOnlyList_1;
 }
 namespace HMUI {
 class DropdownWithTableView;
+}
+namespace GlobalNamespace {
+template <typename T> class __ValueDropdownController_1____c;
+}
+namespace System {
+template <typename T1, typename T2> class Action_2;
+}
+namespace HMUI {
+class SimpleTextDropdown;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;

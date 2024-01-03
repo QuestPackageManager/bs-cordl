@@ -8,32 +8,29 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(TextSlider)
-namespace UnityEngine::EventSystems {
-class IInitializePotentialDragHandler;
-}
-namespace UnityEngine::EventSystems {
-class IDragHandler;
-}
-namespace TMPro {
-class TextMeshProUGUI;
-}
-namespace UnityEngine::UI {
-class ICanvasElement;
-}
-namespace System {
-template <typename T1, typename T2> class Action_2;
+namespace UnityEngine {
+struct Color;
 }
 namespace UnityEngine::EventSystems {
 class IEventSystemHandler;
 }
 namespace UnityEngine::UI {
-class Graphic;
+struct CanvasUpdate;
+}
+namespace TMPro {
+class TextMeshProUGUI;
 }
 namespace UnityEngine {
-struct Color;
+class RectTransform;
+}
+namespace UnityEngine::EventSystems {
+class IBeginDragHandler;
 }
 namespace UnityEngine::UI {
-struct CanvasUpdate;
+class ICanvasElement;
+}
+namespace UnityEngine::EventSystems {
+class IDragHandler;
 }
 namespace UnityEngine::EventSystems {
 class PointerEventData;
@@ -41,11 +38,14 @@ class PointerEventData;
 namespace UnityEngine {
 class Transform;
 }
-namespace UnityEngine::EventSystems {
-class IBeginDragHandler;
+namespace UnityEngine::UI {
+class Graphic;
 }
-namespace UnityEngine {
-class RectTransform;
+namespace UnityEngine::EventSystems {
+class IInitializePotentialDragHandler;
+}
+namespace System {
+template <typename T1, typename T2> class Action_2;
 }
 // Forward declare root types
 namespace HMUI {
@@ -57,7 +57,7 @@ MARK_REF_PTR_T(::HMUI::TextSlider);
 // SizeInfo { instance_size: 320, native_size: -1, calculated_instance_size: 320, calculated_native_size: 313, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10278)), TypeDefinitionIndex(TypeDefinitionIndex(13119))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13119)), TypeDefinitionIndex(TypeDefinitionIndex(10278))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13560))
 // CS Name: ::HMUI::TextSlider*
 class CORDL_TYPE TextSlider : public ::UnityEngine::UI::Selectable {

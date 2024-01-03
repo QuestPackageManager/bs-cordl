@@ -1,9 +1,9 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__MarshalByRefObject_def.hpp"
-#include "System/zzzz__Type_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "System/Runtime/Remoting/zzzz__ServerIdentity_def.hpp"
+#include "System/zzzz__Type_def.hpp"
 #include "System/Runtime/Remoting/zzzz__ObjRef_def.hpp"
 //  Writing Method size for method: ::System::MarshalByRefObject._ctor
 template <>

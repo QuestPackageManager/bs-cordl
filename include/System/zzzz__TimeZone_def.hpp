@@ -6,13 +6,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(TimeZone)
 namespace System {
+class Object;
+}
+namespace System {
 struct DateTime;
 }
 namespace System {
 struct TimeSpan;
-}
-namespace System {
-class Object;
 }
 namespace System::Globalization {
 class DaylightTime;

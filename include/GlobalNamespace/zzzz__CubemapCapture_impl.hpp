@@ -4,12 +4,12 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "UnityEngine/zzzz__Texture2D_impl.hpp"
 #include "GlobalNamespace/zzzz__CubemapCapture_def.hpp"
-#include "UnityEngine/zzzz__CubemapFace_def.hpp"
 #include "GlobalNamespace/zzzz__CubemapCapture_def.hpp"
 #include "UnityEngine/zzzz__Camera_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
-#include "UnityEngine/zzzz__Texture2D_def.hpp"
+#include "UnityEngine/zzzz__CubemapFace_def.hpp"
 #include "UnityEngine/zzzz__Cubemap_def.hpp"
+#include "UnityEngine/zzzz__Texture2D_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::GlobalNamespace::__CubemapCapture__ImageType::__CubemapCapture__ImageType(int32_t value__) noexcept {
   this->value__ = value__;

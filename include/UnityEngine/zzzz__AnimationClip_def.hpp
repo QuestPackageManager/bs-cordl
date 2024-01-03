@@ -9,28 +9,28 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(AnimationClip)
 namespace UnityEngine {
+class AnimationEvent;
+}
+namespace UnityEngine {
 class AnimationCurve;
 }
 namespace UnityEngine {
 class GameObject;
 }
-namespace UnityEngine {
-class AnimationEvent;
+namespace System {
+class Array;
 }
 namespace System {
 class Type;
 }
-namespace System {
-class Array;
+namespace UnityEngine {
+struct WrapMode;
 }
 namespace System {
 class Object;
 }
 namespace UnityEngine {
 struct Bounds;
-}
-namespace UnityEngine {
-struct WrapMode;
 }
 // Forward declare root types
 namespace UnityEngine {

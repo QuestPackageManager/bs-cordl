@@ -5,8 +5,11 @@ CORDL_MODULE_INIT
 #include "Zenject/zzzz__PoolableMemoryPoolProviderBase_1_def.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 CORDL_MODULE_EXPORT(PoolableMemoryPoolProvider_8)
-namespace Zenject {
-class IValidatable;
+namespace System {
+class Action;
+}
+namespace System {
+class Object;
 }
 namespace System {
 struct Guid;
@@ -15,19 +18,16 @@ namespace Zenject {
 class InjectContext;
 }
 namespace Zenject {
-struct TypeValuePair;
-}
-namespace Zenject {
 class DiContainer;
-}
-namespace System {
-class Action;
-}
-namespace System {
-class Object;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
+}
+namespace Zenject {
+struct TypeValuePair;
+}
+namespace Zenject {
+class IValidatable;
 }
 // Forward declare root types
 namespace Zenject {

@@ -7,13 +7,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(AesCryptoServiceProvider)
 namespace System::Security::Cryptography {
+struct CipherMode;
+}
+namespace System::Security::Cryptography {
 struct PaddingMode;
 }
 namespace System::Security::Cryptography {
 class ICryptoTransform;
-}
-namespace System::Security::Cryptography {
-struct CipherMode;
 }
 // Forward declare root types
 namespace System::Security::Cryptography {

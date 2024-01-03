@@ -1,8 +1,8 @@
 #pragma once
 #include "HMUI/zzzz__ViewController_impl.hpp"
 #include "GlobalNamespace/zzzz__OtherSettingsViewController_def.hpp"
-#include "GlobalNamespace/zzzz__PlayerDataModel_def.hpp"
 #include "UnityEngine/UI/zzzz__Toggle_def.hpp"
+#include "GlobalNamespace/zzzz__PlayerDataModel_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::OtherSettingsViewController.DidActivate
 template <>
 

@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Runtime/Remoting/zzzz__ChannelData_def.hpp"
-#include "System/Collections/zzzz__Hashtable_def.hpp"
 #include "System/Collections/zzzz__ArrayList_def.hpp"
+#include "System/Collections/zzzz__Hashtable_def.hpp"
 //  Writing Method size for method: ::System::Runtime::Remoting::ChannelData.get_ServerProviders
 template <>
 

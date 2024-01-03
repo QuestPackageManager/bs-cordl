@@ -6,8 +6,26 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(XmlNode)
+namespace System::Xml {
+class XmlNodeList;
+}
+namespace System::Xml {
+class XmlDocument;
+}
 namespace System {
 class Object;
+}
+namespace System::Xml {
+class XmlLinkedNode;
+}
+namespace System::Xml {
+struct XmlNodeType;
+}
+namespace System::Xml {
+class XmlAttributeCollection;
+}
+namespace System {
+class ICloneable;
 }
 namespace System::Collections {
 class IEnumerator;
@@ -16,31 +34,13 @@ namespace System::Xml {
 struct XmlNodeChangedAction;
 }
 namespace System::Xml {
-class XmlDocument;
-}
-namespace System::Text {
-class StringBuilder;
-}
-namespace System {
-class ICloneable;
-}
-namespace System::Xml {
 class XmlNodeChangedEventArgs;
-}
-namespace System::Xml {
-class XmlLinkedNode;
 }
 namespace System::Collections {
 class IEnumerable;
 }
-namespace System::Xml {
-class XmlAttributeCollection;
-}
-namespace System::Xml {
-struct XmlNodeType;
-}
-namespace System::Xml {
-class XmlNodeList;
+namespace System::Text {
+class StringBuilder;
 }
 // Forward declare root types
 namespace System::Xml {

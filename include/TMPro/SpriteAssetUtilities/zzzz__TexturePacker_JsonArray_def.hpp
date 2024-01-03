@@ -10,19 +10,19 @@ CORDL_MODULE_INIT
 #include <cstddef>
 CORDL_MODULE_EXPORT(TexturePacker_JsonArray)
 namespace TMPro::SpriteAssetUtilities {
-struct __TexturePacker_JsonArray__Frame;
-}
-namespace TMPro::SpriteAssetUtilities {
 struct __TexturePacker_JsonArray__Meta;
 }
 namespace TMPro::SpriteAssetUtilities {
 struct __TexturePacker_JsonArray__SpriteFrame;
 }
 namespace TMPro::SpriteAssetUtilities {
+class __TexturePacker_JsonArray__SpriteDataObject;
+}
+namespace TMPro::SpriteAssetUtilities {
 struct __TexturePacker_JsonArray__SpriteSize;
 }
 namespace TMPro::SpriteAssetUtilities {
-class __TexturePacker_JsonArray__SpriteDataObject;
+struct __TexturePacker_JsonArray__Frame;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
@@ -149,7 +149,7 @@ static_assert(offsetof(::TMPro::SpriteAssetUtilities::__TexturePacker_JsonArray_
 // SizeInfo { instance_size: 64, native_size: 64, calculated_instance_size: 64, calculated_native_size: 76, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace TMPro::SpriteAssetUtilities {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12462)), TypeDefinitionIndex(TypeDefinitionIndex(12461)), TypeDefinitionIndex(TypeDefinitionIndex(10243))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12462)), TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(12461))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12463))
 // CS Name: ::TexturePacker_JsonArray::Frame
 struct CORDL_TYPE __TexturePacker_JsonArray__Frame {
@@ -281,7 +281,7 @@ static_assert(offsetof(::TMPro::SpriteAssetUtilities::__TexturePacker_JsonArray_
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace TMPro::SpriteAssetUtilities {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12464)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12464))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12465))
 // CS Name: ::TexturePacker_JsonArray::SpriteDataObject*
 class CORDL_TYPE __TexturePacker_JsonArray__SpriteDataObject : public ::System::Object {

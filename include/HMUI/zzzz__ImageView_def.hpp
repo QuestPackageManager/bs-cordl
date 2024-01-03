@@ -14,28 +14,25 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ImageView)
 namespace HMUI {
-class CurvedCanvasSettingsHelper;
-}
-namespace UnityEngine {
-struct Vector3;
-}
-namespace UnityEngine {
-struct Vector4;
-}
-namespace HMUI {
 struct __ImageView__GradientDirection;
 }
 namespace UnityEngine {
-struct Rect;
+struct Vector2;
 }
-namespace GlobalNamespace {
-class ColorSO;
+namespace UnityEngine {
+struct Color;
 }
 namespace UnityEngine::UI {
 class VertexHelper;
 }
 namespace UnityEngine {
-struct Color;
+struct Vector4;
+}
+namespace HMUI {
+class CurvedCanvasSettingsHelper;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 namespace GlobalNamespace {
 class IComponentRefresher;
@@ -44,7 +41,10 @@ namespace UnityEngine {
 struct Color32;
 }
 namespace UnityEngine {
-struct Vector2;
+struct Rect;
+}
+namespace GlobalNamespace {
+class ColorSO;
 }
 // Forward declare root types
 namespace HMUI {
@@ -110,8 +110,8 @@ static_assert(offsetof(::HMUI::__ImageView__GradientDirection, value__) == 0x0, 
 // SizeInfo { instance_size: 352, native_size: -1, calculated_instance_size: 352, calculated_native_size: 352, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13626)), TypeDefinitionIndex(TypeDefinitionIndex(13055)), TypeDefinitionIndex(TypeDefinitionIndex(10251)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(10246)), TypeDefinitionIndex(TypeDefinitionIndex(10249))} Self:
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(10246)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(13055)), TypeDefinitionIndex(TypeDefinitionIndex(13626))} Self:
 // TypeDefinitionIndex(TypeDefinitionIndex(13627)) CS Name: ::HMUI::ImageView*
 class CORDL_TYPE ImageView : public ::UnityEngine::UI::Image {
 public:

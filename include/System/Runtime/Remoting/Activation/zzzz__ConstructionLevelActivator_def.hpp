@@ -8,10 +8,10 @@ namespace System::Runtime::Remoting::Activation {
 class IActivator;
 }
 namespace System::Runtime::Remoting::Activation {
-class IConstructionReturnMessage;
+class IConstructionCallMessage;
 }
 namespace System::Runtime::Remoting::Activation {
-class IConstructionCallMessage;
+class IConstructionReturnMessage;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting::Activation {

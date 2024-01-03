@@ -2,8 +2,8 @@
 #include "System/Security/Permissions/zzzz__SecurityPermissionFlag_impl.hpp"
 #include "System/Security/zzzz__CodeAccessPermission_impl.hpp"
 #include "System/Security/Permissions/zzzz__SecurityPermission_def.hpp"
-#include "System/Security/Permissions/zzzz__PermissionState_def.hpp"
 #include "System/Security/Permissions/zzzz__SecurityPermissionFlag_def.hpp"
+#include "System/Security/Permissions/zzzz__PermissionState_def.hpp"
 #include "System/Security/zzzz__IPermission_def.hpp"
 #include "System/Security/zzzz__SecurityElement_def.hpp"
 //  Writing Method size for method: ::System::Security::Permissions::SecurityPermission._ctor

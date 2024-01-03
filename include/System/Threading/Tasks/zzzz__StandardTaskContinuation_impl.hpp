@@ -3,8 +3,8 @@
 #include "System/Threading/Tasks/zzzz__TaskContinuation_impl.hpp"
 #include "System/Threading/Tasks/zzzz__StandardTaskContinuation_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_def.hpp"
-#include "System/Threading/Tasks/zzzz__TaskContinuationOptions_def.hpp"
 #include "System/Threading/Tasks/zzzz__TaskScheduler_def.hpp"
+#include "System/Threading/Tasks/zzzz__TaskContinuationOptions_def.hpp"
 //  Writing Method size for method: ::System::Threading::Tasks::StandardTaskContinuation._ctor
 template <>
 

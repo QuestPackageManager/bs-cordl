@@ -4,20 +4,20 @@
 CORDL_MODULE_INIT
 #include "UnityEngine/InputSystem/zzzz__Gamepad_def.hpp"
 CORDL_MODULE_EXPORT(DualShockGamepad)
-namespace UnityEngine::InputSystem::Haptics {
-class IDualMotorRumble;
-}
 namespace UnityEngine::InputSystem::DualShock {
 class IDualShockHaptics;
 }
-namespace UnityEngine {
-struct Color;
+namespace UnityEngine::InputSystem::Haptics {
+class IDualMotorRumble;
 }
 namespace UnityEngine::InputSystem::Controls {
 class ButtonControl;
 }
 namespace UnityEngine::InputSystem::Haptics {
 class IHaptics;
+}
+namespace UnityEngine {
+struct Color;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::DualShock {

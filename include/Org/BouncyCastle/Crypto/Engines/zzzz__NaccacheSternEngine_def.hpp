@@ -7,12 +7,6 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(NaccacheSternEngine)
-namespace System::Collections {
-class IList;
-}
-namespace Org::BouncyCastle::Crypto {
-class IAsymmetricBlockCipher;
-}
 namespace Org::BouncyCastle::Crypto::Parameters {
 class NaccacheSternKeyParameters;
 }
@@ -21,6 +15,12 @@ class ICipherParameters;
 }
 namespace Org::BouncyCastle::Math {
 class BigInteger;
+}
+namespace Org::BouncyCastle::Crypto {
+class IAsymmetricBlockCipher;
+}
+namespace System::Collections {
+class IList;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Engines {

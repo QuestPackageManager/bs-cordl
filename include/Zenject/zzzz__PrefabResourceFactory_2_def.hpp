@@ -9,17 +9,17 @@ CORDL_MODULE_EXPORT(PrefabResourceFactory_2)
 namespace Zenject {
 class IFactory;
 }
+namespace Zenject {
+class InjectTypeInfo;
+}
 namespace System {
 class Object;
 }
 namespace Zenject {
-class InjectTypeInfo;
+template <typename TParam1, typename TParam2, typename TValue> class IFactory_3;
 }
 namespace Zenject {
 class DiContainer;
-}
-namespace Zenject {
-template <typename TParam1, typename TParam2, typename TValue> class IFactory_3;
 }
 // Forward declare root types
 namespace Zenject {

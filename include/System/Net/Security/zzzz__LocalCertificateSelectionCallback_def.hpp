@@ -7,14 +7,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(LocalCertificateSelectionCallback)
+namespace System::Security::Cryptography::X509Certificates {
+class X509Certificate;
+}
 namespace System {
 class Object;
 }
 namespace System::Security::Cryptography::X509Certificates {
 class X509CertificateCollection;
-}
-namespace System::Security::Cryptography::X509Certificates {
-class X509Certificate;
 }
 // Forward declare root types
 namespace System::Net::Security {

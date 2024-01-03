@@ -2,10 +2,10 @@
 #include "UnityEngine/zzzz__Color_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerPositionDisplay_def.hpp"
-#include "TMPro/zzzz__TextMeshPro_def.hpp"
-#include "GlobalNamespace/zzzz__MultiplayerScoreProvider_def.hpp"
-#include "UnityEngine/zzzz__Color_def.hpp"
 #include "GlobalNamespace/zzzz__IConnectedPlayer_def.hpp"
+#include "UnityEngine/zzzz__Color_def.hpp"
+#include "GlobalNamespace/zzzz__MultiplayerScoreProvider_def.hpp"
+#include "TMPro/zzzz__TextMeshPro_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::MultiplayerPositionDisplay.Start
 template <>
 

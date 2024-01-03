@@ -9,16 +9,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(GUILayoutGroup)
 namespace UnityEngine {
-class GUILayoutOption;
+class GUIStyle;
 }
 namespace UnityEngine {
 class GUILayoutEntry;
 }
-namespace UnityEngine {
-class GUIStyle;
-}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
+}
+namespace UnityEngine {
+class GUILayoutOption;
 }
 // Forward declare root types
 namespace UnityEngine {

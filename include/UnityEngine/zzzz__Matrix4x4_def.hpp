@@ -8,26 +8,26 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(Matrix4x4)
-namespace UnityEngine {
-struct Vector3;
+namespace System {
+class IFormatProvider;
 }
 namespace System {
 class Object;
 }
 namespace System {
-class IFormattable;
+template <typename T> class IEquatable_1;
+}
+namespace UnityEngine {
+struct Quaternion;
 }
 namespace System {
-template <typename T> class IEquatable_1;
+class IFormattable;
 }
 namespace UnityEngine {
 struct Vector4;
 }
-namespace System {
-class IFormatProvider;
-}
 namespace UnityEngine {
-struct Quaternion;
+struct Vector3;
 }
 // Forward declare root types
 namespace UnityEngine {

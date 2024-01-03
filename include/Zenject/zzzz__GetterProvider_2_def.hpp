@@ -6,8 +6,26 @@ CORDL_MODULE_INIT
 #include "Zenject/zzzz__InjectSources_def.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 CORDL_MODULE_EXPORT(GetterProvider_2)
+namespace Zenject {
+struct InjectSources;
+}
+namespace System {
+class Action;
+}
+namespace System {
+class Type;
+}
+namespace System {
+template <typename T, typename TResult> class Func_2;
+}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
+}
+namespace Zenject {
+class DiContainer;
+}
+namespace System {
+class Object;
 }
 namespace Zenject {
 class IProvider;
@@ -15,26 +33,8 @@ class IProvider;
 namespace Zenject {
 class InjectContext;
 }
-namespace System {
-class Type;
-}
-namespace System {
-class Action;
-}
-namespace System {
-template <typename T, typename TResult> class Func_2;
-}
-namespace Zenject {
-class DiContainer;
-}
-namespace Zenject {
-struct InjectSources;
-}
 namespace Zenject {
 struct TypeValuePair;
-}
-namespace System {
-class Object;
 }
 // Forward declare root types
 namespace Zenject {
@@ -48,7 +48,7 @@ namespace Zenject {
 // cpp template
 template <typename TObj, typename TResult>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15712))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15712)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11193))
 // CS Name: ::Zenject::GetterProvider`2<TObj,TResult>*
 class CORDL_TYPE GetterProvider_2 : public ::System::Object {

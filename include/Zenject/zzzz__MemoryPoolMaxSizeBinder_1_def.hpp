@@ -6,7 +6,7 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(MemoryPoolMaxSizeBinder_1)
 namespace Zenject {
-class BindInfo;
+class DiContainer;
 }
 namespace Zenject {
 class FactoryBindInfo;
@@ -15,10 +15,10 @@ namespace Zenject {
 template <typename TContract> class MemoryPoolExpandBinder_1;
 }
 namespace Zenject {
-class DiContainer;
+class MemoryPoolBindInfo;
 }
 namespace Zenject {
-class MemoryPoolBindInfo;
+class BindInfo;
 }
 // Forward declare root types
 namespace Zenject {

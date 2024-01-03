@@ -10,11 +10,86 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(RuntimeType)
+namespace System::Reflection {
+class RuntimeModule;
+}
+namespace System::Runtime::Serialization {
+class ISerializable;
+}
+namespace System::Reflection {
+class MethodInfo;
+}
 namespace System {
-class MonoTypeInfo;
+template <typename T> struct __RuntimeType__ListBuilder_1;
+}
+namespace System::Runtime::Serialization {
+class SerializationInfo;
+}
+namespace System {
+class Type;
 }
 namespace System::Threading {
 struct StackCrawlMark;
+}
+namespace System::Reflection {
+class EventInfo;
+}
+namespace System::Reflection {
+class Binder;
+}
+namespace System {
+struct TypeCode;
+}
+namespace System::Reflection {
+struct BindingFlags;
+}
+namespace System {
+class Object;
+}
+namespace System::Reflection {
+class RuntimeAssembly;
+}
+namespace System::Reflection {
+class Module;
+}
+namespace System {
+class Array;
+}
+namespace System {
+struct Guid;
+}
+namespace System::Reflection {
+struct ParameterModifier;
+}
+namespace System {
+class ICloneable;
+}
+namespace System {
+struct __RuntimeType__MemberListType;
+}
+namespace System::Reflection {
+struct GenericParameterAttributes;
+}
+namespace System::Reflection {
+class RuntimePropertyInfo;
+}
+namespace System::Reflection {
+class RuntimeFieldInfo;
+}
+namespace System::Globalization {
+class CultureInfo;
+}
+namespace System::Runtime::Serialization {
+struct StreamingContext;
+}
+namespace System::Reflection {
+struct TypeAttributes;
+}
+namespace System::Reflection {
+class RuntimeEventInfo;
+}
+namespace System {
+template <typename T1, typename T2, typename TResult> class Func_3;
 }
 namespace System::Reflection {
 class RuntimeMethodInfo;
@@ -22,113 +97,38 @@ class RuntimeMethodInfo;
 namespace System::Reflection {
 struct CallingConventions;
 }
-namespace System::Reflection {
-class PropertyInfo;
-}
-namespace System {
-class Array;
-}
-namespace System::Runtime::Serialization {
-class SerializationInfo;
-}
-namespace System {
-template <typename T> struct __RuntimeType__ListBuilder_1;
-}
-namespace System::Reflection {
-class RuntimeFieldInfo;
-}
-namespace System::Reflection {
-class MemberInfo;
-}
-namespace System::Reflection {
-struct BindingFlags;
-}
-namespace System::Reflection {
-class RuntimeEventInfo;
-}
-namespace System::Reflection {
-class MethodInfo;
-}
-namespace System::Reflection {
-class RuntimePropertyInfo;
-}
-namespace System {
-struct TypeCode;
-}
-namespace System {
-class Object;
-}
-namespace System::Reflection {
-class MethodBase;
-}
-namespace System::Reflection {
-class Binder;
-}
 namespace System {
 struct TypeNameKind;
 }
 namespace System::Reflection {
-struct ParameterModifier;
-}
-namespace System::Reflection {
-class Module;
-}
-namespace System {
-struct Guid;
-}
-namespace System {
-struct __RuntimeType__MemberListType;
-}
-namespace System {
-class ICloneable;
-}
-namespace System::Reflection {
-class FieldInfo;
+class ConstructorInfo;
 }
 namespace System::Reflection {
 class RuntimeConstructorInfo;
-}
-namespace System::Reflection {
-class ConstructorInfo;
-}
-namespace System {
-class Type;
-}
-namespace System::Reflection {
-struct TypeAttributes;
-}
-namespace System::Reflection {
-struct MemberTypes;
-}
-namespace System::Reflection {
-class Assembly;
-}
-namespace System::Runtime::Serialization {
-class ISerializable;
-}
-namespace System::Runtime::Serialization {
-struct StreamingContext;
 }
 namespace System {
 struct RuntimeTypeHandle;
 }
 namespace System::Reflection {
-class RuntimeModule;
+class MemberInfo;
 }
 namespace System::Reflection {
-class RuntimeAssembly;
-}
-namespace System::Globalization {
-class CultureInfo;
+class FieldInfo;
 }
 namespace System::Reflection {
-struct GenericParameterAttributes;
+class PropertyInfo;
+}
+namespace System::Reflection {
+class MethodBase;
+}
+namespace System::Reflection {
+class Assembly;
+}
+namespace System::Reflection {
+struct MemberTypes;
 }
 namespace System {
-template <typename T1, typename T2, typename TResult> class Func_3;
-}
-namespace System::Reflection {
-class EventInfo;
+class MonoTypeInfo;
 }
 // Forward declare root types
 namespace System {
@@ -267,7 +267,7 @@ public:
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3502)), TypeDefinitionIndex(TypeDefinitionIndex(3459))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3459)), TypeDefinitionIndex(TypeDefinitionIndex(3502))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2567))
 // CS Name: ::System::RuntimeType*
 class CORDL_TYPE RuntimeType : public ::System::Reflection::TypeInfo {

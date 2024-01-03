@@ -1,14 +1,14 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__GamePause_def.hpp"
-#include "GlobalNamespace/zzzz__IScoreController_def.hpp"
-#include "System/zzzz__Action_def.hpp"
-#include "GlobalNamespace/zzzz__GameEnergyCounter_def.hpp"
 #include "GlobalNamespace/zzzz__SaberManager_def.hpp"
-#include "GlobalNamespace/zzzz__SongController_def.hpp"
-#include "GlobalNamespace/zzzz__AudioListenerController_def.hpp"
+#include "System/zzzz__Action_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapObjectExecutionRatingsRecorder_def.hpp"
+#include "GlobalNamespace/zzzz__IScoreController_def.hpp"
 #include "GlobalNamespace/zzzz__PlayerHeadAndObstacleInteraction_def.hpp"
+#include "GlobalNamespace/zzzz__SongController_def.hpp"
+#include "GlobalNamespace/zzzz__GameEnergyCounter_def.hpp"
+#include "GlobalNamespace/zzzz__AudioListenerController_def.hpp"
 #include "GlobalNamespace/zzzz__IGamePause_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::GamePause.get_isPaused
 template <>

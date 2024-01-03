@@ -8,6 +8,18 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(ComputedTransitionUtils)
+namespace UnityEngine::UIElements {
+struct ComputedStyle;
+}
+namespace UnityEngine::UIElements {
+struct EasingMode;
+}
+namespace UnityEngine::UIElements {
+struct StylePropertyName;
+}
+namespace UnityEngine::UIElements {
+struct ComputedTransitionProperty;
+}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
@@ -17,23 +29,11 @@ class __ComputedTransitionUtils____c;
 namespace UnityEngine::UIElements {
 struct TimeValue;
 }
-namespace UnityEngine::UIElements {
-struct EasingMode;
-}
 namespace System {
 template <typename T, typename TResult> class Func_2;
 }
-namespace UnityEngine::UIElements {
-struct ComputedTransitionProperty;
-}
-namespace UnityEngine::UIElements {
-struct ComputedStyle;
-}
 namespace UnityEngine::UIElements::StyleSheets {
 struct StylePropertyId;
-}
-namespace UnityEngine::UIElements {
-struct StylePropertyName;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

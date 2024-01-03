@@ -12,13 +12,13 @@ namespace UnityEngine::Playables {
 struct __FrameData__Flags;
 }
 namespace UnityEngine::Playables {
-struct PlayState;
-}
-namespace UnityEngine::Playables {
 struct __FrameData__EvaluationType;
 }
 namespace UnityEngine::Playables {
 struct PlayableOutput;
+}
+namespace UnityEngine::Playables {
+struct PlayState;
 }
 // Forward declare root types
 namespace UnityEngine::Playables {
@@ -154,7 +154,7 @@ static_assert(offsetof(::UnityEngine::Playables::__FrameData__EvaluationType, va
 // SizeInfo { instance_size: 64, native_size: 64, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Playables {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10416)), TypeDefinitionIndex(TypeDefinitionIndex(10438))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10438)), TypeDefinitionIndex(TypeDefinitionIndex(10416))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10418))
 // CS Name: ::UnityEngine.Playables::FrameData
 struct CORDL_TYPE FrameData {

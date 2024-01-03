@@ -7,22 +7,22 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(PlayableAsset)
 namespace UnityEngine::Playables {
-struct Playable;
-}
-namespace UnityEngine::Playables {
 class IPlayableAsset;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
 namespace UnityEngine::Playables {
-struct PlayableBinding;
+struct PlayableGraph;
 }
 namespace UnityEngine::Playables {
-struct PlayableGraph;
+struct PlayableBinding;
 }
 namespace UnityEngine {
 class GameObject;
+}
+namespace UnityEngine::Playables {
+struct Playable;
 }
 // Forward declare root types
 namespace UnityEngine::Playables {

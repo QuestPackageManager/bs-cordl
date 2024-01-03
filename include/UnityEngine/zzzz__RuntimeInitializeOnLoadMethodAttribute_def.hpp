@@ -18,7 +18,7 @@ MARK_REF_PTR_T(::UnityEngine::RuntimeInitializeOnLoadMethodAttribute);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10194)), TypeDefinitionIndex(TypeDefinitionIndex(10317))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10317)), TypeDefinitionIndex(TypeDefinitionIndex(10194))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10195))
 // CS Name: ::UnityEngine::RuntimeInitializeOnLoadMethodAttribute*
 class CORDL_TYPE RuntimeInitializeOnLoadMethodAttribute : public ::UnityEngine::Scripting::PreserveAttribute {

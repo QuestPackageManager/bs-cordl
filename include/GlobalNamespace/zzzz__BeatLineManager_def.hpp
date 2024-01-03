@@ -5,26 +5,26 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(BeatLineManager)
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace GlobalNamespace {
+class BeatmapObjectManager;
+}
+namespace GlobalNamespace {
+class AudioTimeSyncController;
+}
+namespace UnityEngine {
+struct Vector4;
+}
+namespace GlobalNamespace {
+class BeatLine;
 }
 namespace GlobalNamespace {
 class __BeatLine__Pool;
 }
 namespace GlobalNamespace {
-class AudioTimeSyncController;
-}
-namespace GlobalNamespace {
-class BeatmapObjectManager;
-}
-namespace GlobalNamespace {
 class NoteController;
 }
-namespace GlobalNamespace {
-class BeatLine;
-}
-namespace UnityEngine {
-struct Vector4;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;

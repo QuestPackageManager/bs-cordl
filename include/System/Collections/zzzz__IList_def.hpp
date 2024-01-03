@@ -8,10 +8,10 @@ namespace System {
 class Object;
 }
 namespace System::Collections {
-class IEnumerable;
+class ICollection;
 }
 namespace System::Collections {
-class ICollection;
+class IEnumerable;
 }
 // Forward declare root types
 namespace System::Collections {

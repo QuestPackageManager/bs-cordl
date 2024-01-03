@@ -2,9 +2,9 @@
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Xml/zzzz__XmlQualifiedName_def.hpp"
-#include "System/Xml/zzzz__IXmlNamespaceResolver_def.hpp"
-#include "System/zzzz__Object_def.hpp"
 #include "System/Xml/zzzz__XmlQualifiedName_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+#include "System/Xml/zzzz__IXmlNamespaceResolver_def.hpp"
 //  Writing Method size for method: ::System::Xml::__XmlQualifiedName__HashCodeOfStringDelegate._ctor
 template <>
 

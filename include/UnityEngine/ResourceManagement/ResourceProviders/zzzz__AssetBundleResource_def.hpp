@@ -10,32 +10,32 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(AssetBundleResource)
-namespace UnityEngine {
-class AsyncOperation;
-}
-namespace UnityEngine::ResourceManagement::ResourceProviders {
-class IAssetBundleResource;
-}
-namespace UnityEngine::Networking {
-class DownloadHandlerAssetBundle;
-}
-namespace UnityEngine::ResourceManagement::ResourceLocations {
-class IResourceLocation;
-}
 namespace UnityEngine::ResourceManagement {
 class IUpdateReceiver;
+}
+namespace UnityEngine {
+class AssetBundleRequest;
+}
+namespace UnityEngine::ResourceManagement {
+class ResourceManager;
+}
+namespace UnityEngine::ResourceManagement::ResourceProviders {
+struct ProvideHandle;
 }
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 struct __AssetBundleResource__LoadType;
 }
+namespace UnityEngine::Networking {
+class DownloadHandlerAssetBundle;
+}
 namespace UnityEngine::ResourceManagement {
 class WebRequestQueueOperation;
 }
+namespace UnityEngine::ResourceManagement::ResourceLocations {
+class IResourceLocation;
+}
 namespace UnityEngine::Networking {
 class UnityWebRequest;
-}
-namespace UnityEngine::ResourceManagement::AsyncOperations {
-struct DownloadStatus;
 }
 namespace UnityEngine::Networking {
 class UnityWebRequestAsyncOperation;
@@ -44,19 +44,19 @@ namespace System {
 template <typename T> class Action_1;
 }
 namespace UnityEngine::ResourceManagement::ResourceProviders {
-class AssetBundleRequestOptions;
+class IAssetBundleResource;
 }
 namespace UnityEngine::ResourceManagement::ResourceProviders {
-struct ProvideHandle;
+class AssetBundleRequestOptions;
 }
 namespace UnityEngine {
 class AssetBundle;
 }
-namespace UnityEngine::ResourceManagement {
-class ResourceManager;
-}
 namespace UnityEngine {
-class AssetBundleRequest;
+class AsyncOperation;
+}
+namespace UnityEngine::ResourceManagement::AsyncOperations {
+struct DownloadStatus;
 }
 // Forward declare root types
 namespace UnityEngine::ResourceManagement::ResourceProviders {

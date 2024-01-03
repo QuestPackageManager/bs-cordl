@@ -3,8 +3,8 @@
 #include "UnityEngine/InputSystem/Utilities/zzzz__TypeHelpers_def.hpp"
 #include "System/zzzz__Type_def.hpp"
 #include "System/Reflection/zzzz__MemberInfo_def.hpp"
-#include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__TypeCode_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::UnityEngine::InputSystem::Utilities::TypeHelpers.IsInt
 template <>
 

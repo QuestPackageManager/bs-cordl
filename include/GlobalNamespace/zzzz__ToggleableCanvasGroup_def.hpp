@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(ToggleableCanvasGroup)
-namespace UnityEngine {
-class CanvasGroup;
-}
 namespace UnityEngine::UI {
 class Toggle;
+}
+namespace UnityEngine {
+class CanvasGroup;
 }
 // Forward declare root types
 namespace GlobalNamespace {

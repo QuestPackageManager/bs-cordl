@@ -5,50 +5,47 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(OVRExtensions)
-namespace GlobalNamespace {
-struct __OVRPlugin__Sizef;
-}
-namespace UnityEngine {
-struct Vector3;
+namespace Unity::Collections {
+template <typename T> struct NativeArray_1;
 }
 namespace GlobalNamespace {
-struct __OVRPlugin__Vector3f;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__Vector4f;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__Frustumf;
-}
-namespace UnityEngine {
-class Transform;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__Posef;
-}
-namespace UnityEngine {
-struct Quaternion;
-}
-namespace UnityEngine {
-struct Matrix4x4;
-}
-namespace UnityEngine {
-class Camera;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__Size3f;
-}
-namespace UnityEngine {
-class Gradient;
+struct __OVRTracker__Frustum;
 }
 namespace GlobalNamespace {
 struct __OVRPlugin__Quatf;
 }
 namespace GlobalNamespace {
-struct __OVRPlugin__SpaceStorageLocation;
+struct __OVRPlugin__Colorf;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
+namespace UnityEngine {
+struct Vector3;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__Vector4f;
+}
+namespace UnityEngine {
+class Camera;
+}
+namespace UnityEngine {
+struct Quaternion;
+}
+namespace UnityEngine {
+class Gradient;
+}
+namespace UnityEngine {
+struct Vector2;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__Size3f;
+}
+namespace GlobalNamespace {
+template <typename T> struct OVREnumerable_1;
+}
+namespace UnityEngine {
+struct Matrix4x4;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__Frustumf;
 }
 namespace GlobalNamespace {
 struct OVRPose;
@@ -57,34 +54,37 @@ namespace GlobalNamespace {
 struct __OVRPlugin__Vector2f;
 }
 namespace UnityEngine {
-struct Vector2;
-}
-namespace GlobalNamespace {
-struct __OVRTracker__Frustum;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__Colorf;
-}
-namespace GlobalNamespace {
-template <typename T> struct OVREnumerable_1;
+class Transform;
 }
 namespace UnityEngine {
 struct Vector4;
 }
+namespace OVR::OpenVR {
+struct HmdMatrix34_t;
+}
 namespace GlobalNamespace {
 struct __OVRSpace__StorageLocation;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__SpaceStorageLocation;
+}
+namespace UnityEngine {
+struct Color;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__Sizef;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__Posef;
 }
 namespace Unity::Collections {
 struct Allocator;
 }
-namespace Unity::Collections {
-template <typename T> struct NativeArray_1;
+namespace GlobalNamespace {
+struct __OVRPlugin__Vector3f;
 }
-namespace OVR::OpenVR {
-struct HmdMatrix34_t;
-}
-namespace UnityEngine {
-struct Color;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {

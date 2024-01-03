@@ -4,13 +4,13 @@
 #include "UnityEngine/Rendering/zzzz__CompareFunction_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__StencilOp_impl.hpp"
 #include "UnityEngine/UI/zzzz__StencilMaterial_def.hpp"
-#include "UnityEngine/Rendering/zzzz__ColorWriteMask_def.hpp"
-#include "UnityEngine/zzzz__Object_def.hpp"
 #include "UnityEngine/zzzz__Material_def.hpp"
-#include "UnityEngine/UI/zzzz__StencilMaterial_def.hpp"
 #include "UnityEngine/Rendering/zzzz__StencilOp_def.hpp"
 #include "UnityEngine/Rendering/zzzz__CompareFunction_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "UnityEngine/zzzz__Object_def.hpp"
+#include "UnityEngine/Rendering/zzzz__ColorWriteMask_def.hpp"
+#include "UnityEngine/UI/zzzz__StencilMaterial_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UI::__StencilMaterial__MatEntry._ctor
 template <>
 

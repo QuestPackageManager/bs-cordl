@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include "System/zzzz__TypeLoadException_def.hpp"
 CORDL_MODULE_EXPORT(TypeAccessException)
 namespace System::Runtime::Serialization {
-class SerializationInfo;
+struct StreamingContext;
 }
 namespace System::Runtime::Serialization {
-struct StreamingContext;
+class SerializationInfo;
 }
 // Forward declare root types
 namespace System {

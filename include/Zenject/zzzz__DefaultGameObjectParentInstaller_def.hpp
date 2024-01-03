@@ -11,16 +11,16 @@ namespace System {
 class Object;
 }
 namespace Zenject {
-class InjectTypeInfo;
-}
-namespace Zenject {
 class __DefaultGameObjectParentInstaller__DefaultParentObjectDestroyer;
 }
-namespace UnityEngine {
-class GameObject;
+namespace Zenject {
+class InjectTypeInfo;
 }
 namespace System {
 class IDisposable;
+}
+namespace UnityEngine {
+class GameObject;
 }
 // Forward declare root types
 namespace Zenject {

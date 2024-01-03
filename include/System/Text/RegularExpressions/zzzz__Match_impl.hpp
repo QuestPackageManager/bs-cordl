@@ -1,8 +1,8 @@
 #pragma once
 #include "System/Text/RegularExpressions/zzzz__Group_impl.hpp"
 #include "System/Text/RegularExpressions/zzzz__Match_def.hpp"
-#include "System/Text/RegularExpressions/zzzz__GroupCollection_def.hpp"
 #include "System/Text/RegularExpressions/zzzz__Regex_def.hpp"
+#include "System/Text/RegularExpressions/zzzz__GroupCollection_def.hpp"
 #include "System/zzzz__ReadOnlySpan_1_def.hpp"
 //  Writing Method size for method: ::System::Text::RegularExpressions::Match._ctor
 template <>

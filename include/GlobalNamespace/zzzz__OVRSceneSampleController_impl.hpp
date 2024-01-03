@@ -3,9 +3,9 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRSceneSampleController_def.hpp"
 #include "GlobalNamespace/zzzz__OVRPlayerController_def.hpp"
-#include "GlobalNamespace/zzzz__OVRGridCube_def.hpp"
-#include "GlobalNamespace/zzzz__OVRCameraRig_def.hpp"
 #include "UnityEngine/zzzz__Texture_def.hpp"
+#include "GlobalNamespace/zzzz__OVRCameraRig_def.hpp"
+#include "GlobalNamespace/zzzz__OVRGridCube_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::OVRSceneSampleController.Awake
 template <>
 

@@ -10,20 +10,11 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(WaypointsTestMenuViewController)
-namespace UnityEngine::UI {
-class Button;
-}
-namespace TMPro {
-class TextMeshProUGUI;
-}
 namespace GlobalNamespace {
 class LevelCompletionResults;
 }
 namespace GlobalNamespace {
 class ICoroutineStarter;
-}
-namespace GlobalNamespace {
-class BeatmapCharacteristicSO;
 }
 namespace Zenject {
 class DiContainer;
@@ -32,25 +23,34 @@ namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace GlobalNamespace {
-class BeatmapLevelSO;
-}
-namespace GlobalNamespace {
-class GameScenesManager;
-}
-namespace GlobalNamespace {
-class __WaypointsTestMenuViewController___CheckBeatmaps_d__14;
-}
-namespace System::Collections {
-class IEnumerator;
-}
-namespace GlobalNamespace {
-class StandardLevelScenesTransitionSetupDataSO;
+class BeatmapCharacteristicSO;
 }
 namespace HMUI {
 class ButtonBinder;
 }
 namespace GlobalNamespace {
+class __WaypointsTestMenuViewController___CheckBeatmaps_d__14;
+}
+namespace GlobalNamespace {
+class StandardLevelScenesTransitionSetupDataSO;
+}
+namespace GlobalNamespace {
+class GameScenesManager;
+}
+namespace GlobalNamespace {
 class PlayerDataModel;
+}
+namespace UnityEngine::UI {
+class Button;
+}
+namespace GlobalNamespace {
+class BeatmapLevelSO;
+}
+namespace TMPro {
+class TextMeshProUGUI;
+}
+namespace System::Collections {
+class IEnumerator;
 }
 namespace GlobalNamespace {
 struct BeatmapDifficulty;
@@ -58,11 +58,11 @@ struct BeatmapDifficulty;
 namespace System {
 class IDisposable;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
-}
 namespace System {
 class Object;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -78,9 +78,9 @@ MARK_REF_PTR_T(::GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatm
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 156, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4375)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3842), inst: 1689 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(14717)), TypeDefinitionIndex(TypeDefinitionIndex(4241)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3842), inst: 284 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(3842)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3842), inst: 1688 })} Self:
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14717)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3842), inst: 284 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(3842)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3842), inst: 1689 }), TypeDefinitionIndex(TypeDefinitionIndex(2613)),
+// TypeDefinitionIndex(TypeDefinitionIndex(4375)), TypeDefinitionIndex(TypeDefinitionIndex(4241)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3842), inst: 1688 })} Self:
 // TypeDefinitionIndex(TypeDefinitionIndex(3998)) CS Name: ::WaypointsTestMenuViewController::<CheckBeatmaps>d__14*
 class CORDL_TYPE __WaypointsTestMenuViewController___CheckBeatmaps_d__14 : public ::System::Object {
 public:

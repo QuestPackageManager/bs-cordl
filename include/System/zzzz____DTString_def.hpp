@@ -9,17 +9,17 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(__DTString)
+namespace System {
+template <typename T> struct ReadOnlySpan_1;
+}
+namespace System {
+struct DTSubString;
+}
 namespace System::Globalization {
 class DateTimeFormatInfo;
 }
 namespace System::Globalization {
 class CompareInfo;
-}
-namespace System {
-struct DTSubString;
-}
-namespace System {
-template <typename T> struct ReadOnlySpan_1;
 }
 namespace System {
 struct TokenType;

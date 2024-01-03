@@ -5,13 +5,13 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(ValuePair)
 namespace ModestTree::Util {
-template <typename T1, typename T2> class ValuePair_2;
-}
-namespace ModestTree::Util {
 template <typename T1, typename T2, typename T3, typename T4> class ValuePair_4;
 }
 namespace ModestTree::Util {
 template <typename T1, typename T2, typename T3> class ValuePair_3;
+}
+namespace ModestTree::Util {
+template <typename T1, typename T2> class ValuePair_2;
 }
 // Forward declare root types
 namespace ModestTree::Util {

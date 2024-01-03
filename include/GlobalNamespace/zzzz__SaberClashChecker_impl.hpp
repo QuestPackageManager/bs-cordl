@@ -2,9 +2,9 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "GlobalNamespace/zzzz__SaberClashChecker_def.hpp"
-#include "GlobalNamespace/zzzz__Saber_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "GlobalNamespace/zzzz__SaberManager_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "GlobalNamespace/zzzz__Saber_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::SaberClashChecker.Init
 template <>
 

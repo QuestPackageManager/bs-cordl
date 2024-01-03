@@ -21,7 +21,7 @@ MARK_REF_PTR_T(::GlobalNamespace::MultipliedColorSO);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(16207)), TypeDefinitionIndex(TypeDefinitionIndex(10251))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(16207))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(16209))
 // CS Name: ::MultipliedColorSO*
 class CORDL_TYPE MultipliedColorSO : public ::GlobalNamespace::ColorSO {

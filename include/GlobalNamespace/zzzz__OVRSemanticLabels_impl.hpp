@@ -2,10 +2,10 @@
 #include "GlobalNamespace/zzzz__OVRSemanticLabels_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
 #include "GlobalNamespace/zzzz__OVRAnchor_def.hpp"
-#include "GlobalNamespace/zzzz__IOVRAnchorComponent_1_def.hpp"
-#include "GlobalNamespace/zzzz__OVRTask_1_def.hpp"
-#include "GlobalNamespace/zzzz__OVRPlugin_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "GlobalNamespace/zzzz__OVRTask_1_def.hpp"
+#include "GlobalNamespace/zzzz__IOVRAnchorComponent_1_def.hpp"
+#include "GlobalNamespace/zzzz__OVRPlugin_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::OVRSemanticLabels.IOVRAnchorComponent_OVRSemanticLabels__get_Type
 template <>
 

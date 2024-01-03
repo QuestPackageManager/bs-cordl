@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(Livestreaming)
-namespace Oculus::Platform::Models {
-class LivestreamingStatus;
-}
 namespace Oculus::Platform {
 template <typename T> class __Message_1__Callback;
+}
+namespace Oculus::Platform::Models {
+class LivestreamingStatus;
 }
 // Forward declare root types
 namespace Oculus::Platform {

@@ -4,14 +4,14 @@
 CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(BlueNoiseDitheringUpdater)
+namespace UnityEngine {
+class Camera;
+}
 namespace GlobalNamespace {
 class BlueNoiseDithering;
 }
 namespace GlobalNamespace {
 class RandomValueToShader;
-}
-namespace UnityEngine {
-class Camera;
 }
 // Forward declare root types
 namespace GlobalNamespace {

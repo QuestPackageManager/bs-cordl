@@ -8,25 +8,25 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(IVRDriverManager)
 namespace System {
-class IAsyncResult;
-}
-namespace System {
 class Object;
 }
 namespace System {
 class AsyncCallback;
 }
+namespace System {
+class IAsyncResult;
+}
 namespace System::Text {
 class StringBuilder;
+}
+namespace OVR::OpenVR {
+class __IVRDriverManager___GetDriverCount;
 }
 namespace OVR::OpenVR {
 class __IVRDriverManager___GetDriverName;
 }
 namespace OVR::OpenVR {
 class __IVRDriverManager___GetDriverHandle;
-}
-namespace OVR::OpenVR {
-class __IVRDriverManager___GetDriverCount;
 }
 // Forward declare root types
 namespace OVR::OpenVR {

@@ -8,11 +8,11 @@ CORDL_MODULE_EXPORT(Test_Collider_Extensions)
 namespace HoudiniEngineUnity {
 class __Test_Collider_Extensions____c;
 }
-namespace UnityEngine {
-class Collider;
-}
 namespace HoudiniEngineUnity {
 class Test_Collider;
+}
+namespace UnityEngine {
+class Collider;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;

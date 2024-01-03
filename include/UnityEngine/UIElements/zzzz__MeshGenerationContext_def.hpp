@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(MeshGenerationContext)
 namespace UnityEngine::UIElements {
-struct __MeshGenerationContext__MeshFlags;
+class IStylePainter;
 }
 namespace UnityEngine::UIElements {
-class IStylePainter;
+struct __MeshGenerationContext__MeshFlags;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

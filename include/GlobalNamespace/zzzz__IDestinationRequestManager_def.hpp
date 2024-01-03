@@ -3,11 +3,11 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IDestinationRequestManager)
-namespace GlobalNamespace {
-class MenuDestination;
-}
 namespace System {
 template <typename T> class Action_1;
+}
+namespace GlobalNamespace {
+class MenuDestination;
 }
 // Forward declare root types
 namespace GlobalNamespace {

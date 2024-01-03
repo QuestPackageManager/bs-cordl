@@ -13,34 +13,31 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(InputFieldView)
 namespace HMUI {
+class __InputFieldView___BlinkingCaretCoroutine_d__43;
+}
+namespace HMUI {
 class ImageView;
 }
-namespace System {
-template <typename T> class Action_1;
+namespace UnityEngine {
+class CanvasGroup;
+}
+namespace UnityEngine {
+class GameObject;
+}
+namespace UnityEngine {
+struct Vector3;
+}
+namespace System::Collections {
+class IEnumerator;
 }
 namespace HMUI {
-class ButtonBinder;
-}
-namespace HMUI {
-struct __InputFieldView__SelectionState;
+class __InputFieldView__InputFieldChanged;
 }
 namespace UnityEngine::UI {
 class Button;
 }
 namespace HMUI {
-class UIKeyboard;
-}
-namespace HMUI {
-class __InputFieldView___BlinkingCaretCoroutine_d__43;
-}
-namespace UnityEngine {
-struct Vector3;
-}
-namespace TMPro {
-class TextMeshProUGUI;
-}
-namespace UnityEngine {
-class GameObject;
+class ButtonBinder;
 }
 namespace UnityEngine {
 class YieldInstruction;
@@ -48,14 +45,17 @@ class YieldInstruction;
 namespace UnityEngine::UI {
 struct __Selectable__SelectionState;
 }
+namespace TMPro {
+class TextMeshProUGUI;
+}
 namespace HMUI {
-class __InputFieldView__InputFieldChanged;
+class UIKeyboard;
 }
-namespace UnityEngine {
-class CanvasGroup;
+namespace HMUI {
+struct __InputFieldView__SelectionState;
 }
-namespace System::Collections {
-class IEnumerator;
+namespace System {
+template <typename T> class Action_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
@@ -150,7 +150,7 @@ static_assert(offsetof(::HMUI::__InputFieldView__SelectionState, value__) == 0x0
 // SizeInfo { instance_size: 376, native_size: -1, calculated_instance_size: 376, calculated_native_size: 376, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13629)), TypeDefinitionIndex(TypeDefinitionIndex(13119)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13119)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(13629))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13632))
 // CS Name: ::HMUI::InputFieldView*
 class CORDL_TYPE InputFieldView : public ::UnityEngine::UI::Selectable {
@@ -511,8 +511,8 @@ static_assert(offsetof(::HMUI::InputFieldView, ____blinkWaitYieldInstruction) ==
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13632)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10465), inst: 331 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(10465))} Self: TypeDefinitionIndex(TypeDefinitionIndex(13630)) CS Name: ::InputFieldView::InputFieldChanged*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13632)), TypeDefinitionIndex(TypeDefinitionIndex(10465)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10465), inst:
+// 331 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(13630)) CS Name: ::InputFieldView::InputFieldChanged*
 class CORDL_TYPE __InputFieldView__InputFieldChanged : public ::UnityEngine::Events::UnityEvent_1<::HMUI::InputFieldView*> {
 public:
   // Declarations

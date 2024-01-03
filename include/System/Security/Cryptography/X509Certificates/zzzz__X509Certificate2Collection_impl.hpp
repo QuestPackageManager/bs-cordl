@@ -1,8 +1,8 @@
 #pragma once
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509CertificateCollection_impl.hpp"
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509Certificate2Collection_def.hpp"
-#include "System/Security/Cryptography/X509Certificates/zzzz__X509FindType_def.hpp"
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509Certificate2Enumerator_def.hpp"
+#include "System/Security/Cryptography/X509Certificates/zzzz__X509FindType_def.hpp"
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509Certificate2_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::System::Security::Cryptography::X509Certificates::X509Certificate2Collection._ctor

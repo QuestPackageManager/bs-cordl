@@ -4,6 +4,12 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(TimeStampedDataParser)
+namespace Org::BouncyCastle::Asn1 {
+class DerIA5String;
+}
+namespace Org::BouncyCastle::Asn1::Cms {
+class MetaData;
+}
 namespace Org::BouncyCastle::Asn1::Cms {
 class Evidence;
 }
@@ -11,19 +17,13 @@ namespace System {
 class Object;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1OctetStringParser;
+class Asn1SequenceParser;
 }
 namespace Org::BouncyCastle::Asn1 {
 class DerInteger;
 }
-namespace Org::BouncyCastle::Asn1::Cms {
-class MetaData;
-}
 namespace Org::BouncyCastle::Asn1 {
-class DerIA5String;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1SequenceParser;
+class Asn1OctetStringParser;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Cms {

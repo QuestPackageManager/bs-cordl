@@ -9,17 +9,17 @@ CORDL_MODULE_EXPORT(MemoryTraceWriter)
 namespace System::Diagnostics {
 struct TraceLevel;
 }
-namespace System {
-class Exception;
-}
-namespace Newtonsoft::Json::Serialization {
-class ITraceWriter;
+namespace System::Collections::Generic {
+template <typename T> class Queue_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
-namespace System::Collections::Generic {
-template <typename T> class Queue_1;
+namespace Newtonsoft::Json::Serialization {
+class ITraceWriter;
+}
+namespace System {
+class Exception;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Serialization {

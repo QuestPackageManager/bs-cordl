@@ -1,9 +1,9 @@
 #pragma once
 #include "System/IO/zzzz__StreamWriter_impl.hpp"
 #include "System/IO/zzzz__CStreamWriter_def.hpp"
-#include "System/zzzz__TermInfoDriver_def.hpp"
-#include "System/IO/zzzz__Stream_def.hpp"
 #include "System/Text/zzzz__Encoding_def.hpp"
+#include "System/IO/zzzz__Stream_def.hpp"
+#include "System/zzzz__TermInfoDriver_def.hpp"
 //  Writing Method size for method: ::System::IO::CStreamWriter._ctor
 template <>
 

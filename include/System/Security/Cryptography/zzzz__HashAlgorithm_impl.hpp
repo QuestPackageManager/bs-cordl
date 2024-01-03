@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Security/Cryptography/zzzz__HashAlgorithm_def.hpp"
-#include "System/Security/Cryptography/zzzz__ICryptoTransform_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
+#include "System/Security/Cryptography/zzzz__ICryptoTransform_def.hpp"
 //  Writing Method size for method: ::System::Security::Cryptography::HashAlgorithm._ctor
 template <>
 

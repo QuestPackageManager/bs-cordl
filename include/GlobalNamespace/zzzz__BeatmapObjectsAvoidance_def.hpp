@@ -8,14 +8,26 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(BeatmapObjectsAvoidance)
-namespace UnityEngine {
-class Transform;
+namespace GlobalNamespace {
+class IAudioTimeSource;
 }
 namespace GlobalNamespace {
 class IBeatmapObjectSpawnController;
 }
 namespace GlobalNamespace {
-struct OffsetDirection;
+class BeatmapObjectAvoidancePathEvaluator;
+}
+namespace GlobalNamespace {
+class BeatmapObjectAvoidanceTiltEvaluator;
+}
+namespace UnityEngine {
+class Transform;
+}
+namespace GlobalNamespace {
+class IReadonlyBeatmapData;
+}
+namespace GlobalNamespace {
+class PlayerTransforms;
 }
 namespace GlobalNamespace {
 class BezierSplineEvaluator;
@@ -24,22 +36,10 @@ namespace UnityEngine {
 struct Vector2;
 }
 namespace GlobalNamespace {
-class IReadonlyBeatmapData;
-}
-namespace GlobalNamespace {
-class BeatmapObjectAvoidanceTiltEvaluator;
-}
-namespace GlobalNamespace {
-class IAudioTimeSource;
-}
-namespace GlobalNamespace {
-class PlayerTransforms;
+struct OffsetDirection;
 }
 namespace GlobalNamespace {
 class BeatmapObjectAvoidanceYOffsetEvaluator;
-}
-namespace GlobalNamespace {
-class BeatmapObjectAvoidancePathEvaluator;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -51,7 +51,7 @@ MARK_REF_PTR_T(::GlobalNamespace::BeatmapObjectsAvoidance);
 // SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10243))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3961))
 // CS Name: ::BeatmapObjectsAvoidance*
 class CORDL_TYPE BeatmapObjectsAvoidance : public ::UnityEngine::MonoBehaviour {

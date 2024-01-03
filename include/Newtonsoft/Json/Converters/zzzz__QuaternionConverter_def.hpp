@@ -6,28 +6,28 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(QuaternionConverter)
 namespace Newtonsoft::Json {
-class JsonWriter;
+class JsonReader;
 }
 namespace System {
 class Object;
-}
-namespace System {
-class Type;
-}
-namespace Newtonsoft::Json {
-class JsonReader;
-}
-namespace Newtonsoft::Json::Converters {
-class __QuaternionConverter____c;
 }
 namespace Newtonsoft::Json {
 class JsonSerializer;
 }
 namespace System {
-template <typename T, typename TResult> class Func_2;
+class Type;
+}
+namespace Newtonsoft::Json {
+class JsonWriter;
+}
+namespace Newtonsoft::Json::Converters {
+class __QuaternionConverter____c;
 }
 namespace Newtonsoft::Json::Linq {
 class JProperty;
+}
+namespace System {
+template <typename T, typename TResult> class Func_2;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Converters {

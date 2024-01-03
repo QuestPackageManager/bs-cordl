@@ -10,7 +10,7 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(NamedValue)
 namespace System {
-struct TypeCode;
+class Object;
 }
 namespace System {
 template <typename T> class IEquatable_1;
@@ -19,7 +19,7 @@ namespace UnityEngine::InputSystem::Utilities {
 struct PrimitiveValue;
 }
 namespace System {
-class Object;
+struct TypeCode;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::Utilities {

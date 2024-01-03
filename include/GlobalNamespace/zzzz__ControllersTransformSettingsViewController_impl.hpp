@@ -1,9 +1,9 @@
 #pragma once
 #include "HMUI/zzzz__ViewController_impl.hpp"
 #include "GlobalNamespace/zzzz__ControllersTransformSettingsViewController_def.hpp"
-#include "GlobalNamespace/zzzz__Vector3SO_def.hpp"
-#include "GlobalNamespace/zzzz__IVRPlatformHelper_def.hpp"
 #include "HMUI/zzzz__RangeValuesTextSlider_def.hpp"
+#include "GlobalNamespace/zzzz__IVRPlatformHelper_def.hpp"
+#include "GlobalNamespace/zzzz__Vector3SO_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::ControllersTransformSettingsViewController.DidActivate
 template <>
 

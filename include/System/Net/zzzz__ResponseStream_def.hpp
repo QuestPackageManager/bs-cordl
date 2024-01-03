@@ -7,26 +7,26 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ResponseStream)
+namespace System::IO {
+class Stream;
+}
 namespace System {
-class IAsyncResult;
+class AsyncCallback;
+}
+namespace System {
+class Object;
 }
 namespace System::IO {
 struct SeekOrigin;
+}
+namespace System {
+class IAsyncResult;
 }
 namespace System::IO {
 class MemoryStream;
 }
 namespace System::Net {
 class HttpListenerResponse;
-}
-namespace System {
-class Object;
-}
-namespace System {
-class AsyncCallback;
-}
-namespace System::IO {
-class Stream;
 }
 // Forward declare root types
 namespace System::Net {

@@ -10,14 +10,29 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(LIV)
+namespace UnityEngine {
+class Coroutine;
+}
 namespace System {
 class Action;
 }
 namespace System {
 template <typename T> class Action_1;
 }
+namespace System::Collections {
+class IEnumerator;
+}
 namespace UnityEngine {
-class Coroutine;
+class Transform;
+}
+namespace UnityEngine {
+class Camera;
+}
+namespace LIV::SDK::Unity {
+class __LIV___WaitForUnityEndOfFrame_d__68;
+}
+namespace LIV::SDK::Unity {
+class SDKRender;
 }
 namespace UnityEngine {
 struct Matrix4x4;
@@ -25,26 +40,11 @@ struct Matrix4x4;
 namespace UnityEngine {
 struct LayerMask;
 }
-namespace UnityEngine {
-class Transform;
-}
-namespace System::Collections {
-class IEnumerator;
-}
-namespace LIV::SDK::Unity {
-class __LIV___WaitForUnityEndOfFrame_d__68;
-}
-namespace UnityEngine {
-class Camera;
-}
-namespace LIV::SDK::Unity {
-class SDKRender;
+namespace System {
+class Object;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
-}
-namespace System {
-class Object;
 }
 namespace System {
 class IDisposable;
@@ -168,7 +168,7 @@ static_assert(offsetof(::LIV::SDK::Unity::__LIV___WaitForUnityEndOfFrame_d__68, 
 // SizeInfo { instance_size: 208, native_size: -1, calculated_instance_size: 208, calculated_native_size: 208, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace LIV::SDK::Unity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10204)), TypeDefinitionIndex(TypeDefinitionIndex(15092))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15092)), TypeDefinitionIndex(TypeDefinitionIndex(10204)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15094))
 // CS Name: ::LIV.SDK.Unity::LIV*
 class CORDL_TYPE LIV : public ::UnityEngine::MonoBehaviour {

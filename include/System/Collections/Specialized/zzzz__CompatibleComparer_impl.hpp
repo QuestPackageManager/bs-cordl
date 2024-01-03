@@ -1,10 +1,10 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Collections/Specialized/zzzz__CompatibleComparer_def.hpp"
+#include "System/Collections/zzzz__IHashCodeProvider_def.hpp"
+#include "System/Collections/zzzz__IComparer_def.hpp"
 #include "System/Collections/zzzz__IEqualityComparer_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "System/Collections/zzzz__IComparer_def.hpp"
-#include "System/Collections/zzzz__IHashCodeProvider_def.hpp"
 //  Writing Method size for method: ::System::Collections::Specialized::CompatibleComparer._ctor
 template <>
 

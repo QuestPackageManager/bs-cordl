@@ -6,25 +6,25 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(MultiplayerBigAvatarAnimator)
 namespace UnityEngine {
-struct Vector3;
+struct Quaternion;
+}
+namespace GlobalNamespace {
+struct EaseType;
 }
 namespace GlobalNamespace {
 class HologramRays;
 }
-namespace UnityEngine {
-struct Quaternion;
-}
 namespace Tweening {
-template <typename T> class Tween_1;
+class TimeTweeningManager;
 }
 namespace UnityEngine {
 class Transform;
 }
 namespace Tweening {
-class TimeTweeningManager;
+template <typename T> class Tween_1;
 }
-namespace GlobalNamespace {
-struct EaseType;
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace GlobalNamespace {

@@ -2,8 +2,8 @@
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Xml/zzzz__SecureStringHasher_def.hpp"
-#include "System/Xml/zzzz__SecureStringHasher_def.hpp"
 #include "System/Collections/Generic/zzzz__IEqualityComparer_1_def.hpp"
+#include "System/Xml/zzzz__SecureStringHasher_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::System::Xml::__SecureStringHasher__HashCodeOfStringDelegate._ctor
 template <>

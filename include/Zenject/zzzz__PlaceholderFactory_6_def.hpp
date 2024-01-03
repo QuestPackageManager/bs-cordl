@@ -8,22 +8,22 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(PlaceholderFactory_6)
 namespace Zenject {
+class IFactory;
+}
+namespace Zenject {
+template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TValue> class __PlaceholderFactory_6___get_ParamTypes_d__2;
+}
+namespace System {
+class Object;
+}
+namespace Zenject {
 class InjectTypeInfo;
 }
 namespace System {
 class Type;
 }
 namespace Zenject {
-class IFactory;
-}
-namespace Zenject {
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TValue> class IFactory_6;
-}
-namespace System {
-class Object;
-}
-namespace Zenject {
-template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TValue> class __PlaceholderFactory_6___get_ParamTypes_d__2;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
@@ -31,14 +31,14 @@ template <typename T> class IEnumerable_1;
 namespace System::Collections {
 class IEnumerable;
 }
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
+}
 namespace System::Collections {
 class IEnumerator;
 }
 namespace System {
 class IDisposable;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
 }
 // Forward declare root types
 namespace Zenject {
@@ -173,7 +173,7 @@ namespace Zenject {
 // cpp template
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TValue>
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11026), inst: 4826 }), TypeDefinitionIndex(TypeDefinitionIndex(11026))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11026)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11026), inst: 4826 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11017))
 // CS Name: ::Zenject::PlaceholderFactory`6<TParam1,TParam2,TParam3,TParam4,TParam5,TValue>*
 class CORDL_TYPE PlaceholderFactory_6 : public ::Zenject::PlaceholderFactoryBase_1<TValue> {

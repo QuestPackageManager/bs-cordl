@@ -7,17 +7,17 @@ CORDL_MODULE_EXPORT(DefaultSignatureCalculator)
 namespace System {
 class Object;
 }
-namespace System::IO {
-class Stream;
-}
 namespace Org::BouncyCastle::Crypto::IO {
 class SignerSink;
 }
 namespace Org::BouncyCastle::Crypto {
-class ISigner;
+class IStreamCalculator;
+}
+namespace System::IO {
+class Stream;
 }
 namespace Org::BouncyCastle::Crypto {
-class IStreamCalculator;
+class ISigner;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Operators {

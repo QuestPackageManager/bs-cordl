@@ -4,23 +4,23 @@
 CORDL_MODULE_INIT
 #include "System/ComponentModel/zzzz__TypeConverter_def.hpp"
 CORDL_MODULE_EXPORT(EnumConverter)
+namespace System {
+class Type;
+}
+namespace System::Globalization {
+class CultureInfo;
+}
 namespace System::ComponentModel {
 class __TypeConverter__StandardValuesCollection;
 }
-namespace System {
-class Object;
+namespace System::Collections {
+class IComparer;
 }
 namespace System::ComponentModel {
 class ITypeDescriptorContext;
 }
 namespace System {
-class Type;
-}
-namespace System::Collections {
-class IComparer;
-}
-namespace System::Globalization {
-class CultureInfo;
+class Object;
 }
 // Forward declare root types
 namespace System::ComponentModel {

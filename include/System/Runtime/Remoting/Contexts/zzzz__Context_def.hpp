@@ -8,35 +8,26 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Context)
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
 namespace System {
-class Object;
-}
-namespace System {
-class MarshalByRefObject;
-}
-namespace System {
-class LocalDataStoreMgr;
-}
-namespace System::Runtime::Remoting::Contexts {
-class IDynamicProperty;
-}
-namespace System {
-class LocalDataStoreHolder;
+class LocalDataStore;
 }
 namespace System::Runtime::Remoting::Messaging {
 class IMessageSink;
 }
-namespace System::Runtime::Remoting::Contexts {
-class IContextProperty;
-}
-namespace System::Runtime::Remoting::Messaging {
-class IMessage;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace System::Runtime::Remoting::Contexts {
-class ContextCallbackObject;
+class DynamicPropertyCollection;
+}
+namespace System::Runtime::Remoting::Contexts {
+class CrossContextDelegate;
+}
+namespace System {
+class LocalDataStoreHolder;
+}
+namespace System {
+class LocalDataStoreMgr;
 }
 namespace System::Runtime::Remoting::Activation {
 class IConstructionCallMessage;
@@ -45,16 +36,25 @@ namespace System {
 class LocalDataStoreSlot;
 }
 namespace System {
-class LocalDataStore;
+class MarshalByRefObject;
 }
 namespace System::Runtime::Remoting::Contexts {
-class DynamicPropertyCollection;
+class IContextProperty;
+}
+namespace System::Runtime::Remoting::Messaging {
+class IMessage;
 }
 namespace System {
 class ContextBoundObject;
 }
 namespace System::Runtime::Remoting::Contexts {
-class CrossContextDelegate;
+class IDynamicProperty;
+}
+namespace System {
+class Object;
+}
+namespace System::Runtime::Remoting::Contexts {
+class ContextCallbackObject;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting::Contexts {

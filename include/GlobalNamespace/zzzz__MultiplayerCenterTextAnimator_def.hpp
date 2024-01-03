@@ -10,22 +10,22 @@ namespace Tweening {
 template <typename T> class Tween_1;
 }
 namespace UnityEngine {
-struct Vector3;
+class Transform;
+}
+namespace TMPro {
+class TextMeshPro;
+}
+namespace GlobalNamespace {
+struct EaseType;
+}
+namespace UnityEngine {
+struct Color;
 }
 namespace Tweening {
 class TimeTweeningManager;
 }
 namespace UnityEngine {
-struct Color;
-}
-namespace GlobalNamespace {
-struct EaseType;
-}
-namespace TMPro {
-class TextMeshPro;
-}
-namespace UnityEngine {
-class Transform;
+struct Vector3;
 }
 // Forward declare root types
 namespace GlobalNamespace {

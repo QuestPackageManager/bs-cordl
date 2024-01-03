@@ -6,8 +6,14 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(DefaultSceneStart)
+namespace GlobalNamespace {
+class GameScenesManager;
+}
 namespace HMUI {
 class HierarchyManager;
+}
+namespace GlobalNamespace {
+class __DefaultSceneStart___Start_d__3;
 }
 namespace HMUI {
 class FlowCoordinator;
@@ -15,20 +21,14 @@ class FlowCoordinator;
 namespace System::Collections {
 class IEnumerator;
 }
-namespace GlobalNamespace {
-class __DefaultSceneStart___Start_d__3;
-}
-namespace GlobalNamespace {
-class GameScenesManager;
-}
-namespace System {
-class IDisposable;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
 }
 namespace System {
 class Object;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
+namespace System {
+class IDisposable;
 }
 // Forward declare root types
 namespace GlobalNamespace {

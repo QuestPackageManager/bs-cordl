@@ -12,71 +12,71 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(Camera)
-namespace UnityEngine {
-struct CameraClearFlags;
-}
-namespace UnityEngine {
-struct RenderingPath;
-}
-namespace UnityEngine {
-struct Vector4;
-}
-namespace UnityEngine {
-class Shader;
+namespace UnityEngine::Rendering {
+struct CameraEvent;
 }
 namespace UnityEngine {
 struct Matrix4x4;
 }
 namespace UnityEngine {
-struct __Camera__MonoOrStereoscopicEye;
-}
-namespace UnityEngine {
-struct __Camera__RenderRequestOutputSpace;
-}
-namespace UnityEngine::Rendering {
-class CommandBuffer;
-}
-namespace UnityEngine {
-struct __Camera__RenderRequest;
-}
-namespace UnityEngine {
-struct Color;
-}
-namespace UnityEngine {
-struct __Camera__StereoscopicEye;
-}
-namespace UnityEngine {
-struct Rect;
-}
-namespace UnityEngine {
-class RenderTexture;
+struct DepthTextureMode;
 }
 namespace UnityEngine {
 struct __Camera__RenderRequestMode;
 }
 namespace UnityEngine {
-class __Camera__CameraCallback;
+struct RenderingPath;
+}
+namespace UnityEngine {
+struct CameraClearFlags;
 }
 namespace UnityEngine {
 struct StereoTargetEyeMask;
 }
 namespace UnityEngine {
+struct Color;
+}
+namespace UnityEngine {
+struct __Camera__RenderRequestOutputSpace;
+}
+namespace UnityEngine {
+class __Camera__CameraCallback;
+}
+namespace UnityEngine {
+class Shader;
+}
+namespace UnityEngine {
+struct __Camera__StereoscopicEye;
+}
+namespace UnityEngine::Rendering {
+class CommandBuffer;
+}
+namespace UnityEngine {
+class RenderTexture;
+}
+namespace UnityEngine {
 struct Vector2;
 }
 namespace UnityEngine {
-struct DepthTextureMode;
-}
-namespace UnityEngine {
-class Texture;
-}
-namespace UnityEngine::Rendering {
-struct CameraEvent;
+struct __Camera__RenderRequest;
 }
 namespace UnityEngine {
 struct Vector3;
 }
 namespace UnityEngine {
+struct Rect;
+}
+namespace UnityEngine {
+struct Vector4;
+}
+namespace UnityEngine {
 struct Ray;
+}
+namespace UnityEngine {
+struct __Camera__MonoOrStereoscopicEye;
+}
+namespace UnityEngine {
+class Texture;
 }
 namespace System {
 class Object;

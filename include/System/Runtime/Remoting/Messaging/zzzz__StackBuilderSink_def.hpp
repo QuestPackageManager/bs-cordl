@@ -5,22 +5,22 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(StackBuilderSink)
 namespace System::Runtime::Remoting::Messaging {
-class IMessageCtrl;
-}
-namespace System {
-class Object;
-}
-namespace System::Runtime::Remoting::Proxies {
-class RealProxy;
+class IMessage;
 }
 namespace System {
 class MarshalByRefObject;
 }
 namespace System::Runtime::Remoting::Messaging {
-class IMessage;
+class IMessageSink;
 }
 namespace System::Runtime::Remoting::Messaging {
-class IMessageSink;
+class IMessageCtrl;
+}
+namespace System::Runtime::Remoting::Proxies {
+class RealProxy;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting::Messaging {

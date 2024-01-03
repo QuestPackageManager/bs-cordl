@@ -9,13 +9,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(PosesRecordingData)
 namespace GlobalNamespace {
-class __PosesRecordingData__TransformsKeyframe;
+class __PosesRecordingData__ExternalCameraCalibration;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace GlobalNamespace {
-class __PosesRecordingData__ExternalCameraCalibration;
+class __PosesRecordingData__TransformsKeyframe;
 }
 namespace UnityEngine {
 class Camera;

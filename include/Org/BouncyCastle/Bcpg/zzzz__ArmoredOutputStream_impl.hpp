@@ -1,10 +1,10 @@
 #pragma once
 #include "Org/BouncyCastle/Utilities/IO/zzzz__BaseOutputStream_impl.hpp"
 #include "Org/BouncyCastle/Bcpg/zzzz__ArmoredOutputStream_def.hpp"
-#include "Org/BouncyCastle/Bcpg/zzzz__HashAlgorithmTag_def.hpp"
-#include "Org/BouncyCastle/Bcpg/zzzz__Crc24_def.hpp"
-#include "System/Collections/zzzz__IDictionary_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"
+#include "Org/BouncyCastle/Bcpg/zzzz__HashAlgorithmTag_def.hpp"
+#include "System/Collections/zzzz__IDictionary_def.hpp"
+#include "Org/BouncyCastle/Bcpg/zzzz__Crc24_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Bcpg::ArmoredOutputStream.Encode
 template <>
 

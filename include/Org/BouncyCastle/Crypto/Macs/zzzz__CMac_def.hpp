@@ -11,10 +11,10 @@ namespace Org::BouncyCastle::Crypto {
 class IBlockCipher;
 }
 namespace Org::BouncyCastle::Crypto {
-class ICipherParameters;
+class IMac;
 }
 namespace Org::BouncyCastle::Crypto {
-class IMac;
+class ICipherParameters;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Macs {

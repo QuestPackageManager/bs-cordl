@@ -8,10 +8,10 @@ namespace UnityEngine {
 class Renderer;
 }
 namespace UnityEngine {
-class MeshFilter;
+class Transform;
 }
 namespace UnityEngine {
-class Transform;
+class MeshFilter;
 }
 // Forward declare root types
 namespace GlobalNamespace {

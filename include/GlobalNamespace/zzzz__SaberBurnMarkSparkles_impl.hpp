@@ -5,10 +5,10 @@
 #include "GlobalNamespace/zzzz__SaberBurnMarkSparkles_def.hpp"
 #include "UnityEngine/zzzz__ParticleSystem_def.hpp"
 #include "GlobalNamespace/zzzz__ColorManager_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
-#include "UnityEngine/zzzz__BoxCollider_def.hpp"
 #include "GlobalNamespace/zzzz__SaberManager_def.hpp"
+#include "UnityEngine/zzzz__BoxCollider_def.hpp"
 #include "GlobalNamespace/zzzz__Saber_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::SaberBurnMarkSparkles.Start
 template <>
 

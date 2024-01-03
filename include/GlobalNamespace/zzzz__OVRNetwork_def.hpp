@@ -17,31 +17,31 @@ namespace GlobalNamespace {
 class __OVRNetwork__OVRNetworkTcpClient;
 }
 namespace System {
-template <typename T1, typename T2, typename T3, typename T4> class Action_4;
-}
-namespace System {
-class IAsyncResult;
-}
-namespace GlobalNamespace {
-struct __OVRNetwork__OVRNetworkTcpClient__ConnectionState;
-}
-namespace System {
 class Action;
 }
-namespace System::Net::Sockets {
-class TcpClient;
+namespace System {
+template <typename T1, typename T2, typename T3, typename T4> class Action_4;
 }
 namespace System::Threading {
 class ManualResetEvent;
 }
+namespace GlobalNamespace {
+struct __OVRNetwork__OVRNetworkTcpClient__ConnectionState;
+}
+namespace System::Net::Sockets {
+class TcpClient;
+}
+namespace System {
+class IAsyncResult;
+}
 namespace System::Net::Sockets {
 class TcpListener;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
 namespace System {
 class Object;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {

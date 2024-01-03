@@ -9,7 +9,7 @@ namespace System {
 template <typename T> class Action_1;
 }
 namespace BeatSaber::AvatarCore {
-struct AvatarPoseData;
+class IAvatarPoseDataProvider;
 }
 namespace GlobalNamespace {
 class IConnectedPlayer;
@@ -24,7 +24,7 @@ namespace Zenject {
 class ITickable;
 }
 namespace BeatSaber::AvatarCore {
-class IAvatarPoseDataProvider;
+struct AvatarPoseData;
 }
 // Forward declare root types
 namespace BeatSaber::AvatarCore {

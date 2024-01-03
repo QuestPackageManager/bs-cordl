@@ -8,11 +8,11 @@ CORDL_MODULE_EXPORT(PSVRLoader)
 namespace UnityEngine::XR {
 class XRInputSubsystem;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
 namespace UnityEngine::XR {
 class XRDisplaySubsystemDescriptor;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 // Forward declare root types
 namespace UnityEngine::PS4::XR {

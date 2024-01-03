@@ -3,8 +3,8 @@
 #include "Newtonsoft/Json/Serialization/zzzz__DefaultContractResolverState_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "Newtonsoft/Json/Serialization/zzzz__ResolverContractKey_def.hpp"
-#include "Newtonsoft/Json/Serialization/zzzz__JsonContract_def.hpp"
 #include "Newtonsoft/Json/Utilities/zzzz__PropertyNameTable_def.hpp"
+#include "Newtonsoft/Json/Serialization/zzzz__JsonContract_def.hpp"
 //  Writing Method size for method: ::Newtonsoft::Json::Serialization::DefaultContractResolverState._ctor
 template <>
 

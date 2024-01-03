@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(CustomRenderTextureManager)
-namespace System {
-template <typename T> class Action_1;
-}
 namespace UnityEngine {
 class CustomRenderTexture;
+}
+namespace System {
+template <typename T> class Action_1;
 }
 // Forward declare root types
 namespace UnityEngine {

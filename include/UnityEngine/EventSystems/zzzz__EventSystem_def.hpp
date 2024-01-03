@@ -9,15 +9,6 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(EventSystem)
-namespace UnityEngine::EventSystems {
-class PointerEventData;
-}
-namespace UnityEngine {
-class GameObject;
-}
-namespace UnityEngine::EventSystems {
-class BaseEventData;
-}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
@@ -25,19 +16,28 @@ namespace System {
 template <typename T> class Comparison_1;
 }
 namespace UnityEngine::EventSystems {
+struct __EventSystem__UIToolkitOverrideConfig;
+}
+namespace UnityEngine {
+class GameObject;
+}
+namespace UnityEngine::EventSystems {
 class BaseInputModule;
 }
 namespace UnityEngine::EventSystems {
-struct __EventSystem__UIToolkitOverrideConfig;
+class PointerEventData;
+}
+namespace UnityEngine::EventSystems {
+class BaseEventData;
+}
+namespace UnityEngine::UIElements {
+class BaseRuntimePanel;
 }
 namespace UnityEngine::EventSystems {
 struct RaycastResult;
 }
 namespace UnityEngine::EventSystems {
 class __EventSystem____c__DisplayClass52_0;
-}
-namespace UnityEngine::UIElements {
-class BaseRuntimePanel;
 }
 // Forward declare root types
 namespace UnityEngine::EventSystems {

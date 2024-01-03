@@ -1,20 +1,20 @@
 #pragma once
 #include "UnityEngine/UI/zzzz__MaskableGraphic_impl.hpp"
 #include "UnityEngine/UI/zzzz__Text_def.hpp"
-#include "UnityEngine/UI/zzzz__VertexHelper_def.hpp"
+#include "UnityEngine/UI/zzzz__ILayoutElement_def.hpp"
 #include "UnityEngine/zzzz__VerticalWrapMode_def.hpp"
-#include "UnityEngine/zzzz__TextGenerator_def.hpp"
-#include "UnityEngine/zzzz__Material_def.hpp"
 #include "UnityEngine/zzzz__HorizontalWrapMode_def.hpp"
 #include "UnityEngine/zzzz__TextGenerationSettings_def.hpp"
-#include "UnityEngine/zzzz__Font_def.hpp"
+#include "UnityEngine/zzzz__Material_def.hpp"
+#include "UnityEngine/UI/zzzz__VertexHelper_def.hpp"
 #include "UnityEngine/zzzz__UIVertex_def.hpp"
-#include "UnityEngine/zzzz__FontStyle_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
-#include "UnityEngine/UI/zzzz__ILayoutElement_def.hpp"
 #include "UnityEngine/UI/zzzz__FontData_def.hpp"
-#include "UnityEngine/zzzz__Texture_def.hpp"
 #include "UnityEngine/zzzz__TextAnchor_def.hpp"
+#include "UnityEngine/zzzz__Font_def.hpp"
+#include "UnityEngine/zzzz__FontStyle_def.hpp"
+#include "UnityEngine/zzzz__Texture_def.hpp"
+#include "UnityEngine/zzzz__TextGenerator_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UI::Text._ctor
 template <>
 

@@ -9,34 +9,28 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(NoteController)
 namespace GlobalNamespace {
-class __NoteController___DissolveCoroutine_d__75;
+template <typename T> class ILazyCopyHashSet_1;
 }
 namespace GlobalNamespace {
-template <typename T> class LazyCopyHashSet_1;
+class INoteControllerNoteWasCutEvent;
 }
 namespace GlobalNamespace {
-class INoteMirrorable;
+class IBeatmapObjectController;
 }
 namespace GlobalNamespace {
 class INoteControllerNoteDidStartJumpEvent;
 }
 namespace GlobalNamespace {
-struct NoteCutInfo;
-}
-namespace UnityEngine {
-class Transform;
+class NoteMovement;
 }
 namespace GlobalNamespace {
-class INoteControllerNoteDidStartDissolvingEvent;
-}
-namespace GlobalNamespace {
-template <typename T> class ILazyCopyHashSet_1;
+class __NoteController___DissolveCoroutine_d__75;
 }
 namespace GlobalNamespace {
 class INoteControllerNoteDidFinishJumpEvent;
 }
-namespace GlobalNamespace {
-class INoteControllerNoteDidDissolveEvent;
+namespace UnityEngine {
+struct Quaternion;
 }
 namespace GlobalNamespace {
 class NoteData;
@@ -44,38 +38,44 @@ class NoteData;
 namespace UnityEngine {
 struct Vector3;
 }
+namespace UnityEngine {
+class Transform;
+}
 namespace GlobalNamespace {
-class IBeatmapObjectController;
+template <typename T> class LazyCopyHashSet_1;
+}
+namespace GlobalNamespace {
+class INoteControllerNoteDidStartDissolvingEvent;
+}
+namespace GlobalNamespace {
+class INoteControllerNoteDidDissolveEvent;
 }
 namespace GlobalNamespace {
 class INoteControllerNoteWasMissedEvent;
 }
 namespace GlobalNamespace {
-class NoteMovement;
+class INoteControllerNoteDidPassJumpThreeQuartersEvent;
 }
 namespace GlobalNamespace {
 class INoteControllerDidInitEvent;
-}
-namespace UnityEngine {
-struct Quaternion;
 }
 namespace System::Collections {
 class IEnumerator;
 }
 namespace GlobalNamespace {
-class INoteControllerNoteWasCutEvent;
+class INoteMirrorable;
 }
 namespace GlobalNamespace {
-class INoteControllerNoteDidPassJumpThreeQuartersEvent;
+struct NoteCutInfo;
 }
-namespace System {
-class IDisposable;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
 }
 namespace System {
 class Object;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
+namespace System {
+class IDisposable;
 }
 // Forward declare root types
 namespace GlobalNamespace {

@@ -6,26 +6,26 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(ScoreModel)
-namespace System::Collections::Generic {
-template <typename T> class HashSet_1;
-}
 namespace GlobalNamespace {
-class ScoreMultiplierCounter;
+class __ScoreModel__NoteScoreDefinition;
 }
 namespace GlobalNamespace {
 struct __NoteData__ScoringType;
 }
-namespace GlobalNamespace {
-class IReadonlyBeatmapData;
+namespace System::Collections::Generic {
+template <typename T> class HashSet_1;
 }
 namespace GlobalNamespace {
-class __ScoreModel__NoteScoreDefinition;
+class __ScoreModel__MaxScoreCounterElement;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace GlobalNamespace {
-class __ScoreModel__MaxScoreCounterElement;
+class ScoreMultiplierCounter;
+}
+namespace GlobalNamespace {
+class IReadonlyBeatmapData;
 }
 namespace System {
 template <typename T> class IComparable_1;

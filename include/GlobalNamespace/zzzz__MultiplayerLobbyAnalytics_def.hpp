@@ -6,16 +6,16 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(MultiplayerLobbyAnalytics)
 namespace GlobalNamespace {
-class IAnalyticsModel;
+class GameServerLobbyFlowCoordinator;
+}
+namespace GlobalNamespace {
+struct __GameServerLobbyFlowCoordinator__LobbyType;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace GlobalNamespace {
-class GameServerLobbyFlowCoordinator;
-}
-namespace GlobalNamespace {
-struct __GameServerLobbyFlowCoordinator__LobbyType;
+class IAnalyticsModel;
 }
 // Forward declare root types
 namespace GlobalNamespace {

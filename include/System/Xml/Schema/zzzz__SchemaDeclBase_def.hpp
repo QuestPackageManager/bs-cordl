@@ -8,23 +8,23 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(SchemaDeclBase)
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace System {
+class Object;
+}
+namespace System::Xml::Schema {
+class XmlSchemaType;
+}
 namespace System::Xml {
 class XmlQualifiedName;
 }
 namespace System::Xml::Schema {
 class XmlSchemaDatatype;
 }
-namespace System {
-class Object;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
 namespace System::Xml::Schema {
 struct __SchemaDeclBase__Use;
-}
-namespace System::Xml::Schema {
-class XmlSchemaType;
 }
 // Forward declare root types
 namespace System::Xml::Schema {

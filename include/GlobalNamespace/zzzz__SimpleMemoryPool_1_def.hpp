@@ -8,11 +8,11 @@ CORDL_MODULE_EXPORT(SimpleMemoryPool_1)
 namespace GlobalNamespace {
 template <typename T> class LazyCopyHashSet_1;
 }
-namespace System {
-template <typename TResult> class Func_1;
-}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
+}
+namespace System {
+template <typename TResult> class Func_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {

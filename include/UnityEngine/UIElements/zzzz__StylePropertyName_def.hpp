@@ -10,11 +10,11 @@ CORDL_MODULE_EXPORT(StylePropertyName)
 namespace System {
 class Object;
 }
-namespace UnityEngine::UIElements::StyleSheets {
-struct StylePropertyId;
-}
 namespace System {
 template <typename T> class IEquatable_1;
+}
+namespace UnityEngine::UIElements::StyleSheets {
+struct StylePropertyId;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

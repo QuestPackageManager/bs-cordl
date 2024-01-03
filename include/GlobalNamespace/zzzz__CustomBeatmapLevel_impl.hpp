@@ -1,13 +1,13 @@
 #pragma once
 #include "GlobalNamespace/zzzz__CustomPreviewBeatmapLevel_impl.hpp"
 #include "GlobalNamespace/zzzz__CustomBeatmapLevel_def.hpp"
-#include "GlobalNamespace/zzzz__IFilePathSongAudioClipProvider_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapLevelData_def.hpp"
-#include "GlobalNamespace/zzzz__IPreviewBeatmapLevel_def.hpp"
-#include "GlobalNamespace/zzzz__IBeatmapLevel_def.hpp"
 #include "GlobalNamespace/zzzz__CustomPreviewBeatmapLevel_def.hpp"
+#include "GlobalNamespace/zzzz__IPreviewBeatmapLevel_def.hpp"
 #include "GlobalNamespace/zzzz__IBeatmapLevelData_def.hpp"
 #include "GlobalNamespace/zzzz__ColorScheme_def.hpp"
+#include "GlobalNamespace/zzzz__IFilePathSongAudioClipProvider_def.hpp"
+#include "GlobalNamespace/zzzz__IBeatmapLevel_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::CustomBeatmapLevel.get_beatmapLevelData
 template <>
 

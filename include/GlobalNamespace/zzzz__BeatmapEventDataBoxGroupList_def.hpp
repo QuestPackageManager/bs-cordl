@@ -6,25 +6,25 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(BeatmapEventDataBoxGroupList)
 namespace GlobalNamespace {
-template <typename T, typename TBase> class SortedList_2;
-}
-namespace System::Collections::Generic {
-template <typename T> class LinkedListNode_1;
-}
-namespace GlobalNamespace {
-class BeatmapEventDataBoxGroupProcessor;
-}
-namespace GlobalNamespace {
-class BeatmapData;
+class BeatmapEventDataBoxGroup;
 }
 namespace GlobalNamespace {
 class IBeatToTimeConvertor;
 }
 namespace System::Collections::Generic {
-template <typename T> class HashSet_1;
+template <typename T> class LinkedListNode_1;
 }
 namespace GlobalNamespace {
-class BeatmapEventDataBoxGroup;
+class BeatmapData;
+}
+namespace GlobalNamespace {
+class BeatmapEventDataBoxGroupProcessor;
+}
+namespace GlobalNamespace {
+template <typename T, typename TBase> class SortedList_2;
+}
+namespace System::Collections::Generic {
+template <typename T> class HashSet_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {

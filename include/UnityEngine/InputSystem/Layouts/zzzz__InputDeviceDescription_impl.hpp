@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/InputSystem/Layouts/zzzz__InputDeviceDescription_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
 #include "UnityEngine/InputSystem/Layouts/zzzz__InputDeviceDescription_def.hpp"
-#include "System/zzzz__Object_def.hpp"
 // Ctor Parameters [CppParam { name: "interface", ty: "::StringW", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "type", ty: "::StringW", modifiers: "", def_value: Some("nullptr") },
 // CppParam { name: "product", ty: "::StringW", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "serial", ty: "::StringW", modifiers: "", def_value: Some("nullptr") }, CppParam { name:
 // "version", ty: "::StringW", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "manufacturer", ty: "::StringW", modifiers: "", def_value: Some("nullptr") }, CppParam { name:

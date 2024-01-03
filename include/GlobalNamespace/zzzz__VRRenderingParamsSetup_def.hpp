@@ -8,19 +8,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(VRRenderingParamsSetup)
 namespace GlobalNamespace {
-class BoolSO;
+class MainSettingsModelSO;
 }
 namespace GlobalNamespace {
 struct __VRRenderingParamsSetup__SceneType;
+}
+namespace GlobalNamespace {
+class BoolSO;
 }
 namespace GlobalNamespace {
 class FloatSO;
 }
 namespace GlobalNamespace {
 class IVRPlatformHelper;
-}
-namespace GlobalNamespace {
-class MainSettingsModelSO;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -90,7 +90,7 @@ static_assert(offsetof(::GlobalNamespace::__VRRenderingParamsSetup__SceneType, v
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(6000))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6000)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6001))
 // CS Name: ::VRRenderingParamsSetup*
 class CORDL_TYPE VRRenderingParamsSetup : public ::UnityEngine::MonoBehaviour {

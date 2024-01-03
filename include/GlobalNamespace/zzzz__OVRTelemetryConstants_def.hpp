@@ -8,9 +8,6 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVRTelemetryConstants)
 namespace GlobalNamespace {
-class __OVRTelemetryConstants__Editor;
-}
-namespace GlobalNamespace {
 class __OVRTelemetryConstants__SBB;
 }
 namespace GlobalNamespace {
@@ -20,13 +17,16 @@ namespace GlobalNamespace {
 class __OVRTelemetryConstants__Scene;
 }
 namespace GlobalNamespace {
-struct __OVRTelemetryConstants__OVRManager__ConsentOrigins;
+class __OVRTelemetryConstants__Editor;
+}
+namespace GlobalNamespace {
+class __OVRTelemetryConstants__OVRManager__MarkerId;
 }
 namespace GlobalNamespace {
 class __OVRTelemetryConstants__OVRManager__AnnotationTypes;
 }
 namespace GlobalNamespace {
-class __OVRTelemetryConstants__OVRManager__MarkerId;
+struct __OVRTelemetryConstants__OVRManager__ConsentOrigins;
 }
 namespace GlobalNamespace {
 class __OVRTelemetryConstants__SBB__MarkerId;

@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "HMUI/zzzz__TableCell_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(ColorSchemeTableCell)
-namespace UnityEngine::UI {
-class Image;
-}
 namespace UnityEngine {
 struct Color;
+}
+namespace UnityEngine::UI {
+class Image;
 }
 namespace TMPro {
 class TextMeshProUGUI;

@@ -6,20 +6,20 @@ CORDL_MODULE_EXPORT(IPanel)
 namespace UnityEngine::UIElements {
 struct ContextType;
 }
-namespace UnityEngine {
-struct Vector2;
+namespace UnityEngine::UIElements {
+class FocusController;
 }
 namespace System {
 class IDisposable;
 }
 namespace UnityEngine::UIElements {
-class FocusController;
+class EventDispatcher;
 }
 namespace UnityEngine::UIElements {
 class VisualElement;
 }
-namespace UnityEngine::UIElements {
-class EventDispatcher;
+namespace UnityEngine {
+struct Vector2;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

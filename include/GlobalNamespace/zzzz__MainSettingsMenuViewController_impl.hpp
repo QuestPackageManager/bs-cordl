@@ -1,10 +1,10 @@
 #pragma once
 #include "HMUI/zzzz__ViewController_impl.hpp"
 #include "GlobalNamespace/zzzz__MainSettingsMenuViewController_def.hpp"
-#include "GlobalNamespace/zzzz__SettingsSubMenuInfo_def.hpp"
 #include "System/zzzz__Action_2_def.hpp"
-#include "HMUI/zzzz__SegmentedControl_def.hpp"
+#include "GlobalNamespace/zzzz__SettingsSubMenuInfo_def.hpp"
 #include "HMUI/zzzz__TextSegmentedControl_def.hpp"
+#include "HMUI/zzzz__SegmentedControl_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::MainSettingsMenuViewController.add_didSelectSettingsSubMenuEvent
 template <>
 

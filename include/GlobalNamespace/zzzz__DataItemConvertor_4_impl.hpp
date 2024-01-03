@@ -1,8 +1,8 @@
 #pragma once
 #include "GlobalNamespace/zzzz__DataItemConvertor_2_impl.hpp"
 #include "GlobalNamespace/zzzz__DataItemConvertor_4_def.hpp"
-#include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__Type_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 template <typename TBase, typename TIn, typename TOut, typename TParam> inline ::System::Type* GlobalNamespace::DataItemConvertor_4<TBase, TIn, TOut, TParam>::get_inputDataType() {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),

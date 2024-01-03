@@ -12,11 +12,11 @@ class __MissionHelpViewController__MissionHelpGameObjectPair;
 namespace UnityEngine::UI {
 class Button;
 }
-namespace System {
-template <typename T> class Action_1;
-}
 namespace GlobalNamespace {
 class MissionHelpSO;
+}
+namespace System {
+template <typename T> class Action_1;
 }
 namespace UnityEngine {
 class GameObject;

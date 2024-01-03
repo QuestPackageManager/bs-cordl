@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(Vector3Extensions)
 namespace UnityEngine {
-struct Quaternion;
+struct Vector3;
 }
 namespace UnityEngine {
-struct Vector3;
+struct Quaternion;
 }
 // Forward declare root types
 namespace GlobalNamespace {

@@ -12,46 +12,46 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(HEU_Curve)
 namespace HoudiniEngineUnity {
-class HEU_HoudiniAsset;
-}
-namespace HoudiniEngineUnity {
-class HEU_SessionBase;
-}
-namespace HoudiniEngineUnity {
-class HEU_Parameters;
+struct __HEU_Curve__Interaction;
 }
 namespace HoudiniEngineUnity {
 class CurveNodeData;
-}
-namespace HoudiniEngineUnity {
-struct __HEU_Curve__CurveEditState;
-}
-namespace HoudiniEngineUnity {
-class __HEU_Curve____c__DisplayClass48_0;
-}
-namespace UnityEngine {
-struct Vector3;
-}
-namespace HoudiniEngineUnity {
-class __HEU_Curve____c__DisplayClass38_0;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace HoudiniEngineUnity {
-struct __HEU_Curve__Interaction;
+struct __HEU_Curve__CurveDrawCollision;
 }
 namespace HoudiniEngineUnity {
 class __HEU_Curve____c__DisplayClass40_0;
 }
 namespace HoudiniEngineUnity {
-struct __HEU_Curve__CurveDrawCollision;
+class __HEU_Curve____c__DisplayClass38_0;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 namespace HoudiniEngineUnity {
 template <typename T> class IEquivable_1;
 }
+namespace HoudiniEngineUnity {
+class HEU_HoudiniAsset;
+}
+namespace HoudiniEngineUnity {
+class HEU_Parameters;
+}
+namespace HoudiniEngineUnity {
+struct __HEU_Curve__CurveEditState;
+}
+namespace HoudiniEngineUnity {
+class HEU_SessionBase;
+}
 namespace UnityEngine {
 class GameObject;
+}
+namespace HoudiniEngineUnity {
+class __HEU_Curve____c__DisplayClass48_0;
 }
 namespace UnityEngine {
 struct Quaternion;
@@ -456,7 +456,7 @@ static_assert(offsetof(::HoudiniEngineUnity::__HEU_Curve____c__DisplayClass48_0,
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10210)), TypeDefinitionIndex(TypeDefinitionIndex(9620)), TypeDefinitionIndex(TypeDefinitionIndex(9621))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9621)), TypeDefinitionIndex(TypeDefinitionIndex(10210)), TypeDefinitionIndex(TypeDefinitionIndex(9620))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9626))
 // CS Name: ::HoudiniEngineUnity::HEU_Curve*
 class CORDL_TYPE HEU_Curve : public ::UnityEngine::ScriptableObject {

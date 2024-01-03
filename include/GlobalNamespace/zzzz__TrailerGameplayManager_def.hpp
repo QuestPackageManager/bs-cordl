@@ -6,6 +6,12 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(TrailerGameplayManager)
+namespace GlobalNamespace {
+class GameSongController;
+}
+namespace GlobalNamespace {
+class MainCamera;
+}
 namespace System::Collections {
 class IEnumerator;
 }
@@ -15,20 +21,14 @@ class GameScenesManager;
 namespace GlobalNamespace {
 class __TrailerGameplayManager___Start_d__4;
 }
-namespace GlobalNamespace {
-class MainCamera;
-}
-namespace GlobalNamespace {
-class GameSongController;
-}
 namespace System {
 class Object;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
-}
 namespace System {
 class IDisposable;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {

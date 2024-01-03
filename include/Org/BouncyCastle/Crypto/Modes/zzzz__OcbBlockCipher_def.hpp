@@ -10,8 +10,8 @@ CORDL_MODULE_EXPORT(OcbBlockCipher)
 namespace Org::BouncyCastle::Crypto::Modes {
 class IAeadCipher;
 }
-namespace Org::BouncyCastle::Crypto {
-class ICipherParameters;
+namespace Org::BouncyCastle::Crypto::Modes {
+class IAeadBlockCipher;
 }
 namespace Org::BouncyCastle::Crypto {
 class IBlockCipher;
@@ -19,8 +19,8 @@ class IBlockCipher;
 namespace System::Collections {
 class IList;
 }
-namespace Org::BouncyCastle::Crypto::Modes {
-class IAeadBlockCipher;
+namespace Org::BouncyCastle::Crypto {
+class ICipherParameters;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Modes {

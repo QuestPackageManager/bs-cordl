@@ -3,31 +3,29 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__GameplayModifiers_def.hpp"
+#include "System/zzzz__Nullable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(GameplayModifiers)
-namespace GlobalNamespace {
-struct __GameplayModifiers__EnergyType;
-}
-namespace LiteNetLib::Utils {
-template <typename T> class INetImmutableSerializable_1;
-}
 namespace LiteNetLib::Utils {
 class NetDataReader;
 }
 namespace GlobalNamespace {
 struct __GameplayModifiers__EnabledObstacleType;
 }
-namespace System {
-template <typename T> struct Nullable_1;
+namespace LiteNetLib::Utils {
+template <typename T> class INetImmutableSerializable_1;
 }
 namespace GlobalNamespace {
 struct __GameplayModifiers__SongSpeed;
 }
 namespace LiteNetLib::Utils {
 class NetDataWriter;
+}
+namespace GlobalNamespace {
+struct __GameplayModifiers__EnergyType;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -213,8 +211,10 @@ static_assert(offsetof(::GlobalNamespace::__GameplayModifiers__SongSpeed, value_
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15000)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(14999)),
-// TypeDefinitionIndex(TypeDefinitionIndex(15001))} Self: TypeDefinitionIndex(TypeDefinitionIndex(15002)) CS Name: ::GameplayModifiers*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15000)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst:
+// 4766 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 4765 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 4767 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(14999)), TypeDefinitionIndex(TypeDefinitionIndex(15001)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 105 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(2448))} Self: TypeDefinitionIndex(TypeDefinitionIndex(15002)) CS Name: ::GameplayModifiers*
 class CORDL_TYPE GameplayModifiers : public ::System::Object {
 public:
   // Declarations

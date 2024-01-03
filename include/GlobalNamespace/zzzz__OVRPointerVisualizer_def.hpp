@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(OVRPointerVisualizer)
 namespace UnityEngine {
-class Transform;
+class LineRenderer;
 }
 namespace UnityEngine {
-class LineRenderer;
+class Transform;
 }
 // Forward declare root types
 namespace GlobalNamespace {

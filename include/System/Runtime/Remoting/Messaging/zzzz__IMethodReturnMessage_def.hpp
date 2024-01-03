@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(IMethodReturnMessage)
-namespace System {
-class Object;
-}
 namespace System::Runtime::Remoting::Messaging {
 class IMethodMessage;
+}
+namespace System {
+class Object;
 }
 namespace System::Runtime::Remoting::Messaging {
 class IMessage;

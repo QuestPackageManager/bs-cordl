@@ -5,10 +5,10 @@
 #include "System/Net/zzzz__Cookie_def.hpp"
 #include "System/Net/zzzz__Comparer_def.hpp"
 #include "System/zzzz__Uri_def.hpp"
-#include "System/Net/zzzz__CookieVariant_def.hpp"
+#include "System/zzzz__DateTime_def.hpp"
 #include "System/Collections/zzzz__IComparer_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "System/zzzz__DateTime_def.hpp"
+#include "System/Net/zzzz__CookieVariant_def.hpp"
 //  Writing Method size for method: ::System::Net::Cookie._ctor
 template <>
 

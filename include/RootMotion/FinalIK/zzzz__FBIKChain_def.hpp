@@ -11,21 +11,6 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(FBIKChain)
-namespace RootMotion::FinalIK {
-struct __FBIKChain__Smoothing;
-}
-namespace RootMotion::FinalIK {
-class __FBIKChain__ChildConstraint;
-}
-namespace RootMotion::FinalIK {
-class IKConstraintBend;
-}
-namespace UnityEngine {
-class Transform;
-}
-namespace RootMotion::FinalIK {
-class __IKSolver__Point;
-}
 namespace UnityEngine {
 struct Vector3;
 }
@@ -33,7 +18,22 @@ namespace RootMotion::FinalIK {
 class IKSolverFullBody;
 }
 namespace RootMotion::FinalIK {
+class __FBIKChain__ChildConstraint;
+}
+namespace RootMotion::FinalIK {
 class __IKSolver__Node;
+}
+namespace RootMotion::FinalIK {
+class IKConstraintBend;
+}
+namespace RootMotion::FinalIK {
+class __IKSolver__Point;
+}
+namespace RootMotion::FinalIK {
+struct __FBIKChain__Smoothing;
+}
+namespace UnityEngine {
+class Transform;
 }
 // Forward declare root types
 namespace RootMotion::FinalIK {

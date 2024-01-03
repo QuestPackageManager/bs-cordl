@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(ObstacleDissolve)
 namespace GlobalNamespace {
-class ObstacleControllerBase;
+class CutoutAnimateEffect;
 }
 namespace GlobalNamespace {
-class CutoutAnimateEffect;
+class ObstacleControllerBase;
 }
 // Forward declare root types
 namespace GlobalNamespace {

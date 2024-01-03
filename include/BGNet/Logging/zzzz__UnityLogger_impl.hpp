@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "BGNet/Logging/zzzz__UnityLogger_def.hpp"
-#include "System/zzzz__Exception_def.hpp"
 #include "BGNet/Logging/zzzz__Debug_def.hpp"
+#include "System/zzzz__Exception_def.hpp"
 //  Writing Method size for method: ::BGNet::Logging::UnityLogger.LogInfo
 template <>
 

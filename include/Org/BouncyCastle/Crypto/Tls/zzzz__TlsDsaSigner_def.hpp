@@ -12,14 +12,14 @@ class AsymmetricKeyParameter;
 namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;
 }
+namespace Org::BouncyCastle::Crypto {
+class ISigner;
+}
 namespace Org::BouncyCastle::Crypto::Tls {
 class SignatureAndHashAlgorithm;
 }
 namespace Org::BouncyCastle::Crypto {
 class IDsa;
-}
-namespace Org::BouncyCastle::Crypto {
-class ISigner;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {

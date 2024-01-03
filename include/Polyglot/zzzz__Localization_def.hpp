@@ -8,35 +8,35 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Localization)
-namespace System {
-class Object;
-}
-namespace Polyglot {
-class LocalizationDocument;
-}
-namespace Polyglot {
-struct LanguageDirection;
-}
-namespace Polyglot {
-class LocalizationAsset;
-}
-namespace UnityEngine::Events {
-class UnityEvent;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace System::Globalization {
-class CultureInfo;
-}
-namespace Polyglot {
-class ILocalize;
-}
 namespace Polyglot {
 struct Language;
 }
 namespace UnityEngine {
 struct SystemLanguage;
+}
+namespace Polyglot {
+class LocalizationDocument;
+}
+namespace Polyglot {
+class LocalizationAsset;
+}
+namespace Polyglot {
+struct LanguageDirection;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace Polyglot {
+class ILocalize;
+}
+namespace System {
+class Object;
+}
+namespace System::Globalization {
+class CultureInfo;
+}
+namespace UnityEngine::Events {
+class UnityEvent;
 }
 // Forward declare root types
 namespace Polyglot {

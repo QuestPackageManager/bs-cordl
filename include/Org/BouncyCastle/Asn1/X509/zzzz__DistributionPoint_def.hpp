@@ -11,23 +11,23 @@ class Object;
 namespace Org::BouncyCastle::Asn1::X509 {
 class GeneralNames;
 }
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
-}
-namespace System::Text {
-class StringBuilder;
-}
 namespace Org::BouncyCastle::Asn1::X509 {
 class ReasonFlags;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class DistributionPointName;
 }
+namespace System::Text {
+class StringBuilder;
+}
 namespace Org::BouncyCastle::Asn1 {
 class Asn1TaggedObject;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Sequence;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::X509 {

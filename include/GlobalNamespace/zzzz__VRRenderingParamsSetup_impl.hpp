@@ -2,11 +2,11 @@
 #include "GlobalNamespace/zzzz__VRRenderingParamsSetup_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__VRRenderingParamsSetup_def.hpp"
-#include "GlobalNamespace/zzzz__BoolSO_def.hpp"
+#include "GlobalNamespace/zzzz__MainSettingsModelSO_def.hpp"
 #include "GlobalNamespace/zzzz__VRRenderingParamsSetup_def.hpp"
+#include "GlobalNamespace/zzzz__BoolSO_def.hpp"
 #include "GlobalNamespace/zzzz__FloatSO_def.hpp"
 #include "GlobalNamespace/zzzz__IVRPlatformHelper_def.hpp"
-#include "GlobalNamespace/zzzz__MainSettingsModelSO_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::GlobalNamespace::__VRRenderingParamsSetup__SceneType::__VRRenderingParamsSetup__SceneType(int32_t value__) noexcept {
   this->value__ = value__;

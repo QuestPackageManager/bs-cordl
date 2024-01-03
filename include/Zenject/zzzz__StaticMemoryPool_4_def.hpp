@@ -4,20 +4,20 @@
 CORDL_MODULE_INIT
 #include "Zenject/zzzz__StaticMemoryPoolBase_1_def.hpp"
 CORDL_MODULE_EXPORT(StaticMemoryPool_4)
-namespace System {
-template <typename T1, typename T2, typename T3, typename T4> class Action_4;
-}
 namespace Zenject {
-template <typename TValue> class IDespawnableMemoryPool_1;
+template <typename TParam1, typename TParam2, typename TParam3, typename TValue> class IMemoryPool_4;
 }
 namespace Zenject {
 class IMemoryPool;
 }
+namespace Zenject {
+template <typename TValue> class IDespawnableMemoryPool_1;
+}
+namespace System {
+template <typename T1, typename T2, typename T3, typename T4> class Action_4;
+}
 namespace System {
 template <typename T> class Action_1;
-}
-namespace Zenject {
-template <typename TParam1, typename TParam2, typename TParam3, typename TValue> class IMemoryPool_4;
 }
 // Forward declare root types
 namespace Zenject {

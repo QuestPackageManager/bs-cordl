@@ -1,17 +1,17 @@
 #pragma once
 #include "System/IO/zzzz__Stream_impl.hpp"
 #include "System/Net/zzzz__WebConnectionStream_def.hpp"
-#include "System/zzzz__IAsyncResult_def.hpp"
-#include "System/Net/zzzz__WebConnection_def.hpp"
-#include "System/Net/zzzz__HttpWebRequest_def.hpp"
 #include "System/Threading/zzzz__CancellationToken_def.hpp"
-#include "System/Net/zzzz__WebOperation_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_def.hpp"
-#include "System/IO/zzzz__SeekOrigin_def.hpp"
+#include "System/Net/zzzz__HttpWebRequest_def.hpp"
+#include "System/Net/zzzz__WebConnection_def.hpp"
 #include "System/Net/zzzz__ServicePoint_def.hpp"
-#include "System/zzzz__AsyncCallback_def.hpp"
 #include "System/zzzz__Exception_def.hpp"
+#include "System/Net/zzzz__WebOperation_def.hpp"
+#include "System/zzzz__AsyncCallback_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "System/zzzz__IAsyncResult_def.hpp"
+#include "System/IO/zzzz__SeekOrigin_def.hpp"
 //  Writing Method size for method: ::System::Net::WebConnectionStream._ctor
 template <>
 

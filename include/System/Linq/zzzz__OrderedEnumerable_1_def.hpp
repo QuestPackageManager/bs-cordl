@@ -7,32 +7,32 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(OrderedEnumerable_1)
+namespace System::Collections {
+class IEnumerable;
+}
 namespace System::Linq {
 template <typename TElement> class EnumerableSorter_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
-namespace System::Linq {
-template <typename TElement> class IOrderedEnumerable_1;
-}
-namespace System::Linq {
-template <typename TElement> class __OrderedEnumerable_1___GetEnumerator_d__1;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
 }
 namespace System::Collections {
 class IEnumerator;
 }
-namespace System::Collections::Generic {
-template <typename T> class IComparer_1;
+namespace System::Linq {
+template <typename TElement> class __OrderedEnumerable_1___GetEnumerator_d__1;
+}
+namespace System::Linq {
+template <typename TElement> class IOrderedEnumerable_1;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;
 }
-namespace System::Collections {
-class IEnumerable;
+namespace System::Collections::Generic {
+template <typename T> class IComparer_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
 }
 namespace System {
 class IDisposable;
@@ -56,8 +56,8 @@ namespace System::Linq {
 // cpp template
 template <typename TElement>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14295)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14295), inst: 963 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(2613))} Self: TypeDefinitionIndex(TypeDefinitionIndex(14290)) CS Name: ::OrderedEnumerable`1::<GetEnumerator>d__1<TElement>*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14295), inst: 963 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(14295))} Self: TypeDefinitionIndex(TypeDefinitionIndex(14290)) CS Name: ::OrderedEnumerable`1::<GetEnumerator>d__1<TElement>*
 class CORDL_TYPE __OrderedEnumerable_1___GetEnumerator_d__1 : public ::System::Object {
 public:
   // Declarations

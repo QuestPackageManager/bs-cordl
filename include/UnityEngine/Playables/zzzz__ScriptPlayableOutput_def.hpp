@@ -7,16 +7,16 @@ CORDL_MODULE_INIT
 #include <cstddef>
 CORDL_MODULE_EXPORT(ScriptPlayableOutput)
 namespace UnityEngine::Playables {
-struct PlayableOutputHandle;
-}
-namespace UnityEngine::Playables {
-struct PlayableOutput;
+struct PlayableGraph;
 }
 namespace UnityEngine::Playables {
 class IPlayableOutput;
 }
 namespace UnityEngine::Playables {
-struct PlayableGraph;
+struct PlayableOutput;
+}
+namespace UnityEngine::Playables {
+struct PlayableOutputHandle;
 }
 // Forward declare root types
 namespace UnityEngine::Playables {

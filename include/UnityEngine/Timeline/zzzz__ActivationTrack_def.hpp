@@ -7,29 +7,29 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(ActivationTrack)
-namespace UnityEngine::Playables {
-struct Playable;
-}
 namespace UnityEngine::Timeline {
-class IPropertyCollector;
-}
-namespace UnityEngine::Timeline {
-class ActivationMixerPlayable;
+struct __ActivationTrack__PostPlaybackState;
 }
 namespace UnityEngine::Playables {
 struct PlayableGraph;
 }
-namespace UnityEngine {
-class GameObject;
-}
-namespace UnityEngine::Timeline {
-struct __ActivationTrack__PostPlaybackState;
+namespace UnityEngine::Playables {
+struct Playable;
 }
 namespace UnityEngine::Timeline {
 class TimelineClip;
 }
 namespace UnityEngine::Playables {
 class PlayableDirector;
+}
+namespace UnityEngine {
+class GameObject;
+}
+namespace UnityEngine::Timeline {
+class ActivationMixerPlayable;
+}
+namespace UnityEngine::Timeline {
+class IPropertyCollector;
 }
 // Forward declare root types
 namespace UnityEngine::Timeline {

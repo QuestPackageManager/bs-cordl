@@ -7,26 +7,26 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ECGost3410Signer)
-namespace Org::BouncyCastle::Math::EC::Multiplier {
-class ECMultiplier;
-}
-namespace Org::BouncyCastle::Crypto {
-class ICipherParameters;
-}
 namespace Org::BouncyCastle::Crypto {
 class IDsa;
-}
-namespace Org::BouncyCastle::Crypto {
-class IDsaExt;
 }
 namespace Org::BouncyCastle::Crypto::Parameters {
 class ECKeyParameters;
 }
-namespace Org::BouncyCastle::Math {
-class BigInteger;
-}
 namespace Org::BouncyCastle::Security {
 class SecureRandom;
+}
+namespace Org::BouncyCastle::Crypto {
+class ICipherParameters;
+}
+namespace Org::BouncyCastle::Math::EC::Multiplier {
+class ECMultiplier;
+}
+namespace Org::BouncyCastle::Crypto {
+class IDsaExt;
+}
+namespace Org::BouncyCastle::Math {
+class BigInteger;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Signers {

@@ -1,13 +1,13 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/Http/Headers/zzzz__TransferCodingHeaderValue_def.hpp"
-#include "System/zzzz__ICloneable_def.hpp"
+#include "System/Net/Http/Headers/zzzz__Token_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/Collections/Generic/zzzz__ICollection_1_def.hpp"
+#include "System/Net/Http/Headers/zzzz__Lexer_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "System/Net/Http/Headers/zzzz__NameValueHeaderValue_def.hpp"
-#include "System/Net/Http/Headers/zzzz__Lexer_def.hpp"
-#include "System/Net/Http/Headers/zzzz__Token_def.hpp"
+#include "System/zzzz__ICloneable_def.hpp"
 //  Writing Method size for method: ::System::Net::Http::Headers::TransferCodingHeaderValue._ctor
 template <>
 

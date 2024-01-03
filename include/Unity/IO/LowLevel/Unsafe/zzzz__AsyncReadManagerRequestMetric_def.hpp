@@ -12,16 +12,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(AsyncReadManagerRequestMetric)
 namespace Unity::IO::LowLevel::Unsafe {
-struct FileReadType;
-}
-namespace Unity::IO::LowLevel::Unsafe {
-struct AssetLoadingSubsystem;
+struct ProcessingState;
 }
 namespace Unity::IO::LowLevel::Unsafe {
 struct Priority;
 }
 namespace Unity::IO::LowLevel::Unsafe {
-struct ProcessingState;
+struct FileReadType;
+}
+namespace Unity::IO::LowLevel::Unsafe {
+struct AssetLoadingSubsystem;
 }
 // Forward declare root types
 namespace Unity::IO::LowLevel::Unsafe {
@@ -33,7 +33,7 @@ MARK_VAL_T(::Unity::IO::LowLevel::Unsafe::AsyncReadManagerRequestMetric);
 // SizeInfo { instance_size: 96, native_size: 96, calculated_instance_size: 96, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Unity::IO::LowLevel::Unsafe {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9988)), TypeDefinitionIndex(TypeDefinitionIndex(9987)), TypeDefinitionIndex(TypeDefinitionIndex(9986)),
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9987)), TypeDefinitionIndex(TypeDefinitionIndex(9988)), TypeDefinitionIndex(TypeDefinitionIndex(9986)),
 // TypeDefinitionIndex(TypeDefinitionIndex(9989))} Self: TypeDefinitionIndex(TypeDefinitionIndex(9990)) CS Name: ::Unity.IO.LowLevel.Unsafe::AsyncReadManagerRequestMetric
 struct CORDL_TYPE AsyncReadManagerRequestMetric {
 public:

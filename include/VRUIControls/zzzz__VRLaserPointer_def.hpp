@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(VRLaserPointer)
 namespace UnityEngine {
-class MaterialPropertyBlock;
+class MeshRenderer;
 }
 namespace UnityEngine {
-class MeshRenderer;
+class MaterialPropertyBlock;
 }
 namespace UnityEngine {
 struct Vector3;

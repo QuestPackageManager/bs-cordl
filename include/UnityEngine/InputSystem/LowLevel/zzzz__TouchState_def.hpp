@@ -8,11 +8,11 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(TouchState)
-namespace UnityEngine {
-struct Vector2;
-}
 namespace UnityEngine::InputSystem::LowLevel {
 class IInputStateTypeInfo;
+}
+namespace UnityEngine {
+struct Vector2;
 }
 namespace UnityEngine::InputSystem {
 struct TouchPhase;

@@ -15,10 +15,10 @@ namespace UnityEngine::InputSystem::Utilities {
 template <typename TValue> struct ReadOnlyArray_1;
 }
 namespace UnityEngine::InputSystem::HID {
-struct __HID__UsagePage;
+struct __HID__GenericDesktop;
 }
 namespace UnityEngine::InputSystem::HID {
-struct __HID__GenericDesktop;
+struct __HID__UsagePage;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::HID {

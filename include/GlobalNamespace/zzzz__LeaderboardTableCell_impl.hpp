@@ -2,8 +2,8 @@
 #include "HMUI/zzzz__TableCell_impl.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"
 #include "GlobalNamespace/zzzz__LeaderboardTableCell_def.hpp"
-#include "UnityEngine/UI/zzzz__Image_def.hpp"
 #include "TMPro/zzzz__TextMeshProUGUI_def.hpp"
+#include "UnityEngine/UI/zzzz__Image_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::LeaderboardTableCell.set_rank
 template <>
 

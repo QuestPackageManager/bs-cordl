@@ -2,9 +2,9 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__CompositeLogger_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__Exception_def.hpp"
 #include "GlobalNamespace/zzzz__IBeatSaberLogger_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::CompositeLogger._ctor
 template <>
 

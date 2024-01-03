@@ -5,20 +5,20 @@ CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(Time)
-namespace System {
-struct DateTime;
-}
 namespace Org::BouncyCastle::Asn1 {
-class IAsn1Choice;
+class Asn1TaggedObject;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
 }
 namespace System {
+struct DateTime;
+}
+namespace System {
 class Object;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1TaggedObject;
+class IAsn1Choice;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::X509 {

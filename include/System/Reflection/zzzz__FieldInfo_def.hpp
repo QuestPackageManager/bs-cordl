@@ -6,41 +6,41 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(FieldInfo)
-namespace System {
-struct RuntimeFieldHandle;
+namespace System::Globalization {
+class CultureInfo;
+}
+namespace System::Reflection {
+struct BindingFlags;
+}
+namespace System::Reflection {
+class CustomAttributeData;
+}
+namespace System::Runtime::InteropServices {
+class MarshalAsAttribute;
 }
 namespace System::Reflection {
 struct FieldAttributes;
 }
+namespace System {
+class Object;
+}
+namespace System {
+struct RuntimeTypeHandle;
+}
+namespace System {
+struct TypedReference;
+}
+namespace System {
+struct RuntimeFieldHandle;
+}
 namespace System::Reflection {
-struct BindingFlags;
+struct MemberTypes;
 }
 namespace System::Reflection {
 class Binder;
 }
 namespace System {
 class Type;
-}
-namespace System {
-struct RuntimeTypeHandle;
-}
-namespace System::Runtime::InteropServices {
-class MarshalAsAttribute;
-}
-namespace System::Reflection {
-class CustomAttributeData;
-}
-namespace System {
-struct TypedReference;
-}
-namespace System::Reflection {
-struct MemberTypes;
-}
-namespace System::Globalization {
-class CultureInfo;
-}
-namespace System {
-class Object;
 }
 // Forward declare root types
 namespace System::Reflection {

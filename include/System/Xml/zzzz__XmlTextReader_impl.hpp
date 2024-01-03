@@ -1,15 +1,15 @@
 #pragma once
 #include "System/Xml/zzzz__XmlReader_impl.hpp"
 #include "System/Xml/zzzz__XmlTextReader_def.hpp"
-#include "System/Xml/zzzz__EntityHandling_def.hpp"
-#include "System/Xml/zzzz__XmlNameTable_def.hpp"
-#include "System/Xml/zzzz__XmlTextReaderImpl_def.hpp"
-#include "System/Xml/zzzz__XmlNodeType_def.hpp"
-#include "System/Xml/zzzz__IDtdInfo_def.hpp"
-#include "System/Xml/zzzz__ReadState_def.hpp"
 #include "System/Xml/zzzz__XmlResolver_def.hpp"
-#include "System/Xml/zzzz__IXmlNamespaceResolver_def.hpp"
+#include "System/Xml/zzzz__XmlNameTable_def.hpp"
+#include "System/Xml/zzzz__IDtdInfo_def.hpp"
 #include "System/IO/zzzz__TextReader_def.hpp"
+#include "System/Xml/zzzz__XmlNodeType_def.hpp"
+#include "System/Xml/zzzz__IXmlNamespaceResolver_def.hpp"
+#include "System/Xml/zzzz__ReadState_def.hpp"
+#include "System/Xml/zzzz__XmlTextReaderImpl_def.hpp"
+#include "System/Xml/zzzz__EntityHandling_def.hpp"
 //  Writing Method size for method: ::System::Xml::XmlTextReader._ctor
 template <>
 

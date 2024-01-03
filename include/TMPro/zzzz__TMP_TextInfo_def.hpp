@@ -9,19 +9,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(TMP_TextInfo)
 namespace TMPro {
-struct TMP_CharacterInfo;
-}
-namespace TMPro {
-struct TMP_LinkInfo;
-}
-namespace TMPro {
-struct TMP_LineInfo;
+class TMP_Text;
 }
 namespace TMPro {
 struct TMP_PageInfo;
 }
 namespace TMPro {
-class TMP_Text;
+struct TMP_MeshInfo;
+}
+namespace TMPro {
+struct TMP_CharacterInfo;
 }
 namespace TMPro {
 struct MaterialReference;
@@ -30,7 +27,10 @@ namespace TMPro {
 struct TMP_WordInfo;
 }
 namespace TMPro {
-struct TMP_MeshInfo;
+struct TMP_LinkInfo;
+}
+namespace TMPro {
+struct TMP_LineInfo;
 }
 // Forward declare root types
 namespace TMPro {

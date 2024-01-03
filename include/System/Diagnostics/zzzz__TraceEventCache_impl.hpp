@@ -2,8 +2,8 @@
 #include "System/zzzz__DateTime_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Diagnostics/zzzz__TraceEventCache_def.hpp"
-#include "System/zzzz__DateTime_def.hpp"
 #include "System/Collections/zzzz__Stack_def.hpp"
+#include "System/zzzz__DateTime_def.hpp"
 //  Writing Method size for method: ::System::Diagnostics::TraceEventCache.get_Callstack
 template <>
 

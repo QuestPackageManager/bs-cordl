@@ -8,13 +8,13 @@ CORDL_MODULE_INIT
 #include <cstddef>
 CORDL_MODULE_EXPORT(MonoEventInfo)
 namespace System::Reflection {
+class MethodInfo;
+}
+namespace System::Reflection {
 struct EventAttributes;
 }
 namespace System {
 class Type;
-}
-namespace System::Reflection {
-class MethodInfo;
 }
 // Forward declare root types
 namespace System::Reflection {

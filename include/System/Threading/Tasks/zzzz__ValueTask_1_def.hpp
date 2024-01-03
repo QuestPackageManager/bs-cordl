@@ -20,17 +20,17 @@ template <typename TResult> class __ValueTask_1__ValueTaskSourceAsTask____c;
 namespace System::Threading::Tasks::Sources {
 template <typename TResult> class IValueTaskSource_1;
 }
-namespace System {
-template <typename T> class IEquatable_1;
-}
 namespace System::Runtime::CompilerServices {
 template <typename TResult> struct ConfiguredValueTaskAwaitable_1;
 }
 namespace System::Threading::Tasks {
-template <typename TResult> class __ValueTask_1__ValueTaskSourceAsTask;
+template <typename TResult> class Task_1;
+}
+namespace System {
+template <typename T> class IEquatable_1;
 }
 namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
+template <typename TResult> class __ValueTask_1__ValueTaskSourceAsTask;
 }
 namespace System::Runtime::CompilerServices {
 template <typename TResult> struct ValueTaskAwaiter_1;

@@ -2,13 +2,13 @@
 #include "LiteNetLib/zzzz__ConnectionRequestResult_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "LiteNetLib/zzzz__ConnectionRequest_def.hpp"
-#include "LiteNetLib/zzzz__NetManager_def.hpp"
-#include "System/Net/zzzz__IPEndPoint_def.hpp"
-#include "LiteNetLib/zzzz__ConnectionRequestResult_def.hpp"
-#include "LiteNetLib/Utils/zzzz__NetDataReader_def.hpp"
 #include "LiteNetLib/zzzz__NetPeer_def.hpp"
 #include "LiteNetLib/Utils/zzzz__NetDataWriter_def.hpp"
 #include "LiteNetLib/zzzz__NetConnectRequestPacket_def.hpp"
+#include "System/Net/zzzz__IPEndPoint_def.hpp"
+#include "LiteNetLib/zzzz__ConnectionRequestResult_def.hpp"
+#include "LiteNetLib/zzzz__NetManager_def.hpp"
+#include "LiteNetLib/Utils/zzzz__NetDataReader_def.hpp"
 //  Writing Method size for method: ::LiteNetLib::ConnectionRequest.get_Result
 template <>
 

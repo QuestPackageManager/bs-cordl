@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "HMUI/zzzz__ButtonStaticAnimations_def.hpp"
-#include "UnityEngine/zzzz__AnimationClip_def.hpp"
 #include "HMUI/zzzz__NoTransitionsButton_def.hpp"
+#include "UnityEngine/zzzz__AnimationClip_def.hpp"
 //  Writing Method size for method: ::HMUI::ButtonStaticAnimations.Awake
 template <>
 

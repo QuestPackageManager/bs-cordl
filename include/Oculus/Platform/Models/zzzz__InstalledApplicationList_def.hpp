@@ -16,8 +16,8 @@ MARK_REF_PTR_T(::Oculus::Platform::Models::InstalledApplicationList);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Oculus::Platform::Models {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13430)), TypeDefinitionIndex(TypeDefinitionIndex(13437)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13430), inst:
-// 1174 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(13438)) CS Name: ::Oculus.Platform.Models::InstalledApplicationList*
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13430), inst: 1174 }), TypeDefinitionIndex(TypeDefinitionIndex(13437)),
+// TypeDefinitionIndex(TypeDefinitionIndex(13430))} Self: TypeDefinitionIndex(TypeDefinitionIndex(13438)) CS Name: ::Oculus.Platform.Models::InstalledApplicationList*
 class CORDL_TYPE InstalledApplicationList : public ::Oculus::Platform::Models::DeserializableList_1<::Oculus::Platform::Models::InstalledApplication*> {
 public:
   // Declarations

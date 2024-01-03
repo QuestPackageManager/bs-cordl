@@ -10,11 +10,23 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(ObjectsMovementRecorder)
+namespace UnityEngine {
+class Camera;
+}
+namespace GlobalNamespace {
+class PlaybackScreenshotRecorder;
+}
+namespace GlobalNamespace {
+class AudioTimeSyncController;
+}
 namespace GlobalNamespace {
 class __PlaybackRenderer__PlaybackScreenshot;
 }
 namespace GlobalNamespace {
-struct __ObjectsMovementRecorder__Mode;
+class IPosesSerializer;
+}
+namespace GlobalNamespace {
+class PosesPlayback;
 }
 namespace GlobalNamespace {
 class IBeatSaberLogger;
@@ -23,28 +35,16 @@ namespace GlobalNamespace {
 struct __ObjectsMovementRecorder__CameraView;
 }
 namespace GlobalNamespace {
-class PoseObject;
-}
-namespace GlobalNamespace {
 class PoseObjectIdSO;
 }
 namespace GlobalNamespace {
 class __ObjectsMovementRecorder__InitData;
 }
 namespace GlobalNamespace {
-class PlaybackScreenshotRecorder;
+struct __ObjectsMovementRecorder__Mode;
 }
 namespace GlobalNamespace {
-class AudioTimeSyncController;
-}
-namespace UnityEngine {
-class Camera;
-}
-namespace GlobalNamespace {
-class IPosesSerializer;
-}
-namespace GlobalNamespace {
-class PosesPlayback;
+class PoseObject;
 }
 namespace GlobalNamespace {
 class PosesRecorder;
@@ -178,7 +178,7 @@ static_assert(offsetof(::GlobalNamespace::__ObjectsMovementRecorder__CameraView,
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(5918)), TypeDefinitionIndex(TypeDefinitionIndex(5917))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5918)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(5917))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5919))
 // CS Name: ::ObjectsMovementRecorder::InitData*
 class CORDL_TYPE __ObjectsMovementRecorder__InitData : public ::System::Object {
@@ -390,7 +390,7 @@ static_assert(offsetof(::GlobalNamespace::__ObjectsMovementRecorder__InitData, _
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5918)), TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(5917))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5917)), TypeDefinitionIndex(TypeDefinitionIndex(5918)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5920))
 // CS Name: ::ObjectsMovementRecorder*
 class CORDL_TYPE ObjectsMovementRecorder : public ::UnityEngine::MonoBehaviour {

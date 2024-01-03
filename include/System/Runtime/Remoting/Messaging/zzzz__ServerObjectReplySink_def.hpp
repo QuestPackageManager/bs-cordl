@@ -5,16 +5,16 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(ServerObjectReplySink)
 namespace System::Runtime::Remoting::Messaging {
-class IMessageCtrl;
+class IMessageSink;
 }
 namespace System::Runtime::Remoting {
 class ServerIdentity;
 }
 namespace System::Runtime::Remoting::Messaging {
-class IMessageSink;
+class IMessage;
 }
 namespace System::Runtime::Remoting::Messaging {
-class IMessage;
+class IMessageCtrl;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting::Messaging {

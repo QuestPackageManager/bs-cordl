@@ -10,41 +10,41 @@ CORDL_MODULE_EXPORT(ReturnMessage)
 namespace System::Reflection {
 class MethodBase;
 }
-namespace System {
-class Object;
-}
 namespace System::Runtime::Remoting::Messaging {
 class IMethodMessage;
 }
-namespace System::Collections {
-class IDictionary;
+namespace System::Runtime::Remoting::Messaging {
+class LogicalCallContext;
+}
+namespace System {
+class Type;
+}
+namespace System {
+class Object;
+}
+namespace System {
+class Exception;
 }
 namespace System::Runtime::Remoting::Messaging {
 class MethodReturnDictionary;
 }
 namespace System::Runtime::Remoting::Messaging {
-class IMethodCallMessage;
-}
-namespace System {
-class Exception;
-}
-namespace System {
-class Type;
-}
-namespace System::Runtime::Remoting::Messaging {
-class LogicalCallContext;
-}
-namespace System::Runtime::Remoting {
-class Identity;
-}
-namespace System::Runtime::Remoting::Messaging {
 class ArgInfo;
+}
+namespace System::Collections {
+class IDictionary;
 }
 namespace System::Runtime::Remoting::Messaging {
 class IMessage;
 }
 namespace System::Runtime::Remoting::Messaging {
 class IMethodReturnMessage;
+}
+namespace System::Runtime::Remoting {
+class Identity;
+}
+namespace System::Runtime::Remoting::Messaging {
+class IMethodCallMessage;
 }
 namespace System::Runtime::Remoting::Messaging {
 class IInternalMessage;

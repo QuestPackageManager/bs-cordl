@@ -9,35 +9,35 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(GraphicRaycaster)
+namespace UnityEngine::EventSystems {
+class PointerEventData;
+}
+namespace UnityEngine::EventSystems {
+struct RaycastResult;
+}
+namespace System::Collections::Generic {
+template <typename T> class IList_1;
+}
+namespace UnityEngine {
+struct Vector2;
+}
+namespace UnityEngine {
+struct LayerMask;
+}
 namespace UnityEngine::UI {
-class __GraphicRaycaster____c;
+struct __GraphicRaycaster__BlockingObjects;
 }
 namespace UnityEngine {
 class Canvas;
+}
+namespace UnityEngine::UI {
+class __GraphicRaycaster____c;
 }
 namespace UnityEngine::UI {
 class Graphic;
 }
 namespace UnityEngine {
 class Camera;
-}
-namespace UnityEngine::EventSystems {
-class PointerEventData;
-}
-namespace System::Collections::Generic {
-template <typename T> class IList_1;
-}
-namespace UnityEngine::EventSystems {
-struct RaycastResult;
-}
-namespace UnityEngine {
-struct Vector2;
-}
-namespace UnityEngine::UI {
-struct __GraphicRaycaster__BlockingObjects;
-}
-namespace UnityEngine {
-struct LayerMask;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
@@ -173,7 +173,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UI::__GraphicRaycas
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10204)), TypeDefinitionIndex(TypeDefinitionIndex(13043)), TypeDefinitionIndex(TypeDefinitionIndex(13209))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13043)), TypeDefinitionIndex(TypeDefinitionIndex(13209)), TypeDefinitionIndex(TypeDefinitionIndex(10204))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13045))
 // CS Name: ::UnityEngine.UI::GraphicRaycaster*
 class CORDL_TYPE GraphicRaycaster : public ::UnityEngine::EventSystems::BaseRaycaster {

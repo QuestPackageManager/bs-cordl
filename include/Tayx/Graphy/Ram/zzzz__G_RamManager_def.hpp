@@ -5,38 +5,38 @@ CORDL_MODULE_INIT
 #include "Tayx/Graphy/zzzz__GraphyManager_def.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(G_RamManager)
+namespace UnityEngine {
+class GameObject;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace Tayx::Graphy {
+struct __GraphyManager__ModulePosition;
+}
+namespace UnityEngine::UI {
+class Image;
+}
 namespace Tayx::Graphy::Ram {
 class G_RamGraph;
 }
-namespace UnityEngine {
-class RectTransform;
+namespace Tayx::Graphy::UI {
+class IMovable;
+}
+namespace Tayx::Graphy::Ram {
+class G_RamText;
 }
 namespace Tayx::Graphy::UI {
 class IModifiableState;
 }
 namespace Tayx::Graphy {
-struct __GraphyManager__ModulePosition;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace UnityEngine {
-class GameObject;
-}
-namespace Tayx::Graphy {
 struct __GraphyManager__ModuleState;
 }
-namespace Tayx::Graphy::UI {
-class IMovable;
-}
-namespace UnityEngine::UI {
-class Image;
+namespace UnityEngine {
+class RectTransform;
 }
 namespace Tayx::Graphy {
 class GraphyManager;
-}
-namespace Tayx::Graphy::Ram {
-class G_RamText;
 }
 // Forward declare root types
 namespace Tayx::Graphy::Ram {
@@ -48,7 +48,7 @@ MARK_REF_PTR_T(::Tayx::Graphy::Ram::G_RamManager);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Tayx::Graphy::Ram {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15064)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(15064))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15077))
 // CS Name: ::Tayx.Graphy.Ram::G_RamManager*
 class CORDL_TYPE G_RamManager : public ::UnityEngine::MonoBehaviour {

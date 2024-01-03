@@ -1,10 +1,10 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "HMUI/zzzz__ButtonBinder_def.hpp"
-#include "UnityEngine/UI/zzzz__Button_def.hpp"
 #include "System/zzzz__Action_def.hpp"
-#include "System/zzzz__Tuple_2_def.hpp"
+#include "UnityEngine/UI/zzzz__Button_def.hpp"
 #include "UnityEngine/Events/zzzz__UnityAction_def.hpp"
+#include "System/zzzz__Tuple_2_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 //  Writing Method size for method: ::HMUI::ButtonBinder._ctor
 template <>

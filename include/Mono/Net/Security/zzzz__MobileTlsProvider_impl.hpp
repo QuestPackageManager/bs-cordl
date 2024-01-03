@@ -1,14 +1,14 @@
 #pragma once
 #include "Mono/Security/Interface/zzzz__MonoTlsProvider_impl.hpp"
 #include "Mono/Net/Security/zzzz__MobileTlsProvider_def.hpp"
-#include "System/IO/zzzz__Stream_def.hpp"
-#include "System/Security/Cryptography/X509Certificates/zzzz__X509CertificateCollection_def.hpp"
-#include "Mono/Net/Security/zzzz__MobileAuthenticatedStream_def.hpp"
-#include "Mono/Net/Security/zzzz__ChainValidationHelper_def.hpp"
-#include "System/Net/Security/zzzz__SslPolicyErrors_def.hpp"
 #include "System/Net/Security/zzzz__SslStream_def.hpp"
-#include "System/Security/Cryptography/X509Certificates/zzzz__X509Chain_def.hpp"
+#include "Mono/Net/Security/zzzz__ChainValidationHelper_def.hpp"
 #include "Mono/Security/Interface/zzzz__MonoTlsSettings_def.hpp"
+#include "System/Net/Security/zzzz__SslPolicyErrors_def.hpp"
+#include "System/Security/Cryptography/X509Certificates/zzzz__X509Chain_def.hpp"
+#include "System/Security/Cryptography/X509Certificates/zzzz__X509CertificateCollection_def.hpp"
+#include "System/IO/zzzz__Stream_def.hpp"
+#include "Mono/Net/Security/zzzz__MobileAuthenticatedStream_def.hpp"
 //  Writing Method size for method: ::Mono::Net::Security::MobileTlsProvider.CreateSslStream
 template <>
 

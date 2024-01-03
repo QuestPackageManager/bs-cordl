@@ -5,32 +5,32 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(InputFieldDataBinder)
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace System {
+template <typename T, typename TResult> class Func_2;
+}
+namespace UnityEngine::UI {
+class InputField;
+}
 namespace HMUI {
 template <typename T> class __InputFieldDataBinder____c__3_1;
+}
+namespace System {
+template <typename T1, typename T2> class Tuple_2;
+}
+namespace UnityEngine::Events {
+template <typename T0> class UnityAction_1;
+}
+namespace GlobalNamespace {
+class IObservableChange;
 }
 namespace HMUI {
 template <typename T0, typename T1> class __InputFieldDataBinder____c__DisplayClass2_0_2;
 }
 namespace System {
 template <typename T1, typename T2, typename T3, typename T4> class Tuple_4;
-}
-namespace GlobalNamespace {
-class IObservableChange;
-}
-namespace System {
-template <typename T, typename TResult> class Func_2;
-}
-namespace System {
-template <typename T1, typename T2> class Tuple_2;
-}
-namespace UnityEngine::UI {
-class InputField;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace UnityEngine::Events {
-template <typename T0> class UnityAction_1;
 }
 namespace System {
 class Action;

@@ -2,6 +2,7 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/zzzz__ReadOnlySpan_1_def.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
@@ -9,28 +10,43 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(SByte)
 namespace System {
-class ISpanFormattable;
-}
-namespace System {
-template <typename T> class IComparable_1;
-}
-namespace System {
 class Object;
 }
 namespace System {
-struct TypeCode;
+struct DateTime;
+}
+namespace System {
+class Type;
+}
+namespace System {
+template <typename T> class IEquatable_1;
 }
 namespace System {
 class IFormatProvider;
 }
 namespace System {
+class IConvertible;
+}
+namespace System {
 class IComparable;
 }
-namespace System::Globalization {
-class NumberFormatInfo;
+namespace System {
+struct TypeCode;
 }
 namespace System {
 struct Decimal;
+}
+namespace System {
+template <typename T> class IComparable_1;
+}
+namespace System {
+template <typename T> struct Span_1;
+}
+namespace System::Globalization {
+struct NumberStyles;
+}
+namespace System {
+class ISpanFormattable;
 }
 namespace System {
 class IFormattable;
@@ -38,23 +54,8 @@ class IFormattable;
 namespace System {
 template <typename T> struct ReadOnlySpan_1;
 }
-namespace System {
-struct DateTime;
-}
-namespace System {
-class IConvertible;
-}
 namespace System::Globalization {
-struct NumberStyles;
-}
-namespace System {
-template <typename T> struct Span_1;
-}
-namespace System {
-class Type;
-}
-namespace System {
-template <typename T> class IEquatable_1;
+class NumberFormatInfo;
 }
 // Forward declare root types
 namespace System {
@@ -66,7 +67,7 @@ MARK_VAL_T(::System::SByte);
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 1, calculated_native_size: 17, minimum_alignment: 1, natural_alignment: 1, packing: None, specified_packing: None }
 namespace System {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2464)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2464), inst: 292 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2467))
 // CS Name: ::System::SByte
 struct CORDL_TYPE SByte {

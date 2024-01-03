@@ -11,28 +11,28 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(SelectLevelCategoryViewController)
 namespace GlobalNamespace {
-struct __SelectLevelCategoryViewController__LevelCategory;
+class __SelectLevelCategoryViewController____c__DisplayClass12_0;
 }
 namespace GlobalNamespace {
 class __SelectLevelCategoryViewController____c;
 }
+namespace HMUI {
+class SegmentedControl;
+}
 namespace GlobalNamespace {
-class __SelectLevelCategoryViewController____c__DisplayClass12_0;
+struct __SelectLevelCategoryViewController__LevelCategory;
 }
 namespace GlobalNamespace {
 class IAnalyticsModel;
 }
-namespace HMUI {
-class IconSegmentedControl;
-}
 namespace GlobalNamespace {
 class __SelectLevelCategoryViewController__LevelCategoryInfo;
 }
-namespace HMUI {
-class SegmentedControl;
-}
 namespace System {
 template <typename T1, typename T2> class Action_2;
+}
+namespace HMUI {
+class IconSegmentedControl;
 }
 namespace UnityEngine {
 class Sprite;
@@ -332,7 +332,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__SelectLevelCa
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5674)), TypeDefinitionIndex(TypeDefinitionIndex(13605))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13605)), TypeDefinitionIndex(TypeDefinitionIndex(5674))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5678))
 // CS Name: ::SelectLevelCategoryViewController*
 class CORDL_TYPE SelectLevelCategoryViewController : public ::HMUI::ViewController {

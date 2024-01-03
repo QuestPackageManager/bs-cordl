@@ -4,6 +4,9 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(PkixAttrCertChecker)
+namespace Org::BouncyCastle::Utilities::Collections {
+class ISet;
+}
 namespace Org::BouncyCastle::X509 {
 class IX509AttributeCertificate;
 }
@@ -12,9 +15,6 @@ class PkixCertPath;
 }
 namespace System::Collections {
 class ICollection;
-}
-namespace Org::BouncyCastle::Utilities::Collections {
-class ISet;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Pkix {

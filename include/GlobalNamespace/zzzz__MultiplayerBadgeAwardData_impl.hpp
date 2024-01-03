@@ -1,11 +1,11 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerBadgeAwardData_def.hpp"
-#include "System/zzzz__IComparable_def.hpp"
-#include "System/zzzz__Object_def.hpp"
-#include "UnityEngine/zzzz__Sprite_def.hpp"
-#include "GlobalNamespace/zzzz__MultiplayerBadgeDataSO_def.hpp"
 #include "GlobalNamespace/zzzz__IConnectedPlayer_def.hpp"
+#include "UnityEngine/zzzz__Sprite_def.hpp"
+#include "System/zzzz__IComparable_def.hpp"
+#include "GlobalNamespace/zzzz__MultiplayerBadgeDataSO_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::MultiplayerBadgeAwardData.get_awardedPlayer
 template <>
 

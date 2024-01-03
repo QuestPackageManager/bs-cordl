@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/ProBuilder/zzzz__EntityBehaviour_impl.hpp"
 #include "UnityEngine/ProBuilder/zzzz__TriggerBehaviour_def.hpp"
-#include "UnityEngine/SceneManagement/zzzz__LoadSceneMode_def.hpp"
 #include "UnityEngine/SceneManagement/zzzz__Scene_def.hpp"
+#include "UnityEngine/SceneManagement/zzzz__LoadSceneMode_def.hpp"
 //  Writing Method size for method: ::UnityEngine::ProBuilder::TriggerBehaviour.Initialize
 template <>
 

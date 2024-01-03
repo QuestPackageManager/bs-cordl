@@ -8,22 +8,22 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(GeneralName)
 namespace Org::BouncyCastle::Asn1 {
-class IAsn1Choice;
+class Asn1TaggedObject;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
 }
-namespace System {
-class Object;
-}
 namespace Org::BouncyCastle::Asn1 {
-class Asn1TaggedObject;
+class IAsn1Choice;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class X509Name;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Encodable;
 }
-namespace Org::BouncyCastle::Asn1::X509 {
-class X509Name;
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::X509 {

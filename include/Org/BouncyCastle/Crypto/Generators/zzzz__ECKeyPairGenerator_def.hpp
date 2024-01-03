@@ -5,23 +5,14 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(ECKeyPairGenerator)
+namespace Org::BouncyCastle::Asn1 {
+class DerObjectIdentifier;
+}
 namespace Org::BouncyCastle::Math::EC::Multiplier {
 class ECMultiplier;
 }
 namespace Org::BouncyCastle::Security {
 class SecureRandom;
-}
-namespace Org::BouncyCastle::Asn1::X9 {
-class X9ECParameters;
-}
-namespace Org::BouncyCastle::Crypto::Parameters {
-class ECPrivateKeyParameters;
-}
-namespace Org::BouncyCastle::Crypto::Parameters {
-class ECPublicKeyParameters;
-}
-namespace Org::BouncyCastle::Asn1 {
-class DerObjectIdentifier;
 }
 namespace Org::BouncyCastle::Crypto {
 class KeyGenerationParameters;
@@ -29,11 +20,20 @@ class KeyGenerationParameters;
 namespace Org::BouncyCastle::Crypto {
 class AsymmetricCipherKeyPair;
 }
+namespace Org::BouncyCastle::Asn1::X9 {
+class X9ECParameters;
+}
 namespace Org::BouncyCastle::Crypto {
 class IAsymmetricCipherKeyPairGenerator;
 }
 namespace Org::BouncyCastle::Crypto::Parameters {
 class ECDomainParameters;
+}
+namespace Org::BouncyCastle::Crypto::Parameters {
+class ECPrivateKeyParameters;
+}
+namespace Org::BouncyCastle::Crypto::Parameters {
+class ECPublicKeyParameters;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Generators {

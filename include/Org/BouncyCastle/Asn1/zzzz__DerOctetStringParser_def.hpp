@@ -5,19 +5,19 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(DerOctetStringParser)
 namespace Org::BouncyCastle::Asn1 {
+class Asn1Object;
+}
+namespace Org::BouncyCastle::Asn1 {
 class DefiniteLengthInputStream;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1OctetStringParser;
+class IAsn1Convertible;
 }
 namespace System::IO {
 class Stream;
 }
 namespace Org::BouncyCastle::Asn1 {
-class IAsn1Convertible;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
+class Asn1OctetStringParser;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1 {

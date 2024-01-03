@@ -4,35 +4,35 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(BinaryReadWriteExtensions)
-namespace UnityEngine {
-struct Vector3;
-}
-namespace UnityEngine {
-struct Pose;
-}
-namespace UnityEngine {
-struct Quaternion;
-}
-namespace System {
-template <typename T, typename TResult> class Func_2;
-}
-namespace UnityEngine {
-struct Color;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace System {
-template <typename T1, typename T2> class Action_2;
-}
-namespace System::IO {
-class BinaryReader;
-}
 namespace System::IO {
 class BinaryWriter;
 }
 namespace System::Collections::Generic {
 template <typename T> class IList_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace UnityEngine {
+struct Pose;
+}
+namespace UnityEngine {
+struct Color;
+}
+namespace System::IO {
+class BinaryReader;
+}
+namespace UnityEngine {
+struct Quaternion;
+}
+namespace UnityEngine {
+struct Vector3;
+}
+namespace System {
+template <typename T, typename TResult> class Func_2;
+}
+namespace System {
+template <typename T1, typename T2> class Action_2;
 }
 // Forward declare root types
 namespace GlobalNamespace {

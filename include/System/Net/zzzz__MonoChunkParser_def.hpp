@@ -13,9 +13,6 @@ CORDL_MODULE_EXPORT(MonoChunkParser)
 namespace System::Net {
 struct __MonoChunkParser__State;
 }
-namespace System::Text {
-class StringBuilder;
-}
 namespace System::Net {
 class __MonoChunkParser__Chunk;
 }
@@ -24,6 +21,9 @@ class ArrayList;
 }
 namespace System::Net {
 class WebHeaderCollection;
+}
+namespace System::Text {
+class StringBuilder;
 }
 // Forward declare root types
 namespace System::Net {

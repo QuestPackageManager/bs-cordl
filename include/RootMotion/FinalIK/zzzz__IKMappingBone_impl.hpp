@@ -1,10 +1,10 @@
 #pragma once
 #include "RootMotion/FinalIK/zzzz__IKMapping_impl.hpp"
 #include "RootMotion/FinalIK/zzzz__IKMappingBone_def.hpp"
-#include "RootMotion/FinalIK/zzzz__IKSolverFullBody_def.hpp"
+#include "RootMotion/FinalIK/zzzz__IKMapping_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
 #include "RootMotion/FinalIK/zzzz__IKSolver_def.hpp"
-#include "RootMotion/FinalIK/zzzz__IKMapping_def.hpp"
+#include "RootMotion/FinalIK/zzzz__IKSolverFullBody_def.hpp"
 //  Writing Method size for method: ::RootMotion::FinalIK::IKMappingBone.IsValid
 template <>
 

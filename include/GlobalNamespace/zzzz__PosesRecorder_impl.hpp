@@ -2,11 +2,11 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__PosesRecorder_def.hpp"
-#include "GlobalNamespace/zzzz__PoseObject_def.hpp"
 #include "GlobalNamespace/zzzz__PosesRecordingData_def.hpp"
-#include "GlobalNamespace/zzzz__PosesRecorder_def.hpp"
-#include "GlobalNamespace/zzzz__AudioTimeSyncController_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
+#include "GlobalNamespace/zzzz__AudioTimeSyncController_def.hpp"
+#include "GlobalNamespace/zzzz__PosesRecorder_def.hpp"
+#include "GlobalNamespace/zzzz__PoseObject_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::__PosesRecorder____c._ctor
 template <>

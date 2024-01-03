@@ -4,26 +4,26 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(AsyncComputeManager)
-namespace GlobalNamespace {
-class AsyncComputeOperation;
-}
-namespace System::Threading {
-class Thread;
-}
-namespace System {
-class IDisposable;
-}
 namespace System::Collections::Concurrent {
 template <typename T> class BlockingCollection_1;
 }
-namespace GlobalNamespace {
-class IAsyncComputeManager;
+namespace System::Threading::Tasks {
+template <typename TResult> class Task_1;
 }
 namespace GlobalNamespace {
 template <typename T> class AsyncComputeOperation_1;
 }
-namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
+namespace GlobalNamespace {
+class AsyncComputeOperation;
+}
+namespace GlobalNamespace {
+class IAsyncComputeManager;
+}
+namespace System {
+class IDisposable;
+}
+namespace System::Threading {
+class Thread;
 }
 // Forward declare root types
 namespace GlobalNamespace {

@@ -3,16 +3,16 @@
 #include "UnityEngine/zzzz__Color_impl.hpp"
 #include "Zenject/zzzz__MonoMemoryPool_1_impl.hpp"
 #include "GlobalNamespace/zzzz__FlyingScoreEffect_def.hpp"
+#include "UnityEngine/zzzz__SpriteRenderer_def.hpp"
+#include "UnityEngine/zzzz__Color_def.hpp"
+#include "GlobalNamespace/zzzz__ICutScoreBufferDidChangeReceiver_def.hpp"
+#include "UnityEngine/zzzz__AnimationCurve_def.hpp"
+#include "GlobalNamespace/zzzz__IReadonlyCutScoreBuffer_def.hpp"
+#include "GlobalNamespace/zzzz__FlyingScoreEffect_def.hpp"
+#include "GlobalNamespace/zzzz__ICutScoreBufferDidFinishReceiver_def.hpp"
 #include "TMPro/zzzz__TextMeshPro_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "GlobalNamespace/zzzz__CutScoreBuffer_def.hpp"
-#include "GlobalNamespace/zzzz__IReadonlyCutScoreBuffer_def.hpp"
-#include "UnityEngine/zzzz__Color_def.hpp"
-#include "UnityEngine/zzzz__AnimationCurve_def.hpp"
-#include "UnityEngine/zzzz__SpriteRenderer_def.hpp"
-#include "GlobalNamespace/zzzz__ICutScoreBufferDidChangeReceiver_def.hpp"
-#include "GlobalNamespace/zzzz__ICutScoreBufferDidFinishReceiver_def.hpp"
-#include "GlobalNamespace/zzzz__FlyingScoreEffect_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::FlyingScoreEffect.InitAndPresent
 template <>
 

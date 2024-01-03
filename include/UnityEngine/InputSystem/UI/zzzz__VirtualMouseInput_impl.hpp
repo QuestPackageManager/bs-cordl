@@ -5,14 +5,14 @@
 #include "UnityEngine/zzzz__Vector2_impl.hpp"
 #include "UnityEngine/InputSystem/UI/zzzz__VirtualMouseInput_def.hpp"
 #include "UnityEngine/zzzz__RectTransform_def.hpp"
-#include "UnityEngine/UI/zzzz__Graphic_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__Mouse_def.hpp"
+#include "UnityEngine/UI/zzzz__Graphic_def.hpp"
+#include "UnityEngine/InputSystem/UI/zzzz__VirtualMouseInput_def.hpp"
+#include "UnityEngine/zzzz__Canvas_def.hpp"
+#include "System/zzzz__Action_def.hpp"
+#include "UnityEngine/InputSystem/zzzz__InputAction_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputActionProperty_def.hpp"
-#include "UnityEngine/InputSystem/UI/zzzz__VirtualMouseInput_def.hpp"
-#include "System/zzzz__Action_def.hpp"
-#include "UnityEngine/zzzz__Canvas_def.hpp"
-#include "UnityEngine/InputSystem/zzzz__InputAction_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::InputSystem::UI::__VirtualMouseInput__CursorMode::__VirtualMouseInput__CursorMode(int32_t value__) noexcept {
   this->value__ = value__;

@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/EventSystems/zzzz__UIBehaviour_impl.hpp"
 #include "UnityEngine/UI/zzzz__LayoutElement_def.hpp"
-#include "UnityEngine/UI/zzzz__ILayoutElement_def.hpp"
 #include "UnityEngine/UI/zzzz__ILayoutIgnorer_def.hpp"
+#include "UnityEngine/UI/zzzz__ILayoutElement_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UI::LayoutElement.get_ignoreLayout
 template <>
 

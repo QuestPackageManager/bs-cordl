@@ -7,17 +7,17 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ArrayIndexFilter)
-namespace Newtonsoft::Json::Linq {
-class JToken;
-}
-namespace Newtonsoft::Json::Linq::JsonPath {
-class __ArrayIndexFilter___ExecuteFilter_d__4;
-}
 namespace System {
 template <typename T> struct Nullable_1;
 }
+namespace Newtonsoft::Json::Linq {
+class JToken;
+}
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
+}
+namespace Newtonsoft::Json::Linq::JsonPath {
+class __ArrayIndexFilter___ExecuteFilter_d__4;
 }
 namespace System {
 class Object;
@@ -28,11 +28,11 @@ class IEnumerable;
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
-namespace System {
-class IDisposable;
-}
 namespace System::Collections {
 class IEnumerator;
+}
+namespace System {
+class IDisposable;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Linq::JsonPath {
@@ -284,8 +284,8 @@ static_assert(offsetof(::Newtonsoft::Json::Linq::JsonPath::__ArrayIndexFilter___
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Linq::JsonPath {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 98 }), TypeDefinitionIndex(TypeDefinitionIndex(2448)),
-// TypeDefinitionIndex(TypeDefinitionIndex(12020))} Self: TypeDefinitionIndex(TypeDefinitionIndex(12009)) CS Name: ::Newtonsoft.Json.Linq.JsonPath::ArrayIndexFilter*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(12020)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 98
+// })} Self: TypeDefinitionIndex(TypeDefinitionIndex(12009)) CS Name: ::Newtonsoft.Json.Linq.JsonPath::ArrayIndexFilter*
 class CORDL_TYPE ArrayIndexFilter : public ::Newtonsoft::Json::Linq::JsonPath::PathFilter {
 public:
   // Declarations

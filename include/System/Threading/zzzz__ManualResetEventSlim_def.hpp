@@ -6,13 +6,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ManualResetEventSlim)
 namespace System {
+class IDisposable;
+}
+namespace System {
 class Object;
 }
 namespace System::Threading {
 class ManualResetEvent;
-}
-namespace System {
-class IDisposable;
 }
 namespace System {
 template <typename T> class Action_1;

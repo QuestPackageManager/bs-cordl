@@ -7,11 +7,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(StandalonePlatform)
+namespace Oculus::Platform::Models {
+class PlatformInitialize;
+}
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
-namespace Oculus::Platform::Models {
-class PlatformInitialize;
+namespace Oculus::Platform {
+class __StandalonePlatform__UnityLogDelegate;
 }
 namespace Oculus::Platform {
 template <typename T> class Request_1;
@@ -19,17 +22,14 @@ template <typename T> class Request_1;
 namespace Oculus::Platform {
 struct InitConfigOptions;
 }
-namespace Oculus::Platform {
-class __StandalonePlatform__UnityLogDelegate;
-}
 namespace System {
 class Object;
 }
 namespace System {
-class AsyncCallback;
+class IAsyncResult;
 }
 namespace System {
-class IAsyncResult;
+class AsyncCallback;
 }
 // Forward declare root types
 namespace Oculus::Platform {

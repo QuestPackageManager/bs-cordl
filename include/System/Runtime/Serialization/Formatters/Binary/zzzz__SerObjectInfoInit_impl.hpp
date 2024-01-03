@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Runtime/Serialization/Formatters/Binary/zzzz__SerObjectInfoInit_def.hpp"
-#include "System/Collections/zzzz__Hashtable_def.hpp"
 #include "System/Runtime/Serialization/Formatters/Binary/zzzz__SerStack_def.hpp"
+#include "System/Collections/zzzz__Hashtable_def.hpp"
 //  Writing Method size for method: ::System::Runtime::Serialization::Formatters::Binary::SerObjectInfoInit._ctor
 template <>
 

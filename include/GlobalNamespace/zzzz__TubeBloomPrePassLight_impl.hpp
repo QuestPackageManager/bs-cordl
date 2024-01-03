@@ -4,15 +4,15 @@
 #include "GlobalNamespace/zzzz__TubeBloomPrePassLight_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "UnityEngine/zzzz__Matrix4x4_def.hpp"
+#include "GlobalNamespace/zzzz__ParametricBoxController_def.hpp"
 #include "GlobalNamespace/zzzz__Parametric3SliceSpriteController_def.hpp"
-#include "GlobalNamespace/zzzz__BoolSO_def.hpp"
-#include "UnityEngine/zzzz__AnimationCurve_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
 #include "UnityEngine/zzzz__Vector4_def.hpp"
 #include "GlobalNamespace/zzzz__BloomPrePassLight_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
+#include "GlobalNamespace/zzzz__BoolSO_def.hpp"
+#include "UnityEngine/zzzz__AnimationCurve_def.hpp"
 #include "System/zzzz__Action_def.hpp"
-#include "GlobalNamespace/zzzz__ParametricBoxController_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::TubeBloomPrePassLight.add_didRefreshEvent
 template <>
 

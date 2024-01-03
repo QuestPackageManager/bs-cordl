@@ -5,15 +5,6 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(BaseReorderableDragAndDropController)
-namespace UnityEngine::UIElements {
-template <typename TArgs> class IDragAndDropController_1;
-}
-namespace UnityEngine::UIElements {
-class ICollectionDragAndDropController;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
@@ -21,13 +12,22 @@ namespace UnityEngine::UIElements {
 class IListDragAndDropArgs;
 }
 namespace UnityEngine::UIElements {
+class ICollectionDragAndDropController;
+}
+namespace UnityEngine::UIElements {
+class IReorderable;
+}
+namespace UnityEngine::UIElements {
+template <typename TArgs> class IDragAndDropController_1;
+}
+namespace UnityEngine::UIElements {
 class StartDragArgs;
 }
 namespace UnityEngine::UIElements {
 class BaseVerticalCollectionView;
 }
-namespace UnityEngine::UIElements {
-class IReorderable;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
 }
 namespace UnityEngine::UIElements {
 struct DragVisualMode;

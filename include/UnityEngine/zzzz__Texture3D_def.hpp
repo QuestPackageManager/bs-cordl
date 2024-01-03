@@ -7,19 +7,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Texture3D)
 namespace UnityEngine::Experimental::Rendering {
-struct DefaultFormat;
+struct GraphicsFormat;
 }
 namespace UnityEngine {
 struct TextureFormat;
-}
-namespace UnityEngine::Experimental::Rendering {
-struct TextureCreationFlags;
 }
 namespace UnityEngine {
 struct Color32;
 }
 namespace UnityEngine::Experimental::Rendering {
-struct GraphicsFormat;
+struct TextureCreationFlags;
+}
+namespace UnityEngine::Experimental::Rendering {
+struct DefaultFormat;
 }
 // Forward declare root types
 namespace UnityEngine {

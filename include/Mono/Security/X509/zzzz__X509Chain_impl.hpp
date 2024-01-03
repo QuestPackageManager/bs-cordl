@@ -2,8 +2,8 @@
 #include "Mono/Security/X509/zzzz__X509ChainStatusFlags_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Mono/Security/X509/zzzz__X509Chain_def.hpp"
-#include "Mono/Security/X509/zzzz__X509CertificateCollection_def.hpp"
 #include "Mono/Security/X509/zzzz__X509Certificate_def.hpp"
+#include "Mono/Security/X509/zzzz__X509CertificateCollection_def.hpp"
 //  Writing Method size for method: ::Mono::Security::X509::X509Chain._ctor
 template <>
 

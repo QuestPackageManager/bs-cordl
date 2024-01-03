@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(CustomBeatmapLevelCollection)
 namespace GlobalNamespace {
-class IBeatmapLevelCollection;
+class CustomPreviewBeatmapLevel;
 }
 namespace GlobalNamespace {
-class CustomPreviewBeatmapLevel;
+class IBeatmapLevelCollection;
 }
 namespace GlobalNamespace {
 class IPreviewBeatmapLevel;

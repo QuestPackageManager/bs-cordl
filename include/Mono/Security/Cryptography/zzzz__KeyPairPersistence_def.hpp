@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(KeyPairPersistence)
-namespace System {
-class Object;
-}
 namespace System::Security::Cryptography {
 class CspParameters;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace Mono::Security::Cryptography {

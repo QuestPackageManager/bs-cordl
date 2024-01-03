@@ -13,10 +13,10 @@ namespace GlobalNamespace {
 template <typename TStateTable, typename TType, typename TState> class __StateBuffer_3__InterpolationDelegate;
 }
 namespace GlobalNamespace {
-struct SyncStateId;
+template <typename TStateTable, typename TType, typename TState> struct __StateBuffer_3__TimestampedStateTable;
 }
 namespace GlobalNamespace {
-template <typename TStateTable, typename TType, typename TState> struct __StateBuffer_3__TimestampedStateTable;
+struct SyncStateId;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -30,7 +30,7 @@ namespace GlobalNamespace {
 // cpp template
 template <typename TStateTable, typename TType, typename TState>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12985)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12985), inst: 3837 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12985), inst: 3837 }), TypeDefinitionIndex(TypeDefinitionIndex(12985))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12987))
 // CS Name: ::RemoteStateBuffer`3<TStateTable,TType,TState>*
 class CORDL_TYPE RemoteStateBuffer_3 : public ::GlobalNamespace::StateBuffer_3<TStateTable, TType, TState> {

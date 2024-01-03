@@ -13,10 +13,10 @@ namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace GlobalNamespace {
-class __DirectionalLightWithIdsGroupEntry__GroupLightData;
+struct ColorMixAndWeightingApproach;
 }
 namespace GlobalNamespace {
-struct ColorMixAndWeightingApproach;
+class __DirectionalLightWithIdsGroupEntry__GroupLightData;
 }
 namespace GlobalNamespace {
 class DirectionalLightWithIds;

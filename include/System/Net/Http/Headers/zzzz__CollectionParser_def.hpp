@@ -8,16 +8,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(CollectionParser)
 namespace System::Net::Http::Headers {
-class Lexer;
-}
-namespace System::Net::Http::Headers {
 template <typename T> class ElementTryParser_1;
 }
 namespace System::Net::Http::Headers {
-struct Token;
+class Lexer;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
+}
+namespace System::Net::Http::Headers {
+struct Token;
 }
 // Forward declare root types
 namespace System::Net::Http::Headers {

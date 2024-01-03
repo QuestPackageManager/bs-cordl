@@ -7,31 +7,31 @@ CORDL_MODULE_INIT
 #include <cstddef>
 CORDL_MODULE_EXPORT(KeyboardNavigationManipulator)
 namespace UnityEngine::UIElements {
-class EventBase;
-}
-namespace UnityEngine::UIElements {
-class NavigationSubmitEvent;
-}
-namespace UnityEngine::UIElements {
-class NavigationCancelEvent;
-}
-namespace UnityEngine::UIElements {
-struct __KeyboardNavigationManipulator____c__DisplayClass6_0;
-}
-namespace UnityEngine::UIElements {
-class NavigationMoveEvent;
-}
-namespace System {
-template <typename T1, typename T2> class Action_2;
-}
-namespace UnityEngine::UIElements {
-struct KeyboardNavigationOperation;
+class KeyDownEvent;
 }
 namespace UnityEngine::UIElements {
 struct __KeyboardNavigationManipulator____c__DisplayClass5_0;
 }
 namespace UnityEngine::UIElements {
-class KeyDownEvent;
+class NavigationMoveEvent;
+}
+namespace UnityEngine::UIElements {
+class NavigationCancelEvent;
+}
+namespace System {
+template <typename T1, typename T2> class Action_2;
+}
+namespace UnityEngine::UIElements {
+class NavigationSubmitEvent;
+}
+namespace UnityEngine::UIElements {
+struct __KeyboardNavigationManipulator____c__DisplayClass6_0;
+}
+namespace UnityEngine::UIElements {
+struct KeyboardNavigationOperation;
+}
+namespace UnityEngine::UIElements {
+class EventBase;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

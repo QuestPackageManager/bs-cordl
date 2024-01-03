@@ -9,28 +9,28 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ColorNoteVisuals)
 namespace GlobalNamespace {
-class INoteControllerNoteDidStartDissolvingEvent;
-}
-namespace GlobalNamespace {
 class ColorManager;
 }
 namespace GlobalNamespace {
-class INoteControllerNoteDidPassJumpThreeQuartersEvent;
-}
-namespace GlobalNamespace {
-class INoteControllerDidInitEvent;
-}
-namespace GlobalNamespace {
-class MaterialPropertyBlockController;
+class NoteControllerBase;
 }
 namespace System {
 template <typename T1, typename T2> class Action_2;
 }
 namespace GlobalNamespace {
-class NoteControllerBase;
+class INoteControllerDidInitEvent;
 }
 namespace UnityEngine {
 class MeshRenderer;
+}
+namespace GlobalNamespace {
+class INoteControllerNoteDidStartDissolvingEvent;
+}
+namespace GlobalNamespace {
+class INoteControllerNoteDidPassJumpThreeQuartersEvent;
+}
+namespace GlobalNamespace {
+class MaterialPropertyBlockController;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -42,7 +42,7 @@ MARK_REF_PTR_T(::GlobalNamespace::ColorNoteVisuals);
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10251))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4740))
 // CS Name: ::ColorNoteVisuals*
 class CORDL_TYPE ColorNoteVisuals : public ::UnityEngine::MonoBehaviour {

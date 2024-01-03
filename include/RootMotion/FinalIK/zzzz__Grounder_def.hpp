@@ -9,22 +9,22 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Grounder)
 namespace RootMotion::FinalIK {
-class __Grounding__Leg;
-}
-namespace RootMotion::FinalIK {
-class __Grounder__GrounderDelegate;
-}
-namespace RootMotion::FinalIK {
 class Grounding;
 }
 namespace UnityEngine {
 struct Vector3;
 }
-namespace System {
-class IAsyncResult;
+namespace RootMotion::FinalIK {
+class __Grounding__Leg;
+}
+namespace RootMotion::FinalIK {
+class __Grounder__GrounderDelegate;
 }
 namespace System {
 class Object;
+}
+namespace System {
+class IAsyncResult;
 }
 namespace System {
 class AsyncCallback;

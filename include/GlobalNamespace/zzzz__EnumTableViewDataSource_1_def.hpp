@@ -12,10 +12,10 @@ namespace HMUI {
 class TableView;
 }
 namespace HMUI {
-class TableCell;
+class __TableView__IDataSource;
 }
 namespace HMUI {
-class __TableView__IDataSource;
+class TableCell;
 }
 namespace GlobalNamespace {
 class TextOnlyTableCell;

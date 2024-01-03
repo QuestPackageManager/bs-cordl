@@ -8,16 +8,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(GenericSigner)
 namespace Org::BouncyCastle::Crypto {
-class ISigner;
+class IAsymmetricBlockCipher;
 }
 namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;
 }
 namespace Org::BouncyCastle::Crypto {
-class IAsymmetricBlockCipher;
+class IDigest;
 }
 namespace Org::BouncyCastle::Crypto {
-class IDigest;
+class ISigner;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Signers {

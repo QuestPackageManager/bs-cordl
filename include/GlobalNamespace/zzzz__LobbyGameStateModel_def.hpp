@@ -21,7 +21,7 @@ MARK_REF_PTR_T(::GlobalNamespace::LobbyGameStateModel);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12880))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12880)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4503))
 // CS Name: ::LobbyGameStateModel*
 class CORDL_TYPE LobbyGameStateModel : public ::System::Object {

@@ -5,9 +5,6 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(ButtonSpriteSwap)
-namespace HMUI {
-class NoTransitionsButton;
-}
 namespace UnityEngine::UI {
 class Image;
 }
@@ -16,6 +13,9 @@ struct __NoTransitionsButton__SelectionState;
 }
 namespace UnityEngine {
 class Sprite;
+}
+namespace HMUI {
+class NoTransitionsButton;
 }
 // Forward declare root types
 namespace HMUI {

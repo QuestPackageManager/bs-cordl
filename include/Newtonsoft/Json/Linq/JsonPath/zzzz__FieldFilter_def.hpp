@@ -7,35 +7,35 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(FieldFilter)
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
 namespace Newtonsoft::Json::Linq::JsonPath {
 class __FieldFilter___ExecuteFilter_d__4;
 }
 namespace Newtonsoft::Json::Linq {
 class JToken;
 }
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
 namespace System::Collections {
 class IEnumerator;
 }
 namespace System {
-class Object;
-}
-namespace System::Collections {
-class IEnumerable;
+class IDisposable;
 }
 namespace Newtonsoft::Json::Linq {
 class JObject;
 }
+namespace System {
+class Object;
+}
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
-namespace System {
-class IDisposable;
-}
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> struct KeyValuePair_2;
+}
+namespace System::Collections {
+class IEnumerable;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Linq::JsonPath {

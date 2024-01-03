@@ -1,8 +1,8 @@
 #pragma once
 #include "GlobalNamespace/zzzz__ListSettingsController_impl.hpp"
 #include "GlobalNamespace/zzzz__PresetsSettingsController_def.hpp"
-#include "GlobalNamespace/zzzz__NamedPresetsSO_def.hpp"
 #include "GlobalNamespace/zzzz__IntSO_def.hpp"
+#include "GlobalNamespace/zzzz__NamedPresetsSO_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::PresetsSettingsController.GetInitValues
 template <>
 

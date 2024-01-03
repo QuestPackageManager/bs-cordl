@@ -6,50 +6,50 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(SortedList)
-namespace System {
-class Object;
-}
-namespace System::Collections {
-class IDictionaryEnumerator;
-}
-namespace System::Collections {
-class IComparer;
-}
-namespace System {
-class Array;
-}
-namespace System::Collections {
-class __SortedList__SortedListDebugView;
-}
-namespace System::Collections {
-class __SortedList__KeyList;
-}
-namespace System::Collections {
-class IDictionary;
-}
-namespace System::Collections {
-class __SortedList__SortedListEnumerator;
-}
-namespace System::Collections {
-class __SortedList__SyncSortedList;
-}
-namespace System::Collections {
-class __SortedList__ValueList;
-}
 namespace System::Collections {
 class IList;
 }
-namespace System {
-class ICloneable;
-}
 namespace System::Collections {
-class IEnumerable;
+class IComparer;
 }
 namespace System::Collections {
 class IEnumerator;
 }
 namespace System::Collections {
+class IDictionaryEnumerator;
+}
+namespace System::Collections {
+class __SortedList__SyncSortedList;
+}
+namespace System {
+class Object;
+}
+namespace System::Collections {
+class __SortedList__ValueList;
+}
+namespace System::Collections {
+class __SortedList__SortedListDebugView;
+}
+namespace System {
+class ICloneable;
+}
+namespace System::Collections {
+class __SortedList__SortedListEnumerator;
+}
+namespace System::Collections {
 class ICollection;
+}
+namespace System::Collections {
+class IEnumerable;
+}
+namespace System::Collections {
+class IDictionary;
+}
+namespace System::Collections {
+class __SortedList__KeyList;
+}
+namespace System {
+class Array;
 }
 namespace System::Collections {
 struct DictionaryEntry;

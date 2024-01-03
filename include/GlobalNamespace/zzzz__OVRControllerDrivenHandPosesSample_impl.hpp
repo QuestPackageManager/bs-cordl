@@ -2,8 +2,8 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRControllerDrivenHandPosesSample_def.hpp"
 #include "UnityEngine/UI/zzzz__Button_def.hpp"
-#include "UnityEngine/zzzz__LineRenderer_def.hpp"
 #include "GlobalNamespace/zzzz__OVRCameraRig_def.hpp"
+#include "UnityEngine/zzzz__LineRenderer_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::OVRControllerDrivenHandPosesSample.Awake
 template <>
 

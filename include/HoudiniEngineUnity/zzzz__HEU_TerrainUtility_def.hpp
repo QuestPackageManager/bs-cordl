@@ -12,41 +12,41 @@ CORDL_MODULE_EXPORT(HEU_TerrainUtility)
 namespace HoudiniEngineUnity {
 class HEU_VolumeScatterTrees;
 }
-namespace HoudiniEngineUnity {
-class HEU_DetailPrototype;
-}
-namespace HoudiniEngineUnity {
-class HEU_DetailProperties;
-}
-namespace HoudiniEngineUnity {
-struct HAPI_VolumeInfo;
-}
-namespace HoudiniEngineUnity {
-struct HFLayerType;
-}
-namespace HoudiniEngineUnity {
-class HEU_SessionBase;
-}
 namespace UnityEngine {
 class TerrainData;
 }
 namespace UnityEngine {
 class TerrainLayer;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace HoudiniEngineUnity {
-class HEU_TreePrototypeInfo;
-}
 namespace UnityEngine {
-struct Vector3;
+class GameObject;
 }
 namespace UnityEngine {
 class Terrain;
 }
+namespace HoudiniEngineUnity {
+class HEU_TreePrototypeInfo;
+}
+namespace HoudiniEngineUnity {
+struct HAPI_VolumeInfo;
+}
 namespace UnityEngine {
-class GameObject;
+struct Vector3;
+}
+namespace HoudiniEngineUnity {
+class HEU_DetailProperties;
+}
+namespace HoudiniEngineUnity {
+class HEU_SessionBase;
+}
+namespace HoudiniEngineUnity {
+class HEU_DetailPrototype;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace HoudiniEngineUnity {
+struct HFLayerType;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {

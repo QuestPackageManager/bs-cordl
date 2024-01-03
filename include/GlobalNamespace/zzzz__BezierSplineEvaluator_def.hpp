@@ -9,6 +9,12 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(BezierSplineEvaluator)
 namespace GlobalNamespace {
+struct BezierCurve;
+}
+namespace GlobalNamespace {
+struct __BezierSplineEvaluator__CubicSolveResult;
+}
+namespace GlobalNamespace {
 class BezierSpline;
 }
 namespace UnityEngine {
@@ -16,12 +22,6 @@ struct Vector3;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
-}
-namespace GlobalNamespace {
-struct __BezierSplineEvaluator__CubicSolveResult;
-}
-namespace GlobalNamespace {
-struct BezierCurve;
 }
 // Forward declare root types
 namespace GlobalNamespace {

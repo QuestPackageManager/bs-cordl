@@ -5,17 +5,23 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "Unity/Profiling/zzzz__ProfilerMarker_def.hpp"
 CORDL_MODULE_EXPORT(VectorImageManager)
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
 namespace UnityEngine::UIElements::UIR {
-class GradientSettingsAtlas;
+class GradientRemapPool;
 }
 namespace System {
 class IDisposable;
 }
 namespace System::Collections::Generic {
-template <typename T> class List_1;
+template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace UnityEngine {
+class Texture2D;
 }
 namespace UnityEngine::UIElements {
-class VisualElement;
+class AtlasBase;
 }
 namespace UnityEngine::UIElements::UIR {
 class GradientRemap;
@@ -23,23 +29,17 @@ class GradientRemap;
 namespace UnityEngine::UIElements {
 class VectorImage;
 }
-namespace UnityEngine::UIElements {
-class AtlasBase;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace UnityEngine::UIElements::UIR {
-class VectorImageRenderInfo;
-}
 namespace UnityEngine::UIElements::UIR {
 class VectorImageRenderInfoPool;
 }
-namespace UnityEngine::UIElements::UIR {
-class GradientRemapPool;
+namespace UnityEngine::UIElements {
+class VisualElement;
 }
-namespace UnityEngine {
-class Texture2D;
+namespace UnityEngine::UIElements::UIR {
+class GradientSettingsAtlas;
+}
+namespace UnityEngine::UIElements::UIR {
+class VectorImageRenderInfo;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements::UIR {

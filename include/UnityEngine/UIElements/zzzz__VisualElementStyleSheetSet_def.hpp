@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(VisualElementStyleSheetSet)
+namespace UnityEngine::UIElements {
+class StyleSheet;
+}
 namespace System {
 template <typename T> class IEquatable_1;
 }
 namespace UnityEngine::UIElements {
 class VisualElement;
-}
-namespace UnityEngine::UIElements {
-class StyleSheet;
 }
 namespace System {
 class Object;

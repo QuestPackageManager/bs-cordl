@@ -7,34 +7,34 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(SpriteRenderer)
 namespace UnityEngine {
-class Sprite;
-}
-namespace UnityEngine {
-struct Vector2;
-}
-namespace UnityEngine {
-struct Bounds;
-}
-namespace UnityEngine::Events {
-template <typename T0> class UnityEvent_1;
-}
-namespace UnityEngine {
-struct SpriteMaskInteraction;
+struct SpriteDrawMode;
 }
 namespace UnityEngine {
 struct SpriteSortPoint;
 }
 namespace UnityEngine {
-struct Color;
-}
-namespace UnityEngine {
-struct SpriteDrawMode;
+struct Bounds;
 }
 namespace UnityEngine::Events {
 template <typename T0> class UnityAction_1;
 }
 namespace UnityEngine {
+class Sprite;
+}
+namespace UnityEngine {
 struct SpriteTileMode;
+}
+namespace UnityEngine {
+struct Vector2;
+}
+namespace UnityEngine {
+struct Color;
+}
+namespace UnityEngine {
+struct SpriteMaskInteraction;
+}
+namespace UnityEngine::Events {
+template <typename T0> class UnityEvent_1;
 }
 // Forward declare root types
 namespace UnityEngine {

@@ -1,17 +1,17 @@
 #pragma once
 #include "UnityEngine/UI/zzzz__MaskableGraphic_impl.hpp"
 #include "TMPro/zzzz__TMP_SubMeshUI_def.hpp"
-#include "TMPro/zzzz__TextMeshProUGUI_def.hpp"
-#include "TMPro/zzzz__TMP_Text_def.hpp"
-#include "UnityEngine/UI/zzzz__CanvasUpdate_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
 #include "TMPro/zzzz__TMP_FontAsset_def.hpp"
-#include "TMPro/zzzz__TMP_SpriteAsset_def.hpp"
-#include "TMPro/zzzz__MaterialReference_def.hpp"
-#include "UnityEngine/zzzz__Texture_def.hpp"
-#include "UnityEngine/zzzz__Rect_def.hpp"
-#include "UnityEngine/zzzz__Mesh_def.hpp"
 #include "UnityEngine/zzzz__Material_def.hpp"
+#include "TMPro/zzzz__TMP_Text_def.hpp"
+#include "TMPro/zzzz__TMP_SpriteAsset_def.hpp"
+#include "UnityEngine/zzzz__Rect_def.hpp"
+#include "TMPro/zzzz__MaterialReference_def.hpp"
+#include "TMPro/zzzz__TextMeshProUGUI_def.hpp"
+#include "UnityEngine/zzzz__Texture_def.hpp"
+#include "UnityEngine/zzzz__Mesh_def.hpp"
+#include "UnityEngine/UI/zzzz__CanvasUpdate_def.hpp"
 //  Writing Method size for method: ::TMPro::TMP_SubMeshUI.get_fontAsset
 template <>
 

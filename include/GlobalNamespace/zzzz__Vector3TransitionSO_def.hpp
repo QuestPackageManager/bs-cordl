@@ -18,7 +18,7 @@ MARK_REF_PTR_T(::GlobalNamespace::Vector3TransitionSO);
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(5443))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5443)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5464))
 // CS Name: ::Vector3TransitionSO*
 class CORDL_TYPE Vector3TransitionSO : public ::GlobalNamespace::BaseTransitionSO {

@@ -9,28 +9,28 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVRAnchorContainer)
 namespace System {
-class Object;
+template <typename T> class IEquatable_1;
 }
 namespace GlobalNamespace {
-struct OVRAnchor;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace GlobalNamespace {
-template <typename T> class IOVRAnchorComponent_1;
+template <typename TResult> struct OVRTask_1;
 }
 namespace System {
-template <typename T> class IEquatable_1;
+class Object;
 }
 namespace GlobalNamespace {
 struct __OVRPlugin__SpaceComponentType;
 }
-namespace System {
-struct Guid;
+namespace GlobalNamespace {
+struct OVRAnchor;
 }
 namespace GlobalNamespace {
-template <typename TResult> struct OVRTask_1;
+template <typename T> class IOVRAnchorComponent_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace System {
+struct Guid;
 }
 // Forward declare root types
 namespace GlobalNamespace {

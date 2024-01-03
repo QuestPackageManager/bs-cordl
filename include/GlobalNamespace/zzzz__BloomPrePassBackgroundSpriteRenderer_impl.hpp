@@ -1,8 +1,8 @@
 #pragma once
 #include "GlobalNamespace/zzzz__BloomPrePassBackgroundNonLightRendererCore_impl.hpp"
 #include "GlobalNamespace/zzzz__BloomPrePassBackgroundSpriteRenderer_def.hpp"
-#include "UnityEngine/zzzz__Renderer_def.hpp"
 #include "UnityEngine/zzzz__SpriteRenderer_def.hpp"
+#include "UnityEngine/zzzz__Renderer_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::BloomPrePassBackgroundSpriteRenderer.get_renderer
 template <>
 

@@ -8,9 +8,6 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(SymmetricTransform)
 namespace System::Security::Cryptography {
-struct PaddingMode;
-}
-namespace System::Security::Cryptography {
 class SymmetricAlgorithm;
 }
 namespace System::Security::Cryptography {
@@ -22,6 +19,9 @@ class ICryptoTransform;
 namespace System {
 class IDisposable;
 }
+namespace System::Security::Cryptography {
+struct PaddingMode;
+}
 // Forward declare root types
 namespace Mono::Security::Cryptography {
 class SymmetricTransform;
@@ -32,7 +32,7 @@ MARK_REF_PTR_T(::Mono::Security::Cryptography::SymmetricTransform);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Security::Cryptography {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2922)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2922))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2284))
 // CS Name: ::Mono.Security.Cryptography::SymmetricTransform*
 class CORDL_TYPE SymmetricTransform : public ::System::Object {

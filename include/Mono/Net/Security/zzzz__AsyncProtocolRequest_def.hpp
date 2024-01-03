@@ -18,35 +18,35 @@ CORDL_MODULE_EXPORT(AsyncProtocolRequest)
 namespace System {
 class Object;
 }
+namespace Mono::Net::Security {
+struct __AsyncProtocolRequest___ProcessOperation_d__24;
+}
 namespace System::Threading::Tasks {
 template <typename TResult> class Task_1;
 }
-namespace System {
-template <typename T> struct Nullable_1;
-}
-namespace Mono::Net::Security {
-struct __AsyncProtocolRequest___StartOperation_d__23;
-}
-namespace System::Threading {
-struct CancellationToken;
-}
 namespace Mono::Net::Security {
 struct AsyncOperationStatus;
-}
-namespace System::Threading::Tasks {
-class Task;
-}
-namespace Mono::Net::Security {
-struct __AsyncProtocolRequest___ProcessOperation_d__24;
 }
 namespace Mono::Net::Security {
 class MobileAuthenticatedStream;
 }
 namespace Mono::Net::Security {
-class AsyncProtocolResult;
+struct __AsyncProtocolRequest___StartOperation_d__23;
 }
 namespace Mono::Net::Security {
 struct __AsyncProtocolRequest___InnerRead_d__25;
+}
+namespace System::Threading {
+struct CancellationToken;
+}
+namespace System {
+template <typename T> struct Nullable_1;
+}
+namespace Mono::Net::Security {
+class AsyncProtocolResult;
+}
+namespace System::Threading::Tasks {
+class Task;
 }
 namespace System::Runtime::CompilerServices {
 template <typename TResult> struct AsyncTaskMethodBuilder_1;
@@ -85,9 +85,9 @@ MARK_VAL_T(::Mono::Net::Security::__AsyncProtocolRequest___StartOperation_d__23)
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Net::Security {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(8818)), TypeDefinitionIndex(TypeDefinitionIndex(3395)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 875 }), TypeDefinitionIndex(TypeDefinitionIndex(2677))} Self: TypeDefinitionIndex(TypeDefinitionIndex(8819)) CS
-// Name: ::AsyncProtocolRequest::<StartOperation>d__23
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 875
+// }), TypeDefinitionIndex(TypeDefinitionIndex(3395)), TypeDefinitionIndex(TypeDefinitionIndex(8818))} Self: TypeDefinitionIndex(TypeDefinitionIndex(8819)) CS Name:
+// ::AsyncProtocolRequest::<StartOperation>d__23
 struct CORDL_TYPE __AsyncProtocolRequest___StartOperation_d__23 {
 public:
   // Declarations
@@ -150,9 +150,9 @@ static_assert(offsetof(::Mono::Net::Security::__AsyncProtocolRequest___StartOper
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Net::Security {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8817)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 98 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(3395)), TypeDefinitionIndex(TypeDefinitionIndex(3397)), TypeDefinitionIndex(TypeDefinitionIndex(2677)), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(3397), inst: 867 }), TypeDefinitionIndex(TypeDefinitionIndex(3401)), TypeDefinitionIndex(TypeDefinitionIndex(2448))} Self: TypeDefinitionIndex(TypeDefinitionIndex(8820)) CS
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8817)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 867 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(3395)), TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(3397)), TypeDefinitionIndex(TypeDefinitionIndex(3401)),
+// TypeDefinitionIndex(TypeDefinitionIndex(2677)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 98 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(8820)) CS
 // Name: ::AsyncProtocolRequest::<ProcessOperation>d__24
 struct CORDL_TYPE __AsyncProtocolRequest___ProcessOperation_d__24 {
 public:
@@ -235,10 +235,10 @@ static_assert(offsetof(::Mono::Net::Security::__AsyncProtocolRequest___ProcessOp
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Net::Security {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3397)), TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3402)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 98 }), TypeDefinitionIndex(TypeDefinitionIndex(2448)), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(3402), inst: 867 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 98 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(8821)) CS Name:
-// ::AsyncProtocolRequest::<InnerRead>d__25
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3397)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 98 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 867 }), TypeDefinitionIndex(TypeDefinitionIndex(2677)),
+// TypeDefinitionIndex(TypeDefinitionIndex(2448)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 98 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(8821)) CS
+// Name: ::AsyncProtocolRequest::<InnerRead>d__25
 struct CORDL_TYPE __AsyncProtocolRequest___InnerRead_d__25 {
 public:
   // Declarations

@@ -6,23 +6,23 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(TextureRegistry)
-namespace UnityEngine {
-class Texture;
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace UnityEngine::UIElements {
 struct TextureId;
 }
 namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
+template <typename T> class List_1;
+}
+namespace UnityEngine {
+class Texture;
 }
 namespace UnityEngine::UIElements {
 struct __TextureRegistry__TextureInfo;
 }
 namespace System::Collections::Generic {
 template <typename T> class Stack_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

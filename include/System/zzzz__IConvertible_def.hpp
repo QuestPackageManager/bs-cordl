@@ -10,16 +10,16 @@ namespace System {
 struct TypeCode;
 }
 namespace System {
-class Type;
+class IFormatProvider;
+}
+namespace System {
+struct DateTime;
 }
 namespace System {
 class Object;
 }
 namespace System {
-class IFormatProvider;
-}
-namespace System {
-struct DateTime;
+class Type;
 }
 namespace System {
 struct Decimal;

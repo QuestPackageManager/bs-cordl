@@ -10,11 +10,11 @@ CORDL_MODULE_EXPORT(ISO9796d1Encoding)
 namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;
 }
-namespace Org::BouncyCastle::Math {
-class BigInteger;
-}
 namespace Org::BouncyCastle::Crypto {
 class IAsymmetricBlockCipher;
+}
+namespace Org::BouncyCastle::Math {
+class BigInteger;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Encodings {

@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(AdvancingFront)
 namespace UnityEngine::ProBuilder::Poly2Tri {
-class TriangulationPoint;
+class AdvancingFrontNode;
 }
 namespace UnityEngine::ProBuilder::Poly2Tri {
-class AdvancingFrontNode;
+class TriangulationPoint;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder::Poly2Tri {

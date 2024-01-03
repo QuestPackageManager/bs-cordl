@@ -8,20 +8,20 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(ScoreUIController)
-namespace GlobalNamespace {
-class IScoreController;
+namespace TMPro {
+class TextMeshProUGUI;
 }
-namespace System::Text {
-class StringBuilder;
+namespace GlobalNamespace {
+class __ScoreUIController__InitData;
 }
 namespace GlobalNamespace {
 struct __ScoreUIController__ScoreDisplayType;
 }
 namespace GlobalNamespace {
-class __ScoreUIController__InitData;
+class IScoreController;
 }
-namespace TMPro {
-class TextMeshProUGUI;
+namespace System::Text {
+class StringBuilder;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -91,7 +91,7 @@ static_assert(offsetof(::GlobalNamespace::__ScoreUIController__ScoreDisplayType,
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(5045))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5045)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5044))
 // CS Name: ::ScoreUIController::InitData*
 class CORDL_TYPE __ScoreUIController__InitData : public ::System::Object {

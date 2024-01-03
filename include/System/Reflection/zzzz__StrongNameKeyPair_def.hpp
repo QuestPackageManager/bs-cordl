@@ -8,7 +8,7 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(StrongNameKeyPair)
 namespace System::Runtime::Serialization {
-class ISerializable;
+struct StreamingContext;
 }
 namespace System {
 class Object;
@@ -17,7 +17,7 @@ namespace System::Runtime::Serialization {
 class SerializationInfo;
 }
 namespace System::Runtime::Serialization {
-struct StreamingContext;
+class ISerializable;
 }
 namespace System::Runtime::Serialization {
 class IDeserializationCallback;

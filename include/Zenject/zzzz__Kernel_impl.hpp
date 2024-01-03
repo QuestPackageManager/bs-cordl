@@ -1,17 +1,17 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "Zenject/zzzz__Kernel_def.hpp"
-#include "Zenject/zzzz__IInitializable_def.hpp"
 #include "Zenject/zzzz__ILateDisposable_def.hpp"
-#include "Zenject/zzzz__TickableManager_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include "Zenject/zzzz__ITickable_def.hpp"
-#include "Zenject/zzzz__ILateTickable_def.hpp"
 #include "Zenject/zzzz__InitializableManager_def.hpp"
-#include "System/zzzz__Object_def.hpp"
+#include "Zenject/zzzz__IInitializable_def.hpp"
+#include "Zenject/zzzz__TickableManager_def.hpp"
 #include "Zenject/zzzz__DisposableManager_def.hpp"
-#include "Zenject/zzzz__InjectTypeInfo_def.hpp"
 #include "Zenject/zzzz__IFixedTickable_def.hpp"
+#include "Zenject/zzzz__ILateTickable_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+#include "Zenject/zzzz__InjectTypeInfo_def.hpp"
 //  Writing Method size for method: ::Zenject::Kernel.Initialize
 template <>
 

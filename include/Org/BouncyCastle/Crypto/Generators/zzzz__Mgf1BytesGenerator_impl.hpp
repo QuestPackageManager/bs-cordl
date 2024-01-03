@@ -1,9 +1,9 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Generators/zzzz__Mgf1BytesGenerator_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__IDerivationFunction_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__IDigest_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__IDerivationParameters_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__IDerivationFunction_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Generators::Mgf1BytesGenerator._ctor
 template <>
 

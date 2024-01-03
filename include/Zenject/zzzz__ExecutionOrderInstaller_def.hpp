@@ -7,17 +7,17 @@ CORDL_MODULE_INIT
 #include "Zenject/zzzz__Installer_2_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(ExecutionOrderInstaller)
-namespace Zenject {
-class InjectTypeInfo;
-}
-namespace System {
-class Type;
-}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace System {
+class Type;
+}
+namespace System {
 class Object;
+}
+namespace Zenject {
+class InjectTypeInfo;
 }
 // Forward declare root types
 namespace Zenject {
@@ -29,8 +29,8 @@ MARK_REF_PTR_T(::Zenject::ExecutionOrderInstaller);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2494)), TypeDefinitionIndex(TypeDefinitionIndex(11132)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11132), inst:
-// 3906 }), TypeDefinitionIndex(TypeDefinitionIndex(3843)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3843), inst: 1695 })} Self:
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3843), inst: 1695 }), TypeDefinitionIndex(TypeDefinitionIndex(3843)),
+// TypeDefinitionIndex(TypeDefinitionIndex(11132)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11132), inst: 3906 }), TypeDefinitionIndex(TypeDefinitionIndex(2494))} Self:
 // TypeDefinitionIndex(TypeDefinitionIndex(11351)) CS Name: ::Zenject::ExecutionOrderInstaller*
 class CORDL_TYPE ExecutionOrderInstaller : public ::Zenject::Installer_2<::System::Collections::Generic::List_1<::System::Type*>*, ::Zenject::ExecutionOrderInstaller*> {
 public:

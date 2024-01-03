@@ -16,53 +16,53 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(HEU_GenerateGeoCache)
-namespace HoudiniEngineUnity {
-class HEU_GeneratedOutputData;
-}
-namespace UnityEngine {
-class GameObject;
-}
 namespace UnityEngine {
 class Material;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace HoudiniEngineUnity {
-class HEU_GeoGroup;
-}
-namespace HoudiniEngineUnity {
-class __HEU_GenerateGeoCache____c;
-}
-namespace UnityEngine {
-class Mesh;
 }
 namespace HoudiniEngineUnity {
 class __HEU_GenerateGeoCache__HEU_ColliderInfo;
 }
 namespace HoudiniEngineUnity {
-class HEU_UnityMaterialInfo;
+class HEU_SessionBase;
 }
 namespace HoudiniEngineUnity {
 struct HAPI_AttributeInfo;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace HoudiniEngineUnity {
-class HEU_MaterialData;
-}
-namespace HoudiniEngineUnity {
-class HEU_SessionBase;
 }
 namespace HoudiniEngineUnity {
 class HEU_MeshIndexFormat;
 }
 namespace HoudiniEngineUnity {
-class HEU_MeshData;
+class __HEU_GenerateGeoCache____c;
+}
+namespace UnityEngine {
+class GameObject;
 }
 namespace UnityEngine {
 struct MeshTopology;
+}
+namespace HoudiniEngineUnity {
+class HEU_GeoGroup;
+}
+namespace HoudiniEngineUnity {
+class HEU_MaterialData;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace UnityEngine {
+class Mesh;
+}
+namespace HoudiniEngineUnity {
+class HEU_UnityMaterialInfo;
+}
+namespace HoudiniEngineUnity {
+class HEU_GeneratedOutputData;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace HoudiniEngineUnity {
+class HEU_MeshData;
 }
 namespace HoudiniEngineUnity {
 class HEU_GeneratedOutput;
@@ -171,8 +171,8 @@ static_assert(offsetof(::GlobalNamespace::__HEU_GenerateGeoCache__HEU_ColliderIn
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 85, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9831)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10109))} Self: TypeDefinitionIndex(TypeDefinitionIndex(9832)) CS Name: ::HEU_GenerateGeoCache::HEU_ColliderInfo*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9831)), TypeDefinitionIndex(TypeDefinitionIndex(10109)), TypeDefinitionIndex(TypeDefinitionIndex(10249)),
+// TypeDefinitionIndex(TypeDefinitionIndex(2613))} Self: TypeDefinitionIndex(TypeDefinitionIndex(9832)) CS Name: ::HEU_GenerateGeoCache::HEU_ColliderInfo*
 class CORDL_TYPE __HEU_GenerateGeoCache__HEU_ColliderInfo : public ::System::Object {
 public:
   // Declarations
@@ -409,7 +409,7 @@ static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::__HEU_Genera
 // SizeInfo { instance_size: 696, native_size: -1, calculated_instance_size: 696, calculated_native_size: 696, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9739)), TypeDefinitionIndex(TypeDefinitionIndex(9741)), TypeDefinitionIndex(TypeDefinitionIndex(2613)),
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9741)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9739)),
 // TypeDefinitionIndex(TypeDefinitionIndex(9740))} Self: TypeDefinitionIndex(TypeDefinitionIndex(9834)) CS Name: ::HoudiniEngineUnity::HEU_GenerateGeoCache*
 class CORDL_TYPE HEU_GenerateGeoCache : public ::System::Object {
 public:

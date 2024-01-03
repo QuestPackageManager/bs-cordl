@@ -11,19 +11,19 @@ namespace UnityEngine {
 class Transform;
 }
 namespace RootMotion::FinalIK {
-class VRIK;
+class __VRIKCalibrator__Settings;
 }
 namespace RootMotion::FinalIK {
 class __VRIKCalibrator__CalibrationData;
 }
 namespace RootMotion::FinalIK {
-class __VRIKCalibrator__Settings;
-}
-namespace UnityEngine {
-struct Vector3;
+class VRIK;
 }
 namespace RootMotion::FinalIK {
 class __IKSolverVR__Leg;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 namespace GlobalNamespace {
 class __VRIKCalibrator__CalibrationData__Target;
@@ -309,7 +309,7 @@ static_assert(offsetof(::RootMotion::FinalIK::__VRIKCalibrator__Settings, ___pel
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10252))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12670))
 // CS Name: ::VRIKCalibrator::CalibrationData::Target*
 class CORDL_TYPE __VRIKCalibrator__CalibrationData__Target : public ::System::Object {

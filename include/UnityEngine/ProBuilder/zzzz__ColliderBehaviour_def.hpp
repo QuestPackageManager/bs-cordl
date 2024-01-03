@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include "UnityEngine/ProBuilder/zzzz__EntityBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(ColliderBehaviour)
 namespace UnityEngine::SceneManagement {
-struct Scene;
+struct LoadSceneMode;
 }
 namespace UnityEngine::SceneManagement {
-struct LoadSceneMode;
+struct Scene;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder {

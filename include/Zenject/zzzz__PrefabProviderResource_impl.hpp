@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "Zenject/zzzz__PrefabProviderResource_def.hpp"
-#include "UnityEngine/zzzz__Object_def.hpp"
 #include "Zenject/zzzz__IPrefabProvider_def.hpp"
+#include "UnityEngine/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::Zenject::PrefabProviderResource._ctor
 template <>
 

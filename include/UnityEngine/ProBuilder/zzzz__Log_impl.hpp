@@ -2,12 +2,13 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/ProBuilder/zzzz__LogLevel_impl.hpp"
 #include "UnityEngine/ProBuilder/zzzz__LogOutput_impl.hpp"
+#include "UnityEngine/zzzz__LogType_impl.hpp"
 #include "UnityEngine/ProBuilder/zzzz__Log_def.hpp"
 #include "UnityEngine/ProBuilder/zzzz__LogOutput_def.hpp"
-#include "UnityEngine/zzzz__LogType_def.hpp"
 #include "UnityEngine/ProBuilder/zzzz__LogLevel_def.hpp"
-#include "System/Collections/Generic/zzzz__Stack_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "System/Collections/Generic/zzzz__Stack_1_def.hpp"
+#include "UnityEngine/zzzz__LogType_def.hpp"
 //  Writing Method size for method: ::UnityEngine::ProBuilder::Log.PushLogLevel
 template <>
 

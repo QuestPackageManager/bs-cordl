@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(AvatarShadowController)
-namespace UnityEngine {
-class Transform;
+namespace BeatSaber::AvatarCore {
+class AvatarController;
 }
 namespace UnityEngine {
 class SpriteRenderer;
 }
-namespace BeatSaber::AvatarCore {
-class AvatarController;
+namespace UnityEngine {
+class Transform;
 }
 namespace UnityEngine {
 struct Vector3;

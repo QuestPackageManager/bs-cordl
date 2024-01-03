@@ -7,22 +7,19 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(SchemaInfo)
 namespace System::Xml::Schema {
-class SchemaEntity;
+class SchemaNotation;
 }
-namespace System::Xml {
-class IDtdEntityInfo;
+namespace System::Xml::Schema {
+class SchemaElementDecl;
 }
 namespace System::Xml {
 class XmlQualifiedName;
 }
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
 namespace System::Xml {
 class IDtdAttributeListInfo;
 }
-namespace System::Xml::Schema {
-class SchemaElementDecl;
+namespace System::Xml {
+class IDtdEntityInfo;
 }
 namespace System::Xml {
 class IDtdInfo;
@@ -30,11 +27,14 @@ class IDtdInfo;
 namespace System::Xml::Schema {
 struct SchemaType;
 }
-namespace System::Xml::Schema {
-class SchemaNotation;
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace System::Xml::Schema {
 class SchemaAttDef;
+}
+namespace System::Xml::Schema {
+class SchemaEntity;
 }
 // Forward declare root types
 namespace System::Xml::Schema {
@@ -46,7 +46,7 @@ MARK_REF_PTR_T(::System::Xml::Schema::SchemaInfo);
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11708)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(11708))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11706))
 // CS Name: ::System.Xml.Schema::SchemaInfo*
 class CORDL_TYPE SchemaInfo : public ::System::Object {

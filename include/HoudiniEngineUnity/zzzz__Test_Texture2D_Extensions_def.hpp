@@ -6,13 +6,13 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(Test_Texture2D_Extensions)
 namespace HoudiniEngineUnity {
+class Test_Texture2D;
+}
+namespace HoudiniEngineUnity {
 class __Test_Texture2D_Extensions____c;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
-}
-namespace HoudiniEngineUnity {
-class Test_Texture2D;
 }
 namespace UnityEngine {
 class Texture2D;

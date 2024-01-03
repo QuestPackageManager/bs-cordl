@@ -14,10 +14,10 @@ namespace Org::BouncyCastle::Asn1 {
 class Asn1TaggedObject;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
+class DerOutputStream;
 }
 namespace Org::BouncyCastle::Asn1 {
-class DerOutputStream;
+class Asn1Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1 {

@@ -7,28 +7,28 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(GroupBox)
 namespace UnityEngine::UIElements {
+class __GroupBox__UxmlFactory;
+}
+namespace UnityEngine::UIElements {
+class Label;
+}
+namespace UnityEngine::UIElements {
 class IGroupBox;
 }
 namespace UnityEngine::UIElements {
 class __GroupBox__UxmlTraits;
 }
 namespace UnityEngine::UIElements {
-class Label;
-}
-namespace UnityEngine::UIElements {
-class __GroupBox__UxmlFactory;
-}
-namespace UnityEngine::UIElements {
 class VisualElement;
 }
 namespace UnityEngine::UIElements {
-struct CreationContext;
+class IUxmlAttributes;
 }
 namespace UnityEngine::UIElements {
 class UxmlStringAttributeDescription;
 }
 namespace UnityEngine::UIElements {
-class IUxmlAttributes;
+struct CreationContext;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -180,8 +180,8 @@ static_assert(offsetof(::UnityEngine::UIElements::GroupBox, ___m_TitleLabel) == 
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6997), inst: 5261 }), TypeDefinitionIndex(TypeDefinitionIndex(7114)),
-// TypeDefinitionIndex(TypeDefinitionIndex(6997)), TypeDefinitionIndex(TypeDefinitionIndex(7115))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7113)) CS Name: ::GroupBox::UxmlFactory*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6997)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6997), inst: 5261 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(7114)), TypeDefinitionIndex(TypeDefinitionIndex(7115))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7113)) CS Name: ::GroupBox::UxmlFactory*
 class CORDL_TYPE __GroupBox__UxmlFactory : public ::UnityEngine::UIElements::UxmlFactory_2<::UnityEngine::UIElements::GroupBox*, ::UnityEngine::UIElements::__GroupBox__UxmlTraits*> {
 public:
   // Declarations

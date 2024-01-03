@@ -16,14 +16,11 @@ class Gradient;
 namespace System {
 template <typename T> class Action_1;
 }
-namespace System::Collections {
-class IEnumerator;
+namespace GlobalNamespace {
+class TubeBloomPrePassLight;
 }
-namespace UnityEngine {
-class AnimationCurve;
-}
-namespace UnityEngine {
-class AudioClip;
+namespace GlobalNamespace {
+class __FireworkItemController___FireCoroutine_d__29;
 }
 namespace UnityEngine {
 class AudioSource;
@@ -32,16 +29,19 @@ namespace GlobalNamespace {
 class __FireworkItemController__Pool;
 }
 namespace GlobalNamespace {
-template <typename T> class RandomObjectPicker_1;
-}
-namespace GlobalNamespace {
 class __FireworkItemController__FireworkItemParticleSystem;
 }
-namespace GlobalNamespace {
-class __FireworkItemController___FireCoroutine_d__29;
+namespace UnityEngine {
+class AudioClip;
+}
+namespace System::Collections {
+class IEnumerator;
+}
+namespace UnityEngine {
+class AnimationCurve;
 }
 namespace GlobalNamespace {
-class TubeBloomPrePassLight;
+template <typename T> class RandomObjectPicker_1;
 }
 namespace GlobalNamespace {
 class DirectionalLight;
@@ -533,8 +533,8 @@ static_assert(offsetof(::GlobalNamespace::FireworkItemController, ___didFinishEv
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11050), inst: 307 }), TypeDefinitionIndex(TypeDefinitionIndex(11050)),
-// TypeDefinitionIndex(TypeDefinitionIndex(4846))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4844)) CS Name: ::FireworkItemController::Pool*
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11050), inst: 307 }), TypeDefinitionIndex(TypeDefinitionIndex(4846)),
+// TypeDefinitionIndex(TypeDefinitionIndex(11050))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4844)) CS Name: ::FireworkItemController::Pool*
 class CORDL_TYPE __FireworkItemController__Pool : public ::Zenject::MonoMemoryPool_1<::GlobalNamespace::FireworkItemController*> {
 public:
   // Declarations

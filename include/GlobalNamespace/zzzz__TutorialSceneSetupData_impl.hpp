@@ -1,8 +1,8 @@
 #pragma once
 #include "GlobalNamespace/zzzz__SceneSetupData_impl.hpp"
 #include "GlobalNamespace/zzzz__TutorialSceneSetupData_def.hpp"
-#include "GlobalNamespace/zzzz__PlayerSpecificSettings_def.hpp"
 #include "GlobalNamespace/zzzz__ColorScheme_def.hpp"
+#include "GlobalNamespace/zzzz__PlayerSpecificSettings_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::TutorialSceneSetupData._ctor
 template <>
 

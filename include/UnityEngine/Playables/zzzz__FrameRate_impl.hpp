@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/Playables/zzzz__FrameRate_def.hpp"
-#include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__IFormatProvider_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Playables::FrameRate.get_dropFrame
 template <>
 

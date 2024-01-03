@@ -2,6 +2,7 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "UnityEngine/zzzz__QueryTriggerInteraction_def.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
@@ -9,11 +10,14 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(PhysicsScene)
-namespace System {
-class Object;
+namespace UnityEngine {
+struct RaycastHit;
+}
+namespace UnityEngine {
+struct Ray;
 }
 namespace System {
-template <typename T> class IEquatable_1;
+class Object;
 }
 namespace UnityEngine {
 struct QueryTriggerInteraction;
@@ -22,16 +26,13 @@ namespace UnityEngine {
 struct Vector3;
 }
 namespace UnityEngine {
-struct RaycastHit;
+class Collider;
 }
 namespace UnityEngine {
 struct Quaternion;
 }
-namespace UnityEngine {
-struct Ray;
-}
-namespace UnityEngine {
-class Collider;
+namespace System {
+template <typename T> class IEquatable_1;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -43,7 +44,7 @@ MARK_VAL_T(::UnityEngine::PhysicsScene);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15503))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15499))
 // CS Name: ::UnityEngine::PhysicsScene
 struct CORDL_TYPE PhysicsScene {

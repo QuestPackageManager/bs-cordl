@@ -1,15 +1,17 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
+#include "UnityEngine/InputSystem/LowLevel/zzzz__InputEventPtr_impl.hpp"
+#include "UnityEngine/InputSystem/LowLevel/zzzz__InputUpdateType_impl.hpp"
+#include "UnityEngine/InputSystem/LowLevel/zzzz__InputState_def.hpp"
+#include "System/zzzz__Action_2_def.hpp"
+#include "UnityEngine/InputSystem/Utilities/zzzz__FourCC_def.hpp"
+#include "UnityEngine/InputSystem/LowLevel/zzzz__InputUpdateType_def.hpp"
+#include "UnityEngine/InputSystem/zzzz__InputControl_def.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__InputState_def.hpp"
 #include "System/zzzz__Action_4_def.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__IInputStateChangeMonitor_def.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__InputEventPtr_def.hpp"
-#include "UnityEngine/InputSystem/Utilities/zzzz__FourCC_def.hpp"
-#include "System/zzzz__Action_2_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputDevice_def.hpp"
-#include "UnityEngine/InputSystem/zzzz__InputControl_def.hpp"
-#include "UnityEngine/InputSystem/LowLevel/zzzz__InputState_def.hpp"
-#include "UnityEngine/InputSystem/LowLevel/zzzz__InputUpdateType_def.hpp"
 //  Writing Method size for method: ::UnityEngine::InputSystem::LowLevel::__InputState__StateChangeMonitorDelegate.NotifyControlStateChanged
 template <>
 

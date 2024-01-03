@@ -4,9 +4,9 @@
 #include "System/Runtime/Serialization/zzzz__ISurrogateSelector_def.hpp"
 #include "System/Runtime/Remoting/Messaging/zzzz__ObjRefSurrogate_def.hpp"
 #include "System/Runtime/Remoting/Messaging/zzzz__RemotingSurrogate_def.hpp"
+#include "System/zzzz__Type_def.hpp"
 #include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
 #include "System/Runtime/Serialization/zzzz__ISerializationSurrogate_def.hpp"
-#include "System/zzzz__Type_def.hpp"
 //  Writing Method size for method: ::System::Runtime::Remoting::Messaging::RemotingSurrogateSelector._ctor
 template <>
 

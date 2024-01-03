@@ -8,59 +8,59 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(SslStream)
-namespace Mono::Security::Interface {
-class MonoTlsSettings;
+namespace System::Threading {
+struct CancellationToken;
+}
+namespace System {
+class IAsyncResult;
+}
+namespace System::Threading::Tasks {
+class Task;
+}
+namespace System::Security::Authentication {
+struct SslProtocols;
 }
 namespace Mono::Net::Security {
 class MobileAuthenticatedStream;
 }
+namespace System::Net::Security {
+class RemoteCertificateValidationCallback;
+}
+namespace System::IO {
+class Stream;
+}
 namespace System {
-class AsyncCallback;
+class Object;
+}
+namespace System::Net::Security {
+class LocalCertificateSelectionCallback;
+}
+namespace Mono::Security::Interface {
+class MonoTlsSettings;
+}
+namespace System::Net::Security {
+class __SslStream____c__DisplayClass21_0;
+}
+namespace Mono::Net::Security {
+class MobileTlsProvider;
+}
+namespace System::Threading::Tasks {
+template <typename TResult> class Task_1;
 }
 namespace Mono::Security::Interface {
 class MonoTlsProvider;
 }
-namespace Mono::Net::Security {
-class MobileTlsProvider;
+namespace System {
+class AsyncCallback;
+}
+namespace System::IO {
+struct SeekOrigin;
 }
 namespace System::Security::Cryptography::X509Certificates {
 class X509CertificateCollection;
 }
 namespace System::Security::Cryptography::X509Certificates {
 class X509Certificate;
-}
-namespace System::IO {
-struct SeekOrigin;
-}
-namespace System::Threading {
-struct CancellationToken;
-}
-namespace System::Security::Authentication {
-struct SslProtocols;
-}
-namespace System::Net::Security {
-class LocalCertificateSelectionCallback;
-}
-namespace System {
-class IAsyncResult;
-}
-namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
-}
-namespace System::Net::Security {
-class RemoteCertificateValidationCallback;
-}
-namespace System {
-class Object;
-}
-namespace System::Net::Security {
-class __SslStream____c__DisplayClass21_0;
-}
-namespace System::IO {
-class Stream;
-}
-namespace System::Threading::Tasks {
-class Task;
 }
 // Forward declare root types
 namespace System::Net::Security {

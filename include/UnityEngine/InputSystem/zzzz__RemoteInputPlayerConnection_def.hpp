@@ -8,32 +8,32 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(RemoteInputPlayerConnection)
-namespace System {
-template <typename T> class IObserver_1;
-}
-namespace UnityEngine::Networking::PlayerConnection {
-class IEditorPlayerConnection;
-}
 namespace UnityEngine::InputSystem {
 struct __InputRemoting__Message;
 }
 namespace System {
-class IDisposable;
+template <typename T> class IObserver_1;
 }
 namespace UnityEngine::InputSystem {
 class __RemoteInputPlayerConnection__Subscriber;
 }
-namespace System {
-class Exception;
+namespace UnityEngine::Networking::PlayerConnection {
+class IEditorPlayerConnection;
 }
-namespace UnityEngine::InputSystem {
-struct __InputRemoting__MessageType;
+namespace System {
+class IDisposable;
 }
 namespace UnityEngine::Networking::PlayerConnection {
 class MessageEventArgs;
 }
 namespace System {
 template <typename T> class IObservable_1;
+}
+namespace UnityEngine::InputSystem {
+struct __InputRemoting__MessageType;
+}
+namespace System {
+class Exception;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem {
@@ -118,7 +118,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::__RemoteInputPlayerConnection
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10210)), TypeDefinitionIndex(TypeDefinitionIndex(2406))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2406)), TypeDefinitionIndex(TypeDefinitionIndex(10210))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6273))
 // CS Name: ::UnityEngine.InputSystem::RemoteInputPlayerConnection*
 class CORDL_TYPE RemoteInputPlayerConnection : public ::UnityEngine::ScriptableObject {

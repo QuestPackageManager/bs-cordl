@@ -7,25 +7,25 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(TransitionData)
 namespace UnityEngine::UIElements {
-struct StylePropertyName;
+struct TimeValue;
 }
 namespace UnityEngine::UIElements {
-template <typename T> class IStyleDataGroup_1;
+struct StylePropertyName;
 }
 namespace System {
 template <typename T> class IEquatable_1;
 }
 namespace UnityEngine::UIElements {
-struct TimeValue;
+template <typename T> class IStyleDataGroup_1;
 }
-namespace System {
-class Object;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace UnityEngine::UIElements {
 struct EasingFunction;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

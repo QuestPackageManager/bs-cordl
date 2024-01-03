@@ -2,6 +2,8 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "GlobalNamespace/zzzz__ConnectionFailedReason_def.hpp"
+#include "GlobalNamespace/zzzz__DisconnectedReason_def.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerSessionManager_def.hpp"
 #include "GlobalNamespace/zzzz__StandaloneMonobehavior_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -10,67 +12,67 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(MultiplayerSessionManager)
 namespace GlobalNamespace {
-class ConnectedPlayerManager;
-}
-namespace System {
-template <typename TResult> class Func_1;
+struct __MultiplayerSessionManager__ConnectionState;
 }
 namespace GlobalNamespace {
-class __MultiplayerSessionManager____c;
+class IConnectedPlayer;
 }
 namespace GlobalNamespace {
 struct __MultiplayerSessionManager__SessionType;
 }
 namespace System::Collections::Generic {
-template <typename T> class Queue_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class HashSet_1;
-}
-namespace System::Collections::Generic {
 template <typename T> class IReadOnlyList_1;
 }
 namespace GlobalNamespace {
-template <typename TType, typename TData> class NetworkPacketSerializer_2;
+struct UpdateConnectionStateReason;
 }
 namespace GlobalNamespace {
 class __MultiplayerSessionManager____c__DisplayClass98_0;
-}
-namespace GlobalNamespace {
-class IConnectedPlayer;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace GlobalNamespace {
-struct __MultiplayerSessionManager__ConnectionState;
+template <typename TData> class INetworkPacketSubSerializer_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class HashSet_1;
+}
+namespace GlobalNamespace {
+class ConnectedPlayerManager;
+}
+namespace System {
+template <typename T1, typename T2> class Action_2;
 }
 namespace System {
 class Action;
 }
-namespace GlobalNamespace {
-struct DisconnectedReason;
+namespace System {
+template <typename TResult> class Func_1;
 }
 namespace GlobalNamespace {
 struct __MultiplayerSessionManager__MessageType;
 }
 namespace GlobalNamespace {
-struct ConnectionFailedReason;
-}
-namespace System {
-template <typename T1, typename T2> class Action_2;
-}
-namespace GlobalNamespace {
 class IMultiplayerSessionManager;
 }
 namespace GlobalNamespace {
-struct UpdateConnectionStateReason;
+template <typename TType, typename TData> class NetworkPacketSerializer_2;
+}
+namespace GlobalNamespace {
+struct ConnectionFailedReason;
+}
+namespace System::Collections::Generic {
+template <typename T> class Queue_1;
 }
 namespace System {
 template <typename T> class Action_1;
 }
 namespace GlobalNamespace {
-template <typename TData> class INetworkPacketSubSerializer_1;
+struct DisconnectedReason;
+}
+namespace GlobalNamespace {
+class __MultiplayerSessionManager____c;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;
@@ -391,9 +393,8 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MultiplayerSe
 // SizeInfo { instance_size: 184, native_size: -1, calculated_instance_size: 184, calculated_native_size: 184, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12883)), TypeDefinitionIndex(TypeDefinitionIndex(12966))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12886))
-// CS Name: ::MultiplayerSessionManager*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12883)), TypeDefinitionIndex(TypeDefinitionIndex(12720)), TypeDefinitionIndex(TypeDefinitionIndex(12966)),
+// TypeDefinitionIndex(TypeDefinitionIndex(12708))} Self: TypeDefinitionIndex(TypeDefinitionIndex(12886)) CS Name: ::MultiplayerSessionManager*
 class CORDL_TYPE MultiplayerSessionManager : public ::GlobalNamespace::StandaloneMonobehavior {
 public:
   // Declarations

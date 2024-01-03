@@ -7,17 +7,20 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ObjRef)
-namespace System::Runtime::Serialization {
-class IObjectReference;
+namespace System::Runtime::Remoting {
+class IRemotingTypeInfo;
 }
 namespace System::Runtime::Serialization {
 class SerializationInfo;
 }
-namespace System::Runtime::Serialization {
-struct StreamingContext;
+namespace System {
+class Type;
 }
 namespace System::Runtime::Serialization {
 class ISerializable;
+}
+namespace System::Runtime::Serialization {
+struct StreamingContext;
 }
 namespace System::Runtime::Remoting {
 class IEnvoyInfo;
@@ -25,14 +28,11 @@ class IEnvoyInfo;
 namespace System {
 class Object;
 }
-namespace System::Runtime::Remoting {
-class IRemotingTypeInfo;
+namespace System::Runtime::Serialization {
+class IObjectReference;
 }
 namespace System::Runtime::Remoting {
 class IChannelInfo;
-}
-namespace System {
-class Type;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting {

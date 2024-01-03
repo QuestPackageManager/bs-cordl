@@ -11,27 +11,6 @@ CORDL_MODULE_EXPORT(RealProxy)
 namespace System {
 class Exception;
 }
-namespace System::Runtime::Remoting::Messaging {
-class MonoMethodMessage;
-}
-namespace System {
-class Object;
-}
-namespace System {
-class MarshalByRefObject;
-}
-namespace System::Runtime::Remoting::Contexts {
-class Context;
-}
-namespace System::Runtime::Serialization {
-struct StreamingContext;
-}
-namespace System::Runtime::Remoting::Messaging {
-class IMethodReturnMessage;
-}
-namespace System::Runtime::Remoting {
-class ClientIdentity;
-}
 namespace System::Runtime::Serialization {
 class SerializationInfo;
 }
@@ -41,8 +20,29 @@ class Type;
 namespace System::Runtime::Remoting {
 class Identity;
 }
+namespace System::Runtime::Remoting::Contexts {
+class Context;
+}
+namespace System::Runtime::Remoting::Messaging {
+class MonoMethodMessage;
+}
+namespace System::Runtime::Remoting {
+class ClientIdentity;
+}
+namespace System::Runtime::Serialization {
+struct StreamingContext;
+}
+namespace System {
+class MarshalByRefObject;
+}
 namespace System::Runtime::Remoting::Messaging {
 class IMessage;
+}
+namespace System {
+class Object;
+}
+namespace System::Runtime::Remoting::Messaging {
+class IMethodReturnMessage;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting::Proxies {

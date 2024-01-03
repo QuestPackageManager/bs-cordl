@@ -9,47 +9,47 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(HEU_BaseSync)
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace HoudiniEngineUnity {
-class HEU_LoadBufferVolume;
-}
-namespace HoudiniEngineUnity {
-class HEU_SessionBase;
-}
-namespace System::Text {
-class StringBuilder;
-}
-namespace HoudiniEngineUnity {
-class HEU_LoadBufferBase;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace HoudiniEngineUnity {
-class HEU_LoadBufferMesh;
-}
-namespace UnityEngine {
-class Transform;
-}
-namespace HoudiniEngineUnity {
-class HEU_GeneratedOutput;
-}
-namespace UnityEngine {
-class GameObject;
-}
 namespace HoudiniEngineUnity {
 class HEU_ThreadedTaskLoadGeo;
-}
-namespace HoudiniEngineUnity {
-class HEU_LoadBufferInstancer;
 }
 namespace HoudiniEngineUnity {
 struct HAPI_Transform;
 }
 namespace HoudiniEngineUnity {
+class HEU_LoadBufferMesh;
+}
+namespace HoudiniEngineUnity {
+class HEU_LoadBufferBase;
+}
+namespace UnityEngine {
+class Transform;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace HoudiniEngineUnity {
 class __HEU_ThreadedTaskLoadGeo__HEU_LoadData;
+}
+namespace HoudiniEngineUnity {
+class HEU_LoadBufferInstancer;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace HoudiniEngineUnity {
+class HEU_SessionBase;
+}
+namespace HoudiniEngineUnity {
+class HEU_LoadBufferVolume;
+}
+namespace UnityEngine {
+class GameObject;
+}
+namespace System::Text {
+class StringBuilder;
+}
+namespace HoudiniEngineUnity {
+class HEU_GeneratedOutput;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -61,7 +61,7 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_BaseSync);
 // SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 125, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(9794))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9794)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9793))
 // CS Name: ::HoudiniEngineUnity::HEU_BaseSync*
 class CORDL_TYPE HEU_BaseSync : public ::UnityEngine::MonoBehaviour {

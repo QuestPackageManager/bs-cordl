@@ -1,10 +1,10 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__PresentHiddenSettingsAfterNClicks_def.hpp"
-#include "UnityEngine/UI/zzzz__Button_def.hpp"
 #include "HMUI/zzzz__ViewController_def.hpp"
 #include "HMUI/zzzz__ButtonBinder_def.hpp"
 #include "GlobalNamespace/zzzz__SettingsFlowCoordinator_def.hpp"
+#include "UnityEngine/UI/zzzz__Button_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::PresentHiddenSettingsAfterNClicks.OnEnable
 template <>
 

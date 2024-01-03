@@ -9,11 +9,11 @@ CORDL_MODULE_EXPORT(BasicConnectionRequestHandler)
 namespace LiteNetLib::Utils {
 class NetDataWriter;
 }
-namespace GlobalNamespace {
-class IConnectionRequestHandler;
-}
 namespace LiteNetLib::Utils {
 class NetDataReader;
+}
+namespace GlobalNamespace {
+class IConnectionRequestHandler;
 }
 // Forward declare root types
 namespace GlobalNamespace {

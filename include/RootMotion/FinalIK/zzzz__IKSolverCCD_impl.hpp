@@ -1,8 +1,8 @@
 #pragma once
 #include "RootMotion/FinalIK/zzzz__IKSolverHeuristic_impl.hpp"
 #include "RootMotion/FinalIK/zzzz__IKSolverCCD_def.hpp"
-#include "RootMotion/FinalIK/zzzz__IKSolver_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "RootMotion/FinalIK/zzzz__IKSolver_def.hpp"
 //  Writing Method size for method: ::RootMotion::FinalIK::IKSolverCCD.FadeOutBoneWeights
 template <>
 

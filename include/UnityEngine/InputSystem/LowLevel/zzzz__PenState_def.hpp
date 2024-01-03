@@ -7,14 +7,14 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(PenState)
-namespace UnityEngine {
-struct Vector2;
+namespace UnityEngine::InputSystem::Utilities {
+struct FourCC;
 }
 namespace UnityEngine::InputSystem::LowLevel {
 class IInputStateTypeInfo;
 }
-namespace UnityEngine::InputSystem::Utilities {
-struct FourCC;
+namespace UnityEngine {
+struct Vector2;
 }
 namespace UnityEngine::InputSystem {
 struct PenButton;

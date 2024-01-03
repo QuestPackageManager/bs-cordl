@@ -8,10 +8,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(IMECompositionString)
 namespace System::Collections {
-class IEnumerator;
-}
-namespace System::Collections {
 class IEnumerable;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+struct __IMECompositionString__Enumerator;
 }
 namespace UnityEngine::InputSystem::LowLevel {
 struct __IMECompositionString___buffer_e__FixedBuffer;
@@ -19,11 +19,11 @@ struct __IMECompositionString___buffer_e__FixedBuffer;
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
-namespace UnityEngine::InputSystem::LowLevel {
-struct __IMECompositionString__Enumerator;
-}
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
+}
+namespace System::Collections {
+class IEnumerator;
 }
 namespace System {
 class IDisposable;

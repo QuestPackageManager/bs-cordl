@@ -9,10 +9,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(LightRotationBaseData)
 namespace GlobalNamespace {
-struct LightRotationDirection;
+struct EaseType;
 }
 namespace GlobalNamespace {
-struct EaseType;
+struct LightRotationDirection;
 }
 // Forward declare root types
 namespace GlobalNamespace {

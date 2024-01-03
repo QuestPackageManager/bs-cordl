@@ -9,10 +9,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(NumberFormatInfo)
 namespace System {
-class Type;
-}
-namespace System {
 class IFormatProvider;
+}
+namespace System::Runtime::Serialization {
+struct StreamingContext;
 }
 namespace System {
 class ICloneable;
@@ -23,8 +23,8 @@ class CultureData;
 namespace System::Globalization {
 struct NumberStyles;
 }
-namespace System::Runtime::Serialization {
-struct StreamingContext;
+namespace System {
+class Type;
 }
 namespace System {
 class Object;

@@ -13,22 +13,22 @@ namespace System::Resources {
 class ResourceReader;
 }
 namespace System::Collections {
-class IEnumerable;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
+class IEnumerator;
 }
 namespace System::Collections {
 class IDictionaryEnumerator;
 }
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
+}
 namespace System::Resources {
 struct ResourceLocator;
 }
+namespace System::Collections {
+class IEnumerable;
+}
 namespace System::IO {
 class Stream;
-}
-namespace System::Collections {
-class IEnumerator;
 }
 // Forward declare root types
 namespace System::Resources {

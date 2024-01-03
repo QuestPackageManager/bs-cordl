@@ -4,14 +4,14 @@
 CORDL_MODULE_INIT
 #include "Newtonsoft/Json/Linq/zzzz__JValue_def.hpp"
 CORDL_MODULE_EXPORT(JRaw)
+namespace Newtonsoft::Json::Linq {
+class JToken;
+}
 namespace System {
 class Object;
 }
 namespace Newtonsoft::Json {
 class JsonReader;
-}
-namespace Newtonsoft::Json::Linq {
-class JToken;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Linq {

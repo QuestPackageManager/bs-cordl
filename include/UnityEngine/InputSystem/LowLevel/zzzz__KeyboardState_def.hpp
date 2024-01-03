@@ -7,9 +7,6 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(KeyboardState)
-namespace UnityEngine::InputSystem {
-struct Key;
-}
 namespace UnityEngine::InputSystem::Utilities {
 struct FourCC;
 }
@@ -18,6 +15,9 @@ class IInputStateTypeInfo;
 }
 namespace UnityEngine::InputSystem::LowLevel {
 struct __KeyboardState___keys_e__FixedBuffer;
+}
+namespace UnityEngine::InputSystem {
+struct Key;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::LowLevel {

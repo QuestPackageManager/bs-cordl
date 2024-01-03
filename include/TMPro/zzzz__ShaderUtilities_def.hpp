@@ -9,13 +9,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ShaderUtilities)
 namespace UnityEngine {
-class Material;
-}
-namespace UnityEngine {
 class Shader;
 }
 namespace UnityEngine {
 struct Vector4;
+}
+namespace UnityEngine {
+class Material;
 }
 // Forward declare root types
 namespace TMPro {

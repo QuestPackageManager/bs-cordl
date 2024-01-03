@@ -15,38 +15,38 @@ struct __MainMenuDestinationRequestController___ProcessDestinationRequest_d__9;
 namespace GlobalNamespace {
 class IDestinationRequestManager;
 }
-namespace System {
-class IDisposable;
+namespace Zenject {
+class DiContainer;
+}
+namespace GlobalNamespace {
+class GameScenesManager;
 }
 namespace GlobalNamespace {
 class MenuScenesTransitionSetupDataSO;
 }
-namespace GlobalNamespace {
-class ScenesTransitionSetupDataSO;
+namespace System {
+class IDisposable;
 }
 namespace GlobalNamespace {
-class GameScenesManager;
+class MenuDestination;
+}
+namespace System::Threading {
+class CancellationTokenSource;
+}
+namespace GlobalNamespace {
+class ScenesTransitionSetupDataSO;
 }
 namespace Zenject {
 class IInitializable;
 }
 namespace System::Threading {
-class CancellationTokenSource;
-}
-namespace Zenject {
-class DiContainer;
-}
-namespace GlobalNamespace {
-class MenuDestination;
+struct CancellationToken;
 }
 namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
 }
 namespace System::Runtime::CompilerServices {
 struct AsyncVoidMethodBuilder;
-}
-namespace System::Threading {
-struct CancellationToken;
 }
 namespace System::Runtime::CompilerServices {
 struct TaskAwaiter;
@@ -65,7 +65,7 @@ MARK_VAL_T(::GlobalNamespace::__MainMenuDestinationRequestController___ProcessDe
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3393)), TypeDefinitionIndex(TypeDefinitionIndex(3400)), TypeDefinitionIndex(TypeDefinitionIndex(2677))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3393)), TypeDefinitionIndex(TypeDefinitionIndex(3400))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4150))
 // CS Name: ::MainMenuDestinationRequestController::<ProcessDestinationRequest>d__9
 struct CORDL_TYPE __MainMenuDestinationRequestController___ProcessDestinationRequest_d__9 {

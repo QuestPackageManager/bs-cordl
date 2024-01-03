@@ -15,44 +15,32 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(BeatmapLevelDataLoader)
-namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
-}
 namespace GlobalNamespace {
-struct __BeatmapLevelDataLoader___LoadBeatmapLevelAsync_d__7;
+class __BeatmapLevelDataLoader____c__DisplayClass8_1;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace GlobalNamespace {
-class IBeatmapLevel;
+template <typename TKey, typename TValue> class AsyncCache_2;
+}
+namespace System::Threading::Tasks {
+template <typename TResult> class Task_1;
 }
 namespace GlobalNamespace {
-class __BeatmapLevelDataLoader__BeatmapLevelFromPreview;
+struct __BeatmapLevelDataLoader__AssetBundleLevelInfo;
 }
 namespace System {
 class IDisposable;
 }
 namespace GlobalNamespace {
-class BeatmapCharacteristicCollection;
-}
-namespace GlobalNamespace {
 struct __BeatmapLevelDataLoader___LoadBeatmapLevelFormAssetBundleAsync_d__5;
 }
 namespace GlobalNamespace {
-class __BeatmapLevelDataLoader____c__DisplayClass8_1;
+class BeatmapCharacteristicCollection;
 }
 namespace GlobalNamespace {
-struct __BeatmapLevelDataLoader___LoadBeatmapLevelDataAsync_d__8;
-}
-namespace GlobalNamespace {
-template <typename TKey, typename TValue> class AsyncCache_2;
-}
-namespace GlobalNamespace {
-class IPreviewBeatmapLevel;
-}
-namespace GlobalNamespace {
-class __BeatmapLevelDataLoader____c__DisplayClass8_0;
+class __BeatmapLevelDataLoader__BeatmapLevelFromPreview;
 }
 namespace System::Threading {
 struct CancellationToken;
@@ -61,52 +49,61 @@ namespace GlobalNamespace {
 class BeatmapLevelDataSO;
 }
 namespace GlobalNamespace {
-struct __BeatmapLevelDataLoader__AssetBundleLevelInfo;
+class IPreviewBeatmapLevel;
 }
 namespace GlobalNamespace {
-class __BeatmapLevelDataLoader__BeatmapLevelFromPreview__BeatmapLevelData;
+struct __BeatmapLevelDataLoader___LoadBeatmapLevelAsync_d__7;
 }
 namespace GlobalNamespace {
-struct __BeatmapLevelDataLoader__BeatmapLevelFromPreview___GetCoverImageAsync_d__41;
-}
-namespace System::Collections::Generic {
-template <typename T> class IReadOnlyList_1;
+struct __BeatmapLevelDataLoader___LoadBeatmapLevelDataAsync_d__8;
 }
 namespace GlobalNamespace {
-class IFilePathSongPreviewAudioClipProvider;
+class IBeatmapLevel;
 }
 namespace GlobalNamespace {
-class IBeatmapLevelData;
-}
-namespace UnityEngine {
-class AudioClip;
+class __BeatmapLevelDataLoader____c__DisplayClass8_0;
 }
 namespace UnityEngine {
 class Sprite;
 }
 namespace GlobalNamespace {
-class IAssetSongPreviewAudioClipProvider;
+class IFilePathSongPreviewAudioClipProvider;
 }
 namespace GlobalNamespace {
-struct PlayerSensitivityFlag;
-}
-namespace GlobalNamespace {
-class EnvironmentInfoSO;
+struct __BeatmapLevelDataLoader__BeatmapLevelFromPreview___GetCoverImageAsync_d__41;
 }
 namespace GlobalNamespace {
 class PreviewDifficultyBeatmapSet;
 }
 namespace GlobalNamespace {
-class __BeatmapLevelDataLoader__BeatmapLevelFromPreview__BeatmapLevelData__DifficultyBeatmapSet;
+class __BeatmapLevelDataLoader__BeatmapLevelFromPreview__BeatmapLevelData;
 }
 namespace GlobalNamespace {
-class IDifficultyBeatmapSet;
+class EnvironmentInfoSO;
+}
+namespace UnityEngine {
+class AudioClip;
+}
+namespace System::Collections::Generic {
+template <typename T> class IReadOnlyList_1;
+}
+namespace GlobalNamespace {
+struct PlayerSensitivityFlag;
+}
+namespace GlobalNamespace {
+class IAssetSongPreviewAudioClipProvider;
+}
+namespace GlobalNamespace {
+class IBeatmapLevelData;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace GlobalNamespace {
-class IDifficultyBeatmap;
+class IDifficultyBeatmapSet;
+}
+namespace GlobalNamespace {
+class __BeatmapLevelDataLoader__BeatmapLevelFromPreview__BeatmapLevelData__DifficultyBeatmapSet;
 }
 namespace GlobalNamespace {
 class BeatmapCharacteristicSO;
@@ -114,14 +111,17 @@ class BeatmapCharacteristicSO;
 namespace GlobalNamespace {
 class __BeatmapLevelDataSO__DifficultyBeatmapSet;
 }
+namespace GlobalNamespace {
+class IDifficultyBeatmap;
+}
 namespace System::Threading::Tasks {
 template <typename TResult> class TaskCompletionSource_1;
 }
 namespace UnityEngine {
-class AsyncOperation;
+class AssetBundleCreateRequest;
 }
 namespace UnityEngine {
-class AssetBundleCreateRequest;
+class AsyncOperation;
 }
 namespace UnityEngine {
 class AssetBundleRequest;
@@ -130,13 +130,13 @@ namespace UnityEngine {
 class AssetBundle;
 }
 namespace System::Runtime::CompilerServices {
-class IAsyncStateMachine;
+template <typename TResult> struct TaskAwaiter_1;
 }
 namespace System::Runtime::CompilerServices {
 template <typename TResult> struct AsyncTaskMethodBuilder_1;
 }
 namespace System::Runtime::CompilerServices {
-template <typename TResult> struct TaskAwaiter_1;
+class IAsyncStateMachine;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -396,8 +396,8 @@ static_assert(offsetof(::GlobalNamespace::__BeatmapLevelDataLoader__BeatmapLevel
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3394)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 777 }), GenericInstantiation(GenericInstantiation {
-// tdi: TypeDefinitionIndex(3402), inst: 777 }), TypeDefinitionIndex(TypeDefinitionIndex(10291)), TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(2677))} Self:
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(10291)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 777
+// }), TypeDefinitionIndex(TypeDefinitionIndex(2677)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 777 }), TypeDefinitionIndex(TypeDefinitionIndex(3394))} Self:
 // TypeDefinitionIndex(TypeDefinitionIndex(4331)) CS Name: ::BeatmapLevelDataLoader::BeatmapLevelFromPreview::<GetCoverImageAsync>d__41
 struct CORDL_TYPE __BeatmapLevelDataLoader__BeatmapLevelFromPreview___GetCoverImageAsync_d__41 {
 public:
@@ -648,9 +648,9 @@ static_assert(offsetof(::GlobalNamespace::__BeatmapLevelDataLoader__BeatmapLevel
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2677)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 887 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(4391)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 887 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(3394))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4333)) CS Name: ::BeatmapLevelDataLoader::<LoadBeatmapLevelFormAssetBundleAsync>d__5
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(2677)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 887
+// }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 887 }), TypeDefinitionIndex(TypeDefinitionIndex(4391)), TypeDefinitionIndex(TypeDefinitionIndex(3394))} Self:
+// TypeDefinitionIndex(TypeDefinitionIndex(4333)) CS Name: ::BeatmapLevelDataLoader::<LoadBeatmapLevelFormAssetBundleAsync>d__5
 struct CORDL_TYPE __BeatmapLevelDataLoader___LoadBeatmapLevelFormAssetBundleAsync_d__5 {
 public:
   // Declarations
@@ -738,8 +738,8 @@ static_assert(offsetof(::GlobalNamespace::__BeatmapLevelDataLoader___LoadBeatmap
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 887 }), TypeDefinitionIndex(TypeDefinitionIndex(4391)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 877 }),
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 887 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(4391)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 877 }),
 // TypeDefinitionIndex(TypeDefinitionIndex(4349))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4334)) CS Name: ::BeatmapLevelDataLoader::<LoadBeatmapLevelAsync>d__7
 struct CORDL_TYPE __BeatmapLevelDataLoader___LoadBeatmapLevelAsync_d__7 {
 public:
@@ -963,9 +963,9 @@ static_assert(offsetof(::GlobalNamespace::__BeatmapLevelDataLoader____c__Display
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 877 }), TypeDefinitionIndex(TypeDefinitionIndex(4349)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3394)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 877 }), TypeDefinitionIndex(TypeDefinitionIndex(3402))} Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(4337)) CS Name: ::BeatmapLevelDataLoader::<LoadBeatmapLevelDataAsync>d__8
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3394)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 877 }), GenericInstantiation(GenericInstantiation {
+// tdi: TypeDefinitionIndex(3394), inst: 877 }), TypeDefinitionIndex(TypeDefinitionIndex(4349)), TypeDefinitionIndex(TypeDefinitionIndex(3402))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4337)) CS
+// Name: ::BeatmapLevelDataLoader::<LoadBeatmapLevelDataAsync>d__8
 struct CORDL_TYPE __BeatmapLevelDataLoader___LoadBeatmapLevelDataAsync_d__8 {
 public:
   // Declarations

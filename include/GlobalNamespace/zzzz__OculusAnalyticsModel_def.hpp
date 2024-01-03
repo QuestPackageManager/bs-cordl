@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(OculusAnalyticsModel)
-namespace GlobalNamespace {
-class IAnalyticsModel;
-}
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace GlobalNamespace {
+class IAnalyticsModel;
 }
 // Forward declare root types
 namespace GlobalNamespace {

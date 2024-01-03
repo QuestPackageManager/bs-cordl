@@ -5,17 +5,17 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(BufferedCipherWrapper)
+namespace Org::BouncyCastle::Crypto {
+class ICipher;
+}
+namespace Org::BouncyCastle::Crypto::IO {
+class CipherStream;
+}
 namespace System::IO {
 class Stream;
 }
 namespace Org::BouncyCastle::Crypto {
 class IBufferedCipher;
-}
-namespace Org::BouncyCastle::Crypto::IO {
-class CipherStream;
-}
-namespace Org::BouncyCastle::Crypto {
-class ICipher;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Operators {

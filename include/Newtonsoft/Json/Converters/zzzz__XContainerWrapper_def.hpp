@@ -7,14 +7,14 @@ CORDL_MODULE_EXPORT(XContainerWrapper)
 namespace System::Xml::Linq {
 class XContainer;
 }
-namespace Newtonsoft::Json::Converters {
-class IXmlNode;
-}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace System::Xml::Linq {
 class XObject;
+}
+namespace Newtonsoft::Json::Converters {
+class IXmlNode;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Converters {

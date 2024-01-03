@@ -9,10 +9,10 @@ namespace System::Runtime::Serialization {
 class SerializationInfo;
 }
 namespace System::Runtime::Serialization {
-class ISerializable;
+struct StreamingContext;
 }
 namespace System::Runtime::Serialization {
-struct StreamingContext;
+class ISerializable;
 }
 // Forward declare root types
 namespace System::Security::AccessControl {

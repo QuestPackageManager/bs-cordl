@@ -9,25 +9,16 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(HttpClientHandler)
 namespace System::Net::Http {
-class IMonoHttpClientHandler;
+class __HttpClientHandler____c;
 }
-namespace System::Net::Http {
-struct ClientCertificateOption;
-}
-namespace System::Net::Http {
-class HttpRequestMessage;
-}
-namespace System {
-class Object;
+namespace System::Security::Cryptography::X509Certificates {
+class X509CertificateCollection;
 }
 namespace System::Threading {
 struct CancellationToken;
 }
-namespace System::Net::Http {
-class HttpResponseMessage;
-}
-namespace System::Security::Cryptography::X509Certificates {
-class X509CertificateCollection;
+namespace System {
+class Object;
 }
 namespace System::Threading::Tasks {
 template <typename TResult> class Task_1;
@@ -36,10 +27,19 @@ namespace System::Security::Cryptography::X509Certificates {
 class X509Certificate;
 }
 namespace System::Net::Http {
-class __HttpClientHandler____c;
+class HttpRequestMessage;
+}
+namespace System::Net::Http {
+struct ClientCertificateOption;
+}
+namespace System::Net::Http {
+class IMonoHttpClientHandler;
 }
 namespace System {
 struct TimeSpan;
+}
+namespace System::Net::Http {
+class HttpResponseMessage;
 }
 namespace System::Net::Security {
 class LocalCertificateSelectionCallback;
@@ -112,7 +112,7 @@ static_assert(::cordl_internals::size_check_v<::System::Net::Http::__HttpClientH
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Http {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14650)), TypeDefinitionIndex(TypeDefinitionIndex(14641))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14641)), TypeDefinitionIndex(TypeDefinitionIndex(14650))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14634))
 // CS Name: ::System.Net.Http::HttpClientHandler*
 class CORDL_TYPE HttpClientHandler : public ::System::Net::Http::HttpMessageHandler {

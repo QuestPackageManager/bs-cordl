@@ -6,20 +6,20 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(Vector4Serializable)
+namespace LiteNetLib::Utils {
+class NetDataWriter;
+}
 namespace System {
 class Object;
-}
-namespace LiteNetLib::Utils {
-class NetDataReader;
 }
 namespace UnityEngine {
 struct Vector4;
 }
 namespace LiteNetLib::Utils {
-class INetSerializable;
+class NetDataReader;
 }
 namespace LiteNetLib::Utils {
-class NetDataWriter;
+class INetSerializable;
 }
 namespace System {
 template <typename T> class IEquatable_1;

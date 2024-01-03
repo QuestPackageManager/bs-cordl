@@ -2,12 +2,12 @@
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__Event_def.hpp"
-#include "UnityEngine/zzzz__EventModifiers_def.hpp"
+#include "UnityEngine/zzzz__EventType_def.hpp"
 #include "UnityEngine/zzzz__PointerType_def.hpp"
+#include "UnityEngine/zzzz__EventModifiers_def.hpp"
 #include "UnityEngine/zzzz__KeyCode_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
-#include "UnityEngine/zzzz__EventType_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Event._ctor
 template <>
 

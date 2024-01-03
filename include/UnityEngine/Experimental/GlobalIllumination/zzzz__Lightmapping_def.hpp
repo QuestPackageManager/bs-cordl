@@ -7,14 +7,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Lightmapping)
+namespace UnityEngine {
+class Light;
+}
 namespace UnityEngine::Experimental::GlobalIllumination {
 class __Lightmapping____c;
 }
 namespace UnityEngine::Experimental::GlobalIllumination {
 class __Lightmapping__RequestLightsDelegate;
-}
-namespace UnityEngine {
-class Light;
 }
 namespace System {
 class Object;

@@ -8,17 +8,17 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(BatchRendererCullingOutput)
-namespace UnityEngine {
-struct Plane;
-}
 namespace Unity::Jobs {
 struct JobHandle;
 }
-namespace UnityEngine::Rendering {
-struct BatchVisibility;
-}
 namespace UnityEngine {
 struct Matrix4x4;
+}
+namespace UnityEngine {
+struct Plane;
+}
+namespace UnityEngine::Rendering {
+struct BatchVisibility;
 }
 // Forward declare root types
 namespace UnityEngine::Rendering {
@@ -30,7 +30,7 @@ MARK_VAL_T(::UnityEngine::Rendering::BatchRendererCullingOutput);
 // SizeInfo { instance_size: 128, native_size: 128, calculated_instance_size: 128, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Rendering {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9977)), TypeDefinitionIndex(TypeDefinitionIndex(10245))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10245)), TypeDefinitionIndex(TypeDefinitionIndex(9977))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10366))
 // CS Name: ::UnityEngine.Rendering::BatchRendererCullingOutput
 struct CORDL_TYPE BatchRendererCullingOutput {

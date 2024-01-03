@@ -17,44 +17,32 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(InputEventTrace)
-namespace System {
-template <typename T> class Comparison_1;
-}
 namespace UnityEngine::InputSystem::LowLevel {
 struct InputEventPtr;
 }
-namespace UnityEngine::InputSystem::Utilities {
-struct FourCC;
-}
-namespace System::Collections {
-class IEnumerator;
-}
-namespace UnityEngine::InputSystem {
-class InputDevice;
-}
 namespace System {
-template <typename T> class Action_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
-namespace UnityEngine::InputSystem::LowLevel {
-class __InputEventTrace__ReplayController;
-}
-namespace System {
-class IDisposable;
+template <typename T> class Comparison_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
-namespace UnityEngine::InputSystem::Utilities {
-template <typename TValue> struct ReadOnlyArray_1;
-}
 namespace System::Collections {
 class IEnumerable;
 }
+namespace System {
+class IDisposable;
+}
 namespace UnityEngine::InputSystem::LowLevel {
-struct __InputEventTrace__DeviceInfo;
+class __InputEventTrace__ReplayController;
+}
+namespace System::IO {
+class Stream;
+}
+namespace System::Collections {
+class IEnumerator;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+class __InputEventTrace__Enumerator;
 }
 namespace UnityEngine::InputSystem::LowLevel {
 struct __InputEventTrace__FileFlags;
@@ -62,26 +50,38 @@ struct __InputEventTrace__FileFlags;
 namespace System {
 template <typename T1, typename T2, typename TResult> class Func_3;
 }
-namespace System::IO {
-class Stream;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
+namespace UnityEngine::InputSystem::Utilities {
+struct FourCC;
 }
 namespace UnityEngine::InputSystem::LowLevel {
-class __InputEventTrace__Enumerator;
+struct __InputEventTrace__DeviceInfo;
+}
+namespace System {
+template <typename T> class Action_1;
+}
+namespace UnityEngine::InputSystem {
+class InputDevice;
+}
+namespace UnityEngine::InputSystem::Utilities {
+template <typename TValue> struct ReadOnlyArray_1;
 }
 namespace System {
 class Object;
-}
-namespace GlobalNamespace {
-class __InputEventTrace__ReplayController____c__DisplayClass43_0;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
 }
 namespace GlobalNamespace {
 class __InputEventTrace__ReplayController____c;
 }
 namespace System {
 class Action;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace GlobalNamespace {
+class __InputEventTrace__ReplayController____c__DisplayClass43_0;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::LowLevel {
@@ -117,7 +117,7 @@ MARK_VAL_T(::UnityEngine::InputSystem::LowLevel::__InputEventTrace__DeviceInfo);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6536)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(6536))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6538))
 // CS Name: ::InputEventTrace::Enumerator*
 class CORDL_TYPE __InputEventTrace__Enumerator : public ::System::Object {
@@ -372,9 +372,9 @@ static_assert(offsetof(::GlobalNamespace::__InputEventTrace__ReplayController___
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3841), inst: 533 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6669), inst: 3057 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(3841)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6669), inst: 2036 }), TypeDefinitionIndex(TypeDefinitionIndex(2613)),
-// TypeDefinitionIndex(TypeDefinitionIndex(6239)), TypeDefinitionIndex(TypeDefinitionIndex(6669))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6542)) CS Name: ::InputEventTrace::ReplayController*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6239)), TypeDefinitionIndex(TypeDefinitionIndex(3841)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6669), inst: 3057
+// }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6669), inst: 2036 }), TypeDefinitionIndex(TypeDefinitionIndex(6669)), TypeDefinitionIndex(TypeDefinitionIndex(2613)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3841), inst: 533 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(6542)) CS Name: ::InputEventTrace::ReplayController*
 class CORDL_TYPE __InputEventTrace__ReplayController : public ::System::Object {
 public:
   // Declarations
@@ -780,8 +780,8 @@ static_assert(offsetof(::UnityEngine::InputSystem::LowLevel::__InputEventTrace__
 // SizeInfo { instance_size: 200, native_size: -1, calculated_instance_size: 200, calculated_native_size: 200, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2323)), TypeDefinitionIndex(TypeDefinitionIndex(6660)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6660), inst: 986 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2323), inst: 330 }),
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6660), inst: 986 }), TypeDefinitionIndex(TypeDefinitionIndex(6660)),
+// TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2323)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2323), inst: 330 }),
 // TypeDefinitionIndex(TypeDefinitionIndex(6536))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6544)) CS Name: ::UnityEngine.InputSystem.LowLevel::InputEventTrace*
 class CORDL_TYPE InputEventTrace : public ::System::Object {
 public:

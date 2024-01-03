@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(NoRichPresencePlatformHandler)
 namespace GlobalNamespace {
-class IRichPresencePlatformHandler;
+class IRichPresenceData;
 }
 namespace GlobalNamespace {
-class IRichPresenceData;
+class IRichPresencePlatformHandler;
 }
 // Forward declare root types
 namespace GlobalNamespace {

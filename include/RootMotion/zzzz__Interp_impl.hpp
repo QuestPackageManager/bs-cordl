@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "RootMotion/zzzz__Interp_def.hpp"
-#include "RootMotion/zzzz__InterpolationMode_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "RootMotion/zzzz__InterpolationMode_def.hpp"
 //  Writing Method size for method: ::RootMotion::Interp.Float
 template <>
 

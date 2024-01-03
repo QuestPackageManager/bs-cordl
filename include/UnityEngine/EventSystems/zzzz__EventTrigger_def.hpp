@@ -9,79 +9,79 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(EventTrigger)
 namespace UnityEngine::EventSystems {
-class __EventTrigger__TriggerEvent;
-}
-namespace UnityEngine::EventSystems {
-class BaseEventData;
+class ISubmitHandler;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace UnityEngine::EventSystems {
-class IInitializePotentialDragHandler;
-}
-namespace UnityEngine::EventSystems {
-class IDeselectHandler;
-}
-namespace UnityEngine::EventSystems {
-class __EventTrigger__Entry;
-}
-namespace UnityEngine::EventSystems {
-struct EventTriggerType;
-}
-namespace UnityEngine::EventSystems {
-class IScrollHandler;
-}
-namespace UnityEngine::EventSystems {
-class IBeginDragHandler;
+class IPointerUpHandler;
 }
 namespace UnityEngine::EventSystems {
 class IDropHandler;
 }
 namespace UnityEngine::EventSystems {
-class ISelectHandler;
+class IPointerEnterHandler;
 }
 namespace UnityEngine::EventSystems {
-class IMoveHandler;
+class IPointerExitHandler;
 }
 namespace UnityEngine::EventSystems {
-class ISubmitHandler;
+class IScrollHandler;
 }
 namespace UnityEngine::EventSystems {
-class PointerEventData;
+class IDeselectHandler;
 }
 namespace UnityEngine::EventSystems {
 class IPointerDownHandler;
 }
 namespace UnityEngine::EventSystems {
-class ICancelHandler;
-}
-namespace UnityEngine::EventSystems {
-class AxisEventData;
-}
-namespace UnityEngine::EventSystems {
-class IEventSystemHandler;
-}
-namespace UnityEngine::EventSystems {
-class IPointerUpHandler;
-}
-namespace UnityEngine::EventSystems {
-class IUpdateSelectedHandler;
-}
-namespace UnityEngine::EventSystems {
 class IPointerClickHandler;
 }
 namespace UnityEngine::EventSystems {
-class IDragHandler;
+class IBeginDragHandler;
 }
 namespace UnityEngine::EventSystems {
-class IPointerEnterHandler;
+class IInitializePotentialDragHandler;
+}
+namespace UnityEngine::EventSystems {
+class ISelectHandler;
 }
 namespace UnityEngine::EventSystems {
 class IEndDragHandler;
 }
 namespace UnityEngine::EventSystems {
-class IPointerExitHandler;
+class ICancelHandler;
+}
+namespace UnityEngine::EventSystems {
+class IMoveHandler;
+}
+namespace UnityEngine::EventSystems {
+class IDragHandler;
+}
+namespace UnityEngine::EventSystems {
+class IEventSystemHandler;
+}
+namespace UnityEngine::EventSystems {
+class __EventTrigger__Entry;
+}
+namespace UnityEngine::EventSystems {
+class __EventTrigger__TriggerEvent;
+}
+namespace UnityEngine::EventSystems {
+class AxisEventData;
+}
+namespace UnityEngine::EventSystems {
+struct EventTriggerType;
+}
+namespace UnityEngine::EventSystems {
+class BaseEventData;
+}
+namespace UnityEngine::EventSystems {
+class PointerEventData;
+}
+namespace UnityEngine::EventSystems {
+class IUpdateSelectedHandler;
 }
 // Forward declare root types
 namespace UnityEngine::EventSystems {
@@ -135,7 +135,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::EventSystems::__Eve
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::EventSystems {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13195)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(13195))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13193))
 // CS Name: ::EventTrigger::Entry*
 class CORDL_TYPE __EventTrigger__Entry : public ::System::Object {

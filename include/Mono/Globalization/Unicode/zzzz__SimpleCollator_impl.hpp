@@ -2,16 +2,16 @@
 #include "System/Globalization/zzzz__CompareOptions_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Mono/Globalization/Unicode/zzzz__SimpleCollator_def.hpp"
-#include "Mono/Globalization/Unicode/zzzz__Contraction_def.hpp"
 #include "Mono/Globalization/Unicode/zzzz__SimpleCollator_def.hpp"
-#include "System/Globalization/zzzz__TextInfo_def.hpp"
 #include "Mono/Globalization/Unicode/zzzz__Level2Map_def.hpp"
-#include "System/Globalization/zzzz__CompareOptions_def.hpp"
-#include "System/Globalization/zzzz__SortKey_def.hpp"
 #include "System/Globalization/zzzz__CultureInfo_def.hpp"
 #include "Mono/Globalization/Unicode/zzzz__SortKeyBuffer_def.hpp"
 #include "System/Globalization/zzzz__ISimpleCollator_def.hpp"
+#include "System/Globalization/zzzz__TextInfo_def.hpp"
+#include "Mono/Globalization/Unicode/zzzz__Contraction_def.hpp"
+#include "System/Globalization/zzzz__CompareOptions_def.hpp"
 #include "Mono/Globalization/Unicode/zzzz__CodePointIndexer_def.hpp"
+#include "System/Globalization/zzzz__SortKey_def.hpp"
 //  Writing Method size for method: ::Mono::Globalization::Unicode::__SimpleCollator__Context._ctor
 template <>
 

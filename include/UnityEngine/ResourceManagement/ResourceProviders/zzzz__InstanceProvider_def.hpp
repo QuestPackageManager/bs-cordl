@@ -5,22 +5,22 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(InstanceProvider)
 namespace UnityEngine::ResourceManagement::ResourceProviders {
-struct InstantiationParameters;
+class IInstanceProvider;
+}
+namespace UnityEngine::ResourceManagement::AsyncOperations {
+template <typename TObject> struct AsyncOperationHandle_1;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace UnityEngine::ResourceManagement {
 class ResourceManager;
 }
 namespace UnityEngine::ResourceManagement::ResourceProviders {
-class IInstanceProvider;
+struct InstantiationParameters;
 }
 namespace UnityEngine {
 class GameObject;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace UnityEngine::ResourceManagement::AsyncOperations {
-template <typename TObject> struct AsyncOperationHandle_1;
 }
 // Forward declare root types
 namespace UnityEngine::ResourceManagement::ResourceProviders {

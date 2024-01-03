@@ -1,10 +1,10 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/Http/Headers/zzzz__Lexer_def.hpp"
-#include "System/zzzz__Nullable_1_def.hpp"
-#include "System/Net/Http/Headers/zzzz__Token_def.hpp"
-#include "System/zzzz__DateTimeOffset_def.hpp"
 #include "System/zzzz__TimeSpan_def.hpp"
+#include "System/zzzz__Nullable_1_def.hpp"
+#include "System/zzzz__DateTimeOffset_def.hpp"
+#include "System/Net/Http/Headers/zzzz__Token_def.hpp"
 //  Writing Method size for method: ::System::Net::Http::Headers::Lexer._ctor
 template <>
 

@@ -5,20 +5,20 @@ CORDL_MODULE_INIT
 #include "Mono/Xml/zzzz__SmallXmlParser_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(SecurityParser)
+namespace Mono::Xml {
+class __SmallXmlParser__IContentHandler;
+}
 namespace System::Security {
 class SecurityElement;
 }
-namespace Mono::Xml {
-class __SmallXmlParser__IAttrList;
+namespace System::Collections {
+class Stack;
 }
 namespace Mono::Xml {
 class SmallXmlParser;
 }
 namespace Mono::Xml {
-class __SmallXmlParser__IContentHandler;
-}
-namespace System::Collections {
-class Stack;
+class __SmallXmlParser__IAttrList;
 }
 // Forward declare root types
 namespace Mono::Xml {

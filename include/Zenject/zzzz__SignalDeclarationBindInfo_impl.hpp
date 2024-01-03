@@ -3,8 +3,8 @@
 #include "Zenject/zzzz__SignalMissingHandlerResponses_impl.hpp"
 #include "Zenject/zzzz__SignalDeclarationBindInfo_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "Zenject/zzzz__SignalMissingHandlerResponses_def.hpp"
 #include "System/zzzz__Type_def.hpp"
+#include "Zenject/zzzz__SignalMissingHandlerResponses_def.hpp"
 //  Writing Method size for method: ::Zenject::SignalDeclarationBindInfo._ctor
 template <>
 

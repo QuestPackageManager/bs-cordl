@@ -6,19 +6,19 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(SecurityUtils)
 namespace System {
-class Object;
-}
-namespace System {
 class Type;
+}
+namespace System::Reflection {
+class Assembly;
 }
 namespace System::Reflection {
 struct BindingFlags;
 }
-namespace System::Reflection {
-class MethodInfo;
+namespace System {
+class Object;
 }
 namespace System::Reflection {
-class Assembly;
+class MethodInfo;
 }
 // Forward declare root types
 namespace System {

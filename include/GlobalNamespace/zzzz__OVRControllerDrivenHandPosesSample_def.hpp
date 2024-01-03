@@ -7,11 +7,11 @@ CORDL_MODULE_EXPORT(OVRControllerDrivenHandPosesSample)
 namespace UnityEngine::UI {
 class Button;
 }
-namespace UnityEngine {
-class LineRenderer;
-}
 namespace GlobalNamespace {
 class OVRCameraRig;
+}
+namespace UnityEngine {
+class LineRenderer;
 }
 // Forward declare root types
 namespace GlobalNamespace {

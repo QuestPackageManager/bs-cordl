@@ -1,17 +1,18 @@
 #pragma once
 #include "System/IO/zzzz__Stream_impl.hpp"
+#include "System/Threading/zzzz__CancellationToken_impl.hpp"
 #include "System/IO/zzzz__MemoryStream_def.hpp"
-#include "System/Threading/Tasks/zzzz__ValueTask_1_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"
+#include "System/IO/zzzz__SeekOrigin_def.hpp"
 #include "System/zzzz__ReadOnlySpan_1_def.hpp"
+#include "System/zzzz__Memory_1_def.hpp"
+#include "System/Threading/Tasks/zzzz__ValueTask_1_def.hpp"
 #include "System/zzzz__Span_1_def.hpp"
 #include "System/zzzz__ReadOnlyMemory_1_def.hpp"
 #include "System/Threading/zzzz__CancellationToken_def.hpp"
-#include "System/IO/zzzz__SeekOrigin_def.hpp"
 #include "System/Threading/Tasks/zzzz__ValueTask_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_def.hpp"
-#include "System/zzzz__Memory_1_def.hpp"
 //  Writing Method size for method: ::System::IO::MemoryStream._ctor
 template <>
 

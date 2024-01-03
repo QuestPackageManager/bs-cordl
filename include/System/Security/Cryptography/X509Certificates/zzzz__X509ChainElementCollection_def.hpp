@@ -6,28 +6,28 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(X509ChainElementCollection)
 namespace System::Collections {
-class IEnumerator;
-}
-namespace System::Security::Cryptography::X509Certificates {
-class X509ChainElementEnumerator;
-}
-namespace System::Security::Cryptography::X509Certificates {
-class X509Certificate2;
-}
-namespace System {
-class Object;
-}
-namespace System {
-class Array;
-}
-namespace System::Collections {
-class IEnumerable;
+class ICollection;
 }
 namespace System::Collections {
 class ArrayList;
 }
 namespace System::Collections {
-class ICollection;
+class IEnumerable;
+}
+namespace System::Security::Cryptography::X509Certificates {
+class X509ChainElementEnumerator;
+}
+namespace System {
+class Array;
+}
+namespace System::Security::Cryptography::X509Certificates {
+class X509Certificate2;
+}
+namespace System::Collections {
+class IEnumerator;
+}
+namespace System {
+class Object;
 }
 namespace System::Security::Cryptography::X509Certificates {
 class X509ChainElement;

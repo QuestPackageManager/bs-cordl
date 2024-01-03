@@ -2,10 +2,10 @@
 #include "System/Xml/zzzz__XmlWriter_impl.hpp"
 #include "System/Xml/zzzz__XmlRawWriter_def.hpp"
 #include "System/Xml/zzzz__XmlRawWriterBase64Encoder_def.hpp"
-#include "System/Xml/zzzz__IXmlNamespaceResolver_def.hpp"
 #include "System/Xml/zzzz__WriteState_def.hpp"
-#include "System/Xml/zzzz__ConformanceLevel_def.hpp"
 #include "System/Xml/zzzz__XmlStandalone_def.hpp"
+#include "System/Xml/zzzz__ConformanceLevel_def.hpp"
+#include "System/Xml/zzzz__IXmlNamespaceResolver_def.hpp"
 //  Writing Method size for method: ::System::Xml::XmlRawWriter.WriteStartDocument
 template <>
 

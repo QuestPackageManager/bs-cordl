@@ -6,28 +6,28 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(OculusPlatformAchievementHandler)
 namespace GlobalNamespace {
-class __OculusPlatformAchievementHandler____c__DisplayClass2_0;
-}
-namespace GlobalNamespace {
-class IPlatformAchievementsHandler;
-}
-namespace GlobalNamespace {
-class __OculusPlatformAchievementHandler____c__DisplayClass3_0;
-}
-namespace GlobalNamespace {
-class __IPlatformAchievementsHandler__UnlockAchievementCompletionHandler;
-}
-namespace GlobalNamespace {
 class __OculusPlatformAchievementHandler____c__DisplayClass3_1;
 }
 namespace GlobalNamespace {
-class AchievementIdsModelSO;
+class HMAsyncRequest;
+}
+namespace GlobalNamespace {
+class __OculusPlatformAchievementHandler____c__DisplayClass2_0;
 }
 namespace GlobalNamespace {
 class __IPlatformAchievementsHandler__GetUnlockedAchievementsCompletionHandler;
 }
 namespace GlobalNamespace {
-class HMAsyncRequest;
+class IPlatformAchievementsHandler;
+}
+namespace GlobalNamespace {
+class __IPlatformAchievementsHandler__UnlockAchievementCompletionHandler;
+}
+namespace GlobalNamespace {
+class __OculusPlatformAchievementHandler____c__DisplayClass3_0;
+}
+namespace GlobalNamespace {
+class AchievementIdsModelSO;
 }
 namespace Oculus::Platform {
 template <typename T> class Message_1;

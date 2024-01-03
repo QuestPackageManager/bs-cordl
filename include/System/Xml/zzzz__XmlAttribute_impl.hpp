@@ -1,12 +1,12 @@
 #pragma once
 #include "System/Xml/zzzz__XmlNode_impl.hpp"
 #include "System/Xml/zzzz__XmlAttribute_def.hpp"
-#include "System/Xml/zzzz__XmlName_def.hpp"
 #include "System/Xml/zzzz__XmlElement_def.hpp"
-#include "System/Xml/zzzz__XmlDocument_def.hpp"
 #include "System/Xml/zzzz__XmlNode_def.hpp"
-#include "System/Xml/zzzz__XmlNodeType_def.hpp"
 #include "System/Xml/zzzz__XmlLinkedNode_def.hpp"
+#include "System/Xml/zzzz__XmlName_def.hpp"
+#include "System/Xml/zzzz__XmlNodeType_def.hpp"
+#include "System/Xml/zzzz__XmlDocument_def.hpp"
 //  Writing Method size for method: ::System::Xml::XmlAttribute._ctor
 template <>
 

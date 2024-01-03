@@ -11,26 +11,26 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(Tile)
-namespace UnityEngine::Tilemaps {
-struct TileData;
+namespace UnityEngine {
+class Sprite;
 }
 namespace UnityEngine {
 struct Matrix4x4;
 }
 namespace UnityEngine {
-struct Color;
+class GameObject;
+}
+namespace UnityEngine::Tilemaps {
+struct TileData;
 }
 namespace UnityEngine::Tilemaps {
 struct TileFlags;
 }
 namespace UnityEngine {
-class Sprite;
+struct Color;
 }
 namespace UnityEngine {
 struct Vector3Int;
-}
-namespace UnityEngine {
-class GameObject;
 }
 namespace UnityEngine::Tilemaps {
 struct __Tile__ColliderType;
@@ -106,8 +106,8 @@ static_assert(offsetof(::UnityEngine::Tilemaps::__Tile__ColliderType, value__) =
 // SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Tilemaps {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15938)), TypeDefinitionIndex(TypeDefinitionIndex(10245)), TypeDefinitionIndex(TypeDefinitionIndex(15947)),
-// TypeDefinitionIndex(TypeDefinitionIndex(15945)), TypeDefinitionIndex(TypeDefinitionIndex(10251))} Self: TypeDefinitionIndex(TypeDefinitionIndex(15946)) CS Name: ::UnityEngine.Tilemaps::Tile*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15945)), TypeDefinitionIndex(TypeDefinitionIndex(10245)), TypeDefinitionIndex(TypeDefinitionIndex(10251)),
+// TypeDefinitionIndex(TypeDefinitionIndex(15938)), TypeDefinitionIndex(TypeDefinitionIndex(15947))} Self: TypeDefinitionIndex(TypeDefinitionIndex(15946)) CS Name: ::UnityEngine.Tilemaps::Tile*
 class CORDL_TYPE Tile : public ::UnityEngine::Tilemaps::TileBase {
 public:
   // Declarations

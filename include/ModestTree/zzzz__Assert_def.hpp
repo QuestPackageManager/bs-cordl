@@ -8,28 +8,28 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(Assert)
 namespace System {
-class Action;
+template <typename TResult> class Func_1;
 }
 namespace System {
 class Exception;
-}
-namespace System::Collections::Generic {
-template <typename T> class IList_1;
-}
-namespace System {
-class Object;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
-namespace System {
-template <typename TResult> class Func_1;
 }
 namespace Zenject {
 class ZenjectException;
 }
 namespace System {
+class Object;
+}
+namespace System {
 class Type;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
+namespace System {
+class Action;
+}
+namespace System::Collections::Generic {
+template <typename T> class IList_1;
 }
 // Forward declare root types
 namespace ModestTree {

@@ -5,19 +5,19 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(PlayableBehaviour)
 namespace UnityEngine::Playables {
-struct FrameData;
+struct Playable;
 }
 namespace System {
 class ICloneable;
+}
+namespace UnityEngine::Playables {
+struct FrameData;
 }
 namespace UnityEngine::Playables {
 class IPlayableBehaviour;
 }
 namespace System {
 class Object;
-}
-namespace UnityEngine::Playables {
-struct Playable;
 }
 // Forward declare root types
 namespace UnityEngine::Playables {

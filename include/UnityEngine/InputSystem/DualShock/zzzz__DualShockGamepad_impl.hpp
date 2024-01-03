@@ -1,11 +1,11 @@
 #pragma once
 #include "UnityEngine/InputSystem/zzzz__Gamepad_impl.hpp"
 #include "UnityEngine/InputSystem/DualShock/zzzz__DualShockGamepad_def.hpp"
-#include "UnityEngine/InputSystem/Haptics/zzzz__IDualMotorRumble_def.hpp"
 #include "UnityEngine/InputSystem/DualShock/zzzz__IDualShockHaptics_def.hpp"
-#include "UnityEngine/zzzz__Color_def.hpp"
+#include "UnityEngine/InputSystem/Haptics/zzzz__IDualMotorRumble_def.hpp"
 #include "UnityEngine/InputSystem/Controls/zzzz__ButtonControl_def.hpp"
 #include "UnityEngine/InputSystem/Haptics/zzzz__IHaptics_def.hpp"
+#include "UnityEngine/zzzz__Color_def.hpp"
 //  Writing Method size for method: ::UnityEngine::InputSystem::DualShock::DualShockGamepad.get_touchpadButton
 template <>
 

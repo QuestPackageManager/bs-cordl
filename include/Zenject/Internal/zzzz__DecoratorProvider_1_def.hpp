@@ -4,14 +4,14 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(DecoratorProvider_1)
-namespace Zenject {
-template <typename TParam1, typename TValue> class IFactory_2;
-}
-namespace System {
-struct Guid;
-}
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace Zenject::Internal {
+class IDecoratorProvider;
+}
+namespace Zenject {
+class IProvider;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
@@ -19,17 +19,17 @@ template <typename T> class List_1;
 namespace Zenject {
 class DiContainer;
 }
-namespace System {
-class Object;
+namespace Zenject {
+template <typename TParam1, typename TValue> class IFactory_2;
 }
 namespace Zenject {
 class InjectContext;
 }
-namespace Zenject::Internal {
-class IDecoratorProvider;
+namespace System {
+class Object;
 }
-namespace Zenject {
-class IProvider;
+namespace System {
+struct Guid;
 }
 // Forward declare root types
 namespace Zenject::Internal {

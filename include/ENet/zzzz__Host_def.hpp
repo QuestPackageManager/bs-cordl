@@ -2,38 +2,35 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "ENet/zzzz__Address_def.hpp"
+#include "ENet/zzzz__SslConfiguration_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"
+#include "System/zzzz__Nullable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Host)
-namespace System {
-class IDisposable;
-}
 namespace ENet {
-class InterceptCallback;
-}
-namespace System {
-template <typename T> struct Nullable_1;
-}
-namespace ENet {
-class ChecksumCallback;
-}
-namespace ENet {
-struct Peer;
-}
-namespace ENet {
-struct SslConfiguration;
+struct Event;
 }
 namespace ENet {
 struct Address;
 }
 namespace ENet {
-struct Packet;
+class InterceptCallback;
 }
 namespace ENet {
-struct Event;
+class ChecksumCallback;
+}
+namespace ENet {
+struct Packet;
+}
+namespace System {
+class IDisposable;
+}
+namespace ENet {
+struct Peer;
 }
 // Forward declare root types
 namespace ENet {
@@ -45,7 +42,8 @@ MARK_REF_PTR_T(::ENet::Host);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace ENet {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 4728 }), TypeDefinitionIndex(TypeDefinitionIndex(2603)),
+// TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(15228)), TypeDefinitionIndex(TypeDefinitionIndex(15229)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15233))
 // CS Name: ::ENet::Host*
 class CORDL_TYPE Host : public ::System::Object {

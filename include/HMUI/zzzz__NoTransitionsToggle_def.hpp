@@ -8,11 +8,11 @@ CORDL_MODULE_EXPORT(NoTransitionsToggle)
 namespace UnityEngine::UI {
 struct __Selectable__SelectionState;
 }
-namespace HMUI {
-struct UISelectionState;
-}
 namespace System {
 template <typename T> class Action_1;
+}
+namespace HMUI {
+struct UISelectionState;
 }
 // Forward declare root types
 namespace HMUI {
@@ -24,7 +24,7 @@ MARK_REF_PTR_T(::HMUI::NoTransitionsToggle);
 // SizeInfo { instance_size: 304, native_size: -1, calculated_instance_size: 304, calculated_native_size: 300, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13567)), TypeDefinitionIndex(TypeDefinitionIndex(13131))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13131)), TypeDefinitionIndex(TypeDefinitionIndex(13567))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13637))
 // CS Name: ::HMUI::NoTransitionsToggle*
 class CORDL_TYPE NoTransitionsToggle : public ::UnityEngine::UI::Toggle {

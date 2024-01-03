@@ -13,58 +13,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(SliderController)
 namespace GlobalNamespace {
-class IBeatmapObjectController;
-}
-namespace GlobalNamespace {
-class ISliderHeadDidMovePastCutMarkEvent;
-}
-namespace GlobalNamespace {
-template <typename T> class ILazyCopyHashSet_1;
-}
-namespace System::Collections {
-class IEnumerator;
-}
-namespace GlobalNamespace {
-class Saber;
-}
-namespace GlobalNamespace {
-class __SliderController___DissolveCoroutine_d__70;
-}
-namespace GlobalNamespace {
-template <typename T> class LazyCopyHashSet_1;
-}
-namespace GlobalNamespace {
-class ISliderTailDidMovePastCutMarkEvent;
-}
-namespace GlobalNamespace {
-class SliderData;
-}
-namespace UnityEngine {
-struct Vector3;
-}
-namespace GlobalNamespace {
-class NoteData;
-}
-namespace GlobalNamespace {
-class NoteController;
-}
-namespace GlobalNamespace {
-struct NoteCutInfo;
-}
-namespace GlobalNamespace {
-class __SliderController__Pool;
-}
-namespace GlobalNamespace {
-class BeatmapObjectManager;
-}
-namespace GlobalNamespace {
 class SaberManager;
 }
 namespace GlobalNamespace {
-class ISliderDidStartDissolvingEvent;
-}
-namespace GlobalNamespace {
-class ISliderDidFinishJumpEvent;
+template <typename T> class ILazyCopyHashSet_1;
 }
 namespace UnityEngine {
 struct Color;
@@ -73,25 +25,82 @@ namespace GlobalNamespace {
 class SliderMeshController;
 }
 namespace GlobalNamespace {
+class ISliderDidStartDissolvingEvent;
+}
+namespace GlobalNamespace {
+class __SliderController__Pool;
+}
+namespace GlobalNamespace {
+class Saber;
+}
+namespace UnityEngine {
+struct Vector3;
+}
+namespace System::Collections {
+class IEnumerator;
+}
+namespace GlobalNamespace {
 class IBeatmapObjectSpawnController;
+}
+namespace GlobalNamespace {
+class SliderData;
+}
+namespace GlobalNamespace {
+class NoteController;
 }
 namespace GlobalNamespace {
 class ColorManager;
 }
 namespace GlobalNamespace {
+class FixedUpdateVector3SmoothValue;
+}
+namespace GlobalNamespace {
+struct NoteCutInfo;
+}
+namespace GlobalNamespace {
+class ISliderDidFinishJumpEvent;
+}
+namespace GlobalNamespace {
+class IBeatmapObjectController;
+}
+namespace GlobalNamespace {
+class ISliderTailDidMovePastCutMarkEvent;
+}
+namespace GlobalNamespace {
 class SliderIntensityEffect;
 }
 namespace GlobalNamespace {
-class ISliderDidDissolveEvent;
+class BeatmapObjectManager;
 }
 namespace GlobalNamespace {
-struct __SliderController__LengthType;
+template <typename T> class LazyCopyHashSet_1;
+}
+namespace GlobalNamespace {
+class NoteData;
 }
 namespace GlobalNamespace {
 class SliderMovement;
 }
 namespace GlobalNamespace {
-class FixedUpdateVector3SmoothValue;
+class __SliderController___DissolveCoroutine_d__70;
+}
+namespace GlobalNamespace {
+struct __SliderController__LengthType;
+}
+namespace GlobalNamespace {
+class ISliderDidDissolveEvent;
+}
+namespace GlobalNamespace {
+class ISliderHeadDidMovePastCutMarkEvent;
+}
+namespace GlobalNamespace {
+class __SliderController__Pool__Short;
+}
+namespace GlobalNamespace {
+class __SliderController__Pool__Medium;
+}
+namespace Zenject {
+template <typename TValue> class MonoMemoryPool_1;
 }
 namespace GlobalNamespace {
 struct __BeatmapObjectSpawnMovementData__SliderSpawnData;
@@ -99,23 +108,14 @@ struct __BeatmapObjectSpawnMovementData__SliderSpawnData;
 namespace GlobalNamespace {
 class __SliderController__Pool__Long;
 }
-namespace Zenject {
-template <typename TValue> class MonoMemoryPool_1;
-}
-namespace GlobalNamespace {
-class __SliderController__Pool__Medium;
-}
-namespace GlobalNamespace {
-class __SliderController__Pool__Short;
+namespace System {
+class Object;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
 namespace System {
 class IDisposable;
-}
-namespace System {
-class Object;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -205,7 +205,7 @@ static_assert(offsetof(::GlobalNamespace::__SliderController__LengthType, value_
 // SizeInfo { instance_size: 224, native_size: -1, calculated_instance_size: 224, calculated_native_size: 224, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4812)), TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(4805))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(4805)), TypeDefinitionIndex(TypeDefinitionIndex(4812))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4811))
 // CS Name: ::SliderController*
 class CORDL_TYPE SliderController : public ::GlobalNamespace::SliderControllerBase {
@@ -747,8 +747,8 @@ static_assert(offsetof(::GlobalNamespace::SliderController, ____closeSmoothedSab
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11050)), TypeDefinitionIndex(TypeDefinitionIndex(4811)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11050), inst:
-// 393 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(4806)) CS Name: ::SliderController::Pool::Short*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11050)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11050), inst: 393 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(4811))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4806)) CS Name: ::SliderController::Pool::Short*
 class CORDL_TYPE __SliderController__Pool__Short : public ::Zenject::MonoMemoryPool_1<::GlobalNamespace::SliderController*> {
 public:
   // Declarations
@@ -781,8 +781,8 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__SliderControl
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4811)), TypeDefinitionIndex(TypeDefinitionIndex(11050)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11050), inst:
-// 393 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(4807)) CS Name: ::SliderController::Pool::Medium*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11050)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11050), inst: 393 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(4811))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4807)) CS Name: ::SliderController::Pool::Medium*
 class CORDL_TYPE __SliderController__Pool__Medium : public ::Zenject::MonoMemoryPool_1<::GlobalNamespace::SliderController*> {
 public:
   // Declarations

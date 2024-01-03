@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__MaterialPropertyBlockController_def.hpp"
-#include "UnityEngine/zzzz__Renderer_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "UnityEngine/zzzz__Renderer_def.hpp"
 #include "UnityEngine/zzzz__MaterialPropertyBlock_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::MaterialPropertyBlockController.get_renderers
 template <>

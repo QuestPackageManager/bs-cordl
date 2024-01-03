@@ -8,16 +8,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Cursor)
 namespace System {
-class Object;
-}
-namespace System {
 template <typename T> class IEquatable_1;
+}
+namespace UnityEngine {
+struct Vector2;
 }
 namespace UnityEngine {
 class Texture2D;
 }
-namespace UnityEngine {
-struct Vector2;
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

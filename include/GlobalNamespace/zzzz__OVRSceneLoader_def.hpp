@@ -11,40 +11,40 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVRSceneLoader)
 namespace UnityEngine {
-class Canvas;
-}
-namespace UnityEngine::UI {
-class Text;
+class AsyncOperation;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
-namespace GlobalNamespace {
-class __OVRSceneLoader___onCheckSceneCoroutine_d__25;
-}
-namespace UnityEngine {
-class AsyncOperation;
+namespace System::Collections {
+class IEnumerator;
 }
 namespace GlobalNamespace {
 class __OVRSceneLoader___DelayCanvasPosUpdate_d__24;
 }
-namespace System::Collections {
-class IEnumerator;
+namespace UnityEngine::UI {
+class Text;
 }
 namespace UnityEngine {
 class AssetBundle;
 }
+namespace UnityEngine {
+class Canvas;
+}
+namespace GlobalNamespace {
+class __OVRSceneLoader___onCheckSceneCoroutine_d__25;
+}
 namespace GlobalNamespace {
 struct __OVRSceneLoader__SceneInfo;
-}
-namespace System {
-class Object;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
 namespace System {
 class IDisposable;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -318,7 +318,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRSceneLoader___onCheckSceneCorouti
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7957)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(7957))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7960))
 // CS Name: ::OVRSceneLoader*
 class CORDL_TYPE OVRSceneLoader : public ::UnityEngine::MonoBehaviour {

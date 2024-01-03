@@ -3,9 +3,9 @@
 #include "LIV/SDK/Unity/zzzz__SDKQuaternion_impl.hpp"
 #include "LIV/SDK/Unity/zzzz__SDKVector3_impl.hpp"
 #include "LIV/SDK/Unity/zzzz__SDKPose_def.hpp"
+#include "LIV/SDK/Unity/zzzz__SDKQuaternion_def.hpp"
 #include "LIV/SDK/Unity/zzzz__SDKMatrix4x4_def.hpp"
 #include "LIV/SDK/Unity/zzzz__SDKVector3_def.hpp"
-#include "LIV/SDK/Unity/zzzz__SDKQuaternion_def.hpp"
 //  Writing Method size for method: ::LIV::SDK::Unity::SDKPose.get_empty
 template <>
 

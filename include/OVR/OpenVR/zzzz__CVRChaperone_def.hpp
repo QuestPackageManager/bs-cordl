@@ -12,10 +12,10 @@ namespace OVR::OpenVR {
 struct HmdQuad_t;
 }
 namespace OVR::OpenVR {
-struct HmdColor_t;
+struct ChaperoneCalibrationState;
 }
 namespace OVR::OpenVR {
-struct ChaperoneCalibrationState;
+struct HmdColor_t;
 }
 // Forward declare root types
 namespace OVR::OpenVR {

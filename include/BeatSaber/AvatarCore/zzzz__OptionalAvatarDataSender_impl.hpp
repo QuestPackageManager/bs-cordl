@@ -2,12 +2,12 @@
 #include "BeatSaber/AvatarCore/zzzz__AvatarDisplayContext_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "BeatSaber/AvatarCore/zzzz__OptionalAvatarDataSender_def.hpp"
-#include "BeatSaber/AvatarCore/zzzz__AvatarDisplayContext_def.hpp"
-#include "BeatSaber/AvatarCore/zzzz__AvatarSystemCollection_def.hpp"
-#include "BeatSaber/AvatarCore/zzzz__OptionalAvatarData_def.hpp"
-#include "BeatSaber/AvatarCore/zzzz__OptionalAvatarDataSyncHandler_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
+#include "BeatSaber/AvatarCore/zzzz__OptionalAvatarDataSyncHandler_def.hpp"
+#include "BeatSaber/AvatarCore/zzzz__AvatarDisplayContext_def.hpp"
+#include "BeatSaber/AvatarCore/zzzz__OptionalAvatarData_def.hpp"
 #include "BeatSaber/AvatarCore/zzzz__IOptionalAvatarDataProvider_def.hpp"
+#include "BeatSaber/AvatarCore/zzzz__AvatarSystemCollection_def.hpp"
 //  Writing Method size for method: ::BeatSaber::AvatarCore::OptionalAvatarDataSender._ctor
 template <>
 

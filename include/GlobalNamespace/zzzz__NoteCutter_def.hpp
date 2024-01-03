@@ -9,25 +9,25 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(NoteCutter)
 namespace GlobalNamespace {
-class __NoteCutter__CuttableBySaberSortParamsComparer;
-}
-namespace GlobalNamespace {
 class __NoteCutter__CuttableBySaberSortParams;
-}
-namespace GlobalNamespace {
-class Saber;
 }
 namespace UnityEngine {
 class Collider;
 }
 namespace GlobalNamespace {
-class CuttableBySaber;
+class __NoteCutter__CuttableBySaberSortParamsComparer;
 }
-namespace System {
-class Object;
+namespace GlobalNamespace {
+class Saber;
+}
+namespace GlobalNamespace {
+class CuttableBySaber;
 }
 namespace System::Collections {
 class IComparer;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace GlobalNamespace {

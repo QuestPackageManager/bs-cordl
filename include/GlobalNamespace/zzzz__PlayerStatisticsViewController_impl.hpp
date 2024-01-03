@@ -1,13 +1,13 @@
 #pragma once
 #include "HMUI/zzzz__ViewController_impl.hpp"
 #include "GlobalNamespace/zzzz__PlayerStatisticsViewController_def.hpp"
-#include "GlobalNamespace/zzzz__PlayerDataModel_def.hpp"
 #include "HMUI/zzzz__SegmentedControl_def.hpp"
-#include "HMUI/zzzz__TextSegmentedControl_def.hpp"
-#include "GlobalNamespace/zzzz__PlayerAllOverallStatsData_def.hpp"
-#include "GlobalNamespace/zzzz__PlayerStatisticsViewController_def.hpp"
+#include "GlobalNamespace/zzzz__PlayerDataModel_def.hpp"
 #include "TMPro/zzzz__TextMeshProUGUI_def.hpp"
+#include "GlobalNamespace/zzzz__PlayerStatisticsViewController_def.hpp"
+#include "HMUI/zzzz__TextSegmentedControl_def.hpp"
 #include "GlobalNamespace/zzzz__AppStaticSettingsSO_def.hpp"
+#include "GlobalNamespace/zzzz__PlayerAllOverallStatsData_def.hpp"
 #include "System/zzzz__Func_1_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::__PlayerStatisticsViewController__StatsScopeData.get_text
 template <>

@@ -1,10 +1,10 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__SignalOnPointerClick_def.hpp"
-#include "GlobalNamespace/zzzz__Signal_def.hpp"
 #include "UnityEngine/EventSystems/zzzz__PointerEventData_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__IEventSystemHandler_def.hpp"
 #include "UnityEngine/EventSystems/zzzz__IPointerClickHandler_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__IEventSystemHandler_def.hpp"
+#include "GlobalNamespace/zzzz__Signal_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::SignalOnPointerClick.OnPointerClick
 template <>
 

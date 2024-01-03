@@ -6,13 +6,13 @@ CORDL_MODULE_INIT
 #include <cstddef>
 CORDL_MODULE_EXPORT(ExposedReference_1)
 namespace UnityEngine {
+struct PropertyName;
+}
+namespace UnityEngine {
 class Object;
 }
 namespace UnityEngine {
 class IExposedPropertyTable;
-}
-namespace UnityEngine {
-struct PropertyName;
 }
 // Forward declare root types
 namespace UnityEngine {

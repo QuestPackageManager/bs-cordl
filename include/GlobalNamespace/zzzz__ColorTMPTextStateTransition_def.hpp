@@ -6,13 +6,13 @@ CORDL_MODULE_INIT
 #include "TMPro/zzzz__TMP_Text_def.hpp"
 CORDL_MODULE_EXPORT(ColorTMPTextStateTransition)
 namespace GlobalNamespace {
+class ColorTransitionSO;
+}
+namespace GlobalNamespace {
 class BaseTransitionSO;
 }
 namespace UnityEngine {
 struct Color;
-}
-namespace GlobalNamespace {
-class ColorTransitionSO;
 }
 namespace Tweening {
 class ColorTween;

@@ -2,11 +2,11 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "UnityEngine/zzzz__ParticleSystem_impl.hpp"
 #include "GlobalNamespace/zzzz__SaberClashEffect_def.hpp"
-#include "GlobalNamespace/zzzz__HapticFeedbackManager_def.hpp"
+#include "Libraries/HM/HMLib/VR/zzzz__HapticPresetSO_def.hpp"
 #include "GlobalNamespace/zzzz__SaberClashChecker_def.hpp"
 #include "GlobalNamespace/zzzz__ColorManager_def.hpp"
-#include "Libraries/HM/HMLib/VR/zzzz__HapticPresetSO_def.hpp"
 #include "UnityEngine/zzzz__ParticleSystem_def.hpp"
+#include "GlobalNamespace/zzzz__HapticFeedbackManager_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::SaberClashEffect.Start
 template <>
 

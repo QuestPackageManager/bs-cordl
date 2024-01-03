@@ -15,67 +15,67 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVRGLTFLoader)
 namespace GlobalNamespace {
-struct OVRMeshAttributes;
-}
-namespace UnityEngine {
-class Material;
-}
-namespace UnityEngine {
-class GameObject;
+struct OVRChunkType;
 }
 namespace UnityEngine {
 class Texture2D;
 }
-namespace System::IO {
-class Stream;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace System {
-template <typename T1, typename T2, typename TResult> class Func_3;
-}
 namespace GlobalNamespace {
-class OVRGLTFAnimationNodeMorphTargetHandler;
-}
-namespace GlobalNamespace {
-struct OVRChunkType;
+struct OVRTextureData;
 }
 namespace OVRSimpleJSON {
 class JSONNode;
 }
 namespace GlobalNamespace {
-struct OVRTextureData;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace GlobalNamespace {
-struct OVRTextureQualityFiltering;
-}
-namespace GlobalNamespace {
-class __OVRGLTFLoader____c__DisplayClass30_0;
-}
-namespace UnityEngine {
-class SkinnedMeshRenderer;
-}
-namespace UnityEngine {
-class Shader;
-}
-namespace GlobalNamespace {
-struct OVRMeshData;
-}
-namespace GlobalNamespace {
-struct OVRGLTFInputNode;
-}
-namespace GlobalNamespace {
-struct OVRGLTFScene;
+class OVRGLTFAnimatinonNode;
 }
 namespace GlobalNamespace {
 struct OVRMaterialData;
 }
 namespace GlobalNamespace {
-class OVRGLTFAnimatinonNode;
+struct OVRGLTFScene;
+}
+namespace GlobalNamespace {
+class __OVRGLTFLoader____c__DisplayClass30_0;
+}
+namespace System {
+template <typename T1, typename T2, typename TResult> class Func_3;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace System::IO {
+class Stream;
+}
+namespace GlobalNamespace {
+struct OVRMeshAttributes;
+}
+namespace UnityEngine {
+class Material;
+}
+namespace GlobalNamespace {
+struct OVRTextureQualityFiltering;
+}
+namespace GlobalNamespace {
+class OVRGLTFAnimationNodeMorphTargetHandler;
+}
+namespace UnityEngine {
+class GameObject;
+}
+namespace UnityEngine {
+class SkinnedMeshRenderer;
+}
+namespace GlobalNamespace {
+struct OVRMeshData;
+}
+namespace UnityEngine {
+class Shader;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace GlobalNamespace {
+struct OVRGLTFInputNode;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -91,7 +91,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__OVRGLTFLoader____c__DisplayClass30_0);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(7566))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7566)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7570))
 // CS Name: ::OVRGLTFLoader::<>c__DisplayClass30_0*
 class CORDL_TYPE __OVRGLTFLoader____c__DisplayClass30_0 : public ::System::Object {
@@ -157,8 +157,8 @@ static_assert(offsetof(::GlobalNamespace::__OVRGLTFLoader____c__DisplayClass30_0
 // SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 120, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10246)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(7564)),
-// TypeDefinitionIndex(TypeDefinitionIndex(7563)), TypeDefinitionIndex(TypeDefinitionIndex(10249))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7571)) CS Name: ::OVRGLTFLoader*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10246)), TypeDefinitionIndex(TypeDefinitionIndex(7564)),
+// TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(7563))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7571)) CS Name: ::OVRGLTFLoader*
 class CORDL_TYPE OVRGLTFLoader : public ::System::Object {
 public:
   // Declarations

@@ -4,23 +4,23 @@
 CORDL_MODULE_INIT
 #include "Zenject/zzzz__MemoryPoolInitialSizeMaxSizeBinder_1_def.hpp"
 CORDL_MODULE_EXPORT(MemoryPoolIdInitialSizeMaxSizeBinder_1)
-namespace System {
-class Object;
-}
 namespace Zenject {
-class BindInfo;
+class DiContainer;
 }
 namespace Zenject {
 class FactoryBindInfo;
 }
-namespace Zenject {
-class MemoryPoolBindInfo;
+namespace System {
+class Object;
 }
 namespace Zenject {
 template <typename TContract> class MemoryPoolInitialSizeMaxSizeBinder_1;
 }
 namespace Zenject {
-class DiContainer;
+class MemoryPoolBindInfo;
+}
+namespace Zenject {
+class BindInfo;
 }
 // Forward declare root types
 namespace Zenject {

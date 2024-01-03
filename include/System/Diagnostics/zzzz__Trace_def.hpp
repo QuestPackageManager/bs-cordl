@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(Trace)
 namespace System::Diagnostics {
-class TraceListenerCollection;
+class CorrelationManager;
 }
 namespace System::Diagnostics {
-class CorrelationManager;
+class TraceListenerCollection;
 }
 // Forward declare root types
 namespace System::Diagnostics {

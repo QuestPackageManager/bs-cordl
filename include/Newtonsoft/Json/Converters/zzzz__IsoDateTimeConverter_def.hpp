@@ -6,26 +6,26 @@ CORDL_MODULE_INIT
 #include "System/Globalization/zzzz__DateTimeStyles_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(IsoDateTimeConverter)
-namespace Newtonsoft::Json {
-class JsonReader;
-}
-namespace System {
-class Type;
-}
-namespace System {
-class Object;
+namespace System::Globalization {
+class CultureInfo;
 }
 namespace Newtonsoft::Json {
 class JsonWriter;
 }
 namespace System::Globalization {
-class CultureInfo;
+struct DateTimeStyles;
+}
+namespace System {
+class Type;
+}
+namespace Newtonsoft::Json {
+class JsonReader;
+}
+namespace System {
+class Object;
 }
 namespace Newtonsoft::Json {
 class JsonSerializer;
-}
-namespace System::Globalization {
-struct DateTimeStyles;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Converters {

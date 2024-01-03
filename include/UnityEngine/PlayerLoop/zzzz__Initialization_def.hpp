@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include <cstddef>
 CORDL_MODULE_EXPORT(Initialization)
 namespace UnityEngine::PlayerLoop {
-struct __Initialization__DirectorSampleTime;
+struct __Initialization__SynchronizeState;
 }
 namespace UnityEngine::PlayerLoop {
-struct __Initialization__ProfilerStartFrame;
+struct __Initialization__SynchronizeInputs;
 }
 namespace UnityEngine::PlayerLoop {
 struct __Initialization__XREarlyUpdate;
@@ -17,13 +17,13 @@ namespace UnityEngine::PlayerLoop {
 struct __Initialization__AsyncUploadTimeSlicedUpdate;
 }
 namespace UnityEngine::PlayerLoop {
+struct __Initialization__DirectorSampleTime;
+}
+namespace UnityEngine::PlayerLoop {
+struct __Initialization__ProfilerStartFrame;
+}
+namespace UnityEngine::PlayerLoop {
 struct __Initialization__UpdateCameraMotionVectors;
-}
-namespace UnityEngine::PlayerLoop {
-struct __Initialization__SynchronizeState;
-}
-namespace UnityEngine::PlayerLoop {
-struct __Initialization__SynchronizeInputs;
 }
 // Forward declare root types
 namespace UnityEngine::PlayerLoop {

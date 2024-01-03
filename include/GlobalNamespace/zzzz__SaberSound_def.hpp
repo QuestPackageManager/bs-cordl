@@ -10,10 +10,10 @@ namespace UnityEngine {
 class AudioSource;
 }
 namespace UnityEngine {
-class Transform;
+class AnimationCurve;
 }
 namespace UnityEngine {
-class AnimationCurve;
+class Transform;
 }
 // Forward declare root types
 namespace GlobalNamespace {

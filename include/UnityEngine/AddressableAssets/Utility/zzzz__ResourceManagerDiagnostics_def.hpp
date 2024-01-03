@@ -9,9 +9,6 @@ CORDL_MODULE_EXPORT(ResourceManagerDiagnostics)
 namespace System {
 class IDisposable;
 }
-namespace UnityEngine::AddressableAssets::Utility {
-class DiagnosticInfo;
-}
 namespace UnityEngine::ResourceManagement {
 class ResourceManager;
 }
@@ -20,6 +17,9 @@ template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace UnityEngine::ResourceManagement::AsyncOperations {
 struct AsyncOperationHandle;
+}
+namespace UnityEngine::AddressableAssets::Utility {
+class DiagnosticInfo;
 }
 namespace UnityEngine::ResourceManagement {
 struct __ResourceManager__DiagnosticEventContext;

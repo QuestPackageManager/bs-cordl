@@ -11,11 +11,11 @@ class __GenericLogger__ScopedStopwatch;
 namespace GlobalNamespace {
 class IVerboseLogger;
 }
-namespace System::Diagnostics {
-class Stopwatch;
-}
 namespace System {
 class IDisposable;
+}
+namespace System::Diagnostics {
+class Stopwatch;
 }
 // Forward declare root types
 namespace GlobalNamespace {

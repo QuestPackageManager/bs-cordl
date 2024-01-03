@@ -1,11 +1,11 @@
 #pragma once
 #include "System/Text/zzzz__DecoderFallback_impl.hpp"
 #include "System/Text/zzzz__DecoderReplacementFallback_def.hpp"
-#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
-#include "System/Text/zzzz__DecoderFallbackBuffer_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "System/Text/zzzz__DecoderFallbackBuffer_def.hpp"
 #include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
+#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
 //  Writing Method size for method: ::System::Text::DecoderReplacementFallback._ctor
 template <>
 

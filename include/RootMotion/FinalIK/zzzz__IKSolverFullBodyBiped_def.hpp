@@ -9,44 +9,44 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(IKSolverFullBodyBiped)
-namespace RootMotion::FinalIK {
-class IKMappingLimb;
-}
-namespace RootMotion::FinalIK {
-struct FullBodyBipedChain;
-}
-namespace RootMotion {
-class BipedReferences;
-}
-namespace RootMotion::FinalIK {
-class IKEffector;
-}
-namespace UnityEngine {
-class Transform;
-}
-namespace RootMotion::FinalIK {
-class IKMappingSpine;
-}
 namespace RootMotion {
 class BipedLimbOrientations;
 }
-namespace RootMotion::FinalIK {
-struct FullBodyBipedEffector;
+namespace RootMotion {
+class __BipedLimbOrientations__LimbOrientation;
 }
 namespace RootMotion::FinalIK {
-class FBIKChain;
-}
-namespace UnityEngine {
-struct Vector3;
-}
-namespace RootMotion::FinalIK {
-class IKConstraintBend;
+class IKEffector;
 }
 namespace RootMotion::FinalIK {
 class IKMappingBone;
 }
 namespace RootMotion {
-class __BipedLimbOrientations__LimbOrientation;
+class BipedReferences;
+}
+namespace RootMotion::FinalIK {
+struct FullBodyBipedChain;
+}
+namespace UnityEngine {
+class Transform;
+}
+namespace RootMotion::FinalIK {
+class IKMappingLimb;
+}
+namespace UnityEngine {
+struct Vector3;
+}
+namespace RootMotion::FinalIK {
+struct FullBodyBipedEffector;
+}
+namespace RootMotion::FinalIK {
+class IKMappingSpine;
+}
+namespace RootMotion::FinalIK {
+class IKConstraintBend;
+}
+namespace RootMotion::FinalIK {
+class FBIKChain;
 }
 // Forward declare root types
 namespace RootMotion::FinalIK {

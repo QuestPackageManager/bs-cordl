@@ -9,17 +9,11 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(FlickeringNeonSign)
-namespace GlobalNamespace {
-class __FlickeringNeonSign___FlickeringCoroutine_d__16;
-}
 namespace UnityEngine {
 class SpriteRenderer;
 }
-namespace GlobalNamespace {
-class TubeBloomPrePassLight;
-}
-namespace GlobalNamespace {
-template <typename T> class RandomObjectPicker_1;
+namespace UnityEngine {
+class Material;
 }
 namespace UnityEngine {
 class ParticleSystem;
@@ -28,19 +22,25 @@ namespace System::Collections {
 class IEnumerator;
 }
 namespace UnityEngine {
-class Material;
-}
-namespace UnityEngine {
 class AudioClip;
+}
+namespace GlobalNamespace {
+class TubeBloomPrePassLight;
+}
+namespace GlobalNamespace {
+class __FlickeringNeonSign___FlickeringCoroutine_d__16;
+}
+namespace GlobalNamespace {
+template <typename T> class RandomObjectPicker_1;
 }
 namespace System {
 class Object;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
-}
 namespace System {
 class IDisposable;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -161,7 +161,7 @@ static_assert(offsetof(::GlobalNamespace::__FlickeringNeonSign___FlickeringCorou
 // SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10251))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4985))
 // CS Name: ::FlickeringNeonSign*
 class CORDL_TYPE FlickeringNeonSign : public ::UnityEngine::MonoBehaviour {

@@ -3,12 +3,12 @@
 #include "System/Resources/zzzz__RuntimeResourceSet_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "System/Resources/zzzz__ResourceReader_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
-#include "System/Collections/zzzz__IDictionaryEnumerator_def.hpp"
-#include "System/Resources/zzzz__ResourceLocator_def.hpp"
-#include "System/IO/zzzz__Stream_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/Collections/zzzz__IDictionaryEnumerator_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "System/Resources/zzzz__ResourceLocator_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "System/IO/zzzz__Stream_def.hpp"
 //  Writing Method size for method: ::System::Resources::RuntimeResourceSet._ctor
 template <>
 

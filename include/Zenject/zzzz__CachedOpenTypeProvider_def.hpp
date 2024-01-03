@@ -7,41 +7,41 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(CachedOpenTypeProvider)
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace Zenject {
-class InjectContext;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace System {
-class Action;
-}
-namespace System {
-class Type;
-}
 namespace Zenject {
 class IProvider;
 }
 namespace Zenject {
 class CachedProvider;
 }
-namespace Zenject {
-struct TypeValuePair;
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace System {
+class Action;
 }
 namespace System {
 class Object;
 }
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace System {
+class Type;
+}
+namespace Zenject {
+struct TypeValuePair;
+}
+namespace Zenject {
+class InjectContext;
+}
 namespace Zenject {
 class __CachedOpenTypeProvider____c;
 }
-namespace System {
-template <typename T, typename TResult> class Func_2;
-}
 namespace Zenject {
 class InjectTypeInfo;
+}
+namespace System {
+template <typename T, typename TResult> class Func_2;
 }
 // Forward declare root types
 namespace Zenject {

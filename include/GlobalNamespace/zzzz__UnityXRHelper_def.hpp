@@ -10,47 +10,38 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(UnityXRHelper)
-namespace UnityEngine::XR {
-struct XRNode;
-}
-namespace GlobalNamespace {
-class UnityXRController;
-}
-namespace GlobalNamespace {
-class IVRPlatformHelper;
-}
-namespace GlobalNamespace {
-class __UnityXRController__Configuration;
-}
 namespace UnityEngine::InputSystem {
-class InputAction;
+struct __InputAction__CallbackContext;
 }
 namespace GlobalNamespace {
-struct VRPlatformSDK;
-}
-namespace UnityEngine {
-struct Vector3;
-}
-namespace UnityEngine {
-struct Vector2;
-}
-namespace UnityEngine {
-struct Pose;
-}
-namespace UnityEngine::XR {
-class XRInputSubsystem;
+struct __UnityXRHelper__VRControllerManufacturerName;
 }
 namespace UnityEngine::InputSystem {
 class InputActionReference;
 }
+namespace UnityEngine {
+struct Pose;
+}
+namespace GlobalNamespace {
+class IVRPlatformHelper;
+}
+namespace UnityEngine::XR {
+class XRInputSubsystem;
+}
+namespace UnityEngine {
+struct Vector3;
+}
+namespace GlobalNamespace {
+struct VRPlatformSDK;
+}
+namespace GlobalNamespace {
+class IVerboseLogger;
+}
 namespace UnityEngine::InputSystem {
-struct __InputAction__CallbackContext;
+class InputAction;
 }
 namespace UnityEngine {
 struct Quaternion;
-}
-namespace GlobalNamespace {
-struct __UnityXRHelper__VRControllerManufacturerName;
 }
 namespace System {
 class Action;
@@ -59,7 +50,16 @@ namespace UnityEngine::XR {
 struct XRNodeState;
 }
 namespace GlobalNamespace {
-class IVerboseLogger;
+class UnityXRController;
+}
+namespace GlobalNamespace {
+class __UnityXRController__Configuration;
+}
+namespace UnityEngine::XR {
+struct XRNode;
+}
+namespace UnityEngine {
+struct Vector2;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -141,7 +141,7 @@ static_assert(offsetof(::GlobalNamespace::__UnityXRHelper__VRControllerManufactu
 // SizeInfo { instance_size: 280, native_size: -1, calculated_instance_size: 280, calculated_native_size: 276, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10057))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10057)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14436))
 // CS Name: ::UnityXRHelper*
 class CORDL_TYPE UnityXRHelper : public ::UnityEngine::MonoBehaviour {

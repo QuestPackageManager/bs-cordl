@@ -5,16 +5,13 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(ListenerAsyncResult)
 namespace System::Threading {
-class WaitHandle;
-}
-namespace System::Threading {
 class WaitCallback;
 }
 namespace System {
 class IAsyncResult;
 }
-namespace System {
-class Exception;
+namespace System::Threading {
+class WaitHandle;
 }
 namespace System {
 class Object;
@@ -22,11 +19,14 @@ class Object;
 namespace System::Threading {
 class ManualResetEvent;
 }
-namespace System::Net {
-class HttpListenerContext;
-}
 namespace System {
 class AsyncCallback;
+}
+namespace System {
+class Exception;
+}
+namespace System::Net {
+class HttpListenerContext;
 }
 // Forward declare root types
 namespace System::Net {

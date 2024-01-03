@@ -8,8 +8,14 @@ CORDL_MODULE_EXPORT(PlayerHeadAndObstacleInteraction)
 namespace GlobalNamespace {
 class BeatmapObjectManager;
 }
+namespace GlobalNamespace {
+class ObstacleController;
+}
 namespace System {
 class Action;
+}
+namespace System {
+template <typename T> class Action_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class HashSet_1;
@@ -18,13 +24,7 @@ namespace UnityEngine {
 struct Vector3;
 }
 namespace GlobalNamespace {
-class ObstacleController;
-}
-namespace GlobalNamespace {
 class PlayerTransforms;
-}
-namespace System {
-template <typename T> class Action_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {

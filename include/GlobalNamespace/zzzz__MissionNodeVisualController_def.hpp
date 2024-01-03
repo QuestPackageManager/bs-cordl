@@ -4,14 +4,14 @@
 CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(MissionNodeVisualController)
+namespace GlobalNamespace {
+class MissionToggle;
+}
 namespace System {
 template <typename T> class Action_1;
 }
 namespace GlobalNamespace {
 class MissionNode;
-}
-namespace GlobalNamespace {
-class MissionToggle;
 }
 // Forward declare root types
 namespace GlobalNamespace {

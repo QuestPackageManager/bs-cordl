@@ -1,10 +1,10 @@
 #pragma once
 #include "UnityEngine/EventSystems/zzzz__PhysicsRaycaster_impl.hpp"
 #include "UnityEngine/EventSystems/zzzz__Physics2DRaycaster_def.hpp"
-#include "UnityEngine/zzzz__RaycastHit2D_def.hpp"
 #include "UnityEngine/EventSystems/zzzz__PointerEventData_def.hpp"
 #include "UnityEngine/EventSystems/zzzz__RaycastResult_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "UnityEngine/zzzz__RaycastHit2D_def.hpp"
 //  Writing Method size for method: ::UnityEngine::EventSystems::Physics2DRaycaster._ctor
 template <>
 

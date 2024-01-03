@@ -15,34 +15,94 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ConnectedPlayerManager)
 namespace GlobalNamespace {
-template <typename TData> class INetworkPacketSubSerializer_1;
-}
-namespace GlobalNamespace {
-class __ConnectedPlayerManager__PlayerAvatarPacket;
-}
-namespace GlobalNamespace {
-struct __ConnectedPlayerManager___InitializePlayerEncryption_d__132;
-}
-namespace GlobalNamespace {
-class IConnectionManager;
+class __ConnectedPlayerManager__PlayerIdentityPacket;
 }
 namespace GlobalNamespace {
 class IConnection;
 }
-namespace GlobalNamespace {
-class __ConnectedPlayerManager__PlayerIdentityPacket;
+namespace LiteNetLib::Utils {
+class INetSerializable;
 }
 namespace GlobalNamespace {
-class __ConnectedPlayerManager__PongPacket;
+class __ConnectedPlayerManager__PlayerDisconnectedPacket;
+}
+namespace GlobalNamespace {
+class IDiffieHellmanKeyPair;
+}
+namespace System::Collections::Generic {
+template <typename T> class HashSet_1;
+}
+namespace GlobalNamespace {
+struct DisconnectedReason;
+}
+namespace GlobalNamespace {
+class __ConnectedPlayerManager__PlayerStatePacket;
+}
+namespace GlobalNamespace {
+struct __ConnectedPlayerManager__InternalMessageType;
+}
+namespace BGNet::Core {
+class ITaskUtility;
+}
+namespace GlobalNamespace {
+struct ConnectionFailedReason;
 }
 namespace GlobalNamespace {
 class __ConnectedPlayerManager__SyncTimePacket;
 }
 namespace GlobalNamespace {
-struct __ConnectedPlayerManager__MessageType;
+class __ConnectedPlayerManager__PongPacket;
 }
 namespace GlobalNamespace {
 class __ConnectedPlayerManager__ConnectedPlayer;
+}
+namespace GlobalNamespace {
+class IConnectionManager;
+}
+namespace GlobalNamespace {
+class __ConnectedPlayerManager__KickPlayerPacket;
+}
+namespace GlobalNamespace {
+struct MultiplayerAvatarsData;
+}
+namespace BGNet::Core {
+struct DeliveryMethod;
+}
+namespace System {
+template <typename T> class Action_1;
+}
+namespace GlobalNamespace {
+template <typename TType, typename TData> class NetworkPacketSerializer_2;
+}
+namespace LiteNetLib::Utils {
+class NetDataReader;
+}
+namespace GlobalNamespace {
+class __EncryptionUtility__IEncryptionState;
+}
+namespace LiteNetLib::Utils {
+class NetDataWriter;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace System {
+class IDisposable;
+}
+namespace System {
+class Action;
+}
+namespace GlobalNamespace {
+class IConnectedPlayer;
+}
+namespace GlobalNamespace {
+class LongRollingAverage;
+}
+namespace GlobalNamespace {
+struct __ConnectedPlayerManager___InitializePlayerEncryption_d__132;
+}
+namespace GlobalNamespace {
+struct __ConnectedPlayerManager__MessageType;
 }
 namespace BGNet::Core {
 class ITimeProvider;
@@ -50,98 +110,38 @@ class ITimeProvider;
 namespace GlobalNamespace {
 class __ConnectedPlayerManager__PlayerConnectedPacket;
 }
-namespace System {
-class IDisposable;
-}
-namespace System::Collections::Generic {
-template <typename T> class HashSet_1;
+namespace GlobalNamespace {
+template <typename TData> class INetworkPacketSubSerializer_1;
 }
 namespace GlobalNamespace {
 class __ConnectedPlayerManager__PingPacket;
 }
-namespace BGNet::Core {
-struct DeliveryMethod;
-}
-namespace LiteNetLib::Utils {
-class NetDataWriter;
-}
 namespace GlobalNamespace {
-struct MultiplayerAvatarsData;
-}
-namespace GlobalNamespace {
-class IDiffieHellmanKeyPair;
-}
-namespace GlobalNamespace {
-class LongRollingAverage;
-}
-namespace GlobalNamespace {
-struct ConnectionFailedReason;
-}
-namespace GlobalNamespace {
-struct __ConnectedPlayerManager__InternalMessageType;
+class __ConnectedPlayerManager__PlayerAvatarPacket;
 }
 namespace GlobalNamespace {
 class __ConnectedPlayerManager__PlayerSortOrderPacket;
 }
 namespace GlobalNamespace {
-class __ConnectedPlayerManager__PlayerDisconnectedPacket;
-}
-namespace GlobalNamespace {
-template <typename TType, typename TData> class NetworkPacketSerializer_2;
-}
-namespace GlobalNamespace {
-class __ConnectedPlayerManager__KickPlayerPacket;
-}
-namespace System {
-class Action;
-}
-namespace LiteNetLib::Utils {
-class INetSerializable;
-}
-namespace System {
-template <typename T> class Action_1;
-}
-namespace GlobalNamespace {
-class __ConnectedPlayerManager__PlayerStatePacket;
-}
-namespace BGNet::Core {
-class ITaskUtility;
-}
-namespace GlobalNamespace {
-struct DisconnectedReason;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace LiteNetLib::Utils {
-class NetDataReader;
-}
-namespace GlobalNamespace {
-class IConnectedPlayer;
-}
-namespace GlobalNamespace {
-class __EncryptionUtility__IEncryptionState;
-}
-namespace GlobalNamespace {
 struct PlayerStateHash;
-}
-namespace GlobalNamespace {
-class IPoolablePacket;
 }
 namespace GlobalNamespace {
 template <typename T> class PacketPool_1;
 }
 namespace GlobalNamespace {
+class IPoolablePacket;
+}
+namespace GlobalNamespace {
 class ByteArrayNetSerializable;
+}
+namespace System::Runtime::CompilerServices {
+template <typename TResult> struct TaskAwaiter_1;
 }
 namespace System::Runtime::CompilerServices {
 struct AsyncVoidMethodBuilder;
 }
 namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
-}
-namespace System::Runtime::CompilerServices {
-template <typename TResult> struct TaskAwaiter_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -209,7 +209,7 @@ MARK_VAL_T(::GlobalNamespace::__ConnectedPlayerManager___InitializePlayerEncrypt
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15021)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12930)),
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15021)), TypeDefinitionIndex(TypeDefinitionIndex(12930)),
 // TypeDefinitionIndex(TypeDefinitionIndex(12720))} Self: TypeDefinitionIndex(TypeDefinitionIndex(12691)) CS Name: ::ConnectedPlayerManager::ConnectedPlayer*
 class CORDL_TYPE __ConnectedPlayerManager__ConnectedPlayer : public ::System::Object {
 public:
@@ -1119,7 +1119,7 @@ static_assert(offsetof(::GlobalNamespace::__ConnectedPlayerManager__PlayerAvatar
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12930)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12930))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12697))
 // CS Name: ::ConnectedPlayerManager::PlayerStatePacket*
 class CORDL_TYPE __ConnectedPlayerManager__PlayerStatePacket : public ::System::Object {
@@ -1273,7 +1273,7 @@ static_assert(offsetof(::GlobalNamespace::__ConnectedPlayerManager__PlayerSortOr
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12720))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12720)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12699))
 // CS Name: ::ConnectedPlayerManager::PlayerDisconnectedPacket*
 class CORDL_TYPE __ConnectedPlayerManager__PlayerDisconnectedPacket : public ::System::Object {
@@ -1623,9 +1623,9 @@ static_assert(offsetof(::GlobalNamespace::__ConnectedPlayerManager__PongPacket, 
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12723)), TypeDefinitionIndex(TypeDefinitionIndex(3400)), TypeDefinitionIndex(TypeDefinitionIndex(3394)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 873 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 907 })} Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(12704)) CS Name: ::ConnectedPlayerManager::<InitializePlayerEncryption>d__132
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12723)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 907 }), GenericInstantiation(GenericInstantiation {
+// tdi: TypeDefinitionIndex(3394), inst: 873 }), TypeDefinitionIndex(TypeDefinitionIndex(3400)), TypeDefinitionIndex(TypeDefinitionIndex(3394))} Self: TypeDefinitionIndex(TypeDefinitionIndex(12704))
+// CS Name: ::ConnectedPlayerManager::<InitializePlayerEncryption>d__132
 struct CORDL_TYPE __ConnectedPlayerManager___InitializePlayerEncryption_d__132 {
 public:
   // Declarations
@@ -1700,7 +1700,7 @@ static_assert(offsetof(::GlobalNamespace::__ConnectedPlayerManager___InitializeP
 // SizeInfo { instance_size: 280, native_size: -1, calculated_instance_size: 280, calculated_native_size: 280, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15021))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15021)), TypeDefinitionIndex(TypeDefinitionIndex(12720))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12705))
 // CS Name: ::ConnectedPlayerManager*
 class CORDL_TYPE ConnectedPlayerManager : public ::System::Object {

@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Utilities/zzzz__Enums_def.hpp"
-#include "System/zzzz__Type_def.hpp"
 #include "System/zzzz__Array_def.hpp"
+#include "System/zzzz__Type_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Utilities::Enums.GetEnumValue
 template <>
 

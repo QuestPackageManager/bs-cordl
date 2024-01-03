@@ -6,23 +6,23 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(AvatarEditorFlowCoordinator)
-namespace System {
-template <typename T> class Action_1;
-}
 namespace BeatSaber::AvatarCore {
 struct __AvatarEditorFlowCoordinator__EditMode;
+}
+namespace BeatSaber::AvatarCore {
+struct __AvatarEditorFlowCoordinator__FinishAction;
 }
 namespace BeatSaber::AvatarCore {
 class IAvatarSystemMetadata;
 }
 namespace System {
-class Action;
-}
-namespace BeatSaber::AvatarCore {
-struct __AvatarEditorFlowCoordinator__FinishAction;
+template <typename T1, typename T2, typename T3> class Action_3;
 }
 namespace System {
-template <typename T1, typename T2, typename T3> class Action_3;
+template <typename T> class Action_1;
+}
+namespace System {
+class Action;
 }
 // Forward declare root types
 namespace BeatSaber::AvatarCore {

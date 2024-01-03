@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(SetTubeBloomPrePassLightColor)
 namespace GlobalNamespace {
-class ColorSO;
+class TubeBloomPrePassLight;
 }
 namespace GlobalNamespace {
-class TubeBloomPrePassLight;
+class ColorSO;
 }
 // Forward declare root types
 namespace GlobalNamespace {

@@ -6,26 +6,26 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(NaccacheSternKeyPairGenerator)
-namespace Org::BouncyCastle::Math {
-class BigInteger;
+namespace System::Collections {
+class IList;
 }
 namespace Org::BouncyCastle::Crypto {
 class AsymmetricCipherKeyPair;
 }
 namespace Org::BouncyCastle::Crypto {
-class IAsymmetricCipherKeyPairGenerator;
+class KeyGenerationParameters;
 }
 namespace Org::BouncyCastle::Crypto::Parameters {
 class NaccacheSternKeyGenerationParameters;
 }
 namespace Org::BouncyCastle::Crypto {
-class KeyGenerationParameters;
+class IAsymmetricCipherKeyPairGenerator;
 }
 namespace Org::BouncyCastle::Security {
 class SecureRandom;
 }
-namespace System::Collections {
-class IList;
+namespace Org::BouncyCastle::Math {
+class BigInteger;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Generators {

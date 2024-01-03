@@ -4,14 +4,14 @@
 CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(HEU_HoudiniAssetRoot)
+namespace HoudiniEngineUnity {
+class HEU_HoudiniAsset;
+}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace UnityEngine {
 class GameObject;
-}
-namespace HoudiniEngineUnity {
-class HEU_HoudiniAsset;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {

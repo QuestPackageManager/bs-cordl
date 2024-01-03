@@ -5,23 +5,23 @@ CORDL_MODULE_INIT
 #include "System/zzzz__MarshalByRefObject_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(Component)
-namespace System {
-class Object;
-}
-namespace System::ComponentModel {
-class ISite;
-}
-namespace System {
-class IDisposable;
-}
 namespace System::ComponentModel {
 class EventHandlerList;
 }
 namespace System {
 class Type;
 }
+namespace System {
+class IDisposable;
+}
+namespace System {
+class Object;
+}
 namespace System::ComponentModel {
 class IComponent;
+}
+namespace System::ComponentModel {
+class ISite;
 }
 // Forward declare root types
 namespace System::ComponentModel {

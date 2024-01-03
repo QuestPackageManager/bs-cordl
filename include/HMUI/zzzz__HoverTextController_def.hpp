@@ -8,26 +8,26 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(HoverTextController)
-namespace TMPro {
-class TextMeshProUGUI;
+namespace HMUI {
+class __HoverTextController___ShowTextCoroutine_d__10;
 }
 namespace System::Collections {
 class IEnumerator;
 }
 namespace HMUI {
-class __HoverTextController___ShowTextCoroutine_d__10;
-}
-namespace HMUI {
 class __HoverTextController___HideTextCoroutine_d__12;
+}
+namespace TMPro {
+class TextMeshProUGUI;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
 }
 namespace System {
 class Object;
 }
 namespace System {
 class IDisposable;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
 }
 // Forward declare root types
 namespace HMUI {

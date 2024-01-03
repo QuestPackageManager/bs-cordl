@@ -5,28 +5,28 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(GamePause)
 namespace GlobalNamespace {
-class IScoreController;
+class SaberManager;
 }
 namespace System {
 class Action;
 }
 namespace GlobalNamespace {
-class GameEnergyCounter;
+class BeatmapObjectExecutionRatingsRecorder;
 }
 namespace GlobalNamespace {
-class SaberManager;
+class IScoreController;
+}
+namespace GlobalNamespace {
+class PlayerHeadAndObstacleInteraction;
 }
 namespace GlobalNamespace {
 class SongController;
 }
 namespace GlobalNamespace {
+class GameEnergyCounter;
+}
+namespace GlobalNamespace {
 class AudioListenerController;
-}
-namespace GlobalNamespace {
-class BeatmapObjectExecutionRatingsRecorder;
-}
-namespace GlobalNamespace {
-class PlayerHeadAndObstacleInteraction;
 }
 namespace GlobalNamespace {
 class IGamePause;

@@ -1,12 +1,12 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__HeadInObstacleHapticEffect_def.hpp"
-#include "GlobalNamespace/zzzz__HapticFeedbackManager_def.hpp"
-#include "GlobalNamespace/zzzz__GameplayLevelSceneTransitionEvents_def.hpp"
 #include "Libraries/HM/HMLib/VR/zzzz__HapticPresetSO_def.hpp"
-#include "GlobalNamespace/zzzz__IGamePause_def.hpp"
 #include "GlobalNamespace/zzzz__PlayerDataModel_def.hpp"
+#include "GlobalNamespace/zzzz__GameplayLevelSceneTransitionEvents_def.hpp"
+#include "GlobalNamespace/zzzz__HapticFeedbackManager_def.hpp"
 #include "GlobalNamespace/zzzz__PlayerHeadAndObstacleInteraction_def.hpp"
+#include "GlobalNamespace/zzzz__IGamePause_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::HeadInObstacleHapticEffect.Start
 template <>
 

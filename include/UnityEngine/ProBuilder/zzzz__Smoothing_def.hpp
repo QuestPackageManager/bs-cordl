@@ -10,6 +10,9 @@ CORDL_MODULE_EXPORT(Smoothing)
 namespace UnityEngine::ProBuilder {
 class __Smoothing____c;
 }
+namespace UnityEngine {
+struct Vector3;
+}
 namespace UnityEngine::ProBuilder {
 class ProBuilderMesh;
 }
@@ -23,13 +26,10 @@ namespace UnityEngine::ProBuilder {
 struct EdgeLookup;
 }
 namespace UnityEngine::ProBuilder {
-class WingedEdge;
-}
-namespace UnityEngine {
-struct Vector3;
+class Face;
 }
 namespace UnityEngine::ProBuilder {
-class Face;
+class WingedEdge;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;

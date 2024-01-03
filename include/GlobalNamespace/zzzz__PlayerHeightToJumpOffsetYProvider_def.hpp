@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(PlayerHeightToJumpOffsetYProvider)
-namespace GlobalNamespace {
-class PlayerHeightDetector;
-}
 namespace Zenject {
 class IInitializable;
 }
 namespace System {
 class IDisposable;
+}
+namespace GlobalNamespace {
+class PlayerHeightDetector;
 }
 namespace GlobalNamespace {
 class IJumpOffsetYProvider;

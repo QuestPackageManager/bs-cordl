@@ -5,6 +5,9 @@ CORDL_MODULE_INIT
 #include "System/Xml/Linq/zzzz__XContainer_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(XDocument)
+namespace System::Xml::Linq {
+class XDeclaration;
+}
 namespace System::Xml {
 class XmlWriter;
 }
@@ -12,13 +15,10 @@ namespace System::Xml {
 struct XmlNodeType;
 }
 namespace System::Xml::Linq {
-class XElement;
-}
-namespace System::Xml::Linq {
-class XDeclaration;
-}
-namespace System::Xml::Linq {
 class XAttribute;
+}
+namespace System::Xml::Linq {
+class XElement;
 }
 namespace System::Xml::Linq {
 class XNode;

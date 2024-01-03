@@ -25,7 +25,7 @@ MARK_REF_PTR_T(::System::Runtime::Serialization::Formatters::Binary::PrimitiveAr
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization::Formatters::Binary {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3253)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3253))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3299))
 // CS Name: ::System.Runtime.Serialization.Formatters.Binary::PrimitiveArray*
 class CORDL_TYPE PrimitiveArray : public ::System::Object {

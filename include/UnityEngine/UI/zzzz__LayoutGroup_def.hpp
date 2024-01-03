@@ -12,40 +12,40 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(LayoutGroup)
 namespace UnityEngine::UI {
-class ILayoutGroup;
+class __LayoutGroup___DelayedSetDirty_d__56;
 }
 namespace UnityEngine {
-class RectTransform;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace UnityEngine::UI {
-class ILayoutController;
+class RectOffset;
 }
 namespace UnityEngine::UI {
 class ILayoutElement;
 }
 namespace UnityEngine {
-class RectOffset;
+class RectTransform;
 }
-namespace UnityEngine {
-struct TextAnchor;
+namespace UnityEngine::UI {
+class ILayoutGroup;
 }
 namespace System::Collections {
 class IEnumerator;
 }
 namespace UnityEngine::UI {
-class __LayoutGroup___DelayedSetDirty_d__56;
+class ILayoutController;
+}
+namespace UnityEngine {
+struct TextAnchor;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
 }
 namespace System {
 class IDisposable;
 }
 namespace System {
 class Object;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
 }
 // Forward declare root types
 namespace UnityEngine::UI {
@@ -166,7 +166,7 @@ static_assert(offsetof(::UnityEngine::UI::__LayoutGroup___DelayedSetDirty_d__56,
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(15901)), TypeDefinitionIndex(TypeDefinitionIndex(13214)),
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(13214)), TypeDefinitionIndex(TypeDefinitionIndex(15901)),
 // TypeDefinitionIndex(TypeDefinitionIndex(10278))} Self: TypeDefinitionIndex(TypeDefinitionIndex(13091)) CS Name: ::UnityEngine.UI::LayoutGroup*
 class CORDL_TYPE LayoutGroup : public ::UnityEngine::EventSystems::UIBehaviour {
 public:

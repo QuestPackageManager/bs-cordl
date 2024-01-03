@@ -2,8 +2,8 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Runtime/Remoting/zzzz__InternalRemotingServices_def.hpp"
 #include "System/Collections/zzzz__Hashtable_def.hpp"
-#include "System/zzzz__Object_def.hpp"
 #include "System/Runtime/Remoting/Metadata/zzzz__SoapAttribute_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::System::Runtime::Remoting::InternalRemotingServices.GetCachedSoapAttribute
 template <>
 

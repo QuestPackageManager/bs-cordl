@@ -12,44 +12,44 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(AnnotatedBeatmapLevelCollectionCell)
-namespace TMPro {
-class TextMeshProUGUI;
-}
-namespace HMUI {
-class ImageView;
-}
 namespace UnityEngine {
 class GameObject;
 }
-namespace System::Threading {
-class CancellationTokenSource;
-}
 namespace GlobalNamespace {
 class IAdditionalContentModel;
+}
+namespace TMPro {
+class TextMeshProUGUI;
+}
+namespace System::Threading {
+class CancellationTokenSource;
 }
 namespace HMUI {
 struct __SelectableCell__TransitionType;
 }
 namespace GlobalNamespace {
-class IAnnotatedBeatmapLevelCollection;
-}
-namespace GlobalNamespace {
 struct __AnnotatedBeatmapLevelCollectionCell___RefreshAvailabilityAsync_d__22;
 }
-namespace System::Threading {
-struct CancellationToken;
-}
 namespace GlobalNamespace {
-struct EntitlementStatus;
+class IAnnotatedBeatmapLevelCollection;
+}
+namespace HMUI {
+class ImageView;
 }
 namespace GlobalNamespace {
 class IPreviewBeatmapLevel;
+}
+namespace System::Threading {
+struct CancellationToken;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
 namespace System::Runtime::CompilerServices {
 template <typename TResult> struct TaskAwaiter_1;
+}
+namespace GlobalNamespace {
+struct EntitlementStatus;
 }
 namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
@@ -71,9 +71,9 @@ MARK_VAL_T(::GlobalNamespace::__AnnotatedBeatmapLevelCollectionCell___RefreshAva
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3394)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 880 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(3400)), TypeDefinitionIndex(TypeDefinitionIndex(16270)), TypeDefinitionIndex(TypeDefinitionIndex(2677))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5414))
-// CS Name: ::AnnotatedBeatmapLevelCollectionCell::<RefreshAvailabilityAsync>d__22
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3400)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 880
+// }), TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(16270))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5414)) CS Name:
+// ::AnnotatedBeatmapLevelCollectionCell::<RefreshAvailabilityAsync>d__22
 struct CORDL_TYPE __AnnotatedBeatmapLevelCollectionCell___RefreshAvailabilityAsync_d__22 {
 public:
   // Declarations

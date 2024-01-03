@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__EmptyPosesSerializer_def.hpp"
-#include "GlobalNamespace/zzzz__IPosesSerializer_def.hpp"
 #include "GlobalNamespace/zzzz__PosesRecordingData_def.hpp"
+#include "GlobalNamespace/zzzz__IPosesSerializer_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::EmptyPosesSerializer.SaveToOldFormat
 template <>
 

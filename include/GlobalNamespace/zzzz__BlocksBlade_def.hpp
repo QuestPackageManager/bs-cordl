@@ -9,20 +9,20 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(BlocksBlade)
-namespace UnityEngine {
-class Mesh;
+namespace GlobalNamespace {
+class __BlocksBlade__Element;
 }
 namespace UnityEngine {
-struct Vector2;
+struct Color;
 }
 namespace UnityEngine {
 class MaterialPropertyBlock;
 }
 namespace UnityEngine {
-struct Color;
+struct Vector4;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace UnityEngine {
+class Mesh;
 }
 namespace UnityEngine {
 class Material;
@@ -30,11 +30,11 @@ class Material;
 namespace UnityEngine {
 struct Matrix4x4;
 }
-namespace GlobalNamespace {
-class __BlocksBlade__Element;
-}
 namespace UnityEngine {
-struct Vector4;
+struct Vector2;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -113,7 +113,7 @@ static_assert(offsetof(::GlobalNamespace::__BlocksBlade__Element, ___velocity) =
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10251))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5283))
 // CS Name: ::BlocksBlade*
 class CORDL_TYPE BlocksBlade : public ::UnityEngine::MonoBehaviour {

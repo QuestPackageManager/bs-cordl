@@ -3,10 +3,10 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__ScoreUIController_def.hpp"
+#include "TMPro/zzzz__TextMeshProUGUI_def.hpp"
+#include "GlobalNamespace/zzzz__ScoreUIController_def.hpp"
 #include "GlobalNamespace/zzzz__IScoreController_def.hpp"
 #include "System/Text/zzzz__StringBuilder_def.hpp"
-#include "GlobalNamespace/zzzz__ScoreUIController_def.hpp"
-#include "TMPro/zzzz__TextMeshProUGUI_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::GlobalNamespace::__ScoreUIController__ScoreDisplayType::__ScoreUIController__ScoreDisplayType(int32_t value__) noexcept {
   this->value__ = value__;

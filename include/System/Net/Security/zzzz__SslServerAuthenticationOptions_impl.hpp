@@ -4,10 +4,10 @@
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509RevocationMode_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/Security/zzzz__SslServerAuthenticationOptions_def.hpp"
-#include "System/Net/Security/zzzz__EncryptionPolicy_def.hpp"
-#include "System/Security/Cryptography/X509Certificates/zzzz__X509Certificate_def.hpp"
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509RevocationMode_def.hpp"
+#include "System/Security/Cryptography/X509Certificates/zzzz__X509Certificate_def.hpp"
 #include "System/Security/Authentication/zzzz__SslProtocols_def.hpp"
+#include "System/Net/Security/zzzz__EncryptionPolicy_def.hpp"
 //  Writing Method size for method: ::System::Net::Security::SslServerAuthenticationOptions.get_ClientCertificateRequired
 template <>
 

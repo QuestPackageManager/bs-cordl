@@ -10,22 +10,22 @@ namespace Org::BouncyCastle::Crypto {
 class IBufferedCipher;
 }
 namespace Org::BouncyCastle::Bcpg {
-class PublicKeyEncSessionPacket;
+struct SymmetricKeyAlgorithmTag;
+}
+namespace Org::BouncyCastle::Bcpg::OpenPgp {
+class PgpPrivateKey;
 }
 namespace Org::BouncyCastle::Bcpg {
 class InputStreamPacket;
 }
 namespace Org::BouncyCastle::Bcpg {
-struct SymmetricKeyAlgorithmTag;
+class PublicKeyEncSessionPacket;
 }
 namespace Org::BouncyCastle::Bcpg {
 struct PublicKeyAlgorithmTag;
 }
 namespace System::IO {
 class Stream;
-}
-namespace Org::BouncyCastle::Bcpg::OpenPgp {
-class PgpPrivateKey;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Bcpg::OpenPgp {

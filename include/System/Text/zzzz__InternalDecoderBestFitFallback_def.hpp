@@ -9,11 +9,11 @@ CORDL_MODULE_EXPORT(InternalDecoderBestFitFallback)
 namespace System::Text {
 class DecoderFallbackBuffer;
 }
-namespace System {
-class Object;
-}
 namespace System::Text {
 class Encoding;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::Text {

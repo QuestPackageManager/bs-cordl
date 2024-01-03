@@ -6,19 +6,19 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(AvatarDataModel)
 namespace BeatSaber::BeatAvatarSDK {
-class AvatarSaveData;
-}
-namespace GlobalNamespace {
-class ISaveData;
+class AvatarData;
 }
 namespace BeatSaber::BeatAvatarSDK {
-class AvatarData;
+class AvatarPartsModel;
+}
+namespace BeatSaber::BeatAvatarSDK {
+class AvatarSaveData;
 }
 namespace System {
 template <typename T> class Action_1;
 }
-namespace BeatSaber::BeatAvatarSDK {
-class AvatarPartsModel;
+namespace GlobalNamespace {
+class ISaveData;
 }
 // Forward declare root types
 namespace BeatSaber::BeatAvatarSDK {

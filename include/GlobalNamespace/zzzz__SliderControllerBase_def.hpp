@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(SliderControllerBase)
 namespace GlobalNamespace {
-class MaterialPropertyBlockController;
+class CutoutAnimateEffect;
 }
 namespace GlobalNamespace {
-class CutoutAnimateEffect;
+class MaterialPropertyBlockController;
 }
 // Forward declare root types
 namespace GlobalNamespace {

@@ -1,18 +1,19 @@
 #pragma once
+#include "UnityEngine/UIElements/zzzz__SliderDirection_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__UxmlFactory_2_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualElement_impl.hpp"
-#include "UnityEngine/UIElements/zzzz__Scroller_def.hpp"
-#include "UnityEngine/UIElements/zzzz__RepeatButton_def.hpp"
 #include "UnityEngine/UIElements/zzzz__Scroller_def.hpp"
 #include "UnityEngine/UIElements/zzzz__ChangeEvent_1_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__Slider_def.hpp"
+#include "UnityEngine/UIElements/zzzz__Scroller_def.hpp"
+#include "UnityEngine/UIElements/zzzz__RepeatButton_def.hpp"
 #include "UnityEngine/UIElements/zzzz__SliderDirection_def.hpp"
-#include "UnityEngine/UIElements/zzzz__UxmlFloatAttributeDescription_def.hpp"
-#include "UnityEngine/UIElements/zzzz__UxmlEnumAttributeDescription_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
 #include "UnityEngine/UIElements/zzzz__IUxmlAttributes_def.hpp"
 #include "UnityEngine/UIElements/zzzz__CreationContext_def.hpp"
+#include "UnityEngine/UIElements/zzzz__UxmlEnumAttributeDescription_1_def.hpp"
+#include "UnityEngine/UIElements/zzzz__UxmlFloatAttributeDescription_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::__Scroller__UxmlTraits.Init
 template <>
 

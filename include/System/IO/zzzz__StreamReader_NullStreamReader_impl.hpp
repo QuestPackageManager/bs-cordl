@@ -1,8 +1,8 @@
 #pragma once
 #include "System/IO/zzzz__StreamReader_impl.hpp"
 #include "System/IO/zzzz__StreamReader_NullStreamReader_def.hpp"
-#include "System/Text/zzzz__Encoding_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"
+#include "System/Text/zzzz__Encoding_def.hpp"
 //  Writing Method size for method: ::System::IO::__StreamReader__NullStreamReader._ctor
 template <>
 

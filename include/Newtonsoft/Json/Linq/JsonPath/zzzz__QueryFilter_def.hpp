@@ -9,11 +9,11 @@ CORDL_MODULE_EXPORT(QueryFilter)
 namespace Newtonsoft::Json::Linq::JsonPath {
 class __QueryFilter___ExecuteFilter_d__4;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
 namespace Newtonsoft::Json::Linq::JsonPath {
 class QueryExpression;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
 }
 namespace Newtonsoft::Json::Linq {
 class JToken;
@@ -21,17 +21,17 @@ class JToken;
 namespace System::Collections {
 class IEnumerable;
 }
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
+}
+namespace System {
+class IDisposable;
+}
 namespace System {
 class Object;
 }
 namespace System::Collections {
 class IEnumerator;
-}
-namespace System {
-class IDisposable;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Linq::JsonPath {

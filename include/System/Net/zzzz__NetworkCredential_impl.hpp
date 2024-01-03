@@ -2,8 +2,8 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/zzzz__NetworkCredential_def.hpp"
 #include "System/zzzz__Uri_def.hpp"
-#include "System/Security/zzzz__SecureString_def.hpp"
 #include "System/Net/zzzz__ICredentials_def.hpp"
+#include "System/Security/zzzz__SecureString_def.hpp"
 //  Writing Method size for method: ::System::Net::NetworkCredential._ctor
 template <>
 

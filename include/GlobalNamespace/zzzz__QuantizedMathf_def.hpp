@@ -11,10 +11,10 @@ namespace UnityEngine {
 struct Quaternion;
 }
 namespace UnityEngine {
-struct Vector3;
+struct Pose;
 }
 namespace UnityEngine {
-struct Pose;
+struct Vector3;
 }
 // Forward declare root types
 namespace GlobalNamespace {

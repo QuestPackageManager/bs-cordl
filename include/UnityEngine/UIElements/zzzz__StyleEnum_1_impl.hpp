@@ -2,9 +2,9 @@
 #include "UnityEngine/UIElements/zzzz__StyleKeyword_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__StyleEnum_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__StyleKeyword_def.hpp"
-#include "System/zzzz__IEquatable_1_def.hpp"
-#include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/UIElements/zzzz__IStyleValue_1_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+#include "System/zzzz__IEquatable_1_def.hpp"
 /// @brief Convert operator to "::UnityEngine::UIElements::IStyleValue_1<T>"
 template <typename T> constexpr UnityEngine::UIElements::StyleEnum_1<T>::operator ::UnityEngine::UIElements::IStyleValue_1<T>*() {
   return static_cast<::UnityEngine::UIElements::IStyleValue_1<T>*>(static_cast<void*>(::cordl_internals::Box(this)));

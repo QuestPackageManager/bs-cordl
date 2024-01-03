@@ -7,9 +7,6 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(AesManaged)
 namespace System::Security::Cryptography {
-class RijndaelManaged;
-}
-namespace System::Security::Cryptography {
 struct CipherMode;
 }
 namespace System::Security::Cryptography {
@@ -17,6 +14,9 @@ struct PaddingMode;
 }
 namespace System::Security::Cryptography {
 class ICryptoTransform;
+}
+namespace System::Security::Cryptography {
+class RijndaelManaged;
 }
 // Forward declare root types
 namespace System::Security::Cryptography {

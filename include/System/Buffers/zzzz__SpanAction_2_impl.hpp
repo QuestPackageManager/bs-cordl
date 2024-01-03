@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/Buffers/zzzz__SpanAction_2_def.hpp"
-#include "System/zzzz__Span_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "System/zzzz__Span_1_def.hpp"
 template <typename T, typename TArg> inline ::System::Buffers::SpanAction_2<T, TArg>* System::Buffers::SpanAction_2<T, TArg>::New_ctor(::System::Object* object, void* method) {
   return THROW_UNLESS(::il2cpp_utils::New<::System::Buffers::SpanAction_2<T, TArg>*>(object, method));
 }

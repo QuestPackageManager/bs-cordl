@@ -8,22 +8,22 @@ namespace System::Text::RegularExpressions {
 struct RegexOptions;
 }
 namespace Newtonsoft::Json {
-class JsonWriter;
-}
-namespace System {
-class Object;
-}
-namespace Newtonsoft::Json {
-class JsonReader;
+class JsonSerializer;
 }
 namespace System::Text::RegularExpressions {
 class Regex;
 }
-namespace System {
-class Type;
+namespace Newtonsoft::Json {
+class JsonWriter;
 }
 namespace Newtonsoft::Json {
-class JsonSerializer;
+class JsonReader;
+}
+namespace System {
+class Object;
+}
+namespace System {
+class Type;
 }
 namespace Newtonsoft::Json::Bson {
 class BsonWriter;

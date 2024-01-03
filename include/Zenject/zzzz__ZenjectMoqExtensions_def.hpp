@@ -8,10 +8,10 @@ namespace Zenject {
 template <typename TContract> class FromBinderGeneric_1;
 }
 namespace Zenject {
-template <typename TContract> class FactoryFromBinder_1;
+class ScopeConcreteIdArgConditionCopyNonLazyBinder;
 }
 namespace Zenject {
-class ScopeConcreteIdArgConditionCopyNonLazyBinder;
+template <typename TContract> class FactoryFromBinder_1;
 }
 namespace Zenject {
 class ConditionCopyNonLazyBinder;

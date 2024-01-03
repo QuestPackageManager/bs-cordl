@@ -4,8 +4,8 @@
 #include "TMPro/zzzz__TMP_GlyphAdjustmentRecord_impl.hpp"
 #include "TMPro/zzzz__TMP_GlyphPairAdjustmentRecord_def.hpp"
 #include "TMPro/zzzz__TMP_GlyphAdjustmentRecord_def.hpp"
-#include "UnityEngine/TextCore/LowLevel/zzzz__GlyphPairAdjustmentRecord_def.hpp"
 #include "TMPro/zzzz__FontFeatureLookupFlags_def.hpp"
+#include "UnityEngine/TextCore/LowLevel/zzzz__GlyphPairAdjustmentRecord_def.hpp"
 //  Writing Method size for method: ::TMPro::TMP_GlyphPairAdjustmentRecord.get_firstAdjustmentRecord
 template <>
 

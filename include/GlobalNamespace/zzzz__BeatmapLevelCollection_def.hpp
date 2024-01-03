@@ -5,16 +5,16 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(BeatmapLevelCollection)
 namespace GlobalNamespace {
-class IBeatmapLevelCollection;
-}
-namespace System::Collections::Generic {
-template <typename T> class IReadOnlyList_1;
+class BeatmapCharacteristicSO;
 }
 namespace GlobalNamespace {
 class IPreviewBeatmapLevel;
 }
 namespace GlobalNamespace {
-class BeatmapCharacteristicSO;
+class IBeatmapLevelCollection;
+}
+namespace System::Collections::Generic {
+template <typename T> class IReadOnlyList_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {

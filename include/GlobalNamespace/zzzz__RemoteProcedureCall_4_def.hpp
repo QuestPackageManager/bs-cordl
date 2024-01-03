@@ -6,16 +6,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(RemoteProcedureCall_4)
 namespace GlobalNamespace {
+class IRemoteProcedureCall;
+}
+namespace GlobalNamespace {
 template <typename T> class __RemoteProcedureCall__TypeWrapper_1;
 }
 namespace LiteNetLib::Utils {
-class NetDataReader;
-}
-namespace GlobalNamespace {
-class IRemoteProcedureCall;
+class NetDataWriter;
 }
 namespace LiteNetLib::Utils {
-class NetDataWriter;
+class NetDataReader;
 }
 // Forward declare root types
 namespace GlobalNamespace {

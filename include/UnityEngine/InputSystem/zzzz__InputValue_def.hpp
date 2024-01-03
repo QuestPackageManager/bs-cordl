@@ -19,7 +19,7 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::InputValue);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2448)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 424 }),
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 424 }), TypeDefinitionIndex(TypeDefinitionIndex(2448)),
 // TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(6133))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6310)) CS Name: ::UnityEngine.InputSystem::InputValue*
 class CORDL_TYPE InputValue : public ::System::Object {
 public:

@@ -5,16 +5,16 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(SonyOnGoingToBackgroundSaveHandler)
 namespace GlobalNamespace {
-class SonyBackgroundExecutionHelper;
+class MainSettingsModelSO;
 }
 namespace GlobalNamespace {
-class LocalLeaderboardsModel;
+class SonyBackgroundExecutionHelper;
 }
 namespace GlobalNamespace {
 class ISaveData;
 }
 namespace GlobalNamespace {
-class MainSettingsModelSO;
+class LocalLeaderboardsModel;
 }
 namespace GlobalNamespace {
 class PlayerDataModel;

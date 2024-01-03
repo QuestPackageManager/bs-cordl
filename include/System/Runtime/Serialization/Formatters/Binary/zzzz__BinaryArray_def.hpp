@@ -10,13 +10,7 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(BinaryArray)
 namespace System::Runtime::Serialization::Formatters::Binary {
-struct BinaryHeaderEnum;
-}
-namespace System::Runtime::Serialization::Formatters::Binary {
-struct BinaryTypeEnum;
-}
-namespace System::Runtime::Serialization::Formatters::Binary {
-class __BinaryWriter;
+class __BinaryParser;
 }
 namespace System::Runtime::Serialization::Formatters::Binary {
 struct BinaryArrayTypeEnum;
@@ -25,7 +19,13 @@ namespace System {
 class Object;
 }
 namespace System::Runtime::Serialization::Formatters::Binary {
-class __BinaryParser;
+struct BinaryTypeEnum;
+}
+namespace System::Runtime::Serialization::Formatters::Binary {
+class __BinaryWriter;
+}
+namespace System::Runtime::Serialization::Formatters::Binary {
+struct BinaryHeaderEnum;
 }
 // Forward declare root types
 namespace System::Runtime::Serialization::Formatters::Binary {
@@ -37,8 +37,8 @@ MARK_REF_PTR_T(::System::Runtime::Serialization::Formatters::Binary::BinaryArray
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 68, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization::Formatters::Binary {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3243)), TypeDefinitionIndex(TypeDefinitionIndex(3244)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3245))} Self: TypeDefinitionIndex(TypeDefinitionIndex(3270)) CS Name: ::System.Runtime.Serialization.Formatters.Binary::BinaryArray*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3244)), TypeDefinitionIndex(TypeDefinitionIndex(3245)), TypeDefinitionIndex(TypeDefinitionIndex(2613)),
+// TypeDefinitionIndex(TypeDefinitionIndex(3243))} Self: TypeDefinitionIndex(TypeDefinitionIndex(3270)) CS Name: ::System.Runtime.Serialization.Formatters.Binary::BinaryArray*
 class CORDL_TYPE BinaryArray : public ::System::Object {
 public:
   // Declarations

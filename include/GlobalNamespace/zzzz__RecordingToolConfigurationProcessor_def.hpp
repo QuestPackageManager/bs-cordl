@@ -9,19 +9,22 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(RecordingToolConfigurationProcessor)
 namespace GlobalNamespace {
-class BeatmapCharacteristicCollection;
+class __RecordingToolConfigurationProcessor__PlaybackScreenshot;
 }
 namespace UnityEngine {
 struct LayerMask;
 }
-namespace System {
-template <typename T1, typename T2> struct ValueTuple_2;
+namespace GlobalNamespace {
+class __RecordingToolConfigurationProcessor__RecordingToolConfiguration;
 }
 namespace GlobalNamespace {
-class __RecordingToolConfigurationProcessor__RecordingConfiguration;
+class MenuDestination;
 }
 namespace GlobalNamespace {
 class RecordingToolResourceContainerSO;
+}
+namespace GlobalNamespace {
+class IPreviewBeatmapLevel;
 }
 namespace GlobalNamespace {
 class IPosesSerializer;
@@ -30,7 +33,13 @@ namespace GlobalNamespace {
 class RecordingSettings;
 }
 namespace GlobalNamespace {
-class ProgramArguments;
+class RecordingToolSettings;
+}
+namespace GlobalNamespace {
+class __RecordingToolConfigurationProcessor__RecordingConfiguration;
+}
+namespace GlobalNamespace {
+class IBeatmapLevelPack;
 }
 namespace GlobalNamespace {
 class IBeatSaberLogger;
@@ -39,28 +48,19 @@ namespace GlobalNamespace {
 class __ObjectsMovementRecorder__InitData;
 }
 namespace GlobalNamespace {
-class MenuDestination;
-}
-namespace GlobalNamespace {
-class RecordingToolSettings;
-}
-namespace GlobalNamespace {
-class __RecordingToolConfigurationProcessor__RecordingToolConfiguration;
-}
-namespace GlobalNamespace {
-class IBeatmapLevelPack;
+class BeatmapCharacteristicCollection;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
+namespace System {
+template <typename T1, typename T2> struct ValueTuple_2;
+}
+namespace GlobalNamespace {
+class ProgramArguments;
+}
 namespace GlobalNamespace {
 class __RecordingToolConfigurationProcessor__ColorSaveData;
-}
-namespace GlobalNamespace {
-class __RecordingToolConfigurationProcessor__PlaybackScreenshot;
-}
-namespace GlobalNamespace {
-class IPreviewBeatmapLevel;
 }
 // Forward declare root types
 namespace GlobalNamespace {

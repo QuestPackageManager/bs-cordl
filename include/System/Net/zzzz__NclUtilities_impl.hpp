@@ -2,9 +2,9 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/zzzz__NclUtilities_def.hpp"
 #include "System/zzzz__Exception_def.hpp"
-#include "System/Net/zzzz__IPAddress_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "System/Net/zzzz__IPHostEntry_def.hpp"
+#include "System/Net/zzzz__IPAddress_def.hpp"
 //  Writing Method size for method: ::System::Net::NclUtilities.IsFatal
 template <>
 

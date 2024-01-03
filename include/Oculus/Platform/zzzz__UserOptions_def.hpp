@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(UserOptions)
 namespace Oculus::Platform {
-struct ServiceProvider;
+struct TimeWindow;
 }
 namespace Oculus::Platform {
-struct TimeWindow;
+struct ServiceProvider;
 }
 // Forward declare root types
 namespace Oculus::Platform {

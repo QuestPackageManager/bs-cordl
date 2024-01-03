@@ -1,13 +1,13 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__CenterStageScreenController_def.hpp"
-#include "GlobalNamespace/zzzz__ModifiersSelectionView_def.hpp"
-#include "GlobalNamespace/zzzz__ILevelGameplaySetupData_def.hpp"
-#include "GlobalNamespace/zzzz__MenuLightsManager_def.hpp"
-#include "GlobalNamespace/zzzz__MenuLightsPresetSO_def.hpp"
-#include "GlobalNamespace/zzzz__CountdownController_def.hpp"
 #include "GlobalNamespace/zzzz__ILobbyGameStateController_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapSelectionView_def.hpp"
+#include "GlobalNamespace/zzzz__ModifiersSelectionView_def.hpp"
+#include "GlobalNamespace/zzzz__MenuLightsManager_def.hpp"
+#include "GlobalNamespace/zzzz__ILevelGameplaySetupData_def.hpp"
+#include "GlobalNamespace/zzzz__MenuLightsPresetSO_def.hpp"
+#include "GlobalNamespace/zzzz__CountdownController_def.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerLobbyCenterScreenLayoutAnimator_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::CenterStageScreenController.get_countdownShown
 template <>

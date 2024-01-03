@@ -1,8 +1,8 @@
 #pragma once
 #include "Org/BouncyCastle/Cms/zzzz__CmsContentInfoParser_impl.hpp"
 #include "Org/BouncyCastle/Cms/zzzz__CmsCompressedDataParser_def.hpp"
-#include "Org/BouncyCastle/Cms/zzzz__CmsTypedStream_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"
+#include "Org/BouncyCastle/Cms/zzzz__CmsTypedStream_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Cms::CmsCompressedDataParser._ctor
 template <>
 

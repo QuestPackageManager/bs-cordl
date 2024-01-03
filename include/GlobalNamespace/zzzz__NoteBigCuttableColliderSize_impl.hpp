@@ -2,10 +2,10 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "GlobalNamespace/zzzz__NoteBigCuttableColliderSize_def.hpp"
-#include "UnityEngine/zzzz__BoxCollider_def.hpp"
-#include "GlobalNamespace/zzzz__NoteControllerBase_def.hpp"
 #include "GlobalNamespace/zzzz__INoteControllerDidInitEvent_def.hpp"
 #include "GlobalNamespace/zzzz__NoteController_def.hpp"
+#include "UnityEngine/zzzz__BoxCollider_def.hpp"
+#include "GlobalNamespace/zzzz__NoteControllerBase_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::NoteBigCuttableColliderSize.Awake
 template <>
 

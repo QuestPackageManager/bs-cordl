@@ -6,20 +6,14 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(EditAvatarAnalytics)
-namespace GlobalNamespace {
-class IAnalyticsModel;
-}
-namespace GlobalNamespace {
-class BeatAvatarEditorFlowCoordinator;
-}
-namespace BeatSaber::AvatarCore {
-struct __AvatarEditorFlowCoordinator__EditMode;
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace BeatSaber::BeatAvatarSDK {
 class AvatarDataModel;
 }
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
+namespace GlobalNamespace {
+class IAnalyticsModel;
 }
 namespace BeatSaber::AvatarCore {
 struct __AvatarEditorFlowCoordinator__FinishAction;
@@ -29,6 +23,12 @@ class AvatarEditorFlowCoordinator;
 }
 namespace BeatSaber::AvatarCore {
 class IAvatarSystemMetadata;
+}
+namespace GlobalNamespace {
+class BeatAvatarEditorFlowCoordinator;
+}
+namespace BeatSaber::AvatarCore {
+struct __AvatarEditorFlowCoordinator__EditMode;
 }
 // Forward declare root types
 namespace BeatSaber::BeatAvatarAdapter::AvatarEditor {

@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(RectInt)
 namespace System {
-template <typename T> class IEquatable_1;
+class IFormattable;
 }
 namespace System {
-class IFormattable;
+template <typename T> class IEquatable_1;
 }
 namespace System {
 class IFormatProvider;

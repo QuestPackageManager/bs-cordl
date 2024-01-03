@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/zzzz__CookieParser_def.hpp"
-#include "System/Net/zzzz__Cookie_def.hpp"
 #include "System/Net/zzzz__CookieTokenizer_def.hpp"
+#include "System/Net/zzzz__Cookie_def.hpp"
 //  Writing Method size for method: ::System::Net::CookieParser._ctor
 template <>
 

@@ -8,34 +8,34 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ModalView)
 namespace HMUI {
-class PanelAnimationSO;
-}
-namespace HMUI {
-class __ModalView____c__DisplayClass21_0;
-}
-namespace UnityEngine {
-class Transform;
-}
-namespace UnityEngine {
-class Canvas;
-}
-namespace UnityEngine {
-class CanvasGroup;
-}
-namespace UnityEngine {
-class GameObject;
+class ViewController;
 }
 namespace HMUI {
 class __ModalView____c__DisplayClass17_0;
-}
-namespace Zenject {
-class DiContainer;
 }
 namespace System {
 class Action;
 }
 namespace HMUI {
-class ViewController;
+class PanelAnimationSO;
+}
+namespace UnityEngine {
+class Transform;
+}
+namespace UnityEngine {
+class CanvasGroup;
+}
+namespace Zenject {
+class DiContainer;
+}
+namespace HMUI {
+class __ModalView____c__DisplayClass21_0;
+}
+namespace UnityEngine {
+class Canvas;
+}
+namespace UnityEngine {
+class GameObject;
 }
 // Forward declare root types
 namespace HMUI {

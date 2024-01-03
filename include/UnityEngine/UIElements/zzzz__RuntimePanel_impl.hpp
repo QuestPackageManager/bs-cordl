@@ -1,9 +1,9 @@
 #pragma once
 #include "UnityEngine/UIElements/zzzz__BaseRuntimePanel_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__RuntimePanel_def.hpp"
+#include "UnityEngine/UIElements/zzzz__EventDispatcher_def.hpp"
 #include "UnityEngine/UIElements/zzzz__PanelSettings_def.hpp"
 #include "UnityEngine/zzzz__ScriptableObject_def.hpp"
-#include "UnityEngine/UIElements/zzzz__EventDispatcher_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::RuntimePanel.get_panelSettings
 template <>
 

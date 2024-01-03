@@ -6,9 +6,6 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(XText)
 namespace System::Xml {
-class XmlWriter;
-}
-namespace System::Xml {
 struct XmlNodeType;
 }
 namespace System::Text {
@@ -16,6 +13,9 @@ class StringBuilder;
 }
 namespace System::Xml::Linq {
 class XNode;
+}
+namespace System::Xml {
+class XmlWriter;
 }
 // Forward declare root types
 namespace System::Xml::Linq {

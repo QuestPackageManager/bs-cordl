@@ -15,13 +15,10 @@ namespace UnityEngine {
 struct Vector3;
 }
 namespace GlobalNamespace {
-struct NoteCutDirection;
-}
-namespace GlobalNamespace {
 struct NoteLineLayer;
 }
 namespace GlobalNamespace {
-struct __NoteData__ScoringType;
+struct __NoteData__GameplayType;
 }
 namespace GlobalNamespace {
 struct ColorType;
@@ -30,7 +27,10 @@ namespace LiteNetLib::Utils {
 class NetDataReader;
 }
 namespace GlobalNamespace {
-struct __NoteData__GameplayType;
+struct __NoteData__ScoringType;
+}
+namespace GlobalNamespace {
+struct NoteCutDirection;
 }
 namespace LiteNetLib::Utils {
 class NetDataWriter;
@@ -45,8 +45,8 @@ MARK_REF_PTR_T(::GlobalNamespace::NoteSpawnInfoNetSerializable);
 // SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15033)), TypeDefinitionIndex(TypeDefinitionIndex(14757)), TypeDefinitionIndex(TypeDefinitionIndex(14752)),
-// TypeDefinitionIndex(TypeDefinitionIndex(14760)), TypeDefinitionIndex(TypeDefinitionIndex(14758)), TypeDefinitionIndex(TypeDefinitionIndex(14755)), TypeDefinitionIndex(TypeDefinitionIndex(15039))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14760)), TypeDefinitionIndex(TypeDefinitionIndex(14755)), TypeDefinitionIndex(TypeDefinitionIndex(14752)),
+// TypeDefinitionIndex(TypeDefinitionIndex(15033)), TypeDefinitionIndex(TypeDefinitionIndex(14757)), TypeDefinitionIndex(TypeDefinitionIndex(14758)), TypeDefinitionIndex(TypeDefinitionIndex(15039))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15028))
 // CS Name: ::NoteSpawnInfoNetSerializable*
 class CORDL_TYPE NoteSpawnInfoNetSerializable : public ::GlobalNamespace::PoolableSerializable {

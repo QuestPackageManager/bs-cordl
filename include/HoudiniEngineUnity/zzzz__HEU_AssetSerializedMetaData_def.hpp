@@ -5,17 +5,17 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__ScriptableObject_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(HEU_AssetSerializedMetaData)
-namespace HoudiniEngineUnity {
-class CurveNodeData;
-}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
+namespace HoudiniEngineUnity {
+class CurveNodeData;
 }
 namespace HoudiniEngineUnity {
 template <typename T> class IEquivable_1;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {

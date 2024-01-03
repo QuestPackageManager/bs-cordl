@@ -8,11 +8,11 @@ CORDL_MODULE_EXPORT(NetworkCredential)
 namespace System {
 class Uri;
 }
-namespace System::Security {
-class SecureString;
-}
 namespace System::Net {
 class ICredentials;
+}
+namespace System::Security {
+class SecureString;
 }
 // Forward declare root types
 namespace System::Net {

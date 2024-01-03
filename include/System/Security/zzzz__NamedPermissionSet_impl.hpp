@@ -1,8 +1,8 @@
 #pragma once
 #include "System/Security/zzzz__PermissionSet_impl.hpp"
 #include "System/Security/zzzz__NamedPermissionSet_def.hpp"
-#include "System/Security/zzzz__SecurityElement_def.hpp"
 #include "System/Security/Permissions/zzzz__PermissionState_def.hpp"
+#include "System/Security/zzzz__SecurityElement_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::System::Security::NamedPermissionSet._ctor
 template <>

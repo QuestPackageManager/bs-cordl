@@ -1,13 +1,13 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerSettingsPanelController_def.hpp"
-#include "GlobalNamespace/zzzz__ILobbyPlayerData_def.hpp"
-#include "UnityEngine/zzzz__GameObject_def.hpp"
-#include "GlobalNamespace/zzzz__ServerCodeView_def.hpp"
 #include "UnityEngine/UI/zzzz__Toggle_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
 #include "HMUI/zzzz__ToggleBinder_def.hpp"
+#include "GlobalNamespace/zzzz__ILobbyPlayerData_def.hpp"
 #include "GlobalNamespace/zzzz__IRefreshable_def.hpp"
+#include "GlobalNamespace/zzzz__ServerCodeView_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
+#include "UnityEngine/zzzz__GameObject_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::MultiplayerSettingsPanelController.add_playerActiveStateChangedEvent
 template <>
 

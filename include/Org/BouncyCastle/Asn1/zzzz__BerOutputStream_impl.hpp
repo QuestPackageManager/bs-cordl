@@ -1,8 +1,8 @@
 #pragma once
 #include "Org/BouncyCastle/Asn1/zzzz__DerOutputStream_impl.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__BerOutputStream_def.hpp"
-#include "System/IO/zzzz__Stream_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "System/IO/zzzz__Stream_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Asn1::BerOutputStream._ctor
 template <>
 

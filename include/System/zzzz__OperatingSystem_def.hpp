@@ -10,22 +10,22 @@ namespace System::Runtime::Serialization {
 struct StreamingContext;
 }
 namespace System {
-class Version;
-}
-namespace System {
-struct PlatformID;
+class Object;
 }
 namespace System::Runtime::Serialization {
 class ISerializable;
 }
-namespace System::Runtime::Serialization {
-class SerializationInfo;
-}
 namespace System {
-class Object;
+struct PlatformID;
 }
 namespace System {
 class ICloneable;
+}
+namespace System {
+class Version;
+}
+namespace System::Runtime::Serialization {
+class SerializationInfo;
 }
 // Forward declare root types
 namespace System {
@@ -37,7 +37,7 @@ MARK_REF_PTR_T(::System::OperatingSystem);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2614)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2614))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2526))
 // CS Name: ::System::OperatingSystem*
 class CORDL_TYPE OperatingSystem : public ::System::Object {

@@ -14,25 +14,25 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(BloomPrePassLight)
 namespace GlobalNamespace {
+struct __BloomPrePassLight__VertexData;
+}
+namespace GlobalNamespace {
 struct __BloomPrePassLight__QuadData;
 }
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
 namespace GlobalNamespace {
-class __BloomPrePassLight__LightsDataItem;
-}
-namespace GlobalNamespace {
-struct __BloomPrePassLight__VertexData;
+class BloomPrePassLightTypeSO;
 }
 namespace System::Collections::Generic {
 template <typename T> class HashSet_1;
 }
 namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace GlobalNamespace {
-class BloomPrePassLightTypeSO;
+class __BloomPrePassLight__LightsDataItem;
 }
 namespace UnityEngine {
 struct Matrix4x4;

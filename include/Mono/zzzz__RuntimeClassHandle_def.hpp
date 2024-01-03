@@ -8,11 +8,11 @@ CORDL_MODULE_EXPORT(RuntimeClassHandle)
 namespace System {
 class Object;
 }
-namespace System {
-struct RuntimeTypeHandle;
-}
 namespace Mono {
 struct __RuntimeStructs__MonoClass;
+}
+namespace System {
+struct RuntimeTypeHandle;
 }
 // Forward declare root types
 namespace Mono {

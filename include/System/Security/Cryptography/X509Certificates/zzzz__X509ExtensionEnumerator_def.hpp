@@ -10,11 +10,11 @@ class IEnumerator;
 namespace System {
 class Object;
 }
-namespace System::Collections {
-class ArrayList;
-}
 namespace System::Security::Cryptography::X509Certificates {
 class X509Extension;
+}
+namespace System::Collections {
+class ArrayList;
 }
 // Forward declare root types
 namespace System::Security::Cryptography::X509Certificates {

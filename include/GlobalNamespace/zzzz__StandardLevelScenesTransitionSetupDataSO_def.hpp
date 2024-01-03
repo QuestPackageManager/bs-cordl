@@ -3,52 +3,48 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__LevelScenesTransitionSetupDataSO_def.hpp"
+#include "GlobalNamespace/zzzz__RecordingToolManager_def.hpp"
+#include "System/zzzz__Nullable_1_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(StandardLevelScenesTransitionSetupDataSO)
 namespace GlobalNamespace {
-class IDifficultyBeatmap;
-}
-namespace GlobalNamespace {
-class IPreviewBeatmapLevel;
-}
-namespace GlobalNamespace {
-class SceneInfo;
-}
-namespace GlobalNamespace {
-class MainSettingsModelSO;
-}
-namespace GlobalNamespace {
-class OverrideEnvironmentSettings;
-}
-namespace GlobalNamespace {
-class PracticeSettings;
-}
-namespace GlobalNamespace {
-class ColorScheme;
-}
-namespace GlobalNamespace {
-class BeatmapDataCache;
-}
-namespace GlobalNamespace {
-class LevelCompletionResults;
-}
-namespace System {
-template <typename T> struct Nullable_1;
-}
-namespace GlobalNamespace {
-class GameplayModifiers;
-}
-namespace GlobalNamespace {
 class PlayerSpecificSettings;
+}
+namespace GlobalNamespace {
+class IDifficultyBeatmap;
 }
 namespace System {
 template <typename T1, typename T2> class Action_2;
 }
 namespace GlobalNamespace {
-struct __RecordingToolManager__SetupData;
+class ColorScheme;
+}
+namespace GlobalNamespace {
+class MainSettingsModelSO;
+}
+namespace GlobalNamespace {
+class IPreviewBeatmapLevel;
 }
 namespace GlobalNamespace {
 class EnvironmentInfoSO;
+}
+namespace GlobalNamespace {
+class GameplayModifiers;
+}
+namespace GlobalNamespace {
+class PracticeSettings;
+}
+namespace GlobalNamespace {
+class SceneInfo;
+}
+namespace GlobalNamespace {
+class LevelCompletionResults;
+}
+namespace GlobalNamespace {
+class OverrideEnvironmentSettings;
+}
+namespace GlobalNamespace {
+class BeatmapDataCache;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -60,9 +56,9 @@ MARK_REF_PTR_T(::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO);
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6067))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6079))
-// CS Name: ::StandardLevelScenesTransitionSetupDataSO*
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 4778 }), TypeDefinitionIndex(TypeDefinitionIndex(6067)),
+// TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(5962))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6079)) CS Name:
+// ::StandardLevelScenesTransitionSetupDataSO*
 class CORDL_TYPE StandardLevelScenesTransitionSetupDataSO : public ::GlobalNamespace::LevelScenesTransitionSetupDataSO {
 public:
   // Declarations

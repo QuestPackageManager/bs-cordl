@@ -6,29 +6,32 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(TypeExtensions)
-namespace System {
-class Delegate;
-}
-namespace System {
-class Type;
-}
 namespace ModestTree {
 class __TypeExtensions____c__DisplayClass35_0;
-}
-namespace System {
-class Attribute;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
 }
 namespace System::Reflection {
 class PropertyInfo;
 }
+namespace System::Reflection {
+class ParameterInfo;
+}
+namespace System {
+class Object;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace System {
+class Attribute;
+}
 namespace ModestTree {
 class __TypeExtensions___GetParentTypes_d__28;
+}
+namespace ModestTree {
+class __TypeExtensions____c__DisplayClass39_0;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
 }
 namespace System::Reflection {
 class FieldInfo;
@@ -39,17 +42,11 @@ class ConstructorInfo;
 namespace ModestTree {
 class __TypeExtensions____c__DisplayClass35_1;
 }
-namespace ModestTree {
-class __TypeExtensions____c__DisplayClass39_0;
-}
 namespace System {
-class Object;
+class Type;
 }
 namespace System::Reflection {
 class MemberInfo;
-}
-namespace System::Reflection {
-class ParameterInfo;
 }
 namespace ModestTree {
 class __TypeExtensions____c__DisplayClass39_1;
@@ -57,14 +54,17 @@ class __TypeExtensions____c__DisplayClass39_1;
 namespace System::Reflection {
 class MethodInfo;
 }
+namespace System {
+class Delegate;
+}
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
 namespace System::Collections {
-class IEnumerable;
+class IEnumerator;
 }
 namespace System::Collections {
-class IEnumerator;
+class IEnumerable;
 }
 namespace System {
 class IDisposable;

@@ -11,14 +11,14 @@ template <typename TResult> class Task_1;
 namespace System::Runtime::CompilerServices {
 template <typename TResult> struct __ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter;
 }
+namespace System {
+class Action;
+}
 namespace System::Runtime::CompilerServices {
 class ICriticalNotifyCompletion;
 }
 namespace System::Runtime::CompilerServices {
 class INotifyCompletion;
-}
-namespace System {
-class Action;
 }
 // Forward declare root types
 namespace System::Runtime::CompilerServices {

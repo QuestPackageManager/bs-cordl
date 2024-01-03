@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__NoPauseGamePause_def.hpp"
-#include "GlobalNamespace/zzzz__IGamePause_def.hpp"
 #include "System/zzzz__Action_def.hpp"
+#include "GlobalNamespace/zzzz__IGamePause_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::NoPauseGamePause.get_isPaused
 template <>
 

@@ -1,14 +1,15 @@
 #pragma once
+#include "System/Threading/zzzz__CancellationToken_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__MockPlatformUserModel_def.hpp"
-#include "GlobalNamespace/zzzz__UserInfo_def.hpp"
-#include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
-#include "GlobalNamespace/zzzz__XPlatformAccessTokenData_def.hpp"
-#include "GlobalNamespace/zzzz__PlatformUserAuthTokenData_def.hpp"
-#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
+#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
 #include "GlobalNamespace/zzzz__IPlatformUserModel_def.hpp"
+#include "GlobalNamespace/zzzz__XPlatformAccessTokenData_def.hpp"
 #include "System/Threading/zzzz__CancellationToken_def.hpp"
+#include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
+#include "GlobalNamespace/zzzz__UserInfo_def.hpp"
+#include "GlobalNamespace/zzzz__PlatformUserAuthTokenData_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::MockPlatformUserModel.add_platformUserInfoDidChangeEvent
 template <>
 

@@ -7,6 +7,9 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Pointer)
 namespace UnityEngine::InputSystem::Controls {
+class Vector2Control;
+}
+namespace UnityEngine::InputSystem::Controls {
 class AxisControl;
 }
 namespace UnityEngine::InputSystem::LowLevel {
@@ -18,14 +21,11 @@ class DeltaControl;
 namespace UnityEngine::InputSystem {
 class InputControl;
 }
-namespace UnityEngine::InputSystem::Controls {
-class Vector2Control;
+namespace UnityEngine::InputSystem::LowLevel {
+struct InputEventPtr;
 }
 namespace UnityEngine::InputSystem::Controls {
 class ButtonControl;
-}
-namespace UnityEngine::InputSystem::LowLevel {
-struct InputEventPtr;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem {

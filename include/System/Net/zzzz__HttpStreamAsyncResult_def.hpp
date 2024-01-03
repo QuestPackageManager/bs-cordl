@@ -9,20 +9,20 @@ CORDL_MODULE_EXPORT(HttpStreamAsyncResult)
 namespace System {
 class Object;
 }
-namespace System::Threading {
-class ManualResetEvent;
+namespace System {
+class IAsyncResult;
 }
 namespace System {
 class AsyncCallback;
 }
-namespace System {
-class IAsyncResult;
-}
 namespace System::Threading {
-class WaitHandle;
+class ManualResetEvent;
 }
 namespace System {
 class Exception;
+}
+namespace System::Threading {
+class WaitHandle;
 }
 // Forward declare root types
 namespace System::Net {

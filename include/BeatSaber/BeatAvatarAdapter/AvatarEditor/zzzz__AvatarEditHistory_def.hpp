@@ -5,17 +5,17 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(AvatarEditHistory)
-namespace BeatSaber::BeatAvatarAdapter::AvatarEditor {
-struct EditAvatarHistorySnapshot;
-}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace BeatSaber::BeatAvatarSDK {
-struct AvatarPart;
+class AvatarData;
 }
 namespace BeatSaber::BeatAvatarSDK {
-class AvatarData;
+struct AvatarPart;
+}
+namespace BeatSaber::BeatAvatarAdapter::AvatarEditor {
+struct EditAvatarHistorySnapshot;
 }
 // Forward declare root types
 namespace BeatSaber::BeatAvatarAdapter::AvatarEditor {

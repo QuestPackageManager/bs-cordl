@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__SimpleValueMissionObjectiveChecker_def.hpp"
 CORDL_MODULE_EXPORT(MissMissionObjectiveChecker)
 namespace GlobalNamespace {
-class NoteController;
+class BeatmapObjectManager;
 }
 namespace GlobalNamespace {
-class BeatmapObjectManager;
+class NoteController;
 }
 // Forward declare root types
 namespace GlobalNamespace {

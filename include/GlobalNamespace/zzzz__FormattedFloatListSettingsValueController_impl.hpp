@@ -2,8 +2,8 @@
 #include "GlobalNamespace/zzzz__FormattedFloatListSettingsValueController_impl.hpp"
 #include "GlobalNamespace/zzzz__ListSettingsController_impl.hpp"
 #include "GlobalNamespace/zzzz__FormattedFloatListSettingsValueController_def.hpp"
-#include "GlobalNamespace/zzzz__FormattedFloatListSettingsValueController_def.hpp"
 #include "GlobalNamespace/zzzz__FloatSO_def.hpp"
+#include "GlobalNamespace/zzzz__FormattedFloatListSettingsValueController_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::GlobalNamespace::__FormattedFloatListSettingsValueController__ValueType::__FormattedFloatListSettingsValueController__ValueType(int32_t value__) noexcept {
   this->value__ = value__;

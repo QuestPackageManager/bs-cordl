@@ -6,6 +6,7 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Action_2_def.hpp"
 #include "System/zzzz__Action_def.hpp"
 #include "System/zzzz__Func_1_def.hpp"
+#include "System/zzzz__Nullable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__Type_def.hpp"
 #include "UnityEngine/InputSystem/Layouts/zzzz__InputControlLayout_def.hpp"
@@ -32,29 +33,56 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(InputManager)
+namespace UnityEngine::InputSystem::LowLevel {
+struct InputEventPtr;
+}
+namespace UnityEngine::InputSystem::Utilities {
+template <typename TValue> struct ReadOnlyArray_1;
+}
+namespace UnityEngine::InputSystem::Utilities {
+struct TypeTable;
+}
+namespace UnityEngine::InputSystem {
+struct InputControlLayoutChange;
+}
 namespace UnityEngine::InputSystem {
 struct __InputManager__StateChangeMonitorsForDevice;
 }
-namespace UnityEngine::InputSystem::Layouts {
-class InputControlLayout;
+namespace System {
+template <typename T1, typename T2> class Action_2;
 }
-namespace UnityEngine::InputSystem {
-struct __InputManager__DeviceDisableScope;
+namespace System {
+class Action;
 }
-namespace UnityEngine::InputSystem {
-class InputControl;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
-namespace UnityEngine::InputSystem::LowLevel {
-struct InputEvent;
-}
-namespace UnityEngine::InputSystem {
-class InputSettings;
-}
-namespace UnityEngine::InputSystem::Layouts {
-struct InputDeviceDescription;
+namespace UnityEngine::InputSystem::Utilities {
+template <typename TValue> struct InlinedArray_1;
 }
 namespace UnityEngine::InputSystem::LowLevel {
-struct InputDeviceCommand;
+struct InputUpdateType;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
+namespace UnityEngine::InputSystem {
+struct __InputManager__StateChangeMonitorTimeout;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace UnityEngine::InputSystem {
+struct InputDeviceChange;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+class IInputStateChangeMonitor;
+}
+namespace UnityEngine::InputSystem::Utilities {
+struct InternedString;
+}
+namespace UnityEngine::InputSystem {
+class __InputManager____c;
 }
 namespace UnityEngine::InputSystem {
 template <typename TControl> struct InputControlList_1;
@@ -62,77 +90,44 @@ template <typename TControl> struct InputControlList_1;
 namespace UnityEngine::InputSystem {
 struct __InputManager__AvailableDevice;
 }
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
 namespace UnityEngine::InputSystem::LowLevel {
-struct InputMetrics;
+struct InputEvent;
 }
 namespace UnityEngine::InputSystem {
-struct InputControlLayoutChange;
-}
-namespace System {
-class Action;
+class InputDevice;
 }
 namespace UnityEngine::InputSystem::LowLevel {
-struct InputUpdateType;
+class InputDeviceCommandDelegate;
 }
 namespace UnityEngine::InputSystem::Layouts {
-struct InputDeviceMatcher;
+class InputDeviceFindControlLayoutDelegate;
 }
-namespace System {
-template <typename T> struct Nullable_1;
-}
-namespace UnityEngine::InputSystem::Utilities {
-struct TypeTable;
-}
-namespace UnityEngine::InputSystem::Utilities {
-template <typename TValue> struct InlinedArray_1;
+namespace UnityEngine::InputSystem {
+struct __InputManager__DeviceDisableScope;
 }
 namespace UnityEngine::InputSystem::LowLevel {
 struct InputStateBlock;
 }
 namespace UnityEngine::InputSystem::LowLevel {
-struct InputEventPtr;
-}
-namespace UnityEngine::InputSystem::LowLevel {
-struct InputEventBuffer;
-}
-namespace UnityEngine::InputSystem::LowLevel {
-struct __InputStateBuffers__DoubleBuffers;
-}
-namespace UnityEngine::InputSystem::LowLevel {
 class InputDeviceExecuteCommandDelegate;
 }
+namespace UnityEngine::InputSystem::Layouts {
+struct InputDeviceMatcher;
+}
 namespace UnityEngine::InputSystem::LowLevel {
-class IInputRuntime;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace UnityEngine::InputSystem {
-class InputDevice;
-}
-namespace UnityEngine::InputSystem::Utilities {
-struct InternedString;
-}
-namespace UnityEngine::InputSystem::Utilities {
-template <typename TValue> struct ReadOnlyArray_1;
-}
-namespace UnityEngine::InputSystem {
-struct InputDeviceChange;
-}
-namespace UnityEngine::InputSystem {
-struct __InputManager__StateChangeMonitorTimeout;
+struct InputDeviceCommand;
 }
 namespace UnityEngine::InputSystem {
 class __InputManager___ListControlLayouts_d__75;
 }
-namespace System {
-template <typename T1, typename T2> class Action_2;
+namespace UnityEngine::InputSystem::Layouts {
+class InputControlLayout;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+struct InputEventBuffer;
+}
+namespace UnityEngine::InputSystem {
+template <typename TDevice> class __InputManager____c__60_1;
 }
 namespace System {
 class Type;
@@ -141,25 +136,25 @@ namespace System {
 template <typename TResult> class Func_1;
 }
 namespace UnityEngine::InputSystem {
-struct __InputDevice__DeviceFlags;
+class InputControl;
 }
-namespace UnityEngine::InputSystem::LowLevel {
-class IInputStateChangeMonitor;
+namespace UnityEngine::InputSystem::Layouts {
+struct InputDeviceDescription;
 }
 namespace UnityEngine::InputSystem {
 struct __InputManager__StateChangeMonitorListener;
 }
-namespace UnityEngine::InputSystem::Layouts {
-class InputDeviceFindControlLayoutDelegate;
-}
-namespace UnityEngine::InputSystem {
-class __InputManager____c;
+namespace UnityEngine::InputSystem::LowLevel {
+struct __InputStateBuffers__DoubleBuffers;
 }
 namespace UnityEngine::InputSystem::LowLevel {
-class InputDeviceCommandDelegate;
+class IInputRuntime;
 }
 namespace UnityEngine::InputSystem {
-template <typename TDevice> class __InputManager____c__60_1;
+class InputSettings;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+struct InputMetrics;
 }
 namespace System::Collections {
 class IEnumerator;
@@ -167,23 +162,23 @@ class IEnumerator;
 namespace System {
 class Object;
 }
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
+}
 namespace System::Collections {
 class IEnumerable;
 }
 namespace System {
 class IDisposable;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
-}
 namespace System {
 template <typename T, typename TResult> class Func_2;
 }
-namespace UnityEngine::InputSystem {
-struct DynamicBitfield;
-}
 namespace UnityEngine::InputSystem::Utilities {
 struct __MemoryHelpers__BitRegion;
+}
+namespace UnityEngine::InputSystem {
+struct DynamicBitfield;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem {
@@ -565,11 +560,11 @@ public:
 // SizeInfo { instance_size: 224, native_size: -1, calculated_instance_size: 224, calculated_native_size: 224, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2331), inst: 2035 }), TypeDefinitionIndex(TypeDefinitionIndex(3819)),
-// TypeDefinitionIndex(TypeDefinitionIndex(6615)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3819), inst: 1364 }), TypeDefinitionIndex(TypeDefinitionIndex(2613)),
-// TypeDefinitionIndex(TypeDefinitionIndex(2494)), TypeDefinitionIndex(TypeDefinitionIndex(6671)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3819), inst: 1360 }),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3819), inst: 1365 }), TypeDefinitionIndex(TypeDefinitionIndex(2331))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6298)) CS
-// Name: ::InputManager::<ListControlLayouts>d__75*
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3819), inst: 1360 }), TypeDefinitionIndex(TypeDefinitionIndex(2331)),
+// TypeDefinitionIndex(TypeDefinitionIndex(2613)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3819), inst: 1364 }), TypeDefinitionIndex(TypeDefinitionIndex(2494)),
+// TypeDefinitionIndex(TypeDefinitionIndex(6615)), TypeDefinitionIndex(TypeDefinitionIndex(6671)), TypeDefinitionIndex(TypeDefinitionIndex(3819)), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(3819), inst: 1365 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2331), inst: 2035 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(6298)) CS Name:
+// ::InputManager::<ListControlLayouts>d__75*
 class CORDL_TYPE __InputManager___ListControlLayouts_d__75 : public ::System::Object {
 public:
   // Declarations
@@ -863,18 +858,19 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::__Inpu
 // SizeInfo { instance_size: 1224, native_size: -1, calculated_instance_size: 1224, calculated_native_size: 1224, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6469)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(6537)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6660), inst: 1000 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6660), inst: 1001 }),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2324), inst: 529 }), TypeDefinitionIndex(TypeDefinitionIndex(6536)), TypeDefinitionIndex(TypeDefinitionIndex(6552)),
-// TypeDefinitionIndex(TypeDefinitionIndex(6712)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6660), inst: 1002 }), TypeDefinitionIndex(TypeDefinitionIndex(6660)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6660), inst: 992 }), TypeDefinitionIndex(TypeDefinitionIndex(2324)), TypeDefinitionIndex(TypeDefinitionIndex(6294)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6660), inst: 996 }), TypeDefinitionIndex(TypeDefinitionIndex(6568)), TypeDefinitionIndex(TypeDefinitionIndex(6553)),
-// TypeDefinitionIndex(TypeDefinitionIndex(2322)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2324), inst: 528 }), TypeDefinitionIndex(TypeDefinitionIndex(6224)),
-// TypeDefinitionIndex(TypeDefinitionIndex(6240)), TypeDefinitionIndex(TypeDefinitionIndex(6610)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2324), inst: 527 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(6595)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6660), inst: 994 }), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(2324), inst: 600 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6669), inst: 3870 }), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(6660), inst: 993 }), TypeDefinitionIndex(TypeDefinitionIndex(6669)), TypeDefinitionIndex(TypeDefinitionIndex(6239))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6300)) CS
-// Name: ::UnityEngine.InputSystem::InputManager*
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6660), inst: 1000 }), TypeDefinitionIndex(TypeDefinitionIndex(6294)),
+// TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(6610)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6660), inst: 994 }),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6660), inst: 993 }), TypeDefinitionIndex(TypeDefinitionIndex(2613)), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(6660), inst: 1002 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6669), inst: 3870 }), TypeDefinitionIndex(TypeDefinitionIndex(2324)),
+// TypeDefinitionIndex(TypeDefinitionIndex(6568)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 105 }), TypeDefinitionIndex(TypeDefinitionIndex(6669)),
+// TypeDefinitionIndex(TypeDefinitionIndex(6469)), TypeDefinitionIndex(TypeDefinitionIndex(6238)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2324), inst: 600 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(6553)), TypeDefinitionIndex(TypeDefinitionIndex(6620)), TypeDefinitionIndex(TypeDefinitionIndex(6595)), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(2324), inst: 527 }), TypeDefinitionIndex(TypeDefinitionIndex(6712)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2324), inst: 529 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(6536)), TypeDefinitionIndex(TypeDefinitionIndex(6240)), TypeDefinitionIndex(TypeDefinitionIndex(6224)), TypeDefinitionIndex(TypeDefinitionIndex(2322)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6660), inst: 1001 }), TypeDefinitionIndex(TypeDefinitionIndex(6239)), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(2324), inst: 528 }), TypeDefinitionIndex(TypeDefinitionIndex(6537)), TypeDefinitionIndex(TypeDefinitionIndex(6552)), TypeDefinitionIndex(TypeDefinitionIndex(6671)),
+// TypeDefinitionIndex(TypeDefinitionIndex(6292)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6660), inst: 996 }), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(6660), inst: 992 }), TypeDefinitionIndex(TypeDefinitionIndex(6660))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6300)) CS Name: ::UnityEngine.InputSystem::InputManager*
 class CORDL_TYPE InputManager : public ::System::Object {
 public:
   // Declarations

@@ -7,53 +7,53 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Pkcs12Store)
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Set;
+namespace Org::BouncyCastle::Asn1::Pkcs {
+class EncryptedPrivateKeyInfo;
 }
-namespace Org::BouncyCastle::Pkcs {
-class __Pkcs12Store__IgnoresCaseHashtable;
-}
-namespace System::Collections {
-class IEnumerable;
-}
-namespace System::Collections {
-class IDictionary;
+namespace Org::BouncyCastle::Asn1::X509 {
+class AlgorithmIdentifier;
 }
 namespace System::IO {
 class Stream;
 }
 namespace Org::BouncyCastle::Pkcs {
-class X509CertificateEntry;
+class AsymmetricKeyEntry;
 }
-namespace Org::BouncyCastle::Asn1 {
-class DerObjectIdentifier;
+namespace System::Collections {
+class IEnumerable;
 }
-namespace Org::BouncyCastle::X509 {
-class X509Certificate;
+namespace Org::BouncyCastle::Pkcs {
+class __Pkcs12Store__IgnoresCaseHashtable;
 }
 namespace Org::BouncyCastle::Security {
 class SecureRandom;
 }
-namespace Org::BouncyCastle::Asn1::X509 {
-class AlgorithmIdentifier;
+namespace Org::BouncyCastle::X509 {
+class X509Certificate;
 }
-namespace Org::BouncyCastle::Asn1::Pkcs {
-class EncryptedPrivateKeyInfo;
+namespace Org::BouncyCastle::Pkcs {
+class __Pkcs12Store__CertId;
 }
 namespace Org::BouncyCastle::Asn1::Pkcs {
 class PrivateKeyInfo;
 }
 namespace Org::BouncyCastle::Pkcs {
-class AsymmetricKeyEntry;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class SubjectKeyIdentifier;
+class X509CertificateEntry;
 }
 namespace System {
 class Type;
 }
-namespace Org::BouncyCastle::Pkcs {
-class __Pkcs12Store__CertId;
+namespace System::Collections {
+class IDictionary;
+}
+namespace Org::BouncyCastle::Asn1 {
+class DerObjectIdentifier;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class SubjectKeyIdentifier;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Set;
 }
 namespace Org::BouncyCastle::Crypto {
 class AsymmetricKeyParameter;
@@ -62,10 +62,10 @@ namespace System {
 class Object;
 }
 namespace System::Collections {
-class IEnumerator;
+class ICollection;
 }
 namespace System::Collections {
-class ICollection;
+class IEnumerator;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Pkcs {

@@ -3,14 +3,14 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IServerBeatmapProviderManager)
+namespace System::Threading::Tasks {
+class Task;
+}
 namespace System {
 class IDisposable;
 }
 namespace GlobalNamespace {
 class IServerBeatmapProvider;
-}
-namespace System::Threading::Tasks {
-class Task;
 }
 // Forward declare root types
 namespace GlobalNamespace {

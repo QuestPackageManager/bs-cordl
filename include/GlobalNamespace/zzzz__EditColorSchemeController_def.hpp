@@ -4,35 +4,35 @@
 CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(EditColorSchemeController)
-namespace UnityEngine::UI {
-class Button;
+namespace GlobalNamespace {
+class HSVPanelController;
 }
 namespace GlobalNamespace {
-class ColorScheme;
+class ColorSchemeColorsToggleGroup;
+}
+namespace GlobalNamespace {
+class PreviousColorPanelController;
 }
 namespace System {
 class Action;
 }
 namespace GlobalNamespace {
-class RGBPanelController;
+class ColorScheme;
+}
+namespace UnityEngine::UI {
+class Button;
 }
 namespace System {
 template <typename T> class Action_1;
 }
-namespace GlobalNamespace {
-class HSVPanelController;
-}
 namespace HMUI {
 class ButtonBinder;
-}
-namespace GlobalNamespace {
-class ColorSchemeColorsToggleGroup;
 }
 namespace UnityEngine {
 struct Color;
 }
 namespace GlobalNamespace {
-class PreviousColorPanelController;
+class RGBPanelController;
 }
 namespace GlobalNamespace {
 struct ColorChangeUIEventType;

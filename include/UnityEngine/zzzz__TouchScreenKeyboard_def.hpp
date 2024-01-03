@@ -10,16 +10,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(TouchScreenKeyboard)
 namespace UnityEngine {
-struct __TouchScreenKeyboard__Status;
-}
-namespace UnityEngine {
-struct TouchScreenKeyboardType;
+struct RangeInt;
 }
 namespace UnityEngine {
 struct TouchScreenKeyboard_InternalConstructorHelperArguments;
 }
 namespace UnityEngine {
-struct RangeInt;
+struct TouchScreenKeyboardType;
+}
+namespace UnityEngine {
+struct __TouchScreenKeyboard__Status;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -93,7 +93,7 @@ static_assert(offsetof(::UnityEngine::__TouchScreenKeyboard__Status, value__) ==
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2603))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10184))
 // CS Name: ::UnityEngine::TouchScreenKeyboard*
 class CORDL_TYPE TouchScreenKeyboard : public ::System::Object {

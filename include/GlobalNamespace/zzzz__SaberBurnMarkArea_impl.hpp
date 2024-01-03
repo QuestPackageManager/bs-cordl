@@ -3,16 +3,16 @@
 #include "UnityEngine/zzzz__ParticleSystem_impl.hpp"
 #include "UnityEngine/zzzz__Plane_impl.hpp"
 #include "GlobalNamespace/zzzz__SaberBurnMarkArea_def.hpp"
-#include "UnityEngine/zzzz__LineRenderer_def.hpp"
-#include "UnityEngine/zzzz__Material_def.hpp"
-#include "UnityEngine/zzzz__Shader_def.hpp"
-#include "GlobalNamespace/zzzz__Saber_def.hpp"
-#include "UnityEngine/zzzz__Camera_def.hpp"
-#include "UnityEngine/zzzz__Renderer_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "UnityEngine/zzzz__RenderTexture_def.hpp"
+#include "UnityEngine/zzzz__LineRenderer_def.hpp"
+#include "UnityEngine/zzzz__Shader_def.hpp"
 #include "GlobalNamespace/zzzz__ColorManager_def.hpp"
+#include "UnityEngine/zzzz__Renderer_def.hpp"
+#include "GlobalNamespace/zzzz__Saber_def.hpp"
 #include "GlobalNamespace/zzzz__SaberManager_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "UnityEngine/zzzz__Camera_def.hpp"
+#include "UnityEngine/zzzz__Material_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::SaberBurnMarkArea.Start
 template <>
 

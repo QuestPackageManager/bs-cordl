@@ -6,14 +6,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(PgpUserAttributeSubpacketVector)
+namespace Org::BouncyCastle::Bcpg {
+struct UserAttributeSubpacketTag;
+}
 namespace System {
 class Object;
 }
 namespace Org::BouncyCastle::Bcpg {
 class UserAttributeSubpacket;
-}
-namespace Org::BouncyCastle::Bcpg {
-struct UserAttributeSubpacketTag;
 }
 namespace Org::BouncyCastle::Bcpg::Attr {
 class ImageAttrib;

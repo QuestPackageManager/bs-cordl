@@ -9,13 +9,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(XmlQualifiedName)
 namespace System::Xml {
-class IXmlNamespaceResolver;
+class __XmlQualifiedName__HashCodeOfStringDelegate;
 }
 namespace System {
 class Object;
 }
 namespace System::Xml {
-class __XmlQualifiedName__HashCodeOfStringDelegate;
+class IXmlNamespaceResolver;
 }
 // Forward declare root types
 namespace System::Xml {

@@ -13,11 +13,11 @@ struct ComputedTransitionProperty;
 namespace UnityEngine::UIElements {
 class StyleVariableContext;
 }
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
 namespace UnityEngine::UIElements {
 struct ComputedStyle;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

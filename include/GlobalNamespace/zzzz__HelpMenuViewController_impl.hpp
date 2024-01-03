@@ -2,11 +2,11 @@
 #include "HMUI/zzzz__ViewController_impl.hpp"
 #include "GlobalNamespace/zzzz__HelpMenuViewController_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
-#include "HMUI/zzzz__ViewController_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "HMUI/zzzz__TextSegmentedControl_def.hpp"
-#include "System/zzzz__ValueTuple_2_def.hpp"
 #include "HMUI/zzzz__SegmentedControl_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "System/zzzz__ValueTuple_2_def.hpp"
+#include "HMUI/zzzz__ViewController_def.hpp"
+#include "HMUI/zzzz__TextSegmentedControl_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::HelpMenuViewController.add_didSelectHelpSubMenuEvent
 template <>
 

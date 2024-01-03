@@ -6,12 +6,12 @@
 #include "UnityEngine/zzzz__Quaternion_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "RootMotion/FinalIK/zzzz__Recoil_def.hpp"
-#include "UnityEngine/zzzz__Quaternion_def.hpp"
-#include "RootMotion/FinalIK/zzzz__Recoil_def.hpp"
-#include "RootMotion/FinalIK/zzzz__IKEffector_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
+#include "RootMotion/FinalIK/zzzz__Recoil_def.hpp"
 #include "RootMotion/FinalIK/zzzz__AimIK_def.hpp"
 #include "UnityEngine/zzzz__AnimationCurve_def.hpp"
+#include "UnityEngine/zzzz__Quaternion_def.hpp"
+#include "RootMotion/FinalIK/zzzz__IKEffector_def.hpp"
 #include "RootMotion/FinalIK/zzzz__IKSolverFullBodyBiped_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::__Recoil__RecoilOffset__EffectorLink._ctor
 template <>

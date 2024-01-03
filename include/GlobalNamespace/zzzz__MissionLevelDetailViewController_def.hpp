@@ -8,46 +8,46 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(MissionLevelDetailViewController)
 namespace GlobalNamespace {
-class __MissionLevelDetailViewController____c__DisplayClass14_0;
-}
-namespace UnityEngine::UI {
-class Button;
-}
-namespace GlobalNamespace {
-class ObjectiveListItemsList;
+class LevelBar;
 }
 namespace UnityEngine {
 class GameObject;
-}
-namespace GlobalNamespace {
-class MissionNode;
-}
-namespace GlobalNamespace {
-class GameplayModifiersModelSO;
-}
-namespace GlobalNamespace {
-class LevelBar;
-}
-namespace GlobalNamespace {
-class GameplayModifierInfoListItemsList;
 }
 namespace System {
 template <typename T> class Action_1;
 }
 namespace GlobalNamespace {
-class ObjectiveListItem;
+class __MissionLevelDetailViewController____c__DisplayClass14_0;
+}
+namespace GlobalNamespace {
+class GameplayModifierInfoListItemsList;
+}
+namespace GlobalNamespace {
+class MissionNode;
+}
+namespace UnityEngine::UI {
+class Button;
+}
+namespace GlobalNamespace {
+class GameplayModifiersModelSO;
+}
+namespace GlobalNamespace {
+class ObjectiveListItemsList;
+}
+namespace GlobalNamespace {
+class GameplayModifierInfoListItem;
+}
+namespace GlobalNamespace {
+class GameplayModifierParamsSO;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace GlobalNamespace {
+class ObjectiveListItem;
+}
+namespace GlobalNamespace {
 class MissionObjective;
-}
-namespace GlobalNamespace {
-class GameplayModifierParamsSO;
-}
-namespace GlobalNamespace {
-class GameplayModifierInfoListItem;
 }
 // Forward declare root types
 namespace GlobalNamespace {

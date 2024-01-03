@@ -24,77 +24,68 @@ CORDL_MODULE_EXPORT(StylePropertyAnimationSystem)
 namespace System::Collections::Generic {
 template <typename T> class IEqualityComparer_1;
 }
-namespace UnityEngine::UIElements {
-class IPanel;
-}
-namespace UnityEngine::UIElements {
-class EventBase;
-}
-namespace System::Collections::Generic {
-template <typename T> class Queue_1;
-}
-namespace UnityEngine::Pool {
-template <typename T> class ObjectPool_1;
-}
 namespace GlobalNamespace {
 template <typename T> class __StylePropertyAnimationSystem__Values_1__TransitionEventsFrameState____c;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
-namespace UnityEngine {
-class Font;
-}
-namespace UnityEngine::UIElements::StyleSheets {
-struct StylePropertyId;
+namespace UnityEngine::UIElements {
+class IPanel;
 }
 namespace UnityEngine::UIElements {
-class __StylePropertyAnimationSystem__ValuesTransformOrigin;
+class EventBase;
+}
+namespace UnityEngine::Pool {
+template <typename T> class ObjectPool_1;
 }
 namespace System::Collections::Generic {
-template <typename T> class List_1;
+template <typename T> class Queue_1;
 }
 namespace UnityEngine::UIElements {
-class __StylePropertyAnimationSystem__ValuesTextShadow;
+struct Rotate;
+}
+namespace UnityEngine::UIElements {
+class __StylePropertyAnimationSystem__ValuesScale;
+}
+namespace UnityEngine::UIElements {
+struct __StylePropertyAnimationSystem__TransitionState;
+}
+namespace UnityEngine::UIElements {
+template <typename T> class __StylePropertyAnimationSystem__ValuesDiscrete_1;
+}
+namespace UnityEngine::UIElements {
+class __StylePropertyAnimationSystem__ValuesRotate;
 }
 namespace UnityEngine {
 struct Color;
-}
-namespace System {
-template <typename T, typename TResult> class Func_2;
 }
 namespace UnityEngine::UIElements {
 class __StylePropertyAnimationSystem__ValuesBackground;
 }
 namespace UnityEngine::UIElements {
-struct Background;
+struct Translate;
 }
 namespace UnityEngine::UIElements {
-class __StylePropertyAnimationSystem__ValuesTranslate;
-}
-namespace UnityEngine::UIElements {
-class __StylePropertyAnimationSystem__ValuesFont;
-}
-namespace UnityEngine::UIElements {
-struct __StylePropertyAnimationSystem__ElementPropertyPair;
+struct Scale;
 }
 namespace UnityEngine::UIElements {
 class __StylePropertyAnimationSystem__ValuesFloat;
 }
 namespace UnityEngine::UIElements {
-class __StylePropertyAnimationSystem__ValuesColor;
+class __StylePropertyAnimationSystem__ValuesFontDefinition;
 }
 namespace UnityEngine::UIElements {
-struct Length;
+class __StylePropertyAnimationSystem__ValuesLength;
+}
+namespace UnityEngine {
+class Font;
+}
+namespace System {
+template <typename T, typename TResult> class Func_2;
 }
 namespace UnityEngine::UIElements {
-class __StylePropertyAnimationSystem__ValuesRotate;
-}
-namespace UnityEngine::UIElements {
-struct FontDefinition;
-}
-namespace UnityEngine::UIElements {
-template <typename T> class __StylePropertyAnimationSystem__ValuesDiscrete_1;
+template <typename TTimingData, typename TStyleData> struct __StylePropertyAnimationSystem__AnimationDataSet_2;
 }
 namespace UnityEngine::UIElements {
 template <typename T> class __StylePropertyAnimationSystem__Values_1;
@@ -103,43 +94,52 @@ namespace UnityEngine::UIElements {
 struct TransformOrigin;
 }
 namespace UnityEngine::UIElements {
-template <typename TTimingData, typename TStyleData> struct __StylePropertyAnimationSystem__AnimationDataSet_2;
+struct __StylePropertyAnimationSystem__ElementPropertyPair;
 }
 namespace UnityEngine::UIElements {
-class IStylePropertyAnimationSystem;
+struct Background;
 }
 namespace UnityEngine::UIElements {
-struct __StylePropertyAnimationSystem__TransitionState;
-}
-namespace UnityEngine::UIElements {
-class __StylePropertyAnimationSystem__Values;
-}
-namespace UnityEngine::UIElements {
-class __StylePropertyAnimationSystem__ValuesFontDefinition;
-}
-namespace UnityEngine::UIElements {
-struct Translate;
-}
-namespace UnityEngine::UIElements {
-class __StylePropertyAnimationSystem__ValuesScale;
-}
-namespace UnityEngine::UIElements {
-class __StylePropertyAnimationSystem__ValuesInt;
-}
-namespace UnityEngine::UIElements {
-struct TextShadow;
+class __StylePropertyAnimationSystem__ValuesFont;
 }
 namespace UnityEngine::UIElements {
 class VisualElement;
 }
 namespace UnityEngine::UIElements {
-struct Rotate;
+class __StylePropertyAnimationSystem__ValuesColor;
 }
 namespace UnityEngine::UIElements {
-class __StylePropertyAnimationSystem__ValuesLength;
+struct Length;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace UnityEngine::UIElements {
-struct Scale;
+struct FontDefinition;
+}
+namespace UnityEngine::UIElements {
+struct TextShadow;
+}
+namespace UnityEngine::UIElements {
+class __StylePropertyAnimationSystem__ValuesInt;
+}
+namespace UnityEngine::UIElements {
+class __StylePropertyAnimationSystem__ValuesTextShadow;
+}
+namespace UnityEngine::UIElements {
+class __StylePropertyAnimationSystem__ValuesTranslate;
+}
+namespace UnityEngine::UIElements {
+class IStylePropertyAnimationSystem;
+}
+namespace UnityEngine::UIElements::StyleSheets {
+struct StylePropertyId;
+}
+namespace UnityEngine::UIElements {
+class __StylePropertyAnimationSystem__Values;
+}
+namespace UnityEngine::UIElements {
+class __StylePropertyAnimationSystem__ValuesTransformOrigin;
 }
 namespace System {
 template <typename T1, typename T2, typename TResult> class Func_3;
@@ -148,13 +148,13 @@ namespace GlobalNamespace {
 template <typename T> struct __StylePropertyAnimationSystem__Values_1__StyleData;
 }
 namespace GlobalNamespace {
-template <typename T> struct __StylePropertyAnimationSystem__Values_1__TimingData;
-}
-namespace GlobalNamespace {
 template <typename T> struct __StylePropertyAnimationSystem__Values_1__EmptyData;
 }
 namespace GlobalNamespace {
 template <typename T> class __StylePropertyAnimationSystem__Values_1__TransitionEventsFrameState;
+}
+namespace GlobalNamespace {
+template <typename T> struct __StylePropertyAnimationSystem__Values_1__TimingData;
 }
 namespace GlobalNamespace {
 class __StylePropertyAnimationSystem__ElementPropertyPair__EqualityComparer;
@@ -830,7 +830,7 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6841)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6841), inst: 1567 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6841), inst: 1567 }), TypeDefinitionIndex(TypeDefinitionIndex(6841))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6841))
 // CS Name: ::StylePropertyAnimationSystem::Values`1::EmptyData<T>
 #pragma pack(push, 0)
@@ -865,10 +865,10 @@ namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6833)), TypeDefinitionIndex(TypeDefinitionIndex(6839)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6833), inst: 765
-// }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6833), inst: 766 }), TypeDefinitionIndex(TypeDefinitionIndex(6836)), TypeDefinitionIndex(TypeDefinitionIndex(6840)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6840), inst: 1566 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6841), inst: 1566 }),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6839), inst: 1566 }), TypeDefinitionIndex(TypeDefinitionIndex(6841))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6842)) CS
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6839)), TypeDefinitionIndex(TypeDefinitionIndex(6841)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6841), inst: 1566
+// }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6839), inst: 1566 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6833), inst: 765 }),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6833), inst: 766 }), TypeDefinitionIndex(TypeDefinitionIndex(6836)), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(6840), inst: 1566 }), TypeDefinitionIndex(TypeDefinitionIndex(6840)), TypeDefinitionIndex(TypeDefinitionIndex(6833))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6842)) CS
 // Name: ::StylePropertyAnimationSystem::Values`1<T>*
 class CORDL_TYPE __StylePropertyAnimationSystem__Values_1 : public ::UnityEngine::UIElements::__StylePropertyAnimationSystem__Values {
 public:
@@ -1124,7 +1124,7 @@ static_assert(offsetof(::UnityEngine::UIElements::__StylePropertyAnimationSystem
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6842), inst: 98 }), TypeDefinitionIndex(TypeDefinitionIndex(6842))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6842)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6842), inst: 98 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6844))
 // CS Name: ::StylePropertyAnimationSystem::ValuesInt*
 class CORDL_TYPE __StylePropertyAnimationSystem__ValuesInt : public ::UnityEngine::UIElements::__StylePropertyAnimationSystem__Values_1<int32_t> {
@@ -1193,8 +1193,8 @@ static_assert(offsetof(::UnityEngine::UIElements::__StylePropertyAnimationSystem
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7313)), TypeDefinitionIndex(TypeDefinitionIndex(6842)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6842), inst: 1570
-// })} Self: TypeDefinitionIndex(TypeDefinitionIndex(6845)) CS Name: ::StylePropertyAnimationSystem::ValuesLength*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6842)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6842), inst: 1570 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(7313))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6845)) CS Name: ::StylePropertyAnimationSystem::ValuesLength*
 class CORDL_TYPE __StylePropertyAnimationSystem__ValuesLength : public ::UnityEngine::UIElements::__StylePropertyAnimationSystem__Values_1<::UnityEngine::UIElements::Length> {
 public:
   // Declarations
@@ -1332,7 +1332,7 @@ namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6842)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6842), inst: 5344 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6842), inst: 5344 }), TypeDefinitionIndex(TypeDefinitionIndex(6842))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6847))
 // CS Name: ::StylePropertyAnimationSystem::ValuesDiscrete`1<T>*
 class CORDL_TYPE __StylePropertyAnimationSystem__ValuesDiscrete_1 : public ::UnityEngine::UIElements::__StylePropertyAnimationSystem__Values_1<T> {
@@ -1391,8 +1391,8 @@ public:
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6847), inst: 1568 }), TypeDefinitionIndex(TypeDefinitionIndex(6847)),
-// TypeDefinitionIndex(TypeDefinitionIndex(7293))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6848)) CS Name: ::StylePropertyAnimationSystem::ValuesBackground*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6847)), TypeDefinitionIndex(TypeDefinitionIndex(7293)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6847), inst: 1568
+// })} Self: TypeDefinitionIndex(TypeDefinitionIndex(6848)) CS Name: ::StylePropertyAnimationSystem::ValuesBackground*
 class CORDL_TYPE __StylePropertyAnimationSystem__ValuesBackground : public ::UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesDiscrete_1<::UnityEngine::UIElements::Background> {
 public:
   // Declarations
@@ -1431,7 +1431,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__Style
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7284)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6847), inst: 1569 }),
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6847), inst: 1569 }), TypeDefinitionIndex(TypeDefinitionIndex(7284)),
 // TypeDefinitionIndex(TypeDefinitionIndex(6847))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6849)) CS Name: ::StylePropertyAnimationSystem::ValuesFontDefinition*
 class CORDL_TYPE __StylePropertyAnimationSystem__ValuesFontDefinition : public ::UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesDiscrete_1<::UnityEngine::UIElements::FontDefinition> {
 public:
@@ -1471,8 +1471,8 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__Style
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6847)), TypeDefinitionIndex(TypeDefinitionIndex(15909)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6847), inst: 309
-// })} Self: TypeDefinitionIndex(TypeDefinitionIndex(6850)) CS Name: ::StylePropertyAnimationSystem::ValuesFont*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6847)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6847), inst: 309 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(15909))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6850)) CS Name: ::StylePropertyAnimationSystem::ValuesFont*
 class CORDL_TYPE __StylePropertyAnimationSystem__ValuesFont : public ::UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesDiscrete_1<::UnityEngine::Font*> {
 public:
   // Declarations
@@ -1511,8 +1511,8 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__Style
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6842)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6842), inst: 1573 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(6790))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6851)) CS Name: ::StylePropertyAnimationSystem::ValuesTextShadow*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6842)), TypeDefinitionIndex(TypeDefinitionIndex(6790)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6842), inst: 1573
+// })} Self: TypeDefinitionIndex(TypeDefinitionIndex(6851)) CS Name: ::StylePropertyAnimationSystem::ValuesTextShadow*
 class CORDL_TYPE __StylePropertyAnimationSystem__ValuesTextShadow : public ::UnityEngine::UIElements::__StylePropertyAnimationSystem__Values_1<::UnityEngine::UIElements::TextShadow> {
 public:
   // Declarations
@@ -1580,7 +1580,7 @@ static_assert(offsetof(::UnityEngine::UIElements::__StylePropertyAnimationSystem
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6842)), TypeDefinitionIndex(TypeDefinitionIndex(7318)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6842), inst: 1572
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7318)), TypeDefinitionIndex(TypeDefinitionIndex(6842)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6842), inst: 1572
 // })} Self: TypeDefinitionIndex(TypeDefinitionIndex(6852)) CS Name: ::StylePropertyAnimationSystem::ValuesScale*
 class CORDL_TYPE __StylePropertyAnimationSystem__ValuesScale : public ::UnityEngine::UIElements::__StylePropertyAnimationSystem__Values_1<::UnityEngine::UIElements::Scale> {
 public:
@@ -1649,8 +1649,8 @@ static_assert(offsetof(::UnityEngine::UIElements::__StylePropertyAnimationSystem
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7295)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6842), inst: 1571 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(6842))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6853)) CS Name: ::StylePropertyAnimationSystem::ValuesRotate*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6842)), TypeDefinitionIndex(TypeDefinitionIndex(7295)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6842), inst: 1571
+// })} Self: TypeDefinitionIndex(TypeDefinitionIndex(6853)) CS Name: ::StylePropertyAnimationSystem::ValuesRotate*
 class CORDL_TYPE __StylePropertyAnimationSystem__ValuesRotate : public ::UnityEngine::UIElements::__StylePropertyAnimationSystem__Values_1<::UnityEngine::UIElements::Rotate> {
 public:
   // Declarations
@@ -1718,8 +1718,8 @@ static_assert(offsetof(::UnityEngine::UIElements::__StylePropertyAnimationSystem
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7302)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6842), inst: 1575 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(6842))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6854)) CS Name: ::StylePropertyAnimationSystem::ValuesTranslate*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6842)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6842), inst: 1575 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(7302))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6854)) CS Name: ::StylePropertyAnimationSystem::ValuesTranslate*
 class CORDL_TYPE __StylePropertyAnimationSystem__ValuesTranslate : public ::UnityEngine::UIElements::__StylePropertyAnimationSystem__Values_1<::UnityEngine::UIElements::Translate> {
 public:
   // Declarations
@@ -1787,8 +1787,8 @@ static_assert(offsetof(::UnityEngine::UIElements::__StylePropertyAnimationSystem
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7317)), TypeDefinitionIndex(TypeDefinitionIndex(6842)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6842), inst: 1574
-// })} Self: TypeDefinitionIndex(TypeDefinitionIndex(6855)) CS Name: ::StylePropertyAnimationSystem::ValuesTransformOrigin*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7317)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6842), inst: 1574 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(6842))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6855)) CS Name: ::StylePropertyAnimationSystem::ValuesTransformOrigin*
 class CORDL_TYPE __StylePropertyAnimationSystem__ValuesTransformOrigin : public ::UnityEngine::UIElements::__StylePropertyAnimationSystem__Values_1<::UnityEngine::UIElements::TransformOrigin> {
 public:
   // Declarations

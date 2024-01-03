@@ -9,10 +9,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(MaterialPropertyBlockRandomValueSetter)
 namespace UnityEngine {
-class Renderer;
+class MaterialPropertyBlock;
 }
 namespace UnityEngine {
-class MaterialPropertyBlock;
+class Renderer;
 }
 // Forward declare root types
 namespace GlobalNamespace {

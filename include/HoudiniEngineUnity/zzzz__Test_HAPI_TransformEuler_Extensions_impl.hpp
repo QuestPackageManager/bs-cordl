@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "HoudiniEngineUnity/zzzz__Test_HAPI_TransformEuler_Extensions_def.hpp"
-#include "HoudiniEngineUnity/zzzz__Test_HAPI_TransformEuler_def.hpp"
 #include "HoudiniEngineUnity/zzzz__HAPI_TransformEuler_def.hpp"
+#include "HoudiniEngineUnity/zzzz__Test_HAPI_TransformEuler_def.hpp"
 //  Writing Method size for method: ::HoudiniEngineUnity::Test_HAPI_TransformEuler_Extensions.ToTestObject
 template <>
 

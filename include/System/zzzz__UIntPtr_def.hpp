@@ -12,14 +12,14 @@ class ISerializable;
 namespace System {
 template <typename T> class IEquatable_1;
 }
-namespace System {
-class Object;
-}
 namespace System::Runtime::Serialization {
 class SerializationInfo;
 }
 namespace System::Runtime::Serialization {
 struct StreamingContext;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System {

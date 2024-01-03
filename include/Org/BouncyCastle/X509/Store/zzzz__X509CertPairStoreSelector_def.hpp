@@ -4,11 +4,8 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(X509CertPairStoreSelector)
-namespace Org::BouncyCastle::X509::Store {
-class X509CertStoreSelector;
-}
-namespace Org::BouncyCastle::X509 {
-class X509CertificatePair;
+namespace System {
+class ICloneable;
 }
 namespace System {
 class Object;
@@ -16,8 +13,11 @@ class Object;
 namespace Org::BouncyCastle::X509::Store {
 class IX509Selector;
 }
-namespace System {
-class ICloneable;
+namespace Org::BouncyCastle::X509 {
+class X509CertificatePair;
+}
+namespace Org::BouncyCastle::X509::Store {
+class X509CertStoreSelector;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::X509::Store {

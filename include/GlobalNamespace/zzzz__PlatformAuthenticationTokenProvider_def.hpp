@@ -18,16 +18,10 @@ namespace System::Threading::Tasks {
 template <typename TResult> class Task_1;
 }
 namespace GlobalNamespace {
-struct __PlatformAuthenticationTokenProvider___GetXPlatformAccessToken_d__18;
-}
-namespace GlobalNamespace {
-class IPlatformUserModel;
-}
-namespace GlobalNamespace {
-class XPlatformAccessTokenData;
-}
-namespace GlobalNamespace {
 struct __PlatformAuthenticationTokenProvider___RequestXPlatformAccessToken_d__19;
+}
+namespace GlobalNamespace {
+struct __PlatformAuthenticationTokenProvider___GetXPlatformAccessToken_d__18;
 }
 namespace GlobalNamespace {
 class IAuthenticationTokenProvider;
@@ -36,19 +30,25 @@ namespace GlobalNamespace {
 struct __PlatformAuthenticationTokenProvider___GetAuthenticationToken_d__16;
 }
 namespace GlobalNamespace {
-class UserInfo;
+class IPlatformUserModel;
 }
 namespace GlobalNamespace {
-struct PlatformEnvironment;
-}
-namespace GlobalNamespace {
-struct __AuthenticationToken__Platform;
+class XPlatformAccessTokenData;
 }
 namespace System::Threading {
 struct CancellationToken;
 }
 namespace GlobalNamespace {
 struct AuthenticationToken;
+}
+namespace GlobalNamespace {
+struct __AuthenticationToken__Platform;
+}
+namespace GlobalNamespace {
+struct PlatformEnvironment;
+}
+namespace GlobalNamespace {
+class UserInfo;
 }
 namespace System::Runtime::CompilerServices {
 template <typename TResult> struct TaskAwaiter_1;
@@ -84,9 +84,9 @@ MARK_VAL_T(::GlobalNamespace::__PlatformAuthenticationTokenProvider___RequestXPl
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12682)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 5067 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(15982)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 876 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(3402))} Self: TypeDefinitionIndex(TypeDefinitionIndex(14968)) CS Name: ::PlatformAuthenticationTokenProvider::<GetAuthenticationToken>d__16
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3394)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 876 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 5067 }), TypeDefinitionIndex(TypeDefinitionIndex(12682)),
+// TypeDefinitionIndex(TypeDefinitionIndex(15982))} Self: TypeDefinitionIndex(TypeDefinitionIndex(14968)) CS Name: ::PlatformAuthenticationTokenProvider::<GetAuthenticationToken>d__16
 struct CORDL_TYPE __PlatformAuthenticationTokenProvider___GetAuthenticationToken_d__16 {
 public:
   // Declarations
@@ -145,9 +145,9 @@ static_assert(offsetof(::GlobalNamespace::__PlatformAuthenticationTokenProvider_
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3394)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 902 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(12925)), TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 902 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(2677))} Self: TypeDefinitionIndex(TypeDefinitionIndex(14969)) CS Name: ::PlatformAuthenticationTokenProvider::<GetXPlatformAccessToken>d__18
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12925)), TypeDefinitionIndex(TypeDefinitionIndex(2677)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 902
+// }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 902 }), TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(3402))} Self:
+// TypeDefinitionIndex(TypeDefinitionIndex(14969)) CS Name: ::PlatformAuthenticationTokenProvider::<GetXPlatformAccessToken>d__18
 struct CORDL_TYPE __PlatformAuthenticationTokenProvider___GetXPlatformAccessToken_d__18 {
 public:
   // Declarations
@@ -217,8 +217,8 @@ static_assert(offsetof(::GlobalNamespace::__PlatformAuthenticationTokenProvider_
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(12925)), TypeDefinitionIndex(TypeDefinitionIndex(3402)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 902 }), TypeDefinitionIndex(TypeDefinitionIndex(2677)), GenericInstantiation(GenericInstantiation { tdi:
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 902 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(12925)), GenericInstantiation(GenericInstantiation { tdi:
 // TypeDefinitionIndex(3394), inst: 902 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(14970)) CS Name: ::PlatformAuthenticationTokenProvider::<RequestXPlatformAccessToken>d__19
 struct CORDL_TYPE __PlatformAuthenticationTokenProvider___RequestXPlatformAccessToken_d__19 {
 public:
@@ -283,7 +283,7 @@ static_assert(offsetof(::GlobalNamespace::__PlatformAuthenticationTokenProvider_
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 76, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12681))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12681)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14971))
 // CS Name: ::PlatformAuthenticationTokenProvider*
 class CORDL_TYPE PlatformAuthenticationTokenProvider : public ::System::Object {

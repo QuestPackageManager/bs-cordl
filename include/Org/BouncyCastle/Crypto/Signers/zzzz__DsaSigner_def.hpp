@@ -10,9 +10,6 @@ CORDL_MODULE_EXPORT(DsaSigner)
 namespace Org::BouncyCastle::Crypto::Parameters {
 class DsaKeyParameters;
 }
-namespace Org::BouncyCastle::Crypto {
-class ICipherParameters;
-}
 namespace Org::BouncyCastle::Security {
 class SecureRandom;
 }
@@ -21,6 +18,9 @@ class IDsa;
 }
 namespace Org::BouncyCastle::Crypto::Signers {
 class IDsaKCalculator;
+}
+namespace Org::BouncyCastle::Crypto {
+class ICipherParameters;
 }
 namespace Org::BouncyCastle::Math {
 class BigInteger;

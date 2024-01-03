@@ -4,9 +4,6 @@
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IWrappedDictionary)
 namespace System::Collections {
-class ICollection;
-}
-namespace System::Collections {
 class IEnumerable;
 }
 namespace System::Collections {
@@ -14,6 +11,9 @@ class IDictionary;
 }
 namespace System {
 class Object;
+}
+namespace System::Collections {
+class ICollection;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Utilities {

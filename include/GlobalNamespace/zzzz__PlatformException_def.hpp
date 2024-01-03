@@ -82,7 +82,7 @@ static_assert(offsetof(::GlobalNamespace::__PlatformException__ErrorType, value_
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2561)), TypeDefinitionIndex(TypeDefinitionIndex(4036))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4036)), TypeDefinitionIndex(TypeDefinitionIndex(2561))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4037))
 // CS Name: ::PlatformException*
 class CORDL_TYPE PlatformException : public ::System::Exception {

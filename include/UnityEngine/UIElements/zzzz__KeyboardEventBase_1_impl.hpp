@@ -3,10 +3,10 @@
 #include "UnityEngine/zzzz__EventModifiers_impl.hpp"
 #include "UnityEngine/zzzz__KeyCode_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__KeyboardEventBase_1_def.hpp"
-#include "UnityEngine/zzzz__Event_def.hpp"
+#include "UnityEngine/UIElements/zzzz__IKeyboardEvent_def.hpp"
 #include "UnityEngine/zzzz__EventModifiers_def.hpp"
 #include "UnityEngine/zzzz__KeyCode_def.hpp"
-#include "UnityEngine/UIElements/zzzz__IKeyboardEvent_def.hpp"
+#include "UnityEngine/zzzz__Event_def.hpp"
 /// @brief Convert operator to "::UnityEngine::UIElements::IKeyboardEvent"
 template <typename T> constexpr UnityEngine::UIElements::KeyboardEventBase_1<T>::operator ::UnityEngine::UIElements::IKeyboardEvent*() noexcept {
   return static_cast<::UnityEngine::UIElements::IKeyboardEvent*>(static_cast<void*>(this));

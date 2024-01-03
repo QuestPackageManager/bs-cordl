@@ -9,19 +9,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(TimeUtility)
 namespace UnityEngine::Timeline {
-class __TimeUtility____c;
-}
-namespace UnityEngine::Timeline {
 struct StandardFrameRates;
 }
-namespace System {
-template <typename T, typename TResult> class Func_2;
+namespace UnityEngine::Timeline {
+class __TimeUtility____c;
 }
 namespace UnityEngine::Playables {
 struct FrameRate;
 }
 namespace UnityEngine {
 class AnimationClip;
+}
+namespace System {
+template <typename T, typename TResult> class Func_2;
 }
 // Forward declare root types
 namespace UnityEngine::Timeline {

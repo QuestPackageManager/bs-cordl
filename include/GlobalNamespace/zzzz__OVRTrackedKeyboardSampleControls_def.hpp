@@ -10,6 +10,9 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVRTrackedKeyboardSampleControls)
 namespace GlobalNamespace {
+class OVRTrackedKeyboard;
+}
+namespace GlobalNamespace {
 class __OVRTrackedKeyboardSampleControls___SetShaderCoroutine_d__19;
 }
 namespace System::Collections {
@@ -18,8 +21,8 @@ class IEnumerator;
 namespace UnityEngine::UI {
 class InputField;
 }
-namespace GlobalNamespace {
-class OVRTrackedKeyboard;
+namespace UnityEngine::UI {
+class Toggle;
 }
 namespace UnityEngine::UI {
 class Button;
@@ -27,17 +30,14 @@ class Button;
 namespace UnityEngine::UI {
 class Text;
 }
-namespace UnityEngine::UI {
-class Toggle;
+namespace System {
+class IDisposable;
 }
 namespace System {
 class Object;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
-}
-namespace System {
-class IDisposable;
 }
 // Forward declare root types
 namespace GlobalNamespace {

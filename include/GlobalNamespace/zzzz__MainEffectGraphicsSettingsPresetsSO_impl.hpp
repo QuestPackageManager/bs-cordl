@@ -2,8 +2,8 @@
 #include "GlobalNamespace/zzzz__NamedPreset_impl.hpp"
 #include "GlobalNamespace/zzzz__NamedPresetsSO_impl.hpp"
 #include "GlobalNamespace/zzzz__MainEffectGraphicsSettingsPresetsSO_def.hpp"
-#include "GlobalNamespace/zzzz__MainEffectGraphicsSettingsPresetsSO_def.hpp"
 #include "GlobalNamespace/zzzz__NamedPreset_def.hpp"
+#include "GlobalNamespace/zzzz__MainEffectGraphicsSettingsPresetsSO_def.hpp"
 #include "GlobalNamespace/zzzz__MainEffectSO_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::__MainEffectGraphicsSettingsPresetsSO__Preset._ctor
 template <>

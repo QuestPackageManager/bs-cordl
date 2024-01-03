@@ -11,29 +11,29 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(GradientImage)
-namespace UnityEngine::UI {
-class VertexHelper;
-}
-namespace UnityEngine {
-struct Rect;
-}
-namespace HMUI {
-class CurvedCanvasSettingsHelper;
-}
 namespace UnityEngine {
 struct Color;
 }
 namespace UnityEngine {
-struct Vector2;
+struct Color32;
 }
 namespace UnityEngine {
-struct Vector3;
+struct Rect;
 }
 namespace UnityEngine {
 struct Vector4;
 }
 namespace UnityEngine {
-struct Color32;
+struct Vector3;
+}
+namespace HMUI {
+class CurvedCanvasSettingsHelper;
+}
+namespace UnityEngine {
+struct Vector2;
+}
+namespace UnityEngine::UI {
+class VertexHelper;
 }
 // Forward declare root types
 namespace HMUI {

@@ -1,9 +1,9 @@
 #pragma once
 #include "System/Net/Http/zzzz__HttpContent_impl.hpp"
 #include "System/Net/Http/zzzz__ByteArrayContent_def.hpp"
+#include "System/IO/zzzz__Stream_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_def.hpp"
 #include "System/Net/zzzz__TransportContext_def.hpp"
-#include "System/IO/zzzz__Stream_def.hpp"
 //  Writing Method size for method: ::System::Net::Http::ByteArrayContent._ctor
 template <>
 

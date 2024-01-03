@@ -2,10 +2,10 @@
 #include "Newtonsoft/Json/zzzz__JsonReader_impl.hpp"
 #include "Newtonsoft/Json/Linq/zzzz__JTokenReader_def.hpp"
 #include "Newtonsoft/Json/zzzz__JsonToken_def.hpp"
-#include "Newtonsoft/Json/Linq/zzzz__JContainer_def.hpp"
 #include "Newtonsoft/Json/Linq/zzzz__JToken_def.hpp"
 #include "System/zzzz__Nullable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "Newtonsoft/Json/Linq/zzzz__JContainer_def.hpp"
 #include "Newtonsoft/Json/zzzz__IJsonLineInfo_def.hpp"
 //  Writing Method size for method: ::Newtonsoft::Json::Linq::JTokenReader.get_CurrentToken
 template <>

@@ -10,25 +10,25 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(AndroidGameControllerState)
 namespace UnityEngine::InputSystem::Android::LowLevel {
-struct __AndroidGameControllerState___axis_e__FixedBuffer;
-}
-namespace UnityEngine::InputSystem::LowLevel {
-class IInputStateTypeInfo;
+struct __AndroidGameControllerState___buttons_e__FixedBuffer;
 }
 namespace UnityEngine::InputSystem::Android::LowLevel {
-class __AndroidGameControllerState__Variants;
+struct __AndroidGameControllerState___axis_e__FixedBuffer;
 }
 namespace UnityEngine::InputSystem::Utilities {
 struct FourCC;
 }
 namespace UnityEngine::InputSystem::Android::LowLevel {
-struct AndroidAxis;
-}
-namespace UnityEngine::InputSystem::Android::LowLevel {
 struct AndroidKeyCode;
 }
 namespace UnityEngine::InputSystem::Android::LowLevel {
-struct __AndroidGameControllerState___buttons_e__FixedBuffer;
+struct AndroidAxis;
+}
+namespace UnityEngine::InputSystem::Android::LowLevel {
+class __AndroidGameControllerState__Variants;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+class IInputStateTypeInfo;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::Android::LowLevel {
@@ -171,7 +171,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::Android::LowLevel::__AndroidG
 // SizeInfo { instance_size: 220, native_size: 220, calculated_instance_size: 220, calculated_native_size: 236, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Android::LowLevel {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6447)), TypeDefinitionIndex(TypeDefinitionIndex(6448)), TypeDefinitionIndex(TypeDefinitionIndex(6667))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6448)), TypeDefinitionIndex(TypeDefinitionIndex(6667)), TypeDefinitionIndex(TypeDefinitionIndex(6447))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6449))
 // CS Name: ::UnityEngine.InputSystem.Android.LowLevel::AndroidGameControllerState
 struct CORDL_TYPE AndroidGameControllerState {

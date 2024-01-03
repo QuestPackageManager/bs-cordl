@@ -8,13 +8,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Ed448phSigner)
 namespace Org::BouncyCastle::Crypto {
-class IXof;
+class ICipherParameters;
 }
 namespace Org::BouncyCastle::Crypto {
 class ISigner;
 }
 namespace Org::BouncyCastle::Crypto {
-class ICipherParameters;
+class IXof;
 }
 namespace Org::BouncyCastle::Crypto::Parameters {
 class Ed448PrivateKeyParameters;

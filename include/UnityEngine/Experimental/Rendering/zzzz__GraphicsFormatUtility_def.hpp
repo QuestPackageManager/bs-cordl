@@ -10,13 +10,13 @@ namespace UnityEngine {
 struct RenderTextureFormat;
 }
 namespace UnityEngine {
-struct TextureFormat;
+struct RenderTextureReadWrite;
 }
 namespace UnityEngine::Experimental::Rendering {
 struct GraphicsFormat;
 }
 namespace UnityEngine {
-struct RenderTextureReadWrite;
+struct TextureFormat;
 }
 // Forward declare root types
 namespace UnityEngine::Experimental::Rendering {

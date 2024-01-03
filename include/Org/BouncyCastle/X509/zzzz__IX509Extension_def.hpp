@@ -8,10 +8,10 @@ namespace Org::BouncyCastle::Utilities::Collections {
 class ISet;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1OctetString;
+class DerObjectIdentifier;
 }
 namespace Org::BouncyCastle::Asn1 {
-class DerObjectIdentifier;
+class Asn1OctetString;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::X509 {

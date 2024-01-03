@@ -11,23 +11,23 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__Quaternion_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVRSceneAnchor)
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
+namespace GlobalNamespace {
+struct __OVRPlugin__SpaceComponentType;
 }
 namespace GlobalNamespace {
 struct OVRSpace;
 }
-namespace GlobalNamespace {
-struct OVRAnchor;
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace System {
 struct Guid;
 }
 namespace GlobalNamespace {
-struct __OVRPlugin__SpaceComponentType;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+struct OVRAnchor;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -39,9 +39,9 @@ MARK_REF_PTR_T(::GlobalNamespace::OVRSceneAnchor);
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 108, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(2406)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(7991)), TypeDefinitionIndex(TypeDefinitionIndex(7726)), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(2448), inst: 4773 }), TypeDefinitionIndex(TypeDefinitionIndex(7510))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7955)) CS Name: ::OVRSceneAnchor*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7726)), TypeDefinitionIndex(TypeDefinitionIndex(2406)), TypeDefinitionIndex(TypeDefinitionIndex(7991)),
+// TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(7510)), TypeDefinitionIndex(TypeDefinitionIndex(10252)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 4773 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(7955)) CS Name: ::OVRSceneAnchor*
 class CORDL_TYPE OVRSceneAnchor : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations

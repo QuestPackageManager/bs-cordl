@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(TlsSessionImpl)
 namespace Org::BouncyCastle::Crypto::Tls {
-class TlsSession;
+class SessionParameters;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class SessionParameters;
+class TlsSession;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {

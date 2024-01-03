@@ -11,10 +11,10 @@ namespace Org::BouncyCastle::Bcpg {
 struct PublicKeyAlgorithmTag;
 }
 namespace Org::BouncyCastle::Bcpg {
-class BcpgOutputStream;
+class BcpgInputStream;
 }
 namespace Org::BouncyCastle::Bcpg {
-class BcpgInputStream;
+class BcpgOutputStream;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Bcpg {
@@ -26,7 +26,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Bcpg::PublicKeyEncSessionPacket);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Bcpg {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(580)), TypeDefinitionIndex(TypeDefinitionIndex(560))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(560)), TypeDefinitionIndex(TypeDefinitionIndex(580))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(581))
 // CS Name: ::Org.BouncyCastle.Bcpg::PublicKeyEncSessionPacket*
 class CORDL_TYPE PublicKeyEncSessionPacket : public ::Org::BouncyCastle::Bcpg::ContainedPacket {

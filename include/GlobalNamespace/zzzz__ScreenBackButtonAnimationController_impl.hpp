@@ -1,9 +1,9 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__ScreenBackButtonAnimationController_def.hpp"
-#include "GlobalNamespace/zzzz__ScreenBackButtonAnimationController_def.hpp"
-#include "UnityEngine/zzzz__Animator_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "UnityEngine/zzzz__Animator_def.hpp"
+#include "GlobalNamespace/zzzz__ScreenBackButtonAnimationController_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::GlobalNamespace::__ScreenBackButtonAnimationController__AnimationType::__ScreenBackButtonAnimationController__AnimationType(int32_t value__) noexcept {
   this->value__ = value__;

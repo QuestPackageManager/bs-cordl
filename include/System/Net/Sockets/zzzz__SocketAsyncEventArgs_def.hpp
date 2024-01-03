@@ -13,25 +13,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(SocketAsyncEventArgs)
 namespace System {
-class Object;
+template <typename TEventArgs> class EventHandler_1;
 }
 namespace System::Net::Sockets {
-struct SocketError;
+class SendPacketsElement;
 }
 namespace System {
-class Exception;
-}
-namespace System {
-template <typename T> struct Memory_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace System::Net::Sockets {
-struct SocketFlags;
-}
-namespace System::Net {
-class EndPoint;
+class IDisposable;
 }
 namespace System {
 template <typename T> struct ArraySegment_1;
@@ -39,23 +27,35 @@ template <typename T> struct ArraySegment_1;
 namespace System::Net::Sockets {
 struct SocketAsyncOperation;
 }
-namespace System::Net::Sockets {
-class SendPacketsElement;
+namespace System::Collections::Generic {
+template <typename T> class IList_1;
+}
+namespace System {
+template <typename T> struct Memory_1;
+}
+namespace System::Net {
+class EndPoint;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace System {
+class Exception;
+}
+namespace System {
+class Object;
 }
 namespace System::Net::Sockets {
 class SocketAsyncResult;
 }
 namespace System::Net::Sockets {
+struct SocketFlags;
+}
+namespace System::Net::Sockets {
 class Socket;
 }
-namespace System {
-class IDisposable;
-}
-namespace System {
-template <typename TEventArgs> class EventHandler_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class IList_1;
+namespace System::Net::Sockets {
+struct SocketError;
 }
 // Forward declare root types
 namespace System::Net::Sockets {
@@ -67,9 +67,9 @@ MARK_REF_PTR_T(::System::Net::Sockets::SocketAsyncEventArgs);
 // SizeInfo { instance_size: 184, native_size: -1, calculated_instance_size: 184, calculated_native_size: 184, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Sockets {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9355)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2437), inst: 741 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(2376)), TypeDefinitionIndex(TypeDefinitionIndex(9339)), TypeDefinitionIndex(TypeDefinitionIndex(9345)), TypeDefinitionIndex(TypeDefinitionIndex(9347)),
-// TypeDefinitionIndex(TypeDefinitionIndex(9348)), TypeDefinitionIndex(TypeDefinitionIndex(2437))} Self: TypeDefinitionIndex(TypeDefinitionIndex(9357)) CS Name:
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2437)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2437), inst: 741 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(9345)), TypeDefinitionIndex(TypeDefinitionIndex(9355)), TypeDefinitionIndex(TypeDefinitionIndex(2376)), TypeDefinitionIndex(TypeDefinitionIndex(9347)),
+// TypeDefinitionIndex(TypeDefinitionIndex(9348)), TypeDefinitionIndex(TypeDefinitionIndex(9339))} Self: TypeDefinitionIndex(TypeDefinitionIndex(9357)) CS Name:
 // ::System.Net.Sockets::SocketAsyncEventArgs*
 class CORDL_TYPE SocketAsyncEventArgs : public ::System::EventArgs {
 public:

@@ -8,41 +8,35 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(JSONObject)
-namespace HoudiniEngineUnity {
-class JSONNode;
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace HoudiniEngineUnity {
 struct JSONTextMode;
 }
 namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace HoudiniEngineUnity {
-class __JSONObject___get_Children_d__23;
-}
-namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
-namespace System::Text {
-class StringBuilder;
+namespace HoudiniEngineUnity {
+class JSONNode;
 }
 namespace HoudiniEngineUnity {
 class __JSONObject____c__DisplayClass21_0;
 }
 namespace HoudiniEngineUnity {
-struct JSONNodeType;
+class __JSONObject___get_Children_d__23;
 }
 namespace HoudiniEngineUnity {
 struct __JSONNode__Enumerator;
 }
+namespace System::Text {
+class StringBuilder;
+}
+namespace HoudiniEngineUnity {
+struct JSONNodeType;
+}
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> struct KeyValuePair_2;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
-}
-namespace System::Collections {
-class IEnumerator;
 }
 namespace System {
 class IDisposable;
@@ -52,6 +46,12 @@ class Object;
 }
 namespace System::Collections {
 class IEnumerable;
+}
+namespace System::Collections {
+class IEnumerator;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -123,8 +123,8 @@ static_assert(offsetof(::HoudiniEngineUnity::__JSONObject____c__DisplayClass21_0
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3819), inst: 1428 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(9869)), TypeDefinitionIndex(TypeDefinitionIndex(3819))} Self: TypeDefinitionIndex(TypeDefinitionIndex(9873)) CS Name: ::JSONObject::<get_Children>d__23*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9869)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3819), inst: 1428 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3819))} Self: TypeDefinitionIndex(TypeDefinitionIndex(9873)) CS Name: ::JSONObject::<get_Children>d__23*
 class CORDL_TYPE __JSONObject___get_Children_d__23 : public ::System::Object {
 public:
   // Declarations

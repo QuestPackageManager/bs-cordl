@@ -11,7 +11,7 @@ namespace GlobalNamespace {
 class IMultiplayerSessionManager;
 }
 namespace System {
-class Action;
+template <typename T> class Action_1;
 }
 namespace GlobalNamespace {
 class IGameplayRpcManager;
@@ -19,11 +19,11 @@ class IGameplayRpcManager;
 namespace GlobalNamespace {
 class SongStartHandler;
 }
-namespace System {
-template <typename T> class Action_1;
-}
 namespace GlobalNamespace {
 class PlayersSpecificSettingsAtGameStartModel;
+}
+namespace System {
+class Action;
 }
 // Forward declare root types
 namespace GlobalNamespace {

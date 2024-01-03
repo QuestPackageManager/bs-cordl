@@ -12,46 +12,34 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVRTask_1)
 namespace System {
-class Object;
-}
-namespace System {
-class AsyncCallback;
+class IAsyncResult;
 }
 namespace System {
 struct Guid;
 }
 namespace System {
-class IAsyncResult;
+class Object;
+}
+namespace System {
+class AsyncCallback;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace System {
+class Action;
 }
 namespace System {
 template <typename T> class Action_1;
 }
 namespace System {
-class Action;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace GlobalNamespace {
-template <typename TResult> struct __OVRTask_1__Callback;
-}
-namespace GlobalNamespace {
-template <typename TResult, typename T> struct __OVRTask_1__CallbackWithState_1;
-}
-namespace System {
-class IDisposable;
-}
-namespace System {
 template <typename T> class IEquatable_1;
 }
 namespace GlobalNamespace {
-template <typename TResult> class __OVRTask_1__CallbackInvoker;
+template <typename TResult> class __OVRTask_1__InternalDataRemover;
 }
 namespace GlobalNamespace {
-template <typename TResult, typename T> class __OVRTask_1__IncrementalResultSubscriber_1;
-}
-namespace System {
-template <typename T1, typename T2> class Action_2;
+template <typename TResult> struct __OVRTask_1__Callback;
 }
 namespace GlobalNamespace {
 template <typename TResult> class __OVRTask_1__CallbackRemover;
@@ -59,14 +47,26 @@ template <typename TResult> class __OVRTask_1__CallbackRemover;
 namespace GlobalNamespace {
 template <typename TResult> struct __OVRTask_1__Awaiter;
 }
-namespace GlobalNamespace {
-template <typename TResult, typename T> class __OVRTask_1__InternalData_1;
+namespace System {
+class IDisposable;
 }
 namespace System::Collections::Generic {
 template <typename T> class HashSet_1;
 }
 namespace GlobalNamespace {
-template <typename TResult> class __OVRTask_1__InternalDataRemover;
+template <typename TResult, typename T> class __OVRTask_1__InternalData_1;
+}
+namespace GlobalNamespace {
+template <typename TResult, typename T> class __OVRTask_1__IncrementalResultSubscriber_1;
+}
+namespace GlobalNamespace {
+template <typename TResult> class __OVRTask_1__CallbackInvoker;
+}
+namespace GlobalNamespace {
+template <typename TResult, typename T> struct __OVRTask_1__CallbackWithState_1;
+}
+namespace System {
+template <typename T1, typename T2> class Action_2;
 }
 namespace System::Runtime::CompilerServices {
 class INotifyCompletion;

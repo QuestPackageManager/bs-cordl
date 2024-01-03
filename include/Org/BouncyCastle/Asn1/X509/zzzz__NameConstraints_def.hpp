@@ -7,20 +7,20 @@ CORDL_MODULE_EXPORT(NameConstraints)
 namespace System {
 class Object;
 }
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
-}
 namespace System::Collections {
 class IList;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
 }
 namespace System::Collections {
 class ArrayList;
 }
 namespace Org::BouncyCastle::Asn1 {
+class Asn1Sequence;
+}
+namespace Org::BouncyCastle::Asn1 {
 class DerSequence;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::X509 {

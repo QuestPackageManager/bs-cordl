@@ -14,22 +14,22 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Recoil)
 namespace UnityEngine {
-struct Quaternion;
+class Transform;
 }
 namespace RootMotion::FinalIK {
 struct __Recoil__Handedness;
-}
-namespace RootMotion::FinalIK {
-class IKEffector;
-}
-namespace UnityEngine {
-class Transform;
 }
 namespace RootMotion::FinalIK {
 class AimIK;
 }
 namespace UnityEngine {
 class AnimationCurve;
+}
+namespace UnityEngine {
+struct Quaternion;
+}
+namespace RootMotion::FinalIK {
+class IKEffector;
 }
 namespace RootMotion::FinalIK {
 class __Recoil__RecoilOffset;
@@ -62,7 +62,7 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::__Recoil__RecoilOffset);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12571))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12571)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12664))
 // CS Name: ::Recoil::RecoilOffset::EffectorLink*
 class CORDL_TYPE __Recoil__RecoilOffset__EffectorLink : public ::System::Object {
@@ -125,7 +125,7 @@ static_assert(offsetof(::GlobalNamespace::__Recoil__RecoilOffset__EffectorLink, 
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12665))
 // CS Name: ::Recoil::RecoilOffset*
 class CORDL_TYPE __Recoil__RecoilOffset : public ::System::Object {
@@ -303,8 +303,8 @@ static_assert(offsetof(::RootMotion::FinalIK::__Recoil__Handedness, value__) == 
 // SizeInfo { instance_size: 240, native_size: -1, calculated_instance_size: 240, calculated_native_size: 240, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(12656)), TypeDefinitionIndex(TypeDefinitionIndex(12666)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10249))} Self: TypeDefinitionIndex(TypeDefinitionIndex(12667)) CS Name: ::RootMotion.FinalIK::Recoil*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(12656)),
+// TypeDefinitionIndex(TypeDefinitionIndex(12666))} Self: TypeDefinitionIndex(TypeDefinitionIndex(12667)) CS Name: ::RootMotion.FinalIK::Recoil*
 class CORDL_TYPE Recoil : public ::RootMotion::FinalIK::OffsetModifier {
 public:
   // Declarations

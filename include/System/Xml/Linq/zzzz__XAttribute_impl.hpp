@@ -1,10 +1,10 @@
 #pragma once
 #include "System/Xml/Linq/zzzz__XObject_impl.hpp"
 #include "System/Xml/Linq/zzzz__XAttribute_def.hpp"
-#include "System/Xml/Linq/zzzz__XNamespace_def.hpp"
-#include "System/Xml/Linq/zzzz__XName_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "System/Xml/Linq/zzzz__XName_def.hpp"
 #include "System/Xml/zzzz__XmlNodeType_def.hpp"
+#include "System/Xml/Linq/zzzz__XNamespace_def.hpp"
 //  Writing Method size for method: ::System::Xml::Linq::XAttribute._ctor
 template <>
 

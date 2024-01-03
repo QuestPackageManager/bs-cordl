@@ -12,32 +12,32 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(GhostDuplicationEffect)
-namespace GlobalNamespace {
-struct __GhostDuplicationEffect__GhostEffectParams;
-}
-namespace GlobalNamespace {
-class __GhostDuplicationEffect____c__DisplayClass7_0;
-}
-namespace System::Collections {
-class IEnumerator;
-}
 namespace UnityEngine {
 struct Vector3;
+}
+namespace GlobalNamespace {
+struct __GhostDuplicationEffect__GhostEffectParams;
 }
 namespace Tweening {
 class TimeTweeningManager;
 }
-namespace UnityEngine {
-class CanvasGroup;
+namespace System::Collections {
+class IEnumerator;
+}
+namespace GlobalNamespace {
+class __GhostDuplicationEffect____c__DisplayClass7_0;
 }
 namespace GlobalNamespace {
 class __GhostDuplicationEffect___HideRedundantWithDelay_d__8;
 }
-namespace System {
-class IDisposable;
+namespace UnityEngine {
+class CanvasGroup;
 }
 namespace System {
 class Object;
+}
+namespace System {
+class IDisposable;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
@@ -70,7 +70,7 @@ MARK_VAL_T(::GlobalNamespace::__GhostDuplicationEffect__GhostEffectParams);
 // SizeInfo { instance_size: 72, native_size: 72, calculated_instance_size: 72, calculated_native_size: 85, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(16090)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(16090))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4859))
 // CS Name: ::GhostDuplicationEffect::GhostEffectParams
 struct CORDL_TYPE __GhostDuplicationEffect__GhostEffectParams {
@@ -163,7 +163,7 @@ static_assert(offsetof(::GlobalNamespace::__GhostDuplicationEffect__GhostEffectP
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 108, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(4859))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4859)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4860))
 // CS Name: ::GhostDuplicationEffect::<>c__DisplayClass7_0*
 class CORDL_TYPE __GhostDuplicationEffect____c__DisplayClass7_0 : public ::System::Object {

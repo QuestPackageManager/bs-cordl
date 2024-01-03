@@ -8,10 +8,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(BTSCharacterMaterialSwitcher)
 namespace GlobalNamespace {
-class __BTSCharacterMaterialSwitcher__MaterialPairs;
+class __BTSCharacterMaterialSwitcher__RendererMaterialsPairs;
 }
 namespace GlobalNamespace {
-class __BTSCharacterMaterialSwitcher__RendererMaterialsPairs;
+class __BTSCharacterMaterialSwitcher__MaterialPairs;
 }
 namespace UnityEngine {
 class Material;

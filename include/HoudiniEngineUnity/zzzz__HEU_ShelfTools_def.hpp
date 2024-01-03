@@ -9,22 +9,22 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(HEU_ShelfTools)
 namespace UnityEngine {
-struct Vector3;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+class GameObject;
 }
 namespace HoudiniEngineUnity {
 class HEU_Shelf;
 }
-namespace UnityEngine {
-struct Quaternion;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace UnityEngine {
-class GameObject;
+struct Vector3;
 }
 namespace HoudiniEngineUnity {
 class HEU_ShelfToolData;
+}
+namespace UnityEngine {
+struct Quaternion;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {

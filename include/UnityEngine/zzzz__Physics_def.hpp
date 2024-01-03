@@ -9,10 +9,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Physics)
 namespace UnityEngine {
-struct ModifiableContactPair;
+struct QueryTriggerInteraction;
+}
+namespace System {
+template <typename T1, typename T2> class Action_2;
 }
 namespace UnityEngine {
-struct PhysicsScene;
+struct ModifiableContactPair;
 }
 namespace UnityEngine {
 class Collider;
@@ -20,17 +23,14 @@ class Collider;
 namespace UnityEngine {
 struct Ray;
 }
+namespace UnityEngine {
+struct Vector3;
+}
 namespace Unity::Collections {
 template <typename T> struct NativeArray_1;
 }
 namespace UnityEngine {
-struct Vector3;
-}
-namespace System {
-template <typename T1, typename T2> class Action_2;
-}
-namespace UnityEngine {
-struct QueryTriggerInteraction;
+struct PhysicsScene;
 }
 namespace UnityEngine {
 struct RaycastHit;

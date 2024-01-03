@@ -14,13 +14,13 @@ namespace UnityEngine::InputSystem::Controls {
 class ButtonControl;
 }
 namespace UnityEngine::InputSystem::XInput {
+struct __XInputController__DeviceFlags;
+}
+namespace UnityEngine::InputSystem::XInput {
 struct __XInputController__DeviceSubType;
 }
 namespace UnityEngine::InputSystem::XInput {
 struct __XInputController__Capabilities;
-}
-namespace UnityEngine::InputSystem::XInput {
-struct __XInputController__DeviceFlags;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::XInput {
@@ -286,7 +286,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::XInput::__XInputController__C
 // SizeInfo { instance_size: 504, native_size: -1, calculated_instance_size: 504, calculated_native_size: 500, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::XInput {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6352)), TypeDefinitionIndex(TypeDefinitionIndex(6353)), TypeDefinitionIndex(TypeDefinitionIndex(6237))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6237)), TypeDefinitionIndex(TypeDefinitionIndex(6353)), TypeDefinitionIndex(TypeDefinitionIndex(6352))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6355))
 // CS Name: ::UnityEngine.InputSystem.XInput::XInputController*
 class CORDL_TYPE XInputController : public ::UnityEngine::InputSystem::Gamepad {

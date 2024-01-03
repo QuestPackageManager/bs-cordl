@@ -3,8 +3,8 @@
 #include "UnityEngine/Networking/zzzz__DownloadHandler_impl.hpp"
 #include "UnityEngine/Networking/zzzz__DownloadHandlerAudioClip_def.hpp"
 #include "UnityEngine/zzzz__AudioType_def.hpp"
-#include "Unity/Collections/zzzz__NativeArray_1_def.hpp"
 #include "UnityEngine/Networking/zzzz__UnityWebRequest_def.hpp"
+#include "Unity/Collections/zzzz__NativeArray_1_def.hpp"
 #include "UnityEngine/zzzz__AudioClip_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Networking::DownloadHandlerAudioClip.Create
 template <>

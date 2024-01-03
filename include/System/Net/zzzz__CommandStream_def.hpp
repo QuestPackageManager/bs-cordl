@@ -11,53 +11,53 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(CommandStream)
-namespace System::Net {
-struct __CommandStream__PipelineInstruction;
+namespace System {
+class IAsyncResult;
 }
-namespace System::Net {
-struct WebExceptionStatus;
-}
-namespace System::Net {
-class ReceiveState;
+namespace System::Text {
+class Decoder;
 }
 namespace System {
 class Object;
 }
+namespace System::Net {
+class __CommandStream__PipelineEntry;
+}
+namespace System::Net {
+class ResponseDescription;
+}
 namespace System {
-class IAsyncResult;
+class Exception;
 }
 namespace System::Net::Sockets {
 class TcpClient;
 }
 namespace System::Net {
-struct FtpStatusCode;
+struct WebExceptionStatus;
 }
 namespace System {
 class AsyncCallback;
 }
 namespace System::Net {
+class ReceiveState;
+}
+namespace System::Net {
 class WebRequest;
+}
+namespace System::Net {
+struct __CommandStream__PipelineInstruction;
+}
+namespace System::Net {
+struct __CommandStream__PipelineEntryFlags;
 }
 namespace System::Text {
 class Encoding;
-}
-namespace System::Net {
-class __CommandStream__PipelineEntry;
-}
-namespace System {
-class Exception;
-}
-namespace System::Text {
-class Decoder;
 }
 namespace System::IO {
 class Stream;
 }
 namespace System::Net {
-class ResponseDescription;
-}
-namespace System::Net {
-struct __CommandStream__PipelineEntryFlags;
+struct FtpStatusCode;
 }
 // Forward declare root types
 namespace System::Net {
@@ -201,7 +201,7 @@ static_assert(offsetof(::System::Net::__CommandStream__PipelineEntryFlags, value
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9034)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9034))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9035))
 // CS Name: ::CommandStream::PipelineEntry*
 class CORDL_TYPE __CommandStream__PipelineEntry : public ::System::Object {

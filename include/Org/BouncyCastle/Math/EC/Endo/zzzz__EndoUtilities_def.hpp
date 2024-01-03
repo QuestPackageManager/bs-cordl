@@ -7,11 +7,8 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(EndoUtilities)
-namespace Org::BouncyCastle::Math::EC {
-class ECPoint;
-}
 namespace Org::BouncyCastle::Math::EC::Endo {
-class ECEndomorphism;
+class ScalarSplitParameters;
 }
 namespace Org::BouncyCastle::Math {
 class BigInteger;
@@ -19,17 +16,20 @@ class BigInteger;
 namespace Org::BouncyCastle::Math::EC::Endo {
 class __EndoUtilities__MapPointCallback;
 }
+namespace Org::BouncyCastle::Math::EC {
+class ECPoint;
+}
 namespace Org::BouncyCastle::Math::EC::Endo {
-class ScalarSplitParameters;
+class ECEndomorphism;
 }
 namespace Org::BouncyCastle::Math::EC::Multiplier {
 class PreCompInfo;
 }
-namespace Org::BouncyCastle::Math::EC::Multiplier {
-class IPreCompCallback;
-}
 namespace Org::BouncyCastle::Math::EC::Endo {
 class EndoPreCompInfo;
+}
+namespace Org::BouncyCastle::Math::EC::Multiplier {
+class IPreCompCallback;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Math::EC::Endo {

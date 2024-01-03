@@ -10,11 +10,11 @@ CORDL_MODULE_EXPORT(ShakeDigest)
 namespace Org::BouncyCastle::Crypto {
 class IXof;
 }
-namespace Org::BouncyCastle::Crypto {
-class IDigest;
-}
 namespace Org::BouncyCastle::Utilities {
 class IMemoable;
+}
+namespace Org::BouncyCastle::Crypto {
+class IDigest;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Digests {

@@ -8,14 +8,26 @@ CORDL_MODULE_EXPORT(SchemaElementDecl)
 namespace System::Xml::Schema {
 class XmlSchemaAnyAttribute;
 }
-namespace System::Xml {
-class IDtdDefaultAttributeInfo;
-}
 namespace System::Xml::Schema {
 class XmlSchemaDatatype;
 }
+namespace System::Collections::Generic {
+template <typename T> class IList_1;
+}
 namespace System::Xml {
 class IDtdAttributeInfo;
+}
+namespace System::Xml {
+class IDtdAttributeListInfo;
+}
+namespace System::Xml {
+class IDtdDefaultAttributeInfo;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace System::Xml {
+class XmlQualifiedName;
 }
 namespace System::Xml::Schema {
 class SchemaAttDef;
@@ -24,22 +36,10 @@ namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace System::Collections::Generic {
-template <typename T> class IList_1;
-}
-namespace System::Xml {
-class IDtdAttributeListInfo;
+template <typename T> class IEnumerable_1;
 }
 namespace System::Xml::Schema {
 class ContentValidator;
-}
-namespace System::Xml {
-class XmlQualifiedName;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
 }
 // Forward declare root types
 namespace System::Xml::Schema {

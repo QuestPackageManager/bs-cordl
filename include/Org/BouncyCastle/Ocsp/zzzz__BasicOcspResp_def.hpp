@@ -7,8 +7,8 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(BasicOcspResp)
-namespace System::Collections {
-class IList;
+namespace System {
+struct DateTime;
 }
 namespace Org::BouncyCastle::X509 {
 class X509Certificate;
@@ -17,28 +17,28 @@ namespace Org::BouncyCastle::X509::Store {
 class IX509Store;
 }
 namespace Org::BouncyCastle::Ocsp {
-class SingleResp;
-}
-namespace Org::BouncyCastle::Crypto {
-class AsymmetricKeyParameter;
-}
-namespace System {
-class Object;
-}
-namespace System {
-struct DateTime;
-}
-namespace Org::BouncyCastle::Ocsp {
-class RespID;
+class RespData;
 }
 namespace Org::BouncyCastle::Asn1::Ocsp {
 class BasicOcspResponse;
 }
 namespace Org::BouncyCastle::Ocsp {
-class RespData;
+class SingleResp;
+}
+namespace System {
+class Object;
 }
 namespace Org::BouncyCastle::Asn1::Ocsp {
 class ResponseData;
+}
+namespace Org::BouncyCastle::Ocsp {
+class RespID;
+}
+namespace System::Collections {
+class IList;
+}
+namespace Org::BouncyCastle::Crypto {
+class AsymmetricKeyParameter;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class X509Extensions;

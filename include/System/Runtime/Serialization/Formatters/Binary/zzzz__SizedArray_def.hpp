@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(SizedArray)
 namespace System {
-class Object;
+class ICloneable;
 }
 namespace System {
-class ICloneable;
+class Object;
 }
 // Forward declare root types
 namespace System::Runtime::Serialization::Formatters::Binary {

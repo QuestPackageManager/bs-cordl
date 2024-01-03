@@ -8,14 +8,14 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(IKSolverFABRIK)
-namespace UnityEngine {
-struct Quaternion;
-}
 namespace RootMotion::FinalIK {
 class __IKSolver__IterationDelegate;
 }
 namespace UnityEngine {
 struct Vector3;
+}
+namespace UnityEngine {
+struct Quaternion;
 }
 // Forward declare root types
 namespace RootMotion::FinalIK {

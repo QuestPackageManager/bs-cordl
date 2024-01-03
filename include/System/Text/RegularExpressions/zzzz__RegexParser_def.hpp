@@ -12,10 +12,13 @@ namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace System::Text::RegularExpressions {
-class RegexCharClass;
+class RegexNode;
 }
-namespace System {
-class ArgumentException;
+namespace System::Text::RegularExpressions {
+class RegexReplacement;
+}
+namespace System::Text::RegularExpressions {
+class RegexCharClass;
 }
 namespace System::Globalization {
 class CultureInfo;
@@ -24,16 +27,13 @@ namespace System::Collections {
 class Hashtable;
 }
 namespace System::Text::RegularExpressions {
-class RegexReplacement;
-}
-namespace System::Text::RegularExpressions {
-class RegexNode;
+class RegexTree;
 }
 namespace System::Text::RegularExpressions {
 struct RegexOptions;
 }
-namespace System::Text::RegularExpressions {
-class RegexTree;
+namespace System {
+class ArgumentException;
 }
 // Forward declare root types
 namespace System::Text::RegularExpressions {

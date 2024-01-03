@@ -8,16 +8,16 @@ namespace GlobalNamespace {
 class TutorialSongController;
 }
 namespace GlobalNamespace {
-class AudioListenerController;
+class IGamePause;
+}
+namespace GlobalNamespace {
+class SaberManager;
 }
 namespace System {
 class Action;
 }
 namespace GlobalNamespace {
-class SaberManager;
-}
-namespace GlobalNamespace {
-class IGamePause;
+class AudioListenerController;
 }
 // Forward declare root types
 namespace GlobalNamespace {

@@ -12,10 +12,10 @@ namespace UnityEngine::Android {
 class __AndroidAssetPacks__AssetPackManagerStatusQueryCallback;
 }
 namespace UnityEngine::Android {
-class __AndroidAssetPacks__AssetPackManagerDownloadStatusCallback;
+class __AndroidAssetPacks__AssetPackManagerMobileDataConfirmationCallback;
 }
 namespace UnityEngine::Android {
-class __AndroidAssetPacks__AssetPackManagerMobileDataConfirmationCallback;
+class __AndroidAssetPacks__AssetPackManagerDownloadStatusCallback;
 }
 namespace UnityEngine {
 class AndroidJavaObject;
@@ -29,14 +29,14 @@ class AndroidAssetPackInfo;
 namespace UnityEngine::Android {
 class AndroidAssetPackUseMobileDataRequestResult;
 }
+namespace System {
+template <typename T1, typename T2> class Action_2;
+}
 namespace UnityEngine::Android {
 class AndroidAssetPackState;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
-}
-namespace System {
-template <typename T1, typename T2> class Action_2;
 }
 // Forward declare root types
 namespace UnityEngine::Android {

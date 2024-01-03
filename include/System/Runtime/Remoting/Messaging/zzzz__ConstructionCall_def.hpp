@@ -9,17 +9,8 @@ CORDL_MODULE_EXPORT(ConstructionCall)
 namespace System::Runtime::Remoting::Messaging {
 class IMethodCallMessage;
 }
-namespace System {
-class Object;
-}
-namespace System::Runtime::Serialization {
-class SerializationInfo;
-}
-namespace System::Runtime::Serialization {
-struct StreamingContext;
-}
-namespace System {
-class Type;
+namespace System::Runtime::Remoting::Proxies {
+class RemotingProxy;
 }
 namespace System::Runtime::Remoting::Messaging {
 class IMessage;
@@ -27,17 +18,26 @@ class IMessage;
 namespace System::Collections {
 class IList;
 }
-namespace System::Runtime::Remoting::Proxies {
-class RemotingProxy;
-}
-namespace System::Collections {
-class IDictionary;
-}
 namespace System::Runtime::Remoting::Activation {
 class IActivator;
 }
 namespace System::Runtime::Remoting::Messaging {
 class IMethodMessage;
+}
+namespace System {
+class Object;
+}
+namespace System {
+class Type;
+}
+namespace System::Collections {
+class IDictionary;
+}
+namespace System::Runtime::Serialization {
+class SerializationInfo;
+}
+namespace System::Runtime::Serialization {
+struct StreamingContext;
 }
 namespace System::Runtime::Remoting::Activation {
 class IConstructionCallMessage;

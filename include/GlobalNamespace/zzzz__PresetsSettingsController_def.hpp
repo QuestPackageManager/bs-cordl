@@ -8,10 +8,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(PresetsSettingsController)
 namespace GlobalNamespace {
-class NamedPresetsSO;
+class IntSO;
 }
 namespace GlobalNamespace {
-class IntSO;
+class NamedPresetsSO;
 }
 // Forward declare root types
 namespace GlobalNamespace {

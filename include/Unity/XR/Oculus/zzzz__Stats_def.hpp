@@ -8,16 +8,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Stats)
 namespace Unity::XR::Oculus {
-class __Stats__PerfMetrics;
+class __Stats__AdaptivePerformance;
 }
 namespace Unity::XR::Oculus {
 class __Stats__AppMetrics;
 }
+namespace Unity::XR::Oculus {
+class __Stats__PerfMetrics;
+}
 namespace UnityEngine {
 class IntegratedSubsystem;
-}
-namespace Unity::XR::Oculus {
-class __Stats__AdaptivePerformance;
 }
 // Forward declare root types
 namespace Unity::XR::Oculus {

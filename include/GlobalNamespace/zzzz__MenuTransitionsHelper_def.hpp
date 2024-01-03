@@ -3,107 +3,103 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__DisconnectedReason_def.hpp"
+#include "GlobalNamespace/zzzz__RecordingToolManager_def.hpp"
 #include "GlobalNamespace/zzzz__TutorialScenesTransitionSetupDataSO_def.hpp"
+#include "System/zzzz__Nullable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(MenuTransitionsHelper)
 namespace GlobalNamespace {
-class GameplayModifiers;
-}
-namespace System {
-template <typename T> struct Nullable_1;
+class MissionObjective;
 }
 namespace GlobalNamespace {
-struct __RecordingToolManager__SetupData;
-}
-namespace GlobalNamespace {
-class AppInitScenesTransitionSetupDataContainerSO;
-}
-namespace GlobalNamespace {
-class __MenuTransitionsHelper____c__DisplayClass30_0;
-}
-namespace GlobalNamespace {
-class PlayerSpecificSettings;
-}
-namespace System {
-template <typename T> class Action_1;
+class __MenuTransitionsHelper____c__DisplayClass31_0;
 }
 namespace GlobalNamespace {
 class BeatmapDataCache;
 }
 namespace GlobalNamespace {
-class IDifficultyBeatmap;
-}
-namespace GlobalNamespace {
-class __MenuTransitionsHelper____c__DisplayClass36_0;
-}
-namespace GlobalNamespace {
-class LevelCompletionResults;
-}
-namespace System {
-template <typename T1, typename T2> class Action_2;
-}
-namespace Zenject {
-class DiContainer;
-}
-namespace GlobalNamespace {
-class BeatmapCharacteristicSO;
-}
-namespace GlobalNamespace {
-class MultiplayerLevelScenesTransitionSetupDataSO;
-}
-namespace BeatmapEditor3D {
-class BeatmapEditorStandardLevelScenesTransitionSetupDataSO;
-}
-namespace GlobalNamespace {
-class MultiplayerResultsData;
-}
-namespace GlobalNamespace {
-class __MenuTransitionsHelper____c__DisplayClass29_0;
-}
-namespace GlobalNamespace {
-class IPreviewBeatmapLevel;
-}
-namespace GlobalNamespace {
-class OverrideEnvironmentSettings;
-}
-namespace GlobalNamespace {
-class GameScenesManager;
-}
-namespace GlobalNamespace {
-struct __TutorialScenesTransitionSetupDataSO__TutorialEndStateType;
-}
-namespace GlobalNamespace {
-class BeatmapEditorScenesTransitionSetupDataSO;
-}
-namespace GlobalNamespace {
-class CreditsScenesTransitionSetupDataSO;
-}
-namespace GlobalNamespace {
-class ColorScheme;
-}
-namespace GlobalNamespace {
-class TutorialScenesTransitionSetupDataSO;
+class GameplayModifiers;
 }
 namespace GlobalNamespace {
 class __MenuTransitionsHelper____c__DisplayClass33_0;
 }
 namespace GlobalNamespace {
-class StandardLevelScenesTransitionSetupDataSO;
+class MultiplayerLevelScenesTransitionSetupDataSO;
+}
+namespace GlobalNamespace {
+class __MenuTransitionsHelper____c__DisplayClass36_0;
+}
+namespace GlobalNamespace {
+class MissionLevelScenesTransitionSetupDataSO;
+}
+namespace GlobalNamespace {
+class CreditsScenesTransitionSetupDataSO;
+}
+namespace GlobalNamespace {
+class BeatmapEditorScenesTransitionSetupDataSO;
+}
+namespace GlobalNamespace {
+class LevelCompletionResults;
+}
+namespace GlobalNamespace {
+class MainSettingsModelSO;
+}
+namespace System {
+template <typename T> class Action_1;
+}
+namespace GlobalNamespace {
+class __MenuTransitionsHelper____c__DisplayClass29_0;
+}
+namespace GlobalNamespace {
+class MultiplayerResultsData;
+}
+namespace GlobalNamespace {
+class ColorScheme;
+}
+namespace GlobalNamespace {
+struct __TutorialScenesTransitionSetupDataSO__TutorialEndStateType;
 }
 namespace GlobalNamespace {
 class __MenuTransitionsHelper____c__DisplayClass32_0;
 }
 namespace GlobalNamespace {
+class TutorialScenesTransitionSetupDataSO;
+}
+namespace GlobalNamespace {
+class OverrideEnvironmentSettings;
+}
+namespace System {
+template <typename T1, typename T2> class Action_2;
+}
+namespace GlobalNamespace {
+class IPreviewBeatmapLevel;
+}
+namespace GlobalNamespace {
+class IDifficultyBeatmap;
+}
+namespace GlobalNamespace {
+class PlayerSpecificSettings;
+}
+namespace GlobalNamespace {
 class PracticeSettings;
 }
 namespace GlobalNamespace {
-class MissionObjective;
+class StandardLevelScenesTransitionSetupDataSO;
 }
 namespace GlobalNamespace {
-class __MenuTransitionsHelper____c__DisplayClass31_0;
+class BeatmapCharacteristicSO;
+}
+namespace GlobalNamespace {
+struct DisconnectedReason;
+}
+namespace GlobalNamespace {
+class AppInitScenesTransitionSetupDataContainerSO;
+}
+namespace GlobalNamespace {
+class GameScenesManager;
 }
 namespace System {
 class Action;
@@ -111,20 +107,20 @@ class Action;
 namespace GlobalNamespace {
 struct BeatmapDifficulty;
 }
-namespace GlobalNamespace {
-class LevelScenesTransitionSetupDataSO;
-}
-namespace GlobalNamespace {
-struct DisconnectedReason;
+namespace BeatmapEditor3D {
+class BeatmapEditorStandardLevelScenesTransitionSetupDataSO;
 }
 namespace GlobalNamespace {
 class MissionCompletionResults;
 }
 namespace GlobalNamespace {
-class MainSettingsModelSO;
+class LevelScenesTransitionSetupDataSO;
 }
 namespace GlobalNamespace {
-class MissionLevelScenesTransitionSetupDataSO;
+class __MenuTransitionsHelper____c__DisplayClass30_0;
+}
+namespace Zenject {
+class DiContainer;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -322,7 +318,7 @@ static_assert(offsetof(::GlobalNamespace::__MenuTransitionsHelper____c__DisplayC
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12720)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12720))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6070))
 // CS Name: ::MenuTransitionsHelper::<>c__DisplayClass31_0*
 class CORDL_TYPE __MenuTransitionsHelper____c__DisplayClass31_0 : public ::System::Object {
@@ -632,9 +628,8 @@ static_assert(offsetof(::GlobalNamespace::__MenuTransitionsHelper____c__DisplayC
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6074))
-// CS Name: ::MenuTransitionsHelper*
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 4778 }), TypeDefinitionIndex(TypeDefinitionIndex(10225)),
+// TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(5962))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6074)) CS Name: ::MenuTransitionsHelper*
 class CORDL_TYPE MenuTransitionsHelper : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations

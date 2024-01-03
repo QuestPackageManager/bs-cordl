@@ -6,9 +6,6 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(GameObjectSwitchEventEffect)
 namespace GlobalNamespace {
-class ColorBoostBeatmapEventData;
-}
-namespace GlobalNamespace {
 class BeatmapDataCallbackWrapper;
 }
 namespace GlobalNamespace {
@@ -16,6 +13,9 @@ class BeatmapCallbacksController;
 }
 namespace UnityEngine {
 class GameObject;
+}
+namespace GlobalNamespace {
+class ColorBoostBeatmapEventData;
 }
 // Forward declare root types
 namespace GlobalNamespace {

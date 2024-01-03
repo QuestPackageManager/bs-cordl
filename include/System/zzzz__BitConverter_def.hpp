@@ -9,16 +9,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(BitConverter)
 namespace System {
+template <typename T> struct Span_1;
+}
+namespace System {
 class __BitConverter____c;
 }
 namespace System {
-template <typename T> struct Span_1;
+template <typename T1, typename T2, typename T3> struct ValueTuple_3;
 }
 namespace System::Buffers {
 template <typename T, typename TArg> class SpanAction_2;
-}
-namespace System {
-template <typename T1, typename T2, typename T3> struct ValueTuple_3;
 }
 // Forward declare root types
 namespace System {

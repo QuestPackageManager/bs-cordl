@@ -4,9 +4,6 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(ThreadHelper)
-namespace System {
-class Object;
-}
 namespace System::Threading {
 class ContextCallback;
 }
@@ -15,6 +12,9 @@ class Delegate;
 }
 namespace System::Threading {
 class ExecutionContext;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::Threading {

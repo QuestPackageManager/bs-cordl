@@ -3,27 +3,19 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
+#include "UnityEngine/zzzz__MeshTopology_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(MeshUtility)
-namespace UnityEngine::ProBuilder {
-class ProBuilderMesh;
-}
-namespace System::Text {
-class StringBuilder;
-}
 namespace UnityEngine {
 class GameObject;
 }
-namespace System {
-template <typename T, typename TResult> class Func_2;
-}
-namespace UnityEngine {
-struct Vector3;
-}
 namespace UnityEngine::ProBuilder {
 class __MeshUtility____c;
+}
+namespace System::Text {
+class StringBuilder;
 }
 namespace UnityEngine::ProBuilder {
 class Vertex;
@@ -34,11 +26,17 @@ template <typename T> class IList_1;
 namespace UnityEngine {
 class Mesh;
 }
+namespace System {
+template <typename T, typename TResult> class Func_2;
+}
+namespace UnityEngine {
+struct Vector3;
+}
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
-namespace UnityEngine {
-struct MeshTopology;
+namespace UnityEngine::ProBuilder {
+class ProBuilderMesh;
 }
 namespace UnityEngine {
 struct Bounds;
@@ -117,7 +115,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::__MeshU
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10109)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12144))
 // CS Name: ::UnityEngine.ProBuilder::MeshUtility*
 class CORDL_TYPE MeshUtility : public ::System::Object {

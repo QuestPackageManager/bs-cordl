@@ -8,28 +8,28 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(RandomizedPitch)
 namespace GlobalNamespace {
-class __RandomizedPitch___RestorePitchWithDelay_d__10;
-}
-namespace UnityEngine {
-class Coroutine;
+class __RandomizedPitch___PlayDelayedCoroutine_d__9;
 }
 namespace System::Collections {
 class IEnumerator;
 }
 namespace GlobalNamespace {
-class __RandomizedPitch___PlayDelayedCoroutine_d__9;
+class __RandomizedPitch___RestorePitchWithDelay_d__10;
 }
 namespace UnityEngine {
 class AudioSource;
+}
+namespace UnityEngine {
+class Coroutine;
+}
+namespace System {
+class Object;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
 namespace System {
 class IDisposable;
-}
-namespace System {
-class Object;
 }
 // Forward declare root types
 namespace GlobalNamespace {

@@ -9,35 +9,35 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(HEU_HAPIUtility)
-namespace UnityEngine {
-struct Quaternion;
-}
-namespace UnityEngine {
-struct Matrix4x4;
+namespace HoudiniEngineUnity {
+struct HAPI_Viewport;
 }
 namespace HoudiniEngineUnity {
 struct HAPI_ObjectInfo;
 }
 namespace HoudiniEngineUnity {
-struct HAPI_NodeInfo;
+struct HAPI_PartType;
 }
 namespace HoudiniEngineUnity {
-class HEU_SessionBase;
+struct __HEU_HoudiniAsset__HEU_AssetType;
 }
 namespace HoudiniEngineUnity {
-struct HAPI_Viewport;
-}
-namespace HoudiniEngineUnity {
-struct HAPI_AttributeInfo;
+struct HAPI_SessionSyncInfo;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace HoudiniEngineUnity {
-struct HAPI_CookOptions;
+class HEU_SessionBase;
 }
 namespace HoudiniEngineUnity {
-struct HAPI_PartType;
+struct HAPI_TransformEuler;
+}
+namespace UnityEngine {
+struct Vector3;
+}
+namespace HoudiniEngineUnity {
+struct HAPI_AttributeInfo;
 }
 namespace UnityEngine {
 class Transform;
@@ -45,32 +45,32 @@ class Transform;
 namespace HoudiniEngineUnity {
 struct HAPI_AttributeOwner;
 }
-namespace UnityEngine {
-struct Vector3;
+namespace HoudiniEngineUnity {
+struct HAPI_NodeInfo;
 }
 namespace UnityEngine {
 class Object;
 }
 namespace HoudiniEngineUnity {
-class HEU_HoudiniAssetRoot;
+struct HAPI_Transform;
 }
-namespace HoudiniEngineUnity {
-struct __HEU_HoudiniAsset__HEU_AssetType;
-}
-namespace HoudiniEngineUnity {
-struct HAPI_TransformEuler;
+namespace UnityEngine {
+struct Matrix4x4;
 }
 namespace UnityEngine {
 class AnimationCurve;
 }
-namespace HoudiniEngineUnity {
-struct HAPI_SessionSyncInfo;
-}
 namespace UnityEngine {
 class GameObject;
 }
+namespace UnityEngine {
+struct Quaternion;
+}
 namespace HoudiniEngineUnity {
-struct HAPI_Transform;
+class HEU_HoudiniAssetRoot;
+}
+namespace HoudiniEngineUnity {
+struct HAPI_CookOptions;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {

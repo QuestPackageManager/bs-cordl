@@ -6,14 +6,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(EqualityComparer_1)
-namespace System::Collections::Generic {
-template <typename T> class IEqualityComparer_1;
-}
 namespace System {
 class Object;
 }
 namespace System::Collections {
 class IEqualityComparer;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEqualityComparer_1;
 }
 // Forward declare root types
 namespace System::Collections::Generic {

@@ -1,12 +1,12 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__PlayerAllOverallStatsData_def.hpp"
-#include "GlobalNamespace/zzzz__MissionNode_def.hpp"
-#include "GlobalNamespace/zzzz__LevelCompletionResults_def.hpp"
-#include "GlobalNamespace/zzzz__MissionCompletionResults_def.hpp"
 #include "GlobalNamespace/zzzz__IDifficultyBeatmap_def.hpp"
 #include "System/zzzz__Action_2_def.hpp"
+#include "GlobalNamespace/zzzz__MissionNode_def.hpp"
 #include "GlobalNamespace/zzzz__PlayerAllOverallStatsData_def.hpp"
+#include "GlobalNamespace/zzzz__MissionCompletionResults_def.hpp"
+#include "GlobalNamespace/zzzz__LevelCompletionResults_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData.get_goodCutsCount
 template <>
 

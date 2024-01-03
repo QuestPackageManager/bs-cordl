@@ -1,15 +1,15 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__ComputedTransitionUtils_def.hpp"
+#include "UnityEngine/UIElements/zzzz__ComputedStyle_def.hpp"
+#include "UnityEngine/UIElements/zzzz__EasingMode_def.hpp"
+#include "UnityEngine/UIElements/zzzz__StylePropertyName_def.hpp"
+#include "UnityEngine/UIElements/zzzz__ComputedTransitionProperty_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__ComputedTransitionUtils_def.hpp"
 #include "UnityEngine/UIElements/zzzz__TimeValue_def.hpp"
-#include "UnityEngine/UIElements/zzzz__EasingMode_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
-#include "UnityEngine/UIElements/zzzz__ComputedTransitionProperty_def.hpp"
-#include "UnityEngine/UIElements/zzzz__ComputedStyle_def.hpp"
 #include "UnityEngine/UIElements/StyleSheets/zzzz__StylePropertyId_def.hpp"
-#include "UnityEngine/UIElements/zzzz__StylePropertyName_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::__ComputedTransitionUtils____c._ctor
 template <>
 

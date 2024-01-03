@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(Vector2MagnitudeComparer)
-namespace System::Collections::Generic {
-template <typename T> class IComparer_1;
-}
 namespace UnityEngine {
 struct Vector2;
+}
+namespace System::Collections::Generic {
+template <typename T> class IComparer_1;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::Utilities {

@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(ImageWithHint)
+namespace HMUI {
+class HoverHint;
+}
 namespace UnityEngine::UI {
 class Image;
 }
 namespace UnityEngine {
 class Sprite;
-}
-namespace HMUI {
-class HoverHint;
 }
 // Forward declare root types
 namespace HMUI {

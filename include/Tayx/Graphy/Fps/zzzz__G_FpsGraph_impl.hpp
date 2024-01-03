@@ -1,11 +1,11 @@
 #pragma once
 #include "Tayx/Graphy/Graph/zzzz__G_Graph_impl.hpp"
 #include "Tayx/Graphy/Fps/zzzz__G_FpsGraph_def.hpp"
-#include "UnityEngine/zzzz__Shader_def.hpp"
-#include "UnityEngine/UI/zzzz__Image_def.hpp"
-#include "Tayx/Graphy/Fps/zzzz__G_FpsMonitor_def.hpp"
-#include "Tayx/Graphy/zzzz__GraphyManager_def.hpp"
 #include "Tayx/Graphy/zzzz__G_GraphShader_def.hpp"
+#include "Tayx/Graphy/zzzz__GraphyManager_def.hpp"
+#include "Tayx/Graphy/Fps/zzzz__G_FpsMonitor_def.hpp"
+#include "UnityEngine/UI/zzzz__Image_def.hpp"
+#include "UnityEngine/zzzz__Shader_def.hpp"
 //  Writing Method size for method: ::Tayx::Graphy::Fps::G_FpsGraph.Update
 template <>
 

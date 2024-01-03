@@ -6,6 +6,9 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(DiagnosticsTraceWriter)
+namespace Newtonsoft::Json::Serialization {
+class ITraceWriter;
+}
 namespace System::Diagnostics {
 struct TraceEventType;
 }
@@ -14,9 +17,6 @@ struct TraceLevel;
 }
 namespace System {
 class Exception;
-}
-namespace Newtonsoft::Json::Serialization {
-class ITraceWriter;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Serialization {

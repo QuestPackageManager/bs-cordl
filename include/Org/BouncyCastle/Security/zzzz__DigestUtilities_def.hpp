@@ -8,20 +8,20 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(DigestUtilities)
-namespace System::Collections {
-class IDictionary;
+namespace Org::BouncyCastle::Security {
+struct __DigestUtilities__DigestAlgorithm;
 }
 namespace System::Collections {
 class ICollection;
 }
-namespace Org::BouncyCastle::Security {
-struct __DigestUtilities__DigestAlgorithm;
+namespace Org::BouncyCastle::Crypto {
+class IDigest;
 }
 namespace Org::BouncyCastle::Asn1 {
 class DerObjectIdentifier;
 }
-namespace Org::BouncyCastle::Crypto {
-class IDigest;
+namespace System::Collections {
+class IDictionary;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Security {

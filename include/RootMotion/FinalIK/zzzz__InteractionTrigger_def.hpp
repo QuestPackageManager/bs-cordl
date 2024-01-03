@@ -18,14 +18,8 @@ class InteractionObject;
 namespace RootMotion::FinalIK {
 struct FullBodyBipedEffector;
 }
-namespace RootMotion::FinalIK {
-class __InteractionTrigger__CameraPosition;
-}
 namespace UnityEngine {
 class Transform;
-}
-namespace RootMotion::FinalIK {
-class __InteractionTrigger__CharacterPosition;
 }
 namespace UnityEngine {
 struct RaycastHit;
@@ -33,11 +27,17 @@ struct RaycastHit;
 namespace RootMotion::FinalIK {
 class __InteractionTrigger__Range;
 }
-namespace UnityEngine {
-class Collider;
+namespace RootMotion::FinalIK {
+class __InteractionTrigger__CameraPosition;
+}
+namespace RootMotion::FinalIK {
+class __InteractionTrigger__CharacterPosition;
 }
 namespace UnityEngine {
 struct Quaternion;
+}
+namespace UnityEngine {
+class Collider;
 }
 namespace UnityEngine {
 struct Vector3;

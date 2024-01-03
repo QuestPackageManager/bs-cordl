@@ -2,14 +2,14 @@
 #include "Tayx/Graphy/zzzz__GraphyManager_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "Tayx/Graphy/Advanced/zzzz__G_AdvancedData_def.hpp"
-#include "System/Text/zzzz__StringBuilder_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "Tayx/Graphy/zzzz__GraphyManager_def.hpp"
+#include "Tayx/Graphy/UI/zzzz__IModifiableState_def.hpp"
 #include "UnityEngine/UI/zzzz__Image_def.hpp"
 #include "Tayx/Graphy/UI/zzzz__IMovable_def.hpp"
-#include "UnityEngine/UI/zzzz__Text_def.hpp"
-#include "Tayx/Graphy/UI/zzzz__IModifiableState_def.hpp"
+#include "Tayx/Graphy/zzzz__GraphyManager_def.hpp"
+#include "System/Text/zzzz__StringBuilder_def.hpp"
 #include "UnityEngine/zzzz__RectTransform_def.hpp"
+#include "UnityEngine/UI/zzzz__Text_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 //  Writing Method size for method: ::Tayx::Graphy::Advanced::G_AdvancedData.OnEnable
 template <>
 

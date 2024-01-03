@@ -7,16 +7,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(IMethodMessage)
 namespace System::Runtime::Remoting::Messaging {
-class IMessage;
-}
-namespace System::Runtime::Remoting::Messaging {
 class LogicalCallContext;
+}
+namespace System::Reflection {
+class MethodBase;
 }
 namespace System {
 class Object;
 }
-namespace System::Reflection {
-class MethodBase;
+namespace System::Runtime::Remoting::Messaging {
+class IMessage;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting::Messaging {

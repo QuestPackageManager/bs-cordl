@@ -9,11 +9,47 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(TypeDescriptor)
+namespace System::Collections {
+class IDictionary;
+}
+namespace System::ComponentModel {
+class TypeConverter;
+}
+namespace System::ComponentModel {
+class __TypeDescriptor__TypeDescriptorInterface;
+}
+namespace System::ComponentModel {
+class __TypeDescriptor__MemberDescriptorComparer;
+}
+namespace System::ComponentModel {
+class AttributeCollection;
+}
 namespace System::ComponentModel {
 class MemberDescriptor;
 }
 namespace System::Collections {
-class ICollection;
+class IList;
+}
+namespace System::Diagnostics {
+class BooleanSwitch;
+}
+namespace System::ComponentModel {
+class __TypeDescriptor__IUnimplemented;
+}
+namespace System {
+class Type;
+}
+namespace System::Collections {
+class ArrayList;
+}
+namespace System {
+class Attribute;
+}
+namespace System {
+struct Guid;
+}
+namespace System::ComponentModel {
+class TypeDescriptionProvider;
 }
 namespace System::ComponentModel {
 class ICustomTypeDescriptor;
@@ -21,8 +57,17 @@ class ICustomTypeDescriptor;
 namespace System::ComponentModel {
 class WeakHashtable;
 }
-namespace System {
-struct Guid;
+namespace System::ComponentModel {
+class EventDescriptorCollection;
+}
+namespace System::ComponentModel {
+class __TypeDescriptor__FilterCacheItem;
+}
+namespace System::ComponentModel {
+class __TypeDescriptor__TypeDescriptionNode;
+}
+namespace System::ComponentModel {
+class __TypeDescriptor__AttributeFilterCacheItem;
 }
 namespace System::ComponentModel {
 class __TypeDescriptor__MergedTypeDescriptor;
@@ -31,64 +76,19 @@ namespace System::ComponentModel {
 class PropertyDescriptorCollection;
 }
 namespace System::ComponentModel {
-class EventDescriptorCollection;
-}
-namespace System::ComponentModel {
-class __TypeDescriptor__IUnimplemented;
+class __TypeDescriptor__TypeDescriptorComObject;
 }
 namespace System::Collections {
-class IList;
+class ICollection;
 }
 namespace System::ComponentModel {
 class RefreshEventHandler;
 }
-namespace System::ComponentModel {
-class __TypeDescriptor__FilterCacheItem;
-}
-namespace System::ComponentModel {
-class __TypeDescriptor__MemberDescriptorComparer;
-}
-namespace System::ComponentModel {
-class __TypeDescriptor__TypeDescriptorComObject;
-}
-namespace System::Diagnostics {
-class BooleanSwitch;
-}
-namespace System {
-class Type;
-}
-namespace System::ComponentModel {
-class __TypeDescriptor__AttributeFilterCacheItem;
-}
 namespace System::Collections {
-class IDictionary;
-}
-namespace System::ComponentModel {
-class AttributeCollection;
-}
-namespace System::ComponentModel {
-class TypeDescriptionProvider;
-}
-namespace System::Collections {
-class ArrayList;
-}
-namespace System::ComponentModel {
-class TypeConverter;
-}
-namespace System::ComponentModel {
-class __TypeDescriptor__TypeDescriptorInterface;
+class Hashtable;
 }
 namespace System {
 class Object;
-}
-namespace System::ComponentModel {
-class __TypeDescriptor__TypeDescriptionNode;
-}
-namespace System {
-class Attribute;
-}
-namespace System::Collections {
-class Hashtable;
 }
 namespace System::ComponentModel::Design {
 class ITypeDescriptorFilterService;

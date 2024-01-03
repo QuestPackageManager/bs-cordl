@@ -1,12 +1,12 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerConnectedPlayerSpectatingSpot_def.hpp"
-#include "GlobalNamespace/zzzz__IMultiplayerObservable_def.hpp"
-#include "GlobalNamespace/zzzz__MultiplayerSpectatingSpotManager_def.hpp"
-#include "GlobalNamespace/zzzz__IConnectedPlayer_def.hpp"
-#include "GlobalNamespace/zzzz__IMultiplayerSpectatingSpot_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
+#include "GlobalNamespace/zzzz__MultiplayerSpectatingSpotManager_def.hpp"
+#include "GlobalNamespace/zzzz__IMultiplayerObservable_def.hpp"
+#include "GlobalNamespace/zzzz__IConnectedPlayer_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
+#include "GlobalNamespace/zzzz__IMultiplayerSpectatingSpot_def.hpp"
 #include "GlobalNamespace/zzzz__IMultiplayerSessionManager_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::MultiplayerConnectedPlayerSpectatingSpot.add_hasBeenRemovedEvent
 template <>

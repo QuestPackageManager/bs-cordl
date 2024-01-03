@@ -11,13 +11,13 @@ namespace System {
 template <typename T> class IEquatable_1;
 }
 namespace GlobalNamespace {
-struct OVRAnchor;
-}
-namespace GlobalNamespace {
 template <typename T> class IOVRAnchorComponent_1;
 }
 namespace GlobalNamespace {
 struct __OVRPlugin__SpaceComponentType;
+}
+namespace GlobalNamespace {
+struct OVRAnchor;
 }
 namespace GlobalNamespace {
 template <typename TResult> struct OVRTask_1;

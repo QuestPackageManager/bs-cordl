@@ -14,11 +14,11 @@ struct NavMeshHit;
 namespace UnityEngine::AI {
 class NavMeshPath;
 }
-namespace UnityEngine::AI {
-class __NavMesh__OnNavMeshPreUpdate;
-}
 namespace UnityEngine {
 struct Vector3;
+}
+namespace UnityEngine::AI {
+class __NavMesh__OnNavMeshPreUpdate;
 }
 namespace System {
 class Object;

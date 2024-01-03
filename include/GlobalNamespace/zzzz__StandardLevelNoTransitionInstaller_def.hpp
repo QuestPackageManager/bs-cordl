@@ -4,14 +4,14 @@
 CORDL_MODULE_INIT
 #include "Zenject/zzzz__NoTransitionInstaller_def.hpp"
 CORDL_MODULE_EXPORT(StandardLevelNoTransitionInstaller)
-namespace Zenject {
-class DiContainer;
+namespace GlobalNamespace {
+class StandardLevelScenesTransitionSetupDataSO;
 }
 namespace GlobalNamespace {
 class StandardLevelNoTransitionInstallerData;
 }
-namespace GlobalNamespace {
-class StandardLevelScenesTransitionSetupDataSO;
+namespace Zenject {
+class DiContainer;
 }
 // Forward declare root types
 namespace GlobalNamespace {

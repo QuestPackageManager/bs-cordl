@@ -3,10 +3,27 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
+#include "UnityEngine/InputSystem/LowLevel/zzzz__InputEventPtr_def.hpp"
+#include "UnityEngine/InputSystem/LowLevel/zzzz__InputUpdateType_def.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(InputState)
+namespace System {
+template <typename T1, typename T2> class Action_2;
+}
+namespace UnityEngine::InputSystem::Utilities {
+struct FourCC;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+struct InputUpdateType;
+}
+namespace UnityEngine::InputSystem {
+class InputControl;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+class __InputState__StateChangeMonitorDelegate;
+}
 namespace System {
 template <typename T1, typename T2, typename T3, typename T4> class Action_4;
 }
@@ -16,23 +33,8 @@ class IInputStateChangeMonitor;
 namespace UnityEngine::InputSystem::LowLevel {
 struct InputEventPtr;
 }
-namespace UnityEngine::InputSystem::Utilities {
-struct FourCC;
-}
-namespace System {
-template <typename T1, typename T2> class Action_2;
-}
 namespace UnityEngine::InputSystem {
 class InputDevice;
-}
-namespace UnityEngine::InputSystem {
-class InputControl;
-}
-namespace UnityEngine::InputSystem::LowLevel {
-class __InputState__StateChangeMonitorDelegate;
-}
-namespace UnityEngine::InputSystem::LowLevel {
-struct InputUpdateType;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::LowLevel {
@@ -124,7 +126,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::LowLevel::__InputState__State
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6536)), TypeDefinitionIndex(TypeDefinitionIndex(6553)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6565))
 // CS Name: ::UnityEngine.InputSystem.LowLevel::InputState*
 class CORDL_TYPE InputState : public ::System::Object {

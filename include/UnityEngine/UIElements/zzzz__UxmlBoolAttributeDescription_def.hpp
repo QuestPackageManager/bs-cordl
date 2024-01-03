@@ -8,13 +8,13 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(UxmlBoolAttributeDescription)
 namespace UnityEngine::UIElements {
-class __UxmlBoolAttributeDescription____c;
+struct CreationContext;
 }
 namespace UnityEngine::UIElements {
 class IUxmlAttributes;
 }
 namespace UnityEngine::UIElements {
-struct CreationContext;
+class __UxmlBoolAttributeDescription____c;
 }
 namespace System {
 template <typename T1, typename T2, typename TResult> class Func_3;

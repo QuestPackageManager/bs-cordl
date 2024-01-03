@@ -6,20 +6,20 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(MultiplayerPositionDisplay)
-namespace TMPro {
-class TextMeshPro;
-}
 namespace GlobalNamespace {
-class MultiplayerScoreProvider;
-}
-namespace GlobalNamespace {
-class __MultiplayerScoreProvider__RankedPlayer;
+class IConnectedPlayer;
 }
 namespace UnityEngine {
 struct Color;
 }
 namespace GlobalNamespace {
-class IConnectedPlayer;
+class __MultiplayerScoreProvider__RankedPlayer;
+}
+namespace GlobalNamespace {
+class MultiplayerScoreProvider;
+}
+namespace TMPro {
+class TextMeshPro;
 }
 // Forward declare root types
 namespace GlobalNamespace {

@@ -1,13 +1,13 @@
 #pragma once
 #include "System/Net/Sockets/zzzz__NetworkStream_impl.hpp"
 #include "System/Net/zzzz__TlsStream_def.hpp"
-#include "System/Net/Security/zzzz__SslStream_def.hpp"
+#include "System/zzzz__IAsyncResult_def.hpp"
 #include "System/Net/Sockets/zzzz__Socket_def.hpp"
+#include "System/zzzz__AsyncCallback_def.hpp"
+#include "System/Net/Sockets/zzzz__NetworkStream_def.hpp"
+#include "System/Net/Security/zzzz__SslStream_def.hpp"
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509CertificateCollection_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "System/Net/Sockets/zzzz__NetworkStream_def.hpp"
-#include "System/zzzz__AsyncCallback_def.hpp"
-#include "System/zzzz__IAsyncResult_def.hpp"
 //  Writing Method size for method: ::System::Net::TlsStream._ctor
 template <>
 

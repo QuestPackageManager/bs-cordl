@@ -4,23 +4,23 @@
 CORDL_MODULE_INIT
 #include "BeatSaber/AvatarCore/zzzz__AbstractAdapterInstallerSO_def.hpp"
 CORDL_MODULE_EXPORT(BeatAvatarAdapterInstallerSO)
-namespace Zenject {
-class DiContainer;
-}
-namespace BeatSaber::BeatAvatarAdapter::AvatarEditor {
-class EditAvatarColorViewController;
-}
 namespace BeatSaber::BeatAvatarAdapter {
 class BeatAvatarSystemSettings;
 }
 namespace BeatSaber::BeatAvatarAdapter::AvatarEditor {
-class BeatAvatarEditorViewController;
+class EditAvatarColorViewController;
+}
+namespace BeatSaber::BeatAvatarSDK {
+class AvatarPartsModelSO;
 }
 namespace BeatSaber::BeatAvatarSDK {
 class SkinColorSetSO;
 }
-namespace BeatSaber::BeatAvatarSDK {
-class AvatarPartsModelSO;
+namespace Zenject {
+class DiContainer;
+}
+namespace BeatSaber::BeatAvatarAdapter::AvatarEditor {
+class BeatAvatarEditorViewController;
 }
 // Forward declare root types
 namespace BeatSaber::BeatAvatarAdapter {

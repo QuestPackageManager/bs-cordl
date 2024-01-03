@@ -3,9 +3,9 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Runtime/Serialization/Formatters/Binary/zzzz__ValueFixup_def.hpp"
 #include "System/zzzz__Array_def.hpp"
+#include "System/Runtime/Serialization/Formatters/Binary/zzzz__ReadObjectInfo_def.hpp"
 #include "System/Runtime/Serialization/Formatters/Binary/zzzz__ParseRecord_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "System/Runtime/Serialization/Formatters/Binary/zzzz__ReadObjectInfo_def.hpp"
 #include "System/Reflection/zzzz__MemberInfo_def.hpp"
 //  Writing Method size for method: ::System::Runtime::Serialization::Formatters::Binary::ValueFixup._ctor
 template <>

@@ -18,8 +18,8 @@ MARK_REF_PTR_T(::GlobalNamespace::BurstSliderNoteDisappearingArrowController);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4738)), TypeDefinitionIndex(TypeDefinitionIndex(4742)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(4742), inst: 288
-// })} Self: TypeDefinitionIndex(TypeDefinitionIndex(4739)) CS Name: ::BurstSliderNoteDisappearingArrowController*
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(4742), inst: 288 }), TypeDefinitionIndex(TypeDefinitionIndex(4742)),
+// TypeDefinitionIndex(TypeDefinitionIndex(4738))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4739)) CS Name: ::BurstSliderNoteDisappearingArrowController*
 class CORDL_TYPE BurstSliderNoteDisappearingArrowController : public ::GlobalNamespace::DisappearingArrowControllerBase_1<::GlobalNamespace::BurstSliderGameNoteController*> {
 public:
   // Declarations

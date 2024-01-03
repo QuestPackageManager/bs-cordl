@@ -10,37 +10,37 @@ namespace BeatSaber::AvatarCore {
 class AvatarEditorFlowCoordinator;
 }
 namespace BeatSaber::AvatarCore {
-class AvatarSelectionView;
-}
-namespace GlobalNamespace {
-struct MultiplayerAvatarData;
-}
-namespace BeatSaber::AvatarCore {
-struct AvatarSystemIdentifier;
-}
-namespace BeatSaber::AvatarCore {
-class IAvatarSystemMetadata;
-}
-namespace BeatSaber::AvatarCore {
 class IOptionalAvatarDataProvider;
 }
 namespace System::Threading::Tasks {
 template <typename TResult> class Task_1;
 }
+namespace BeatSaber::AvatarCore {
+class Avatar;
+}
+namespace BeatSaber::AvatarCore {
+struct AvatarSystemIdentifier;
+}
 namespace Zenject {
 class DiContainer;
 }
 namespace BeatSaber::AvatarCore {
-class IAvatarSystem;
-}
-namespace BeatSaber::AvatarCore {
-struct AvatarDisplayContext;
+class AvatarSelectionView;
 }
 namespace System::Collections::Generic {
 template <typename T> class IReadOnlyCollection_1;
 }
 namespace BeatSaber::AvatarCore {
-class Avatar;
+struct AvatarDisplayContext;
+}
+namespace BeatSaber::AvatarCore {
+class IAvatarSystemMetadata;
+}
+namespace BeatSaber::AvatarCore {
+class IAvatarSystem;
+}
+namespace GlobalNamespace {
+struct MultiplayerAvatarData;
 }
 // Forward declare root types
 namespace BeatSaber::AvatarCore {

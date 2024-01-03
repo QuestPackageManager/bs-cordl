@@ -6,14 +6,14 @@ CORDL_MODULE_INIT
 #include "System/Security/AccessControl/zzzz__AuthorizationRule_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(AccessRule)
+namespace System::Security::AccessControl {
+struct InheritanceFlags;
+}
 namespace System::Security::Principal {
 class IdentityReference;
 }
 namespace System::Security::AccessControl {
 struct AccessControlType;
-}
-namespace System::Security::AccessControl {
-struct InheritanceFlags;
 }
 namespace System::Security::AccessControl {
 struct PropagationFlags;
@@ -28,7 +28,7 @@ MARK_REF_PTR_T(::System::Security::AccessControl::AccessRule);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Security::AccessControl {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3021)), TypeDefinitionIndex(TypeDefinitionIndex(3014))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3014)), TypeDefinitionIndex(TypeDefinitionIndex(3021))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3015))
 // CS Name: ::System.Security.AccessControl::AccessRule*
 class CORDL_TYPE AccessRule : public ::System::Security::AccessControl::AuthorizationRule {

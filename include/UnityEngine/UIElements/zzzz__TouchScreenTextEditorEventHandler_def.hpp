@@ -5,22 +5,22 @@ CORDL_MODULE_INIT
 #include "UnityEngine/UIElements/zzzz__TextEditorEventHandler_def.hpp"
 CORDL_MODULE_EXPORT(TouchScreenTextEditorEventHandler)
 namespace UnityEngine::UIElements {
-class IVisualElementScheduledItem;
-}
-namespace UnityEngine::UIElements {
 class EventBase;
 }
 namespace UnityEngine::UIElements {
 class ITextInputField;
 }
 namespace UnityEngine::UIElements {
-class VisualElement;
+class IVisualElementScheduledItem;
+}
+namespace UnityEngine::UIElements {
+class TextEditorEngine;
 }
 namespace UnityEngine {
 class TouchScreenKeyboard;
 }
 namespace UnityEngine::UIElements {
-class TextEditorEngine;
+class VisualElement;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

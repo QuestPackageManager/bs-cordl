@@ -6,29 +6,29 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Stack)
-namespace System {
-class Array;
+namespace System::Collections {
+class __Stack__StackDebugView;
+}
+namespace System::Collections {
+class IEnumerable;
 }
 namespace System {
 class ICloneable;
 }
 namespace System::Collections {
-class IEnumerable;
+class IEnumerator;
 }
 namespace System::Collections {
-class __Stack__StackDebugView;
+class __Stack__StackEnumerator;
+}
+namespace System {
+class Array;
 }
 namespace System {
 class Object;
 }
 namespace System::Collections {
 class ICollection;
-}
-namespace System::Collections {
-class __Stack__StackEnumerator;
-}
-namespace System::Collections {
-class IEnumerator;
 }
 // Forward declare root types
 namespace System::Collections {

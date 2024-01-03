@@ -1,11 +1,11 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__MainEffectController_def.hpp"
+#include "GlobalNamespace/zzzz__FloatSO_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
 #include "UnityEngine/zzzz__RenderTexture_def.hpp"
 #include "GlobalNamespace/zzzz__MainEffectContainerSO_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
 #include "GlobalNamespace/zzzz__ImageEffectController_def.hpp"
-#include "GlobalNamespace/zzzz__FloatSO_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::MainEffectController.add_afterImageEffectEvent
 template <>
 

@@ -5,17 +5,17 @@ CORDL_MODULE_INIT
 #include "System/Threading/Tasks/zzzz__ValueTask_1_def.hpp"
 #include <cstddef>
 CORDL_MODULE_EXPORT(ValueTaskAwaiter_1)
+namespace System {
+class Action;
+}
+namespace System::Threading::Tasks {
+template <typename TResult> struct ValueTask_1;
+}
 namespace System::Runtime::CompilerServices {
 class ICriticalNotifyCompletion;
 }
 namespace System::Runtime::CompilerServices {
 class INotifyCompletion;
-}
-namespace System::Threading::Tasks {
-template <typename TResult> struct ValueTask_1;
-}
-namespace System {
-class Action;
 }
 // Forward declare root types
 namespace System::Runtime::CompilerServices {
@@ -29,7 +29,7 @@ namespace System::Runtime::CompilerServices {
 // cpp template
 template <typename TResult>
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2767)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2767), inst: 5301 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2767), inst: 5301 }), TypeDefinitionIndex(TypeDefinitionIndex(2767))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3391))
 // CS Name: ::System.Runtime.CompilerServices::ValueTaskAwaiter`1<TResult>
 struct CORDL_TYPE ValueTaskAwaiter_1 {

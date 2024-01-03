@@ -9,14 +9,14 @@ CORDL_MODULE_EXPORT(RespData)
 namespace Org::BouncyCastle::Asn1::Ocsp {
 class ResponseData;
 }
-namespace System {
-struct DateTime;
+namespace Org::BouncyCastle::Asn1::X509 {
+class X509Extensions;
 }
 namespace Org::BouncyCastle::Ocsp {
 class SingleResp;
 }
-namespace Org::BouncyCastle::Asn1::X509 {
-class X509Extensions;
+namespace System {
+struct DateTime;
 }
 namespace Org::BouncyCastle::Ocsp {
 class RespID;

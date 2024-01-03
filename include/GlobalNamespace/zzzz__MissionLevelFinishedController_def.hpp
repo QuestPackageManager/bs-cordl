@@ -5,6 +5,9 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(MissionLevelFinishedController)
 namespace GlobalNamespace {
+class ILevelEndActions;
+}
+namespace GlobalNamespace {
 class PrepareLevelCompletionResults;
 }
 namespace GlobalNamespace {
@@ -12,9 +15,6 @@ class MissionObjectiveCheckersManager;
 }
 namespace GlobalNamespace {
 class MissionLevelScenesTransitionSetupDataSO;
-}
-namespace GlobalNamespace {
-class ILevelEndActions;
 }
 // Forward declare root types
 namespace GlobalNamespace {

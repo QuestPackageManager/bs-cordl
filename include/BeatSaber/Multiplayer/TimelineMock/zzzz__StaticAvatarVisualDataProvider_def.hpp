@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__MultiplayerAvatarsData_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(StaticAvatarVisualDataProvider)
-namespace BeatSaber::AvatarCore {
-class IAvatarVisualDataProvider;
-}
 namespace GlobalNamespace {
 struct MultiplayerAvatarsData;
+}
+namespace BeatSaber::AvatarCore {
+class IAvatarVisualDataProvider;
 }
 // Forward declare root types
 namespace BeatSaber::Multiplayer::TimelineMock {

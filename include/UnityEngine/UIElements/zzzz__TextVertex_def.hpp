@@ -8,13 +8,13 @@ CORDL_MODULE_INIT
 #include <cstddef>
 CORDL_MODULE_EXPORT(TextVertex)
 namespace UnityEngine {
+struct Vector3;
+}
+namespace UnityEngine {
 struct Color32;
 }
 namespace UnityEngine {
 struct Vector2;
-}
-namespace UnityEngine {
-struct Vector3;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -26,7 +26,7 @@ MARK_VAL_T(::UnityEngine::UIElements::TextVertex);
 // SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(10250)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10250)), TypeDefinitionIndex(TypeDefinitionIndex(10243))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15377))
 // CS Name: ::UnityEngine.UIElements::TextVertex
 struct CORDL_TYPE TextVertex {

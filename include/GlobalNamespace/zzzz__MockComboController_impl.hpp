@@ -2,8 +2,8 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__MockComboController_def.hpp"
 #include "System/zzzz__Action_def.hpp"
-#include "GlobalNamespace/zzzz__IComboController_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
+#include "GlobalNamespace/zzzz__IComboController_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::MockComboController.add_comboDidChangeEvent
 template <>
 

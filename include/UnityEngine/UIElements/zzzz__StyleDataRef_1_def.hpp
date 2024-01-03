@@ -10,11 +10,11 @@ CORDL_MODULE_EXPORT(StyleDataRef_1)
 namespace System {
 class Object;
 }
-namespace System {
-template <typename T> class IEquatable_1;
-}
 namespace UnityEngine::UIElements {
 template <typename T> class __StyleDataRef_1__RefCounted;
+}
+namespace System {
+template <typename T> class IEquatable_1;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

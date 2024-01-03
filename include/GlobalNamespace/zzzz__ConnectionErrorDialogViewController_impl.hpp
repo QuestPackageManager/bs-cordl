@@ -3,8 +3,8 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__ConnectionErrorDialogViewController_def.hpp"
 #include "GlobalNamespace/zzzz__ConnectionErrorDialogViewController_def.hpp"
-#include "GlobalNamespace/zzzz__DisconnectedReason_def.hpp"
 #include "System/zzzz__Action_def.hpp"
+#include "GlobalNamespace/zzzz__DisconnectedReason_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::__ConnectionErrorDialogViewController____c__DisplayClass0_0._ctor
 template <>
 

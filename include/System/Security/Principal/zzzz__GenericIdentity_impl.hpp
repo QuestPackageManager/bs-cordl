@@ -2,8 +2,8 @@
 #include "System/Security/Claims/zzzz__ClaimsIdentity_impl.hpp"
 #include "System/Security/Principal/zzzz__GenericIdentity_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "System/Security/Claims/zzzz__Claim_def.hpp"
 #include "System/Security/Claims/zzzz__ClaimsIdentity_def.hpp"
+#include "System/Security/Claims/zzzz__Claim_def.hpp"
 //  Writing Method size for method: ::System::Security::Principal::GenericIdentity._ctor
 template <>
 

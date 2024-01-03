@@ -6,20 +6,20 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(HEU_ObjectInstanceInfo)
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
 namespace HoudiniEngineUnity {
 template <typename T> class IEquivable_1;
 }
 namespace HoudiniEngineUnity {
 class HEU_InstancedInput;
 }
-namespace HoudiniEngineUnity {
-class HEU_PartData;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace UnityEngine {
 class GameObject;
+}
+namespace HoudiniEngineUnity {
+class HEU_PartData;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {

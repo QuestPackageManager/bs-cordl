@@ -1,18 +1,18 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Linq/zzzz__Lookup_2_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "System/Linq/zzzz__Lookup_2_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/Linq/zzzz__IGrouping_2_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
 #include "System/Collections/Generic/zzzz__IEqualityComparer_1_def.hpp"
+#include "System/Linq/zzzz__Lookup_2_def.hpp"
 #include "System/Collections/zzzz__IEnumerable_def.hpp"
-#include "System/Collections/Generic/zzzz__IList_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/Collections/Generic/zzzz__ICollection_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IList_1_def.hpp"
 /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<TElement>"
 template <typename TKey, typename TElement>
 constexpr GlobalNamespace::__Lookup_2__Grouping___GetEnumerator_d__7<TKey, TElement>::operator ::System::Collections::Generic::IEnumerator_1<TElement>*() noexcept {

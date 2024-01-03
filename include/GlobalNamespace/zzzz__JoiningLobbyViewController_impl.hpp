@@ -2,8 +2,8 @@
 #include "HMUI/zzzz__ViewController_impl.hpp"
 #include "GlobalNamespace/zzzz__JoiningLobbyViewController_def.hpp"
 #include "UnityEngine/UI/zzzz__Button_def.hpp"
-#include "GlobalNamespace/zzzz__LoadingControl_def.hpp"
 #include "System/zzzz__Action_def.hpp"
+#include "GlobalNamespace/zzzz__LoadingControl_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::JoiningLobbyViewController.add_didCancelEvent
 template <>
 

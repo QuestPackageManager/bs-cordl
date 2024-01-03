@@ -7,28 +7,28 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(SubContainerCreatorByNewPrefabMethod_5)
 namespace Zenject {
-class DiContainer;
+template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5> class __SubContainerCreatorByNewPrefabMethod_5____c__DisplayClass2_0;
 }
 namespace Zenject {
 class GameObjectContext;
 }
-namespace Zenject {
-template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5> class __SubContainerCreatorByNewPrefabMethod_5____c__DisplayClass2_0;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace Zenject {
 class IPrefabProvider;
 }
 namespace Zenject {
-class GameObjectCreationParameters;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+class DiContainer;
 }
 namespace Zenject {
 struct TypeValuePair;
 }
 namespace System {
 template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6> class Action_6;
+}
+namespace Zenject {
+class GameObjectCreationParameters;
 }
 namespace System {
 class Object;

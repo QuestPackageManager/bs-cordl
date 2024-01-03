@@ -3,11 +3,11 @@
 #include "UnityEngine/zzzz__Color_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "BeatSaber/BeatAvatarSDK/zzzz__MulticolorAvatarPartPropertyBlockSetter_def.hpp"
-#include "UnityEngine/zzzz__MaterialPropertyBlock_def.hpp"
-#include "BeatSaber/BeatAvatarSDK/zzzz__MulticolorAvatarPartPropertyBlockSetter_def.hpp"
 #include "UnityEngine/zzzz__Renderer_def.hpp"
-#include "UnityEngine/zzzz__Color_def.hpp"
 #include "UnityEngine/zzzz__Vector4_def.hpp"
+#include "BeatSaber/BeatAvatarSDK/zzzz__MulticolorAvatarPartPropertyBlockSetter_def.hpp"
+#include "UnityEngine/zzzz__MaterialPropertyBlock_def.hpp"
+#include "UnityEngine/zzzz__Color_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
 //  Writing Method size for method: ::BeatSaber::BeatAvatarSDK::__MulticolorAvatarPartPropertyBlockSetter__ColorData.get_defaultColor
 template <>

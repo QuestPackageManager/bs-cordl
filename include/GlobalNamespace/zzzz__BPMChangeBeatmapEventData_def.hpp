@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(BPMChangeBeatmapEventData)
 namespace GlobalNamespace {
-class BeatmapDataItem;
+class BeatmapEventData;
 }
 namespace GlobalNamespace {
-class BeatmapEventData;
+class BeatmapDataItem;
 }
 // Forward declare root types
 namespace GlobalNamespace {

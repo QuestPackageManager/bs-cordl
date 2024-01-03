@@ -5,17 +5,17 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(LightTranslationGroupEffectManager)
+namespace GlobalNamespace {
+class LightTranslationGroup;
+}
 namespace Zenject {
 class DiContainer;
 }
 namespace GlobalNamespace {
-class LightTranslationGroup;
+class LightTranslationGroupEffect;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
-}
-namespace GlobalNamespace {
-class LightTranslationGroupEffect;
 }
 // Forward declare root types
 namespace GlobalNamespace {

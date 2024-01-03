@@ -7,20 +7,20 @@ CORDL_MODULE_EXPORT(BaseMultiplayerStartGameCountdownViewController)
 namespace GlobalNamespace {
 class ILobbyPlayerData;
 }
-namespace HMUI {
-class ToggleBinder;
-}
 namespace GlobalNamespace {
 class ModifiersSelectionView;
 }
-namespace UnityEngine::UI {
-class Toggle;
+namespace HMUI {
+class ToggleBinder;
+}
+namespace System {
+template <typename T> class Action_1;
 }
 namespace GlobalNamespace {
 class BeatmapSelectionView;
 }
-namespace System {
-template <typename T> class Action_1;
+namespace UnityEngine::UI {
+class Toggle;
 }
 namespace GlobalNamespace {
 class ILevelGameplaySetupData;

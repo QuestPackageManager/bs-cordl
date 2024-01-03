@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__TypeLoadException_impl.hpp"
 #include "System/zzzz__TypeAccessException_def.hpp"
-#include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
 #include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
+#include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
 //  Writing Method size for method: ::System::TypeAccessException._ctor
 template <>
 

@@ -11,16 +11,16 @@ namespace UnityEngine {
 class Shader;
 }
 namespace UnityEngine {
-struct Color;
-}
-namespace UnityEngine {
-class RenderTexture;
-}
-namespace UnityEngine {
 struct Matrix4x4;
 }
 namespace UnityEngine {
 class Material;
+}
+namespace UnityEngine {
+struct Color;
+}
+namespace UnityEngine {
+class RenderTexture;
 }
 // Forward declare root types
 namespace GlobalNamespace {

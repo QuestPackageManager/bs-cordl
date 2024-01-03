@@ -8,11 +8,11 @@ CORDL_MODULE_EXPORT(ArgumentOutOfRangeException)
 namespace System::Runtime::Serialization {
 struct StreamingContext;
 }
-namespace System {
-class Object;
-}
 namespace System::Runtime::Serialization {
 class SerializationInfo;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System {

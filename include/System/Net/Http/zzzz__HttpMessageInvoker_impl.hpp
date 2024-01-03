@@ -3,9 +3,9 @@
 #include "System/Net/Http/zzzz__HttpMessageInvoker_def.hpp"
 #include "System/Net/Http/zzzz__HttpMessageHandler_def.hpp"
 #include "System/Net/Http/zzzz__HttpRequestMessage_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include "System/Threading/zzzz__CancellationToken_def.hpp"
 #include "System/Net/Http/zzzz__HttpResponseMessage_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
 //  Writing Method size for method: ::System::Net::Http::HttpMessageInvoker._ctor
 template <>

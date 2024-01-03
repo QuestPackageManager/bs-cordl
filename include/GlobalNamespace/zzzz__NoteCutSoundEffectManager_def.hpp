@@ -10,34 +10,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(NoteCutSoundEffectManager)
 namespace GlobalNamespace {
-class AudioTimeSyncController;
-}
-namespace GlobalNamespace {
-class BeatmapObjectManager;
-}
-namespace GlobalNamespace {
-class __NoteCutSoundEffectManager__InitData;
-}
-namespace GlobalNamespace {
-class SaberManager;
-}
-namespace GlobalNamespace {
-template <typename T> class MemoryPoolContainer_1;
+class NoteData;
 }
 namespace GlobalNamespace {
 class __NoteCutSoundEffect__Pool;
 }
 namespace GlobalNamespace {
-class NoteController;
+class AudioTimeSyncController;
 }
 namespace GlobalNamespace {
-class NoteData;
-}
-namespace GlobalNamespace {
-template <typename T> class RandomObjectPicker_1;
-}
-namespace GlobalNamespace {
-class NoteCutSoundEffect;
+template <typename T> class MemoryPoolContainer_1;
 }
 namespace GlobalNamespace {
 struct NoteCutInfo;
@@ -46,10 +28,28 @@ namespace UnityEngine {
 class AudioClip;
 }
 namespace GlobalNamespace {
+class INoteCutSoundEffectDidFinishEvent;
+}
+namespace GlobalNamespace {
+class __NoteCutSoundEffectManager__InitData;
+}
+namespace GlobalNamespace {
+class NoteController;
+}
+namespace GlobalNamespace {
+class SaberManager;
+}
+namespace GlobalNamespace {
 class AudioManagerSO;
 }
 namespace GlobalNamespace {
-class INoteCutSoundEffectDidFinishEvent;
+class BeatmapObjectManager;
+}
+namespace GlobalNamespace {
+template <typename T> class RandomObjectPicker_1;
+}
+namespace GlobalNamespace {
+class NoteCutSoundEffect;
 }
 // Forward declare root types
 namespace GlobalNamespace {

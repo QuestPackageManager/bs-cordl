@@ -1,9 +1,9 @@
 #pragma once
 #include "UnityEngine/InputSystem/zzzz__InputBindingComposite_impl.hpp"
 #include "UnityEngine/InputSystem/Composites/zzzz__TwoModifiersComposite_def.hpp"
+#include "System/zzzz__Type_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputBindingCompositeContext_def.hpp"
-#include "System/zzzz__Type_def.hpp"
 //  Writing Method size for method: ::UnityEngine::InputSystem::Composites::TwoModifiersComposite.get_valueType
 template <>
 

@@ -5,19 +5,19 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(SignalExtensions)
 namespace Zenject {
-class DiContainer;
+class SignalDeclarationBindInfo;
 }
 namespace Zenject {
-template <typename TSignal> class BindSignalIdToBinder_1;
+class DeclareSignalIdRequireHandlerAsyncTickPriorityCopyBinder;
 }
 namespace System {
 class Type;
 }
 namespace Zenject {
-class SignalDeclarationBindInfo;
+class DiContainer;
 }
 namespace Zenject {
-class DeclareSignalIdRequireHandlerAsyncTickPriorityCopyBinder;
+template <typename TSignal> class BindSignalIdToBinder_1;
 }
 // Forward declare root types
 namespace Zenject {

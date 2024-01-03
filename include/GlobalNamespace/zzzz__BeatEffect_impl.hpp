@@ -3,16 +3,16 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "Zenject/zzzz__MonoMemoryPool_1_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatEffect_def.hpp"
+#include "UnityEngine/zzzz__SpriteRenderer_def.hpp"
 #include "GlobalNamespace/zzzz__LazyCopyHashSet_1_def.hpp"
 #include "GlobalNamespace/zzzz__ILazyCopyHashSet_1_def.hpp"
-#include "UnityEngine/zzzz__SpriteRenderer_def.hpp"
-#include "GlobalNamespace/zzzz__IBeatEffectDidFinishEvent_def.hpp"
-#include "UnityEngine/zzzz__Quaternion_def.hpp"
-#include "UnityEngine/zzzz__AnimationCurve_def.hpp"
-#include "GlobalNamespace/zzzz__BeatEffect_def.hpp"
-#include "UnityEngine/zzzz__Color_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
+#include "UnityEngine/zzzz__Quaternion_def.hpp"
+#include "GlobalNamespace/zzzz__IBeatEffectDidFinishEvent_def.hpp"
+#include "GlobalNamespace/zzzz__BeatEffect_def.hpp"
+#include "UnityEngine/zzzz__AnimationCurve_def.hpp"
 #include "GlobalNamespace/zzzz__TubeBloomPrePassLight_def.hpp"
+#include "UnityEngine/zzzz__Color_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::BeatEffect.get_didFinishEvent
 template <>
 

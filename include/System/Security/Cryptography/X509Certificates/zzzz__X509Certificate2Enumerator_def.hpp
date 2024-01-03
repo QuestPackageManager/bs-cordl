@@ -4,17 +4,17 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(X509Certificate2Enumerator)
-namespace System::Collections {
-class IEnumerator;
-}
-namespace System::Security::Cryptography::X509Certificates {
-class X509Certificate2Collection;
+namespace System {
+class Object;
 }
 namespace System::Security::Cryptography::X509Certificates {
 class X509Certificate2;
 }
-namespace System {
-class Object;
+namespace System::Security::Cryptography::X509Certificates {
+class X509Certificate2Collection;
+}
+namespace System::Collections {
+class IEnumerator;
 }
 // Forward declare root types
 namespace System::Security::Cryptography::X509Certificates {

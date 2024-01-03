@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(StandardScoreSyncState)
-namespace GlobalNamespace {
-struct __StandardScoreSyncState__Score;
-}
 namespace LiteNetLib::Utils {
-class NetDataWriter;
+class NetDataReader;
+}
+namespace GlobalNamespace {
+template <typename TStateTable, typename TType, typename TState> class IStateTable_3;
 }
 namespace LiteNetLib::Utils {
 class INetSerializable;
@@ -19,10 +19,10 @@ namespace GlobalNamespace {
 template <typename T> class IEquatableByReference_1;
 }
 namespace GlobalNamespace {
-template <typename TStateTable, typename TType, typename TState> class IStateTable_3;
+struct __StandardScoreSyncState__Score;
 }
 namespace LiteNetLib::Utils {
-class NetDataReader;
+class NetDataWriter;
 }
 // Forward declare root types
 namespace GlobalNamespace {

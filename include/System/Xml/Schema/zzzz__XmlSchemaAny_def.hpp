@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(XmlSchemaAny)
 namespace System::Xml::Schema {
-struct XmlSchemaContentProcessing;
+class NamespaceList;
 }
 namespace System::Xml::Schema {
-class NamespaceList;
+struct XmlSchemaContentProcessing;
 }
 // Forward declare root types
 namespace System::Xml::Schema {

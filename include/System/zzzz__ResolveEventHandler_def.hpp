@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ResolveEventHandler)
 namespace System {
-class Object;
+class ResolveEventArgs;
 }
 namespace System {
-class ResolveEventArgs;
+class Object;
 }
 namespace System::Reflection {
 class Assembly;

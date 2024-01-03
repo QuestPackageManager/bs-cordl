@@ -3,13 +3,13 @@
 #include "UnityEngine/zzzz__ScriptableObject_impl.hpp"
 #include "UnityEngine/zzzz__Vector2_impl.hpp"
 #include "TMPro/zzzz__TMP_Settings_def.hpp"
-#include "UnityEngine/zzzz__TextAsset_def.hpp"
-#include "TMPro/zzzz__TMP_FontAsset_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
-#include "TMPro/zzzz__TMP_SpriteAsset_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "UnityEngine/zzzz__TextAsset_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "TMPro/zzzz__TMP_Settings_def.hpp"
+#include "TMPro/zzzz__TMP_SpriteAsset_def.hpp"
+#include "TMPro/zzzz__TMP_FontAsset_def.hpp"
 #include "TMPro/zzzz__TMP_StyleSheet_def.hpp"
 //  Writing Method size for method: ::TMPro::__TMP_Settings__LineBreakingTable._ctor
 template <>

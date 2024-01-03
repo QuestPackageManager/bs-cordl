@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(IChannelSender)
-namespace System {
-class Object;
-}
 namespace System::Runtime::Remoting::Channels {
 class IChannel;
+}
+namespace System {
+class Object;
 }
 namespace System::Runtime::Remoting::Messaging {
 class IMessageSink;

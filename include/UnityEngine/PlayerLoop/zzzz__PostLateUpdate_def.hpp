@@ -5,142 +5,142 @@ CORDL_MODULE_INIT
 #include <cstddef>
 CORDL_MODULE_EXPORT(PostLateUpdate)
 namespace UnityEngine::PlayerLoop {
-struct __PostLateUpdate__PlayerSendFramePostPresent;
-}
-namespace UnityEngine::PlayerLoop {
-struct __PostLateUpdate__InputEndFrame;
-}
-namespace UnityEngine::PlayerLoop {
-struct __PostLateUpdate__GUIClearEvents;
-}
-namespace UnityEngine::PlayerLoop {
-struct __PostLateUpdate__UpdateVideo;
-}
-namespace UnityEngine::PlayerLoop {
-struct __PostLateUpdate__UpdateCaptureScreenshot;
-}
-namespace UnityEngine::PlayerLoop {
-struct __PostLateUpdate__DirectorRenderImage;
-}
-namespace UnityEngine::PlayerLoop {
-struct __PostLateUpdate__SortingGroupsUpdate;
-}
-namespace UnityEngine::PlayerLoop {
-struct __PostLateUpdate__UpdateCanvasRectTransform;
-}
-namespace UnityEngine::PlayerLoop {
-struct __PostLateUpdate__MemoryFrameMaintenance;
-}
-namespace UnityEngine::PlayerLoop {
-struct __PostLateUpdate__UpdateResolution;
-}
-namespace UnityEngine::PlayerLoop {
-struct __PostLateUpdate__ShaderHandleErrors;
-}
-namespace UnityEngine::PlayerLoop {
-struct __PostLateUpdate__UpdateCustomRenderTextures;
-}
-namespace UnityEngine::PlayerLoop {
-struct __PostLateUpdate__XRPreEndFrame;
-}
-namespace UnityEngine::PlayerLoop {
-struct __PostLateUpdate__UpdateLightProbeProxyVolumes;
-}
-namespace UnityEngine::PlayerLoop {
-struct __PostLateUpdate__XRPostPresent;
-}
-namespace UnityEngine::PlayerLoop {
-struct __PostLateUpdate__ProcessWebSendMessages;
-}
-namespace UnityEngine::PlayerLoop {
-struct __PostLateUpdate__XRPostLateUpdate;
-}
-namespace UnityEngine::PlayerLoop {
-struct __PostLateUpdate__PlayerEmitCanvasGeometry;
-}
-namespace UnityEngine::PlayerLoop {
-struct __PostLateUpdate__VFXUpdate;
-}
-namespace UnityEngine::PlayerLoop {
-struct __PostLateUpdate__ScriptRunDelayedDynamicFrameRate;
-}
-namespace UnityEngine::PlayerLoop {
-struct __PostLateUpdate__ExecuteGameCenterCallbacks;
-}
-namespace UnityEngine::PlayerLoop {
 struct __PostLateUpdate__ProfilerSynchronizeStats;
-}
-namespace UnityEngine::PlayerLoop {
-struct __PostLateUpdate__GraphicsWarmupPreloadedShaders;
-}
-namespace UnityEngine::PlayerLoop {
-struct __PostLateUpdate__UpdateAllSkinnedMeshes;
-}
-namespace UnityEngine::PlayerLoop {
-struct __PostLateUpdate__FinishFrameRendering;
-}
-namespace UnityEngine::PlayerLoop {
-struct __PostLateUpdate__EndGraphicsJobsAfterScriptLateUpdate;
-}
-namespace UnityEngine::PlayerLoop {
-struct __PostLateUpdate__PhysicsSkinnedClothBeginUpdate;
-}
-namespace UnityEngine::PlayerLoop {
-struct __PostLateUpdate__PhysicsSkinnedClothFinishUpdate;
-}
-namespace UnityEngine::PlayerLoop {
-struct __PostLateUpdate__PlayerUpdateCanvases;
-}
-namespace UnityEngine::PlayerLoop {
-struct __PostLateUpdate__EnlightenRuntimeUpdate;
-}
-namespace UnityEngine::PlayerLoop {
-struct __PostLateUpdate__ParticleSystemEndUpdateAll;
-}
-namespace UnityEngine::PlayerLoop {
-struct __PostLateUpdate__UpdateSubstance;
-}
-namespace UnityEngine::PlayerLoop {
-struct __PostLateUpdate__PlayerSendFrameComplete;
-}
-namespace UnityEngine::PlayerLoop {
-struct __PostLateUpdate__ResetInputAxis;
-}
-namespace UnityEngine::PlayerLoop {
-struct __PostLateUpdate__PlayerSendFrameStarted;
-}
-namespace UnityEngine::PlayerLoop {
-struct __PostLateUpdate__UpdateAudio;
-}
-namespace UnityEngine::PlayerLoop {
-struct __PostLateUpdate__UpdateAllRenderers;
-}
-namespace UnityEngine::PlayerLoop {
-struct __PostLateUpdate__UpdateVideoTextures;
-}
-namespace UnityEngine::PlayerLoop {
-struct __PostLateUpdate__BatchModeUpdate;
-}
-namespace UnityEngine::PlayerLoop {
-struct __PostLateUpdate__PresentAfterDraw;
-}
-namespace UnityEngine::PlayerLoop {
-struct __PostLateUpdate__ThreadedLoadingDebug;
 }
 namespace UnityEngine::PlayerLoop {
 struct __PostLateUpdate__ClearImmediateRenderers;
 }
 namespace UnityEngine::PlayerLoop {
-struct __PostLateUpdate__UpdateRectTransform;
-}
-namespace UnityEngine::PlayerLoop {
-struct __PostLateUpdate__ProfilerEndFrame;
+struct __PostLateUpdate__PhysicsSkinnedClothFinishUpdate;
 }
 namespace UnityEngine::PlayerLoop {
 struct __PostLateUpdate__TriggerEndOfFrameCallbacks;
 }
 namespace UnityEngine::PlayerLoop {
+struct __PostLateUpdate__ParticleSystemEndUpdateAll;
+}
+namespace UnityEngine::PlayerLoop {
+struct __PostLateUpdate__VFXUpdate;
+}
+namespace UnityEngine::PlayerLoop {
+struct __PostLateUpdate__PlayerEmitCanvasGeometry;
+}
+namespace UnityEngine::PlayerLoop {
 struct __PostLateUpdate__DirectorLateUpdate;
+}
+namespace UnityEngine::PlayerLoop {
+struct __PostLateUpdate__UpdateCaptureScreenshot;
+}
+namespace UnityEngine::PlayerLoop {
+struct __PostLateUpdate__SortingGroupsUpdate;
+}
+namespace UnityEngine::PlayerLoop {
+struct __PostLateUpdate__PresentAfterDraw;
+}
+namespace UnityEngine::PlayerLoop {
+struct __PostLateUpdate__UpdateCustomRenderTextures;
+}
+namespace UnityEngine::PlayerLoop {
+struct __PostLateUpdate__ExecuteGameCenterCallbacks;
+}
+namespace UnityEngine::PlayerLoop {
+struct __PostLateUpdate__MemoryFrameMaintenance;
+}
+namespace UnityEngine::PlayerLoop {
+struct __PostLateUpdate__UpdateVideoTextures;
+}
+namespace UnityEngine::PlayerLoop {
+struct __PostLateUpdate__UpdateAllRenderers;
+}
+namespace UnityEngine::PlayerLoop {
+struct __PostLateUpdate__UpdateResolution;
+}
+namespace UnityEngine::PlayerLoop {
+struct __PostLateUpdate__EnlightenRuntimeUpdate;
+}
+namespace UnityEngine::PlayerLoop {
+struct __PostLateUpdate__PhysicsSkinnedClothBeginUpdate;
+}
+namespace UnityEngine::PlayerLoop {
+struct __PostLateUpdate__PlayerSendFrameStarted;
+}
+namespace UnityEngine::PlayerLoop {
+struct __PostLateUpdate__UpdateRectTransform;
+}
+namespace UnityEngine::PlayerLoop {
+struct __PostLateUpdate__FinishFrameRendering;
+}
+namespace UnityEngine::PlayerLoop {
+struct __PostLateUpdate__XRPreEndFrame;
+}
+namespace UnityEngine::PlayerLoop {
+struct __PostLateUpdate__ThreadedLoadingDebug;
+}
+namespace UnityEngine::PlayerLoop {
+struct __PostLateUpdate__UpdateAudio;
+}
+namespace UnityEngine::PlayerLoop {
+struct __PostLateUpdate__UpdateCanvasRectTransform;
+}
+namespace UnityEngine::PlayerLoop {
+struct __PostLateUpdate__PlayerSendFramePostPresent;
+}
+namespace UnityEngine::PlayerLoop {
+struct __PostLateUpdate__ResetInputAxis;
+}
+namespace UnityEngine::PlayerLoop {
+struct __PostLateUpdate__XRPostPresent;
+}
+namespace UnityEngine::PlayerLoop {
+struct __PostLateUpdate__UpdateVideo;
+}
+namespace UnityEngine::PlayerLoop {
+struct __PostLateUpdate__ProfilerEndFrame;
+}
+namespace UnityEngine::PlayerLoop {
+struct __PostLateUpdate__ScriptRunDelayedDynamicFrameRate;
+}
+namespace UnityEngine::PlayerLoop {
+struct __PostLateUpdate__UpdateAllSkinnedMeshes;
+}
+namespace UnityEngine::PlayerLoop {
+struct __PostLateUpdate__UpdateSubstance;
+}
+namespace UnityEngine::PlayerLoop {
+struct __PostLateUpdate__PlayerUpdateCanvases;
+}
+namespace UnityEngine::PlayerLoop {
+struct __PostLateUpdate__InputEndFrame;
+}
+namespace UnityEngine::PlayerLoop {
+struct __PostLateUpdate__ShaderHandleErrors;
+}
+namespace UnityEngine::PlayerLoop {
+struct __PostLateUpdate__GraphicsWarmupPreloadedShaders;
+}
+namespace UnityEngine::PlayerLoop {
+struct __PostLateUpdate__BatchModeUpdate;
+}
+namespace UnityEngine::PlayerLoop {
+struct __PostLateUpdate__PlayerSendFrameComplete;
+}
+namespace UnityEngine::PlayerLoop {
+struct __PostLateUpdate__XRPostLateUpdate;
+}
+namespace UnityEngine::PlayerLoop {
+struct __PostLateUpdate__DirectorRenderImage;
+}
+namespace UnityEngine::PlayerLoop {
+struct __PostLateUpdate__EndGraphicsJobsAfterScriptLateUpdate;
+}
+namespace UnityEngine::PlayerLoop {
+struct __PostLateUpdate__ProcessWebSendMessages;
+}
+namespace UnityEngine::PlayerLoop {
+struct __PostLateUpdate__UpdateLightProbeProxyVolumes;
+}
+namespace UnityEngine::PlayerLoop {
+struct __PostLateUpdate__GUIClearEvents;
 }
 // Forward declare root types
 namespace UnityEngine::PlayerLoop {

@@ -15,11 +15,11 @@ class DiContainer;
 namespace Zenject {
 template <typename TParam1, typename TValue> class IFactory_2;
 }
-namespace System {
-class Object;
-}
 namespace Zenject {
 class InjectTypeInfo;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace Zenject {

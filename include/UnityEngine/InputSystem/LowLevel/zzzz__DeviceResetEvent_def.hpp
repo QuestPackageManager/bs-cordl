@@ -7,14 +7,14 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(DeviceResetEvent)
-namespace UnityEngine::InputSystem::LowLevel {
-struct InputEvent;
-}
 namespace UnityEngine::InputSystem::Utilities {
 struct FourCC;
 }
 namespace UnityEngine::InputSystem::LowLevel {
 class IInputEventTypeInfo;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+struct InputEvent;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::LowLevel {

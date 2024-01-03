@@ -1,12 +1,12 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatmapEventDataBoxGroupLists_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapEventDataBoxGroupList_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapEventDataBoxGroup_def.hpp"
 #include "System/Collections/Generic/zzzz__LinkedListNode_1_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapData_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "GlobalNamespace/zzzz__IBeatToTimeConvertor_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapEventDataBoxGroup_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapEventDataBoxGroupList_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapData_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::BeatmapEventDataBoxGroupLists._ctor
 template <>
 

@@ -5,47 +5,47 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(IStylePropertyAnimationSystem)
+namespace UnityEngine::UIElements {
+struct Scale;
+}
+namespace UnityEngine::UIElements {
+struct Translate;
+}
 namespace UnityEngine {
-struct Color;
+class Font;
 }
 namespace UnityEngine::UIElements {
 struct Length;
 }
 namespace UnityEngine::UIElements {
-struct Scale;
+class VisualElement;
 }
-namespace UnityEngine::UIElements {
-struct FontDefinition;
+namespace System {
+template <typename T, typename TResult> class Func_2;
 }
-namespace UnityEngine::UIElements {
-struct TransformOrigin;
-}
-namespace UnityEngine::UIElements {
-struct Translate;
-}
-namespace UnityEngine::UIElements {
-struct Rotate;
+namespace UnityEngine {
+struct Color;
 }
 namespace UnityEngine::UIElements::StyleSheets {
 struct StylePropertyId;
 }
 namespace UnityEngine::UIElements {
+struct FontDefinition;
+}
+namespace UnityEngine::UIElements {
 struct TextShadow;
+}
+namespace UnityEngine::UIElements {
+struct TransformOrigin;
+}
+namespace UnityEngine::UIElements {
+struct Rotate;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
-namespace System {
-template <typename T, typename TResult> class Func_2;
-}
-namespace UnityEngine::UIElements {
-class VisualElement;
-}
 namespace UnityEngine::UIElements {
 struct Background;
-}
-namespace UnityEngine {
-class Font;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

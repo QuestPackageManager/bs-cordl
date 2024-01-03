@@ -4,32 +4,32 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(SafeSerializationManager)
-namespace System {
-template <typename TEventArgs> class EventHandler_1;
-}
-namespace System::Runtime::Serialization {
-class ISerializable;
-}
-namespace System {
-class RuntimeType;
-}
 namespace System::Runtime::Serialization {
 class SafeSerializationEventArgs;
 }
-namespace System::Collections::Generic {
-template <typename T> class IList_1;
-}
 namespace System {
-class Object;
-}
-namespace System::Runtime::Serialization {
-class IObjectReference;
+template <typename TEventArgs> class EventHandler_1;
 }
 namespace System::Runtime::Serialization {
 struct StreamingContext;
 }
 namespace System::Runtime::Serialization {
+class IObjectReference;
+}
+namespace System::Runtime::Serialization {
+class ISerializable;
+}
+namespace System::Collections::Generic {
+template <typename T> class IList_1;
+}
+namespace System::Runtime::Serialization {
 class SerializationInfo;
+}
+namespace System {
+class RuntimeType;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::Runtime::Serialization {

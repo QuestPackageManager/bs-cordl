@@ -8,11 +8,11 @@ CORDL_MODULE_EXPORT(HierarchyEvent)
 namespace UnityEngine::UIElements {
 struct HierarchyChangeType;
 }
-namespace UnityEngine::UIElements {
-class VisualElement;
-}
 namespace System {
 class Object;
+}
+namespace UnityEngine::UIElements {
+class VisualElement;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

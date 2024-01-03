@@ -2,28 +2,29 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "UnityEngine/zzzz__Color_def.hpp"
 #include "UnityEngine/zzzz__ScriptableObject_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(PreferenceDictionary)
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
 namespace UnityEngine {
 class Material;
-}
-namespace UnityEngine {
-class ISerializationCallbackReceiver;
-}
-namespace UnityEngine::ProBuilder {
-class IHasDefault;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace UnityEngine {
 struct Color;
+}
+namespace UnityEngine::ProBuilder {
+class IHasDefault;
+}
+namespace UnityEngine {
+class ISerializationCallbackReceiver;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder {
@@ -35,7 +36,7 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::PreferenceDictionary);
 // SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 168, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10210))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10210)), TypeDefinitionIndex(TypeDefinitionIndex(10251))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12151))
 // CS Name: ::UnityEngine.ProBuilder::PreferenceDictionary*
 class CORDL_TYPE PreferenceDictionary : public ::UnityEngine::ScriptableObject {

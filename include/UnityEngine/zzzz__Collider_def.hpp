@@ -7,16 +7,16 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(Collider)
 namespace UnityEngine {
-struct Vector3;
+struct Bounds;
+}
+namespace UnityEngine {
+struct Ray;
 }
 namespace UnityEngine {
 struct RaycastHit;
 }
 namespace UnityEngine {
-struct Bounds;
-}
-namespace UnityEngine {
-struct Ray;
+struct Vector3;
 }
 namespace UnityEngine {
 class Rigidbody;

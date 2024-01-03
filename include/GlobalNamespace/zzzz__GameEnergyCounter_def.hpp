@@ -9,20 +9,26 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(GameEnergyCounter)
-namespace GlobalNamespace {
-class __GameEnergyCounter__InitData;
-}
-namespace GlobalNamespace {
-class PlayerHeadAndObstacleInteraction;
-}
-namespace GlobalNamespace {
-class IGameEnergyCounter;
-}
 namespace System {
 class Action;
 }
 namespace GlobalNamespace {
+struct NoteCutInfo;
+}
+namespace GlobalNamespace {
+class __GameEnergyCounter__InitData;
+}
+namespace GlobalNamespace {
 class NoteController;
+}
+namespace GlobalNamespace {
+class SaberClashChecker;
+}
+namespace GlobalNamespace {
+class BeatmapObjectManager;
+}
+namespace GlobalNamespace {
+class IGameEnergyCounter;
 }
 namespace System {
 template <typename T> class Action_1;
@@ -31,13 +37,7 @@ namespace GlobalNamespace {
 struct __GameplayModifiers__EnergyType;
 }
 namespace GlobalNamespace {
-struct NoteCutInfo;
-}
-namespace GlobalNamespace {
-class SaberClashChecker;
-}
-namespace GlobalNamespace {
-class BeatmapObjectManager;
+class PlayerHeadAndObstacleInteraction;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -144,7 +144,7 @@ static_assert(offsetof(::GlobalNamespace::__GameEnergyCounter__InitData, ___fail
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 108, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(15000))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15000)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5267))
 // CS Name: ::GameEnergyCounter*
 class CORDL_TYPE GameEnergyCounter : public ::UnityEngine::MonoBehaviour {

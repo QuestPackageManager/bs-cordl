@@ -26,49 +26,49 @@ namespace UnityEngine::InputSystem::LowLevel {
 class InputDeviceExecuteCommandDelegate;
 }
 namespace UnityEngine::InputSystem::HID {
-struct __HID__HIDDeviceDescriptorBuilder;
-}
-namespace UnityEngine::InputSystem::HID {
-class __HID__HIDLayoutBuilder;
-}
-namespace UnityEngine::InputSystem::HID {
-struct __HID__HIDElementFlags;
-}
-namespace UnityEngine::InputSystem::HID {
-struct __HID__UsagePage;
-}
-namespace UnityEngine::InputSystem::HID {
-struct __HID__HIDDeviceDescriptor;
-}
-namespace UnityEngine::InputSystem::HID {
-struct __HID__Simulation;
+struct __HID__HIDCollectionDescriptor;
 }
 namespace UnityEngine::InputSystem::HID {
 struct __HID__HIDElementDescriptor;
 }
 namespace UnityEngine::InputSystem::HID {
-struct __HID__HIDReportType;
+struct __HID__GenericDesktop;
 }
 namespace UnityEngine::InputSystem::HID {
-struct __HID__HIDCollectionType;
+class __HID____c__DisplayClass12_0;
 }
 namespace UnityEngine::InputSystem::HID {
-struct __HID__Button;
+struct __HID__HIDDeviceDescriptorBuilder;
 }
 namespace UnityEngine::InputSystem::HID {
-struct __HID__HIDCollectionDescriptor;
+class __HID__HIDLayoutBuilder;
 }
 namespace UnityEngine::InputSystem::Utilities {
 struct FourCC;
 }
 namespace UnityEngine::InputSystem::HID {
-struct __HID__GenericDesktop;
+struct __HID__HIDDeviceDescriptor;
+}
+namespace UnityEngine::InputSystem::HID {
+struct __HID__HIDCollectionType;
 }
 namespace UnityEngine::InputSystem::Layouts {
 struct InputDeviceDescription;
 }
 namespace UnityEngine::InputSystem::HID {
-class __HID____c__DisplayClass12_0;
+struct __HID__HIDReportType;
+}
+namespace UnityEngine::InputSystem::HID {
+struct __HID__HIDElementFlags;
+}
+namespace UnityEngine::InputSystem::HID {
+struct __HID__Button;
+}
+namespace UnityEngine::InputSystem::HID {
+struct __HID__Simulation;
+}
+namespace UnityEngine::InputSystem::HID {
+struct __HID__UsagePage;
 }
 namespace GlobalNamespace {
 class __HID__HIDLayoutBuilder____c;
@@ -82,14 +82,14 @@ class Type;
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
+namespace System {
+template <typename T> struct Nullable_1;
+}
 namespace UnityEngine::InputSystem::Utilities {
 struct InternedString;
 }
 namespace UnityEngine::InputSystem::Utilities {
 struct PrimitiveValue;
-}
-namespace System {
-template <typename T> struct Nullable_1;
 }
 namespace UnityEngine::InputSystem::Layouts {
 class __InputControlLayout__Builder;
@@ -460,7 +460,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::HID::__HID__HIDDeviceDescript
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::HID {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(6398))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6398)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6392))
 // CS Name: ::HID::HIDLayoutBuilder*
 class CORDL_TYPE __HID__HIDLayoutBuilder : public ::System::Object {
@@ -762,9 +762,8 @@ static_assert(offsetof(::UnityEngine::InputSystem::HID::__HID__HIDElementFlags, 
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 88, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::HID {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2448)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 98 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(6393)), TypeDefinitionIndex(TypeDefinitionIndex(6400)), TypeDefinitionIndex(TypeDefinitionIndex(6395))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6396))
-// CS Name: ::HID::HIDElementDescriptor
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6395)), TypeDefinitionIndex(TypeDefinitionIndex(2448)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 98
+// }), TypeDefinitionIndex(TypeDefinitionIndex(6400)), TypeDefinitionIndex(TypeDefinitionIndex(6393))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6396)) CS Name: ::HID::HIDElementDescriptor
 struct CORDL_TYPE __HID__HIDElementDescriptor {
 public:
   // Declarations
@@ -965,7 +964,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::HID::__HID__HIDElementDescrip
 // SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::HID {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6400)), TypeDefinitionIndex(TypeDefinitionIndex(6394))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6394)), TypeDefinitionIndex(TypeDefinitionIndex(6400))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6397))
 // CS Name: ::HID::HIDCollectionDescriptor
 struct CORDL_TYPE __HID__HIDCollectionDescriptor {
@@ -1024,7 +1023,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::HID::__HID__HIDCollectionDesc
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 68, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::HID {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6393)), TypeDefinitionIndex(TypeDefinitionIndex(6400))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6400)), TypeDefinitionIndex(TypeDefinitionIndex(6393))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6399))
 // CS Name: ::HID::HIDDeviceDescriptorBuilder
 struct CORDL_TYPE __HID__HIDDeviceDescriptorBuilder {
@@ -1821,7 +1820,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::HID::__HID____c__DisplayClass
 // SizeInfo { instance_size: 400, native_size: -1, calculated_instance_size: 400, calculated_native_size: 400, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::HID {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6398)), TypeDefinitionIndex(TypeDefinitionIndex(6239))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6239)), TypeDefinitionIndex(TypeDefinitionIndex(6398))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6405))
 // CS Name: ::UnityEngine.InputSystem.HID::HID*
 class CORDL_TYPE HID : public ::UnityEngine::InputSystem::InputDevice {

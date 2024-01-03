@@ -7,14 +7,14 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(LocalKeyword)
-namespace System {
-template <typename T> class IEquatable_1;
-}
 namespace UnityEngine::Rendering {
 struct LocalKeywordSpace;
 }
 namespace System {
 class Object;
+}
+namespace System {
+template <typename T> class IEquatable_1;
 }
 // Forward declare root types
 namespace UnityEngine::Rendering {

@@ -8,10 +8,7 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(MiscExtensions)
 namespace System::Collections::Generic {
-template <typename T> class IList_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
+template <typename T> class LinkedList_1;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class IDictionary_2;
@@ -20,10 +17,13 @@ namespace System {
 class Object;
 }
 namespace System::Collections::Generic {
-template <typename T> class HashSet_1;
+template <typename T> class IEnumerable_1;
 }
 namespace System::Collections::Generic {
-template <typename T> class LinkedList_1;
+template <typename T> class IList_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class HashSet_1;
 }
 // Forward declare root types
 namespace ModestTree {

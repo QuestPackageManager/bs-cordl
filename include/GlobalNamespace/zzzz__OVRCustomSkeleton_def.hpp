@@ -8,7 +8,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVRCustomSkeleton)
 namespace GlobalNamespace {
-struct __OVRCustomSkeleton__RetargetingType;
+struct __OVRSkeleton__BoneId;
+}
+namespace UnityEngine {
+class ISerializationCallbackReceiver;
 }
 namespace UnityEngine {
 class Transform;
@@ -17,13 +20,10 @@ namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace GlobalNamespace {
-struct __OVRSkeleton__BoneId;
-}
-namespace GlobalNamespace {
 struct __OVRSkeleton__SkeletonType;
 }
-namespace UnityEngine {
-class ISerializationCallbackReceiver;
+namespace GlobalNamespace {
+struct __OVRCustomSkeleton__RetargetingType;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -85,7 +85,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRCustomSkeleton__RetargetingType, 
 // SizeInfo { instance_size: 200, native_size: -1, calculated_instance_size: 200, calculated_native_size: 196, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8170)), TypeDefinitionIndex(TypeDefinitionIndex(8090))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8090)), TypeDefinitionIndex(TypeDefinitionIndex(8170))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8091))
 // CS Name: ::OVRCustomSkeleton*
 class CORDL_TYPE OVRCustomSkeleton : public ::GlobalNamespace::OVRSkeleton {

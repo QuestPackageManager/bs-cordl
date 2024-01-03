@@ -3,8 +3,8 @@
 #include "GlobalNamespace/zzzz__MultiplayerLocalActiveCenterRingLightsController_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerCenterResizeController_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapObjectSpawnCenter_def.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerLayoutProvider_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapObjectSpawnCenter_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::MultiplayerLocalActiveCenterRingLightsController.Start
 template <>
 

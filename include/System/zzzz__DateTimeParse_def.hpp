@@ -12,31 +12,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(DateTimeParse)
 namespace System {
-struct __DTString;
+struct __DateTimeParse__DS;
 }
 namespace System::Globalization {
 class DateTimeFormatInfo;
 }
-namespace System::Globalization {
-class Calendar;
-}
-namespace System {
-class Exception;
-}
-namespace System::Text {
-class StringBuilder;
-}
-namespace System {
-template <typename T> struct ReadOnlySpan_1;
-}
 namespace System {
 class __DateTimeParse__MatchNumberDelegate;
 }
-namespace System {
-struct DateTimeToken;
-}
-namespace System {
-struct ParsingInfo;
+namespace System::Globalization {
+class Calendar;
 }
 namespace System {
 class __DateTimeParse____c;
@@ -47,23 +32,38 @@ struct DateTime;
 namespace System {
 struct DateTimeRawInfo;
 }
+namespace System {
+struct TimeSpan;
+}
 namespace System::Globalization {
 struct DateTimeStyles;
+}
+namespace System {
+struct __DTString;
+}
+namespace System {
+struct DateTimeResult;
 }
 namespace System {
 struct __DateTimeParse__TM;
 }
 namespace System {
-struct __DateTimeParse__DS;
+struct DateTimeToken;
 }
 namespace System {
-struct TimeSpan;
+class Exception;
 }
 namespace System {
 struct __DateTimeParse__DTT;
 }
+namespace System::Text {
+class StringBuilder;
+}
 namespace System {
-struct DateTimeResult;
+template <typename T> struct ReadOnlySpan_1;
+}
+namespace System {
+struct ParsingInfo;
 }
 namespace System {
 class Object;

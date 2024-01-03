@@ -10,19 +10,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(PyramidBloomRendererSO)
 namespace UnityEngine {
-class Shader;
+class RenderTexture;
 }
 namespace GlobalNamespace {
 struct __PyramidBloomRendererSO__Pass;
 }
-namespace UnityEngine {
-class Material;
-}
-namespace UnityEngine {
-class RenderTexture;
-}
 namespace GlobalNamespace {
 struct __PyramidBloomRendererSO__Level;
+}
+namespace UnityEngine {
+class Shader;
+}
+namespace UnityEngine {
+class Material;
 }
 // Forward declare root types
 namespace GlobalNamespace {

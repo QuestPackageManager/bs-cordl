@@ -6,35 +6,35 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ExtendedKeyUsage)
-namespace System::Collections {
-class ArrayList;
+namespace Org::BouncyCastle::Asn1::X509 {
+class KeyPurposeID;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Sequence;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1TaggedObject;
 }
+namespace System::Collections {
+class IList;
+}
 namespace System {
 class Object;
 }
-namespace Org::BouncyCastle::Asn1::X509 {
-class X509Extensions;
+namespace System::Collections {
+class IDictionary;
+}
+namespace System::Collections {
+class ArrayList;
 }
 namespace System::Collections {
 class IEnumerable;
-}
-namespace System::Collections {
-class IList;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
-class KeyPurposeID;
-}
-namespace System::Collections {
-class IDictionary;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
+class X509Extensions;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::X509 {

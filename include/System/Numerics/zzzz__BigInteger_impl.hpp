@@ -1,14 +1,14 @@
 #pragma once
 #include "System/Numerics/zzzz__BigInteger_def.hpp"
-#include "System/zzzz__IFormatProvider_def.hpp"
-#include "System/zzzz__IComparable_1_def.hpp"
-#include "System/zzzz__ReadOnlySpan_1_def.hpp"
-#include "System/zzzz__IFormattable_def.hpp"
-#include "System/zzzz__IEquatable_1_def.hpp"
-#include "System/Numerics/zzzz__BigInteger_def.hpp"
 #include "System/zzzz__IComparable_def.hpp"
 #include "System/zzzz__Span_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "System/zzzz__IComparable_1_def.hpp"
+#include "System/zzzz__IFormatProvider_def.hpp"
+#include "System/zzzz__IFormattable_def.hpp"
+#include "System/zzzz__IEquatable_1_def.hpp"
+#include "System/Numerics/zzzz__BigInteger_def.hpp"
+#include "System/zzzz__ReadOnlySpan_1_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::System::Numerics::__BigInteger__GetBytesMode::__BigInteger__GetBytesMode(int32_t value__) noexcept {
   this->value__ = value__;

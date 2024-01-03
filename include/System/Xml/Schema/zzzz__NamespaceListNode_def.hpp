@@ -5,23 +5,23 @@ CORDL_MODULE_INIT
 #include "System/Xml/Schema/zzzz__SyntaxTreeNode_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(NamespaceListNode)
-namespace System::Xml::Schema {
-class NamespaceList;
-}
 namespace System {
 class Object;
+}
+namespace System::Xml::Schema {
+class Positions;
+}
+namespace System::Xml::Schema {
+class SymbolsDictionary;
 }
 namespace System::Xml::Schema {
 class InteriorNode;
 }
 namespace System::Xml::Schema {
-class SymbolsDictionary;
+class NamespaceList;
 }
 namespace System::Collections {
 class ICollection;
-}
-namespace System::Xml::Schema {
-class Positions;
 }
 namespace System::Xml::Schema {
 class BitSet;

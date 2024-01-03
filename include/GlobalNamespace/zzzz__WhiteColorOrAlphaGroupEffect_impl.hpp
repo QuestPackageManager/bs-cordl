@@ -4,12 +4,12 @@
 #include "GlobalNamespace/zzzz__WhiteColorOrAlphaGroupEffect_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
 #include "GlobalNamespace/zzzz__EnvironmentColorType_def.hpp"
-#include "GlobalNamespace/zzzz__LightColorGroupEffect_def.hpp"
-#include "GlobalNamespace/zzzz__ColorManager_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapCallbacksController_def.hpp"
-#include "GlobalNamespace/zzzz__LightWithIdManager_def.hpp"
 #include "Tweening/zzzz__SongTimeTweeningManager_def.hpp"
+#include "GlobalNamespace/zzzz__LightWithIdManager_def.hpp"
 #include "GlobalNamespace/zzzz__IBpmController_def.hpp"
+#include "GlobalNamespace/zzzz__ColorManager_def.hpp"
+#include "GlobalNamespace/zzzz__LightColorGroupEffect_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapCallbacksController_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::WhiteColorOrAlphaGroupEffect._ctor
 template <>
 

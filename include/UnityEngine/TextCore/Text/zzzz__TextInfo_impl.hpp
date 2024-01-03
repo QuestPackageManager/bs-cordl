@@ -2,11 +2,11 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__Vector2_impl.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__TextInfo_def.hpp"
-#include "UnityEngine/TextCore/Text/zzzz__TextElementInfo_def.hpp"
-#include "UnityEngine/TextCore/Text/zzzz__WordInfo_def.hpp"
-#include "UnityEngine/TextCore/Text/zzzz__LinkInfo_def.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__MeshInfo_def.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__LineInfo_def.hpp"
+#include "UnityEngine/TextCore/Text/zzzz__LinkInfo_def.hpp"
+#include "UnityEngine/TextCore/Text/zzzz__TextElementInfo_def.hpp"
+#include "UnityEngine/TextCore/Text/zzzz__WordInfo_def.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__PageInfo_def.hpp"
 //  Writing Method size for method: ::UnityEngine::TextCore::Text::TextInfo._ctor
 template <>

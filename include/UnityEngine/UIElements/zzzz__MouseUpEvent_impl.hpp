@@ -2,9 +2,9 @@
 #include "UnityEngine/UIElements/zzzz__MouseEventBase_1_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__MouseUpEvent_def.hpp"
 #include "UnityEngine/UIElements/zzzz__IPointerEvent_def.hpp"
+#include "UnityEngine/UIElements/zzzz__PointerCancelEvent_def.hpp"
 #include "UnityEngine/UIElements/zzzz__PointerMoveEvent_def.hpp"
 #include "UnityEngine/UIElements/zzzz__PointerUpEvent_def.hpp"
-#include "UnityEngine/UIElements/zzzz__PointerCancelEvent_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::MouseUpEvent.Init
 template <>
 

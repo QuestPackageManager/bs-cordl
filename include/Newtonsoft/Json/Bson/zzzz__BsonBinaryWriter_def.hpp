@@ -11,17 +11,17 @@ CORDL_MODULE_EXPORT(BsonBinaryWriter)
 namespace System {
 struct DateTimeKind;
 }
+namespace System::Text {
+class Encoding;
+}
+namespace Newtonsoft::Json::Bson {
+class BsonToken;
+}
 namespace System {
 template <typename T> struct Nullable_1;
 }
 namespace System::IO {
 class BinaryWriter;
-}
-namespace Newtonsoft::Json::Bson {
-class BsonToken;
-}
-namespace System::Text {
-class Encoding;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Bson {

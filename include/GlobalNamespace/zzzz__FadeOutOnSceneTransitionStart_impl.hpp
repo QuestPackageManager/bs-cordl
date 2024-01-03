@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__FadeOutOnSceneTransitionStart_def.hpp"
-#include "GlobalNamespace/zzzz__FadeInOutController_def.hpp"
 #include "GlobalNamespace/zzzz__GameScenesManager_def.hpp"
+#include "GlobalNamespace/zzzz__FadeInOutController_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::FadeOutOnSceneTransitionStart.Start
 template <>
 

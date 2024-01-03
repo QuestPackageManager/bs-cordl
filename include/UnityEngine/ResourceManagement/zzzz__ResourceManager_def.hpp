@@ -16,13 +16,103 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ResourceManager)
 namespace UnityEngine::ResourceManagement::ResourceProviders {
+class IResourceProvider;
+}
+namespace UnityEngine::ResourceManagement {
+struct __ResourceManager__DeferredCallbackRegisterRequest;
+}
+namespace UnityEngine::ResourceManagement::ResourceProviders {
 class IInstanceProvider;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace UnityEngine::SceneManagement {
+struct LoadSceneMode;
+}
+namespace UnityEngine::ResourceManagement {
+struct __ResourceManager__DiagnosticEventContext;
+}
+namespace UnityEngine::ResourceManagement::ResourceProviders {
+class ISceneProvider;
+}
+namespace UnityEngine {
+class GameObject;
+}
+namespace System {
+template <typename T> class Action_1;
+}
+namespace UnityEngine::ResourceManagement::AsyncOperations {
+class GroupOperation;
+}
+namespace UnityEngine::ResourceManagement::AsyncOperations {
+template <typename TObject> class AsyncOperationBase_1;
+}
+namespace UnityEngine::ResourceManagement::AsyncOperations {
+template <typename TObject> struct AsyncOperationHandle_1;
+}
+namespace System {
+template <typename T1, typename T2> class Action_2;
+}
+namespace UnityEngine::ResourceManagement {
+template <typename TObject> class __ResourceManager____c__DisplayClass92_0_1;
+}
+namespace UnityEngine::ResourceManagement {
+class __ResourceManager__InstanceOperation;
+}
+namespace GlobalNamespace {
+template <typename T> class ListWithEvents_1;
+}
+namespace System {
+class IDisposable;
+}
+namespace UnityEngine::ResourceManagement::AsyncOperations {
+struct AsyncOperationHandle;
+}
+namespace UnityEngine::ResourceManagement::ResourceProviders {
+struct SceneInstance;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace UnityEngine::ResourceManagement::ResourceProviders {
+struct InstantiationParameters;
+}
+namespace UnityEngine::Networking {
+class CertificateHandler;
+}
+namespace System {
+class Exception;
+}
+namespace UnityEngine::ResourceManagement::ResourceLocations {
+class IResourceLocation;
+}
+namespace UnityEngine::ResourceManagement {
+class IUpdateReceiver;
+}
+namespace System::Collections::Generic {
+template <typename T> class HashSet_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class IList_1;
 }
 namespace UnityEngine::SceneManagement {
 struct Scene;
 }
-namespace UnityEngine::SceneManagement {
-struct LoadSceneMode;
+namespace System {
+template <typename T1, typename T2, typename T3, typename T4> class Action_4;
+}
+namespace System {
+class Object;
+}
+namespace System {
+class Type;
+}
+namespace UnityEngine::ResourceManagement::Util {
+class IAllocationStrategy;
+}
+namespace UnityEngine::Networking {
+class UnityWebRequest;
 }
 namespace UnityEngine::ResourceManagement {
 struct __ResourceManager__DiagnosticEventType;
@@ -30,107 +120,17 @@ struct __ResourceManager__DiagnosticEventType;
 namespace System {
 template <typename T, typename TResult> class Func_2;
 }
-namespace System {
-class Type;
-}
-namespace UnityEngine::ResourceManagement::Util {
-class IOperationCacheKey;
-}
-namespace UnityEngine::Networking {
-class UnityWebRequest;
-}
-namespace UnityEngine::ResourceManagement {
-struct __ResourceManager__DiagnosticEventContext;
-}
-namespace UnityEngine::ResourceManagement {
-class __ResourceManager__InstanceOperation;
-}
-namespace System::Collections::Generic {
-template <typename T> class HashSet_1;
-}
-namespace System {
-class Object;
-}
-namespace UnityEngine::ResourceManagement::AsyncOperations {
-template <typename TObject> class AsyncOperationBase_1;
-}
-namespace UnityEngine::ResourceManagement::ResourceProviders {
-class ISceneProvider;
+namespace GlobalNamespace {
+template <typename T> class DelegateList_1;
 }
 namespace UnityEngine::ResourceManagement {
 template <typename TObject> class __ResourceManager__CompletedOperation_1;
 }
-namespace UnityEngine {
-class GameObject;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace UnityEngine::ResourceManagement::ResourceLocations {
-class IResourceLocation;
-}
-namespace System {
-class Exception;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace UnityEngine::ResourceManagement {
-struct __ResourceManager__DeferredCallbackRegisterRequest;
-}
-namespace UnityEngine::ResourceManagement::AsyncOperations {
-template <typename TObject> struct AsyncOperationHandle_1;
+namespace UnityEngine::ResourceManagement::Util {
+class IOperationCacheKey;
 }
 namespace UnityEngine::ResourceManagement::AsyncOperations {
 class IAsyncOperation;
-}
-namespace UnityEngine::ResourceManagement {
-template <typename TObject> class __ResourceManager____c__DisplayClass92_0_1;
-}
-namespace UnityEngine::ResourceManagement::AsyncOperations {
-struct AsyncOperationHandle;
-}
-namespace System {
-template <typename T1, typename T2> class Action_2;
-}
-namespace System::Collections::Generic {
-template <typename T> class IList_1;
-}
-namespace System {
-class IDisposable;
-}
-namespace UnityEngine::Networking {
-class CertificateHandler;
-}
-namespace UnityEngine::ResourceManagement::Util {
-class IAllocationStrategy;
-}
-namespace GlobalNamespace {
-template <typename T> class DelegateList_1;
-}
-namespace System {
-template <typename T1, typename T2, typename T3, typename T4> class Action_4;
-}
-namespace UnityEngine::ResourceManagement {
-class IUpdateReceiver;
-}
-namespace GlobalNamespace {
-template <typename T> class ListWithEvents_1;
-}
-namespace UnityEngine::ResourceManagement::ResourceProviders {
-class IResourceProvider;
-}
-namespace UnityEngine::ResourceManagement::ResourceProviders {
-struct SceneInstance;
-}
-namespace System {
-template <typename T> class Action_1;
-}
-namespace UnityEngine::ResourceManagement::ResourceProviders {
-struct InstantiationParameters;
-}
-namespace UnityEngine::ResourceManagement::AsyncOperations {
-class GroupOperation;
 }
 namespace UnityEngine::ResourceManagement::AsyncOperations {
 struct DownloadStatus;
@@ -374,7 +374,7 @@ namespace UnityEngine::ResourceManagement {
 // cpp template
 template <typename TObject>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14032)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14032), inst: 791 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14032), inst: 791 }), TypeDefinitionIndex(TypeDefinitionIndex(14032))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13954))
 // CS Name: ::ResourceManager::CompletedOperation`1<TObject>*
 class CORDL_TYPE __ResourceManager__CompletedOperation_1 : public ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<TObject> {
@@ -462,9 +462,9 @@ public:
 // SizeInfo { instance_size: 240, native_size: -1, calculated_instance_size: 240, calculated_native_size: 236, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ResourceManagement {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14033), inst: 311 }), TypeDefinitionIndex(TypeDefinitionIndex(10380)),
-// TypeDefinitionIndex(TypeDefinitionIndex(13998)), TypeDefinitionIndex(TypeDefinitionIndex(14033)), TypeDefinitionIndex(TypeDefinitionIndex(10196)), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(14032), inst: 311 }), TypeDefinitionIndex(TypeDefinitionIndex(14032))} Self: TypeDefinitionIndex(TypeDefinitionIndex(13955)) CS Name: ::ResourceManager::InstanceOperation*
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14032), inst: 311 }), TypeDefinitionIndex(TypeDefinitionIndex(10196)), GenericInstantiation(GenericInstantiation
+// { tdi: TypeDefinitionIndex(14033), inst: 311 }), TypeDefinitionIndex(TypeDefinitionIndex(14032)), TypeDefinitionIndex(TypeDefinitionIndex(13998)), TypeDefinitionIndex(TypeDefinitionIndex(14033)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10380))} Self: TypeDefinitionIndex(TypeDefinitionIndex(13955)) CS Name: ::ResourceManager::InstanceOperation*
 class CORDL_TYPE __ResourceManager__InstanceOperation : public ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<::UnityEngine::GameObject*> {
 public:
   // Declarations

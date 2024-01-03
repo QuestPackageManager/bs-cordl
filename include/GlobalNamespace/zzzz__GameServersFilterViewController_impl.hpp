@@ -1,13 +1,13 @@
 #pragma once
 #include "HMUI/zzzz__ViewController_impl.hpp"
 #include "GlobalNamespace/zzzz__GameServersFilterViewController_def.hpp"
-#include "HMUI/zzzz__ToggleBinder_def.hpp"
+#include "UnityEngine/UI/zzzz__Toggle_def.hpp"
+#include "UnityEngine/UI/zzzz__Button_def.hpp"
+#include "GlobalNamespace/zzzz__SongPacksDropdown_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapDifficultyDropdown_def.hpp"
 #include "GlobalNamespace/zzzz__GameplayModifiersDropdown_def.hpp"
 #include "GlobalNamespace/zzzz__GameServersFilter_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapDifficultyDropdown_def.hpp"
-#include "UnityEngine/UI/zzzz__Button_def.hpp"
-#include "UnityEngine/UI/zzzz__Toggle_def.hpp"
-#include "GlobalNamespace/zzzz__SongPacksDropdown_def.hpp"
+#include "HMUI/zzzz__ToggleBinder_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::GameServersFilterViewController.get_gameServersFilter
 template <>
 

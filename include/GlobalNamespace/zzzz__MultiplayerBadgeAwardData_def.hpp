@@ -7,20 +7,20 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(MultiplayerBadgeAwardData)
-namespace System {
-class IComparable;
-}
-namespace System {
-class Object;
+namespace GlobalNamespace {
+class IConnectedPlayer;
 }
 namespace UnityEngine {
 class Sprite;
 }
+namespace System {
+class IComparable;
+}
 namespace GlobalNamespace {
 class MultiplayerBadgeDataSO;
 }
-namespace GlobalNamespace {
-class IConnectedPlayer;
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace GlobalNamespace {

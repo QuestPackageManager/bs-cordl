@@ -10,13 +10,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(X509ChainElement)
 namespace System::Security::Cryptography::X509Certificates {
+struct X509ChainStatus;
+}
+namespace System::Security::Cryptography::X509Certificates {
 struct X509ChainStatusFlags;
 }
 namespace System::Security::Cryptography::X509Certificates {
 class X509Certificate2;
-}
-namespace System::Security::Cryptography::X509Certificates {
-struct X509ChainStatus;
 }
 // Forward declare root types
 namespace System::Security::Cryptography::X509Certificates {
@@ -28,7 +28,7 @@ MARK_REF_PTR_T(::System::Security::Cryptography::X509Certificates::X509ChainElem
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Cryptography::X509Certificates {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8982)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8982))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9003))
 // CS Name: ::System.Security.Cryptography.X509Certificates::X509ChainElement*
 class CORDL_TYPE X509ChainElement : public ::System::Object {

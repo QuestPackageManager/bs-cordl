@@ -12,28 +12,28 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(GrounderQuadruped)
 namespace RootMotion::FinalIK {
-class Grounding;
-}
-namespace UnityEngine {
-class Rigidbody;
-}
-namespace RootMotion::FinalIK {
-struct __GrounderQuadruped__Foot;
+class IK;
 }
 namespace UnityEngine {
 class Transform;
 }
 namespace RootMotion::FinalIK {
-class IK;
+struct __GrounderQuadruped__Foot;
+}
+namespace UnityEngine {
+class Rigidbody;
 }
 namespace RootMotion::FinalIK {
-class __Grounding__Leg;
+class Grounding;
 }
 namespace RootMotion::FinalIK {
 class IKSolver;
 }
 namespace UnityEngine {
 struct Quaternion;
+}
+namespace RootMotion::FinalIK {
+class __Grounding__Leg;
 }
 // Forward declare root types
 namespace RootMotion::FinalIK {

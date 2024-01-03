@@ -4,23 +4,23 @@
 CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(IBindingList)
-namespace System::Collections {
-class IEnumerable;
-}
-namespace System::Collections {
-class ICollection;
-}
-namespace System::Collections {
-class IList;
-}
-namespace System::ComponentModel {
-class PropertyDescriptor;
-}
 namespace System::ComponentModel {
 struct ListSortDirection;
 }
 namespace System {
 class Object;
+}
+namespace System::Collections {
+class ICollection;
+}
+namespace System::ComponentModel {
+class PropertyDescriptor;
+}
+namespace System::Collections {
+class IEnumerable;
+}
+namespace System::Collections {
+class IList;
 }
 // Forward declare root types
 namespace System::ComponentModel {

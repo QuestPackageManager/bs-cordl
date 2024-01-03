@@ -2,50 +2,51 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "GlobalNamespace/zzzz__DisconnectedReason_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(IConnectionManager)
-namespace LiteNetLib::Utils {
-class NetDataWriter;
-}
-namespace GlobalNamespace {
-class IConnection;
-}
 namespace System {
-class Action;
-}
-namespace GlobalNamespace {
-class IPollable;
+template <typename T> class Action_1;
 }
 namespace LiteNetLib::Utils {
 class NetDataReader;
 }
 namespace GlobalNamespace {
-template <typename T> class IConnectionInitParams_1;
-}
-namespace System::Threading::Tasks {
-class Task;
+class IConnection;
 }
 namespace GlobalNamespace {
 struct ConnectionFailedReason;
 }
 namespace System {
-template <typename T> class Action_1;
-}
-namespace BGNet::Core {
-struct DeliveryMethod;
-}
-namespace System {
 template <typename T1, typename T2, typename T3> class Action_3;
 }
 namespace GlobalNamespace {
-struct DisconnectedReason;
+template <typename T> class IConnectionInitParams_1;
+}
+namespace System {
+class Action;
 }
 namespace System {
 class IDisposable;
 }
 namespace System {
 template <typename T1, typename T2> class Action_2;
+}
+namespace LiteNetLib::Utils {
+class NetDataWriter;
+}
+namespace System::Threading::Tasks {
+class Task;
+}
+namespace BGNet::Core {
+struct DeliveryMethod;
+}
+namespace GlobalNamespace {
+struct DisconnectedReason;
+}
+namespace GlobalNamespace {
+class IPollable;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -57,7 +58,7 @@ MARK_REF_PTR_T(::GlobalNamespace::IConnectionManager);
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12720))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12780))
 // CS Name: ::IConnectionManager*
 class CORDL_TYPE IConnectionManager {

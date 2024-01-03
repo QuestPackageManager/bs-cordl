@@ -2,8 +2,8 @@
 #include "System/zzzz__DateTime_impl.hpp"
 #include "System/zzzz__TimeSpan_impl.hpp"
 #include "System/Globalization/zzzz__DaylightTimeStruct_def.hpp"
-#include "System/zzzz__DateTime_def.hpp"
 #include "System/zzzz__TimeSpan_def.hpp"
+#include "System/zzzz__DateTime_def.hpp"
 //  Writing Method size for method: ::System::Globalization::DaylightTimeStruct._ctor
 template <>
 

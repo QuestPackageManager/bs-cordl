@@ -7,28 +7,19 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(GameLiftNetworkPlayerModel)
 namespace GlobalNamespace {
+struct PublicServerInfo;
+}
+namespace GlobalNamespace {
 class __GameLiftConnectionManager__StartClientParams;
-}
-namespace GlobalNamespace {
-struct BeatmapLevelSelectionMask;
-}
-namespace GlobalNamespace {
-class __GameLiftConnectionManager__ConnectToServerParams;
-}
-namespace GlobalNamespace {
-struct GameplayServerConfiguration;
 }
 namespace System::Collections::Generic {
 template <typename T> class IReadOnlyList_1;
 }
 namespace GlobalNamespace {
-struct PublicServerInfo;
-}
-namespace GlobalNamespace {
 struct ConnectionFailedReason;
 }
-namespace System {
-template <typename T> class Action_1;
+namespace GlobalNamespace {
+struct BeatmapLevelSelectionMask;
 }
 namespace GlobalNamespace {
 class GameLiftConnectionManager;
@@ -36,8 +27,17 @@ class GameLiftConnectionManager;
 namespace GlobalNamespace {
 template <typename T> class IConnectionInitParams_1;
 }
+namespace GlobalNamespace {
+struct GameplayServerConfiguration;
+}
 namespace BGNet::Core::GameLift {
 class IGameLiftPlayerSessionProvider;
+}
+namespace System {
+template <typename T> class Action_1;
+}
+namespace GlobalNamespace {
+class __GameLiftConnectionManager__ConnectToServerParams;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -49,7 +49,7 @@ MARK_REF_PTR_T(::GlobalNamespace::GameLiftNetworkPlayerModel);
 // SizeInfo { instance_size: 280, native_size: -1, calculated_instance_size: 280, calculated_native_size: 280, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14962), inst: 2746 }), TypeDefinitionIndex(TypeDefinitionIndex(12737)),
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12737)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14962), inst: 2746 }),
 // TypeDefinitionIndex(TypeDefinitionIndex(14962))} Self: TypeDefinitionIndex(TypeDefinitionIndex(14941)) CS Name: ::GameLiftNetworkPlayerModel*
 class CORDL_TYPE GameLiftNetworkPlayerModel : public ::GlobalNamespace::NetworkPlayerModel_1<::GlobalNamespace::GameLiftConnectionManager*> {
 public:

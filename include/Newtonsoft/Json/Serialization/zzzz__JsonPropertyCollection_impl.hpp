@@ -2,10 +2,10 @@
 #include "Newtonsoft/Json/Serialization/zzzz__JsonProperty_impl.hpp"
 #include "System/Collections/ObjectModel/zzzz__KeyedCollection_2_impl.hpp"
 #include "Newtonsoft/Json/Serialization/zzzz__JsonPropertyCollection_def.hpp"
-#include "System/zzzz__Type_def.hpp"
 #include "System/zzzz__StringComparison_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "Newtonsoft/Json/Serialization/zzzz__JsonProperty_def.hpp"
+#include "System/zzzz__Type_def.hpp"
 //  Writing Method size for method: ::Newtonsoft::Json::Serialization::JsonPropertyCollection._ctor
 template <>
 

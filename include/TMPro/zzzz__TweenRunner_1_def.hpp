@@ -6,23 +6,23 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(TweenRunner_1)
-namespace TMPro {
-template <typename T> class __TweenRunner_1___Start_d__2;
-}
 namespace UnityEngine {
 class MonoBehaviour;
 }
+namespace TMPro {
+template <typename T> class __TweenRunner_1___Start_d__2;
+}
 namespace System::Collections {
 class IEnumerator;
+}
+namespace System {
+class Object;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
 namespace System {
 class IDisposable;
-}
-namespace System {
-class Object;
 }
 // Forward declare root types
 namespace TMPro {

@@ -7,14 +7,14 @@ CORDL_MODULE_EXPORT(TaskAwaiter_1)
 namespace System::Threading::Tasks {
 template <typename TResult> class Task_1;
 }
-namespace System {
-class Action;
-}
 namespace System::Runtime::CompilerServices {
 class ICriticalNotifyCompletion;
 }
 namespace System::Runtime::CompilerServices {
 class INotifyCompletion;
+}
+namespace System {
+class Action;
 }
 // Forward declare root types
 namespace System::Runtime::CompilerServices {

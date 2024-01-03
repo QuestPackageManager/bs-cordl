@@ -7,20 +7,20 @@ CORDL_MODULE_EXPORT(PrefabControlPlayable)
 namespace UnityEngine {
 class GameObject;
 }
-namespace UnityEngine::Playables {
-struct PlayableGraph;
-}
-namespace UnityEngine::Playables {
-struct FrameData;
-}
 namespace UnityEngine {
 class Transform;
 }
 namespace UnityEngine::Playables {
-struct Playable;
+template <typename T> struct ScriptPlayable_1;
 }
 namespace UnityEngine::Playables {
-template <typename T> struct ScriptPlayable_1;
+struct FrameData;
+}
+namespace UnityEngine::Playables {
+struct PlayableGraph;
+}
+namespace UnityEngine::Playables {
+struct Playable;
 }
 // Forward declare root types
 namespace UnityEngine::Timeline {

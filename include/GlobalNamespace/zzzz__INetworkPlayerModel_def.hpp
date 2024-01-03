@@ -4,26 +4,26 @@
 CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(INetworkPlayerModel)
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
+namespace System {
+template <typename T> class Action_1;
+}
+namespace GlobalNamespace {
+class INetworkPlayer;
+}
 namespace GlobalNamespace {
 struct GameplayServerConfiguration;
+}
+namespace GlobalNamespace {
+class ConnectedPlayerManager;
 }
 namespace GlobalNamespace {
 template <typename T> class INetworkPlayerModelPartyConfig_1;
 }
 namespace GlobalNamespace {
 struct BeatmapLevelSelectionMask;
-}
-namespace GlobalNamespace {
-class ConnectedPlayerManager;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
-namespace GlobalNamespace {
-class INetworkPlayer;
-}
-namespace System {
-template <typename T> class Action_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {

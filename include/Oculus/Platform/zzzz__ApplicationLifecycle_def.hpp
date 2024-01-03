@@ -9,10 +9,10 @@ namespace Oculus::Platform::Models {
 class LaunchDetails;
 }
 namespace Oculus::Platform {
-template <typename T> class __Message_1__Callback;
+struct LaunchResult;
 }
 namespace Oculus::Platform {
-struct LaunchResult;
+template <typename T> class __Message_1__Callback;
 }
 // Forward declare root types
 namespace Oculus::Platform {

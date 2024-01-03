@@ -12,17 +12,17 @@ CORDL_MODULE_EXPORT(StandaloneInputModule)
 namespace UnityEngine::EventSystems {
 struct __StandaloneInputModule__InputMode;
 }
-namespace UnityEngine {
-struct Vector2;
-}
 namespace UnityEngine::EventSystems {
 class PointerEventData;
+}
+namespace UnityEngine::EventSystems {
+class __PointerInputModule__MouseButtonEventData;
 }
 namespace UnityEngine {
 class GameObject;
 }
-namespace UnityEngine::EventSystems {
-class __PointerInputModule__MouseButtonEventData;
+namespace UnityEngine {
+struct Vector2;
 }
 // Forward declare root types
 namespace UnityEngine::EventSystems {

@@ -1,9 +1,9 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "Zenject/Internal/zzzz__ReflectionTypeInfo_def.hpp"
-#include "System/zzzz__Type_def.hpp"
 #include "Zenject/Internal/zzzz__ReflectionTypeInfo_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "System/zzzz__Type_def.hpp"
 #include "System/Reflection/zzzz__ConstructorInfo_def.hpp"
 #include "System/Reflection/zzzz__FieldInfo_def.hpp"
 #include "Zenject/zzzz__InjectableInfo_def.hpp"

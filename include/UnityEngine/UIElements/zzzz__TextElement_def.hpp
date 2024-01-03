@@ -10,31 +10,7 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(TextElement)
 namespace UnityEngine::UIElements {
-struct TextOverflowPosition;
-}
-namespace UnityEngine {
-struct Vector2;
-}
-namespace UnityEngine::UIElements {
-class EventBase;
-}
-namespace UnityEngine::UIElements {
 class __TextElement__UxmlFactory;
-}
-namespace UnityEngine::UIElements {
-class GeometryChangedEvent;
-}
-namespace UnityEngine::UIElements {
-struct __VisualElement__MeasureMode;
-}
-namespace UnityEngine::UIElements {
-template <typename T> class INotifyValueChanged_1;
-}
-namespace UnityEngine::UIElements {
-class __TextElement__UxmlTraits;
-}
-namespace UnityEngine::UIElements {
-class ITextHandle;
 }
 namespace UnityEngine::UIElements {
 class ITextElement;
@@ -43,16 +19,40 @@ namespace UnityEngine::UIElements {
 class MeshGenerationContext;
 }
 namespace UnityEngine::UIElements {
-class UxmlStringAttributeDescription;
+struct __VisualElement__MeasureMode;
+}
+namespace UnityEngine::UIElements {
+template <typename T> class INotifyValueChanged_1;
+}
+namespace UnityEngine::UIElements {
+class EventBase;
+}
+namespace UnityEngine::UIElements {
+struct TextOverflowPosition;
+}
+namespace UnityEngine::UIElements {
+class ITextHandle;
+}
+namespace UnityEngine {
+struct Vector2;
+}
+namespace UnityEngine::UIElements {
+class GeometryChangedEvent;
+}
+namespace UnityEngine::UIElements {
+class __TextElement__UxmlTraits;
 }
 namespace UnityEngine::UIElements {
 class UxmlBoolAttributeDescription;
 }
 namespace UnityEngine::UIElements {
+class VisualElement;
+}
+namespace UnityEngine::UIElements {
 class IUxmlAttributes;
 }
 namespace UnityEngine::UIElements {
-class VisualElement;
+class UxmlStringAttributeDescription;
 }
 namespace UnityEngine::UIElements {
 struct CreationContext;
@@ -155,7 +155,7 @@ static_assert(offsetof(::UnityEngine::UIElements::__TextElement__UxmlTraits, ___
 // SizeInfo { instance_size: 1144, native_size: -1, calculated_instance_size: 1144, calculated_native_size: 1140, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6801)), TypeDefinitionIndex(TypeDefinitionIndex(7335))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7335)), TypeDefinitionIndex(TypeDefinitionIndex(6801))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6814))
 // CS Name: ::UnityEngine.UIElements::TextElement*
 class CORDL_TYPE TextElement : public ::UnityEngine::UIElements::BindableElement {
@@ -431,8 +431,8 @@ static_assert(offsetof(::UnityEngine::UIElements::TextElement, ___m_PreviousText
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6997), inst: 5279 }), TypeDefinitionIndex(TypeDefinitionIndex(6813)),
-// TypeDefinitionIndex(TypeDefinitionIndex(6997)), TypeDefinitionIndex(TypeDefinitionIndex(6814))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6812)) CS Name: ::TextElement::UxmlFactory*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6814)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6997), inst: 5279 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(6997)), TypeDefinitionIndex(TypeDefinitionIndex(6813))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6812)) CS Name: ::TextElement::UxmlFactory*
 class CORDL_TYPE __TextElement__UxmlFactory : public ::UnityEngine::UIElements::UxmlFactory_2<::UnityEngine::UIElements::TextElement*, ::UnityEngine::UIElements::__TextElement__UxmlTraits*> {
 public:
   // Declarations

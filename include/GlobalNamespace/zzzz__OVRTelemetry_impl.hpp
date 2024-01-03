@@ -1,10 +1,10 @@
 #pragma once
+#include "GlobalNamespace/zzzz__OVRPlugin_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRTelemetry_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRTelemetry_def.hpp"
-#include "GlobalNamespace/zzzz__OVRTelemetry_def.hpp"
-#include "GlobalNamespace/zzzz__OVRPlugin_def.hpp"
 #include "GlobalNamespace/zzzz__OVRTelemetryMarker_def.hpp"
+#include "GlobalNamespace/zzzz__OVRTelemetry_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::__OVRTelemetry__MarkerPoint.get_NameHandle
 template <>

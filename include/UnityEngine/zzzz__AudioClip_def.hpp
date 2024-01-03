@@ -11,10 +11,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(AudioClip)
 namespace UnityEngine {
-class __AudioClip__PCMSetPositionCallback;
+class __AudioClip__PCMReaderCallback;
 }
 namespace UnityEngine {
-class __AudioClip__PCMReaderCallback;
+class __AudioClip__PCMSetPositionCallback;
 }
 namespace UnityEngine {
 struct AudioDataLoadState;

@@ -7,26 +7,26 @@ CORDL_MODULE_EXPORT(GroupBoxUtility)
 namespace UnityEngine::UIElements {
 class IGroupManager;
 }
-namespace UnityEngine::UIElements {
-class BaseVisualElementPanel;
-}
-namespace UnityEngine::UIElements {
-class DetachFromPanelEvent;
-}
-namespace UnityEngine::UIElements {
-class IGroupBox;
-}
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace UnityEngine::UIElements {
-class IGroupBoxOption;
 }
 namespace System {
 class Type;
 }
 namespace UnityEngine::UIElements {
+class BaseVisualElementPanel;
+}
+namespace UnityEngine::UIElements {
+class IGroupBoxOption;
+}
+namespace UnityEngine::UIElements {
 class AttachToPanelEvent;
+}
+namespace UnityEngine::UIElements {
+class IGroupBox;
+}
+namespace UnityEngine::UIElements {
+class DetachFromPanelEvent;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

@@ -8,31 +8,31 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(DtlsReliableHandshake)
 namespace Org::BouncyCastle::Crypto::Tls {
-class TlsHandshakeHash;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
-class __DtlsReliableHandshake__Retransmit;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
-class __DtlsReliableHandshake__RecordLayerBuffer;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
-class Timeout;
+class DtlsRecordLayer;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class __DtlsReliableHandshake__Message;
 }
 namespace System::Collections {
+class IList;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class Timeout;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class TlsHandshakeHash;
+}
+namespace System::Collections {
 class IDictionary;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class TlsContext;
+class __DtlsReliableHandshake__RecordLayerBuffer;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class DtlsRecordLayer;
+class __DtlsReliableHandshake__Retransmit;
 }
-namespace System::Collections {
-class IList;
+namespace Org::BouncyCastle::Crypto::Tls {
+class TlsContext;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class DtlsHandshakeRetransmit;

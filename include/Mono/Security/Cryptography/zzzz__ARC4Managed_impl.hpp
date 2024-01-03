@@ -1,8 +1,8 @@
 #pragma once
 #include "Mono/Security/Cryptography/zzzz__RC4_impl.hpp"
 #include "Mono/Security/Cryptography/zzzz__ARC4Managed_def.hpp"
-#include "System/Security/Cryptography/zzzz__ICryptoTransform_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
+#include "System/Security/Cryptography/zzzz__ICryptoTransform_def.hpp"
 //  Writing Method size for method: ::Mono::Security::Cryptography::ARC4Managed._ctor
 template <>
 

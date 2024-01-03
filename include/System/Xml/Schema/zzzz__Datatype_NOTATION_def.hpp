@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(Datatype_NOTATION)
-namespace System::Xml {
-struct XmlTokenizedType;
+namespace System::Xml::Schema {
+struct XmlTypeCode;
 }
 namespace System::Xml::Schema {
-struct XmlSchemaWhiteSpace;
+class XmlSchemaType;
 }
 namespace System::Xml {
 class XmlNameTable;
@@ -18,26 +18,26 @@ class XmlNameTable;
 namespace System {
 class Object;
 }
-namespace System::Xml {
-class IXmlNamespaceResolver;
-}
 namespace System {
 class Exception;
-}
-namespace System::Xml::Schema {
-struct XmlTypeCode;
-}
-namespace System::Xml::Schema {
-class XmlSchemaType;
-}
-namespace System::Xml::Schema {
-class XmlValueConverter;
 }
 namespace System {
 class Type;
 }
 namespace System::Xml::Schema {
 class FacetsChecker;
+}
+namespace System::Xml {
+class IXmlNamespaceResolver;
+}
+namespace System::Xml::Schema {
+struct XmlSchemaWhiteSpace;
+}
+namespace System::Xml {
+struct XmlTokenizedType;
+}
+namespace System::Xml::Schema {
+class XmlValueConverter;
 }
 // Forward declare root types
 namespace System::Xml::Schema {

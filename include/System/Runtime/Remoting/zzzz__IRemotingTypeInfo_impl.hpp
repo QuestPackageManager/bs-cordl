@@ -1,7 +1,7 @@
 #pragma once
 #include "System/Runtime/Remoting/zzzz__IRemotingTypeInfo_def.hpp"
-#include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__Type_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::System::Runtime::Remoting::IRemotingTypeInfo.get_TypeName
 template <>
 

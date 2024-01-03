@@ -1,9 +1,9 @@
 #pragma once
 #include "RootMotion/FinalIK/zzzz__Grounder_impl.hpp"
 #include "RootMotion/FinalIK/zzzz__GrounderVRIK_def.hpp"
-#include "RootMotion/FinalIK/zzzz__Grounding_def.hpp"
-#include "RootMotion/FinalIK/zzzz__VRIK_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
+#include "RootMotion/FinalIK/zzzz__VRIK_def.hpp"
+#include "RootMotion/FinalIK/zzzz__Grounding_def.hpp"
 #include "RootMotion/FinalIK/zzzz__IKSolverVR_def.hpp"
 //  Writing Method size for method: ::RootMotion::FinalIK::GrounderVRIK.OpenTutorial
 template <>

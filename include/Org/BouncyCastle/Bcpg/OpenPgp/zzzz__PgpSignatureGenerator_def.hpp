@@ -10,19 +10,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(PgpSignatureGenerator)
 namespace Org::BouncyCastle::Bcpg {
-class SignatureSubpacket;
-}
-namespace Org::BouncyCastle::Bcpg {
-struct PublicKeyAlgorithmTag;
-}
-namespace Org::BouncyCastle::Bcpg::OpenPgp {
-class PgpSignatureSubpacketVector;
-}
-namespace Org::BouncyCastle::Bcpg {
 struct SignatureSubpacketTag;
+}
+namespace Org::BouncyCastle::Bcpg {
+class SignatureSubpacket;
 }
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
 class PgpUserAttributeSubpacketVector;
+}
+namespace Org::BouncyCastle::Crypto {
+class IDigest;
 }
 namespace Org::BouncyCastle::Bcpg {
 struct HashAlgorithmTag;
@@ -31,22 +28,25 @@ namespace Org::BouncyCastle::Security {
 class SecureRandom;
 }
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
-class PgpSignature;
+class PgpPrivateKey;
+}
+namespace Org::BouncyCastle::Bcpg::OpenPgp {
+class PgpSignatureSubpacketVector;
 }
 namespace Org::BouncyCastle::Crypto {
 class ISigner;
-}
-namespace Org::BouncyCastle::Crypto {
-class IDigest;
 }
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
 class PgpOnePassSignature;
 }
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
-class PgpPublicKey;
+class PgpSignature;
 }
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
-class PgpPrivateKey;
+class PgpPublicKey;
+}
+namespace Org::BouncyCastle::Bcpg {
+struct PublicKeyAlgorithmTag;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
@@ -58,7 +58,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureGenerator);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(572)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(580))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(580)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(572))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1667))
 // CS Name: ::Org.BouncyCastle.Bcpg.OpenPgp::PgpSignatureGenerator*
 class CORDL_TYPE PgpSignatureGenerator : public ::System::Object {

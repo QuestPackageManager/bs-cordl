@@ -2,12 +2,12 @@
 #include "GlobalNamespace/zzzz__LightWithIds_impl.hpp"
 #include "GlobalNamespace/zzzz__ColorArrayLightWithIds_def.hpp"
 #include "GlobalNamespace/zzzz__LightWithIds_def.hpp"
-#include "GlobalNamespace/zzzz__MaterialController_def.hpp"
+#include "UnityEngine/zzzz__Color_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "GlobalNamespace/zzzz__MaterialController_def.hpp"
+#include "GlobalNamespace/zzzz__MaterialPropertyBlockController_def.hpp"
 #include "UnityEngine/zzzz__Vector4_def.hpp"
 #include "GlobalNamespace/zzzz__ColorArrayLightWithIds_def.hpp"
-#include "UnityEngine/zzzz__Color_def.hpp"
-#include "GlobalNamespace/zzzz__MaterialPropertyBlockController_def.hpp"
 #include "System/zzzz__Action_2_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::__ColorArrayLightWithIds__ColorArrayLightWithId.add_didSetColorEvent
 template <>

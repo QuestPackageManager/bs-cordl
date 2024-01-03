@@ -9,17 +9,17 @@ CORDL_MODULE_EXPORT(DigestClient)
 namespace System::Net {
 class Authorization;
 }
-namespace System::Net {
-class IAuthenticationModule;
-}
 namespace System::Collections {
 class Hashtable;
 }
 namespace System::Net {
-class WebRequest;
+class ICredentials;
 }
 namespace System::Net {
-class ICredentials;
+class IAuthenticationModule;
+}
+namespace System::Net {
+class WebRequest;
 }
 // Forward declare root types
 namespace System::Net {

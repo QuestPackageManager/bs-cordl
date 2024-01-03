@@ -7,17 +7,17 @@ CORDL_MODULE_EXPORT(OrderedEnumerable_2)
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
+namespace System::Linq {
+template <typename TElement> class EnumerableSorter_1;
+}
 namespace System {
 template <typename T, typename TResult> class Func_2;
 }
 namespace System::Linq {
-template <typename TElement> class EnumerableSorter_1;
+template <typename TElement> class OrderedEnumerable_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class IComparer_1;
-}
-namespace System::Linq {
-template <typename TElement> class OrderedEnumerable_1;
 }
 // Forward declare root types
 namespace System::Linq {

@@ -7,19 +7,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(MemoryMarshal)
 namespace System {
-template <typename T> struct Span_1;
+template <typename T> struct ReadOnlySpan_1;
 }
 namespace System {
-template <typename T> struct ReadOnlySpan_1;
+template <typename T> struct Span_1;
 }
 namespace System {
 template <typename T> struct ArraySegment_1;
 }
 namespace System {
-template <typename T> struct ReadOnlyMemory_1;
+template <typename T> struct Memory_1;
 }
 namespace System {
-template <typename T> struct Memory_1;
+template <typename T> struct ReadOnlyMemory_1;
 }
 // Forward declare root types
 namespace System::Runtime::InteropServices {

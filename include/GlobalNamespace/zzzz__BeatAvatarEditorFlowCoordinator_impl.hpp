@@ -1,18 +1,18 @@
 #pragma once
 #include "BeatSaber/AvatarCore/zzzz__AvatarEditorFlowCoordinator_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatAvatarEditorFlowCoordinator_def.hpp"
-#include "BeatSaber/BeatAvatarAdapter/AvatarEditor/zzzz__AvatarTweenController_def.hpp"
-#include "UnityEngine/zzzz__GameObject_def.hpp"
-#include "BeatSaber/BeatAvatarSDK/zzzz__BeatAvatarVisualController_def.hpp"
 #include "BeatSaber/BeatAvatarAdapter/AvatarEditor/zzzz__EditAvatarColorViewController_def.hpp"
-#include "BeatSaber/BeatAvatarSDK/zzzz__AvatarPart_def.hpp"
+#include "BeatSaber/AvatarCore/zzzz__AvatarEditorFlowCoordinator_def.hpp"
+#include "BeatSaber/BeatAvatarSDK/zzzz__BeatAvatarVisualController_def.hpp"
+#include "UnityEngine/zzzz__GameObject_def.hpp"
+#include "BeatSaber/BeatAvatarAdapter/AvatarEditor/zzzz__BeatAvatarEditorViewController_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
-#include "BeatSaber/AvatarCore/zzzz__AvatarEditorFlowCoordinator_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
-#include "BeatSaber/BeatAvatarAdapter/AvatarEditor/zzzz__BeatAvatarEditorViewController_def.hpp"
+#include "BeatSaber/BeatAvatarAdapter/AvatarEditor/zzzz__AvatarTweenController_def.hpp"
 #include "BeatSaber/BeatAvatarSDK/zzzz__AvatarDataModel_def.hpp"
 #include "System/zzzz__Action_def.hpp"
+#include "BeatSaber/BeatAvatarSDK/zzzz__AvatarPart_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::BeatAvatarEditorFlowCoordinator.Setup
 template <>
 

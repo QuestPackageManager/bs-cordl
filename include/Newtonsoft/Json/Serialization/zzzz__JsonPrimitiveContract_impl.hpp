@@ -2,10 +2,10 @@
 #include "Newtonsoft/Json/Serialization/zzzz__JsonContract_impl.hpp"
 #include "Newtonsoft/Json/Utilities/zzzz__PrimitiveTypeCode_impl.hpp"
 #include "Newtonsoft/Json/Serialization/zzzz__JsonPrimitiveContract_def.hpp"
-#include "Newtonsoft/Json/Utilities/zzzz__PrimitiveTypeCode_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "System/zzzz__Type_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "Newtonsoft/Json/zzzz__ReadType_def.hpp"
+#include "Newtonsoft/Json/Utilities/zzzz__PrimitiveTypeCode_def.hpp"
 //  Writing Method size for method: ::Newtonsoft::Json::Serialization::JsonPrimitiveContract.get_TypeCode
 template <>
 

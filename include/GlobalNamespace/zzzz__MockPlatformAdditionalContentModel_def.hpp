@@ -11,23 +11,8 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(MockPlatformAdditionalContentModel)
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace GlobalNamespace {
-class AlwaysOwnedContentContainerSO;
-}
-namespace System::Threading {
-struct CancellationToken;
-}
 namespace GlobalNamespace {
 struct OpenProductStoreResult;
-}
-namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
-}
-namespace GlobalNamespace {
-class MockPlatformEntitlement;
 }
 namespace GlobalNamespace {
 struct IsPackBetterBuyThanLevelResult;
@@ -39,7 +24,22 @@ namespace GlobalNamespace {
 class MockPlatformAdditionalContentModelInitialDataSO;
 }
 namespace GlobalNamespace {
+class AlwaysOwnedContentContainerSO;
+}
+namespace GlobalNamespace {
 struct EntitlementStatus;
+}
+namespace GlobalNamespace {
+class MockPlatformEntitlement;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace System::Threading {
+struct CancellationToken;
+}
+namespace System::Threading::Tasks {
+template <typename TResult> class Task_1;
 }
 namespace System::Runtime::CompilerServices {
 struct __YieldAwaitable__YieldAwaiter;
@@ -64,9 +64,9 @@ MARK_VAL_T(::GlobalNamespace::__MockPlatformAdditionalContentModel___OpenLevelPr
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 73, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 895 }), TypeDefinitionIndex(TypeDefinitionIndex(16271)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3409)), TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(2677))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4103))
-// CS Name: ::MockPlatformAdditionalContentModel::<OpenLevelProductStoreAsync>d__8
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3409)), TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 895
+// }), TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(16271))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4103)) CS Name:
+// ::MockPlatformAdditionalContentModel::<OpenLevelProductStoreAsync>d__8
 struct CORDL_TYPE __MockPlatformAdditionalContentModel___OpenLevelProductStoreAsync_d__8 {
 public:
   // Declarations

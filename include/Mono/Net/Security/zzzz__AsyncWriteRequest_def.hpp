@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(AsyncWriteRequest)
 namespace Mono::Net::Security {
-class MobileAuthenticatedStream;
+struct AsyncOperationStatus;
 }
 namespace Mono::Net::Security {
-struct AsyncOperationStatus;
+class MobileAuthenticatedStream;
 }
 // Forward declare root types
 namespace Mono::Net::Security {

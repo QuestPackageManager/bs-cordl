@@ -6,26 +6,26 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(VisualTreeUpdater)
-namespace UnityEngine::UIElements {
-class IVisualTreeUpdater;
-}
-namespace UnityEngine::UIElements {
-struct VisualTreeUpdatePhase;
+namespace System {
+class IDisposable;
 }
 namespace UnityEngine::UIElements {
 class __VisualTreeUpdater__UpdaterArray;
 }
 namespace UnityEngine::UIElements {
-struct VersionChangeType;
-}
-namespace System {
-class IDisposable;
-}
-namespace UnityEngine::UIElements {
 class VisualElement;
 }
 namespace UnityEngine::UIElements {
+struct VersionChangeType;
+}
+namespace UnityEngine::UIElements {
 class BaseVisualElementPanel;
+}
+namespace UnityEngine::UIElements {
+class IVisualTreeUpdater;
+}
+namespace UnityEngine::UIElements {
+struct VisualTreeUpdatePhase;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

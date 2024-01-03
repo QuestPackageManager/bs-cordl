@@ -9,13 +9,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(StretchableCube)
 namespace UnityEngine {
-struct Vector3;
+struct Vector2;
 }
 namespace UnityEngine {
 class Mesh;
 }
 namespace UnityEngine {
-struct Vector2;
+struct Vector3;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -27,7 +27,7 @@ MARK_REF_PTR_T(::GlobalNamespace::StretchableCube);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4797))
 // CS Name: ::StretchableCube*
 class CORDL_TYPE StretchableCube : public ::UnityEngine::MonoBehaviour {

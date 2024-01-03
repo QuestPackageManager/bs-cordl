@@ -12,43 +12,49 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(FactoryFromBinderBase)
 namespace Zenject {
-class __FactoryFromBinderBase____c__DisplayClass31_0;
+class __FactoryFromBinderBase____c__DisplayClass29_0;
 }
 namespace Zenject {
-class IProvider;
+class __FactoryFromBinderBase____c__DisplayClass20_0;
+}
+namespace Zenject {
+class __FactoryFromBinderBase____c__DisplayClass33_0;
+}
+namespace Zenject {
+class NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder;
 }
 namespace Zenject {
 class __FactoryFromBinderBase___get_AllParentTypes_d__17;
 }
 namespace Zenject {
-class FactoryBindInfo;
+class DiContainer;
 }
 namespace Zenject {
-class __FactoryFromBinderBase____c__DisplayClass27_0;
-}
-namespace System {
-class Type;
-}
-namespace Zenject {
-template <typename TContract> class ConcreteBinderGeneric_1;
-}
-namespace Zenject {
-class __FactoryFromBinderBase____c__DisplayClass21_0;
-}
-namespace Zenject {
-class __FactoryFromBinderBase____c__DisplayClass23_0;
+class __FactoryFromBinderBase____c__DisplayClass30_0;
 }
 namespace Zenject {
 class __FactoryFromBinderBase____c__DisplayClass34_0;
 }
 namespace System {
-struct Guid;
+class Object;
+}
+namespace System {
+template <typename T, typename TResult> class Func_2;
+}
+namespace Zenject {
+class FactoryBindInfo;
 }
 namespace Zenject {
 class InjectContext;
 }
 namespace Zenject {
-class __FactoryFromBinderBase____c__DisplayClass30_0;
+class ConditionCopyNonLazyBinder;
+}
+namespace UnityEngine {
+class Object;
+}
+namespace Zenject {
+class __FactoryFromBinderBase____c__DisplayClass21_0;
 }
 namespace Zenject {
 class __FactoryFromBinderBase____c__DisplayClass24_0;
@@ -56,47 +62,41 @@ class __FactoryFromBinderBase____c__DisplayClass24_0;
 namespace Zenject {
 class BindInfo;
 }
-namespace System {
-class Object;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
 }
 namespace UnityEngine {
-class Object;
+class GameObject;
 }
 namespace Zenject {
-class NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder;
+class __FactoryFromBinderBase____c__DisplayClass32_0;
 }
 namespace Zenject {
-class __FactoryFromBinderBase____c__DisplayClass33_0;
+class __FactoryFromBinderBase____c__DisplayClass28_0;
+}
+namespace System {
+class Type;
+}
+namespace Zenject {
+class __FactoryFromBinderBase____c__DisplayClass27_0;
+}
+namespace Zenject {
+class __FactoryFromBinderBase____c__DisplayClass31_0;
+}
+namespace Zenject {
+template <typename TContract> class ConcreteBinderGeneric_1;
+}
+namespace System {
+struct Guid;
+}
+namespace Zenject {
+class __FactoryFromBinderBase____c__DisplayClass23_0;
 }
 namespace Zenject {
 class __FactoryFromBinderBase____c__DisplayClass26_0;
 }
 namespace Zenject {
-class DiContainer;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
-namespace Zenject {
-class __FactoryFromBinderBase____c__DisplayClass20_0;
-}
-namespace Zenject {
-class __FactoryFromBinderBase____c__DisplayClass32_0;
-}
-namespace UnityEngine {
-class GameObject;
-}
-namespace System {
-template <typename T, typename TResult> class Func_2;
-}
-namespace Zenject {
-class ConditionCopyNonLazyBinder;
-}
-namespace Zenject {
-class __FactoryFromBinderBase____c__DisplayClass29_0;
-}
-namespace Zenject {
-class __FactoryFromBinderBase____c__DisplayClass28_0;
+class IProvider;
 }
 namespace Zenject {
 class InjectTypeInfo;
@@ -105,13 +105,13 @@ namespace Zenject {
 class GameObjectCreationParameters;
 }
 namespace System::Collections {
-class IEnumerator;
-}
-namespace System::Collections {
 class IEnumerable;
 }
 namespace System {
 class IDisposable;
+}
+namespace System::Collections {
+class IEnumerator;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;

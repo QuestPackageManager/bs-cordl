@@ -2,12 +2,12 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "BeatSaber/BeatAvatarSDK/zzzz__AvatarPartsModel_def.hpp"
 #include "BeatSaber/BeatAvatarSDK/zzzz__SkinColorSO_def.hpp"
-#include "BeatSaber/BeatAvatarSDK/zzzz__SkinColorSetSO_def.hpp"
+#include "BeatSaber/BeatAvatarSDK/zzzz__AvatarPartCollection_1_def.hpp"
 #include "BeatSaber/BeatAvatarSDK/zzzz__AvatarMeshPartSO_def.hpp"
 #include "BeatSaber/BeatAvatarSDK/zzzz__AvatarPartsModelSO_def.hpp"
-#include "BeatSaber/BeatAvatarSDK/zzzz__AvatarPartCollection_1_def.hpp"
 #include "BeatSaber/BeatAvatarSDK/zzzz__AvatarSpritePartSO_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "BeatSaber/BeatAvatarSDK/zzzz__SkinColorSetSO_def.hpp"
 //  Writing Method size for method: ::BeatSaber::BeatAvatarSDK::AvatarPartsModel.get_headTopCollection
 template <>
 

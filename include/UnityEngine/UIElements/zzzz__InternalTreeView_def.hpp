@@ -11,25 +11,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(InternalTreeView)
 namespace UnityEngine::UIElements {
-struct AlternatingRowBackground;
-}
-namespace System {
-template <typename T> class Action_1;
+class __InternalTreeView__UxmlTraits;
 }
 namespace UnityEngine::UIElements {
-class __InternalTreeView__UxmlTraits;
+class __InternalTreeView__UxmlFactory;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
-}
-namespace UnityEngine::UIElements {
-class VisualElement;
-}
-namespace UnityEngine::UIElements {
-class CustomStyleResolvedEvent;
-}
-namespace System {
-template <typename TResult> class Func_1;
 }
 namespace System {
 template <typename T1, typename T2> class Action_2;
@@ -37,47 +25,53 @@ template <typename T1, typename T2> class Action_2;
 namespace UnityEngine::UIElements {
 class KeyDownEvent;
 }
+namespace System {
+template <typename TResult> class Func_1;
+}
+namespace UnityEngine::UIElements {
+class ScrollView;
+}
+namespace UnityEngine::UIElements {
+class MouseUpEvent;
+}
+namespace UnityEngine::UIElements {
+class ITreeViewItem;
+}
 namespace UnityEngine::UIElements {
 struct SelectionType;
 }
 namespace UnityEngine::UIElements {
 struct __InternalTreeView__TreeViewItemWrapper;
 }
-namespace UnityEngine::UIElements {
-class __InternalTreeView___GetAllItems_d__64;
-}
 namespace System {
 class Object;
 }
+namespace UnityEngine::UIElements {
+class VisualElement;
+}
+namespace UnityEngine::UIElements {
+struct AlternatingRowBackground;
+}
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
+}
+namespace UnityEngine::UIElements {
+class ListView;
+}
+namespace System {
+template <typename T> class Action_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class IList_1;
 }
 namespace UnityEngine::UIElements {
-class MouseUpEvent;
+class __InternalTreeView___GetAllItems_d__64;
 }
 namespace UnityEngine::UIElements {
 template <typename T> class ChangeEvent_1;
 }
 namespace UnityEngine::UIElements {
-class ListView;
-}
-namespace UnityEngine::UIElements {
-class __InternalTreeView__UxmlFactory;
-}
-namespace UnityEngine::UIElements {
-class ScrollView;
-}
-namespace UnityEngine::UIElements {
-class ITreeViewItem;
-}
-namespace UnityEngine::UIElements {
-class IUxmlAttributes;
-}
-namespace UnityEngine::UIElements {
-struct CreationContext;
+class CustomStyleResolvedEvent;
 }
 namespace UnityEngine::UIElements {
 template <typename T> class UxmlEnumAttributeDescription_1;
@@ -88,6 +82,12 @@ class UxmlIntAttributeDescription;
 namespace UnityEngine::UIElements {
 class UxmlBoolAttributeDescription;
 }
+namespace UnityEngine::UIElements {
+struct CreationContext;
+}
+namespace UnityEngine::UIElements {
+class IUxmlAttributes;
+}
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
@@ -97,11 +97,11 @@ class IEnumerator;
 namespace System::Collections::Generic {
 template <typename T> class Stack_1;
 }
-namespace System {
-class IDisposable;
-}
 namespace System::Collections {
 class IEnumerable;
+}
+namespace System {
+class IDisposable;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -560,7 +560,7 @@ static_assert(offsetof(::UnityEngine::UIElements::InternalTreeView, ___m_ScrollV
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6997), inst: 5265 }), TypeDefinitionIndex(TypeDefinitionIndex(6997)),
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6997)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6997), inst: 5265 }),
 // TypeDefinitionIndex(TypeDefinitionIndex(7347)), TypeDefinitionIndex(TypeDefinitionIndex(7350))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7346)) CS Name: ::InternalTreeView::UxmlFactory*
 class CORDL_TYPE __InternalTreeView__UxmlFactory
     : public ::UnityEngine::UIElements::UxmlFactory_2<::UnityEngine::UIElements::InternalTreeView*, ::UnityEngine::UIElements::__InternalTreeView__UxmlTraits*> {

@@ -13,32 +13,32 @@ CORDL_MODULE_EXPORT(InputBinding)
 namespace System {
 template <typename T, typename TResult> class Func_2;
 }
-namespace UnityEngine::InputSystem {
-struct __InputBinding__DisplayStringOptions;
-}
-namespace UnityEngine::InputSystem {
-struct __InputBinding__Flags;
+namespace System {
+struct Guid;
 }
 namespace UnityEngine::InputSystem {
 class __InputBinding____c;
 }
-namespace System {
-struct Guid;
+namespace UnityEngine::InputSystem {
+struct __InputBinding__MatchOptions;
 }
-namespace System {
-class Object;
+namespace UnityEngine::InputSystem {
+struct __InputBinding__DisplayStringOptions;
 }
 namespace System {
 template <typename T> class IEquatable_1;
 }
-namespace UnityEngine::InputSystem {
-struct __InputBinding__MatchOptions;
+namespace System {
+class Object;
 }
 namespace UnityEngine::InputSystem {
 class InputControl;
 }
 namespace UnityEngine::InputSystem {
 class InputAction;
+}
+namespace UnityEngine::InputSystem {
+struct __InputBinding__Flags;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem {
@@ -276,7 +276,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::__Inpu
 // SizeInfo { instance_size: 88, native_size: 88, calculated_instance_size: 88, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6185))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6185)), TypeDefinitionIndex(TypeDefinitionIndex(6183)), TypeDefinitionIndex(TypeDefinitionIndex(6184))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6187))
 // CS Name: ::UnityEngine.InputSystem::InputBinding
 struct CORDL_TYPE InputBinding {

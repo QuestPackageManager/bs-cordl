@@ -9,17 +9,17 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(RaycastResult)
-namespace UnityEngine::EventSystems {
-class BaseRaycaster;
+namespace UnityEngine {
+class GameObject;
 }
 namespace UnityEngine {
 struct Vector3;
 }
-namespace UnityEngine {
-struct Vector2;
+namespace UnityEngine::EventSystems {
+class BaseRaycaster;
 }
 namespace UnityEngine {
-class GameObject;
+struct Vector2;
 }
 // Forward declare root types
 namespace UnityEngine::EventSystems {
@@ -31,7 +31,7 @@ MARK_VAL_T(::UnityEngine::EventSystems::RaycastResult);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::EventSystems {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10243))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13213))
 // CS Name: ::UnityEngine.EventSystems::RaycastResult
 struct CORDL_TYPE RaycastResult {

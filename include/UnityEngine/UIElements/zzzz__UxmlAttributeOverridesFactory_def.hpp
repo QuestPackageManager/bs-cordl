@@ -8,13 +8,13 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(UxmlAttributeOverridesFactory)
 namespace UnityEngine::UIElements {
-struct CreationContext;
+class VisualElement;
 }
 namespace UnityEngine::UIElements {
 class IUxmlAttributes;
 }
 namespace UnityEngine::UIElements {
-class VisualElement;
+struct CreationContext;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -26,8 +26,8 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::UxmlAttributeOverridesFactory);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6997), inst: 5284 }), TypeDefinitionIndex(TypeDefinitionIndex(6744)),
-// TypeDefinitionIndex(TypeDefinitionIndex(6977)), TypeDefinitionIndex(TypeDefinitionIndex(6997))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6976)) CS Name:
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6744)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6997), inst: 5284 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(6997)), TypeDefinitionIndex(TypeDefinitionIndex(6977))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6976)) CS Name:
 // ::UnityEngine.UIElements::UxmlAttributeOverridesFactory*
 class CORDL_TYPE UxmlAttributeOverridesFactory : public ::UnityEngine::UIElements::UxmlFactory_2<::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::UxmlAttributeOverridesTraits*> {
 public:

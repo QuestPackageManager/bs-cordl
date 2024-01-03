@@ -12,32 +12,32 @@ template <typename TKey, typename TValue> class Dictionary_2;
 namespace Newtonsoft::Json::Converters {
 class IXmlDocument;
 }
-namespace Newtonsoft::Json {
-class JsonReader;
-}
-namespace Newtonsoft::Json::Converters {
-class IXmlElement;
-}
 namespace Newtonsoft::Json::Converters {
 class IXmlNode;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
 }
 namespace System {
 class Object;
 }
-namespace System {
-class Type;
-}
 namespace Newtonsoft::Json {
 class JsonSerializer;
 }
-namespace System::Xml {
-class XmlNamespaceManager;
+namespace Newtonsoft::Json {
+class JsonReader;
 }
 namespace Newtonsoft::Json {
 class JsonWriter;
+}
+namespace System {
+class Type;
+}
+namespace Newtonsoft::Json::Converters {
+class IXmlElement;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace System::Xml {
+class XmlNamespaceManager;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Converters {

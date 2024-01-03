@@ -3,6 +3,7 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Guid_def.hpp"
+#include "System/zzzz__ReadOnlySpan_1_def.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
@@ -10,40 +11,40 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Guid)
 namespace System {
-class Object;
-}
-namespace System {
-struct __Guid__GuidStyles;
-}
-namespace System {
-class IFormatProvider;
-}
-namespace System {
-struct __Guid__GuidParseThrowStyle;
+template <typename T> class IComparable_1;
 }
 namespace System {
 struct __Guid__ParseFailureKind;
 }
 namespace System {
-struct __Guid__GuidResult;
-}
-namespace System {
-template <typename T> class IComparable_1;
-}
-namespace System {
-template <typename T> class IEquatable_1;
-}
-namespace System {
-template <typename T> struct ReadOnlySpan_1;
-}
-namespace System {
-template <typename T> struct Span_1;
+class ISpanFormattable;
 }
 namespace System {
 class IFormattable;
 }
 namespace System {
-class ISpanFormattable;
+template <typename T> struct ReadOnlySpan_1;
+}
+namespace System {
+class Object;
+}
+namespace System {
+class IFormatProvider;
+}
+namespace System {
+struct __Guid__GuidStyles;
+}
+namespace System {
+struct __Guid__GuidParseThrowStyle;
+}
+namespace System {
+struct __Guid__GuidResult;
+}
+namespace System {
+template <typename T> struct Span_1;
+}
+namespace System {
+template <typename T> class IEquatable_1;
 }
 namespace System {
 class IComparable;
@@ -299,7 +300,7 @@ static_assert(offsetof(::System::__Guid__ParseFailureKind, value__) == 0x0, "Off
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2464)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2464), inst: 292 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2406))
 // CS Name: ::System::Guid
 struct CORDL_TYPE Guid {
@@ -534,7 +535,7 @@ static_assert(offsetof(::System::Guid, _k) == 0xf, "Offset mismatch!");
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2406)), TypeDefinitionIndex(TypeDefinitionIndex(2404)), TypeDefinitionIndex(TypeDefinitionIndex(2403))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2406)), TypeDefinitionIndex(TypeDefinitionIndex(2403)), TypeDefinitionIndex(TypeDefinitionIndex(2404))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2405))
 // CS Name: ::Guid::GuidResult
 struct CORDL_TYPE __Guid__GuidResult {

@@ -8,25 +8,25 @@ namespace GlobalNamespace {
 class IDifficultyBeatmap;
 }
 namespace GlobalNamespace {
-class MissionCompletionResults;
-}
-namespace GlobalNamespace {
-class AchievementsModelSO;
+class AchievementSO;
 }
 namespace GlobalNamespace {
 class PlayerDataModel;
 }
 namespace GlobalNamespace {
-class AchievementSO;
+class MissionCompletionResults;
 }
 namespace GlobalNamespace {
-class MissionNodesManager;
+class MissionNode;
 }
 namespace GlobalNamespace {
 class LevelCompletionResults;
 }
 namespace GlobalNamespace {
-class MissionNode;
+class AchievementsModelSO;
+}
+namespace GlobalNamespace {
+class MissionNodesManager;
 }
 // Forward declare root types
 namespace GlobalNamespace {

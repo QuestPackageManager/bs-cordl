@@ -1,9 +1,9 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__AudioClipQueue_def.hpp"
-#include "UnityEngine/zzzz__AudioClip_def.hpp"
-#include "UnityEngine/zzzz__AudioSource_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "UnityEngine/zzzz__AudioSource_def.hpp"
+#include "UnityEngine/zzzz__AudioClip_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::AudioClipQueue.Awake
 template <>
 

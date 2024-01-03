@@ -10,26 +10,26 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(TransformData)
-namespace UnityEngine::UIElements {
-template <typename T> class IStyleDataGroup_1;
+namespace System {
+class Object;
 }
 namespace UnityEngine::UIElements {
 struct TransformOrigin;
 }
 namespace UnityEngine::UIElements {
-struct Scale;
+template <typename T> class IStyleDataGroup_1;
 }
 namespace System {
 template <typename T> class IEquatable_1;
 }
 namespace UnityEngine::UIElements {
-struct Translate;
-}
-namespace System {
-class Object;
+struct Rotate;
 }
 namespace UnityEngine::UIElements {
-struct Rotate;
+struct Translate;
+}
+namespace UnityEngine::UIElements {
+struct Scale;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -41,8 +41,8 @@ MARK_VAL_T(::UnityEngine::UIElements::TransformData);
 // SizeInfo { instance_size: 84, native_size: 84, calculated_instance_size: 84, calculated_native_size: 100, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7318)), TypeDefinitionIndex(TypeDefinitionIndex(7295)), TypeDefinitionIndex(TypeDefinitionIndex(7317)),
-// TypeDefinitionIndex(TypeDefinitionIndex(7302))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7359)) CS Name: ::UnityEngine.UIElements::TransformData
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7302)), TypeDefinitionIndex(TypeDefinitionIndex(7295)), TypeDefinitionIndex(TypeDefinitionIndex(7318)),
+// TypeDefinitionIndex(TypeDefinitionIndex(7317))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7359)) CS Name: ::UnityEngine.UIElements::TransformData
 struct CORDL_TYPE TransformData {
 public:
   // Declarations

@@ -2,8 +2,8 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "Unity/Profiling/zzzz__ProfilerMarker_impl.hpp"
 #include "TMPro/zzzz__TMP_UpdateManager_def.hpp"
-#include "TMPro/zzzz__TMP_Text_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "TMPro/zzzz__TMP_Text_def.hpp"
 #include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
 //  Writing Method size for method: ::TMPro::TMP_UpdateManager.get_instance
 template <>

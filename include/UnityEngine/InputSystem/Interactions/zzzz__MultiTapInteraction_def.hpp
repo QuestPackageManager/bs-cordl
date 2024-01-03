@@ -10,10 +10,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(MultiTapInteraction)
 namespace UnityEngine::InputSystem {
-template <typename TValue> class IInputInteraction_1;
+class IInputInteraction;
 }
 namespace UnityEngine::InputSystem {
-class IInputInteraction;
+template <typename TValue> class IInputInteraction_1;
 }
 namespace UnityEngine::InputSystem::Interactions {
 struct __MultiTapInteraction__TapPhase;

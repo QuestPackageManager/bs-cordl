@@ -5,23 +5,23 @@ CORDL_MODULE_INIT
 #include "Zenject/zzzz__Context_def.hpp"
 #include "Zenject/zzzz__ReflectionBakingCoverageModes_def.hpp"
 CORDL_MODULE_EXPORT(ProjectContext)
-namespace UnityEngine {
-class MonoBehaviour;
+namespace Zenject {
+class ZenjectSettings;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
+namespace UnityEngine {
+class GameObject;
 }
 namespace System {
 class Action;
 }
-namespace Zenject {
-class ZenjectSettings;
-}
 namespace UnityEngine {
-class GameObject;
+class MonoBehaviour;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
 }
 namespace Zenject {
 class InjectTypeInfo;
@@ -39,7 +39,7 @@ MARK_REF_PTR_T(::Zenject::ProjectContext);
 // SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11354)), TypeDefinitionIndex(TypeDefinitionIndex(11119))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11119)), TypeDefinitionIndex(TypeDefinitionIndex(11354))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11121))
 // CS Name: ::Zenject::ProjectContext*
 class CORDL_TYPE ProjectContext : public ::Zenject::Context {

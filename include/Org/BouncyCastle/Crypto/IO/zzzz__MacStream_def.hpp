@@ -10,10 +10,10 @@ namespace Org::BouncyCastle::Crypto {
 class IMac;
 }
 namespace System::IO {
-class Stream;
+struct SeekOrigin;
 }
 namespace System::IO {
-struct SeekOrigin;
+class Stream;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::IO {

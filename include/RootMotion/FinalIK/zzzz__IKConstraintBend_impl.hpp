@@ -4,9 +4,9 @@
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "RootMotion/FinalIK/zzzz__IKConstraintBend_def.hpp"
 #include "RootMotion/FinalIK/zzzz__IKSolverFullBody_def.hpp"
-#include "RootMotion/zzzz__Warning_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
+#include "RootMotion/zzzz__Warning_def.hpp"
 //  Writing Method size for method: ::RootMotion::FinalIK::IKConstraintBend.IsValid
 template <>
 

@@ -11,13 +11,13 @@ namespace System {
 class Object;
 }
 namespace System::Net {
+class IPEndPoint;
+}
+namespace System::Net {
 class IPAddress;
 }
 namespace System::Net::Sockets {
 struct AddressFamily;
-}
-namespace System::Net {
-class IPEndPoint;
 }
 // Forward declare root types
 namespace System::Net {

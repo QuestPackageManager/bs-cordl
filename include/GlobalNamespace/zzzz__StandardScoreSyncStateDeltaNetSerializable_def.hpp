@@ -11,25 +11,25 @@ namespace GlobalNamespace {
 class IPoolablePacket;
 }
 namespace GlobalNamespace {
-template <typename T> class IPacketPool_1;
-}
-namespace GlobalNamespace {
-template <typename T> class ISyncStateDeltaSerializable_1;
+struct SyncStateId;
 }
 namespace LiteNetLib::Utils {
 class INetSerializable;
 }
+namespace GlobalNamespace {
+template <typename T> class ISyncStateDeltaSerializable_1;
+}
+namespace GlobalNamespace {
+template <typename T> class IPacketPool_1;
+}
 namespace LiteNetLib::Utils {
-class NetDataWriter;
+class NetDataReader;
 }
 namespace GlobalNamespace {
 struct StandardScoreSyncState;
 }
-namespace GlobalNamespace {
-struct SyncStateId;
-}
 namespace LiteNetLib::Utils {
-class NetDataReader;
+class NetDataWriter;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -41,7 +41,7 @@ MARK_REF_PTR_T(::GlobalNamespace::StandardScoreSyncStateDeltaNetSerializable);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12978)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12988))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12978)), TypeDefinitionIndex(TypeDefinitionIndex(12988))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12979))
 // CS Name: ::StandardScoreSyncStateDeltaNetSerializable*
 class CORDL_TYPE StandardScoreSyncStateDeltaNetSerializable : public ::System::Object {

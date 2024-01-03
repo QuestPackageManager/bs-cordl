@@ -8,25 +8,25 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(MouseEventBase_1)
 namespace UnityEngine::UIElements {
-class IPointerEvent;
-}
-namespace UnityEngine::UIElements {
 class IMouseEvent;
 }
-namespace UnityEngine::UIElements {
-class IEventHandler;
-}
 namespace UnityEngine {
-class Event;
-}
-namespace UnityEngine {
-struct EventModifiers;
+struct Vector2;
 }
 namespace UnityEngine::UIElements {
 class IPanel;
 }
 namespace UnityEngine {
-struct Vector2;
+class Event;
+}
+namespace UnityEngine::UIElements {
+class IEventHandler;
+}
+namespace UnityEngine {
+struct EventModifiers;
+}
+namespace UnityEngine::UIElements {
+class IPointerEvent;
 }
 namespace UnityEngine::UIElements {
 class IMouseEventInternal;
@@ -43,8 +43,9 @@ namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14602)), TypeDefinitionIndex(TypeDefinitionIndex(10243)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7180), inst:
-// 1714 }), TypeDefinitionIndex(TypeDefinitionIndex(7180))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7215)) CS Name: ::UnityEngine.UIElements::MouseEventBase`1<T>*
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7180), inst: 1714 }), TypeDefinitionIndex(TypeDefinitionIndex(10243)),
+// TypeDefinitionIndex(TypeDefinitionIndex(7180)), TypeDefinitionIndex(TypeDefinitionIndex(14602))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7215)) CS Name:
+// ::UnityEngine.UIElements::MouseEventBase`1<T>*
 class CORDL_TYPE MouseEventBase_1 : public ::UnityEngine::UIElements::EventBase_1<T> {
 public:
   // Declarations

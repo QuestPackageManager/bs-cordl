@@ -6,14 +6,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ElementTryParser_1)
-namespace System::Net::Http::Headers {
-class Lexer;
+namespace System {
+class Object;
 }
 namespace System::Net::Http::Headers {
 struct Token;
 }
-namespace System {
-class Object;
+namespace System::Net::Http::Headers {
+class Lexer;
 }
 // Forward declare root types
 namespace System::Net::Http::Headers {

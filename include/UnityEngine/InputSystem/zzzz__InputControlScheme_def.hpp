@@ -13,8 +13,17 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(InputControlScheme)
+namespace UnityEngine::InputSystem {
+template <typename TControl> struct InputControlList_1;
+}
+namespace System {
+class Object;
+}
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
+}
+namespace System::Collections {
+class IEnumerator;
 }
 namespace System {
 class IDisposable;
@@ -23,52 +32,43 @@ namespace UnityEngine::InputSystem {
 class InputControl;
 }
 namespace UnityEngine::InputSystem {
-template <typename TControl> struct InputControlList_1;
-}
-namespace System {
-class Object;
-}
-namespace System::Collections {
-class IEnumerator;
-}
-namespace UnityEngine::InputSystem {
 class InputDevice;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
-namespace UnityEngine::InputSystem::Utilities {
-template <typename TValue> struct ReadOnlyArray_1;
-}
-namespace UnityEngine::InputSystem {
-struct __InputControlScheme__MatchResult;
-}
-namespace UnityEngine::InputSystem {
-struct __InputControlScheme__SchemeJson;
-}
-namespace UnityEngine::InputSystem {
-struct __InputControlScheme__DeviceRequirement;
 }
 namespace System {
 template <typename T> class IEquatable_1;
 }
+namespace UnityEngine::InputSystem {
+struct __InputControlScheme__SchemeJson;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
 namespace System {
 template <typename T> struct Nullable_1;
 }
+namespace UnityEngine::InputSystem {
+struct __InputControlScheme__DeviceRequirement;
+}
+namespace UnityEngine::InputSystem {
+struct __InputControlScheme__MatchResult;
+}
+namespace UnityEngine::InputSystem::Utilities {
+template <typename TValue> struct ReadOnlyArray_1;
+}
 namespace GlobalNamespace {
 struct __InputControlScheme__DeviceRequirement__Flags;
-}
-namespace GlobalNamespace {
-struct __InputControlScheme__MatchResult__Match;
-}
-namespace GlobalNamespace {
-struct __InputControlScheme__MatchResult__Enumerator;
 }
 namespace System::Collections {
 class IEnumerable;
 }
 namespace GlobalNamespace {
+struct __InputControlScheme__MatchResult__Enumerator;
+}
+namespace GlobalNamespace {
 struct __InputControlScheme__MatchResult__Result;
+}
+namespace GlobalNamespace {
+struct __InputControlScheme__MatchResult__Match;
 }
 namespace GlobalNamespace {
 struct __InputControlScheme__SchemeJson__DeviceJson;
@@ -169,8 +169,8 @@ static_assert(offsetof(::GlobalNamespace::__InputControlScheme__MatchResult__Res
 // SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6226), inst: 3106 }), TypeDefinitionIndex(TypeDefinitionIndex(6226)),
-// TypeDefinitionIndex(TypeDefinitionIndex(6215))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6197)) CS Name: ::InputControlScheme::MatchResult::Match
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6226), inst: 3106 }), TypeDefinitionIndex(TypeDefinitionIndex(6215)),
+// TypeDefinitionIndex(TypeDefinitionIndex(6226))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6197)) CS Name: ::InputControlScheme::MatchResult::Match
 struct CORDL_TYPE __InputControlScheme__MatchResult__Match {
 public:
   // Declarations
@@ -311,9 +311,9 @@ static_assert(offsetof(::GlobalNamespace::__InputControlScheme__MatchResult__Enu
 // SizeInfo { instance_size: 80, native_size: 80, calculated_instance_size: 80, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6196)), TypeDefinitionIndex(TypeDefinitionIndex(6239)), TypeDefinitionIndex(TypeDefinitionIndex(6215)),
-// TypeDefinitionIndex(TypeDefinitionIndex(6226)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6226), inst: 2036 }), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(6226), inst: 3106 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(6199)) CS Name: ::InputControlScheme::MatchResult
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6239)), TypeDefinitionIndex(TypeDefinitionIndex(6226)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6226), inst: 3106
+// }), TypeDefinitionIndex(TypeDefinitionIndex(6215)), TypeDefinitionIndex(TypeDefinitionIndex(6196)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6226), inst: 2036 })} Self:
+// TypeDefinitionIndex(TypeDefinitionIndex(6199)) CS Name: ::InputControlScheme::MatchResult
 struct CORDL_TYPE __InputControlScheme__MatchResult {
 public:
   // Declarations

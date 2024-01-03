@@ -1,9 +1,9 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__SortExtensions_def.hpp"
-#include "System/zzzz__Func_2_def.hpp"
-#include "GlobalNamespace/zzzz__SortExtensions_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "GlobalNamespace/zzzz__SortExtensions_def.hpp"
+#include "System/zzzz__Func_2_def.hpp"
 template <typename T> constexpr ::System::Func_2<T, int32_t>*& GlobalNamespace::__SortExtensions____c__DisplayClass1_0_1<T>::__get_getSortIndex() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___getSortIndex;

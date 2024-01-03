@@ -10,37 +10,37 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ConcurrentQueue_1)
 namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
+namespace System::Collections::Concurrent {
+template <typename T> class __ConcurrentQueue_1__Segment;
+}
+namespace System::Collections::Concurrent {
+template <typename T> class IProducerConsumerCollection_1;
+}
+namespace System::Collections {
+class IEnumerable;
+}
+namespace System {
+class Object;
+}
+namespace System {
+class Array;
+}
+namespace System::Collections {
+class IEnumerator;
+}
+namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class IReadOnlyCollection_1;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
-namespace System::Collections::Concurrent {
-template <typename T> class IProducerConsumerCollection_1;
-}
-namespace System {
-class Array;
-}
 namespace System::Collections::Concurrent {
 template <typename T> class __ConcurrentQueue_1___Enumerate_d__28;
 }
-namespace System::Collections::Concurrent {
-template <typename T> class __ConcurrentQueue_1__Segment;
-}
-namespace System::Collections {
-class IEnumerator;
-}
-namespace System::Collections {
-class IEnumerable;
-}
 namespace System::Collections {
 class ICollection;
-}
-namespace System {
-class Object;
 }
 namespace GlobalNamespace {
 template <typename T> struct __ConcurrentQueue_1__Segment__Slot;
@@ -104,7 +104,7 @@ namespace System::Collections::Concurrent {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3804))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3804)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3801))
 // CS Name: ::ConcurrentQueue`1::Segment<T>*
 class CORDL_TYPE __ConcurrentQueue_1__Segment : public ::System::Object {

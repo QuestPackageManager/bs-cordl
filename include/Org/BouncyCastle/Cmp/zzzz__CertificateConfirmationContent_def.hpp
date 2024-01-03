@@ -8,11 +8,11 @@ CORDL_MODULE_EXPORT(CertificateConfirmationContent)
 namespace Org::BouncyCastle::Cms {
 class DefaultDigestAlgorithmIdentifierFinder;
 }
-namespace Org::BouncyCastle::Cmp {
-class CertificateStatus;
-}
 namespace Org::BouncyCastle::Asn1::Cmp {
 class CertConfirmContent;
+}
+namespace Org::BouncyCastle::Cmp {
+class CertificateStatus;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Cmp {

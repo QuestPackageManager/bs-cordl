@@ -13,17 +13,17 @@ class ILogger;
 namespace UnityEngine {
 class ILogHandler;
 }
+namespace UnityEngine {
+class Object;
+}
 namespace System {
 class Object;
-}
-namespace UnityEngine {
-class Object;
-}
-namespace UnityEngine {
-struct LogType;
 }
 namespace System {
 class Exception;
+}
+namespace UnityEngine {
+struct LogType;
 }
 // Forward declare root types
 namespace UnityEngine {

@@ -1,10 +1,10 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "HMUI/zzzz__ScreenModeController_def.hpp"
-#include "HMUI/zzzz__ScreenModeData_def.hpp"
 #include "HMUI/zzzz__CurvedCanvasSettings_def.hpp"
-#include "UnityEngine/zzzz__Transform_def.hpp"
 #include "GlobalNamespace/zzzz__IVRPlatformHelper_def.hpp"
+#include "HMUI/zzzz__ScreenModeData_def.hpp"
+#include "UnityEngine/zzzz__Transform_def.hpp"
 //  Writing Method size for method: ::HMUI::ScreenModeController.Awake
 template <>
 

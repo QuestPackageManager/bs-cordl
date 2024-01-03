@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Digests/zzzz__SkeinDigest_def.hpp"
-#include "Org/BouncyCastle/Crypto/Parameters/zzzz__SkeinParameters_def.hpp"
 #include "Org/BouncyCastle/Utilities/zzzz__IMemoable_def.hpp"
+#include "Org/BouncyCastle/Crypto/Parameters/zzzz__SkeinParameters_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__IDigest_def.hpp"
 #include "Org/BouncyCastle/Crypto/Digests/zzzz__SkeinEngine_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Digests::SkeinDigest._ctor

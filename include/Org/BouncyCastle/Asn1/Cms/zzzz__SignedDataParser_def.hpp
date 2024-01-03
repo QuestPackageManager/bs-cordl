@@ -7,14 +7,14 @@ CORDL_MODULE_EXPORT(SignedDataParser)
 namespace System {
 class Object;
 }
+namespace Org::BouncyCastle::Asn1 {
+class DerInteger;
+}
 namespace Org::BouncyCastle::Asn1::Cms {
 class ContentInfoParser;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1SequenceParser;
-}
-namespace Org::BouncyCastle::Asn1 {
-class DerInteger;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1SetParser;

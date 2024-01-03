@@ -7,25 +7,25 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ArrayList_ReadOnlyArrayList)
 namespace System {
-class Object;
-}
-namespace System::Collections {
-class ArrayList;
-}
-namespace System {
 class Array;
-}
-namespace System {
-class Type;
 }
 namespace System::Collections {
 class ICollection;
 }
 namespace System::Collections {
-class IEnumerator;
+class IComparer;
+}
+namespace System {
+class Type;
 }
 namespace System::Collections {
-class IComparer;
+class ArrayList;
+}
+namespace System {
+class Object;
+}
+namespace System::Collections {
+class IEnumerator;
 }
 // Forward declare root types
 namespace System::Collections {

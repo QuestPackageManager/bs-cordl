@@ -10,23 +10,23 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(XmlEventCache)
-namespace System::Xml {
-class XmlWriter;
-}
-namespace System::Xml {
-struct XmlStandalone;
+namespace System {
+class Object;
 }
 namespace System::Xml {
 struct __XmlEventCache__XmlEvent;
 }
-namespace System {
-class Object;
+namespace System::Xml {
+struct XmlStandalone;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace System::Xml {
 struct __XmlEventCache__XmlEventType;
+}
+namespace System::Xml {
+class XmlWriter;
 }
 // Forward declare root types
 namespace System::Xml {

@@ -15,34 +15,34 @@ namespace OVRSimpleJSON {
 class JSONNode;
 }
 namespace OVRSimpleJSON {
+struct JSONTextMode;
+}
+namespace OVRSimpleJSON {
 class __JSONArray___get_Children_d__22;
+}
+namespace OVRSimpleJSON {
+struct JSONNodeType;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
 }
 namespace System::Text {
 class StringBuilder;
 }
 namespace OVRSimpleJSON {
-struct JSONNodeType;
-}
-namespace OVRSimpleJSON {
 struct __JSONNode__Enumerator;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
-namespace OVRSimpleJSON {
-struct JSONTextMode;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
-namespace System::Collections {
-class IEnumerable;
+namespace System {
+class IDisposable;
 }
 namespace System::Collections {
 class IEnumerator;
 }
-namespace System {
-class IDisposable;
+namespace System::Collections {
+class IEnumerable;
 }
 namespace System {
 class Object;
@@ -61,8 +61,8 @@ MARK_REF_PTR_T(::OVRSimpleJSON::__JSONArray___get_Children_d__22);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace OVRSimpleJSON {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8204)), TypeDefinitionIndex(TypeDefinitionIndex(3842)), TypeDefinitionIndex(TypeDefinitionIndex(2613)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3842), inst: 1691 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(8205)) CS Name: ::JSONArray::<get_Children>d__22*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3842)), TypeDefinitionIndex(TypeDefinitionIndex(8204)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3842), inst: 1691
+// }), TypeDefinitionIndex(TypeDefinitionIndex(2613))} Self: TypeDefinitionIndex(TypeDefinitionIndex(8205)) CS Name: ::JSONArray::<get_Children>d__22*
 class CORDL_TYPE __JSONArray___get_Children_d__22 : public ::System::Object {
 public:
   // Declarations

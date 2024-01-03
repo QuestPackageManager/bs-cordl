@@ -10,20 +10,20 @@ CORDL_MODULE_EXPORT(ClickButtonWithCommandArgument)
 namespace System::Collections {
 class IEnumerator;
 }
+namespace UnityEngine::UI {
+class Button;
+}
 namespace GlobalNamespace {
 class __ClickButtonWithCommandArgument___Start_d__2;
 }
-namespace UnityEngine::UI {
-class Button;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
 }
 namespace System {
 class Object;
 }
 namespace System {
 class IDisposable;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {

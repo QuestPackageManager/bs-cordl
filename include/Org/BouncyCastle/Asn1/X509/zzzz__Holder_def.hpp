@@ -8,20 +8,20 @@ CORDL_MODULE_EXPORT(Holder)
 namespace Org::BouncyCastle::Asn1 {
 class Asn1TaggedObject;
 }
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Sequence;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Object;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class IssuerSerial;
+}
 namespace Org::BouncyCastle::Asn1::X509 {
 class GeneralNames;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class ObjectDigestInfo;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class IssuerSerial;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
 }
 namespace System {
 class Object;

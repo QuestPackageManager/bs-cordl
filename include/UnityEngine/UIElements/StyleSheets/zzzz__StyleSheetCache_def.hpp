@@ -7,23 +7,23 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(StyleSheetCache)
-namespace UnityEngine::UIElements {
-class StyleRule;
-}
-namespace UnityEngine::UIElements::StyleSheets {
-struct __StyleSheetCache__SheetHandleKey;
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace UnityEngine::UIElements::StyleSheets {
 class __StyleSheetCache__SheetHandleKeyComparer;
 }
 namespace UnityEngine::UIElements::StyleSheets {
+struct __StyleSheetCache__SheetHandleKey;
+}
+namespace UnityEngine::UIElements::StyleSheets {
 struct StylePropertyId;
 }
 namespace UnityEngine::UIElements {
-class StyleSheet;
+class StyleRule;
 }
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
+namespace UnityEngine::UIElements {
+class StyleSheet;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEqualityComparer_1;

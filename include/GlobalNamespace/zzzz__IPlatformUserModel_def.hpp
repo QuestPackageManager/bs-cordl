@@ -4,17 +4,11 @@
 CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(IPlatformUserModel)
-namespace System::Threading {
-struct CancellationToken;
-}
 namespace System::Threading::Tasks {
 template <typename TResult> class Task_1;
 }
-namespace System::Collections::Generic {
-template <typename T> class IReadOnlyList_1;
-}
-namespace System {
-template <typename T> class Action_1;
+namespace System::Threading {
+struct CancellationToken;
 }
 namespace GlobalNamespace {
 class PlatformUserAuthTokenData;
@@ -22,8 +16,14 @@ class PlatformUserAuthTokenData;
 namespace GlobalNamespace {
 class XPlatformAccessTokenData;
 }
+namespace System {
+template <typename T> class Action_1;
+}
 namespace GlobalNamespace {
 class UserInfo;
+}
+namespace System::Collections::Generic {
+template <typename T> class IReadOnlyList_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {

@@ -13,20 +13,20 @@ CORDL_MODULE_EXPORT(OVRDisplay)
 namespace UnityEngine {
 struct Vector3;
 }
-namespace UnityEngine::XR {
-struct XRNode;
-}
 namespace GlobalNamespace {
 struct __OVRDisplay__EyeRenderDesc;
-}
-namespace GlobalNamespace {
-struct __OVRDisplay__EyeFov;
 }
 namespace GlobalNamespace {
 struct __OVRDisplay__LatencyData;
 }
 namespace System {
 class Action;
+}
+namespace UnityEngine::XR {
+struct XRNode;
+}
+namespace GlobalNamespace {
+struct __OVRDisplay__EyeFov;
 }
 namespace UnityEngine {
 struct Vector2;
@@ -100,7 +100,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRDisplay__EyeFov, RightFov) == 0xc
 // SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(7539))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7539)), TypeDefinitionIndex(TypeDefinitionIndex(10243))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7540))
 // CS Name: ::OVRDisplay::EyeRenderDesc
 struct CORDL_TYPE __OVRDisplay__EyeRenderDesc {

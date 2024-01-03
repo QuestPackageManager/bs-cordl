@@ -15,7 +15,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::InputEvent);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7180)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7180), inst: 1724 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7180), inst: 1724 }), TypeDefinitionIndex(TypeDefinitionIndex(7180))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7246))
 // CS Name: ::UnityEngine.UIElements::InputEvent*
 class CORDL_TYPE InputEvent : public ::UnityEngine::UIElements::EventBase_1<::UnityEngine::UIElements::InputEvent*> {

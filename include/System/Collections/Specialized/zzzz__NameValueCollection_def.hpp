@@ -8,19 +8,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(NameValueCollection)
 namespace System::Runtime::Serialization {
-struct StreamingContext;
+class SerializationInfo;
 }
 namespace System::Runtime::Serialization {
-class SerializationInfo;
+struct StreamingContext;
 }
 namespace System::Collections {
 class ArrayList;
 }
-namespace System {
-class DBNull;
-}
 namespace System::Collections {
 class IEqualityComparer;
+}
+namespace System {
+class DBNull;
 }
 // Forward declare root types
 namespace System::Collections::Specialized {

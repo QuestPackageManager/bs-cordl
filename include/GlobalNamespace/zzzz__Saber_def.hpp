@@ -8,19 +8,19 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(Saber)
 namespace UnityEngine {
+struct Quaternion;
+}
+namespace UnityEngine {
 struct Vector3;
+}
+namespace GlobalNamespace {
+class SaberTypeObject;
 }
 namespace UnityEngine {
 class Transform;
 }
 namespace GlobalNamespace {
-class SaberTypeObject;
-}
-namespace GlobalNamespace {
 class SaberMovementData;
-}
-namespace UnityEngine {
-struct Quaternion;
 }
 namespace GlobalNamespace {
 struct SaberType;

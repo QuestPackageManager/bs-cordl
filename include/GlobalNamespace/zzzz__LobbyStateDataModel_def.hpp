@@ -6,35 +6,35 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(LobbyStateDataModel)
-namespace GlobalNamespace {
-class IConnectedPlayer;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace GlobalNamespace {
-class ILobbyStateDataModel;
-}
 namespace System::Collections::Generic {
 template <typename T> class IReadOnlyList_1;
 }
 namespace GlobalNamespace {
 struct GameplayServerConfiguration;
 }
-namespace GlobalNamespace {
-class IUnifiedNetworkPlayerModel;
-}
-namespace System {
-template <typename T> class Action_1;
-}
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace GlobalNamespace {
+class IConnectedPlayer;
+}
+namespace GlobalNamespace {
+class ILobbyStateDataModel;
 }
 namespace GlobalNamespace {
 class IMultiplayerSessionManager;
 }
 namespace System {
 class IDisposable;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace System {
+template <typename T> class Action_1;
+}
+namespace GlobalNamespace {
+class IUnifiedNetworkPlayerModel;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -46,7 +46,7 @@ MARK_REF_PTR_T(::GlobalNamespace::LobbyStateDataModel);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12758)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12758))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4510))
 // CS Name: ::LobbyStateDataModel*
 class CORDL_TYPE LobbyStateDataModel : public ::System::Object {

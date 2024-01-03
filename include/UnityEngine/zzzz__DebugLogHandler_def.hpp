@@ -12,9 +12,6 @@ struct LogType;
 namespace UnityEngine {
 class Object;
 }
-namespace System {
-class Object;
-}
 namespace UnityEngine {
 class ILogHandler;
 }
@@ -23,6 +20,9 @@ struct LogOption;
 }
 namespace System {
 class Exception;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace UnityEngine {

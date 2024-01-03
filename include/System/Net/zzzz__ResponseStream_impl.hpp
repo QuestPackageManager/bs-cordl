@@ -1,13 +1,13 @@
 #pragma once
 #include "System/IO/zzzz__Stream_impl.hpp"
 #include "System/Net/zzzz__ResponseStream_def.hpp"
-#include "System/zzzz__IAsyncResult_def.hpp"
+#include "System/IO/zzzz__Stream_def.hpp"
+#include "System/zzzz__AsyncCallback_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 #include "System/IO/zzzz__SeekOrigin_def.hpp"
+#include "System/zzzz__IAsyncResult_def.hpp"
 #include "System/IO/zzzz__MemoryStream_def.hpp"
 #include "System/Net/zzzz__HttpListenerResponse_def.hpp"
-#include "System/zzzz__Object_def.hpp"
-#include "System/zzzz__AsyncCallback_def.hpp"
-#include "System/IO/zzzz__Stream_def.hpp"
 //  Writing Method size for method: ::System::Net::ResponseStream._ctor
 template <>
 

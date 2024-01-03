@@ -11,43 +11,43 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(MultiplayerLobbyAvatarController)
 namespace UnityEngine {
+struct Quaternion;
+}
+namespace System::Collections {
+class IEnumerator;
+}
+namespace UnityEngine {
 class GameObject;
-}
-namespace GlobalNamespace {
-class __MultiplayerLobbyAvatarController__Factory;
-}
-namespace GlobalNamespace {
-class __MultiplayerLobbyAvatarController___ShowDespawnAnimationAndDestroy_d__10;
 }
 namespace UnityEngine::Playables {
 class PlayableDirector;
 }
 namespace GlobalNamespace {
-class __MultiplayerLobbyAvatarController___SpawnAnimationCoroutine_d__8;
-}
-namespace GlobalNamespace {
-class VFXController;
-}
-namespace UnityEngine {
-struct Vector3;
-}
-namespace System::Collections {
-class IEnumerator;
+class __MultiplayerLobbyAvatarController__Factory;
 }
 namespace GlobalNamespace {
 class __MultiplayerLobbyAvatarController___DespawnAnimationCoroutine_d__12;
 }
 namespace UnityEngine {
-struct Quaternion;
+struct Vector3;
 }
-namespace System {
-class IDisposable;
+namespace GlobalNamespace {
+class __MultiplayerLobbyAvatarController___SpawnAnimationCoroutine_d__8;
+}
+namespace GlobalNamespace {
+class __MultiplayerLobbyAvatarController___ShowDespawnAnimationAndDestroy_d__10;
+}
+namespace GlobalNamespace {
+class VFXController;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
 namespace System {
 class Object;
+}
+namespace System {
+class IDisposable;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -220,8 +220,8 @@ static_assert(offsetof(::GlobalNamespace::MultiplayerLobbyAvatarController, ____
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5221)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11005), inst: 3488 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(11005)), TypeDefinitionIndex(TypeDefinitionIndex(12778))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5217)) CS Name:
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11005)), TypeDefinitionIndex(TypeDefinitionIndex(12778)), TypeDefinitionIndex(TypeDefinitionIndex(5221)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11005), inst: 3488 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(5217)) CS Name:
 // ::MultiplayerLobbyAvatarController::Factory*
 class CORDL_TYPE __MultiplayerLobbyAvatarController__Factory : public ::Zenject::PlaceholderFactory_2<::GlobalNamespace::IConnectedPlayer*, ::GlobalNamespace::MultiplayerLobbyAvatarController*> {
 public:

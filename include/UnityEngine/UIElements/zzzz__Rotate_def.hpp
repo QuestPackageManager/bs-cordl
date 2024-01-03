@@ -9,19 +9,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Rotate)
 namespace System {
-template <typename T> class IEquatable_1;
+class Object;
 }
 namespace UnityEngine {
-struct Vector3;
-}
-namespace System {
-class Object;
+struct Quaternion;
 }
 namespace UnityEngine::UIElements {
 struct Angle;
 }
+namespace System {
+template <typename T> class IEquatable_1;
+}
 namespace UnityEngine {
-struct Quaternion;
+struct Vector3;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -33,7 +33,7 @@ MARK_VAL_T(::UnityEngine::UIElements::Rotate);
 // SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 37, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7305)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(7305))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7295))
 // CS Name: ::UnityEngine.UIElements::Rotate
 struct CORDL_TYPE Rotate {

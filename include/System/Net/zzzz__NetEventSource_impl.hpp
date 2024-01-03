@@ -3,9 +3,9 @@
 #include "System/Diagnostics/Tracing/zzzz__EventSource_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/zzzz__NetEventSource_def.hpp"
+#include "System/Net/zzzz__NetEventSource_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__FormattableString_def.hpp"
-#include "System/Net/zzzz__NetEventSource_def.hpp"
 // Ctor Parameters []
 constexpr ::System::Net::__NetEventSource__Keywords::__NetEventSource__Keywords() {}
 constexpr ::System::Diagnostics::Tracing::EventKeywords System::Net::__NetEventSource__Keywords::Default{ static_cast<int64_t>(0x1) };

@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ITextElement)
-namespace UnityEngine::UI {
-struct CanvasUpdate;
-}
 namespace UnityEngine {
 class Material;
+}
+namespace UnityEngine::UI {
+struct CanvasUpdate;
 }
 // Forward declare root types
 namespace TMPro {

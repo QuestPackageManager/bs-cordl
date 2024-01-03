@@ -3,9 +3,9 @@
 #include "UnityEngine/zzzz__Color_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatmapCharacteristicTableCell_def.hpp"
 #include "TMPro/zzzz__TextMeshProUGUI_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapCharacteristicSO_def.hpp"
 #include "UnityEngine/UI/zzzz__Image_def.hpp"
 #include "HMUI/zzzz__SelectableCell_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapCharacteristicSO_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::BeatmapCharacteristicTableCell.SetData
 template <>
 

@@ -5,20 +5,20 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(NoteJumpStartScaleUp)
-namespace GlobalNamespace {
-class INoteControllerDidInitEvent;
-}
 namespace UnityEngine {
 class Transform;
-}
-namespace GlobalNamespace {
-class NoteControllerBase;
 }
 namespace GlobalNamespace {
 class NoteJump;
 }
 namespace GlobalNamespace {
+class INoteControllerDidInitEvent;
+}
+namespace GlobalNamespace {
 class NoteController;
+}
+namespace GlobalNamespace {
+class NoteControllerBase;
 }
 // Forward declare root types
 namespace GlobalNamespace {

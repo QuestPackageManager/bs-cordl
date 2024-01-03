@@ -10,11 +10,11 @@ CORDL_MODULE_EXPORT(DomNameTable)
 namespace System::Xml {
 class XmlNameTable;
 }
-namespace System::Xml {
-class XmlName;
-}
 namespace System::Xml::Schema {
 class IXmlSchemaInfo;
+}
+namespace System::Xml {
+class XmlName;
 }
 namespace System::Xml {
 class XmlDocument;

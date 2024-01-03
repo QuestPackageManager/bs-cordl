@@ -1,16 +1,16 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/zzzz__WebProxy_def.hpp"
+#include "System/Collections/zzzz__ArrayList_def.hpp"
 #include "System/Collections/zzzz__Hashtable_def.hpp"
+#include "System/Net/zzzz__IWebProxy_def.hpp"
+#include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
 #include "System/Text/RegularExpressions/zzzz__Regex_def.hpp"
 #include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
-#include "System/Net/zzzz__AutoWebProxyScriptEngine_def.hpp"
-#include "System/Net/zzzz__IWebProxy_def.hpp"
-#include "System/Net/zzzz__ICredentials_def.hpp"
 #include "System/zzzz__Uri_def.hpp"
-#include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
+#include "System/Net/zzzz__ICredentials_def.hpp"
+#include "System/Net/zzzz__AutoWebProxyScriptEngine_def.hpp"
 #include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
-#include "System/Collections/zzzz__ArrayList_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 //  Writing Method size for method: ::System::Net::WebProxy._ctor
 template <>

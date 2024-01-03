@@ -8,14 +8,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(InputControl_1)
+namespace System {
+class Type;
+}
 namespace UnityEngine::InputSystem {
 template <typename TValue> class InputProcessor_1;
 }
 namespace System {
 class Object;
-}
-namespace System {
-class Type;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem {

@@ -1,7 +1,7 @@
 #pragma once
 #include "GlobalNamespace/zzzz__IPlatformInit_def.hpp"
-#include "Zenject/zzzz__IInitializable_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
+#include "Zenject/zzzz__IInitializable_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::IPlatformInit.get_IsInitialized
 template <>
 

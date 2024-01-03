@@ -5,26 +5,26 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(PoolableSerializable)
-namespace System::Collections::Concurrent {
-template <typename T> class ConcurrentBag_1;
-}
-namespace LiteNetLib::Utils {
-class NetDataWriter;
+namespace System {
+class Type;
 }
 namespace LiteNetLib::Utils {
 class NetDataReader;
 }
-namespace GlobalNamespace {
-class IPoolableSerializable;
+namespace LiteNetLib::Utils {
+class NetDataWriter;
+}
+namespace System::Collections::Concurrent {
+template <typename T> class ConcurrentBag_1;
 }
 namespace System::Collections::Concurrent {
 template <typename TKey, typename TValue> class ConcurrentDictionary_2;
 }
+namespace GlobalNamespace {
+class IPoolableSerializable;
+}
 namespace LiteNetLib::Utils {
 class INetSerializable;
-}
-namespace System {
-class Type;
 }
 // Forward declare root types
 namespace GlobalNamespace {

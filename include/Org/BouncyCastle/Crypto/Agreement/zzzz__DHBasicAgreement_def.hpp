@@ -8,17 +8,17 @@ CORDL_MODULE_EXPORT(DHBasicAgreement)
 namespace Org::BouncyCastle::Math {
 class BigInteger;
 }
-namespace Org::BouncyCastle::Crypto::Parameters {
-class DHPrivateKeyParameters;
-}
-namespace Org::BouncyCastle::Crypto::Parameters {
-class DHParameters;
-}
 namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;
 }
 namespace Org::BouncyCastle::Crypto {
 class IBasicAgreement;
+}
+namespace Org::BouncyCastle::Crypto::Parameters {
+class DHParameters;
+}
+namespace Org::BouncyCastle::Crypto::Parameters {
+class DHPrivateKeyParameters;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Agreement {

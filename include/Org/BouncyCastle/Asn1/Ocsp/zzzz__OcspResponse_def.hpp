@@ -7,20 +7,20 @@ CORDL_MODULE_EXPORT(OcspResponse)
 namespace Org::BouncyCastle::Asn1::Ocsp {
 class OcspResponseStatus;
 }
+namespace System {
+class Object;
+}
 namespace Org::BouncyCastle::Asn1::Ocsp {
 class ResponseBytes;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
-}
-namespace System {
-class Object;
+class Asn1TaggedObject;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1TaggedObject;
+class Asn1Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Ocsp {

@@ -7,14 +7,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(StyleSheetColor)
-namespace UnityEngine {
-struct Color32;
-}
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace UnityEngine {
 struct Color;
+}
+namespace UnityEngine {
+struct Color32;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements::StyleSheets {

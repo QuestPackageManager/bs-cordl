@@ -7,44 +7,44 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(TouchHistory)
-namespace System {
-class IDisposable;
-}
-namespace UnityEngine::InputSystem::EnhancedTouch {
-struct Touch;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
 }
 namespace System::Collections {
 class IEnumerator;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
+namespace System {
+class IDisposable;
 }
 namespace System {
 class Object;
+}
+namespace UnityEngine::InputSystem::EnhancedTouch {
+struct Touch;
+}
+namespace UnityEngine::InputSystem::EnhancedTouch {
+class Finger;
 }
 namespace System::Collections::Generic {
 template <typename T> class IReadOnlyList_1;
 }
 namespace UnityEngine::InputSystem::LowLevel {
-template <typename TValue> class InputStateHistory_1;
-}
-namespace System::Collections {
-class IEnumerable;
-}
-namespace UnityEngine::InputSystem::EnhancedTouch {
-class Finger;
-}
-namespace UnityEngine::InputSystem::EnhancedTouch {
-class __TouchHistory__Enumerator;
+struct TouchState;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
-namespace UnityEngine::InputSystem::LowLevel {
-struct TouchState;
-}
 namespace System::Collections::Generic {
 template <typename T> class IReadOnlyCollection_1;
+}
+namespace System::Collections {
+class IEnumerable;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+template <typename TValue> class InputStateHistory_1;
+}
+namespace UnityEngine::InputSystem::EnhancedTouch {
+class __TouchHistory__Enumerator;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::EnhancedTouch {

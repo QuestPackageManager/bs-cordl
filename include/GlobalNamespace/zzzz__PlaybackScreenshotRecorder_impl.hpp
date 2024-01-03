@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__PlaybackScreenshotRecorder_def.hpp"
-#include "UnityEngine/zzzz__Texture2D_def.hpp"
 #include "GlobalNamespace/zzzz__PlaybackRenderer_def.hpp"
+#include "UnityEngine/zzzz__Texture2D_def.hpp"
 #include "UnityEngine/zzzz__RenderTexture_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::PlaybackScreenshotRecorder.get_directory
 template <>

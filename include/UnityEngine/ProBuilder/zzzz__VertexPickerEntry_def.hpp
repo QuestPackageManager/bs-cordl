@@ -7,11 +7,11 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(VertexPickerEntry)
-namespace UnityEngine::ProBuilder {
-class ProBuilderMesh;
-}
 namespace UnityEngine {
 struct Vector3;
+}
+namespace UnityEngine::ProBuilder {
+class ProBuilderMesh;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder {

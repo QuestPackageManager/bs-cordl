@@ -20,58 +20,127 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(HEU_HoudiniAsset)
 namespace HoudiniEngineUnity {
-class HEU_Handle;
-}
-namespace UnityEngine {
-class GameObject;
+class HEU_BakedDataEvent;
 }
 namespace HoudiniEngineUnity {
-struct HAPI_NodeInfo;
+class __HEU_HoudiniAsset____c__DisplayClass281_0;
 }
 namespace HoudiniEngineUnity {
-class HEU_ReloadDataEvent;
+class HEU_VolumeCache;
 }
 namespace HoudiniEngineUnity {
-class ReloadEvent;
+class __HEU_HoudiniAsset____c;
 }
 namespace HoudiniEngineUnity {
-class HEU_GeneratedOutput;
-}
-namespace HoudiniEngineUnity {
-class HEU_ObjectInstanceInfo;
-}
-namespace HoudiniEngineUnity {
-class __HEU_HoudiniAsset____c__DisplayClass365_0;
-}
-namespace HoudiniEngineUnity {
-class HEU_GeoNode;
-}
-namespace HoudiniEngineUnity {
-class CookedEvent;
-}
-namespace HoudiniEngineUnity {
-class HEU_InputPreset;
-}
-namespace UnityEngine::Events {
-template <typename T0, typename T1, typename T2> class UnityAction_3;
-}
-namespace HoudiniEngineUnity {
-struct HAPI_AssetInfo;
-}
-namespace HoudiniEngineUnity {
-class HEU_Curve;
-}
-namespace HoudiniEngineUnity {
-class HEU_SessionBase;
+class HEU_MaterialData;
 }
 namespace HoudiniEngineUnity {
 class HEU_PartData;
 }
 namespace HoudiniEngineUnity {
+class HEU_SessionBase;
+}
+namespace HoudiniEngineUnity {
+class HEU_GeneratedOutput;
+}
+namespace HoudiniEngineUnity {
+struct HAPI_AssetInfo;
+}
+namespace HoudiniEngineUnity {
+class HEU_GeoNode;
+}
+namespace HoudiniEngineUnity {
+struct __HEU_HoudiniAsset__AssetCookResult;
+}
+namespace HoudiniEngineUnity {
+template <typename T> class IEquivable_1;
+}
+namespace HoudiniEngineUnity {
+struct __HEU_HoudiniAsset__AssetCookStatus;
+}
+namespace HoudiniEngineUnity {
 class HEU_Parameters;
 }
 namespace HoudiniEngineUnity {
-class HEU_AssetSerializedMetaData;
+class HEU_RecookPreset;
+}
+namespace HoudiniEngineUnity {
+class HEU_ObjectNode;
+}
+namespace HoudiniEngineUnity {
+class HEU_CookedDataEvent;
+}
+namespace HoudiniEngineUnity {
+struct __HEU_HoudiniAsset__AssetBuildAction;
+}
+namespace HoudiniEngineUnity {
+class HEU_Handle;
+}
+namespace HoudiniEngineUnity {
+class HEU_VolumeCachePreset;
+}
+namespace HoudiniEngineUnity {
+class HEU_Curve;
+}
+namespace UnityEngine {
+class Object;
+}
+namespace HoudiniEngineUnity {
+struct __HEU_HoudiniAsset__HEU_AssetType;
+}
+namespace HoudiniEngineUnity {
+struct HAPI_Transform;
+}
+namespace HoudiniEngineUnity {
+class CookedEvent;
+}
+namespace HoudiniEngineUnity {
+struct HAPI_NodeInfo;
+}
+namespace HoudiniEngineUnity {
+class HEU_PreAssetEvent;
+}
+namespace HoudiniEngineUnity {
+class __HEU_HoudiniAsset__UpdateUIDelegate;
+}
+namespace HoudiniEngineUnity {
+class HEU_InputNode;
+}
+namespace UnityEngine {
+struct LayerMask;
+}
+namespace UnityEngine::Events {
+template <typename T0, typename T1, typename T2> class UnityAction_3;
+}
+namespace HoudiniEngineUnity {
+class __HEU_HoudiniAsset____c__DisplayClass365_0;
+}
+namespace HoudiniEngineUnity {
+class BakedEvent;
+}
+namespace HoudiniEngineUnity {
+class HEU_InputPreset;
+}
+namespace UnityEngine {
+class Material;
+}
+namespace HoudiniEngineUnity {
+class HEU_AssetPreset;
+}
+namespace UnityEngine {
+class GameObject;
+}
+namespace UnityEngine {
+class Collider;
+}
+namespace HoudiniEngineUnity {
+struct __HEU_HoudiniAsset__AssetInstantiationMethod;
+}
+namespace HoudiniEngineUnity {
+class HEU_ReloadDataEvent;
+}
+namespace HoudiniEngineUnity {
+class HEU_InstanceInputUIState;
 }
 namespace HoudiniEngineUnity {
 class HEU_AttributesStore;
@@ -83,97 +152,28 @@ namespace HoudiniEngineUnity {
 struct HAPI_ObjectInfo;
 }
 namespace HoudiniEngineUnity {
-class HEU_AssetPreset;
+class HEU_ObjectInstanceInfo;
 }
 namespace HoudiniEngineUnity {
-class __HEU_HoudiniAsset____c;
-}
-namespace HoudiniEngineUnity {
-struct __HEU_HoudiniAsset__AssetCookStatus;
-}
-namespace HoudiniEngineUnity {
-struct __HEU_HoudiniAsset__AssetCookResult;
-}
-namespace HoudiniEngineUnity {
-class HEU_VolumeCachePreset;
-}
-namespace HoudiniEngineUnity {
-class HEU_ObjectNode;
-}
-namespace UnityEngine {
-class Object;
-}
-namespace HoudiniEngineUnity {
-class HEU_BakedDataEvent;
-}
-namespace UnityEngine {
-struct LayerMask;
-}
-namespace HoudiniEngineUnity {
-struct __HEU_HoudiniAsset__HEU_AssetType;
-}
-namespace HoudiniEngineUnity {
-class __HEU_HoudiniAsset__UpdateUIDelegate;
-}
-namespace UnityEngine {
-class Material;
-}
-namespace UnityEngine {
-class Collider;
+class ReloadEvent;
 }
 namespace HoudiniEngineUnity {
 class HEU_ToolsInfo;
 }
 namespace HoudiniEngineUnity {
-struct __HEU_HoudiniAsset__AssetBuildAction;
-}
-namespace HoudiniEngineUnity {
-template <typename T> class IEquivable_1;
-}
-namespace HoudiniEngineUnity {
-class HEU_InputNode;
-}
-namespace HoudiniEngineUnity {
-class HEU_MaterialData;
-}
-namespace HoudiniEngineUnity {
-class HEU_RecookPreset;
-}
-namespace HoudiniEngineUnity {
-class HEU_CookedDataEvent;
-}
-namespace HoudiniEngineUnity {
-class HEU_PreAssetEvent;
-}
-namespace HoudiniEngineUnity {
-class HEU_VolumeCache;
-}
-namespace HoudiniEngineUnity {
-class __HEU_HoudiniAsset____c__DisplayClass281_0;
-}
-namespace HoudiniEngineUnity {
-struct HAPI_Transform;
-}
-namespace HoudiniEngineUnity {
-class HEU_InstanceInputUIState;
-}
-namespace HoudiniEngineUnity {
-class BakedEvent;
+class HEU_AssetSerializedMetaData;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
-}
-namespace HoudiniEngineUnity {
-struct __HEU_HoudiniAsset__AssetInstantiationMethod;
-}
-namespace System {
-class IAsyncResult;
 }
 namespace System {
 class Object;
 }
 namespace System {
 class AsyncCallback;
+}
+namespace System {
+class IAsyncResult;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;
@@ -797,9 +797,9 @@ static_assert(offsetof(::HoudiniEngineUnity::__HEU_HoudiniAsset____c__DisplayCla
 // SizeInfo { instance_size: 632, native_size: -1, calculated_instance_size: 632, calculated_native_size: 625, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10245)), TypeDefinitionIndex(TypeDefinitionIndex(9632)), TypeDefinitionIndex(TypeDefinitionIndex(9630)),
-// TypeDefinitionIndex(TypeDefinitionIndex(9733)), TypeDefinitionIndex(TypeDefinitionIndex(9631)), TypeDefinitionIndex(TypeDefinitionIndex(9622)), TypeDefinitionIndex(TypeDefinitionIndex(10204)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(9731)), TypeDefinitionIndex(TypeDefinitionIndex(9633)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9733)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(9630)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10245)), TypeDefinitionIndex(TypeDefinitionIndex(9731)), TypeDefinitionIndex(TypeDefinitionIndex(10204)), TypeDefinitionIndex(TypeDefinitionIndex(9622)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(9631)), TypeDefinitionIndex(TypeDefinitionIndex(9632)), TypeDefinitionIndex(TypeDefinitionIndex(9633))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9639))
 // CS Name: ::HoudiniEngineUnity::HEU_HoudiniAsset*
 class CORDL_TYPE HEU_HoudiniAsset : public ::UnityEngine::MonoBehaviour {

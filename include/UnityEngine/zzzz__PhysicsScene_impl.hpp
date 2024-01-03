@@ -1,13 +1,14 @@
 #pragma once
+#include "UnityEngine/zzzz__QueryTriggerInteraction_impl.hpp"
 #include "UnityEngine/zzzz__PhysicsScene_def.hpp"
+#include "UnityEngine/zzzz__RaycastHit_def.hpp"
+#include "UnityEngine/zzzz__Ray_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "System/zzzz__IEquatable_1_def.hpp"
 #include "UnityEngine/zzzz__QueryTriggerInteraction_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
-#include "UnityEngine/zzzz__RaycastHit_def.hpp"
-#include "UnityEngine/zzzz__Quaternion_def.hpp"
-#include "UnityEngine/zzzz__Ray_def.hpp"
 #include "UnityEngine/zzzz__Collider_def.hpp"
+#include "UnityEngine/zzzz__Quaternion_def.hpp"
+#include "System/zzzz__IEquatable_1_def.hpp"
 //  Writing Method size for method: ::UnityEngine::PhysicsScene.ToString
 template <>
 

@@ -10,20 +10,20 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(MaterialPropertyBlock)
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
 namespace UnityEngine {
-struct Matrix4x4;
+struct Vector4;
 }
 namespace UnityEngine {
 class Texture;
 }
 namespace UnityEngine {
-struct Color;
+struct Matrix4x4;
 }
 namespace UnityEngine {
-struct Vector4;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+struct Color;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -35,7 +35,7 @@ MARK_REF_PTR_T(::UnityEngine::MaterialPropertyBlock);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2603))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10094))
 // CS Name: ::UnityEngine::MaterialPropertyBlock*
 class CORDL_TYPE MaterialPropertyBlock : public ::System::Object {

@@ -5,29 +5,29 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(PkixParameters)
-namespace Org::BouncyCastle::X509::Store {
-class IX509Selector;
-}
-namespace Org::BouncyCastle::X509::Store {
-class IX509Store;
-}
-namespace Org::BouncyCastle::Utilities::Collections {
-class ISet;
-}
 namespace Org::BouncyCastle::Utilities::Date {
 class DateTimeObject;
-}
-namespace Org::BouncyCastle::Pkix {
-class PkixCertPathChecker;
 }
 namespace System::Collections {
 class IList;
 }
+namespace Org::BouncyCastle::Pkix {
+class PkixCertPathChecker;
+}
 namespace Org::BouncyCastle::X509::Store {
 class X509CertStoreSelector;
 }
+namespace Org::BouncyCastle::X509::Store {
+class IX509Store;
+}
 namespace System {
 class Object;
+}
+namespace Org::BouncyCastle::X509::Store {
+class IX509Selector;
+}
+namespace Org::BouncyCastle::Utilities::Collections {
+class ISet;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Pkix {

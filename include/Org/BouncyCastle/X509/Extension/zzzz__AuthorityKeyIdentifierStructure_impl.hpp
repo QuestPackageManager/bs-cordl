@@ -1,10 +1,10 @@
 #pragma once
 #include "Org/BouncyCastle/Asn1/X509/zzzz__AuthorityKeyIdentifier_impl.hpp"
 #include "Org/BouncyCastle/X509/Extension/zzzz__AuthorityKeyIdentifierStructure_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1OctetString_def.hpp"
+#include "Org/BouncyCastle/X509/zzzz__X509Certificate_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Sequence_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__AsymmetricKeyParameter_def.hpp"
-#include "Org/BouncyCastle/X509/zzzz__X509Certificate_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1OctetString_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::X509::Extension::AuthorityKeyIdentifierStructure._ctor
 template <>
 

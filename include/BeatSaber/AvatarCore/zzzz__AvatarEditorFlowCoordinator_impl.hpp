@@ -1,11 +1,11 @@
 #pragma once
 #include "HMUI/zzzz__FlowCoordinator_impl.hpp"
 #include "BeatSaber/AvatarCore/zzzz__AvatarEditorFlowCoordinator_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
 #include "BeatSaber/AvatarCore/zzzz__AvatarEditorFlowCoordinator_def.hpp"
 #include "BeatSaber/AvatarCore/zzzz__IAvatarSystemMetadata_def.hpp"
-#include "System/zzzz__Action_def.hpp"
 #include "System/zzzz__Action_3_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
+#include "System/zzzz__Action_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::BeatSaber::AvatarCore::__AvatarEditorFlowCoordinator__FinishAction::__AvatarEditorFlowCoordinator__FinishAction(int32_t value__) noexcept {
   this->value__ = value__;

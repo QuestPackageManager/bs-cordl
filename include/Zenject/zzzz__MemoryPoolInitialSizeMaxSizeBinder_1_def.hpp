@@ -6,19 +6,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(MemoryPoolInitialSizeMaxSizeBinder_1)
 namespace Zenject {
-class MemoryPoolBindInfo;
+template <typename TContract> class MemoryPoolMaxSizeBinder_1;
 }
 namespace Zenject {
 class FactoryBindInfo;
 }
 namespace Zenject {
-template <typename TContract> class MemoryPoolMaxSizeBinder_1;
+class DiContainer;
+}
+namespace Zenject {
+class MemoryPoolBindInfo;
 }
 namespace Zenject {
 template <typename TContract> class FactoryArgumentsToChoiceBinder_1;
-}
-namespace Zenject {
-class DiContainer;
 }
 namespace Zenject {
 class BindInfo;

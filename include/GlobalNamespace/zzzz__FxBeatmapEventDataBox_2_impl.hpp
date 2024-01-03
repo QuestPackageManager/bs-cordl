@@ -1,13 +1,13 @@
 #pragma once
 #include "GlobalNamespace/zzzz__BeatmapEventDataBox_impl.hpp"
 #include "GlobalNamespace/zzzz__FxBeatmapEventDataBox_2_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapEventData_def.hpp"
 #include "GlobalNamespace/zzzz__IBeatToTimeConvertor_def.hpp"
-#include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapEventDataBox_def.hpp"
 #include "GlobalNamespace/zzzz__EaseType_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "GlobalNamespace/zzzz__IndexFilter_def.hpp"
+#include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapEventData_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 template <typename TIn, typename TOut> constexpr float_t& GlobalNamespace::FxBeatmapEventDataBox_2<TIn, TOut>::__get__beatStep() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatStep;

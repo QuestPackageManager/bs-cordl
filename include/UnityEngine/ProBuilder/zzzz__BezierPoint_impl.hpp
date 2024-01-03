@@ -2,11 +2,11 @@
 #include "UnityEngine/zzzz__Quaternion_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "UnityEngine/ProBuilder/zzzz__BezierPoint_def.hpp"
+#include "UnityEngine/ProBuilder/zzzz__BezierTangentMode_def.hpp"
 #include "UnityEngine/ProBuilder/zzzz__BezierTangentDirection_def.hpp"
 #include "UnityEngine/zzzz__Quaternion_def.hpp"
-#include "UnityEngine/ProBuilder/zzzz__BezierTangentMode_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "System/Collections/Generic/zzzz__IList_1_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
 //  Writing Method size for method: ::UnityEngine::ProBuilder::BezierPoint._ctor
 template <>
 

@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(JSONString)
+namespace System {
+class Object;
+}
 namespace System::Text {
 class StringBuilder;
-}
-namespace HoudiniEngineUnity {
-struct JSONTextMode;
 }
 namespace HoudiniEngineUnity {
 struct JSONNodeType;
@@ -18,8 +18,8 @@ struct JSONNodeType;
 namespace HoudiniEngineUnity {
 struct __JSONNode__Enumerator;
 }
-namespace System {
-class Object;
+namespace HoudiniEngineUnity {
+struct JSONTextMode;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {

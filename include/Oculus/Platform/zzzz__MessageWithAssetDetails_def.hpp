@@ -19,8 +19,8 @@ MARK_REF_PTR_T(::Oculus::Platform::MessageWithAssetDetails);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13262)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13262), inst: 1169 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(13417))} Self: TypeDefinitionIndex(TypeDefinitionIndex(13275)) CS Name: ::Oculus.Platform::MessageWithAssetDetails*
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13262), inst: 1169 }), TypeDefinitionIndex(TypeDefinitionIndex(13417)),
+// TypeDefinitionIndex(TypeDefinitionIndex(13262))} Self: TypeDefinitionIndex(TypeDefinitionIndex(13275)) CS Name: ::Oculus.Platform::MessageWithAssetDetails*
 class CORDL_TYPE MessageWithAssetDetails : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::AssetDetails*> {
 public:
   // Declarations

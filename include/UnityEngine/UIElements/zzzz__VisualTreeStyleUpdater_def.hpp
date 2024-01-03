@@ -8,19 +8,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(VisualTreeStyleUpdater)
 namespace UnityEngine::UIElements {
-class VisualElement;
+class VisualTreeStyleUpdaterTraversal;
+}
+namespace UnityEngine::UIElements {
+struct VersionChangeType;
+}
+namespace System::Collections::Generic {
+template <typename T> class HashSet_1;
 }
 namespace Unity::Profiling {
 struct ProfilerMarker;
 }
 namespace UnityEngine::UIElements {
-struct VersionChangeType;
-}
-namespace UnityEngine::UIElements {
-class VisualTreeStyleUpdaterTraversal;
-}
-namespace System::Collections::Generic {
-template <typename T> class HashSet_1;
+class VisualElement;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -32,7 +32,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::VisualTreeStyleUpdater);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9966)), TypeDefinitionIndex(TypeDefinitionIndex(6754))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6754)), TypeDefinitionIndex(TypeDefinitionIndex(9966))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6816))
 // CS Name: ::UnityEngine.UIElements::VisualTreeStyleUpdater*
 class CORDL_TYPE VisualTreeStyleUpdater : public ::UnityEngine::UIElements::BaseVisualTreeUpdater {

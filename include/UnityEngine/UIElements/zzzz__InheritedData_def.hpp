@@ -15,41 +15,41 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(InheritedData)
-namespace UnityEngine::UIElements {
-struct Length;
-}
-namespace UnityEngine::UIElements {
-template <typename T> class IStyleDataGroup_1;
-}
 namespace UnityEngine {
-struct FontStyle;
-}
-namespace UnityEngine::UIElements {
-struct Visibility;
+struct Color;
 }
 namespace UnityEngine::UIElements {
 struct TextShadow;
 }
 namespace UnityEngine::UIElements {
-struct WhiteSpace;
-}
-namespace UnityEngine {
-class Font;
+struct FontDefinition;
 }
 namespace System {
 template <typename T> class IEquatable_1;
 }
+namespace UnityEngine::UIElements {
+template <typename T> class IStyleDataGroup_1;
+}
+namespace UnityEngine::UIElements {
+struct Visibility;
+}
+namespace UnityEngine::UIElements {
+struct WhiteSpace;
+}
+namespace UnityEngine::UIElements {
+struct Length;
+}
 namespace UnityEngine {
-struct TextAnchor;
+struct FontStyle;
 }
 namespace System {
 class Object;
 }
 namespace UnityEngine {
-struct Color;
+struct TextAnchor;
 }
-namespace UnityEngine::UIElements {
-struct FontDefinition;
+namespace UnityEngine {
+class Font;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -61,9 +61,9 @@ MARK_VAL_T(::UnityEngine::UIElements::InheritedData);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 156, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(15901)), TypeDefinitionIndex(TypeDefinitionIndex(7313)),
-// TypeDefinitionIndex(TypeDefinitionIndex(6790)), TypeDefinitionIndex(TypeDefinitionIndex(7284)), TypeDefinitionIndex(TypeDefinitionIndex(15896)), TypeDefinitionIndex(TypeDefinitionIndex(6896)),
-// TypeDefinitionIndex(TypeDefinitionIndex(6897))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7356)) CS Name: ::UnityEngine.UIElements::InheritedData
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6896)), TypeDefinitionIndex(TypeDefinitionIndex(15896)), TypeDefinitionIndex(TypeDefinitionIndex(6897)),
+// TypeDefinitionIndex(TypeDefinitionIndex(15901)), TypeDefinitionIndex(TypeDefinitionIndex(7313)), TypeDefinitionIndex(TypeDefinitionIndex(7284)), TypeDefinitionIndex(TypeDefinitionIndex(6790)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10251))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7356)) CS Name: ::UnityEngine.UIElements::InheritedData
 struct CORDL_TYPE InheritedData {
 public:
   // Declarations

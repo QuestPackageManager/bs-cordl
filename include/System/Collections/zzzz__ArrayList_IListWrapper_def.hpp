@@ -9,8 +9,8 @@ CORDL_MODULE_EXPORT(ArrayList_IListWrapper)
 namespace System::Collections {
 class IEnumerator;
 }
-namespace System {
-class Object;
+namespace System::Collections {
+class IComparer;
 }
 namespace System::Collections {
 class ICollection;
@@ -19,13 +19,13 @@ namespace System {
 class Array;
 }
 namespace System::Collections {
-class IComparer;
+class IList;
+}
+namespace System {
+class Object;
 }
 namespace System {
 class Type;
-}
-namespace System::Collections {
-class IList;
 }
 // Forward declare root types
 namespace System::Collections {

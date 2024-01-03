@@ -12,19 +12,19 @@ namespace UnityEngine::InputSystem::LowLevel {
 class IInputEventTypeInfo;
 }
 namespace UnityEngine::InputSystem::LowLevel {
-struct InputEvent;
-}
-namespace UnityEngine::InputSystem::Utilities {
-struct FourCC;
+struct InputEventPtr;
 }
 namespace UnityEngine::InputSystem::LowLevel {
-struct InputEventPtr;
+struct InputEvent;
+}
+namespace UnityEngine::InputSystem {
+struct InputActionPhase;
 }
 namespace UnityEngine::InputSystem::LowLevel {
 struct __ActionEvent___m_ValueData_e__FixedBuffer;
 }
-namespace UnityEngine::InputSystem {
-struct InputActionPhase;
+namespace UnityEngine::InputSystem::Utilities {
+struct FourCC;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::LowLevel {

@@ -6,7 +6,7 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(SerializationCallback)
 namespace System {
-class IAsyncResult;
+class AsyncCallback;
 }
 namespace System {
 class Object;
@@ -15,7 +15,7 @@ namespace System::Runtime::Serialization {
 struct StreamingContext;
 }
 namespace System {
-class AsyncCallback;
+class IAsyncResult;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Serialization {

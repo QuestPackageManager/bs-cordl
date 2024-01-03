@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(PrefabProviderResource)
-namespace UnityEngine {
-class Object;
-}
 namespace Zenject {
 class IPrefabProvider;
+}
+namespace UnityEngine {
+class Object;
 }
 // Forward declare root types
 namespace Zenject {

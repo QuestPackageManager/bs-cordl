@@ -6,20 +6,20 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(CmsProcessableByteArray)
-namespace Org::BouncyCastle::Cms {
-class CmsProcessable;
-}
-namespace Org::BouncyCastle::Cms {
-class CmsReadable;
-}
-namespace System {
-class Object;
+namespace System::IO {
+class Stream;
 }
 namespace Org::BouncyCastle::Asn1 {
 class DerObjectIdentifier;
 }
-namespace System::IO {
-class Stream;
+namespace Org::BouncyCastle::Cms {
+class CmsReadable;
+}
+namespace Org::BouncyCastle::Cms {
+class CmsProcessable;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Cms {

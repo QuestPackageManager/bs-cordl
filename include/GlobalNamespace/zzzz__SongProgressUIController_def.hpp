@@ -5,23 +5,23 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(SongProgressUIController)
-namespace GlobalNamespace {
-class IAudioTimeSource;
+namespace System::Text {
+class StringBuilder;
 }
 namespace UnityEngine::UI {
 class Image;
+}
+namespace UnityEngine::UI {
+class Slider;
+}
+namespace GlobalNamespace {
+class IAudioTimeSource;
 }
 namespace TMPro {
 class TextMeshProUGUI;
 }
 namespace UnityEngine {
 class RectTransform;
-}
-namespace UnityEngine::UI {
-class Slider;
-}
-namespace System::Text {
-class StringBuilder;
 }
 // Forward declare root types
 namespace GlobalNamespace {

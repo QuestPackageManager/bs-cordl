@@ -9,77 +9,77 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(SortedSet_1)
-namespace System {
-class Object;
-}
-namespace System::Collections::Generic {
-template <typename T> struct __SortedSet_1__Enumerator;
-}
-namespace System::Collections::Generic {
-template <typename T> struct __SortedSet_1__ElementCount;
-}
-namespace System::Runtime::Serialization {
-class ISerializable;
-}
-namespace System::Collections {
-class IEnumerable;
-}
-namespace System::Collections {
-class ICollection;
-}
-namespace System::Runtime::Serialization {
-class SerializationInfo;
-}
-namespace System::Runtime::Serialization {
-struct StreamingContext;
-}
-namespace System::Collections::Generic {
-template <typename T> class TreeWalkPredicate_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class __SortedSet_1____c__DisplayClass53_0;
-}
-namespace System::Collections::Generic {
-template <typename T> class ICollection_1;
-}
-namespace System::Runtime::Serialization {
-class IDeserializationCallback;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
-}
-namespace System::Collections {
-class IEnumerator;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class IReadOnlyCollection_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class __SortedSet_1____c__DisplayClass52_0;
-}
 namespace System::Collections::Generic {
 template <typename T> class __SortedSet_1__Node;
 }
-namespace System::Collections::Generic {
-template <typename T> class IComparer_1;
+namespace System::Collections {
+class IEnumerable;
 }
 namespace System {
 class Array;
 }
 namespace System::Collections::Generic {
-struct TreeRotation;
+template <typename T> class IEnumerator_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class IComparer_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class IReadOnlyCollection_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class __SortedSet_1____c__DisplayClass53_0;
+}
+namespace System::Runtime::Serialization {
+class IDeserializationCallback;
+}
+namespace System::Collections {
+class IEnumerator;
+}
+namespace System::Collections::Generic {
+template <typename T> struct __SortedSet_1__Enumerator;
+}
+namespace System {
+class Object;
+}
+namespace System::Runtime::Serialization {
+class SerializationInfo;
+}
+namespace System::Collections::Generic {
+template <typename T> class __SortedSet_1____c__DisplayClass52_0;
+}
+namespace System::Runtime::Serialization {
+struct StreamingContext;
+}
+namespace System::Collections::Generic {
+template <typename T> class ICollection_1;
+}
+namespace System::Collections {
+class ICollection;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
+namespace System::Collections::Generic {
+template <typename T> struct __SortedSet_1__ElementCount;
+}
+namespace System::Collections::Generic {
+template <typename T> class TreeWalkPredicate_1;
+}
+namespace System::Runtime::Serialization {
+class ISerializable;
 }
 namespace System::Collections::Generic {
 struct NodeColor;
 }
-namespace System {
-class IDisposable;
+namespace System::Collections::Generic {
+struct TreeRotation;
 }
 namespace System::Collections::Generic {
 template <typename T> class Stack_1;
+}
+namespace System {
+class IDisposable;
 }
 // Forward declare root types
 namespace System::Collections::Generic {
@@ -113,7 +113,7 @@ namespace System::Collections::Generic {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9542))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9542)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9536))
 // CS Name: ::SortedSet`1::Node<T>*
 class CORDL_TYPE __SortedSet_1__Node : public ::System::Object {

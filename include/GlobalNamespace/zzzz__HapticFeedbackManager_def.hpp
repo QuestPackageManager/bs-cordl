@@ -5,13 +5,13 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(HapticFeedbackManager)
 namespace GlobalNamespace {
+class BoolSO;
+}
+namespace GlobalNamespace {
 class RumbleHapticFeedbackPlayer;
 }
 namespace Libraries::HM::HMLib::VR {
 class HapticPresetSO;
-}
-namespace GlobalNamespace {
-class BoolSO;
 }
 namespace GlobalNamespace {
 class IHapticFeedbackPlayer;

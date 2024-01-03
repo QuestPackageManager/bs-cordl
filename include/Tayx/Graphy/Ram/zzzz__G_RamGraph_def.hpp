@@ -7,9 +7,6 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(G_RamGraph)
-namespace Tayx::Graphy {
-class G_GraphShader;
-}
 namespace Tayx::Graphy::Ram {
 class G_RamMonitor;
 }
@@ -21,6 +18,9 @@ class Image;
 }
 namespace Tayx::Graphy {
 class GraphyManager;
+}
+namespace Tayx::Graphy {
+class G_GraphShader;
 }
 // Forward declare root types
 namespace Tayx::Graphy::Ram {

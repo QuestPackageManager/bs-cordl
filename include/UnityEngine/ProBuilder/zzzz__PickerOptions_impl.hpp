@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/ProBuilder/zzzz__RectSelectMode_impl.hpp"
 #include "UnityEngine/ProBuilder/zzzz__PickerOptions_def.hpp"
-#include "UnityEngine/ProBuilder/zzzz__RectSelectMode_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "UnityEngine/ProBuilder/zzzz__RectSelectMode_def.hpp"
 //  Writing Method size for method: ::UnityEngine::ProBuilder::PickerOptions.get_depthTest
 template <>
 

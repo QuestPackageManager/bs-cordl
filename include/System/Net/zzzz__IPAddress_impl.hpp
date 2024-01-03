@@ -2,10 +2,10 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/zzzz__IPAddress_def.hpp"
 #include "System/Net/Sockets/zzzz__AddressFamily_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+#include "System/Net/zzzz__IPAddress_ReadOnlyIPAddress_def.hpp"
 #include "System/zzzz__ReadOnlySpan_1_def.hpp"
 #include "System/zzzz__Span_1_def.hpp"
-#include "System/Net/zzzz__IPAddress_ReadOnlyIPAddress_def.hpp"
-#include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::System::Net::IPAddress.get_IsIPv4
 template <>
 

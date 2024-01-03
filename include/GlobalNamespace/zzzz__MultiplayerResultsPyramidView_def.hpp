@@ -7,11 +7,17 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(MultiplayerResultsPyramidView)
+namespace GlobalNamespace {
+class MultiplayerPlayerResultsData;
+}
+namespace UnityEngine {
+class Transform;
+}
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace GlobalNamespace {
-class MultiplayerPlayerResultsData;
+class IConnectedPlayer;
 }
 namespace GlobalNamespace {
 class __MultiplayerResultsPyramidViewAvatar__Factory;
@@ -19,20 +25,14 @@ class __MultiplayerResultsPyramidViewAvatar__Factory;
 namespace GlobalNamespace {
 class MultiplayerResultsPyramidViewAvatar;
 }
-namespace System::Collections::Generic {
-template <typename T> class IReadOnlyList_1;
-}
-namespace GlobalNamespace {
-class IConnectedPlayer;
-}
 namespace GlobalNamespace {
 class MultiplayerOffsetPositionByLocalPlayerPosition;
 }
 namespace UnityEngine {
-class Transform;
-}
-namespace UnityEngine {
 class GameObject;
+}
+namespace System::Collections::Generic {
+template <typename T> class IReadOnlyList_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {

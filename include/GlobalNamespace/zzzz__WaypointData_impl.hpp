@@ -3,9 +3,9 @@
 #include "GlobalNamespace/zzzz__NoteLineLayer_impl.hpp"
 #include "GlobalNamespace/zzzz__OffsetDirection_impl.hpp"
 #include "GlobalNamespace/zzzz__WaypointData_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapDataItem_def.hpp"
 #include "GlobalNamespace/zzzz__NoteLineLayer_def.hpp"
 #include "GlobalNamespace/zzzz__OffsetDirection_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapDataItem_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::WaypointData.get_offsetDirection
 template <>
 

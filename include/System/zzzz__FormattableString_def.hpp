@@ -11,10 +11,10 @@ namespace System {
 class IFormattable;
 }
 namespace System {
-class IFormatProvider;
+class Object;
 }
 namespace System {
-class Object;
+class IFormatProvider;
 }
 // Forward declare root types
 namespace System {

@@ -4,8 +4,8 @@
 #include "System/Threading/zzzz__CancellationTokenRegistration_impl.hpp"
 #include "System/Threading/zzzz__CancellationToken_impl.hpp"
 #include "System/Threading/Tasks/zzzz__Task_DelayPromise_def.hpp"
-#include "System/Threading/zzzz__CancellationToken_def.hpp"
 #include "System/Threading/zzzz__Timer_def.hpp"
+#include "System/Threading/zzzz__CancellationToken_def.hpp"
 //  Writing Method size for method: ::System::Threading::Tasks::__Task__DelayPromise._ctor
 template <>
 

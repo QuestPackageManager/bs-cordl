@@ -10,17 +10,17 @@ CORDL_MODULE_EXPORT(QuickPlaySetupData)
 namespace GlobalNamespace {
 class __QuickPlaySetupData__QuickPlaySongPacksOverride;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
 namespace GlobalNamespace {
 class __QuickPlaySetupData__QuickPlaySongPacksOverride__PredefinedPack;
 }
 namespace GlobalNamespace {
-class __QuickPlaySetupData__QuickPlaySongPacksOverride__LocalizedCustomPack;
+class __QuickPlaySetupData__QuickPlaySongPacksOverride__LocalizedCustomPackName;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace GlobalNamespace {
-class __QuickPlaySetupData__QuickPlaySongPacksOverride__LocalizedCustomPackName;
+class __QuickPlaySetupData__QuickPlaySongPacksOverride__LocalizedCustomPack;
 }
 // Forward declare root types
 namespace GlobalNamespace {

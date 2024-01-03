@@ -8,19 +8,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Datatype_char)
 namespace System {
-class Object;
+class Type;
 }
 namespace System::Xml {
 class XmlNameTable;
 }
-namespace System::Xml {
-class IXmlNamespaceResolver;
-}
 namespace System {
-class Type;
+class Object;
 }
 namespace System {
 class Exception;
+}
+namespace System::Xml {
+class IXmlNamespaceResolver;
 }
 // Forward declare root types
 namespace System::Xml::Schema {

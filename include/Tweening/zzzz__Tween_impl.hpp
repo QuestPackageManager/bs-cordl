@@ -2,8 +2,8 @@
 #include "GlobalNamespace/zzzz__EaseType_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Tweening/zzzz__Tween_def.hpp"
-#include "GlobalNamespace/zzzz__EaseType_def.hpp"
 #include "System/zzzz__Action_def.hpp"
+#include "GlobalNamespace/zzzz__EaseType_def.hpp"
 //  Writing Method size for method: ::Tweening::Tween.get_isStarted
 template <>
 

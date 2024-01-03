@@ -13,21 +13,6 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(HEU_PartData)
-namespace HoudiniEngineUnity {
-template <typename T> class IEquivable_1;
-}
-namespace HoudiniEngineUnity {
-class __HEU_PartData____c__DisplayClass86_0;
-}
-namespace UnityEngine {
-class Object;
-}
-namespace HoudiniEngineUnity {
-class __HEU_PartData____c;
-}
-namespace HoudiniEngineUnity {
-class HEU_ObjectInstanceInfo;
-}
 namespace UnityEngine {
 class TerrainData;
 }
@@ -35,67 +20,82 @@ namespace HoudiniEngineUnity {
 class HEU_HoudiniAsset;
 }
 namespace HoudiniEngineUnity {
-class HEU_GeneratedOutput;
-}
-namespace HoudiniEngineUnity {
-class HEU_GeoNode;
-}
-namespace UnityEngine {
-struct Vector3;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace HoudiniEngineUnity {
-class __HEU_PartData____c__DisplayClass88_0;
-}
-namespace System::Text {
-class StringBuilder;
-}
-namespace UnityEngine {
-class Material;
-}
-namespace HoudiniEngineUnity {
-struct TransformData;
-}
-namespace HoudiniEngineUnity {
-struct __HEU_PartData__PartOutputType;
-}
-namespace UnityEngine {
-class GameObject;
-}
-namespace UnityEngine {
-class Transform;
-}
-namespace HoudiniEngineUnity {
-class HEU_MaterialData;
-}
-namespace HoudiniEngineUnity {
-struct HAPI_Transform;
-}
-namespace HoudiniEngineUnity {
-struct HAPI_PartInfo;
-}
-namespace HoudiniEngineUnity {
-class HEU_ObjectNode;
-}
-namespace HoudiniEngineUnity {
-class HEU_AttributesStore;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace HoudiniEngineUnity {
-class HEU_Curve;
-}
-namespace HoudiniEngineUnity {
-class HEU_SessionBase;
+class __HEU_PartData____c;
 }
 namespace UnityEngine {
 class Mesh;
 }
 namespace HoudiniEngineUnity {
+struct __HEU_PartData__PartOutputType;
+}
+namespace HoudiniEngineUnity {
+template <typename T> class IEquivable_1;
+}
+namespace HoudiniEngineUnity {
+struct HAPI_Transform;
+}
+namespace UnityEngine {
+class Transform;
+}
+namespace HoudiniEngineUnity {
+struct TransformData;
+}
+namespace HoudiniEngineUnity {
+class HEU_ObjectNode;
+}
+namespace UnityEngine {
+class GameObject;
+}
+namespace HoudiniEngineUnity {
+class HEU_SessionBase;
+}
+namespace HoudiniEngineUnity {
+class HEU_ObjectInstanceInfo;
+}
+namespace HoudiniEngineUnity {
+class HEU_GeneratedOutput;
+}
+namespace HoudiniEngineUnity {
+class HEU_Curve;
+}
+namespace UnityEngine {
+class Object;
+}
+namespace System::Text {
+class StringBuilder;
+}
+namespace HoudiniEngineUnity {
+struct HAPI_PartInfo;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace HoudiniEngineUnity {
+class HEU_GeoNode;
+}
+namespace HoudiniEngineUnity {
+class __HEU_PartData____c__DisplayClass86_0;
+}
+namespace HoudiniEngineUnity {
+class HEU_MaterialData;
+}
+namespace UnityEngine {
+class Material;
+}
+namespace HoudiniEngineUnity {
+class HEU_AttributesStore;
+}
+namespace HoudiniEngineUnity {
+class __HEU_PartData____c__DisplayClass88_0;
+}
+namespace UnityEngine {
+struct Vector3;
+}
+namespace HoudiniEngineUnity {
 class __HEU_PartData____c__DisplayClass88_1;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace UnityEngine {
 struct LOD;
@@ -403,8 +403,8 @@ static_assert(offsetof(::HoudiniEngineUnity::__HEU_PartData____c__DisplayClass88
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10210)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(9710)),
-// TypeDefinitionIndex(TypeDefinitionIndex(9655))} Self: TypeDefinitionIndex(TypeDefinitionIndex(9660)) CS Name: ::HoudiniEngineUnity::HEU_PartData*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10210)), TypeDefinitionIndex(TypeDefinitionIndex(9655)),
+// TypeDefinitionIndex(TypeDefinitionIndex(9710))} Self: TypeDefinitionIndex(TypeDefinitionIndex(9660)) CS Name: ::HoudiniEngineUnity::HEU_PartData*
 class CORDL_TYPE HEU_PartData : public ::UnityEngine::ScriptableObject {
 public:
   // Declarations

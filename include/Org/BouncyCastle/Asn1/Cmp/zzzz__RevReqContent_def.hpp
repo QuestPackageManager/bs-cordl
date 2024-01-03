@@ -11,11 +11,11 @@ class Asn1Object;
 namespace System {
 class Object;
 }
-namespace Org::BouncyCastle::Asn1::Cmp {
-class RevDetails;
-}
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
+}
+namespace Org::BouncyCastle::Asn1::Cmp {
+class RevDetails;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Cmp {

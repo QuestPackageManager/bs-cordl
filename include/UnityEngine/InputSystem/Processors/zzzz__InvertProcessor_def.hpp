@@ -19,7 +19,7 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::Processors::InvertProcessor);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Processors {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6236)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6236), inst: 391 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6236), inst: 391 }), TypeDefinitionIndex(TypeDefinitionIndex(6236))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6584))
 // CS Name: ::UnityEngine.InputSystem.Processors::InvertProcessor*
 class CORDL_TYPE InvertProcessor : public ::UnityEngine::InputSystem::InputProcessor_1<float_t> {

@@ -1,15 +1,15 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaSet_def.hpp"
-#include "System/Xml/Schema/zzzz__XmlSchemaCompilationSettings_def.hpp"
 #include "System/Xml/zzzz__XmlNameTable_def.hpp"
-#include "System/Xml/zzzz__XmlReaderSettings_def.hpp"
-#include "System/Collections/zzzz__SortedList_def.hpp"
-#include "System/Xml/Schema/zzzz__SchemaInfo_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "System/Xml/Schema/zzzz__ValidationEventArgs_def.hpp"
-#include "System/Collections/zzzz__Hashtable_def.hpp"
 #include "System/Xml/Schema/zzzz__ValidationEventHandler_def.hpp"
+#include "System/Collections/zzzz__SortedList_def.hpp"
+#include "System/Xml/Schema/zzzz__XmlSchemaCompilationSettings_def.hpp"
+#include "System/Xml/zzzz__XmlReaderSettings_def.hpp"
+#include "System/Xml/Schema/zzzz__SchemaInfo_def.hpp"
+#include "System/Collections/zzzz__Hashtable_def.hpp"
+#include "System/Xml/Schema/zzzz__ValidationEventArgs_def.hpp"
 //  Writing Method size for method: ::System::Xml::Schema::XmlSchemaSet._ctor
 template <>
 

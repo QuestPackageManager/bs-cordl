@@ -2,9 +2,9 @@
 #include "Zenject/zzzz__IFixedTickable_impl.hpp"
 #include "Zenject/zzzz__TaskUpdater_1_impl.hpp"
 #include "Zenject/zzzz__FixedTickablesTaskUpdater_def.hpp"
-#include "Zenject/zzzz__IFixedTickable_def.hpp"
-#include "Zenject/zzzz__InjectTypeInfo_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "Zenject/zzzz__InjectTypeInfo_def.hpp"
+#include "Zenject/zzzz__IFixedTickable_def.hpp"
 //  Writing Method size for method: ::Zenject::FixedTickablesTaskUpdater.UpdateItem
 template <>
 

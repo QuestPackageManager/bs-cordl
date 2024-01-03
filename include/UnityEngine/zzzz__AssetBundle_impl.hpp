@@ -2,8 +2,8 @@
 #include "UnityEngine/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__AssetBundle_def.hpp"
 #include "System/zzzz__Type_def.hpp"
-#include "UnityEngine/zzzz__AssetBundleRequest_def.hpp"
 #include "UnityEngine/zzzz__Object_def.hpp"
+#include "UnityEngine/zzzz__AssetBundleRequest_def.hpp"
 #include "UnityEngine/zzzz__AssetBundleCreateRequest_def.hpp"
 //  Writing Method size for method: ::UnityEngine::AssetBundle._ctor
 template <>

@@ -8,61 +8,61 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(List_1)
 namespace System::Collections::Generic {
-template <typename T> class ICollection_1;
+template <typename T> class IReadOnlyCollection_1;
+}
+namespace System {
+template <typename T> class Comparison_1;
+}
+namespace System::Collections {
+class IEnumerable;
+}
+namespace System::Collections {
+class IList;
+}
+namespace System::Collections {
+class ICollection;
+}
+namespace System {
+class Object;
+}
+namespace System {
+template <typename TInput, typename TOutput> class Converter_2;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
+}
+namespace System::Collections::ObjectModel {
+template <typename T> class ReadOnlyCollection_1;
+}
+namespace System::Collections {
+class IEnumerator;
+}
+namespace System {
+template <typename T> class Predicate_1;
 }
 namespace System {
 template <typename T> class Action_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class IReadOnlyList_1;
+}
+namespace System {
+class Array;
+}
+namespace System::Collections::Generic {
+template <typename T> class ICollection_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class IComparer_1;
 }
 namespace System::Collections::Generic {
 template <typename T> struct __List_1__Enumerator;
 }
 namespace System::Collections::Generic {
 template <typename T> class IList_1;
-}
-namespace System {
-template <typename TInput, typename TOutput> class Converter_2;
-}
-namespace System::Collections {
-class IList;
-}
-namespace System {
-class Object;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
-namespace System::Collections {
-class ICollection;
-}
-namespace System::Collections {
-class IEnumerable;
-}
-namespace System {
-template <typename T> class Predicate_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class IReadOnlyList_1;
-}
-namespace System::Collections {
-class IEnumerator;
-}
-namespace System {
-template <typename T> class Comparison_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class IComparer_1;
-}
-namespace System {
-class Array;
-}
-namespace System::Collections::Generic {
-template <typename T> class IReadOnlyCollection_1;
-}
-namespace System::Collections::ObjectModel {
-template <typename T> class ReadOnlyCollection_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
 }
 namespace System {
 class IDisposable;

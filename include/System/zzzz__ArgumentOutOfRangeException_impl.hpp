@@ -2,8 +2,8 @@
 #include "System/zzzz__ArgumentException_impl.hpp"
 #include "System/zzzz__ArgumentOutOfRangeException_def.hpp"
 #include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
-#include "System/zzzz__Object_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::System::ArgumentOutOfRangeException._ctor
 template <>
 

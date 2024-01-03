@@ -9,13 +9,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(WaypointData)
 namespace GlobalNamespace {
-class BeatmapDataItem;
-}
-namespace GlobalNamespace {
 struct NoteLineLayer;
 }
 namespace GlobalNamespace {
 struct OffsetDirection;
+}
+namespace GlobalNamespace {
+class BeatmapDataItem;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -27,7 +27,7 @@ MARK_REF_PTR_T(::GlobalNamespace::WaypointData);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14762)), TypeDefinitionIndex(TypeDefinitionIndex(14751)), TypeDefinitionIndex(TypeDefinitionIndex(14760))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14760)), TypeDefinitionIndex(TypeDefinitionIndex(14751)), TypeDefinitionIndex(TypeDefinitionIndex(14762))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14768))
 // CS Name: ::WaypointData*
 class CORDL_TYPE WaypointData : public ::GlobalNamespace::BeatmapObjectData {

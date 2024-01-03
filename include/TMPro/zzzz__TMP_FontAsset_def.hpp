@@ -15,59 +15,59 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(TMP_FontAsset)
-namespace TMPro {
-struct AtlasPopulationMode;
-}
-namespace TMPro {
-struct FontAssetCreationSettings;
+namespace UnityEngine::TextCore {
+struct GlyphRect;
 }
 namespace TMPro {
 class TMP_FontFeatureTable;
 }
 namespace TMPro {
-class TMP_Character;
-}
-namespace UnityEngine {
-class Font;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
+struct FontAssetCreationSettings;
 }
 namespace UnityEngine::TextCore {
-struct GlyphRect;
-}
-namespace UnityEngine {
-class Texture2D;
-}
-namespace TMPro {
-class TMP_Glyph;
-}
-namespace TMPro {
-struct TMP_FontWeightPair;
-}
-namespace UnityEngine::TextCore {
-struct FaceInfo;
-}
-namespace UnityEngine::TextCore::LowLevel {
-struct GlyphRenderMode;
+class Glyph;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
-namespace TMPro {
-class __TMP_FontAsset____c;
+namespace UnityEngine::TextCore::LowLevel {
+struct GlyphRenderMode;
 }
-namespace UnityEngine::TextCore {
-class Glyph;
+namespace UnityEngine {
+class Font;
+}
+namespace TMPro {
+struct TMP_FontWeightPair;
+}
+namespace UnityEngine {
+class Texture2D;
+}
+namespace System::Collections::Generic {
+template <typename T> class HashSet_1;
+}
+namespace TMPro {
+struct AtlasPopulationMode;
+}
+namespace TMPro {
+class TMP_Character;
+}
+namespace TMPro {
+class KerningTable;
 }
 namespace TMPro {
 class FaceInfo_Legacy;
 }
 namespace TMPro {
-class KerningTable;
+class __TMP_FontAsset____c;
+}
+namespace UnityEngine::TextCore {
+struct FaceInfo;
 }
 namespace System::Collections::Generic {
-template <typename T> class HashSet_1;
+template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace TMPro {
+class TMP_Glyph;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;
@@ -148,8 +148,8 @@ static_assert(::cordl_internals::size_check_v<::TMPro::__TMP_FontAsset____c, 0x1
 // SizeInfo { instance_size: 536, native_size: -1, calculated_instance_size: 536, calculated_native_size: 536, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12359)), TypeDefinitionIndex(TypeDefinitionIndex(9966)), TypeDefinitionIndex(TypeDefinitionIndex(12327)),
-// TypeDefinitionIndex(TypeDefinitionIndex(15526)), TypeDefinitionIndex(TypeDefinitionIndex(12354)), TypeDefinitionIndex(TypeDefinitionIndex(15534))} Self:
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15526)), TypeDefinitionIndex(TypeDefinitionIndex(12359)), TypeDefinitionIndex(TypeDefinitionIndex(15534)),
+// TypeDefinitionIndex(TypeDefinitionIndex(9966)), TypeDefinitionIndex(TypeDefinitionIndex(12327)), TypeDefinitionIndex(TypeDefinitionIndex(12354))} Self:
 // TypeDefinitionIndex(TypeDefinitionIndex(12356)) CS Name: ::TMPro::TMP_FontAsset*
 class CORDL_TYPE TMP_FontAsset : public ::TMPro::TMP_Asset {
 public:

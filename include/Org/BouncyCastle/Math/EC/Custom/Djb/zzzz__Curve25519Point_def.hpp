@@ -7,9 +7,6 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Curve25519Point)
 namespace Org::BouncyCastle::Math::EC {
-class ECFieldElement;
-}
-namespace Org::BouncyCastle::Math::EC {
 class ECPoint;
 }
 namespace Org::BouncyCastle::Math::EC::Custom::Djb {
@@ -17,6 +14,9 @@ class Curve25519FieldElement;
 }
 namespace Org::BouncyCastle::Math::EC {
 class ECCurve;
+}
+namespace Org::BouncyCastle::Math::EC {
+class ECFieldElement;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Math::EC::Custom::Djb {

@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(MouseLook)
 namespace UnityEngine {
-class Transform;
+struct Quaternion;
 }
 namespace UnityEngine {
-struct Quaternion;
+class Transform;
 }
 // Forward declare root types
 namespace GlobalNamespace {

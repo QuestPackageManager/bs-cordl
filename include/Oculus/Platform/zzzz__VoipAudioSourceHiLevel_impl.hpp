@@ -1,10 +1,10 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "Oculus/Platform/zzzz__VoipAudioSourceHiLevel_def.hpp"
-#include "Oculus/Platform/zzzz__VoipAudioSourceHiLevel_def.hpp"
-#include "Oculus/Platform/zzzz__VoipSampleRate_def.hpp"
 #include "Oculus/Platform/zzzz__IVoipPCMSource_def.hpp"
 #include "UnityEngine/zzzz__AudioSource_def.hpp"
+#include "Oculus/Platform/zzzz__VoipSampleRate_def.hpp"
+#include "Oculus/Platform/zzzz__VoipAudioSourceHiLevel_def.hpp"
 //  Writing Method size for method: ::Oculus::Platform::__VoipAudioSourceHiLevel__FilterReadDelegate.Awake
 template <>
 

@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include "System/Security/zzzz__CodeAccessPermission_def.hpp"
 CORDL_MODULE_EXPORT(SecurityPermission)
 namespace System::Security::Permissions {
-struct PermissionState;
+struct SecurityPermissionFlag;
 }
 namespace System::Security::Permissions {
-struct SecurityPermissionFlag;
+struct PermissionState;
 }
 namespace System::Security {
 class IPermission;

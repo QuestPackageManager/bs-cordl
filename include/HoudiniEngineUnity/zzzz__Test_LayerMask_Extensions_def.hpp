@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(Test_LayerMask_Extensions)
-namespace HoudiniEngineUnity {
-class Test_LayerMask;
-}
 namespace UnityEngine {
 struct LayerMask;
+}
+namespace HoudiniEngineUnity {
+class Test_LayerMask;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {

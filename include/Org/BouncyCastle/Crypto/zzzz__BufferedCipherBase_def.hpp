@@ -8,10 +8,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(BufferedCipherBase)
 namespace Org::BouncyCastle::Crypto {
-class IBufferedCipher;
+class ICipherParameters;
 }
 namespace Org::BouncyCastle::Crypto {
-class ICipherParameters;
+class IBufferedCipher;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto {

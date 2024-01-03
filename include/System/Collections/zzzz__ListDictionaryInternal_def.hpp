@@ -5,35 +5,35 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ListDictionaryInternal)
+namespace System::Collections {
+class IEnumerator;
+}
 namespace System {
 class Object;
 }
 namespace System::Collections {
-class IEnumerator;
+class IDictionaryEnumerator;
+}
+namespace System::Collections {
+class IEnumerable;
+}
+namespace System::Collections {
+class __ListDictionaryInternal__NodeEnumerator;
 }
 namespace System::Collections {
 class __ListDictionaryInternal__NodeKeyValueCollection;
 }
 namespace System::Collections {
-class IEnumerable;
+class __ListDictionaryInternal__DictionaryNode;
+}
+namespace System::Collections {
+class IDictionary;
 }
 namespace System {
 class Array;
 }
 namespace System::Collections {
 class ICollection;
-}
-namespace System::Collections {
-class __ListDictionaryInternal__DictionaryNode;
-}
-namespace System::Collections {
-class __ListDictionaryInternal__NodeEnumerator;
-}
-namespace System::Collections {
-class IDictionaryEnumerator;
-}
-namespace System::Collections {
-class IDictionary;
 }
 namespace System::Collections {
 struct DictionaryEntry;

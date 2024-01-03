@@ -3,11 +3,11 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(Asn1OctetStringParser)
-namespace System::IO {
-class Stream;
-}
 namespace Org::BouncyCastle::Asn1 {
 class IAsn1Convertible;
+}
+namespace System::IO {
+class Stream;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1 {

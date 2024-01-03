@@ -2,9 +2,9 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "TMPro/zzzz__TextElementType_impl.hpp"
 #include "TMPro/zzzz__TMP_TextElement_def.hpp"
+#include "TMPro/zzzz__TMP_Asset_def.hpp"
 #include "UnityEngine/TextCore/zzzz__Glyph_def.hpp"
 #include "TMPro/zzzz__TextElementType_def.hpp"
-#include "TMPro/zzzz__TMP_Asset_def.hpp"
 //  Writing Method size for method: ::TMPro::TMP_TextElement.get_elementType
 template <>
 

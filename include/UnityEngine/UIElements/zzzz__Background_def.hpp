@@ -9,8 +9,11 @@ CORDL_MODULE_EXPORT(Background)
 namespace System {
 template <typename T> class IEquatable_1;
 }
-namespace UnityEngine::UIElements {
-class VectorImage;
+namespace UnityEngine {
+class Texture2D;
+}
+namespace UnityEngine {
+class Sprite;
 }
 namespace System {
 class Object;
@@ -18,11 +21,8 @@ class Object;
 namespace UnityEngine {
 class RenderTexture;
 }
-namespace UnityEngine {
-class Sprite;
-}
-namespace UnityEngine {
-class Texture2D;
+namespace UnityEngine::UIElements {
+class VectorImage;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

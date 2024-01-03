@@ -8,23 +8,23 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(VRTextEntryController)
-namespace System::Collections {
-class IEnumerator;
-}
 namespace GlobalNamespace {
 class UIKeyboard;
+}
+namespace TMPro {
+class TextMeshProUGUI;
 }
 namespace System {
 template <typename T> class Action_1;
 }
-namespace System {
-class Action;
-}
 namespace GlobalNamespace {
 class __VRTextEntryController___BlinkCursor_d__23;
 }
-namespace TMPro {
-class TextMeshProUGUI;
+namespace System::Collections {
+class IEnumerator;
+}
+namespace System {
+class Action;
 }
 namespace System {
 class Object;
@@ -49,7 +49,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__VRTextEntryController___BlinkCursor_d__23);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10251))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5468))
 // CS Name: ::VRTextEntryController::<BlinkCursor>d__23*
 class CORDL_TYPE __VRTextEntryController___BlinkCursor_d__23 : public ::System::Object {

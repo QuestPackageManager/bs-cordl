@@ -2,8 +2,8 @@
 #include "UnityEngine/Timeline/zzzz__ControlPlayableAsset_impl.hpp"
 #include "GlobalNamespace/zzzz__CustomControlPlayableAsset_def.hpp"
 #include "UnityEngine/Timeline/zzzz__ITimelineClipAsset_def.hpp"
-#include "UnityEngine/Timeline/zzzz__ClipCaps_def.hpp"
 #include "GlobalNamespace/zzzz__AvatarColorBehaviour_def.hpp"
+#include "UnityEngine/Timeline/zzzz__ClipCaps_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::CustomControlPlayableAsset.get_clipCaps
 template <>
 

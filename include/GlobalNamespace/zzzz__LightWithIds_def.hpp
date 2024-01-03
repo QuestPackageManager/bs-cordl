@@ -8,19 +8,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(LightWithIds)
 namespace GlobalNamespace {
+class LightWithIdManager;
+}
+namespace GlobalNamespace {
 class __LightWithIds__LightWithId;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
-namespace GlobalNamespace {
-class LightWithIdManager;
+namespace UnityEngine {
+struct Color;
 }
 namespace GlobalNamespace {
 class ILightWithId;
-}
-namespace UnityEngine {
-struct Color;
 }
 // Forward declare root types
 namespace GlobalNamespace {

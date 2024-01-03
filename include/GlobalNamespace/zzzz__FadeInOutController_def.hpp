@@ -7,29 +7,29 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(FadeInOutController)
-namespace System::Collections {
-class IEnumerator;
-}
 namespace GlobalNamespace {
 class __FadeInOutController___Fade_d__15;
 }
-namespace UnityEngine {
-class AnimationCurve;
-}
-namespace GlobalNamespace {
-class FloatSO;
+namespace System::Collections {
+class IEnumerator;
 }
 namespace System {
 class Action;
 }
-namespace System {
-class Object;
+namespace GlobalNamespace {
+class FloatSO;
+}
+namespace UnityEngine {
+class AnimationCurve;
 }
 namespace System {
 class IDisposable;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace GlobalNamespace {

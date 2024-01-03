@@ -6,23 +6,23 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(InjectUtil)
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
 namespace Zenject {
 struct TypeValuePair;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace System {
-class Type;
 }
 namespace System {
 class Object;
 }
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
 namespace Zenject {
 class __InjectUtil____c;
+}
+namespace System {
+class Type;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
 }
 namespace Zenject {
 class InjectTypeInfo;

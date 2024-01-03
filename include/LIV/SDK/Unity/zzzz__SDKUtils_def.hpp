@@ -10,40 +10,40 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(SDKUtils)
 namespace UnityEngine {
-class Transform;
+struct Quaternion;
 }
 namespace LIV::SDK::Unity {
-struct SDKTrackedSpace;
+struct FEATURES;
 }
 namespace LIV::SDK::Unity {
-struct TEXTURE_COLOR_SPACE;
-}
-namespace UnityEngine {
-class Material;
-}
-namespace UnityEngine {
-class RenderTexture;
+struct TEXTURE_DEVICE;
 }
 namespace LIV::SDK::Unity {
 struct SDKPose;
 }
 namespace LIV::SDK::Unity {
-struct TEXTURE_DEVICE;
+class SDKRender;
+}
+namespace UnityEngine {
+struct Vector3;
+}
+namespace UnityEngine {
+class MonoBehaviour;
+}
+namespace UnityEngine {
+class Material;
 }
 namespace UnityEngine {
 struct RenderingPath;
 }
 namespace UnityEngine {
-class Camera;
+class Transform;
+}
+namespace UnityEngine {
+class Mesh;
 }
 namespace UnityEngine {
 struct RenderTextureFormat;
-}
-namespace LIV::SDK::Unity {
-class SDKRender;
-}
-namespace UnityEngine {
-class MonoBehaviour;
 }
 namespace LIV::SDK::Unity {
 struct RENDERING_PIPELINE;
@@ -52,19 +52,19 @@ namespace UnityEngine {
 struct RenderTextureReadWrite;
 }
 namespace UnityEngine {
-struct Quaternion;
+class RenderTexture;
+}
+namespace LIV::SDK::Unity {
+struct TEXTURE_COLOR_SPACE;
 }
 namespace UnityEngine {
-struct Vector3;
+class Camera;
 }
 namespace LIV::SDK::Unity {
 struct SDKInputFrame;
 }
-namespace UnityEngine {
-class Mesh;
-}
 namespace LIV::SDK::Unity {
-struct FEATURES;
+struct SDKTrackedSpace;
 }
 namespace UnityEngine {
 struct Matrix4x4;

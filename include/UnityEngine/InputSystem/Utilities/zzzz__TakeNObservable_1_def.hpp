@@ -6,16 +6,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(TakeNObservable_1)
 namespace System {
-class IDisposable;
-}
-namespace System {
-template <typename T> class IObservable_1;
+template <typename T> class IObserver_1;
 }
 namespace UnityEngine::InputSystem::Utilities {
 template <typename TValue> class __TakeNObservable_1__Take;
 }
 namespace System {
-template <typename T> class IObserver_1;
+template <typename T> class IObservable_1;
+}
+namespace System {
+class IDisposable;
 }
 namespace System {
 class Exception;

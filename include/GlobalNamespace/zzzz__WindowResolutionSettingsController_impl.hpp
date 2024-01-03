@@ -1,8 +1,8 @@
 #pragma once
 #include "GlobalNamespace/zzzz__ListSettingsController_impl.hpp"
 #include "GlobalNamespace/zzzz__WindowResolutionSettingsController_def.hpp"
-#include "UnityEngine/zzzz__Vector2Int_def.hpp"
 #include "GlobalNamespace/zzzz__Vector2IntSO_def.hpp"
+#include "UnityEngine/zzzz__Vector2Int_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::WindowResolutionSettingsController.GetInitValues
 template <>
 

@@ -9,7 +9,7 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ShaderInfoStorage_1)
 namespace UnityEngine {
-struct TextureFormat;
+class Texture2D;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;
@@ -18,16 +18,16 @@ namespace UnityEngine::UIElements {
 class UIRAtlasAllocator;
 }
 namespace UnityEngine {
-struct Color;
-}
-namespace UnityEngine {
-struct RectInt;
+struct TextureFormat;
 }
 namespace Unity::Collections {
 template <typename T> struct NativeArray_1;
 }
 namespace UnityEngine {
-class Texture2D;
+struct Color;
+}
+namespace UnityEngine {
+struct RectInt;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements::UIR {
@@ -41,8 +41,8 @@ namespace UnityEngine::UIElements::UIR {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7380)), TypeDefinitionIndex(TypeDefinitionIndex(10115)), TypeDefinitionIndex(TypeDefinitionIndex(9999)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 4692 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(7381)) CS Name:
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10115)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 4692 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(7380)), TypeDefinitionIndex(TypeDefinitionIndex(9999))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7381)) CS Name:
 // ::UnityEngine.UIElements.UIR::ShaderInfoStorage`1<T>*
 class CORDL_TYPE ShaderInfoStorage_1 : public ::UnityEngine::UIElements::UIR::BaseShaderInfoStorage {
 public:

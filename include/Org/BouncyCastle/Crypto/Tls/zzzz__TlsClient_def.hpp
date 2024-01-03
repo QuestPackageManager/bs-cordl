@@ -9,28 +9,28 @@ namespace Org::BouncyCastle::Crypto::Tls {
 class TlsKeyExchange;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class ProtocolVersion;
+class TlsPeer;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class TlsAuthentication;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class NewSessionTicket;
+}
+namespace System::Collections {
+class IList;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class TlsClientContext;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class TlsAuthentication;
-}
-namespace System::Collections {
-class IDictionary;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
 class TlsSession;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class NewSessionTicket;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
-class TlsPeer;
+class ProtocolVersion;
 }
 namespace System::Collections {
-class IList;
+class IDictionary;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {

@@ -5,23 +5,23 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(MultiplayerConnectedPlayerSpectatingSpot)
-namespace GlobalNamespace {
-class IMultiplayerObservable;
+namespace System {
+template <typename T> class Action_1;
 }
 namespace GlobalNamespace {
 class MultiplayerSpectatingSpotManager;
 }
 namespace GlobalNamespace {
-class IConnectedPlayer;
+class IMultiplayerObservable;
 }
 namespace GlobalNamespace {
-class IMultiplayerSpectatingSpot;
-}
-namespace System {
-template <typename T> class Action_1;
+class IConnectedPlayer;
 }
 namespace UnityEngine {
 class Transform;
+}
+namespace GlobalNamespace {
+class IMultiplayerSpectatingSpot;
 }
 namespace GlobalNamespace {
 class IMultiplayerSessionManager;

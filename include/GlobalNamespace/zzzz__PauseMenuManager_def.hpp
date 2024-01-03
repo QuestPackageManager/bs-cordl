@@ -9,40 +9,40 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(PauseMenuManager)
 namespace GlobalNamespace {
-class PauseAnimationController;
+class EnvironmentSpawnRotation;
 }
 namespace TMPro {
 class TextMeshProUGUI;
 }
-namespace UnityEngine {
-class Transform;
-}
 namespace GlobalNamespace {
-class __PauseMenuManager__InitData;
+class IVRPlatformHelper;
+}
+namespace HMUI {
+class ButtonBinder;
 }
 namespace UnityEngine::UI {
 class Button;
+}
+namespace UnityEngine {
+class Transform;
+}
+namespace System {
+class Action;
 }
 namespace GlobalNamespace {
 class LevelBar;
 }
 namespace GlobalNamespace {
-class EnvironmentSpawnRotation;
+class PauseAnimationController;
 }
 namespace GlobalNamespace {
-class IVRPlatformHelper;
-}
-namespace System {
-class Action;
-}
-namespace HMUI {
-class ButtonBinder;
-}
-namespace GlobalNamespace {
-class IPreviewBeatmapLevel;
+class __PauseMenuManager__InitData;
 }
 namespace GlobalNamespace {
 struct BeatmapDifficulty;
+}
+namespace GlobalNamespace {
+class IPreviewBeatmapLevel;
 }
 namespace GlobalNamespace {
 class BeatmapCharacteristicSO;

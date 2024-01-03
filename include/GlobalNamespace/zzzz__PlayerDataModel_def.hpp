@@ -5,9 +5,6 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(PlayerDataModel)
 namespace GlobalNamespace {
-class PlayerDataFileManagerSO;
-}
-namespace GlobalNamespace {
 class BeatmapCharacteristicCollection;
 }
 namespace GlobalNamespace {
@@ -15,6 +12,9 @@ class PlayerData;
 }
 namespace GlobalNamespace {
 class ISaveData;
+}
+namespace GlobalNamespace {
+class PlayerDataFileManagerSO;
 }
 // Forward declare root types
 namespace GlobalNamespace {

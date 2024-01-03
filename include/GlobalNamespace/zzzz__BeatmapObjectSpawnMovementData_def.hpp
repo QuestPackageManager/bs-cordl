@@ -9,19 +9,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(BeatmapObjectSpawnMovementData)
 namespace GlobalNamespace {
+struct __BeatmapObjectSpawnMovementData__ObstacleSpawnData;
+}
+namespace GlobalNamespace {
 struct __BeatmapObjectSpawnMovementData__NoteSpawnData;
 }
 namespace GlobalNamespace {
 struct __BeatmapObjectSpawnMovementData__NoteJumpValueType;
 }
-namespace GlobalNamespace {
-struct __BeatmapObjectSpawnMovementData__ObstacleSpawnData;
-}
 namespace UnityEngine {
 struct Vector3;
-}
-namespace GlobalNamespace {
-class SliderData;
 }
 namespace UnityEngine {
 struct Vector2;
@@ -30,13 +27,16 @@ namespace GlobalNamespace {
 struct __BeatmapObjectSpawnMovementData__SliderSpawnData;
 }
 namespace GlobalNamespace {
-class ObstacleData;
+class IJumpOffsetYProvider;
+}
+namespace GlobalNamespace {
+class SliderData;
 }
 namespace GlobalNamespace {
 class NoteData;
 }
 namespace GlobalNamespace {
-class IJumpOffsetYProvider;
+class ObstacleData;
 }
 namespace GlobalNamespace {
 struct NoteLineLayer;
@@ -335,7 +335,7 @@ static_assert(offsetof(::GlobalNamespace::__BeatmapObjectSpawnMovementData__Note
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4726))
 // CS Name: ::BeatmapObjectSpawnMovementData*
 class CORDL_TYPE BeatmapObjectSpawnMovementData : public ::System::Object {

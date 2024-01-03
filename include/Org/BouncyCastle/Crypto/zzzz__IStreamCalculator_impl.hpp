@@ -1,7 +1,7 @@
 #pragma once
 #include "Org/BouncyCastle/Crypto/zzzz__IStreamCalculator_def.hpp"
-#include "System/zzzz__Object_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::IStreamCalculator.get_Stream
 template <>
 

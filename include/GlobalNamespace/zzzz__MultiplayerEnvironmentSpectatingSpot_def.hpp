@@ -7,13 +7,7 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(MultiplayerEnvironmentSpectatingSpot)
 namespace GlobalNamespace {
-class MultiplayerSpectatingSpotManager;
-}
-namespace GlobalNamespace {
-class MultiplayerActivePlayersTimeOffsetAverage;
-}
-namespace UnityEngine {
-class Transform;
+class IMultiplayerObservable;
 }
 namespace System {
 template <typename T> class Action_1;
@@ -22,7 +16,13 @@ namespace GlobalNamespace {
 class IMultiplayerSpectatingSpot;
 }
 namespace GlobalNamespace {
-class IMultiplayerObservable;
+class MultiplayerSpectatingSpotManager;
+}
+namespace GlobalNamespace {
+class MultiplayerActivePlayersTimeOffsetAverage;
+}
+namespace UnityEngine {
+class Transform;
 }
 // Forward declare root types
 namespace GlobalNamespace {

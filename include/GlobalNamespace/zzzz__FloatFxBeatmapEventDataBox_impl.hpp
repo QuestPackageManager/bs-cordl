@@ -3,12 +3,12 @@
 #include "GlobalNamespace/zzzz__FloatFxBeatmapEventData_impl.hpp"
 #include "GlobalNamespace/zzzz__FxBeatmapEventDataBox_2_impl.hpp"
 #include "GlobalNamespace/zzzz__FloatFxBeatmapEventDataBox_def.hpp"
+#include "GlobalNamespace/zzzz__IndexFilter_def.hpp"
 #include "GlobalNamespace/zzzz__FloatFxBaseData_def.hpp"
 #include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
-#include "GlobalNamespace/zzzz__IndexFilter_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapEventDataBox_def.hpp"
-#include "GlobalNamespace/zzzz__EaseType_def.hpp"
 #include "GlobalNamespace/zzzz__FloatFxBeatmapEventData_def.hpp"
+#include "GlobalNamespace/zzzz__EaseType_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapEventDataBox_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::FloatFxBeatmapEventDataBox.get_subtypeIdentifier
 template <>
 

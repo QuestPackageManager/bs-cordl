@@ -9,25 +9,25 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Button)
 namespace UnityEngine::EventSystems {
+class PointerEventData;
+}
+namespace UnityEngine::EventSystems {
 class IEventSystemHandler;
 }
 namespace UnityEngine::EventSystems {
 class BaseEventData;
 }
-namespace UnityEngine::UI {
-class __Button__ButtonClickedEvent;
+namespace UnityEngine::EventSystems {
+class IPointerClickHandler;
 }
 namespace System::Collections {
 class IEnumerator;
 }
 namespace UnityEngine::EventSystems {
-class IPointerClickHandler;
-}
-namespace UnityEngine::EventSystems {
-class PointerEventData;
-}
-namespace UnityEngine::EventSystems {
 class ISubmitHandler;
+}
+namespace UnityEngine::UI {
+class __Button__ButtonClickedEvent;
 }
 namespace UnityEngine::UI {
 class __Button___OnFinishSubmit_d__9;
@@ -35,11 +35,11 @@ class __Button___OnFinishSubmit_d__9;
 namespace System {
 class Object;
 }
-namespace System {
-class IDisposable;
-}
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
+}
+namespace System {
+class IDisposable;
 }
 // Forward declare root types
 namespace UnityEngine::UI {

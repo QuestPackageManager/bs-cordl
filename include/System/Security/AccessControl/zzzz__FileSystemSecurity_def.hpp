@@ -10,19 +10,19 @@ namespace System::Security::AccessControl {
 struct PropagationFlags;
 }
 namespace System::Security::AccessControl {
-struct AccessControlType;
-}
-namespace System::Security::AccessControl {
-struct AccessControlSections;
-}
-namespace System::Security::AccessControl {
 class AccessRule;
+}
+namespace System::Security::AccessControl {
+struct AccessControlType;
 }
 namespace System::Security::Principal {
 class IdentityReference;
 }
 namespace System::Security::AccessControl {
 struct InheritanceFlags;
+}
+namespace System::Security::AccessControl {
+struct AccessControlSections;
 }
 // Forward declare root types
 namespace System::Security::AccessControl {

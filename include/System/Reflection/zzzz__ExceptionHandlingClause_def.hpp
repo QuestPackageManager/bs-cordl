@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::System::Reflection::ExceptionHandlingClause);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Reflection {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3467)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3467))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3515))
 // CS Name: ::System.Reflection::ExceptionHandlingClause*
 class CORDL_TYPE ExceptionHandlingClause : public ::System::Object {

@@ -9,22 +9,22 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(FileBrowserTableView)
 namespace HMUI {
-class TableView;
+class __TableView__IDataSource;
+}
+namespace GlobalNamespace {
+class FileBrowserItem;
 }
 namespace System {
 template <typename T1, typename T2> class Action_2;
 }
 namespace HMUI {
-class __TableView__IDataSource;
-}
-namespace HMUI {
-class TableCell;
+class TableView;
 }
 namespace GlobalNamespace {
 class FileBrowserTableCell;
 }
-namespace GlobalNamespace {
-class FileBrowserItem;
+namespace HMUI {
+class TableCell;
 }
 // Forward declare root types
 namespace GlobalNamespace {

@@ -8,10 +8,10 @@ namespace UnityEngine::UIElements {
 class IListDragAndDropArgs;
 }
 namespace UnityEngine::UIElements {
-struct DragVisualMode;
+class ListView;
 }
 namespace UnityEngine::UIElements {
-class ListView;
+struct DragVisualMode;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

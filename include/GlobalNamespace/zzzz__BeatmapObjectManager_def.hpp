@@ -9,82 +9,82 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(BeatmapObjectManager)
 namespace GlobalNamespace {
-class ISliderDidFinishJumpEvent;
-}
-namespace GlobalNamespace {
-class INoteControllerNoteDidFinishJumpEvent;
-}
-namespace GlobalNamespace {
-class INoteControllerNoteDidDissolveEvent;
-}
-namespace GlobalNamespace {
-class ISliderDidDissolveEvent;
-}
-namespace GlobalNamespace {
-class NoteData;
-}
-namespace GlobalNamespace {
-class NoteController;
-}
-namespace GlobalNamespace {
-class IBeatmapObjectController;
-}
-namespace GlobalNamespace {
-struct NoteCutInfo;
-}
-namespace GlobalNamespace {
-class INoteControllerNoteWasMissedEvent;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace GlobalNamespace {
-class SliderData;
-}
-namespace GlobalNamespace {
-struct __BeatmapObjectSpawnMovementData__NoteSpawnData;
-}
-namespace GlobalNamespace {
-class INoteControllerNoteDidStartJumpEvent;
-}
-namespace GlobalNamespace {
-class ObstacleController;
+class IBeatmapObjectSpawner;
 }
 namespace GlobalNamespace {
 class INoteControllerNoteWasCutEvent;
 }
 namespace GlobalNamespace {
-class __BeatmapObjectManager__NoteWasCutDelegate;
-}
-namespace System {
-template <typename T1, typename T2, typename T3> class Action_3;
+class ISliderDidDissolveEvent;
 }
 namespace GlobalNamespace {
-struct __BeatmapObjectSpawnMovementData__ObstacleSpawnData;
+class NoteController;
 }
 namespace GlobalNamespace {
-struct __BeatmapObjectSpawnMovementData__SliderSpawnData;
+struct NoteCutInfo;
 }
 namespace GlobalNamespace {
 class SliderController;
 }
 namespace GlobalNamespace {
-class IBeatmapObjectSpawner;
+struct __BeatmapObjectSpawnMovementData__ObstacleSpawnData;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace System {
+template <typename T1, typename T2, typename T3> class Action_3;
 }
 namespace System {
 template <typename T> class Action_1;
 }
 namespace GlobalNamespace {
+struct __BeatmapObjectSpawnMovementData__NoteSpawnData;
+}
+namespace GlobalNamespace {
+struct __BeatmapObjectSpawnMovementData__SliderSpawnData;
+}
+namespace GlobalNamespace {
+class INoteControllerNoteDidDissolveEvent;
+}
+namespace GlobalNamespace {
+class INoteControllerNoteDidFinishJumpEvent;
+}
+namespace GlobalNamespace {
+class ISliderDidFinishJumpEvent;
+}
+namespace GlobalNamespace {
+class __BeatmapObjectManager__NoteWasCutDelegate;
+}
+namespace GlobalNamespace {
+class INoteControllerNoteWasMissedEvent;
+}
+namespace GlobalNamespace {
+class NoteData;
+}
+namespace GlobalNamespace {
 class ObstacleData;
 }
-namespace System {
-class AsyncCallback;
+namespace GlobalNamespace {
+class ObstacleController;
+}
+namespace GlobalNamespace {
+class INoteControllerNoteDidStartJumpEvent;
+}
+namespace GlobalNamespace {
+class SliderData;
+}
+namespace GlobalNamespace {
+class IBeatmapObjectController;
 }
 namespace System {
 class IAsyncResult;
 }
 namespace System {
 class Object;
+}
+namespace System {
+class AsyncCallback;
 }
 // Forward declare root types
 namespace GlobalNamespace {

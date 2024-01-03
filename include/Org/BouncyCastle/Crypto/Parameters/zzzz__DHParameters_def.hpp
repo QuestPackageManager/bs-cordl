@@ -8,14 +8,14 @@ CORDL_MODULE_EXPORT(DHParameters)
 namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;
 }
-namespace System {
-class Object;
-}
 namespace Org::BouncyCastle::Math {
 class BigInteger;
 }
 namespace Org::BouncyCastle::Crypto::Parameters {
 class DHValidationParameters;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Parameters {

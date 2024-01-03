@@ -7,26 +7,26 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(BeatmapCharacteristicsTableView)
-namespace HMUI {
-class TableCell;
-}
-namespace GlobalNamespace {
-class BeatmapCharacteristicCollection;
-}
-namespace GlobalNamespace {
-class BeatmapCharacteristicTableCell;
-}
-namespace GlobalNamespace {
-class BeatmapCharacteristicSO;
-}
-namespace HMUI {
-class __TableView__IDataSource;
+namespace System {
+template <typename T> class Action_1;
 }
 namespace HMUI {
 class TableView;
 }
-namespace System {
-template <typename T> class Action_1;
+namespace GlobalNamespace {
+class BeatmapCharacteristicSO;
+}
+namespace GlobalNamespace {
+class BeatmapCharacteristicCollection;
+}
+namespace HMUI {
+class TableCell;
+}
+namespace HMUI {
+class __TableView__IDataSource;
+}
+namespace GlobalNamespace {
+class BeatmapCharacteristicTableCell;
 }
 // Forward declare root types
 namespace GlobalNamespace {

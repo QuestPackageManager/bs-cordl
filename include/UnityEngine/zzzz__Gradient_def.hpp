@@ -9,6 +9,9 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(Gradient)
+namespace System {
+template <typename T> class IEquatable_1;
+}
 namespace UnityEngine {
 struct GradientMode;
 }
@@ -16,16 +19,13 @@ namespace UnityEngine {
 struct GradientColorKey;
 }
 namespace UnityEngine {
+struct GradientAlphaKey;
+}
+namespace UnityEngine {
 struct Color;
 }
 namespace System {
 class Object;
-}
-namespace UnityEngine {
-struct GradientAlphaKey;
-}
-namespace System {
-template <typename T> class IEquatable_1;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -37,7 +37,7 @@ MARK_REF_PTR_T(::UnityEngine::Gradient);
 // SizeInfo { instance_size: 24, native_size: 8, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2603))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10257))
 // CS Name: ::UnityEngine::Gradient*
 class CORDL_TYPE Gradient : public ::System::Object {

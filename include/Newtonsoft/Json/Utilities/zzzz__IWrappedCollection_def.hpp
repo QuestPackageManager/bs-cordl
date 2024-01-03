@@ -4,10 +4,10 @@
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IWrappedCollection)
 namespace System::Collections {
-class IList;
+class ICollection;
 }
 namespace System::Collections {
-class ICollection;
+class IList;
 }
 namespace System::Collections {
 class IEnumerable;

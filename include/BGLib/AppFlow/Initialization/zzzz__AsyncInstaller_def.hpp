@@ -4,17 +4,17 @@
 CORDL_MODULE_INIT
 #include "Zenject/zzzz__MonoInstaller_def.hpp"
 CORDL_MODULE_EXPORT(AsyncInstaller)
-namespace System::Threading::Tasks {
-class Task;
-}
 namespace BGLib::AppFlow::Initialization {
 class __AsyncInstaller__IInstallerRegistry;
 }
-namespace Zenject {
-class MonoInstaller;
+namespace System::Threading::Tasks {
+class Task;
 }
 namespace Zenject {
 class ScriptableObjectInstaller;
+}
+namespace Zenject {
+class MonoInstaller;
 }
 // Forward declare root types
 namespace BGLib::AppFlow::Initialization {

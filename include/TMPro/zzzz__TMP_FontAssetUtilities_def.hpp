@@ -6,29 +6,29 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(TMP_FontAssetUtilities)
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
 namespace TMPro {
-class TMP_SpriteAsset;
-}
-namespace TMPro {
-class TMP_Character;
-}
-namespace TMPro {
-struct FontStyles;
+class TMP_FontAsset;
 }
 namespace System::Collections::Generic {
 template <typename T> class HashSet_1;
 }
 namespace TMPro {
-class TMP_SpriteCharacter;
+struct FontStyles;
 }
 namespace TMPro {
 struct FontWeight;
 }
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
 namespace TMPro {
-class TMP_FontAsset;
+class TMP_Character;
+}
+namespace TMPro {
+class TMP_SpriteAsset;
+}
+namespace TMPro {
+class TMP_SpriteCharacter;
 }
 // Forward declare root types
 namespace TMPro {

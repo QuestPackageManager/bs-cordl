@@ -11,11 +11,11 @@ template <typename T> class LinkedList_1;
 namespace GlobalNamespace {
 template <typename T> class ISortedListItemProcessor_1;
 }
-namespace System::Collections::Generic {
-template <typename T> class LinkedListNode_1;
-}
 namespace GlobalNamespace {
 template <typename T> class ISortedList_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class LinkedListNode_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {

@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(Debug)
+namespace System {
+class Object;
+}
 namespace BGNet::Logging {
 class __Debug__ILogger;
 }
 namespace BGNet::Logging {
 class __Debug__LoggerLinkedList;
-}
-namespace System {
-class Object;
 }
 namespace System {
 class Exception;

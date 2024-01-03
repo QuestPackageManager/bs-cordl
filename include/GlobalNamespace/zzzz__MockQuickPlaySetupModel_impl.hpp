@@ -1,10 +1,10 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__MockQuickPlaySetupModel_def.hpp"
-#include "GlobalNamespace/zzzz__IQuickPlaySetupModel_def.hpp"
-#include "GlobalNamespace/zzzz__QuickPlaySetupData_def.hpp"
-#include "System/Threading/zzzz__CancellationToken_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
+#include "GlobalNamespace/zzzz__IQuickPlaySetupModel_def.hpp"
+#include "System/Threading/zzzz__CancellationToken_def.hpp"
+#include "GlobalNamespace/zzzz__QuickPlaySetupData_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::MockQuickPlaySetupModel.GetQuickPlaySetupAsync
 template <>
 

@@ -5,17 +5,17 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Attribute_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ExtenderProvidedPropertyAttribute)
-namespace System {
-class Type;
+namespace System::ComponentModel {
+class PropertyDescriptor;
 }
 namespace System::ComponentModel {
 class IExtenderProvider;
 }
-namespace System::ComponentModel {
-class PropertyDescriptor;
-}
 namespace System {
 class Object;
+}
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace System::ComponentModel {

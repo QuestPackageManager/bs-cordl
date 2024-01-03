@@ -2,8 +2,8 @@
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/AI/zzzz__NavMeshPath_def.hpp"
-#include "UnityEngine/AI/zzzz__NavMeshPathStatus_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "UnityEngine/AI/zzzz__NavMeshPathStatus_def.hpp"
 //  Writing Method size for method: ::UnityEngine::AI::NavMeshPath._ctor
 template <>
 

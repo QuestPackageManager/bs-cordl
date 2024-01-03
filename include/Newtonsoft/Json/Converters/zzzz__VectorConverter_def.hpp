@@ -11,14 +11,8 @@ class JsonWriter;
 namespace System {
 template <typename T> struct Nullable_1;
 }
-namespace UnityEngine {
-struct Vector4;
-}
-namespace System {
-class Object;
-}
-namespace System {
-class Type;
+namespace Newtonsoft::Json {
+class JsonReader;
 }
 namespace Newtonsoft::Json {
 class JsonSerializer;
@@ -26,11 +20,17 @@ class JsonSerializer;
 namespace UnityEngine {
 struct Vector3;
 }
+namespace System {
+class Type;
+}
+namespace System {
+class Object;
+}
 namespace UnityEngine {
 struct Vector2;
 }
-namespace Newtonsoft::Json {
-class JsonReader;
+namespace UnityEngine {
+struct Vector4;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Converters {

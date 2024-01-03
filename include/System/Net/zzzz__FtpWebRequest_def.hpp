@@ -13,61 +13,67 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(FtpWebRequest)
 namespace System::Net {
-class __TimerThread__Queue;
-}
-namespace System::Net {
-class FtpWebResponse;
+class FtpControlStream;
 }
 namespace System::Net {
 class ContextAwareResult;
 }
 namespace System::Net {
-class FtpMethodInfo;
-}
-namespace System::IO {
-class Stream;
-}
-namespace System::Net {
-class WebHeaderCollection;
-}
-namespace System::Net {
-class LazyAsyncResult;
-}
-namespace System {
-class Object;
-}
-namespace System::Security::Cryptography::X509Certificates {
-class X509CertificateCollection;
-}
-namespace System::Net {
-class NetworkCredential;
+class FtpWebResponse;
 }
 namespace System::Net {
 class __FtpWebRequest____c;
-}
-namespace System::Net {
-class ICredentials;
-}
-namespace System::Net::Cache {
-class RequestCachePolicy;
-}
-namespace System {
-class Uri;
-}
-namespace System {
-class AsyncCallback;
-}
-namespace System::Net {
-struct __FtpWebRequest__RequestStage;
-}
-namespace System::Net {
-class IWebProxy;
 }
 namespace System {
 class IAsyncResult;
 }
 namespace System::Net {
+struct CloseExState;
+}
+namespace System::Net {
+class ICredentials;
+}
+namespace System {
+class Uri;
+}
+namespace System::Net {
+class WebHeaderCollection;
+}
+namespace System::Net {
+class FtpMethodInfo;
+}
+namespace System {
+class Exception;
+}
+namespace System::Net {
+class __TimerThread__Queue;
+}
+namespace System::Net {
+struct __FtpWebRequest__RequestStage;
+}
+namespace System::Net {
+class NetworkCredential;
+}
+namespace System::Net::Cache {
+class RequestCachePolicy;
+}
+namespace System::Net {
+struct __FtpWebRequest___CreateConnectionAsync_d__86;
+}
+namespace System {
+class Object;
+}
+namespace System::Net {
 class __TimerThread__Callback;
+}
+namespace System::Net {
+class LazyAsyncResult;
+}
+namespace System::Net {
+class IWebProxy;
+}
+namespace System {
+class AsyncCallback;
 }
 namespace System::Net {
 class WebResponse;
@@ -75,26 +81,20 @@ class WebResponse;
 namespace System::Net {
 class __TimerThread__Timer;
 }
-namespace System::Net {
-struct __FtpWebRequest___CreateConnectionAsync_d__86;
+namespace System::IO {
+class Stream;
 }
-namespace System {
-class Exception;
-}
-namespace System::Net {
-class FtpControlStream;
-}
-namespace System::Net {
-struct CloseExState;
+namespace System::Security::Cryptography::X509Certificates {
+class X509CertificateCollection;
 }
 namespace System {
 template <typename TResult> class Func_1;
 }
-namespace System::Runtime::CompilerServices {
-class IAsyncStateMachine;
-}
 namespace System::Net::Sockets {
 class TcpClient;
+}
+namespace System::Runtime::CompilerServices {
+class IAsyncStateMachine;
 }
 namespace System::Runtime::CompilerServices {
 struct __ConfiguredTaskAwaitable__ConfiguredTaskAwaiter;

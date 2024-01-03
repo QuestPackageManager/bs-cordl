@@ -7,35 +7,35 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(MultiplayerLevelLoader)
-namespace Zenject {
-class ITickable;
+namespace System {
+class Action;
 }
 namespace System::Threading::Tasks {
 template <typename TResult> class Task_1;
 }
 namespace GlobalNamespace {
-class IDifficultyBeatmap;
+class IMultiplayerSessionManager;
+}
+namespace GlobalNamespace {
+struct __MultiplayerLevelLoader__MultiplayerBeatmapLoaderState;
 }
 namespace System::Threading {
 class CancellationTokenSource;
 }
 namespace GlobalNamespace {
-struct __MultiplayerLevelLoader__MultiplayerBeatmapLoaderState;
+struct __BeatmapLevelsModel__GetBeatmapLevelResult;
 }
-namespace System {
-class Action;
-}
-namespace GlobalNamespace {
-class IMultiplayerSessionManager;
+namespace Zenject {
+class ITickable;
 }
 namespace GlobalNamespace {
 class ILevelGameplaySetupData;
 }
+namespace GlobalNamespace {
+class IDifficultyBeatmap;
+}
 namespace System {
 template <typename T1, typename T2> class Action_2;
-}
-namespace GlobalNamespace {
-struct __BeatmapLevelsModel__GetBeatmapLevelResult;
 }
 namespace GlobalNamespace {
 class BeatmapLevelsModel;
@@ -108,7 +108,7 @@ static_assert(offsetof(::GlobalNamespace::__MultiplayerLevelLoader__MultiplayerB
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 97, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5580)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(5580))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5581))
 // CS Name: ::MultiplayerLevelLoader*
 class CORDL_TYPE MultiplayerLevelLoader : public ::System::Object {

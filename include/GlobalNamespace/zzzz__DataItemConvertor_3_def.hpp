@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__DataItemConvertor_1_def.hpp"
 CORDL_MODULE_EXPORT(DataItemConvertor_3)
 namespace System {
-class Type;
+class Object;
 }
 namespace System {
-class Object;
+class Type;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -22,7 +22,7 @@ namespace GlobalNamespace {
 // cpp template
 template <typename TBase, typename TIn, typename TOut>
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(4291), inst: 1151 }), TypeDefinitionIndex(TypeDefinitionIndex(4291))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4291)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(4291), inst: 1151 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4292))
 // CS Name: ::DataItemConvertor`3<TBase,TIn,TOut>*
 class CORDL_TYPE DataItemConvertor_3 : public ::GlobalNamespace::DataItemConvertor_1<TBase> {

@@ -3,8 +3,8 @@
 #include "UnityEngine/UI/zzzz__Text_impl.hpp"
 #include "Polyglot/zzzz__LocalizedText_def.hpp"
 #include "UnityEngine/zzzz__TextAnchor_def.hpp"
-#include "Polyglot/zzzz__LanguageDirection_def.hpp"
 #include "UnityEngine/UI/zzzz__Text_def.hpp"
+#include "Polyglot/zzzz__LanguageDirection_def.hpp"
 //  Writing Method size for method: ::Polyglot::LocalizedText.SetText
 template <>
 

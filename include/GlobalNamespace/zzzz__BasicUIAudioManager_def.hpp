@@ -9,14 +9,14 @@ CORDL_MODULE_EXPORT(BasicUIAudioManager)
 namespace UnityEngine {
 class AudioSource;
 }
-namespace UnityEngine {
-class AudioClip;
+namespace GlobalNamespace {
+template <typename T> class RandomObjectPicker_1;
 }
 namespace GlobalNamespace {
 class Signal;
 }
-namespace GlobalNamespace {
-template <typename T> class RandomObjectPicker_1;
+namespace UnityEngine {
+class AudioClip;
 }
 // Forward declare root types
 namespace GlobalNamespace {

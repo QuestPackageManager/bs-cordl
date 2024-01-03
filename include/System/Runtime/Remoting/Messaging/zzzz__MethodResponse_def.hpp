@@ -11,34 +11,10 @@ namespace System {
 class Type;
 }
 namespace System::Runtime::Remoting::Messaging {
-class IMethodCallMessage;
-}
-namespace System::Runtime::Remoting {
-class Identity;
-}
-namespace System::Collections {
-class IDictionary;
-}
-namespace System::Runtime::Remoting::Messaging {
-class IMessage;
-}
-namespace System::Runtime::Remoting::Messaging {
-class ArgInfo;
-}
-namespace System::Runtime::Remoting::Messaging {
-class IMethodMessage;
-}
-namespace System::Runtime::Serialization {
-struct StreamingContext;
+class CADMethodReturnMessage;
 }
 namespace System::Runtime::Serialization {
 class ISerializable;
-}
-namespace System {
-class Exception;
-}
-namespace System::Runtime::Remoting::Messaging {
-class IInternalMessage;
 }
 namespace System::Reflection {
 class MethodBase;
@@ -47,16 +23,40 @@ namespace System {
 class Object;
 }
 namespace System::Runtime::Remoting::Messaging {
-class LogicalCallContext;
+class IInternalMessage;
 }
-namespace System::Runtime::Serialization {
-class SerializationInfo;
+namespace System::Runtime::Remoting::Messaging {
+class IMethodMessage;
+}
+namespace System::Collections {
+class IDictionary;
 }
 namespace System::Runtime::Remoting::Messaging {
 class IMethodReturnMessage;
 }
 namespace System::Runtime::Remoting::Messaging {
-class CADMethodReturnMessage;
+class IMessage;
+}
+namespace System::Runtime::Remoting::Messaging {
+class ArgInfo;
+}
+namespace System::Runtime::Serialization {
+class SerializationInfo;
+}
+namespace System {
+class Exception;
+}
+namespace System::Runtime::Remoting::Messaging {
+class IMethodCallMessage;
+}
+namespace System::Runtime::Remoting::Messaging {
+class LogicalCallContext;
+}
+namespace System::Runtime::Serialization {
+struct StreamingContext;
+}
+namespace System::Runtime::Remoting {
+class Identity;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting::Messaging {

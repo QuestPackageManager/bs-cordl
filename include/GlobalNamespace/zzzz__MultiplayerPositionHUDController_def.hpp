@@ -7,22 +7,22 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(MultiplayerPositionHUDController)
 namespace GlobalNamespace {
-class MultiplayerPlayersManager;
+class __CoreGameHUDController__InitData;
 }
 namespace GlobalNamespace {
-class __CoreGameHUDController__InitData;
+class MultiplayerScoreProvider;
+}
+namespace UnityEngine {
+class GameObject;
+}
+namespace GlobalNamespace {
+class MultiplayerPlayersManager;
 }
 namespace TMPro {
 class TextMeshProUGUI;
 }
 namespace UnityEngine {
 class CanvasGroup;
-}
-namespace UnityEngine {
-class GameObject;
-}
-namespace GlobalNamespace {
-class MultiplayerScoreProvider;
 }
 // Forward declare root types
 namespace GlobalNamespace {

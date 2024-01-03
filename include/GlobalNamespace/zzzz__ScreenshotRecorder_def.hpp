@@ -12,14 +12,14 @@ CORDL_MODULE_EXPORT(ScreenshotRecorder)
 namespace UnityEngine {
 class Camera;
 }
-namespace GlobalNamespace {
-struct __ScreenshotRecorder__RecordingType;
+namespace UnityEngine {
+class RenderTexture;
 }
 namespace UnityEngine {
 class Texture2D;
 }
-namespace UnityEngine {
-class RenderTexture;
+namespace GlobalNamespace {
+struct __ScreenshotRecorder__RecordingType;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -101,7 +101,7 @@ static_assert(offsetof(::GlobalNamespace::__ScreenshotRecorder__RecordingType, v
 // SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 120, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(14379))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14379)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14380))
 // CS Name: ::ScreenshotRecorder*
 class CORDL_TYPE ScreenshotRecorder : public ::UnityEngine::MonoBehaviour {

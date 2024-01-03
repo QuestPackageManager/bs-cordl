@@ -13,38 +13,29 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(TextMeshProUGUI)
-namespace TMPro {
-class __TextMeshProUGUI___DelayedGraphicRebuild_d__18;
-}
-namespace UnityEngine {
-class Coroutine;
-}
-namespace UnityEngine {
-struct Vector4;
-}
-namespace System::Collections {
-class IEnumerator;
-}
-namespace TMPro {
-class TMP_SubMeshUI;
-}
-namespace UnityEngine {
-class Material;
-}
 namespace UnityEngine::UI {
-class ILayoutElement;
+struct CanvasUpdate;
 }
 namespace UnityEngine {
-struct Vector3;
+class Mesh;
 }
 namespace TMPro {
-struct __TMP_Text__UnicodeChar;
+class __TextMeshProUGUI___DelayedMaterialRebuild_d__19;
+}
+namespace UnityEngine {
+struct Bounds;
 }
 namespace UnityEngine {
 struct Rect;
 }
-namespace UnityEngine::UI {
-struct CanvasUpdate;
+namespace System {
+template <typename T> class Action_1;
+}
+namespace TMPro {
+struct TMP_VertexDataUpdateFlags;
+}
+namespace TMPro {
+struct __TMP_Text__UnicodeChar;
 }
 namespace UnityEngine {
 struct Color;
@@ -53,28 +44,37 @@ namespace UnityEngine {
 struct Color32;
 }
 namespace UnityEngine {
-struct Bounds;
+class CanvasRenderer;
 }
-namespace System {
-template <typename T> class Action_1;
+namespace System::Collections {
+class IEnumerator;
 }
-namespace TMPro {
-class __TextMeshProUGUI___DelayedMaterialRebuild_d__19;
+namespace UnityEngine {
+class Material;
+}
+namespace UnityEngine::UI {
+class ILayoutElement;
 }
 namespace UnityEngine {
 class Canvas;
 }
 namespace UnityEngine {
-class Mesh;
+struct Vector3;
+}
+namespace UnityEngine {
+struct Vector4;
+}
+namespace UnityEngine {
+class Coroutine;
 }
 namespace TMPro {
 class TMP_TextInfo;
 }
-namespace UnityEngine {
-class CanvasRenderer;
+namespace TMPro {
+class __TextMeshProUGUI___DelayedGraphicRebuild_d__18;
 }
 namespace TMPro {
-struct TMP_VertexDataUpdateFlags;
+class TMP_SubMeshUI;
 }
 namespace System {
 class Object;
@@ -313,8 +313,8 @@ static_assert(offsetof(::TMPro::__TextMeshProUGUI___DelayedMaterialRebuild_d__19
 // SizeInfo { instance_size: 1944, native_size: -1, calculated_instance_size: 1944, calculated_native_size: 1941, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9966)), TypeDefinitionIndex(TypeDefinitionIndex(12446)), TypeDefinitionIndex(TypeDefinitionIndex(10246)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10165)), TypeDefinitionIndex(TypeDefinitionIndex(10245))} Self: TypeDefinitionIndex(TypeDefinitionIndex(12310)) CS Name: ::TMPro::TextMeshProUGUI*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10245)), TypeDefinitionIndex(TypeDefinitionIndex(9966)), TypeDefinitionIndex(TypeDefinitionIndex(12446)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10246)), TypeDefinitionIndex(TypeDefinitionIndex(10165))} Self: TypeDefinitionIndex(TypeDefinitionIndex(12310)) CS Name: ::TMPro::TextMeshProUGUI*
 class CORDL_TYPE TextMeshProUGUI : public ::TMPro::TMP_Text {
 public:
   // Declarations

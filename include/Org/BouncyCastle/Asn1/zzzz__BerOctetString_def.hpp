@@ -8,28 +8,28 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(BerOctetString)
 namespace Org::BouncyCastle::Asn1 {
-class __BerOctetString__ChunkEnumerator;
+class DerOutputStream;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Sequence;
 }
 namespace System::Collections {
 class IEnumerable;
 }
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
+namespace System::Collections {
+class IEnumerator;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1OctetString;
 }
 namespace Org::BouncyCastle::Asn1 {
-class DerOutputStream;
-}
-namespace System::Collections {
-class IEnumerator;
-}
-namespace System {
-class Object;
+class __BerOctetString__ChunkEnumerator;
 }
 namespace Org::BouncyCastle::Asn1 {
 class DerOctetString;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1 {

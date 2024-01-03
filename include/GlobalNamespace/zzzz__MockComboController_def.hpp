@@ -8,11 +8,11 @@ CORDL_MODULE_EXPORT(MockComboController)
 namespace System {
 class Action;
 }
-namespace GlobalNamespace {
-class IComboController;
-}
 namespace System {
 template <typename T> class Action_1;
+}
+namespace GlobalNamespace {
+class IComboController;
 }
 // Forward declare root types
 namespace GlobalNamespace {

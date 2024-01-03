@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(VRControllerTransformOffset)
 namespace UnityEngine {
-struct Pose;
+struct Vector3;
 }
 namespace UnityEngine {
-struct Vector3;
+struct Pose;
 }
 // Forward declare root types
 namespace GlobalNamespace {

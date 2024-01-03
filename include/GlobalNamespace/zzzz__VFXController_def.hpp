@@ -9,25 +9,25 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(VFXController)
 namespace UnityEngine {
-class Animation;
+class ParticleSystem;
 }
 namespace GlobalNamespace {
 class __VFXController___MainCoroutine_d__9;
 }
-namespace UnityEngine {
-class ParticleSystem;
-}
 namespace System::Collections {
 class IEnumerator;
+}
+namespace UnityEngine {
+class Animation;
 }
 namespace System {
 class Object;
 }
-namespace System {
-class IDisposable;
-}
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
+}
+namespace System {
+class IDisposable;
 }
 // Forward declare root types
 namespace GlobalNamespace {

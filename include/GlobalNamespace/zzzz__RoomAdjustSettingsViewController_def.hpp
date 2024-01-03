@@ -5,8 +5,11 @@ CORDL_MODULE_INIT
 #include "HMUI/zzzz__ViewController_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(RoomAdjustSettingsViewController)
-namespace UnityEngine {
-struct Vector3;
+namespace GlobalNamespace {
+class Vector3SO;
+}
+namespace GlobalNamespace {
+class StepValuePicker;
 }
 namespace GlobalNamespace {
 class FloatSO;
@@ -14,11 +17,8 @@ class FloatSO;
 namespace UnityEngine::UI {
 class Button;
 }
-namespace GlobalNamespace {
-class StepValuePicker;
-}
-namespace GlobalNamespace {
-class Vector3SO;
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace GlobalNamespace {

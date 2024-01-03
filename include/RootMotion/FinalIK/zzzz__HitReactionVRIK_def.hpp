@@ -22,28 +22,28 @@ namespace UnityEngine {
 struct Quaternion;
 }
 namespace UnityEngine {
-class AnimationCurve;
+class Collider;
 }
 namespace RootMotion::FinalIK {
 class __HitReactionVRIK__PositionOffset;
 }
 namespace RootMotion::FinalIK {
+class __HitReactionVRIK__RotationOffset;
+}
+namespace RootMotion::FinalIK {
 class __HitReactionVRIK__Offset;
 }
 namespace UnityEngine {
-class Collider;
-}
-namespace RootMotion::FinalIK {
-class __HitReactionVRIK__RotationOffset;
+class AnimationCurve;
 }
 namespace GlobalNamespace {
 class __HitReactionVRIK__PositionOffset__PositionOffsetLink;
 }
-namespace GlobalNamespace {
-class __HitReactionVRIK__RotationOffset__RotationOffsetLink;
-}
 namespace UnityEngine {
 class Rigidbody;
+}
+namespace GlobalNamespace {
+class __HitReactionVRIK__RotationOffset__RotationOffsetLink;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -297,7 +297,7 @@ static_assert(offsetof(::RootMotion::FinalIK::__HitReactionVRIK__Offset, ___last
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12590)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12590)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12645))
 // CS Name: ::HitReactionVRIK::PositionOffset::PositionOffsetLink*
 class CORDL_TYPE __HitReactionVRIK__PositionOffset__PositionOffsetLink : public ::System::Object {

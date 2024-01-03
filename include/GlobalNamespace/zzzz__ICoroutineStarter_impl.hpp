@@ -1,7 +1,7 @@
 #pragma once
 #include "GlobalNamespace/zzzz__ICoroutineStarter_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "UnityEngine/zzzz__Coroutine_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::ICoroutineStarter.StartCoroutine
 template <>
 

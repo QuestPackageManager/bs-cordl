@@ -5,25 +5,25 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(DeeplinkManagerToDestinationRequestManagerAdapter)
 namespace GlobalNamespace {
-class MenuDestination;
+class IDestinationRequestManager;
 }
 namespace GlobalNamespace {
 class BeatmapCharacteristicCollection;
-}
-namespace GlobalNamespace {
-class Deeplink;
-}
-namespace GlobalNamespace {
-class IDeeplinkManager;
 }
 namespace System {
 template <typename T> class Action_1;
 }
 namespace GlobalNamespace {
+class Deeplink;
+}
+namespace GlobalNamespace {
+class MenuDestination;
+}
+namespace GlobalNamespace {
 class BeatmapLevelsModel;
 }
 namespace GlobalNamespace {
-class IDestinationRequestManager;
+class IDeeplinkManager;
 }
 // Forward declare root types
 namespace GlobalNamespace {

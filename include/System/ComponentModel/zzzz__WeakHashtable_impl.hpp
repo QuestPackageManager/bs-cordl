@@ -2,8 +2,8 @@
 #include "System/Collections/zzzz__Hashtable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/ComponentModel/zzzz__WeakHashtable_def.hpp"
-#include "System/zzzz__Object_def.hpp"
 #include "System/ComponentModel/zzzz__WeakHashtable_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 #include "System/Collections/zzzz__IEqualityComparer_def.hpp"
 //  Writing Method size for method: ::System::ComponentModel::__WeakHashtable__WeakKeyComparer.System_Collections_IEqualityComparer_Equals
 template <>

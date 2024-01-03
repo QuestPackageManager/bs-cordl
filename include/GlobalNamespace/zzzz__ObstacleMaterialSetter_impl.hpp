@@ -1,10 +1,10 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__ObstacleMaterialSetter_def.hpp"
-#include "GlobalNamespace/zzzz__ObstaclesQuality_def.hpp"
-#include "UnityEngine/zzzz__Material_def.hpp"
 #include "GlobalNamespace/zzzz__ObstaclesQualitySO_def.hpp"
+#include "UnityEngine/zzzz__Material_def.hpp"
 #include "UnityEngine/zzzz__Renderer_def.hpp"
+#include "GlobalNamespace/zzzz__ObstaclesQuality_def.hpp"
 #include "GlobalNamespace/zzzz__BoolSO_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::ObstacleMaterialSetter.Awake
 template <>

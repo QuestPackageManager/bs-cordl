@@ -8,14 +8,14 @@ CORDL_MODULE_EXPORT(IetfUtilities)
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Encodable;
 }
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
-}
 namespace Org::BouncyCastle::Asn1::X500 {
 class AttributeTypeAndValue;
 }
 namespace Org::BouncyCastle::Asn1::X500 {
 class Rdn;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::X500::Style {

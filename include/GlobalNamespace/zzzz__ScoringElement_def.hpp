@@ -7,17 +7,17 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(ScoringElement)
+namespace GlobalNamespace {
+template <typename T> class __ScoringElement__Pool_1;
+}
 namespace System {
 template <typename T> class IComparable_1;
 }
 namespace GlobalNamespace {
-template <typename T> class __ScoringElement__Pool_1;
+class NoteData;
 }
 namespace GlobalNamespace {
 struct __ScoreMultiplierCounter__MultiplierEventType;
-}
-namespace GlobalNamespace {
-class NoteData;
 }
 // Forward declare root types
 namespace GlobalNamespace {

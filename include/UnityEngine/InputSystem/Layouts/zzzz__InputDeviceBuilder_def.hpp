@@ -3,20 +3,15 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "UnityEngine/InputSystem/Layouts/zzzz__InputControlLayout_def.hpp"
+#include "UnityEngine/InputSystem/Layouts/zzzz__InputDeviceDescription_def.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(InputDeviceBuilder)
-namespace System {
-class IDisposable;
-}
-namespace UnityEngine::InputSystem::Layouts {
-struct __InputDeviceBuilder__RefInstance;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace UnityEngine::InputSystem {
+class InputControl;
 }
 namespace UnityEngine::InputSystem::Layouts {
 struct __InputControlLayout__CacheRefInstance;
@@ -24,17 +19,8 @@ struct __InputControlLayout__CacheRefInstance;
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
-namespace UnityEngine::InputSystem::Utilities {
-struct InternedString;
-}
-namespace System::Text {
-class StringBuilder;
-}
-namespace UnityEngine::InputSystem {
-class InputDevice;
-}
-namespace UnityEngine::InputSystem {
-class InputControl;
+namespace UnityEngine::InputSystem::Layouts {
+struct __InputDeviceBuilder__RefInstance;
 }
 namespace UnityEngine::InputSystem::Layouts {
 class InputControlLayout;
@@ -42,8 +28,20 @@ class InputControlLayout;
 namespace UnityEngine::InputSystem::Layouts {
 struct __InputControlLayout__ControlItem;
 }
-namespace UnityEngine::InputSystem::Layouts {
-struct InputDeviceDescription;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace System {
+class IDisposable;
+}
+namespace System::Text {
+class StringBuilder;
+}
+namespace UnityEngine::InputSystem::Utilities {
+struct InternedString;
+}
+namespace UnityEngine::InputSystem {
+class InputDevice;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::Layouts {
@@ -93,7 +91,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Layout
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Layouts {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6620)), TypeDefinitionIndex(TypeDefinitionIndex(6613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6618))
 // CS Name: ::UnityEngine.InputSystem.Layouts::InputDeviceBuilder
 struct CORDL_TYPE InputDeviceBuilder {

@@ -5,20 +5,20 @@ CORDL_MODULE_INIT
 #include "System/Runtime/Remoting/zzzz__ServerIdentity_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(SingletonIdentity)
-namespace System::Runtime::Remoting::Contexts {
-class Context;
-}
 namespace System {
 class Type;
-}
-namespace System {
-class MarshalByRefObject;
 }
 namespace System::Runtime::Remoting::Messaging {
 class IMessageCtrl;
 }
 namespace System::Runtime::Remoting::Messaging {
 class IMessage;
+}
+namespace System {
+class MarshalByRefObject;
+}
+namespace System::Runtime::Remoting::Contexts {
+class Context;
 }
 namespace System::Runtime::Remoting::Messaging {
 class IMessageSink;

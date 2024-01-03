@@ -5,8 +5,8 @@ CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(BeatmapLevelCollectionSO)
-namespace System::Collections::Generic {
-template <typename T> class IReadOnlyList_1;
+namespace GlobalNamespace {
+class IBeatmapLevelCollection;
 }
 namespace GlobalNamespace {
 class IPreviewBeatmapLevel;
@@ -14,8 +14,8 @@ class IPreviewBeatmapLevel;
 namespace GlobalNamespace {
 class BeatmapLevelSO;
 }
-namespace GlobalNamespace {
-class IBeatmapLevelCollection;
+namespace System::Collections::Generic {
+template <typename T> class IReadOnlyList_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {

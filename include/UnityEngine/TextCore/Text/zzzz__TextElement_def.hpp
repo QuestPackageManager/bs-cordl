@@ -8,13 +8,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(TextElement)
 namespace UnityEngine::TextCore::Text {
-class TextAsset;
-}
-namespace UnityEngine::TextCore::Text {
 struct TextElementType;
 }
 namespace UnityEngine::TextCore {
 class Glyph;
+}
+namespace UnityEngine::TextCore::Text {
+class TextAsset;
 }
 // Forward declare root types
 namespace UnityEngine::TextCore::Text {

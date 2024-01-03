@@ -9,25 +9,25 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(UnicodeEncoding)
 namespace System {
-template <typename T> struct ReadOnlySpan_1;
-}
-namespace System::Text {
-class __UnicodeEncoding__Decoder;
-}
-namespace System::Text {
-class EncoderNLS;
-}
-namespace System::Text {
-class Encoder;
+class Object;
 }
 namespace System {
-class Object;
+template <typename T> struct ReadOnlySpan_1;
 }
 namespace System::Text {
 class DecoderNLS;
 }
 namespace System::Text {
+class Encoder;
+}
+namespace System::Text {
 class Decoder;
+}
+namespace System::Text {
+class EncoderNLS;
+}
+namespace System::Text {
+class __UnicodeEncoding__Decoder;
 }
 // Forward declare root types
 namespace System::Text {

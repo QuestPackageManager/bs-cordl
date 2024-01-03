@@ -9,46 +9,46 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(MissionMapAnimationController)
 namespace GlobalNamespace {
-class MenuShockwave;
-}
-namespace System {
-class Action;
-}
-namespace HMUI {
-class ScrollView;
+class __MissionMapAnimationController___UpdateNodesAndConnectionCoroutine_d__15;
 }
 namespace GlobalNamespace {
 class __MissionMapAnimationController___UpdateStageCoroutine_d__14;
 }
 namespace GlobalNamespace {
-class __MissionMapAnimationController___UpdateMissionMapCoroutine_d__12;
+class __MissionMapAnimationController____c;
 }
 namespace System::Collections {
 class IEnumerator;
 }
 namespace GlobalNamespace {
-class MissionNode;
+class __MissionMapAnimationController___UpdateMissionMapCoroutine_d__12;
+}
+namespace HMUI {
+class ScrollView;
 }
 namespace GlobalNamespace {
 class __MissionMapAnimationController___UpdateClearedNodeStateCoroutine_d__13;
 }
 namespace GlobalNamespace {
+class MissionNode;
+}
+namespace GlobalNamespace {
 class MissionNodesManager;
 }
 namespace GlobalNamespace {
-class __MissionMapAnimationController____c;
-}
-namespace GlobalNamespace {
-class __MissionMapAnimationController___UpdateNodesAndConnectionCoroutine_d__15;
+class MenuShockwave;
 }
 namespace System {
-class Object;
+class Action;
+}
+namespace System {
+class IDisposable;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
 namespace System {
-class IDisposable;
+class Object;
 }
 namespace GlobalNamespace {
 class MissionNodeConnection;

@@ -2,9 +2,9 @@
 #include "Newtonsoft/Json/Linq/JsonPath/zzzz__QueryExpression_impl.hpp"
 #include "Newtonsoft/Json/Linq/JsonPath/zzzz__BooleanQueryExpression_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "Newtonsoft/Json/Linq/JsonPath/zzzz__PathFilter_def.hpp"
 #include "Newtonsoft/Json/Linq/zzzz__JValue_def.hpp"
 #include "Newtonsoft/Json/Linq/zzzz__JToken_def.hpp"
+#include "Newtonsoft/Json/Linq/JsonPath/zzzz__PathFilter_def.hpp"
 //  Writing Method size for method: ::Newtonsoft::Json::Linq::JsonPath::BooleanQueryExpression.get_Path
 template <>
 

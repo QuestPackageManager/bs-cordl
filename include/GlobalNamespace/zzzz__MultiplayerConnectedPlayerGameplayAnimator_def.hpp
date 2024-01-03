@@ -6,10 +6,13 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(MultiplayerConnectedPlayerGameplayAnimator)
 namespace GlobalNamespace {
-class MultiplayerLayoutProvider;
+class MultiplayerConnectedPlayerSpectatingSpot;
 }
 namespace GlobalNamespace {
 struct __MultiplayerController__State;
+}
+namespace GlobalNamespace {
+class MultiplayerConnectedPlayerLevelFailController;
 }
 namespace GlobalNamespace {
 class MultiplayerBigAvatarAnimator;
@@ -18,10 +21,7 @@ namespace GlobalNamespace {
 class ScaleAnimator;
 }
 namespace GlobalNamespace {
-class MultiplayerConnectedPlayerLevelFailController;
-}
-namespace GlobalNamespace {
-class MultiplayerConnectedPlayerSpectatingSpot;
+class MultiplayerLayoutProvider;
 }
 // Forward declare root types
 namespace GlobalNamespace {

@@ -8,9 +8,6 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(SliderParticleInteractionEffect)
 namespace GlobalNamespace {
-class Saber;
-}
-namespace GlobalNamespace {
 class SaberManager;
 }
 namespace UnityEngine {
@@ -18,6 +15,9 @@ struct Color;
 }
 namespace UnityEngine {
 class ParticleSystem;
+}
+namespace GlobalNamespace {
+class Saber;
 }
 namespace GlobalNamespace {
 class ColorManager;

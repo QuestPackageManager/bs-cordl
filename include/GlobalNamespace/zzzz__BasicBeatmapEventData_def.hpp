@@ -8,9 +8,6 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(BasicBeatmapEventData)
 namespace GlobalNamespace {
-struct BasicBeatmapEventType;
-}
-namespace GlobalNamespace {
 class BeatmapDataItem;
 }
 namespace System::Collections::Generic {
@@ -18,6 +15,9 @@ template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace GlobalNamespace {
 class BeatmapEventData;
+}
+namespace GlobalNamespace {
+struct BasicBeatmapEventType;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -29,7 +29,7 @@ MARK_REF_PTR_T(::GlobalNamespace::BasicBeatmapEventData);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14724)), TypeDefinitionIndex(TypeDefinitionIndex(14727))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14727)), TypeDefinitionIndex(TypeDefinitionIndex(14724))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14721))
 // CS Name: ::BasicBeatmapEventData*
 class CORDL_TYPE BasicBeatmapEventData : public ::GlobalNamespace::BeatmapEventData {

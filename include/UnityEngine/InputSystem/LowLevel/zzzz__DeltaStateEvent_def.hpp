@@ -2,6 +2,7 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "Unity/Collections/zzzz__Allocator_def.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__DeltaStateEvent_def.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__InputEvent_def.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__FourCC_def.hpp"
@@ -10,16 +11,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(DeltaStateEvent)
 namespace UnityEngine::InputSystem::LowLevel {
-struct InputEventPtr;
-}
-namespace UnityEngine::InputSystem::Utilities {
-struct FourCC;
-}
-namespace UnityEngine::InputSystem::LowLevel {
 struct __DeltaStateEvent___stateData_e__FixedBuffer;
 }
-namespace UnityEngine::InputSystem::LowLevel {
-struct InputEvent;
+namespace UnityEngine::InputSystem {
+class InputControl;
 }
 namespace Unity::Collections {
 template <typename T> struct NativeArray_1;
@@ -27,11 +22,14 @@ template <typename T> struct NativeArray_1;
 namespace UnityEngine::InputSystem::LowLevel {
 class IInputEventTypeInfo;
 }
-namespace Unity::Collections {
-struct Allocator;
+namespace UnityEngine::InputSystem::LowLevel {
+struct InputEventPtr;
 }
-namespace UnityEngine::InputSystem {
-class InputControl;
+namespace UnityEngine::InputSystem::Utilities {
+struct FourCC;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+struct InputEvent;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::LowLevel {
@@ -80,9 +78,8 @@ static_assert(offsetof(::UnityEngine::InputSystem::LowLevel::__DeltaStateEvent__
 // SizeInfo { instance_size: 29, native_size: 29, calculated_instance_size: 29, calculated_native_size: 45, minimum_alignment: 1, natural_alignment: 8, packing: Some(1), specified_packing: Some(1) }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6530)), TypeDefinitionIndex(TypeDefinitionIndex(6520)), TypeDefinitionIndex(TypeDefinitionIndex(6667))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6521))
-// CS Name: ::UnityEngine.InputSystem.LowLevel::DeltaStateEvent
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6530)), TypeDefinitionIndex(TypeDefinitionIndex(10003)), TypeDefinitionIndex(TypeDefinitionIndex(6520)),
+// TypeDefinitionIndex(TypeDefinitionIndex(6667))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6521)) CS Name: ::UnityEngine.InputSystem.LowLevel::DeltaStateEvent
 #pragma pack(push, 1)
 struct CORDL_TYPE DeltaStateEvent {
 public:

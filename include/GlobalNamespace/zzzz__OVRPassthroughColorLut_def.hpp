@@ -14,26 +14,29 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVRPassthroughColorLut)
-namespace UnityEngine {
-class Texture2D;
+namespace GlobalNamespace {
+struct __OVRPassthroughColorLut__WriteColorsAsBytesJob;
 }
 namespace GlobalNamespace {
 class __OVRPassthroughColorLut__ColorLutTextureConverter;
 }
+namespace System {
+class Object;
+}
 namespace UnityEngine {
-struct Color;
+struct TextureFormat;
 }
 namespace GlobalNamespace {
-struct __OVRPassthroughColorLut__WriteColorsAsBytesJob;
+struct __OVRPassthroughColorLut__ColorChannels;
 }
 namespace GlobalNamespace {
 struct __OVRPlugin__PassthroughColorLutData;
 }
 namespace UnityEngine {
-struct TextureFormat;
+struct Color;
 }
-namespace System {
-class Object;
+namespace UnityEngine {
+class Texture2D;
 }
 namespace UnityEngine {
 struct Color32;
@@ -42,13 +45,10 @@ namespace System {
 class IDisposable;
 }
 namespace GlobalNamespace {
-struct __OVRPassthroughColorLut__ColorChannels;
+struct __OVRPassthroughColorLut__ColorLutTextureConverter__MapColorValuesJob;
 }
 namespace GlobalNamespace {
 struct __OVRPassthroughColorLut__ColorLutTextureConverter__TextureSettings;
-}
-namespace GlobalNamespace {
-struct __OVRPassthroughColorLut__ColorLutTextureConverter__MapColorValuesJob;
 }
 namespace Unity::Collections {
 template <typename T> struct NativeArray_1;
@@ -136,9 +136,9 @@ static_assert(offsetof(::GlobalNamespace::__OVRPassthroughColorLut__ColorChannel
 // SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9999)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 741 }), GenericInstantiation(GenericInstantiation {
-// tdi: TypeDefinitionIndex(9999), inst: 293 }), TypeDefinitionIndex(TypeDefinitionIndex(10251))} Self: TypeDefinitionIndex(TypeDefinitionIndex(8190)) CS Name:
-// ::OVRPassthroughColorLut::WriteColorsAsBytesJob
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 293 }), TypeDefinitionIndex(TypeDefinitionIndex(10251)),
+// TypeDefinitionIndex(TypeDefinitionIndex(9999)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 741 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(8190)) CS
+// Name: ::OVRPassthroughColorLut::WriteColorsAsBytesJob
 struct CORDL_TYPE __OVRPassthroughColorLut__WriteColorsAsBytesJob {
 public:
   // Declarations
@@ -277,8 +277,8 @@ static_assert(offsetof(::GlobalNamespace::__OVRPassthroughColorLut__ColorLutText
 // SizeInfo { instance_size: 56, native_size: 56, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9999)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 741 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(8192))} Self: TypeDefinitionIndex(TypeDefinitionIndex(8191)) CS Name: ::OVRPassthroughColorLut::ColorLutTextureConverter::MapColorValuesJob
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 741 }), TypeDefinitionIndex(TypeDefinitionIndex(8192)),
+// TypeDefinitionIndex(TypeDefinitionIndex(9999))} Self: TypeDefinitionIndex(TypeDefinitionIndex(8191)) CS Name: ::OVRPassthroughColorLut::ColorLutTextureConverter::MapColorValuesJob
 struct CORDL_TYPE __OVRPassthroughColorLut__ColorLutTextureConverter__MapColorValuesJob {
 public:
   // Declarations
@@ -373,8 +373,8 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRPassthroug
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3336)), TypeDefinitionIndex(TypeDefinitionIndex(7830)), TypeDefinitionIndex(TypeDefinitionIndex(2613)),
-// TypeDefinitionIndex(TypeDefinitionIndex(8189))} Self: TypeDefinitionIndex(TypeDefinitionIndex(8194)) CS Name: ::OVRPassthroughColorLut*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3336)), TypeDefinitionIndex(TypeDefinitionIndex(7830)), TypeDefinitionIndex(TypeDefinitionIndex(8189)),
+// TypeDefinitionIndex(TypeDefinitionIndex(2613))} Self: TypeDefinitionIndex(TypeDefinitionIndex(8194)) CS Name: ::OVRPassthroughColorLut*
 class CORDL_TYPE OVRPassthroughColorLut : public ::System::Object {
 public:
   // Declarations

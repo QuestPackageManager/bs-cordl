@@ -11,37 +11,37 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(SignalDeclaration)
 namespace Zenject {
+class SignalDeclarationBindInfo;
+}
+namespace Zenject {
+class __ZenjectSettings__SignalSettings;
+}
+namespace Zenject {
+class SignalSubscription;
+}
+namespace Zenject {
+class ITickable;
+}
+namespace Zenject {
 struct BindingId;
+}
+namespace Zenject {
+class ZenjectSettings;
 }
 namespace Zenject {
 class __SignalDeclaration__Factory;
 }
-namespace Zenject {
-class SignalDeclarationBindInfo;
+namespace System {
+class Object;
+}
+namespace System {
+class IDisposable;
 }
 namespace Zenject {
 class InjectTypeInfo;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
-}
-namespace Zenject {
-class SignalSubscription;
-}
-namespace Zenject {
-class __ZenjectSettings__SignalSettings;
-}
-namespace System {
-class Object;
-}
-namespace Zenject {
-class ZenjectSettings;
-}
-namespace System {
-class IDisposable;
-}
-namespace Zenject {
-class ITickable;
 }
 // Forward declare root types
 namespace Zenject {
@@ -57,7 +57,7 @@ MARK_REF_PTR_T(::Zenject::__SignalDeclaration__Factory);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 68, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11158)), TypeDefinitionIndex(TypeDefinitionIndex(11172)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(11172)), TypeDefinitionIndex(TypeDefinitionIndex(11158))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10659))
 // CS Name: ::Zenject::SignalDeclaration*
 class CORDL_TYPE SignalDeclaration : public ::System::Object {
@@ -240,8 +240,8 @@ static_assert(offsetof(::Zenject::SignalDeclaration, ____TickPriority_k__Backing
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11005)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11005), inst: 3493 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(10659)), TypeDefinitionIndex(TypeDefinitionIndex(10654))} Self: TypeDefinitionIndex(TypeDefinitionIndex(10658)) CS Name: ::SignalDeclaration::Factory*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10654)), TypeDefinitionIndex(TypeDefinitionIndex(11005)), TypeDefinitionIndex(TypeDefinitionIndex(10659)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11005), inst: 3493 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(10658)) CS Name: ::SignalDeclaration::Factory*
 class CORDL_TYPE __SignalDeclaration__Factory : public ::Zenject::PlaceholderFactory_2<::Zenject::SignalDeclarationBindInfo*, ::Zenject::SignalDeclaration*> {
 public:
   // Declarations

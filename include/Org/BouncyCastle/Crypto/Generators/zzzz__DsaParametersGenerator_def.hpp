@@ -12,14 +12,14 @@ class IDigest;
 namespace Org::BouncyCastle::Math {
 class BigInteger;
 }
-namespace Org::BouncyCastle::Crypto::Parameters {
-class DsaParameters;
+namespace Org::BouncyCastle::Security {
+class SecureRandom;
 }
 namespace Org::BouncyCastle::Crypto::Parameters {
 class DsaParameterGenerationParameters;
 }
-namespace Org::BouncyCastle::Security {
-class SecureRandom;
+namespace Org::BouncyCastle::Crypto::Parameters {
+class DsaParameters;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Generators {

@@ -2,17 +2,17 @@
 #include "System/Xml/Linq/zzzz__XNode_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Xml/Linq/zzzz__XContainer_def.hpp"
+#include "System/Xml/Linq/zzzz__XContainer_def.hpp"
 #include "System/Xml/zzzz__XmlWriter_def.hpp"
 #include "System/Xml/Linq/zzzz__XNode_def.hpp"
-#include "System/Xml/Linq/zzzz__XContainer_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/Xml/Linq/zzzz__XAttribute_def.hpp"
-#include "System/zzzz__Object_def.hpp"
 #include "System/Text/zzzz__StringBuilder_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 //  Writing Method size for method: ::System::Xml::Linq::__XContainer___Nodes_d__18._ctor
 template <>
 

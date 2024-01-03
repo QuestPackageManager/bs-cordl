@@ -7,16 +7,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(GoodCutScoringElement)
 namespace GlobalNamespace {
-class CutScoreBuffer;
+class ICutScoreBufferDidFinishReceiver;
 }
 namespace GlobalNamespace {
-struct __ScoreMultiplierCounter__MultiplierEventType;
+class CutScoreBuffer;
 }
 namespace GlobalNamespace {
 class __GoodCutScoringElement__Pool;
 }
 namespace GlobalNamespace {
-class ICutScoreBufferDidFinishReceiver;
+struct __ScoreMultiplierCounter__MultiplierEventType;
 }
 namespace GlobalNamespace {
 class IReadonlyCutScoreBuffer;

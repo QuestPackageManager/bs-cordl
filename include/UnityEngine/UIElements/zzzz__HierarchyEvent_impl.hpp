@@ -2,8 +2,8 @@
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__HierarchyEvent_def.hpp"
 #include "UnityEngine/UIElements/zzzz__HierarchyChangeType_def.hpp"
-#include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::HierarchyEvent._ctor
 template <>
 

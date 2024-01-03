@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(MaterialPropertyBlockController)
-namespace UnityEngine {
-class Renderer;
-}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
+}
+namespace UnityEngine {
+class Renderer;
 }
 namespace UnityEngine {
 class MaterialPropertyBlock;

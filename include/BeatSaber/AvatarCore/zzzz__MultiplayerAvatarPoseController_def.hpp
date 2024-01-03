@@ -4,23 +4,23 @@
 CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(MultiplayerAvatarPoseController)
-namespace UnityEngine {
-struct Vector3;
+namespace GlobalNamespace {
+class IConnectedPlayer;
 }
 namespace System {
 template <typename T> class Action_1;
-}
-namespace UnityEngine {
-class Transform;
-}
-namespace GlobalNamespace {
-class IConnectedPlayer;
 }
 namespace BeatSaber::AvatarCore {
 class IAvatarPoseRestriction;
 }
 namespace GlobalNamespace {
 class INodePoseSyncStateManager;
+}
+namespace UnityEngine {
+struct Vector3;
+}
+namespace UnityEngine {
+class Transform;
 }
 // Forward declare root types
 namespace BeatSaber::AvatarCore {

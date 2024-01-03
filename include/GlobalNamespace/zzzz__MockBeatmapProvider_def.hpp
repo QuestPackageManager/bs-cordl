@@ -7,19 +7,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(MockBeatmapProvider)
 namespace GlobalNamespace {
-class BeatmapIdentifierNetSerializable;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
+class IServerBeatmapProvider;
 }
 namespace GlobalNamespace {
-class IServerBeatmapProvider;
+class BeatmapIdentifierNetSerializable;
+}
+namespace GlobalNamespace {
+struct SongPackMask;
 }
 namespace GlobalNamespace {
 struct BeatmapLevelSelectionMask;
 }
-namespace GlobalNamespace {
-struct SongPackMask;
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 // Forward declare root types
 namespace GlobalNamespace {

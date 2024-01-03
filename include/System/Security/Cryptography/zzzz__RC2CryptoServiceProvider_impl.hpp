@@ -1,8 +1,8 @@
 #pragma once
 #include "System/Security/Cryptography/zzzz__RC2_impl.hpp"
 #include "System/Security/Cryptography/zzzz__RC2CryptoServiceProvider_def.hpp"
-#include "System/Security/Cryptography/zzzz__KeySizes_def.hpp"
 #include "System/Security/Cryptography/zzzz__ICryptoTransform_def.hpp"
+#include "System/Security/Cryptography/zzzz__KeySizes_def.hpp"
 //  Writing Method size for method: ::System::Security::Cryptography::RC2CryptoServiceProvider._ctor
 template <>
 

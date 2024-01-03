@@ -2,8 +2,8 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__MemoryExtensions_def.hpp"
 #include "System/zzzz__Span_1_def.hpp"
-#include "System/zzzz__ReadOnlySpan_1_def.hpp"
 #include "System/zzzz__StringComparison_def.hpp"
+#include "System/zzzz__ReadOnlySpan_1_def.hpp"
 //  Writing Method size for method: ::System::MemoryExtensions.EqualsOrdinal
 template <>
 

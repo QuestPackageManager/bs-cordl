@@ -1,12 +1,12 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Xml/Schema/zzzz__XmlValueConverter_def.hpp"
-#include "System/zzzz__Decimal_def.hpp"
-#include "System/zzzz__DateTime_def.hpp"
-#include "System/zzzz__DateTimeOffset_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "System/Xml/zzzz__IXmlNamespaceResolver_def.hpp"
+#include "System/zzzz__DateTime_def.hpp"
 #include "System/zzzz__Type_def.hpp"
+#include "System/Xml/zzzz__IXmlNamespaceResolver_def.hpp"
+#include "System/zzzz__DateTimeOffset_def.hpp"
+#include "System/zzzz__Decimal_def.hpp"
 //  Writing Method size for method: ::System::Xml::Schema::XmlValueConverter.ToBoolean
 template <>
 

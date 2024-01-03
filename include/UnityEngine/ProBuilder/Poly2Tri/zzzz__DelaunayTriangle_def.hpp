@@ -10,14 +10,14 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(DelaunayTriangle)
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace UnityEngine::ProBuilder::Poly2Tri {
+class TriangulationPoint;
 }
 namespace UnityEngine::ProBuilder::Poly2Tri {
 class DTSweepConstraint;
 }
-namespace UnityEngine::ProBuilder::Poly2Tri {
-class TriangulationPoint;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder::Poly2Tri {
@@ -29,9 +29,9 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 71, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::Poly2Tri {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(15349), inst: 1983 }), TypeDefinitionIndex(TypeDefinitionIndex(2613)),
-// TypeDefinitionIndex(TypeDefinitionIndex(15344)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(15349), inst: 1982 }), TypeDefinitionIndex(TypeDefinitionIndex(15351)),
-// TypeDefinitionIndex(TypeDefinitionIndex(15349))} Self: TypeDefinitionIndex(TypeDefinitionIndex(15323)) CS Name: ::UnityEngine.ProBuilder.Poly2Tri::DelaunayTriangle*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15349)), TypeDefinitionIndex(TypeDefinitionIndex(15344)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(15349), inst: 1982 }), TypeDefinitionIndex(TypeDefinitionIndex(15351)), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(15349), inst: 1983 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(15323)) CS Name: ::UnityEngine.ProBuilder.Poly2Tri::DelaunayTriangle*
 class CORDL_TYPE DelaunayTriangle : public ::System::Object {
 public:
   // Declarations

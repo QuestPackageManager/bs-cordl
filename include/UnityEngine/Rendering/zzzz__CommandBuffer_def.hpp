@@ -10,56 +10,56 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(CommandBuffer)
-namespace UnityEngine {
-struct RenderTextureMemoryless;
+namespace UnityEngine::Rendering {
+struct RenderTargetIdentifier;
 }
 namespace UnityEngine {
-struct Vector2;
-}
-namespace UnityEngine {
-struct Matrix4x4;
+struct Vector4;
 }
 namespace UnityEngine {
 class MaterialPropertyBlock;
 }
-namespace UnityEngine::Rendering {
-struct RenderTargetIdentifier;
-}
-namespace UnityEngine::Rendering {
-struct CommandBufferExecutionFlags;
-}
-namespace System {
-class IDisposable;
+namespace UnityEngine {
+class Mesh;
 }
 namespace UnityEngine::Experimental::Rendering {
 struct GraphicsFormat;
 }
 namespace UnityEngine {
-class Mesh;
-}
-namespace UnityEngine {
 class Renderer;
 }
 namespace UnityEngine::Rendering {
-struct RenderBufferLoadAction;
+struct RenderTextureSubElement;
+}
+namespace System {
+class IDisposable;
 }
 namespace UnityEngine {
-struct Vector4;
+struct Matrix4x4;
 }
 namespace UnityEngine::Rendering {
-struct RenderBufferStoreAction;
+struct CommandBufferExecutionFlags;
 }
 namespace UnityEngine {
 struct FilterMode;
 }
 namespace UnityEngine::Rendering {
-struct RenderTextureSubElement;
+struct RenderBufferLoadAction;
 }
 namespace UnityEngine {
-class Material;
+struct Vector2;
+}
+namespace UnityEngine::Rendering {
+struct RenderBufferStoreAction;
+}
+namespace UnityEngine {
+struct RenderTextureMemoryless;
 }
 namespace UnityEngine {
 struct RenderTextureFormat;
+}
+namespace UnityEngine {
+class Material;
 }
 // Forward declare root types
 namespace UnityEngine::Rendering {

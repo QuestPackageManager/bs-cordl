@@ -4,20 +4,20 @@
 CORDL_MODULE_INIT
 #include "System/Security/AccessControl/zzzz__AccessRule_def.hpp"
 CORDL_MODULE_EXPORT(FileSystemAccessRule)
-namespace System::Security::Principal {
-class IdentityReference;
+namespace System::Security::AccessControl {
+struct AccessControlType;
 }
 namespace System::Security::AccessControl {
 struct FileSystemRights;
 }
 namespace System::Security::AccessControl {
+struct InheritanceFlags;
+}
+namespace System::Security::AccessControl {
 struct PropagationFlags;
 }
-namespace System::Security::AccessControl {
-struct AccessControlType;
-}
-namespace System::Security::AccessControl {
-struct InheritanceFlags;
+namespace System::Security::Principal {
+class IdentityReference;
 }
 // Forward declare root types
 namespace System::Security::AccessControl {

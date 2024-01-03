@@ -1,9 +1,9 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__PlayerHeightToJumpOffsetYProvider_def.hpp"
-#include "GlobalNamespace/zzzz__PlayerHeightDetector_def.hpp"
 #include "Zenject/zzzz__IInitializable_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
+#include "GlobalNamespace/zzzz__PlayerHeightDetector_def.hpp"
 #include "GlobalNamespace/zzzz__IJumpOffsetYProvider_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::PlayerHeightToJumpOffsetYProvider.get_jumpOffsetY
 template <>

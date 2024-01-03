@@ -1,9 +1,9 @@
 #pragma once
 #include "System/Xml/Linq/zzzz__XText_impl.hpp"
 #include "System/Xml/Linq/zzzz__XCData_def.hpp"
-#include "System/Xml/zzzz__XmlWriter_def.hpp"
 #include "System/Xml/Linq/zzzz__XNode_def.hpp"
 #include "System/Xml/zzzz__XmlNodeType_def.hpp"
+#include "System/Xml/zzzz__XmlWriter_def.hpp"
 //  Writing Method size for method: ::System::Xml::Linq::XCData._ctor
 template <>
 

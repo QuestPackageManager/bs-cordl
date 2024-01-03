@@ -2,11 +2,11 @@
 #include "GlobalNamespace/zzzz__OVRMeshRenderer_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRMeshRenderer_def.hpp"
-#include "UnityEngine/zzzz__SkinnedMeshRenderer_def.hpp"
-#include "GlobalNamespace/zzzz__OVRSkeleton_def.hpp"
 #include "GlobalNamespace/zzzz__OVRMeshRenderer_def.hpp"
 #include "GlobalNamespace/zzzz__OVRMesh_def.hpp"
 #include "UnityEngine/zzzz__Material_def.hpp"
+#include "GlobalNamespace/zzzz__OVRSkeleton_def.hpp"
+#include "UnityEngine/zzzz__SkinnedMeshRenderer_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::__OVRMeshRenderer__IOVRMeshRendererDataProvider.GetMeshRendererData
 template <>
 

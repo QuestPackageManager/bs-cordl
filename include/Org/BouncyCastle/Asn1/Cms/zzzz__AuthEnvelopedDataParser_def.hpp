@@ -5,25 +5,25 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(AuthEnvelopedDataParser)
 namespace Org::BouncyCastle::Asn1 {
-class DerInteger;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1SequenceParser;
+class IAsn1Convertible;
 }
 namespace Org::BouncyCastle::Asn1::Cms {
 class OriginatorInfo;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1SetParser;
 }
 namespace Org::BouncyCastle::Asn1::Cms {
 class EncryptedContentInfoParser;
 }
 namespace Org::BouncyCastle::Asn1 {
+class DerInteger;
+}
+namespace Org::BouncyCastle::Asn1 {
 class Asn1OctetString;
 }
 namespace Org::BouncyCastle::Asn1 {
-class IAsn1Convertible;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1SetParser;
+class Asn1SequenceParser;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Cms {

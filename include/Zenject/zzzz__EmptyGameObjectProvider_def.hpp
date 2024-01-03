@@ -9,28 +9,28 @@ namespace System {
 class Type;
 }
 namespace Zenject {
-class DiContainer;
-}
-namespace Zenject {
-class InjectContext;
-}
-namespace Zenject {
-struct TypeValuePair;
+class GameObjectCreationParameters;
 }
 namespace Zenject {
 class IProvider;
 }
 namespace Zenject {
-class GameObjectCreationParameters;
-}
-namespace System {
-class Object;
+class DiContainer;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace System {
 class Action;
+}
+namespace System {
+class Object;
+}
+namespace Zenject {
+class InjectContext;
+}
+namespace Zenject {
+struct TypeValuePair;
 }
 // Forward declare root types
 namespace Zenject {

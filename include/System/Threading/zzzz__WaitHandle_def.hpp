@@ -13,11 +13,11 @@ class IDisposable;
 namespace Microsoft::Win32::SafeHandles {
 class SafeWaitHandle;
 }
-namespace System {
-struct TimeSpan;
-}
 namespace System::Runtime::InteropServices {
 class SafeHandle;
+}
+namespace System {
+struct TimeSpan;
 }
 // Forward declare root types
 namespace System::Threading {
@@ -29,7 +29,7 @@ MARK_REF_PTR_T(::System::Threading::WaitHandle);
 // SizeInfo { instance_size: 48, native_size: 32, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Threading {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(2605))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2605)), TypeDefinitionIndex(TypeDefinitionIndex(2603))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2740))
 // CS Name: ::System.Threading::WaitHandle*
 class CORDL_TYPE WaitHandle : public ::System::MarshalByRefObject {

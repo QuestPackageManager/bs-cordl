@@ -9,17 +9,17 @@ CORDL_MODULE_EXPORT(GameEnergyUIPanel)
 namespace UnityEngine::Playables {
 class PlayableDirector;
 }
-namespace GlobalNamespace {
-class IGameEnergyCounter;
+namespace UnityEngine {
+class RectTransform;
 }
 namespace UnityEngine::UI {
 class Image;
 }
+namespace GlobalNamespace {
+class IGameEnergyCounter;
+}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
-}
-namespace UnityEngine {
-class RectTransform;
 }
 // Forward declare root types
 namespace GlobalNamespace {

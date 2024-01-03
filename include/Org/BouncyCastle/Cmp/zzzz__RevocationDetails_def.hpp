@@ -4,14 +4,14 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(RevocationDetails)
+namespace Org::BouncyCastle::Math {
+class BigInteger;
+}
 namespace Org::BouncyCastle::Asn1::Cmp {
 class RevDetails;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class X509Name;
-}
-namespace Org::BouncyCastle::Math {
-class BigInteger;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Cmp {

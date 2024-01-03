@@ -5,13 +5,13 @@ CORDL_MODULE_INIT
 #include "UnityEngine/UIElements/zzzz__FocusChangeDirection_def.hpp"
 CORDL_MODULE_EXPORT(VisualElementFocusChangeTarget)
 namespace UnityEngine::UIElements {
-template <typename T> class ObjectPool_1;
+class FocusController;
 }
 namespace UnityEngine::UIElements {
 class Focusable;
 }
 namespace UnityEngine::UIElements {
-class FocusController;
+template <typename T> class ObjectPool_1;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

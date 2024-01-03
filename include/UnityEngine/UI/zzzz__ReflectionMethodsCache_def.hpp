@@ -19,25 +19,25 @@ namespace UnityEngine::UI {
 class __ReflectionMethodsCache__GetRaycastNonAllocCallback;
 }
 namespace UnityEngine::UI {
-class __ReflectionMethodsCache__GetRayIntersectionAllNonAllocCallback;
-}
-namespace UnityEngine::UI {
 class __ReflectionMethodsCache__Raycast2DCallback;
 }
 namespace UnityEngine::UI {
 class __ReflectionMethodsCache__GetRayIntersectionAllCallback;
 }
-namespace System {
-class Object;
-}
-namespace UnityEngine {
-struct Ray;
+namespace UnityEngine::UI {
+class __ReflectionMethodsCache__GetRayIntersectionAllNonAllocCallback;
 }
 namespace System {
 class AsyncCallback;
 }
 namespace System {
 class IAsyncResult;
+}
+namespace System {
+class Object;
+}
+namespace UnityEngine {
+struct Ray;
 }
 namespace UnityEngine {
 struct RaycastHit2D;

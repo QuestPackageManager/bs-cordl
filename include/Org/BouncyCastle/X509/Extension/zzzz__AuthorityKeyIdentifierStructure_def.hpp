@@ -4,8 +4,8 @@
 CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Asn1/X509/zzzz__AuthorityKeyIdentifier_def.hpp"
 CORDL_MODULE_EXPORT(AuthorityKeyIdentifierStructure)
-namespace Org::BouncyCastle::Asn1 {
-class Asn1OctetString;
+namespace Org::BouncyCastle::X509 {
+class X509Certificate;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
@@ -13,8 +13,8 @@ class Asn1Sequence;
 namespace Org::BouncyCastle::Crypto {
 class AsymmetricKeyParameter;
 }
-namespace Org::BouncyCastle::X509 {
-class X509Certificate;
+namespace Org::BouncyCastle::Asn1 {
+class Asn1OctetString;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::X509::Extension {

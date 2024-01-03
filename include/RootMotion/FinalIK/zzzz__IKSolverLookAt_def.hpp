@@ -14,16 +14,16 @@ namespace UnityEngine {
 struct Vector3;
 }
 namespace RootMotion::FinalIK {
+class __IKSolverLookAt__LookAtBone;
+}
+namespace RootMotion::FinalIK {
 class __IKSolver__Point;
 }
 namespace UnityEngine {
-class Transform;
-}
-namespace RootMotion::FinalIK {
-class __IKSolverLookAt__LookAtBone;
+class AnimationCurve;
 }
 namespace UnityEngine {
-class AnimationCurve;
+class Transform;
 }
 // Forward declare root types
 namespace RootMotion::FinalIK {
@@ -39,7 +39,7 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::__IKSolverLookAt__LookAtBone);
 // SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(12560))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12560)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12579))
 // CS Name: ::IKSolverLookAt::LookAtBone*
 class CORDL_TYPE __IKSolverLookAt__LookAtBone : public ::RootMotion::FinalIK::__IKSolver__Bone {

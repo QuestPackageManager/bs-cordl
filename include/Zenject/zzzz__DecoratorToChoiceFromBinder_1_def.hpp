@@ -8,13 +8,13 @@ namespace Zenject {
 class FactoryBindInfo;
 }
 namespace Zenject {
-template <typename TParam1, typename TContract> class FactoryFromBinder_2;
-}
-namespace Zenject {
 class BindInfo;
 }
 namespace Zenject {
 class DiContainer;
+}
+namespace Zenject {
+template <typename TParam1, typename TContract> class FactoryFromBinder_2;
 }
 // Forward declare root types
 namespace Zenject {

@@ -7,20 +7,20 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(SafeAreaRectChecker)
-namespace UnityEngine {
-struct Vector3;
-}
-namespace UnityEngine {
-class RectTransform;
+namespace GlobalNamespace {
+class MainCamera;
 }
 namespace UnityEngine {
 class GameObject;
 }
-namespace GlobalNamespace {
-class MainCamera;
+namespace UnityEngine {
+class RectTransform;
 }
 namespace GlobalNamespace {
 class __SafeAreaRectChecker__InitData;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace GlobalNamespace {

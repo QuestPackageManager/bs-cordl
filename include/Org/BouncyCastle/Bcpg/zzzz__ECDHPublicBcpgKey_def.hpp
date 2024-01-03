@@ -7,8 +7,14 @@ CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Bcpg/zzzz__SymmetricKeyAlgorithmTag_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ECDHPublicBcpgKey)
+namespace Org::BouncyCastle::Asn1 {
+class DerObjectIdentifier;
+}
 namespace Org::BouncyCastle::Bcpg {
-class BcpgInputStream;
+struct SymmetricKeyAlgorithmTag;
+}
+namespace Org::BouncyCastle::Bcpg {
+class BcpgOutputStream;
 }
 namespace Org::BouncyCastle::Bcpg {
 struct HashAlgorithmTag;
@@ -17,13 +23,7 @@ namespace Org::BouncyCastle::Math::EC {
 class ECPoint;
 }
 namespace Org::BouncyCastle::Bcpg {
-struct SymmetricKeyAlgorithmTag;
-}
-namespace Org::BouncyCastle::Asn1 {
-class DerObjectIdentifier;
-}
-namespace Org::BouncyCastle::Bcpg {
-class BcpgOutputStream;
+class BcpgInputStream;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Bcpg {

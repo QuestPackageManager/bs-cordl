@@ -10,13 +10,13 @@ namespace Zenject {
 class __TypeAnalyzer____c__DisplayClass23_0;
 }
 namespace Zenject {
-class InjectTypeInfo;
-}
-namespace Zenject {
 struct ReflectionBakingCoverageModes;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace Zenject {
+class InjectTypeInfo;
 }
 namespace System {
 class Type;
@@ -25,13 +25,13 @@ namespace System {
 class Object;
 }
 namespace Zenject::Internal {
-class __ReflectionTypeInfo__InjectPropertyInfo;
-}
-namespace Zenject::Internal {
 class __ReflectionTypeInfo__InjectFieldInfo;
 }
 namespace Zenject {
 class __InjectTypeInfo__InjectMemberInfo;
+}
+namespace Zenject::Internal {
+class __ReflectionTypeInfo__InjectPropertyInfo;
 }
 // Forward declare root types
 namespace Zenject {
@@ -108,7 +108,7 @@ static_assert(offsetof(::Zenject::__TypeAnalyzer____c__DisplayClass23_0, ___type
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(11354))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11354)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11356))
 // CS Name: ::Zenject::TypeAnalyzer*
 class CORDL_TYPE TypeAnalyzer : public ::System::Object {

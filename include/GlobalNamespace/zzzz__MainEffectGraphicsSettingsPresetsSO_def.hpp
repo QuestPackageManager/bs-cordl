@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(MainEffectGraphicsSettingsPresetsSO)
 namespace GlobalNamespace {
-class __MainEffectGraphicsSettingsPresetsSO__Preset;
+class NamedPreset;
 }
 namespace GlobalNamespace {
-class NamedPreset;
+class __MainEffectGraphicsSettingsPresetsSO__Preset;
 }
 namespace GlobalNamespace {
 class MainEffectSO;

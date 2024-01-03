@@ -7,23 +7,23 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(EnvironmentShaderWarmup)
+namespace GlobalNamespace {
+class GameScenesManager;
+}
 namespace UnityEngine {
 class Transform;
 }
+namespace UnityEngine {
+class Material;
+}
 namespace GlobalNamespace {
-class GameScenesManager;
+class MainCamera;
 }
 namespace System::Collections {
 class IEnumerator;
 }
 namespace GlobalNamespace {
 class __EnvironmentShaderWarmup___Start_d__6;
-}
-namespace GlobalNamespace {
-class MainCamera;
-}
-namespace UnityEngine {
-class Material;
 }
 namespace System {
 class Object;

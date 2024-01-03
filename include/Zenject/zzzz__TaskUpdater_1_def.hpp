@@ -6,18 +6,6 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(TaskUpdater_1)
-namespace Zenject {
-template <typename TTask> class __TaskUpdater_1__TaskInfo;
-}
-namespace Zenject {
-template <typename TTask> class __TaskUpdater_1____c;
-}
-namespace System::Collections::Generic {
-template <typename T> class LinkedList_1;
-}
-namespace Zenject {
-template <typename TTask> class __TaskUpdater_1____c__DisplayClass8_0;
-}
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
@@ -26,6 +14,18 @@ class InjectTypeInfo;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
+}
+namespace Zenject {
+template <typename TTask> class __TaskUpdater_1__TaskInfo;
+}
+namespace Zenject {
+template <typename TTask> class __TaskUpdater_1____c__DisplayClass8_0;
+}
+namespace System::Collections::Generic {
+template <typename T> class LinkedList_1;
+}
+namespace Zenject {
+template <typename TTask> class __TaskUpdater_1____c;
 }
 namespace System {
 class Object;

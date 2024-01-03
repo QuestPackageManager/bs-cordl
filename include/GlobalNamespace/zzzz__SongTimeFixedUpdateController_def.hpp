@@ -6,13 +6,13 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(SongTimeFixedUpdateController)
 namespace System {
-template <typename T> class Action_1;
+class Action;
 }
 namespace GlobalNamespace {
 class IAudioTimeSource;
 }
 namespace System {
-class Action;
+template <typename T> class Action_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {

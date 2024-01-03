@@ -1,14 +1,14 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Xml/zzzz__XmlReader_def.hpp"
-#include "System/Xml/zzzz__IDtdInfo_def.hpp"
-#include "System/IO/zzzz__Stream_def.hpp"
-#include "System/Xml/zzzz__XmlNodeType_def.hpp"
-#include "System/Xml/Schema/zzzz__IXmlSchemaInfo_def.hpp"
 #include "System/Xml/zzzz__XmlNameTable_def.hpp"
-#include "System/Xml/zzzz__ReadState_def.hpp"
-#include "System/Xml/zzzz__XmlReaderSettings_def.hpp"
+#include "System/Xml/zzzz__IDtdInfo_def.hpp"
+#include "System/Xml/Schema/zzzz__IXmlSchemaInfo_def.hpp"
+#include "System/Xml/zzzz__XmlNodeType_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
+#include "System/Xml/zzzz__ReadState_def.hpp"
+#include "System/IO/zzzz__Stream_def.hpp"
+#include "System/Xml/zzzz__XmlReaderSettings_def.hpp"
 //  Writing Method size for method: ::System::Xml::XmlReader.get_Settings
 template <>
 

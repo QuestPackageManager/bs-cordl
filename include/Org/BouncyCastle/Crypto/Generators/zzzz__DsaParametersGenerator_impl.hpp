@@ -3,9 +3,9 @@
 #include "Org/BouncyCastle/Crypto/Generators/zzzz__DsaParametersGenerator_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__IDigest_def.hpp"
 #include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
-#include "Org/BouncyCastle/Crypto/Parameters/zzzz__DsaParameters_def.hpp"
-#include "Org/BouncyCastle/Crypto/Parameters/zzzz__DsaParameterGenerationParameters_def.hpp"
 #include "Org/BouncyCastle/Security/zzzz__SecureRandom_def.hpp"
+#include "Org/BouncyCastle/Crypto/Parameters/zzzz__DsaParameterGenerationParameters_def.hpp"
+#include "Org/BouncyCastle/Crypto/Parameters/zzzz__DsaParameters_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Generators::DsaParametersGenerator._ctor
 template <>
 

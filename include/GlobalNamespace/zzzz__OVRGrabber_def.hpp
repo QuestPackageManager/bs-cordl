@@ -10,29 +10,29 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVRGrabber)
-namespace GlobalNamespace {
-class OVRCameraRig;
-}
-namespace UnityEngine {
-class GameObject;
-}
 namespace UnityEngine {
 class Transform;
 }
 namespace UnityEngine {
 struct Vector3;
 }
+namespace UnityEngine {
+struct Quaternion;
+}
 namespace GlobalNamespace {
-class OVRGrabbable;
+class OVRCameraRig;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
-namespace UnityEngine {
-class Collider;
+namespace GlobalNamespace {
+class OVRGrabbable;
 }
 namespace UnityEngine {
-struct Quaternion;
+class GameObject;
+}
+namespace UnityEngine {
+class Collider;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -44,8 +44,8 @@ MARK_REF_PTR_T(::GlobalNamespace::OVRGrabber);
 // SizeInfo { instance_size: 200, native_size: -1, calculated_instance_size: 200, calculated_native_size: 193, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10225)),
-// TypeDefinitionIndex(TypeDefinitionIndex(7598))} Self: TypeDefinitionIndex(TypeDefinitionIndex(8111)) CS Name: ::OVRGrabber*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(7598)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10252))} Self: TypeDefinitionIndex(TypeDefinitionIndex(8111)) CS Name: ::OVRGrabber*
 class CORDL_TYPE OVRGrabber : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations

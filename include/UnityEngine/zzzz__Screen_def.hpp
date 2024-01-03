@@ -9,10 +9,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Screen)
 namespace UnityEngine {
-struct ScreenOrientation;
+struct Resolution;
 }
 namespace UnityEngine {
-struct Resolution;
+struct ScreenOrientation;
 }
 namespace UnityEngine {
 struct FullScreenMode;

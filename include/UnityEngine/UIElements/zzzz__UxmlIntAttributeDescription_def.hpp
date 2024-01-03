@@ -12,10 +12,10 @@ namespace UnityEngine::UIElements {
 class __UxmlIntAttributeDescription____c;
 }
 namespace UnityEngine::UIElements {
-struct CreationContext;
+class IUxmlAttributes;
 }
 namespace UnityEngine::UIElements {
-class IUxmlAttributes;
+struct CreationContext;
 }
 namespace System {
 template <typename T1, typename T2, typename TResult> class Func_3;
@@ -96,7 +96,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__UxmlI
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 68, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6982), inst: 98 }), TypeDefinitionIndex(TypeDefinitionIndex(6982))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6982)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6982), inst: 98 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6988))
 // CS Name: ::UnityEngine.UIElements::UxmlIntAttributeDescription*
 class CORDL_TYPE UxmlIntAttributeDescription : public ::UnityEngine::UIElements::TypedUxmlAttributeDescription_1<int32_t> {

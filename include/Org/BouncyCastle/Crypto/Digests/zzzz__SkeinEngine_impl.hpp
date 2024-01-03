@@ -2,9 +2,9 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Digests/zzzz__SkeinEngine_def.hpp"
 #include "Org/BouncyCastle/Crypto/Digests/zzzz__SkeinEngine_def.hpp"
-#include "Org/BouncyCastle/Crypto/Engines/zzzz__ThreefishEngine_def.hpp"
-#include "Org/BouncyCastle/Crypto/Parameters/zzzz__SkeinParameters_def.hpp"
 #include "Org/BouncyCastle/Utilities/zzzz__IMemoable_def.hpp"
+#include "Org/BouncyCastle/Crypto/Parameters/zzzz__SkeinParameters_def.hpp"
+#include "Org/BouncyCastle/Crypto/Engines/zzzz__ThreefishEngine_def.hpp"
 #include "System/Collections/zzzz__IDictionary_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Digests::__SkeinEngine__Configuration._ctor
 template <>

@@ -7,14 +7,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(LimitAvatarPoseRestriction)
-namespace BeatSaber::AvatarCore {
-class IAvatarPoseRestriction;
-}
 namespace UnityEngine {
 struct Vector3;
 }
 namespace BeatSaber::AvatarCore {
 class __LimitAvatarPoseRestriction__Parameters;
+}
+namespace BeatSaber::AvatarCore {
+class IAvatarPoseRestriction;
 }
 namespace UnityEngine {
 struct Quaternion;

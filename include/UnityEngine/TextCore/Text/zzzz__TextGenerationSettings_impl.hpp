@@ -10,13 +10,13 @@
 #include "UnityEngine/zzzz__Rect_impl.hpp"
 #include "UnityEngine/zzzz__Vector4_impl.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__TextGenerationSettings_def.hpp"
+#include "UnityEngine/TextCore/Text/zzzz__TextSettings_def.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__SpriteAsset_def.hpp"
-#include "UnityEngine/TextCore/Text/zzzz__TextColorGradient_def.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__FontAsset_def.hpp"
 #include "UnityEngine/zzzz__Material_def.hpp"
-#include "UnityEngine/TextCore/Text/zzzz__TextStyleSheet_def.hpp"
+#include "UnityEngine/TextCore/Text/zzzz__TextColorGradient_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "UnityEngine/TextCore/Text/zzzz__TextSettings_def.hpp"
+#include "UnityEngine/TextCore/Text/zzzz__TextStyleSheet_def.hpp"
 //  Writing Method size for method: ::UnityEngine::TextCore::Text::TextGenerationSettings.Equals
 template <>
 

@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__MaterialController_def.hpp"
-#include "UnityEngine/zzzz__Renderer_def.hpp"
 #include "UnityEngine/zzzz__Material_def.hpp"
+#include "UnityEngine/zzzz__Renderer_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::MaterialController.get_material
 template <>
 

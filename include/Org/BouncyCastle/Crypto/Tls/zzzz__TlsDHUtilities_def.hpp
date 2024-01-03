@@ -8,31 +8,31 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(TlsDHUtilities)
 namespace Org::BouncyCastle::Crypto::Parameters {
-class DHParameters;
-}
-namespace Org::BouncyCastle::Math {
-class BigInteger;
+class DHPublicKeyParameters;
 }
 namespace Org::BouncyCastle::Crypto::Parameters {
 class DHPrivateKeyParameters;
 }
-namespace Org::BouncyCastle::Security {
-class SecureRandom;
+namespace Org::BouncyCastle::Crypto::Tls {
+class TlsDHVerifier;
 }
-namespace Org::BouncyCastle::Crypto::Parameters {
-class DHPublicKeyParameters;
-}
-namespace System::IO {
-class Stream;
+namespace Org::BouncyCastle::Math {
+class BigInteger;
 }
 namespace System::Collections {
 class IDictionary;
 }
+namespace Org::BouncyCastle::Crypto::Parameters {
+class DHParameters;
+}
 namespace Org::BouncyCastle::Crypto {
 class AsymmetricCipherKeyPair;
 }
-namespace Org::BouncyCastle::Crypto::Tls {
-class TlsDHVerifier;
+namespace System::IO {
+class Stream;
+}
+namespace Org::BouncyCastle::Security {
+class SecureRandom;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {

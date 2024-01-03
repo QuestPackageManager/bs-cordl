@@ -5,13 +5,22 @@ CORDL_MODULE_INIT
 #include <cstddef>
 CORDL_MODULE_EXPORT(FixedUpdate)
 namespace UnityEngine::PlayerLoop {
+struct __FixedUpdate__PhysicsFixedUpdate;
+}
+namespace UnityEngine::PlayerLoop {
+struct __FixedUpdate__LegacyFixedAnimationUpdate;
+}
+namespace UnityEngine::PlayerLoop {
 struct __FixedUpdate__Physics2DFixedUpdate;
 }
 namespace UnityEngine::PlayerLoop {
-struct __FixedUpdate__PhysicsClothFixedUpdate;
+struct __FixedUpdate__AudioFixedUpdate;
 }
 namespace UnityEngine::PlayerLoop {
-struct __FixedUpdate__NewInputFixedUpdate;
+struct __FixedUpdate__ScriptRunBehaviourFixedUpdate;
+}
+namespace UnityEngine::PlayerLoop {
+struct __FixedUpdate__DirectorFixedUpdatePostPhysics;
 }
 namespace UnityEngine::PlayerLoop {
 struct __FixedUpdate__ScriptRunDelayedFixedFrameRate;
@@ -20,28 +29,19 @@ namespace UnityEngine::PlayerLoop {
 struct __FixedUpdate__ClearLines;
 }
 namespace UnityEngine::PlayerLoop {
-struct __FixedUpdate__DirectorFixedUpdatePostPhysics;
-}
-namespace UnityEngine::PlayerLoop {
-struct __FixedUpdate__ScriptRunBehaviourFixedUpdate;
-}
-namespace UnityEngine::PlayerLoop {
-struct __FixedUpdate__XRFixedUpdate;
-}
-namespace UnityEngine::PlayerLoop {
-struct __FixedUpdate__AudioFixedUpdate;
+struct __FixedUpdate__DirectorFixedUpdate;
 }
 namespace UnityEngine::PlayerLoop {
 struct __FixedUpdate__DirectorFixedSampleTime;
 }
 namespace UnityEngine::PlayerLoop {
-struct __FixedUpdate__LegacyFixedAnimationUpdate;
+struct __FixedUpdate__NewInputFixedUpdate;
 }
 namespace UnityEngine::PlayerLoop {
-struct __FixedUpdate__PhysicsFixedUpdate;
+struct __FixedUpdate__XRFixedUpdate;
 }
 namespace UnityEngine::PlayerLoop {
-struct __FixedUpdate__DirectorFixedUpdate;
+struct __FixedUpdate__PhysicsClothFixedUpdate;
 }
 // Forward declare root types
 namespace UnityEngine::PlayerLoop {

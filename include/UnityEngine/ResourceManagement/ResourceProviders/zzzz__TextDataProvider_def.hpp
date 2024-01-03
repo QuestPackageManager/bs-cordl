@@ -9,29 +9,29 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(TextDataProvider)
-namespace System {
-class Type;
-}
 namespace UnityEngine::ResourceManagement::ResourceProviders {
-class __TextDataProvider__InternalOp;
+struct ProvideHandle;
 }
 namespace System {
 class Object;
 }
 namespace UnityEngine::ResourceManagement::ResourceProviders {
-struct ProvideHandle;
+class __TextDataProvider__InternalOp;
 }
-namespace UnityEngine::Networking {
-class UnityWebRequestAsyncOperation;
-}
-namespace UnityEngine::ResourceManagement {
-class WebRequestQueueOperation;
+namespace System {
+class Type;
 }
 namespace System {
 class Exception;
 }
+namespace UnityEngine::ResourceManagement {
+class WebRequestQueueOperation;
+}
 namespace UnityEngine {
 class AsyncOperation;
+}
+namespace UnityEngine::Networking {
+class UnityWebRequestAsyncOperation;
 }
 // Forward declare root types
 namespace UnityEngine::ResourceManagement::ResourceProviders {
@@ -47,7 +47,7 @@ MARK_REF_PTR_T(::UnityEngine::ResourceManagement::ResourceProviders::__TextDataP
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14002)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(14002))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14018))
 // CS Name: ::TextDataProvider::InternalOp*
 class CORDL_TYPE __TextDataProvider__InternalOp : public ::System::Object {

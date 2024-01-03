@@ -6,13 +6,13 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(MultiplayerLobbyCenterStageManager)
 namespace GlobalNamespace {
-class CenterStageScreenController;
+class ILobbyStateDataModel;
 }
 namespace UnityEngine {
 class Transform;
 }
 namespace GlobalNamespace {
-class ILobbyStateDataModel;
+class CenterStageScreenController;
 }
 // Forward declare root types
 namespace GlobalNamespace {

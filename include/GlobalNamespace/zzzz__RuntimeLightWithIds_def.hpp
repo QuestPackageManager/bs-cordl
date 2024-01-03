@@ -8,14 +8,14 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(RuntimeLightWithIds)
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
+namespace GlobalNamespace {
+struct ColorMixAndWeightingApproach;
 }
 namespace GlobalNamespace {
 class __LightWithIds__LightWithId;
 }
-namespace GlobalNamespace {
-struct ColorMixAndWeightingApproach;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
 }
 namespace UnityEngine {
 struct Color;

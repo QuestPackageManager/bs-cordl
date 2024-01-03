@@ -2,9 +2,9 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__CountdownController_def.hpp"
 #include "GlobalNamespace/zzzz__CountdownElementController_def.hpp"
+#include "GlobalNamespace/zzzz__ITimeProvider_def.hpp"
 #include "UnityEngine/zzzz__AudioSource_def.hpp"
 #include "System/Collections/Generic/zzzz__Queue_1_def.hpp"
-#include "GlobalNamespace/zzzz__ITimeProvider_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::CountdownController.Awake
 template <>
 

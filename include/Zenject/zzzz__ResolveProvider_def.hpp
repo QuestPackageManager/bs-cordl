@@ -10,16 +10,19 @@ namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace System {
-class Type;
+class Object;
 }
 namespace Zenject {
 struct InjectSources;
 }
-namespace System {
-class Object;
-}
 namespace Zenject {
 class IProvider;
+}
+namespace System {
+class Type;
+}
+namespace Zenject {
+struct TypeValuePair;
 }
 namespace System {
 class Action;
@@ -29,9 +32,6 @@ class DiContainer;
 }
 namespace Zenject {
 class InjectContext;
-}
-namespace Zenject {
-struct TypeValuePair;
 }
 // Forward declare root types
 namespace Zenject {

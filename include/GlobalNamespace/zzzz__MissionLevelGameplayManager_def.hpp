@@ -8,17 +8,29 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(MissionLevelGameplayManager)
+namespace System::Collections {
+class IEnumerator;
+}
 namespace GlobalNamespace {
-class GameSongController;
+class ILevelStartController;
 }
 namespace GlobalNamespace {
 class __MissionLevelGameplayManager__InitData;
 }
-namespace System {
-template <typename T> class Action_1;
+namespace GlobalNamespace {
+class ILevelEndActions;
 }
 namespace GlobalNamespace {
-class ILevelStartController;
+class GameSongController;
+}
+namespace GlobalNamespace {
+class PauseController;
+}
+namespace System {
+class Action;
+}
+namespace System {
+template <typename T> class Action_1;
 }
 namespace GlobalNamespace {
 class __MissionLevelGameplayManager___Start_d__23;
@@ -33,28 +45,16 @@ namespace GlobalNamespace {
 class GameEnergyCounter;
 }
 namespace GlobalNamespace {
-class PauseController;
-}
-namespace System {
-class Action;
-}
-namespace System::Collections {
-class IEnumerator;
-}
-namespace GlobalNamespace {
 class MissionObjectiveCheckersManager;
 }
-namespace GlobalNamespace {
-class ILevelEndActions;
+namespace System {
+class Object;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
 namespace System {
 class IDisposable;
-}
-namespace System {
-class Object;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -294,7 +294,7 @@ static_assert(offsetof(::GlobalNamespace::__MissionLevelGameplayManager___Start_
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(5019))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5019)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5021))
 // CS Name: ::MissionLevelGameplayManager*
 class CORDL_TYPE MissionLevelGameplayManager : public ::UnityEngine::MonoBehaviour {

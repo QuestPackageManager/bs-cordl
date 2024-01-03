@@ -8,10 +8,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(BaseInput)
 namespace UnityEngine {
-struct Touch;
+struct IMECompositionMode;
 }
 namespace UnityEngine {
-struct IMECompositionMode;
+struct Touch;
 }
 namespace UnityEngine {
 struct Vector2;

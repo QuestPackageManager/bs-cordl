@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include <cstddef>
 CORDL_MODULE_EXPORT(EditAvatarHistorySnapshot)
 namespace BeatSaber::BeatAvatarSDK {
-struct AvatarPart;
+class AvatarData;
 }
 namespace BeatSaber::BeatAvatarSDK {
-class AvatarData;
+struct AvatarPart;
 }
 // Forward declare root types
 namespace BeatSaber::BeatAvatarAdapter::AvatarEditor {

@@ -3,16 +3,16 @@
 #include "UnityEngine/zzzz__Color_impl.hpp"
 #include "GlobalNamespace/zzzz__LightColorGroupEffect_def.hpp"
 #include "Tweening/zzzz__FloatTween_def.hpp"
-#include "GlobalNamespace/zzzz__ColorManager_def.hpp"
-#include "GlobalNamespace/zzzz__LightColorGroupEffect_def.hpp"
-#include "GlobalNamespace/zzzz__LightWithIdManager_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapDataCallbackWrapper_def.hpp"
 #include "GlobalNamespace/zzzz__IBpmController_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapCallbacksController_def.hpp"
+#include "GlobalNamespace/zzzz__ColorManager_def.hpp"
 #include "GlobalNamespace/zzzz__LightColorBeatmapEventData_def.hpp"
+#include "GlobalNamespace/zzzz__LightColorGroupEffect_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
 #include "GlobalNamespace/zzzz__EnvironmentColorType_def.hpp"
+#include "GlobalNamespace/zzzz__LightWithIdManager_def.hpp"
 #include "Tweening/zzzz__SongTimeTweeningManager_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapCallbacksController_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapDataCallbackWrapper_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::__LightColorGroupEffect__InitData._ctor
 template <>
 

@@ -2,11 +2,11 @@
 #include "RootMotion/zzzz__Baker_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "RootMotion/zzzz__Baker_def.hpp"
+#include "UnityEngine/zzzz__AnimationClip_def.hpp"
+#include "UnityEngine/zzzz__Animator_def.hpp"
+#include "UnityEngine/Playables/zzzz__PlayableDirector_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
 #include "RootMotion/zzzz__Baker_def.hpp"
-#include "UnityEngine/zzzz__AnimationClip_def.hpp"
-#include "UnityEngine/Playables/zzzz__PlayableDirector_def.hpp"
-#include "UnityEngine/zzzz__Animator_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::RootMotion::__Baker__Mode::__Baker__Mode(int32_t value__) noexcept {
   this->value__ = value__;

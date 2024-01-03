@@ -2,9 +2,9 @@
 #include "UnityEngine/zzzz__Animator_impl.hpp"
 #include "Zenject/zzzz__Installer_2_impl.hpp"
 #include "Zenject/zzzz__AnimatorInstaller_def.hpp"
-#include "System/zzzz__Object_def.hpp"
 #include "Zenject/zzzz__InjectTypeInfo_def.hpp"
 #include "UnityEngine/zzzz__Animator_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::Zenject::AnimatorInstaller._ctor
 template <>
 

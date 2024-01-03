@@ -7,26 +7,26 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(FirstPersonFlyingController)
-namespace UnityEngine {
-class Camera;
-}
-namespace UnityEngine {
-class Transform;
-}
-namespace GlobalNamespace {
-class VRController;
-}
-namespace UnityEngine {
-class GameObject;
-}
-namespace GlobalNamespace {
-class MouseLook;
-}
 namespace UnityEngine::SpatialTracking {
 class TrackedPoseDriver;
 }
 namespace GlobalNamespace {
 class VRCenterAdjust;
+}
+namespace GlobalNamespace {
+class MouseLook;
+}
+namespace UnityEngine {
+class Camera;
+}
+namespace GlobalNamespace {
+class VRController;
+}
+namespace UnityEngine {
+class Transform;
+}
+namespace UnityEngine {
+class GameObject;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -38,7 +38,7 @@ MARK_REF_PTR_T(::GlobalNamespace::FirstPersonFlyingController);
 // SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10102)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10102))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5835))
 // CS Name: ::FirstPersonFlyingController*
 class CORDL_TYPE FirstPersonFlyingController : public ::UnityEngine::MonoBehaviour {

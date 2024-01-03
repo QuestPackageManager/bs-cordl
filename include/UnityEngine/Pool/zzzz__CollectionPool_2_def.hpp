@@ -9,10 +9,10 @@ namespace UnityEngine::Pool {
 template <typename TCollection, typename TItem> class __CollectionPool_2____c;
 }
 namespace UnityEngine::Pool {
-template <typename T> class ObjectPool_1;
+template <typename T> struct PooledObject_1;
 }
 namespace UnityEngine::Pool {
-template <typename T> struct PooledObject_1;
+template <typename T> class ObjectPool_1;
 }
 // Forward declare root types
 namespace UnityEngine::Pool {

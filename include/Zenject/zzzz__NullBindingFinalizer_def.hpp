@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(NullBindingFinalizer)
 namespace Zenject {
-class IBindingFinalizer;
+class DiContainer;
 }
 namespace Zenject {
-class DiContainer;
+class IBindingFinalizer;
 }
 namespace Zenject {
 struct BindingInheritanceMethods;

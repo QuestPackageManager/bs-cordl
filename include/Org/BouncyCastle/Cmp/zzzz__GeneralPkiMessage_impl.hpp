@@ -1,9 +1,9 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Cmp/zzzz__GeneralPkiMessage_def.hpp"
+#include "Org/BouncyCastle/Asn1/Cmp/zzzz__PkiBody_def.hpp"
 #include "Org/BouncyCastle/Asn1/Cmp/zzzz__PkiMessage_def.hpp"
 #include "Org/BouncyCastle/Asn1/Cmp/zzzz__PkiHeader_def.hpp"
-#include "Org/BouncyCastle/Asn1/Cmp/zzzz__PkiBody_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Cmp::GeneralPkiMessage.ParseBytes
 template <>
 

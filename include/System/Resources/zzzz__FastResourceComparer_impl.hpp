@@ -1,11 +1,11 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Resources/zzzz__FastResourceComparer_def.hpp"
-#include "System/Collections/Generic/zzzz__IComparer_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IEqualityComparer_1_def.hpp"
 #include "System/Collections/zzzz__IComparer_def.hpp"
-#include "System/Collections/zzzz__IEqualityComparer_def.hpp"
+#include "System/Collections/Generic/zzzz__IComparer_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "System/Collections/zzzz__IEqualityComparer_def.hpp"
 //  Writing Method size for method: ::System::Resources::FastResourceComparer.GetHashCode
 template <>
 

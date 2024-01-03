@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(AssemblyLoadEventHandler)
 namespace System {
-class AssemblyLoadEventArgs;
+class Object;
 }
 namespace System {
-class Object;
+class AssemblyLoadEventArgs;
 }
 // Forward declare root types
 namespace System {

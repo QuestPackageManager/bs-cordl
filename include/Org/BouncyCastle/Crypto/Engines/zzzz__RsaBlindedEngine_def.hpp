@@ -7,20 +7,20 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(RsaBlindedEngine)
-namespace Org::BouncyCastle::Crypto::Parameters {
-class RsaKeyParameters;
-}
 namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;
-}
-namespace Org::BouncyCastle::Crypto {
-class IAsymmetricBlockCipher;
 }
 namespace Org::BouncyCastle::Crypto {
 class IRsa;
 }
 namespace Org::BouncyCastle::Security {
 class SecureRandom;
+}
+namespace Org::BouncyCastle::Crypto::Parameters {
+class RsaKeyParameters;
+}
+namespace Org::BouncyCastle::Crypto {
+class IAsymmetricBlockCipher;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Engines {

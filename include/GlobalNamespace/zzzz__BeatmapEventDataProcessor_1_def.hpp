@@ -7,11 +7,11 @@ CORDL_MODULE_EXPORT(BeatmapEventDataProcessor_1)
 namespace GlobalNamespace {
 class BeatmapDataItem;
 }
-namespace GlobalNamespace {
-template <typename T> class ISortedListItemProcessor_1;
-}
 namespace System::Collections::Generic {
 template <typename T> class LinkedListNode_1;
+}
+namespace GlobalNamespace {
+template <typename T> class ISortedListItemProcessor_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {

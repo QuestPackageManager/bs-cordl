@@ -2,9 +2,9 @@
 #include "GlobalNamespace/zzzz__BaseStateTransition_1_impl.hpp"
 #include "TMPro/zzzz__TMP_Text_impl.hpp"
 #include "GlobalNamespace/zzzz__ColorTMPTextStateTransition_def.hpp"
+#include "GlobalNamespace/zzzz__ColorTransitionSO_def.hpp"
 #include "GlobalNamespace/zzzz__BaseTransitionSO_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
-#include "GlobalNamespace/zzzz__ColorTransitionSO_def.hpp"
 #include "Tweening/zzzz__ColorTween_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::ColorTMPTextStateTransition.get_transition
 template <>

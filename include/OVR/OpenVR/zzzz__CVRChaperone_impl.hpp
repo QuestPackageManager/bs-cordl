@@ -3,8 +3,8 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "OVR/OpenVR/zzzz__CVRChaperone_def.hpp"
 #include "OVR/OpenVR/zzzz__HmdQuad_t_def.hpp"
-#include "OVR/OpenVR/zzzz__HmdColor_t_def.hpp"
 #include "OVR/OpenVR/zzzz__ChaperoneCalibrationState_def.hpp"
+#include "OVR/OpenVR/zzzz__HmdColor_t_def.hpp"
 //  Writing Method size for method: ::OVR::OpenVR::CVRChaperone._ctor
 template <>
 

@@ -13,14 +13,14 @@ CORDL_MODULE_EXPORT(WebUtility)
 namespace System::Text {
 class Encoding;
 }
-namespace System::Net {
-class __WebUtility__UrlDecoder;
+namespace System::IO {
+class TextWriter;
 }
 namespace System::Net::Configuration {
 struct UnicodeEncodingConformance;
 }
-namespace System::IO {
-class TextWriter;
+namespace System::Net {
+class __WebUtility__UrlDecoder;
 }
 // Forward declare root types
 namespace System::Net {
@@ -167,7 +167,7 @@ static_assert(offsetof(::System::Net::__WebUtility__UrlDecoder, ____encoding) ==
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9314)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9313))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9313)), TypeDefinitionIndex(TypeDefinitionIndex(9314))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9099))
 // CS Name: ::System.Net::WebUtility*
 class CORDL_TYPE WebUtility : public ::System::Object {

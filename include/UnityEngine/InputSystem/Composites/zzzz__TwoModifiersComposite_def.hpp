@@ -8,13 +8,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(TwoModifiersComposite)
 namespace System {
+class Type;
+}
+namespace System {
 class Object;
 }
 namespace UnityEngine::InputSystem {
 struct InputBindingCompositeContext;
-}
-namespace System {
-class Type;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::Composites {

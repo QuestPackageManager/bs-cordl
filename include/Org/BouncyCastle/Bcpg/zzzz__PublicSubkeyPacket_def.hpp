@@ -4,20 +4,20 @@
 CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Bcpg/zzzz__PublicKeyPacket_def.hpp"
 CORDL_MODULE_EXPORT(PublicSubkeyPacket)
-namespace System {
-struct DateTime;
-}
 namespace Org::BouncyCastle::Bcpg {
-class IBcpgKey;
-}
-namespace Org::BouncyCastle::Bcpg {
-class BcpgInputStream;
+class BcpgOutputStream;
 }
 namespace Org::BouncyCastle::Bcpg {
 struct PublicKeyAlgorithmTag;
 }
 namespace Org::BouncyCastle::Bcpg {
-class BcpgOutputStream;
+class BcpgInputStream;
+}
+namespace Org::BouncyCastle::Bcpg {
+class IBcpgKey;
+}
+namespace System {
+struct DateTime;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Bcpg {

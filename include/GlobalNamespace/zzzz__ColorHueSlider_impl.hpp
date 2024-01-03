@@ -2,12 +2,12 @@
 #include "HMUI/zzzz__CircleSlider_impl.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"
 #include "GlobalNamespace/zzzz__ColorHueSlider_def.hpp"
-#include "System/zzzz__Action_3_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__IEventSystemHandler_def.hpp"
 #include "UnityEngine/EventSystems/zzzz__IPointerUpHandler_def.hpp"
-#include "HMUI/zzzz__CircleSlider_def.hpp"
 #include "GlobalNamespace/zzzz__ColorChangeUIEventType_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__IEventSystemHandler_def.hpp"
+#include "HMUI/zzzz__CircleSlider_def.hpp"
 #include "UnityEngine/EventSystems/zzzz__PointerEventData_def.hpp"
+#include "System/zzzz__Action_3_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::ColorHueSlider.add_colorHueDidChangeEvent
 template <>
 

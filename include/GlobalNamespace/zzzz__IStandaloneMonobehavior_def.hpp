@@ -6,14 +6,14 @@ CORDL_MODULE_EXPORT(IStandaloneMonobehavior)
 namespace System {
 class Action;
 }
-namespace System {
-template <typename TResult> class Func_1;
+namespace GlobalNamespace {
+class IStandaloneThreadRunner;
 }
 namespace System::Threading {
 struct CancellationToken;
 }
-namespace GlobalNamespace {
-class IStandaloneThreadRunner;
+namespace System {
+template <typename TResult> class Func_1;
 }
 namespace System::Threading::Tasks {
 class Task;

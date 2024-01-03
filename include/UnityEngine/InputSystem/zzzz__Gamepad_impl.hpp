@@ -2,13 +2,13 @@
 #include "UnityEngine/InputSystem/Haptics/zzzz__DualMotorRumble_impl.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputDevice_impl.hpp"
 #include "UnityEngine/InputSystem/zzzz__Gamepad_def.hpp"
-#include "UnityEngine/InputSystem/Haptics/zzzz__IHaptics_def.hpp"
-#include "UnityEngine/InputSystem/Haptics/zzzz__IDualMotorRumble_def.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__GamepadButton_def.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__ReadOnlyArray_1_def.hpp"
 #include "UnityEngine/InputSystem/Controls/zzzz__StickControl_def.hpp"
-#include "UnityEngine/InputSystem/Controls/zzzz__DpadControl_def.hpp"
+#include "UnityEngine/InputSystem/Haptics/zzzz__IHaptics_def.hpp"
 #include "UnityEngine/InputSystem/Controls/zzzz__ButtonControl_def.hpp"
+#include "UnityEngine/InputSystem/Haptics/zzzz__IDualMotorRumble_def.hpp"
+#include "UnityEngine/InputSystem/Controls/zzzz__DpadControl_def.hpp"
 //  Writing Method size for method: ::UnityEngine::InputSystem::Gamepad.get_buttonWest
 template <>
 

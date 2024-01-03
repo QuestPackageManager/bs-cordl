@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Crypto/Parameters/zzzz__NaccacheSternKeyParameters_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(NaccacheSternPrivateKeyParameters)
-namespace System::Collections {
-class IList;
-}
 namespace Org::BouncyCastle::Math {
 class BigInteger;
 }
 namespace System::Collections {
 class ArrayList;
+}
+namespace System::Collections {
+class IList;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Parameters {

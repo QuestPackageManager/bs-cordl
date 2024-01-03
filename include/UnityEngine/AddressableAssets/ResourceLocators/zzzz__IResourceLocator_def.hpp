@@ -8,17 +8,17 @@ CORDL_MODULE_EXPORT(IResourceLocator)
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
-namespace UnityEngine::ResourceManagement::ResourceLocations {
-class IResourceLocation;
-}
-namespace System::Collections::Generic {
-template <typename T> class IList_1;
-}
 namespace System {
 class Object;
 }
+namespace UnityEngine::ResourceManagement::ResourceLocations {
+class IResourceLocation;
+}
 namespace System {
 class Type;
+}
+namespace System::Collections::Generic {
+template <typename T> class IList_1;
 }
 // Forward declare root types
 namespace UnityEngine::AddressableAssets::ResourceLocators {

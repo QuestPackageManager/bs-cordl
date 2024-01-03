@@ -1,11 +1,11 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__CrossFadeAudioSource_def.hpp"
-#include "GlobalNamespace/zzzz__AudioPitchGainEffect_def.hpp"
 #include "Tweening/zzzz__TimeTweeningManager_def.hpp"
-#include "UnityEngine/zzzz__AudioClip_def.hpp"
+#include "GlobalNamespace/zzzz__AudioPitchGainEffect_def.hpp"
 #include "Tweening/zzzz__Tween_1_def.hpp"
 #include "UnityEngine/zzzz__AudioSource_def.hpp"
+#include "UnityEngine/zzzz__AudioClip_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::CrossFadeAudioSource.get_clip
 template <>
 

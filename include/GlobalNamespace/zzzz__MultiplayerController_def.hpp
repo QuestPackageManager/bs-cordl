@@ -12,16 +12,43 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(MultiplayerController)
 namespace GlobalNamespace {
-struct MultiplayerPlayerStartState;
+class SongStartSyncController;
 }
 namespace GlobalNamespace {
-struct MultiplayerGameState;
+class SceneStartSyncController;
+}
+namespace GlobalNamespace {
+class __MultiplayerController____c__DisplayClass45_0;
+}
+namespace System::Collections {
+class IEnumerator;
+}
+namespace GlobalNamespace {
+struct MultiplayerPlayerStartState;
 }
 namespace GlobalNamespace {
 class IGameplayRpcManager;
 }
 namespace GlobalNamespace {
-class __MultiplayerController___PerformSongStartSync_d__39;
+class MultiplayerBadgesProvider;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace Zenject {
+class DiContainer;
+}
+namespace System {
+template <typename T> class Action_1;
+}
+namespace GlobalNamespace {
+class FadeInOutController;
+}
+namespace GlobalNamespace {
+class PlayersSpecificSettingsAtGameStartModel;
+}
+namespace GlobalNamespace {
+class IMenuRpcManager;
 }
 namespace GlobalNamespace {
 class MultiplayerLevelCompletionResults;
@@ -30,76 +57,49 @@ namespace GlobalNamespace {
 class MultiplayerLevelScenesTransitionSetupDataSO;
 }
 namespace GlobalNamespace {
-class MultiplayerBadgesProvider;
-}
-namespace Zenject {
-class DiContainer;
-}
-namespace GlobalNamespace {
-class SongStartSyncController;
-}
-namespace GlobalNamespace {
-class __MultiplayerController____c__DisplayClass45_0;
-}
-namespace GlobalNamespace {
-class MultiplayerOutroAnimationController;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace GlobalNamespace {
-class PlayersSpecificSettingsAtGameStartModel;
+class MultiplayerPlayersManager;
 }
 namespace GlobalNamespace {
 class __MultiplayerController____c;
 }
-namespace UnityEngine {
-class GameObject;
-}
 namespace GlobalNamespace {
-class MultiplayerPlayersManager;
-}
-namespace GlobalNamespace {
-class MultiplayerLevelFinishedController;
-}
-namespace GlobalNamespace {
-class IMultiplayerSessionManager;
-}
-namespace UnityEngine {
-class Coroutine;
-}
-namespace GlobalNamespace {
-struct DisconnectedReason;
-}
-namespace GlobalNamespace {
-class GameplayCoreSceneSetupData;
-}
-namespace GlobalNamespace {
-struct __MultiplayerController__State;
-}
-namespace GlobalNamespace {
-class GameScenesManager;
-}
-namespace GlobalNamespace {
-class SceneStartSyncController;
+struct MultiplayerGameState;
 }
 namespace GlobalNamespace {
 class MultiplayerResultsData;
 }
 namespace GlobalNamespace {
+class IMultiplayerSessionManager;
+}
+namespace GlobalNamespace {
+struct DisconnectedReason;
+}
+namespace GlobalNamespace {
+class MultiplayerLevelFinishedController;
+}
+namespace GlobalNamespace {
 class MultiplayerIntroAnimationController;
 }
-namespace GlobalNamespace {
-class IMenuRpcManager;
-}
-namespace System::Collections {
-class IEnumerator;
+namespace UnityEngine {
+class GameObject;
 }
 namespace GlobalNamespace {
-class FadeInOutController;
+struct __MultiplayerController__State;
 }
-namespace System {
-template <typename T> class Action_1;
+namespace GlobalNamespace {
+class GameplayCoreSceneSetupData;
+}
+namespace GlobalNamespace {
+class __MultiplayerController___PerformSongStartSync_d__39;
+}
+namespace GlobalNamespace {
+class MultiplayerOutroAnimationController;
+}
+namespace GlobalNamespace {
+class GameScenesManager;
+}
+namespace UnityEngine {
+class Coroutine;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
@@ -446,7 +446,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MultiplayerCo
 // SizeInfo { instance_size: 208, native_size: -1, calculated_instance_size: 208, calculated_native_size: 208, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5239)), TypeDefinitionIndex(TypeDefinitionIndex(5198)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5198)), TypeDefinitionIndex(TypeDefinitionIndex(5239)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5202))
 // CS Name: ::MultiplayerController*
 class CORDL_TYPE MultiplayerController : public ::UnityEngine::MonoBehaviour {

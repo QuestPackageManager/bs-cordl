@@ -10,16 +10,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ColorTween)
 namespace TMPro {
-class ITweenValue;
+class __ColorTween__ColorTweenCallback;
 }
-namespace UnityEngine {
-struct Color;
+namespace TMPro {
+class ITweenValue;
 }
 namespace TMPro {
 struct __ColorTween__ColorTweenMode;
 }
-namespace TMPro {
-class __ColorTween__ColorTweenCallback;
+namespace UnityEngine {
+struct Color;
 }
 namespace UnityEngine::Events {
 template <typename T0> class UnityAction_1;
@@ -130,7 +130,7 @@ static_assert(::cordl_internals::size_check_v<::TMPro::__ColorTween__ColorTweenC
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 65, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(12338))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12338)), TypeDefinitionIndex(TypeDefinitionIndex(10251))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12340))
 // CS Name: ::TMPro::ColorTween
 struct CORDL_TYPE ColorTween {

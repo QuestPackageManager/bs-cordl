@@ -13,7 +13,7 @@ namespace System {
 class IValueTupleInternal;
 }
 namespace System::Collections {
-class IComparer;
+class IStructuralEquatable;
 }
 namespace System {
 template <typename T> class IComparable_1;
@@ -22,19 +22,19 @@ namespace System {
 class Object;
 }
 namespace System::Collections {
-class IStructuralComparable;
+class IComparer;
 }
 namespace System::Runtime::CompilerServices {
 class ITuple;
 }
 namespace System::Collections {
-class IEqualityComparer;
+class IStructuralComparable;
 }
 namespace System {
 template <typename T> class IEquatable_1;
 }
 namespace System::Collections {
-class IStructuralEquatable;
+class IEqualityComparer;
 }
 // Forward declare root types
 namespace System {

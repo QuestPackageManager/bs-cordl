@@ -3,8 +3,8 @@
 #include "UnityEngine/zzzz__ParticleSystem_impl.hpp"
 #include "GlobalNamespace/zzzz__MenuShockwave_def.hpp"
 #include "GlobalNamespace/zzzz__Signal_def.hpp"
-#include "UnityEngine/zzzz__ParticleSystem_def.hpp"
 #include "VRUIControls/zzzz__VRPointer_def.hpp"
+#include "UnityEngine/zzzz__ParticleSystem_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::MenuShockwave.Awake
 template <>

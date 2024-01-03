@@ -9,11 +9,11 @@ CORDL_MODULE_EXPORT(FileInfo)
 namespace System::Runtime::Serialization {
 struct StreamingContext;
 }
-namespace System::Runtime::Serialization {
-class SerializationInfo;
-}
 namespace System::IO {
 class FileStream;
+}
+namespace System::Runtime::Serialization {
+class SerializationInfo;
 }
 namespace System::IO {
 class StreamWriter;

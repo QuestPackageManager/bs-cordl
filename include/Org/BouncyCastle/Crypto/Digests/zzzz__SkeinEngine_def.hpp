@@ -8,25 +8,25 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(SkeinEngine)
 namespace Org::BouncyCastle::Crypto::Digests {
-class __SkeinEngine__UBI;
-}
-namespace Org::BouncyCastle::Crypto::Engines {
-class ThreefishEngine;
-}
-namespace Org::BouncyCastle::Crypto::Digests {
-class __SkeinEngine__Parameter;
-}
-namespace Org::BouncyCastle::Crypto::Digests {
-class __SkeinEngine__UbiTweak;
-}
-namespace Org::BouncyCastle::Crypto::Parameters {
-class SkeinParameters;
+class __SkeinEngine__Configuration;
 }
 namespace Org::BouncyCastle::Utilities {
 class IMemoable;
 }
 namespace Org::BouncyCastle::Crypto::Digests {
-class __SkeinEngine__Configuration;
+class __SkeinEngine__UBI;
+}
+namespace Org::BouncyCastle::Crypto::Parameters {
+class SkeinParameters;
+}
+namespace Org::BouncyCastle::Crypto::Digests {
+class __SkeinEngine__UbiTweak;
+}
+namespace Org::BouncyCastle::Crypto::Digests {
+class __SkeinEngine__Parameter;
+}
+namespace Org::BouncyCastle::Crypto::Engines {
+class ThreefishEngine;
 }
 namespace System::Collections {
 class IDictionary;

@@ -9,14 +9,14 @@ CORDL_MODULE_EXPORT(RoleSyntax)
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
 }
-namespace Org::BouncyCastle::Asn1::X509 {
-class GeneralNames;
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Object;
 }
 namespace System {
 class Object;
 }
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
+namespace Org::BouncyCastle::Asn1::X509 {
+class GeneralNames;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class GeneralName;

@@ -9,34 +9,34 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVRBounded2D)
 namespace GlobalNamespace {
-struct __OVRPlugin__SpaceComponentType;
-}
-namespace GlobalNamespace {
 template <typename T> class IOVRAnchorComponent_1;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__Rectf;
-}
-namespace GlobalNamespace {
-struct OVRAnchor;
 }
 namespace Unity::Collections {
 template <typename T> struct NativeArray_1;
 }
-namespace UnityEngine {
-struct Rect;
+namespace GlobalNamespace {
+template <typename TResult> struct OVRTask_1;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__Rectf;
 }
 namespace System {
 template <typename T> class IEquatable_1;
 }
-namespace GlobalNamespace {
-template <typename TResult> struct OVRTask_1;
-}
 namespace UnityEngine {
-struct Vector2;
+struct Rect;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__SpaceComponentType;
 }
 namespace System {
 class Object;
+}
+namespace GlobalNamespace {
+struct OVRAnchor;
+}
+namespace UnityEngine {
+struct Vector2;
 }
 // Forward declare root types
 namespace GlobalNamespace {

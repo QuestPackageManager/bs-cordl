@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "System/zzzz__OperationCanceledException_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(TaskCanceledException)
-namespace System::Threading::Tasks {
-class Task;
-}
 namespace System::Runtime::Serialization {
 struct StreamingContext;
+}
+namespace System::Threading::Tasks {
+class Task;
 }
 namespace System::Runtime::Serialization {
 class SerializationInfo;

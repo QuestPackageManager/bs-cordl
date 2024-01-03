@@ -8,13 +8,13 @@ namespace GlobalNamespace {
 class IDifficultyBeatmap;
 }
 namespace GlobalNamespace {
-class BeatmapIdentifierNetSerializable;
-}
-namespace GlobalNamespace {
 class BeatmapLevelsModel;
 }
 namespace GlobalNamespace {
 class BeatmapCharacteristicCollection;
+}
+namespace GlobalNamespace {
+class BeatmapIdentifierNetSerializable;
 }
 namespace GlobalNamespace {
 class PreviewDifficultyBeatmap;

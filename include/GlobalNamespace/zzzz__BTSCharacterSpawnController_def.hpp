@@ -8,28 +8,28 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(BTSCharacterSpawnController)
 namespace GlobalNamespace {
-class BTSCharacterSpawnAnimationController;
+class __BTSCharacterSpawnController___TimelineStoppedDelayed_d__19;
 }
-namespace GlobalNamespace {
-class IGamePause;
+namespace UnityEngine {
+class Coroutine;
 }
 namespace System::Collections {
 class IEnumerator;
 }
 namespace GlobalNamespace {
-class __BTSCharacterSpawnController___TimelineStoppedDelayed_d__19;
-}
-namespace GlobalNamespace {
-class BTSCharacterSpawnEventEffect;
+class BTSCharacterSpawnAnimationController;
 }
 namespace GlobalNamespace {
 class BTSCharacter;
 }
 namespace GlobalNamespace {
+class IGamePause;
+}
+namespace GlobalNamespace {
 class ILevelEndActions;
 }
-namespace UnityEngine {
-class Coroutine;
+namespace GlobalNamespace {
+class BTSCharacterSpawnEventEffect;
 }
 namespace System {
 class Object;

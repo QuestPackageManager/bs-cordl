@@ -2,11 +2,11 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Profiling/Memory/Experimental/zzzz__MemoryProfiler_def.hpp"
 #include "UnityEngine/zzzz__TextureFormat_def.hpp"
-#include "System/zzzz__Action_2_def.hpp"
-#include "UnityEngine/Profiling/Memory/Experimental/zzzz__MetaData_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
-#include "System/zzzz__Action_3_def.hpp"
 #include "UnityEngine/Profiling/Experimental/zzzz__DebugScreenCapture_def.hpp"
+#include "System/zzzz__Action_3_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
+#include "UnityEngine/Profiling/Memory/Experimental/zzzz__MetaData_def.hpp"
+#include "System/zzzz__Action_2_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Profiling::Memory::Experimental::MemoryProfiler.PrepareMetadata
 template <>
 

@@ -1,10 +1,10 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "Polyglot/zzzz__LocalizedTextMesh_def.hpp"
-#include "UnityEngine/zzzz__TextAlignment_def.hpp"
-#include "Polyglot/zzzz__ILocalize_def.hpp"
-#include "Polyglot/zzzz__LanguageDirection_def.hpp"
 #include "UnityEngine/zzzz__TextMesh_def.hpp"
+#include "Polyglot/zzzz__LanguageDirection_def.hpp"
+#include "Polyglot/zzzz__ILocalize_def.hpp"
+#include "UnityEngine/zzzz__TextAlignment_def.hpp"
 //  Writing Method size for method: ::Polyglot::LocalizedTextMesh.get_Key
 template <>
 

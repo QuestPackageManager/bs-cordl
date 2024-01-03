@@ -7,11 +7,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(SkeinDigest)
-namespace Org::BouncyCastle::Crypto::Parameters {
-class SkeinParameters;
-}
 namespace Org::BouncyCastle::Utilities {
 class IMemoable;
+}
+namespace Org::BouncyCastle::Crypto::Parameters {
+class SkeinParameters;
 }
 namespace Org::BouncyCastle::Crypto {
 class IDigest;

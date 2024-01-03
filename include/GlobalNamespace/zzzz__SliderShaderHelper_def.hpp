@@ -6,17 +6,17 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(SliderShaderHelper)
-namespace UnityEngine {
-class MaterialPropertyBlock;
-}
-namespace UnityEngine {
-struct Vector3;
-}
 namespace GlobalNamespace {
 class SliderController;
 }
 namespace UnityEngine {
+class MaterialPropertyBlock;
+}
+namespace UnityEngine {
 struct Color;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace GlobalNamespace {

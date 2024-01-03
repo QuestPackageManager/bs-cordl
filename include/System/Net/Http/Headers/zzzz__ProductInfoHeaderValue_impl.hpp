@@ -1,11 +1,11 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/Http/Headers/zzzz__ProductInfoHeaderValue_def.hpp"
-#include "System/Net/Http/Headers/zzzz__Lexer_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/zzzz__ICloneable_def.hpp"
-#include "System/Net/Http/Headers/zzzz__ProductHeaderValue_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "System/Net/Http/Headers/zzzz__ProductHeaderValue_def.hpp"
+#include "System/Net/Http/Headers/zzzz__Lexer_def.hpp"
 //  Writing Method size for method: ::System::Net::Http::Headers::ProductInfoHeaderValue._ctor
 template <>
 

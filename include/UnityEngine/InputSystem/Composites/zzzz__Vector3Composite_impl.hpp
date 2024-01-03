@@ -3,8 +3,8 @@
 #include "UnityEngine/InputSystem/zzzz__InputBindingComposite_1_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "UnityEngine/InputSystem/Composites/zzzz__Vector3Composite_def.hpp"
-#include "UnityEngine/InputSystem/Composites/zzzz__Vector3Composite_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputBindingCompositeContext_def.hpp"
+#include "UnityEngine/InputSystem/Composites/zzzz__Vector3Composite_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::InputSystem::Composites::__Vector3Composite__Mode::__Vector3Composite__Mode(int32_t value__) noexcept {

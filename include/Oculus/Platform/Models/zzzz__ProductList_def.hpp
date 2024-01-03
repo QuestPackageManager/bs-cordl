@@ -16,7 +16,7 @@ MARK_REF_PTR_T(::Oculus::Platform::Models::ProductList);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Oculus::Platform::Models {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13430), inst: 1181 }), TypeDefinitionIndex(TypeDefinitionIndex(13430)),
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13430)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13430), inst: 1181 }),
 // TypeDefinitionIndex(TypeDefinitionIndex(13473))} Self: TypeDefinitionIndex(TypeDefinitionIndex(13474)) CS Name: ::Oculus.Platform.Models::ProductList*
 class CORDL_TYPE ProductList : public ::Oculus::Platform::Models::DeserializableList_1<::Oculus::Platform::Models::Product*> {
 public:

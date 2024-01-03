@@ -7,14 +7,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(BaseShaderInfoStorage)
-namespace System {
-class IDisposable;
+namespace UnityEngine {
+struct Color;
 }
 namespace UnityEngine {
 class Texture2D;
 }
-namespace UnityEngine {
-struct Color;
+namespace System {
+class IDisposable;
 }
 namespace UnityEngine {
 struct RectInt;

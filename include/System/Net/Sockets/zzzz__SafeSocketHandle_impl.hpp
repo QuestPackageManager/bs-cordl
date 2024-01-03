@@ -1,10 +1,10 @@
 #pragma once
 #include "Microsoft/Win32/SafeHandles/zzzz__SafeHandleMinusOneIsInvalid_impl.hpp"
 #include "System/Net/Sockets/zzzz__SafeSocketHandle_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "System/Threading/zzzz__Thread_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/Diagnostics/zzzz__StackTrace_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 //  Writing Method size for method: ::System::Net::Sockets::SafeSocketHandle._ctor
 template <>
 

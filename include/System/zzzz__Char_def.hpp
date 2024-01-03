@@ -9,41 +9,41 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(Char)
-namespace System {
-struct Decimal;
+namespace System::Globalization {
+class CultureInfo;
 }
 namespace System {
 struct DateTime;
 }
 namespace System {
-class Type;
-}
-namespace System {
-class IComparable;
-}
-namespace System {
 class Object;
-}
-namespace System {
-template <typename T> class IComparable_1;
-}
-namespace System {
-class IConvertible;
 }
 namespace System::Globalization {
 struct UnicodeCategory;
 }
 namespace System {
-class IFormatProvider;
+struct Decimal;
 }
-namespace System::Globalization {
-class CultureInfo;
+namespace System {
+class Type;
 }
 namespace System {
 template <typename T> class IEquatable_1;
 }
 namespace System {
+template <typename T> class IComparable_1;
+}
+namespace System {
 struct TypeCode;
+}
+namespace System {
+class IFormatProvider;
+}
+namespace System {
+class IComparable;
+}
+namespace System {
+class IConvertible;
 }
 // Forward declare root types
 namespace System {

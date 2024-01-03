@@ -2,13 +2,13 @@
 #include "GlobalNamespace/zzzz__ArcVisibilityType_impl.hpp"
 #include "GlobalNamespace/zzzz__EnvironmentEffectsFilterPreset_impl.hpp"
 #include "GlobalNamespace/zzzz__NoteJumpDurationTypeSettings_impl.hpp"
+#include "System/zzzz__Nullable_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__PlayerSpecificSettings_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapDifficulty_def.hpp"
 #include "GlobalNamespace/zzzz__NoteJumpDurationTypeSettings_def.hpp"
-#include "GlobalNamespace/zzzz__EnvironmentEffectsFilterPreset_def.hpp"
 #include "GlobalNamespace/zzzz__ArcVisibilityType_def.hpp"
-#include "System/zzzz__Nullable_1_def.hpp"
+#include "GlobalNamespace/zzzz__EnvironmentEffectsFilterPreset_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::PlayerSpecificSettings.get_leftHanded
 template <>
 

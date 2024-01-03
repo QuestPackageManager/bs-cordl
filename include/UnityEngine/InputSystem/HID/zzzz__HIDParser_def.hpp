@@ -11,10 +11,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(HIDParser)
 namespace UnityEngine::InputSystem::HID {
-struct __HIDParser__HIDItemTypeAndTag;
+struct __HIDParser__HIDReportData;
 }
 namespace UnityEngine::InputSystem::HID {
-struct __HIDParser__HIDReportData;
+struct __HIDParser__HIDItemTypeAndTag;
 }
 namespace UnityEngine::InputSystem::HID {
 struct __HIDParser__HIDItemStateGlobal;
@@ -259,7 +259,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::HID::__HIDParser__HIDItemType
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::HID {
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 98 }), TypeDefinitionIndex(TypeDefinitionIndex(2448))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2448)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 98 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6408))
 // CS Name: ::HIDParser::HIDItemStateLocal
 struct CORDL_TYPE __HIDParser__HIDItemStateLocal {

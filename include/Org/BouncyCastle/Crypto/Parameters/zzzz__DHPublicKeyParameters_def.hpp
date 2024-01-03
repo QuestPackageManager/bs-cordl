@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Crypto/Parameters/zzzz__DHKeyParameters_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(DHPublicKeyParameters)
-namespace Org::BouncyCastle::Math {
-class BigInteger;
+namespace Org::BouncyCastle::Asn1 {
+class DerObjectIdentifier;
 }
 namespace Org::BouncyCastle::Crypto::Parameters {
 class DHParameters;
 }
-namespace Org::BouncyCastle::Asn1 {
-class DerObjectIdentifier;
+namespace Org::BouncyCastle::Math {
+class BigInteger;
 }
 namespace System {
 class Object;

@@ -7,19 +7,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Latin1Encoding)
 namespace System::Text {
-class DecoderNLS;
+class EncoderNLS;
 }
 namespace System::Runtime::Serialization {
 struct StreamingContext;
 }
-namespace System::Text {
-class EncoderNLS;
+namespace System::Runtime::Serialization {
+class ISerializable;
 }
 namespace System::Runtime::Serialization {
 class SerializationInfo;
 }
-namespace System::Runtime::Serialization {
-class ISerializable;
+namespace System::Text {
+class DecoderNLS;
 }
 // Forward declare root types
 namespace System::Text {

@@ -9,20 +9,20 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(RenderTargetIdentifier)
-namespace System {
-template <typename T> class IEquatable_1;
-}
 namespace UnityEngine::Rendering {
 struct BuiltinRenderTextureType;
+}
+namespace System {
+class Object;
+}
+namespace System {
+template <typename T> class IEquatable_1;
 }
 namespace UnityEngine {
 struct CubemapFace;
 }
 namespace UnityEngine {
 class Texture;
-}
-namespace System {
-class Object;
 }
 // Forward declare root types
 namespace UnityEngine::Rendering {
@@ -34,7 +34,7 @@ MARK_VAL_T(::UnityEngine::Rendering::RenderTargetIdentifier);
 // SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Rendering {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(10116)), TypeDefinitionIndex(TypeDefinitionIndex(10339))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10339)), TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(10116))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10346))
 // CS Name: ::UnityEngine.Rendering::RenderTargetIdentifier
 struct CORDL_TYPE RenderTargetIdentifier {

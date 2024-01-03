@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ColorArrayLightWithIdsGroupEntry)
 namespace GlobalNamespace {
-class LightGroupSO;
+class ColorArrayLightWithIds;
 }
 namespace GlobalNamespace {
-class ColorArrayLightWithIds;
+class LightGroupSO;
 }
 // Forward declare root types
 namespace GlobalNamespace {

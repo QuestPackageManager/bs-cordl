@@ -10,28 +10,28 @@ namespace TMPro {
 class TextMeshProUGUI;
 }
 namespace GlobalNamespace {
-class GameplayModifiers;
-}
-namespace GlobalNamespace {
-class GameplayModifiersModelSO;
-}
-namespace GlobalNamespace {
-class __MissionLevelModifiersViewController____c__DisplayClass7_0;
-}
-namespace GlobalNamespace {
 class GameplayModifierInfoListItemsList;
 }
 namespace UnityEngine {
 class GameObject;
 }
 namespace GlobalNamespace {
+class GameplayModifiersModelSO;
+}
+namespace GlobalNamespace {
+class GameplayModifiers;
+}
+namespace GlobalNamespace {
+class __MissionLevelModifiersViewController____c__DisplayClass7_0;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace GlobalNamespace {
 class GameplayModifierInfoListItem;
 }
 namespace GlobalNamespace {
 class GameplayModifierParamsSO;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {

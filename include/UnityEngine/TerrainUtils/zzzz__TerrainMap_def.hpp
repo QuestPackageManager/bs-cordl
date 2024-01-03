@@ -10,23 +10,23 @@ CORDL_MODULE_EXPORT(TerrainMap)
 namespace UnityEngine::TerrainUtils {
 struct TerrainTileCoord;
 }
-namespace System {
-template <typename T> class Predicate_1;
+namespace UnityEngine::TerrainUtils {
+struct TerrainMapStatusCode;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace UnityEngine {
 struct Vector2;
+}
+namespace System {
+template <typename T> class Predicate_1;
 }
 namespace UnityEngine {
 class Terrain;
 }
 namespace UnityEngine::TerrainUtils {
 class __TerrainMap____c__DisplayClass3_0;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace UnityEngine::TerrainUtils {
-struct TerrainMapStatusCode;
 }
 // Forward declare root types
 namespace UnityEngine::TerrainUtils {
@@ -94,7 +94,7 @@ static_assert(offsetof(::UnityEngine::TerrainUtils::__TerrainMap____c__DisplayCl
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::TerrainUtils {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15476)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(15476)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15479))
 // CS Name: ::UnityEngine.TerrainUtils::TerrainMap*
 class CORDL_TYPE TerrainMap : public ::System::Object {

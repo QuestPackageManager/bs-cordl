@@ -6,20 +6,23 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(LoadAppInitAfterSplashScreen)
-namespace GlobalNamespace {
-class AppInitScenesTransitionSetupDataSO;
-}
-namespace GlobalNamespace {
-class __LoadAppInitAfterSplashScreen____c;
-}
-namespace System::Collections {
-class IEnumerator;
-}
 namespace UnityEngine {
 class Camera;
 }
 namespace GlobalNamespace {
+class AppInitScenesTransitionSetupDataSO;
+}
+namespace System::Collections {
+class IEnumerator;
+}
+namespace GlobalNamespace {
 class __LoadAppInitAfterSplashScreen___Start_d__2;
+}
+namespace GlobalNamespace {
+class __LoadAppInitAfterSplashScreen____c;
+}
+namespace UnityEngine {
+class AsyncOperation;
 }
 namespace System {
 class Object;
@@ -29,9 +32,6 @@ template <typename T> class IEnumerator_1;
 }
 namespace System {
 class IDisposable;
-}
-namespace UnityEngine {
-class AsyncOperation;
 }
 namespace System {
 template <typename TResult> class Func_1;

@@ -11,11 +11,11 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(FormattedFloatListSettingsController)
-namespace GlobalNamespace {
-struct __FormattedFloatListSettingsController__ValueType;
-}
 namespace System {
 template <typename T1, typename T2> class Action_2;
+}
+namespace GlobalNamespace {
+struct __FormattedFloatListSettingsController__ValueType;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -85,7 +85,7 @@ static_assert(offsetof(::GlobalNamespace::__FormattedFloatListSettingsController
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 85, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5591)), TypeDefinitionIndex(TypeDefinitionIndex(16149))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(16149)), TypeDefinitionIndex(TypeDefinitionIndex(5591))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5592))
 // CS Name: ::FormattedFloatListSettingsController*
 class CORDL_TYPE FormattedFloatListSettingsController : public ::GlobalNamespace::ListSettingsController {

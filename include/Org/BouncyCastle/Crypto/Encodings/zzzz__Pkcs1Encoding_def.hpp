@@ -10,11 +10,11 @@ CORDL_MODULE_EXPORT(Pkcs1Encoding)
 namespace Org::BouncyCastle::Crypto {
 class IAsymmetricBlockCipher;
 }
-namespace Org::BouncyCastle::Security {
-class SecureRandom;
-}
 namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;
+}
+namespace Org::BouncyCastle::Security {
+class SecureRandom;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Encodings {

@@ -4,15 +4,15 @@
 #include "UnityEngine/zzzz__Quaternion_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "GlobalNamespace/zzzz__VRController_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
-#include "UnityEngine/zzzz__Quaternion_def.hpp"
+#include "UnityEngine/XR/zzzz__XRNode_def.hpp"
+#include "GlobalNamespace/zzzz__VRControllerTransformOffset_def.hpp"
 #include "GlobalNamespace/zzzz__IVRPlatformHelper_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "System/zzzz__Action_2_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
-#include "GlobalNamespace/zzzz__VRControllerTransformOffset_def.hpp"
 #include "UnityEngine/zzzz__Pose_def.hpp"
-#include "UnityEngine/XR/zzzz__XRNode_def.hpp"
+#include "UnityEngine/zzzz__Quaternion_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::VRController.get_node
 template <>
 

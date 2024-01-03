@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 CORDL_MODULE_EXPORT(AvatarHeadOffset)
-namespace UnityEngine {
-struct Vector3;
-}
 namespace BeatSaber::AvatarCore {
 class MultiplayerAvatarPoseController;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace BeatSaber::AvatarCore {
@@ -21,7 +21,7 @@ MARK_REF_PTR_T(::BeatSaber::AvatarCore::AvatarHeadOffset);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace BeatSaber::AvatarCore {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15173))
 // CS Name: ::BeatSaber.AvatarCore::AvatarHeadOffset*
 class CORDL_TYPE AvatarHeadOffset : public ::UnityEngine::MonoBehaviour {

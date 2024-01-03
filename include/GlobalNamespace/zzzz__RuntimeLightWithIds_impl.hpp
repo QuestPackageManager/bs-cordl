@@ -2,9 +2,9 @@
 #include "GlobalNamespace/zzzz__ColorMixAndWeightingApproach_impl.hpp"
 #include "GlobalNamespace/zzzz__LightWithIds_impl.hpp"
 #include "GlobalNamespace/zzzz__RuntimeLightWithIds_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "GlobalNamespace/zzzz__LightWithIds_def.hpp"
 #include "GlobalNamespace/zzzz__ColorMixAndWeightingApproach_def.hpp"
+#include "GlobalNamespace/zzzz__LightWithIds_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
 #include "GlobalNamespace/zzzz__RuntimeLightWithIds_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::__RuntimeLightWithIds__LightIntensitiesWithId.get_intensity

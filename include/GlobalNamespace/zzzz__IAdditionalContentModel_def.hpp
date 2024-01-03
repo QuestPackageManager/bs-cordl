@@ -4,23 +4,23 @@
 CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(IAdditionalContentModel)
-namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
-}
-namespace System {
-class Action;
-}
-namespace GlobalNamespace {
-struct OpenProductStoreResult;
-}
-namespace System::Threading {
-struct CancellationToken;
-}
 namespace GlobalNamespace {
 struct EntitlementStatus;
 }
 namespace GlobalNamespace {
 struct IsPackBetterBuyThanLevelResult;
+}
+namespace System::Threading {
+struct CancellationToken;
+}
+namespace System::Threading::Tasks {
+template <typename TResult> class Task_1;
+}
+namespace GlobalNamespace {
+struct OpenProductStoreResult;
+}
+namespace System {
+class Action;
 }
 // Forward declare root types
 namespace GlobalNamespace {

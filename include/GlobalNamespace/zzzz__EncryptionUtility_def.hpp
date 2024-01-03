@@ -11,29 +11,29 @@ CORDL_MODULE_EXPORT(EncryptionUtility)
 namespace GlobalNamespace {
 class __EncryptionUtility____c__DisplayClass18_0;
 }
+namespace System::Security::Cryptography {
+class AesCryptoServiceProvider;
+}
 namespace GlobalNamespace {
 class __EncryptionUtility__IEncryptionState;
-}
-namespace BGNet::Core {
-class ITaskUtility;
-}
-namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
 }
 namespace GlobalNamespace {
 class __EncryptionUtility__EncryptionState;
 }
-namespace System::Security::Cryptography {
-class AesCryptoServiceProvider;
+namespace System::Threading::Tasks {
+template <typename TResult> class Task_1;
 }
-namespace Org::BouncyCastle::Crypto::Macs {
-class HMac;
+namespace BGNet::Core {
+class ITaskUtility;
+}
+namespace System {
+class IDisposable;
 }
 namespace System::Collections::Concurrent {
 template <typename T> class ConcurrentQueue_1;
 }
-namespace System {
-class IDisposable;
+namespace Org::BouncyCastle::Crypto::Macs {
+class HMac;
 }
 // Forward declare root types
 namespace GlobalNamespace {

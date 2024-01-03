@@ -7,35 +7,35 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Triangulation)
-namespace UnityEngine {
-struct Vector3;
-}
-namespace UnityEngine {
-struct Vector2;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace UnityEngine::ProBuilder::MeshOperations {
-class __Triangulation____c__DisplayClass8_0;
-}
 namespace UnityEngine::ProBuilder::MeshOperations {
 class __Triangulation____c__DisplayClass7_0;
-}
-namespace System::Collections::Generic {
-template <typename T> class IList_1;
-}
-namespace UnityEngine::ProBuilder::Poly2Tri {
-class TriangulationContext;
 }
 namespace UnityEngine::ProBuilder {
 class Vertex;
 }
 namespace UnityEngine::ProBuilder::Poly2Tri {
-class TriangulationPoint;
+class TriangulationContext;
+}
+namespace UnityEngine {
+struct Vector2;
+}
+namespace UnityEngine::ProBuilder::MeshOperations {
+class __Triangulation____c__DisplayClass8_0;
+}
+namespace System::Collections::Generic {
+template <typename T> class IList_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 namespace UnityEngine::ProBuilder::Poly2Tri {
 class PolygonPoint;
+}
+namespace UnityEngine::ProBuilder::Poly2Tri {
+class TriangulationPoint;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;

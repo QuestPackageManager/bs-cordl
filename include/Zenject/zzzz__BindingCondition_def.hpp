@@ -8,14 +8,14 @@ CORDL_MODULE_EXPORT(BindingCondition)
 namespace System {
 class Object;
 }
-namespace Zenject {
-class InjectContext;
-}
 namespace System {
 class AsyncCallback;
 }
 namespace System {
 class IAsyncResult;
+}
+namespace Zenject {
+class InjectContext;
 }
 // Forward declare root types
 namespace Zenject {

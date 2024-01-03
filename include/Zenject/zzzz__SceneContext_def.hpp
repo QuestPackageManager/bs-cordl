@@ -8,52 +8,52 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(SceneContext)
 namespace Zenject {
-class __SceneContext____c__DisplayClass49_0;
-}
-namespace Zenject {
 class DiContainer;
 }
-namespace System {
-template <typename T> class Action_1;
+namespace Zenject {
+class __SceneContext____c__DisplayClass49_0;
 }
 namespace UnityEngine {
 class GameObject;
 }
-namespace System {
-class Action;
-}
-namespace Zenject {
-class SceneDecoratorContext;
-}
 namespace Zenject {
 class InjectTypeInfo;
-}
-namespace Zenject {
-class __SceneContext____c;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
-namespace UnityEngine::Events {
-class UnityEvent;
+namespace Zenject {
+class __SceneContext____c__DisplayClass51_0;
 }
 namespace UnityEngine {
 class MonoBehaviour;
 }
 namespace Zenject {
-class __SceneContext____c__DisplayClass51_0;
+class SceneDecoratorContext;
 }
-namespace UnityEngine::SceneManagement {
-struct Scene;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
+namespace UnityEngine::Events {
+class UnityEvent;
+}
+namespace System {
+class Action;
+}
+namespace Zenject {
+class __SceneContext____c;
+}
+namespace System {
+template <typename T> class Action_1;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;
 }
 namespace System {
 class Object;
+}
+namespace UnityEngine::SceneManagement {
+struct Scene;
 }
 // Forward declare root types
 namespace Zenject {

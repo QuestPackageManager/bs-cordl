@@ -9,14 +9,14 @@ CORDL_MODULE_EXPORT(CADSerializer)
 namespace System {
 class Object;
 }
+namespace System::IO {
+class MemoryStream;
+}
 namespace System::Runtime::Remoting::Messaging {
 class IMessage;
 }
 namespace System::Runtime::Remoting::Messaging {
 class IMethodCallMessage;
-}
-namespace System::IO {
-class MemoryStream;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting::Channels {

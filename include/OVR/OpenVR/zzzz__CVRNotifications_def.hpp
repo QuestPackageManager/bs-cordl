@@ -9,6 +9,9 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(CVRNotifications)
 namespace OVR::OpenVR {
+struct EVRNotificationError;
+}
+namespace OVR::OpenVR {
 struct NotificationBitmap_t;
 }
 namespace OVR::OpenVR {
@@ -16,9 +19,6 @@ struct EVRNotificationStyle;
 }
 namespace OVR::OpenVR {
 struct EVRNotificationType;
-}
-namespace OVR::OpenVR {
-struct EVRNotificationError;
 }
 // Forward declare root types
 namespace OVR::OpenVR {
@@ -30,7 +30,7 @@ MARK_REF_PTR_T(::OVR::OpenVR::CVRNotifications);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8493))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8493)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8571))
 // CS Name: ::OVR.OpenVR::CVRNotifications*
 class CORDL_TYPE CVRNotifications : public ::System::Object {

@@ -6,16 +6,16 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 CORDL_MODULE_EXPORT(VRIKRootController)
 namespace UnityEngine {
+struct Vector3;
+}
+namespace UnityEngine {
 class Transform;
 }
 namespace RootMotion::FinalIK {
-class VRIK;
-}
-namespace UnityEngine {
-struct Vector3;
+class __VRIKCalibrator__CalibrationData;
 }
 namespace RootMotion::FinalIK {
-class __VRIKCalibrator__CalibrationData;
+class VRIK;
 }
 // Forward declare root types
 namespace RootMotion::FinalIK {
@@ -27,7 +27,7 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::VRIKRootController);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12674))
 // CS Name: ::RootMotion.FinalIK::VRIKRootController*
 class CORDL_TYPE VRIKRootController : public ::UnityEngine::MonoBehaviour {

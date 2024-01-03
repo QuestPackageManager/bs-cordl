@@ -1,9 +1,9 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "RootMotion/zzzz__SolverManager_def.hpp"
+#include "UnityEngine/zzzz__Animator_def.hpp"
 #include "UnityEngine/zzzz__Animation_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
-#include "UnityEngine/zzzz__Animator_def.hpp"
 //  Writing Method size for method: ::RootMotion::SolverManager.Disable
 template <>
 

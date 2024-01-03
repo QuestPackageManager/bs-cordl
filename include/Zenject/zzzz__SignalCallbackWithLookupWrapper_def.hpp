@@ -10,31 +10,31 @@ namespace Zenject {
 class SignalBus;
 }
 namespace System {
+class Type;
+}
+namespace Zenject {
+class SignalBindingBindInfo;
+}
+namespace System {
 class Object;
 }
 namespace Zenject {
 class DiContainer;
 }
 namespace System {
+class IDisposable;
+}
+namespace System {
 struct Guid;
-}
-namespace Zenject {
-class InjectTypeInfo;
-}
-namespace Zenject {
-class SignalBindingBindInfo;
 }
 namespace System {
 template <typename T> class Action_1;
 }
-namespace System {
-class IDisposable;
+namespace Zenject {
+class InjectTypeInfo;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;
-}
-namespace System {
-class Type;
 }
 // Forward declare root types
 namespace Zenject {
@@ -46,7 +46,7 @@ MARK_REF_PTR_T(::Zenject::SignalCallbackWithLookupWrapper);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2406)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2406))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10648))
 // CS Name: ::Zenject::SignalCallbackWithLookupWrapper*
 class CORDL_TYPE SignalCallbackWithLookupWrapper : public ::System::Object {

@@ -8,56 +8,56 @@ CORDL_MODULE_INIT
 #include "System/Threading/zzzz__CancellationToken_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(TaskFactory_1)
-namespace System {
-template <typename T, typename TResult> class Func_2;
-}
 namespace System::Threading::Tasks {
-template <typename TResult> class __TaskFactory_1____c__DisplayClass35_0;
-}
-namespace System {
-template <typename T> class Action_1;
+struct TaskContinuationOptions;
 }
 namespace System {
 class Object;
 }
 namespace System::Threading::Tasks {
-struct TaskContinuationOptions;
-}
-namespace System::Threading::Tasks {
-template <typename TResult, typename TArg1> class __TaskFactory_1____c__DisplayClass38_0_1;
-}
-namespace System::Threading::Tasks {
 template <typename TResult> class Task_1;
+}
+namespace System {
+template <typename T1, typename T2, typename TResult> class Func_3;
 }
 namespace System {
 template <typename T1, typename T2, typename T3, typename TResult> class Func_4;
 }
 namespace System {
-template <typename T1, typename T2, typename TResult> class Func_3;
+class AsyncCallback;
 }
-namespace System::Threading {
-struct CancellationToken;
+namespace System {
+template <typename T1, typename T2, typename T3, typename T4, typename TResult> class Func_5;
+}
+namespace System {
+class IAsyncResult;
+}
+namespace System::Threading::Tasks {
+struct TaskCreationOptions;
+}
+namespace System::Threading::Tasks {
+template <typename TResult> class __TaskFactory_1____c__DisplayClass35_0;
 }
 namespace System::Threading::Tasks {
 template <typename TResult, typename TInstance> class __TaskFactory_1__FromAsyncTrimPromise_1;
 }
 namespace System::Threading::Tasks {
+template <typename TResult, typename TArg1> class __TaskFactory_1____c__DisplayClass38_0_1;
+}
+namespace System::Threading::Tasks {
 template <typename TResult, typename TArg1, typename TArg2> class __TaskFactory_1____c__DisplayClass41_0_2;
 }
 namespace System {
-class IAsyncResult;
-}
-namespace System {
-class AsyncCallback;
-}
-namespace System::Threading::Tasks {
-struct TaskCreationOptions;
-}
-namespace System {
-template <typename T1, typename T2, typename T3, typename T4, typename TResult> class Func_5;
+template <typename T, typename TResult> class Func_2;
 }
 namespace System::Threading::Tasks {
 class TaskScheduler;
+}
+namespace System {
+template <typename T> class Action_1;
+}
+namespace System::Threading {
+struct CancellationToken;
 }
 // Forward declare root types
 namespace System::Threading::Tasks {
@@ -87,7 +87,7 @@ namespace System::Threading::Tasks {
 // cpp template
 template <typename TResult, typename TInstance>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2773)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2773), inst: 5117 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2773), inst: 5117 }), TypeDefinitionIndex(TypeDefinitionIndex(2773))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2775))
 // CS Name: ::TaskFactory`1::FromAsyncTrimPromise`1<TResult,TInstance>*
 class CORDL_TYPE __TaskFactory_1__FromAsyncTrimPromise_1 : public ::System::Threading::Tasks::Task_1<TResult> {
@@ -382,8 +382,8 @@ namespace System::Threading::Tasks {
 // cpp template
 template <typename TResult>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2790)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2792)),
-// TypeDefinitionIndex(TypeDefinitionIndex(2677))} Self: TypeDefinitionIndex(TypeDefinitionIndex(2779)) CS Name: ::System.Threading.Tasks::TaskFactory`1<TResult>*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2792)), TypeDefinitionIndex(TypeDefinitionIndex(2677)),
+// TypeDefinitionIndex(TypeDefinitionIndex(2790))} Self: TypeDefinitionIndex(TypeDefinitionIndex(2779)) CS Name: ::System.Threading.Tasks::TaskFactory`1<TResult>*
 class CORDL_TYPE TaskFactory_1 : public ::System::Object {
 public:
   // Declarations

@@ -7,7 +7,7 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(DecimalConverter)
 namespace System {
-class Type;
+class Object;
 }
 namespace System::Globalization {
 class CultureInfo;
@@ -15,11 +15,11 @@ class CultureInfo;
 namespace System::ComponentModel {
 class ITypeDescriptorContext;
 }
-namespace System {
-class Object;
-}
 namespace System::Globalization {
 class NumberFormatInfo;
+}
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace System::ComponentModel {

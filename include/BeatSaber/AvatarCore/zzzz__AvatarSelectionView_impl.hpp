@@ -3,11 +3,11 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "BeatSaber/AvatarCore/zzzz__AvatarSelectionView_def.hpp"
 #include "UnityEngine/zzzz__RectTransform_def.hpp"
+#include "UnityEngine/UI/zzzz__Button_def.hpp"
 #include "HMUI/zzzz__ButtonBinder_def.hpp"
+#include "HMUI/zzzz__ImageView_def.hpp"
 #include "System/zzzz__Action_def.hpp"
 #include "TMPro/zzzz__TextMeshProUGUI_def.hpp"
-#include "UnityEngine/UI/zzzz__Button_def.hpp"
-#include "HMUI/zzzz__ImageView_def.hpp"
 //  Writing Method size for method: ::BeatSaber::AvatarCore::AvatarSelectionView.add_didPressEditButtonEvent
 template <>
 

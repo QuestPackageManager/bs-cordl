@@ -8,28 +8,28 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(LightRotationBeatmapEventDataBox)
 namespace GlobalNamespace {
-class IBeatToTimeConvertor;
-}
-namespace GlobalNamespace {
-class LightRotationBaseData;
-}
-namespace System::Collections::Generic {
-template <typename T> class IReadOnlyList_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace GlobalNamespace {
 struct __BeatmapEventDataBox__DistributionParamType;
-}
-namespace GlobalNamespace {
-class BeatmapEventData;
 }
 namespace GlobalNamespace {
 struct EaseType;
 }
+namespace System::Collections::Generic {
+template <typename T> class IReadOnlyList_1;
+}
+namespace GlobalNamespace {
+class LightRotationBaseData;
+}
 namespace GlobalNamespace {
 class IndexFilter;
+}
+namespace GlobalNamespace {
+class IBeatToTimeConvertor;
+}
+namespace GlobalNamespace {
+class BeatmapEventData;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace GlobalNamespace {
 struct LightAxis;
@@ -44,7 +44,7 @@ MARK_REF_PTR_T(::GlobalNamespace::LightRotationBeatmapEventDataBox);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4301)), TypeDefinitionIndex(TypeDefinitionIndex(14733))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14733)), TypeDefinitionIndex(TypeDefinitionIndex(4301))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4322))
 // CS Name: ::LightRotationBeatmapEventDataBox*
 class CORDL_TYPE LightRotationBeatmapEventDataBox : public ::GlobalNamespace::BeatmapEventDataBox {

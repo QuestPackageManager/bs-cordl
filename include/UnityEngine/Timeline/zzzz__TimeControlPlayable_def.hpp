@@ -4,20 +4,20 @@
 CORDL_MODULE_INIT
 #include "UnityEngine/Playables/zzzz__PlayableBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(TimeControlPlayable)
-namespace UnityEngine::Playables {
-struct PlayableGraph;
-}
-namespace UnityEngine::Playables {
-template <typename T> struct ScriptPlayable_1;
-}
 namespace UnityEngine::Timeline {
 class ITimeControl;
+}
+namespace UnityEngine::Playables {
+struct FrameData;
 }
 namespace UnityEngine::Playables {
 struct Playable;
 }
 namespace UnityEngine::Playables {
-struct FrameData;
+template <typename T> struct ScriptPlayable_1;
+}
+namespace UnityEngine::Playables {
+struct PlayableGraph;
 }
 // Forward declare root types
 namespace UnityEngine::Timeline {

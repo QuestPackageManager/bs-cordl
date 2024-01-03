@@ -1,8 +1,8 @@
 #pragma once
 #include "System/Runtime/Serialization/zzzz__StreamingContextStates_impl.hpp"
 #include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
-#include "System/zzzz__Object_def.hpp"
 #include "System/Runtime/Serialization/zzzz__StreamingContextStates_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::System::Runtime::Serialization::StreamingContext._ctor
 template <>
 

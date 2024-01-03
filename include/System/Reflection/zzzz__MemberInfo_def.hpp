@@ -11,13 +11,13 @@ namespace System::Reflection {
 struct MemberTypes;
 }
 namespace System::Reflection {
-class Module;
-}
-namespace System::Reflection {
 class ICustomAttributeProvider;
 }
 namespace System {
 class Type;
+}
+namespace System::Reflection {
+class Module;
 }
 namespace System {
 class Object;

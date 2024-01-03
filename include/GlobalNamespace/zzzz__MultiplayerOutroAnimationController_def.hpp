@@ -7,29 +7,23 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(MultiplayerOutroAnimationController)
-namespace UnityEngine {
-struct PropertyName;
-}
-namespace UnityEngine::Playables {
-class PlayableDirector;
-}
 namespace GlobalNamespace {
-class MultiplayerLayoutProvider;
-}
-namespace UnityEngine {
-class GameObject;
-}
-namespace GlobalNamespace {
-class MultiplayerScoreRingManager;
+class MultiplayerPlayersManager;
 }
 namespace GlobalNamespace {
 class MultiplayerResultsData;
 }
 namespace GlobalNamespace {
-class IMultiplayerSessionManager;
+class MultiplayerScoreRingManager;
 }
-namespace UnityEngine {
-class Transform;
+namespace GlobalNamespace {
+class MultiplayerResultsPyramidView;
+}
+namespace UnityEngine::Playables {
+class PlayableDirector;
+}
+namespace GlobalNamespace {
+class IMultiplayerSessionManager;
 }
 namespace GlobalNamespace {
 class GameplayCoreSceneSetupData;
@@ -38,10 +32,16 @@ namespace System {
 class Action;
 }
 namespace GlobalNamespace {
-class MultiplayerPlayersManager;
+class MultiplayerLayoutProvider;
 }
-namespace GlobalNamespace {
-class MultiplayerResultsPyramidView;
+namespace UnityEngine {
+class Transform;
+}
+namespace UnityEngine {
+struct PropertyName;
+}
+namespace UnityEngine {
+class GameObject;
 }
 // Forward declare root types
 namespace GlobalNamespace {

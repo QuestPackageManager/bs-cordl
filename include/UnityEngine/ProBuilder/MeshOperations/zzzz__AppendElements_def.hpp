@@ -7,11 +7,17 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(AppendElements)
+namespace UnityEngine {
+struct Color;
+}
 namespace UnityEngine::ProBuilder {
-class PolyShape;
+class Vertex;
+}
+namespace UnityEngine {
+struct Vector4;
 }
 namespace System::Collections::Generic {
-template <typename T> class IList_1;
+template <typename T> class List_1;
 }
 namespace UnityEngine::ProBuilder::MeshOperations {
 class __AppendElements____c__DisplayClass17_0;
@@ -19,38 +25,32 @@ class __AppendElements____c__DisplayClass17_0;
 namespace UnityEngine {
 struct Vector3;
 }
-namespace UnityEngine {
-struct Vector2;
+namespace UnityEngine::ProBuilder {
+class FaceRebuildData;
 }
 namespace UnityEngine::ProBuilder {
 class ActionResult;
 }
 namespace UnityEngine::ProBuilder {
-class Vertex;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace UnityEngine::ProBuilder {
-struct Edge;
-}
-namespace UnityEngine {
-struct Color;
-}
-namespace UnityEngine {
-struct Vector4;
+class Face;
 }
 namespace UnityEngine::ProBuilder {
 class ProBuilderMesh;
 }
 namespace UnityEngine::ProBuilder {
-class FaceRebuildData;
+class PolyShape;
 }
 namespace UnityEngine::ProBuilder {
-class Face;
+struct Edge;
 }
 namespace UnityEngine::ProBuilder::MeshOperations {
 class __AppendElements____c;
+}
+namespace System::Collections::Generic {
+template <typename T> class IList_1;
+}
+namespace UnityEngine {
+struct Vector2;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;

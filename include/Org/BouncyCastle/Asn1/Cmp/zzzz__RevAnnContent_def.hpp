@@ -10,9 +10,6 @@ class Asn1Sequence;
 namespace System {
 class Object;
 }
-namespace Org::BouncyCastle::Asn1::Crmf {
-class CertId;
-}
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
 }
@@ -21,6 +18,9 @@ class PkiStatusEncodable;
 }
 namespace Org::BouncyCastle::Asn1 {
 class DerGeneralizedTime;
+}
+namespace Org::BouncyCastle::Asn1::Crmf {
+class CertId;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class X509Extensions;

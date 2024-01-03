@@ -6,6 +6,24 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(RemotingConfiguration)
+namespace System::Runtime::Remoting {
+class WellKnownClientTypeEntry;
+}
+namespace System::Collections {
+class ArrayList;
+}
+namespace System::Collections {
+class Hashtable;
+}
+namespace System::Runtime::Remoting {
+class WellKnownServiceTypeEntry;
+}
+namespace System::Runtime::Remoting {
+class ProviderData;
+}
+namespace System::Runtime::Remoting {
+class ChannelData;
+}
 namespace System {
 class Type;
 }
@@ -14,24 +32,6 @@ class ActivatedServiceTypeEntry;
 }
 namespace System::Runtime::Remoting {
 class ActivatedClientTypeEntry;
-}
-namespace System::Collections {
-class Hashtable;
-}
-namespace System::Collections {
-class ArrayList;
-}
-namespace System::Runtime::Remoting {
-class WellKnownClientTypeEntry;
-}
-namespace System::Runtime::Remoting {
-class ProviderData;
-}
-namespace System::Runtime::Remoting {
-class WellKnownServiceTypeEntry;
-}
-namespace System::Runtime::Remoting {
-class ChannelData;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting {
@@ -43,7 +43,7 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::RemotingConfiguration);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3055))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3055)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3064))
 // CS Name: ::System.Runtime.Remoting::RemotingConfiguration*
 class CORDL_TYPE RemotingConfiguration : public ::System::Object {

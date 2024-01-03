@@ -7,18 +7,6 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(JArray)
-namespace System::Collections::Generic {
-template <typename T> class IList_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
-namespace Newtonsoft::Json::Linq {
-struct JTokenType;
-}
 namespace Newtonsoft::Json {
 class JsonReader;
 }
@@ -28,17 +16,26 @@ class Object;
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
-namespace Newtonsoft::Json {
-class JsonWriter;
-}
-namespace System::Collections {
-class IEnumerable;
+namespace System::Collections::Generic {
+template <typename T> class IList_1;
 }
 namespace Newtonsoft::Json {
 class JsonConverter;
 }
+namespace Newtonsoft::Json {
+class JsonWriter;
+}
 namespace System::Collections::Generic {
 template <typename T> class ICollection_1;
+}
+namespace Newtonsoft::Json::Linq {
+class JToken;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
+}
+namespace Newtonsoft::Json::Linq {
+struct JTokenType;
 }
 namespace Newtonsoft::Json::Linq {
 class JsonMergeSettings;
@@ -47,10 +44,13 @@ namespace Newtonsoft::Json {
 class JsonSerializer;
 }
 namespace Newtonsoft::Json::Linq {
-class JToken;
-}
-namespace Newtonsoft::Json::Linq {
 class JsonLoadSettings;
+}
+namespace System::Collections {
+class IEnumerable;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Linq {

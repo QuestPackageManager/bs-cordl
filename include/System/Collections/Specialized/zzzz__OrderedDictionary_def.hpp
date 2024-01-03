@@ -5,29 +5,11 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(OrderedDictionary)
-namespace System {
-class Array;
-}
 namespace System::Collections {
-class IEqualityComparer;
+class IDictionary;
 }
-namespace System::Runtime::Serialization {
-class ISerializable;
-}
-namespace System::Collections {
-class IEnumerable;
-}
-namespace System::Collections {
-class Hashtable;
-}
-namespace System::Runtime::Serialization {
-struct StreamingContext;
-}
-namespace System::Collections {
-class IDictionaryEnumerator;
-}
-namespace System::Runtime::Serialization {
-class IDeserializationCallback;
+namespace System::Collections::Specialized {
+class __OrderedDictionary__OrderedDictionaryKeyValueCollection;
 }
 namespace System {
 class Object;
@@ -36,22 +18,40 @@ namespace System::Collections {
 class ICollection;
 }
 namespace System::Collections {
-class IDictionary;
+class IDictionaryEnumerator;
+}
+namespace System::Collections {
+class Hashtable;
+}
+namespace System {
+class Array;
 }
 namespace System::Runtime::Serialization {
 class SerializationInfo;
 }
 namespace System::Collections::Specialized {
-class __OrderedDictionary__OrderedDictionaryKeyValueCollection;
+class __OrderedDictionary__OrderedDictionaryEnumerator;
+}
+namespace System::Collections {
+class IEnumerable;
+}
+namespace System::Runtime::Serialization {
+class ISerializable;
 }
 namespace System::Collections {
 class ArrayList;
 }
-namespace System::Collections::Specialized {
-class __OrderedDictionary__OrderedDictionaryEnumerator;
+namespace System::Collections {
+class IEqualityComparer;
+}
+namespace System::Runtime::Serialization {
+class IDeserializationCallback;
 }
 namespace System::Collections {
 class IEnumerator;
+}
+namespace System::Runtime::Serialization {
+struct StreamingContext;
 }
 namespace System::Collections {
 struct DictionaryEntry;

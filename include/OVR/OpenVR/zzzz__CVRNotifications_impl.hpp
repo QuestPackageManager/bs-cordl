@@ -2,10 +2,10 @@
 #include "OVR/OpenVR/zzzz__IVRNotifications_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "OVR/OpenVR/zzzz__CVRNotifications_def.hpp"
+#include "OVR/OpenVR/zzzz__EVRNotificationError_def.hpp"
 #include "OVR/OpenVR/zzzz__NotificationBitmap_t_def.hpp"
 #include "OVR/OpenVR/zzzz__EVRNotificationStyle_def.hpp"
 #include "OVR/OpenVR/zzzz__EVRNotificationType_def.hpp"
-#include "OVR/OpenVR/zzzz__EVRNotificationError_def.hpp"
 //  Writing Method size for method: ::OVR::OpenVR::CVRNotifications._ctor
 template <>
 

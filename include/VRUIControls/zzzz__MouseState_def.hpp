@@ -5,19 +5,19 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(MouseState)
 namespace UnityEngine::EventSystems {
-struct __PointerEventData__FramePressState;
-}
-namespace UnityEngine::EventSystems {
-class PointerEventData;
-}
-namespace UnityEngine::EventSystems {
 struct __PointerEventData__InputButton;
+}
+namespace VRUIControls {
+class ButtonState;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
-namespace VRUIControls {
-class ButtonState;
+namespace UnityEngine::EventSystems {
+struct __PointerEventData__FramePressState;
+}
+namespace UnityEngine::EventSystems {
+class PointerEventData;
 }
 // Forward declare root types
 namespace VRUIControls {

@@ -19,7 +19,7 @@ MARK_REF_PTR_T(::UnityEngine::Bindings::StaticAccessorAttribute);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Bindings {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(16027)), TypeDefinitionIndex(TypeDefinitionIndex(2547))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547)), TypeDefinitionIndex(TypeDefinitionIndex(16027))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(16028))
 // CS Name: ::UnityEngine.Bindings::StaticAccessorAttribute*
 class CORDL_TYPE StaticAccessorAttribute : public ::System::Attribute {

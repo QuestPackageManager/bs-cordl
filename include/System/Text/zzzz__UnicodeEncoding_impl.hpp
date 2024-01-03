@@ -2,13 +2,13 @@
 #include "System/Text/zzzz__DecoderNLS_impl.hpp"
 #include "System/Text/zzzz__Encoding_impl.hpp"
 #include "System/Text/zzzz__UnicodeEncoding_def.hpp"
-#include "System/zzzz__ReadOnlySpan_1_def.hpp"
-#include "System/Text/zzzz__UnicodeEncoding_def.hpp"
-#include "System/Text/zzzz__EncoderNLS_def.hpp"
-#include "System/Text/zzzz__Encoder_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "System/zzzz__ReadOnlySpan_1_def.hpp"
 #include "System/Text/zzzz__DecoderNLS_def.hpp"
+#include "System/Text/zzzz__Encoder_def.hpp"
 #include "System/Text/zzzz__Decoder_def.hpp"
+#include "System/Text/zzzz__EncoderNLS_def.hpp"
+#include "System/Text/zzzz__UnicodeEncoding_def.hpp"
 //  Writing Method size for method: ::System::Text::__UnicodeEncoding__Decoder._ctor
 template <>
 

@@ -6,9 +6,9 @@
 #include "GlobalNamespace/zzzz__OculusTestExperiment_def.hpp"
 #include "GlobalNamespace/zzzz__IExperimentModel_def.hpp"
 #include "GlobalNamespace/zzzz__IExperimentData_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncVoidMethodBuilder_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::__OculusTestExperiment__ExperimentData.get_experimentPlatformKey
 template <>
 

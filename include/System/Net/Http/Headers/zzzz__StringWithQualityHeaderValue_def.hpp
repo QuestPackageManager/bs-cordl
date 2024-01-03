@@ -10,22 +10,22 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(StringWithQualityHeaderValue)
 namespace System {
-template <typename T> struct Nullable_1;
+class ICloneable;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace System::Net::Http::Headers {
 struct Token;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace System {
+template <typename T> struct Nullable_1;
 }
 namespace System::Net::Http::Headers {
 class Lexer;
 }
 namespace System {
 class Object;
-}
-namespace System {
-class ICloneable;
 }
 // Forward declare root types
 namespace System::Net::Http::Headers {
@@ -37,8 +37,8 @@ MARK_REF_PTR_T(::System::Net::Http::Headers::StringWithQualityHeaderValue);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Http::Headers {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 2704 }), TypeDefinitionIndex(TypeDefinitionIndex(2448)),
-// TypeDefinitionIndex(TypeDefinitionIndex(2613))} Self: TypeDefinitionIndex(TypeDefinitionIndex(14707)) CS Name: ::System.Net.Http.Headers::StringWithQualityHeaderValue*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2448)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 2704
+// })} Self: TypeDefinitionIndex(TypeDefinitionIndex(14707)) CS Name: ::System.Net.Http.Headers::StringWithQualityHeaderValue*
 class CORDL_TYPE StringWithQualityHeaderValue : public ::System::Object {
 public:
   // Declarations

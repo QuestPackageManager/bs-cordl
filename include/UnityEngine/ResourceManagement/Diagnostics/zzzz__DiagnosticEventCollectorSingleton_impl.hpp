@@ -3,13 +3,13 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/ResourceManagement/Util/zzzz__ComponentSingleton_1_impl.hpp"
 #include "UnityEngine/ResourceManagement/Diagnostics/zzzz__DiagnosticEventCollectorSingleton_def.hpp"
-#include "GlobalNamespace/zzzz__DelegateList_1_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "UnityEngine/ResourceManagement/Diagnostics/zzzz__DiagnosticEvent_def.hpp"
-#include "System/zzzz__Guid_def.hpp"
 #include "UnityEngine/ResourceManagement/Diagnostics/zzzz__DiagnosticEventCollectorSingleton_def.hpp"
+#include "GlobalNamespace/zzzz__DelegateList_1_def.hpp"
+#include "System/zzzz__Guid_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
 //  Writing Method size for method: ::UnityEngine::ResourceManagement::Diagnostics::__DiagnosticEventCollectorSingleton____c._ctor
 template <>

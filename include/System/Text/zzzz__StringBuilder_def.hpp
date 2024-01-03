@@ -10,28 +10,28 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(StringBuilder)
 namespace System::Runtime::Serialization {
+class ISerializable;
+}
+namespace System {
+template <typename T> struct Span_1;
+}
+namespace System {
+struct ParamsArray;
+}
+namespace System::Runtime::Serialization {
 class SerializationInfo;
+}
+namespace System {
+template <typename T> struct ReadOnlySpan_1;
+}
+namespace System {
+class IFormatProvider;
 }
 namespace System {
 class Object;
 }
 namespace System::Runtime::Serialization {
 struct StreamingContext;
-}
-namespace System {
-struct ParamsArray;
-}
-namespace System {
-class IFormatProvider;
-}
-namespace System {
-template <typename T> struct ReadOnlySpan_1;
-}
-namespace System {
-template <typename T> struct Span_1;
-}
-namespace System::Runtime::Serialization {
-class ISerializable;
 }
 // Forward declare root types
 namespace System::Text {

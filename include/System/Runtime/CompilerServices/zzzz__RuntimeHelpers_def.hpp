@@ -9,13 +9,13 @@ namespace System {
 struct RuntimeTypeHandle;
 }
 namespace System {
+class Object;
+}
+namespace System {
 struct RuntimeFieldHandle;
 }
 namespace System {
 class Array;
-}
-namespace System {
-class Object;
 }
 // Forward declare root types
 namespace System::Runtime::CompilerServices {

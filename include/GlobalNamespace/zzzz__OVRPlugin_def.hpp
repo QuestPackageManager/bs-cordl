@@ -19,811 +19,808 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVRPlugin)
 namespace GlobalNamespace {
-struct __OVRPlugin__SkeletonConstants;
-}
-namespace GlobalNamespace {
-class __OVRPlugin__OVRP_1_34_0;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__Vector2f;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__PoseStatef;
+struct __OVRPlugin__ControllerState6;
 }
 namespace GlobalNamespace {
 struct __OVRPlugin__InsightPassthroughStyleFlags;
 }
 namespace GlobalNamespace {
-struct __OVRPlugin__BlendFactor;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__VirtualKeyboardModelAnimationStates;
-}
-namespace GlobalNamespace {
-class __OVRPlugin__OVRP_1_9_0;
-}
-namespace GlobalNamespace {
-class __OVRPlugin__OVRP_1_63_0;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__CameraIntrinsics;
-}
-namespace GlobalNamespace {
-class __OVRPlugin__OVRP_1_15_0;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__Handedness;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__HapticsAmplitudeEnvelopeVibration;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__SpaceStoragePersistenceMode;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__FixedFoveatedRenderingLevel;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__FeatureType;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__HapticsDesc;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__VirtualKeyboardInputInfo;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__LayerDesc;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__LayerSharpenType;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__OverlayFlag;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__KeyboardDescription;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__VirtualKeyboardTextureIdsInternal;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__SpaceComponentType;
-}
-namespace GlobalNamespace {
-class __OVRPlugin__OVRP_1_69_0;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__Frustumf2;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__CameraAnchorType;
-}
-namespace GlobalNamespace {
-class __OVRPlugin__OVRP_1_49_0;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__Sizef;
-}
-namespace GlobalNamespace {
-class __OVRPlugin__OVRP_1_83_0;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__InsightPassthroughKeyboardHandsIntensity;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__HapticsPcmVibration;
-}
-namespace GlobalNamespace {
-class __OVRPlugin__OVRP_0_1_3;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__Recti;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__HapticsBuffer;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__RenderModelProperties;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__Bool;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__EyeGazeState;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__Quatf;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__SpaceQueryActionType;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__TiledMultiResLevel;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__HandFinger;
-}
-namespace GlobalNamespace {
-class __OVRPlugin__OVRP_1_36_0;
-}
-namespace GlobalNamespace {
-class __OVRPlugin__OVRP_1_39_0;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__MeshConstants;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__InsightPassthroughStyle2;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__PassthroughColorLutData;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__SpaceStorageLocation;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__LayerDescInternal;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__RoomLayout;
-}
-namespace GlobalNamespace {
-class __OVRPlugin__OVRP_1_31_0;
-}
-namespace GlobalNamespace {
-class __OVRPlugin__OVRP_1_56_0;
-}
-namespace GlobalNamespace {
-class __OVRPlugin__OVRP_1_67_0;
-}
-namespace GlobalNamespace {
-class __OVRPlugin__OVRP_1_70_0;
-}
-namespace GlobalNamespace {
-class __OVRPlugin__OVRP_1_55_0;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__LogLevel;
-}
-namespace GlobalNamespace {
-class __OVRPlugin__OVRP_1_3_0;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__PassthroughPreferenceFields;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__PassthroughCapabilities;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__Frustumf;
-}
-namespace GlobalNamespace {
-class __OVRPlugin__OVRP_1_73_0;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__LayerSuperSamplingType;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__ProcessorPerformanceLevel;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__Vector3f;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__HapticsState;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__SpaceFilterInfoComponents;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__SpaceFilterInfoIds;
-}
-namespace GlobalNamespace {
-class __OVRPlugin__OVRP_1_71_0;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__KeyboardState;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__Sizei;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__FaceExpressionStatus;
-}
-namespace GlobalNamespace {
-class __OVRPlugin__OVRP_1_88_0;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__Skeleton;
-}
-namespace GlobalNamespace {
-class __OVRPlugin__OVRP_1_32_0;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__Fovf;
-}
-namespace GlobalNamespace {
-class __OVRPlugin__OVRP_1_37_0;
-}
-namespace GlobalNamespace {
-class __OVRPlugin__Mesh;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__RenderModelFlags;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__HandFingerPinch;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__VirtualKeyboardTextureIds;
-}
-namespace GlobalNamespace {
-class __OVRPlugin__OVRP_1_11_0;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__HandState;
-}
-namespace GlobalNamespace {
-class __OVRPlugin__OVRP_1_85_0;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__ControllerState4;
-}
-namespace GlobalNamespace {
-class __OVRPlugin__Media;
-}
-namespace GlobalNamespace {
-class __OVRPlugin__OVRP_0_1_2;
-}
-namespace GlobalNamespace {
-class __OVRPlugin__OVRP_1_0_0;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__FaceState;
-}
-namespace GlobalNamespace {
-class __OVRPlugin__OVRP_1_65_0;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__EventType;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__SpaceSemanticLabelInternal;
-}
-namespace GlobalNamespace {
-class __OVRPlugin__LogCallback2DelegateType;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__PassthroughPreferenceFlags;
-}
-namespace GlobalNamespace {
-class __OVRPlugin__Qpl;
-}
-namespace UnityEngine {
-struct Vector3;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__Result;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__MeshType;
-}
-namespace GlobalNamespace {
-class __OVRPlugin__OVRP_1_74_0;
-}
-namespace GlobalNamespace {
-class __OVRPlugin__Ktx;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__VirtualKeyboardModelAnimationState;
-}
-namespace GlobalNamespace {
-class __OVRPlugin__OVRP_1_53_0;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__Node;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__FaceState2Internal;
-}
-namespace GlobalNamespace {
-class __OVRPlugin__OVRP_1_78_0;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__VirtualKeyboardLocationInfo;
-}
-namespace GlobalNamespace {
-class __OVRPlugin__OVRP_1_5_0;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__PassthroughColorLutChannels;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__VirtualKeyboardInputStateFlags;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__VirtualKeyboardInputSource;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__VirtualKeyboardTextureData;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__Skeleton2Internal;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__VirtualKeyboardCreateInfo;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__FaceRegionConfidence;
-}
-namespace GlobalNamespace {
-class __OVRPlugin__OVRP_1_21_0;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__PerfMetrics;
-}
-namespace GlobalNamespace {
-class __OVRPlugin__OVRP_1_40_0;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__TrackedKeyboardQueryFlags;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__Vector4f;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__SpaceQueryType;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__LayerLayout;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__Posef;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__EventDataBuffer;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__RecenterFlags;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__OverlayShape;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__Vector2i;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__SkeletonType;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__BoundaryType;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__PolygonalBoundary2DInternal;
-}
-namespace GlobalNamespace {
-class __OVRPlugin__OVRP_1_44_0;
-}
-namespace GlobalNamespace {
-class __OVRPlugin__OVRP_1_57_0;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__HandStatus;
-}
-namespace GlobalNamespace {
-class __OVRPlugin__OVRP_1_2_0;
-}
-namespace GlobalNamespace {
-class __OVRPlugin__OVRP_1_64_0;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__TrackingConfidence;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__BatteryStatus;
-}
-namespace GlobalNamespace {
 struct __OVRPlugin__HandStateInternal;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__CameraStatus;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__TextureRectMatrixf;
-}
-namespace GlobalNamespace {
-template <typename T> struct __OVRPlugin__PinnedArray_1;
-}
-namespace GlobalNamespace {
-class __OVRPlugin__OVRP_1_6_0;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__SpaceContainerInternal;
-}
-namespace GlobalNamespace {
-class __OVRPlugin__OVRP_1_81_0;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__FaceConstants;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__ControllerState5;
-}
-namespace GlobalNamespace {
-class __OVRPlugin__OVRP_1_18_0;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__InsightPassthroughColorMapType;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__Bone;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__Eye;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__VirtualKeyboardModelVisibility;
-}
-namespace GlobalNamespace {
-class __OVRPlugin__OVRP_0_1_1;
-}
-namespace GlobalNamespace {
-class __OVRPlugin__OVRP_1_84_0;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__CameraDeviceDepthQuality;
-}
-namespace GlobalNamespace {
-class __OVRPlugin__OVRP_1_68_0;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__PassthroughCapabilityFlags;
-}
-namespace GlobalNamespace {
-class __OVRPlugin__OVRP_1_1_0;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__BodyStateInternal;
-}
-namespace GlobalNamespace {
-class __OVRPlugin__OVRP_1_17_0;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__Boundsf;
-}
-namespace GlobalNamespace {
-class __OVRPlugin__OVRP_1_38_0;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__LayerSubmit;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__BodyState;
-}
-namespace GlobalNamespace {
-class __OVRPlugin__OVRP_1_52_0;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__BoundaryGeometry;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__BoneId;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__EyeGazesStateInternal;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__SystemHeadset;
-}
-namespace GlobalNamespace {
-class __OVRPlugin__OVRP_1_50_0;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__Tracker;
-}
-namespace GlobalNamespace {
-class __OVRPlugin__OVRP_1_79_0;
-}
-namespace GlobalNamespace {
-class __OVRPlugin__OVRP_1_76_0;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__Controller;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__InteractionProfile;
-}
-namespace GlobalNamespace {
-class __OVRPlugin__OVRP_1_75_0;
-}
-namespace UnityEngine {
-struct Vector4;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__AppPerfFrameStats;
-}
-namespace UnityEngine {
-struct Vector2;
-}
-namespace GlobalNamespace {
-class __OVRPlugin__OVRP_1_29_0;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__Rectf;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__BoundaryTestResult;
-}
-namespace GlobalNamespace {
-class __OVRPlugin__OVRP_1_19_0;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__SpatialAnchorCreateInfo;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__LayerFlags;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__FoveatedRenderingLevel;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__TriangleMeshInternal;
-}
-namespace GlobalNamespace {
-class __OVRPlugin__OVRP_0_1_0;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__InsightPassthroughStyle;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__TrackedKeyboardFlags;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__Size3f;
-}
-namespace GlobalNamespace {
-class __OVRPlugin__OVRP_0_5_0;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__RenderModelPropertiesInternal;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__CameraDeviceIntrinsicsParameters;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__ControllerState;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__PassthroughCapabilityFields;
-}
-namespace Unity::Collections {
-template <typename T> struct NativeArray_1;
-}
-namespace Unity::Collections {
-struct Allocator;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__SpaceQueryResult;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__CameraDeviceDepthSensingMode;
-}
-namespace GlobalNamespace {
-class __OVRPlugin__OVRP_1_8_0;
-}
-namespace System {
-class Version;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__FaceStateInternal;
-}
-namespace GlobalNamespace {
-class __OVRPlugin__OVRP_1_35_0;
-}
-namespace GlobalNamespace {
-class __OVRPlugin__OVRP_1_66_0;
-}
-namespace UnityEngine {
-struct Matrix4x4;
-}
-namespace GlobalNamespace {
-class __OVRPlugin__OVRP_1_60_0;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__TrackingOrigin;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__XrApi;
-}
-namespace GlobalNamespace {
-class __OVRPlugin__OVRP_1_10_0;
-}
-namespace GlobalNamespace {
-class __OVRPlugin__OVRP_1_16_0;
-}
-namespace GlobalNamespace {
-class __OVRPlugin__OVRP_1_59_0;
-}
-namespace GlobalNamespace {
-class __OVRPlugin__OVRP_1_51_0;
-}
-namespace GlobalNamespace {
-class __OVRPlugin__OVRP_1_82_0;
-}
-namespace GlobalNamespace {
-class __OVRPlugin__OVRP_1_30_0;
-}
-namespace GlobalNamespace {
-class __OVRPlugin__OVRP_1_45_0;
-}
-namespace GlobalNamespace {
-class __OVRPlugin__OVRP_1_54_0;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__PlatformUI;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__SpaceQueryInfo;
-}
-namespace GlobalNamespace {
-class __OVRPlugin__OVRP_1_7_0;
-}
-namespace GlobalNamespace {
-class __OVRPlugin__OVRP_1_28_0;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__HapticsConstants;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__RoomLayoutInternal;
-}
-namespace GlobalNamespace {
-class __OVRPlugin__OVRP_1_42_0;
-}
-namespace GlobalNamespace {
-class __OVRPlugin__OVRP_1_46_0;
-}
-namespace GlobalNamespace {
-class __OVRPlugin__OVRP_1_55_1;
-}
-namespace GlobalNamespace {
-class __OVRPlugin__OVRP_1_41_0;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__Hand;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__BoneCapsule;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__SystemRegion;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__FaceExpressionStatusInternal;
-}
-namespace System {
-template <typename T> struct Nullable_1;
-}
-namespace GlobalNamespace {
-class __OVRPlugin__UnityOpenXR;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__CameraExtrinsics;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__PassthroughPreferences;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__ControllerState2;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__ColorSpace;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__Colorf;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__KeyboardDescriptionConstants;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__VirtualKeyboardLocationType;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__SceneCaptureRequestInternal;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__Vector4s;
-}
-namespace GlobalNamespace {
-class __OVRPlugin__OVRP_1_12_0;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__Step;
-}
-namespace GlobalNamespace {
-class __OVRPlugin__OVRP_1_58_0;
-}
-namespace GlobalNamespace {
-class __OVRPlugin__GUID;
-}
-namespace GlobalNamespace {
-class __OVRPlugin__OVRP_1_86_0;
-}
-namespace GlobalNamespace {
-class __OVRPlugin__OVRP_1_87_0;
-}
-namespace GlobalNamespace {
-class OVRNativeBuffer;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__CameraDevice;
-}
-namespace GlobalNamespace {
-class __OVRPlugin__OVRP_1_62_0;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__HapticsLocation;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__ControllerState6;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__SpaceQueryFilterType;
-}
-namespace GlobalNamespace {
-class __OVRPlugin__OVRP_1_72_0;
 }
 namespace GlobalNamespace {
 class __OVRPlugin__OVRP_1_43_0;
 }
 namespace GlobalNamespace {
-struct __OVRPlugin__BodyJointLocation;
+struct __OVRPlugin__Bone;
 }
-namespace System {
-struct Guid;
-}
-namespace GlobalNamespace {
-class __OVRPlugin__OVRP_1_47_0;
+namespace Unity::Collections {
+struct Allocator;
 }
 namespace GlobalNamespace {
-class __OVRPlugin__OVRP_1_61_0;
-}
-namespace GlobalNamespace {
-class __OVRPlugin__OVRP_1_48_0;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__AppPerfStats;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__Skeleton2;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__TrackedKeyboardPresentationStyles;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__VirtualKeyboardSpaceCreateInfo;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__SpaceLocationFlags;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__SpaceLocationf;
+struct __OVRPlugin__LayerSubmit;
 }
 namespace GlobalNamespace {
 struct __OVRPlugin__VirtualKeyboardModelAnimationStatesInternal;
 }
 namespace GlobalNamespace {
-struct __OVRPlugin__EyeGazesState;
+struct __OVRPlugin__SpaceFilterInfoComponents;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__FaceExpression;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__VirtualKeyboardTextureData;
+}
+namespace GlobalNamespace {
+class __OVRPlugin__OVRP_1_31_0;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__FaceStateInternal;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__VirtualKeyboardLocationType;
+}
+namespace UnityEngine {
+struct Vector4;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__VirtualKeyboardInputInfo;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__MeshType;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__TrackedKeyboardPresentationStyles;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__BlendFactor;
+}
+namespace GlobalNamespace {
+class __OVRPlugin__UnityOpenXR;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__PassthroughCapabilityFields;
+}
+namespace GlobalNamespace {
+class __OVRPlugin__OVRP_1_47_0;
+}
+namespace GlobalNamespace {
+class __OVRPlugin__OVRP_1_79_0;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__ControllerState;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__KeyboardDescriptionConstants;
+}
+namespace GlobalNamespace {
+class __OVRPlugin__Qpl;
+}
+namespace GlobalNamespace {
+class __OVRPlugin__OVRP_1_37_0;
 }
 namespace GlobalNamespace {
 struct __OVRPlugin__EyeTextureFormat;
 }
 namespace GlobalNamespace {
-struct __OVRPlugin__FaceExpression;
+struct __OVRPlugin__VirtualKeyboardInputSource;
+}
+namespace GlobalNamespace {
+class __OVRPlugin__OVRP_1_3_0;
+}
+namespace GlobalNamespace {
+class __OVRPlugin__OVRP_1_78_0;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__Frustumf2;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__VirtualKeyboardTextureIds;
+}
+namespace GlobalNamespace {
+class __OVRPlugin__OVRP_1_10_0;
+}
+namespace GlobalNamespace {
+class __OVRPlugin__OVRP_1_63_0;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__FaceExpressionStatusInternal;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__PassthroughColorLutChannels;
+}
+namespace GlobalNamespace {
+class __OVRPlugin__OVRP_1_34_0;
+}
+namespace GlobalNamespace {
+class __OVRPlugin__OVRP_1_69_0;
+}
+namespace GlobalNamespace {
+class __OVRPlugin__OVRP_1_8_0;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__ProcessorPerformanceLevel;
+}
+namespace GlobalNamespace {
+class __OVRPlugin__OVRP_1_56_0;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__Sizei;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__TrackingConfidence;
+}
+namespace GlobalNamespace {
+class __OVRPlugin__OVRP_1_71_0;
+}
+namespace GlobalNamespace {
+class __OVRPlugin__OVRP_1_87_0;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__VirtualKeyboardInputStateFlags;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__BoundaryGeometry;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__PassthroughPreferences;
+}
+namespace GlobalNamespace {
+class __OVRPlugin__OVRP_1_65_0;
+}
+namespace GlobalNamespace {
+class __OVRPlugin__OVRP_1_9_0;
+}
+namespace GlobalNamespace {
+class __OVRPlugin__OVRP_1_38_0;
+}
+namespace GlobalNamespace {
+class __OVRPlugin__Ktx;
+}
+namespace GlobalNamespace {
+class __OVRPlugin__OVRP_1_76_0;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__AppPerfFrameStats;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__PassthroughPreferenceFields;
+}
+namespace GlobalNamespace {
+class __OVRPlugin__OVRP_1_41_0;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__Recti;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__ColorSpace;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__EventType;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__PoseStatef;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__OverlayShape;
+}
+namespace UnityEngine {
+struct Vector3;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__RenderModelProperties;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__SpaceStorageLocation;
+}
+namespace GlobalNamespace {
+class __OVRPlugin__OVRP_1_19_0;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__SpaceQueryInfo;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__FoveatedRenderingLevel;
+}
+namespace GlobalNamespace {
+class __OVRPlugin__OVRP_1_15_0;
+}
+namespace GlobalNamespace {
+class __OVRPlugin__OVRP_1_21_0;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__AppPerfStats;
+}
+namespace GlobalNamespace {
+class __OVRPlugin__OVRP_1_88_0;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__LayerLayout;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__Skeleton;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__VirtualKeyboardModelVisibility;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__RenderModelPropertiesInternal;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__CameraDevice;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__CameraDeviceIntrinsicsParameters;
+}
+namespace GlobalNamespace {
+class __OVRPlugin__OVRP_1_75_0;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__TiledMultiResLevel;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__EyeGazesStateInternal;
+}
+namespace GlobalNamespace {
+class OVRNativeBuffer;
+}
+namespace GlobalNamespace {
+class __OVRPlugin__OVRP_1_39_0;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__Controller;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__SystemRegion;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__FaceRegionConfidence;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__PassthroughPreferenceFlags;
+}
+namespace GlobalNamespace {
+class __OVRPlugin__OVRP_1_30_0;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__LogLevel;
+}
+namespace GlobalNamespace {
+class __OVRPlugin__OVRP_1_48_0;
+}
+namespace GlobalNamespace {
+class __OVRPlugin__OVRP_1_49_0;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__PassthroughColorLutData;
+}
+namespace GlobalNamespace {
+class __OVRPlugin__OVRP_1_51_0;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__Boundsf;
 }
 namespace System {
-class AsyncCallback;
+template <typename T> struct Nullable_1;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__HapticsAmplitudeEnvelopeVibration;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__SpaceQueryResult;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__HandStatus;
+}
+namespace GlobalNamespace {
+class __OVRPlugin__OVRP_1_52_0;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__SkeletonConstants;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__RoomLayoutInternal;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__Result;
+}
+namespace GlobalNamespace {
+class __OVRPlugin__OVRP_1_50_0;
+}
+namespace GlobalNamespace {
+class __OVRPlugin__OVRP_1_59_0;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__BoundaryTestResult;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__VirtualKeyboardModelAnimationState;
+}
+namespace GlobalNamespace {
+template <typename T> struct __OVRPlugin__PinnedArray_1;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__Hand;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__TrackedKeyboardFlags;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__CameraDeviceDepthSensingMode;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__FaceExpressionStatus;
+}
+namespace GlobalNamespace {
+class __OVRPlugin__LogCallback2DelegateType;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__Skeleton2Internal;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__KeyboardState;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__EyeGazesState;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__HapticsBuffer;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__BoneCapsule;
+}
+namespace GlobalNamespace {
+class __OVRPlugin__OVRP_1_28_0;
+}
+namespace GlobalNamespace {
+class __OVRPlugin__Mesh;
+}
+namespace GlobalNamespace {
+class __OVRPlugin__OVRP_1_66_0;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__HapticsLocation;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__VirtualKeyboardTextureIdsInternal;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__SpaceContainerInternal;
+}
+namespace GlobalNamespace {
+class __OVRPlugin__OVRP_1_60_0;
+}
+namespace GlobalNamespace {
+class __OVRPlugin__OVRP_1_84_0;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__EventDataBuffer;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__Sizef;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__VirtualKeyboardSpaceCreateInfo;
+}
+namespace GlobalNamespace {
+class __OVRPlugin__OVRP_0_1_3;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__Vector2i;
+}
+namespace GlobalNamespace {
+class __OVRPlugin__OVRP_1_68_0;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__SpaceStoragePersistenceMode;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__BatteryStatus;
+}
+namespace GlobalNamespace {
+class __OVRPlugin__OVRP_1_70_0;
+}
+namespace GlobalNamespace {
+class __OVRPlugin__OVRP_1_18_0;
+}
+namespace GlobalNamespace {
+class __OVRPlugin__OVRP_0_1_1;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__LayerDescInternal;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__HapticsState;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__TrackingOrigin;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__ControllerState2;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__Frustumf;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__RenderModelFlags;
+}
+namespace GlobalNamespace {
+class __OVRPlugin__OVRP_1_53_0;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__Step;
+}
+namespace GlobalNamespace {
+class __OVRPlugin__OVRP_1_73_0;
+}
+namespace GlobalNamespace {
+class __OVRPlugin__OVRP_1_0_0;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__FaceState2Internal;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__SpatialAnchorCreateInfo;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__CameraAnchorType;
+}
+namespace GlobalNamespace {
+class __OVRPlugin__OVRP_1_2_0;
+}
+namespace GlobalNamespace {
+class __OVRPlugin__OVRP_1_17_0;
+}
+namespace GlobalNamespace {
+class __OVRPlugin__OVRP_1_81_0;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__SkeletonType;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__HandFinger;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__Quatf;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__BoneId;
+}
+namespace GlobalNamespace {
+class __OVRPlugin__OVRP_1_7_0;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__HapticsConstants;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__CameraExtrinsics;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__FeatureType;
+}
+namespace GlobalNamespace {
+class __OVRPlugin__OVRP_1_1_0;
+}
+namespace System {
+class Version;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__HapticsDesc;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__TextureRectMatrixf;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__VirtualKeyboardLocationInfo;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__RoomLayout;
+}
+namespace GlobalNamespace {
+class __OVRPlugin__OVRP_1_6_0;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__BoundaryType;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__CameraIntrinsics;
+}
+namespace GlobalNamespace {
+class __OVRPlugin__OVRP_0_5_0;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__SystemHeadset;
+}
+namespace GlobalNamespace {
+class __OVRPlugin__OVRP_1_55_0;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__Handedness;
+}
+namespace GlobalNamespace {
+class __OVRPlugin__OVRP_1_58_0;
+}
+namespace GlobalNamespace {
+class __OVRPlugin__OVRP_1_62_0;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__Vector4f;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__ControllerState4;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__Rectf;
+}
+namespace GlobalNamespace {
+class __OVRPlugin__OVRP_1_45_0;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__Node;
+}
+namespace GlobalNamespace {
+class __OVRPlugin__OVRP_0_1_0;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__PerfMetrics;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__InsightPassthroughKeyboardHandsIntensity;
+}
+namespace GlobalNamespace {
+class __OVRPlugin__OVRP_1_35_0;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__XrApi;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__VirtualKeyboardModelAnimationStates;
+}
+namespace GlobalNamespace {
+class __OVRPlugin__OVRP_1_54_0;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__FaceConstants;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__SpaceQueryType;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__Tracker;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__SpaceLocationFlags;
+}
+namespace GlobalNamespace {
+class __OVRPlugin__OVRP_1_64_0;
+}
+namespace GlobalNamespace {
+class __OVRPlugin__OVRP_1_11_0;
+}
+namespace GlobalNamespace {
+class __OVRPlugin__OVRP_1_74_0;
+}
+namespace GlobalNamespace {
+class __OVRPlugin__OVRP_1_86_0;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__BodyStateInternal;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__SpaceQueryFilterType;
+}
+namespace Unity::Collections {
+template <typename T> struct NativeArray_1;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__PassthroughCapabilityFlags;
+}
+namespace GlobalNamespace {
+class __OVRPlugin__OVRP_0_1_2;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__Eye;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__Vector2f;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__RecenterFlags;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__BodyState;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__HandState;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__InsightPassthroughStyle2;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__VirtualKeyboardCreateInfo;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__SpaceFilterInfoIds;
+}
+namespace GlobalNamespace {
+class __OVRPlugin__OVRP_1_55_1;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__MeshConstants;
+}
+namespace GlobalNamespace {
+class __OVRPlugin__OVRP_1_40_0;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__HandFingerPinch;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__Skeleton2;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__SpaceQueryActionType;
+}
+namespace GlobalNamespace {
+class __OVRPlugin__GUID;
+}
+namespace GlobalNamespace {
+class __OVRPlugin__OVRP_1_67_0;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__TrackedKeyboardQueryFlags;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__Vector3f;
+}
+namespace GlobalNamespace {
+class __OVRPlugin__OVRP_1_29_0;
+}
+namespace GlobalNamespace {
+class __OVRPlugin__OVRP_1_44_0;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__BodyJointLocation;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__LayerSharpenType;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__Fovf;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__InsightPassthroughStyle;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__LayerFlags;
+}
+namespace GlobalNamespace {
+class __OVRPlugin__OVRP_1_12_0;
+}
+namespace GlobalNamespace {
+class __OVRPlugin__OVRP_1_16_0;
+}
+namespace GlobalNamespace {
+class __OVRPlugin__OVRP_1_46_0;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__InsightPassthroughColorMapType;
+}
+namespace UnityEngine {
+struct Matrix4x4;
+}
+namespace GlobalNamespace {
+class __OVRPlugin__OVRP_1_72_0;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__Size3f;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__FaceState;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__OverlayFlag;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__LayerDesc;
+}
+namespace GlobalNamespace {
+class __OVRPlugin__OVRP_1_57_0;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__SpaceSemanticLabelInternal;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__ControllerState5;
+}
+namespace GlobalNamespace {
+class __OVRPlugin__OVRP_1_5_0;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__EyeGazeState;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__LayerSuperSamplingType;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__CameraStatus;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__Vector4s;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__Colorf;
+}
+namespace GlobalNamespace {
+class __OVRPlugin__OVRP_1_85_0;
+}
+namespace GlobalNamespace {
+class __OVRPlugin__Media;
+}
+namespace GlobalNamespace {
+class __OVRPlugin__OVRP_1_32_0;
+}
+namespace GlobalNamespace {
+class __OVRPlugin__OVRP_1_82_0;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__FixedFoveatedRenderingLevel;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__SpaceComponentType;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__SpaceLocationf;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__Posef;
+}
+namespace GlobalNamespace {
+class __OVRPlugin__OVRP_1_83_0;
+}
+namespace System {
+struct Guid;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__HapticsPcmVibration;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__InteractionProfile;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__CameraDeviceDepthQuality;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__KeyboardDescription;
+}
+namespace UnityEngine {
+struct Vector2;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__Bool;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__PolygonalBoundary2DInternal;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__PassthroughCapabilities;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__SceneCaptureRequestInternal;
+}
+namespace GlobalNamespace {
+class __OVRPlugin__OVRP_1_36_0;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__PlatformUI;
+}
+namespace GlobalNamespace {
+class __OVRPlugin__OVRP_1_61_0;
+}
+namespace GlobalNamespace {
+class __OVRPlugin__OVRP_1_42_0;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__TriangleMeshInternal;
 }
 namespace System {
 class IAsyncResult;
@@ -831,20 +828,23 @@ class IAsyncResult;
 namespace System {
 class Object;
 }
-namespace UnityEngine {
-class RenderTexture;
+namespace System {
+class AsyncCallback;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__Media__PlatformCameraMode;
 }
 namespace GlobalNamespace {
 struct __OVRPlugin__Media__InputVideoBufferType;
 }
-namespace UnityEngine {
-class Texture2D;
-}
 namespace GlobalNamespace {
 struct __OVRPlugin__Media__MrcActivationMode;
 }
-namespace GlobalNamespace {
-struct __OVRPlugin__Media__PlatformCameraMode;
+namespace UnityEngine {
+class Texture2D;
+}
+namespace UnityEngine {
+class RenderTexture;
 }
 namespace GlobalNamespace {
 struct __OVRPlugin__Qpl__ResultType;
@@ -6458,7 +6458,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__Vector2i, y) == 0x4, "Off
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7746)), TypeDefinitionIndex(TypeDefinitionIndex(7743))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7743)), TypeDefinitionIndex(TypeDefinitionIndex(7746))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7747))
 // CS Name: ::OVRPlugin::Recti
 struct CORDL_TYPE __OVRPlugin__Recti {
@@ -6495,7 +6495,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__Recti, Size) == 0x8, "Off
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7721)), TypeDefinitionIndex(TypeDefinitionIndex(7744))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7744)), TypeDefinitionIndex(TypeDefinitionIndex(7721))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7748))
 // CS Name: ::OVRPlugin::Rectf
 struct CORDL_TYPE __OVRPlugin__Rectf {
@@ -6532,7 +6532,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__Rectf, Size) == 0x8, "Off
 // SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7745)), TypeDefinitionIndex(TypeDefinitionIndex(7722))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7722)), TypeDefinitionIndex(TypeDefinitionIndex(7745))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7749))
 // CS Name: ::OVRPlugin::Boundsf
 struct CORDL_TYPE __OVRPlugin__Boundsf {
@@ -6898,7 +6898,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__Colorf, a) == 0xc, "Offse
 // SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7743)), TypeDefinitionIndex(TypeDefinitionIndex(7756)), TypeDefinitionIndex(TypeDefinitionIndex(7686))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7686)), TypeDefinitionIndex(TypeDefinitionIndex(7756)), TypeDefinitionIndex(TypeDefinitionIndex(7743))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7757))
 // CS Name: ::OVRPlugin::CameraIntrinsics
 struct CORDL_TYPE __OVRPlugin__CameraIntrinsics {
@@ -6958,7 +6958,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__CameraIntrinsics, ImageSe
 // SizeInfo { instance_size: 56, native_size: 56, calculated_instance_size: 56, calculated_native_size: 68, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7726)), TypeDefinitionIndex(TypeDefinitionIndex(7686)), TypeDefinitionIndex(TypeDefinitionIndex(7695)),
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7726)), TypeDefinitionIndex(TypeDefinitionIndex(7695)), TypeDefinitionIndex(TypeDefinitionIndex(7686)),
 // TypeDefinitionIndex(TypeDefinitionIndex(7690))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7758)) CS Name: ::OVRPlugin::CameraExtrinsics
 struct CORDL_TYPE __OVRPlugin__CameraExtrinsics {
 public:
@@ -7151,8 +7151,8 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__LayerFlags, value__) == 0
 // SizeInfo { instance_size: 80, native_size: 80, calculated_instance_size: 80, calculated_native_size: 92, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7702)), TypeDefinitionIndex(TypeDefinitionIndex(7759)), TypeDefinitionIndex(TypeDefinitionIndex(7743)),
-// TypeDefinitionIndex(TypeDefinitionIndex(7706))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7761)) CS Name: ::OVRPlugin::LayerDesc
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7743)), TypeDefinitionIndex(TypeDefinitionIndex(7706)), TypeDefinitionIndex(TypeDefinitionIndex(7759)),
+// TypeDefinitionIndex(TypeDefinitionIndex(7702))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7761)) CS Name: ::OVRPlugin::LayerDesc
 struct CORDL_TYPE __OVRPlugin__LayerDesc {
 public:
   // Declarations
@@ -7263,8 +7263,8 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__LayerDesc, MotionVectorTe
 // SizeInfo { instance_size: 124, native_size: 124, calculated_instance_size: 124, calculated_native_size: 140, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7759)), TypeDefinitionIndex(TypeDefinitionIndex(7743)), TypeDefinitionIndex(TypeDefinitionIndex(7706)),
-// TypeDefinitionIndex(TypeDefinitionIndex(7702)), TypeDefinitionIndex(TypeDefinitionIndex(7748)), TypeDefinitionIndex(TypeDefinitionIndex(7756))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7762))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7702)), TypeDefinitionIndex(TypeDefinitionIndex(7706)), TypeDefinitionIndex(TypeDefinitionIndex(7759)),
+// TypeDefinitionIndex(TypeDefinitionIndex(7748)), TypeDefinitionIndex(TypeDefinitionIndex(7743)), TypeDefinitionIndex(TypeDefinitionIndex(7756))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7762))
 // CS Name: ::OVRPlugin::LayerDescInternal
 struct CORDL_TYPE __OVRPlugin__LayerDescInternal {
 public:
@@ -8341,8 +8341,8 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__HandState, SampleTimeStam
 // SizeInfo { instance_size: 512, native_size: 512, calculated_instance_size: 512, calculated_native_size: 528, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7725)), TypeDefinitionIndex(TypeDefinitionIndex(7767)), TypeDefinitionIndex(TypeDefinitionIndex(7770)),
-// TypeDefinitionIndex(TypeDefinitionIndex(7765)), TypeDefinitionIndex(TypeDefinitionIndex(7726))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7772)) CS Name: ::OVRPlugin::HandStateInternal
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7770)), TypeDefinitionIndex(TypeDefinitionIndex(7765)), TypeDefinitionIndex(TypeDefinitionIndex(7726)),
+// TypeDefinitionIndex(TypeDefinitionIndex(7725)), TypeDefinitionIndex(TypeDefinitionIndex(7767))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7772)) CS Name: ::OVRPlugin::HandStateInternal
 struct CORDL_TYPE __OVRPlugin__HandStateInternal {
 public:
   // Declarations
@@ -8664,7 +8664,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__BoneCapsule, Radius) == 0
 // SizeInfo { instance_size: 36, native_size: 36, calculated_instance_size: 36, calculated_native_size: 52, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7726)), TypeDefinitionIndex(TypeDefinitionIndex(7768))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7768)), TypeDefinitionIndex(TypeDefinitionIndex(7726))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7774))
 // CS Name: ::OVRPlugin::Bone
 struct CORDL_TYPE __OVRPlugin__Bone {
@@ -10723,7 +10723,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__TrackedKeyboardQueryFlags
 // SizeInfo { instance_size: 40, native_size: 160, calculated_instance_size: 40, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7722)), TypeDefinitionIndex(TypeDefinitionIndex(7791)), TypeDefinitionIndex(TypeDefinitionIndex(7790))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7790)), TypeDefinitionIndex(TypeDefinitionIndex(7722)), TypeDefinitionIndex(TypeDefinitionIndex(7791))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7793))
 // CS Name: ::OVRPlugin::KeyboardDescription
 struct CORDL_TYPE __OVRPlugin__KeyboardDescription {
@@ -12669,7 +12669,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__VirtualKeyboardLocationTy
 // SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7811)), TypeDefinitionIndex(TypeDefinitionIndex(7726))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7726)), TypeDefinitionIndex(TypeDefinitionIndex(7811))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7812))
 // CS Name: ::OVRPlugin::VirtualKeyboardSpaceCreateInfo
 struct CORDL_TYPE __OVRPlugin__VirtualKeyboardSpaceCreateInfo {
@@ -12902,7 +12902,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__VirtualKeyboardInputState
 // SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7726)), TypeDefinitionIndex(TypeDefinitionIndex(7816)), TypeDefinitionIndex(TypeDefinitionIndex(7815))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7815)), TypeDefinitionIndex(TypeDefinitionIndex(7816)), TypeDefinitionIndex(TypeDefinitionIndex(7726))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7817))
 // CS Name: ::OVRPlugin::VirtualKeyboardInputInfo
 struct CORDL_TYPE __OVRPlugin__VirtualKeyboardInputInfo {
@@ -13342,7 +13342,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__InsightPassthroughStyleFl
 // SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7755)), TypeDefinitionIndex(TypeDefinitionIndex(7825)), TypeDefinitionIndex(TypeDefinitionIndex(7826)),
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7826)), TypeDefinitionIndex(TypeDefinitionIndex(7825)), TypeDefinitionIndex(TypeDefinitionIndex(7755)),
 // TypeDefinitionIndex(TypeDefinitionIndex(2603))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7827)) CS Name: ::OVRPlugin::InsightPassthroughStyle
 struct CORDL_TYPE __OVRPlugin__InsightPassthroughStyle {
 public:
@@ -13402,8 +13402,8 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__InsightPassthroughStyle, 
 // SizeInfo { instance_size: 64, native_size: 64, calculated_instance_size: 64, calculated_native_size: 76, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7825)), TypeDefinitionIndex(TypeDefinitionIndex(7826)), TypeDefinitionIndex(TypeDefinitionIndex(2603)),
-// TypeDefinitionIndex(TypeDefinitionIndex(7755))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7828)) CS Name: ::OVRPlugin::InsightPassthroughStyle2
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7826)), TypeDefinitionIndex(TypeDefinitionIndex(7755)), TypeDefinitionIndex(TypeDefinitionIndex(2603)),
+// TypeDefinitionIndex(TypeDefinitionIndex(7825))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7828)) CS Name: ::OVRPlugin::InsightPassthroughStyle2
 struct CORDL_TYPE __OVRPlugin__InsightPassthroughStyle2 {
 public:
   // Declarations
@@ -13707,7 +13707,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__PassthroughCapabilityFiel
 // SizeInfo { instance_size: 12, native_size: 12, calculated_instance_size: 12, calculated_native_size: 28, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7833)), TypeDefinitionIndex(TypeDefinitionIndex(7832))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7832)), TypeDefinitionIndex(TypeDefinitionIndex(7833))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7834))
 // CS Name: ::OVRPlugin::PassthroughCapabilities
 struct CORDL_TYPE __OVRPlugin__PassthroughCapabilities {
@@ -14195,8 +14195,8 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__SpaceFilterInfoComponents
 // SizeInfo { instance_size: 64, native_size: 16488, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7843)), TypeDefinitionIndex(TypeDefinitionIndex(7839)), TypeDefinitionIndex(TypeDefinitionIndex(7842)),
-// TypeDefinitionIndex(TypeDefinitionIndex(7836)), TypeDefinitionIndex(TypeDefinitionIndex(7838)), TypeDefinitionIndex(TypeDefinitionIndex(7840))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7844))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7840)), TypeDefinitionIndex(TypeDefinitionIndex(7839)), TypeDefinitionIndex(TypeDefinitionIndex(7842)),
+// TypeDefinitionIndex(TypeDefinitionIndex(7836)), TypeDefinitionIndex(TypeDefinitionIndex(7843)), TypeDefinitionIndex(TypeDefinitionIndex(7838))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7844))
 // CS Name: ::OVRPlugin::SpaceQueryInfo
 struct CORDL_TYPE __OVRPlugin__SpaceQueryInfo {
 public:
@@ -14749,7 +14749,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__RoomLayout, wallUuids) ==
 // SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2406)), TypeDefinitionIndex(TypeDefinitionIndex(2603))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(2406))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7853))
 // CS Name: ::OVRPlugin::RoomLayoutInternal
 struct CORDL_TYPE __OVRPlugin__RoomLayoutInternal {
@@ -15293,7 +15293,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlugin__Qpl__ResultType, value__)
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(7863))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7864))
 // CS Name: ::OVRPlugin::Qpl*
 class CORDL_TYPE __OVRPlugin__Qpl : public ::System::Object {
@@ -19540,10 +19540,11 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRPlugin__OV
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(7772)), TypeDefinitionIndex(TypeDefinitionIndex(7777)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 4774 }), TypeDefinitionIndex(TypeDefinitionIndex(7692)), TypeDefinitionIndex(TypeDefinitionIndex(2448)),
-// TypeDefinitionIndex(TypeDefinitionIndex(2406)), TypeDefinitionIndex(TypeDefinitionIndex(7779)), TypeDefinitionIndex(TypeDefinitionIndex(7797)), TypeDefinitionIndex(TypeDefinitionIndex(7804))} Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(7947)) CS Name: ::OVRPlugin*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7804)), TypeDefinitionIndex(TypeDefinitionIndex(7692)), TypeDefinitionIndex(TypeDefinitionIndex(2613)),
+// TypeDefinitionIndex(TypeDefinitionIndex(7727)), TypeDefinitionIndex(TypeDefinitionIndex(7706)), TypeDefinitionIndex(TypeDefinitionIndex(7777)), TypeDefinitionIndex(TypeDefinitionIndex(2406)),
+// TypeDefinitionIndex(TypeDefinitionIndex(7772)), TypeDefinitionIndex(TypeDefinitionIndex(10246)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 4774 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(7779)), TypeDefinitionIndex(TypeDefinitionIndex(7797))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7947))
+// CS Name: ::OVRPlugin*
 class CORDL_TYPE OVRPlugin : public ::System::Object {
 public:
   // Declarations

@@ -3,8 +3,8 @@
 #include "GlobalNamespace/zzzz__SonyPublisherSKUSettingsSO_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__PS4PublisherSKUSettingsSO_def.hpp"
-#include "GlobalNamespace/zzzz__PS4ApplicationCategory_def.hpp"
 #include "GlobalNamespace/zzzz__PS4PublisherSKUSettingsSO_def.hpp"
+#include "GlobalNamespace/zzzz__PS4ApplicationCategory_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::__PS4PublisherSKUSettingsSO__PS4BuildVersion.get_masterVersion
 template <>
 

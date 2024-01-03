@@ -6,38 +6,38 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(AsyncResult)
-namespace System::Threading {
-class WaitCallback;
-}
-namespace System::Runtime::Remoting::Messaging {
-class MonoMethodMessage;
-}
 namespace System {
 class Object;
-}
-namespace System::Threading {
-class IThreadPoolWorkItem;
-}
-namespace System::Runtime::Remoting::Messaging {
-class IMessage;
 }
 namespace System {
 class IAsyncResult;
 }
 namespace System::Threading {
-class ThreadAbortException;
+class WaitHandle;
 }
 namespace System::Runtime::Remoting::Messaging {
 class IMessageCtrl;
 }
+namespace System::Runtime::Remoting::Messaging {
+class IMessage;
+}
+namespace System::Threading {
+class ThreadAbortException;
+}
 namespace System::Threading {
 class ExecutionContext;
+}
+namespace System::Threading {
+class IThreadPoolWorkItem;
+}
+namespace System::Runtime::Remoting::Messaging {
+class MonoMethodMessage;
 }
 namespace System::Runtime::Remoting::Messaging {
 class IMessageSink;
 }
 namespace System::Threading {
-class WaitHandle;
+class WaitCallback;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting::Messaging {
@@ -49,7 +49,7 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::Messaging::AsyncResult);
 // SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting::Messaging {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2603))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3151))
 // CS Name: ::System.Runtime.Remoting.Messaging::AsyncResult*
 class CORDL_TYPE AsyncResult : public ::System::Object {

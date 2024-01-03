@@ -5,10 +5,10 @@
 #include "UnityEngine/zzzz__Matrix4x4_impl.hpp"
 #include "UnityEngine/zzzz__Plane_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__BatchCullingContext_def.hpp"
-#include "UnityEngine/Rendering/zzzz__BatchVisibility_def.hpp"
 #include "UnityEngine/zzzz__Matrix4x4_def.hpp"
-#include "UnityEngine/Rendering/zzzz__LODParameters_def.hpp"
 #include "Unity/Collections/zzzz__NativeArray_1_def.hpp"
+#include "UnityEngine/Rendering/zzzz__BatchVisibility_def.hpp"
+#include "UnityEngine/Rendering/zzzz__LODParameters_def.hpp"
 #include "UnityEngine/zzzz__Plane_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Rendering::BatchCullingContext._ctor
 template <>

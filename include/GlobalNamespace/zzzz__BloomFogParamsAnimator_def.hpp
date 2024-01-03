@@ -8,25 +8,25 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(BloomFogParamsAnimator)
 namespace GlobalNamespace {
-class BloomFogSO;
-}
-namespace GlobalNamespace {
-class BloomFogEnvironmentParams;
-}
-namespace GlobalNamespace {
 class __BloomFogParamsAnimator___AnimationCoroutine_d__2;
+}
+namespace GlobalNamespace {
+class BloomFogSO;
 }
 namespace System::Collections {
 class IEnumerator;
 }
+namespace GlobalNamespace {
+class BloomFogEnvironmentParams;
+}
 namespace System {
-class IDisposable;
+class Object;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
 namespace System {
-class Object;
+class IDisposable;
 }
 // Forward declare root types
 namespace GlobalNamespace {

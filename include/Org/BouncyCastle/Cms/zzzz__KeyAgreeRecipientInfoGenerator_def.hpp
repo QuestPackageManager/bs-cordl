@@ -4,38 +4,38 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(KeyAgreeRecipientInfoGenerator)
-namespace Org::BouncyCastle::Cms {
-class RecipientInfoGenerator;
-}
-namespace Org::BouncyCastle::Security {
-class SecureRandom;
-}
 namespace Org::BouncyCastle::Crypto {
-class AsymmetricCipherKeyPair;
-}
-namespace System::Collections {
-class ICollection;
-}
-namespace System::Collections {
-class IList;
+class AsymmetricKeyParameter;
 }
 namespace Org::BouncyCastle::Crypto::Parameters {
 class KeyParameter;
 }
-namespace Org::BouncyCastle::Asn1 {
-class DerObjectIdentifier;
-}
-namespace Org::BouncyCastle::Asn1::Cms {
-class RecipientInfo;
-}
-namespace Org::BouncyCastle::Crypto {
-class AsymmetricKeyParameter;
+namespace Org::BouncyCastle::Security {
+class SecureRandom;
 }
 namespace Org::BouncyCastle::Cms {
 class CmsEnvelopedHelper;
 }
+namespace Org::BouncyCastle::Asn1 {
+class DerObjectIdentifier;
+}
+namespace System::Collections {
+class IList;
+}
+namespace System::Collections {
+class ICollection;
+}
 namespace Org::BouncyCastle::Asn1::Cms {
 class OriginatorPublicKey;
+}
+namespace Org::BouncyCastle::Crypto {
+class AsymmetricCipherKeyPair;
+}
+namespace Org::BouncyCastle::Cms {
+class RecipientInfoGenerator;
+}
+namespace Org::BouncyCastle::Asn1::Cms {
+class RecipientInfo;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Cms {

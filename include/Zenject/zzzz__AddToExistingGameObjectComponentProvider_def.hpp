@@ -5,25 +5,25 @@ CORDL_MODULE_INIT
 #include "Zenject/zzzz__AddToGameObjectComponentProviderBase_def.hpp"
 CORDL_MODULE_EXPORT(AddToExistingGameObjectComponentProvider)
 namespace Zenject {
-class InjectContext;
-}
-namespace System {
-class Type;
-}
-namespace System {
-class Object;
+struct TypeValuePair;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
 namespace Zenject {
-struct TypeValuePair;
+class InjectContext;
+}
+namespace System {
+class Object;
 }
 namespace Zenject {
 class DiContainer;
 }
 namespace UnityEngine {
 class GameObject;
+}
+namespace System {
+class Type;
 }
 namespace System {
 template <typename T1, typename T2> class Action_2;

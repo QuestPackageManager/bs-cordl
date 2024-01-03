@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(MirroredObstacleController)
 namespace GlobalNamespace {
-class StretchableObstacle;
+class __MirroredObstacleController__Pool;
 }
 namespace GlobalNamespace {
-class __MirroredObstacleController__Pool;
+class StretchableObstacle;
 }
 namespace UnityEngine {
 class Transform;

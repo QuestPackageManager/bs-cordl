@@ -13,11 +13,8 @@ CORDL_MODULE_EXPORT(TimeSpanFormat)
 namespace System::Globalization {
 struct __TimeSpanFormat__FormatLiterals;
 }
-namespace System::Globalization {
-class DateTimeFormatInfo;
-}
 namespace System {
-template <typename T> struct Span_1;
+class IFormatProvider;
 }
 namespace System::Text {
 class StringBuilder;
@@ -25,14 +22,17 @@ class StringBuilder;
 namespace System {
 struct TimeSpan;
 }
-namespace System::Globalization {
-struct __TimeSpanFormat__Pattern;
-}
 namespace System {
 template <typename T> struct ReadOnlySpan_1;
 }
 namespace System {
-class IFormatProvider;
+template <typename T> struct Span_1;
+}
+namespace System::Globalization {
+struct __TimeSpanFormat__Pattern;
+}
+namespace System::Globalization {
+class DateTimeFormatInfo;
 }
 // Forward declare root types
 namespace System::Globalization {
@@ -205,7 +205,7 @@ static_assert(offsetof(::System::Globalization::__TimeSpanFormat__FormatLiterals
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Globalization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3682)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3682))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3683))
 // CS Name: ::System.Globalization::TimeSpanFormat*
 class CORDL_TYPE TimeSpanFormat : public ::System::Object {

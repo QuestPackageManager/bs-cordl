@@ -8,11 +8,11 @@ CORDL_MODULE_EXPORT(CipherKeyGeneratorFactory)
 namespace Org::BouncyCastle::Crypto {
 class CipherKeyGenerator;
 }
-namespace Org::BouncyCastle::Asn1 {
-class DerObjectIdentifier;
-}
 namespace Org::BouncyCastle::Security {
 class SecureRandom;
+}
+namespace Org::BouncyCastle::Asn1 {
+class DerObjectIdentifier;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Utilities {

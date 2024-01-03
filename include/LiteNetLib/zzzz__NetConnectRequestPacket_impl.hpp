@@ -1,10 +1,10 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "LiteNetLib/zzzz__NetConnectRequestPacket_def.hpp"
-#include "LiteNetLib/zzzz__NetPacket_def.hpp"
-#include "LiteNetLib/Utils/zzzz__NetDataReader_def.hpp"
-#include "System/Net/zzzz__SocketAddress_def.hpp"
 #include "LiteNetLib/Utils/zzzz__NetDataWriter_def.hpp"
+#include "System/Net/zzzz__SocketAddress_def.hpp"
+#include "LiteNetLib/Utils/zzzz__NetDataReader_def.hpp"
+#include "LiteNetLib/zzzz__NetPacket_def.hpp"
 //  Writing Method size for method: ::LiteNetLib::NetConnectRequestPacket._ctor
 template <>
 

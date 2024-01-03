@@ -5,17 +5,17 @@ CORDL_MODULE_INIT
 #include "System/zzzz__FormatException_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(CookieException)
-namespace System {
-class Exception;
-}
-namespace System::Runtime::Serialization {
-struct StreamingContext;
-}
 namespace System::Runtime::Serialization {
 class SerializationInfo;
 }
 namespace System::Runtime::Serialization {
 class ISerializable;
+}
+namespace System {
+class Exception;
+}
+namespace System::Runtime::Serialization {
+struct StreamingContext;
 }
 // Forward declare root types
 namespace System::Net {

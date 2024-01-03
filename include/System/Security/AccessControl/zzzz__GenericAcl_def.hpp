@@ -6,15 +6,6 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(GenericAcl)
-namespace System::Security::AccessControl {
-class GenericAce;
-}
-namespace System::Security::AccessControl {
-class AceEnumerator;
-}
-namespace System::Collections {
-class IEnumerable;
-}
 namespace System::Collections {
 class ICollection;
 }
@@ -23,6 +14,15 @@ class Object;
 }
 namespace System {
 class Array;
+}
+namespace System::Security::AccessControl {
+class GenericAce;
+}
+namespace System::Security::AccessControl {
+class AceEnumerator;
+}
+namespace System::Collections {
+class IEnumerable;
 }
 namespace System::Collections {
 class IEnumerator;

@@ -6,35 +6,35 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(JsonSerializerInternalBase)
-namespace Newtonsoft::Json::Serialization {
-class __JsonSerializerInternalBase__ReferenceEqualsEqualityComparer;
-}
-namespace Newtonsoft::Json::Serialization {
-class ErrorContext;
-}
 namespace Newtonsoft::Json {
 class JsonSerializer;
-}
-namespace System {
-class Exception;
-}
-namespace Newtonsoft::Json {
-class IJsonLineInfo;
 }
 namespace Newtonsoft::Json::Serialization {
 class JsonContract;
 }
-namespace Newtonsoft::Json::Serialization {
-class JsonSerializerProxy;
+namespace System {
+class Object;
 }
-namespace Newtonsoft::Json::Utilities {
-template <typename TFirst, typename TSecond> class BidirectionalDictionary_2;
+namespace Newtonsoft::Json::Serialization {
+class __JsonSerializerInternalBase__ReferenceEqualsEqualityComparer;
 }
 namespace Newtonsoft::Json::Serialization {
 class ITraceWriter;
 }
+namespace Newtonsoft::Json::Serialization {
+class ErrorContext;
+}
+namespace Newtonsoft::Json::Serialization {
+class JsonSerializerProxy;
+}
 namespace System {
-class Object;
+class Exception;
+}
+namespace Newtonsoft::Json::Utilities {
+template <typename TFirst, typename TSecond> class BidirectionalDictionary_2;
+}
+namespace Newtonsoft::Json {
+class IJsonLineInfo;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEqualityComparer_1;

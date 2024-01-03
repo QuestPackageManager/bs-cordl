@@ -14,10 +14,10 @@ namespace System::Collections {
 class IEnumerable;
 }
 namespace Mono::Security::X509 {
-class X509Certificate;
+class __X509CertificateCollection__X509CertificateEnumerator;
 }
 namespace Mono::Security::X509 {
-class __X509CertificateCollection__X509CertificateEnumerator;
+class X509Certificate;
 }
 namespace System {
 class Object;

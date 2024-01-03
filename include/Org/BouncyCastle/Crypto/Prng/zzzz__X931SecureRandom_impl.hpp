@@ -1,8 +1,8 @@
 #pragma once
 #include "Org/BouncyCastle/Security/zzzz__SecureRandom_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Prng/zzzz__X931SecureRandom_def.hpp"
-#include "Org/BouncyCastle/Crypto/Prng/zzzz__X931Rng_def.hpp"
 #include "Org/BouncyCastle/Security/zzzz__SecureRandom_def.hpp"
+#include "Org/BouncyCastle/Crypto/Prng/zzzz__X931Rng_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Prng::X931SecureRandom._ctor
 template <>
 

@@ -12,10 +12,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ViewController)
 namespace HMUI {
-class __ViewController___DismissViewControllerCoroutine_d__62;
+class __ViewController__DidActivateDelegate;
 }
 namespace HMUI {
 struct __ViewController__AnimationType;
+}
+namespace HMUI {
+class __ViewController__DidDeactivateDelegate;
+}
+namespace HMUI {
+class __ViewController___ReplaceViewControllerCoroutine_d__60;
+}
+namespace HMUI {
+class ContainerViewController;
 }
 namespace System::Collections {
 class IEnumerator;
@@ -24,52 +33,43 @@ namespace HMUI {
 class Screen;
 }
 namespace HMUI {
-struct __ViewController__AnimationDirection;
-}
-namespace HMUI {
-class __ViewController__DidActivateDelegate;
-}
-namespace HMUI {
-class __ViewController__DidDeactivateDelegate;
-}
-namespace HMUI {
-class __ViewController___ReplaceViewControllerCoroutine_d__60;
-}
-namespace System {
-class Action;
-}
-namespace UnityEngine::EventSystems {
-class BaseRaycaster;
-}
-namespace UnityEngine {
-class RectTransform;
-}
-namespace HMUI {
-class ButtonBinder;
-}
-namespace HMUI {
-class __ViewController___PresentViewControllerCoroutine_d__58;
-}
-namespace HMUI {
-class ContainerViewController;
+class __ViewController___DismissViewControllerCoroutine_d__62;
 }
 namespace UnityEngine {
 class CanvasGroup;
 }
+namespace HMUI {
+class ButtonBinder;
+}
+namespace UnityEngine::EventSystems {
+class BaseRaycaster;
+}
+namespace HMUI {
+struct __ViewController__AnimationDirection;
+}
+namespace HMUI {
+class __ViewController___PresentViewControllerCoroutine_d__58;
+}
 namespace System {
-class AsyncCallback;
+class Action;
+}
+namespace UnityEngine {
+class RectTransform;
 }
 namespace System {
 class Object;
 }
 namespace System {
-class IAsyncResult;
+class AsyncCallback;
 }
 namespace System {
-class IDisposable;
+class IAsyncResult;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
+}
+namespace System {
+class IDisposable;
 }
 // Forward declare root types
 namespace HMUI {
@@ -462,7 +462,7 @@ static_assert(offsetof(::HMUI::__ViewController___PresentViewControllerCoroutine
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13601)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(13600))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(13601)), TypeDefinitionIndex(TypeDefinitionIndex(13600))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13603))
 // CS Name: ::ViewController::<ReplaceViewControllerCoroutine>d__60*
 class CORDL_TYPE __ViewController___ReplaceViewControllerCoroutine_d__60 : public ::System::Object {
@@ -623,7 +623,7 @@ static_assert(offsetof(::HMUI::__ViewController___ReplaceViewControllerCoroutine
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13601)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(13601))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13604))
 // CS Name: ::ViewController::<DismissViewControllerCoroutine>d__62*
 class CORDL_TYPE __ViewController___DismissViewControllerCoroutine_d__62 : public ::System::Object {
@@ -784,7 +784,7 @@ static_assert(offsetof(::HMUI::__ViewController___DismissViewControllerCoroutine
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(13601))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13605))
 // CS Name: ::HMUI::ViewController*
 class CORDL_TYPE ViewController : public ::UnityEngine::MonoBehaviour {

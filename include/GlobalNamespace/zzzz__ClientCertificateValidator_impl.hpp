@@ -1,9 +1,9 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__ClientCertificateValidator_def.hpp"
-#include "System/Security/Cryptography/X509Certificates/zzzz__X509Certificate2_def.hpp"
 #include "GlobalNamespace/zzzz__DnsEndPoint_def.hpp"
 #include "GlobalNamespace/zzzz__ICertificateValidator_def.hpp"
+#include "System/Security/Cryptography/X509Certificates/zzzz__X509Certificate2_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::ClientCertificateValidator.ValidateCertificateChain
 template <>
 

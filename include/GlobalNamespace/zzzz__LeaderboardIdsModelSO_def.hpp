@@ -11,13 +11,13 @@ namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace GlobalNamespace {
-class IDifficultyBeatmap;
+class __LeaderboardIdsModelSO__LeaderboardIdData;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace GlobalNamespace {
-class __LeaderboardIdsModelSO__LeaderboardIdData;
+class IDifficultyBeatmap;
 }
 // Forward declare root types
 namespace GlobalNamespace {

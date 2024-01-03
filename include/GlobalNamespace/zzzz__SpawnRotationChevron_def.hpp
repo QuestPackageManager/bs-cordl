@@ -8,14 +8,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(SpawnRotationChevron)
-namespace UnityEngine {
-struct Color;
+namespace GlobalNamespace {
+class TubeBloomPrePassLight;
 }
 namespace GlobalNamespace {
 class __SpawnRotationChevron__Pool;
 }
-namespace GlobalNamespace {
-class TubeBloomPrePassLight;
+namespace UnityEngine {
+struct Color;
 }
 // Forward declare root types
 namespace GlobalNamespace {

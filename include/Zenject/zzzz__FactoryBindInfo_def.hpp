@@ -4,17 +4,17 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(FactoryBindInfo)
-namespace System {
-template <typename T, typename TResult> class Func_2;
-}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
-namespace Zenject {
-class DiContainer;
-}
 namespace System {
 class Type;
+}
+namespace System {
+template <typename T, typename TResult> class Func_2;
+}
+namespace Zenject {
+class DiContainer;
 }
 namespace Zenject {
 class IProvider;

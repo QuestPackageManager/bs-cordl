@@ -5,47 +5,17 @@ CORDL_MODULE_INIT
 #include "HMUI/zzzz__FlowCoordinator_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(CampaignFlowCoordinator)
-namespace GlobalNamespace {
-class MenuTransitionsHelper;
+namespace HMUI {
+class ViewController;
 }
 namespace GlobalNamespace {
 class PlayerDataModel;
 }
 namespace System {
-class Action;
-}
-namespace GlobalNamespace {
-class MissionLevelScenesTransitionSetupDataSO;
-}
-namespace GlobalNamespace {
-class MissionResultsViewController;
-}
-namespace GlobalNamespace {
-class MissionSelectionNavigationController;
-}
-namespace GlobalNamespace {
-class MenuLightsManager;
-}
-namespace GlobalNamespace {
-class MissionCompletionResults;
-}
-namespace HMUI {
-class ViewController;
-}
-namespace GlobalNamespace {
-class __CampaignFlowCoordinator____c__DisplayClass22_0;
-}
-namespace GlobalNamespace {
-class __CampaignFlowCoordinator____c__DisplayClass20_0;
-}
-namespace GlobalNamespace {
-class MenuLightsPresetSO;
-}
-namespace HMUI {
-struct __ViewController__AnimationType;
-}
-namespace System {
 template <typename T> class Action_1;
+}
+namespace GlobalNamespace {
+class MissionHelpViewController;
 }
 namespace GlobalNamespace {
 class MissionNode;
@@ -54,10 +24,40 @@ namespace GlobalNamespace {
 class GameplaySetupViewController;
 }
 namespace GlobalNamespace {
-class MissionHelpViewController;
+class CampaignProgressModel;
 }
 namespace GlobalNamespace {
-class CampaignProgressModel;
+class __CampaignFlowCoordinator____c__DisplayClass22_0;
+}
+namespace GlobalNamespace {
+class MissionResultsViewController;
+}
+namespace HMUI {
+struct __ViewController__AnimationType;
+}
+namespace GlobalNamespace {
+class MenuTransitionsHelper;
+}
+namespace System {
+class Action;
+}
+namespace GlobalNamespace {
+class __CampaignFlowCoordinator____c__DisplayClass20_0;
+}
+namespace GlobalNamespace {
+class MissionSelectionNavigationController;
+}
+namespace GlobalNamespace {
+class MissionCompletionResults;
+}
+namespace GlobalNamespace {
+class MissionLevelScenesTransitionSetupDataSO;
+}
+namespace GlobalNamespace {
+class MenuLightsPresetSO;
+}
+namespace GlobalNamespace {
+class MenuLightsManager;
 }
 // Forward declare root types
 namespace GlobalNamespace {

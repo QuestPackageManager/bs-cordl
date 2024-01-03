@@ -7,13 +7,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(SignalSubscriptionId)
 namespace System {
-class Object;
+template <typename T> class IEquatable_1;
 }
 namespace Zenject {
 struct BindingId;
 }
 namespace System {
-template <typename T> class IEquatable_1;
+class Object;
 }
 // Forward declare root types
 namespace Zenject {

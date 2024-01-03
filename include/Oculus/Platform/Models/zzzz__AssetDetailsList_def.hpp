@@ -16,7 +16,7 @@ MARK_REF_PTR_T(::Oculus::Platform::Models::AssetDetailsList);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Oculus::Platform::Models {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13417)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13430), inst: 1169 }),
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13430), inst: 1169 }), TypeDefinitionIndex(TypeDefinitionIndex(13417)),
 // TypeDefinitionIndex(TypeDefinitionIndex(13430))} Self: TypeDefinitionIndex(TypeDefinitionIndex(13418)) CS Name: ::Oculus.Platform.Models::AssetDetailsList*
 class CORDL_TYPE AssetDetailsList : public ::Oculus::Platform::Models::DeserializableList_1<::Oculus::Platform::Models::AssetDetails*> {
 public:

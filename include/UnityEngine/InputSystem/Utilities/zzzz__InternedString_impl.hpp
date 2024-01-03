@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/InputSystem/Utilities/zzzz__InternedString_def.hpp"
-#include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__IComparable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "System/zzzz__IEquatable_1_def.hpp"
 //  Writing Method size for method: ::UnityEngine::InputSystem::Utilities::InternedString.get_length
 template <>
 

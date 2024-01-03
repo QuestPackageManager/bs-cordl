@@ -23,8 +23,9 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::UQueryExtensions);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6930)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(6744)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6930), inst: 415 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(6932)) CS Name: ::UnityEngine.UIElements::UQueryExtensions*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6744)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6930), inst: 415 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(6930))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6932)) CS Name:
+// ::UnityEngine.UIElements::UQueryExtensions*
 class CORDL_TYPE UQueryExtensions : public ::System::Object {
 public:
   // Declarations

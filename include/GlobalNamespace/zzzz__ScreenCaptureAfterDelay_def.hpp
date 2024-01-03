@@ -11,35 +11,35 @@ CORDL_MODULE_EXPORT(ScreenCaptureAfterDelay)
 namespace GlobalNamespace {
 class __ScreenCaptureAfterDelay__InitData;
 }
-namespace GlobalNamespace {
-class ScreenCaptureCache;
-}
-namespace UnityEngine {
-class RenderTexture;
-}
 namespace System::Collections {
 class IEnumerator;
 }
-namespace GlobalNamespace {
-class MainEffectController;
-}
-namespace GlobalNamespace {
-class __ScreenCaptureAfterDelay___Start_d__6;
+namespace UnityEngine {
+class RenderTexture;
 }
 namespace UnityEngine {
 class Texture2D;
 }
 namespace GlobalNamespace {
+class ScreenCaptureCache;
+}
+namespace GlobalNamespace {
+class __ScreenCaptureAfterDelay___Start_d__6;
+}
+namespace GlobalNamespace {
+class MainEffectController;
+}
+namespace GlobalNamespace {
 struct __ScreenCaptureCache__ScreenshotType;
+}
+namespace System {
+class Object;
 }
 namespace System {
 class IDisposable;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
-}
-namespace System {
-class Object;
 }
 // Forward declare root types
 namespace GlobalNamespace {

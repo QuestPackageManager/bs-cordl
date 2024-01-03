@@ -5,7 +5,7 @@ CORDL_MODULE_INIT
 #include "UnityEngine/Timeline/zzzz__Marker_def.hpp"
 CORDL_MODULE_EXPORT(SignalEmitter)
 namespace UnityEngine::Timeline {
-class INotificationOptionProvider;
+class SignalAsset;
 }
 namespace UnityEngine::Playables {
 class INotification;
@@ -13,11 +13,11 @@ class INotification;
 namespace UnityEngine::Timeline {
 struct NotificationFlags;
 }
-namespace UnityEngine::Timeline {
-class SignalAsset;
-}
 namespace UnityEngine {
 struct PropertyName;
+}
+namespace UnityEngine::Timeline {
+class INotificationOptionProvider;
 }
 // Forward declare root types
 namespace UnityEngine::Timeline {

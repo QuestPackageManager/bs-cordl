@@ -2,8 +2,8 @@
 #include "Org/BouncyCastle/Crypto/Digests/zzzz__KeccakDigest_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Digests/zzzz__ShakeDigest_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__IXof_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__IDigest_def.hpp"
 #include "Org/BouncyCastle/Utilities/zzzz__IMemoable_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__IDigest_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Digests::ShakeDigest.CheckBitLength
 template <>
 

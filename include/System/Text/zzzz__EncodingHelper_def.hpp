@@ -11,11 +11,11 @@ CORDL_MODULE_EXPORT(EncodingHelper)
 namespace System::Text {
 class Encoding;
 }
-namespace System::Reflection {
-class Assembly;
-}
 namespace System {
 class Object;
+}
+namespace System::Reflection {
+class Assembly;
 }
 // Forward declare root types
 namespace System::Text {

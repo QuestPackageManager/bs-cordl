@@ -10,23 +10,23 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(InputBindingCompositeContext)
-namespace System::Collections {
-class IEnumerable;
-}
-namespace System::Collections {
-class IEnumerator;
-}
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
+}
+namespace System::Collections {
+class IEnumerable;
 }
 namespace System {
 class Object;
 }
-namespace System {
-class IDisposable;
-}
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
+}
+namespace System::Collections {
+class IEnumerator;
+}
+namespace System {
+class IDisposable;
 }
 namespace UnityEngine::InputSystem {
 struct __InputBindingCompositeContext__PartBinding;
@@ -38,10 +38,10 @@ namespace UnityEngine::InputSystem {
 template <typename TValue> struct __InputBindingCompositeContext__DefaultComparer_1;
 }
 namespace UnityEngine::InputSystem {
-class InputControl;
+class __InputBindingCompositeContext___get_controls_d__2;
 }
 namespace UnityEngine::InputSystem {
-class __InputBindingCompositeContext___get_controls_d__2;
+class InputControl;
 }
 namespace System::Collections::Generic {
 template <typename T> class IComparer_1;

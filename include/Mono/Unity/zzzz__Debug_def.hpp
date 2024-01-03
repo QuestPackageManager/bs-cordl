@@ -2,6 +2,7 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "Mono/Security/Interface/zzzz__AlertDescription_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(Debug)
@@ -10,9 +11,6 @@ struct __UnityTls__unitytls_x509verify_result;
 }
 namespace Mono::Unity {
 struct __UnityTls__unitytls_errorstate;
-}
-namespace Mono::Security::Interface {
-struct AlertDescription;
 }
 // Forward declare root types
 namespace Mono::Unity {
@@ -24,7 +22,7 @@ MARK_REF_PTR_T(::Mono::Unity::Debug);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Mono::Unity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(13773))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8757))
 // CS Name: ::Mono.Unity::Debug*
 class CORDL_TYPE Debug : public ::System::Object {

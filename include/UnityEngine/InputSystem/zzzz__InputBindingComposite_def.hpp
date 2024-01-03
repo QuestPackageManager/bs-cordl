@@ -16,29 +16,29 @@ class Object;
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
-namespace UnityEngine::InputSystem {
-struct InputBindingCompositeContext;
-}
 namespace System {
 class Type;
 }
 namespace UnityEngine::InputSystem {
 class __InputBindingComposite___GetPartNames_d__12;
 }
+namespace UnityEngine::InputSystem {
+struct InputBindingCompositeContext;
+}
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
+}
+namespace System::Collections {
+class IEnumerator;
 }
 namespace System {
 class IDisposable;
 }
 namespace System::Collections {
-class IEnumerator;
+class IEnumerable;
 }
 namespace System::Reflection {
 class FieldInfo;
-}
-namespace System::Collections {
-class IEnumerable;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem {

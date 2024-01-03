@@ -15,92 +15,92 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(UIRenderDevice)
-namespace System {
-class IDisposable;
-}
-namespace UnityEngine::UIElements::UIR {
-struct Alloc;
+namespace UnityEngine {
+class Texture;
 }
 namespace UnityEngine::UIElements::UIR {
 struct __UIRenderDevice__DeviceToFree;
 }
 namespace UnityEngine::UIElements::UIR {
-class MeshHandle;
+struct __UIRenderDevice__AllocToUpdate;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
-namespace UnityEngine::UIElements::UIR {
-template <typename T> class __Utility__GPUBuffer_1;
-}
-namespace UnityEngine::UIElements::UIR {
-class RenderChainCommand;
-}
-namespace UnityEngine::UIElements::UIR {
-class Page;
-}
-namespace UnityEngine {
-class MaterialPropertyBlock;
-}
-namespace UnityEngine::UIElements::UIR {
-struct __UIRenderDevice__AllocToFree;
-}
 namespace UnityEngine {
 class Texture2D;
-}
-namespace UnityEngine {
-struct Vector4;
-}
-namespace UnityEngine {
-class Material;
-}
-namespace UnityEngine {
-class Texture;
-}
-namespace Unity::Collections {
-template <typename T> struct NativeSlice_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class LinkedList_1;
 }
 namespace UnityEngine::UIElements::UIR {
 class __UIRenderDevice____c;
 }
 namespace UnityEngine::UIElements::UIR {
-struct __UIRenderDevice__DrawStatistics;
+struct Alloc;
 }
-namespace UnityEngine::UIElements::UIR {
-class DrawParams;
-}
-namespace System {
-class Exception;
-}
-namespace UnityEngine::UIElements::UIR {
-struct Transform3x4;
-}
-namespace UnityEngine::UIElements {
-struct Vertex;
-}
-namespace UnityEngine::UIElements::UIR {
-struct DrawBufferRange;
-}
-namespace UnityEngine::UIElements::UIR {
-struct __UIRenderDevice__EvaluationState;
+namespace UnityEngine {
+struct Vector4;
 }
 namespace UnityEngine::UIElements::UIR {
 template <typename T> class LinkedPool_1;
 }
 namespace UnityEngine::UIElements::UIR {
-class TextureSlotManager;
+struct __UIRenderDevice__EvaluationState;
+}
+namespace UnityEngine {
+class Material;
 }
 namespace UnityEngine::UIElements::UIR {
-struct __UIRenderDevice__AllocToUpdate;
+struct Transform3x4;
+}
+namespace UnityEngine::UIElements::UIR {
+class RenderChainCommand;
 }
 namespace System {
-template <typename TResult> class Func_1;
+class IDisposable;
+}
+namespace UnityEngine::UIElements::UIR {
+struct DrawBufferRange;
+}
+namespace UnityEngine::UIElements::UIR {
+template <typename T> class __Utility__GPUBuffer_1;
+}
+namespace UnityEngine::UIElements::UIR {
+class MeshHandle;
+}
+namespace UnityEngine::UIElements::UIR {
+class Page;
+}
+namespace System {
+class Exception;
+}
+namespace UnityEngine::UIElements::UIR {
+class DrawParams;
+}
+namespace UnityEngine::UIElements::UIR {
+struct __UIRenderDevice__AllocToFree;
+}
+namespace UnityEngine {
+class MaterialPropertyBlock;
+}
+namespace UnityEngine::UIElements::UIR {
+class TextureSlotManager;
+}
+namespace System::Collections::Generic {
+template <typename T> class LinkedList_1;
+}
+namespace UnityEngine::UIElements {
+struct Vertex;
+}
+namespace Unity::Collections {
+template <typename T> struct NativeSlice_1;
+}
+namespace UnityEngine::UIElements::UIR {
+struct __UIRenderDevice__DrawStatistics;
 }
 namespace System {
 template <typename T> class Action_1;
+}
+namespace System {
+template <typename TResult> class Func_1;
 }
 namespace UnityEngine::UIElements::UIR {
 struct State;
@@ -496,8 +496,8 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::UIR::__
 // SizeInfo { instance_size: 176, native_size: -1, calculated_instance_size: 176, calculated_native_size: 174, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7430)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9966)),
-// TypeDefinitionIndex(TypeDefinitionIndex(2448)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 105 }), TypeDefinitionIndex(TypeDefinitionIndex(2603))} Self:
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 105 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(9966)), TypeDefinitionIndex(TypeDefinitionIndex(7430)), TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(2603))} Self:
 // TypeDefinitionIndex(TypeDefinitionIndex(7432)) CS Name: ::UnityEngine.UIElements.UIR::UIRenderDevice*
 class CORDL_TYPE UIRenderDevice : public ::System::Object {
 public:

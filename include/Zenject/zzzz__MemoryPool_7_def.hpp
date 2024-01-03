@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "Zenject/zzzz__MemoryPoolBase_1_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(MemoryPool_7)
-namespace System {
-class Object;
-}
 namespace Zenject {
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TValue> class IMemoryPool_7;
+}
+namespace Zenject {
+class IMemoryPool;
 }
 namespace Zenject {
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TValue> class IFactory_7;
@@ -17,14 +17,14 @@ template <typename TParam1, typename TParam2, typename TParam3, typename TParam4
 namespace Zenject {
 class IFactory;
 }
-namespace Zenject {
-class IMemoryPool;
-}
-namespace Zenject {
-class InjectTypeInfo;
+namespace System {
+class Object;
 }
 namespace Zenject {
 template <typename TValue> class IDespawnableMemoryPool_1;
+}
+namespace Zenject {
+class InjectTypeInfo;
 }
 // Forward declare root types
 namespace Zenject {
@@ -38,7 +38,7 @@ namespace Zenject {
 // cpp template
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TValue>
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11049), inst: 2789 }), TypeDefinitionIndex(TypeDefinitionIndex(11049))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11049)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11049), inst: 2789 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11044))
 // CS Name: ::Zenject::MemoryPool`7<TParam1,TParam2,TParam3,TParam4,TParam5,TParam6,TValue>*
 class CORDL_TYPE MemoryPool_7 : public ::Zenject::MemoryPoolBase_1<TValue> {

@@ -1,9 +1,9 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__CuttingManager_def.hpp"
+#include "GlobalNamespace/zzzz__SaberManager_def.hpp"
 #include "GlobalNamespace/zzzz__Saber_def.hpp"
 #include "GlobalNamespace/zzzz__NoteCutter_def.hpp"
-#include "GlobalNamespace/zzzz__SaberManager_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::CuttingManager.OnEnable
 template <>
 

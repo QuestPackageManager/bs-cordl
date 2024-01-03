@@ -10,11 +10,11 @@ CORDL_MODULE_EXPORT(SkeinParameters)
 namespace Org::BouncyCastle::Crypto::Parameters {
 class __SkeinParameters__Builder;
 }
-namespace Org::BouncyCastle::Crypto {
-class ICipherParameters;
-}
 namespace System::Collections {
 class IDictionary;
+}
+namespace Org::BouncyCastle::Crypto {
+class ICipherParameters;
 }
 namespace System {
 struct DateTime;

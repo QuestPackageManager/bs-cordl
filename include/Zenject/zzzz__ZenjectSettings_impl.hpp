@@ -8,9 +8,9 @@
 #include "Zenject/zzzz__ZenjectSettings_def.hpp"
 #include "Zenject/zzzz__ValidationErrorResponses_def.hpp"
 #include "Zenject/zzzz__RootResolveMethods_def.hpp"
+#include "Zenject/zzzz__SignalMissingHandlerResponses_def.hpp"
 #include "Zenject/zzzz__SignalDefaultSyncModes_def.hpp"
 #include "Zenject/zzzz__InjectTypeInfo_def.hpp"
-#include "Zenject/zzzz__SignalMissingHandlerResponses_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::Zenject::__ZenjectSettings__SignalSettings._ctor
 template <>

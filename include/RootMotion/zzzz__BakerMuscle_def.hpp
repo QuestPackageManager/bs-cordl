@@ -10,10 +10,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(BakerMuscle)
 namespace UnityEngine {
-class AnimationClip;
+class AnimationCurve;
 }
 namespace UnityEngine {
-class AnimationCurve;
+class AnimationClip;
 }
 // Forward declare root types
 namespace RootMotion {

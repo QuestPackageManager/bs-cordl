@@ -1,11 +1,11 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "Zenject/zzzz__MonoKernel_def.hpp"
-#include "Zenject/zzzz__InitializableManager_def.hpp"
-#include "Zenject/zzzz__DisposableManager_def.hpp"
-#include "Zenject/zzzz__InjectTypeInfo_def.hpp"
 #include "Zenject/zzzz__TickableManager_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "Zenject/zzzz__InjectTypeInfo_def.hpp"
+#include "Zenject/zzzz__InitializableManager_def.hpp"
+#include "Zenject/zzzz__DisposableManager_def.hpp"
 //  Writing Method size for method: ::Zenject::MonoKernel.get_IsDestroyed
 template <>
 

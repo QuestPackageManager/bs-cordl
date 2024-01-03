@@ -6,22 +6,22 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(BloomPrePassBackgroundNonLightRendererCore)
 namespace UnityEngine {
-class Renderer;
-}
-namespace UnityEngine {
-class RenderTexture;
-}
-namespace UnityEngine {
-struct Matrix4x4;
-}
-namespace UnityEngine {
 class Material;
 }
 namespace UnityEngine {
 class MaterialPropertyBlock;
 }
+namespace UnityEngine {
+struct Matrix4x4;
+}
+namespace UnityEngine {
+class RenderTexture;
+}
 namespace UnityEngine::Rendering {
 class CommandBuffer;
+}
+namespace UnityEngine {
+class Renderer;
 }
 // Forward declare root types
 namespace GlobalNamespace {

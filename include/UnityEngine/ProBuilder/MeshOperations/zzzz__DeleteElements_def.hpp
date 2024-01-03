@@ -6,26 +6,26 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(DeleteElements)
+namespace UnityEngine::ProBuilder::MeshOperations {
+class __DeleteElements____c;
+}
 namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
+template <typename T> class IList_1;
 }
 namespace UnityEngine::ProBuilder::MeshOperations {
 class __DeleteElements____c__DisplayClass2_0;
 }
 namespace UnityEngine::ProBuilder {
-class ProBuilderMesh;
+class Face;
 }
-namespace UnityEngine::ProBuilder::MeshOperations {
-class __DeleteElements____c;
+namespace UnityEngine::ProBuilder {
+class ProBuilderMesh;
 }
 namespace UnityEngine::ProBuilder::MeshOperations {
 class __DeleteElements____c__DisplayClass0_0;
 }
-namespace UnityEngine::ProBuilder {
-class Face;
-}
 namespace System::Collections::Generic {
-template <typename T> class IList_1;
+template <typename T> class IEnumerable_1;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;

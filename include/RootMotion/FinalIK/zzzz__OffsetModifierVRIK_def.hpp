@@ -7,14 +7,14 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(OffsetModifierVRIK)
+namespace RootMotion::FinalIK {
+class VRIK;
+}
 namespace System::Collections {
 class IEnumerator;
 }
 namespace RootMotion::FinalIK {
 class __OffsetModifierVRIK___Initiate_d__7;
-}
-namespace RootMotion::FinalIK {
-class VRIK;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;

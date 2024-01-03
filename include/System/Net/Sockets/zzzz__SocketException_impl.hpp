@@ -1,10 +1,10 @@
 #pragma once
 #include "System/ComponentModel/zzzz__Win32Exception_impl.hpp"
 #include "System/Net/Sockets/zzzz__SocketException_def.hpp"
-#include "System/Net/Sockets/zzzz__SocketError_def.hpp"
-#include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
 #include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
 #include "System/Net/zzzz__EndPoint_def.hpp"
+#include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
+#include "System/Net/Sockets/zzzz__SocketError_def.hpp"
 //  Writing Method size for method: ::System::Net::Sockets::SocketException.WSAGetLastError_icall
 template <>
 

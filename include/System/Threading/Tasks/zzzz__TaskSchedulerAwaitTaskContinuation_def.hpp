@@ -5,17 +5,17 @@ CORDL_MODULE_INIT
 #include "System/Threading/Tasks/zzzz__AwaitTaskContinuation_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(TaskSchedulerAwaitTaskContinuation)
+namespace System::Threading::Tasks {
+class TaskScheduler;
+}
 namespace System {
 class Action;
 }
 namespace System::Threading::Tasks {
-class __TaskSchedulerAwaitTaskContinuation____c;
-}
-namespace System::Threading::Tasks {
-class TaskScheduler;
-}
-namespace System::Threading::Tasks {
 class Task;
+}
+namespace System::Threading::Tasks {
+class __TaskSchedulerAwaitTaskContinuation____c;
 }
 namespace System {
 class Object;

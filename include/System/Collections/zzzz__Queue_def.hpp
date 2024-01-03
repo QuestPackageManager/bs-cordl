@@ -10,14 +10,14 @@ CORDL_MODULE_EXPORT(Queue)
 namespace System {
 class ICloneable;
 }
-namespace System::Collections {
-class IEnumerator;
+namespace System {
+class Array;
 }
 namespace System::Collections {
 class __Queue__QueueEnumerator;
 }
 namespace System::Collections {
-class __Queue__QueueDebugView;
+class IEnumerator;
 }
 namespace System::Collections {
 class ICollection;
@@ -25,8 +25,8 @@ class ICollection;
 namespace System {
 class Object;
 }
-namespace System {
-class Array;
+namespace System::Collections {
+class __Queue__QueueDebugView;
 }
 namespace System::Collections {
 class IEnumerable;

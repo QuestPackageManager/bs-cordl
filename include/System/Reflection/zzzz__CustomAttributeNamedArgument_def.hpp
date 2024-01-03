@@ -7,17 +7,17 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(CustomAttributeNamedArgument)
-namespace System {
-class Type;
-}
-namespace System::Reflection {
-class MemberInfo;
-}
 namespace System::Reflection {
 struct CustomAttributeTypedArgument;
 }
 namespace System {
+class Type;
+}
+namespace System {
 class Object;
+}
+namespace System::Reflection {
+class MemberInfo;
 }
 // Forward declare root types
 namespace System::Reflection {

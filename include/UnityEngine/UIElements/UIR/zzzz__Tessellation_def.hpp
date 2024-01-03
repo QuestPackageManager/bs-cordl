@@ -14,43 +14,43 @@ namespace UnityEngine::UIElements::UIR {
 struct __Tessellation__Edges;
 }
 namespace UnityEngine {
-struct Vector3;
-}
-namespace UnityEngine {
-struct Color32;
-}
-namespace Unity::Collections {
-template <typename T> struct NativeSlice_1;
-}
-namespace UnityEngine::UIElements::UIR {
-struct __MeshBuilder__AllocMeshData;
-}
-namespace UnityEngine {
-struct Vector4;
-}
-namespace UnityEngine::UIElements {
-struct Vertex;
-}
-namespace UnityEngine::UIElements {
-class MeshWriteData;
-}
-namespace UnityEngine::UIElements {
-struct __MeshGenerationContextUtils__BorderParams;
-}
-namespace UnityEngine {
-struct Color;
+struct Vector2;
 }
 namespace UnityEngine {
 struct Rect;
 }
 namespace UnityEngine {
-struct Vector2;
+struct Vector4;
+}
+namespace UnityEngine::UIElements {
+struct ColorPage;
+}
+namespace UnityEngine {
+struct Color;
+}
+namespace UnityEngine::UIElements {
+class MeshWriteData;
+}
+namespace UnityEngine {
+struct Color32;
 }
 namespace UnityEngine::UIElements {
 struct __MeshGenerationContextUtils__RectangleParams;
 }
+namespace UnityEngine::UIElements::UIR {
+struct __MeshBuilder__AllocMeshData;
+}
 namespace UnityEngine::UIElements {
-struct ColorPage;
+struct __MeshGenerationContextUtils__BorderParams;
+}
+namespace UnityEngine::UIElements {
+struct Vertex;
+}
+namespace UnityEngine {
+struct Vector3;
+}
+namespace Unity::Collections {
+template <typename T> struct NativeSlice_1;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements::UIR {
@@ -132,7 +132,7 @@ static_assert(offsetof(::UnityEngine::UIElements::UIR::__Tessellation__Edges, va
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9966)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9966))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7410))
 // CS Name: ::UnityEngine.UIElements.UIR::Tessellation*
 class CORDL_TYPE Tessellation : public ::System::Object {

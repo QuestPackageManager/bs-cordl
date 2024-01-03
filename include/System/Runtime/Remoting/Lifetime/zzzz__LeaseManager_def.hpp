@@ -5,19 +5,19 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(LeaseManager)
 namespace System {
+class Object;
+}
+namespace System {
 struct TimeSpan;
-}
-namespace System::Collections {
-class ArrayList;
-}
-namespace System::Runtime::Remoting {
-class ServerIdentity;
 }
 namespace System::Threading {
 class Timer;
 }
-namespace System {
-class Object;
+namespace System::Runtime::Remoting {
+class ServerIdentity;
+}
+namespace System::Collections {
+class ArrayList;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting::Lifetime {

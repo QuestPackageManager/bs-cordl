@@ -11,46 +11,43 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(DropdownField)
 namespace UnityEngine::UIElements {
-class VisualElement;
+class IGenericMenu;
 }
-namespace UnityEngine::UIElements {
-class __DropdownField__UxmlFactory;
+namespace System {
+template <typename T, typename TResult> class Func_2;
 }
 namespace UnityEngine::UIElements {
 class EventBase;
 }
 namespace UnityEngine::UIElements {
-class __DropdownField__UxmlTraits;
+class TextElement;
+}
+namespace UnityEngine::UIElements {
+class __DropdownField__PopupTextElement;
 }
 namespace System {
 template <typename TResult> class Func_1;
 }
 namespace UnityEngine::UIElements {
-class __DropdownField__PopupTextElement;
+class __DropdownField__UxmlFactory;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace UnityEngine::UIElements {
-class TextElement;
-}
-namespace UnityEngine::UIElements {
-class IGenericMenu;
+class VisualElement;
 }
 namespace UnityEngine::UIElements {
 class __DropdownField____c__DisplayClass38_0;
 }
-namespace System {
-template <typename T, typename TResult> class Func_2;
+namespace UnityEngine::UIElements {
+class __DropdownField__UxmlTraits;
 }
 namespace UnityEngine {
 struct Vector2;
 }
 namespace UnityEngine::UIElements {
 struct __VisualElement__MeasureMode;
-}
-namespace UnityEngine::UIElements {
-class UxmlIntAttributeDescription;
 }
 namespace UnityEngine::UIElements {
 class UxmlStringAttributeDescription;
@@ -60,6 +57,9 @@ class IUxmlAttributes;
 }
 namespace UnityEngine::UIElements {
 struct CreationContext;
+}
+namespace UnityEngine::UIElements {
+class UxmlIntAttributeDescription;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -153,7 +153,7 @@ static_assert(offsetof(::UnityEngine::UIElements::__DropdownField__UxmlTraits, _
 // SizeInfo { instance_size: 1088, native_size: -1, calculated_instance_size: 1088, calculated_native_size: 1084, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7130)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7130), inst: 397 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7130), inst: 397 }), TypeDefinitionIndex(TypeDefinitionIndex(7130))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7057))
 // CS Name: ::UnityEngine.UIElements::DropdownField*
 class CORDL_TYPE DropdownField : public ::UnityEngine::UIElements::BaseField_1<::StringW> {
@@ -402,8 +402,8 @@ static_assert(offsetof(::UnityEngine::UIElements::DropdownField, ___m_Index) == 
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6997), inst: 5259 }), TypeDefinitionIndex(TypeDefinitionIndex(7057)),
-// TypeDefinitionIndex(TypeDefinitionIndex(6997)), TypeDefinitionIndex(TypeDefinitionIndex(7054))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7053)) CS Name: ::DropdownField::UxmlFactory*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7057)), TypeDefinitionIndex(TypeDefinitionIndex(6997)), TypeDefinitionIndex(TypeDefinitionIndex(7054)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6997), inst: 5259 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(7053)) CS Name: ::DropdownField::UxmlFactory*
 class CORDL_TYPE __DropdownField__UxmlFactory : public ::UnityEngine::UIElements::UxmlFactory_2<::UnityEngine::UIElements::DropdownField*, ::UnityEngine::UIElements::__DropdownField__UxmlTraits*> {
 public:
   // Declarations

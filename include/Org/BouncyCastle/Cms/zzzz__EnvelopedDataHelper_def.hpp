@@ -4,29 +4,29 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(EnvelopedDataHelper)
-namespace Org::BouncyCastle::Asn1::X509 {
-class AlgorithmIdentifier;
-}
-namespace System::Collections {
-class IDictionary;
-}
 namespace Org::BouncyCastle::Security {
 class SecureRandom;
 }
 namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;
 }
-namespace System {
-class Object;
+namespace Org::BouncyCastle::Asn1 {
+class DerObjectIdentifier;
+}
+namespace System::Collections {
+class IDictionary;
 }
 namespace Org::BouncyCastle::Crypto {
 class CipherKeyGenerator;
 }
+namespace Org::BouncyCastle::Asn1::X509 {
+class AlgorithmIdentifier;
+}
+namespace System {
+class Object;
+}
 namespace Org::BouncyCastle::Crypto::Parameters {
 class KeyParameter;
-}
-namespace Org::BouncyCastle::Asn1 {
-class DerObjectIdentifier;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Cms {

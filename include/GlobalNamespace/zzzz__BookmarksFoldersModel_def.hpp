@@ -8,16 +8,16 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(BookmarksFoldersModel)
 namespace GlobalNamespace {
-class FileBrowserItem;
-}
-namespace GlobalNamespace {
 class __BookmarksFoldersModel____c;
 }
-namespace System {
-template <typename T, typename TResult> class Func_2;
+namespace GlobalNamespace {
+class FileBrowserItem;
 }
 namespace System {
 struct __Environment__SpecialFolder;
+}
+namespace System {
+template <typename T, typename TResult> class Func_2;
 }
 // Forward declare root types
 namespace GlobalNamespace {

@@ -3,14 +3,14 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(INotificationReceiver)
+namespace System {
+class Object;
+}
 namespace UnityEngine::Playables {
 struct Playable;
 }
 namespace UnityEngine::Playables {
 class INotification;
-}
-namespace System {
-class Object;
 }
 // Forward declare root types
 namespace UnityEngine::Playables {

@@ -8,16 +8,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(RectTransformUtility)
 namespace UnityEngine {
-struct Vector2;
+class Canvas;
 }
 namespace UnityEngine {
-class Camera;
+struct Vector3;
 }
 namespace UnityEngine {
 class RectTransform;
 }
 namespace UnityEngine {
-struct Vector3;
+struct Vector2;
 }
 namespace UnityEngine {
 class Transform;
@@ -26,13 +26,13 @@ namespace UnityEngine {
 struct Rect;
 }
 namespace UnityEngine {
-struct Ray;
-}
-namespace UnityEngine {
-class Canvas;
+class Camera;
 }
 namespace UnityEngine {
 struct Vector4;
+}
+namespace UnityEngine {
+struct Ray;
 }
 // Forward declare root types
 namespace UnityEngine {

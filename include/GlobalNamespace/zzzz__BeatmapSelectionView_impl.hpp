@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatmapSelectionView_def.hpp"
-#include "GlobalNamespace/zzzz__LevelBar_def.hpp"
 #include "TMPro/zzzz__TextMeshProUGUI_def.hpp"
+#include "GlobalNamespace/zzzz__LevelBar_def.hpp"
 #include "GlobalNamespace/zzzz__PreviewDifficultyBeatmap_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::BeatmapSelectionView.SetBeatmap
 template <>

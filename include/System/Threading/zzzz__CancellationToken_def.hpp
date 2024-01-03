@@ -10,16 +10,16 @@ namespace System {
 class Object;
 }
 namespace System::Threading {
-class __CancellationToken____c;
-}
-namespace System {
-class Action;
+class CancellationTokenSource;
 }
 namespace System::Threading {
 struct CancellationTokenRegistration;
 }
 namespace System::Threading {
-class CancellationTokenSource;
+class __CancellationToken____c;
+}
+namespace System {
+class Action;
 }
 namespace System {
 template <typename T> class Action_1;

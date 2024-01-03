@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__OperationCanceledException_impl.hpp"
 #include "System/Threading/Tasks/zzzz__TaskCanceledException_def.hpp"
-#include "System/Threading/Tasks/zzzz__Task_def.hpp"
 #include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
+#include "System/Threading/Tasks/zzzz__Task_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
 //  Writing Method size for method: ::System::Threading::Tasks::TaskCanceledException._ctor
 template <>

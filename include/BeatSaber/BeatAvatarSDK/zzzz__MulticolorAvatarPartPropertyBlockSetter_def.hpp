@@ -10,22 +10,22 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(MulticolorAvatarPartPropertyBlockSetter)
 namespace UnityEngine {
-class MaterialPropertyBlock;
-}
-namespace BeatSaber::BeatAvatarSDK {
-class __MulticolorAvatarPartPropertyBlockSetter__ColorData;
-}
-namespace UnityEngine {
 class Renderer;
-}
-namespace UnityEngine {
-struct Color;
 }
 namespace UnityEngine {
 struct Vector4;
 }
 namespace BeatSaber::BeatAvatarSDK {
 class __MulticolorAvatarPartPropertyBlockSetter____c;
+}
+namespace UnityEngine {
+class MaterialPropertyBlock;
+}
+namespace BeatSaber::BeatAvatarSDK {
+class __MulticolorAvatarPartPropertyBlockSetter__ColorData;
+}
+namespace UnityEngine {
+struct Color;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;
@@ -48,7 +48,7 @@ MARK_REF_PTR_T(::BeatSaber::BeatAvatarSDK::__MulticolorAvatarPartPropertyBlockSe
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace BeatSaber::BeatAvatarSDK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10251))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15698))
 // CS Name: ::MulticolorAvatarPartPropertyBlockSetter::ColorData*
 class CORDL_TYPE __MulticolorAvatarPartPropertyBlockSetter__ColorData : public ::System::Object {

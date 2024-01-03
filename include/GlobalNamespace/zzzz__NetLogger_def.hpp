@@ -9,11 +9,11 @@ CORDL_MODULE_EXPORT(NetLogger)
 namespace LiteNetLib {
 class INetLogger;
 }
-namespace System {
-class Object;
-}
 namespace LiteNetLib {
 struct NetLogLevel;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace GlobalNamespace {

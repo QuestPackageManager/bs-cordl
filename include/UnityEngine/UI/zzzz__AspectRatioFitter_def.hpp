@@ -12,17 +12,17 @@ CORDL_MODULE_EXPORT(AspectRatioFitter)
 namespace UnityEngine::UI {
 struct __AspectRatioFitter__AspectMode;
 }
-namespace UnityEngine {
-struct Vector2;
-}
-namespace UnityEngine {
-class RectTransform;
+namespace UnityEngine::UI {
+class ILayoutController;
 }
 namespace UnityEngine::UI {
 class ILayoutSelfController;
 }
-namespace UnityEngine::UI {
-class ILayoutController;
+namespace UnityEngine {
+class RectTransform;
+}
+namespace UnityEngine {
+struct Vector2;
 }
 // Forward declare root types
 namespace UnityEngine::UI {
@@ -100,7 +100,7 @@ static_assert(offsetof(::UnityEngine::UI::__AspectRatioFitter__AspectMode, value
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 43, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10278)), TypeDefinitionIndex(TypeDefinitionIndex(13214)), TypeDefinitionIndex(TypeDefinitionIndex(13070))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13070)), TypeDefinitionIndex(TypeDefinitionIndex(13214)), TypeDefinitionIndex(TypeDefinitionIndex(10278))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13071))
 // CS Name: ::UnityEngine.UI::AspectRatioFitter*
 class CORDL_TYPE AspectRatioFitter : public ::UnityEngine::EventSystems::UIBehaviour {

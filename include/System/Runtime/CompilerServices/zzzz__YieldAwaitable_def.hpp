@@ -7,20 +7,20 @@ CORDL_MODULE_EXPORT(YieldAwaitable)
 namespace System::Runtime::CompilerServices {
 struct __YieldAwaitable__YieldAwaiter;
 }
-namespace System {
-class Action;
-}
 namespace System::Runtime::CompilerServices {
 class ICriticalNotifyCompletion;
+}
+namespace System::Threading {
+class WaitCallback;
 }
 namespace System::Threading {
 class SendOrPostCallback;
 }
 namespace System {
-class Object;
+class Action;
 }
-namespace System::Threading {
-class WaitCallback;
+namespace System {
+class Object;
 }
 namespace System::Runtime::CompilerServices {
 class INotifyCompletion;

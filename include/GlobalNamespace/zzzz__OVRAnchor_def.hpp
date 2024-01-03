@@ -2,6 +2,7 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "GlobalNamespace/zzzz__OVRSpace_def.hpp"
 #include "System/zzzz__Guid_def.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
@@ -9,29 +10,38 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVRAnchor)
+namespace System {
+template <typename T> class IEquatable_1;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__SpaceComponentType;
+}
 namespace UnityEngine {
 class Transform;
 }
-namespace UnityEngine {
-class Camera;
+namespace System {
+class Object;
 }
 namespace System {
 struct Guid;
 }
 namespace GlobalNamespace {
-struct __OVRPlugin__SpaceComponentType;
+struct __OVRPlugin__SpaceQueryInfo;
 }
 namespace System {
-class Object;
+class IDisposable;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
 }
 namespace GlobalNamespace {
 template <typename TResult> struct OVRTask_1;
 }
-namespace UnityEngine {
-struct Pose;
-}
 namespace GlobalNamespace {
-struct __OVRPlugin__SpaceQueryInfo;
+struct __OVRSpace__StorageLocation;
+}
+namespace UnityEngine {
+class Camera;
 }
 namespace System::Collections::Generic {
 template <typename T> class IList_1;
@@ -39,17 +49,8 @@ template <typename T> class IList_1;
 namespace GlobalNamespace {
 struct __OVRDeserialize__SpaceQueryCompleteData;
 }
-namespace System {
-template <typename T> class IEquatable_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
-namespace GlobalNamespace {
-struct __OVRSpace__StorageLocation;
-}
-namespace System {
-class IDisposable;
+namespace UnityEngine {
+struct Pose;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -61,7 +62,7 @@ MARK_VAL_T(::GlobalNamespace::OVRAnchor);
 // SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2406))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7990)), TypeDefinitionIndex(TypeDefinitionIndex(2406))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7510))
 // CS Name: ::OVRAnchor
 struct CORDL_TYPE OVRAnchor {

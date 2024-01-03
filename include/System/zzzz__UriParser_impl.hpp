@@ -3,14 +3,14 @@
 #include "System/zzzz__UriParser_impl.hpp"
 #include "System/zzzz__UriSyntaxFlags_impl.hpp"
 #include "System/zzzz__UriParser_def.hpp"
-#include "System/zzzz__UriSyntaxFlags_def.hpp"
 #include "System/zzzz__UriParser_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "System/zzzz__UriSyntaxFlags_def.hpp"
+#include "System/zzzz__UriFormatException_def.hpp"
+#include "System/zzzz__UriComponents_def.hpp"
 #include "System/zzzz__Uri_def.hpp"
 #include "System/zzzz__UriParser_BuiltInUriParser_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "System/zzzz__UriFormat_def.hpp"
-#include "System/zzzz__UriComponents_def.hpp"
-#include "System/zzzz__UriFormatException_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::System::__UriParser__UriQuirksVersion::__UriParser__UriQuirksVersion(int32_t value__) noexcept {
   this->value__ = value__;

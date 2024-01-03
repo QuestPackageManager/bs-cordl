@@ -7,20 +7,20 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(Stairs)
+namespace UnityEngine {
+struct Quaternion;
+}
 namespace UnityEngine::ProBuilder::Shapes {
 class Shape;
 }
 namespace UnityEngine {
-struct Quaternion;
+struct Vector3;
 }
 namespace UnityEngine::ProBuilder {
 class ProBuilderMesh;
 }
 namespace UnityEngine {
 struct Bounds;
-}
-namespace UnityEngine {
-struct Vector3;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder::Shapes {
@@ -32,7 +32,7 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::Shapes::Stairs);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::Shapes {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12237)), TypeDefinitionIndex(TypeDefinitionIndex(12233))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12233)), TypeDefinitionIndex(TypeDefinitionIndex(12237))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12238))
 // CS Name: ::UnityEngine.ProBuilder.Shapes::Stairs*
 class CORDL_TYPE Stairs : public ::UnityEngine::ProBuilder::Shapes::Shape {

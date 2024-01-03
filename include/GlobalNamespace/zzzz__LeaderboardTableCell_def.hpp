@@ -7,11 +7,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(LeaderboardTableCell)
-namespace UnityEngine::UI {
-class Image;
-}
 namespace TMPro {
 class TextMeshProUGUI;
+}
+namespace UnityEngine::UI {
+class Image;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -23,7 +23,7 @@ MARK_REF_PTR_T(::GlobalNamespace::LeaderboardTableCell);
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13664)), TypeDefinitionIndex(TypeDefinitionIndex(10251))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(13664))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5427))
 // CS Name: ::LeaderboardTableCell*
 class CORDL_TYPE LeaderboardTableCell : public ::HMUI::TableCell {

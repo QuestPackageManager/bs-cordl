@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include "Zenject/zzzz__SubContainerCreatorByMethodBase_def.hpp"
 CORDL_MODULE_EXPORT(SubContainerCreatorByMethod_2)
-namespace Zenject {
-struct TypeValuePair;
-}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
+}
+namespace Zenject {
+struct TypeValuePair;
 }
 namespace Zenject {
 class InjectContext;

@@ -8,32 +8,44 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(TlsProtocol)
-namespace System::IO {
-class MemoryStream;
-}
-namespace System::IO {
-class Stream;
-}
-namespace Org::BouncyCastle::Security {
-class SecureRandom;
+namespace Org::BouncyCastle::Crypto::Tls {
+class TlsCloseable;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class TlsStream;
+class TlsSession;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class Certificate;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
-class SecurityParameters;
+class ByteQueueStream;
 }
 namespace Org::BouncyCastle::Crypto::Prng {
 class IRandomGenerator;
 }
+namespace System::Collections {
+class IList;
+}
 namespace Org::BouncyCastle::Crypto::Tls {
-class RecordStream;
+class TlsContext;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class ByteQueue;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class AbstractTlsContext;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class TlsPeer;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class TlsHandshakeHash;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class RecordStream;
+}
+namespace System::IO {
+class Stream;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class TlsKeyExchange;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class __TlsProtocol__HandshakeMessage;
@@ -41,38 +53,26 @@ class __TlsProtocol__HandshakeMessage;
 namespace Org::BouncyCastle::Crypto::Tls {
 class SessionParameters;
 }
-namespace Org::BouncyCastle::Crypto::Tls {
-class TlsSession;
+namespace System::IO {
+class MemoryStream;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class ByteQueue;
+class SecurityParameters;
+}
+namespace Org::BouncyCastle::Security {
+class SecureRandom;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class Certificate;
 }
 namespace System::Collections {
 class IDictionary;
 }
-namespace Org::BouncyCastle::Crypto::Tls {
-class ByteQueueStream;
-}
-namespace System::Collections {
-class IList;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
-class TlsKeyExchange;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
-class TlsCloseable;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
-class TlsPeer;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
-class TlsContext;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
-class TlsHandshakeHash;
-}
 namespace System {
 class Exception;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class TlsStream;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {

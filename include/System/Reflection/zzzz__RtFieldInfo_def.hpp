@@ -10,11 +10,11 @@ struct BindingFlags;
 namespace System::Globalization {
 class CultureInfo;
 }
-namespace System {
-class Object;
-}
 namespace System::Reflection {
 class Binder;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::Reflection {

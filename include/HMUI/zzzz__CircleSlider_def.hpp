@@ -6,20 +6,8 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__DrivenRectTransformTracker_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(CircleSlider)
-namespace UnityEngine::UI {
-class ICanvasElement;
-}
-namespace UnityEngine::UI {
-struct CanvasUpdate;
-}
-namespace UnityEngine::EventSystems {
-class IDragHandler;
-}
 namespace UnityEngine::EventSystems {
 class PointerEventData;
-}
-namespace System {
-template <typename T1, typename T2> class Action_2;
 }
 namespace UnityEngine {
 struct Color;
@@ -27,11 +15,8 @@ struct Color;
 namespace UnityEngine {
 class RectTransform;
 }
-namespace UnityEngine::EventSystems {
-class IBeginDragHandler;
-}
 namespace UnityEngine::UI {
-class Graphic;
+struct CanvasUpdate;
 }
 namespace UnityEngine {
 class Transform;
@@ -40,7 +25,22 @@ namespace UnityEngine::EventSystems {
 class IEventSystemHandler;
 }
 namespace UnityEngine::EventSystems {
+class IDragHandler;
+}
+namespace UnityEngine::UI {
+class Graphic;
+}
+namespace UnityEngine::EventSystems {
 class IInitializePotentialDragHandler;
+}
+namespace UnityEngine::UI {
+class ICanvasElement;
+}
+namespace System {
+template <typename T1, typename T2> class Action_2;
+}
+namespace UnityEngine::EventSystems {
+class IBeginDragHandler;
 }
 // Forward declare root types
 namespace HMUI {

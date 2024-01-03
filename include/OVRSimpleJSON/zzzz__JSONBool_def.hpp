@@ -9,17 +9,17 @@ CORDL_MODULE_EXPORT(JSONBool)
 namespace OVRSimpleJSON {
 struct __JSONNode__Enumerator;
 }
+namespace OVRSimpleJSON {
+struct JSONTextMode;
+}
 namespace System::Text {
 class StringBuilder;
 }
 namespace OVRSimpleJSON {
-struct JSONTextMode;
+struct JSONNodeType;
 }
 namespace System {
 class Object;
-}
-namespace OVRSimpleJSON {
-struct JSONNodeType;
 }
 // Forward declare root types
 namespace OVRSimpleJSON {

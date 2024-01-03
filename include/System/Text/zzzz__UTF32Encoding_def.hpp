@@ -9,16 +9,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(UTF32Encoding)
 namespace System::Text {
-class Encoder;
-}
-namespace System {
-class Object;
-}
-namespace System::Text {
 class DecoderNLS;
 }
 namespace System::Text {
-class Decoder;
+class EncoderNLS;
 }
 namespace System::Text {
 class __UTF32Encoding__UTF32Decoder;
@@ -27,7 +21,13 @@ namespace System {
 template <typename T> struct ReadOnlySpan_1;
 }
 namespace System::Text {
-class EncoderNLS;
+class Decoder;
+}
+namespace System::Text {
+class Encoder;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::Text {

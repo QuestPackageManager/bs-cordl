@@ -8,14 +8,11 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVRSpectatorModeDomeTest)
-namespace GlobalNamespace {
-class __OVRSpectatorModeDomeTest___TimerCoroutine_d__20;
-}
-namespace UnityEngine {
-class Transform;
-}
 namespace UnityEngine {
 class Camera;
+}
+namespace GlobalNamespace {
+class __OVRSpectatorModeDomeTest___TimerCoroutine_d__20;
 }
 namespace UnityEngine {
 struct Vector3;
@@ -23,11 +20,14 @@ struct Vector3;
 namespace System::Collections {
 class IEnumerator;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
+namespace UnityEngine {
+class Transform;
 }
 namespace System {
 class IDisposable;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
 }
 namespace System {
 class Object;

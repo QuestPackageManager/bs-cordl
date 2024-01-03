@@ -1,14 +1,14 @@
 #pragma once
 #include "TMPro/zzzz__TextMeshProUGUI_impl.hpp"
 #include "HMUI/zzzz__CurvedTextMeshPro_def.hpp"
-#include "GlobalNamespace/zzzz__IComponentRefresher_def.hpp"
-#include "UnityEngine/zzzz__Vector2_def.hpp"
-#include "HMUI/zzzz__CurvedCanvasSettingsHelper_def.hpp"
-#include "UnityEngine/zzzz__Color32_def.hpp"
-#include "GlobalNamespace/zzzz__ColorSO_def.hpp"
-#include "HMUI/zzzz__CurvedTextMeshPro_def.hpp"
-#include "UnityEngine/zzzz__Color_def.hpp"
 #include "UnityEngine/zzzz__Mesh_def.hpp"
+#include "HMUI/zzzz__CurvedCanvasSettingsHelper_def.hpp"
+#include "HMUI/zzzz__CurvedTextMeshPro_def.hpp"
+#include "UnityEngine/zzzz__Vector2_def.hpp"
+#include "UnityEngine/zzzz__Color_def.hpp"
+#include "UnityEngine/zzzz__Color32_def.hpp"
+#include "GlobalNamespace/zzzz__IComponentRefresher_def.hpp"
+#include "GlobalNamespace/zzzz__ColorSO_def.hpp"
 // Ctor Parameters [CppParam { name: "uvs3", ty: "::ArrayW<::UnityEngine::Vector2,::Array<::UnityEngine::Vector2>*>", modifiers: "", def_value: Some("nullptr") }]
 constexpr ::HMUI::__CurvedTextMeshPro__CurvedMeshInfo::__CurvedTextMeshPro__CurvedMeshInfo(::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> uvs3) noexcept {
   this->uvs3 = uvs3;

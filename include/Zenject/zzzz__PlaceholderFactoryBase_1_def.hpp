@@ -5,35 +5,35 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(PlaceholderFactoryBase_1)
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
+namespace Zenject {
+class InjectTypeInfo;
 }
 namespace System {
 class Type;
 }
 namespace Zenject {
-struct TypeValuePair;
-}
-namespace Zenject {
 class IPlaceholderFactory;
-}
-namespace Zenject {
-class IProvider;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace Zenject {
+class IValidatable;
+}
+namespace Zenject {
 class InjectContext;
 }
 namespace Zenject {
-class InjectTypeInfo;
+struct TypeValuePair;
+}
+namespace Zenject {
+class IProvider;
 }
 namespace System {
 class Object;
 }
-namespace Zenject {
-class IValidatable;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
 }
 // Forward declare root types
 namespace Zenject {

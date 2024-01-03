@@ -21,10 +21,10 @@ namespace GlobalNamespace {
 class __MaterialPropertyValuesSetter__PropertyNameVectorValuePair;
 }
 namespace GlobalNamespace {
-class __MaterialPropertyValuesSetter__PropertyNameColorValuePair;
+class __MaterialPropertyValuesSetter__PropertyValuePairBase;
 }
 namespace GlobalNamespace {
-class __MaterialPropertyValuesSetter__PropertyValuePairBase;
+class __MaterialPropertyValuesSetter__PropertyNameColorValuePair;
 }
 namespace GlobalNamespace {
 class MaterialPropertyBlockController;
@@ -280,7 +280,7 @@ static_assert(offsetof(::GlobalNamespace::__MaterialPropertyValuesSetter__Proper
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(14572))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14572)), TypeDefinitionIndex(TypeDefinitionIndex(10251))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14576))
 // CS Name: ::MaterialPropertyValuesSetter::PropertyNameColorValuePair*
 class CORDL_TYPE __MaterialPropertyValuesSetter__PropertyNameColorValuePair : public ::GlobalNamespace::__MaterialPropertyValuesSetter__PropertyValuePairBase {

@@ -5,17 +5,17 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(Core)
-namespace Oculus::Platform {
-template <typename T> class Request_1;
-}
-namespace Oculus::Platform {
-struct InitConfigOptions;
+namespace Oculus::Platform::Models {
+class PlatformInitialize;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
-namespace Oculus::Platform::Models {
-class PlatformInitialize;
+namespace Oculus::Platform {
+struct InitConfigOptions;
+}
+namespace Oculus::Platform {
+template <typename T> class Request_1;
 }
 // Forward declare root types
 namespace Oculus::Platform {

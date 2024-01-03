@@ -5,20 +5,20 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(CustomDifficultyBeatmapSet)
-namespace System::Collections::Generic {
-template <typename T> class IReadOnlyList_1;
+namespace GlobalNamespace {
+class CustomDifficultyBeatmap;
 }
 namespace GlobalNamespace {
 class IDifficultyBeatmapSet;
 }
 namespace GlobalNamespace {
-class BeatmapCharacteristicSO;
-}
-namespace GlobalNamespace {
 class IDifficultyBeatmap;
 }
+namespace System::Collections::Generic {
+template <typename T> class IReadOnlyList_1;
+}
 namespace GlobalNamespace {
-class CustomDifficultyBeatmap;
+class BeatmapCharacteristicSO;
 }
 // Forward declare root types
 namespace GlobalNamespace {

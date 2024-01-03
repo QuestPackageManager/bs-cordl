@@ -4,20 +4,24 @@
 CORDL_MODULE_INIT
 #include "System/IO/zzzz__FileAccess_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"
+#include "System/Threading/zzzz__CancellationToken_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(UnmanagedMemoryStream)
-namespace System {
-template <typename T> struct ReadOnlySpan_1;
+namespace System::IO {
+struct FileAccess;
 }
 namespace System {
-template <typename T> struct ReadOnlyMemory_1;
+template <typename T> struct Memory_1;
+}
+namespace System::Runtime::InteropServices {
+class SafeBuffer;
+}
+namespace System {
+template <typename T> struct Span_1;
 }
 namespace System::Threading::Tasks {
-struct ValueTask;
-}
-namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
+template <typename TResult> struct ValueTask_1;
 }
 namespace System::Threading {
 struct CancellationToken;
@@ -25,23 +29,20 @@ struct CancellationToken;
 namespace System::Threading::Tasks {
 class Task;
 }
-namespace System {
-template <typename T> struct Memory_1;
-}
 namespace System::Threading::Tasks {
-template <typename TResult> struct ValueTask_1;
-}
-namespace System::Runtime::InteropServices {
-class SafeBuffer;
-}
-namespace System::IO {
-struct FileAccess;
-}
-namespace System {
-template <typename T> struct Span_1;
+template <typename TResult> class Task_1;
 }
 namespace System::IO {
 struct SeekOrigin;
+}
+namespace System {
+template <typename T> struct ReadOnlyMemory_1;
+}
+namespace System::Threading::Tasks {
+struct ValueTask;
+}
+namespace System {
+template <typename T> struct ReadOnlySpan_1;
 }
 // Forward declare root types
 namespace System::IO {
@@ -53,7 +54,7 @@ MARK_REF_PTR_T(::System::IO::UnmanagedMemoryStream);
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::IO {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3619)), TypeDefinitionIndex(TypeDefinitionIndex(3559))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3619)), TypeDefinitionIndex(TypeDefinitionIndex(3559)), TypeDefinitionIndex(TypeDefinitionIndex(2677))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3587))
 // CS Name: ::System.IO::UnmanagedMemoryStream*
 class CORDL_TYPE UnmanagedMemoryStream : public ::System::IO::Stream {

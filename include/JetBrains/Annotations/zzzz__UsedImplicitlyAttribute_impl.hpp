@@ -3,8 +3,8 @@
 #include "JetBrains/Annotations/zzzz__ImplicitUseTargetFlags_impl.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "JetBrains/Annotations/zzzz__UsedImplicitlyAttribute_def.hpp"
-#include "JetBrains/Annotations/zzzz__ImplicitUseKindFlags_def.hpp"
 #include "JetBrains/Annotations/zzzz__ImplicitUseTargetFlags_def.hpp"
+#include "JetBrains/Annotations/zzzz__ImplicitUseKindFlags_def.hpp"
 //  Writing Method size for method: ::JetBrains::Annotations::UsedImplicitlyAttribute._ctor
 template <>
 

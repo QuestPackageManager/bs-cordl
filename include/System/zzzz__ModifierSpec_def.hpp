@@ -3,11 +3,11 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(ModifierSpec)
-namespace System::Text {
-class StringBuilder;
-}
 namespace System {
 class Type;
+}
+namespace System::Text {
+class StringBuilder;
 }
 // Forward declare root types
 namespace System {

@@ -12,23 +12,23 @@ struct PlayableHandle;
 namespace UnityEngine::Playables {
 struct PlayableGraph;
 }
+namespace System {
+class ICloneable;
+}
+namespace UnityEngine::Playables {
+struct Playable;
+}
 namespace UnityEngine::Playables {
 class IPlayable;
 }
 namespace System {
 template <typename T> class IEquatable_1;
 }
-namespace UnityEngine::Playables {
-class IPlayableBehaviour;
-}
 namespace System {
 class Object;
 }
 namespace UnityEngine::Playables {
-struct Playable;
-}
-namespace System {
-class ICloneable;
+class IPlayableBehaviour;
 }
 namespace UnityEngine {
 class Object;
@@ -45,8 +45,8 @@ namespace UnityEngine::Playables {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10423), inst: 4948 }), TypeDefinitionIndex(TypeDefinitionIndex(10440)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10423))} Self: TypeDefinitionIndex(TypeDefinitionIndex(10423)) CS Name: ::UnityEngine.Playables::ScriptPlayable`1<T>
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10440)), TypeDefinitionIndex(TypeDefinitionIndex(10423)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10423), inst:
+// 4948 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(10423)) CS Name: ::UnityEngine.Playables::ScriptPlayable`1<T>
 struct CORDL_TYPE ScriptPlayable_1 {
 public:
   // Declarations

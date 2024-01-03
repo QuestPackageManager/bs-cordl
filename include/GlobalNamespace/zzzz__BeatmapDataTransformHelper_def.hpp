@@ -7,31 +7,31 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(BeatmapDataTransformHelper)
 namespace GlobalNamespace {
-class MainSettingsModelSO;
-}
-namespace GlobalNamespace {
-struct NoteLineLayer;
-}
-namespace GlobalNamespace {
-class GameplayModifiers;
-}
-namespace GlobalNamespace {
-class IPreviewBeatmapLevel;
-}
-namespace GlobalNamespace {
 struct EnvironmentEffectsFilterPreset;
-}
-namespace GlobalNamespace {
-class EnvironmentIntensityReductionOptions;
 }
 namespace GlobalNamespace {
 class IReadonlyBeatmapData;
 }
 namespace GlobalNamespace {
+class MainSettingsModelSO;
+}
+namespace GlobalNamespace {
+class IPreviewBeatmapLevel;
+}
+namespace GlobalNamespace {
 struct NoteCutDirection;
 }
 namespace GlobalNamespace {
+class GameplayModifiers;
+}
+namespace GlobalNamespace {
 class BeatmapData;
+}
+namespace GlobalNamespace {
+class EnvironmentIntensityReductionOptions;
+}
+namespace GlobalNamespace {
+struct NoteLineLayer;
 }
 // Forward declare root types
 namespace GlobalNamespace {

@@ -8,33 +8,6 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(NoteDebris)
-namespace GlobalNamespace {
-class INoteDebrisDidFinishEvent;
-}
-namespace UnityEngine {
-class AnimationCurve;
-}
-namespace GlobalNamespace {
-class __NoteDebris__Pool;
-}
-namespace UnityEngine {
-struct Vector3;
-}
-namespace GlobalNamespace {
-class MaterialPropertyBlockController;
-}
-namespace GlobalNamespace {
-template <typename T> class LazyCopyHashSet_1;
-}
-namespace GlobalNamespace {
-class ColorManager;
-}
-namespace UnityEngine {
-class Mesh;
-}
-namespace UnityEngine {
-struct Quaternion;
-}
 namespace UnityEngine {
 class Transform;
 }
@@ -42,10 +15,37 @@ namespace GlobalNamespace {
 struct ColorType;
 }
 namespace GlobalNamespace {
+class __NoteDebris__Pool;
+}
+namespace UnityEngine {
+struct Quaternion;
+}
+namespace GlobalNamespace {
+class MaterialPropertyBlockController;
+}
+namespace GlobalNamespace {
 template <typename T> class ILazyCopyHashSet_1;
 }
 namespace GlobalNamespace {
+class ColorManager;
+}
+namespace GlobalNamespace {
+class INoteDebrisDidFinishEvent;
+}
+namespace UnityEngine {
+class Mesh;
+}
+namespace GlobalNamespace {
 class NoteDebrisPhysics;
+}
+namespace UnityEngine {
+class AnimationCurve;
+}
+namespace UnityEngine {
+struct Vector3;
+}
+namespace GlobalNamespace {
+template <typename T> class LazyCopyHashSet_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -289,8 +289,8 @@ static_assert(offsetof(::GlobalNamespace::NoteDebris, ____didFinishEvent) == 0x5
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4773)), TypeDefinitionIndex(TypeDefinitionIndex(11050)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11050), inst:
-// 2824 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(4772)) CS Name: ::NoteDebris::Pool*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11050)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11050), inst: 2824 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(4773))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4772)) CS Name: ::NoteDebris::Pool*
 class CORDL_TYPE __NoteDebris__Pool : public ::Zenject::MonoMemoryPool_1<::GlobalNamespace::NoteDebris*> {
 public:
   // Declarations

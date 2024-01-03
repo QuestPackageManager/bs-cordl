@@ -5,14 +5,14 @@
 #include "GlobalNamespace/zzzz__NodePoseSyncState_impl.hpp"
 #include "GlobalNamespace/zzzz__PoseSerializable_impl.hpp"
 #include "GlobalNamespace/zzzz__NodePoseSyncStateManager_def.hpp"
-#include "GlobalNamespace/zzzz__PoseSerializable_def.hpp"
 #include "GlobalNamespace/zzzz__INodePoseSyncStateManager_def.hpp"
-#include "GlobalNamespace/zzzz__NodePoseSyncState_def.hpp"
+#include "GlobalNamespace/zzzz__PoseSerializable_def.hpp"
 #include "GlobalNamespace/zzzz__INodePoseSyncStateManager_5_def.hpp"
-#include "GlobalNamespace/zzzz__NodePoseSyncStateNetSerializable_def.hpp"
-#include "GlobalNamespace/zzzz__NodePoseSyncStateDeltaNetSerializable_def.hpp"
-#include "GlobalNamespace/zzzz__IPacketPool_1_def.hpp"
+#include "GlobalNamespace/zzzz__NodePoseSyncState_def.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerSessionManager_def.hpp"
+#include "GlobalNamespace/zzzz__NodePoseSyncStateDeltaNetSerializable_def.hpp"
+#include "GlobalNamespace/zzzz__NodePoseSyncStateNetSerializable_def.hpp"
+#include "GlobalNamespace/zzzz__IPacketPool_1_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::NodePoseSyncStateManager.get_deltaUpdateFrequencyMs
 template <>
 

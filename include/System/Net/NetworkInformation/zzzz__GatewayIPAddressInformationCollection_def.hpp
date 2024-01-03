@@ -6,26 +6,26 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(GatewayIPAddressInformationCollection)
-namespace System::Net::NetworkInformation {
-class GatewayIPAddressInformation;
-}
-namespace System::Collections {
-class IEnumerator;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
 }
 namespace System::Collections::ObjectModel {
 template <typename T> class Collection_1;
 }
-namespace System::Collections {
-class IEnumerable;
+namespace System::Net::NetworkInformation {
+class GatewayIPAddressInformation;
 }
 namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
+template <typename T> class IEnumerable_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class ICollection_1;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
+namespace System::Collections {
+class IEnumerator;
+}
+namespace System::Collections {
+class IEnumerable;
 }
 // Forward declare root types
 namespace System::Net::NetworkInformation {

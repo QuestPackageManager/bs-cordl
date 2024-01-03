@@ -5,22 +5,22 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(DHAgreement)
 namespace Org::BouncyCastle::Crypto::Parameters {
-class DHParameters;
-}
-namespace Org::BouncyCastle::Security {
-class SecureRandom;
+class DHPublicKeyParameters;
 }
 namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;
 }
 namespace Org::BouncyCastle::Crypto::Parameters {
-class DHPublicKeyParameters;
+class DHParameters;
 }
-namespace Org::BouncyCastle::Math {
-class BigInteger;
+namespace Org::BouncyCastle::Security {
+class SecureRandom;
 }
 namespace Org::BouncyCastle::Crypto::Parameters {
 class DHPrivateKeyParameters;
+}
+namespace Org::BouncyCastle::Math {
+class BigInteger;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Agreement {

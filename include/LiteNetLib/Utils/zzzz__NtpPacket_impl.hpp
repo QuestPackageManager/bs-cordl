@@ -3,11 +3,11 @@
 #include "System/zzzz__Nullable_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "LiteNetLib/Utils/zzzz__NtpPacket_def.hpp"
-#include "LiteNetLib/Utils/zzzz__NtpMode_def.hpp"
-#include "System/zzzz__TimeSpan_def.hpp"
-#include "LiteNetLib/Utils/zzzz__NtpLeapIndicator_def.hpp"
 #include "System/zzzz__DateTime_def.hpp"
 #include "System/zzzz__Nullable_1_def.hpp"
+#include "LiteNetLib/Utils/zzzz__NtpMode_def.hpp"
+#include "LiteNetLib/Utils/zzzz__NtpLeapIndicator_def.hpp"
+#include "System/zzzz__TimeSpan_def.hpp"
 //  Writing Method size for method: ::LiteNetLib::Utils::NtpPacket.get_Bytes
 template <>
 

@@ -5,13 +5,13 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(SolverManager)
 namespace UnityEngine {
+class Animator;
+}
+namespace UnityEngine {
 class Animation;
 }
 namespace UnityEngine {
 class Transform;
-}
-namespace UnityEngine {
-class Animator;
 }
 // Forward declare root types
 namespace RootMotion {

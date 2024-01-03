@@ -1,8 +1,8 @@
 #pragma once
 #include "Mono/Security/Cryptography/zzzz__SymmetricTransform_impl.hpp"
 #include "System/Security/Cryptography/zzzz__TripleDESTransform_def.hpp"
-#include "System/Security/Cryptography/zzzz__DESTransform_def.hpp"
 #include "System/Security/Cryptography/zzzz__TripleDES_def.hpp"
+#include "System/Security/Cryptography/zzzz__DESTransform_def.hpp"
 //  Writing Method size for method: ::System::Security::Cryptography::TripleDESTransform._ctor
 template <>
 

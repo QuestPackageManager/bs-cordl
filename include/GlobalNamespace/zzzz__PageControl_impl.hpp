@@ -1,10 +1,10 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__PageControl_def.hpp"
-#include "GlobalNamespace/zzzz__PageControlElement_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "UnityEngine/zzzz__RectTransform_def.hpp"
 #include "System/Collections/Generic/zzzz__Queue_1_def.hpp"
+#include "GlobalNamespace/zzzz__PageControlElement_def.hpp"
+#include "UnityEngine/zzzz__RectTransform_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::PageControl.SetPagesCount
 template <>
 

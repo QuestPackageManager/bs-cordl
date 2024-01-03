@@ -8,11 +8,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(FileSystemInfo)
-namespace System {
-struct DateTime;
-}
 namespace System::IO {
 struct FileAttributes;
+}
+namespace System {
+struct DateTime;
 }
 namespace System::Runtime::Serialization {
 class ISerializable;
@@ -39,7 +39,7 @@ MARK_REF_PTR_T(::System::IO::FileSystemInfo);
 // SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 168, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::IO {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3594)), TypeDefinitionIndex(TypeDefinitionIndex(2605))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2605)), TypeDefinitionIndex(TypeDefinitionIndex(3594))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3596))
 // CS Name: ::System.IO::FileSystemInfo*
 class CORDL_TYPE FileSystemInfo : public ::System::MarshalByRefObject {

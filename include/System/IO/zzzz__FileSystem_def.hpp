@@ -8,14 +8,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(FileSystem)
-namespace GlobalNamespace {
-struct __Interop__ErrorInfo;
-}
 namespace System::IO {
 class DirectoryInfo;
 }
 namespace System::IO {
 struct FileAttributes;
+}
+namespace GlobalNamespace {
+struct __Interop__ErrorInfo;
 }
 namespace System {
 template <typename T> struct ReadOnlySpan_1;

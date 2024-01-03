@@ -3,13 +3,13 @@
 #include "UnityEngine/zzzz__AvatarIKGoal_impl.hpp"
 #include "UnityEngine/zzzz__Quaternion_impl.hpp"
 #include "RootMotion/zzzz__BakerHumanoidQT_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
-#include "UnityEngine/zzzz__AvatarIKGoal_def.hpp"
-#include "UnityEngine/zzzz__AnimationClip_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
-#include "UnityEngine/zzzz__Quaternion_def.hpp"
 #include "UnityEngine/zzzz__AnimationCurve_def.hpp"
 #include "UnityEngine/zzzz__Avatar_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "UnityEngine/zzzz__AnimationClip_def.hpp"
+#include "UnityEngine/zzzz__AvatarIKGoal_def.hpp"
+#include "UnityEngine/zzzz__Quaternion_def.hpp"
 //  Writing Method size for method: ::RootMotion::BakerHumanoidQT._ctor
 template <>
 

@@ -8,13 +8,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(SceneManagerAPI)
 namespace UnityEngine::SceneManagement {
-struct LoadSceneParameters;
+struct UnloadSceneOptions;
 }
 namespace UnityEngine {
 class AsyncOperation;
 }
 namespace UnityEngine::SceneManagement {
-struct UnloadSceneOptions;
+struct LoadSceneParameters;
 }
 // Forward declare root types
 namespace UnityEngine::SceneManagement {

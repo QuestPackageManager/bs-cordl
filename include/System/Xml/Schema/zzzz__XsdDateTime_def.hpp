@@ -10,8 +10,14 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(XsdDateTime)
+namespace System {
+struct DateTime;
+}
+namespace System::Text {
+class StringBuilder;
+}
 namespace System::Xml::Schema {
-struct __XsdDateTime__DateTimeTypeCode;
+struct XsdDateTimeFlags;
 }
 namespace System::Xml::Schema {
 struct __XsdDateTime__Parser;
@@ -19,20 +25,14 @@ struct __XsdDateTime__Parser;
 namespace System::Xml::Schema {
 struct XmlTypeCode;
 }
-namespace System::Text {
-class StringBuilder;
-}
-namespace System {
-struct DateTime;
-}
 namespace System::Xml::Schema {
-struct XsdDateTimeFlags;
+struct __XsdDateTime__XsdDateTimeKind;
 }
 namespace System {
 struct DateTimeOffset;
 }
 namespace System::Xml::Schema {
-struct __XsdDateTime__XsdDateTimeKind;
+struct __XsdDateTime__DateTimeTypeCode;
 }
 // Forward declare root types
 namespace System::Xml::Schema {

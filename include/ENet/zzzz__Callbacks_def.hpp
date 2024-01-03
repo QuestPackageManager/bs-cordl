@@ -6,16 +6,16 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(Callbacks)
 namespace ENet {
-struct ENetCallbacks;
+class AllocCallback;
+}
+namespace ENet {
+class FreeCallback;
 }
 namespace ENet {
 class NoMemoryCallback;
 }
 namespace ENet {
-class AllocCallback;
-}
-namespace ENet {
-class FreeCallback;
+struct ENetCallbacks;
 }
 // Forward declare root types
 namespace ENet {
@@ -27,7 +27,7 @@ MARK_REF_PTR_T(::ENet::Callbacks);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace ENet {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15220))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15220)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15231))
 // CS Name: ::ENet::Callbacks*
 class CORDL_TYPE Callbacks : public ::System::Object {

@@ -7,19 +7,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(UIDocument)
 namespace UnityEngine::UIElements {
-class UIDocumentList;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+class PanelSettings;
 }
 namespace UnityEngine::UIElements {
 class VisualElement;
 }
 namespace UnityEngine::UIElements {
-class PanelSettings;
+class UIDocumentList;
 }
 namespace UnityEngine::UIElements {
 class VisualTreeAsset;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

@@ -6,11 +6,14 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(CreationContext)
-namespace System {
-class Object;
+namespace UnityEngine::UIElements {
+struct __TemplateAsset__AttributeOverride;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace System {
-template <typename T> class IEquatable_1;
+class Object;
 }
 namespace UnityEngine::UIElements {
 class VisualTreeAsset;
@@ -18,14 +21,11 @@ class VisualTreeAsset;
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
+namespace System {
+template <typename T> class IEquatable_1;
+}
 namespace UnityEngine::UIElements {
 class VisualElement;
-}
-namespace UnityEngine::UIElements {
-struct __TemplateAsset__AttributeOverride;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

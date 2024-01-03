@@ -7,25 +7,25 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(OptionalAvatarDataPacket)
 namespace LiteNetLib::Utils {
-class INetSerializable;
-}
-namespace LiteNetLib::Utils {
 class NetDataWriter;
 }
+namespace LiteNetLib::Utils {
+class NetDataReader;
+}
+namespace BeatSaber::AvatarCore {
+struct OptionalAvatarData;
+}
 namespace GlobalNamespace {
-template <typename T> class PacketPool_1;
+class ByteArrayNetSerializable;
 }
 namespace GlobalNamespace {
 class IPoolablePacket;
 }
 namespace LiteNetLib::Utils {
-class NetDataReader;
+class INetSerializable;
 }
 namespace GlobalNamespace {
-class ByteArrayNetSerializable;
-}
-namespace BeatSaber::AvatarCore {
-struct OptionalAvatarData;
+template <typename T> class PacketPool_1;
 }
 // Forward declare root types
 namespace BeatSaber::AvatarCore {

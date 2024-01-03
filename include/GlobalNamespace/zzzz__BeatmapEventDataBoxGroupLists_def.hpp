@@ -5,23 +5,23 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(BeatmapEventDataBoxGroupLists)
-namespace GlobalNamespace {
-class BeatmapEventDataBoxGroupList;
-}
-namespace GlobalNamespace {
-class BeatmapEventDataBoxGroup;
-}
 namespace System::Collections::Generic {
 template <typename T> class LinkedListNode_1;
-}
-namespace GlobalNamespace {
-class BeatmapData;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace GlobalNamespace {
 class IBeatToTimeConvertor;
+}
+namespace GlobalNamespace {
+class BeatmapEventDataBoxGroup;
+}
+namespace GlobalNamespace {
+class BeatmapEventDataBoxGroupList;
+}
+namespace GlobalNamespace {
+class BeatmapData;
 }
 // Forward declare root types
 namespace GlobalNamespace {

@@ -21,109 +21,109 @@ namespace GlobalNamespace {
 class __LobbyPlayersDataModel____c;
 }
 namespace GlobalNamespace {
-class BeatmapLevelsModel;
-}
-namespace GlobalNamespace {
 class BeatmapIdentifierNetSerializable;
 }
-namespace System {
-template <typename T> class Action_1;
-}
-namespace System::Threading {
-class CancellationTokenSource;
-}
-namespace GlobalNamespace {
-class IMultiplayerSessionManager;
-}
-namespace GlobalNamespace {
-class IConnectedPlayer;
-}
 namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
-}
-namespace System::Collections {
-class IEnumerator;
-}
-namespace System::Collections {
-class IEnumerable;
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> struct KeyValuePair_2;
 }
+namespace System {
+template <typename T> class Action_1;
+}
 namespace GlobalNamespace {
-class BeatmapCharacteristicCollection;
+class IConnectedPlayer;
+}
+namespace System::Collections {
+class IEnumerable;
 }
 namespace GlobalNamespace {
 class __LobbyPlayersDataModel___GetEnumerator_d__60;
 }
 namespace GlobalNamespace {
-class LobbyPlayerPermissionsModel;
+class ILobbyPlayersDataModel;
 }
 namespace GlobalNamespace {
 class IAdditionalContentModel;
 }
-namespace System {
-class IDisposable;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
+namespace GlobalNamespace {
+class IMenuRpcManager;
 }
 namespace GlobalNamespace {
-class ILobbyPlayerData;
-}
-namespace GlobalNamespace {
-class ILobbyPlayersDataModel;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class IReadOnlyDictionary_2;
-}
-namespace GlobalNamespace {
-struct __LobbyPlayersDataModel___SetOwnedSongPacks_d__43;
-}
-namespace GlobalNamespace {
-class PlayersLobbyPermissionConfigurationNetSerializable;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
+class LobbyPlayerPermissionsModel;
 }
 namespace GlobalNamespace {
 class PreviewDifficultyBeatmap;
 }
 namespace GlobalNamespace {
-class GameplayModifiers;
+class LobbyPlayerData;
 }
 namespace GlobalNamespace {
-class LobbyPlayerData;
+class BeatmapCharacteristicCollection;
+}
+namespace GlobalNamespace {
+class ILobbyPlayerData;
+}
+namespace GlobalNamespace {
+class BeatmapLevelsModel;
+}
+namespace GlobalNamespace {
+class PlayersLobbyPermissionConfigurationNetSerializable;
 }
 namespace System::Collections::Generic {
 template <typename T> class IReadOnlyCollection_1;
 }
 namespace GlobalNamespace {
-class IMenuRpcManager;
+class GameplayModifiers;
+}
+namespace System::Threading {
+class CancellationTokenSource;
+}
+namespace System {
+class IDisposable;
+}
+namespace GlobalNamespace {
+class IMultiplayerSessionManager;
+}
+namespace GlobalNamespace {
+struct __LobbyPlayersDataModel___SetOwnedSongPacks_d__43;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class IReadOnlyDictionary_2;
+}
+namespace System::Collections {
+class IEnumerator;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
 }
 namespace System {
 class Object;
 }
-namespace System {
-template <typename T, typename TResult> class Func_2;
-}
 namespace GlobalNamespace {
 class IBeatmapLevelPack;
 }
-namespace System::Runtime::CompilerServices {
-template <typename TResult> struct TaskAwaiter_1;
+namespace System {
+template <typename T, typename TResult> class Func_2;
 }
 namespace System::Runtime::CompilerServices {
 struct AsyncVoidMethodBuilder;
 }
+namespace GlobalNamespace {
+struct EntitlementStatus;
+}
 namespace System::Runtime::CompilerServices {
-class IAsyncStateMachine;
+template <typename TResult> struct TaskAwaiter_1;
 }
 namespace GlobalNamespace {
 struct SongPackMask;
 }
-namespace GlobalNamespace {
-struct EntitlementStatus;
+namespace System::Runtime::CompilerServices {
+class IAsyncStateMachine;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -199,9 +199,9 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__LobbyPlayersD
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(15047)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 880
-// }), TypeDefinitionIndex(TypeDefinitionIndex(16270)), TypeDefinitionIndex(TypeDefinitionIndex(3400))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4507)) CS Name:
-// ::LobbyPlayersDataModel::<SetOwnedSongPacks>d__43
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3400)), TypeDefinitionIndex(TypeDefinitionIndex(16270)), TypeDefinitionIndex(TypeDefinitionIndex(3394)),
+// TypeDefinitionIndex(TypeDefinitionIndex(15047)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 880 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(4507)) CS
+// Name: ::LobbyPlayersDataModel::<SetOwnedSongPacks>d__43
 struct CORDL_TYPE __LobbyPlayersDataModel___SetOwnedSongPacks_d__43 {
 public:
   // Declarations
@@ -283,9 +283,9 @@ static_assert(offsetof(::GlobalNamespace::__LobbyPlayersDataModel___SetOwnedSong
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3841)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3819), inst: 1431
-// }), TypeDefinitionIndex(TypeDefinitionIndex(4504)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3841), inst: 3783 }), TypeDefinitionIndex(TypeDefinitionIndex(4491)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3819))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4508)) CS Name: ::LobbyPlayersDataModel::<GetEnumerator>d__60*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3841)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3841), inst: 3783
+// }), TypeDefinitionIndex(TypeDefinitionIndex(4491)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3819), inst: 1431 }), TypeDefinitionIndex(TypeDefinitionIndex(3819)),
+// TypeDefinitionIndex(TypeDefinitionIndex(4504))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4508)) CS Name: ::LobbyPlayersDataModel::<GetEnumerator>d__60*
 class CORDL_TYPE __LobbyPlayersDataModel___GetEnumerator_d__60 : public ::System::Object {
 public:
   // Declarations

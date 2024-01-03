@@ -8,10 +8,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(X509Certificate2Collection)
 namespace System::Security::Cryptography::X509Certificates {
-struct X509FindType;
+class X509Certificate2Enumerator;
 }
 namespace System::Security::Cryptography::X509Certificates {
-class X509Certificate2Enumerator;
+struct X509FindType;
 }
 namespace System::Security::Cryptography::X509Certificates {
 class X509Certificate2;

@@ -2,6 +2,7 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/zzzz__Base64FormattingOptions_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
@@ -10,16 +11,7 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Convert)
 namespace System {
-class IFormatProvider;
-}
-namespace System {
-struct TypeCode;
-}
-namespace System {
 class IConvertible;
-}
-namespace System {
-struct DateTime;
 }
 namespace System {
 template <typename T> struct Span_1;
@@ -28,16 +20,25 @@ namespace System {
 class Object;
 }
 namespace System {
-class Type;
+struct Base64FormattingOptions;
+}
+namespace System {
+struct DateTime;
 }
 namespace System {
 struct Decimal;
 }
 namespace System {
+class IFormatProvider;
+}
+namespace System {
+struct TypeCode;
+}
+namespace System {
 template <typename T> struct ReadOnlySpan_1;
 }
 namespace System {
-struct Base64FormattingOptions;
+class Type;
 }
 // Forward declare root types
 namespace System {
@@ -49,7 +50,7 @@ MARK_REF_PTR_T(::System::Convert);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2365))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2364))
 // CS Name: ::System::Convert*
 class CORDL_TYPE Convert : public ::System::Object {

@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__SongTimeAnimationPlayer_def.hpp"
-#include "UnityEngine/zzzz__AnimationClip_def.hpp"
 #include "GlobalNamespace/zzzz__AudioTimeSyncController_def.hpp"
+#include "UnityEngine/zzzz__AnimationClip_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::SongTimeAnimationPlayer.Update
 template <>
 

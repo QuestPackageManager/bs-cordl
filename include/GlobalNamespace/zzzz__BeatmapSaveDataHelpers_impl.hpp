@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatmapSaveDataHelpers_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapSaveDataHelpers_def.hpp"
 #include "System/zzzz__Version_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapSaveDataHelpers_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::__BeatmapSaveDataHelpers__VersionSerializedData.get_v
 template <>
 

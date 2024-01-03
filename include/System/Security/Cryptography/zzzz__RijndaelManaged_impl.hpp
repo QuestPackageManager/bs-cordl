@@ -1,8 +1,8 @@
 #pragma once
 #include "System/Security/Cryptography/zzzz__Rijndael_impl.hpp"
 #include "System/Security/Cryptography/zzzz__RijndaelManaged_def.hpp"
-#include "System/Security/Cryptography/zzzz__CipherMode_def.hpp"
 #include "System/Security/Cryptography/zzzz__ICryptoTransform_def.hpp"
+#include "System/Security/Cryptography/zzzz__CipherMode_def.hpp"
 #include "System/Security/Cryptography/zzzz__RijndaelManagedTransformMode_def.hpp"
 //  Writing Method size for method: ::System::Security::Cryptography::RijndaelManaged._ctor
 template <>

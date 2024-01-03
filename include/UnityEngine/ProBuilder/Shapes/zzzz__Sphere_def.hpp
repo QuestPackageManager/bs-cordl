@@ -11,16 +11,16 @@ namespace UnityEngine::ProBuilder {
 class ProBuilderMesh;
 }
 namespace UnityEngine {
-struct Quaternion;
+struct Bounds;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 namespace UnityEngine::ProBuilder::Shapes {
 class Shape;
 }
 namespace UnityEngine {
-struct Bounds;
-}
-namespace UnityEngine {
-struct Vector3;
+struct Quaternion;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder::Shapes {

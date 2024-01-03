@@ -12,14 +12,14 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(PingUtility)
+namespace GlobalNamespace {
+struct __PingUtility___PingAsync_d__0;
+}
 namespace System::Threading::Tasks {
 template <typename TResult> class Task_1;
 }
 namespace GlobalNamespace {
 class __PingUtility____c;
-}
-namespace GlobalNamespace {
-struct __PingUtility___PingAsync_d__0;
 }
 namespace UnityEngine {
 class Ping;
@@ -31,16 +31,16 @@ namespace System {
 template <typename T, typename TResult> class Func_2;
 }
 namespace System::Runtime::CompilerServices {
-template <typename TResult> struct TaskAwaiter_1;
-}
-namespace System::Runtime::CompilerServices {
-struct TaskAwaiter;
+class IAsyncStateMachine;
 }
 namespace System::Runtime::CompilerServices {
 template <typename TResult> struct AsyncTaskMethodBuilder_1;
 }
 namespace System::Runtime::CompilerServices {
-class IAsyncStateMachine;
+template <typename TResult> struct TaskAwaiter_1;
+}
+namespace System::Runtime::CompilerServices {
+struct TaskAwaiter;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -112,8 +112,8 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__PingUtility__
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3393)), TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 333
-// }), TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(9030)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 5061 })} Self:
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(9030)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 5061
+// }), TypeDefinitionIndex(TypeDefinitionIndex(3393)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 333 })} Self:
 // TypeDefinitionIndex(TypeDefinitionIndex(12922)) CS Name: ::PingUtility::<PingAsync>d__0
 struct CORDL_TYPE __PingUtility___PingAsync_d__0 {
 public:

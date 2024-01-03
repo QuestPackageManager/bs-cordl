@@ -9,28 +9,28 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(BurstSliderSpawner)
 namespace GlobalNamespace {
-struct __BeatmapObjectSpawnMovementData__SliderSpawnData;
-}
-namespace UnityEngine {
-struct Vector2;
+class __BurstSliderSpawner__ProcessNoteDataDelegate;
 }
 namespace GlobalNamespace {
-class __BurstSliderSpawner__ProcessNoteDataDelegate;
+struct __BeatmapObjectSpawnMovementData__SliderSpawnData;
 }
 namespace GlobalNamespace {
 class SliderData;
 }
-namespace System {
-class Object;
-}
-namespace GlobalNamespace {
-class NoteData;
+namespace UnityEngine {
+struct Vector2;
 }
 namespace GlobalNamespace {
 struct __BeatmapObjectSpawnMovementData__NoteSpawnData;
 }
 namespace System {
 class AsyncCallback;
+}
+namespace GlobalNamespace {
+class NoteData;
+}
+namespace System {
+class Object;
 }
 namespace System {
 class IAsyncResult;

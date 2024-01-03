@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "Zenject/zzzz__MonoMemoryPool_1_def.hpp"
 CORDL_MODULE_EXPORT(MultiplayerLobbyAvatarPlace)
-namespace UnityEngine {
-struct Quaternion;
+namespace GlobalNamespace {
+class __MultiplayerLobbyAvatarPlace__Pool;
 }
 namespace UnityEngine {
 struct Vector3;
 }
-namespace GlobalNamespace {
-class __MultiplayerLobbyAvatarPlace__Pool;
+namespace UnityEngine {
+struct Quaternion;
 }
 // Forward declare root types
 namespace GlobalNamespace {

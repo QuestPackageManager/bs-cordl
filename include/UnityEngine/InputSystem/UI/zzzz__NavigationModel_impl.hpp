@@ -2,8 +2,8 @@
 #include "UnityEngine/EventSystems/zzzz__MoveDirection_impl.hpp"
 #include "UnityEngine/zzzz__Vector2_impl.hpp"
 #include "UnityEngine/InputSystem/UI/zzzz__NavigationModel_def.hpp"
-#include "UnityEngine/zzzz__Vector2_def.hpp"
 #include "UnityEngine/EventSystems/zzzz__MoveDirection_def.hpp"
+#include "UnityEngine/zzzz__Vector2_def.hpp"
 #include "UnityEngine/EventSystems/zzzz__AxisEventData_def.hpp"
 //  Writing Method size for method: ::UnityEngine::InputSystem::UI::NavigationModel.Reset
 template <>

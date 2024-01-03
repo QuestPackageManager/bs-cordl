@@ -1,9 +1,9 @@
 #pragma once
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatmapLevelPackCollectionSO_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapLevelPackSO_def.hpp"
 #include "GlobalNamespace/zzzz__PreviewBeatmapLevelPackSO_def.hpp"
 #include "GlobalNamespace/zzzz__IBeatmapLevelPackCollection_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapLevelPackSO_def.hpp"
 #include "GlobalNamespace/zzzz__IBeatmapLevelPack_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::BeatmapLevelPackCollectionSO.get_previewBeatmapLevelPack
 template <>

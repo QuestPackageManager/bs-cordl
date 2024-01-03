@@ -1,8 +1,8 @@
 #pragma once
 #include "System/Net/NetworkInformation/zzzz__UnixNetworkInterface_impl.hpp"
 #include "System/Net/NetworkInformation/zzzz__MacOsNetworkInterface_def.hpp"
-#include "System/Net/NetworkInformation/zzzz__OperationalStatus_def.hpp"
 #include "System/Net/NetworkInformation/zzzz__IPInterfaceProperties_def.hpp"
+#include "System/Net/NetworkInformation/zzzz__OperationalStatus_def.hpp"
 //  Writing Method size for method: ::System::Net::NetworkInformation::MacOsNetworkInterface._ctor
 template <>
 

@@ -11,8 +11,11 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(RagdollUtility)
-namespace RootMotion::FinalIK {
-class __RagdollUtility__Child;
+namespace UnityEngine {
+class Animator;
+}
+namespace System::Collections {
+class IEnumerator;
 }
 namespace RootMotion::FinalIK {
 class __RagdollUtility___DisableRagdollSmooth_d__21;
@@ -20,11 +23,8 @@ class __RagdollUtility___DisableRagdollSmooth_d__21;
 namespace RootMotion::FinalIK {
 class IK;
 }
-namespace UnityEngine {
-class Animator;
-}
-namespace System::Collections {
-class IEnumerator;
+namespace RootMotion::FinalIK {
+class __RagdollUtility__Child;
 }
 namespace RootMotion::FinalIK {
 class __RagdollUtility__Rigidbone;
@@ -33,22 +33,22 @@ namespace UnityEngine {
 class Transform;
 }
 namespace UnityEngine {
+class Joint;
+}
+namespace UnityEngine {
 class Rigidbody;
 }
 namespace UnityEngine {
 class Collider;
 }
-namespace UnityEngine {
-class Joint;
+namespace System {
+class Object;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
 namespace System {
 class IDisposable;
-}
-namespace System {
-class Object;
 }
 // Forward declare root types
 namespace RootMotion::FinalIK {
@@ -72,7 +72,7 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::__RagdollUtility___DisableRagdollSmooth_d_
 // SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 120, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10252))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12618))
 // CS Name: ::RagdollUtility::Rigidbone*
 class CORDL_TYPE __RagdollUtility__Rigidbone : public ::System::Object {
@@ -267,7 +267,7 @@ static_assert(offsetof(::RootMotion::FinalIK::__RagdollUtility__Rigidbone, ___la
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12619))
 // CS Name: ::RagdollUtility::Child*
 class CORDL_TYPE __RagdollUtility__Child : public ::System::Object {

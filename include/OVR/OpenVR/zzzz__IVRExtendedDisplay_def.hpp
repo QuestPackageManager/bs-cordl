@@ -11,10 +11,10 @@ namespace System {
 class AsyncCallback;
 }
 namespace System {
-class IAsyncResult;
+class Object;
 }
 namespace System {
-class Object;
+class IAsyncResult;
 }
 namespace OVR::OpenVR {
 struct EVREye;
@@ -23,10 +23,10 @@ namespace OVR::OpenVR {
 class __IVRExtendedDisplay___GetWindowBounds;
 }
 namespace OVR::OpenVR {
-class __IVRExtendedDisplay___GetDXGIOutputInfo;
+class __IVRExtendedDisplay___GetEyeOutputViewport;
 }
 namespace OVR::OpenVR {
-class __IVRExtendedDisplay___GetEyeOutputViewport;
+class __IVRExtendedDisplay___GetDXGIOutputInfo;
 }
 // Forward declare root types
 namespace OVR::OpenVR {

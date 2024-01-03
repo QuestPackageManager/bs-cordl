@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__Color32_def.hpp"
 #include <cstddef>
 CORDL_MODULE_EXPORT(ColorPage)
-namespace UnityEngine {
-struct Color32;
-}
 namespace UnityEngine::UIElements::UIR {
 class RenderChain;
+}
+namespace UnityEngine {
+struct Color32;
 }
 namespace UnityEngine::UIElements::UIR {
 struct BMPAlloc;

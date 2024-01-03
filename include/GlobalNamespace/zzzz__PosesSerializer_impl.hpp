@@ -1,12 +1,12 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__PosesSerializer_def.hpp"
+#include "GlobalNamespace/zzzz__PosesRecordingInfoSaveData_def.hpp"
+#include "GlobalNamespace/zzzz__PosesRecordingData_def.hpp"
 #include "GlobalNamespace/zzzz__IPosesSerializer_def.hpp"
 #include "GlobalNamespace/zzzz__IBeatSaberLogger_def.hpp"
-#include "GlobalNamespace/zzzz__PosesRecordingData_def.hpp"
-#include "GlobalNamespace/zzzz__RecordingConverter_def.hpp"
-#include "GlobalNamespace/zzzz__PosesRecordingInfoSaveData_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "GlobalNamespace/zzzz__RecordingConverter_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::PosesSerializer._ctor
 template <>
 

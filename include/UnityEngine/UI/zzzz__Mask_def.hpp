@@ -7,20 +7,20 @@ CORDL_MODULE_EXPORT(Mask)
 namespace UnityEngine {
 class RectTransform;
 }
+namespace UnityEngine {
+struct Vector2;
+}
+namespace UnityEngine {
+class ICanvasRaycastFilter;
+}
 namespace UnityEngine::UI {
 class Graphic;
 }
 namespace UnityEngine {
 class Material;
 }
-namespace UnityEngine {
-struct Vector2;
-}
 namespace UnityEngine::UI {
 class IMaterialModifier;
-}
-namespace UnityEngine {
-class ICanvasRaycastFilter;
 }
 namespace UnityEngine {
 class Camera;

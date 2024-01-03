@@ -7,17 +7,17 @@ CORDL_MODULE_EXPORT(Matrix4x4Converter)
 namespace Newtonsoft::Json {
 class JsonWriter;
 }
-namespace Newtonsoft::Json {
-class JsonReader;
-}
-namespace Newtonsoft::Json {
-class JsonSerializer;
-}
 namespace System {
 class Type;
 }
 namespace System {
 class Object;
+}
+namespace Newtonsoft::Json {
+class JsonReader;
+}
+namespace Newtonsoft::Json {
+class JsonSerializer;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Converters {

@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(ProviderData)
 namespace System::Collections {
-class Hashtable;
+class IList;
 }
 namespace System::Collections {
-class IList;
+class Hashtable;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting {

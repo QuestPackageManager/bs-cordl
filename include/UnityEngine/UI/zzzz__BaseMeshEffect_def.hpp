@@ -5,13 +5,13 @@ CORDL_MODULE_INIT
 #include "UnityEngine/EventSystems/zzzz__UIBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(BaseMeshEffect)
 namespace UnityEngine::UI {
-class VertexHelper;
+class IMeshModifier;
 }
 namespace UnityEngine::UI {
 class Graphic;
 }
 namespace UnityEngine::UI {
-class IMeshModifier;
+class VertexHelper;
 }
 namespace UnityEngine {
 class Mesh;

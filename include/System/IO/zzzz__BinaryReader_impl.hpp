@@ -1,11 +1,11 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "System/IO/zzzz__BinaryReader_def.hpp"
-#include "System/zzzz__Decimal_def.hpp"
-#include "System/Text/zzzz__Encoding_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
-#include "System/IO/zzzz__Stream_def.hpp"
 #include "System/Text/zzzz__Decoder_def.hpp"
+#include "System/IO/zzzz__Stream_def.hpp"
+#include "System/Text/zzzz__Encoding_def.hpp"
+#include "System/zzzz__Decimal_def.hpp"
 //  Writing Method size for method: ::System::IO::BinaryReader._ctor
 template <>
 

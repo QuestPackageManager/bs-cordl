@@ -8,32 +8,41 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(BeatmapData)
+namespace GlobalNamespace {
+class IBeatmapDataBasicInfo;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace GlobalNamespace {
+template <typename T> class ISortedList_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class LinkedList_1;
+}
+namespace GlobalNamespace {
+class BeatmapDataItem;
+}
+namespace System {
+template <typename T> class Action_1;
+}
 namespace System {
 template <typename T, typename TResult> class Func_2;
 }
-namespace System {
-template <typename T1, typename T2> class Action_2;
-}
-namespace GlobalNamespace {
-class __BeatmapData__BeatmapDataBinaryHeapItem;
-}
-namespace GlobalNamespace {
-class IBeatmapDataBasicInfo;
+namespace System::Collections::Generic {
+template <typename T> class LinkedListNode_1;
 }
 namespace GlobalNamespace {
 template <typename T> class __BeatmapData____c__DisplayClass45_0_1;
 }
 namespace GlobalNamespace {
-class BeatmapDataItem;
+class BeatmapObjectsInTimeRowProcessor;
 }
 namespace GlobalNamespace {
-class BeatmapObjectData;
+class IReadonlyBeatmapData;
 }
-namespace System {
-template <typename T> class Action_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
+namespace GlobalNamespace {
+class __BeatmapData__BeatmapDataBinaryHeapItem;
 }
 namespace System::Collections::Generic {
 template <typename T> class HashSet_1;
@@ -41,26 +50,17 @@ template <typename T> class HashSet_1;
 namespace GlobalNamespace {
 class BeatmapEventData;
 }
-namespace GlobalNamespace {
-class BeatmapObjectsInTimeRowProcessor;
-}
-namespace System::Collections::Generic {
-template <typename T> class LinkedList_1;
+namespace System {
+template <typename T1, typename T2> class Action_2;
 }
 namespace GlobalNamespace {
 template <typename TBase> class BeatmapDataSortedListForTypeAndIds_1;
 }
-namespace System::Collections::Generic {
-template <typename T> class LinkedListNode_1;
-}
 namespace GlobalNamespace {
-class IReadonlyBeatmapData;
-}
-namespace GlobalNamespace {
-template <typename T> class ISortedList_1;
+class BeatmapObjectData;
 }
 namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
+template <typename T> class IEnumerable_1;
 }
 namespace System {
 template <typename T> class IComparable_1;

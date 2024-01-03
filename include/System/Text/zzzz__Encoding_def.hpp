@@ -12,47 +12,17 @@ CORDL_MODULE_EXPORT(Encoding)
 namespace System::Globalization {
 class CodePageDataItem;
 }
-namespace System::Text {
-class DecoderNLS;
-}
-namespace System::Text {
-class DecoderFallback;
-}
 namespace System {
-template <typename T> struct ReadOnlySpan_1;
-}
-namespace System::Text {
-class EncoderNLS;
-}
-namespace System {
-template <typename T> struct Span_1;
+class Object;
 }
 namespace System {
 class ICloneable;
 }
 namespace System::Text {
-class __Encoding__EncodingCharBuffer;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
+class DecoderFallback;
 }
 namespace System::Text {
-class EncoderFallback;
-}
-namespace System::Text {
-class Decoder;
-}
-namespace System {
-class Object;
-}
-namespace System::Text {
-class Encoder;
-}
-namespace System::Text {
-class __Encoding__DefaultDecoder;
-}
-namespace System::Runtime::Serialization {
-class SerializationInfo;
+class __Encoding__EncodingByteBuffer;
 }
 namespace System::Runtime::Serialization {
 struct StreamingContext;
@@ -61,7 +31,37 @@ namespace System::Text {
 class __Encoding__DefaultEncoder;
 }
 namespace System::Text {
-class __Encoding__EncodingByteBuffer;
+class __Encoding__DefaultDecoder;
+}
+namespace System {
+template <typename T> struct Span_1;
+}
+namespace System::Text {
+class EncoderNLS;
+}
+namespace System::Text {
+class __Encoding__EncodingCharBuffer;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace System::Text {
+class Decoder;
+}
+namespace System::Runtime::Serialization {
+class SerializationInfo;
+}
+namespace System::Text {
+class DecoderNLS;
+}
+namespace System {
+template <typename T> struct ReadOnlySpan_1;
+}
+namespace System::Text {
+class EncoderFallback;
+}
+namespace System::Text {
+class Encoder;
 }
 namespace System::Runtime::Serialization {
 class IObjectReference;

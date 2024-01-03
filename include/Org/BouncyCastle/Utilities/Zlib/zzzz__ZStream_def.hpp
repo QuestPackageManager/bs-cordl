@@ -8,13 +8,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ZStream)
 namespace Org::BouncyCastle::Utilities::Zlib {
+class Adler32;
+}
+namespace Org::BouncyCastle::Utilities::Zlib {
 class Deflate;
 }
 namespace Org::BouncyCastle::Utilities::Zlib {
 class Inflate;
-}
-namespace Org::BouncyCastle::Utilities::Zlib {
-class Adler32;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Utilities::Zlib {

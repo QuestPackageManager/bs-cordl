@@ -188,7 +188,7 @@ static_assert(offsetof(::GlobalNamespace::__EnvironmentSizeData__TrackLaneType, 
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4178)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(4179)),
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(4179)), TypeDefinitionIndex(TypeDefinitionIndex(4178)),
 // TypeDefinitionIndex(TypeDefinitionIndex(4177))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4180)) CS Name: ::EnvironmentSizeData*
 class CORDL_TYPE EnvironmentSizeData : public ::System::Object {
 public:

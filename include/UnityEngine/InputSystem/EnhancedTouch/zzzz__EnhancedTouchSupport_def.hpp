@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(EnhancedTouchSupport)
 namespace UnityEngine::InputSystem {
-class InputDevice;
+struct InputDeviceChange;
 }
 namespace UnityEngine::InputSystem {
-struct InputDeviceChange;
+class InputDevice;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::EnhancedTouch {

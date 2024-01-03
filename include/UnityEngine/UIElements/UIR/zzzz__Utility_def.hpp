@@ -10,23 +10,8 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(Utility)
-namespace UnityEngine {
-struct RectInt;
-}
 namespace UnityEngine::UIElements::UIR {
 struct __Utility__GPUBufferType;
-}
-namespace System {
-class Action;
-}
-namespace UnityEngine {
-class MaterialPropertyBlock;
-}
-namespace Unity::Collections {
-template <typename T> struct NativeSlice_1;
-}
-namespace UnityEngine {
-struct Matrix4x4;
 }
 namespace UnityEngine {
 class Material;
@@ -34,26 +19,41 @@ class Material;
 namespace UnityEngine {
 struct Bounds;
 }
-namespace System {
-template <typename T> class Action_1;
-}
-namespace UnityEngine::Rendering {
-struct VertexAttributeDescriptor;
+namespace Unity::Collections {
+template <typename T> struct NativeSlice_1;
 }
 namespace UnityEngine::Rendering {
 struct StencilState;
 }
+namespace UnityEngine {
+struct Matrix4x4;
+}
 namespace UnityEngine::UIElements::UIR {
 template <typename T> class __Utility__GPUBuffer_1;
+}
+namespace UnityEngine::Rendering {
+struct VertexAttributeDescriptor;
+}
+namespace System {
+class Action;
+}
+namespace UnityEngine {
+class MaterialPropertyBlock;
+}
+namespace System {
+template <typename T> class Action_1;
 }
 namespace UnityEngine {
 class Camera;
 }
-namespace System {
-class IDisposable;
+namespace UnityEngine {
+struct RectInt;
 }
 namespace UnityEngine::UIElements::UIR {
 struct GfxUpdateBufferRange;
+}
+namespace System {
+class IDisposable;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements::UIR {

@@ -2,8 +2,8 @@
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Oculus/Platform/zzzz__UserOptions_def.hpp"
-#include "Oculus/Platform/zzzz__ServiceProvider_def.hpp"
 #include "Oculus/Platform/zzzz__TimeWindow_def.hpp"
+#include "Oculus/Platform/zzzz__ServiceProvider_def.hpp"
 //  Writing Method size for method: ::Oculus::Platform::UserOptions._ctor
 template <>
 

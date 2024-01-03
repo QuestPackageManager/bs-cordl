@@ -8,11 +8,11 @@ CORDL_MODULE_EXPORT(XmlNodeList)
 namespace System::Collections {
 class IEnumerable;
 }
-namespace System::Collections {
-class IEnumerator;
-}
 namespace System {
 class IDisposable;
+}
+namespace System::Collections {
+class IEnumerator;
 }
 // Forward declare root types
 namespace System::Xml {

@@ -6,20 +6,20 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(PreviewDifficultyBeatmap)
-namespace System {
-template <typename T> class IEquatable_1;
-}
 namespace GlobalNamespace {
 class IPreviewBeatmapLevel;
-}
-namespace GlobalNamespace {
-struct BeatmapDifficulty;
 }
 namespace System {
 class Object;
 }
 namespace GlobalNamespace {
+struct BeatmapDifficulty;
+}
+namespace GlobalNamespace {
 class BeatmapCharacteristicSO;
+}
+namespace System {
+template <typename T> class IEquatable_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {

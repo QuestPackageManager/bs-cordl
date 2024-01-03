@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__NetDataWriterExtensions_def.hpp"
-#include "GlobalNamespace/zzzz__PacketOption_def.hpp"
 #include "LiteNetLib/Utils/zzzz__NetDataWriter_def.hpp"
+#include "GlobalNamespace/zzzz__PacketOption_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::NetDataWriterExtensions.SetUpPacket
 template <>
 

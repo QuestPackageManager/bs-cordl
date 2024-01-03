@@ -9,61 +9,61 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(PlayerSettingsPanelController)
 namespace GlobalNamespace {
-class IRefreshable;
-}
-namespace GlobalNamespace {
-struct ArcVisibilityType;
-}
-namespace GlobalNamespace {
-class NoteJumpDurationTypeSettingsDropdown;
-}
-namespace GlobalNamespace {
-class FormattedFloatListSettingsController;
-}
-namespace GlobalNamespace {
-class NoteJumpStartBeatOffsetDropdown;
-}
-namespace GlobalNamespace {
-class EnvironmentEffectsFilterPresetDropdown;
-}
-namespace GlobalNamespace {
-struct NoteJumpDurationTypeSettings;
+class PlayerHeightSettingsController;
 }
 namespace HMUI {
 class ToggleBinder;
 }
 namespace GlobalNamespace {
+class IRefreshable;
+}
+namespace GlobalNamespace {
+class ArcVisibilityTypeSettingsDropdown;
+}
+namespace GlobalNamespace {
+struct ArcVisibilityType;
+}
+namespace UnityEngine::UI {
+class Toggle;
+}
+namespace GlobalNamespace {
 class EventBinder;
+}
+namespace UnityEngine {
+class GameObject;
+}
+namespace UnityEngine {
+class CanvasGroup;
 }
 namespace System {
 class Action;
 }
 namespace GlobalNamespace {
-class ArcVisibilityTypeSettingsDropdown;
-}
-namespace UnityEngine {
-class GameObject;
+struct __PlayerSettingsPanelController__PlayerSettingsPanelLayout;
 }
 namespace GlobalNamespace {
-class PlayerData;
+class NoteJumpStartBeatOffsetDropdown;
 }
 namespace GlobalNamespace {
 struct EnvironmentEffectsFilterPreset;
 }
 namespace GlobalNamespace {
-class PlayerHeightSettingsController;
+struct NoteJumpDurationTypeSettings;
 }
 namespace GlobalNamespace {
-struct __PlayerSettingsPanelController__PlayerSettingsPanelLayout;
+class EnvironmentEffectsFilterPresetDropdown;
 }
-namespace UnityEngine::UI {
-class Toggle;
-}
-namespace UnityEngine {
-class CanvasGroup;
+namespace GlobalNamespace {
+class NoteJumpDurationTypeSettingsDropdown;
 }
 namespace GlobalNamespace {
 class PlayerSpecificSettings;
+}
+namespace GlobalNamespace {
+class FormattedFloatListSettingsController;
+}
+namespace GlobalNamespace {
+class PlayerData;
 }
 // Forward declare root types
 namespace GlobalNamespace {

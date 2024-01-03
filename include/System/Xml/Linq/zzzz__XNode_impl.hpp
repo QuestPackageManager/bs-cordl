@@ -1,9 +1,9 @@
 #pragma once
 #include "System/Xml/Linq/zzzz__XObject_impl.hpp"
 #include "System/Xml/Linq/zzzz__XNode_def.hpp"
-#include "System/Xml/zzzz__XmlWriter_def.hpp"
 #include "System/Xml/Linq/zzzz__SaveOptions_def.hpp"
 #include "System/Text/zzzz__StringBuilder_def.hpp"
+#include "System/Xml/zzzz__XmlWriter_def.hpp"
 //  Writing Method size for method: ::System::Xml::Linq::XNode._ctor
 template <>
 

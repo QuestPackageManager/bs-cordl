@@ -10,217 +10,217 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Message)
 namespace Oculus::Platform::Models {
-class AppDownloadProgressResult;
-}
-namespace Oculus::Platform::Models {
-class UserList;
-}
-namespace Oculus::Platform::Models {
-class DestinationList;
-}
-namespace Oculus::Platform::Models {
-class ApplicationInviteList;
-}
-namespace Oculus::Platform::Models {
-class SendInvitesResult;
-}
-namespace Oculus::Platform::Models {
-class AbuseReportRecording;
-}
-namespace Oculus::Platform::Models {
-class ApplicationVersion;
-}
-namespace Oculus::Platform::Models {
-class ShareMediaResult;
-}
-namespace Oculus::Platform::Models {
-class AssetFileDeleteResult;
+class Challenge;
 }
 namespace Oculus::Platform::Models {
 class UserProof;
 }
 namespace Oculus::Platform::Models {
-class NetSyncSessionsChangedNotification;
-}
-namespace Oculus::Platform::Models {
-class NetSyncVoipAttenuationValueList;
-}
-namespace Oculus::Platform::Models {
-class ProductList;
+class PartyID;
 }
 namespace Oculus::Platform::Models {
 class AssetFileDownloadCancelResult;
 }
 namespace Oculus::Platform::Models {
-class InstalledApplicationList;
-}
-namespace Oculus::Platform::Models {
-class LivestreamingStartResult;
-}
-namespace Oculus::Platform::Models {
-class Purchase;
-}
-namespace Oculus::Platform::Models {
-class SdkAccountList;
-}
-namespace Oculus::Platform::Models {
-class User;
-}
-namespace Oculus::Platform::Models {
-class UserCapabilityList;
-}
-namespace Oculus::Platform::Models {
-class LaunchFriendRequestFlowResult;
-}
-namespace Oculus::Platform::Models {
-class ChallengeEntryList;
-}
-namespace Oculus::Platform::Models {
-class AvatarEditorResult;
-}
-namespace Oculus::Platform::Models {
-class AchievementUpdate;
-}
-namespace Oculus::Platform::Models {
-class HttpTransferUpdate;
-}
-namespace Oculus::Platform::Models {
-class Error;
-}
-namespace Oculus::Platform::Models {
-class AssetDetails;
-}
-namespace Oculus::Platform::Models {
-class NetSyncConnection;
-}
-namespace Oculus::Platform::Models {
-class NetSyncSessionList;
-}
-namespace Oculus::Platform::Models {
-class SystemVoipState;
-}
-namespace Oculus::Platform::Models {
-class GroupPresenceLeaveIntent;
-}
-namespace Oculus::Platform {
-struct __Message__MessageType;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace Oculus::Platform::Models {
-class LaunchUnblockFlowResult;
-}
-namespace Oculus::Platform::Models {
-class InvitePanelResultInfo;
-}
-namespace Oculus::Platform::Models {
-class AppDownloadResult;
-}
-namespace Oculus::Platform::Models {
-class LinkedAccountList;
-}
-namespace Oculus::Platform::Models {
-class LaunchReportFlowResult;
-}
-namespace Oculus::Platform::Models {
-class Challenge;
-}
-namespace Oculus::Platform::Models {
-class AssetDetailsList;
-}
-namespace Oculus::Platform::Models {
-class LaunchInvitePanelFlowResult;
-}
-namespace Oculus::Platform::Models {
-class LeaderboardList;
-}
-namespace Oculus::Platform::Models {
-class NetSyncSetSessionPropertyResult;
-}
-namespace Oculus::Platform::Models {
-class PurchaseList;
-}
-namespace Oculus::Platform::Models {
-class AchievementDefinitionList;
+class ApplicationVersion;
 }
 namespace Oculus::Platform::Models {
 class UserAccountAgeCategory;
 }
 namespace Oculus::Platform::Models {
-class PlatformInitialize;
+class LaunchInvitePanelFlowResult;
 }
-namespace Oculus::Platform::Models {
-class RejoinDialogResult;
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace Oculus::Platform::Models {
 class UserDataStoreUpdateResponse;
 }
 namespace Oculus::Platform::Models {
-class LivestreamingVideoStats;
-}
-namespace Oculus::Platform::Models {
-class LivestreamingApplicationStatus;
-}
-namespace Oculus::Platform::Models {
-class PartyUpdateNotification;
+class Purchase;
 }
 namespace Oculus::Platform {
 class __Message__ExtraMessageTypesHandler;
 }
 namespace Oculus::Platform::Models {
-class AchievementProgressList;
+class LaunchUnblockFlowResult;
 }
 namespace Oculus::Platform::Models {
-class LeaderboardEntryList;
+class ApplicationInviteList;
+}
+namespace Oculus::Platform::Models {
+class ChallengeEntryList;
+}
+namespace Oculus::Platform::Models {
+class LaunchFriendRequestFlowResult;
+}
+namespace Oculus::Platform::Models {
+class AchievementDefinitionList;
+}
+namespace Oculus::Platform::Models {
+class ProductList;
 }
 namespace Oculus::Platform {
 class __Message__Callback;
 }
 namespace Oculus::Platform::Models {
-class Party;
+class RejoinDialogResult;
 }
 namespace Oculus::Platform::Models {
 class UserReportID;
 }
 namespace Oculus::Platform::Models {
-class PartyID;
+class Error;
 }
 namespace Oculus::Platform::Models {
-class AssetFileDownloadUpdate;
+class UserCapabilityList;
 }
 namespace Oculus::Platform::Models {
-class PidList;
+class AppDownloadProgressResult;
 }
 namespace Oculus::Platform::Models {
-class BlockedUserList;
+class LeaderboardEntryList;
+}
+namespace Oculus::Platform::Models {
+class GroupPresenceLeaveIntent;
 }
 namespace Oculus::Platform::Models {
 class LaunchBlockFlowResult;
 }
 namespace Oculus::Platform::Models {
-class MicrophoneAvailabilityState;
+class NetSyncSessionList;
 }
 namespace Oculus::Platform::Models {
-class OrgScopedID;
-}
-namespace Oculus::Platform::Models {
-class AssetFileDownloadResult;
+class AchievementProgressList;
 }
 namespace Oculus::Platform::Models {
 class ChallengeList;
 }
 namespace Oculus::Platform::Models {
+class NetSyncConnection;
+}
+namespace Oculus::Platform {
+struct __Message__MessageType;
+}
+namespace Oculus::Platform::Models {
+class LeaderboardList;
+}
+namespace Oculus::Platform::Models {
+class LivestreamingStartResult;
+}
+namespace Oculus::Platform::Models {
+class NetSyncSetSessionPropertyResult;
+}
+namespace Oculus::Platform::Models {
+class AssetDetails;
+}
+namespace Oculus::Platform::Models {
+class PurchaseList;
+}
+namespace Oculus::Platform::Models {
 class LivestreamingStatus;
+}
+namespace Oculus::Platform::Models {
+class Party;
+}
+namespace Oculus::Platform::Models {
+class PlatformInitialize;
+}
+namespace Oculus::Platform::Models {
+class DestinationList;
+}
+namespace Oculus::Platform::Models {
+class MicrophoneAvailabilityState;
+}
+namespace Oculus::Platform::Models {
+class PidList;
+}
+namespace Oculus::Platform::Models {
+class ShareMediaResult;
+}
+namespace Oculus::Platform::Models {
+class AchievementUpdate;
+}
+namespace Oculus::Platform::Models {
+class SendInvitesResult;
+}
+namespace Oculus::Platform::Models {
+class LaunchReportFlowResult;
+}
+namespace Oculus::Platform::Models {
+class UserList;
+}
+namespace Oculus::Platform::Models {
+class AssetDetailsList;
+}
+namespace Oculus::Platform::Models {
+class AvatarEditorResult;
+}
+namespace Oculus::Platform::Models {
+class AssetFileDeleteResult;
+}
+namespace Oculus::Platform::Models {
+class OrgScopedID;
+}
+namespace Oculus::Platform::Models {
+class SystemVoipState;
+}
+namespace Oculus::Platform::Models {
+class NetSyncSessionsChangedNotification;
+}
+namespace Oculus::Platform::Models {
+class BlockedUserList;
+}
+namespace Oculus::Platform::Models {
+class InvitePanelResultInfo;
+}
+namespace Oculus::Platform::Models {
+class PartyUpdateNotification;
+}
+namespace Oculus::Platform::Models {
+class User;
+}
+namespace Oculus::Platform::Models {
+class NetSyncVoipAttenuationValueList;
+}
+namespace Oculus::Platform::Models {
+class HttpTransferUpdate;
+}
+namespace Oculus::Platform::Models {
+class AbuseReportRecording;
+}
+namespace Oculus::Platform::Models {
+class AppDownloadResult;
+}
+namespace Oculus::Platform::Models {
+class LivestreamingApplicationStatus;
+}
+namespace Oculus::Platform::Models {
+class AssetFileDownloadUpdate;
 }
 namespace Oculus::Platform::Models {
 class GroupPresenceJoinIntent;
 }
-namespace System {
-class IAsyncResult;
+namespace Oculus::Platform::Models {
+class InstalledApplicationList;
+}
+namespace Oculus::Platform::Models {
+class LinkedAccountList;
+}
+namespace Oculus::Platform::Models {
+class LivestreamingVideoStats;
+}
+namespace Oculus::Platform::Models {
+class SdkAccountList;
+}
+namespace Oculus::Platform::Models {
+class AssetFileDownloadResult;
 }
 namespace System {
 class Object;
+}
+namespace System {
+class IAsyncResult;
 }
 namespace System {
 class AsyncCallback;

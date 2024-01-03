@@ -12,13 +12,13 @@ namespace GlobalNamespace {
 struct __BeatmapObjectAvoidanceYOffsetEvaluator__BufferData;
 }
 namespace GlobalNamespace {
-struct __BeatmapObjectSpawnMovementData__NoteSpawnData;
-}
-namespace GlobalNamespace {
 class IBeatmapObjectSpawnController;
 }
 namespace GlobalNamespace {
 class IAudioTimeSource;
+}
+namespace GlobalNamespace {
+struct __BeatmapObjectSpawnMovementData__NoteSpawnData;
 }
 // Forward declare root types
 namespace GlobalNamespace {

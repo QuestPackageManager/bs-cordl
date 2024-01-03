@@ -3,11 +3,11 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IWebProxy)
-namespace System {
-class Uri;
-}
 namespace System::Net {
 class ICredentials;
+}
+namespace System {
+class Uri;
 }
 // Forward declare root types
 namespace System::Net {

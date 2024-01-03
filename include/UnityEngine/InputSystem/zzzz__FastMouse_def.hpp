@@ -4,35 +4,35 @@
 CORDL_MODULE_INIT
 #include "UnityEngine/InputSystem/zzzz__Mouse_def.hpp"
 CORDL_MODULE_EXPORT(FastMouse)
-namespace UnityEngine::InputSystem::LowLevel {
-class IInputStateCallbackReceiver;
-}
-namespace UnityEngine::InputSystem::Controls {
-class AxisControl;
-}
 namespace UnityEngine::InputSystem {
 class InputControl;
-}
-namespace UnityEngine::InputSystem::Controls {
-class IntegerControl;
-}
-namespace UnityEngine::InputSystem::LowLevel {
-struct InputEventPtr;
-}
-namespace UnityEngine::InputSystem::Utilities {
-struct InternedString;
-}
-namespace UnityEngine::InputSystem::Controls {
-class DeltaControl;
-}
-namespace UnityEngine::InputSystem::Controls {
-class ButtonControl;
 }
 namespace UnityEngine::InputSystem::LowLevel {
 class IEventMerger;
 }
 namespace UnityEngine::InputSystem::Controls {
 class Vector2Control;
+}
+namespace UnityEngine::InputSystem::Controls {
+class ButtonControl;
+}
+namespace UnityEngine::InputSystem::Controls {
+class AxisControl;
+}
+namespace UnityEngine::InputSystem::Controls {
+class IntegerControl;
+}
+namespace UnityEngine::InputSystem::Utilities {
+struct InternedString;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+struct InputEventPtr;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+class IInputStateCallbackReceiver;
+}
+namespace UnityEngine::InputSystem::Controls {
+class DeltaControl;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem {

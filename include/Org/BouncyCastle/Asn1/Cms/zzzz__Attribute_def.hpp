@@ -7,17 +7,17 @@ CORDL_MODULE_EXPORT(Attribute)
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
 }
-namespace System {
-class Object;
-}
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
+class DerObjectIdentifier;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Set;
 }
 namespace Org::BouncyCastle::Asn1 {
-class DerObjectIdentifier;
+class Asn1Sequence;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Cms {

@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(TerrainUtility)
+namespace UnityEngine::TerrainUtils {
+class TerrainMap;
+}
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace UnityEngine::TerrainUtils {
 class __TerrainUtility____c__DisplayClass2_0;
-}
-namespace UnityEngine::TerrainUtils {
-class TerrainMap;
 }
 namespace UnityEngine::TerrainUtils {
 class __TerrainUtility____c__DisplayClass2_1;

@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__LightWithIdMonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(TubeBloomPrePassLightWithId)
-namespace UnityEngine {
-struct Color;
-}
 namespace GlobalNamespace {
 class TubeBloomPrePassLight;
+}
+namespace UnityEngine {
+struct Color;
 }
 // Forward declare root types
 namespace GlobalNamespace {

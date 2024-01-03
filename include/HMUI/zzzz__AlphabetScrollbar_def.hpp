@@ -9,53 +9,53 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(AlphabetScrollbar)
-namespace TMPro {
-class TextMeshProUGUI;
+namespace System::Collections::Generic {
+template <typename T> class IReadOnlyList_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace UnityEngine::EventSystems {
-class IPointerDownHandler;
-}
-namespace UnityEngine::EventSystems {
-class IEventSystemHandler;
+class PointerEventData;
 }
 namespace UnityEngine::EventSystems {
 class IPointerExitHandler;
 }
-namespace HMUI {
-class __AlphabetScrollbar___PointerMoveInsideCoroutine_d__18;
+namespace UnityEngine::EventSystems {
+class IPointerDownHandler;
+}
+namespace GlobalNamespace {
+class __AlphabetScrollInfo__Data;
 }
 namespace UnityEngine::EventSystems {
-class PointerEventData;
+class IPointerEnterHandler;
+}
+namespace TMPro {
+class TextMeshProUGUI;
 }
 namespace HMUI {
 class TableView;
 }
 namespace UnityEngine::EventSystems {
-class IPointerEnterHandler;
-}
-namespace UnityEngine::EventSystems {
-class IPointerUpHandler;
+class IEventSystemHandler;
 }
 namespace UnityEngine::UI {
 class Image;
 }
+namespace UnityEngine::EventSystems {
+class IPointerUpHandler;
+}
+namespace HMUI {
+class __AlphabetScrollbar___PointerMoveInsideCoroutine_d__18;
+}
 namespace System::Collections {
 class IEnumerator;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace GlobalNamespace {
-class __AlphabetScrollInfo__Data;
-}
-namespace System::Collections::Generic {
-template <typename T> class IReadOnlyList_1;
+namespace System {
+class IDisposable;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
-}
-namespace System {
-class IDisposable;
 }
 namespace System {
 class Object;
@@ -193,7 +193,7 @@ static_assert(offsetof(::HMUI::__AlphabetScrollbar___PointerMoveInsideCoroutine_
 // SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 117, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(13537))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13537)), TypeDefinitionIndex(TypeDefinitionIndex(10251))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13507))
 // CS Name: ::HMUI::AlphabetScrollbar*
 class CORDL_TYPE AlphabetScrollbar : public ::HMUI::Interactable {

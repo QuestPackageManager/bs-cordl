@@ -9,28 +9,28 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(IPlatformAchievementsHandler)
 namespace GlobalNamespace {
+class __IPlatformAchievementsHandler__UnlockAchievementCompletionHandler;
+}
+namespace GlobalNamespace {
 struct __IPlatformAchievementsHandler__GetUnlockedAchievementsResult;
 }
 namespace GlobalNamespace {
 struct __IPlatformAchievementsHandler__UnlockAchievementResult;
 }
 namespace GlobalNamespace {
-class __IPlatformAchievementsHandler__UnlockAchievementCompletionHandler;
+class HMAsyncRequest;
 }
 namespace GlobalNamespace {
 class __IPlatformAchievementsHandler__GetUnlockedAchievementsCompletionHandler;
 }
-namespace GlobalNamespace {
-class HMAsyncRequest;
-}
 namespace System {
-class IAsyncResult;
+class AsyncCallback;
 }
 namespace System {
 class Object;
 }
 namespace System {
-class AsyncCallback;
+class IAsyncResult;
 }
 // Forward declare root types
 namespace GlobalNamespace {

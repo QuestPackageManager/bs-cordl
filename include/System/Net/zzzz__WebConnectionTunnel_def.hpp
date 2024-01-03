@@ -17,10 +17,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(WebConnectionTunnel)
 namespace System::Net {
-struct __WebConnectionTunnel___ReadHeaders_d__43;
+class HttpWebRequest;
 }
 namespace System::IO {
 class Stream;
+}
+namespace System::Net {
+struct __WebConnectionTunnel___ReadHeaders_d__43;
+}
+namespace System {
+class Version;
+}
+namespace System::Threading::Tasks {
+template <typename TResult> class Task_1;
 }
 namespace System::Threading {
 struct CancellationToken;
@@ -28,20 +37,11 @@ struct CancellationToken;
 namespace System {
 template <typename T1, typename T2, typename T3> struct ValueTuple_3;
 }
+namespace System {
+class Uri;
+}
 namespace System::Threading::Tasks {
 class Task;
-}
-namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
-}
-namespace System::Net {
-class HttpWebRequest;
-}
-namespace System::Net {
-class WebHeaderCollection;
-}
-namespace System {
-class Version;
 }
 namespace System::Net {
 struct __WebConnectionTunnel___Initialize_d__42;
@@ -49,26 +49,26 @@ struct __WebConnectionTunnel___Initialize_d__42;
 namespace System::Net {
 struct __WebConnectionTunnel__NtlmAuthState;
 }
-namespace System {
-class Uri;
-}
-namespace System::Runtime::CompilerServices {
-struct __ConfiguredTaskAwaitable__ConfiguredTaskAwaiter;
-}
-namespace System::Runtime::CompilerServices {
-class IAsyncStateMachine;
+namespace System::Net {
+class WebHeaderCollection;
 }
 namespace System::Runtime::CompilerServices {
 struct AsyncTaskMethodBuilder;
 }
 namespace System::Runtime::CompilerServices {
+class IAsyncStateMachine;
+}
+namespace System::Runtime::CompilerServices {
 template <typename TResult> struct __ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter;
 }
 namespace System::Runtime::CompilerServices {
-template <typename TResult> struct AsyncTaskMethodBuilder_1;
+struct __ConfiguredTaskAwaitable__ConfiguredTaskAwaiter;
 }
 namespace System::IO {
 class MemoryStream;
+}
+namespace System::Runtime::CompilerServices {
+template <typename TResult> struct AsyncTaskMethodBuilder_1;
 }
 // Forward declare root types
 namespace System::Net {
@@ -146,10 +146,10 @@ static_assert(offsetof(::System::Net::__WebConnectionTunnel__NtlmAuthState, valu
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3401)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2508), inst: 5332 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(3395)), TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3397)), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(3397), inst: 871 }), TypeDefinitionIndex(TypeDefinitionIndex(2508)), TypeDefinitionIndex(TypeDefinitionIndex(9091))} Self: TypeDefinitionIndex(TypeDefinitionIndex(9222)) CS
-// Name: ::WebConnectionTunnel::<Initialize>d__42
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3395)), TypeDefinitionIndex(TypeDefinitionIndex(3397)), TypeDefinitionIndex(TypeDefinitionIndex(2508)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 871 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2508), inst: 5332 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(9091)), TypeDefinitionIndex(TypeDefinitionIndex(3401))} Self: TypeDefinitionIndex(TypeDefinitionIndex(9222))
+// CS Name: ::WebConnectionTunnel::<Initialize>d__42
 struct CORDL_TYPE __WebConnectionTunnel___Initialize_d__42 {
 public:
   // Declarations
@@ -234,9 +234,9 @@ static_assert(offsetof(::System::Net::__WebConnectionTunnel___Initialize_d__42, 
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 120, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 98 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(3397)), TypeDefinitionIndex(TypeDefinitionIndex(9091)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 871 }),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2508), inst: 5332 }), TypeDefinitionIndex(TypeDefinitionIndex(2508)), TypeDefinitionIndex(TypeDefinitionIndex(2677))} Self:
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2677)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 871 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(3397)), TypeDefinitionIndex(TypeDefinitionIndex(2508)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 98 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(9091)), TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2508), inst: 5332 })} Self:
 // TypeDefinitionIndex(TypeDefinitionIndex(9223)) CS Name: ::WebConnectionTunnel::<ReadHeaders>d__43
 struct CORDL_TYPE __WebConnectionTunnel___ReadHeaders_d__43 {
 public:

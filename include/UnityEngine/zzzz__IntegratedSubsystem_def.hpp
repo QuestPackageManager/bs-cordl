@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(IntegratedSubsystem)
 namespace UnityEngine {
-class ISubsystemDescriptor;
+class ISubsystem;
 }
 namespace UnityEngine {
-class ISubsystem;
+class ISubsystemDescriptor;
 }
 // Forward declare root types
 namespace UnityEngine {

@@ -1,8 +1,8 @@
 #pragma once
 #include "System/Xml/Linq/zzzz__XNode_impl.hpp"
 #include "System/Xml/Linq/zzzz__XProcessingInstruction_def.hpp"
-#include "System/Xml/zzzz__XmlWriter_def.hpp"
 #include "System/Xml/Linq/zzzz__XNode_def.hpp"
+#include "System/Xml/zzzz__XmlWriter_def.hpp"
 #include "System/Xml/zzzz__XmlNodeType_def.hpp"
 //  Writing Method size for method: ::System::Xml::Linq::XProcessingInstruction._ctor
 template <>

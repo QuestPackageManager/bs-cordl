@@ -7,13 +7,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(GeneralPkiMessage)
 namespace Org::BouncyCastle::Asn1::Cmp {
+class PkiBody;
+}
+namespace Org::BouncyCastle::Asn1::Cmp {
 class PkiMessage;
 }
 namespace Org::BouncyCastle::Asn1::Cmp {
 class PkiHeader;
-}
-namespace Org::BouncyCastle::Asn1::Cmp {
-class PkiBody;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Cmp {

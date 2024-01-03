@@ -9,19 +9,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(TMPro_ExtensionMethods)
 namespace UnityEngine {
-struct Color;
+struct Color32;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace UnityEngine {
-struct Vector3;
+struct Color;
 }
 namespace UnityEngine {
 struct Quaternion;
 }
 namespace UnityEngine {
-struct Color32;
+struct Vector3;
 }
 // Forward declare root types
 namespace TMPro {

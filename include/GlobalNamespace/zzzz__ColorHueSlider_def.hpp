@@ -6,23 +6,23 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__Color_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(ColorHueSlider)
-namespace System {
-template <typename T1, typename T2, typename T3> class Action_3;
-}
-namespace UnityEngine::EventSystems {
-class IEventSystemHandler;
-}
 namespace UnityEngine::EventSystems {
 class IPointerUpHandler;
-}
-namespace HMUI {
-class CircleSlider;
 }
 namespace GlobalNamespace {
 struct ColorChangeUIEventType;
 }
 namespace UnityEngine::EventSystems {
+class IEventSystemHandler;
+}
+namespace HMUI {
+class CircleSlider;
+}
+namespace UnityEngine::EventSystems {
 class PointerEventData;
+}
+namespace System {
+template <typename T1, typename T2, typename T3> class Action_3;
 }
 // Forward declare root types
 namespace GlobalNamespace {

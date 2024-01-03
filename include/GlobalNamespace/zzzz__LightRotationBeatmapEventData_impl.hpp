@@ -4,12 +4,12 @@
 #include "GlobalNamespace/zzzz__LightAxis_impl.hpp"
 #include "GlobalNamespace/zzzz__LightRotationDirection_impl.hpp"
 #include "GlobalNamespace/zzzz__LightRotationBeatmapEventData_def.hpp"
-#include "GlobalNamespace/zzzz__LightAxis_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
-#include "GlobalNamespace/zzzz__EaseType_def.hpp"
 #include "GlobalNamespace/zzzz__LightRotationDirection_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "GlobalNamespace/zzzz__LightAxis_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapDataItem_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapEventData_def.hpp"
+#include "GlobalNamespace/zzzz__EaseType_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::LightRotationBeatmapEventData.get_rotation
 template <>
 

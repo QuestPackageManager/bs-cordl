@@ -8,10 +8,10 @@ namespace UnityEngine {
 class Sprite;
 }
 namespace UnityEngine {
-struct Vector4;
+struct Vector2;
 }
 namespace UnityEngine {
-struct Vector2;
+struct Vector4;
 }
 // Forward declare root types
 namespace UnityEngine::Sprites {

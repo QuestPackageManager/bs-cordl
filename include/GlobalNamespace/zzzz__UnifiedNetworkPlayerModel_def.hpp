@@ -11,76 +11,76 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(UnifiedNetworkPlayerModel)
 namespace GlobalNamespace {
-class __UnifiedNetworkPlayerModel__StartClientPartyConfig;
-}
-namespace System {
-class Action;
-}
-namespace GlobalNamespace {
-struct BeatmapLevelSelectionMask;
-}
-namespace GlobalNamespace {
-class __UnifiedNetworkPlayerModel__JoinMatchmakingPartyConfig;
-}
-namespace GlobalNamespace {
-template <typename T> class INetworkPlayerModelPartyConfig_1;
-}
-namespace GlobalNamespace {
-class IUnifiedNetworkPlayerModel;
-}
-namespace GlobalNamespace {
 class INetworkPlayer;
-}
-namespace GlobalNamespace {
-class IConnectedPlayer;
-}
-namespace GlobalNamespace {
-class GameLiftNetworkPlayerModel;
-}
-namespace GlobalNamespace {
-class PlatformNetworkPlayerModel;
 }
 namespace GlobalNamespace {
 struct GameplayServerConfiguration;
 }
-namespace Zenject {
-class IInitializable;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
+namespace GlobalNamespace {
+class __UnifiedNetworkPlayerModel___get_otherPlayers_d__64;
 }
 namespace GlobalNamespace {
 class PartyMessageHandler;
 }
 namespace GlobalNamespace {
-class __UnifiedNetworkPlayerModel___get_otherPlayers_d__64;
+class __UnifiedNetworkPlayerModel__StartClientPartyConfig;
+}
+namespace GlobalNamespace {
+class __UnifiedNetworkPlayerModel__JoinMatchmakingPartyConfig;
+}
+namespace Zenject {
+class IInitializable;
+}
+namespace System {
+class Action;
+}
+namespace GlobalNamespace {
+struct __UnifiedNetworkPlayerModel__ActiveNetworkPlayerModelType;
+}
+namespace GlobalNamespace {
+class PlatformNetworkPlayerModel;
+}
+namespace GlobalNamespace {
+class GameLiftNetworkPlayerModel;
+}
+namespace GlobalNamespace {
+class IConnectedPlayer;
+}
+namespace GlobalNamespace {
+class ConnectedPlayerManager;
+}
+namespace System {
+class IDisposable;
+}
+namespace GlobalNamespace {
+class INetworkPlayerModel;
 }
 namespace System {
 template <typename T> class Action_1;
 }
 namespace GlobalNamespace {
-class ConnectedPlayerManager;
+struct BeatmapLevelSelectionMask;
 }
 namespace GlobalNamespace {
-class INetworkPlayerModel;
+class IUnifiedNetworkPlayerModel;
 }
 namespace GlobalNamespace {
-struct __UnifiedNetworkPlayerModel__ActiveNetworkPlayerModelType;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
-namespace System {
-class IDisposable;
-}
-namespace System::Collections {
-class IEnumerator;
-}
-namespace System {
-class Object;
+template <typename T> class INetworkPlayerModelPartyConfig_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
+namespace System {
+class Object;
+}
 namespace System::Collections {
 class IEnumerable;
+}
+namespace System::Collections {
+class IEnumerator;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -158,7 +158,7 @@ static_assert(offsetof(::GlobalNamespace::__UnifiedNetworkPlayerModel__ActiveNet
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12758)), TypeDefinitionIndex(TypeDefinitionIndex(12686)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12686)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12758))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14981))
 // CS Name: ::UnifiedNetworkPlayerModel::JoinMatchmakingPartyConfig*
 class CORDL_TYPE __UnifiedNetworkPlayerModel__JoinMatchmakingPartyConfig : public ::System::Object {
@@ -252,7 +252,7 @@ static_assert(offsetof(::GlobalNamespace::__UnifiedNetworkPlayerModel__JoinMatch
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12686)), TypeDefinitionIndex(TypeDefinitionIndex(12758))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12758)), TypeDefinitionIndex(TypeDefinitionIndex(12686)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14982))
 // CS Name: ::UnifiedNetworkPlayerModel::StartClientPartyConfig*
 class CORDL_TYPE __UnifiedNetworkPlayerModel__StartClientPartyConfig : public ::System::Object {

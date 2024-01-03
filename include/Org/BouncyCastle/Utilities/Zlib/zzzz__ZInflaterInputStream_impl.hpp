@@ -1,9 +1,9 @@
 #pragma once
 #include "System/IO/zzzz__Stream_impl.hpp"
 #include "Org/BouncyCastle/Utilities/Zlib/zzzz__ZInflaterInputStream_def.hpp"
-#include "System/IO/zzzz__SeekOrigin_def.hpp"
-#include "Org/BouncyCastle/Utilities/Zlib/zzzz__ZStream_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"
+#include "Org/BouncyCastle/Utilities/Zlib/zzzz__ZStream_def.hpp"
+#include "System/IO/zzzz__SeekOrigin_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Utilities::Zlib::ZInflaterInputStream._ctor
 template <>
 

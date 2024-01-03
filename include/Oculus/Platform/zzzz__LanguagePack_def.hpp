@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(LanguagePack)
-namespace Oculus::Platform {
-template <typename T> class Request_1;
-}
 namespace Oculus::Platform::Models {
 class AssetDetails;
+}
+namespace Oculus::Platform {
+template <typename T> class Request_1;
 }
 namespace Oculus::Platform::Models {
 class AssetFileDownloadResult;

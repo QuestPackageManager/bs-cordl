@@ -9,37 +9,37 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(LightSwitchEventEffect)
 namespace GlobalNamespace {
-class BeatmapCallbacksController;
-}
-namespace GlobalNamespace {
-class ColorManager;
-}
-namespace GlobalNamespace {
-struct BasicBeatmapEventType;
-}
-namespace UnityEngine {
-struct Color;
-}
-namespace GlobalNamespace {
-class BeatmapDataCallbackWrapper;
-}
-namespace GlobalNamespace {
 class LightWithIdManager;
 }
-namespace Tweening {
-class SongTimeTweeningManager;
+namespace GlobalNamespace {
+class BasicBeatmapEventData;
 }
 namespace Tweening {
 class ColorTween;
 }
 namespace GlobalNamespace {
+struct BasicBeatmapEventType;
+}
+namespace GlobalNamespace {
 class ColorBoostBeatmapEventData;
+}
+namespace UnityEngine {
+struct Color;
+}
+namespace GlobalNamespace {
+class BeatmapCallbacksController;
 }
 namespace GlobalNamespace {
 class ColorSO;
 }
 namespace GlobalNamespace {
-class BasicBeatmapEventData;
+class BeatmapDataCallbackWrapper;
+}
+namespace Tweening {
+class SongTimeTweeningManager;
+}
+namespace GlobalNamespace {
+class ColorManager;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -51,7 +51,7 @@ MARK_REF_PTR_T(::GlobalNamespace::LightSwitchEventEffect);
 // SizeInfo { instance_size: 200, native_size: -1, calculated_instance_size: 200, calculated_native_size: 200, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(14724)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(14724))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4954))
 // CS Name: ::LightSwitchEventEffect*
 class CORDL_TYPE LightSwitchEventEffect : public ::UnityEngine::MonoBehaviour {

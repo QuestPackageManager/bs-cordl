@@ -1,10 +1,10 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Collections/zzzz__CaseInsensitiveHashCodeProvider_def.hpp"
-#include "System/Globalization/zzzz__CultureInfo_def.hpp"
-#include "System/zzzz__Object_def.hpp"
-#include "System/Collections/zzzz__IHashCodeProvider_def.hpp"
 #include "System/Globalization/zzzz__CompareInfo_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+#include "System/Globalization/zzzz__CultureInfo_def.hpp"
+#include "System/Collections/zzzz__IHashCodeProvider_def.hpp"
 //  Writing Method size for method: ::System::Collections::CaseInsensitiveHashCodeProvider._ctor
 template <>
 

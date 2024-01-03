@@ -7,25 +7,25 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(XmlName)
 namespace System::Xml::Schema {
-class XmlSchemaSimpleType;
-}
-namespace System::Xml::Schema {
-class IXmlSchemaInfo;
-}
-namespace System::Xml::Schema {
-class XmlSchemaAttribute;
-}
-namespace System::Xml::Schema {
 class XmlSchemaType;
 }
 namespace System::Xml::Schema {
-class XmlSchemaElement;
+class XmlSchemaSimpleType;
+}
+namespace System::Xml::Schema {
+class XmlSchemaAttribute;
 }
 namespace System::Xml::Schema {
 struct XmlSchemaValidity;
 }
 namespace System::Xml {
 class XmlDocument;
+}
+namespace System::Xml::Schema {
+class IXmlSchemaInfo;
+}
+namespace System::Xml::Schema {
+class XmlSchemaElement;
 }
 // Forward declare root types
 namespace System::Xml {

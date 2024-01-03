@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "System/Collections/zzzz__CollectionBase_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(XmlSchemaObjectCollection)
-namespace System {
-class Object;
-}
 namespace System::Xml::Schema {
 class XmlSchemaObject;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::Xml::Schema {

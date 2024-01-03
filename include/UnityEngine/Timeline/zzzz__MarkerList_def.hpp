@@ -12,14 +12,11 @@ template <typename T> class IEnumerable_1;
 namespace UnityEngine {
 class ScriptableObject;
 }
-namespace UnityEngine::Timeline {
-class IMarker;
-}
-namespace UnityEngine {
-class ISerializationCallbackReceiver;
-}
 namespace System {
 class Type;
+}
+namespace UnityEngine::Timeline {
+class IMarker;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
@@ -29,6 +26,9 @@ class PlayableAsset;
 }
 namespace UnityEngine::Timeline {
 class TrackAsset;
+}
+namespace UnityEngine {
+class ISerializationCallbackReceiver;
 }
 namespace UnityEngine::Timeline {
 class TimelineAsset;

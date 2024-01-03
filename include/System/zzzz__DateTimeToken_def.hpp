@@ -8,10 +8,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(DateTimeToken)
 namespace System {
-struct __DateTimeParse__DTT;
+struct TokenType;
 }
 namespace System {
-struct TokenType;
+struct __DateTimeParse__DTT;
 }
 // Forward declare root types
 namespace System {
@@ -23,7 +23,7 @@ MARK_VAL_T(::System::DateTimeToken);
 // SizeInfo { instance_size: 12, native_size: 12, calculated_instance_size: 12, calculated_native_size: 28, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2401)), TypeDefinitionIndex(TypeDefinitionIndex(2387))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2387)), TypeDefinitionIndex(TypeDefinitionIndex(2401))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2395))
 // CS Name: ::System::DateTimeToken
 struct CORDL_TYPE DateTimeToken {

@@ -2,16 +2,16 @@
 #include "Tayx/Graphy/zzzz__GraphyManager_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "Tayx/Graphy/Fps/zzzz__G_FpsManager_def.hpp"
+#include "Tayx/Graphy/Fps/zzzz__G_FpsMonitor_def.hpp"
+#include "Tayx/Graphy/Fps/zzzz__G_FpsGraph_def.hpp"
+#include "UnityEngine/zzzz__GameObject_def.hpp"
+#include "Tayx/Graphy/zzzz__GraphyManager_def.hpp"
+#include "UnityEngine/zzzz__RectTransform_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "Tayx/Graphy/UI/zzzz__IMovable_def.hpp"
 #include "Tayx/Graphy/UI/zzzz__IModifiableState_def.hpp"
 #include "UnityEngine/UI/zzzz__Image_def.hpp"
-#include "Tayx/Graphy/zzzz__GraphyManager_def.hpp"
-#include "UnityEngine/zzzz__GameObject_def.hpp"
-#include "Tayx/Graphy/Fps/zzzz__G_FpsMonitor_def.hpp"
-#include "UnityEngine/zzzz__RectTransform_def.hpp"
 #include "Tayx/Graphy/Fps/zzzz__G_FpsText_def.hpp"
-#include "Tayx/Graphy/Fps/zzzz__G_FpsGraph_def.hpp"
+#include "Tayx/Graphy/UI/zzzz__IMovable_def.hpp"
 //  Writing Method size for method: ::Tayx::Graphy::Fps::G_FpsManager.Awake
 template <>
 

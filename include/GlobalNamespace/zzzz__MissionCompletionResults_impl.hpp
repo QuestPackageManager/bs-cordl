@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__MissionCompletionResults_def.hpp"
-#include "GlobalNamespace/zzzz__LevelCompletionResults_def.hpp"
 #include "GlobalNamespace/zzzz__MissionObjectiveResult_def.hpp"
+#include "GlobalNamespace/zzzz__LevelCompletionResults_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::MissionCompletionResults.get_IsMissionComplete
 template <>
 

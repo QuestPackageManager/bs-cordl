@@ -9,22 +9,25 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(GameplayModifiersModelSO)
 namespace GlobalNamespace {
-struct GameplayModifierMask;
-}
-namespace GlobalNamespace {
 class __GameplayModifiersModelSO__GameplayModifierBoolGetter;
+}
+namespace System {
+template <typename T, typename TResult> class Func_2;
 }
 namespace GlobalNamespace {
 class GameplayModifiers;
-}
-namespace GlobalNamespace {
-class GameplayModifierParamsSO;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace GlobalNamespace {
 class __GameplayModifiersModelSO____c;
+}
+namespace GlobalNamespace {
+struct GameplayModifierMask;
+}
+namespace GlobalNamespace {
+class GameplayModifierParamsSO;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
@@ -33,16 +36,13 @@ namespace GlobalNamespace {
 struct __GameplayModifiers__SongSpeed;
 }
 namespace System {
-template <typename T, typename TResult> class Func_2;
-}
-namespace System {
-class IAsyncResult;
+class AsyncCallback;
 }
 namespace System {
 class Object;
 }
 namespace System {
-class AsyncCallback;
+class IAsyncResult;
 }
 // Forward declare root types
 namespace GlobalNamespace {

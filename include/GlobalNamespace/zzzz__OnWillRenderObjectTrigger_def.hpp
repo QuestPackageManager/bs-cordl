@@ -6,16 +6,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(OnWillRenderObjectTrigger)
 namespace UnityEngine {
-class MeshRenderer;
+class Mesh;
 }
 namespace UnityEngine {
-class Mesh;
+class Shader;
 }
 namespace UnityEngine {
 class MeshFilter;
 }
 namespace UnityEngine {
-class Shader;
+class MeshRenderer;
 }
 namespace UnityEngine {
 class Material;

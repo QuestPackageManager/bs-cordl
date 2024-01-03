@@ -6,16 +6,16 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(EmptyPlatformAchievementsHandler)
 namespace GlobalNamespace {
-class __IPlatformAchievementsHandler__GetUnlockedAchievementsCompletionHandler;
-}
-namespace GlobalNamespace {
 class __IPlatformAchievementsHandler__UnlockAchievementCompletionHandler;
 }
 namespace GlobalNamespace {
-class HMAsyncRequest;
+class __IPlatformAchievementsHandler__GetUnlockedAchievementsCompletionHandler;
 }
 namespace GlobalNamespace {
 class IPlatformAchievementsHandler;
+}
+namespace GlobalNamespace {
+class HMAsyncRequest;
 }
 // Forward declare root types
 namespace GlobalNamespace {

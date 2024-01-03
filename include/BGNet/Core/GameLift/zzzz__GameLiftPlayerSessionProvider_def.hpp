@@ -21,20 +21,35 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(GameLiftPlayerSessionProvider)
+namespace GlobalNamespace {
+class XPlatformAuthFeatureFlag;
+}
 namespace BGNet::Core::GameLift {
-struct __GameLiftPlayerSessionProvider___PingRegionAsync_d__17;
+struct __GameLiftPlayerSessionProvider___GetGameLiftPlayerSessionInfo_d__14;
 }
 namespace GlobalNamespace {
 class GraphAPIClient;
 }
-namespace GlobalNamespace {
-class IPollable;
+namespace BGNet::Core::GameLift {
+class __GameLiftPlayerSessionProvider____c;
+}
+namespace BGNet::Core::GameLift {
+struct __GameLiftPlayerSessionProvider___PingAllAwsGameLiftRegions_d__15;
 }
 namespace GlobalNamespace {
-class INetworkConfig;
+class RollingAverage;
 }
 namespace GlobalNamespace {
 class IAuthenticationTokenProvider;
+}
+namespace GlobalNamespace {
+struct BeatmapLevelSelectionMask;
+}
+namespace System::Threading {
+struct CancellationToken;
+}
+namespace GlobalNamespace {
+class IPollable;
 }
 namespace BGNet::Core::GameLift {
 class PlayerSessionInfo;
@@ -42,41 +57,26 @@ class PlayerSessionInfo;
 namespace System::Threading::Tasks {
 template <typename TResult> class Task_1;
 }
-namespace GlobalNamespace {
-class RollingAverage;
+namespace BGNet::Core::GameLift {
+class IGameLiftPlayerSessionProvider;
 }
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace System {
-template <typename T1, typename T2> struct ValueTuple_2;
+namespace BGNet::Core::GameLift {
+struct __GameLiftPlayerSessionProvider___PingRegionAsync_d__17;
 }
 namespace GlobalNamespace {
 class XPlatformAccessTokenData;
 }
 namespace GlobalNamespace {
-struct BeatmapLevelSelectionMask;
-}
-namespace BGNet::Core::GameLift {
-class IGameLiftPlayerSessionProvider;
-}
-namespace GlobalNamespace {
-class XPlatformAuthFeatureFlag;
-}
-namespace BGNet::Core::GameLift {
-struct __GameLiftPlayerSessionProvider___GetGameLiftPlayerSessionInfo_d__14;
-}
-namespace System::Threading {
-struct CancellationToken;
-}
-namespace GlobalNamespace {
 struct GameplayServerConfiguration;
 }
-namespace BGNet::Core::GameLift {
-struct __GameLiftPlayerSessionProvider___PingAllAwsGameLiftRegions_d__15;
+namespace GlobalNamespace {
+class INetworkConfig;
 }
-namespace BGNet::Core::GameLift {
-class __GameLiftPlayerSessionProvider____c;
+namespace System {
+template <typename T1, typename T2> struct ValueTuple_2;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;
@@ -84,32 +84,32 @@ template <typename T, typename TResult> class Func_2;
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> struct KeyValuePair_2;
 }
+namespace GlobalNamespace {
+struct __AuthenticationToken__Platform;
+}
 namespace System::Runtime::CompilerServices {
-class IAsyncStateMachine;
+struct TaskAwaiter;
 }
 namespace BGNet::Core::GameLift {
 struct GetMultiplayerInstanceResponse;
 }
 namespace System::Runtime::CompilerServices {
-struct TaskAwaiter;
-}
-namespace System::Runtime::CompilerServices {
 template <typename TResult> struct AsyncTaskMethodBuilder_1;
-}
-namespace System::Runtime::CompilerServices {
-template <typename TResult> struct TaskAwaiter_1;
-}
-namespace GlobalNamespace {
-struct AuthenticationToken;
-}
-namespace GlobalNamespace {
-struct __AuthenticationToken__Platform;
 }
 namespace System::Diagnostics {
 class Stopwatch;
 }
+namespace System::Runtime::CompilerServices {
+class IAsyncStateMachine;
+}
+namespace System::Runtime::CompilerServices {
+template <typename TResult> struct TaskAwaiter_1;
+}
 namespace System {
 template <typename T> struct Nullable_1;
+}
+namespace GlobalNamespace {
+struct AuthenticationToken;
 }
 namespace System::Runtime::CompilerServices {
 struct AsyncVoidMethodBuilder;
@@ -140,13 +140,13 @@ MARK_VAL_T(::BGNet::Core::GameLift::__GameLiftPlayerSessionProvider___PingRegion
 // SizeInfo { instance_size: 336, native_size: -1, calculated_instance_size: 336, calculated_native_size: 352, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace BGNet::Core::GameLift {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2677)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 897 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(12682)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 902 }),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 4764 }), TypeDefinitionIndex(TypeDefinitionIndex(12681)), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(3394), inst: 876 }), TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(12686)), TypeDefinitionIndex(TypeDefinitionIndex(13011)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 95 }), TypeDefinitionIndex(TypeDefinitionIndex(12925)), TypeDefinitionIndex(TypeDefinitionIndex(12758)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 876 }), TypeDefinitionIndex(TypeDefinitionIndex(3393)), TypeDefinitionIndex(TypeDefinitionIndex(2448)),
-// TypeDefinitionIndex(TypeDefinitionIndex(13013))} Self: TypeDefinitionIndex(TypeDefinitionIndex(13005)) CS Name: ::GameLiftPlayerSessionProvider::<GetGameLiftPlayerSessionInfo>d__14
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12682)), TypeDefinitionIndex(TypeDefinitionIndex(13011)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst:
+// 4764 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 876 }), TypeDefinitionIndex(TypeDefinitionIndex(13013)), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(3394), inst: 876 }), TypeDefinitionIndex(TypeDefinitionIndex(12758)), TypeDefinitionIndex(TypeDefinitionIndex(3393)), TypeDefinitionIndex(TypeDefinitionIndex(12681)),
+// TypeDefinitionIndex(TypeDefinitionIndex(2448)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 95 }), TypeDefinitionIndex(TypeDefinitionIndex(12925)),
+// TypeDefinitionIndex(TypeDefinitionIndex(3394)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 897 }), TypeDefinitionIndex(TypeDefinitionIndex(2677)),
+// TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(12686)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 902 })} Self:
+// TypeDefinitionIndex(TypeDefinitionIndex(13005)) CS Name: ::GameLiftPlayerSessionProvider::<GetGameLiftPlayerSessionInfo>d__14
 struct CORDL_TYPE __GameLiftPlayerSessionProvider___GetGameLiftPlayerSessionInfo_d__14 {
 public:
   // Declarations
@@ -325,9 +325,9 @@ static_assert(offsetof(::BGNet::Core::GameLift::__GameLiftPlayerSessionProvider_
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace BGNet::Core::GameLift {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2507)), TypeDefinitionIndex(TypeDefinitionIndex(3400)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2507), inst: 601
-// }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 5060 }), TypeDefinitionIndex(TypeDefinitionIndex(3394))} Self: TypeDefinitionIndex(TypeDefinitionIndex(13006))
-// CS Name: ::GameLiftPlayerSessionProvider::<PingAllAwsGameLiftRegions>d__15
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(2507)), TypeDefinitionIndex(TypeDefinitionIndex(3400)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 5060 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2507), inst: 601 })} Self:
+// TypeDefinitionIndex(TypeDefinitionIndex(13006)) CS Name: ::GameLiftPlayerSessionProvider::<PingAllAwsGameLiftRegions>d__15
 struct CORDL_TYPE __GameLiftPlayerSessionProvider___PingAllAwsGameLiftRegions_d__15 {
 public:
   // Declarations
@@ -460,9 +460,10 @@ static_assert(::cordl_internals::size_check_v<::BGNet::Core::GameLift::__GameLif
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace BGNet::Core::GameLift {
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 333 }), TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation {
-// tdi: TypeDefinitionIndex(3402), inst: 869 }), TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(2507)), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(2507), inst: 601 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(13008)) CS Name: ::GameLiftPlayerSessionProvider::<PingRegionAsync>d__17
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3394)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 333 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2507), inst: 601 }), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(3402), inst: 869 }), TypeDefinitionIndex(TypeDefinitionIndex(2507))} Self: TypeDefinitionIndex(TypeDefinitionIndex(13008)) CS Name:
+// ::GameLiftPlayerSessionProvider::<PingRegionAsync>d__17
 struct CORDL_TYPE __GameLiftPlayerSessionProvider___PingRegionAsync_d__17 {
 public:
   // Declarations

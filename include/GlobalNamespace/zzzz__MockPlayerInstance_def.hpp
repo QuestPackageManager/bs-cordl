@@ -11,56 +11,56 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(MockPlayerInstance)
-namespace System::Threading {
-struct CancellationToken;
-}
 namespace GlobalNamespace {
-class MultiplayerSessionManager;
-}
-namespace System {
-template <typename TResult> class Func_1;
-}
-namespace GlobalNamespace {
-struct ConnectionFailedReason;
-}
-namespace GlobalNamespace {
-struct DisconnectedReason;
-}
-namespace GlobalNamespace {
-class IConnectionManager;
-}
-namespace GlobalNamespace {
-struct __MockPlayerInstance___Stop_d__21;
-}
-namespace BGNet::Core {
-class ITaskUtility;
-}
-namespace GlobalNamespace {
-struct __MockPlayerInstance___DisposeAsync_d__22;
+class IStandaloneMonobehavior;
 }
 namespace GlobalNamespace {
 class ConnectedPlayerManager;
+}
+namespace GlobalNamespace {
+struct __MockPlayerInstance___RunAsync_d__18;
+}
+namespace GlobalNamespace {
+class IStandaloneThreadRunner;
 }
 namespace System::Threading::Tasks {
 class Task;
 }
 namespace GlobalNamespace {
-class IStandaloneMonobehavior;
-}
-namespace System {
-class IDisposable;
-}
-namespace System::Threading {
-class CancellationTokenSource;
+class IMockBeatmapDataProvider;
 }
 namespace GlobalNamespace {
-template <typename T> class __MockPlayerInstance____c__DisplayClass17_0_1;
+struct ConnectionFailedReason;
+}
+namespace GlobalNamespace {
+class MultiplayerSessionManager;
 }
 namespace BGNet::Core {
 class ITimeProvider;
 }
 namespace GlobalNamespace {
-struct __MockPlayerInstance___RunAsync_d__18;
+class IConnectionManager;
+}
+namespace GlobalNamespace {
+struct DisconnectedReason;
+}
+namespace System::Threading {
+struct CancellationToken;
+}
+namespace GlobalNamespace {
+template <typename T> class __MockPlayerInstance____c__DisplayClass17_0_1;
+}
+namespace GlobalNamespace {
+struct __MockPlayerInstance___Stop_d__21;
+}
+namespace GlobalNamespace {
+struct __MockPlayerInstance___DisposeAsync_d__22;
+}
+namespace System {
+class IDisposable;
+}
+namespace BGNet::Core {
+class ITaskUtility;
 }
 namespace GlobalNamespace {
 class MockPlayerFiniteStateMachine;
@@ -68,11 +68,11 @@ class MockPlayerFiniteStateMachine;
 namespace GlobalNamespace {
 template <typename T> class IConnectionInitParams_1;
 }
-namespace GlobalNamespace {
-class IMockBeatmapDataProvider;
+namespace System {
+template <typename TResult> class Func_1;
 }
-namespace GlobalNamespace {
-class IStandaloneThreadRunner;
+namespace System::Threading {
+class CancellationTokenSource;
 }
 namespace System {
 class Action;
@@ -177,7 +177,7 @@ public:
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3393)), TypeDefinitionIndex(TypeDefinitionIndex(3401))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3401)), TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3393))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15518))
 // CS Name: ::MockPlayerInstance::<RunAsync>d__18
 struct CORDL_TYPE __MockPlayerInstance___RunAsync_d__18 {
@@ -247,7 +247,7 @@ static_assert(offsetof(::GlobalNamespace::__MockPlayerInstance___RunAsync_d__18,
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3400)), TypeDefinitionIndex(TypeDefinitionIndex(3393))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3393)), TypeDefinitionIndex(TypeDefinitionIndex(3400))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15519))
 // CS Name: ::MockPlayerInstance::<Stop>d__21
 struct CORDL_TYPE __MockPlayerInstance___Stop_d__21 {

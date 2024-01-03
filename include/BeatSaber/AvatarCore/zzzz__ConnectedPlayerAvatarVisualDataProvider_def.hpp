@@ -8,10 +8,10 @@ namespace BeatSaber::AvatarCore {
 class IAvatarVisualDataProvider;
 }
 namespace GlobalNamespace {
-struct MultiplayerAvatarsData;
+class IConnectedPlayer;
 }
 namespace GlobalNamespace {
-class IConnectedPlayer;
+struct MultiplayerAvatarsData;
 }
 // Forward declare root types
 namespace BeatSaber::AvatarCore {

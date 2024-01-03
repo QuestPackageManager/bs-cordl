@@ -9,41 +9,26 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(PSVR2Helper)
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace UnityEngine::XR {
+struct XRNode;
 }
-namespace UnityEngine::InputSystem {
-struct InputDeviceChange;
-}
-namespace GlobalNamespace {
-struct VRPlatformSDK;
-}
-namespace GlobalNamespace {
-class UnityXRController;
-}
-namespace GlobalNamespace {
-class __UnityXRController__Configuration;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace UnityEngine {
-struct Vector3;
-}
-namespace GlobalNamespace {
-struct __PSVR2Helper__HeadsetHapticFrequencyLimit;
-}
-namespace UnityEngine::InputSystem {
-class InputDevice;
-}
-namespace UnityEngine {
-struct Pose;
+namespace System {
+class Action;
 }
 namespace GlobalNamespace {
 class IVRPlatformHelper;
 }
-namespace System {
-class Action;
+namespace UnityEngine {
+struct Pose;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace UnityEngine::InputSystem::XR {
+class XRControllerWithRumble;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 namespace UnityEngine {
 struct Quaternion;
@@ -51,11 +36,26 @@ struct Quaternion;
 namespace UnityEngine {
 struct Vector2;
 }
-namespace UnityEngine::InputSystem::XR {
-class XRControllerWithRumble;
+namespace GlobalNamespace {
+struct VRPlatformSDK;
 }
-namespace UnityEngine::XR {
-struct XRNode;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace UnityEngine::InputSystem {
+class InputDevice;
+}
+namespace GlobalNamespace {
+class UnityXRController;
+}
+namespace GlobalNamespace {
+class __UnityXRController__Configuration;
+}
+namespace GlobalNamespace {
+struct __PSVR2Helper__HeadsetHapticFrequencyLimit;
+}
+namespace UnityEngine::InputSystem {
+struct InputDeviceChange;
 }
 // Forward declare root types
 namespace GlobalNamespace {

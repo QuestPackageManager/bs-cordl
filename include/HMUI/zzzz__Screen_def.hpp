@@ -9,25 +9,25 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Screen)
 namespace HMUI {
-class __Screen___TransitionCoroutine_d__5;
-}
-namespace HMUI {
-class ViewController;
-}
-namespace HMUI {
 struct __ViewController__AnimationType;
 }
 namespace System::Collections {
 class IEnumerator;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
+namespace HMUI {
+class ViewController;
+}
+namespace HMUI {
+class __Screen___TransitionCoroutine_d__5;
+}
+namespace System {
+class Object;
 }
 namespace System {
 class IDisposable;
 }
-namespace System {
-class Object;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
 }
 // Forward declare root types
 namespace HMUI {

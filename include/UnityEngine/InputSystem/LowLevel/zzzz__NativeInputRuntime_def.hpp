@@ -7,29 +7,20 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(NativeInputRuntime)
-namespace System {
-template <typename T1, typename T2> class Action_2;
+namespace UnityEngine::InputSystem::LowLevel {
+class InputUpdateDelegate;
 }
 namespace UnityEngine::InputSystem::LowLevel {
-struct InputUpdateType;
-}
-namespace System {
-class Action;
-}
-namespace UnityEngine {
-struct ScreenOrientation;
+class __NativeInputRuntime____c__DisplayClass10_0;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;
 }
 namespace System {
-template <typename T> class Action_1;
+class Action;
 }
 namespace UnityEngine::InputSystem::LowLevel {
-struct InputDeviceCommand;
-}
-namespace UnityEngine::InputSystem::LowLevel {
-class __NativeInputRuntime____c__DisplayClass13_0;
+struct InputUpdateType;
 }
 namespace System {
 class Object;
@@ -37,20 +28,29 @@ class Object;
 namespace UnityEngine::InputSystem::LowLevel {
 struct InputEvent;
 }
-namespace UnityEngine::InputSystem::LowLevel {
-class InputUpdateDelegate;
+namespace UnityEngine {
+struct Vector2;
+}
+namespace System {
+template <typename T1, typename T2> class Action_2;
+}
+namespace UnityEngine {
+struct ScreenOrientation;
+}
+namespace System {
+template <typename T> class Action_1;
 }
 namespace UnityEngine::InputSystem::LowLevel {
 class IInputRuntime;
 }
 namespace UnityEngine::InputSystem::LowLevel {
-class __NativeInputRuntime____c__DisplayClass7_0;
+struct InputDeviceCommand;
 }
 namespace UnityEngine::InputSystem::LowLevel {
-class __NativeInputRuntime____c__DisplayClass10_0;
+class __NativeInputRuntime____c__DisplayClass13_0;
 }
-namespace UnityEngine {
-struct Vector2;
+namespace UnityEngine::InputSystem::LowLevel {
+class __NativeInputRuntime____c__DisplayClass7_0;
 }
 namespace UnityEngineInternal::Input {
 struct NativeInputUpdateType;

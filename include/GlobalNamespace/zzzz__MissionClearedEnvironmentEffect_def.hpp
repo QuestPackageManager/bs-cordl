@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(MissionClearedEnvironmentEffect)
 namespace GlobalNamespace {
-class MissionObjectiveCheckersManager;
+class BeatmapCallbacksController;
 }
 namespace GlobalNamespace {
-class BeatmapCallbacksController;
+class MissionObjectiveCheckersManager;
 }
 // Forward declare root types
 namespace GlobalNamespace {

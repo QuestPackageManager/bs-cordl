@@ -16,38 +16,20 @@ CORDL_MODULE_EXPORT(XmlWellFormedWriter)
 namespace System {
 class Object;
 }
-namespace System::Xml {
-class SecureStringHasher;
-}
-namespace System::Xml {
-class XmlRawWriter;
-}
-namespace System::Xml {
-struct __XmlWellFormedWriter__AttrName;
-}
-namespace System::Xml {
-class XmlException;
-}
-namespace System::Xml {
-struct __XmlWellFormedWriter__NamespaceKind;
-}
-namespace System::Xml {
-class XmlWriter;
+namespace System {
+class Exception;
 }
 namespace System::Xml {
 struct __XmlWellFormedWriter__Namespace;
 }
 namespace System::Xml {
-class __XmlWellFormedWriter__NamespaceResolverProxy;
+struct __XmlWellFormedWriter__Token;
 }
 namespace System::Xml {
-struct __XmlWellFormedWriter__ElementScope;
-}
-namespace System {
-class Exception;
+struct __XmlWellFormedWriter__AttrName;
 }
 namespace System::Xml {
-struct __XmlWellFormedWriter__SpecialAttribute;
+class XmlWriter;
 }
 namespace System::Xml {
 struct XmlStandalone;
@@ -56,34 +38,52 @@ namespace System::Xml {
 struct WriteState;
 }
 namespace System::Xml {
+struct __XmlWellFormedWriter__NamespaceKind;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace System::Xml {
 class IXmlNamespaceResolver;
 }
 namespace System::Xml {
-struct __XmlWellFormedWriter__Token;
-}
-namespace System::Xml {
-struct __XmlWellFormedWriter__State;
+struct __XmlWellFormedWriter__SpecialAttribute;
 }
 namespace System::Xml {
 class __XmlWellFormedWriter__AttributeValueCache;
 }
 namespace System::Xml {
+class XmlException;
+}
+namespace System::Xml {
+struct __XmlWellFormedWriter__ElementScope;
+}
+namespace System::Xml {
+struct __XmlWellFormedWriter__State;
+}
+namespace System::Xml {
+class __XmlWellFormedWriter__NamespaceResolverProxy;
+}
+namespace System::Xml {
+class XmlRawWriter;
+}
+namespace System::Xml {
 class XmlWriterSettings;
 }
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
+namespace System::Xml {
+class SecureStringHasher;
 }
 namespace System::Text {
 class StringBuilder;
 }
 namespace GlobalNamespace {
-class __XmlWellFormedWriter__AttributeValueCache__BufferChunk;
+struct __XmlWellFormedWriter__AttributeValueCache__ItemType;
 }
 namespace GlobalNamespace {
 class __XmlWellFormedWriter__AttributeValueCache__Item;
 }
 namespace GlobalNamespace {
-struct __XmlWellFormedWriter__AttributeValueCache__ItemType;
+class __XmlWellFormedWriter__AttributeValueCache__BufferChunk;
 }
 namespace System::Xml {
 struct XmlSpace;
@@ -1154,8 +1154,8 @@ static_assert(offsetof(::System::Xml::__XmlWellFormedWriter__AttributeValueCache
 // SizeInfo { instance_size: 176, native_size: -1, calculated_instance_size: 176, calculated_native_size: 176, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11477)), TypeDefinitionIndex(TypeDefinitionIndex(11484)), TypeDefinitionIndex(TypeDefinitionIndex(11491)),
-// TypeDefinitionIndex(TypeDefinitionIndex(11413)), TypeDefinitionIndex(TypeDefinitionIndex(11544))} Self: TypeDefinitionIndex(TypeDefinitionIndex(11489)) CS Name: ::System.Xml::XmlWellFormedWriter*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11544)), TypeDefinitionIndex(TypeDefinitionIndex(11413)), TypeDefinitionIndex(TypeDefinitionIndex(11484)),
+// TypeDefinitionIndex(TypeDefinitionIndex(11491)), TypeDefinitionIndex(TypeDefinitionIndex(11477))} Self: TypeDefinitionIndex(TypeDefinitionIndex(11489)) CS Name: ::System.Xml::XmlWellFormedWriter*
 class CORDL_TYPE XmlWellFormedWriter : public ::System::Xml::XmlWriter {
 public:
   // Declarations

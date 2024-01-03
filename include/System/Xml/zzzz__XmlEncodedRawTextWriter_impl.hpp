@@ -5,13 +5,13 @@
 #include "System/Xml/zzzz__XmlRawWriter_impl.hpp"
 #include "System/Xml/zzzz__XmlStandalone_impl.hpp"
 #include "System/Xml/zzzz__XmlEncodedRawTextWriter_def.hpp"
-#include "System/Xml/zzzz__XmlStandalone_def.hpp"
-#include "System/Xml/zzzz__CharEntityEncoderFallback_def.hpp"
 #include "System/Text/zzzz__Encoder_def.hpp"
-#include "System/Text/zzzz__Encoding_def.hpp"
-#include "System/IO/zzzz__Stream_def.hpp"
 #include "System/IO/zzzz__TextWriter_def.hpp"
+#include "System/IO/zzzz__Stream_def.hpp"
 #include "System/Xml/zzzz__XmlWriterSettings_def.hpp"
+#include "System/Text/zzzz__Encoding_def.hpp"
+#include "System/Xml/zzzz__CharEntityEncoderFallback_def.hpp"
+#include "System/Xml/zzzz__XmlStandalone_def.hpp"
 //  Writing Method size for method: ::System::Xml::XmlEncodedRawTextWriter._ctor
 template <>
 

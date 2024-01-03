@@ -9,6 +9,15 @@ namespace UnityEngine::UIElements {
 struct Rotate;
 }
 namespace UnityEngine::UIElements {
+template <typename T> class IStyleValue_1;
+}
+namespace UnityEngine::UIElements {
+struct StyleKeyword;
+}
+namespace UnityEngine::Yoga {
+struct YogaValue;
+}
+namespace UnityEngine::UIElements {
 struct StyleLength;
 }
 namespace UnityEngine::UIElements {
@@ -21,16 +30,7 @@ namespace UnityEngine::UIElements {
 struct Length;
 }
 namespace UnityEngine::UIElements {
-template <typename T> class IStyleValue_1;
-}
-namespace UnityEngine::Yoga {
-struct YogaValue;
-}
-namespace UnityEngine::UIElements {
 struct Translate;
-}
-namespace UnityEngine::UIElements {
-struct StyleKeyword;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(MeshTransform)
 namespace UnityEngine::ProBuilder {
-class ProBuilderMesh;
+struct PivotLocation;
 }
 namespace UnityEngine::ProBuilder {
-struct PivotLocation;
+class ProBuilderMesh;
 }
 namespace UnityEngine {
 struct Vector3;

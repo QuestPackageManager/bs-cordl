@@ -1,9 +1,9 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__MissionNodeVisualController_def.hpp"
+#include "GlobalNamespace/zzzz__MissionToggle_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
 #include "GlobalNamespace/zzzz__MissionNode_def.hpp"
-#include "GlobalNamespace/zzzz__MissionToggle_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::MissionNodeVisualController.add_nodeWasSelectEvent
 template <>
 

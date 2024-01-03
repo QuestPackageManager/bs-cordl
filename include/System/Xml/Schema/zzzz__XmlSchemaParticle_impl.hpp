@@ -3,9 +3,9 @@
 #include "System/Xml/Schema/zzzz__XmlSchemaParticle_impl.hpp"
 #include "System/zzzz__Decimal_impl.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaParticle_def.hpp"
-#include "System/zzzz__Decimal_def.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaParticle_EmptyParticle_def.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaParticle_def.hpp"
+#include "System/zzzz__Decimal_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::System::Xml::Schema::__XmlSchemaParticle__Occurs::__XmlSchemaParticle__Occurs(int32_t value__) noexcept {
   this->value__ = value__;

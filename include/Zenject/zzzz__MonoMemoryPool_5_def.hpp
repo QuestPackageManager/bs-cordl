@@ -8,11 +8,11 @@ CORDL_MODULE_EXPORT(MonoMemoryPool_5)
 namespace System {
 class Object;
 }
-namespace UnityEngine {
-class Transform;
-}
 namespace Zenject {
 class InjectTypeInfo;
+}
+namespace UnityEngine {
+class Transform;
 }
 // Forward declare root types
 namespace Zenject {

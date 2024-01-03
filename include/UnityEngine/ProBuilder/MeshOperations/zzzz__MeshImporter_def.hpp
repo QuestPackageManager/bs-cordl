@@ -5,32 +5,32 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(MeshImporter)
-namespace UnityEngine {
-class Mesh;
+namespace UnityEngine::ProBuilder {
+class ProBuilderMesh;
+}
+namespace UnityEngine::ProBuilder::MeshOperations {
+class MeshImportSettings;
 }
 namespace UnityEngine {
-class GameObject;
+class Material;
+}
+namespace UnityEngine {
+class Mesh;
 }
 namespace UnityEngine::ProBuilder::MeshOperations {
 class __MeshImporter____c;
 }
 namespace UnityEngine::ProBuilder {
-class ProBuilderMesh;
-}
-namespace UnityEngine {
-class Material;
-}
-namespace UnityEngine::ProBuilder {
 class Vertex;
 }
-namespace UnityEngine::ProBuilder::MeshOperations {
-class MeshImportSettings;
-}
-namespace System {
-template <typename T, typename TResult> class Func_2;
+namespace UnityEngine {
+class GameObject;
 }
 namespace UnityEngine {
 struct Vector3;
+}
+namespace System {
+template <typename T, typename TResult> class Func_2;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder::MeshOperations {

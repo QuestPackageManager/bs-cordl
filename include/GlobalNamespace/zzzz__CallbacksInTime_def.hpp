@@ -7,28 +7,28 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(CallbacksInTime)
 namespace System::Collections::Generic {
+template <typename T> class LinkedListNode_1;
+}
+namespace System::Collections::Generic {
 template <typename T> class List_1;
+}
+namespace GlobalNamespace {
+class BeatmapDataItem;
+}
+namespace GlobalNamespace {
+class BeatmapEventData;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace System {
 class Type;
 }
 namespace GlobalNamespace {
-class BeatmapDataItem;
+class BeatmapDataCallbackWrapper;
 }
 namespace System {
 template <typename T1, typename T2> struct ValueTuple_2;
-}
-namespace GlobalNamespace {
-class BeatmapDataCallbackWrapper;
-}
-namespace System::Collections::Generic {
-template <typename T> class LinkedListNode_1;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace GlobalNamespace {
-class BeatmapEventData;
 }
 // Forward declare root types
 namespace GlobalNamespace {

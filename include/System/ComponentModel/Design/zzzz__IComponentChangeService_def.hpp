@@ -3,11 +3,11 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IComponentChangeService)
-namespace System {
-class Object;
-}
 namespace System::ComponentModel {
 class MemberDescriptor;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::ComponentModel::Design {

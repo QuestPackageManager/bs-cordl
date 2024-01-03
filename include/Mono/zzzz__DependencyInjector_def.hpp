@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(DependencyInjector)
-namespace Mono {
-class ISystemDependencyProvider;
-}
 namespace System {
 class Object;
+}
+namespace Mono {
+class ISystemDependencyProvider;
 }
 // Forward declare root types
 namespace Mono {

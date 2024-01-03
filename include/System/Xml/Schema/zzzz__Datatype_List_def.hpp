@@ -11,34 +11,34 @@ namespace System::Xml {
 class XmlNameTable;
 }
 namespace System::Xml::Schema {
+struct XmlTypeCode;
+}
+namespace System {
+class Type;
+}
+namespace System {
+class Exception;
+}
+namespace System::Xml::Schema {
 class DatatypeImplementation;
 }
 namespace System::Xml::Schema {
 class FacetsChecker;
 }
-namespace System::Xml::Schema {
-class XmlValueConverter;
-}
-namespace System::Xml::Schema {
-struct XmlTypeCode;
-}
 namespace System {
 class Object;
-}
-namespace System::Xml::Schema {
-class XmlSchemaType;
-}
-namespace System::Xml {
-class IXmlNamespaceResolver;
-}
-namespace System {
-class Exception;
 }
 namespace System::Xml {
 struct XmlTokenizedType;
 }
-namespace System {
-class Type;
+namespace System::Xml::Schema {
+class XmlValueConverter;
+}
+namespace System::Xml {
+class IXmlNamespaceResolver;
+}
+namespace System::Xml::Schema {
+class XmlSchemaType;
 }
 // Forward declare root types
 namespace System::Xml::Schema {

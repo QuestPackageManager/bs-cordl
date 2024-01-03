@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "RootMotion/zzzz__BakerMuscle_def.hpp"
-#include "UnityEngine/zzzz__AnimationClip_def.hpp"
 #include "UnityEngine/zzzz__AnimationCurve_def.hpp"
+#include "UnityEngine/zzzz__AnimationClip_def.hpp"
 //  Writing Method size for method: ::RootMotion::BakerMuscle._ctor
 template <>
 

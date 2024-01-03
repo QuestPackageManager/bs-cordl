@@ -8,13 +8,13 @@ namespace GlobalNamespace {
 class StandardScoreSyncStateNetSerializable;
 }
 namespace GlobalNamespace {
+struct StandardScoreSyncState;
+}
+namespace GlobalNamespace {
 struct __StandardScoreSyncState__Score;
 }
 namespace GlobalNamespace {
 class StandardScoreSyncStateDeltaNetSerializable;
-}
-namespace GlobalNamespace {
-struct StandardScoreSyncState;
 }
 namespace GlobalNamespace {
 template <typename TStateTable, typename TType, typename TState, typename TSerializable, typename TDeltaSerializable> class IScoreSyncStateManager_5;

@@ -10,17 +10,17 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(CVRChaperoneSetup)
-namespace OVR::OpenVR {
-struct HmdMatrix34_t;
-}
-namespace OVR::OpenVR {
-struct HmdQuad_t;
-}
 namespace System::Text {
 class StringBuilder;
 }
 namespace OVR::OpenVR {
 struct EChaperoneConfigFile;
+}
+namespace OVR::OpenVR {
+struct HmdQuad_t;
+}
+namespace OVR::OpenVR {
+struct HmdMatrix34_t;
 }
 // Forward declare root types
 namespace OVR::OpenVR {
@@ -32,7 +32,7 @@ MARK_REF_PTR_T(::OVR::OpenVR::CVRChaperoneSetup);
 // SizeInfo { instance_size: 176, native_size: -1, calculated_instance_size: 176, calculated_native_size: 176, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8343)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8343))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8563))
 // CS Name: ::OVR.OpenVR::CVRChaperoneSetup*
 class CORDL_TYPE CVRChaperoneSetup : public ::System::Object {

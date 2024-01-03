@@ -10,14 +10,14 @@ CORDL_MODULE_EXPORT(ScoreMultiplierUIController)
 namespace UnityEngine::UI {
 class Image;
 }
+namespace UnityEngine {
+class Animator;
+}
 namespace GlobalNamespace {
 class IScoreController;
 }
 namespace TMPro {
 class TextMeshProUGUI;
-}
-namespace UnityEngine {
-class Animator;
 }
 // Forward declare root types
 namespace GlobalNamespace {

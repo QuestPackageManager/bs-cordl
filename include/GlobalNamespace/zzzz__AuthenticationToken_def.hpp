@@ -9,16 +9,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(AuthenticationToken)
 namespace LiteNetLib::Utils {
-template <typename T> class INetImmutableSerializable_1;
-}
-namespace LiteNetLib::Utils {
-class NetDataWriter;
-}
-namespace LiteNetLib::Utils {
 class NetDataReader;
 }
 namespace GlobalNamespace {
 struct __AuthenticationToken__Platform;
+}
+namespace LiteNetLib::Utils {
+template <typename T> class INetImmutableSerializable_1;
+}
+namespace LiteNetLib::Utils {
+class NetDataWriter;
 }
 // Forward declare root types
 namespace GlobalNamespace {

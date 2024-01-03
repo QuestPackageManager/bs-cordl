@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(TransformExtensions)
 namespace UnityEngine {
-class Transform;
+struct Quaternion;
 }
 namespace UnityEngine {
-struct Quaternion;
+class Transform;
 }
 // Forward declare root types
 namespace GlobalNamespace {

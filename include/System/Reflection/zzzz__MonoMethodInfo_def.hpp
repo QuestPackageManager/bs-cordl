@@ -11,28 +11,28 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(MonoMethodInfo)
 namespace System::Reflection {
-class RuntimeMethodInfo;
+struct MethodAttributes;
 }
 namespace System::Runtime::InteropServices {
 class MarshalAsAttribute;
-}
-namespace System::Reflection {
-class ParameterInfo;
-}
-namespace System::Reflection {
-struct MethodAttributes;
 }
 namespace System {
 class Type;
 }
 namespace System::Reflection {
-struct CallingConventions;
-}
-namespace System::Reflection {
 class MemberInfo;
 }
 namespace System::Reflection {
+class RuntimeMethodInfo;
+}
+namespace System::Reflection {
 struct MethodImplAttributes;
+}
+namespace System::Reflection {
+struct CallingConventions;
+}
+namespace System::Reflection {
+class ParameterInfo;
 }
 // Forward declare root types
 namespace System::Reflection {
@@ -44,7 +44,7 @@ MARK_VAL_T(::System::Reflection::MonoMethodInfo);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Reflection {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3478)), TypeDefinitionIndex(TypeDefinitionIndex(3460)), TypeDefinitionIndex(TypeDefinitionIndex(3476))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3476)), TypeDefinitionIndex(TypeDefinitionIndex(3478)), TypeDefinitionIndex(TypeDefinitionIndex(3460))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3522))
 // CS Name: ::System.Reflection::MonoMethodInfo
 struct CORDL_TYPE MonoMethodInfo {

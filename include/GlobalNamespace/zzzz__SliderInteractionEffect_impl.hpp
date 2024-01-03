@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__SliderInteractionEffect_def.hpp"
-#include "GlobalNamespace/zzzz__ColorType_def.hpp"
 #include "GlobalNamespace/zzzz__SliderInteractionManager_def.hpp"
+#include "GlobalNamespace/zzzz__ColorType_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::SliderInteractionEffect.get_saberInteractionParam
 template <>
 

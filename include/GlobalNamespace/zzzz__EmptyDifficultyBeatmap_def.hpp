@@ -13,41 +13,41 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(EmptyDifficultyBeatmap)
-namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
-}
 namespace GlobalNamespace {
-class EnvironmentInfoSO;
+class IBeatmapLevel;
 }
 namespace GlobalNamespace {
 struct BeatmapDifficulty;
 }
 namespace GlobalNamespace {
-struct __EmptyDifficultyBeatmap___GetBeatmapDataBasicInfoAsync_d__23;
+class IDifficultyBeatmapSet;
 }
 namespace GlobalNamespace {
-class IDifficultyBeatmapSet;
+class IReadonlyBeatmapData;
 }
 namespace GlobalNamespace {
 class BeatmapData;
 }
 namespace GlobalNamespace {
-class PlayerSpecificSettings;
-}
-namespace GlobalNamespace {
-class IBeatmapDataBasicInfo;
+struct __EmptyDifficultyBeatmap___GetBeatmapDataAsync_d__24;
 }
 namespace GlobalNamespace {
 class IDifficultyBeatmap;
 }
 namespace GlobalNamespace {
-class IBeatmapLevel;
+struct __EmptyDifficultyBeatmap___GetBeatmapDataBasicInfoAsync_d__23;
 }
 namespace GlobalNamespace {
-struct __EmptyDifficultyBeatmap___GetBeatmapDataAsync_d__24;
+class EnvironmentInfoSO;
+}
+namespace System::Threading::Tasks {
+template <typename TResult> class Task_1;
 }
 namespace GlobalNamespace {
-class IReadonlyBeatmapData;
+class IBeatmapDataBasicInfo;
+}
+namespace GlobalNamespace {
+class PlayerSpecificSettings;
 }
 namespace System::Runtime::CompilerServices {
 template <typename TResult> struct AsyncTaskMethodBuilder_1;
@@ -76,9 +76,9 @@ MARK_VAL_T(::GlobalNamespace::__EmptyDifficultyBeatmap___GetBeatmapDataBasicInfo
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 5066 }), TypeDefinitionIndex(TypeDefinitionIndex(4258)),
-// TypeDefinitionIndex(TypeDefinitionIndex(4245)), TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 886 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(3394))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4388)) CS Name: ::EmptyDifficultyBeatmap::<GetBeatmapDataBasicInfoAsync>d__23
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4258)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 5066 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 886 }), TypeDefinitionIndex(TypeDefinitionIndex(3394)),
+// TypeDefinitionIndex(TypeDefinitionIndex(4245))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4388)) CS Name: ::EmptyDifficultyBeatmap::<GetBeatmapDataBasicInfoAsync>d__23
 struct CORDL_TYPE __EmptyDifficultyBeatmap___GetBeatmapDataBasicInfoAsync_d__23 {
 public:
   // Declarations
@@ -137,9 +137,9 @@ static_assert(offsetof(::GlobalNamespace::__EmptyDifficultyBeatmap___GetBeatmapD
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 890 }), TypeDefinitionIndex(TypeDefinitionIndex(4260)), GenericInstantiation(GenericInstantiation {
-// tdi: TypeDefinitionIndex(3394), inst: 890 }), TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(3394))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4389)) CS
-// Name: ::EmptyDifficultyBeatmap::<GetBeatmapDataAsync>d__24
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(4260)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 890 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 890 })} Self:
+// TypeDefinitionIndex(TypeDefinitionIndex(4389)) CS Name: ::EmptyDifficultyBeatmap::<GetBeatmapDataAsync>d__24
 struct CORDL_TYPE __EmptyDifficultyBeatmap___GetBeatmapDataAsync_d__24 {
 public:
   // Declarations

@@ -7,11 +7,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(PerformanceReport)
-namespace System {
-struct DateTime;
-}
 namespace GlobalNamespace {
 class GameplayCoreSceneSetupData;
+}
+namespace System {
+struct DateTime;
 }
 // Forward declare root types
 namespace GlobalNamespace {

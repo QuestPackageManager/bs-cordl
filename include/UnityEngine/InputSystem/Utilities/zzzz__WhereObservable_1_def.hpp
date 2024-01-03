@@ -4,8 +4,11 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(WhereObservable_1)
+namespace UnityEngine::InputSystem::Utilities {
+template <typename TValue> class __WhereObservable_1__Where;
+}
 namespace System {
-template <typename T> class IObserver_1;
+template <typename T, typename TResult> class Func_2;
 }
 namespace System {
 template <typename T> class IObservable_1;
@@ -13,11 +16,8 @@ template <typename T> class IObservable_1;
 namespace System {
 class IDisposable;
 }
-namespace UnityEngine::InputSystem::Utilities {
-template <typename TValue> class __WhereObservable_1__Where;
-}
 namespace System {
-template <typename T, typename TResult> class Func_2;
+template <typename T> class IObserver_1;
 }
 namespace System {
 class Exception;

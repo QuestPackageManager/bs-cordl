@@ -11,11 +11,11 @@ class BigInteger;
 namespace Org::BouncyCastle::Crypto {
 class IBasicAgreement;
 }
-namespace Org::BouncyCastle::Crypto::Parameters {
-class ECPrivateKeyParameters;
-}
 namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;
+}
+namespace Org::BouncyCastle::Crypto::Parameters {
+class ECPrivateKeyParameters;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Agreement {

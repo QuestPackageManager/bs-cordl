@@ -13,14 +13,14 @@ template <typename T> class Action_1;
 namespace HMUI {
 class DropdownWithTableView;
 }
-namespace GlobalNamespace {
-class BeatmapCharacteristicCollection;
+namespace HMUI {
+class SimpleTextDropdown;
 }
 namespace GlobalNamespace {
 class __BeatmapCharacteristicsDropdown____c;
 }
-namespace HMUI {
-class SimpleTextDropdown;
+namespace GlobalNamespace {
+class BeatmapCharacteristicCollection;
 }
 namespace GlobalNamespace {
 class BeatmapCharacteristicSO;

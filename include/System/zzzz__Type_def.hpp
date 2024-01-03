@@ -11,16 +11,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Type)
 namespace System::Reflection {
-class MethodInfo;
-}
-namespace System {
-struct Guid;
+struct BindingFlags;
 }
 namespace System::Reflection {
-class MemberFilter;
+class Assembly;
 }
-namespace System::Globalization {
-class CultureInfo;
+namespace System::Reflection {
+class Module;
+}
+namespace System::Reflection {
+struct GenericParameterAttributes;
 }
 namespace System::Reflection {
 class AssemblyName;
@@ -28,65 +28,65 @@ class AssemblyName;
 namespace System {
 template <typename T, typename TResult> class Func_2;
 }
-namespace System {
-struct TypeCode;
-}
 namespace System::Reflection {
-class Binder;
-}
-namespace System {
-struct RuntimeTypeHandle;
-}
-namespace System::Reflection {
-class Assembly;
-}
-namespace System::Reflection {
-class MethodBase;
-}
-namespace System::Reflection {
-class EventInfo;
-}
-namespace System::Reflection {
-class ConstructorInfo;
-}
-namespace System {
-template <typename T1, typename T2, typename T3, typename TResult> class Func_4;
-}
-namespace System::Reflection {
-struct TypeAttributes;
+class PropertyInfo;
 }
 namespace System {
 class Array;
 }
 namespace System::Reflection {
-struct ParameterModifier;
+class EventInfo;
 }
 namespace System::Reflection {
-struct MemberTypes;
-}
-namespace System::Reflection {
-class Module;
-}
-namespace System::Reflection {
-struct BindingFlags;
-}
-namespace System::Reflection {
-struct CallingConventions;
+class MethodBase;
 }
 namespace System {
-class Object;
+struct Guid;
 }
 namespace System::Reflection {
-class FieldInfo;
+class MethodInfo;
+}
+namespace System {
+template <typename T1, typename T2, typename T3, typename TResult> class Func_4;
 }
 namespace System::Reflection {
-class PropertyInfo;
+class MemberFilter;
 }
 namespace System::Reflection {
 class MemberInfo;
 }
 namespace System::Reflection {
-struct GenericParameterAttributes;
+struct ParameterModifier;
+}
+namespace System::Reflection {
+class Binder;
+}
+namespace System::Reflection {
+class FieldInfo;
+}
+namespace System::Reflection {
+class ConstructorInfo;
+}
+namespace System::Reflection {
+struct MemberTypes;
+}
+namespace System::Reflection {
+struct CallingConventions;
+}
+namespace System {
+struct TypeCode;
+}
+namespace System::Globalization {
+class CultureInfo;
+}
+namespace System {
+struct RuntimeTypeHandle;
+}
+namespace System {
+class Object;
+}
+namespace System::Reflection {
+struct TypeAttributes;
 }
 // Forward declare root types
 namespace System {
@@ -98,7 +98,7 @@ MARK_REF_PTR_T(::System::Type);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3474)), TypeDefinitionIndex(TypeDefinitionIndex(2618)), TypeDefinitionIndex(TypeDefinitionIndex(3459))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2618)), TypeDefinitionIndex(TypeDefinitionIndex(3474)), TypeDefinitionIndex(TypeDefinitionIndex(3459))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2494))
 // CS Name: ::System::Type*
 class CORDL_TYPE Type : public ::System::Reflection::MemberInfo {

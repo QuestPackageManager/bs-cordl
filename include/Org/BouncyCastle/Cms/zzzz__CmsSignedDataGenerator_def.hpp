@@ -8,14 +8,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(CmsSignedDataGenerator)
-namespace Org::BouncyCastle::Cms {
-class CmsSignedHelper;
+namespace System::Collections {
+class IList;
 }
 namespace Org::BouncyCastle::Cms {
-class CmsSignedData;
-}
-namespace Org::BouncyCastle::Cms {
-class SignerInformationStore;
+class SignerInfoGenerator;
 }
 namespace Org::BouncyCastle::Asn1::Cms {
 class SignerIdentifier;
@@ -23,47 +20,50 @@ class SignerIdentifier;
 namespace Org::BouncyCastle::Asn1::Cms {
 class AttributeTable;
 }
-namespace Org::BouncyCastle::Crypto {
-class AsymmetricKeyParameter;
-}
-namespace Org::BouncyCastle::X509 {
-class X509Certificate;
-}
-namespace Org::BouncyCastle::Cms {
-class CmsAttributeTableGenerator;
-}
-namespace Org::BouncyCastle::Cms {
-class __CmsSignedDataGenerator__SignerInf;
-}
-namespace Org::BouncyCastle::Cms {
-class SignerInfoGenerator;
-}
 namespace Org::BouncyCastle::Cms {
 class CmsProcessable;
 }
 namespace Org::BouncyCastle::Cms {
 class SignerInformation;
 }
-namespace System::Collections {
-class IList;
+namespace Org::BouncyCastle::Cms {
+class SignerInformationStore;
+}
+namespace Org::BouncyCastle::Cms {
+class CmsSignedData;
+}
+namespace Org::BouncyCastle::Cms {
+class CmsAttributeTableGenerator;
+}
+namespace Org::BouncyCastle::Cms {
+class CmsSignedHelper;
+}
+namespace Org::BouncyCastle::Cms {
+class __CmsSignedDataGenerator__SignerInf;
 }
 namespace Org::BouncyCastle::Security {
 class SecureRandom;
 }
-namespace Org::BouncyCastle::Cms {
-class CmsSignedGenerator;
+namespace Org::BouncyCastle::Crypto {
+class AsymmetricKeyParameter;
 }
-namespace Org::BouncyCastle::Asn1::X509 {
-class AlgorithmIdentifier;
+namespace Org::BouncyCastle::X509 {
+class X509Certificate;
 }
 namespace Org::BouncyCastle::Asn1::Cms {
 class SignerInfo;
+}
+namespace Org::BouncyCastle::Cms {
+class CmsSignedGenerator;
 }
 namespace Org::BouncyCastle::Crypto {
 class ISignatureFactory;
 }
 namespace Org::BouncyCastle::Asn1 {
 class DerObjectIdentifier;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class AlgorithmIdentifier;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Cms {

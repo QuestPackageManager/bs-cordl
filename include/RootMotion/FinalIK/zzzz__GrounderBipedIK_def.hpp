@@ -8,17 +8,17 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(GrounderBipedIK)
-namespace RootMotion::FinalIK {
-class IKSolverLimb;
-}
 namespace UnityEngine {
 struct Quaternion;
 }
 namespace RootMotion::FinalIK {
-class BipedIK;
+class IKSolverLimb;
 }
 namespace UnityEngine {
 class Transform;
+}
+namespace RootMotion::FinalIK {
+class BipedIK;
 }
 // Forward declare root types
 namespace RootMotion::FinalIK {
@@ -30,7 +30,7 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::GrounderBipedIK);
 // SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 136, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(12518))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12518)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12519))
 // CS Name: ::RootMotion.FinalIK::GrounderBipedIK*
 class CORDL_TYPE GrounderBipedIK : public ::RootMotion::FinalIK::Grounder {

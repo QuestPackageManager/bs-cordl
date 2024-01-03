@@ -10,8 +10,8 @@ class ButtonBinder;
 namespace System {
 template <typename T> class Action_1;
 }
-namespace HMUI {
-class ToggleBinder;
+namespace GlobalNamespace {
+class AutoSetupData;
 }
 namespace UnityEngine::UI {
 class Button;
@@ -19,8 +19,8 @@ class Button;
 namespace UnityEngine::UI {
 class Toggle;
 }
-namespace GlobalNamespace {
-class AutoSetupData;
+namespace HMUI {
+class ToggleBinder;
 }
 // Forward declare root types
 namespace GlobalNamespace {

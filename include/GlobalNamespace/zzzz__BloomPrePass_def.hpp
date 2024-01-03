@@ -8,10 +8,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(BloomPrePass)
 namespace GlobalNamespace {
-class BloomPrePassRenderDataSO;
+class __BloomPrePassRenderDataSO__Data;
 }
 namespace GlobalNamespace {
-class __BloomPrePassRenderDataSO__Data;
+class BloomPrePassEffectContainerSO;
 }
 namespace GlobalNamespace {
 struct __BloomPrePass__Mode;
@@ -20,7 +20,7 @@ namespace GlobalNamespace {
 class BloomPrePassRendererSO;
 }
 namespace GlobalNamespace {
-class BloomPrePassEffectContainerSO;
+class BloomPrePassRenderDataSO;
 }
 // Forward declare root types
 namespace GlobalNamespace {

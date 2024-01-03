@@ -7,13 +7,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(AttributeHelperEngine)
 namespace UnityEngine {
+class RequireComponent;
+}
+namespace UnityEngine {
 class ExecuteInEditMode;
 }
 namespace UnityEngine {
 class DisallowMultipleComponent;
-}
-namespace UnityEngine {
-class RequireComponent;
 }
 namespace System {
 class Type;

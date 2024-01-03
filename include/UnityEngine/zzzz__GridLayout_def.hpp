@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/byref.hpp"
 CORDL_MODULE_EXPORT(GridLayout)
 namespace UnityEngine {
-struct Vector3Int;
+struct Vector3;
 }
 namespace UnityEngine {
-struct Vector3;
+struct Vector3Int;
 }
 // Forward declare root types
 namespace UnityEngine {

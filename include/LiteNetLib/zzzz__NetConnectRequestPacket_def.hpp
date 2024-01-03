@@ -6,17 +6,17 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(NetConnectRequestPacket)
-namespace LiteNetLib {
-class NetPacket;
-}
 namespace LiteNetLib::Utils {
-class NetDataReader;
+class NetDataWriter;
 }
 namespace System::Net {
 class SocketAddress;
 }
 namespace LiteNetLib::Utils {
-class NetDataWriter;
+class NetDataReader;
+}
+namespace LiteNetLib {
+class NetPacket;
 }
 // Forward declare root types
 namespace LiteNetLib {

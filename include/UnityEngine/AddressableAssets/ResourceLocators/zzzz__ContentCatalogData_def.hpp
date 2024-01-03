@@ -9,11 +9,14 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(ContentCatalogData)
-namespace UnityEngine::ResourceManagement::Util {
-struct ObjectInitializationData;
+namespace UnityEngine::AddressableAssets::ResourceLocators {
+class __ContentCatalogData__CompactLocation;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
+}
+namespace UnityEngine::AddressableAssets::ResourceLocators {
+struct __ContentCatalogData__Bucket;
 }
 namespace UnityEngine::ResourceManagement::Util {
 struct SerializedType;
@@ -21,11 +24,8 @@ struct SerializedType;
 namespace UnityEngine::AddressableAssets::ResourceLocators {
 class ResourceLocationMap;
 }
-namespace UnityEngine::AddressableAssets::ResourceLocators {
-class __ContentCatalogData__CompactLocation;
-}
-namespace UnityEngine::AddressableAssets::ResourceLocators {
-struct __ContentCatalogData__Bucket;
+namespace UnityEngine::ResourceManagement::Util {
+struct ObjectInitializationData;
 }
 namespace UnityEngine::ResourceManagement::ResourceLocations {
 class IResourceLocation;
@@ -34,10 +34,10 @@ namespace System::Collections::Generic {
 template <typename T> class IList_1;
 }
 namespace System {
-class Type;
+class Object;
 }
 namespace System {
-class Object;
+class Type;
 }
 // Forward declare root types
 namespace UnityEngine::AddressableAssets::ResourceLocators {
@@ -311,7 +311,7 @@ static_assert(offsetof(::UnityEngine::AddressableAssets::ResourceLocators::__Con
 // SizeInfo { instance_size: 208, native_size: -1, calculated_instance_size: 208, calculated_native_size: 208, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::AddressableAssets::ResourceLocators {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(13984))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13984)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14111))
 // CS Name: ::UnityEngine.AddressableAssets.ResourceLocators::ContentCatalogData*
 class CORDL_TYPE ContentCatalogData : public ::System::Object {

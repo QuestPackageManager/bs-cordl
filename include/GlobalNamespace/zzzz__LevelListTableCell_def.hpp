@@ -17,17 +17,17 @@ CORDL_MODULE_EXPORT(LevelListTableCell)
 namespace GlobalNamespace {
 struct __LevelListTableCell___SetDataFromLevelAsync_d__19;
 }
-namespace GlobalNamespace {
-class IPreviewBeatmapLevel;
-}
-namespace GlobalNamespace {
-struct __LevelListTableCell___RefreshAvailabilityAsync_d__24;
-}
 namespace UnityEngine {
 class CanvasGroup;
 }
 namespace GlobalNamespace {
 class IAdditionalContentModel;
+}
+namespace GlobalNamespace {
+struct __LevelListTableCell___RefreshAvailabilityAsync_d__24;
+}
+namespace TMPro {
+class TextMeshProUGUI;
 }
 namespace UnityEngine::UI {
 class Image;
@@ -38,26 +38,26 @@ class CancellationTokenSource;
 namespace UnityEngine {
 class GameObject;
 }
-namespace TMPro {
-class TextMeshProUGUI;
+namespace GlobalNamespace {
+class IPreviewBeatmapLevel;
 }
 namespace HMUI {
 struct __SelectableCell__TransitionType;
-}
-namespace GlobalNamespace {
-struct EntitlementStatus;
-}
-namespace System::Runtime::CompilerServices {
-class IAsyncStateMachine;
-}
-namespace System::Runtime::CompilerServices {
-struct AsyncVoidMethodBuilder;
 }
 namespace System::Threading {
 struct CancellationToken;
 }
 namespace System::Runtime::CompilerServices {
 template <typename TResult> struct TaskAwaiter_1;
+}
+namespace System::Runtime::CompilerServices {
+class IAsyncStateMachine;
+}
+namespace GlobalNamespace {
+struct EntitlementStatus;
+}
+namespace System::Runtime::CompilerServices {
+struct AsyncVoidMethodBuilder;
 }
 namespace UnityEngine {
 class Sprite;
@@ -80,9 +80,9 @@ MARK_VAL_T(::GlobalNamespace::__LevelListTableCell___SetDataFromLevelAsync_d__19
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3394)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 777 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3400)), TypeDefinitionIndex(TypeDefinitionIndex(10291))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5428))
-// CS Name: ::LevelListTableCell::<SetDataFromLevelAsync>d__19
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3400)), TypeDefinitionIndex(TypeDefinitionIndex(10291)), TypeDefinitionIndex(TypeDefinitionIndex(2677)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 777 }), TypeDefinitionIndex(TypeDefinitionIndex(3394))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5428)) CS
+// Name: ::LevelListTableCell::<SetDataFromLevelAsync>d__19
 struct CORDL_TYPE __LevelListTableCell___SetDataFromLevelAsync_d__19 {
 public:
   // Declarations
@@ -168,9 +168,9 @@ static_assert(offsetof(::GlobalNamespace::__LevelListTableCell___SetDataFromLeve
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 880 }), TypeDefinitionIndex(TypeDefinitionIndex(16270)),
-// TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3400)), TypeDefinitionIndex(TypeDefinitionIndex(3394))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5429))
-// CS Name: ::LevelListTableCell::<RefreshAvailabilityAsync>d__24
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3400)), TypeDefinitionIndex(TypeDefinitionIndex(3394)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 880 }), TypeDefinitionIndex(TypeDefinitionIndex(16270))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5429)) CS
+// Name: ::LevelListTableCell::<RefreshAvailabilityAsync>d__24
 struct CORDL_TYPE __LevelListTableCell___RefreshAvailabilityAsync_d__24 {
 public:
   // Declarations

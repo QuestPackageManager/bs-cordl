@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(MockScoreSyncStateSender)
+namespace GlobalNamespace {
+class IMultiplayerSessionManager;
+}
 namespace System {
 class IDisposable;
 }
 namespace GlobalNamespace {
 class StandardScoreSyncStateNetSerializable;
-}
-namespace GlobalNamespace {
-class IMultiplayerSessionManager;
 }
 namespace GlobalNamespace {
 class IConnectedPlayer;

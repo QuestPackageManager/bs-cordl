@@ -11,23 +11,11 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVRSkeletonRenderer)
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace GlobalNamespace {
-struct __OVRSkeletonRenderer__SkeletonRendererData;
-}
-namespace GlobalNamespace {
-class __OVRSkeletonRenderer__IOVRSkeletonRendererDataProvider;
-}
-namespace UnityEngine {
-class Material;
-}
 namespace GlobalNamespace {
 struct __OVRSkeletonRenderer__SystemGestureBehavior;
 }
-namespace GlobalNamespace {
-class OVRSkeleton;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace GlobalNamespace {
 class __OVRSkeletonRenderer__BoneVisualization;
@@ -36,22 +24,34 @@ namespace UnityEngine {
 class GameObject;
 }
 namespace GlobalNamespace {
-class __OVRSkeletonRenderer__CapsuleVisualization;
+class OVRSkeleton;
+}
+namespace GlobalNamespace {
+struct __OVRSkeletonRenderer__SkeletonRendererData;
 }
 namespace GlobalNamespace {
 struct __OVRSkeletonRenderer__ConfidenceBehavior;
 }
 namespace UnityEngine {
-class LineRenderer;
+class Material;
+}
+namespace GlobalNamespace {
+class __OVRSkeletonRenderer__CapsuleVisualization;
+}
+namespace GlobalNamespace {
+class __OVRSkeletonRenderer__IOVRSkeletonRendererDataProvider;
 }
 namespace UnityEngine {
 class Transform;
 }
-namespace GlobalNamespace {
-class OVRBoneCapsule;
+namespace UnityEngine {
+class LineRenderer;
 }
 namespace UnityEngine {
 class MeshRenderer;
+}
+namespace GlobalNamespace {
+class OVRBoneCapsule;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -418,7 +418,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRSkeletonRenderer__BoneVisualizati
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8178))
 // CS Name: ::OVRSkeletonRenderer::CapsuleVisualization*
 class CORDL_TYPE __OVRSkeletonRenderer__CapsuleVisualization : public ::System::Object {
@@ -542,8 +542,8 @@ static_assert(offsetof(::GlobalNamespace::__OVRSkeletonRenderer__CapsuleVisualiz
 // SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 136, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8176)), TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10252)),
-// TypeDefinitionIndex(TypeDefinitionIndex(8175))} Self: TypeDefinitionIndex(TypeDefinitionIndex(8179)) CS Name: ::OVRSkeletonRenderer*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(8176)), TypeDefinitionIndex(TypeDefinitionIndex(8175)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10252))} Self: TypeDefinitionIndex(TypeDefinitionIndex(8179)) CS Name: ::OVRSkeletonRenderer*
 class CORDL_TYPE OVRSkeletonRenderer : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations

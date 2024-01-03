@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(TMP_ResourceManager)
-namespace TMPro {
-class TMP_Settings;
-}
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace TMPro {
+class TMP_Settings;
 }
 namespace TMPro {
 class TMP_FontAsset;

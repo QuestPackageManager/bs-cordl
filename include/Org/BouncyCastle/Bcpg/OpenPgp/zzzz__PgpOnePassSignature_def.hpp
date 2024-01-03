@@ -7,31 +7,31 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(PgpOnePassSignature)
 namespace Org::BouncyCastle::Bcpg {
-struct PublicKeyAlgorithmTag;
-}
-namespace Org::BouncyCastle::Crypto {
-class ISigner;
-}
-namespace Org::BouncyCastle::Bcpg {
 class OnePassSignaturePacket;
-}
-namespace Org::BouncyCastle::Bcpg::OpenPgp {
-class PgpPublicKey;
-}
-namespace Org::BouncyCastle::Bcpg {
-class BcpgInputStream;
-}
-namespace System::IO {
-class Stream;
-}
-namespace Org::BouncyCastle::Bcpg {
-struct HashAlgorithmTag;
 }
 namespace Org::BouncyCastle::Bcpg {
 class Packet;
 }
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
 class PgpSignature;
+}
+namespace Org::BouncyCastle::Bcpg {
+struct HashAlgorithmTag;
+}
+namespace Org::BouncyCastle::Bcpg {
+class BcpgInputStream;
+}
+namespace Org::BouncyCastle::Bcpg {
+struct PublicKeyAlgorithmTag;
+}
+namespace Org::BouncyCastle::Crypto {
+class ISigner;
+}
+namespace System::IO {
+class Stream;
+}
+namespace Org::BouncyCastle::Bcpg::OpenPgp {
+class PgpPublicKey;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Bcpg::OpenPgp {

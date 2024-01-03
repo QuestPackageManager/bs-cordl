@@ -6,11 +6,11 @@ CORDL_MODULE_EXPORT(ISerializationSurrogate)
 namespace System::Runtime::Serialization {
 struct StreamingContext;
 }
-namespace System {
-class Object;
-}
 namespace System::Runtime::Serialization {
 class SerializationInfo;
+}
+namespace System {
+class Object;
 }
 namespace System::Runtime::Serialization {
 class ISurrogateSelector;

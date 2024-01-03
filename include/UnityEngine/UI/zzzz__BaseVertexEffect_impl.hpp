@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UI/zzzz__BaseVertexEffect_def.hpp"
-#include "UnityEngine/zzzz__UIVertex_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "UnityEngine/zzzz__UIVertex_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UI::BaseVertexEffect.ModifyVertices
 template <>
 

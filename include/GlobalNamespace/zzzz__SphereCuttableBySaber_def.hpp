@@ -6,13 +6,13 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(SphereCuttableBySaber)
 namespace UnityEngine {
-struct Vector3;
-}
-namespace UnityEngine {
 struct Quaternion;
 }
 namespace UnityEngine {
 class SphereCollider;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 namespace GlobalNamespace {
 class Saber;

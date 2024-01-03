@@ -7,14 +7,14 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(OculusSettings)
-namespace Unity::XR::Oculus {
-struct __OculusSettings__StereoRenderingModeDesktop;
-}
 namespace UnityEngine {
 class Texture2D;
 }
 namespace Unity::XR::Oculus {
 struct __OculusSettings__FoveationMethod;
+}
+namespace Unity::XR::Oculus {
+struct __OculusSettings__StereoRenderingModeDesktop;
 }
 namespace Unity::XR::Oculus {
 struct __OculusSettings__StereoRenderingModeAndroid;

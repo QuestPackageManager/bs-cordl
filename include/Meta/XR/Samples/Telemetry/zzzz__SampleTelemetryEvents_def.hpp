@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(SampleTelemetryEvents)
 namespace Meta::XR::Samples::Telemetry {
-class __SampleTelemetryEvents__EventTypes;
+class __SampleTelemetryEvents__AnnotationTypes;
 }
 namespace Meta::XR::Samples::Telemetry {
-class __SampleTelemetryEvents__AnnotationTypes;
+class __SampleTelemetryEvents__EventTypes;
 }
 // Forward declare root types
 namespace Meta::XR::Samples::Telemetry {

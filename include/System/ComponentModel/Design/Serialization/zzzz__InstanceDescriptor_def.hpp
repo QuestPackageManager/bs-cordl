@@ -4,14 +4,14 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(InstanceDescriptor)
-namespace System::Collections {
-class ICollection;
+namespace System {
+class Object;
 }
 namespace System::Reflection {
 class MemberInfo;
 }
-namespace System {
-class Object;
+namespace System::Collections {
+class ICollection;
 }
 // Forward declare root types
 namespace System::ComponentModel::Design::Serialization {

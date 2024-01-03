@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(TlsAeadCipher)
-namespace Org::BouncyCastle::Crypto::Modes {
-class IAeadBlockCipher;
-}
 namespace Org::BouncyCastle::Crypto::Tls {
 class TlsContext;
+}
+namespace Org::BouncyCastle::Crypto::Modes {
+class IAeadBlockCipher;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class TlsCipher;

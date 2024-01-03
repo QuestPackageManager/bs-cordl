@@ -15,29 +15,29 @@ CORDL_MODULE_EXPORT(OculusXPlatformAccessTokenRequestOperation)
 namespace GlobalNamespace {
 struct __OculusXPlatformAccessTokenRequestOperation__OculusTokenRequestOperationState;
 }
-namespace System::Threading {
-struct CancellationToken;
-}
-namespace GlobalNamespace {
-struct __OculusXPlatformAccessTokenRequestOperation___RequestXPlatformAccessToken_d__7;
-}
 namespace System::Threading::Tasks {
 template <typename TResult> class Task_1;
+}
+namespace GlobalNamespace {
+class XPlatformAccessTokenData;
 }
 namespace Oculus::Platform {
 template <typename T> class Message_1;
 }
 namespace GlobalNamespace {
-class XPlatformAccessTokenData;
+struct __OculusXPlatformAccessTokenRequestOperation___RequestXPlatformAccessToken_d__7;
+}
+namespace System::Threading {
+struct CancellationToken;
 }
 namespace System::Runtime::CompilerServices {
-class IAsyncStateMachine;
+template <typename TResult> struct AsyncTaskMethodBuilder_1;
 }
 namespace System::Runtime::CompilerServices {
 struct TaskAwaiter;
 }
 namespace System::Runtime::CompilerServices {
-template <typename TResult> struct AsyncTaskMethodBuilder_1;
+class IAsyncStateMachine;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -115,9 +115,9 @@ static_assert(offsetof(::GlobalNamespace::__OculusXPlatformAccessTokenRequestOpe
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(12925)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 902
-// }), TypeDefinitionIndex(TypeDefinitionIndex(3393)), TypeDefinitionIndex(TypeDefinitionIndex(2677))} Self: TypeDefinitionIndex(TypeDefinitionIndex(16001)) CS Name:
-// ::OculusXPlatformAccessTokenRequestOperation::<RequestXPlatformAccessToken>d__7
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3393)), TypeDefinitionIndex(TypeDefinitionIndex(12925)), TypeDefinitionIndex(TypeDefinitionIndex(2677)),
+// TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 902 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(16001)) CS
+// Name: ::OculusXPlatformAccessTokenRequestOperation::<RequestXPlatformAccessToken>d__7
 struct CORDL_TYPE __OculusXPlatformAccessTokenRequestOperation___RequestXPlatformAccessToken_d__7 {
 public:
   // Declarations

@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(NativeSliceExtensions)
 namespace Unity::Collections {
-template <typename T> struct NativeSlice_1;
+template <typename T> struct NativeArray_1;
 }
 namespace Unity::Collections {
-template <typename T> struct NativeArray_1;
+template <typename T> struct NativeSlice_1;
 }
 // Forward declare root types
 namespace Unity::Collections {

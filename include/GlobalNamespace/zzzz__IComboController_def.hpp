@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(IComboController)
 namespace System {
-template <typename T> class Action_1;
+class Action;
 }
 namespace System {
-class Action;
+template <typename T> class Action_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {

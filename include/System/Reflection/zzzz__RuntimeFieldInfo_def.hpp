@@ -11,37 +11,37 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(RuntimeFieldInfo)
 namespace System::Reflection {
-class FieldInfo;
-}
-namespace System::Reflection {
-class Binder;
-}
-namespace System::Reflection {
-class Module;
-}
-namespace System {
-class Object;
-}
-namespace System::Globalization {
-class CultureInfo;
-}
-namespace System {
-class Type;
+struct FieldAttributes;
 }
 namespace System::Reflection {
 class RuntimeModule;
 }
 namespace System::Reflection {
-struct FieldAttributes;
-}
-namespace System::Runtime::Serialization {
-class SerializationInfo;
+class Binder;
 }
 namespace System {
 struct RuntimeFieldHandle;
 }
 namespace System::Runtime::Serialization {
+class SerializationInfo;
+}
+namespace System {
+class Object;
+}
+namespace System::Runtime::Serialization {
 class ISerializable;
+}
+namespace System {
+class RuntimeType;
+}
+namespace System {
+class Type;
+}
+namespace System::Runtime::Serialization {
+struct StreamingContext;
+}
+namespace System::Globalization {
+class CultureInfo;
 }
 namespace System {
 struct TypedReference;
@@ -49,11 +49,11 @@ struct TypedReference;
 namespace System::Reflection {
 struct BindingFlags;
 }
-namespace System::Runtime::Serialization {
-struct StreamingContext;
+namespace System::Reflection {
+class FieldInfo;
 }
-namespace System {
-class RuntimeType;
+namespace System::Reflection {
+class Module;
 }
 // Forward declare root types
 namespace System::Reflection {
@@ -65,8 +65,8 @@ MARK_REF_PTR_T(::System::Reflection::RuntimeFieldInfo);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Reflection {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3520)), TypeDefinitionIndex(TypeDefinitionIndex(3468)), TypeDefinitionIndex(TypeDefinitionIndex(2616)),
-// TypeDefinitionIndex(TypeDefinitionIndex(2603))} Self: TypeDefinitionIndex(TypeDefinitionIndex(3521)) CS Name: ::System.Reflection::RuntimeFieldInfo*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2616)), TypeDefinitionIndex(TypeDefinitionIndex(3468)), TypeDefinitionIndex(TypeDefinitionIndex(2603)),
+// TypeDefinitionIndex(TypeDefinitionIndex(3520))} Self: TypeDefinitionIndex(TypeDefinitionIndex(3521)) CS Name: ::System.Reflection::RuntimeFieldInfo*
 class CORDL_TYPE RuntimeFieldInfo : public ::System::Reflection::RtFieldInfo {
 public:
   // Declarations

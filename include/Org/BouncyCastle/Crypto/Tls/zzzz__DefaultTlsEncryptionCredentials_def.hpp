@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(DefaultTlsEncryptionCredentials)
 namespace Org::BouncyCastle::Crypto::Tls {
-class Certificate;
+class TlsContext;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class TlsContext;
+class Certificate;
 }
 namespace Org::BouncyCastle::Crypto {
 class AsymmetricKeyParameter;

@@ -1,10 +1,10 @@
 #pragma once
 #include "Newtonsoft/Json/zzzz__JsonException_impl.hpp"
 #include "Newtonsoft/Json/zzzz__JsonReaderException_def.hpp"
-#include "System/zzzz__Exception_def.hpp"
-#include "Newtonsoft/Json/zzzz__JsonReader_def.hpp"
 #include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
 #include "Newtonsoft/Json/zzzz__IJsonLineInfo_def.hpp"
+#include "System/zzzz__Exception_def.hpp"
+#include "Newtonsoft/Json/zzzz__JsonReader_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
 //  Writing Method size for method: ::Newtonsoft::Json::JsonReaderException.get_LineNumber
 template <>

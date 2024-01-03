@@ -3,11 +3,11 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "HMUI/zzzz__IconSegmentedControl_def.hpp"
 #include "HMUI/zzzz__IconSegmentedControl_def.hpp"
+#include "HMUI/zzzz__SegmentedControl_def.hpp"
+#include "Zenject/zzzz__DiContainer_def.hpp"
 #include "HMUI/zzzz__IconSegmentedControlCell_def.hpp"
 #include "HMUI/zzzz__SegmentedControlCell_def.hpp"
 #include "UnityEngine/zzzz__Object_def.hpp"
-#include "HMUI/zzzz__SegmentedControl_def.hpp"
-#include "Zenject/zzzz__DiContainer_def.hpp"
 #include "UnityEngine/zzzz__Sprite_def.hpp"
 //  Writing Method size for method: ::HMUI::__IconSegmentedControl__DataItem.get_icon
 template <>

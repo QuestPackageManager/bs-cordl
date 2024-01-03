@@ -7,17 +7,17 @@
 #include "UnityEngine/zzzz__Quaternion_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "RootMotion/FinalIK/zzzz__IKSolverVR_def.hpp"
+#include "RootMotion/FinalIK/zzzz__VRIK_def.hpp"
 #include "RootMotion/FinalIK/zzzz__IKSolverVR_def.hpp"
-#include "RootMotion/FinalIK/zzzz__IKSolver_def.hpp"
 #include "UnityEngine/zzzz__Quaternion_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
 #include "UnityEngine/zzzz__Keyframe_def.hpp"
-#include "RootMotion/FinalIK/zzzz__VRIK_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "RootMotion/FinalIK/zzzz__IKSolver_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
 #include "UnityEngine/zzzz__AnimationCurve_def.hpp"
-#include "UnityEngine/Events/zzzz__UnityEvent_def.hpp"
 #include "RootMotion/zzzz__InterpolationMode_def.hpp"
+#include "UnityEngine/Events/zzzz__UnityEvent_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::GlobalNamespace::__IKSolverVR__Arm__ShoulderRotationMode::__IKSolverVR__Arm__ShoulderRotationMode(int32_t value__) noexcept {
   this->value__ = value__;

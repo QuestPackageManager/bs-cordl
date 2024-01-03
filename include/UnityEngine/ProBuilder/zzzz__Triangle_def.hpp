@@ -5,8 +5,8 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(Triangle)
-namespace System {
-class Object;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
 }
 namespace UnityEngine::ProBuilder {
 struct Edge;
@@ -14,8 +14,8 @@ struct Edge;
 namespace System {
 template <typename T> class IEquatable_1;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder {

@@ -6,6 +6,15 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Rdn)
+namespace Org::BouncyCastle::Asn1::X500 {
+class AttributeTypeAndValue;
+}
+namespace System {
+class Object;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Object;
+}
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Set;
 }
@@ -14,15 +23,6 @@ class Asn1Encodable;
 }
 namespace Org::BouncyCastle::Asn1 {
 class DerObjectIdentifier;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
-}
-namespace Org::BouncyCastle::Asn1::X500 {
-class AttributeTypeAndValue;
-}
-namespace System {
-class Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::X500 {

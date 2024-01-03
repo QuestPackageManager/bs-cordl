@@ -2,8 +2,8 @@
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "OVR/OpenVR/zzzz__IVRExtendedDisplay_def.hpp"
 #include "System/zzzz__AsyncCallback_def.hpp"
-#include "System/zzzz__IAsyncResult_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "System/zzzz__IAsyncResult_def.hpp"
 #include "OVR/OpenVR/zzzz__EVREye_def.hpp"
 #include "OVR/OpenVR/zzzz__IVRExtendedDisplay_def.hpp"
 //  Writing Method size for method: ::OVR::OpenVR::__IVRExtendedDisplay___GetWindowBounds._ctor

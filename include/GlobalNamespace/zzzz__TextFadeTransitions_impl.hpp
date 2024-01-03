@@ -2,9 +2,9 @@
 #include "GlobalNamespace/zzzz__TextFadeTransitions_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__TextFadeTransitions_def.hpp"
+#include "UnityEngine/zzzz__CanvasGroup_def.hpp"
 #include "GlobalNamespace/zzzz__TextFadeTransitions_def.hpp"
 #include "TMPro/zzzz__TextMeshProUGUI_def.hpp"
-#include "UnityEngine/zzzz__CanvasGroup_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::GlobalNamespace::__TextFadeTransitions__State::__TextFadeTransitions__State(int32_t value__) noexcept {
   this->value__ = value__;

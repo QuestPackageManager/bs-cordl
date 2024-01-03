@@ -1,9 +1,9 @@
 #pragma once
 #include "UnityEngine/Events/zzzz__UnityEvent_1_impl.hpp"
 #include "UnityEngine/UI/CoroutineTween/zzzz__FloatTween_def.hpp"
+#include "UnityEngine/UI/CoroutineTween/zzzz__ITweenValue_def.hpp"
 #include "UnityEngine/Events/zzzz__UnityAction_1_def.hpp"
 #include "UnityEngine/UI/CoroutineTween/zzzz__FloatTween_def.hpp"
-#include "UnityEngine/UI/CoroutineTween/zzzz__ITweenValue_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UI::CoroutineTween::__FloatTween__FloatTweenCallback._ctor
 template <>
 

@@ -9,13 +9,13 @@ namespace System::ComponentModel {
 class NotifyCollectionChangedEventArgs;
 }
 namespace System {
-class Object;
+class AsyncCallback;
 }
 namespace System {
 class IAsyncResult;
 }
 namespace System {
-class AsyncCallback;
+class Object;
 }
 // Forward declare root types
 namespace System::ComponentModel {

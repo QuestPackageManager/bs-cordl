@@ -8,10 +8,10 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(OculusLevelProductsModelSO)
 namespace GlobalNamespace {
-class __OculusLevelProductsModelSO__LevelPackProductData;
+class __OculusLevelProductsModelSO__LevelProductData;
 }
 namespace GlobalNamespace {
-class __OculusLevelProductsModelSO__LevelProductData;
+class __OculusLevelProductsModelSO__LevelPackProductData;
 }
 namespace GlobalNamespace {
 class __OculusLevelProductsModelSO__LevelPackRedirectionData;

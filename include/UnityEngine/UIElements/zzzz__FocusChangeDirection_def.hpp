@@ -6,13 +6,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(FocusChangeDirection)
 namespace UnityEngine::UIElements {
-class FocusController;
+class Focusable;
 }
 namespace System {
 class IDisposable;
 }
 namespace UnityEngine::UIElements {
-class Focusable;
+class FocusController;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

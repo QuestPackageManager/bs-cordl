@@ -10,11 +10,11 @@ template <typename TKey, typename TValue> class Dictionary_2;
 namespace Newtonsoft::Json::Serialization {
 struct ResolverContractKey;
 }
-namespace Newtonsoft::Json::Serialization {
-class JsonContract;
-}
 namespace Newtonsoft::Json::Utilities {
 class PropertyNameTable;
+}
+namespace Newtonsoft::Json::Serialization {
+class JsonContract;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Serialization {

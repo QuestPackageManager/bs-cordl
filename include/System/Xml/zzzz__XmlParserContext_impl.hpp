@@ -2,10 +2,10 @@
 #include "System/Xml/zzzz__XmlSpace_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Xml/zzzz__XmlParserContext_def.hpp"
-#include "System/Xml/zzzz__XmlNamespaceManager_def.hpp"
+#include "System/Xml/zzzz__XmlNameTable_def.hpp"
 #include "System/Xml/zzzz__XmlSpace_def.hpp"
 #include "System/Text/zzzz__Encoding_def.hpp"
-#include "System/Xml/zzzz__XmlNameTable_def.hpp"
+#include "System/Xml/zzzz__XmlNamespaceManager_def.hpp"
 //  Writing Method size for method: ::System::Xml::XmlParserContext._ctor
 template <>
 

@@ -6,65 +6,65 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(AnnotatedBeatmapLevelCollectionsGridView)
-namespace System {
-class Action;
-}
-namespace GlobalNamespace {
-class __GridView__IDataSource;
-}
-namespace GlobalNamespace {
-class IAnnotatedBeatmapLevelCollection;
-}
-namespace GlobalNamespace {
-class AnnotatedBeatmapLevelCollectionsGridViewAnimator;
-}
-namespace GlobalNamespace {
-class IVRPlatformHelper;
+namespace UnityEngine::EventSystems {
+class IEventSystemHandler;
 }
 namespace GlobalNamespace {
 class IAdditionalContentModel;
 }
 namespace UnityEngine::EventSystems {
-class IEventSystemHandler;
-}
-namespace UnityEngine::EventSystems {
 class IPointerExitHandler;
-}
-namespace GlobalNamespace {
-class BeatmapLevelsPromoDataSO;
-}
-namespace GlobalNamespace {
-class GridView;
-}
-namespace UnityEngine::EventSystems {
-class PointerEventData;
-}
-namespace UnityEngine {
-class MonoBehaviour;
-}
-namespace GlobalNamespace {
-class PageControl;
-}
-namespace HMUI {
-struct __SelectableCell__TransitionType;
 }
 namespace GlobalNamespace {
 class AnnotatedBeatmapLevelCollectionCell;
 }
-namespace System {
-class Object;
+namespace GlobalNamespace {
+class BeatmapLevelsPromoDataSO;
+}
+namespace UnityEngine::EventSystems {
+class PointerEventData;
+}
+namespace GlobalNamespace {
+class PageControl;
 }
 namespace UnityEngine::EventSystems {
 class IPointerEnterHandler;
+}
+namespace GlobalNamespace {
+class IAnnotatedBeatmapLevelCollection;
+}
+namespace System {
+class Action;
+}
+namespace GlobalNamespace {
+class AnnotatedBeatmapLevelCollectionsGridViewAnimator;
+}
+namespace System::Collections::Generic {
+template <typename T> class IReadOnlyList_1;
+}
+namespace GlobalNamespace {
+class GridView;
+}
+namespace HMUI {
+class SelectableCell;
+}
+namespace UnityEngine {
+class MonoBehaviour;
 }
 namespace System {
 template <typename T> class Action_1;
 }
 namespace HMUI {
-class SelectableCell;
+struct __SelectableCell__TransitionType;
 }
-namespace System::Collections::Generic {
-template <typename T> class IReadOnlyList_1;
+namespace System {
+class Object;
+}
+namespace GlobalNamespace {
+class __GridView__IDataSource;
+}
+namespace GlobalNamespace {
+class IVRPlatformHelper;
 }
 // Forward declare root types
 namespace GlobalNamespace {

@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(Test_MeshFilter_Extensions)
-namespace UnityEngine {
-class MeshFilter;
-}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace HoudiniEngineUnity {
 class __Test_MeshFilter_Extensions____c;
+}
+namespace UnityEngine {
+class MeshFilter;
 }
 namespace HoudiniEngineUnity {
 class Test_MeshFilter;

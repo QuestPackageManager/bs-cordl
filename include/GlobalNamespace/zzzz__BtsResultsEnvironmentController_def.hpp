@@ -10,40 +10,37 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(BtsResultsEnvironmentController)
 namespace GlobalNamespace {
-class BTSCharacterDataModel;
-}
-namespace GlobalNamespace {
 class __BtsResultsEnvironmentController__BTSResultCharacterPlaceWithAnimation;
-}
-namespace GlobalNamespace {
-class __BtsResultsEnvironmentController___DestroyCharactersDelayed_d__11;
-}
-namespace GlobalNamespace {
-class __BTSCharacterDataModel__PrefabWithId;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace UnityEngine {
-class GameObject;
-}
-namespace GlobalNamespace {
-class IReadonlyBeatmapData;
-}
-namespace System::Collections {
-class IEnumerator;
 }
 namespace UnityEngine::ResourceManagement::AsyncOperations {
 struct AsyncOperationHandle;
 }
+namespace System::Collections {
+class IEnumerator;
+}
+namespace GlobalNamespace {
+class BTSCharacterDataModel;
+}
+namespace GlobalNamespace {
+class __BtsResultsEnvironmentController___DestroyCharactersDelayed_d__11;
+}
+namespace UnityEngine {
+class GameObject;
+}
 namespace UnityEngine::Playables {
 class PlayableDirector;
 }
-namespace GlobalNamespace {
-class BTSCharacterResultAnimationController;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
-namespace UnityEngine::AddressableAssets {
-class AssetReference;
+namespace GlobalNamespace {
+class IReadonlyBeatmapData;
+}
+namespace GlobalNamespace {
+class __BTSCharacterDataModel__PrefabWithId;
+}
+namespace UnityEngine {
+class AnimationClip;
 }
 namespace UnityEngine {
 class Transform;
@@ -51,8 +48,11 @@ class Transform;
 namespace GlobalNamespace {
 class BTSCharacter;
 }
-namespace UnityEngine {
-class AnimationClip;
+namespace UnityEngine::AddressableAssets {
+class AssetReference;
+}
+namespace GlobalNamespace {
+class BTSCharacterResultAnimationController;
 }
 namespace System {
 class IDisposable;

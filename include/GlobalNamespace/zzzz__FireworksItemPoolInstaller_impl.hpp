@@ -1,8 +1,8 @@
 #pragma once
 #include "Zenject/zzzz__MonoInstaller_impl.hpp"
 #include "GlobalNamespace/zzzz__FireworksItemPoolInstaller_def.hpp"
-#include "GlobalNamespace/zzzz__FireworksController_def.hpp"
 #include "GlobalNamespace/zzzz__FireworkItemController_def.hpp"
+#include "GlobalNamespace/zzzz__FireworksController_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::FireworksItemPoolInstaller.InstallBindings
 template <>
 

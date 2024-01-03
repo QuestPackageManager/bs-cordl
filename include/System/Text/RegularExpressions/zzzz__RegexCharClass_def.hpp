@@ -10,28 +10,28 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(RegexCharClass)
 namespace System::Text::RegularExpressions {
-struct __RegexCharClass__SingleRange;
-}
-namespace System::Text::RegularExpressions {
 struct __RegexCharClass__LowerCaseMapping;
-}
-namespace System::Globalization {
-class CultureInfo;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace System::Text {
-class StringBuilder;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace System::Globalization {
 struct UnicodeCategory;
 }
+namespace System::Text {
+class StringBuilder;
+}
 namespace System::Text::RegularExpressions {
 class __RegexCharClass__SingleRangeComparer;
+}
+namespace System::Text::RegularExpressions {
+struct __RegexCharClass__SingleRange;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace System::Globalization {
+class CultureInfo;
 }
 namespace System::Collections::Generic {
 template <typename T> class IComparer_1;

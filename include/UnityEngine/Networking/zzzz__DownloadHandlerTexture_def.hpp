@@ -9,11 +9,11 @@ CORDL_MODULE_EXPORT(DownloadHandlerTexture)
 namespace UnityEngine::Networking {
 class UnityWebRequest;
 }
-namespace UnityEngine {
-class Texture2D;
-}
 namespace Unity::Collections {
 template <typename T> struct NativeArray_1;
+}
+namespace UnityEngine {
+class Texture2D;
 }
 // Forward declare root types
 namespace UnityEngine::Networking {

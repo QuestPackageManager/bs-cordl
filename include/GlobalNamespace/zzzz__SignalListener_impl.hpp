@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__SignalListener_def.hpp"
-#include "GlobalNamespace/zzzz__Signal_def.hpp"
 #include "UnityEngine/Events/zzzz__UnityEvent_def.hpp"
+#include "GlobalNamespace/zzzz__Signal_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::SignalListener.OnEnable
 template <>
 

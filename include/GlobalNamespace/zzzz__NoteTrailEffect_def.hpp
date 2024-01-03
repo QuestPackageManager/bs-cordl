@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(NoteTrailEffect)
 namespace GlobalNamespace {
-class NoteTrailParticleSystem;
+class NoteMovement;
 }
 namespace GlobalNamespace {
-class NoteMovement;
+class NoteTrailParticleSystem;
 }
 // Forward declare root types
 namespace GlobalNamespace {

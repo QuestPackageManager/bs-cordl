@@ -12,19 +12,19 @@ namespace GlobalNamespace {
 class ISaberMovementDataProcessor;
 }
 namespace GlobalNamespace {
-struct BladeMovementDataElement;
-}
-namespace GlobalNamespace {
 class ISaberMovementData;
 }
-namespace UnityEngine {
-struct Vector3;
+namespace GlobalNamespace {
+struct BladeMovementDataElement;
 }
 namespace GlobalNamespace {
 template <typename T> class LazyCopyHashSet_1;
 }
 namespace GlobalNamespace {
 class IBladeMovementData;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace GlobalNamespace {

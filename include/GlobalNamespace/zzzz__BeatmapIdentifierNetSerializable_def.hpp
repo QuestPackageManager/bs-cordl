@@ -7,14 +7,8 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(BeatmapIdentifierNetSerializable)
-namespace System {
-template <typename T> class IEquatable_1;
-}
 namespace LiteNetLib::Utils {
-class INetSerializable;
-}
-namespace GlobalNamespace {
-struct BeatmapDifficulty;
+class NetDataWriter;
 }
 namespace LiteNetLib::Utils {
 class NetDataReader;
@@ -22,8 +16,14 @@ class NetDataReader;
 namespace System {
 class Object;
 }
+namespace System {
+template <typename T> class IEquatable_1;
+}
+namespace GlobalNamespace {
+struct BeatmapDifficulty;
+}
 namespace LiteNetLib::Utils {
-class NetDataWriter;
+class INetSerializable;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -35,7 +35,7 @@ MARK_REF_PTR_T(::GlobalNamespace::BeatmapIdentifierNetSerializable);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14717)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(14717))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14987))
 // CS Name: ::BeatmapIdentifierNetSerializable*
 class CORDL_TYPE BeatmapIdentifierNetSerializable : public ::System::Object {

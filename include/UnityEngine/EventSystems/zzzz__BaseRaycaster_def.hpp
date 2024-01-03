@@ -13,10 +13,10 @@ namespace UnityEngine {
 class Camera;
 }
 namespace UnityEngine::EventSystems {
-class PointerEventData;
+struct RaycastResult;
 }
 namespace UnityEngine::EventSystems {
-struct RaycastResult;
+class PointerEventData;
 }
 // Forward declare root types
 namespace UnityEngine::EventSystems {

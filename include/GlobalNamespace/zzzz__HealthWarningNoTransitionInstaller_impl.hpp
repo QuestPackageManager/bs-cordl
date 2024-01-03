@@ -1,9 +1,9 @@
 #pragma once
 #include "Zenject/zzzz__NoTransitionInstaller_impl.hpp"
 #include "GlobalNamespace/zzzz__HealthWarningNoTransitionInstaller_def.hpp"
-#include "GlobalNamespace/zzzz__HealthWarningSceneSetupData_def.hpp"
 #include "GlobalNamespace/zzzz__HealthWarningScenesTransitionSetupDataSO_def.hpp"
 #include "Zenject/zzzz__DiContainer_def.hpp"
+#include "GlobalNamespace/zzzz__HealthWarningSceneSetupData_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::HealthWarningNoTransitionInstaller.InstallBindings
 template <>
 

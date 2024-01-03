@@ -10,19 +10,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(SendMouseEvents)
 namespace UnityEngine {
-struct __SendMouseEvents__HitInfo;
-}
-namespace UnityEngine {
 class Camera;
+}
+namespace System {
+template <typename TResult> class Func_1;
 }
 namespace UnityEngine {
 struct Vector2;
 }
+namespace UnityEngine {
+struct __SendMouseEvents__HitInfo;
+}
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> struct KeyValuePair_2;
-}
-namespace System {
-template <typename TResult> class Func_1;
 }
 namespace UnityEngine {
 class GameObject;
@@ -87,7 +87,7 @@ static_assert(offsetof(::UnityEngine::__SendMouseEvents__HitInfo, camera) == 0x8
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10243))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15957))
 // CS Name: ::UnityEngine::SendMouseEvents*
 class CORDL_TYPE SendMouseEvents : public ::System::Object {

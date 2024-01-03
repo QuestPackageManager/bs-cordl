@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include "System/Xml/Schema/zzzz__Datatype_normalizedString_def.hpp"
 CORDL_MODULE_EXPORT(Datatype_token)
 namespace System::Xml::Schema {
-struct XmlTypeCode;
+struct XmlSchemaWhiteSpace;
 }
 namespace System::Xml::Schema {
-struct XmlSchemaWhiteSpace;
+struct XmlTypeCode;
 }
 // Forward declare root types
 namespace System::Xml::Schema {

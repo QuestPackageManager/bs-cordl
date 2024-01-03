@@ -7,22 +7,22 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Vector3Serializable)
 namespace LiteNetLib::Utils {
-class NetDataWriter;
+class INetSerializable;
+}
+namespace LiteNetLib::Utils {
+class NetDataReader;
 }
 namespace System {
 class Object;
 }
-namespace LiteNetLib::Utils {
-class INetSerializable;
+namespace UnityEngine {
+struct Vector3;
 }
 namespace System {
 template <typename T> class IEquatable_1;
 }
 namespace LiteNetLib::Utils {
-class NetDataReader;
-}
-namespace UnityEngine {
-struct Vector3;
+class NetDataWriter;
 }
 // Forward declare root types
 namespace GlobalNamespace {

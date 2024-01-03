@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(EndPoint)
-namespace System::Net::Sockets {
-struct AddressFamily;
-}
 namespace System::Net {
 class SocketAddress;
+}
+namespace System::Net::Sockets {
+struct AddressFamily;
 }
 // Forward declare root types
 namespace System::Net {

@@ -9,20 +9,20 @@ CORDL_MODULE_EXPORT(ActivationServices)
 namespace System::Runtime::Remoting::Messaging {
 class IMessage;
 }
-namespace System::Runtime::Remoting::Activation {
-class IActivator;
-}
-namespace System::Runtime::Remoting::Activation {
-class IConstructionCallMessage;
-}
-namespace System {
-class Object;
-}
 namespace System::Runtime::Remoting::Messaging {
 class ConstructionCall;
 }
 namespace System::Runtime::Remoting::Proxies {
 class RemotingProxy;
+}
+namespace System::Runtime::Remoting::Activation {
+class IActivator;
+}
+namespace System {
+class Object;
+}
+namespace System::Runtime::Remoting::Activation {
+class IConstructionCallMessage;
 }
 namespace System {
 class Type;

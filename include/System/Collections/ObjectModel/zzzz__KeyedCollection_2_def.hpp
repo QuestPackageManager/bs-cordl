@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(KeyedCollection_2)
 namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class IDictionary_2;
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
+template <typename TKey, typename TValue> class IDictionary_2;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEqualityComparer_1;

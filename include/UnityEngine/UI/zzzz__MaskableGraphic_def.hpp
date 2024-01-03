@@ -8,34 +8,34 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(MaskableGraphic)
 namespace UnityEngine {
+struct Rect;
+}
+namespace UnityEngine {
 struct Vector2;
+}
+namespace UnityEngine::UI {
+class __MaskableGraphic__CullStateChangedEvent;
 }
 namespace UnityEngine::UI {
 class IClippable;
 }
 namespace UnityEngine::UI {
-class IMaskable;
+class RectMask2D;
 }
 namespace UnityEngine::UI {
 class IMaterialModifier;
 }
+namespace UnityEngine::UI {
+class IMaskable;
+}
 namespace UnityEngine {
 class Material;
-}
-namespace UnityEngine::UI {
-class RectMask2D;
-}
-namespace UnityEngine {
-class GameObject;
-}
-namespace UnityEngine {
-struct Rect;
 }
 namespace UnityEngine {
 struct Vector3;
 }
-namespace UnityEngine::UI {
-class __MaskableGraphic__CullStateChangedEvent;
+namespace UnityEngine {
+class GameObject;
 }
 // Forward declare root types
 namespace UnityEngine::UI {
@@ -51,7 +51,7 @@ MARK_REF_PTR_T(::UnityEngine::UI::__MaskableGraphic__CullStateChangedEvent);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10465), inst: 105 }), TypeDefinitionIndex(TypeDefinitionIndex(10465))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10465)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10465), inst: 105 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13098))
 // CS Name: ::MaskableGraphic::CullStateChangedEvent*
 class CORDL_TYPE __MaskableGraphic__CullStateChangedEvent : public ::UnityEngine::Events::UnityEvent_1<bool> {

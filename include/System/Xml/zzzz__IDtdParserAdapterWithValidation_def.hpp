@@ -4,10 +4,10 @@
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IDtdParserAdapterWithValidation)
 namespace System::Xml {
-class IValidationEventHandling;
+class IDtdParserAdapter;
 }
 namespace System::Xml {
-class IDtdParserAdapter;
+class IValidationEventHandling;
 }
 // Forward declare root types
 namespace System::Xml {

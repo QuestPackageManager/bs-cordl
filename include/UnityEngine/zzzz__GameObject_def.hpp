@@ -8,24 +8,6 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(GameObject)
-namespace UnityEngine {
-struct PrimitiveType;
-}
-namespace System {
-class Type;
-}
-namespace UnityEngine {
-class Component;
-}
-namespace UnityEngine {
-struct SendMessageOptions;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace UnityEngine {
-class Transform;
-}
 namespace System {
 class Array;
 }
@@ -33,7 +15,25 @@ namespace UnityEngine::SceneManagement {
 struct Scene;
 }
 namespace System {
+class Type;
+}
+namespace UnityEngine {
+struct PrimitiveType;
+}
+namespace System {
 class Object;
+}
+namespace UnityEngine {
+class Transform;
+}
+namespace UnityEngine {
+class Component;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace UnityEngine {
+struct SendMessageOptions;
 }
 // Forward declare root types
 namespace UnityEngine {

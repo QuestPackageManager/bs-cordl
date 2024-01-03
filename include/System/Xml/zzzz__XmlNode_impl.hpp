@@ -1,18 +1,18 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Xml/zzzz__XmlNode_def.hpp"
+#include "System/Xml/zzzz__XmlNodeList_def.hpp"
+#include "System/Xml/zzzz__XmlDocument_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "System/Xml/zzzz__XmlLinkedNode_def.hpp"
+#include "System/Xml/zzzz__XmlNodeType_def.hpp"
+#include "System/Xml/zzzz__XmlAttributeCollection_def.hpp"
+#include "System/zzzz__ICloneable_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/Xml/zzzz__XmlNodeChangedAction_def.hpp"
-#include "System/Xml/zzzz__XmlDocument_def.hpp"
-#include "System/Text/zzzz__StringBuilder_def.hpp"
-#include "System/zzzz__ICloneable_def.hpp"
 #include "System/Xml/zzzz__XmlNodeChangedEventArgs_def.hpp"
-#include "System/Xml/zzzz__XmlLinkedNode_def.hpp"
 #include "System/Collections/zzzz__IEnumerable_def.hpp"
-#include "System/Xml/zzzz__XmlAttributeCollection_def.hpp"
-#include "System/Xml/zzzz__XmlNodeType_def.hpp"
-#include "System/Xml/zzzz__XmlNodeList_def.hpp"
+#include "System/Text/zzzz__StringBuilder_def.hpp"
 //  Writing Method size for method: ::System::Xml::XmlNode._ctor
 template <>
 

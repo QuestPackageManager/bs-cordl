@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(AbstractTlsEncryptionCredentials)
 namespace Org::BouncyCastle::Crypto::Tls {
-class TlsEncryptionCredentials;
+class TlsCredentials;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class TlsCredentials;
+class TlsEncryptionCredentials;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {

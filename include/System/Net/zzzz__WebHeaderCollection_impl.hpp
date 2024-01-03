@@ -2,16 +2,16 @@
 #include "System/Collections/Specialized/zzzz__NameValueCollection_impl.hpp"
 #include "System/Net/zzzz__WebHeaderCollectionType_impl.hpp"
 #include "System/Net/zzzz__WebHeaderCollection_def.hpp"
+#include "System/Collections/Specialized/zzzz__NameValueCollection_def.hpp"
+#include "System/Net/zzzz__HttpRequestHeader_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "System/Net/zzzz__HeaderInfoTable_def.hpp"
-#include "System/Collections/Specialized/zzzz__NameValueCollection_def.hpp"
-#include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
-#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
-#include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/Net/zzzz__WebHeaderCollectionType_def.hpp"
+#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
+#include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/Net/zzzz__WebHeaderCollection_def.hpp"
-#include "System/Net/zzzz__HttpRequestHeader_def.hpp"
+#include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::System::Net::__WebHeaderCollection__RfcChar::__WebHeaderCollection__RfcChar(uint8_t value__) noexcept {
   this->value__ = value__;

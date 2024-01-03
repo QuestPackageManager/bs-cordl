@@ -1,15 +1,15 @@
 #pragma once
 #include "BeatSaber/AvatarCore/zzzz__IAvatarSystem_def.hpp"
-#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
-#include "BeatSaber/AvatarCore/zzzz__AvatarEditorFlowCoordinator_def.hpp"
-#include "BeatSaber/AvatarCore/zzzz__AvatarDisplayContext_def.hpp"
-#include "GlobalNamespace/zzzz__MultiplayerAvatarData_def.hpp"
-#include "BeatSaber/AvatarCore/zzzz__IAvatarSystemMetadata_def.hpp"
-#include "BeatSaber/AvatarCore/zzzz__IOptionalAvatarDataProvider_def.hpp"
-#include "BeatSaber/AvatarCore/zzzz__AvatarSelectionView_def.hpp"
 #include "System/Collections/Generic/zzzz__IReadOnlyCollection_1_def.hpp"
-#include "Zenject/zzzz__DiContainer_def.hpp"
 #include "BeatSaber/AvatarCore/zzzz__Avatar_def.hpp"
+#include "BeatSaber/AvatarCore/zzzz__AvatarEditorFlowCoordinator_def.hpp"
+#include "BeatSaber/AvatarCore/zzzz__AvatarSelectionView_def.hpp"
+#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
+#include "GlobalNamespace/zzzz__MultiplayerAvatarData_def.hpp"
+#include "BeatSaber/AvatarCore/zzzz__IOptionalAvatarDataProvider_def.hpp"
+#include "BeatSaber/AvatarCore/zzzz__AvatarDisplayContext_def.hpp"
+#include "BeatSaber/AvatarCore/zzzz__IAvatarSystemMetadata_def.hpp"
+#include "Zenject/zzzz__DiContainer_def.hpp"
 //  Writing Method size for method: ::BeatSaber::AvatarCore::IAvatarSystem.get_selectableByUser
 template <>
 

@@ -9,9 +9,9 @@
 #include "RootMotion/FinalIK/zzzz__VRIK_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "UnityEngine/zzzz__Quaternion_def.hpp"
-#include "UnityEngine/zzzz__AnimationCurve_def.hpp"
-#include "RootMotion/FinalIK/zzzz__HitReactionVRIK_def.hpp"
 #include "UnityEngine/zzzz__Collider_def.hpp"
+#include "RootMotion/FinalIK/zzzz__HitReactionVRIK_def.hpp"
+#include "UnityEngine/zzzz__AnimationCurve_def.hpp"
 #include "UnityEngine/zzzz__Rigidbody_def.hpp"
 //  Writing Method size for method: ::RootMotion::FinalIK::__HitReactionVRIK__Offset.get_crossFader
 template <>

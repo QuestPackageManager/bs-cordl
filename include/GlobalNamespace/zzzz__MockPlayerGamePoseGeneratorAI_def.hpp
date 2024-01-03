@@ -10,26 +10,11 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(MockPlayerGamePoseGeneratorAI)
-namespace UnityEngine {
-struct Vector3;
-}
-namespace GlobalNamespace {
-class SliderSpawnInfoNetSerializable;
-}
-namespace GlobalNamespace {
-class NoteSpawnInfoNetSerializable;
-}
 namespace GlobalNamespace {
 class MockNoteData;
 }
 namespace GlobalNamespace {
-class MockObstacleData;
-}
-namespace GlobalNamespace {
 class IGameplayRpcManager;
-}
-namespace GlobalNamespace {
-class IMockPlayerScoreCalculator;
 }
 namespace GlobalNamespace {
 class ObstacleSpawnInfoNetSerializable;
@@ -38,19 +23,34 @@ namespace GlobalNamespace {
 class IMultiplayerSessionManager;
 }
 namespace GlobalNamespace {
-class GameplayModifiers;
+class SliderSpawnInfoNetSerializable;
 }
 namespace System {
 class Action;
-}
-namespace GlobalNamespace {
-struct NoteCutDirection;
 }
 namespace UnityEngine {
 struct Pose;
 }
 namespace GlobalNamespace {
+class MockObstacleData;
+}
+namespace GlobalNamespace {
+struct NoteCutDirection;
+}
+namespace GlobalNamespace {
+class GameplayModifiers;
+}
+namespace GlobalNamespace {
 class MockBeatmapData;
+}
+namespace UnityEngine {
+struct Vector3;
+}
+namespace GlobalNamespace {
+class NoteSpawnInfoNetSerializable;
+}
+namespace GlobalNamespace {
+class IMockPlayerScoreCalculator;
 }
 // Forward declare root types
 namespace GlobalNamespace {

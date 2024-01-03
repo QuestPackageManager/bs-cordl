@@ -11,10 +11,10 @@ namespace System::IO {
 class Stream;
 }
 namespace System::Xml {
-class XmlWriterSettings;
+struct XmlStandalone;
 }
 namespace System::Xml {
-struct XmlStandalone;
+class XmlWriterSettings;
 }
 // Forward declare root types
 namespace System::Xml {

@@ -1,11 +1,11 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__ColorSchemeColorsToggleGroup_def.hpp"
-#include "UnityEngine/zzzz__Color_def.hpp"
 #include "HMUI/zzzz__ToggleBinder_def.hpp"
 #include "GlobalNamespace/zzzz__ColorScheme_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
 #include "GlobalNamespace/zzzz__ColorSchemeColorToggleController_def.hpp"
+#include "UnityEngine/zzzz__Color_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::ColorSchemeColorsToggleGroup.add_selectedColorDidChangeEvent
 template <>
 

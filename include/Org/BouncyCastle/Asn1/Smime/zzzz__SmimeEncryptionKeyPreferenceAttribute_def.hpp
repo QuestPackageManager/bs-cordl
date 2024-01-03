@@ -4,14 +4,14 @@
 CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Asn1/X509/zzzz__AttributeX509_def.hpp"
 CORDL_MODULE_EXPORT(SmimeEncryptionKeyPreferenceAttribute)
-namespace Org::BouncyCastle::Asn1 {
-class Asn1OctetString;
+namespace Org::BouncyCastle::Asn1::Cms {
+class IssuerAndSerialNumber;
 }
 namespace Org::BouncyCastle::Asn1::Cms {
 class RecipientKeyIdentifier;
 }
-namespace Org::BouncyCastle::Asn1::Cms {
-class IssuerAndSerialNumber;
+namespace Org::BouncyCastle::Asn1 {
+class Asn1OctetString;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Smime {

@@ -6,98 +6,98 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(X962NamedCurves)
-namespace Org::BouncyCastle::Asn1 {
-class DerObjectIdentifier;
-}
-namespace Org::BouncyCastle::Asn1::X9 {
-class __X962NamedCurves__Prime239v2Holder;
-}
-namespace Org::BouncyCastle::Asn1::X9 {
-class __X962NamedCurves__C2pnb163v2Holder;
-}
-namespace Org::BouncyCastle::Asn1::X9 {
-class __X962NamedCurves__C2tnb239v2Holder;
-}
-namespace Org::BouncyCastle::Asn1::X9 {
-class __X962NamedCurves__C2pnb368w1Holder;
-}
-namespace Org::BouncyCastle::Asn1::X9 {
-class X9ECPoint;
-}
-namespace System::Collections {
-class IEnumerable;
-}
-namespace Org::BouncyCastle::Asn1::X9 {
-class __X962NamedCurves__C2pnb163v1Holder;
-}
-namespace Org::BouncyCastle::Math {
-class BigInteger;
-}
-namespace Org::BouncyCastle::Asn1::X9 {
-class __X962NamedCurves__Prime192v1Holder;
-}
-namespace System::Collections {
-class IDictionary;
-}
-namespace Org::BouncyCastle::Asn1::X9 {
-class __X962NamedCurves__C2tnb239v1Holder;
-}
-namespace Org::BouncyCastle::Asn1::X9 {
-class __X962NamedCurves__C2tnb431r1Holder;
-}
-namespace Org::BouncyCastle::Asn1::X9 {
-class X9ECParametersHolder;
-}
 namespace Org::BouncyCastle::Asn1::X9 {
 class __X962NamedCurves__C2tnb239v3Holder;
 }
-namespace Org::BouncyCastle::Asn1::X9 {
-class __X962NamedCurves__C2pnb272w1Holder;
+namespace Org::BouncyCastle::Math::EC {
+class ECCurve;
 }
 namespace Org::BouncyCastle::Asn1::X9 {
 class __X962NamedCurves__C2pnb176w1Holder;
 }
 namespace Org::BouncyCastle::Asn1::X9 {
-class __X962NamedCurves__C2tnb191v3Holder;
-}
-namespace Org::BouncyCastle::Asn1::X9 {
-class __X962NamedCurves__Prime239v1Holder;
-}
-namespace Org::BouncyCastle::Asn1::X9 {
 class __X962NamedCurves__C2pnb304w1Holder;
-}
-namespace Org::BouncyCastle::Asn1::X9 {
-class __X962NamedCurves__C2pnb208w1Holder;
-}
-namespace Org::BouncyCastle::Asn1::X9 {
-class __X962NamedCurves__Prime256v1Holder;
-}
-namespace Org::BouncyCastle::Asn1::X9 {
-class __X962NamedCurves__C2tnb191v2Holder;
-}
-namespace Org::BouncyCastle::Asn1::X9 {
-class __X962NamedCurves__C2pnb163v3Holder;
-}
-namespace Org::BouncyCastle::Asn1::X9 {
-class __X962NamedCurves__Prime239v3Holder;
-}
-namespace Org::BouncyCastle::Asn1::X9 {
-class X9ECParameters;
-}
-namespace Org::BouncyCastle::Asn1::X9 {
-class __X962NamedCurves__Prime192v2Holder;
-}
-namespace Org::BouncyCastle::Asn1::X9 {
-class __X962NamedCurves__C2tnb359v1Holder;
 }
 namespace Org::BouncyCastle::Asn1::X9 {
 class __X962NamedCurves__C2tnb191v1Holder;
 }
 namespace Org::BouncyCastle::Asn1::X9 {
+class __X962NamedCurves__C2tnb191v2Holder;
+}
+namespace Org::BouncyCastle::Asn1::X9 {
+class __X962NamedCurves__Prime192v1Holder;
+}
+namespace Org::BouncyCastle::Asn1::X9 {
+class __X962NamedCurves__Prime192v2Holder;
+}
+namespace Org::BouncyCastle::Asn1::X9 {
+class __X962NamedCurves__C2pnb208w1Holder;
+}
+namespace Org::BouncyCastle::Asn1::X9 {
+class X9ECParameters;
+}
+namespace Org::BouncyCastle::Asn1::X9 {
+class __X962NamedCurves__C2pnb163v2Holder;
+}
+namespace Org::BouncyCastle::Asn1::X9 {
+class X9ECParametersHolder;
+}
+namespace System::Collections {
+class IEnumerable;
+}
+namespace Org::BouncyCastle::Asn1::X9 {
+class __X962NamedCurves__C2pnb368w1Holder;
+}
+namespace Org::BouncyCastle::Asn1::X9 {
+class __X962NamedCurves__C2tnb239v2Holder;
+}
+namespace Org::BouncyCastle::Asn1::X9 {
+class __X962NamedCurves__C2tnb431r1Holder;
+}
+namespace Org::BouncyCastle::Asn1 {
+class DerObjectIdentifier;
+}
+namespace Org::BouncyCastle::Asn1::X9 {
+class __X962NamedCurves__Prime239v1Holder;
+}
+namespace Org::BouncyCastle::Asn1::X9 {
+class __X962NamedCurves__C2pnb163v1Holder;
+}
+namespace Org::BouncyCastle::Asn1::X9 {
+class __X962NamedCurves__Prime239v3Holder;
+}
+namespace Org::BouncyCastle::Asn1::X9 {
+class __X962NamedCurves__C2pnb163v3Holder;
+}
+namespace Org::BouncyCastle::Asn1::X9 {
+class __X962NamedCurves__C2tnb239v1Holder;
+}
+namespace Org::BouncyCastle::Asn1::X9 {
+class __X962NamedCurves__C2tnb359v1Holder;
+}
+namespace Org::BouncyCastle::Asn1::X9 {
 class __X962NamedCurves__Prime192v3Holder;
 }
-namespace Org::BouncyCastle::Math::EC {
-class ECCurve;
+namespace Org::BouncyCastle::Asn1::X9 {
+class __X962NamedCurves__C2tnb191v3Holder;
+}
+namespace Org::BouncyCastle::Asn1::X9 {
+class __X962NamedCurves__C2pnb272w1Holder;
+}
+namespace Org::BouncyCastle::Math {
+class BigInteger;
+}
+namespace System::Collections {
+class IDictionary;
+}
+namespace Org::BouncyCastle::Asn1::X9 {
+class __X962NamedCurves__Prime256v1Holder;
+}
+namespace Org::BouncyCastle::Asn1::X9 {
+class __X962NamedCurves__Prime239v2Holder;
+}
+namespace Org::BouncyCastle::Asn1::X9 {
+class X9ECPoint;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::X9 {

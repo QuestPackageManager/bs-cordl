@@ -8,26 +8,11 @@ CORDL_MODULE_EXPORT(MultiplayerLocalInactivePlayerInGameMenuViewController)
 namespace GlobalNamespace {
 struct __MultiplayerController__State;
 }
-namespace Tweening {
-class TimeTweeningManager;
-}
-namespace GlobalNamespace {
-class MultiplayerController;
-}
-namespace UnityEngine::UI {
-class Button;
-}
-namespace UnityEngine {
-class CanvasGroup;
-}
 namespace GlobalNamespace {
 class LocalPlayerInGameMenuInitData;
 }
-namespace GlobalNamespace {
-class DisconnectPromptView;
-}
-namespace Polyglot {
-class LocalizedTextMeshProUGUI;
+namespace Tweening {
+class Tween;
 }
 namespace UnityEngine::UI {
 class Toggle;
@@ -36,19 +21,34 @@ namespace UnityEngine {
 class GameObject;
 }
 namespace GlobalNamespace {
+class DisconnectPromptView;
+}
+namespace GlobalNamespace {
 class MultiplayerLocalPlayerDisconnectHelper;
+}
+namespace HMUI {
+class ButtonBinder;
+}
+namespace UnityEngine::UI {
+class Button;
+}
+namespace Polyglot {
+class LocalizedTextMeshProUGUI;
 }
 namespace HMUI {
 class ToggleBinder;
 }
+namespace UnityEngine {
+class CanvasGroup;
+}
+namespace Tweening {
+class TimeTweeningManager;
+}
 namespace GlobalNamespace {
 class LevelBar;
 }
-namespace Tweening {
-class Tween;
-}
-namespace HMUI {
-class ButtonBinder;
+namespace GlobalNamespace {
+class MultiplayerController;
 }
 // Forward declare root types
 namespace GlobalNamespace {

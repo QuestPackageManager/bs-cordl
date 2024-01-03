@@ -2,12 +2,12 @@
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Diagnostics/Tracing/zzzz__EventSource_def.hpp"
-#include "System/zzzz__Object_def.hpp"
-#include "System/Diagnostics/Tracing/zzzz__EventSource_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
-#include "System/zzzz__Guid_def.hpp"
 #include "System/Diagnostics/Tracing/zzzz__EventLevel_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
+#include "System/Diagnostics/Tracing/zzzz__EventSource_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 #include "System/Diagnostics/Tracing/zzzz__EventKeywords_def.hpp"
+#include "System/zzzz__Guid_def.hpp"
 //  Writing Method size for method: ::System::Diagnostics::Tracing::__EventSource__EventData.set_DataPointer
 template <>
 

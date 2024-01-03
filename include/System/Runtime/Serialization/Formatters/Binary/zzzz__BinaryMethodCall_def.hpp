@@ -8,10 +8,10 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(BinaryMethodCall)
 namespace System {
-class Object;
+class Type;
 }
 namespace System {
-class Type;
+class Object;
 }
 namespace System::Runtime::Serialization::Formatters::Binary {
 class __BinaryWriter;
@@ -26,7 +26,7 @@ MARK_REF_PTR_T(::System::Runtime::Serialization::Formatters::Binary::BinaryMetho
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization::Formatters::Binary {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3300)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3300))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3262))
 // CS Name: ::System.Runtime.Serialization.Formatters.Binary::BinaryMethodCall*
 class CORDL_TYPE BinaryMethodCall : public ::System::Object {

@@ -8,34 +8,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(PgpSignature)
 namespace Org::BouncyCastle::Bcpg {
-class TrustPacket;
-}
-namespace Org::BouncyCastle::Bcpg {
-class SignaturePacket;
-}
-namespace Org::BouncyCastle::Bcpg {
 class SignatureSubpacket;
-}
-namespace System::IO {
-class Stream;
-}
-namespace Org::BouncyCastle::Bcpg::OpenPgp {
-class PgpUserAttributeSubpacketVector;
-}
-namespace Org::BouncyCastle::Bcpg {
-struct PublicKeyAlgorithmTag;
 }
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
 class PgpPublicKey;
 }
-namespace Org::BouncyCastle::Bcpg::OpenPgp {
-class PgpSignatureSubpacketVector;
+namespace Org::BouncyCastle::Bcpg {
+struct PublicKeyAlgorithmTag;
 }
 namespace Org::BouncyCastle::Bcpg {
-class BcpgInputStream;
+struct HashAlgorithmTag;
 }
-namespace Org::BouncyCastle::Bcpg {
-class Packet;
+namespace System::IO {
+class Stream;
 }
 namespace System {
 struct DateTime;
@@ -43,8 +28,23 @@ struct DateTime;
 namespace Org::BouncyCastle::Crypto {
 class ISigner;
 }
+namespace Org::BouncyCastle::Bcpg::OpenPgp {
+class PgpSignatureSubpacketVector;
+}
 namespace Org::BouncyCastle::Bcpg {
-struct HashAlgorithmTag;
+class TrustPacket;
+}
+namespace Org::BouncyCastle::Bcpg {
+class Packet;
+}
+namespace Org::BouncyCastle::Bcpg {
+class SignaturePacket;
+}
+namespace Org::BouncyCastle::Bcpg {
+class BcpgInputStream;
+}
+namespace Org::BouncyCastle::Bcpg::OpenPgp {
+class PgpUserAttributeSubpacketVector;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Bcpg::OpenPgp {

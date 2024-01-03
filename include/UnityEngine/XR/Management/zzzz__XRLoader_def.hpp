@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__ScriptableObject_def.hpp"
 CORDL_MODULE_EXPORT(XRLoader)
-namespace UnityEngine::Rendering {
-struct GraphicsDeviceType;
-}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
+}
+namespace UnityEngine::Rendering {
+struct GraphicsDeviceType;
 }
 // Forward declare root types
 namespace UnityEngine::XR::Management {

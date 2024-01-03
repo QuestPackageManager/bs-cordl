@@ -3,8 +3,8 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__MissionObjectiveChecker_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
-#include "GlobalNamespace/zzzz__MissionObjectiveChecker_def.hpp"
 #include "GlobalNamespace/zzzz__MissionObjectiveTypeSO_def.hpp"
+#include "GlobalNamespace/zzzz__MissionObjectiveChecker_def.hpp"
 #include "GlobalNamespace/zzzz__MissionObjective_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::GlobalNamespace::__MissionObjectiveChecker__Status::__MissionObjectiveChecker__Status(int32_t value__) noexcept {

@@ -11,6 +11,12 @@ CORDL_MODULE_EXPORT(BinaryWriter)
 namespace System::Text {
 class Encoding;
 }
+namespace System::Threading::Tasks {
+struct ValueTask;
+}
+namespace System {
+class IAsyncDisposable;
+}
 namespace System {
 class IDisposable;
 }
@@ -19,12 +25,6 @@ class Stream;
 }
 namespace System::Text {
 class Encoder;
-}
-namespace System {
-class IAsyncDisposable;
-}
-namespace System::Threading::Tasks {
-struct ValueTask;
 }
 // Forward declare root types
 namespace System::IO {

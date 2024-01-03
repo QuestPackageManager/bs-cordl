@@ -14,16 +14,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Enum)
 namespace System {
-class Object;
+class Array;
 }
 namespace System {
-struct TypeCode;
-}
-namespace System {
-class IFormattable;
-}
-namespace System {
-class IConvertible;
+class Type;
 }
 namespace System {
 class __Enum__ValuesAndNames;
@@ -32,7 +26,25 @@ namespace System {
 struct DateTime;
 }
 namespace System {
-class Array;
+class IConvertible;
+}
+namespace System {
+class Object;
+}
+namespace System {
+struct Decimal;
+}
+namespace System {
+class RuntimeType;
+}
+namespace System {
+struct TypeCode;
+}
+namespace System {
+class IComparable;
+}
+namespace System {
+struct __Enum__EnumResult;
 }
 namespace System {
 struct __Enum__ParseFailureKind;
@@ -41,19 +53,7 @@ namespace System {
 class IFormatProvider;
 }
 namespace System {
-struct __Enum__EnumResult;
-}
-namespace System {
-struct Decimal;
-}
-namespace System {
-class Type;
-}
-namespace System {
-class IComparable;
-}
-namespace System {
-class RuntimeType;
+class IFormattable;
 }
 namespace System {
 class Exception;

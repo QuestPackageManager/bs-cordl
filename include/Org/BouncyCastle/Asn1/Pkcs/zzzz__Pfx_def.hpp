@@ -8,7 +8,7 @@ namespace System {
 class Object;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
+class Asn1Object;
 }
 namespace Org::BouncyCastle::Asn1::Pkcs {
 class MacData;
@@ -17,7 +17,7 @@ namespace Org::BouncyCastle::Asn1::Pkcs {
 class ContentInfo;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
+class Asn1Sequence;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Pkcs {

@@ -7,7 +7,10 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(NoteBasicCutInfoHelper)
 namespace UnityEngine {
-struct Vector3;
+class Transform;
+}
+namespace GlobalNamespace {
+struct NoteCutDirection;
 }
 namespace GlobalNamespace {
 struct SaberType;
@@ -16,10 +19,7 @@ namespace GlobalNamespace {
 struct ColorType;
 }
 namespace UnityEngine {
-class Transform;
-}
-namespace GlobalNamespace {
-struct NoteCutDirection;
+struct Vector3;
 }
 // Forward declare root types
 namespace GlobalNamespace {

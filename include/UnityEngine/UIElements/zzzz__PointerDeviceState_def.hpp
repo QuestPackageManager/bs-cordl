@@ -9,20 +9,20 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(PointerDeviceState)
+namespace UnityEngine::UIElements {
+struct __PointerDeviceState__PointerLocation;
+}
 namespace UnityEngine {
 struct Vector2;
-}
-namespace UnityEngine::UIElements {
-struct __PointerDeviceState__LocationFlag;
 }
 namespace UnityEngine::UIElements {
 struct ContextType;
 }
 namespace UnityEngine::UIElements {
-struct __PointerDeviceState__PointerLocation;
+class IPanel;
 }
 namespace UnityEngine::UIElements {
-class IPanel;
+struct __PointerDeviceState__LocationFlag;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -92,7 +92,7 @@ static_assert(offsetof(::UnityEngine::UIElements::__PointerDeviceState__Location
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7158)), TypeDefinitionIndex(TypeDefinitionIndex(10243))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(7158))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7159))
 // CS Name: ::PointerDeviceState::PointerLocation
 struct CORDL_TYPE __PointerDeviceState__PointerLocation {

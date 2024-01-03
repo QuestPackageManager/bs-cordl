@@ -7,19 +7,7 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(EventBasedNetListener)
 namespace LiteNetLib {
-class __EventBasedNetListener__OnConnectionRequest;
-}
-namespace LiteNetLib {
-class NetPacketReader;
-}
-namespace LiteNetLib {
-class __EventBasedNetListener__OnDeliveryEvent;
-}
-namespace LiteNetLib {
-struct DeliveryMethod;
-}
-namespace LiteNetLib {
-class __EventBasedNetListener__OnPeerDisconnected;
+class ConnectionRequest;
 }
 namespace System::Net::Sockets {
 struct SocketError;
@@ -28,40 +16,52 @@ namespace LiteNetLib {
 class __EventBasedNetListener__OnNetworkReceive;
 }
 namespace LiteNetLib {
-class NetPeer;
+class __EventBasedNetListener__OnNetworkReceiveUnconnected;
 }
 namespace LiteNetLib {
-struct DisconnectInfo;
+class __EventBasedNetListener__OnConnectionRequest;
+}
+namespace LiteNetLib {
+class __EventBasedNetListener__OnDeliveryEvent;
 }
 namespace LiteNetLib {
 class IDeliveryEventListener;
 }
 namespace LiteNetLib {
-struct UnconnectedMessageType;
+class NetPeer;
 }
 namespace LiteNetLib {
-class ConnectionRequest;
-}
-namespace LiteNetLib {
-class __EventBasedNetListener__OnPeerConnected;
-}
-namespace LiteNetLib {
-class __EventBasedNetListener__OnNetworkError;
+class INetEventListener;
 }
 namespace System {
 class Object;
 }
 namespace LiteNetLib {
-class __EventBasedNetListener__OnNetworkReceiveUnconnected;
+class __EventBasedNetListener__OnPeerDisconnected;
+}
+namespace LiteNetLib {
+class NetPacketReader;
+}
+namespace LiteNetLib {
+class __EventBasedNetListener__OnNetworkError;
 }
 namespace System::Net {
 class IPEndPoint;
 }
 namespace LiteNetLib {
-class __EventBasedNetListener__OnNetworkLatencyUpdate;
+struct DeliveryMethod;
 }
 namespace LiteNetLib {
-class INetEventListener;
+struct DisconnectInfo;
+}
+namespace LiteNetLib {
+struct UnconnectedMessageType;
+}
+namespace LiteNetLib {
+class __EventBasedNetListener__OnPeerConnected;
+}
+namespace LiteNetLib {
+class __EventBasedNetListener__OnNetworkLatencyUpdate;
 }
 namespace System {
 class AsyncCallback;

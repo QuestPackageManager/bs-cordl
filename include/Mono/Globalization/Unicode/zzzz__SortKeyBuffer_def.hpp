@@ -10,10 +10,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(SortKeyBuffer)
 namespace System::Globalization {
-class SortKey;
+struct CompareOptions;
 }
 namespace System::Globalization {
-struct CompareOptions;
+class SortKey;
 }
 // Forward declare root types
 namespace Mono::Globalization::Unicode {

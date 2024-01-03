@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "HMUI/zzzz__VerticalScrollIndicator_def.hpp"
-#include "UnityEngine/zzzz__AnimationClip_def.hpp"
 #include "UnityEngine/zzzz__RectTransform_def.hpp"
+#include "UnityEngine/zzzz__AnimationClip_def.hpp"
 //  Writing Method size for method: ::HMUI::VerticalScrollIndicator.set_progress
 template <>
 

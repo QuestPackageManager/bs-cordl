@@ -15,8 +15,8 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_PreAssetEvent);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10465), inst: 5238 }), TypeDefinitionIndex(TypeDefinitionIndex(10465)),
-// TypeDefinitionIndex(TypeDefinitionIndex(9599))} Self: TypeDefinitionIndex(TypeDefinitionIndex(9606)) CS Name: ::HoudiniEngineUnity::HEU_PreAssetEvent*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9599)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10465), inst: 5238 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(10465))} Self: TypeDefinitionIndex(TypeDefinitionIndex(9606)) CS Name: ::HoudiniEngineUnity::HEU_PreAssetEvent*
 class CORDL_TYPE HEU_PreAssetEvent : public ::UnityEngine::Events::UnityEvent_1<::HoudiniEngineUnity::HEU_PreAssetEventData*> {
 public:
   // Declarations

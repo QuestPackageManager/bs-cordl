@@ -7,17 +7,17 @@ CORDL_MODULE_EXPORT(PollRepContent)
 namespace Org::BouncyCastle::Asn1 {
 class DerInteger;
 }
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
+namespace Org::BouncyCastle::Asn1::Cmp {
+class PkiFreeText;
 }
 namespace System {
 class Object;
 }
-namespace Org::BouncyCastle::Asn1::Cmp {
-class PkiFreeText;
-}
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Sequence;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Cmp {

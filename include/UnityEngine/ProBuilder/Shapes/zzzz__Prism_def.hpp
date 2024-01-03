@@ -10,14 +10,14 @@ struct Bounds;
 namespace UnityEngine {
 struct Vector3;
 }
-namespace UnityEngine {
-struct Quaternion;
+namespace UnityEngine::ProBuilder {
+class ProBuilderMesh;
 }
 namespace UnityEngine::ProBuilder::Shapes {
 class Shape;
 }
-namespace UnityEngine::ProBuilder {
-class ProBuilderMesh;
+namespace UnityEngine {
+struct Quaternion;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder::Shapes {

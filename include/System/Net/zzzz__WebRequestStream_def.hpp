@@ -15,58 +15,58 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(WebRequestStream)
 namespace System::Net {
-class BufferOffsetSize;
-}
-namespace System::Threading::Tasks {
-class Task;
+struct __WebRequestStream___Initialize_d__36;
 }
 namespace System::Net {
-struct __WebRequestStream___WriteAsyncInner_d__33;
-}
-namespace System::Threading {
-struct CancellationToken;
-}
-namespace System::Net {
-class WebConnectionTunnel;
-}
-namespace System::Net {
-struct __WebRequestStream___FinishWriting_d__31;
-}
-namespace System::Net {
-class WebOperation;
-}
-namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
+struct __WebRequestStream___SetHeadersAsync_d__37;
 }
 namespace System::IO {
 class Stream;
 }
 namespace System::Net {
-struct __WebRequestStream___SetHeadersAsync_d__37;
-}
-namespace System::Net {
-struct __WebRequestStream___ProcessWrite_d__34;
-}
-namespace System::Net {
-struct __WebRequestStream___Initialize_d__36;
-}
-namespace System::Net {
-class WebConnection;
-}
-namespace System::Net {
-struct __WebRequestStream___WriteChunkTrailer_d__40;
-}
-namespace System::IO {
-class MemoryStream;
-}
-namespace System::Net {
-struct __WebRequestStream___WriteRequestAsync_d__38;
+struct __WebRequestStream___WriteAsyncInner_d__33;
 }
 namespace System::Net {
 struct __WebRequestStream___WriteChunkTrailer_inner_d__39;
 }
 namespace System::Net {
+struct __WebRequestStream___WriteChunkTrailer_d__40;
+}
+namespace System::Net {
+class WebOperation;
+}
+namespace System::Net {
+struct __WebRequestStream___FinishWriting_d__31;
+}
+namespace System::Net {
+struct __WebRequestStream___ProcessWrite_d__34;
+}
+namespace System::Net {
+class WebConnection;
+}
+namespace System::Threading {
+struct CancellationToken;
+}
+namespace System::Threading::Tasks {
+class Task;
+}
+namespace System::Net {
+struct __WebRequestStream___WriteRequestAsync_d__38;
+}
+namespace System::IO {
+class MemoryStream;
+}
+namespace System::Net {
+class WebConnectionTunnel;
+}
+namespace System::Net {
+class BufferOffsetSize;
+}
+namespace System::Net {
 class WebCompletionSource;
+}
+namespace System::Threading::Tasks {
+template <typename TResult> class Task_1;
 }
 namespace System::Runtime::CompilerServices {
 struct AsyncTaskMethodBuilder;
@@ -80,11 +80,11 @@ class IAsyncStateMachine;
 namespace System::Runtime::CompilerServices {
 struct TaskAwaiter;
 }
-namespace System::Runtime::CompilerServices {
-template <typename TResult> struct __ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter;
-}
 namespace System::Threading {
 class CancellationTokenSource;
+}
+namespace System::Runtime::CompilerServices {
+template <typename TResult> struct __ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter;
 }
 // Forward declare root types
 namespace System::Net {
@@ -128,7 +128,7 @@ MARK_VAL_T(::System::Net::__WebRequestStream___WriteRequestAsync_d__38);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3401)), TypeDefinitionIndex(TypeDefinitionIndex(3395))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3395)), TypeDefinitionIndex(TypeDefinitionIndex(3401)), TypeDefinitionIndex(TypeDefinitionIndex(2677))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9230))
 // CS Name: ::WebRequestStream::<FinishWriting>d__31
 struct CORDL_TYPE __WebRequestStream___FinishWriting_d__31 {
@@ -193,8 +193,8 @@ static_assert(offsetof(::System::Net::__WebRequestStream___FinishWriting_d__31, 
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3401)), TypeDefinitionIndex(TypeDefinitionIndex(3395)), TypeDefinitionIndex(TypeDefinitionIndex(2677)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3393))} Self: TypeDefinitionIndex(TypeDefinitionIndex(9231)) CS Name: ::WebRequestStream::<WriteAsyncInner>d__33
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3395)), TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3393)),
+// TypeDefinitionIndex(TypeDefinitionIndex(3401))} Self: TypeDefinitionIndex(TypeDefinitionIndex(9231)) CS Name: ::WebRequestStream::<WriteAsyncInner>d__33
 struct CORDL_TYPE __WebRequestStream___WriteAsyncInner_d__33 {
 public:
   // Declarations
@@ -367,8 +367,8 @@ static_assert(offsetof(::System::Net::__WebRequestStream___ProcessWrite_d__34, _
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3393)), TypeDefinitionIndex(TypeDefinitionIndex(3395)), TypeDefinitionIndex(TypeDefinitionIndex(3401)),
-// TypeDefinitionIndex(TypeDefinitionIndex(2677))} Self: TypeDefinitionIndex(TypeDefinitionIndex(9233)) CS Name: ::WebRequestStream::<Initialize>d__36
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3393)), TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3401)),
+// TypeDefinitionIndex(TypeDefinitionIndex(3395))} Self: TypeDefinitionIndex(TypeDefinitionIndex(9233)) CS Name: ::WebRequestStream::<Initialize>d__36
 struct CORDL_TYPE __WebRequestStream___Initialize_d__36 {
 public:
   // Declarations
@@ -438,7 +438,7 @@ static_assert(offsetof(::System::Net::__WebRequestStream___Initialize_d__36, __u
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3395)), TypeDefinitionIndex(TypeDefinitionIndex(3401)), TypeDefinitionIndex(TypeDefinitionIndex(2677))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3401)), TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3395))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9234))
 // CS Name: ::WebRequestStream::<SetHeadersAsync>d__37
 struct CORDL_TYPE __WebRequestStream___SetHeadersAsync_d__37 {
@@ -508,8 +508,8 @@ static_assert(offsetof(::System::Net::__WebRequestStream___SetHeadersAsync_d__37
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3395)), TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3393)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3401))} Self: TypeDefinitionIndex(TypeDefinitionIndex(9235)) CS Name: ::WebRequestStream::<WriteRequestAsync>d__38
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3401)), TypeDefinitionIndex(TypeDefinitionIndex(3393)), TypeDefinitionIndex(TypeDefinitionIndex(3395)),
+// TypeDefinitionIndex(TypeDefinitionIndex(2677))} Self: TypeDefinitionIndex(TypeDefinitionIndex(9235)) CS Name: ::WebRequestStream::<WriteRequestAsync>d__38
 struct CORDL_TYPE __WebRequestStream___WriteRequestAsync_d__38 {
 public:
   // Declarations
@@ -584,7 +584,7 @@ static_assert(offsetof(::System::Net::__WebRequestStream___WriteRequestAsync_d__
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3395)), TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3401))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3401)), TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3395))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9236))
 // CS Name: ::WebRequestStream::<WriteChunkTrailer_inner>d__39
 struct CORDL_TYPE __WebRequestStream___WriteChunkTrailer_inner_d__39 {
@@ -649,9 +649,9 @@ static_assert(offsetof(::System::Net::__WebRequestStream___WriteChunkTrailer_inn
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3395)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 400 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(3397)), TypeDefinitionIndex(TypeDefinitionIndex(3401)), TypeDefinitionIndex(TypeDefinitionIndex(2787))} Self: TypeDefinitionIndex(TypeDefinitionIndex(9237))
-// CS Name: ::WebRequestStream::<WriteChunkTrailer>d__40
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3397)), TypeDefinitionIndex(TypeDefinitionIndex(3395)), TypeDefinitionIndex(TypeDefinitionIndex(3401)),
+// TypeDefinitionIndex(TypeDefinitionIndex(2787)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 400 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(9237)) CS
+// Name: ::WebRequestStream::<WriteChunkTrailer>d__40
 struct CORDL_TYPE __WebRequestStream___WriteChunkTrailer_d__40 {
 public:
   // Declarations

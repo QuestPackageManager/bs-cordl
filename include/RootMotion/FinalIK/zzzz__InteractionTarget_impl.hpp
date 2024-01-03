@@ -6,10 +6,10 @@
 #include "UnityEngine/zzzz__Quaternion_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "RootMotion/FinalIK/zzzz__InteractionTarget_def.hpp"
+#include "UnityEngine/zzzz__Transform_def.hpp"
+#include "RootMotion/FinalIK/zzzz__InteractionTarget_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "RootMotion/FinalIK/zzzz__InteractionObject_def.hpp"
-#include "RootMotion/FinalIK/zzzz__InteractionTarget_def.hpp"
-#include "UnityEngine/zzzz__Transform_def.hpp"
 //  Writing Method size for method: ::RootMotion::FinalIK::__InteractionTarget__Multiplier._ctor
 template <>
 

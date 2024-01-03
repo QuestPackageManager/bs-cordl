@@ -7,8 +7,8 @@ CORDL_MODULE_EXPORT(Request)
 namespace Org::BouncyCastle::Asn1::X509 {
 class X509Extensions;
 }
-namespace Org::BouncyCastle::Asn1::Ocsp {
-class CertID;
+namespace System {
+class Object;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1TaggedObject;
@@ -16,8 +16,8 @@ class Asn1TaggedObject;
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
 }
-namespace System {
-class Object;
+namespace Org::BouncyCastle::Asn1::Ocsp {
+class CertID;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;

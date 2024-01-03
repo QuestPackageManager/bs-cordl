@@ -14,14 +14,17 @@ CORDL_MODULE_EXPORT(DynamicBone)
 namespace UnityEngine {
 struct Vector3;
 }
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
 namespace UnityEngine {
 class AnimationCurve;
 }
 namespace GlobalNamespace {
-struct __DynamicBone__UpdateMode;
+class DynamicBoneColliderBase;
 }
 namespace GlobalNamespace {
-class __DynamicBone__Particle;
+struct __DynamicBone__UpdateMode;
 }
 namespace GlobalNamespace {
 struct __DynamicBone__FreezeAxis;
@@ -29,11 +32,8 @@ struct __DynamicBone__FreezeAxis;
 namespace UnityEngine {
 class Transform;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
 namespace GlobalNamespace {
-class DynamicBoneColliderBase;
+class __DynamicBone__Particle;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -169,7 +169,7 @@ static_assert(offsetof(::GlobalNamespace::__DynamicBone__FreezeAxis, value__) ==
 // SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 116, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(16044))
 // CS Name: ::DynamicBone::Particle*
 class CORDL_TYPE __DynamicBone__Particle : public ::System::Object {
@@ -386,8 +386,8 @@ static_assert(offsetof(::GlobalNamespace::__DynamicBone__Particle, ___m_InitLoca
 // SizeInfo { instance_size: 264, native_size: -1, calculated_instance_size: 264, calculated_native_size: 264, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(16042)), TypeDefinitionIndex(TypeDefinitionIndex(16043)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10249))} Self: TypeDefinitionIndex(TypeDefinitionIndex(16045)) CS Name: ::DynamicBone*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(16042)), TypeDefinitionIndex(TypeDefinitionIndex(10249)),
+// TypeDefinitionIndex(TypeDefinitionIndex(16043))} Self: TypeDefinitionIndex(TypeDefinitionIndex(16045)) CS Name: ::DynamicBone*
 class CORDL_TYPE DynamicBone : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations

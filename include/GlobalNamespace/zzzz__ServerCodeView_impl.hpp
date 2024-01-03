@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__ServerCodeView_def.hpp"
-#include "HMUI/zzzz__ButtonBinder_def.hpp"
 #include "TMPro/zzzz__TextMeshProUGUI_def.hpp"
+#include "HMUI/zzzz__ButtonBinder_def.hpp"
 #include "UnityEngine/UI/zzzz__Button_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::ServerCodeView.SetCode
 template <>

@@ -13,25 +13,13 @@ namespace System::Collections {
 class IEnumerator;
 }
 namespace GlobalNamespace {
+class __MultiplayerIntroCountdown____c__DisplayClass25_0;
+}
+namespace GlobalNamespace {
 class __MultiplayerIntroCountdown___PhaseRoutine_d__25;
 }
 namespace GlobalNamespace {
-class __MultiplayerIntroCountdown___CountdownRoutine_d__23;
-}
-namespace UnityEngine {
-class AudioSource;
-}
-namespace Tweening {
-class TimeTweeningManager;
-}
-namespace GlobalNamespace {
 class MultiplayerOffsetPositionByLocalPlayerPosition;
-}
-namespace GlobalNamespace {
-class MultiplayerIntroCountdownTextController;
-}
-namespace GlobalNamespace {
-class __MultiplayerIntroCountdown____c__DisplayClass25_0;
 }
 namespace GlobalNamespace {
 class __MultiplayerIntroCountdown___PlayDelayed_d__24;
@@ -39,14 +27,26 @@ class __MultiplayerIntroCountdown___PlayDelayed_d__24;
 namespace UnityEngine {
 class AudioClip;
 }
+namespace GlobalNamespace {
+class MultiplayerIntroCountdownTextController;
+}
+namespace GlobalNamespace {
+class __MultiplayerIntroCountdown___CountdownRoutine_d__23;
+}
+namespace Tweening {
+class TimeTweeningManager;
+}
+namespace UnityEngine {
+class AudioSource;
+}
 namespace System {
 class Object;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
-}
 namespace System {
 class IDisposable;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
 }
 namespace UnityEngine {
 struct Vector3;

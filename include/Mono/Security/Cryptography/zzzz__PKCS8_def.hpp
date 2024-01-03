@@ -8,22 +8,22 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(PKCS8)
 namespace Mono::Security::Cryptography {
-class __PKCS8__PrivateKeyInfo;
-}
-namespace Mono::Security::Cryptography {
 class __PKCS8__EncryptedPrivateKeyInfo;
 }
-namespace System::Security::Cryptography {
-class DSA;
+namespace Mono::Security::Cryptography {
+class __PKCS8__PrivateKeyInfo;
+}
+namespace System::Collections {
+class ArrayList;
 }
 namespace System::Security::Cryptography {
 struct DSAParameters;
 }
 namespace System::Security::Cryptography {
-class AsymmetricAlgorithm;
+class DSA;
 }
-namespace System::Collections {
-class ArrayList;
+namespace System::Security::Cryptography {
+class AsymmetricAlgorithm;
 }
 namespace System::Security::Cryptography {
 class RSA;

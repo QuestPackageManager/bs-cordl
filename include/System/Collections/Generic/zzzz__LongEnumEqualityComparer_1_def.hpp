@@ -8,14 +8,14 @@ CORDL_MODULE_EXPORT(LongEnumEqualityComparer_1)
 namespace System::Runtime::Serialization {
 struct StreamingContext;
 }
+namespace System {
+class Object;
+}
 namespace System::Runtime::Serialization {
 class SerializationInfo;
 }
 namespace System::Runtime::Serialization {
 class ISerializable;
-}
-namespace System {
-class Object;
 }
 // Forward declare root types
 namespace System::Collections::Generic {

@@ -10,20 +10,20 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(RijndaelManagedTransform)
-namespace System {
-class IDisposable;
+namespace System::Security::Cryptography {
+class ICryptoTransform;
 }
 namespace System::Security::Cryptography {
 struct PaddingMode;
 }
 namespace System::Security::Cryptography {
-struct RijndaelManagedTransformMode;
-}
-namespace System::Security::Cryptography {
-class ICryptoTransform;
-}
-namespace System::Security::Cryptography {
 struct CipherMode;
+}
+namespace System {
+class IDisposable;
+}
+namespace System::Security::Cryptography {
+struct RijndaelManagedTransformMode;
 }
 // Forward declare root types
 namespace System::Security::Cryptography {
@@ -35,8 +35,8 @@ MARK_REF_PTR_T(::System::Security::Cryptography::RijndaelManagedTransform);
 // SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Cryptography {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2951)), TypeDefinitionIndex(TypeDefinitionIndex(2922)), TypeDefinitionIndex(TypeDefinitionIndex(2921)),
-// TypeDefinitionIndex(TypeDefinitionIndex(2613))} Self: TypeDefinitionIndex(TypeDefinitionIndex(2952)) CS Name: ::System.Security.Cryptography::RijndaelManagedTransform*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2921)), TypeDefinitionIndex(TypeDefinitionIndex(2951)), TypeDefinitionIndex(TypeDefinitionIndex(2613)),
+// TypeDefinitionIndex(TypeDefinitionIndex(2922))} Self: TypeDefinitionIndex(TypeDefinitionIndex(2952)) CS Name: ::System.Security.Cryptography::RijndaelManagedTransform*
 class CORDL_TYPE RijndaelManagedTransform : public ::System::Object {
 public:
   // Declarations

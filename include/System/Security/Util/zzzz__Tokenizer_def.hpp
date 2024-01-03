@@ -21,11 +21,11 @@ class TokenizerStream;
 namespace System::Security::Util {
 struct __Tokenizer__TokenSource;
 }
-namespace System::Security::Util {
-class __Tokenizer__StringMaker;
-}
 namespace System::Text {
 class Encoding;
+}
+namespace System::Security::Util {
+class __Tokenizer__StringMaker;
 }
 namespace System::IO {
 class StreamReader;

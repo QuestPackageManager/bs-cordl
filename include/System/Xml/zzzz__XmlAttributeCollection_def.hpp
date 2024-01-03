@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(XmlAttributeCollection)
-namespace System::Xml {
-class XmlAttribute;
-}
 namespace System {
 class Object;
+}
+namespace System::Collections {
+class ICollection;
 }
 namespace System::Xml {
 class XmlNode;
@@ -18,11 +18,11 @@ class XmlNode;
 namespace System::Collections {
 class IEnumerable;
 }
-namespace System::Collections {
-class ICollection;
-}
 namespace System {
 class Array;
+}
+namespace System::Xml {
+class XmlAttribute;
 }
 // Forward declare root types
 namespace System::Xml {

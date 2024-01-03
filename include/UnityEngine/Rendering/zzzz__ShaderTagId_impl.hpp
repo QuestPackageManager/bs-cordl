@@ -1,7 +1,7 @@
 #pragma once
 #include "UnityEngine/Rendering/zzzz__ShaderTagId_def.hpp"
-#include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Rendering::ShaderTagId._ctor
 template <>
 

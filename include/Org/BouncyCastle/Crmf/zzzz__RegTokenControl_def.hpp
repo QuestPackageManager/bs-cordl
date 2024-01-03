@@ -5,17 +5,17 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(RegTokenControl)
+namespace Org::BouncyCastle::Crmf {
+class IControl;
+}
 namespace Org::BouncyCastle::Asn1 {
 class DerUtf8String;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Encodable;
-}
-namespace Org::BouncyCastle::Asn1 {
 class DerObjectIdentifier;
 }
-namespace Org::BouncyCastle::Crmf {
-class IControl;
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Encodable;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crmf {

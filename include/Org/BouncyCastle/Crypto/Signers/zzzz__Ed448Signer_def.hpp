@@ -12,13 +12,13 @@ namespace Org::BouncyCastle::Crypto::Signers {
 class __Ed448Signer__Buffer;
 }
 namespace Org::BouncyCastle::Crypto::Parameters {
-class Ed448PrivateKeyParameters;
+class Ed448PublicKeyParameters;
 }
 namespace Org::BouncyCastle::Crypto {
 class ISigner;
 }
 namespace Org::BouncyCastle::Crypto::Parameters {
-class Ed448PublicKeyParameters;
+class Ed448PrivateKeyParameters;
 }
 namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;

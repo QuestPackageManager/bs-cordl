@@ -9,16 +9,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ZenAutoInjecter)
 namespace Zenject {
-struct __ZenAutoInjecter__ContainerSources;
+class InjectTypeInfo;
 }
 namespace Zenject {
-class DiContainer;
+struct __ZenAutoInjecter__ContainerSources;
 }
 namespace System {
 class Object;
 }
 namespace Zenject {
-class InjectTypeInfo;
+class DiContainer;
 }
 // Forward declare root types
 namespace Zenject {

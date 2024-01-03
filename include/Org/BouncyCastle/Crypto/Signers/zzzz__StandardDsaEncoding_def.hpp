@@ -6,17 +6,17 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(StandardDsaEncoding)
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
+namespace Org::BouncyCastle::Math {
+class BigInteger;
 }
 namespace Org::BouncyCastle::Crypto::Signers {
 class IDsaEncoding;
 }
 namespace Org::BouncyCastle::Asn1 {
-class DerInteger;
+class Asn1Sequence;
 }
-namespace Org::BouncyCastle::Math {
-class BigInteger;
+namespace Org::BouncyCastle::Asn1 {
+class DerInteger;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Signers {

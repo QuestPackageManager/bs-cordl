@@ -3,114 +3,112 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
+#include "UnityEngine/UIElements/zzzz__DispatchMode_def.hpp"
 #include "UnityEngine/UIElements/zzzz__PanelClearSettings_def.hpp"
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(BaseVisualElementPanel)
 namespace UnityEngine::UIElements {
-class GetViewDataDictionary;
+struct VisualTreeUpdatePhase;
 }
 namespace UnityEngine::UIElements {
-class ContextualMenuManager;
+struct VersionChangeType;
+}
+namespace UnityEngine::UIElements {
+struct HierarchyChangeType;
+}
+namespace UnityEngine {
+class ScriptableObject;
+}
+namespace UnityEngine::UIElements {
+class GetViewDataDictionary;
+}
+namespace System {
+class Action;
+}
+namespace UnityEngine::UIElements {
+class ICursorManager;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace UnityEngine::UIElements {
+class IStylePropertyAnimationSystem;
+}
+namespace UnityEngine::UIElements {
+class RepaintData;
+}
+namespace UnityEngine::UIElements {
+class FocusController;
+}
+namespace UnityEngine::UIElements {
+class VisualElement;
+}
+namespace System {
+class IDisposable;
+}
+namespace UnityEngine::UIElements {
+class IMGUIContainer;
+}
+namespace UnityEngine::UIElements {
+class EventDispatcher;
+}
+namespace UnityEngine::UIElements {
+struct ContextType;
+}
+namespace UnityEngine::UIElements {
+class EventBase;
+}
+namespace UnityEngine::UIElements {
+class AtlasBase;
+}
+namespace UnityEngine::UIElements {
+class ElementUnderPointer;
+}
+namespace UnityEngine {
+struct EventInterests;
+}
+namespace UnityEngine::UIElements {
+struct PanelClearSettings;
+}
+namespace UnityEngine {
+class Event;
+}
+namespace UnityEngine::UIElements {
+class IPanel;
+}
+namespace UnityEngine::UIElements {
+class SavePersistentViewData;
+}
+namespace UnityEngine::UIElements {
+class HierarchyEvent;
+}
+namespace UnityEngine::UIElements {
+class IScheduler;
+}
+namespace UnityEngine {
+class Shader;
 }
 namespace System {
 template <typename T> class Action_1;
 }
+namespace UnityEngine::Yoga {
+class YogaConfig;
+}
 namespace UnityEngine::UIElements {
-class ICursorManager;
+class ContextualMenuManager;
+}
+namespace UnityEngine {
+struct Vector2;
+}
+namespace UnityEngine::UIElements {
+class IVisualTreeUpdater;
 }
 namespace UnityEngine {
 class Material;
 }
 namespace UnityEngine::UIElements {
 class IGroupBox;
-}
-namespace UnityEngine::UIElements {
-class EventBase;
-}
-namespace System {
-class Action;
-}
-namespace UnityEngine {
-struct EventInterests;
-}
-namespace UnityEngine::UIElements {
-class IScheduler;
-}
-namespace UnityEngine {
-class Event;
-}
-namespace UnityEngine::UIElements {
-struct VersionChangeType;
-}
-namespace UnityEngine::UIElements {
-class IPanel;
-}
-namespace UnityEngine::UIElements {
-class EventDispatcher;
-}
-namespace UnityEngine {
-class Shader;
-}
-namespace UnityEngine::UIElements {
-struct VisualTreeUpdatePhase;
-}
-namespace UnityEngine::UIElements {
-class VisualElement;
-}
-namespace UnityEngine::UIElements {
-struct ContextType;
-}
-namespace UnityEngine {
-class ScriptableObject;
-}
-namespace UnityEngine::UIElements {
-class SavePersistentViewData;
-}
-namespace UnityEngine::UIElements {
-struct DispatchMode;
-}
-namespace UnityEngine::UIElements {
-class IStylePropertyAnimationSystem;
-}
-namespace System {
-class IDisposable;
-}
-namespace UnityEngine::UIElements {
-class FocusController;
-}
-namespace UnityEngine::UIElements {
-class IMGUIContainer;
-}
-namespace UnityEngine::Yoga {
-class YogaConfig;
-}
-namespace UnityEngine::UIElements {
-class HierarchyEvent;
-}
-namespace UnityEngine::UIElements {
-class AtlasBase;
-}
-namespace UnityEngine::UIElements {
-struct PanelClearSettings;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace UnityEngine {
-struct Vector2;
-}
-namespace UnityEngine::UIElements {
-class ElementUnderPointer;
-}
-namespace UnityEngine::UIElements {
-class IVisualTreeUpdater;
-}
-namespace UnityEngine::UIElements {
-struct HierarchyChangeType;
-}
-namespace UnityEngine::UIElements {
-class RepaintData;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -122,7 +120,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::BaseVisualElementPanel);
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6866)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(6911)), TypeDefinitionIndex(TypeDefinitionIndex(6866))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6870))
 // CS Name: ::UnityEngine.UIElements::BaseVisualElementPanel*
 class CORDL_TYPE BaseVisualElementPanel : public ::System::Object {

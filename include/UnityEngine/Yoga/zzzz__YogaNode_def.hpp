@@ -10,65 +10,65 @@ CORDL_MODULE_EXPORT(YogaNode)
 namespace System {
 class WeakReference;
 }
-namespace UnityEngine::Yoga {
-class MeasureFunction;
-}
-namespace UnityEngine::Yoga {
-struct YogaAlign;
-}
-namespace UnityEngine::Yoga {
-struct YogaFlexDirection;
-}
-namespace UnityEngine::Yoga {
-struct YogaEdge;
-}
-namespace UnityEngine::Yoga {
-struct YogaMeasureMode;
-}
-namespace UnityEngine::Yoga {
-struct YogaWrap;
-}
-namespace UnityEngine::Yoga {
-struct YogaValue;
-}
-namespace UnityEngine::Yoga {
-class BaselineFunction;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
 }
 namespace UnityEngine::Yoga {
 struct YogaSize;
 }
 namespace UnityEngine::Yoga {
-class YogaConfig;
+struct YogaAlign;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace UnityEngine::Yoga {
+struct YogaMeasureMode;
 }
 namespace System::Collections {
 class IEnumerable;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
+}
+namespace UnityEngine::Yoga {
+struct YogaWrap;
+}
+namespace System {
+class Object;
 }
 namespace UnityEngine::Yoga {
 struct YogaDisplay;
 }
 namespace UnityEngine::Yoga {
+class MeasureFunction;
+}
+namespace UnityEngine::Yoga {
 struct YogaOverflow;
+}
+namespace UnityEngine::Yoga {
+class YogaConfig;
 }
 namespace System::Collections {
 class IEnumerator;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
-}
-namespace System {
-class Object;
+namespace UnityEngine::Yoga {
+class BaselineFunction;
 }
 namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
+template <typename T> class List_1;
+}
+namespace UnityEngine::Yoga {
+struct YogaValue;
+}
+namespace UnityEngine::Yoga {
+struct YogaFlexDirection;
+}
+namespace UnityEngine::Yoga {
+struct YogaPositionType;
 }
 namespace UnityEngine::Yoga {
 struct YogaJustify;
 }
 namespace UnityEngine::Yoga {
-struct YogaPositionType;
+struct YogaEdge;
 }
 // Forward declare root types
 namespace UnityEngine::Yoga {

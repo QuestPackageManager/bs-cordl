@@ -16,19 +16,19 @@ namespace UnityEngine::UIElements::StyleSheets {
 struct MatchResultInfo;
 }
 namespace UnityEngine::UIElements {
-class __UQuery__SingleQueryMatcher;
+class __UQuery__IVisualPredicateWrapper;
 }
 namespace UnityEngine::UIElements {
-class __UQuery__FirstQueryMatcher;
+class __UQuery__UQueryMatcher;
 }
 namespace UnityEngine::UIElements {
 template <typename T> class __UQuery__IsOfType_1;
 }
 namespace UnityEngine::UIElements {
-class __UQuery__IVisualPredicateWrapper;
+class __UQuery__SingleQueryMatcher;
 }
 namespace UnityEngine::UIElements {
-class __UQuery__UQueryMatcher;
+class __UQuery__FirstQueryMatcher;
 }
 namespace UnityEngine::UIElements {
 struct RuleMatcher;

@@ -8,25 +8,25 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(MultiplayerLocalInactivePlayerSongSyncController)
 namespace GlobalNamespace {
+class IMultiplayerSessionManager;
+}
+namespace GlobalNamespace {
 class IStartSeekSongController;
 }
 namespace GlobalNamespace {
 class IMultiplayerObservable;
 }
 namespace GlobalNamespace {
-class CrossFadeAudioSource;
-}
-namespace UnityEngine {
-class WaitUntil;
+class IVRPlatformHelper;
 }
 namespace GlobalNamespace {
 class __MultiplayerLocalInactivePlayerSongSyncController__InitData;
 }
 namespace GlobalNamespace {
-class IVRPlatformHelper;
+class CrossFadeAudioSource;
 }
-namespace GlobalNamespace {
-class IMultiplayerSessionManager;
+namespace UnityEngine {
+class WaitUntil;
 }
 namespace GlobalNamespace {
 class FloatSO;

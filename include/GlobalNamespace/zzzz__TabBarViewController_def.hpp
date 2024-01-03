@@ -8,14 +8,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(TabBarViewController)
+namespace HMUI {
+class TextSegmentedControl;
+}
 namespace UnityEngine::UI {
 class ContentSizeFitter;
 }
 namespace GlobalNamespace {
 class __TabBarViewController__TabBarItem;
-}
-namespace HMUI {
-class TextSegmentedControl;
 }
 namespace HMUI {
 class SegmentedControl;

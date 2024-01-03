@@ -12,16 +12,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(BloomPrePassBackgroundColorsGradientFromColorSchemeColors)
 namespace GlobalNamespace {
-class EnvironmentColorManager;
+class BloomPrePassBackgroundColorsGradient;
+}
+namespace GlobalNamespace {
+class __BloomPrePassBackgroundColorsGradientFromColorSchemeColors__Element;
 }
 namespace GlobalNamespace {
 struct __BloomPrePassBackgroundColorsGradientFromColorSchemeColors__EnvironmentColor;
 }
 namespace GlobalNamespace {
-class BloomPrePassBackgroundColorsGradient;
-}
-namespace GlobalNamespace {
-class __BloomPrePassBackgroundColorsGradientFromColorSchemeColors__Element;
+class EnvironmentColorManager;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -99,7 +99,7 @@ static_assert(offsetof(::GlobalNamespace::__BloomPrePassBackgroundColorsGradient
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(5824)), TypeDefinitionIndex(TypeDefinitionIndex(10251))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(5824))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5823))
 // CS Name: ::BloomPrePassBackgroundColorsGradientFromColorSchemeColors::Element*
 class CORDL_TYPE __BloomPrePassBackgroundColorsGradientFromColorSchemeColors__Element : public ::System::Object {

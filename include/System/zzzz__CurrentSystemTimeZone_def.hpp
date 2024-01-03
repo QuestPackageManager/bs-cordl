@@ -8,17 +8,17 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(CurrentSystemTimeZone)
-namespace System::Collections {
-class Hashtable;
+namespace System {
+struct DateTime;
 }
 namespace System::Globalization {
 class DaylightTime;
 }
 namespace System {
-struct DateTime;
-}
-namespace System {
 struct TimeSpan;
+}
+namespace System::Collections {
+class Hashtable;
 }
 // Forward declare root types
 namespace System {

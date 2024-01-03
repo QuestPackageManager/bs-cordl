@@ -11,10 +11,10 @@ namespace System {
 class Type;
 }
 namespace UnityEngine {
-class AssetBundleRequest;
+class Object;
 }
 namespace UnityEngine {
-class Object;
+class AssetBundleRequest;
 }
 namespace UnityEngine {
 class AssetBundleCreateRequest;

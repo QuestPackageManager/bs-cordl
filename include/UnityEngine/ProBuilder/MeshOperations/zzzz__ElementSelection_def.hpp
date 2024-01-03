@@ -9,41 +9,26 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(ElementSelection)
-namespace System::Collections::Generic {
-template <typename T> class HashSet_1;
-}
 namespace UnityEngine::ProBuilder {
-struct Edge;
-}
-namespace UnityEngine::ProBuilder {
-class Face;
+struct EdgeLookup;
 }
 namespace System::Collections::Generic {
 template <typename T> class IList_1;
 }
 namespace UnityEngine::ProBuilder::MeshOperations {
-class __ElementSelection____c__DisplayClass25_0;
-}
-namespace UnityEngine::ProBuilder::MeshOperations {
 class __ElementSelection____c__DisplayClass27_0;
+}
+namespace UnityEngine::ProBuilder {
+class Face;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace UnityEngine::ProBuilder {
 class WingedEdge;
 }
 namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace UnityEngine {
-struct Vector3;
-}
-namespace UnityEngine::ProBuilder::MeshOperations {
-class __ElementSelection____c;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
-namespace UnityEngine::ProBuilder {
-struct EdgeLookup;
+template <typename T> class HashSet_1;
 }
 namespace UnityEngine::ProBuilder {
 class ProBuilderMesh;
@@ -51,14 +36,29 @@ class ProBuilderMesh;
 namespace UnityEngine::ProBuilder {
 template <typename T1, typename T2> struct SimpleTuple_2;
 }
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
+namespace UnityEngine {
+struct Vector3;
+}
+namespace UnityEngine::ProBuilder {
+struct Edge;
+}
+namespace UnityEngine::ProBuilder::MeshOperations {
+class __ElementSelection____c;
+}
+namespace UnityEngine::ProBuilder::MeshOperations {
+class __ElementSelection____c__DisplayClass25_0;
+}
 namespace System {
 template <typename T> class Comparison_1;
 }
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> struct KeyValuePair_2;
-}
 namespace System {
 template <typename T, typename TResult> class Func_2;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> struct KeyValuePair_2;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder::MeshOperations {
@@ -420,7 +420,7 @@ static_assert(offsetof(::UnityEngine::ProBuilder::MeshOperations::__ElementSelec
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::MeshOperations {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12262))
 // CS Name: ::UnityEngine.ProBuilder.MeshOperations::ElementSelection*
 class CORDL_TYPE ElementSelection : public ::System::Object {

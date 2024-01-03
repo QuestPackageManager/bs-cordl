@@ -1,15 +1,15 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Utilities/zzzz__Platform_def.hpp"
-#include "System/Collections/zzzz__IList_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"
-#include "System/zzzz__Object_def.hpp"
-#include "System/zzzz__Exception_def.hpp"
-#include "System/Globalization/zzzz__CompareInfo_def.hpp"
-#include "System/IO/zzzz__TextWriter_def.hpp"
 #include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "System/zzzz__Exception_def.hpp"
+#include "System/IO/zzzz__TextWriter_def.hpp"
+#include "System/Globalization/zzzz__CompareInfo_def.hpp"
 #include "System/Collections/zzzz__ICollection_def.hpp"
 #include "System/Collections/zzzz__IDictionary_def.hpp"
+#include "System/Collections/zzzz__IList_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Utilities::Platform.GetNewLine
 template <>
 

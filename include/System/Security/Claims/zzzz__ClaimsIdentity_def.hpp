@@ -7,44 +7,44 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ClaimsIdentity)
-namespace System {
-class Object;
-}
-namespace System::Security::Claims {
-class Claim;
-}
-namespace System::Security::Claims {
-class __ClaimsIdentity___get_Claims_d__51;
-}
-namespace System::Security::Principal {
-class IIdentity;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace System::Runtime::Serialization {
 struct StreamingContext;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace System {
+class Object;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
+namespace System::Security::Claims {
+class __ClaimsIdentity___get_Claims_d__51;
 }
 namespace System::Collections::ObjectModel {
 template <typename T> class Collection_1;
 }
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
+namespace System::Security::Principal {
+class IIdentity;
+}
+namespace System::Security::Claims {
+class Claim;
+}
 namespace System::Runtime::Serialization {
 class SerializationInfo;
+}
+namespace System::Collections {
+class IEnumerable;
 }
 namespace System {
 class IDisposable;
 }
 namespace System::Collections {
-class IEnumerable;
+class IEnumerator;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
-}
-namespace System::Collections {
-class IEnumerator;
 }
 // Forward declare root types
 namespace System::Security::Claims {

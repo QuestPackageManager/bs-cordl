@@ -12,14 +12,11 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(QuickPlaySetupModel)
+namespace System::Threading {
+struct CancellationToken;
+}
 namespace GlobalNamespace {
 class IQuickPlaySetupModel;
-}
-namespace System::Net::Http {
-class HttpClient;
-}
-namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
 }
 namespace GlobalNamespace {
 class QuickPlaySetupData;
@@ -28,19 +25,22 @@ namespace GlobalNamespace {
 class __QuickPlaySetupModel__QuickPlaySetupDataFB;
 }
 namespace GlobalNamespace {
-class INetworkConfig;
-}
-namespace System::Threading {
-struct CancellationToken;
-}
-namespace GlobalNamespace {
 struct __QuickPlaySetupModel___GetQuickPlaySetupInternal_d__10;
 }
-namespace System::Runtime::CompilerServices {
-template <typename TResult> struct AsyncTaskMethodBuilder_1;
+namespace GlobalNamespace {
+class INetworkConfig;
+}
+namespace System::Net::Http {
+class HttpClient;
+}
+namespace System::Threading::Tasks {
+template <typename TResult> class Task_1;
 }
 namespace System {
 class UriBuilder;
+}
+namespace System::Runtime::CompilerServices {
+template <typename TResult> struct AsyncTaskMethodBuilder_1;
 }
 namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
@@ -115,8 +115,8 @@ static_assert(offsetof(::GlobalNamespace::__QuickPlaySetupModel__QuickPlaySetupD
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(4480)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 397 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 898 })} Self:
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 898 }), TypeDefinitionIndex(TypeDefinitionIndex(3402)),
+// TypeDefinitionIndex(TypeDefinitionIndex(4480)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 397 }), TypeDefinitionIndex(TypeDefinitionIndex(3394))} Self:
 // TypeDefinitionIndex(TypeDefinitionIndex(4482)) CS Name: ::QuickPlaySetupModel::<GetQuickPlaySetupInternal>d__10
 struct CORDL_TYPE __QuickPlaySetupModel___GetQuickPlaySetupInternal_d__10 {
 public:
@@ -181,7 +181,7 @@ static_assert(offsetof(::GlobalNamespace::__QuickPlaySetupModel___GetQuickPlaySe
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2368)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2368))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4483))
 // CS Name: ::QuickPlaySetupModel*
 class CORDL_TYPE QuickPlaySetupModel : public ::System::Object {

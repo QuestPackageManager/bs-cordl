@@ -6,16 +6,16 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(BeatmapDataObstaclesAndBombsTransform)
 namespace GlobalNamespace {
-class BeatmapDataItem;
-}
-namespace GlobalNamespace {
 class __BeatmapDataObstaclesAndBombsTransform____c__DisplayClass0_0;
 }
 namespace GlobalNamespace {
-class IReadonlyBeatmapData;
+class BeatmapDataItem;
 }
 namespace GlobalNamespace {
 struct __GameplayModifiers__EnabledObstacleType;
+}
+namespace GlobalNamespace {
+class IReadonlyBeatmapData;
 }
 // Forward declare root types
 namespace GlobalNamespace {

@@ -9,20 +9,20 @@ CORDL_MODULE_EXPORT(MultiplayerBadgesProvider)
 namespace GlobalNamespace {
 class MultiplayerPlayerResultsData;
 }
-namespace System::Collections::Generic {
-template <typename T> class IReadOnlyList_1;
-}
 namespace GlobalNamespace {
-class __MultiplayerBadgesProvider____c;
-}
-namespace GlobalNamespace {
-class MultiplayerBadgesModelSO;
+class PlayerDataModel;
 }
 namespace GlobalNamespace {
 class IDifficultyBeatmap;
 }
 namespace GlobalNamespace {
-class PlayerDataModel;
+class MultiplayerBadgesModelSO;
+}
+namespace GlobalNamespace {
+class __MultiplayerBadgesProvider____c;
+}
+namespace System::Collections::Generic {
+template <typename T> class IReadOnlyList_1;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;

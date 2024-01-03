@@ -1,11 +1,11 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerPlayerPlacement_def.hpp"
-#include "GlobalNamespace/zzzz__MultiplayerPlayerPlacement_def.hpp"
+#include "System/Collections/Generic/zzzz__IList_1_def.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerPlayerLayout_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "GlobalNamespace/zzzz__MultiplayerPlayerPlacement_def.hpp"
 #include "GlobalNamespace/zzzz__IConnectedPlayer_def.hpp"
-#include "System/Collections/Generic/zzzz__IList_1_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/zzzz__Comparison_1_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::__MultiplayerPlayerPlacement____c._ctor

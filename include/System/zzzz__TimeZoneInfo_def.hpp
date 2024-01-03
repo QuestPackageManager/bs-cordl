@@ -14,76 +14,76 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(TimeZoneInfo)
 namespace System {
-class __TimeZoneInfo__CachedData;
-}
-namespace System {
 template <typename T, typename TResult> class Func_2;
 }
 namespace System {
-struct DayOfWeek;
-}
-namespace System::Runtime::Serialization {
-class SerializationInfo;
+class Object;
 }
 namespace System {
-class __TimeZoneInfo____c;
+template <typename T> struct Nullable_1;
+}
+namespace System::Runtime::Serialization {
+class IDeserializationCallback;
 }
 namespace System {
 struct __TimeZoneInfo__TZifType;
 }
 namespace System::Runtime::Serialization {
-struct StreamingContext;
-}
-namespace System {
-class __TimeZoneInfo____c__DisplayClass16_0;
-}
-namespace System {
-template <typename T> struct Nullable_1;
-}
-namespace System {
-struct __TimeZoneInfo__TransitionTime;
-}
-namespace System {
-struct DateTime;
-}
-namespace System {
-struct __TimeZoneInfo__TZVersion;
-}
-namespace System::Runtime::Serialization {
-class IDeserializationCallback;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace System::Runtime::Serialization {
-class ISerializable;
-}
-namespace System {
-template <typename T> class Predicate_1;
-}
-namespace System {
-template <typename T> class IEquatable_1;
+class SerializationInfo;
 }
 namespace System {
 struct TimeZoneInfoOptions;
 }
 namespace System {
-class __TimeZoneInfo__AdjustmentRule;
-}
-namespace System {
 struct __TimeZoneInfo__TZifHead;
 }
 namespace System {
-class Object;
+struct DayOfWeek;
+}
+namespace System {
+class __TimeZoneInfo__AdjustmentRule;
+}
+namespace System {
+class __TimeZoneInfo____c;
+}
+namespace System {
+struct TimeSpan;
 }
 namespace GlobalNamespace {
 struct __Interop__Sys__DirectoryEntry;
 }
+namespace System::Runtime::Serialization {
+struct StreamingContext;
+}
 namespace System::Globalization {
 struct DaylightTimeStruct;
 }
+namespace System::Runtime::Serialization {
+class ISerializable;
+}
 namespace System {
-struct TimeSpan;
+struct DateTime;
+}
+namespace System {
+template <typename T> class Predicate_1;
+}
+namespace System {
+class __TimeZoneInfo__CachedData;
+}
+namespace System {
+struct __TimeZoneInfo__TransitionTime;
+}
+namespace System {
+class __TimeZoneInfo____c__DisplayClass16_0;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace System {
+struct __TimeZoneInfo__TZVersion;
+}
+namespace System {
+template <typename T> class IEquatable_1;
 }
 namespace System {
 struct DateTimeKind;
@@ -305,7 +305,7 @@ static_assert(offsetof(::System::__TimeZoneInfo__TZifHead, CharCount) == 0x1c, "
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 33, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2368)), TypeDefinitionIndex(TypeDefinitionIndex(2371))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2371)), TypeDefinitionIndex(TypeDefinitionIndex(2368))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2317))
 // CS Name: ::TimeZoneInfo::TransitionTime
 struct CORDL_TYPE __TimeZoneInfo__TransitionTime {
@@ -435,7 +435,7 @@ static_assert(offsetof(::System::__TimeZoneInfo__TransitionTime, _isFixedDateRul
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 97, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2484)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2317)),
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2484)), TypeDefinitionIndex(TypeDefinitionIndex(2317)),
 // TypeDefinitionIndex(TypeDefinitionIndex(2368))} Self: TypeDefinitionIndex(TypeDefinitionIndex(2316)) CS Name: ::TimeZoneInfo::AdjustmentRule*
 class CORDL_TYPE __TimeZoneInfo__AdjustmentRule : public ::System::Object {
 public:
@@ -947,7 +947,7 @@ static_assert(::cordl_internals::size_check_v<::System::__TimeZoneInfo____c, 0x1
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2368)), TypeDefinitionIndex(TypeDefinitionIndex(2484)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2484)), TypeDefinitionIndex(TypeDefinitionIndex(2368))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2321))
 // CS Name: ::System::TimeZoneInfo*
 class CORDL_TYPE TimeZoneInfo : public ::System::Object {

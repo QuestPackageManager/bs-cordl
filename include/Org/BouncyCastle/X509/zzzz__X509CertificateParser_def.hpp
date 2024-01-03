@@ -9,8 +9,11 @@ CORDL_MODULE_EXPORT(X509CertificateParser)
 namespace System::IO {
 class Stream;
 }
-namespace Org::BouncyCastle::Asn1 {
-class Asn1InputStream;
+namespace Org::BouncyCastle::Asn1::X509 {
+class X509CertificateStructure;
+}
+namespace Org::BouncyCastle::X509 {
+class PemParser;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Set;
@@ -18,11 +21,8 @@ class Asn1Set;
 namespace Org::BouncyCastle::X509 {
 class X509Certificate;
 }
-namespace Org::BouncyCastle::Asn1::X509 {
-class X509CertificateStructure;
-}
-namespace Org::BouncyCastle::X509 {
-class PemParser;
+namespace Org::BouncyCastle::Asn1 {
+class Asn1InputStream;
 }
 namespace System::Collections {
 class ICollection;

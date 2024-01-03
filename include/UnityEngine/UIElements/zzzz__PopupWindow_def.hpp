@@ -10,10 +10,10 @@ namespace UnityEngine::UIElements {
 class __PopupWindow__UxmlFactory;
 }
 namespace UnityEngine::UIElements {
-class VisualElement;
+class __PopupWindow__UxmlTraits;
 }
 namespace UnityEngine::UIElements {
-class __PopupWindow__UxmlTraits;
+class VisualElement;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -140,8 +140,8 @@ static_assert(offsetof(::UnityEngine::UIElements::PopupWindow, ___m_ContentConta
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6997), inst: 5269 }), TypeDefinitionIndex(TypeDefinitionIndex(7028)),
-// TypeDefinitionIndex(TypeDefinitionIndex(6997)), TypeDefinitionIndex(TypeDefinitionIndex(7029))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7027)) CS Name: ::PopupWindow::UxmlFactory*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6997)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6997), inst: 5269 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(7028)), TypeDefinitionIndex(TypeDefinitionIndex(7029))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7027)) CS Name: ::PopupWindow::UxmlFactory*
 class CORDL_TYPE __PopupWindow__UxmlFactory : public ::UnityEngine::UIElements::UxmlFactory_2<::UnityEngine::UIElements::PopupWindow*, ::UnityEngine::UIElements::__PopupWindow__UxmlTraits*> {
 public:
   // Declarations

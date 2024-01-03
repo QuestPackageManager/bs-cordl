@@ -11,10 +11,10 @@ namespace RootMotion::FinalIK {
 class __VRIK__References;
 }
 namespace RootMotion::FinalIK {
-class IKSolver;
+class IKSolverVR;
 }
 namespace RootMotion::FinalIK {
-class IKSolverVR;
+class IKSolver;
 }
 namespace UnityEngine {
 class Transform;

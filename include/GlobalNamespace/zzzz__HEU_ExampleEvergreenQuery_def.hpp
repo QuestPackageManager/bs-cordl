@@ -7,11 +7,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(HEU_ExampleEvergreenQuery)
-namespace HoudiniEngineUnity {
-class HEU_HoudiniAsset;
-}
 namespace UnityEngine {
 class GameObject;
+}
+namespace HoudiniEngineUnity {
+class HEU_SessionBase;
+}
+namespace System::Text {
+class StringBuilder;
 }
 namespace HoudiniEngineUnity {
 struct HAPI_AttributeInfo;
@@ -20,13 +23,10 @@ namespace HoudiniEngineUnity {
 struct HAPI_GeoInfo;
 }
 namespace HoudiniEngineUnity {
-class HEU_SessionBase;
+class HEU_HoudiniAsset;
 }
 namespace HoudiniEngineUnity {
 struct HAPI_AttributeOwner;
-}
-namespace System::Text {
-class StringBuilder;
 }
 // Forward declare root types
 namespace GlobalNamespace {

@@ -2,38 +2,15 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/Threading/zzzz__CancellationToken_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(DiffieHellmanUtility)
-namespace System::Threading {
-struct CancellationToken;
-}
-namespace GlobalNamespace {
-class IDiffieHellmanKeyPair;
-}
 namespace GlobalNamespace {
 struct __DiffieHellmanUtility__KeyType;
-}
-namespace GlobalNamespace {
-class __DiffieHellmanUtility__DiffieHellmanKeyPair;
-}
-namespace GlobalNamespace {
-class __DiffieHellmanUtility__ElipticalCurveKeyPair;
-}
-namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
-}
-namespace Org::BouncyCastle::Crypto::Agreement {
-class ECDHBasicAgreement;
-}
-namespace Org::BouncyCastle::Crypto::Parameters {
-class ECDomainParameters;
-}
-namespace Org::BouncyCastle::Crypto::Parameters {
-class DHParameters;
 }
 namespace BGNet::Core {
 class ITaskUtility;
@@ -41,17 +18,38 @@ class ITaskUtility;
 namespace Org::BouncyCastle::Crypto::Agreement {
 class DHBasicAgreement;
 }
+namespace Org::BouncyCastle::Crypto::Parameters {
+class DHParameters;
+}
+namespace Org::BouncyCastle::Crypto::Parameters {
+class ECDomainParameters;
+}
+namespace GlobalNamespace {
+class IDiffieHellmanKeyPair;
+}
 namespace Org::BouncyCastle::Security {
 class SecureRandom;
 }
 namespace GlobalNamespace {
-class __DiffieHellmanUtility__OperationTimer;
+class __DiffieHellmanUtility__ElipticalCurveKeyPair;
+}
+namespace System::Threading::Tasks {
+template <typename TResult> class Task_1;
 }
 namespace GlobalNamespace {
-class __DiffieHellmanUtility__DiffieHellmanKeyPair____c__DisplayClass5_0;
+class __DiffieHellmanUtility__DiffieHellmanKeyPair;
+}
+namespace GlobalNamespace {
+class __DiffieHellmanUtility__OperationTimer;
+}
+namespace Org::BouncyCastle::Crypto::Agreement {
+class ECDHBasicAgreement;
 }
 namespace Org::BouncyCastle::Crypto::Parameters {
 class DHPrivateKeyParameters;
+}
+namespace GlobalNamespace {
+class __DiffieHellmanUtility__DiffieHellmanKeyPair____c__DisplayClass5_0;
 }
 namespace Org::BouncyCastle::Crypto::Parameters {
 class ECPrivateKeyParameters;
@@ -515,7 +513,7 @@ static_assert(offsetof(::GlobalNamespace::__DiffieHellmanUtility__OperationTimer
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(12712))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12718))
 // CS Name: ::DiffieHellmanUtility*
 class CORDL_TYPE DiffieHellmanUtility : public ::System::Object {

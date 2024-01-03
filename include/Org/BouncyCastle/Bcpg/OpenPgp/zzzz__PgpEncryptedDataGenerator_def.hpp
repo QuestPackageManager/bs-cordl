@@ -8,50 +8,50 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(PgpEncryptedDataGenerator)
+namespace Org::BouncyCastle::Bcpg {
+struct SymmetricKeyAlgorithmTag;
+}
+namespace System::Collections {
+class IList;
+}
+namespace Org::BouncyCastle::Crypto {
+class IBufferedCipher;
+}
+namespace Org::BouncyCastle::Bcpg::OpenPgp {
+class PgpPublicKey;
+}
+namespace System::IO {
+class Stream;
+}
 namespace Org::BouncyCastle::Crypto::IO {
 class CipherStream;
 }
+namespace Org::BouncyCastle::Bcpg::OpenPgp {
+class __PgpEncryptedDataGenerator__EncMethod;
+}
 namespace Org::BouncyCastle::Bcpg {
 struct HashAlgorithmTag;
+}
+namespace Org::BouncyCastle::Crypto::IO {
+class DigestStream;
+}
+namespace Org::BouncyCastle::Bcpg::OpenPgp {
+class __PgpEncryptedDataGenerator__PbeMethod;
 }
 namespace Org::BouncyCastle::Crypto::Parameters {
 class KeyParameter;
 }
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
-class __PgpEncryptedDataGenerator__EncMethod;
-}
-namespace Org::BouncyCastle::Crypto {
-class IBufferedCipher;
-}
-namespace Org::BouncyCastle::Crypto::IO {
-class DigestStream;
-}
-namespace Org::BouncyCastle::Bcpg {
-struct SymmetricKeyAlgorithmTag;
-}
-namespace Org::BouncyCastle::Security {
-class SecureRandom;
-}
-namespace Org::BouncyCastle::Bcpg::OpenPgp {
 class __PgpEncryptedDataGenerator__PubMethod;
-}
-namespace Org::BouncyCastle::Bcpg {
-class BcpgOutputStream;
-}
-namespace Org::BouncyCastle::Bcpg::OpenPgp {
-class PgpPublicKey;
-}
-namespace System::Collections {
-class IList;
-}
-namespace System::IO {
-class Stream;
 }
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
 class IStreamGenerator;
 }
-namespace Org::BouncyCastle::Bcpg::OpenPgp {
-class __PgpEncryptedDataGenerator__PbeMethod;
+namespace Org::BouncyCastle::Bcpg {
+class BcpgOutputStream;
+}
+namespace Org::BouncyCastle::Security {
+class SecureRandom;
 }
 namespace Org::BouncyCastle::Bcpg {
 class S2k;

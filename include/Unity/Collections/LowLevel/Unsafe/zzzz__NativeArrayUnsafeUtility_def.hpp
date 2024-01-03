@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(NativeArrayUnsafeUtility)
 namespace Unity::Collections {
-struct Allocator;
+template <typename T> struct NativeArray_1;
 }
 namespace Unity::Collections {
-template <typename T> struct NativeArray_1;
+struct Allocator;
 }
 // Forward declare root types
 namespace Unity::Collections::LowLevel::Unsafe {

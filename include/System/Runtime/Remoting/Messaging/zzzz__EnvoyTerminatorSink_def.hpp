@@ -8,10 +8,10 @@ namespace System::Runtime::Remoting::Messaging {
 class IMessageCtrl;
 }
 namespace System::Runtime::Remoting::Messaging {
-class IMessageSink;
+class IMessage;
 }
 namespace System::Runtime::Remoting::Messaging {
-class IMessage;
+class IMessageSink;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting::Messaging {

@@ -11,47 +11,44 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(AppInit)
-namespace System {
-template <typename TResult> class Func_1;
-}
 namespace GlobalNamespace {
-struct __AppInit___InitializeAsync_d__13;
-}
-namespace GlobalNamespace {
-class __AppInit____c__DisplayClass21_0;
-}
-namespace GlobalNamespace {
-class __AppInitScenesTransitionSetupDataSO__AppInitSceneSetupData;
-}
-namespace GlobalNamespace {
-class AppInitSetupData;
-}
-namespace System::Threading::Tasks {
-class Task;
-}
-namespace UnityEngine {
-class GameObject;
-}
-namespace GlobalNamespace {
-struct __AppInit___StartGameAsync_d__11;
+class __AppInit____c;
 }
 namespace GlobalNamespace {
 struct __AppInit__AppStartType;
 }
 namespace GlobalNamespace {
+class GameScenesManager;
+}
+namespace GlobalNamespace {
+struct __AppInit___StartGameAsync_d__11;
+}
+namespace GlobalNamespace {
+class __AppInit____c__DisplayClass21_0;
+}
+namespace System::Threading::Tasks {
+class Task;
+}
+namespace System {
+template <typename TResult> class Func_1;
+}
+namespace UnityEngine {
+class GameObject;
+}
+namespace GlobalNamespace {
+class __AppInitScenesTransitionSetupDataSO__AppInitSceneSetupData;
+}
+namespace GlobalNamespace {
 struct __AppInit___Awake_d__10;
 }
 namespace GlobalNamespace {
-class __AppInit____c;
+struct __AppInit___InitializeAsync_d__13;
 }
 namespace GlobalNamespace {
-class GameScenesManager;
+class AppInitSetupData;
 }
 namespace BGLib::AppFlow::Initialization {
 class AsyncSceneContext;
-}
-namespace GlobalNamespace {
-class __AppInit____c__DisplayClass21_0____WaitUntilAsync_g__WaitUntilPredicateTrue_0_d;
 }
 namespace System::Collections {
 class IEnumerator;
@@ -59,23 +56,26 @@ class IEnumerator;
 namespace System::Threading::Tasks {
 template <typename TResult> class TaskCompletionSource_1;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
+namespace GlobalNamespace {
+class __AppInit____c__DisplayClass21_0____WaitUntilAsync_g__WaitUntilPredicateTrue_0_d;
 }
 namespace System {
 class Object;
 }
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
+}
 namespace System {
 class IDisposable;
-}
-namespace System::Runtime::CompilerServices {
-struct AsyncVoidMethodBuilder;
 }
 namespace System::Runtime::CompilerServices {
 struct TaskAwaiter;
 }
 namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
+}
+namespace System::Runtime::CompilerServices {
+struct AsyncVoidMethodBuilder;
 }
 namespace System::Runtime::CompilerServices {
 struct AsyncTaskMethodBuilder;
@@ -340,7 +340,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__AppInit____c,
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15385)), TypeDefinitionIndex(TypeDefinitionIndex(3401)), TypeDefinitionIndex(TypeDefinitionIndex(3393))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3393)), TypeDefinitionIndex(TypeDefinitionIndex(3401)), TypeDefinitionIndex(TypeDefinitionIndex(15385))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15389))
 // CS Name: ::AppInit::<InitializeAsync>d__13
 struct CORDL_TYPE __AppInit___InitializeAsync_d__13 {

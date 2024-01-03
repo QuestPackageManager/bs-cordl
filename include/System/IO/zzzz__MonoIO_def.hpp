@@ -9,6 +9,24 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(MonoIO)
+namespace System::IO {
+struct FileOptions;
+}
+namespace System::IO {
+struct MonoIOError;
+}
+namespace System::IO {
+struct MonoFileType;
+}
+namespace System::IO {
+struct FileShare;
+}
+namespace System::Runtime::InteropServices {
+class SafeHandle;
+}
+namespace System::IO {
+struct FileMode;
+}
 namespace System {
 class Exception;
 }
@@ -16,25 +34,7 @@ namespace System::IO {
 struct SeekOrigin;
 }
 namespace System::IO {
-struct MonoIOError;
-}
-namespace System::IO {
-struct FileMode;
-}
-namespace System::IO {
-struct FileShare;
-}
-namespace System::IO {
-struct MonoFileType;
-}
-namespace System::IO {
 struct FileAccess;
-}
-namespace System::IO {
-struct FileOptions;
-}
-namespace System::Runtime::InteropServices {
-class SafeHandle;
 }
 // Forward declare root types
 namespace System::IO {

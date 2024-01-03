@@ -17,79 +17,82 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(OculusPlatformAdditionalContentModel)
 namespace GlobalNamespace {
-struct __OculusPlatformAdditionalContentModel___GetPackEntitlementStatusInternalAsync_d__15;
-}
-namespace GlobalNamespace {
-class __OculusLevelProductsModelSO__LevelProductData;
-}
-namespace GlobalNamespace {
-class __OculusLevelProductsModelSO__LevelPackRedirectionData;
-}
-namespace GlobalNamespace {
 struct __OculusPlatformAdditionalContentModel___GetRedirectedLevelPackProductData_d__10;
 }
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace Oculus::Platform {
-template <typename T> class Message_1;
+namespace GlobalNamespace {
+class __OculusPlatformAdditionalContentModel____c__DisplayClass21_0;
 }
 namespace GlobalNamespace {
-struct __AdditionalContentModel__UpdateEntitlementsResult;
-}
-namespace GlobalNamespace {
-class AlwaysOwnedContentContainerSO;
+class OculusLevelProductsModelSO;
 }
 namespace GlobalNamespace {
 struct __OculusPlatformAdditionalContentModel___OpenLevelProductStoreAsync_d__17;
 }
 namespace GlobalNamespace {
-struct __OculusPlatformAdditionalContentModel___IsDataValidAsync_d__16;
-}
-namespace System::Collections::Generic {
-template <typename T> class HashSet_1;
-}
-namespace GlobalNamespace {
-struct __OculusPlatformAdditionalContentModel___OpenLevelPackProductStoreAsync_d__18;
-}
-namespace GlobalNamespace {
-struct IsPackBetterBuyThanLevelResult;
-}
-namespace GlobalNamespace {
-class OculusLevelProductsModelSO;
-}
-namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
-}
-namespace GlobalNamespace {
 struct OpenProductStoreResult;
 }
 namespace GlobalNamespace {
-struct EntitlementStatus;
+struct __AdditionalContentModel__UpdateEntitlementsResult;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace GlobalNamespace {
+struct __OculusPlatformAdditionalContentModel___GetLevelEntitlementStatusInternalAsync_d__14;
+}
+namespace Oculus::Platform {
+template <typename T> class Message_1;
+}
+namespace System::Threading {
+struct CancellationToken;
+}
+namespace GlobalNamespace {
+class AlwaysOwnedContentContainerSO;
 }
 namespace Oculus::Platform::Models {
 class Purchase;
 }
 namespace GlobalNamespace {
+struct IsPackBetterBuyThanLevelResult;
+}
+namespace GlobalNamespace {
+class __OculusLevelProductsModelSO__LevelPackRedirectionData;
+}
+namespace GlobalNamespace {
+struct EntitlementStatus;
+}
+namespace GlobalNamespace {
+struct __OculusPlatformAdditionalContentModel___GetPackEntitlementStatusInternalAsync_d__15;
+}
+namespace GlobalNamespace {
 class __OculusLevelProductsModelSO__LevelPackProductData;
 }
 namespace GlobalNamespace {
-struct __OculusPlatformAdditionalContentModel___GetLevelEntitlementStatusInternalAsync_d__14;
+struct __OculusPlatformAdditionalContentModel___IsDataValidAsync_d__16;
+}
+namespace System::Threading::Tasks {
+template <typename TResult> class Task_1;
+}
+namespace System::Threading {
+class SemaphoreSlim;
+}
+namespace GlobalNamespace {
+class __OculusLevelProductsModelSO__LevelProductData;
+}
+namespace System::Collections::Generic {
+template <typename T> class HashSet_1;
 }
 namespace GlobalNamespace {
 class __OculusPlatformAdditionalContentModel____c__DisplayClass19_0;
 }
 namespace GlobalNamespace {
-class __OculusPlatformAdditionalContentModel____c__DisplayClass21_0;
-}
-namespace System::Threading {
-struct CancellationToken;
-}
-namespace System::Threading {
-class SemaphoreSlim;
+struct __OculusPlatformAdditionalContentModel___OpenLevelPackProductStoreAsync_d__18;
 }
 namespace System::Threading::Tasks {
 template <typename TResult> class TaskCompletionSource_1;
+}
+namespace Oculus::Platform {
+template <typename T> class __Message_1__Callback;
 }
 namespace Oculus::Platform::Models {
 class AssetDetailsList;
@@ -97,17 +100,14 @@ class AssetDetailsList;
 namespace Oculus::Platform::Models {
 class PurchaseList;
 }
-namespace Oculus::Platform {
-template <typename T> class __Message_1__Callback;
-}
-namespace System::Runtime::CompilerServices {
-template <typename TResult> struct TaskAwaiter_1;
-}
 namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
 }
 namespace System::Runtime::CompilerServices {
 template <typename TResult> struct AsyncTaskMethodBuilder_1;
+}
+namespace System::Runtime::CompilerServices {
+template <typename TResult> struct TaskAwaiter_1;
 }
 namespace System::Runtime::CompilerServices {
 struct TaskAwaiter;
@@ -154,9 +154,10 @@ MARK_VAL_T(::GlobalNamespace::__OculusPlatformAdditionalContentModel___OpenLevel
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(16270)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3394)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 397 }), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(3394), inst: 880 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(4107)) CS Name: ::OculusPlatformAdditionalContentModel::<GetRedirectedLevelPackProductData>d__10
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 397 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 880 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(16270)), TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3394))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4107))
+// CS Name: ::OculusPlatformAdditionalContentModel::<GetRedirectedLevelPackProductData>d__10
 struct CORDL_TYPE __OculusPlatformAdditionalContentModel___GetRedirectedLevelPackProductData_d__10 {
 public:
   // Declarations
@@ -240,9 +241,9 @@ static_assert(offsetof(::GlobalNamespace::__OculusPlatformAdditionalContentModel
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(16270)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 880 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 105 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(3402))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4108)) CS Name: ::OculusPlatformAdditionalContentModel::<GetLevelEntitlementStatusInternalAsync>d__14
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2677)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 880 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(16270)), TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(3394), inst: 105 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(4108)) CS Name: ::OculusPlatformAdditionalContentModel::<GetLevelEntitlementStatusInternalAsync>d__14
 struct CORDL_TYPE __OculusPlatformAdditionalContentModel___GetLevelEntitlementStatusInternalAsync_d__14 {
 public:
   // Declarations
@@ -312,9 +313,9 @@ static_assert(offsetof(::GlobalNamespace::__OculusPlatformAdditionalContentModel
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 880
-// }), TypeDefinitionIndex(TypeDefinitionIndex(16270)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 105 })} Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(4109)) CS Name: ::OculusPlatformAdditionalContentModel::<GetPackEntitlementStatusInternalAsync>d__15
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(16270)), TypeDefinitionIndex(TypeDefinitionIndex(2677)),
+// TypeDefinitionIndex(TypeDefinitionIndex(3394)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 105 }), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(3402), inst: 880 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(4109)) CS Name: ::OculusPlatformAdditionalContentModel::<GetPackEntitlementStatusInternalAsync>d__15
 struct CORDL_TYPE __OculusPlatformAdditionalContentModel___GetPackEntitlementStatusInternalAsync_d__15 {
 public:
   // Declarations
@@ -384,10 +385,9 @@ static_assert(offsetof(::GlobalNamespace::__OculusPlatformAdditionalContentModel
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(4097)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 105 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 903 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(3393)), TypeDefinitionIndex(TypeDefinitionIndex(3394))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4110)) CS Name:
-// ::OculusPlatformAdditionalContentModel::<IsDataValidAsync>d__16
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 105
+// }), TypeDefinitionIndex(TypeDefinitionIndex(4097)), TypeDefinitionIndex(TypeDefinitionIndex(2677)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 903 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(3393))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4110)) CS Name: ::OculusPlatformAdditionalContentModel::<IsDataValidAsync>d__16
 struct CORDL_TYPE __OculusPlatformAdditionalContentModel___IsDataValidAsync_d__16 {
 public:
   // Declarations
@@ -457,9 +457,9 @@ static_assert(offsetof(::GlobalNamespace::__OculusPlatformAdditionalContentModel
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13262)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13262), inst: 1182 }), GenericInstantiation(GenericInstantiation
-// { tdi: TypeDefinitionIndex(3394), inst: 5058 }), TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(13475)), TypeDefinitionIndex(TypeDefinitionIndex(16271)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 895 })} Self:
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 5058 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 895 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(13475)), TypeDefinitionIndex(TypeDefinitionIndex(16271)), TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(13262), inst: 1182 }), TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(13262)), TypeDefinitionIndex(TypeDefinitionIndex(2677))} Self:
 // TypeDefinitionIndex(TypeDefinitionIndex(4111)) CS Name: ::OculusPlatformAdditionalContentModel::<OpenLevelProductStoreAsync>d__17
 struct CORDL_TYPE __OculusPlatformAdditionalContentModel___OpenLevelProductStoreAsync_d__17 {
 public:
@@ -530,11 +530,11 @@ static_assert(offsetof(::GlobalNamespace::__OculusPlatformAdditionalContentModel
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 397 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 895 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(16271)), TypeDefinitionIndex(TypeDefinitionIndex(2677)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 5058 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13262), inst: 1182 }), TypeDefinitionIndex(TypeDefinitionIndex(3394)),
-// TypeDefinitionIndex(TypeDefinitionIndex(13262)), TypeDefinitionIndex(TypeDefinitionIndex(13475))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4112)) CS Name:
-// ::OculusPlatformAdditionalContentModel::<OpenLevelPackProductStoreAsync>d__18
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(13262)), TypeDefinitionIndex(TypeDefinitionIndex(16271)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13262), inst: 1182 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 5058 }),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 397 }), TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(2677)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 895 }), TypeDefinitionIndex(TypeDefinitionIndex(13475))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4112)) CS
+// Name: ::OculusPlatformAdditionalContentModel::<OpenLevelPackProductStoreAsync>d__18
 struct CORDL_TYPE __OculusPlatformAdditionalContentModel___OpenLevelPackProductStoreAsync_d__18 {
 public:
   // Declarations

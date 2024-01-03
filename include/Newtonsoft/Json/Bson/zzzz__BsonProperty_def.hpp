@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(BsonProperty)
 namespace Newtonsoft::Json::Bson {
-class BsonToken;
+class BsonString;
 }
 namespace Newtonsoft::Json::Bson {
-class BsonString;
+class BsonToken;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Bson {

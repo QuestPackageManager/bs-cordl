@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include "UnityEngine/InputSystem/Processors/zzzz__CompensateRotationProcessor_def.hpp"
 CORDL_MODULE_EXPORT(AndroidCompensateRotationProcessor)
-namespace UnityEngine {
-struct Quaternion;
-}
 namespace UnityEngine::InputSystem {
 class InputControl;
+}
+namespace UnityEngine {
+struct Quaternion;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::Android::LowLevel {

@@ -9,31 +9,31 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Environment)
 namespace System {
-struct EnvironmentVariableTarget;
-}
-namespace System {
-class Version;
-}
-namespace System {
 class OperatingSystem;
 }
 namespace System {
-struct PlatformID;
+struct __Environment__SpecialFolderOption;
 }
 namespace System::Collections {
 class IDictionary;
 }
 namespace System {
-struct __Environment__SpecialFolderOption;
+class Version;
+}
+namespace System {
+struct EnvironmentVariableTarget;
 }
 namespace System {
 class Exception;
 }
 namespace System {
-struct __Environment__SpecialFolder;
+struct PlatformID;
 }
 namespace System {
 class Object;
+}
+namespace System {
+struct __Environment__SpecialFolder;
 }
 // Forward declare root types
 namespace System {

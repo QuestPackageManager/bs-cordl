@@ -1,9 +1,9 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "System/ComponentModel/Design/Serialization/zzzz__InstanceDescriptor_def.hpp"
-#include "System/Collections/zzzz__ICollection_def.hpp"
-#include "System/Reflection/zzzz__MemberInfo_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "System/Reflection/zzzz__MemberInfo_def.hpp"
+#include "System/Collections/zzzz__ICollection_def.hpp"
 //  Writing Method size for method: ::System::ComponentModel::Design::Serialization::InstanceDescriptor._ctor
 template <>
 

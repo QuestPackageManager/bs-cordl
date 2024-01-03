@@ -1,8 +1,8 @@
 #pragma once
 #include "System/IO/zzzz__Stream_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsStream_def.hpp"
-#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsProtocol_def.hpp"
 #include "System/IO/zzzz__SeekOrigin_def.hpp"
+#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsProtocol_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Tls::TlsStream._ctor
 template <>
 

@@ -11,6 +11,21 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(LevelBar)
+namespace TMPro {
+class TextMeshProUGUI;
+}
+namespace HMUI {
+class ImageView;
+}
+namespace GlobalNamespace {
+struct __LevelBar___Setup_d__17;
+}
+namespace System::Threading {
+class CancellationTokenSource;
+}
+namespace GlobalNamespace {
+class IPreviewBeatmapLevel;
+}
 namespace UnityEngine {
 class GameObject;
 }
@@ -20,35 +35,20 @@ class BeatmapCharacteristicSO;
 namespace GlobalNamespace {
 struct BeatmapDifficulty;
 }
-namespace GlobalNamespace {
-struct __LevelBar___Setup_d__17;
-}
-namespace HMUI {
-class ImageView;
-}
-namespace System::Threading {
-class CancellationTokenSource;
-}
-namespace GlobalNamespace {
-class IPreviewBeatmapLevel;
-}
-namespace TMPro {
-class TextMeshProUGUI;
+namespace System::Runtime::CompilerServices {
+template <typename TResult> struct TaskAwaiter_1;
 }
 namespace System::Threading {
 struct CancellationToken;
-}
-namespace System::Runtime::CompilerServices {
-template <typename TResult> struct TaskAwaiter_1;
 }
 namespace UnityEngine {
 class Sprite;
 }
 namespace System::Runtime::CompilerServices {
-struct AsyncVoidMethodBuilder;
+class IAsyncStateMachine;
 }
 namespace System::Runtime::CompilerServices {
-class IAsyncStateMachine;
+struct AsyncVoidMethodBuilder;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -64,10 +64,9 @@ MARK_VAL_T(::GlobalNamespace::__LevelBar___Setup_d__17);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2677)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 777 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(14717)), TypeDefinitionIndex(TypeDefinitionIndex(3400)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(10291))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5790))
-// CS Name: ::LevelBar::<Setup>d__17
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10291)), TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(14717)),
+// TypeDefinitionIndex(TypeDefinitionIndex(3400)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 777 })} Self:
+// TypeDefinitionIndex(TypeDefinitionIndex(5790)) CS Name: ::LevelBar::<Setup>d__17
 struct CORDL_TYPE __LevelBar___Setup_d__17 {
 public:
   // Declarations

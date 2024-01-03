@@ -2,6 +2,7 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/zzzz__ReadOnlySpan_1_def.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
@@ -9,40 +10,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(UInt16)
 namespace System {
-template <typename T> class IComparable_1;
-}
-namespace System {
-class Object;
-}
-namespace System {
-struct DateTime;
-}
-namespace System {
-class IFormattable;
-}
-namespace System {
 struct Decimal;
 }
 namespace System {
-class ISpanFormattable;
-}
-namespace System {
-template <typename T> struct ReadOnlySpan_1;
-}
-namespace System {
-class Type;
-}
-namespace System {
-class IConvertible;
-}
-namespace System {
-class IFormatProvider;
-}
-namespace System {
-template <typename T> struct Span_1;
+template <typename T> class IComparable_1;
 }
 namespace System {
 struct TypeCode;
+}
+namespace System {
+class ISpanFormattable;
 }
 namespace System {
 class IComparable;
@@ -51,10 +28,34 @@ namespace System::Globalization {
 class NumberFormatInfo;
 }
 namespace System {
-template <typename T> class IEquatable_1;
+class IFormattable;
+}
+namespace System {
+class Type;
+}
+namespace System {
+template <typename T> struct Span_1;
+}
+namespace System {
+class Object;
+}
+namespace System {
+class IConvertible;
+}
+namespace System {
+class IFormatProvider;
+}
+namespace System {
+struct DateTime;
 }
 namespace System::Globalization {
 struct NumberStyles;
+}
+namespace System {
+template <typename T> struct ReadOnlySpan_1;
+}
+namespace System {
+template <typename T> class IEquatable_1;
 }
 // Forward declare root types
 namespace System {
@@ -66,7 +67,7 @@ MARK_VAL_T(::System::UInt16);
 // SizeInfo { instance_size: 2, native_size: 2, calculated_instance_size: 2, calculated_native_size: 18, minimum_alignment: 2, natural_alignment: 2, packing: None, specified_packing: None }
 namespace System {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2464)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2464), inst: 292 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2498))
 // CS Name: ::System::UInt16
 struct CORDL_TYPE UInt16 {

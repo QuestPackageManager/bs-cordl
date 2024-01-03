@@ -5,20 +5,20 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstddef>
 CORDL_MODULE_EXPORT(TaskAwaiter)
-namespace System {
-class Action;
-}
 namespace System::Threading::Tasks {
 class Task;
 }
+namespace System {
+class Action;
+}
 namespace System::Runtime::CompilerServices {
-class __TaskAwaiter____c__DisplayClass11_0;
+class INotifyCompletion;
 }
 namespace System::Runtime::CompilerServices {
 class ICriticalNotifyCompletion;
 }
 namespace System::Runtime::CompilerServices {
-class INotifyCompletion;
+class __TaskAwaiter____c__DisplayClass11_0;
 }
 // Forward declare root types
 namespace System::Runtime::CompilerServices {

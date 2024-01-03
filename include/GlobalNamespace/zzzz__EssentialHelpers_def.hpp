@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(EssentialHelpers)
 namespace UnityEngine {
-class GameObject;
+class Object;
 }
 namespace UnityEngine {
-class Object;
+class GameObject;
 }
 // Forward declare root types
 namespace GlobalNamespace {

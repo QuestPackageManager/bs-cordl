@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include "HMUI/zzzz__ViewController_def.hpp"
 CORDL_MODULE_EXPORT(OtherSettingsViewController)
-namespace GlobalNamespace {
-class PlayerDataModel;
-}
 namespace UnityEngine::UI {
 class Toggle;
+}
+namespace GlobalNamespace {
+class PlayerDataModel;
 }
 // Forward declare root types
 namespace GlobalNamespace {

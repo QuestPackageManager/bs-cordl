@@ -7,11 +7,11 @@ CORDL_MODULE_EXPORT(ICollection)
 namespace System {
 class Object;
 }
-namespace System::Collections {
-class IEnumerable;
-}
 namespace System {
 class Array;
+}
+namespace System::Collections {
+class IEnumerable;
 }
 // Forward declare root types
 namespace System::Collections {

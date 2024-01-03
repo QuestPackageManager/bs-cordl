@@ -8,34 +8,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(X509V2CrlGenerator)
 namespace Org::BouncyCastle::Asn1::X509 {
-class X509ExtensionsGenerator;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class V2TbsCertListGenerator;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class X509Name;
-}
-namespace System {
-struct DateTime;
+class TbsCertificateList;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Encodable;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
-class AlgorithmIdentifier;
+class X509ExtensionsGenerator;
 }
-namespace Org::BouncyCastle::Crypto {
-class AsymmetricKeyParameter;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class TbsCertificateList;
-}
-namespace Org::BouncyCastle::Math {
-class BigInteger;
-}
-namespace Org::BouncyCastle::Crypto {
-class ISignatureFactory;
+namespace System::Collections {
+class IEnumerable;
 }
 namespace Org::BouncyCastle::Asn1 {
 class DerObjectIdentifier;
@@ -43,14 +25,32 @@ class DerObjectIdentifier;
 namespace Org::BouncyCastle::Asn1::X509 {
 class X509Extensions;
 }
+namespace Org::BouncyCastle::Crypto {
+class AsymmetricKeyParameter;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class V2TbsCertListGenerator;
+}
+namespace System {
+struct DateTime;
+}
 namespace Org::BouncyCastle::Security {
 class SecureRandom;
+}
+namespace Org::BouncyCastle::Crypto {
+class ISignatureFactory;
 }
 namespace Org::BouncyCastle::X509 {
 class X509Crl;
 }
-namespace System::Collections {
-class IEnumerable;
+namespace Org::BouncyCastle::Asn1::X509 {
+class AlgorithmIdentifier;
+}
+namespace Org::BouncyCastle::Math {
+class BigInteger;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class X509Name;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::X509 {

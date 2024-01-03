@@ -1,11 +1,11 @@
 #pragma once
 #include "Org/BouncyCastle/Cms/zzzz__RecipientInformation_impl.hpp"
 #include "Org/BouncyCastle/Cms/zzzz__PasswordRecipientInformation_def.hpp"
+#include "Org/BouncyCastle/Cms/zzzz__CmsTypedStream_def.hpp"
 #include "Org/BouncyCastle/Asn1/Cms/zzzz__PasswordRecipientInfo_def.hpp"
 #include "Org/BouncyCastle/Cms/zzzz__CmsSecureReadable_def.hpp"
 #include "Org/BouncyCastle/Asn1/X509/zzzz__AlgorithmIdentifier_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__ICipherParameters_def.hpp"
-#include "Org/BouncyCastle/Cms/zzzz__CmsTypedStream_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Cms::PasswordRecipientInformation._ctor
 template <>
 

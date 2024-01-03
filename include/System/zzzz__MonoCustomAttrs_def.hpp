@@ -6,47 +6,47 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(MonoCustomAttrs)
-namespace System::Reflection {
-class Assembly;
-}
-namespace System::Reflection {
-class CustomAttributeData;
+namespace System::Collections::Generic {
+template <typename T> class IList_1;
 }
 namespace System::Reflection {
 class RuntimeEventInfo;
 }
-namespace System::Reflection {
-class RuntimePropertyInfo;
-}
-namespace System::Reflection {
-class EventInfo;
-}
 namespace System {
-class Object;
+class Attribute;
 }
 namespace System::Reflection {
 class PropertyInfo;
-}
-namespace System::Reflection {
-class ICustomAttributeProvider;
-}
-namespace System::Collections::Generic {
-template <typename T> class IList_1;
-}
-namespace System {
-class AttributeUsageAttribute;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace System {
-class Attribute;
 }
 namespace System {
 class Type;
 }
 namespace System {
 class __MonoCustomAttrs__AttributeInfo;
+}
+namespace System::Reflection {
+class ICustomAttributeProvider;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace System {
+class Object;
+}
+namespace System::Reflection {
+class EventInfo;
+}
+namespace System::Reflection {
+class Assembly;
+}
+namespace System {
+class AttributeUsageAttribute;
+}
+namespace System::Reflection {
+class CustomAttributeData;
+}
+namespace System::Reflection {
+class RuntimePropertyInfo;
 }
 // Forward declare root types
 namespace System {

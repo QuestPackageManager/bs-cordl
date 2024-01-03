@@ -8,11 +8,11 @@ CORDL_MODULE_EXPORT(ISignerInfoGenerator)
 namespace Org::BouncyCastle::Asn1 {
 class DerObjectIdentifier;
 }
-namespace Org::BouncyCastle::Asn1::Cms {
-class SignerInfo;
-}
 namespace Org::BouncyCastle::Asn1::X509 {
 class AlgorithmIdentifier;
+}
+namespace Org::BouncyCastle::Asn1::Cms {
+class SignerInfo;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Cms {

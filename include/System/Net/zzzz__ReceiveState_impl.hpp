@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/zzzz__ReceiveState_def.hpp"
-#include "System/Net/zzzz__CommandStream_def.hpp"
 #include "System/Net/zzzz__ResponseDescription_def.hpp"
+#include "System/Net/zzzz__CommandStream_def.hpp"
 //  Writing Method size for method: ::System::Net::ReceiveState._ctor
 template <>
 

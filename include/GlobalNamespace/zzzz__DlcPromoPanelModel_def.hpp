@@ -15,56 +15,53 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(DlcPromoPanelModel)
-namespace System {
-class Random;
-}
-namespace GlobalNamespace {
-struct __DlcPromoPanelModel___Initialize_d__10;
-}
 namespace GlobalNamespace {
 struct __DlcPromoPanelModel___UpdatePacksAsync_d__19;
-}
-namespace GlobalNamespace {
-class IAnalyticsModel;
-}
-namespace Zenject {
-class IInitializable;
-}
-namespace GlobalNamespace {
-class IBeatmapLevelPack;
-}
-namespace GlobalNamespace {
-class IPreviewBeatmapLevel;
-}
-namespace GlobalNamespace {
-class IAdditionalContentModel;
 }
 namespace GlobalNamespace {
 class __DlcPromoPanelDataSO__MusicPackPromoInfo;
 }
 namespace GlobalNamespace {
-class IPlatformInit;
+class IPreviewBeatmapLevel;
 }
-namespace GlobalNamespace {
-class __DlcPromoPanelModel____c__DisplayClass11_0;
-}
-namespace GlobalNamespace {
-class DlcPromoPanelDataSO;
-}
-namespace GlobalNamespace {
-struct __DlcPromoPanelModel___HandleAdditionalContentModelDidInvalidateData_d__20;
+namespace System::Threading::Tasks {
+class Task;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace GlobalNamespace {
+class IAnalyticsModel;
+}
+namespace System {
+class Random;
+}
+namespace GlobalNamespace {
 class PlayerDataModel;
 }
-namespace System::Threading::Tasks {
-class Task;
+namespace GlobalNamespace {
+struct __DlcPromoPanelModel___HandleAdditionalContentModelDidInvalidateData_d__20;
 }
-namespace System::Runtime::CompilerServices {
-class IAsyncStateMachine;
+namespace GlobalNamespace {
+struct __DlcPromoPanelModel___Initialize_d__10;
+}
+namespace GlobalNamespace {
+class IAdditionalContentModel;
+}
+namespace GlobalNamespace {
+class IBeatmapLevelPack;
+}
+namespace GlobalNamespace {
+class __DlcPromoPanelModel____c__DisplayClass11_0;
+}
+namespace Zenject {
+class IInitializable;
+}
+namespace GlobalNamespace {
+class DlcPromoPanelDataSO;
+}
+namespace GlobalNamespace {
+class IPlatformInit;
 }
 namespace System::Runtime::CompilerServices {
 struct AsyncVoidMethodBuilder;
@@ -73,16 +70,19 @@ namespace System::Runtime::CompilerServices {
 struct TaskAwaiter;
 }
 namespace System::Runtime::CompilerServices {
+class IAsyncStateMachine;
+}
+namespace System::Runtime::CompilerServices {
 template <typename TResult> struct TaskAwaiter_1;
+}
+namespace GlobalNamespace {
+struct EntitlementStatus;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace System::Runtime::CompilerServices {
 struct AsyncTaskMethodBuilder;
-}
-namespace GlobalNamespace {
-struct EntitlementStatus;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -110,8 +110,8 @@ MARK_VAL_T(::GlobalNamespace::__DlcPromoPanelModel___UpdatePacksAsync_d__19);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(3400)), TypeDefinitionIndex(TypeDefinitionIndex(3393)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 105 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(4160)) CS Name: ::DlcPromoPanelModel::<Initialize>d__10
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3400)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 105
+// }), TypeDefinitionIndex(TypeDefinitionIndex(3393))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4160)) CS Name: ::DlcPromoPanelModel::<Initialize>d__10
 struct CORDL_TYPE __DlcPromoPanelModel___Initialize_d__10 {
 public:
   // Declarations
@@ -173,7 +173,7 @@ static_assert(offsetof(::GlobalNamespace::__DlcPromoPanelModel___Initialize_d__1
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(4658))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4658)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4161))
 // CS Name: ::DlcPromoPanelModel::<>c__DisplayClass11_0*
 class CORDL_TYPE __DlcPromoPanelModel____c__DisplayClass11_0 : public ::System::Object {
@@ -228,9 +228,8 @@ static_assert(offsetof(::GlobalNamespace::__DlcPromoPanelModel____c__DisplayClas
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 880 }), TypeDefinitionIndex(TypeDefinitionIndex(16270)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3401)), TypeDefinitionIndex(TypeDefinitionIndex(3394))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4162)) CS Name:
-// ::DlcPromoPanelModel::<UpdatePacksAsync>d__19
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3401)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(16270)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 880 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(4162)) CS Name: ::DlcPromoPanelModel::<UpdatePacksAsync>d__19
 struct CORDL_TYPE __DlcPromoPanelModel___UpdatePacksAsync_d__19 {
 public:
   // Declarations
@@ -320,7 +319,7 @@ static_assert(offsetof(::GlobalNamespace::__DlcPromoPanelModel___UpdatePacksAsyn
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3393)), TypeDefinitionIndex(TypeDefinitionIndex(3400))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3400)), TypeDefinitionIndex(TypeDefinitionIndex(3393))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4163))
 // CS Name: ::DlcPromoPanelModel::<HandleAdditionalContentModelDidInvalidateData>d__20
 struct CORDL_TYPE __DlcPromoPanelModel___HandleAdditionalContentModelDidInvalidateData_d__20 {

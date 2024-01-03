@@ -5,16 +5,16 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(Observer_1)
 namespace System {
-class Exception;
+template <typename T> class IObserver_1;
+}
+namespace System {
+template <typename T> class Action_1;
 }
 namespace System {
 class Action;
 }
 namespace System {
-template <typename T> class IObserver_1;
-}
-namespace System {
-template <typename T> class Action_1;
+class Exception;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::Utilities {

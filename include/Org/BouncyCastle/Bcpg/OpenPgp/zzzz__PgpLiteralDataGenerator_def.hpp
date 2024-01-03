@@ -7,8 +7,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(PgpLiteralDataGenerator)
-namespace System {
-struct DateTime;
+namespace Org::BouncyCastle::Bcpg {
+class BcpgOutputStream;
+}
+namespace System::IO {
+class Stream;
 }
 namespace System::IO {
 class FileInfo;
@@ -16,11 +19,8 @@ class FileInfo;
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
 class IStreamGenerator;
 }
-namespace Org::BouncyCastle::Bcpg {
-class BcpgOutputStream;
-}
-namespace System::IO {
-class Stream;
+namespace System {
+struct DateTime;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Bcpg::OpenPgp {

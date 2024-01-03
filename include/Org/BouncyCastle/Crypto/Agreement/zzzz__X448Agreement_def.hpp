@@ -9,11 +9,11 @@ CORDL_MODULE_EXPORT(X448Agreement)
 namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;
 }
-namespace Org::BouncyCastle::Crypto::Parameters {
-class X448PrivateKeyParameters;
-}
 namespace Org::BouncyCastle::Crypto {
 class IRawAgreement;
+}
+namespace Org::BouncyCastle::Crypto::Parameters {
+class X448PrivateKeyParameters;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Agreement {

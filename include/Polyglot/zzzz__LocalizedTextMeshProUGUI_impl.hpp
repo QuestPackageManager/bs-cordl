@@ -2,9 +2,9 @@
 #include "Polyglot/zzzz__LocalizedTextComponent_1_impl.hpp"
 #include "TMPro/zzzz__TextMeshProUGUI_impl.hpp"
 #include "Polyglot/zzzz__LocalizedTextMeshProUGUI_def.hpp"
+#include "TMPro/zzzz__TextMeshProUGUI_def.hpp"
 #include "TMPro/zzzz__TextAlignmentOptions_def.hpp"
 #include "Polyglot/zzzz__LanguageDirection_def.hpp"
-#include "TMPro/zzzz__TextMeshProUGUI_def.hpp"
 //  Writing Method size for method: ::Polyglot::LocalizedTextMeshProUGUI.SetText
 template <>
 

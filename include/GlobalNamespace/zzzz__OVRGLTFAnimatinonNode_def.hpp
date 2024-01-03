@@ -14,35 +14,14 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVRGLTFAnimatinonNode)
-namespace GlobalNamespace {
-struct OVRGLTFInputNode;
+namespace UnityEngine {
+struct Vector3;
 }
 namespace GlobalNamespace {
 struct __OVRGLTFAnimatinonNode__ThumbstickDirection;
 }
 namespace GlobalNamespace {
-class OVRGLTFAnimationNodeMorphTargetHandler;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace UnityEngine {
-struct Quaternion;
-}
-namespace GlobalNamespace {
-struct __OVRGLTFAnimatinonNode__InputNodeState;
-}
-namespace UnityEngine {
-struct Vector3;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace System {
-template <typename T1, typename T2> class Tuple_2;
-}
-namespace OVRSimpleJSON {
-class JSONNode;
+struct OVRGLTFInputNode;
 }
 namespace GlobalNamespace {
 struct __OVRGLTFAnimatinonNode__OVRInterpolationType;
@@ -50,14 +29,35 @@ struct __OVRGLTFAnimatinonNode__OVRInterpolationType;
 namespace GlobalNamespace {
 struct OVRBinaryChunk;
 }
+namespace UnityEngine {
+struct Vector2;
+}
+namespace UnityEngine {
+struct Quaternion;
+}
+namespace OVRSimpleJSON {
+class JSONNode;
+}
 namespace GlobalNamespace {
-struct __OVRGLTFAnimatinonNode__OVRGLTFTransformType;
+class OVRGLTFAnimationNodeMorphTargetHandler;
 }
 namespace UnityEngine {
 class GameObject;
 }
-namespace UnityEngine {
-struct Vector2;
+namespace GlobalNamespace {
+struct __OVRGLTFAnimatinonNode__InputNodeState;
+}
+namespace System {
+template <typename T1, typename T2> class Tuple_2;
+}
+namespace GlobalNamespace {
+struct __OVRGLTFAnimatinonNode__OVRGLTFTransformType;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 // Forward declare root types
 namespace GlobalNamespace {

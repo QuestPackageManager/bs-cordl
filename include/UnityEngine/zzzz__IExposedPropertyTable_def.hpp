@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/byref.hpp"
 CORDL_MODULE_EXPORT(IExposedPropertyTable)
 namespace UnityEngine {
-struct PropertyName;
+class Object;
 }
 namespace UnityEngine {
-class Object;
+struct PropertyName;
 }
 // Forward declare root types
 namespace UnityEngine {

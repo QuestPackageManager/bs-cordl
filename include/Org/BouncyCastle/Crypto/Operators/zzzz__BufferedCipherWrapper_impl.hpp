@@ -1,10 +1,10 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Operators/zzzz__BufferedCipherWrapper_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__ICipher_def.hpp"
+#include "Org/BouncyCastle/Crypto/IO/zzzz__CipherStream_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__IBufferedCipher_def.hpp"
-#include "Org/BouncyCastle/Crypto/IO/zzzz__CipherStream_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__ICipher_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Operators::BufferedCipherWrapper._ctor
 template <>
 

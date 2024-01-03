@@ -6,38 +6,38 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(TMP_SubMeshUI)
-namespace TMPro {
-class TextMeshProUGUI;
-}
-namespace TMPro {
-class TMP_Text;
-}
-namespace UnityEngine::UI {
-struct CanvasUpdate;
-}
 namespace UnityEngine {
 class Transform;
 }
 namespace TMPro {
 class TMP_FontAsset;
 }
+namespace UnityEngine {
+class Material;
+}
+namespace TMPro {
+class TMP_Text;
+}
 namespace TMPro {
 class TMP_SpriteAsset;
 }
+namespace UnityEngine {
+struct Rect;
+}
 namespace TMPro {
 struct MaterialReference;
+}
+namespace TMPro {
+class TextMeshProUGUI;
 }
 namespace UnityEngine {
 class Texture;
 }
 namespace UnityEngine {
-struct Rect;
-}
-namespace UnityEngine {
 class Mesh;
 }
-namespace UnityEngine {
-class Material;
+namespace UnityEngine::UI {
+struct CanvasUpdate;
 }
 // Forward declare root types
 namespace TMPro {

@@ -9,19 +9,19 @@ namespace System {
 class IDisposable;
 }
 namespace System::Security::Cryptography::X509Certificates {
-class X509ChainElementCollection;
+class X509ChainPolicy;
 }
 namespace System::Security::Cryptography::X509Certificates {
-class X509Certificate2;
+class X509ChainElementCollection;
 }
 namespace System::Security::Cryptography::X509Certificates {
 struct X509ChainStatus;
 }
 namespace System::Security::Cryptography::X509Certificates {
-struct X509ChainStatusFlags;
+class X509Certificate2;
 }
 namespace System::Security::Cryptography::X509Certificates {
-class X509ChainPolicy;
+struct X509ChainStatusFlags;
 }
 // Forward declare root types
 namespace System::Security::Cryptography::X509Certificates {

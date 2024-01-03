@@ -5,13 +5,13 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(LevelGameplaySetupData)
 namespace GlobalNamespace {
-class PreviewDifficultyBeatmap;
-}
-namespace GlobalNamespace {
 class GameplayModifiers;
 }
 namespace GlobalNamespace {
 class ILevelGameplaySetupData;
+}
+namespace GlobalNamespace {
+class PreviewDifficultyBeatmap;
 }
 // Forward declare root types
 namespace GlobalNamespace {

@@ -1,10 +1,10 @@
 #pragma once
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "Mono/Security/Interface/zzzz__MonoRemoteCertificateValidationCallback_def.hpp"
+#include "System/Security/Cryptography/X509Certificates/zzzz__X509Chain_def.hpp"
+#include "Mono/Security/Interface/zzzz__MonoSslPolicyErrors_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509Certificate_def.hpp"
-#include "Mono/Security/Interface/zzzz__MonoSslPolicyErrors_def.hpp"
-#include "System/Security/Cryptography/X509Certificates/zzzz__X509Chain_def.hpp"
 //  Writing Method size for method: ::Mono::Security::Interface::MonoRemoteCertificateValidationCallback._ctor
 template <>
 

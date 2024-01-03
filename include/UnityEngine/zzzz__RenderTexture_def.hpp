@@ -2,12 +2,17 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "UnityEngine/zzzz__RenderTextureMemoryless_def.hpp"
 #include "UnityEngine/zzzz__Texture_def.hpp"
+#include "UnityEngine/zzzz__VRTextureUsage_def.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(RenderTexture)
+namespace UnityEngine::Experimental::Rendering {
+struct DefaultFormat;
+}
 namespace UnityEngine {
-struct RenderBuffer;
+struct RenderTextureReadWrite;
 }
 namespace UnityEngine::Rendering {
 struct TextureDimension;
@@ -16,19 +21,13 @@ namespace UnityEngine::Experimental::Rendering {
 struct GraphicsFormat;
 }
 namespace UnityEngine {
-struct RenderTextureReadWrite;
-}
-namespace UnityEngine::Experimental::Rendering {
-struct DefaultFormat;
-}
-namespace UnityEngine {
-struct RenderTextureFormat;
-}
-namespace UnityEngine {
 struct VRTextureUsage;
 }
 namespace UnityEngine {
-struct RenderTextureMemoryless;
+struct RenderBuffer;
+}
+namespace UnityEngine {
+struct RenderTextureFormat;
 }
 namespace UnityEngine {
 struct RenderTextureDescriptor;
@@ -43,7 +42,7 @@ MARK_REF_PTR_T(::UnityEngine::RenderTexture);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10071))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10118)), TypeDefinitionIndex(TypeDefinitionIndex(10121)), TypeDefinitionIndex(TypeDefinitionIndex(10071))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10078))
 // CS Name: ::UnityEngine::RenderTexture*
 class CORDL_TYPE RenderTexture : public ::UnityEngine::Texture {

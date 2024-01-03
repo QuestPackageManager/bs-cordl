@@ -9,11 +9,11 @@ CORDL_MODULE_EXPORT(NativeMethods)
 namespace Microsoft::Win32::SafeHandles {
 class SafeWaitHandle;
 }
-namespace System::Runtime::InteropServices {
-struct HandleRef;
-}
 namespace Microsoft::Win32::SafeHandles {
 class SafeProcessHandle;
+}
+namespace System::Runtime::InteropServices {
+struct HandleRef;
 }
 namespace System::Runtime::InteropServices {
 class SafeHandle;

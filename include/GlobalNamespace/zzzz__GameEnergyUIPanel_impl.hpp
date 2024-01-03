@@ -2,10 +2,10 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__GameEnergyUIPanel_def.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableDirector_def.hpp"
-#include "GlobalNamespace/zzzz__IGameEnergyCounter_def.hpp"
-#include "UnityEngine/UI/zzzz__Image_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "UnityEngine/zzzz__RectTransform_def.hpp"
+#include "UnityEngine/UI/zzzz__Image_def.hpp"
+#include "GlobalNamespace/zzzz__IGameEnergyCounter_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::GameEnergyUIPanel.Start
 template <>
 

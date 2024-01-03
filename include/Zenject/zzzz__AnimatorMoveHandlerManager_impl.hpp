@@ -1,10 +1,10 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "Zenject/zzzz__AnimatorMoveHandlerManager_def.hpp"
-#include "System/zzzz__Object_def.hpp"
 #include "Zenject/zzzz__IAnimatorMoveHandler_def.hpp"
 #include "Zenject/zzzz__InjectTypeInfo_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::Zenject::AnimatorMoveHandlerManager.Construct
 template <>
 

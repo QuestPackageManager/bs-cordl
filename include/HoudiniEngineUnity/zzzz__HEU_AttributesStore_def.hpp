@@ -17,34 +17,37 @@ namespace UnityEngine {
 struct Vector3;
 }
 namespace HoudiniEngineUnity {
-struct HAPI_PartType;
+class HEU_SessionBase;
 }
 namespace HoudiniEngineUnity {
-template <typename T> class IEquivable_1;
+struct HAPI_PartInfo;
+}
+namespace HoudiniEngineUnity {
+struct HAPI_AttributeInfo;
+}
+namespace HoudiniEngineUnity {
+class HEU_ToolsInfo;
 }
 namespace HoudiniEngineUnity {
 struct __HEU_AttributeData__AttributeType;
 }
+namespace UnityEngine {
+class MeshCollider;
+}
 namespace HoudiniEngineUnity {
-class HEU_SessionBase;
+template <typename T> class IEquivable_1;
 }
 namespace UnityEngine {
 class Material;
 }
 namespace HoudiniEngineUnity {
-class HEU_HoudiniAsset;
+struct HAPI_PartType;
 }
 namespace UnityEngine {
 class Transform;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
 namespace UnityEngine {
 class Mesh;
-}
-namespace HoudiniEngineUnity {
-class HEU_ToolsInfo;
 }
 namespace HoudiniEngineUnity {
 struct __HEU_ToolsInfo__PaintMergeMode;
@@ -52,29 +55,26 @@ struct __HEU_ToolsInfo__PaintMergeMode;
 namespace HoudiniEngineUnity {
 class HEU_AttributeData;
 }
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
 namespace UnityEngine {
 class GameObject;
 }
 namespace HoudiniEngineUnity {
-struct HAPI_AttributeInfo;
-}
-namespace UnityEngine {
-class MeshCollider;
-}
-namespace HoudiniEngineUnity {
-struct HAPI_PartInfo;
-}
-namespace HoudiniEngineUnity {
 struct HAPI_AttributeOwner;
+}
+namespace HoudiniEngineUnity {
+class HEU_HoudiniAsset;
 }
 namespace System {
 class Object;
 }
 namespace System {
-class IAsyncResult;
+class AsyncCallback;
 }
 namespace System {
-class AsyncCallback;
+class IAsyncResult;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {

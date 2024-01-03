@@ -7,16 +7,16 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(TypeIdentifiers)
 namespace System {
-class __TypeIdentifiers__Display;
-}
-namespace System {
 class TypeIdentifier;
 }
 namespace System {
-class TypeName;
+class __TypeIdentifiers__Display;
 }
 namespace System {
 template <typename T> class IEquatable_1;
+}
+namespace System {
+class TypeName;
 }
 // Forward declare root types
 namespace System {

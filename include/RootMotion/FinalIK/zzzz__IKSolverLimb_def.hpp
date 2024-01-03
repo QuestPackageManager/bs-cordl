@@ -13,11 +13,8 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(IKSolverLimb)
-namespace UnityEngine {
-struct Vector3;
-}
 namespace RootMotion::FinalIK {
-struct __IKSolverLimb__BendModifier;
+struct __IKSolverLimb__AxisDirection;
 }
 namespace UnityEngine {
 class Transform;
@@ -25,8 +22,11 @@ class Transform;
 namespace UnityEngine {
 struct AvatarIKGoal;
 }
+namespace UnityEngine {
+struct Vector3;
+}
 namespace RootMotion::FinalIK {
-struct __IKSolverLimb__AxisDirection;
+struct __IKSolverLimb__BendModifier;
 }
 // Forward declare root types
 namespace RootMotion::FinalIK {
@@ -153,8 +153,8 @@ static_assert(offsetof(::RootMotion::FinalIK::__IKSolverLimb__AxisDirection, dot
 // SizeInfo { instance_size: 320, native_size: -1, calculated_instance_size: 320, calculated_native_size: 320, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12576)), TypeDefinitionIndex(TypeDefinitionIndex(14871)), TypeDefinitionIndex(TypeDefinitionIndex(12582)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(10249))} Self: TypeDefinitionIndex(TypeDefinitionIndex(12578)) CS Name: ::RootMotion.FinalIK::IKSolverLimb*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12582)), TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(12576)),
+// TypeDefinitionIndex(TypeDefinitionIndex(14871)), TypeDefinitionIndex(TypeDefinitionIndex(10249))} Self: TypeDefinitionIndex(TypeDefinitionIndex(12578)) CS Name: ::RootMotion.FinalIK::IKSolverLimb*
 class CORDL_TYPE IKSolverLimb : public ::RootMotion::FinalIK::IKSolverTrigonometric {
 public:
   // Declarations

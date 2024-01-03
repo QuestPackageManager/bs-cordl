@@ -4,24 +4,6 @@
 CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(IInstantiator)
-namespace UnityEngine {
-struct Quaternion;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
-namespace UnityEngine {
-class GameObject;
-}
-namespace UnityEngine {
-class Transform;
-}
-namespace UnityEngine {
-class Object;
-}
-namespace System {
-class Object;
-}
 namespace System {
 class Type;
 }
@@ -29,7 +11,25 @@ namespace UnityEngine {
 struct Vector3;
 }
 namespace UnityEngine {
+class Object;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
+namespace UnityEngine {
 class Component;
+}
+namespace UnityEngine {
+class Transform;
+}
+namespace System {
+class Object;
+}
+namespace UnityEngine {
+class GameObject;
+}
+namespace UnityEngine {
+struct Quaternion;
 }
 // Forward declare root types
 namespace Zenject {

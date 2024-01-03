@@ -3,10 +3,10 @@
 #include "GlobalNamespace/zzzz__TrackLaneRingsRotationEffectSpawner_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__TrackLaneRingsRotationEffectSpawner_def.hpp"
+#include "GlobalNamespace/zzzz__TrackLaneRingsRotationEffectSpawner_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapDataCallbackWrapper_def.hpp"
 #include "GlobalNamespace/zzzz__BasicBeatmapEventData_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapCallbacksController_def.hpp"
-#include "GlobalNamespace/zzzz__TrackLaneRingsRotationEffectSpawner_def.hpp"
 #include "GlobalNamespace/zzzz__TrackLaneRingsRotationEffect_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::GlobalNamespace::__TrackLaneRingsRotationEffectSpawner__RotationStepType::__TrackLaneRingsRotationEffectSpawner__RotationStepType(int32_t value__) noexcept {

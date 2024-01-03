@@ -10,11 +10,11 @@ CORDL_MODULE_EXPORT(PgpEncryptedData)
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
 class __PgpEncryptedData__TruncatedStream;
 }
-namespace System::IO {
-class Stream;
-}
 namespace Org::BouncyCastle::Bcpg {
 class InputStreamPacket;
+}
+namespace System::IO {
+class Stream;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Bcpg::OpenPgp {

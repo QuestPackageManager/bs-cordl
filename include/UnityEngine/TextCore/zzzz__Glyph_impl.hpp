@@ -4,8 +4,8 @@
 #include "UnityEngine/TextCore/zzzz__GlyphMetrics_impl.hpp"
 #include "UnityEngine/TextCore/zzzz__GlyphRect_impl.hpp"
 #include "UnityEngine/TextCore/zzzz__Glyph_def.hpp"
-#include "UnityEngine/TextCore/zzzz__GlyphMetrics_def.hpp"
 #include "UnityEngine/TextCore/LowLevel/zzzz__GlyphMarshallingStruct_def.hpp"
+#include "UnityEngine/TextCore/zzzz__GlyphMetrics_def.hpp"
 #include "UnityEngine/TextCore/zzzz__GlyphRect_def.hpp"
 //  Writing Method size for method: ::UnityEngine::TextCore::Glyph.get_index
 template <>

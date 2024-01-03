@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(ConnectedPlayerName)
-namespace TMPro {
-class TextMeshProUGUI;
-}
 namespace GlobalNamespace {
 class IConnectedPlayer;
+}
+namespace TMPro {
+class TextMeshProUGUI;
 }
 // Forward declare root types
 namespace BeatSaber::AvatarCore {

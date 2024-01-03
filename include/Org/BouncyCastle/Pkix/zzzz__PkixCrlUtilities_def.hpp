@@ -4,23 +4,23 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(PkixCrlUtilities)
-namespace Org::BouncyCastle::X509::Store {
-class X509CrlStoreSelector;
-}
 namespace Org::BouncyCastle::Pkix {
 class PkixParameters;
-}
-namespace System::Collections {
-class IList;
-}
-namespace System {
-struct DateTime;
 }
 namespace Org::BouncyCastle::Utilities::Collections {
 class ISet;
 }
 namespace System::Collections {
+class IList;
+}
+namespace System::Collections {
 class ICollection;
+}
+namespace Org::BouncyCastle::X509::Store {
+class X509CrlStoreSelector;
+}
+namespace System {
+struct DateTime;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Pkix {

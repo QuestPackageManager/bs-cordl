@@ -2,13 +2,13 @@
 #include "GlobalNamespace/zzzz__SaberType_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__IntroTutorialRing_def.hpp"
-#include "GlobalNamespace/zzzz__SaberType_def.hpp"
-#include "UnityEngine/zzzz__ParticleSystem_def.hpp"
-#include "UnityEngine/zzzz__CanvasGroup_def.hpp"
-#include "UnityEngine/UI/zzzz__Image_def.hpp"
-#include "GlobalNamespace/zzzz__ColorManager_def.hpp"
 #include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
+#include "UnityEngine/zzzz__CanvasGroup_def.hpp"
 #include "UnityEngine/zzzz__Collider_def.hpp"
+#include "GlobalNamespace/zzzz__ColorManager_def.hpp"
+#include "UnityEngine/zzzz__ParticleSystem_def.hpp"
+#include "UnityEngine/UI/zzzz__Image_def.hpp"
+#include "GlobalNamespace/zzzz__SaberType_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::IntroTutorialRing.set_alpha
 template <>
 

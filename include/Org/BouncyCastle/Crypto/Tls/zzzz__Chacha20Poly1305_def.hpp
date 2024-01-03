@@ -6,6 +6,9 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Chacha20Poly1305)
+namespace Org::BouncyCastle::Crypto {
+class IMac;
+}
 namespace Org::BouncyCastle::Crypto::Tls {
 class TlsCipher;
 }
@@ -13,16 +16,13 @@ namespace Org::BouncyCastle::Crypto::Tls {
 class TlsContext;
 }
 namespace Org::BouncyCastle::Crypto {
-class IMac;
+class IStreamCipher;
 }
 namespace Org::BouncyCastle::Crypto::Parameters {
 class KeyParameter;
 }
 namespace Org::BouncyCastle::Crypto::Engines {
 class ChaCha7539Engine;
-}
-namespace Org::BouncyCastle::Crypto {
-class IStreamCipher;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {

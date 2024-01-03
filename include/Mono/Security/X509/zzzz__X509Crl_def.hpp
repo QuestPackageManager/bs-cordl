@@ -8,29 +8,29 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(X509Crl)
-namespace Mono::Security::X509 {
-class X509ExtensionCollection;
-}
-namespace Mono::Security::X509 {
-class __X509Crl__X509CrlEntry;
-}
-namespace System::Collections {
-class ArrayList;
-}
-namespace System {
-struct DateTime;
-}
 namespace System::Security::Cryptography {
 class RSA;
 }
 namespace Mono::Security::X509 {
-class X509Certificate;
+class __X509Crl__X509CrlEntry;
 }
 namespace System::Security::Cryptography {
 class DSA;
 }
+namespace System::Collections {
+class ArrayList;
+}
 namespace System::Security::Cryptography {
 class AsymmetricAlgorithm;
+}
+namespace Mono::Security::X509 {
+class X509ExtensionCollection;
+}
+namespace Mono::Security::X509 {
+class X509Certificate;
+}
+namespace System {
+struct DateTime;
 }
 namespace Mono::Security {
 class ASN1;
@@ -141,7 +141,7 @@ static_assert(offsetof(::Mono::Security::X509::__X509Crl__X509CrlEntry, ___exten
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Security::X509 {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2368))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2368)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13750))
 // CS Name: ::Mono.Security.X509::X509Crl*
 class CORDL_TYPE X509Crl : public ::System::Object {

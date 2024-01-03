@@ -9,13 +9,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(SchemaAttDef)
 namespace System::Xml {
-struct XmlTokenizedType;
-}
-namespace System::Xml {
-class IDtdAttributeInfo;
+class IDtdDefaultAttributeInfo;
 }
 namespace System::Xml {
 class XmlQualifiedName;
+}
+namespace System::Xml {
+class IValidationEventHandling;
 }
 namespace System {
 class Object;
@@ -24,10 +24,10 @@ namespace System::Xml::Schema {
 struct __SchemaAttDef__Reserve;
 }
 namespace System::Xml {
-class IDtdDefaultAttributeInfo;
+struct XmlTokenizedType;
 }
 namespace System::Xml {
-class IValidationEventHandling;
+class IDtdAttributeInfo;
 }
 // Forward declare root types
 namespace System::Xml::Schema {
@@ -97,7 +97,7 @@ static_assert(offsetof(::System::Xml::Schema::__SchemaAttDef__Reserve, value__) 
 // SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 124, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11703)), TypeDefinitionIndex(TypeDefinitionIndex(11700))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11700)), TypeDefinitionIndex(TypeDefinitionIndex(11703))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11701))
 // CS Name: ::System.Xml.Schema::SchemaAttDef*
 class CORDL_TYPE SchemaAttDef : public ::System::Xml::Schema::SchemaDeclBase {

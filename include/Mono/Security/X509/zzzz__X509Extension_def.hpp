@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(X509Extension)
-namespace System {
-class Object;
-}
 namespace Mono::Security {
 class ASN1;
+}
+namespace System {
+class Object;
 }
 namespace System::Text {
 class StringBuilder;

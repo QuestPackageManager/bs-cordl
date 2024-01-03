@@ -2,43 +2,44 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "UnityEngine/InputSystem/LowLevel/zzzz__InputEventPtr_def.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(TouchSimulation)
+namespace UnityEngine::InputSystem {
+class InputDevice;
+}
+namespace UnityEngine::InputSystem {
+struct InputDeviceChange;
+}
+namespace System {
+template <typename T1, typename T2> class Action_2;
+}
+namespace UnityEngine::InputSystem {
+class Touchscreen;
+}
+namespace UnityEngine::InputSystem {
+struct TouchPhase;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+struct InputEventPtr;
+}
+namespace UnityEngine::InputSystem {
+class InputControl;
+}
+namespace UnityEngine::InputSystem {
+class Pointer;
+}
 namespace UnityEngine {
 struct Vector2;
 }
 namespace UnityEngine::InputSystem::Controls {
 class ButtonControl;
 }
-namespace UnityEngine::InputSystem {
-class InputDevice;
-}
-namespace UnityEngine::InputSystem {
-struct TouchPhase;
-}
-namespace UnityEngine::InputSystem {
-class InputControl;
-}
-namespace System {
-template <typename T1, typename T2> class Action_2;
-}
 namespace UnityEngine::InputSystem::LowLevel {
 class IInputStateChangeMonitor;
-}
-namespace UnityEngine::InputSystem {
-class Touchscreen;
-}
-namespace UnityEngine::InputSystem {
-struct InputDeviceChange;
-}
-namespace UnityEngine::InputSystem::LowLevel {
-struct InputEventPtr;
-}
-namespace UnityEngine::InputSystem {
-class Pointer;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::EnhancedTouch {
@@ -50,7 +51,7 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::EnhancedTouch::TouchSimulation);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::EnhancedTouch {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(6536))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6422))
 // CS Name: ::UnityEngine.InputSystem.EnhancedTouch::TouchSimulation*
 class CORDL_TYPE TouchSimulation : public ::UnityEngine::MonoBehaviour {

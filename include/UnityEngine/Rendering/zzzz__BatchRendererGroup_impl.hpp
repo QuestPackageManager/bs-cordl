@@ -7,8 +7,8 @@
 #include "UnityEngine/Rendering/zzzz__BatchRendererCullingOutput_def.hpp"
 #include "UnityEngine/Rendering/zzzz__LODParameters_def.hpp"
 #include "UnityEngine/Rendering/zzzz__BatchCullingContext_def.hpp"
-#include "System/zzzz__Object_def.hpp"
 #include "Unity/Jobs/zzzz__JobHandle_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Rendering::__BatchRendererGroup__OnPerformCulling._ctor
 template <>
 

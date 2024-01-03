@@ -3,12 +3,12 @@
 #include "GlobalNamespace/zzzz__KawaseBlurRendererSO_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__CameraEvent_impl.hpp"
 #include "GlobalNamespace/zzzz__CommandBufferBlurryScreenGrab_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "UnityEngine/zzzz__Camera_def.hpp"
 #include "GlobalNamespace/zzzz__KawaseBlurRendererSO_def.hpp"
 #include "UnityEngine/Rendering/zzzz__CommandBuffer_def.hpp"
 #include "UnityEngine/Rendering/zzzz__CameraEvent_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "GlobalNamespace/zzzz__CommandBufferOwners_def.hpp"
-#include "UnityEngine/zzzz__Camera_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::CommandBufferBlurryScreenGrab.CreateCommandBuffer
 template <>
 

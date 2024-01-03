@@ -8,9 +8,6 @@ CORDL_MODULE_EXPORT(MonoSslAuthenticationOptions)
 namespace System::Net::Security {
 class ServerCertSelectionCallback;
 }
-namespace System::Security::Cryptography::X509Certificates {
-class X509Certificate;
-}
 namespace System::Security::Authentication {
 struct SslProtocols;
 }
@@ -18,10 +15,13 @@ namespace System::Net::Security {
 struct EncryptionPolicy;
 }
 namespace System::Security::Cryptography::X509Certificates {
+struct X509RevocationMode;
+}
+namespace System::Security::Cryptography::X509Certificates {
 class X509CertificateCollection;
 }
 namespace System::Security::Cryptography::X509Certificates {
-struct X509RevocationMode;
+class X509Certificate;
 }
 // Forward declare root types
 namespace Mono::Net::Security {

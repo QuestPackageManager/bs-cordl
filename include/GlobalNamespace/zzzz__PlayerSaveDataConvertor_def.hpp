@@ -5,22 +5,22 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(PlayerSaveDataConvertor)
 namespace GlobalNamespace {
-struct __PlayerSaveData__PlayerSpecificSettings__EnvironmentEffectsFilterPresetSaveData;
+struct EnvironmentEffectsFilterPreset;
 }
 namespace GlobalNamespace {
 struct NoteJumpDurationTypeSettings;
 }
 namespace GlobalNamespace {
-struct ArcVisibilityType;
+struct __PlayerSaveData__PlayerSpecificSettings__EnvironmentEffectsFilterPresetSaveData;
 }
 namespace GlobalNamespace {
 struct __PlayerSaveData__PlayerSpecificSettings__ArcVisibilityTypeSaveData;
 }
 namespace GlobalNamespace {
-struct __PlayerSaveData__PlayerSpecificSettings__NoteJumpDurationTypeSettingsSaveData;
+struct ArcVisibilityType;
 }
 namespace GlobalNamespace {
-struct EnvironmentEffectsFilterPreset;
+struct __PlayerSaveData__PlayerSpecificSettings__NoteJumpDurationTypeSettingsSaveData;
 }
 // Forward declare root types
 namespace GlobalNamespace {

@@ -2,12 +2,12 @@
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "OVR/OpenVR/zzzz__IVRNotifications_def.hpp"
 #include "OVR/OpenVR/zzzz__EVRNotificationStyle_def.hpp"
-#include "System/zzzz__AsyncCallback_def.hpp"
-#include "OVR/OpenVR/zzzz__NotificationBitmap_t_def.hpp"
-#include "System/zzzz__IAsyncResult_def.hpp"
-#include "System/zzzz__Object_def.hpp"
-#include "OVR/OpenVR/zzzz__EVRNotificationType_def.hpp"
 #include "OVR/OpenVR/zzzz__EVRNotificationError_def.hpp"
+#include "OVR/OpenVR/zzzz__EVRNotificationType_def.hpp"
+#include "OVR/OpenVR/zzzz__NotificationBitmap_t_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+#include "System/zzzz__AsyncCallback_def.hpp"
+#include "System/zzzz__IAsyncResult_def.hpp"
 #include "OVR/OpenVR/zzzz__IVRNotifications_def.hpp"
 //  Writing Method size for method: ::OVR::OpenVR::__IVRNotifications___CreateNotification._ctor
 template <>

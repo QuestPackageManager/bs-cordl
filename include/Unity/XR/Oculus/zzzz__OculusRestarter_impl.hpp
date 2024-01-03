@@ -3,12 +3,12 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "Unity/XR/Oculus/zzzz__OculusRestarter_def.hpp"
 #include "Unity/XR/Oculus/zzzz__OculusRestarter_def.hpp"
-#include "UnityEngine/zzzz__Coroutine_def.hpp"
 #include "System/zzzz__Action_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
+#include "UnityEngine/zzzz__Coroutine_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 //  Writing Method size for method: ::Unity::XR::Oculus::__OculusRestarter___PauseAndRestartCoroutine_d__22._ctor
 template <>
 

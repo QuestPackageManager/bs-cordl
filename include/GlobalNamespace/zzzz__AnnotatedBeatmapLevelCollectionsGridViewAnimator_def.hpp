@@ -11,13 +11,13 @@ namespace Tweening {
 class TimeTweeningManager;
 }
 namespace UnityEngine {
+struct Vector2;
+}
+namespace UnityEngine {
 class RectTransform;
 }
 namespace Tweening {
 class Vector2Tween;
-}
-namespace UnityEngine {
-struct Vector2;
 }
 // Forward declare root types
 namespace GlobalNamespace {

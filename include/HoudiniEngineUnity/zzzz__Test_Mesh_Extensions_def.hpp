@@ -9,13 +9,13 @@ namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace HoudiniEngineUnity {
+class Test_Mesh;
+}
+namespace HoudiniEngineUnity {
 class __Test_Mesh_Extensions____c;
 }
 namespace UnityEngine {
 class Mesh;
-}
-namespace HoudiniEngineUnity {
-class Test_Mesh;
 }
 namespace System {
 template <typename TInput, typename TOutput> class Converter_2;

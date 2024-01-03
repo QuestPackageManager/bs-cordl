@@ -4,17 +4,17 @@
 CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Bcpg/OpenPgp/zzzz__PgpObject_def.hpp"
 CORDL_MODULE_EXPORT(PgpCompressedData)
-namespace System::IO {
-class Stream;
-}
 namespace Org::BouncyCastle::Bcpg {
 class BcpgInputStream;
 }
 namespace Org::BouncyCastle::Bcpg {
-struct CompressionAlgorithmTag;
+class CompressedDataPacket;
+}
+namespace System::IO {
+class Stream;
 }
 namespace Org::BouncyCastle::Bcpg {
-class CompressedDataPacket;
+struct CompressionAlgorithmTag;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Bcpg::OpenPgp {

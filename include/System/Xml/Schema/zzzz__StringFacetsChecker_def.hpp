@@ -5,23 +5,23 @@ CORDL_MODULE_INIT
 #include "System/Xml/Schema/zzzz__FacetsChecker_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(StringFacetsChecker)
-namespace System::Xml::Schema {
-struct XmlTypeCode;
+namespace System::Collections {
+class ArrayList;
 }
 namespace System::Xml::Schema {
 class XmlSchemaDatatype;
 }
 namespace System {
-class Exception;
+class Object;
 }
 namespace System::Text::RegularExpressions {
 class Regex;
 }
-namespace System::Collections {
-class ArrayList;
-}
 namespace System {
-class Object;
+class Exception;
+}
+namespace System::Xml::Schema {
+struct XmlTypeCode;
 }
 // Forward declare root types
 namespace System::Xml::Schema {

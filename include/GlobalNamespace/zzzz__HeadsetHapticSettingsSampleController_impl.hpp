@@ -1,9 +1,9 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__HeadsetHapticSettingsSampleController_def.hpp"
-#include "GlobalNamespace/zzzz__FormattedFloatListSettingsController_def.hpp"
 #include "Libraries/HM/HMLib/VR/zzzz__HapticPresetSO_def.hpp"
 #include "GlobalNamespace/zzzz__HapticFeedbackManager_def.hpp"
+#include "GlobalNamespace/zzzz__FormattedFloatListSettingsController_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::HeadsetHapticSettingsSampleController.Start
 template <>
 

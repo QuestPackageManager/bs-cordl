@@ -17,38 +17,11 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(Stream)
-namespace System::Threading {
-class ManualResetEvent;
-}
 namespace System {
 template <typename TResult> class Func_1;
 }
-namespace System::IO {
-class __Stream____c;
-}
-namespace System {
-class IDisposable;
-}
 namespace System::Threading {
-class SemaphoreSlim;
-}
-namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
-}
-namespace System::IO {
-struct __Stream__ReadWriteParameters;
-}
-namespace System {
-template <typename T> struct ReadOnlyMemory_1;
-}
-namespace System::IO {
-class __Stream__ReadWriteTask;
-}
-namespace System::Threading::Tasks {
-class Task;
-}
-namespace System {
-template <typename T> struct Memory_1;
+class ManualResetEvent;
 }
 namespace System::Threading {
 struct CancellationToken;
@@ -56,23 +29,26 @@ struct CancellationToken;
 namespace System::IO {
 struct __Stream___FinishWriteAsync_d__57;
 }
-namespace System::IO {
-class __Stream__SynchronousAsyncResult;
-}
-namespace System::Threading::Tasks {
-template <typename TResult> struct ValueTask_1;
-}
-namespace System::Threading::Tasks {
-struct ValueTask;
+namespace System {
+template <typename T> struct Memory_1;
 }
 namespace System::IO {
-struct SeekOrigin;
+struct __Stream___CopyToAsyncInternal_d__28;
+}
+namespace System::Threading {
+class SemaphoreSlim;
+}
+namespace System {
+class Object;
 }
 namespace System {
 class IAsyncResult;
 }
-namespace System::IO {
-class __Stream__NullStream;
+namespace System {
+template <typename T> struct ReadOnlyMemory_1;
+}
+namespace System::Threading::Tasks {
+template <typename TResult> class Task_1;
 }
 namespace System {
 template <typename T> struct Span_1;
@@ -80,26 +56,44 @@ template <typename T> struct Span_1;
 namespace System {
 template <typename T> struct ReadOnlySpan_1;
 }
-namespace System {
-class Object;
-}
-namespace System {
-class AsyncCallback;
-}
-namespace System {
-class IAsyncDisposable;
+namespace System::IO {
+class __Stream__SynchronousAsyncResult;
 }
 namespace System::IO {
 struct __Stream____ReadAsync_g__FinishReadAsync_44_0_d;
 }
 namespace System::IO {
-struct __Stream___CopyToAsyncInternal_d__28;
+class __Stream__ReadWriteTask;
 }
-namespace System::Threading {
-class ExecutionContext;
+namespace System::IO {
+class __Stream____c;
 }
 namespace System::Threading::Tasks {
-class ITaskCompletionAction;
+class Task;
+}
+namespace System::IO {
+class __Stream__NullStream;
+}
+namespace System::Threading::Tasks {
+template <typename TResult> struct ValueTask_1;
+}
+namespace System {
+class IAsyncDisposable;
+}
+namespace System::IO {
+struct __Stream__ReadWriteParameters;
+}
+namespace System::IO {
+struct SeekOrigin;
+}
+namespace System {
+class AsyncCallback;
+}
+namespace System::Threading::Tasks {
+struct ValueTask;
+}
+namespace System {
+class IDisposable;
 }
 namespace System::Threading {
 class ContextCallback;
@@ -107,11 +101,14 @@ class ContextCallback;
 namespace System {
 template <typename T, typename TResult> class Func_2;
 }
+namespace System::Threading::Tasks {
+class ITaskCompletionAction;
+}
+namespace System::Threading {
+class ExecutionContext;
+}
 namespace System::Threading {
 class WaitHandle;
-}
-namespace System::Runtime::ExceptionServices {
-class ExceptionDispatchInfo;
 }
 namespace System {
 class Exception;
@@ -119,14 +116,8 @@ class Exception;
 namespace GlobalNamespace {
 class __Stream__SynchronousAsyncResult____c;
 }
-namespace System {
-template <typename T1, typename T2, typename TResult> class Func_3;
-}
-namespace System::Threading::Tasks {
-struct VoidTaskResult;
-}
-namespace System {
-template <typename T1, typename T2> class Action_2;
+namespace System::Runtime::ExceptionServices {
+class ExceptionDispatchInfo;
 }
 namespace System {
 template <typename T> class Action_1;
@@ -134,11 +125,14 @@ template <typename T> class Action_1;
 namespace System {
 template <typename T1, typename T2, typename T3, typename T4, typename TResult> class Func_5;
 }
-namespace System::Runtime::CompilerServices {
-class IAsyncStateMachine;
+namespace System {
+template <typename T1, typename T2, typename TResult> class Func_3;
 }
-namespace System::Runtime::CompilerServices {
-struct AsyncTaskMethodBuilder;
+namespace System {
+template <typename T1, typename T2> class Action_2;
+}
+namespace System::Threading::Tasks {
+struct VoidTaskResult;
 }
 namespace System::Runtime::CompilerServices {
 struct __ConfiguredValueTaskAwaitable__ConfiguredValueTaskAwaiter;
@@ -147,13 +141,19 @@ namespace System::Runtime::CompilerServices {
 template <typename TResult> struct __ConfiguredValueTaskAwaitable_1__ConfiguredValueTaskAwaiter;
 }
 namespace System::Runtime::CompilerServices {
+class IAsyncStateMachine;
+}
+namespace System::Runtime::CompilerServices {
+struct AsyncTaskMethodBuilder;
+}
+namespace System::Runtime::CompilerServices {
 struct __ConfiguredTaskAwaitable__ConfiguredTaskAwaiter;
 }
 namespace System::Runtime::CompilerServices {
-template <typename TResult> struct __ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter;
+template <typename TResult> struct AsyncValueTaskMethodBuilder_1;
 }
 namespace System::Runtime::CompilerServices {
-template <typename TResult> struct AsyncValueTaskMethodBuilder_1;
+template <typename TResult> struct __ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -239,7 +239,7 @@ static_assert(offsetof(::System::IO::__Stream__ReadWriteParameters, Count) == 0x
 // SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::IO {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2773)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2773), inst: 98 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2773), inst: 98 }), TypeDefinitionIndex(TypeDefinitionIndex(2773))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3611))
 // CS Name: ::Stream::ReadWriteTask*
 class CORDL_TYPE __Stream__ReadWriteTask : public ::System::Threading::Tasks::Task_1<int32_t> {
@@ -767,8 +767,8 @@ static_assert(::cordl_internals::size_check_v<::System::IO::__Stream____c, 0x10>
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 120, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::IO {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3401)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3363), inst: 98 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(3361)), TypeDefinitionIndex(TypeDefinitionIndex(3363)), TypeDefinitionIndex(TypeDefinitionIndex(2677))} Self: TypeDefinitionIndex(TypeDefinitionIndex(3616))
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3363), inst: 98 }), TypeDefinitionIndex(TypeDefinitionIndex(3361)),
+// TypeDefinitionIndex(TypeDefinitionIndex(3401)), TypeDefinitionIndex(TypeDefinitionIndex(3363)), TypeDefinitionIndex(TypeDefinitionIndex(2677))} Self: TypeDefinitionIndex(TypeDefinitionIndex(3616))
 // CS Name: ::Stream::<CopyToAsyncInternal>d__28
 struct CORDL_TYPE __Stream___CopyToAsyncInternal_d__28 {
 public:
@@ -919,9 +919,9 @@ static_assert(offsetof(::System::IO::__Stream___FinishWriteAsync_d__57, __u__1) 
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::IO {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2437)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 98 }), GenericInstantiation(GenericInstantiation {
-// tdi: TypeDefinitionIndex(2437), inst: 741 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3358), inst: 98 }), TypeDefinitionIndex(TypeDefinitionIndex(3397)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3358))} Self: TypeDefinitionIndex(TypeDefinitionIndex(3618)) CS Name: ::Stream::<<ReadAsync>g__FinishReadAsync|44_0>d
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3358), inst: 98 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2437), inst: 741 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(3397)), TypeDefinitionIndex(TypeDefinitionIndex(3358)), TypeDefinitionIndex(TypeDefinitionIndex(2437)), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(3397), inst: 98 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(3618)) CS Name: ::Stream::<<ReadAsync>g__FinishReadAsync|44_0>d
 struct CORDL_TYPE __Stream____ReadAsync_g__FinishReadAsync_44_0_d {
 public:
   // Declarations
@@ -991,7 +991,7 @@ static_assert(offsetof(::System::IO::__Stream____ReadAsync_g__FinishReadAsync_44
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::IO {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2605))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2605)), TypeDefinitionIndex(TypeDefinitionIndex(2677))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3619))
 // CS Name: ::System.IO::Stream*
 class CORDL_TYPE Stream : public ::System::MarshalByRefObject {

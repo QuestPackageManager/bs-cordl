@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__BakedLightsNormalizer_def.hpp"
-#include "GlobalNamespace/zzzz__LightmapLightWithIds_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "GlobalNamespace/zzzz__LightmapLightWithIds_def.hpp"
 #include "GlobalNamespace/zzzz__LightConstants_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::BakedLightsNormalizer.get_lightmapLightDict
 template <>

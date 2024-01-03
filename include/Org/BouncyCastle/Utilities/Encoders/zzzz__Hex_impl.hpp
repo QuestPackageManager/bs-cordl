@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Utilities/Encoders/zzzz__Hex_def.hpp"
-#include "Org/BouncyCastle/Utilities/Encoders/zzzz__HexEncoder_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"
+#include "Org/BouncyCastle/Utilities/Encoders/zzzz__HexEncoder_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Utilities::Encoders::Hex._ctor
 template <>
 

@@ -1,14 +1,14 @@
 #pragma once
 #include "HMUI/zzzz__ViewController_impl.hpp"
 #include "GlobalNamespace/zzzz__AudioLatencyViewController_def.hpp"
-#include "GlobalNamespace/zzzz__SongPreviewPlayer_def.hpp"
-#include "HMUI/zzzz__ToggleBinder_def.hpp"
+#include "GlobalNamespace/zzzz__FloatSO_def.hpp"
 #include "UnityEngine/zzzz__CanvasGroup_def.hpp"
-#include "UnityEngine/UI/zzzz__Toggle_def.hpp"
+#include "HMUI/zzzz__RangeValuesTextSlider_def.hpp"
 #include "GlobalNamespace/zzzz__BoolSO_def.hpp"
 #include "GlobalNamespace/zzzz__VisualMetronome_def.hpp"
-#include "GlobalNamespace/zzzz__FloatSO_def.hpp"
-#include "HMUI/zzzz__RangeValuesTextSlider_def.hpp"
+#include "HMUI/zzzz__ToggleBinder_def.hpp"
+#include "GlobalNamespace/zzzz__SongPreviewPlayer_def.hpp"
+#include "UnityEngine/UI/zzzz__Toggle_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::AudioLatencyViewController.DidActivate
 template <>
 

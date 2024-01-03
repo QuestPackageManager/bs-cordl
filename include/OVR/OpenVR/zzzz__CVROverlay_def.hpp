@@ -12,7 +12,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(CVROverlay)
 namespace OVR::OpenVR {
-struct __CVROverlay__PollNextOverlayEventUnion;
+struct EVROverlayError;
+}
+namespace OVR::OpenVR {
+struct VRTextureBounds_t;
+}
+namespace OVR::OpenVR {
+struct VREvent_t;
+}
+namespace OVR::OpenVR {
+struct EOverlayDirection;
+}
+namespace OVR::OpenVR {
+struct HmdColor_t;
 }
 namespace OVR::OpenVR {
 struct EDualAnalogWhich;
@@ -21,76 +33,64 @@ namespace OVR::OpenVR {
 struct Texture_t;
 }
 namespace OVR::OpenVR {
-struct VROverlayIntersectionParams_t;
-}
-namespace OVR::OpenVR {
-struct VROverlayTransformType;
-}
-namespace OVR::OpenVR {
-struct VROverlayIntersectionMaskPrimitive_t;
+struct HmdVector2_t;
 }
 namespace OVR::OpenVR {
 struct VROverlayInputMethod;
 }
 namespace OVR::OpenVR {
-struct HmdColor_t;
+struct VROverlayIntersectionParams_t;
 }
 namespace OVR::OpenVR {
 struct HmdRect2_t;
 }
 namespace OVR::OpenVR {
-struct VRMessageOverlayResponse;
-}
-namespace OVR::OpenVR {
-struct VROverlayFlags;
-}
-namespace OVR::OpenVR {
-struct ETrackingUniverseOrigin;
-}
-namespace OVR::OpenVR {
-struct VREvent_t;
-}
-namespace OVR::OpenVR {
 struct HmdMatrix34_t;
 }
 namespace OVR::OpenVR {
-struct HmdVector2_t;
+struct __CVROverlay__PollNextOverlayEventUnion;
 }
 namespace OVR::OpenVR {
-struct VROverlayIntersectionResults_t;
+struct ETextureType;
+}
+namespace OVR::OpenVR {
+struct VROverlayIntersectionMaskPrimitive_t;
+}
+namespace OVR::OpenVR {
+struct VRMessageOverlayResponse;
 }
 namespace OVR::OpenVR {
 class __CVROverlay___PollNextOverlayEventPacked;
-}
-namespace OVR::OpenVR {
-struct EVROverlayError;
-}
-namespace OVR::OpenVR {
-struct EColorSpace;
-}
-namespace OVR::OpenVR {
-struct VRTextureBounds_t;
-}
-namespace OVR::OpenVR {
-struct EOverlayDirection;
 }
 namespace System::Text {
 class StringBuilder;
 }
 namespace OVR::OpenVR {
-struct ETextureType;
+struct VROverlayIntersectionResults_t;
+}
+namespace OVR::OpenVR {
+struct VROverlayFlags;
+}
+namespace OVR::OpenVR {
+struct EColorSpace;
+}
+namespace OVR::OpenVR {
+struct VROverlayTransformType;
+}
+namespace OVR::OpenVR {
+struct ETrackingUniverseOrigin;
+}
+namespace OVR::OpenVR {
+struct VREvent_t_Packed;
 }
 namespace System {
-class Object;
+class IAsyncResult;
 }
 namespace System {
 class AsyncCallback;
 }
 namespace System {
-class IAsyncResult;
-}
-namespace OVR::OpenVR {
-struct VREvent_t_Packed;
+class Object;
 }
 namespace OVR::OpenVR {
 class __IVROverlay___PollNextOverlayEvent;

@@ -5,17 +5,17 @@ CORDL_MODULE_INIT
 #include "BGLib/AppFlow/Initialization/zzzz__AddressablesAsyncInstaller_1_def.hpp"
 #include "BeatSaber/AvatarCore/zzzz__AbstractAdapterInstallerSO_def.hpp"
 CORDL_MODULE_EXPORT(AvatarsAsyncInstaller)
-namespace BGLib::AppFlow::Initialization {
-class __AsyncInstaller__IInstallerRegistry;
+namespace BeatSaber::AvatarCore {
+class AbstractAdapterInstallerSO;
 }
 namespace UnityEngine::AddressableAssets {
 class AssetLabelReference;
 }
+namespace BGLib::AppFlow::Initialization {
+class __AsyncInstaller__IInstallerRegistry;
+}
 namespace System::Collections::Generic {
 template <typename T> class IList_1;
-}
-namespace BeatSaber::AvatarCore {
-class AbstractAdapterInstallerSO;
 }
 // Forward declare root types
 namespace BeatSaber::AvatarCore {
@@ -27,7 +27,7 @@ MARK_REF_PTR_T(::BeatSaber::AvatarCore::AvatarsAsyncInstaller);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace BeatSaber::AvatarCore {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15420)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(15420), inst: 736 }),
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(15420), inst: 736 }), TypeDefinitionIndex(TypeDefinitionIndex(15420)),
 // TypeDefinitionIndex(TypeDefinitionIndex(15165))} Self: TypeDefinitionIndex(TypeDefinitionIndex(15176)) CS Name: ::BeatSaber.AvatarCore::AvatarsAsyncInstaller*
 class CORDL_TYPE AvatarsAsyncInstaller : public ::BGLib::AppFlow::Initialization::AddressablesAsyncInstaller_1<::BeatSaber::AvatarCore::AbstractAdapterInstallerSO*> {
 public:

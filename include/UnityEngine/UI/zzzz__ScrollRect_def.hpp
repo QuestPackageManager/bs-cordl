@@ -14,71 +14,71 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(ScrollRect)
-namespace UnityEngine::EventSystems {
-class IEventSystemHandler;
+namespace UnityEngine::UI {
+struct CanvasUpdate;
 }
 namespace UnityEngine {
 struct Vector3;
 }
 namespace UnityEngine::EventSystems {
-class IEndDragHandler;
-}
-namespace UnityEngine::EventSystems {
-class IBeginDragHandler;
-}
-namespace UnityEngine::UI {
-class ICanvasElement;
-}
-namespace UnityEngine::UI {
-class __ScrollRect__ScrollRectEvent;
-}
-namespace UnityEngine::EventSystems {
 class IInitializePotentialDragHandler;
 }
-namespace UnityEngine::UI {
-struct __ScrollRect__ScrollbarVisibility;
-}
-namespace UnityEngine::UI {
-class Scrollbar;
+namespace UnityEngine::EventSystems {
+class IEventSystemHandler;
 }
 namespace UnityEngine::EventSystems {
 class IScrollHandler;
 }
 namespace UnityEngine::UI {
-struct CanvasUpdate;
+class ICanvasElement;
+}
+namespace UnityEngine::UI {
+class ILayoutController;
+}
+namespace UnityEngine::UI {
+class ILayoutGroup;
+}
+namespace UnityEngine {
+struct Vector2;
 }
 namespace UnityEngine::EventSystems {
 class PointerEventData;
+}
+namespace UnityEngine::UI {
+class Scrollbar;
+}
+namespace UnityEngine {
+class Transform;
+}
+namespace UnityEngine::UI {
+struct __ScrollRect__ScrollbarVisibility;
+}
+namespace UnityEngine {
+class RectTransform;
+}
+namespace UnityEngine {
+struct Bounds;
+}
+namespace UnityEngine::UI {
+class __ScrollRect__ScrollRectEvent;
 }
 namespace UnityEngine::EventSystems {
 class IDragHandler;
 }
 namespace UnityEngine::UI {
-struct __ScrollRect__MovementType;
+class ILayoutElement;
 }
 namespace UnityEngine::UI {
-class ILayoutController;
+struct __ScrollRect__MovementType;
 }
 namespace UnityEngine {
 struct Matrix4x4;
 }
-namespace UnityEngine {
-struct Vector2;
+namespace UnityEngine::EventSystems {
+class IBeginDragHandler;
 }
-namespace UnityEngine {
-struct Bounds;
-}
-namespace UnityEngine {
-class RectTransform;
-}
-namespace UnityEngine::UI {
-class ILayoutGroup;
-}
-namespace UnityEngine::UI {
-class ILayoutElement;
-}
-namespace UnityEngine {
-class Transform;
+namespace UnityEngine::EventSystems {
+class IEndDragHandler;
 }
 // Forward declare root types
 namespace UnityEngine::UI {
@@ -210,8 +210,8 @@ static_assert(offsetof(::UnityEngine::UI::__ScrollRect__ScrollbarVisibility, val
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10465), inst: 411 }), TypeDefinitionIndex(TypeDefinitionIndex(10243)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10465))} Self: TypeDefinitionIndex(TypeDefinitionIndex(13115)) CS Name: ::ScrollRect::ScrollRectEvent*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10465)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10465), inst: 411 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(10243))} Self: TypeDefinitionIndex(TypeDefinitionIndex(13115)) CS Name: ::ScrollRect::ScrollRectEvent*
 class CORDL_TYPE __ScrollRect__ScrollRectEvent : public ::UnityEngine::Events::UnityEvent_1<::UnityEngine::Vector2> {
 public:
   // Declarations
@@ -244,8 +244,8 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UI::__ScrollRect__S
 // SizeInfo { instance_size: 296, native_size: -1, calculated_instance_size: 296, calculated_native_size: 296, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13214)), TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(10164)),
-// TypeDefinitionIndex(TypeDefinitionIndex(13113)), TypeDefinitionIndex(TypeDefinitionIndex(13114)), TypeDefinitionIndex(TypeDefinitionIndex(10278))} Self:
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13113)), TypeDefinitionIndex(TypeDefinitionIndex(10278)), TypeDefinitionIndex(TypeDefinitionIndex(13214)),
+// TypeDefinitionIndex(TypeDefinitionIndex(13114)), TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(10164))} Self:
 // TypeDefinitionIndex(TypeDefinitionIndex(13116)) CS Name: ::UnityEngine.UI::ScrollRect*
 class CORDL_TYPE ScrollRect : public ::UnityEngine::EventSystems::UIBehaviour {
 public:

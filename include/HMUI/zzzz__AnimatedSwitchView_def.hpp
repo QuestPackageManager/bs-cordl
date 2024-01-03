@@ -12,28 +12,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(AnimatedSwitchView)
 namespace HMUI {
-class ImageView;
-}
-namespace HMUI {
 class __AnimatedSwitchView__ColorBlock;
 }
 namespace HMUI {
-struct __ToggleWithCallbacks__SelectionState;
-}
-namespace TMPro {
-class TextMeshProUGUI;
-}
-namespace HMUI {
 class __AnimatedSwitchView____c;
-}
-namespace HMUI {
-class __AnimatedSwitchView__GetColorDelegate;
-}
-namespace HMUI {
-struct __AnimatedSwitchView__AnimationState;
-}
-namespace UnityEngine {
-class RectTransform;
 }
 namespace HMUI {
 class ToggleWithCallbacks;
@@ -41,14 +23,32 @@ class ToggleWithCallbacks;
 namespace UnityEngine {
 struct Color;
 }
-namespace System {
-class Object;
+namespace HMUI {
+class ImageView;
+}
+namespace TMPro {
+class TextMeshProUGUI;
+}
+namespace UnityEngine {
+class RectTransform;
+}
+namespace HMUI {
+class __AnimatedSwitchView__GetColorDelegate;
+}
+namespace HMUI {
+struct __AnimatedSwitchView__AnimationState;
+}
+namespace HMUI {
+struct __ToggleWithCallbacks__SelectionState;
 }
 namespace System {
 class AsyncCallback;
 }
 namespace System {
 class IAsyncResult;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace HMUI {
@@ -76,7 +76,7 @@ MARK_REF_PTR_T(::HMUI::__AnimatedSwitchView____c);
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10251))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13614))
 // CS Name: ::AnimatedSwitchView::ColorBlock*
 class CORDL_TYPE __AnimatedSwitchView__ColorBlock : public ::System::Object {
@@ -411,7 +411,7 @@ static_assert(::cordl_internals::size_check_v<::HMUI::__AnimatedSwitchView____c,
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(13615))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13615)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13618))
 // CS Name: ::HMUI::AnimatedSwitchView*
 class CORDL_TYPE AnimatedSwitchView : public ::UnityEngine::MonoBehaviour {

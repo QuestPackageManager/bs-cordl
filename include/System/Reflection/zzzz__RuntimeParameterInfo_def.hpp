@@ -7,29 +7,29 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(RuntimeParameterInfo)
-namespace System {
-class Object;
+namespace System::Reflection {
+struct CallingConventions;
 }
 namespace System::Reflection {
 class ParameterInfo;
 }
-namespace System::Runtime::InteropServices {
-class MarshalAsAttribute;
-}
 namespace System::Reflection {
-struct CallingConventions;
+class MemberInfo;
 }
 namespace System {
 class Type;
 }
 namespace System::Reflection {
-class MemberInfo;
+class CustomAttributeData;
+}
+namespace System::Runtime::InteropServices {
+class MarshalAsAttribute;
 }
 namespace System::Text {
 class StringBuilder;
 }
-namespace System::Reflection {
-class CustomAttributeData;
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::Reflection {

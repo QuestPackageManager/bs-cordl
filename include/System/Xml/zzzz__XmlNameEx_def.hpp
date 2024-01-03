@@ -10,28 +10,28 @@ namespace System::Xml::Schema {
 class IXmlSchemaInfo;
 }
 namespace System::Xml::Schema {
-class XmlSchemaElement;
+class XmlSchemaSimpleType;
 }
 namespace System::Xml {
 class XmlDocument;
 }
 namespace System::Xml::Schema {
-class XmlSchemaSimpleType;
+class XmlSchemaType;
 }
 namespace System::Xml::Schema {
-class XmlSchemaType;
+struct XmlSchemaValidity;
 }
 namespace System {
 class Object;
 }
 namespace System::Xml::Schema {
-struct XmlSchemaValidity;
-}
-namespace System::Xml::Schema {
-class XmlSchemaAttribute;
+class XmlSchemaElement;
 }
 namespace System::Xml {
 class XmlName;
+}
+namespace System::Xml::Schema {
+class XmlSchemaAttribute;
 }
 // Forward declare root types
 namespace System::Xml {

@@ -12,11 +12,11 @@ class __ExplicitContentWarningViewController___MainCoroutine_d__9;
 namespace UnityEngine::UI {
 class Button;
 }
-namespace GlobalNamespace {
-class PlayerDataModel;
-}
 namespace System::Collections {
 class IEnumerator;
+}
+namespace GlobalNamespace {
+class PlayerDataModel;
 }
 namespace System {
 class Action;
@@ -24,11 +24,11 @@ class Action;
 namespace System {
 class IDisposable;
 }
-namespace System {
-class Object;
-}
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace GlobalNamespace {

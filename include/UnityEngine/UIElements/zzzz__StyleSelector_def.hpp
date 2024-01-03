@@ -9,10 +9,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(StyleSelector)
 namespace UnityEngine::UIElements {
-struct StyleSelectorRelationship;
+class __StyleSelector____c;
 }
 namespace UnityEngine::UIElements {
-class __StyleSelector____c;
+struct StyleSelectorRelationship;
 }
 namespace UnityEngine::UIElements {
 struct StyleSelectorPart;

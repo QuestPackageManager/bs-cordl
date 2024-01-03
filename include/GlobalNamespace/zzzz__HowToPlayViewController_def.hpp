@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(HowToPlayViewController)
-namespace System {
-template <typename T> class Action_1;
-}
 namespace GlobalNamespace {
 struct __HowToPlayViewController__HowToPlayOptions;
+}
+namespace System {
+template <typename T> class Action_1;
 }
 namespace UnityEngine::UI {
 class Button;

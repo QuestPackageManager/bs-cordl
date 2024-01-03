@@ -9,13 +9,7 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(TextWriter)
 namespace System {
-class IDisposable;
-}
-namespace System::IO {
-class __TextWriter__NullTextWriter;
-}
-namespace System::IO {
-class __TextWriter____c;
+class Object;
 }
 namespace System {
 class IAsyncDisposable;
@@ -27,16 +21,22 @@ namespace System::Text {
 class Encoding;
 }
 namespace System::Threading::Tasks {
+class Task;
+}
+namespace System::IO {
+class __TextWriter____c;
+}
+namespace System::Threading::Tasks {
 struct ValueTask;
 }
+namespace System::IO {
+class __TextWriter__NullTextWriter;
+}
 namespace System {
-class Object;
+class IDisposable;
 }
 namespace System::IO {
 class __TextWriter__SyncTextWriter;
-}
-namespace System::Threading::Tasks {
-class Task;
 }
 namespace System {
 template <typename T> class Action_1;

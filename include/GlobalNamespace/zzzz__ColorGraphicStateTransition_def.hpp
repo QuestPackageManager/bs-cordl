@@ -5,17 +5,17 @@ CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__BaseStateTransition_1_def.hpp"
 #include "UnityEngine/UI/zzzz__Graphic_def.hpp"
 CORDL_MODULE_EXPORT(ColorGraphicStateTransition)
+namespace UnityEngine {
+struct Color;
+}
 namespace GlobalNamespace {
-class BaseTransitionSO;
+class ColorTransitionSO;
 }
 namespace Tweening {
 class ColorTween;
 }
 namespace GlobalNamespace {
-class ColorTransitionSO;
-}
-namespace UnityEngine {
-struct Color;
+class BaseTransitionSO;
 }
 // Forward declare root types
 namespace GlobalNamespace {

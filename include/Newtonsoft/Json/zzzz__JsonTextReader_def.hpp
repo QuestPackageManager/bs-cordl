@@ -10,35 +10,35 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(JsonTextReader)
-namespace System::IO {
-class TextReader;
-}
-namespace Newtonsoft::Json {
-struct ReadType;
-}
 namespace System {
 template <typename T> struct Nullable_1;
+}
+namespace System {
+class Object;
 }
 namespace Newtonsoft::Json {
 class JsonReaderException;
 }
 namespace System {
-class Object;
-}
-namespace System {
-struct Decimal;
-}
-namespace System {
 struct DateTimeOffset;
 }
+namespace System {
+struct DateTime;
+}
 namespace Newtonsoft::Json {
-template <typename T> class IArrayPool_1;
+struct ReadType;
 }
 namespace Newtonsoft::Json {
 class IJsonLineInfo;
 }
+namespace System::IO {
+class TextReader;
+}
+namespace Newtonsoft::Json {
+template <typename T> class IArrayPool_1;
+}
 namespace System {
-struct DateTime;
+struct Decimal;
 }
 namespace Newtonsoft::Json::Utilities {
 class PropertyNameTable;

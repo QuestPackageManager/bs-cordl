@@ -8,9 +8,6 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(MissionNode)
-namespace UnityEngine {
-struct Vector2;
-}
 namespace GlobalNamespace {
 class MissionDataSO;
 }
@@ -19,6 +16,9 @@ class MissionNodeVisualController;
 }
 namespace UnityEngine {
 class RectTransform;
+}
+namespace UnityEngine {
+struct Vector2;
 }
 // Forward declare root types
 namespace GlobalNamespace {

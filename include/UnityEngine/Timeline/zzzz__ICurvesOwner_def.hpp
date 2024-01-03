@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(ICurvesOwner)
-namespace UnityEngine {
-class Object;
+namespace UnityEngine::Timeline {
+class TrackAsset;
 }
 namespace UnityEngine {
 class AnimationClip;
 }
-namespace UnityEngine::Timeline {
-class TrackAsset;
+namespace UnityEngine {
+class Object;
 }
 // Forward declare root types
 namespace UnityEngine::Timeline {

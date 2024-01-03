@@ -12,10 +12,10 @@ namespace UnityEngine::InputSystem::LowLevel {
 struct InputEventPtr;
 }
 namespace System {
-class IDisposable;
+template <typename T> class IObserver_1;
 }
 namespace System {
-template <typename T> class IObserver_1;
+class IDisposable;
 }
 namespace UnityEngine::InputSystem {
 class InputDevice;
@@ -23,11 +23,11 @@ class InputDevice;
 namespace System {
 template <typename T1, typename T2> class Action_2;
 }
-namespace UnityEngine::InputSystem::LowLevel {
-class __InputEventListener__ObserverState;
-}
 namespace System {
 template <typename T> class IObservable_1;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+class __InputEventListener__ObserverState;
 }
 namespace UnityEngine::InputSystem::LowLevel {
 class __InputEventListener__DisposableObserver;
@@ -50,9 +50,9 @@ MARK_VAL_T(::UnityEngine::InputSystem::LowLevel::InputEventListener);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2420), inst: 330 }), TypeDefinitionIndex(TypeDefinitionIndex(6536)), GenericInstantiation(GenericInstantiation {
-// tdi: TypeDefinitionIndex(6669), inst: 3864 }), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2420)), TypeDefinitionIndex(TypeDefinitionIndex(6669))} Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(6533)) CS Name: ::InputEventListener::ObserverState*
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6669), inst: 3864 }), TypeDefinitionIndex(TypeDefinitionIndex(6536)),
+// TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(6669)), TypeDefinitionIndex(TypeDefinitionIndex(2420)), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(2420), inst: 330 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(6533)) CS Name: ::InputEventListener::ObserverState*
 class CORDL_TYPE __InputEventListener__ObserverState : public ::System::Object {
 public:
   // Declarations

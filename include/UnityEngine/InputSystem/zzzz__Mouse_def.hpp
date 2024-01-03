@@ -10,14 +10,14 @@ struct InputEventPtr;
 namespace UnityEngine::InputSystem::Controls {
 class DeltaControl;
 }
-namespace UnityEngine::InputSystem::Controls {
-class ButtonControl;
+namespace UnityEngine {
+struct Vector2;
 }
 namespace UnityEngine::InputSystem::LowLevel {
 class IInputStateCallbackReceiver;
 }
-namespace UnityEngine {
-struct Vector2;
+namespace UnityEngine::InputSystem::Controls {
+class ButtonControl;
 }
 namespace UnityEngine::InputSystem::Controls {
 class IntegerControl;

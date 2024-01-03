@@ -6,19 +6,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ReusableCollectionItem)
 namespace UnityEngine::UIElements::Experimental {
-struct StyleValues;
-}
-namespace UnityEngine::UIElements {
-class GeometryChangedEvent;
-}
-namespace System {
-template <typename T> class Action_1;
+template <typename T> class ValueAnimation_1;
 }
 namespace UnityEngine::UIElements {
 template <typename TEventType> class EventCallback_1;
 }
+namespace UnityEngine::UIElements {
+class GeometryChangedEvent;
+}
 namespace UnityEngine::UIElements::Experimental {
-template <typename T> class ValueAnimation_1;
+struct StyleValues;
+}
+namespace System {
+template <typename T> class Action_1;
 }
 namespace UnityEngine::UIElements {
 class VisualElement;

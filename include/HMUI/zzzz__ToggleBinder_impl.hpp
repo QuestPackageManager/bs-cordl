@@ -1,11 +1,11 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "HMUI/zzzz__ToggleBinder_def.hpp"
-#include "UnityEngine/Events/zzzz__UnityAction_1_def.hpp"
 #include "UnityEngine/UI/zzzz__Toggle_def.hpp"
-#include "System/zzzz__Tuple_2_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "HMUI/zzzz__ToggleBinder_def.hpp"
+#include "UnityEngine/Events/zzzz__UnityAction_1_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "System/zzzz__Tuple_2_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
 #include "System/zzzz__Action_def.hpp"
 //  Writing Method size for method: ::HMUI::__ToggleBinder____c__DisplayClass7_0._ctor

@@ -11,19 +11,19 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(IKSolverTrigonometric)
 namespace UnityEngine {
-class Transform;
+struct Quaternion;
 }
-namespace UnityEngine {
-struct Vector3;
+namespace RootMotion::FinalIK {
+class __IKSolver__Point;
 }
 namespace RootMotion::FinalIK {
 class __IKSolverTrigonometric__TrigonometricBone;
 }
 namespace UnityEngine {
-struct Quaternion;
+class Transform;
 }
-namespace RootMotion::FinalIK {
-class __IKSolver__Point;
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace RootMotion::FinalIK {
@@ -39,7 +39,7 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::__IKSolverTrigonometric__TrigonometricBone
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(12560)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12560)), TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12581))
 // CS Name: ::IKSolverTrigonometric::TrigonometricBone*
 class CORDL_TYPE __IKSolverTrigonometric__TrigonometricBone : public ::RootMotion::FinalIK::__IKSolver__Bone {
@@ -111,7 +111,7 @@ static_assert(offsetof(::RootMotion::FinalIK::__IKSolverTrigonometric__Trigonome
 // SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 165, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(12564))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(12564))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12582))
 // CS Name: ::RootMotion.FinalIK::IKSolverTrigonometric*
 class CORDL_TYPE IKSolverTrigonometric : public ::RootMotion::FinalIK::IKSolver {

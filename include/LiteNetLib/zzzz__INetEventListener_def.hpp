@@ -4,14 +4,11 @@
 CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(INetEventListener)
-namespace LiteNetLib {
-class NetPeer;
-}
-namespace LiteNetLib {
-class NetPacketReader;
-}
 namespace System::Net::Sockets {
 struct SocketError;
+}
+namespace LiteNetLib {
+class NetPeer;
 }
 namespace LiteNetLib {
 struct UnconnectedMessageType;
@@ -20,10 +17,13 @@ namespace LiteNetLib {
 struct DisconnectInfo;
 }
 namespace LiteNetLib {
-class ConnectionRequest;
+class NetPacketReader;
 }
 namespace System::Net {
 class IPEndPoint;
+}
+namespace LiteNetLib {
+class ConnectionRequest;
 }
 namespace LiteNetLib {
 struct DeliveryMethod;

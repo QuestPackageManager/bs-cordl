@@ -8,22 +8,22 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVRSceneModelLoader)
 namespace GlobalNamespace {
-class __OVRSceneModelLoader___AttemptToLoadSceneModel_d__7;
-}
-namespace GlobalNamespace {
 class OVRSceneManager;
 }
 namespace System::Collections {
 class IEnumerator;
 }
+namespace GlobalNamespace {
+class __OVRSceneModelLoader___AttemptToLoadSceneModel_d__7;
+}
 namespace System {
 class Object;
 }
-namespace System {
-class IDisposable;
-}
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
+}
+namespace System {
+class IDisposable;
 }
 // Forward declare root types
 namespace GlobalNamespace {

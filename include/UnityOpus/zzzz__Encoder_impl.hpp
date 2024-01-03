@@ -4,11 +4,11 @@
 #include "UnityOpus/zzzz__NumChannels_impl.hpp"
 #include "UnityOpus/zzzz__OpusSignal_impl.hpp"
 #include "UnityOpus/zzzz__Encoder_def.hpp"
-#include "UnityOpus/zzzz__NumChannels_def.hpp"
 #include "UnityOpus/zzzz__OpusApplication_def.hpp"
+#include "UnityOpus/zzzz__OpusSignal_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
 #include "UnityOpus/zzzz__SamplingFrequency_def.hpp"
-#include "UnityOpus/zzzz__OpusSignal_def.hpp"
+#include "UnityOpus/zzzz__NumChannels_def.hpp"
 //  Writing Method size for method: ::UnityOpus::Encoder.get_Bitrate
 template <>
 

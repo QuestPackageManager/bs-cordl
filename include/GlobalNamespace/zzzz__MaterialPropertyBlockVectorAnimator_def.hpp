@@ -15,7 +15,7 @@ MARK_REF_PTR_T(::GlobalNamespace::MaterialPropertyBlockVectorAnimator);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14563)), TypeDefinitionIndex(TypeDefinitionIndex(10246))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10246)), TypeDefinitionIndex(TypeDefinitionIndex(14563))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14571))
 // CS Name: ::MaterialPropertyBlockVectorAnimator*
 class CORDL_TYPE MaterialPropertyBlockVectorAnimator : public ::GlobalNamespace::MaterialPropertyBlockAnimator {

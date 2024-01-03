@@ -7,26 +7,26 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(RecipientInformation)
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
-}
-namespace Org::BouncyCastle::Cms {
-class CmsSecureReadable;
-}
 namespace Org::BouncyCastle::Cms {
 class CmsTypedStream;
 }
 namespace Org::BouncyCastle::Cms {
 class RecipientID;
 }
+namespace Org::BouncyCastle::Cms {
+class CmsSecureReadable;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Object;
+}
+namespace Org::BouncyCastle::Crypto::Parameters {
+class KeyParameter;
+}
 namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class AlgorithmIdentifier;
-}
-namespace Org::BouncyCastle::Crypto::Parameters {
-class KeyParameter;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Cms {

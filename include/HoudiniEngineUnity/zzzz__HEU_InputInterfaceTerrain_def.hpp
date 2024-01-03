@@ -11,23 +11,23 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(HEU_InputInterfaceTerrain)
-namespace HoudiniEngineUnity {
-class HEU_SessionBase;
+namespace UnityEngine {
+class TerrainLayer;
 }
 namespace UnityEngine {
 class GameObject;
 }
 namespace HoudiniEngineUnity {
-struct HAPI_VolumeInfo;
+class __HEU_InputInterfaceTerrain__HEU_InputDataTerrain;
 }
 namespace HoudiniEngineUnity {
-class __HEU_InputInterfaceTerrain__HEU_InputDataTerrain;
+struct HAPI_VolumeInfo;
 }
 namespace UnityEngine {
 class TerrainData;
 }
-namespace UnityEngine {
-class TerrainLayer;
+namespace HoudiniEngineUnity {
+class HEU_SessionBase;
 }
 namespace UnityEngine {
 class Terrain;

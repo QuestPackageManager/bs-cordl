@@ -5,15 +5,15 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "UnityEngine/zzzz__Sprite_impl.hpp"
 #include "GlobalNamespace/zzzz__CachedMediaAsyncLoader_def.hpp"
-#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
-#include "System/Threading/zzzz__CancellationToken_def.hpp"
 #include "GlobalNamespace/zzzz__AsyncCachedLoader_2_def.hpp"
+#include "System/Threading/zzzz__CancellationToken_def.hpp"
 #include "UnityEngine/zzzz__Sprite_def.hpp"
+#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
 #include "GlobalNamespace/zzzz__CachedMediaAsyncLoader_def.hpp"
 #include "GlobalNamespace/zzzz__ISpriteAsyncLoader_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::__CachedMediaAsyncLoader___LoadSpriteAsync_d__3.MoveNext
 template <>
 

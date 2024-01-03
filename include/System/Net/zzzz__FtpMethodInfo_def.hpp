@@ -24,7 +24,7 @@ MARK_REF_PTR_T(::System::Net::FtpMethodInfo);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9045)), TypeDefinitionIndex(TypeDefinitionIndex(9044)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9044)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9045))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9046))
 // CS Name: ::System.Net::FtpMethodInfo*
 class CORDL_TYPE FtpMethodInfo : public ::System::Object {

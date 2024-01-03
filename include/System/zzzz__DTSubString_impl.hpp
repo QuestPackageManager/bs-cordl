@@ -2,8 +2,8 @@
 #include "System/zzzz__DTSubStringType_impl.hpp"
 #include "System/zzzz__ReadOnlySpan_1_impl.hpp"
 #include "System/zzzz__DTSubString_def.hpp"
-#include "System/zzzz__DTSubStringType_def.hpp"
 #include "System/zzzz__ReadOnlySpan_1_def.hpp"
+#include "System/zzzz__DTSubStringType_def.hpp"
 //  Writing Method size for method: ::System::DTSubString.get_Item
 template <>
 

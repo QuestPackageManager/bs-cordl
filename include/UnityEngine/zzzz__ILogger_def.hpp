@@ -9,10 +9,10 @@ namespace System {
 class Object;
 }
 namespace UnityEngine {
-class ILogHandler;
+class Object;
 }
 namespace UnityEngine {
-class Object;
+class ILogHandler;
 }
 namespace UnityEngine {
 struct LogType;

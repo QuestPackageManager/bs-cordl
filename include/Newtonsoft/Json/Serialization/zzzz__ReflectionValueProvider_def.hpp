@@ -4,14 +4,14 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(ReflectionValueProvider)
-namespace Newtonsoft::Json::Serialization {
-class IValueProvider;
-}
 namespace System::Reflection {
 class MemberInfo;
 }
 namespace System {
 class Object;
+}
+namespace Newtonsoft::Json::Serialization {
+class IValueProvider;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Serialization {

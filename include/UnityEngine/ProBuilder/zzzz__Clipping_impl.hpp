@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/ProBuilder/zzzz__Clipping_def.hpp"
-#include "UnityEngine/ProBuilder/zzzz__Clipping_def.hpp"
 #include "UnityEngine/zzzz__Rect_def.hpp"
+#include "UnityEngine/ProBuilder/zzzz__Clipping_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::ProBuilder::__Clipping__OutCode::__Clipping__OutCode(int32_t value__) noexcept {
   this->value__ = value__;

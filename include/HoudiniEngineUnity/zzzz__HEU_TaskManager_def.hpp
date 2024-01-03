@@ -4,17 +4,17 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(HEU_TaskManager)
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace HoudiniEngineUnity {
+class HEU_Task;
 }
 namespace HoudiniEngineUnity {
 struct __HEU_Task__TaskResult;
 }
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
 namespace System {
 struct Guid;
-}
-namespace HoudiniEngineUnity {
-class HEU_Task;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {

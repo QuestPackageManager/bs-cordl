@@ -8,19 +8,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Primes)
 namespace Org::BouncyCastle::Math {
-class __Primes__STOutput;
+class __Primes__MROutput;
 }
 namespace Org::BouncyCastle::Crypto {
 class IDigest;
 }
 namespace Org::BouncyCastle::Math {
-class __Primes__MROutput;
-}
-namespace Org::BouncyCastle::Security {
-class SecureRandom;
+class __Primes__STOutput;
 }
 namespace Org::BouncyCastle::Math {
 class BigInteger;
+}
+namespace Org::BouncyCastle::Security {
+class SecureRandom;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Math {

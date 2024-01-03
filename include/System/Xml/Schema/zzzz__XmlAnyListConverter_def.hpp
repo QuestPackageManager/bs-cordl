@@ -4,20 +4,20 @@
 CORDL_MODULE_INIT
 #include "System/Xml/Schema/zzzz__XmlListConverter_def.hpp"
 CORDL_MODULE_EXPORT(XmlAnyListConverter)
-namespace System {
-class Object;
-}
-namespace System {
-class Type;
-}
-namespace System::Xml {
-class IXmlNamespaceResolver;
-}
 namespace System::Xml::Schema {
 class XmlValueConverter;
 }
 namespace System::Xml::Schema {
 class XmlBaseConverter;
+}
+namespace System::Xml {
+class IXmlNamespaceResolver;
+}
+namespace System {
+class Object;
+}
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace System::Xml::Schema {

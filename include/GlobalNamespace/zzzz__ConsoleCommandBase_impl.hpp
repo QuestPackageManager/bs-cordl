@@ -1,13 +1,13 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__ConsoleCommandBase_def.hpp"
-#include "System/Threading/Tasks/zzzz__Task_def.hpp"
-#include "GlobalNamespace/zzzz__ArgumentBase_def.hpp"
-#include "GlobalNamespace/zzzz__ConsoleCommandBase_def.hpp"
-#include "System/zzzz__IComparable_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "GlobalNamespace/zzzz__DebugConsoleController_def.hpp"
+#include "GlobalNamespace/zzzz__ConsoleCommandBase_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "System/Threading/Tasks/zzzz__Task_def.hpp"
+#include "System/zzzz__IComparable_1_def.hpp"
+#include "GlobalNamespace/zzzz__ArgumentBase_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::__ConsoleCommandBase____c__DisplayClass14_0._ctor
 template <>

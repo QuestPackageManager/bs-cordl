@@ -1,9 +1,9 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__ColorSchemeColorToggleController_def.hpp"
-#include "UnityEngine/UI/zzzz__Graphic_def.hpp"
 #include "UnityEngine/UI/zzzz__Toggle_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
+#include "UnityEngine/UI/zzzz__Graphic_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::ColorSchemeColorToggleController.get_toggle
 template <>
 

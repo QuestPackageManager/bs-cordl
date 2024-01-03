@@ -6,17 +6,17 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(ReflectionProbe)
-namespace UnityEngine {
-class Texture;
-}
 namespace System {
 template <typename T1, typename T2> class Action_2;
+}
+namespace System {
+template <typename T> class Action_1;
 }
 namespace UnityEngine {
 struct __ReflectionProbe__ReflectionProbeEvent;
 }
-namespace System {
-template <typename T> class Action_1;
+namespace UnityEngine {
+class Texture;
 }
 // Forward declare root types
 namespace UnityEngine {

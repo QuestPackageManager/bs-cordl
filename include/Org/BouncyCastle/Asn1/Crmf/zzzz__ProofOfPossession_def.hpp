@@ -5,26 +5,26 @@ CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ProofOfPossession)
+namespace Org::BouncyCastle::Asn1::Crmf {
+class PopoPrivKey;
+}
+namespace System {
+class Object;
+}
 namespace Org::BouncyCastle::Asn1 {
 class Asn1TaggedObject;
 }
-namespace Org::BouncyCastle::Asn1::Crmf {
-class PopoPrivKey;
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Encodable;
 }
 namespace Org::BouncyCastle::Asn1 {
 class IAsn1Choice;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Encodable;
-}
-namespace System {
-class Object;
+class Asn1Object;
 }
 namespace Org::BouncyCastle::Asn1::Crmf {
 class PopoSigningKey;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Crmf {

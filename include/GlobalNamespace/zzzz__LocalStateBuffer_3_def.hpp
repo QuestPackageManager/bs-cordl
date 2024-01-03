@@ -9,13 +9,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(LocalStateBuffer_3)
 namespace GlobalNamespace {
-struct SyncStateId;
+template <typename TStateTable, typename TType, typename TState> struct __StateBuffer_3__TimestampedStateTable;
 }
 namespace GlobalNamespace {
 template <typename TStateTable, typename TType, typename TState> class __StateBuffer_3__InterpolationDelegate;
 }
 namespace GlobalNamespace {
-template <typename TStateTable, typename TType, typename TState> struct __StateBuffer_3__TimestampedStateTable;
+struct SyncStateId;
 }
 namespace GlobalNamespace {
 template <typename TStateTable, typename TType, typename TState> class __StateBuffer_3__SmoothingDelegate;
@@ -32,8 +32,8 @@ namespace GlobalNamespace {
 // cpp template
 template <typename TStateTable, typename TType, typename TState>
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12982), inst: 3833 }), TypeDefinitionIndex(TypeDefinitionIndex(12988)), GenericInstantiation(GenericInstantiation
-// { tdi: TypeDefinitionIndex(12985), inst: 3833 }), TypeDefinitionIndex(TypeDefinitionIndex(12982)), TypeDefinitionIndex(TypeDefinitionIndex(12985))} Self:
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12982)), TypeDefinitionIndex(TypeDefinitionIndex(12985)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12985), inst:
+// 3833 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12982), inst: 3833 }), TypeDefinitionIndex(TypeDefinitionIndex(12988))} Self:
 // TypeDefinitionIndex(TypeDefinitionIndex(12986)) CS Name: ::LocalStateBuffer`3<TStateTable,TType,TState>*
 class CORDL_TYPE LocalStateBuffer_3 : public ::GlobalNamespace::StateBuffer_3<TStateTable, TType, TState> {
 public:

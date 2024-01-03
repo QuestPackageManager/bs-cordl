@@ -2,8 +2,8 @@
 #include "GlobalNamespace/zzzz__BloomPrePassEffectSO_impl.hpp"
 #include "GlobalNamespace/zzzz__KawaseBlurRendererSO_impl.hpp"
 #include "GlobalNamespace/zzzz__BloomPrePassDoubleKawaseBlurTextureEffectSO_def.hpp"
-#include "UnityEngine/zzzz__RenderTexture_def.hpp"
 #include "GlobalNamespace/zzzz__KawaseBlurRendererSO_def.hpp"
+#include "UnityEngine/zzzz__RenderTexture_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::BloomPrePassDoubleKawaseBlurTextureEffectSO.Render
 template <>
 

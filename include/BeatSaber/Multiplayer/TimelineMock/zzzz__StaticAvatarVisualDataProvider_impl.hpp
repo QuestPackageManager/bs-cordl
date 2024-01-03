@@ -2,8 +2,8 @@
 #include "GlobalNamespace/zzzz__MultiplayerAvatarsData_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "BeatSaber/Multiplayer/TimelineMock/zzzz__StaticAvatarVisualDataProvider_def.hpp"
-#include "BeatSaber/AvatarCore/zzzz__IAvatarVisualDataProvider_def.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerAvatarsData_def.hpp"
+#include "BeatSaber/AvatarCore/zzzz__IAvatarVisualDataProvider_def.hpp"
 //  Writing Method size for method: ::BeatSaber::Multiplayer::TimelineMock::StaticAvatarVisualDataProvider.get_avatarsData
 template <>
 

@@ -10,17 +10,17 @@ CORDL_MODULE_EXPORT(JSONNumber)
 namespace HoudiniEngineUnity {
 struct JSONNodeType;
 }
-namespace HoudiniEngineUnity {
-struct __JSONNode__Enumerator;
-}
 namespace System::Text {
 class StringBuilder;
 }
-namespace System {
-class Object;
-}
 namespace HoudiniEngineUnity {
 struct JSONTextMode;
+}
+namespace HoudiniEngineUnity {
+struct __JSONNode__Enumerator;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {

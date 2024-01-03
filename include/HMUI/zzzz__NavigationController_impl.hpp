@@ -3,12 +3,12 @@
 #include "HMUI/zzzz__NavigationController_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "HMUI/zzzz__NavigationController_def.hpp"
+#include "HMUI/zzzz__ViewController_def.hpp"
 #include "HMUI/zzzz__NavigationController_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
-#include "System/zzzz__Action_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
-#include "HMUI/zzzz__ViewController_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "System/zzzz__Action_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::HMUI::__NavigationController__Orientation::__NavigationController__Orientation(int32_t value__) noexcept {
   this->value__ = value__;

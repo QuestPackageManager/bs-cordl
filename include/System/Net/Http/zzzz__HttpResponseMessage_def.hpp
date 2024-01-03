@@ -7,22 +7,22 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(HttpResponseMessage)
 namespace System {
-class IDisposable;
+class Version;
 }
 namespace System::Net::Http {
 class HttpContent;
 }
-namespace System {
-class Version;
+namespace System::Net {
+struct HttpStatusCode;
 }
-namespace System::Net::Http {
-class HttpRequestMessage;
+namespace System {
+class IDisposable;
 }
 namespace System::Net::Http::Headers {
 class HttpResponseHeaders;
 }
-namespace System::Net {
-struct HttpStatusCode;
+namespace System::Net::Http {
+class HttpRequestMessage;
 }
 // Forward declare root types
 namespace System::Net::Http {

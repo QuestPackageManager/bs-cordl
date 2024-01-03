@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Crypto/Parameters/zzzz__ElGamalKeyParameters_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ElGamalPrivateKeyParameters)
-namespace Org::BouncyCastle::Crypto::Parameters {
-class ElGamalParameters;
-}
 namespace System {
 class Object;
+}
+namespace Org::BouncyCastle::Crypto::Parameters {
+class ElGamalParameters;
 }
 namespace Org::BouncyCastle::Math {
 class BigInteger;

@@ -5,6 +5,12 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(DefaultScenesTransitionsFromInit)
 namespace GlobalNamespace {
+class MenuScenesTransitionSetupDataSO;
+}
+namespace GlobalNamespace {
+class ShaderWarmupScenesTransitionSetupDataSO;
+}
+namespace GlobalNamespace {
 class HealthWarningScenesTransitionSetupDataSO;
 }
 namespace GlobalNamespace {
@@ -14,13 +20,7 @@ namespace GlobalNamespace {
 class GameScenesManager;
 }
 namespace GlobalNamespace {
-class ShaderWarmupScenesTransitionSetupDataSO;
-}
-namespace GlobalNamespace {
 class RecordingToolScenesTransitionSetupDataSO;
-}
-namespace GlobalNamespace {
-class MenuScenesTransitionSetupDataSO;
 }
 // Forward declare root types
 namespace GlobalNamespace {

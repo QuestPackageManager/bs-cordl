@@ -6,23 +6,23 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(OptionalAvatarDataSender)
-namespace BeatSaber::AvatarCore {
-struct AvatarDisplayContext;
+namespace System {
+class IDisposable;
 }
 namespace BeatSaber::AvatarCore {
-class AvatarSystemCollection;
+class OptionalAvatarDataSyncHandler;
+}
+namespace BeatSaber::AvatarCore {
+struct AvatarDisplayContext;
 }
 namespace BeatSaber::AvatarCore {
 struct OptionalAvatarData;
 }
 namespace BeatSaber::AvatarCore {
-class OptionalAvatarDataSyncHandler;
-}
-namespace System {
-class IDisposable;
+class IOptionalAvatarDataProvider;
 }
 namespace BeatSaber::AvatarCore {
-class IOptionalAvatarDataProvider;
+class AvatarSystemCollection;
 }
 // Forward declare root types
 namespace BeatSaber::AvatarCore {
@@ -34,7 +34,7 @@ MARK_REF_PTR_T(::BeatSaber::AvatarCore::OptionalAvatarDataSender);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace BeatSaber::AvatarCore {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15169)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15169))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15207))
 // CS Name: ::BeatSaber.AvatarCore::OptionalAvatarDataSender*
 class CORDL_TYPE OptionalAvatarDataSender : public ::System::Object {

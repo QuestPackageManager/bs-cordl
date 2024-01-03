@@ -16,8 +16,8 @@ MARK_REF_PTR_T(::Oculus::Platform::Models::NetSyncSessionList);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Oculus::Platform::Models {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13430)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13430), inst: 1178 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(13459))} Self: TypeDefinitionIndex(TypeDefinitionIndex(13460)) CS Name: ::Oculus.Platform.Models::NetSyncSessionList*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13459)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13430), inst: 1178 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(13430))} Self: TypeDefinitionIndex(TypeDefinitionIndex(13460)) CS Name: ::Oculus.Platform.Models::NetSyncSessionList*
 class CORDL_TYPE NetSyncSessionList : public ::Oculus::Platform::Models::DeserializableList_1<::Oculus::Platform::Models::NetSyncSession*> {
 public:
   // Declarations

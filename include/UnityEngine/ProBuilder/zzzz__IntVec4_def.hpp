@@ -8,14 +8,14 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(IntVec4)
-namespace UnityEngine {
-struct Vector4;
-}
 namespace System {
 class Object;
 }
 namespace System {
 template <typename T> class IEquatable_1;
+}
+namespace UnityEngine {
+struct Vector4;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder {

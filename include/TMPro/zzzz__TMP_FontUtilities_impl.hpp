@@ -2,8 +2,8 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "TMPro/zzzz__TMP_FontUtilities_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "TMPro/zzzz__TMP_FontAsset_def.hpp"
 #include "TMPro/zzzz__TMP_Character_def.hpp"
+#include "TMPro/zzzz__TMP_FontAsset_def.hpp"
 //  Writing Method size for method: ::TMPro::TMP_FontUtilities.SearchForCharacter
 template <>
 

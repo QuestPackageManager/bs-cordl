@@ -8,50 +8,50 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(X509V2AttributeCertificate)
-namespace Org::BouncyCastle::Math {
-class BigInteger;
-}
-namespace Org::BouncyCastle::X509 {
-class AttributeCertificateHolder;
-}
 namespace Org::BouncyCastle::Asn1::X509 {
 class AlgorithmIdentifier;
 }
-namespace Org::BouncyCastle::X509 {
-class AttributeCertificateIssuer;
+namespace Org::BouncyCastle::Math {
+class BigInteger;
+}
+namespace Org::BouncyCastle::Crypto {
+class AsymmetricKeyParameter;
 }
 namespace Org::BouncyCastle::Crypto {
 class IVerifierFactory;
 }
+namespace Org::BouncyCastle::Asn1::X509 {
+class AttributeCertificate;
+}
 namespace Org::BouncyCastle::X509 {
-class IX509AttributeCertificate;
+class AttributeCertificateHolder;
+}
+namespace Org::BouncyCastle::X509 {
+class IX509Extension;
+}
+namespace System::IO {
+class Stream;
+}
+namespace Org::BouncyCastle::X509 {
+class X509Attribute;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class X509Extensions;
 }
 namespace Org::BouncyCastle::X509 {
-class X509Attribute;
-}
-namespace System {
-struct DateTime;
-}
-namespace Org::BouncyCastle::X509 {
-class IX509Extension;
-}
-namespace System {
-class Object;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class AttributeCertificate;
-}
-namespace System::IO {
-class Stream;
+class AttributeCertificateIssuer;
 }
 namespace Org::BouncyCastle::Crypto {
 class IVerifierFactoryProvider;
 }
-namespace Org::BouncyCastle::Crypto {
-class AsymmetricKeyParameter;
+namespace Org::BouncyCastle::X509 {
+class IX509AttributeCertificate;
+}
+namespace System {
+struct DateTime;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::X509 {
@@ -63,7 +63,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::X509::X509V2AttributeCertificate);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::X509 {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(1606)), TypeDefinitionIndex(TypeDefinitionIndex(2368))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2368)), TypeDefinitionIndex(TypeDefinitionIndex(1606))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1871))
 // CS Name: ::Org.BouncyCastle.X509::X509V2AttributeCertificate*
 class CORDL_TYPE X509V2AttributeCertificate : public ::Org::BouncyCastle::X509::X509ExtensionBase {

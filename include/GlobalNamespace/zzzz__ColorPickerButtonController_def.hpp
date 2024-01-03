@@ -5,13 +5,13 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(ColorPickerButtonController)
 namespace UnityEngine::UI {
-class Button;
-}
-namespace UnityEngine::UI {
 class Image;
 }
 namespace UnityEngine {
 struct Color;
+}
+namespace UnityEngine::UI {
+class Button;
 }
 // Forward declare root types
 namespace GlobalNamespace {

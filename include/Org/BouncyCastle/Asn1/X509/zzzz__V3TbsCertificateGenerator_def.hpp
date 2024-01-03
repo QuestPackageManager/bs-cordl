@@ -5,7 +5,13 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(V3TbsCertificateGenerator)
 namespace Org::BouncyCastle::Asn1::X509 {
+class AlgorithmIdentifier;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
 class TbsCertificateStructure;
+}
+namespace Org::BouncyCastle::Asn1 {
+class DerTaggedObject;
 }
 namespace Org::BouncyCastle::Asn1 {
 class DerInteger;
@@ -14,25 +20,19 @@ namespace Org::BouncyCastle::Asn1::X509 {
 class SubjectPublicKeyInfo;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
-class X509Extensions;
+class X509Name;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
-class Time;
+class X509Extensions;
 }
 namespace Org::BouncyCastle::Asn1 {
 class DerBitString;
 }
-namespace Org::BouncyCastle::Asn1::X509 {
-class AlgorithmIdentifier;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class X509Name;
-}
-namespace Org::BouncyCastle::Asn1 {
-class DerTaggedObject;
-}
 namespace Org::BouncyCastle::Asn1 {
 class DerUtcTime;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class Time;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::X509 {

@@ -9,17 +9,17 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(Plane)
-namespace UnityEngine {
-struct Ray;
+namespace System {
+class IFormattable;
 }
 namespace UnityEngine {
 struct Vector3;
 }
-namespace System {
-class IFormatProvider;
+namespace UnityEngine {
+struct Ray;
 }
 namespace System {
-class IFormattable;
+class IFormatProvider;
 }
 // Forward declare root types
 namespace UnityEngine {

@@ -5,17 +5,17 @@ CORDL_MODULE_INIT
 #include "System/zzzz__MulticastDelegate_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(AddingNewEventHandler)
+namespace System::ComponentModel {
+class AddingNewEventArgs;
+}
 namespace System {
 class AsyncCallback;
 }
 namespace System {
-class IAsyncResult;
-}
-namespace System {
 class Object;
 }
-namespace System::ComponentModel {
-class AddingNewEventArgs;
+namespace System {
+class IAsyncResult;
 }
 // Forward declare root types
 namespace System::ComponentModel {

@@ -1,11 +1,11 @@
 #pragma once
 #include "GlobalNamespace/zzzz__LightWithIds_impl.hpp"
 #include "GlobalNamespace/zzzz__RuntimeLightWithLightGroupIds_def.hpp"
-#include "GlobalNamespace/zzzz__LightWithIds_def.hpp"
 #include "GlobalNamespace/zzzz__RuntimeLightWithLightGroupIds_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "GlobalNamespace/zzzz__LightGroup_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
+#include "GlobalNamespace/zzzz__LightWithIds_def.hpp"
+#include "GlobalNamespace/zzzz__LightGroup_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::__RuntimeLightWithLightGroupIds__LightIntensitiesWithId.get_intensity
 template <>
 

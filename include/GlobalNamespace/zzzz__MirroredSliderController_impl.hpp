@@ -2,11 +2,11 @@
 #include "GlobalNamespace/zzzz__SliderControllerBase_impl.hpp"
 #include "Zenject/zzzz__MonoMemoryPool_1_impl.hpp"
 #include "GlobalNamespace/zzzz__MirroredSliderController_def.hpp"
-#include "GlobalNamespace/zzzz__ISliderDidStartDissolvingEvent_def.hpp"
+#include "UnityEngine/zzzz__Transform_def.hpp"
 #include "GlobalNamespace/zzzz__MirroredSliderController_def.hpp"
 #include "GlobalNamespace/zzzz__SliderController_def.hpp"
 #include "GlobalNamespace/zzzz__IBeatmapObjectSpawnController_def.hpp"
-#include "UnityEngine/zzzz__Transform_def.hpp"
+#include "GlobalNamespace/zzzz__ISliderDidStartDissolvingEvent_def.hpp"
 #include "UnityEngine/zzzz__MeshFilter_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::MirroredSliderController.set_hide
 template <>

@@ -5,9 +5,6 @@ CORDL_MODULE_INIT
 #include "UnityEngine/EventSystems/zzzz__PhysicsRaycaster_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(Physics2DRaycaster)
-namespace UnityEngine {
-struct RaycastHit2D;
-}
 namespace UnityEngine::EventSystems {
 class PointerEventData;
 }
@@ -16,6 +13,9 @@ struct RaycastResult;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
+}
+namespace UnityEngine {
+struct RaycastHit2D;
 }
 // Forward declare root types
 namespace UnityEngine::EventSystems {

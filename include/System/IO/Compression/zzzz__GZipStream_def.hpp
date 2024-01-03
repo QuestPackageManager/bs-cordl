@@ -3,14 +3,18 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/IO/zzzz__Stream_def.hpp"
+#include "System/Threading/zzzz__CancellationToken_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(GZipStream)
-namespace System::IO {
-struct SeekOrigin;
+namespace System {
+template <typename T> struct Memory_1;
 }
-namespace System::Threading {
-struct CancellationToken;
+namespace System {
+class AsyncCallback;
+}
+namespace System {
+class Object;
 }
 namespace System {
 template <typename T> struct Span_1;
@@ -18,41 +22,38 @@ template <typename T> struct Span_1;
 namespace System::Threading::Tasks {
 class Task;
 }
-namespace System {
-template <typename T> struct ReadOnlySpan_1;
+namespace System::IO::Compression {
+struct CompressionLevel;
 }
 namespace System {
 class IAsyncResult;
 }
+namespace System::Threading::Tasks {
+template <typename TResult> struct ValueTask_1;
+}
 namespace System::IO {
 class Stream;
 }
-namespace System {
-class AsyncCallback;
-}
 namespace System::Threading::Tasks {
 template <typename TResult> class Task_1;
-}
-namespace System::Threading::Tasks {
-template <typename TResult> struct ValueTask_1;
 }
 namespace System::IO::Compression {
 struct CompressionMode;
 }
 namespace System {
-template <typename T> struct Memory_1;
-}
-namespace System {
-class Object;
+template <typename T> struct ReadOnlySpan_1;
 }
 namespace System {
 template <typename T> struct ReadOnlyMemory_1;
 }
+namespace System::Threading {
+struct CancellationToken;
+}
 namespace System::Threading::Tasks {
 struct ValueTask;
 }
-namespace System::IO::Compression {
-struct CompressionLevel;
+namespace System::IO {
+struct SeekOrigin;
 }
 namespace System::IO::Compression {
 class DeflateStream;
@@ -67,7 +68,7 @@ MARK_REF_PTR_T(::System::IO::Compression::GZipStream);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::IO::Compression {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3619))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3619)), TypeDefinitionIndex(TypeDefinitionIndex(2677))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9547))
 // CS Name: ::System.IO.Compression::GZipStream*
 class CORDL_TYPE GZipStream : public ::System::IO::Stream {

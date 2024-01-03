@@ -11,12 +11,6 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(TextElementInfo)
-namespace UnityEngine {
-struct Color32;
-}
-namespace UnityEngine::TextCore::Text {
-struct TextVertex;
-}
 namespace UnityEngine::TextCore::Text {
 class TextElement;
 }
@@ -24,19 +18,25 @@ namespace UnityEngine {
 class Material;
 }
 namespace UnityEngine::TextCore::Text {
-class SpriteAsset;
+struct TextVertex;
 }
-namespace UnityEngine::TextCore::Text {
-class FontAsset;
-}
-namespace UnityEngine::TextCore::Text {
-struct FontStyles;
+namespace UnityEngine {
+struct Vector3;
 }
 namespace UnityEngine::TextCore::Text {
 struct TextElementType;
 }
 namespace UnityEngine {
-struct Vector3;
+struct Color32;
+}
+namespace UnityEngine::TextCore::Text {
+struct FontStyles;
+}
+namespace UnityEngine::TextCore::Text {
+class SpriteAsset;
+}
+namespace UnityEngine::TextCore::Text {
+class FontAsset;
 }
 // Forward declare root types
 namespace UnityEngine::TextCore::Text {
@@ -48,8 +48,8 @@ MARK_VAL_T(::UnityEngine::TextCore::Text::TextElementInfo);
 // SizeInfo { instance_size: 344, native_size: -1, calculated_instance_size: 344, calculated_native_size: 353, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::TextCore::Text {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13698)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10250)),
-// TypeDefinitionIndex(TypeDefinitionIndex(13705)), TypeDefinitionIndex(TypeDefinitionIndex(13719))} Self: TypeDefinitionIndex(TypeDefinitionIndex(13699)) CS Name:
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10250)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(13719)),
+// TypeDefinitionIndex(TypeDefinitionIndex(13705)), TypeDefinitionIndex(TypeDefinitionIndex(13698))} Self: TypeDefinitionIndex(TypeDefinitionIndex(13699)) CS Name:
 // ::UnityEngine.TextCore.Text::TextElementInfo
 struct CORDL_TYPE TextElementInfo {
 public:

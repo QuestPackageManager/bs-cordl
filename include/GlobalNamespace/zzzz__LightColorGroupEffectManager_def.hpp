@@ -5,14 +5,17 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(LightColorGroupEffectManager)
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class IReadOnlyCollection_1;
+}
 namespace Zenject {
 class DiContainer;
 }
 namespace GlobalNamespace {
-class ColorBoostBeatmapEventData;
-}
-namespace GlobalNamespace {
-class BeatmapCallbacksController;
+class LightGroup;
 }
 namespace GlobalNamespace {
 class BeatmapDataCallbackWrapper;
@@ -21,13 +24,10 @@ namespace GlobalNamespace {
 class LightColorGroupEffect;
 }
 namespace GlobalNamespace {
-class LightGroup;
+class BeatmapCallbacksController;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class IReadOnlyCollection_1;
+namespace GlobalNamespace {
+class ColorBoostBeatmapEventData;
 }
 // Forward declare root types
 namespace GlobalNamespace {

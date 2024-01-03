@@ -7,11 +7,17 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(SearchFilterParamsViewController)
-namespace GlobalNamespace {
-class PlayerSensitivityDropdown;
+namespace System {
+template <typename T1, typename T2> class Action_2;
 }
 namespace GlobalNamespace {
-class PlayerDataModel;
+class BeatmapDifficultyDropdown;
+}
+namespace GlobalNamespace {
+struct LevelFilter;
+}
+namespace UnityEngine::UI {
+class Button;
 }
 namespace GlobalNamespace {
 class SongPacksDropdown;
@@ -23,19 +29,13 @@ namespace GlobalNamespace {
 class BeatmapCharacteristicsDropdown;
 }
 namespace GlobalNamespace {
-class BeatmapDifficultyDropdown;
+class PlayerSensitivityDropdown;
 }
 namespace GlobalNamespace {
 class FormattedFloatListSettingsController;
 }
-namespace UnityEngine::UI {
-class Button;
-}
 namespace GlobalNamespace {
-struct LevelFilter;
-}
-namespace System {
-template <typename T1, typename T2> class Action_2;
+class PlayerDataModel;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -47,7 +47,7 @@ MARK_REF_PTR_T(::GlobalNamespace::SearchFilterParamsViewController);
 // SizeInfo { instance_size: 328, native_size: -1, calculated_instance_size: 328, calculated_native_size: 328, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4402)), TypeDefinitionIndex(TypeDefinitionIndex(13605))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13605)), TypeDefinitionIndex(TypeDefinitionIndex(4402))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5673))
 // CS Name: ::SearchFilterParamsViewController*
 class CORDL_TYPE SearchFilterParamsViewController : public ::HMUI::ViewController {

@@ -8,10 +8,10 @@ namespace GlobalNamespace {
 template <typename TStateTable, typename TType, typename TState> class LocalMultiplayerSyncState_3;
 }
 namespace GlobalNamespace {
-class IConnectedPlayer;
+template <typename TStateTable, typename TType, typename TState> class MultiplayerSyncState_3;
 }
 namespace GlobalNamespace {
-template <typename TStateTable, typename TType, typename TState> class MultiplayerSyncState_3;
+class IConnectedPlayer;
 }
 // Forward declare root types
 namespace GlobalNamespace {

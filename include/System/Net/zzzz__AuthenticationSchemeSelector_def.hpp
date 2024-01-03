@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "System/zzzz__MulticastDelegate_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(AuthenticationSchemeSelector)
+namespace System::Net {
+struct AuthenticationSchemes;
+}
 namespace System {
 class Object;
 }
 namespace System::Net {
 class HttpListenerRequest;
-}
-namespace System::Net {
-struct AuthenticationSchemes;
 }
 // Forward declare root types
 namespace System::Net {

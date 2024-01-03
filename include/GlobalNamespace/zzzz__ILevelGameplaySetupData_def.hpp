@@ -4,10 +4,10 @@
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(ILevelGameplaySetupData)
 namespace GlobalNamespace {
-class PreviewDifficultyBeatmap;
+class GameplayModifiers;
 }
 namespace GlobalNamespace {
-class GameplayModifiers;
+class PreviewDifficultyBeatmap;
 }
 // Forward declare root types
 namespace GlobalNamespace {

@@ -1,8 +1,8 @@
 #pragma once
 #include "System/Configuration/zzzz__ConfigurationSection_impl.hpp"
 #include "System/Net/Configuration/zzzz__DefaultProxySection_def.hpp"
-#include "System/Configuration/zzzz__ConfigurationElement_def.hpp"
 #include "System/Configuration/zzzz__ConfigurationPropertyCollection_def.hpp"
+#include "System/Configuration/zzzz__ConfigurationElement_def.hpp"
 //  Writing Method size for method: ::System::Net::Configuration::DefaultProxySection._ctor
 template <>
 

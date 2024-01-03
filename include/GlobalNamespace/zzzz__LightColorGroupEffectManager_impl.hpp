@@ -1,14 +1,14 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__LightColorGroupEffectManager_def.hpp"
-#include "Zenject/zzzz__DiContainer_def.hpp"
-#include "GlobalNamespace/zzzz__ColorBoostBeatmapEventData_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapCallbacksController_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapDataCallbackWrapper_def.hpp"
-#include "GlobalNamespace/zzzz__LightColorGroupEffect_def.hpp"
-#include "GlobalNamespace/zzzz__LightGroup_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IReadOnlyCollection_1_def.hpp"
+#include "Zenject/zzzz__DiContainer_def.hpp"
+#include "GlobalNamespace/zzzz__LightGroup_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapDataCallbackWrapper_def.hpp"
+#include "GlobalNamespace/zzzz__LightColorGroupEffect_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapCallbacksController_def.hpp"
+#include "GlobalNamespace/zzzz__ColorBoostBeatmapEventData_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::LightColorGroupEffectManager.get_lightGroups
 template <>
 

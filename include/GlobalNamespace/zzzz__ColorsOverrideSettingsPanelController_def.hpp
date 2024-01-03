@@ -6,28 +6,7 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ColorsOverrideSettingsPanelController)
 namespace GlobalNamespace {
-class IAnalyticsModel;
-}
-namespace UnityEngine {
-class GameObject;
-}
-namespace GlobalNamespace {
-class ColorSchemesSettings;
-}
-namespace HMUI {
-class ButtonBinder;
-}
-namespace UnityEngine::UI {
-class Button;
-}
-namespace GlobalNamespace {
 class IRefreshable;
-}
-namespace GlobalNamespace {
-class ColorScheme;
-}
-namespace HMUI {
-class DropdownWithTableView;
 }
 namespace UnityEngine::UI {
 class Toggle;
@@ -35,14 +14,35 @@ class Toggle;
 namespace GlobalNamespace {
 class ColorSchemeDropdown;
 }
+namespace HMUI {
+class ButtonBinder;
+}
+namespace HMUI {
+class DropdownWithTableView;
+}
 namespace GlobalNamespace {
 class EditColorSchemeController;
+}
+namespace UnityEngine {
+class GameObject;
 }
 namespace HMUI {
 class ModalView;
 }
+namespace UnityEngine::UI {
+class Button;
+}
 namespace HMUI {
 class PanelAnimationSO;
+}
+namespace GlobalNamespace {
+class IAnalyticsModel;
+}
+namespace GlobalNamespace {
+class ColorSchemesSettings;
+}
+namespace GlobalNamespace {
+class ColorScheme;
 }
 // Forward declare root types
 namespace GlobalNamespace {

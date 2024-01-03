@@ -12,19 +12,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(StateBuffer_3)
 namespace GlobalNamespace {
-template <typename TStateTable, typename TType, typename TState> class __StateBuffer_3__InterpolationDelegate;
-}
-namespace GlobalNamespace {
 template <typename TStateTable, typename TType, typename TState> struct __StateBuffer_3__TimestampedStateTable;
 }
 namespace GlobalNamespace {
 template <typename TStateTable, typename TType, typename TState> class __StateBuffer_3__SmoothingDelegate;
 }
-namespace System {
-class IAsyncResult;
+namespace GlobalNamespace {
+template <typename TStateTable, typename TType, typename TState> class __StateBuffer_3__InterpolationDelegate;
 }
 namespace System {
 class Object;
+}
+namespace System {
+class IAsyncResult;
 }
 namespace System {
 class AsyncCallback;

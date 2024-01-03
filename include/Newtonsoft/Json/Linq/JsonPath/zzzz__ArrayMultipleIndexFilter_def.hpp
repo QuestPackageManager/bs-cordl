@@ -7,32 +7,32 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ArrayMultipleIndexFilter)
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace Newtonsoft::Json::Linq {
-class JToken;
-}
 namespace Newtonsoft::Json::Linq::JsonPath {
 class __ArrayMultipleIndexFilter___ExecuteFilter_d__4;
 }
 namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
-namespace System::Collections {
-class IEnumerator;
-}
-namespace System {
-class Object;
+namespace Newtonsoft::Json::Linq {
+class JToken;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
+}
+namespace System::Collections {
+class IEnumerator;
 }
 namespace System::Collections {
 class IEnumerable;
 }
 namespace System {
 class IDisposable;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Linq::JsonPath {
@@ -48,7 +48,7 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Linq::JsonPath::__ArrayMultipleIndexFilter___
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Linq::JsonPath {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3842), inst: 98 }), TypeDefinitionIndex(TypeDefinitionIndex(2613)),
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3842), inst: 98 }),
 // TypeDefinitionIndex(TypeDefinitionIndex(3842))} Self: TypeDefinitionIndex(TypeDefinitionIndex(12010)) CS Name: ::ArrayMultipleIndexFilter::<ExecuteFilter>d__4*
 class CORDL_TYPE __ArrayMultipleIndexFilter___ExecuteFilter_d__4 : public ::System::Object {
 public:

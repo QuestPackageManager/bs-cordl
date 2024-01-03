@@ -1,15 +1,15 @@
 #pragma once
 #include "System/Xml/zzzz__XmlRawWriter_impl.hpp"
 #include "System/Xml/zzzz__XmlAutoDetectWriter_def.hpp"
-#include "System/Xml/zzzz__XmlEventCache_def.hpp"
-#include "System/Xml/zzzz__OnRemoveWriter_def.hpp"
-#include "System/Xml/zzzz__XmlWriterSettings_def.hpp"
-#include "System/IO/zzzz__TextWriter_def.hpp"
-#include "System/Xml/zzzz__XmlOutputMethod_def.hpp"
-#include "System/Xml/zzzz__XmlRawWriter_def.hpp"
 #include "System/Xml/zzzz__IXmlNamespaceResolver_def.hpp"
+#include "System/Xml/zzzz__OnRemoveWriter_def.hpp"
+#include "System/Xml/zzzz__XmlRawWriter_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"
+#include "System/Xml/zzzz__XmlOutputMethod_def.hpp"
+#include "System/Xml/zzzz__XmlWriterSettings_def.hpp"
 #include "System/Xml/zzzz__XmlStandalone_def.hpp"
+#include "System/IO/zzzz__TextWriter_def.hpp"
+#include "System/Xml/zzzz__XmlEventCache_def.hpp"
 //  Writing Method size for method: ::System::Xml::XmlAutoDetectWriter._ctor
 template <>
 

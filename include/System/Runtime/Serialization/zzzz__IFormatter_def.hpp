@@ -6,11 +6,11 @@ CORDL_MODULE_EXPORT(IFormatter)
 namespace System::Runtime::Serialization {
 class ISurrogateSelector;
 }
-namespace System::IO {
-class Stream;
-}
 namespace System {
 class Object;
+}
+namespace System::IO {
+class Stream;
 }
 // Forward declare root types
 namespace System::Runtime::Serialization {

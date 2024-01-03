@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Globalization/zzzz__RegionInfo_def.hpp"
-#include "System/Globalization/zzzz__CultureInfo_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "System/Globalization/zzzz__CultureInfo_def.hpp"
 //  Writing Method size for method: ::System::Globalization::RegionInfo.get_CurrentRegion
 template <>
 

@@ -9,10 +9,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(RuntimeMarshal)
 namespace Mono {
-struct SafeStringMarshal;
+struct MonoAssemblyName;
 }
 namespace Mono {
-struct MonoAssemblyName;
+struct SafeStringMarshal;
 }
 // Forward declare root types
 namespace Mono {

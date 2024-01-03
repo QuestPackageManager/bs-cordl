@@ -4,8 +4,8 @@
 #include "OVR/OpenVR/zzzz__CVRScreenshots_def.hpp"
 #include "OVR/OpenVR/zzzz__EVRScreenshotPropertyFilenames_def.hpp"
 #include "System/Text/zzzz__StringBuilder_def.hpp"
-#include "OVR/OpenVR/zzzz__EVRScreenshotError_def.hpp"
 #include "OVR/OpenVR/zzzz__EVRScreenshotType_def.hpp"
+#include "OVR/OpenVR/zzzz__EVRScreenshotError_def.hpp"
 //  Writing Method size for method: ::OVR::OpenVR::CVRScreenshots._ctor
 template <>
 

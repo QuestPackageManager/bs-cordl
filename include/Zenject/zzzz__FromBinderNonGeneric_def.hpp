@@ -7,46 +7,46 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(FromBinderNonGeneric)
 namespace Zenject {
-class DiContainer;
+class InjectContext;
 }
-namespace System {
-class Object;
+namespace Zenject {
+template <typename TValue> class IFactory_1;
 }
 namespace Zenject {
 template <typename TContract> class ConcreteBinderGeneric_1;
 }
 namespace Zenject {
-struct InjectSources;
-}
-namespace System {
-template <typename T, typename TResult> class Func_2;
+template <typename TConcrete, typename TFactory> class __FromBinderNonGeneric____c__1_2;
 }
 namespace System {
 template <typename T> class Action_1;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
+namespace System {
+class Object;
 }
 namespace Zenject {
-template <typename TConcrete, typename TFactory> class __FromBinderNonGeneric____c__1_2;
+struct InjectSources;
 }
 namespace Zenject {
 class ScopeConcreteIdArgConditionCopyNonLazyBinder;
 }
-namespace Zenject {
-class InjectContext;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
 }
-namespace Zenject {
-class BindInfo;
-}
-namespace Zenject {
-template <typename TValue> class IFactory_1;
+namespace System {
+template <typename T, typename TResult> class Func_2;
 }
 namespace UnityEngine {
 class Component;
 }
 namespace Zenject {
+class BindInfo;
+}
+namespace Zenject {
 class BindStatement;
+}
+namespace Zenject {
+class DiContainer;
 }
 namespace Zenject {
 class InjectTypeInfo;

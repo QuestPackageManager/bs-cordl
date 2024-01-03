@@ -5,16 +5,16 @@ CORDL_MODULE_INIT
 #include "UnityEngine/InputSystem/zzzz__Pointer_def.hpp"
 CORDL_MODULE_EXPORT(Pen)
 namespace UnityEngine::InputSystem::Controls {
-class AxisControl;
-}
-namespace UnityEngine::InputSystem::Controls {
 class ButtonControl;
-}
-namespace UnityEngine::InputSystem::Controls {
-class Vector2Control;
 }
 namespace UnityEngine::InputSystem {
 struct PenButton;
+}
+namespace UnityEngine::InputSystem::Controls {
+class AxisControl;
+}
+namespace UnityEngine::InputSystem::Controls {
+class Vector2Control;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem {

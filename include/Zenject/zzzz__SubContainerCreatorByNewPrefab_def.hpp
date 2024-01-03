@@ -5,25 +5,25 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(SubContainerCreatorByNewPrefab)
 namespace Zenject {
-struct TypeValuePair;
+class ISubContainerCreator;
+}
+namespace Zenject {
+class GameObjectCreationParameters;
 }
 namespace Zenject {
 class IPrefabProvider;
-}
-namespace Zenject {
-class DiContainer;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace Zenject {
-class ISubContainerCreator;
+class DiContainer;
 }
 namespace Zenject {
 class InjectContext;
 }
 namespace Zenject {
-class GameObjectCreationParameters;
+struct TypeValuePair;
 }
 // Forward declare root types
 namespace Zenject {

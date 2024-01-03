@@ -8,37 +8,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ScoreController)
 namespace GlobalNamespace {
-class IGameEnergyCounter;
+class GameplayModifiersModelSO;
+}
+namespace GlobalNamespace {
+class __MissScoringElement__Pool;
 }
 namespace GlobalNamespace {
 class ScoreMultiplierCounter;
-}
-namespace GlobalNamespace {
-class NoteController;
-}
-namespace GlobalNamespace {
-class GameplayModifiers;
-}
-namespace GlobalNamespace {
-class IScoreController;
-}
-namespace GlobalNamespace {
-struct NoteCutInfo;
-}
-namespace System {
-template <typename T1, typename T2> class Action_2;
-}
-namespace GlobalNamespace {
-class PlayerHeadAndObstacleInteraction;
-}
-namespace GlobalNamespace {
-class ScoringElement;
-}
-namespace GlobalNamespace {
-class __GoodCutScoringElement__Pool;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
 }
 namespace GlobalNamespace {
 class AudioTimeSyncController;
@@ -47,16 +23,40 @@ namespace GlobalNamespace {
 class __BadCutScoringElement__Pool;
 }
 namespace GlobalNamespace {
-class __MissScoringElement__Pool;
+class PlayerHeadAndObstacleInteraction;
+}
+namespace GlobalNamespace {
+class GameplayModifierParamsSO;
+}
+namespace System {
+template <typename T1, typename T2> class Action_2;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace GlobalNamespace {
+class __GoodCutScoringElement__Pool;
+}
+namespace GlobalNamespace {
+class GameplayModifiers;
+}
+namespace GlobalNamespace {
+class ScoringElement;
+}
+namespace GlobalNamespace {
+class IScoreController;
+}
+namespace GlobalNamespace {
+struct NoteCutInfo;
 }
 namespace System {
 template <typename T> class Action_1;
 }
 namespace GlobalNamespace {
-class GameplayModifierParamsSO;
+class NoteController;
 }
 namespace GlobalNamespace {
-class GameplayModifiersModelSO;
+class IGameEnergyCounter;
 }
 namespace GlobalNamespace {
 class BeatmapObjectManager;

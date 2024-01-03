@@ -1,9 +1,9 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__MissionNodeGizmos_def.hpp"
+#include "GlobalNamespace/zzzz__MissionNode_def.hpp"
 #include "GlobalNamespace/zzzz__GameplayModifiersModelSO_def.hpp"
 #include "GlobalNamespace/zzzz__CampaignProgressModel_def.hpp"
-#include "GlobalNamespace/zzzz__MissionNode_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::MissionNodeGizmos._ctor
 template <>
 

@@ -6,14 +6,14 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVRGazePointer)
+namespace GlobalNamespace {
+class OVRProgressIndicator;
+}
 namespace UnityEngine {
 class Transform;
 }
 namespace UnityEngine {
 struct Vector3;
-}
-namespace GlobalNamespace {
-class OVRProgressIndicator;
 }
 // Forward declare root types
 namespace GlobalNamespace {

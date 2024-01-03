@@ -11,9 +11,6 @@ template <typename TParam1, typename TParam2, typename TParam3, typename TParam4
 namespace Zenject {
 class DiContainer;
 }
-namespace UnityEngine {
-class Object;
-}
 namespace System {
 class Object;
 }
@@ -22,6 +19,9 @@ class InjectTypeInfo;
 }
 namespace Zenject {
 class IFactory;
+}
+namespace UnityEngine {
+class Object;
 }
 // Forward declare root types
 namespace Zenject {

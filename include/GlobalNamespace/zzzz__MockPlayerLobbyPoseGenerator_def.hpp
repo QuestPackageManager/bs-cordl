@@ -4,14 +4,14 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(MockPlayerLobbyPoseGenerator)
+namespace GlobalNamespace {
+class MockNodePoseSyncStateSender;
+}
 namespace System {
 class IDisposable;
 }
 namespace GlobalNamespace {
 class IMultiplayerSessionManager;
-}
-namespace GlobalNamespace {
-class MockNodePoseSyncStateSender;
 }
 // Forward declare root types
 namespace GlobalNamespace {

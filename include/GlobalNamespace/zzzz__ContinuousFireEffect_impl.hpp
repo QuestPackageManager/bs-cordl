@@ -1,9 +1,9 @@
 #pragma once
 #include "GlobalNamespace/zzzz__FireEffect_impl.hpp"
 #include "GlobalNamespace/zzzz__ContinuousFireEffect_def.hpp"
+#include "UnityEngine/zzzz__AnimationCurve_def.hpp"
 #include "GlobalNamespace/zzzz__IAudioTimeSource_def.hpp"
 #include "GlobalNamespace/zzzz__LightColorBeatmapEventData_def.hpp"
-#include "UnityEngine/zzzz__AnimationCurve_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::ContinuousFireEffect.Start
 template <>
 

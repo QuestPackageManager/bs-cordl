@@ -5,6 +5,9 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(CaseInsensitiveComparer)
+namespace System {
+class Object;
+}
 namespace System::Globalization {
 class CompareInfo;
 }
@@ -13,9 +16,6 @@ class IComparer;
 }
 namespace System::Globalization {
 class CultureInfo;
-}
-namespace System {
-class Object;
 }
 // Forward declare root types
 namespace System::Collections {

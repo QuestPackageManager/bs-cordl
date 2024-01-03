@@ -6,16 +6,16 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(MissionNodeSelectionManager)
 namespace GlobalNamespace {
-class MissionNodesManager;
-}
-namespace GlobalNamespace {
 class MissionNodeVisualController;
 }
 namespace GlobalNamespace {
-class MissionNode;
+class MissionNodesManager;
 }
 namespace System {
 template <typename T> class Action_1;
+}
+namespace GlobalNamespace {
+class MissionNode;
 }
 // Forward declare root types
 namespace GlobalNamespace {

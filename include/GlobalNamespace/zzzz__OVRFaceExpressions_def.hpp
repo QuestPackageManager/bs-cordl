@@ -13,40 +13,40 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVRFaceExpressions)
 namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
-namespace System::Collections {
-class IEnumerator;
-}
-namespace GlobalNamespace {
-struct __OVRFaceExpressions__FaceExpression;
-}
-namespace GlobalNamespace {
-class __OVRFaceExpressions__WeightProvider;
-}
-namespace System::Collections::Generic {
 template <typename T> class IReadOnlyCollection_1;
 }
 namespace System::Collections {
 class IEnumerable;
 }
-namespace GlobalNamespace {
-struct __OVRFaceExpressions__FaceRegionConfidence;
+namespace System::Collections {
+class IEnumerator;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
+}
+namespace GlobalNamespace {
+struct __OVRFaceExpressions__FaceExpressionsEnumerator;
+}
+namespace GlobalNamespace {
+class __OVRFaceExpressions__WeightProvider;
 }
 namespace System {
 template <typename T> class Action_1;
 }
 namespace GlobalNamespace {
-struct __OVRFaceExpressions__FaceExpressionsEnumerator;
+struct __OVRFaceExpressions__FaceRegionConfidence;
 }
-namespace System {
-class Object;
+namespace GlobalNamespace {
+struct __OVRFaceExpressions__FaceExpression;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
 }
 namespace System {
 class IDisposable;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace GlobalNamespace {

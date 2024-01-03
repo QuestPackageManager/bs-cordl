@@ -10,29 +10,29 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(PhysicsRaycaster)
+namespace UnityEngine::EventSystems {
+class PointerEventData;
+}
 namespace UnityEngine {
 struct Ray;
 }
 namespace UnityEngine::EventSystems {
-class __PhysicsRaycaster__RaycastHitComparer;
+struct RaycastResult;
+}
+namespace UnityEngine {
+class Camera;
 }
 namespace UnityEngine {
 struct LayerMask;
 }
 namespace UnityEngine::EventSystems {
-class PointerEventData;
-}
-namespace UnityEngine {
-struct RaycastHit;
-}
-namespace UnityEngine::EventSystems {
-struct RaycastResult;
+class __PhysicsRaycaster__RaycastHitComparer;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace UnityEngine {
-class Camera;
+struct RaycastHit;
 }
 namespace System::Collections::Generic {
 template <typename T> class IComparer_1;
@@ -99,7 +99,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::EventSystems::__Phy
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::EventSystems {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13209)), TypeDefinitionIndex(TypeDefinitionIndex(10204))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10204)), TypeDefinitionIndex(TypeDefinitionIndex(13209))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13212))
 // CS Name: ::UnityEngine.EventSystems::PhysicsRaycaster*
 class CORDL_TYPE PhysicsRaycaster : public ::UnityEngine::EventSystems::BaseRaycaster {

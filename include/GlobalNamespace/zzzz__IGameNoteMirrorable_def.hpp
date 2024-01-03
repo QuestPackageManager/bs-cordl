@@ -7,13 +7,13 @@ namespace GlobalNamespace {
 class INoteMirrorable;
 }
 namespace GlobalNamespace {
-class NoteMovement;
+struct NoteVisualModifierType;
 }
 namespace GlobalNamespace {
 struct __NoteData__GameplayType;
 }
 namespace GlobalNamespace {
-struct NoteVisualModifierType;
+class NoteMovement;
 }
 // Forward declare root types
 namespace GlobalNamespace {

@@ -13,10 +13,10 @@ namespace System::Reflection {
 class MemberInfo;
 }
 namespace System {
-class Object;
+struct TypeCode;
 }
 namespace System {
-struct TypeCode;
+class Object;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::Utilities {

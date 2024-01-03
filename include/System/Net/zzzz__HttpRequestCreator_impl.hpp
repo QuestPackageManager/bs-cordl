@@ -2,8 +2,8 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/zzzz__HttpRequestCreator_def.hpp"
 #include "System/Net/zzzz__IWebRequestCreate_def.hpp"
-#include "System/zzzz__Uri_def.hpp"
 #include "System/Net/zzzz__WebRequest_def.hpp"
+#include "System/zzzz__Uri_def.hpp"
 //  Writing Method size for method: ::System::Net::HttpRequestCreator._ctor
 template <>
 

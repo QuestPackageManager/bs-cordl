@@ -5,17 +5,17 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(LightRotationGroupEffectManager)
+namespace Zenject {
+class DiContainer;
+}
 namespace GlobalNamespace {
-class LightRotationGroupEffect;
+class LightRotationGroup;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace GlobalNamespace {
-class LightRotationGroup;
-}
-namespace Zenject {
-class DiContainer;
+class LightRotationGroupEffect;
 }
 // Forward declare root types
 namespace GlobalNamespace {

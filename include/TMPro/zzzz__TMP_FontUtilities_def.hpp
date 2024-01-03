@@ -10,10 +10,10 @@ namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace TMPro {
-class TMP_FontAsset;
+class TMP_Character;
 }
 namespace TMPro {
-class TMP_Character;
+class TMP_FontAsset;
 }
 // Forward declare root types
 namespace TMPro {

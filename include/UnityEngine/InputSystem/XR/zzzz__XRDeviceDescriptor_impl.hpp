@@ -2,8 +2,8 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/XR/zzzz__InputDeviceCharacteristics_impl.hpp"
 #include "UnityEngine/InputSystem/XR/zzzz__XRDeviceDescriptor_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "UnityEngine/InputSystem/XR/zzzz__XRFeatureDescriptor_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 //  Writing Method size for method: ::UnityEngine::InputSystem::XR::XRDeviceDescriptor.ToJson
 template <>
 

@@ -7,42 +7,42 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(PlaceholderFactory_11)
-namespace Zenject {
-class IFactory;
-}
 namespace System {
 class Object;
 }
 namespace Zenject {
-template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TParam7, typename TParam8, typename TParam9, typename TParam10,
-          typename TValue>
-class __PlaceholderFactory_11___get_ParamTypes_d__2;
+class InjectTypeInfo;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
-}
-namespace Zenject {
-class InjectTypeInfo;
 }
 namespace Zenject {
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TParam7, typename TParam8, typename TParam9, typename TParam10,
           typename TValue>
 class IFactory_11;
 }
+namespace Zenject {
+class IFactory;
+}
+namespace Zenject {
+template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TParam7, typename TParam8, typename TParam9, typename TParam10,
+          typename TValue>
+class __PlaceholderFactory_11___get_ParamTypes_d__2;
+}
 namespace System {
 class Type;
-}
-namespace System::Collections {
-class IEnumerable;
-}
-namespace System::Collections {
-class IEnumerator;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
 namespace System {
 class IDisposable;
+}
+namespace System::Collections {
+class IEnumerable;
+}
+namespace System::Collections {
+class IEnumerator;
 }
 // Forward declare root types
 namespace Zenject {
@@ -184,7 +184,7 @@ namespace Zenject {
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TParam7, typename TParam8, typename TParam9, typename TParam10,
           typename TValue>
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11026), inst: 4828 }), TypeDefinitionIndex(TypeDefinitionIndex(11026))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11026)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11026), inst: 4828 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11023))
 // CS Name: ::Zenject::PlaceholderFactory`11<TParam1,TParam2,TParam3,TParam4,TParam5,TParam6,TParam7,TParam8,TParam9,TParam10,TValue>*
 class CORDL_TYPE PlaceholderFactory_11 : public ::Zenject::PlaceholderFactoryBase_1<TValue> {

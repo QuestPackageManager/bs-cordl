@@ -1,10 +1,10 @@
 #pragma once
 #include "System/Xml/zzzz__XmlEncodedRawTextWriter_impl.hpp"
 #include "System/Xml/zzzz__TextEncodedRawTextWriter_def.hpp"
-#include "System/IO/zzzz__TextWriter_def.hpp"
-#include "System/Xml/zzzz__XmlStandalone_def.hpp"
-#include "System/Xml/zzzz__XmlWriterSettings_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"
+#include "System/Xml/zzzz__XmlStandalone_def.hpp"
+#include "System/IO/zzzz__TextWriter_def.hpp"
+#include "System/Xml/zzzz__XmlWriterSettings_def.hpp"
 //  Writing Method size for method: ::System::Xml::TextEncodedRawTextWriter._ctor
 template <>
 

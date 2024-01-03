@@ -16,26 +16,11 @@ CORDL_MODULE_EXPORT(MediaAsyncLoader)
 namespace GlobalNamespace {
 struct __MediaAsyncLoader___LoadSpriteAsync_d__3;
 }
-namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
-}
-namespace GlobalNamespace {
-struct __MediaAsyncLoader___LoadWebpage_d__0;
-}
 namespace System::Threading {
 struct CancellationToken;
 }
-namespace UnityEngine {
-class Texture2D;
-}
 namespace GlobalNamespace {
 struct __MediaAsyncLoader___LoadAudioClipFromFilePathAsync_d__1;
-}
-namespace GlobalNamespace {
-class IMediaAsyncLoader;
-}
-namespace GlobalNamespace {
-struct __MediaAsyncLoader___LoadTextureAsync_d__2;
 }
 namespace UnityEngine {
 class AudioClip;
@@ -43,8 +28,20 @@ class AudioClip;
 namespace UnityEngine {
 class Sprite;
 }
-namespace System::Runtime::CompilerServices {
-class IAsyncStateMachine;
+namespace GlobalNamespace {
+struct __MediaAsyncLoader___LoadWebpage_d__0;
+}
+namespace UnityEngine {
+class Texture2D;
+}
+namespace System::Threading::Tasks {
+template <typename TResult> class Task_1;
+}
+namespace GlobalNamespace {
+struct __MediaAsyncLoader___LoadTextureAsync_d__2;
+}
+namespace GlobalNamespace {
+class IMediaAsyncLoader;
 }
 namespace UnityEngine::Networking {
 class UnityWebRequest;
@@ -52,11 +49,14 @@ class UnityWebRequest;
 namespace System::Runtime::CompilerServices {
 struct TaskAwaiter;
 }
-namespace System::Runtime::CompilerServices {
-template <typename TResult> struct AsyncTaskMethodBuilder_1;
-}
 namespace UnityEngine {
 class AsyncOperation;
+}
+namespace System::Runtime::CompilerServices {
+class IAsyncStateMachine;
+}
+namespace System::Runtime::CompilerServices {
+template <typename TResult> struct AsyncTaskMethodBuilder_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -84,8 +84,8 @@ MARK_VAL_T(::GlobalNamespace::__MediaAsyncLoader___LoadWebpage_d__0);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 397 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(3393)), TypeDefinitionIndex(TypeDefinitionIndex(2677))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5899)) CS Name: ::MediaAsyncLoader::<LoadWebpage>d__0
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3393)), TypeDefinitionIndex(TypeDefinitionIndex(3402)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 397 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(5899)) CS Name: ::MediaAsyncLoader::<LoadWebpage>d__0
 struct CORDL_TYPE __MediaAsyncLoader___LoadWebpage_d__0 {
 public:
   // Declarations
@@ -159,8 +159,8 @@ static_assert(offsetof(::GlobalNamespace::__MediaAsyncLoader___LoadWebpage_d__0,
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3393)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 276 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(15594))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5900)) CS Name:
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15594)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 276 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(3393)), TypeDefinitionIndex(TypeDefinitionIndex(3402))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5900)) CS Name:
 // ::MediaAsyncLoader::<LoadAudioClipFromFilePathAsync>d__1
 struct CORDL_TYPE __MediaAsyncLoader___LoadAudioClipFromFilePathAsync_d__1 {
 public:
@@ -229,9 +229,9 @@ static_assert(offsetof(::GlobalNamespace::__MediaAsyncLoader___LoadAudioClipFrom
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(10073)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 403
-// }), TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3393))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5901)) CS Name:
-// ::MediaAsyncLoader::<LoadTextureAsync>d__2
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10073)), TypeDefinitionIndex(TypeDefinitionIndex(3393)), TypeDefinitionIndex(TypeDefinitionIndex(2677)),
+// TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 403 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(5901)) CS
+// Name: ::MediaAsyncLoader::<LoadTextureAsync>d__2
 struct CORDL_TYPE __MediaAsyncLoader___LoadTextureAsync_d__2 {
 public:
   // Declarations
@@ -305,9 +305,9 @@ static_assert(offsetof(::GlobalNamespace::__MediaAsyncLoader___LoadTextureAsync_
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(3393)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10291)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 777 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(5902)) CS
-// Name: ::MediaAsyncLoader::<LoadSpriteAsync>d__3
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(3393)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 777
+// }), TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(10291))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5902)) CS Name:
+// ::MediaAsyncLoader::<LoadSpriteAsync>d__3
 struct CORDL_TYPE __MediaAsyncLoader___LoadSpriteAsync_d__3 {
 public:
   // Declarations

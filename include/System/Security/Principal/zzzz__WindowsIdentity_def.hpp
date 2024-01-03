@@ -8,35 +8,35 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(WindowsIdentity)
-namespace System::Runtime::Serialization {
-class IDeserializationCallback;
-}
-namespace System {
-class IDisposable;
-}
-namespace System::Runtime::Serialization {
-class SerializationInfo;
-}
 namespace System::Security::Claims {
 class ClaimsIdentity;
-}
-namespace System::Security::Principal {
-class WindowsImpersonationContext;
-}
-namespace System::Runtime::Serialization {
-struct StreamingContext;
-}
-namespace System {
-class Object;
-}
-namespace System::Security::Principal {
-class IIdentity;
 }
 namespace System::Runtime::Serialization {
 class ISerializable;
 }
+namespace System::Runtime::Serialization {
+class IDeserializationCallback;
+}
+namespace System::Runtime::Serialization {
+struct StreamingContext;
+}
+namespace System::Security::Principal {
+class IIdentity;
+}
+namespace System::Security::Principal {
+class WindowsImpersonationContext;
+}
+namespace System {
+class Object;
+}
+namespace System::Runtime::Serialization {
+class SerializationInfo;
+}
 namespace System::Security::Principal {
 struct WindowsAccountType;
+}
+namespace System {
+class IDisposable;
 }
 // Forward declare root types
 namespace System::Security::Principal {
@@ -48,7 +48,7 @@ MARK_REF_PTR_T(::System::Security::Principal::WindowsIdentity);
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Principal {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(3010)), TypeDefinitionIndex(TypeDefinitionIndex(3005))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3010)), TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(3005))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3006))
 // CS Name: ::System.Security.Principal::WindowsIdentity*
 class CORDL_TYPE WindowsIdentity : public ::System::Security::Claims::ClaimsIdentity {

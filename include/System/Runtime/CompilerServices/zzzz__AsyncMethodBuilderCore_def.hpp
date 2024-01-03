@@ -6,17 +6,17 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstddef>
 CORDL_MODULE_EXPORT(AsyncMethodBuilderCore)
-namespace System::Threading::Tasks {
-class Task;
-}
 namespace System {
 class Action;
 }
-namespace System::Threading {
-class ContextCallback;
+namespace System::Threading::Tasks {
+class Task;
 }
 namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
+}
+namespace System::Threading {
+class ContextCallback;
 }
 namespace System::Threading {
 class ExecutionContext;
@@ -25,28 +25,28 @@ namespace System {
 class Object;
 }
 namespace System::Threading {
-class SendOrPostCallback;
-}
-namespace System::Threading {
 class WaitCallback;
 }
-namespace System::Runtime::CompilerServices {
-class __AsyncMethodBuilderCore__MoveNextRunner;
-}
-namespace System::Runtime::CompilerServices {
-class __AsyncMethodBuilderCore__ContinuationWrapper;
+namespace System::Threading {
+class SendOrPostCallback;
 }
 namespace System::Runtime::CompilerServices {
 class __AsyncMethodBuilderCore____c;
 }
-namespace System::Threading {
-class SynchronizationContext;
+namespace System::Runtime::CompilerServices {
+class __AsyncMethodBuilderCore____c__DisplayClass5_0;
 }
 namespace System {
 class Exception;
 }
 namespace System::Runtime::CompilerServices {
-class __AsyncMethodBuilderCore____c__DisplayClass5_0;
+class __AsyncMethodBuilderCore__MoveNextRunner;
+}
+namespace System::Threading {
+class SynchronizationContext;
+}
+namespace System::Runtime::CompilerServices {
+class __AsyncMethodBuilderCore__ContinuationWrapper;
 }
 // Forward declare root types
 namespace System::Runtime::CompilerServices {

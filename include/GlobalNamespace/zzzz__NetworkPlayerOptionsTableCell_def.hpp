@@ -5,17 +5,17 @@ CORDL_MODULE_INIT
 #include "HMUI/zzzz__TableCell_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(NetworkPlayerOptionsTableCell)
+namespace UnityEngine::UI {
+class Button;
+}
 namespace TMPro {
 class TextMeshProUGUI;
-}
-namespace HMUI {
-class ButtonBinder;
 }
 namespace GlobalNamespace {
 class INetworkPlayer;
 }
-namespace UnityEngine::UI {
-class Button;
+namespace HMUI {
+class ButtonBinder;
 }
 // Forward declare root types
 namespace GlobalNamespace {

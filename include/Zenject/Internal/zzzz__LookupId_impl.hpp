@@ -2,8 +2,8 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "Zenject/zzzz__BindingId_impl.hpp"
 #include "Zenject/Internal/zzzz__LookupId_def.hpp"
-#include "Zenject/zzzz__BindingId_def.hpp"
 #include "Zenject/zzzz__IProvider_def.hpp"
+#include "Zenject/zzzz__BindingId_def.hpp"
 //  Writing Method size for method: ::Zenject::Internal::LookupId._ctor
 template <>
 

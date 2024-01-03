@@ -4,9 +4,9 @@
 #include "System/Xml/zzzz__XmlNamedNodeMap_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "System/Xml/zzzz__XmlNamedNodeMap_def.hpp"
 #include "System/Xml/zzzz__XmlNode_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "System/Xml/zzzz__XmlDocument_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::__XmlNamedNodeMap__SmallXmlNodeList__SingleObjectEnumerator._ctor
 template <>

@@ -8,28 +8,28 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(NodePoseSyncStateDeltaNetSerializable)
 namespace GlobalNamespace {
-struct NodePoseSyncState;
+template <typename T> class IPacketPool_1;
+}
+namespace LiteNetLib::Utils {
+class NetDataReader;
 }
 namespace LiteNetLib::Utils {
 class NetDataWriter;
-}
-namespace GlobalNamespace {
-template <typename T> class IPacketPool_1;
-}
-namespace GlobalNamespace {
-template <typename T> class ISyncStateDeltaSerializable_1;
-}
-namespace GlobalNamespace {
-struct SyncStateId;
 }
 namespace LiteNetLib::Utils {
 class INetSerializable;
 }
 namespace GlobalNamespace {
+struct NodePoseSyncState;
+}
+namespace GlobalNamespace {
+struct SyncStateId;
+}
+namespace GlobalNamespace {
 class IPoolablePacket;
 }
-namespace LiteNetLib::Utils {
-class NetDataReader;
+namespace GlobalNamespace {
+template <typename T> class ISyncStateDeltaSerializable_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -41,7 +41,7 @@ MARK_REF_PTR_T(::GlobalNamespace::NodePoseSyncStateDeltaNetSerializable);
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12988)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12973))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12988)), TypeDefinitionIndex(TypeDefinitionIndex(12973)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12974))
 // CS Name: ::NodePoseSyncStateDeltaNetSerializable*
 class CORDL_TYPE NodePoseSyncStateDeltaNetSerializable : public ::System::Object {

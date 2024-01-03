@@ -6,29 +6,29 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(BasicConstraints)
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
+namespace Org::BouncyCastle::Math {
+class BigInteger;
 }
 namespace Org::BouncyCastle::Asn1 {
 class DerInteger;
 }
-namespace System {
-class Object;
+namespace Org::BouncyCastle::Asn1 {
+class DerBoolean;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class X509Extensions;
 }
 namespace Org::BouncyCastle::Asn1 {
-class DerBoolean;
+class Asn1TaggedObject;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1TaggedObject;
+class Asn1Sequence;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
 }
-namespace Org::BouncyCastle::Math {
-class BigInteger;
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::X509 {

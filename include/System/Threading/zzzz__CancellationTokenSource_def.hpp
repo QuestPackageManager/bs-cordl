@@ -10,40 +10,43 @@ namespace System {
 class Object;
 }
 namespace System::Threading {
-struct CancellationTokenRegistration;
-}
-namespace System::Threading {
-class CancellationCallbackInfo;
-}
-namespace System {
-class IDisposable;
-}
-namespace System::Threading {
-class __CancellationTokenSource__Linked2CancellationTokenSource;
-}
-namespace System::Threading {
-class ManualResetEvent;
-}
-namespace System::Threading {
-class ExecutionContext;
+class __CancellationTokenSource__LinkedNCancellationTokenSource;
 }
 namespace System::Threading {
 class TimerCallback;
 }
 namespace System::Threading {
-class __CancellationTokenSource__Linked1CancellationTokenSource;
+class ExecutionContext;
 }
 namespace System::Threading {
-template <typename T> class SparselyPopulatedArray_1;
+class Timer;
 }
 namespace System::Threading {
-class __CancellationTokenSource__LinkedNCancellationTokenSource;
+struct CancellationCallbackCoreWorkArguments;
+}
+namespace System::Threading {
+class __CancellationTokenSource__Linked2CancellationTokenSource;
+}
+namespace System::Threading {
+class SynchronizationContext;
+}
+namespace System {
+class IDisposable;
+}
+namespace System::Threading {
+class ManualResetEvent;
 }
 namespace System {
 template <typename T> class Action_1;
 }
 namespace System::Threading {
-class Timer;
+struct CancellationTokenRegistration;
+}
+namespace System::Threading {
+class CancellationCallbackInfo;
+}
+namespace System::Threading {
+template <typename T> class SparselyPopulatedArray_1;
 }
 namespace System::Threading {
 struct CancellationToken;
@@ -52,10 +55,7 @@ namespace System {
 struct TimeSpan;
 }
 namespace System::Threading {
-class SynchronizationContext;
-}
-namespace System::Threading {
-struct CancellationCallbackCoreWorkArguments;
+class __CancellationTokenSource__Linked1CancellationTokenSource;
 }
 // Forward declare root types
 namespace GlobalNamespace {

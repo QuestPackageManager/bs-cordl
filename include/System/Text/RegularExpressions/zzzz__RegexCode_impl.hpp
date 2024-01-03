@@ -4,10 +4,10 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Text/RegularExpressions/zzzz__RegexCode_def.hpp"
 #include "System/Text/RegularExpressions/zzzz__RegexBoyerMoore_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/Collections/zzzz__Hashtable_def.hpp"
-#include "System/zzzz__Nullable_1_def.hpp"
 #include "System/Text/RegularExpressions/zzzz__RegexPrefix_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "System/zzzz__Nullable_1_def.hpp"
 //  Writing Method size for method: ::System::Text::RegularExpressions::RegexCode._ctor
 template <>
 

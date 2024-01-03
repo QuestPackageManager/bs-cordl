@@ -5,13 +5,13 @@ CORDL_MODULE_INIT
 #include "Zenject/zzzz__ScriptableObjectInstaller_def.hpp"
 CORDL_MODULE_EXPORT(PlatformInstallerSO)
 namespace GlobalNamespace {
-class SonyAchievementIdsModelSO;
+class MockPlatformAdditionalContentModelInitialDataSO;
 }
 namespace GlobalNamespace {
 class AppInitSetupData;
 }
 namespace GlobalNamespace {
-class MockPlatformAdditionalContentModelInitialDataSO;
+class SonyAchievementIdsModelSO;
 }
 namespace GlobalNamespace {
 class AchievementIdsModelSO;

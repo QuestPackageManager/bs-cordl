@@ -16,101 +16,101 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(AnimationTrack)
-namespace UnityEngine::Timeline {
-struct AppliedOffsetMode;
-}
-namespace UnityEngine::Timeline {
-struct __AnimationPlayableAsset__LoopMode;
-}
-namespace UnityEngine::Timeline {
-template <typename T> class IntervalTree_1;
-}
 namespace UnityEngine {
-struct Quaternion;
-}
-namespace UnityEngine::Timeline {
-class TimelineClip;
-}
-namespace UnityEngine::Animations {
-struct AnimationLayerMixerPlayable;
-}
-namespace UnityEngine::Playables {
-class PlayableDirector;
-}
-namespace UnityEngine {
-class AvatarMask;
-}
-namespace System::Collections::Generic {
-template <typename T> class Queue_1;
+class AnimationClip;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
 }
 namespace UnityEngine::Timeline {
 class __AnimationTrack__AnimationTrackUpgrade;
 }
 namespace UnityEngine::Timeline {
-struct TrackOffset;
-}
-namespace UnityEngine::Playables {
-struct PlayableGraph;
+class __AnimationTrack___get_outputs_d__49;
 }
 namespace UnityEngine::Timeline {
-struct MatchTargetFields;
+struct TrackOffset;
+}
+namespace UnityEngine::Timeline {
+struct AppliedOffsetMode;
+}
+namespace UnityEngine::Timeline {
+class TimelineClip;
+}
+namespace UnityEngine::Playables {
+struct Playable;
+}
+namespace UnityEngine::Playables {
+class PlayableDirector;
 }
 namespace UnityEngine::Timeline {
 class ILayerable;
 }
 namespace UnityEngine {
-class Transform;
+struct Quaternion;
 }
 namespace UnityEngine::Timeline {
-class __AnimationTrack___get_outputs_d__49;
-}
-namespace UnityEngine::Timeline {
-struct __TimelineClip__ClipExtrapolation;
+struct MatchTargetFields;
 }
 namespace UnityEngine {
 class GameObject;
 }
+namespace UnityEngine::Timeline {
+class RuntimeElement;
+}
+namespace UnityEngine::Timeline {
+struct __TimelineClip__ClipExtrapolation;
+}
+namespace UnityEngine::Timeline {
+template <typename T> class IntervalTree_1;
+}
 namespace UnityEngine::Playables {
-struct Playable;
+struct PlayableBinding;
+}
+namespace UnityEngine::Animations {
+struct AnimationLayerMixerPlayable;
 }
 namespace UnityEngine {
 class Animator;
 }
 namespace UnityEngine::Timeline {
-class IPropertyCollector;
-}
-namespace UnityEngine {
-class AnimationClip;
+struct __AnimationPlayableAsset__LoopMode;
 }
 namespace UnityEngine {
 struct Vector3;
 }
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class Queue_1;
+}
 namespace UnityEngine::Timeline {
-class RuntimeElement;
+class IPropertyCollector;
+}
+namespace UnityEngine {
+class Transform;
 }
 namespace UnityEngine::Playables {
-struct PlayableBinding;
+struct PlayableGraph;
 }
-namespace System::Collections {
-class IEnumerator;
-}
-namespace System::Collections {
-class IEnumerable;
+namespace UnityEngine {
+class AvatarMask;
 }
 namespace System {
 class Object;
 }
-namespace System {
-class IDisposable;
+namespace System::Collections {
+class IEnumerable;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
+}
+namespace System::Collections {
+class IEnumerator;
+}
+namespace System {
+class IDisposable;
 }
 // Forward declare root types
 namespace UnityEngine::Timeline {
@@ -301,8 +301,8 @@ static_assert(offsetof(::UnityEngine::Timeline::__AnimationTrack___get_outputs_d
 // SizeInfo { instance_size: 304, native_size: -1, calculated_instance_size: 304, calculated_native_size: 297, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(13847)), TypeDefinitionIndex(TypeDefinitionIndex(10249)),
-// TypeDefinitionIndex(TypeDefinitionIndex(13831)), TypeDefinitionIndex(TypeDefinitionIndex(13838)), TypeDefinitionIndex(TypeDefinitionIndex(13862)), TypeDefinitionIndex(TypeDefinitionIndex(13837))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(13837)), TypeDefinitionIndex(TypeDefinitionIndex(13838)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(13831)), TypeDefinitionIndex(TypeDefinitionIndex(13862)), TypeDefinitionIndex(TypeDefinitionIndex(13847))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13843))
 // CS Name: ::UnityEngine.Timeline::AnimationTrack*
 class CORDL_TYPE AnimationTrack : public ::UnityEngine::Timeline::TrackAsset {

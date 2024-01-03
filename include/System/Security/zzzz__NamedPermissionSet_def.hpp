@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(NamedPermissionSet)
-namespace System::Security {
-class SecurityElement;
-}
 namespace System::Security::Permissions {
 struct PermissionState;
+}
+namespace System::Security {
+class SecurityElement;
 }
 namespace System {
 class Object;

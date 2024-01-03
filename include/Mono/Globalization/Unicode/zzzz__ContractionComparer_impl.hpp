@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "Mono/Globalization/Unicode/zzzz__ContractionComparer_def.hpp"
-#include "System/Collections/Generic/zzzz__IComparer_1_def.hpp"
 #include "Mono/Globalization/Unicode/zzzz__Contraction_def.hpp"
+#include "System/Collections/Generic/zzzz__IComparer_1_def.hpp"
 //  Writing Method size for method: ::Mono::Globalization::Unicode::ContractionComparer.Compare
 template <>
 

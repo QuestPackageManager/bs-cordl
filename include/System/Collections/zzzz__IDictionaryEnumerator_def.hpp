@@ -6,11 +6,11 @@ CORDL_MODULE_EXPORT(IDictionaryEnumerator)
 namespace System::Collections {
 struct DictionaryEntry;
 }
-namespace System {
-class Object;
-}
 namespace System::Collections {
 class IEnumerator;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::Collections {

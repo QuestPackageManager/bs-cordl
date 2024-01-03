@@ -7,8 +7,8 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(BigNumber)
-namespace System {
-template <typename T> struct ReadOnlySpan_1;
+namespace System::Numerics {
+struct BigInteger;
 }
 namespace System::Globalization {
 class NumberFormatInfo;
@@ -16,8 +16,8 @@ class NumberFormatInfo;
 namespace System {
 template <typename T> struct Span_1;
 }
-namespace System::Numerics {
-struct BigInteger;
+namespace System {
+template <typename T> struct ReadOnlySpan_1;
 }
 // Forward declare root types
 namespace System::Numerics {

@@ -2,8 +2,8 @@
 #include "System/Net/NetworkInformation/AixStructs/zzzz__ifreq_impl.hpp"
 #include "System/Net/NetworkInformation/AixStructs/zzzz__sockaddr_impl.hpp"
 #include "System/Net/NetworkInformation/AixStructs/zzzz__ifreq_def.hpp"
-#include "System/Net/NetworkInformation/AixStructs/zzzz__ifreq_def.hpp"
 #include "System/Net/NetworkInformation/AixStructs/zzzz__sockaddr_def.hpp"
+#include "System/Net/NetworkInformation/AixStructs/zzzz__ifreq_def.hpp"
 // Ctor Parameters [CppParam { name: "FixedElementField", ty: "uint8_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::System::Net::NetworkInformation::AixStructs::__ifreq___ifr_name_e__FixedBuffer::__ifreq___ifr_name_e__FixedBuffer(uint8_t FixedElementField) noexcept {
   this->FixedElementField = FixedElementField;

@@ -1,9 +1,9 @@
 #pragma once
 #include "UnityEngine/UIElements/zzzz__UxmlTypeRestriction_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__UxmlEnumeration_def.hpp"
-#include "UnityEngine/UIElements/zzzz__UxmlTypeRestriction_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "UnityEngine/UIElements/zzzz__UxmlTypeRestriction_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::UxmlEnumeration.get_values
 template <>
 

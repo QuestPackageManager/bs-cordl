@@ -10,52 +10,52 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(AppDomain)
 namespace System {
-template <typename TEventArgs> class EventHandler_1;
-}
-namespace System::Runtime::Remoting::Messaging {
-class CADMethodCallMessage;
-}
-namespace System::Reflection {
-class Assembly;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace System::Runtime::Remoting::Contexts {
-class Context;
-}
-namespace System::Runtime::Remoting::Messaging {
-class CADMethodReturnMessage;
-}
-namespace System {
-class EventHandler;
+class ResolveEventHandler;
 }
 namespace System::Reflection {
 class MethodInfo;
 }
-namespace System {
-class Object;
-}
-namespace System::Threading {
-struct StackCrawlMark;
-}
-namespace System {
-class ResolveEventHandler;
-}
-namespace System {
-class UnhandledExceptionEventHandler;
-}
 namespace System::Security::Policy {
 class Evidence;
+}
+namespace System::Reflection {
+class Assembly;
+}
+namespace System {
+class Object;
 }
 namespace System {
 class AssemblyLoadEventHandler;
 }
 namespace System::Runtime::ExceptionServices {
 class FirstChanceExceptionEventArgs;
+}
+namespace System {
+class UnhandledExceptionEventHandler;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace System::Runtime::Remoting::Messaging {
+class CADMethodCallMessage;
+}
+namespace System::Runtime::Remoting::Messaging {
+class CADMethodReturnMessage;
+}
+namespace System {
+template <typename TEventArgs> class EventHandler_1;
+}
+namespace System {
+class EventHandler;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace System::Runtime::Remoting::Contexts {
+class Context;
+}
+namespace System::Threading {
+struct StackCrawlMark;
 }
 // Forward declare root types
 namespace System {
@@ -67,7 +67,7 @@ MARK_REF_PTR_T(::System::AppDomain);
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2605)), TypeDefinitionIndex(TypeDefinitionIndex(2603))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(2605))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2575))
 // CS Name: ::System::AppDomain*
 class CORDL_TYPE AppDomain : public ::System::MarshalByRefObject {

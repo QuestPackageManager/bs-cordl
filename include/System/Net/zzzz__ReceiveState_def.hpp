@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ReceiveState)
 namespace System::Net {
-class CommandStream;
+class ResponseDescription;
 }
 namespace System::Net {
-class ResponseDescription;
+class CommandStream;
 }
 // Forward declare root types
 namespace System::Net {

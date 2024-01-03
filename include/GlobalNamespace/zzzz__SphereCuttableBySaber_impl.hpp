@@ -1,9 +1,9 @@
 #pragma once
 #include "GlobalNamespace/zzzz__CuttableBySaber_impl.hpp"
 #include "GlobalNamespace/zzzz__SphereCuttableBySaber_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "UnityEngine/zzzz__Quaternion_def.hpp"
 #include "UnityEngine/zzzz__SphereCollider_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "GlobalNamespace/zzzz__Saber_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::SphereCuttableBySaber.get_radius
 template <>

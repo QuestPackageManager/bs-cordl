@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include "HMUI/zzzz__ViewController_def.hpp"
 CORDL_MODULE_EXPORT(PrivacyPolicyDisplayViewController)
-namespace GlobalNamespace {
-class LocalizedTextAsset;
-}
 namespace HMUI {
 class TextPageScrollView;
+}
+namespace GlobalNamespace {
+class LocalizedTextAsset;
 }
 // Forward declare root types
 namespace GlobalNamespace {

@@ -7,17 +7,17 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(XsdDuration)
-namespace System {
-class Exception;
+namespace System::Xml::Schema {
+struct __XsdDuration__DurationType;
 }
 namespace System::Xml::Schema {
 struct __XsdDuration__Parts;
 }
-namespace System::Xml::Schema {
-struct __XsdDuration__DurationType;
-}
 namespace System {
 struct TimeSpan;
+}
+namespace System {
+class Exception;
 }
 // Forward declare root types
 namespace System::Xml::Schema {

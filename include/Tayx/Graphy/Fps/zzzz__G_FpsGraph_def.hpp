@@ -6,20 +6,20 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(G_FpsGraph)
-namespace UnityEngine {
-class Shader;
-}
-namespace UnityEngine::UI {
-class Image;
-}
-namespace Tayx::Graphy::Fps {
-class G_FpsMonitor;
+namespace Tayx::Graphy {
+class G_GraphShader;
 }
 namespace Tayx::Graphy {
 class GraphyManager;
 }
-namespace Tayx::Graphy {
-class G_GraphShader;
+namespace Tayx::Graphy::Fps {
+class G_FpsMonitor;
+}
+namespace UnityEngine::UI {
+class Image;
+}
+namespace UnityEngine {
+class Shader;
 }
 // Forward declare root types
 namespace Tayx::Graphy::Fps {

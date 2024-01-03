@@ -9,11 +9,14 @@ CORDL_MODULE_EXPORT(CmsUtilities)
 namespace Org::BouncyCastle::X509 {
 class X509Certificate;
 }
-namespace Org::BouncyCastle::Asn1::Cms {
-class ContentInfo;
+namespace System::Collections {
+class IList;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class TbsCertificateStructure;
+}
+namespace Org::BouncyCastle::Asn1::Cms {
+class ContentInfo;
 }
 namespace Org::BouncyCastle::X509::Store {
 class IX509Store;
@@ -29,9 +32,6 @@ class Asn1Set;
 }
 namespace System::IO {
 class Stream;
-}
-namespace System::Collections {
-class IList;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Cms {

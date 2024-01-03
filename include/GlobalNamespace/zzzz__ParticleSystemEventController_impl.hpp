@@ -2,8 +2,8 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "Zenject/zzzz__MonoMemoryPool_1_impl.hpp"
 #include "GlobalNamespace/zzzz__ParticleSystemEventController_def.hpp"
-#include "GlobalNamespace/zzzz__ParticleSystemEventController_def.hpp"
 #include "UnityEngine/zzzz__ParticleSystem_def.hpp"
+#include "GlobalNamespace/zzzz__ParticleSystemEventController_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::ParticleSystemEventController.get_startTime
 template <>
 

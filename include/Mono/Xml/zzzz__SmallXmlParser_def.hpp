@@ -10,23 +10,23 @@ CORDL_MODULE_EXPORT(SmallXmlParser)
 namespace Mono::Xml {
 class __SmallXmlParser__IContentHandler;
 }
-namespace System {
-class Exception;
-}
 namespace Mono::Xml {
 class __SmallXmlParser__IAttrList;
-}
-namespace Mono::Xml {
-class __SmallXmlParser__AttrListImpl;
 }
 namespace System::Collections {
 class Stack;
 }
-namespace System::Text {
-class StringBuilder;
-}
 namespace System::IO {
 class TextReader;
+}
+namespace Mono::Xml {
+class __SmallXmlParser__AttrListImpl;
+}
+namespace System {
+class Exception;
+}
+namespace System::Text {
+class StringBuilder;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;

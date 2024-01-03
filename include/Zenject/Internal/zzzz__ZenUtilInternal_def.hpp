@@ -7,11 +7,32 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ZenUtilInternal)
+namespace Zenject {
+class SceneContext;
+}
+namespace Zenject::Internal {
+class __ZenUtilInternal___GetAllSceneContexts_d__3;
+}
+namespace System {
+class Object;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
+namespace Zenject::Internal {
+class __ZenUtilInternal____c;
+}
 namespace Zenject::Internal {
 class __ZenUtilInternal____c__DisplayClass10_0;
 }
-namespace Zenject {
-class SceneContext;
+namespace System {
+class Type;
+}
+namespace System {
+class Delegate;
+}
+namespace UnityEngine::SceneManagement {
+struct Scene;
 }
 namespace UnityEngine {
 class GameObject;
@@ -22,44 +43,23 @@ template <typename T> class List_1;
 namespace UnityEngine {
 class MonoBehaviour;
 }
-namespace Zenject::Internal {
-class __ZenUtilInternal____c;
-}
-namespace System {
-class Delegate;
-}
-namespace System {
-class Object;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
-namespace UnityEngine::SceneManagement {
-struct Scene;
-}
-namespace System {
-class Type;
-}
-namespace Zenject::Internal {
-class __ZenUtilInternal___GetAllSceneContexts_d__3;
-}
-namespace System {
-class IDisposable;
+namespace System::Collections {
+class IEnumerable;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
 namespace System::Collections {
-class IEnumerable;
-}
-namespace System::Collections {
 class IEnumerator;
 }
-namespace Zenject {
-class InjectTypeInfo;
+namespace System {
+class IDisposable;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;
+}
+namespace Zenject {
+class InjectTypeInfo;
 }
 // Forward declare root types
 namespace Zenject::Internal {
@@ -286,7 +286,7 @@ static_assert(offsetof(::Zenject::Internal::__ZenUtilInternal___GetAllSceneConte
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Zenject::Internal {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10380)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10380))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11397))
 // CS Name: ::ZenUtilInternal::<>c__DisplayClass10_0*
 class CORDL_TYPE __ZenUtilInternal____c__DisplayClass10_0 : public ::System::Object {

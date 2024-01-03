@@ -2,10 +2,10 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/AddressableAssets/Utility/zzzz__ResourceManagerDiagnostics_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
-#include "UnityEngine/AddressableAssets/Utility/zzzz__DiagnosticInfo_def.hpp"
 #include "UnityEngine/ResourceManagement/zzzz__ResourceManager_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__AsyncOperationHandle_def.hpp"
+#include "UnityEngine/AddressableAssets/Utility/zzzz__DiagnosticInfo_def.hpp"
 //  Writing Method size for method: ::UnityEngine::AddressableAssets::Utility::ResourceManagerDiagnostics._ctor
 template <>
 

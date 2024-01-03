@@ -1,9 +1,9 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__SaberTypeExtensions_def.hpp"
-#include "GlobalNamespace/zzzz__ColorType_def.hpp"
 #include "UnityEngine/XR/zzzz__XRNode_def.hpp"
 #include "GlobalNamespace/zzzz__SaberType_def.hpp"
+#include "GlobalNamespace/zzzz__ColorType_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::SaberTypeExtensions.MatchesColorType
 template <>
 

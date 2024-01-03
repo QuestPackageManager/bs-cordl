@@ -6,25 +6,25 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(ConventionAssemblySelectionBinder)
 namespace System {
-class Type;
-}
-namespace Zenject {
-class __ConventionAssemblySelectionBinder____c;
-}
-namespace System::Reflection {
-class Assembly;
-}
-namespace System {
 template <typename T, typename TResult> class Func_2;
 }
 namespace Zenject {
 class ConventionBindInfo;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
+namespace System {
+class Type;
+}
+namespace Zenject {
+class __ConventionAssemblySelectionBinder____c;
 }
 namespace Zenject {
 class __ConventionAssemblySelectionBinder____c__DisplayClass12_0;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
+namespace System::Reflection {
+class Assembly;
 }
 namespace System {
 class Object;

@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "BeatSaber/BeatAvatarAdapter/zzzz__AvatarDataMultiplayerAvatarsDataConverter_def.hpp"
-#include "BeatSaber/BeatAvatarSDK/zzzz__AvatarData_def.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerAvatarData_def.hpp"
+#include "BeatSaber/BeatAvatarSDK/zzzz__AvatarData_def.hpp"
 //  Writing Method size for method: ::BeatSaber::BeatAvatarAdapter::AvatarDataMultiplayerAvatarsDataConverter.CreateMultiplayerAvatarsData
 template <>
 

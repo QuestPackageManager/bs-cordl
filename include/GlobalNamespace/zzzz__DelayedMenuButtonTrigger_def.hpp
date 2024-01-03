@@ -5,17 +5,17 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(DelayedMenuButtonTrigger)
+namespace Zenject {
+class ITickable;
+}
+namespace System {
+class Action;
+}
 namespace GlobalNamespace {
 class IVRPlatformHelper;
 }
 namespace GlobalNamespace {
 class IMenuButtonTrigger;
-}
-namespace System {
-class Action;
-}
-namespace Zenject {
-class ITickable;
 }
 // Forward declare root types
 namespace GlobalNamespace {

@@ -9,9 +9,6 @@ CORDL_MODULE_EXPORT(CachedProvider)
 namespace Zenject {
 struct TypeValuePair;
 }
-namespace Zenject {
-class InjectContext;
-}
 namespace System {
 class Action;
 }
@@ -22,10 +19,13 @@ namespace System {
 class Object;
 }
 namespace Zenject {
-class IProvider;
+class InjectContext;
 }
 namespace System {
 class Type;
+}
+namespace Zenject {
+class IProvider;
 }
 // Forward declare root types
 namespace Zenject {

@@ -9,16 +9,16 @@ namespace System {
 class Array;
 }
 namespace System::Collections {
-class IEnumerator;
+class IEnumerable;
 }
 namespace System::Collections {
-class ICollection;
+class IEnumerator;
 }
 namespace Org::BouncyCastle::Utilities::Collections {
 class ISet;
 }
 namespace System::Collections {
-class IEnumerable;
+class ICollection;
 }
 namespace System {
 class Object;

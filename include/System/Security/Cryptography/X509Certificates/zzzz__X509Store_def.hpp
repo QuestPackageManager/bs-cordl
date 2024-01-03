@@ -7,26 +7,26 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(X509Store)
-namespace System::Security::Cryptography::X509Certificates {
-struct StoreName;
-}
-namespace System::Security::Cryptography::X509Certificates {
-struct OpenFlags;
-}
 namespace System {
 class IDisposable;
+}
+namespace System::Security::Cryptography::X509Certificates {
+class X509Certificate2Collection;
+}
+namespace System::Security::Cryptography::X509Certificates {
+struct StoreName;
 }
 namespace System::Security::Cryptography::X509Certificates {
 struct StoreLocation;
 }
 namespace System::Security::Cryptography::X509Certificates {
-class X509Certificate2Collection;
-}
-namespace Mono::Security::X509 {
-class X509Store;
+struct OpenFlags;
 }
 namespace Mono::Security::X509 {
 class X509Stores;
+}
+namespace Mono::Security::X509 {
+class X509Store;
 }
 // Forward declare root types
 namespace System::Security::Cryptography::X509Certificates {
@@ -38,7 +38,7 @@ MARK_REF_PTR_T(::System::Security::Cryptography::X509Certificates::X509Store);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Cryptography::X509Certificates {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8979)), TypeDefinitionIndex(TypeDefinitionIndex(8978))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8978)), TypeDefinitionIndex(TypeDefinitionIndex(8979))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9016))
 // CS Name: ::System.Security.Cryptography.X509Certificates::X509Store*
 class CORDL_TYPE X509Store : public ::System::Object {

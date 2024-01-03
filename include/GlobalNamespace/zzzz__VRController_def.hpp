@@ -10,14 +10,17 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(VRController)
-namespace UnityEngine {
-struct Vector3;
+namespace UnityEngine::XR {
+struct XRNode;
 }
-namespace UnityEngine {
-struct Quaternion;
+namespace GlobalNamespace {
+class VRControllerTransformOffset;
 }
 namespace GlobalNamespace {
 class IVRPlatformHelper;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 namespace System {
 template <typename T1, typename T2> class Action_2;
@@ -28,14 +31,11 @@ struct Vector2;
 namespace UnityEngine {
 class Transform;
 }
-namespace GlobalNamespace {
-class VRControllerTransformOffset;
-}
 namespace UnityEngine {
 struct Pose;
 }
-namespace UnityEngine::XR {
-struct XRNode;
+namespace UnityEngine {
+struct Quaternion;
 }
 // Forward declare root types
 namespace GlobalNamespace {

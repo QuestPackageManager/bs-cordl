@@ -6,6 +6,7 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "Unity/Profiling/zzzz__ProfilerMarker_def.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__BMPAlloc_def.hpp"
+#include "UnityEngine/UIElements/UIR/zzzz__VertexFlags_def.hpp"
 #include "UnityEngine/UIElements/zzzz__MeshGenerationContext_def.hpp"
 #include "UnityEngine/UIElements/zzzz__TextureId_def.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
@@ -14,53 +15,23 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(MeshBuilder)
-namespace System {
-class Object;
-}
 namespace UnityEngine::UIElements {
 class MeshWriteData;
 }
-namespace UnityEngine::UIElements::UIR {
-struct __MeshBuilder__AllocMeshData;
-}
-namespace UnityEngine::UIElements {
-struct TextVertex;
+namespace System {
+class Object;
 }
 namespace UnityEngine {
-struct ScaleMode;
-}
-namespace UnityEngine::UIElements::UIR {
-struct __MeshBuilder__ClipCounts;
-}
-namespace UnityEngine::UIElements {
-struct __MeshGenerationContextUtils__BorderParams;
-}
-namespace UnityEngine {
-struct Rect;
-}
-namespace UnityEngine::UIElements {
-struct ColorPage;
-}
-namespace UnityEngine::UIElements {
-struct __MeshGenerationContextUtils__RectangleParams;
-}
-namespace UnityEngine::UIElements {
-struct Vertex;
-}
-namespace UnityEngine::TextCore::Text {
-struct MeshInfo;
-}
-namespace UnityEngine::UIElements::UIR {
-struct __MeshBuilder__VertexClipEdge;
-}
-namespace UnityEngine::UIElements::UIR {
-struct VertexFlags;
+struct Vector3;
 }
 namespace UnityEngine {
 struct Color;
 }
-namespace Unity::Collections {
-template <typename T> struct NativeSlice_1;
+namespace UnityEngine::UIElements {
+struct __MeshGenerationContextUtils__RectangleParams;
+}
+namespace UnityEngine {
+struct Rect;
 }
 namespace UnityEngine {
 struct Vector4;
@@ -68,35 +39,62 @@ struct Vector4;
 namespace UnityEngine {
 struct Vector2;
 }
-namespace Unity::Collections {
-template <typename T> struct NativeArray_1;
+namespace UnityEngine::TextCore::Text {
+struct MeshInfo;
 }
-namespace UnityEngine {
-struct Color32;
+namespace UnityEngine::UIElements {
+struct __MeshGenerationContextUtils__BorderParams;
 }
-namespace UnityEngine {
-struct Vector3;
+namespace UnityEngine::UIElements {
+struct ColorPage;
+}
+namespace UnityEngine::UIElements::UIR {
+struct __MeshBuilder__VertexClipEdge;
+}
+namespace UnityEngine::UIElements {
+struct TextVertex;
 }
 namespace UnityEngine {
 struct Matrix4x4;
 }
+namespace UnityEngine::UIElements {
+struct Vertex;
+}
+namespace Unity::Collections {
+template <typename T> struct NativeSlice_1;
+}
+namespace Unity::Collections {
+template <typename T> struct NativeArray_1;
+}
+namespace UnityEngine::UIElements::UIR {
+struct __MeshBuilder__AllocMeshData;
+}
+namespace UnityEngine {
+struct Color32;
+}
+namespace UnityEngine::UIElements::UIR {
+struct __MeshBuilder__ClipCounts;
+}
+namespace UnityEngine {
+struct ScaleMode;
+}
+namespace UnityEngine {
+class Texture;
+}
 namespace UnityEngine::UIElements::UIR {
 struct BMPAlloc;
+}
+namespace UnityEngine::UIElements {
+struct TextureId;
+}
+namespace UnityEngine::UIElements {
+struct __MeshGenerationContext__MeshFlags;
 }
 namespace GlobalNamespace {
 class __MeshBuilder__AllocMeshData__Allocator;
 }
 namespace UnityEngine {
-class Texture;
-}
-namespace UnityEngine::UIElements {
-struct TextureId;
-}
-namespace UnityEngine {
 class Material;
-}
-namespace UnityEngine::UIElements {
-struct __MeshGenerationContext__MeshFlags;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements::UIR {
@@ -349,7 +347,7 @@ static_assert(offsetof(::UnityEngine::UIElements::UIR::__MeshBuilder__VertexClip
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9966))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9966)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(7440))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7407))
 // CS Name: ::UnityEngine.UIElements.UIR::MeshBuilder*
 class CORDL_TYPE MeshBuilder : public ::System::Object {

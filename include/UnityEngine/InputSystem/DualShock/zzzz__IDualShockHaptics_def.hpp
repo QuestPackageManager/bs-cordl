@@ -3,14 +3,14 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IDualShockHaptics)
-namespace UnityEngine::InputSystem::Haptics {
-class IDualMotorRumble;
+namespace UnityEngine {
+struct Color;
 }
 namespace UnityEngine::InputSystem::Haptics {
 class IHaptics;
 }
-namespace UnityEngine {
-struct Color;
+namespace UnityEngine::InputSystem::Haptics {
+class IDualMotorRumble;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::DualShock {

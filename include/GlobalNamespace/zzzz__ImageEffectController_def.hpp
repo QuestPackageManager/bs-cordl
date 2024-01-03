@@ -6,17 +6,17 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ImageEffectController)
-namespace UnityEngine {
-class RenderTexture;
-}
 namespace GlobalNamespace {
 class __ImageEffectController__RenderImageCallback;
 }
-namespace System {
-class Object;
+namespace UnityEngine {
+class RenderTexture;
 }
 namespace System {
 class AsyncCallback;
+}
+namespace System {
+class Object;
 }
 namespace System {
 class IAsyncResult;

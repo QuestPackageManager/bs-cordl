@@ -7,6 +7,9 @@ CORDL_MODULE_INIT
 #include "Zenject/zzzz__MonoMemoryPool_1_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(BeatEffect)
+namespace UnityEngine {
+class SpriteRenderer;
+}
 namespace GlobalNamespace {
 template <typename T> class LazyCopyHashSet_1;
 }
@@ -14,28 +17,25 @@ namespace GlobalNamespace {
 template <typename T> class ILazyCopyHashSet_1;
 }
 namespace UnityEngine {
-class SpriteRenderer;
-}
-namespace GlobalNamespace {
-class IBeatEffectDidFinishEvent;
+class Transform;
 }
 namespace UnityEngine {
 struct Quaternion;
 }
-namespace UnityEngine {
-class AnimationCurve;
+namespace GlobalNamespace {
+class IBeatEffectDidFinishEvent;
 }
 namespace GlobalNamespace {
 class __BeatEffect__Pool;
 }
 namespace UnityEngine {
-struct Color;
-}
-namespace UnityEngine {
-class Transform;
+class AnimationCurve;
 }
 namespace GlobalNamespace {
 class TubeBloomPrePassLight;
+}
+namespace UnityEngine {
+struct Color;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -51,7 +51,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__BeatEffect__Pool);
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10251))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4837))
 // CS Name: ::BeatEffect*
 class CORDL_TYPE BeatEffect : public ::UnityEngine::MonoBehaviour {
@@ -253,7 +253,7 @@ static_assert(offsetof(::GlobalNamespace::BeatEffect, ____color) == 0x60, "Offse
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4837)), TypeDefinitionIndex(TypeDefinitionIndex(11050)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11050), inst:
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11050)), TypeDefinitionIndex(TypeDefinitionIndex(4837)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11050), inst:
 // 2808 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(4836)) CS Name: ::BeatEffect::Pool*
 class CORDL_TYPE __BeatEffect__Pool : public ::Zenject::MonoMemoryPool_1<::GlobalNamespace::BeatEffect*> {
 public:

@@ -7,11 +7,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(VectorImage)
-namespace UnityEngine {
-class Texture2D;
-}
 namespace UnityEngine::UIElements {
 struct GradientSettings;
+}
+namespace UnityEngine {
+class Texture2D;
 }
 namespace UnityEngine::UIElements {
 struct VectorImageVertex;

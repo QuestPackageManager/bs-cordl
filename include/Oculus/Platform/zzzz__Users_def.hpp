@@ -10,19 +10,25 @@ namespace Oculus::Platform::Models {
 class SdkAccountList;
 }
 namespace Oculus::Platform::Models {
-class OrgScopedID;
-}
-namespace Oculus::Platform::Models {
-class UserProof;
-}
-namespace Oculus::Platform::Models {
-class LaunchUnblockFlowResult;
-}
-namespace Oculus::Platform::Models {
 class UserList;
 }
 namespace Oculus::Platform::Models {
+class OrgScopedID;
+}
+namespace Oculus::Platform::Models {
+class BlockedUserList;
+}
+namespace Oculus::Platform::Models {
+class User;
+}
+namespace Oculus::Platform::Models {
 class LaunchBlockFlowResult;
+}
+namespace Oculus::Platform::Models {
+class LaunchFriendRequestFlowResult;
+}
+namespace Oculus::Platform::Models {
+class LaunchUnblockFlowResult;
 }
 namespace Oculus::Platform::Models {
 class UserCapabilityList;
@@ -31,13 +37,7 @@ namespace Oculus::Platform {
 template <typename T> class Request_1;
 }
 namespace Oculus::Platform::Models {
-class BlockedUserList;
-}
-namespace Oculus::Platform::Models {
-class LaunchFriendRequestFlowResult;
-}
-namespace Oculus::Platform::Models {
-class User;
+class UserProof;
 }
 // Forward declare root types
 namespace Oculus::Platform {

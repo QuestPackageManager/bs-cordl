@@ -8,34 +8,34 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(VerticalVirtualizationController_1)
 namespace UnityEngine::UIElements {
-template <typename T> class __VerticalVirtualizationController_1____c;
-}
-namespace UnityEngine::Pool {
-template <typename T> class ObjectPool_1;
-}
-namespace UnityEngine::UIElements {
-class VisualElement;
-}
-namespace System {
-template <typename T, typename TResult> class Func_2;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
-namespace UnityEngine::UIElements {
 class BaseVerticalCollectionView;
+}
+namespace UnityEngine::UIElements {
+template <typename T> class __VerticalVirtualizationController_1____c;
 }
 namespace UnityEngine::UIElements {
 class ReusableCollectionItem;
 }
+namespace UnityEngine::Pool {
+template <typename T> class ObjectPool_1;
+}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
+namespace UnityEngine::UIElements {
+class VisualElement;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
 namespace System {
-template <typename T> class Action_1;
+template <typename T, typename TResult> class Func_2;
 }
 namespace System {
 template <typename TResult> class Func_1;
+}
+namespace System {
+template <typename T> class Action_1;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

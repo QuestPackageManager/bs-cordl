@@ -9,14 +9,14 @@ CORDL_MODULE_EXPORT(HashSP800Drbg)
 namespace Org::BouncyCastle::Crypto {
 class IEntropySource;
 }
+namespace Org::BouncyCastle::Crypto::Prng::Drbg {
+class ISP80090Drbg;
+}
 namespace System::Collections {
 class IDictionary;
 }
 namespace Org::BouncyCastle::Crypto {
 class IDigest;
-}
-namespace Org::BouncyCastle::Crypto::Prng::Drbg {
-class ISP80090Drbg;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Prng::Drbg {

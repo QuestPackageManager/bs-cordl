@@ -6,14 +6,14 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstddef>
 CORDL_MODULE_EXPORT(SynchronizedActionQueue)
+namespace GlobalNamespace {
+struct __SynchronizedActionQueue__SynchronizedAction;
+}
 namespace System {
 class Action;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
-}
-namespace GlobalNamespace {
-struct __SynchronizedActionQueue__SynchronizedAction;
 }
 // Forward declare root types
 namespace GlobalNamespace {

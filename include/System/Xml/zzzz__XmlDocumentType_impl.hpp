@@ -1,11 +1,11 @@
 #pragma once
 #include "System/Xml/zzzz__XmlLinkedNode_impl.hpp"
 #include "System/Xml/zzzz__XmlDocumentType_def.hpp"
-#include "System/Xml/Schema/zzzz__SchemaInfo_def.hpp"
-#include "System/Xml/zzzz__XmlDocument_def.hpp"
 #include "System/Xml/zzzz__XmlNamedNodeMap_def.hpp"
 #include "System/Xml/zzzz__XmlNodeType_def.hpp"
 #include "System/Xml/zzzz__XmlNode_def.hpp"
+#include "System/Xml/Schema/zzzz__SchemaInfo_def.hpp"
+#include "System/Xml/zzzz__XmlDocument_def.hpp"
 //  Writing Method size for method: ::System::Xml::XmlDocumentType._ctor
 template <>
 

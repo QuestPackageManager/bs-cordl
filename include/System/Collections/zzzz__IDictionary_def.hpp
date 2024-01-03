@@ -9,11 +9,11 @@ class IEnumerable;
 namespace System::Collections {
 class IDictionaryEnumerator;
 }
-namespace System::Collections {
-class ICollection;
-}
 namespace System {
 class Object;
+}
+namespace System::Collections {
+class ICollection;
 }
 // Forward declare root types
 namespace System::Collections {

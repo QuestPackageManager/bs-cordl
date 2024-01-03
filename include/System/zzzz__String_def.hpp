@@ -3,6 +3,7 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
+#include "System/zzzz__StringSplitOptions_def.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
@@ -17,7 +18,49 @@ namespace System {
 struct Decimal;
 }
 namespace System {
+struct __String__TrimType;
+}
+namespace System::Collections {
+class IEnumerable;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
+namespace System {
 struct DateTime;
+}
+namespace System::Globalization {
+class CultureInfo;
+}
+namespace System {
+class Object;
+}
+namespace System::Buffers {
+template <typename T, typename TArg> class SpanAction_2;
+}
+namespace System::Collections {
+class IEnumerator;
+}
+namespace System {
+struct StringSplitOptions;
+}
+namespace System::Text {
+struct NormalizationForm;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
+}
+namespace System {
+struct ParamsArray;
+}
+namespace System {
+class IComparable;
+}
+namespace System::Globalization {
+struct CompareOptions;
+}
+namespace System {
+template <typename T> struct ReadOnlySpan_1;
 }
 namespace System::Collections::Generic {
 template <typename T> struct ValueListBuilder_1;
@@ -25,29 +68,8 @@ template <typename T> struct ValueListBuilder_1;
 namespace System {
 class Type;
 }
-namespace System::Text {
-struct NormalizationForm;
-}
-namespace System::Collections {
-class IEnumerator;
-}
-namespace System {
-struct ParamsArray;
-}
-namespace System::Globalization {
-class CultureInfo;
-}
 namespace System {
 struct StringComparison;
-}
-namespace System {
-template <typename T> struct ReadOnlySpan_1;
-}
-namespace System {
-class ICloneable;
-}
-namespace System::Collections {
-class IEnumerable;
 }
 namespace System {
 class IConvertible;
@@ -56,40 +78,19 @@ namespace System {
 template <typename T> class IEquatable_1;
 }
 namespace System {
-struct __String__TrimType;
-}
-namespace System {
 struct __String__ProbabilisticMap;
 }
 namespace System {
-struct StringSplitOptions;
+class IFormatProvider;
 }
 namespace System {
-class Object;
+template <typename T> class IComparable_1;
 }
 namespace System::Text {
 class Encoding;
 }
 namespace System {
-template <typename T> class IComparable_1;
-}
-namespace System {
-class IComparable;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
-namespace System::Globalization {
-struct CompareOptions;
-}
-namespace System {
-class IFormatProvider;
-}
-namespace System::Buffers {
-template <typename T, typename TArg> class SpanAction_2;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
+class ICloneable;
 }
 // Forward declare root types
 namespace System {
@@ -191,7 +192,7 @@ static_assert(::cordl_internals::size_check_v<::System::__String__ProbabilisticM
 // SizeInfo { instance_size: 24, native_size: 8, calculated_instance_size: 24, calculated_native_size: 22, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2480))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2312))
 // CS Name: ::System::String*
 class CORDL_TYPE String : public ::System::Object {

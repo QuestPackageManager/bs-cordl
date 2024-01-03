@@ -10,13 +10,13 @@ namespace UnityEngine {
 class Texture2D;
 }
 namespace UnityEngine {
+struct Color;
+}
+namespace UnityEngine {
 struct Vector2;
 }
 namespace UnityEngine {
 struct Vector4;
-}
-namespace UnityEngine {
-struct Color;
 }
 // Forward declare root types
 namespace UnityEngine {

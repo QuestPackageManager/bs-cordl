@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/Timeline/zzzz__ICurvesOwner_def.hpp"
-#include "UnityEngine/zzzz__Object_def.hpp"
-#include "UnityEngine/zzzz__AnimationClip_def.hpp"
 #include "UnityEngine/Timeline/zzzz__TrackAsset_def.hpp"
+#include "UnityEngine/zzzz__AnimationClip_def.hpp"
+#include "UnityEngine/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Timeline::ICurvesOwner.get_curves
 template <>
 

@@ -6,19 +6,19 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(MissedNoteEffectSpawner)
 namespace GlobalNamespace {
-class FlyingSpriteSpawner;
-}
-namespace GlobalNamespace {
-class AudioTimeSyncController;
-}
-namespace GlobalNamespace {
-class __CoreGameHUDController__InitData;
+class BeatmapObjectManager;
 }
 namespace GlobalNamespace {
 class NoteController;
 }
 namespace GlobalNamespace {
-class BeatmapObjectManager;
+class __CoreGameHUDController__InitData;
+}
+namespace GlobalNamespace {
+class FlyingSpriteSpawner;
+}
+namespace GlobalNamespace {
+class AudioTimeSyncController;
 }
 // Forward declare root types
 namespace GlobalNamespace {

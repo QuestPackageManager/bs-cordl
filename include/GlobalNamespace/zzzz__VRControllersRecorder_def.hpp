@@ -15,53 +15,20 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(VRControllersRecorder)
-namespace GlobalNamespace {
-class AudioTimeSyncController;
-}
 namespace System::IO {
 class BinaryReader;
 }
-namespace UnityEngine {
-struct Vector3;
-}
-namespace System {
-template <typename T1, typename T2, typename T3> struct ValueTuple_3;
-}
-namespace UnityEngine {
-struct Pose;
-}
-namespace UnityEngine {
-class Camera;
-}
 namespace GlobalNamespace {
-struct __VRControllersRecorder__Mode;
+class __VRControllersRecorder__Keyframe;
 }
 namespace System::IO {
 class Stream;
 }
 namespace GlobalNamespace {
-class __VRControllersRecorder__State;
-}
-namespace GlobalNamespace {
-class __VRControllersRecorder__Keyframe;
-}
-namespace UnityEngine {
-class TextAsset;
-}
-namespace GlobalNamespace {
-class __VRControllersRecorder__TypeSerializationBinder;
-}
-namespace System::IO {
-class BinaryWriter;
-}
-namespace GlobalNamespace {
 class __VRControllersRecorder__SavedData;
 }
-namespace UnityEngine {
-class Transform;
-}
-namespace UnityEngine {
-class AnimationClip;
+namespace GlobalNamespace {
+class AudioTimeSyncController;
 }
 namespace GlobalNamespace {
 class VRController;
@@ -69,17 +36,50 @@ class VRController;
 namespace UnityEngine {
 struct Quaternion;
 }
+namespace GlobalNamespace {
+struct __VRControllersRecorder__Mode;
+}
+namespace UnityEngine {
+class AnimationClip;
+}
+namespace GlobalNamespace {
+class __VRControllersRecorder__State;
+}
+namespace UnityEngine {
+class Transform;
+}
+namespace UnityEngine {
+struct Pose;
+}
+namespace UnityEngine {
+class Camera;
+}
+namespace UnityEngine {
+class TextAsset;
+}
 namespace System::Collections::Generic {
 template <typename T> class IReadOnlyList_1;
+}
+namespace System::IO {
+class BinaryWriter;
+}
+namespace UnityEngine {
+struct Vector3;
+}
+namespace GlobalNamespace {
+class __VRControllersRecorder__TypeSerializationBinder;
 }
 namespace System::Runtime::Serialization::Formatters::Binary {
 class BinaryFormatter;
 }
 namespace System {
-class Object;
+template <typename T1, typename T2, typename T3> struct ValueTuple_3;
 }
 namespace System {
 template <typename T> class IEquatable_1;
+}
+namespace System {
+class Object;
 }
 namespace GlobalNamespace {
 class IConstructorStringGenerator;
@@ -87,14 +87,14 @@ class IConstructorStringGenerator;
 namespace GlobalNamespace {
 class __VRControllersRecorder__SavedData__KeyframeSerializable;
 }
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
 namespace GlobalNamespace {
 class __VRControllersRecorder__State____c;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
 }
 namespace System {
 template <typename T1, typename T2> class Action_2;
@@ -630,7 +630,7 @@ static_assert(offsetof(::GlobalNamespace::__VRControllersRecorder__Mode, value__
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10252))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5844))
 // CS Name: ::VRControllersRecorder::Keyframe*
 class CORDL_TYPE __VRControllersRecorder__Keyframe : public ::System::Object {
@@ -1007,7 +1007,7 @@ static_assert(offsetof(::GlobalNamespace::__VRControllersRecorder__State, ____ve
 // SizeInfo { instance_size: 192, native_size: -1, calculated_instance_size: 192, calculated_native_size: 188, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(5843))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(5843)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5847))
 // CS Name: ::VRControllersRecorder*
 class CORDL_TYPE VRControllersRecorder : public ::UnityEngine::MonoBehaviour {

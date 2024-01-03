@@ -7,22 +7,22 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(PlayerHeightDetector)
 namespace GlobalNamespace {
-class IAudioTimeSource;
+class PlayerTransforms;
+}
+namespace GlobalNamespace {
+class __PlayerHeightDetector__InitData;
+}
+namespace GlobalNamespace {
+class BeatmapDataCallbackWrapper;
 }
 namespace System {
 template <typename T> class Action_1;
 }
 namespace GlobalNamespace {
+class IAudioTimeSource;
+}
+namespace GlobalNamespace {
 class ObstacleData;
-}
-namespace GlobalNamespace {
-class PlayerTransforms;
-}
-namespace GlobalNamespace {
-class BeatmapDataCallbackWrapper;
-}
-namespace GlobalNamespace {
-class __PlayerHeightDetector__InitData;
 }
 namespace GlobalNamespace {
 class BeatmapCallbacksController;

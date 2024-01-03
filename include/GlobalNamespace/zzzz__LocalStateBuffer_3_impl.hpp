@@ -2,8 +2,8 @@
 #include "GlobalNamespace/zzzz__StateBuffer_3_impl.hpp"
 #include "GlobalNamespace/zzzz__SyncStateId_impl.hpp"
 #include "GlobalNamespace/zzzz__LocalStateBuffer_3_def.hpp"
-#include "GlobalNamespace/zzzz__SyncStateId_def.hpp"
 #include "GlobalNamespace/zzzz__StateBuffer_3_def.hpp"
+#include "GlobalNamespace/zzzz__SyncStateId_def.hpp"
 template <typename TStateTable, typename TType, typename TState>
 constexpr ::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable, TType, TState>& GlobalNamespace::LocalStateBuffer_3<TStateTable, TType, TState>::__get__current() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));

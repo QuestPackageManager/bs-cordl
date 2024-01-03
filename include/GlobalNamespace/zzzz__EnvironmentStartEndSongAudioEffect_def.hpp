@@ -7,14 +7,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(EnvironmentStartEndSongAudioEffect)
+namespace GlobalNamespace {
+class IGamePause;
+}
 namespace UnityEngine {
 class AudioClip;
 }
 namespace GlobalNamespace {
 class ILevelEndActions;
-}
-namespace GlobalNamespace {
-class IGamePause;
 }
 namespace GlobalNamespace {
 class IAudioTimeSource;

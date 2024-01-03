@@ -7,14 +7,14 @@ CORDL_MODULE_EXPORT(DataConvertor_2)
 namespace System {
 class Type;
 }
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
+namespace GlobalNamespace {
+template <typename TOut, typename TParam> class DataItemConvertor_2;
 }
 namespace System {
 class Object;
 }
-namespace GlobalNamespace {
-template <typename TOut, typename TParam> class DataItemConvertor_2;
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 // Forward declare root types
 namespace GlobalNamespace {

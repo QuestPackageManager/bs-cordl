@@ -6,17 +6,17 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(X931SecureRandomBuilder)
-namespace Org::BouncyCastle::Crypto::Prng {
-class X931SecureRandom;
-}
-namespace Org::BouncyCastle::Crypto {
-class IEntropySourceProvider;
-}
 namespace Org::BouncyCastle::Security {
 class SecureRandom;
 }
 namespace Org::BouncyCastle::Crypto::Parameters {
 class KeyParameter;
+}
+namespace Org::BouncyCastle::Crypto::Prng {
+class X931SecureRandom;
+}
+namespace Org::BouncyCastle::Crypto {
+class IEntropySourceProvider;
 }
 namespace Org::BouncyCastle::Crypto {
 class IBlockCipher;

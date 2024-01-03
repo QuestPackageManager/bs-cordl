@@ -9,19 +9,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(FloorLightTilesGrid)
 namespace UnityEngine {
+struct Color;
+}
+namespace UnityEngine {
 struct Vector3;
+}
+namespace Ice {
+class __FloorLightTile__Pool;
 }
 namespace GlobalNamespace {
 template <typename T> class MemoryPoolContainer_1;
 }
 namespace Ice {
 class FloorLightTile;
-}
-namespace UnityEngine {
-struct Color;
-}
-namespace Ice {
-class __FloorLightTile__Pool;
 }
 // Forward declare root types
 namespace Ice {
@@ -33,7 +33,7 @@ MARK_REF_PTR_T(::Ice::FloorLightTilesGrid);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Ice {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(16170))
 // CS Name: ::Ice::FloorLightTilesGrid*
 class CORDL_TYPE FloorLightTilesGrid : public ::UnityEngine::MonoBehaviour {

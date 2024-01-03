@@ -9,32 +9,35 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(RuntimeConstructorInfo)
-namespace System {
-class Object;
+namespace System::Reflection {
+class Binder;
 }
 namespace System::Runtime::Serialization {
 struct StreamingContext;
 }
+namespace System::Runtime::Serialization {
+class ISerializable;
+}
 namespace System::Globalization {
 class CultureInfo;
 }
-namespace System::Reflection {
-struct MethodAttributes;
-}
-namespace System::Reflection {
-class Binder;
+namespace System {
+class RuntimeType;
 }
 namespace System {
-struct RuntimeMethodHandle;
-}
-namespace System {
-class Exception;
+class Object;
 }
 namespace System::Reflection {
 class ParameterInfo;
 }
-namespace System::Runtime::Serialization {
-class SerializationInfo;
+namespace System::Reflection {
+class Module;
+}
+namespace System::Reflection {
+struct CallingConventions;
+}
+namespace System {
+struct RuntimeMethodHandle;
 }
 namespace System::Reflection {
 class RuntimeModule;
@@ -42,23 +45,20 @@ class RuntimeModule;
 namespace System::Reflection {
 struct MethodImplAttributes;
 }
-namespace System::Reflection {
-struct BindingFlags;
-}
-namespace System::Runtime::Serialization {
-class ISerializable;
-}
-namespace System::Reflection {
-class Module;
-}
 namespace System {
-class RuntimeType;
+class Exception;
 }
 namespace System {
 class Type;
 }
 namespace System::Reflection {
-struct CallingConventions;
+struct BindingFlags;
+}
+namespace System::Runtime::Serialization {
+class SerializationInfo;
+}
+namespace System::Reflection {
+struct MethodAttributes;
 }
 // Forward declare root types
 namespace System::Reflection {

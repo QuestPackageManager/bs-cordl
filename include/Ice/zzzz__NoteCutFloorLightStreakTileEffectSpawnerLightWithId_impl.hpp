@@ -1,8 +1,8 @@
 #pragma once
 #include "GlobalNamespace/zzzz__LightWithIdMonoBehaviour_impl.hpp"
 #include "Ice/zzzz__NoteCutFloorLightStreakTileEffectSpawnerLightWithId_def.hpp"
-#include "UnityEngine/zzzz__Color_def.hpp"
 #include "Ice/zzzz__NoteCutFloorLightStreakTileEffectSpawner_def.hpp"
+#include "UnityEngine/zzzz__Color_def.hpp"
 //  Writing Method size for method: ::Ice::NoteCutFloorLightStreakTileEffectSpawnerLightWithId.ColorWasSet
 template <>
 

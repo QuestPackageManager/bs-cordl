@@ -3,14 +3,14 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(INoteMirrorable)
+namespace UnityEngine {
+class Transform;
+}
 namespace GlobalNamespace {
 class NoteData;
 }
 namespace GlobalNamespace {
 class INoteControllerNoteDidStartDissolvingEvent;
-}
-namespace UnityEngine {
-class Transform;
 }
 namespace GlobalNamespace {
 template <typename T> class ILazyCopyHashSet_1;

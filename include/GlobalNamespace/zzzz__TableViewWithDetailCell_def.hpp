@@ -6,20 +6,20 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(TableViewWithDetailCell)
-namespace HMUI {
-class TableCell;
-}
 namespace System {
 template <typename T1, typename T2> class Action_2;
+}
+namespace GlobalNamespace {
+class __TableViewWithDetailCell__IDataSource;
 }
 namespace HMUI {
 class TableView;
 }
 namespace HMUI {
-class __TableView__IDataSource;
+class TableCell;
 }
-namespace GlobalNamespace {
-class __TableViewWithDetailCell__IDataSource;
+namespace HMUI {
+class __TableView__IDataSource;
 }
 // Forward declare root types
 namespace GlobalNamespace {

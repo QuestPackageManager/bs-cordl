@@ -7,17 +7,17 @@ CORDL_MODULE_EXPORT(ISceneProvider)
 namespace UnityEngine::ResourceManagement {
 class ResourceManager;
 }
-namespace UnityEngine::ResourceManagement::ResourceProviders {
-struct SceneInstance;
-}
 namespace UnityEngine::SceneManagement {
 struct LoadSceneMode;
 }
-namespace UnityEngine::ResourceManagement::ResourceLocations {
-class IResourceLocation;
+namespace UnityEngine::ResourceManagement::ResourceProviders {
+struct SceneInstance;
 }
 namespace UnityEngine::ResourceManagement::AsyncOperations {
 template <typename TObject> struct AsyncOperationHandle_1;
+}
+namespace UnityEngine::ResourceManagement::ResourceLocations {
+class IResourceLocation;
 }
 // Forward declare root types
 namespace UnityEngine::ResourceManagement::ResourceProviders {

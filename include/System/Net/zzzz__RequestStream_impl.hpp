@@ -1,10 +1,10 @@
 #pragma once
 #include "System/IO/zzzz__Stream_impl.hpp"
 #include "System/Net/zzzz__RequestStream_def.hpp"
-#include "System/zzzz__Object_def.hpp"
-#include "System/IO/zzzz__Stream_def.hpp"
 #include "System/IO/zzzz__SeekOrigin_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__AsyncCallback_def.hpp"
+#include "System/IO/zzzz__Stream_def.hpp"
 #include "System/zzzz__IAsyncResult_def.hpp"
 //  Writing Method size for method: ::System::Net::RequestStream._ctor
 template <>

@@ -4,8 +4,8 @@
 #include "Zenject/zzzz__IFactory_def.hpp"
 #include "Zenject/zzzz__DiContainer_def.hpp"
 #include "Zenject/zzzz__IFactory_2_def.hpp"
-#include "System/zzzz__Object_def.hpp"
 #include "Zenject/zzzz__InjectTypeInfo_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 /// @brief Convert operator to "::Zenject::IFactory_2<::StringW,T>"
 template <typename T> constexpr Zenject::PrefabResourceFactory_1<T>::operator ::Zenject::IFactory_2<::StringW, T>*() noexcept {
   return static_cast<::Zenject::IFactory_2<::StringW, T>*>(static_cast<void*>(this));

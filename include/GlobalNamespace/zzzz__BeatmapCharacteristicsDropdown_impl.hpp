@@ -4,9 +4,9 @@
 #include "GlobalNamespace/zzzz__BeatmapCharacteristicsDropdown_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
 #include "HMUI/zzzz__DropdownWithTableView_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapCharacteristicCollection_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapCharacteristicsDropdown_def.hpp"
 #include "HMUI/zzzz__SimpleTextDropdown_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapCharacteristicsDropdown_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapCharacteristicCollection_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapCharacteristicSO_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::__BeatmapCharacteristicsDropdown____c._ctor

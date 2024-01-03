@@ -7,7 +7,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(DropdownMenu)
 namespace UnityEngine::UIElements {
-class DropdownMenuEventInfo;
+class DropdownMenuAction;
+}
+namespace UnityEngine::UIElements {
+struct __DropdownMenuAction__Status;
 }
 namespace UnityEngine::UIElements {
 class DropdownMenuItem;
@@ -15,23 +18,20 @@ class DropdownMenuItem;
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
+namespace UnityEngine::UIElements {
+class DropdownMenuEventInfo;
+}
+namespace System {
+template <typename T> class Action_1;
+}
 namespace System {
 template <typename T, typename TResult> class Func_2;
-}
-namespace UnityEngine::UIElements {
-class EventBase;
 }
 namespace System {
 class Object;
 }
 namespace UnityEngine::UIElements {
-class DropdownMenuAction;
-}
-namespace System {
-template <typename T> class Action_1;
-}
-namespace UnityEngine::UIElements {
-struct __DropdownMenuAction__Status;
+class EventBase;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

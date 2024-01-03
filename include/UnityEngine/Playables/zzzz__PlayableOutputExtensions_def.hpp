@@ -6,9 +6,6 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(PlayableOutputExtensions)
-namespace UnityEngine::Playables {
-struct Playable;
-}
 namespace System {
 class Object;
 }
@@ -16,10 +13,13 @@ namespace UnityEngine {
 class Object;
 }
 namespace UnityEngine::Playables {
-class INotificationReceiver;
+struct Playable;
 }
 namespace UnityEngine::Playables {
 class INotification;
+}
+namespace UnityEngine::Playables {
+class INotificationReceiver;
 }
 // Forward declare root types
 namespace UnityEngine::Playables {

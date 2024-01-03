@@ -7,14 +7,14 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(PosesPlayback)
+namespace GlobalNamespace {
+class PosesRecordingData;
+}
 namespace UnityEngine {
 class Transform;
 }
 namespace GlobalNamespace {
 class AudioTimeSyncController;
-}
-namespace GlobalNamespace {
-class PosesRecordingData;
 }
 namespace GlobalNamespace {
 class PoseObject;

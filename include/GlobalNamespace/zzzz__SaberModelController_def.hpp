@@ -8,25 +8,25 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(SaberModelController)
 namespace GlobalNamespace {
-class ColorManager;
+class SetSaberFakeGlowColor;
 }
 namespace GlobalNamespace {
 class TubeBloomPrePassLight;
 }
 namespace GlobalNamespace {
-class SetSaberGlowColor;
+class SaberTrail;
 }
 namespace UnityEngine {
 class Transform;
 }
 namespace GlobalNamespace {
-class SetSaberFakeGlowColor;
-}
-namespace GlobalNamespace {
-class SaberTrail;
-}
-namespace GlobalNamespace {
 class __SaberModelController__InitData;
+}
+namespace GlobalNamespace {
+class ColorManager;
+}
+namespace GlobalNamespace {
+class SetSaberGlowColor;
 }
 namespace GlobalNamespace {
 class Saber;

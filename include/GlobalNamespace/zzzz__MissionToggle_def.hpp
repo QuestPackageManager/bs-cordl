@@ -9,38 +9,38 @@ CORDL_MODULE_EXPORT(MissionToggle)
 namespace UnityEngine::EventSystems {
 class BaseEventData;
 }
-namespace UnityEngine::EventSystems {
-class IPointerEnterHandler;
-}
-namespace HMUI {
-class Interactable;
-}
-namespace UnityEngine::EventSystems {
-class ISubmitHandler;
-}
-namespace System {
-template <typename T> class Action_1;
-}
-namespace UnityEngine::EventSystems {
-class IPointerExitHandler;
+namespace TMPro {
+class TextMeshProUGUI;
 }
 namespace UnityEngine::EventSystems {
 class IEventSystemHandler;
 }
 namespace UnityEngine::EventSystems {
-class IPointerClickHandler;
+class PointerEventData;
 }
-namespace GlobalNamespace {
-class Signal;
+namespace System {
+template <typename T> class Action_1;
 }
-namespace TMPro {
-class TextMeshProUGUI;
+namespace UnityEngine::EventSystems {
+class ISubmitHandler;
+}
+namespace UnityEngine::EventSystems {
+class IPointerEnterHandler;
 }
 namespace UnityEngine::UI {
 class Image;
 }
 namespace UnityEngine::EventSystems {
-class PointerEventData;
+class IPointerExitHandler;
+}
+namespace GlobalNamespace {
+class Signal;
+}
+namespace HMUI {
+class Interactable;
+}
+namespace UnityEngine::EventSystems {
+class IPointerClickHandler;
 }
 // Forward declare root types
 namespace GlobalNamespace {

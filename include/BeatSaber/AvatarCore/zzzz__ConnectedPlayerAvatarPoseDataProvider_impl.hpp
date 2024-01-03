@@ -3,12 +3,12 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "BeatSaber/AvatarCore/zzzz__ConnectedPlayerAvatarPoseDataProvider_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
-#include "BeatSaber/AvatarCore/zzzz__AvatarPoseData_def.hpp"
+#include "BeatSaber/AvatarCore/zzzz__IAvatarPoseDataProvider_def.hpp"
 #include "GlobalNamespace/zzzz__IConnectedPlayer_def.hpp"
 #include "GlobalNamespace/zzzz__INodePoseSyncStateManager_def.hpp"
 #include "BeatSaber/AvatarCore/zzzz__IAvatarPoseRestriction_def.hpp"
 #include "Zenject/zzzz__ITickable_def.hpp"
-#include "BeatSaber/AvatarCore/zzzz__IAvatarPoseDataProvider_def.hpp"
+#include "BeatSaber/AvatarCore/zzzz__AvatarPoseData_def.hpp"
 //  Writing Method size for method: ::BeatSaber::AvatarCore::ConnectedPlayerAvatarPoseDataProvider.get_currentPose
 template <>
 

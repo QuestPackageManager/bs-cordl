@@ -8,10 +8,10 @@ CORDL_MODULE_INIT
 #include <cstddef>
 CORDL_MODULE_EXPORT(VROverlayIntersectionResults_t)
 namespace OVR::OpenVR {
-struct HmdVector3_t;
+struct HmdVector2_t;
 }
 namespace OVR::OpenVR {
-struct HmdVector2_t;
+struct HmdVector3_t;
 }
 // Forward declare root types
 namespace OVR::OpenVR {

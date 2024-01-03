@@ -2,8 +2,8 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__UnhandledExceptionHandler_def.hpp"
 #include "UnityEngine/zzzz__UnhandledExceptionHandler_def.hpp"
-#include "System/zzzz__UnhandledExceptionEventArgs_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "System/zzzz__UnhandledExceptionEventArgs_def.hpp"
 #include "System/zzzz__UnhandledExceptionEventHandler_def.hpp"
 //  Writing Method size for method: ::UnityEngine::__UnhandledExceptionHandler____c._ctor
 template <>

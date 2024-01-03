@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(X509Chain)
 namespace Mono::Security::X509 {
-class X509CertificateCollection;
+class X509Certificate;
 }
 namespace Mono::Security::X509 {
-class X509Certificate;
+class X509CertificateCollection;
 }
 // Forward declare root types
 namespace Mono::Security::X509 {

@@ -4,26 +4,26 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(PlayerSpecificSettingsAtStartNetSerializable)
-namespace LiteNetLib::Utils {
-class NetDataReader;
-}
-namespace GlobalNamespace {
-class IConnectedPlayer;
+namespace System::Collections::Generic {
+template <typename T> class IReadOnlyList_1;
 }
 namespace GlobalNamespace {
 class PlayerSpecificSettingsNetSerializable;
 }
 namespace LiteNetLib::Utils {
-class INetSerializable;
+class NetDataWriter;
 }
 namespace LiteNetLib::Utils {
-class NetDataWriter;
+class INetSerializable;
+}
+namespace GlobalNamespace {
+class IConnectedPlayer;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
-namespace System::Collections::Generic {
-template <typename T> class IReadOnlyList_1;
+namespace LiteNetLib::Utils {
+class NetDataReader;
 }
 // Forward declare root types
 namespace GlobalNamespace {

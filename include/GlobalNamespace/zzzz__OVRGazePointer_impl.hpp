@@ -1,9 +1,9 @@
 #pragma once
 #include "GlobalNamespace/zzzz__OVRCursor_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRGazePointer_def.hpp"
+#include "GlobalNamespace/zzzz__OVRProgressIndicator_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
-#include "GlobalNamespace/zzzz__OVRProgressIndicator_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::OVRGazePointer.get_hidden
 template <>
 

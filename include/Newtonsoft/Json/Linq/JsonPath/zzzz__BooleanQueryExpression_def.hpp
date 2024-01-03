@@ -7,14 +7,14 @@ CORDL_MODULE_EXPORT(BooleanQueryExpression)
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
-namespace Newtonsoft::Json::Linq::JsonPath {
-class PathFilter;
-}
 namespace Newtonsoft::Json::Linq {
 class JValue;
 }
 namespace Newtonsoft::Json::Linq {
 class JToken;
+}
+namespace Newtonsoft::Json::Linq::JsonPath {
+class PathFilter;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Linq::JsonPath {

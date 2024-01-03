@@ -7,13 +7,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(QualifiedAce)
 namespace System::Security::AccessControl {
+struct AceFlags;
+}
+namespace System::Security::AccessControl {
 struct AceType;
 }
 namespace System::Security::AccessControl {
 struct AceQualifier;
-}
-namespace System::Security::AccessControl {
-struct AceFlags;
 }
 // Forward declare root types
 namespace System::Security::AccessControl {

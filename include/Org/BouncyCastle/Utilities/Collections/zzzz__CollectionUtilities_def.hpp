@@ -5,6 +5,12 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(CollectionUtilities)
+namespace System::Collections {
+class IList;
+}
+namespace System::Collections {
+class IEnumerator;
+}
 namespace System {
 class Object;
 }
@@ -12,19 +18,13 @@ namespace System {
 class Type;
 }
 namespace System::Collections {
-class IDictionary;
-}
-namespace System::Collections {
-class IEnumerator;
+class IEnumerable;
 }
 namespace Org::BouncyCastle::Utilities::Collections {
 class ISet;
 }
 namespace System::Collections {
-class IList;
-}
-namespace System::Collections {
-class IEnumerable;
+class IDictionary;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Utilities::Collections {

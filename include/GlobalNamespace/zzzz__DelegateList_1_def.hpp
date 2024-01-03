@@ -5,6 +5,9 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(DelegateList_1)
+namespace System::Collections::Generic {
+template <typename T> class LinkedListNode_1;
+}
 namespace System {
 template <typename T> class Action_1;
 }
@@ -13,9 +16,6 @@ template <typename T, typename TResult> class Func_2;
 }
 namespace System::Collections::Generic {
 template <typename T> class LinkedList_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class LinkedListNode_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {

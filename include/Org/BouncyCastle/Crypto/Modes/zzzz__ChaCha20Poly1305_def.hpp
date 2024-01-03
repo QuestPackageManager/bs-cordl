@@ -9,20 +9,20 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(ChaCha20Poly1305)
-namespace Org::BouncyCastle::Crypto {
-class ICipherParameters;
-}
-namespace Org::BouncyCastle::Crypto::Engines {
-class ChaCha7539Engine;
-}
 namespace Org::BouncyCastle::Crypto::Modes {
 class IAeadCipher;
+}
+namespace Org::BouncyCastle::Crypto {
+class IMac;
 }
 namespace Org::BouncyCastle::Crypto::Modes {
 struct __ChaCha20Poly1305__State;
 }
+namespace Org::BouncyCastle::Crypto::Engines {
+class ChaCha7539Engine;
+}
 namespace Org::BouncyCastle::Crypto {
-class IMac;
+class ICipherParameters;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Modes {

@@ -21,8 +21,8 @@ MARK_REF_PTR_T(::GlobalNamespace::EnabledViewStateTransition);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(5442), inst: 921 }), TypeDefinitionIndex(TypeDefinitionIndex(10187)),
-// TypeDefinitionIndex(TypeDefinitionIndex(5442))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5450)) CS Name: ::EnabledViewStateTransition*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10187)), TypeDefinitionIndex(TypeDefinitionIndex(5442)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(5442), inst: 921
+// })} Self: TypeDefinitionIndex(TypeDefinitionIndex(5450)) CS Name: ::EnabledViewStateTransition*
 class CORDL_TYPE EnabledViewStateTransition : public ::GlobalNamespace::BaseStateTransition_1<::UnityEngine::Behaviour*> {
 public:
   // Declarations

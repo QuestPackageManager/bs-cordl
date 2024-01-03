@@ -1,11 +1,11 @@
 #pragma once
 #include "UnityEngine/Playables/zzzz__PlayableBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__BloomFogParamsBehaviour_def.hpp"
-#include "UnityEngine/Playables/zzzz__FrameData_def.hpp"
-#include "GlobalNamespace/zzzz__BloomFogSO_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "GlobalNamespace/zzzz__BloomFogEnvironmentParams_def.hpp"
 #include "UnityEngine/Playables/zzzz__Playable_def.hpp"
+#include "GlobalNamespace/zzzz__BloomFogSO_def.hpp"
+#include "GlobalNamespace/zzzz__BloomFogEnvironmentParams_def.hpp"
+#include "UnityEngine/Playables/zzzz__FrameData_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::BloomFogParamsBehaviour.ProcessFrame
 template <>
 

@@ -4,14 +4,14 @@
 CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ICipherBuilder)
+namespace System::IO {
+class Stream;
+}
 namespace System {
 class Object;
 }
 namespace Org::BouncyCastle::Crypto {
 class ICipher;
-}
-namespace System::IO {
-class Stream;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto {

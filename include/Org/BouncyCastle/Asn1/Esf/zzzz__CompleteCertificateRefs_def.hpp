@@ -8,11 +8,11 @@ CORDL_MODULE_EXPORT(CompleteCertificateRefs)
 namespace Org::BouncyCastle::Asn1::Esf {
 class OtherCertID;
 }
-namespace System {
-class Object;
-}
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
+}
+namespace System {
+class Object;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;

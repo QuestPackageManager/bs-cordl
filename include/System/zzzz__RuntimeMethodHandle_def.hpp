@@ -8,22 +8,22 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(RuntimeMethodHandle)
 namespace System::Runtime::Serialization {
-struct StreamingContext;
+class SerializationInfo;
+}
+namespace System {
+struct TypeNameFormatFlags;
 }
 namespace System::Runtime::Serialization {
 class ISerializable;
+}
+namespace System::Runtime::Serialization {
+struct StreamingContext;
 }
 namespace System {
 class Object;
 }
 namespace System::Reflection {
 class RuntimeMethodInfo;
-}
-namespace System {
-struct TypeNameFormatFlags;
-}
-namespace System::Runtime::Serialization {
-class SerializationInfo;
 }
 // Forward declare root types
 namespace System {

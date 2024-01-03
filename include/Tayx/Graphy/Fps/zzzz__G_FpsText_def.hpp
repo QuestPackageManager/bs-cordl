@@ -6,14 +6,14 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(G_FpsText)
-namespace UnityEngine::UI {
-class Text;
+namespace Tayx::Graphy {
+class GraphyManager;
 }
 namespace Tayx::Graphy::Fps {
 class G_FpsMonitor;
 }
-namespace Tayx::Graphy {
-class GraphyManager;
+namespace UnityEngine::UI {
+class Text;
 }
 // Forward declare root types
 namespace Tayx::Graphy::Fps {

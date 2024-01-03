@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(RC2CryptoServiceProvider)
 namespace System::Security::Cryptography {
-class KeySizes;
+class ICryptoTransform;
 }
 namespace System::Security::Cryptography {
-class ICryptoTransform;
+class KeySizes;
 }
 // Forward declare root types
 namespace System::Security::Cryptography {

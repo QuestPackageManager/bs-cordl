@@ -3,8 +3,8 @@
 #include "UnityEngine/UI/zzzz__Toggle_impl.hpp"
 #include "HMUI/zzzz__NoTransitionsToggle_def.hpp"
 #include "UnityEngine/UI/zzzz__Selectable_def.hpp"
-#include "HMUI/zzzz__UISelectionState_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
+#include "HMUI/zzzz__UISelectionState_def.hpp"
 //  Writing Method size for method: ::HMUI::NoTransitionsToggle.get_selectionState
 template <>
 

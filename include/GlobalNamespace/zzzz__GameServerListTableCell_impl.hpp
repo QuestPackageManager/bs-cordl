@@ -1,10 +1,10 @@
 #pragma once
 #include "HMUI/zzzz__TableCell_impl.hpp"
 #include "GlobalNamespace/zzzz__GameServerListTableCell_def.hpp"
-#include "UnityEngine/zzzz__GameObject_def.hpp"
+#include "GlobalNamespace/zzzz__SongPackMasksModel_def.hpp"
 #include "HMUI/zzzz__CurvedTextMeshPro_def.hpp"
 #include "GlobalNamespace/zzzz__INetworkPlayer_def.hpp"
-#include "GlobalNamespace/zzzz__SongPackMasksModel_def.hpp"
+#include "UnityEngine/zzzz__GameObject_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::GameServerListTableCell.SetData
 template <>
 

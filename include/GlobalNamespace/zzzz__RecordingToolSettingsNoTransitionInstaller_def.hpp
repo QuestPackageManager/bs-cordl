@@ -4,14 +4,14 @@
 CORDL_MODULE_INIT
 #include "Zenject/zzzz__NoTransitionInstaller_def.hpp"
 CORDL_MODULE_EXPORT(RecordingToolSettingsNoTransitionInstaller)
+namespace GlobalNamespace {
+class RecordingToolSceneSetupData;
+}
 namespace Zenject {
 class DiContainer;
 }
 namespace GlobalNamespace {
 class RecordingToolScenesTransitionSetupDataSO;
-}
-namespace GlobalNamespace {
-class RecordingToolSceneSetupData;
 }
 // Forward declare root types
 namespace GlobalNamespace {

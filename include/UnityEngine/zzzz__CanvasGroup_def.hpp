@@ -6,13 +6,13 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(CanvasGroup)
 namespace UnityEngine {
+class Camera;
+}
+namespace UnityEngine {
 class ICanvasRaycastFilter;
 }
 namespace UnityEngine {
 struct Vector2;
-}
-namespace UnityEngine {
-class Camera;
 }
 // Forward declare root types
 namespace UnityEngine {

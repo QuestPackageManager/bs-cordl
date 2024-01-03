@@ -22,7 +22,7 @@ MARK_REF_PTR_T(::System::Runtime::ConstrainedExecution::ReliabilityContractAttri
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Runtime::ConstrainedExecution {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3351)), TypeDefinitionIndex(TypeDefinitionIndex(3350)), TypeDefinitionIndex(TypeDefinitionIndex(2547))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3351)), TypeDefinitionIndex(TypeDefinitionIndex(2547)), TypeDefinitionIndex(TypeDefinitionIndex(3350))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3352))
 // CS Name: ::System.Runtime.ConstrainedExecution::ReliabilityContractAttribute*
 class CORDL_TYPE ReliabilityContractAttribute : public ::System::Attribute {

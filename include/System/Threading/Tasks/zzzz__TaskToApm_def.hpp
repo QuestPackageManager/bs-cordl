@@ -5,7 +5,10 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(TaskToApm)
 namespace System::Threading::Tasks {
-class __TaskToApm____c__DisplayClass3_0;
+class Task;
+}
+namespace System::Threading::Tasks {
+class __TaskToApm__TaskWrapperAsyncResult;
 }
 namespace System {
 class AsyncCallback;
@@ -14,10 +17,7 @@ namespace System {
 class Object;
 }
 namespace System::Threading::Tasks {
-class __TaskToApm__TaskWrapperAsyncResult;
-}
-namespace System::Threading::Tasks {
-class Task;
+class __TaskToApm____c__DisplayClass3_0;
 }
 namespace System {
 class IAsyncResult;

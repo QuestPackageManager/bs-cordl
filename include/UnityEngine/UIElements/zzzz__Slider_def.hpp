@@ -4,37 +4,38 @@
 CORDL_MODULE_INIT
 #include "UnityEngine/UIElements/zzzz__BaseFieldTraits_2_def.hpp"
 #include "UnityEngine/UIElements/zzzz__BaseSlider_1_def.hpp"
+#include "UnityEngine/UIElements/zzzz__SliderDirection_def.hpp"
 #include "UnityEngine/UIElements/zzzz__UxmlFactory_2_def.hpp"
 #include "UnityEngine/UIElements/zzzz__UxmlFloatAttributeDescription_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(Slider)
 namespace UnityEngine::UIElements {
-class __Slider__UxmlFactory;
-}
-namespace UnityEngine::UIElements {
 class __Slider__UxmlTraits;
-}
-namespace UnityEngine::UIElements {
-struct SliderDirection;
 }
 namespace UnityEngine::UIElements {
 template <typename TValueType> struct __BaseSlider_1__SliderKey;
 }
 namespace UnityEngine::UIElements {
-class UxmlBoolAttributeDescription;
-}
-namespace UnityEngine::UIElements {
-class IUxmlAttributes;
+class __Slider__UxmlFactory;
 }
 namespace UnityEngine::UIElements {
 template <typename T> class UxmlEnumAttributeDescription_1;
 }
 namespace UnityEngine::UIElements {
-class UxmlFloatAttributeDescription;
+struct SliderDirection;
+}
+namespace UnityEngine::UIElements {
+class UxmlBoolAttributeDescription;
 }
 namespace UnityEngine::UIElements {
 class VisualElement;
+}
+namespace UnityEngine::UIElements {
+class IUxmlAttributes;
+}
+namespace UnityEngine::UIElements {
+class UxmlFloatAttributeDescription;
 }
 namespace UnityEngine::UIElements {
 struct CreationContext;
@@ -57,8 +58,8 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::__Slider__UxmlTraits);
 // SizeInfo { instance_size: 184, native_size: -1, calculated_instance_size: 184, calculated_native_size: 184, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6986)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7131), inst: 916 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(7131))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7039)) CS Name: ::Slider::UxmlTraits*
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7131), inst: 916 }), TypeDefinitionIndex(TypeDefinitionIndex(7131)),
+// TypeDefinitionIndex(TypeDefinitionIndex(6986))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7039)) CS Name: ::Slider::UxmlTraits*
 class CORDL_TYPE __Slider__UxmlTraits : public ::UnityEngine::UIElements::BaseFieldTraits_2<float_t, ::UnityEngine::UIElements::UxmlFloatAttributeDescription*> {
 public:
   // Declarations
@@ -178,9 +179,8 @@ static_assert(offsetof(::UnityEngine::UIElements::__Slider__UxmlTraits, ___m_Inv
 // SizeInfo { instance_size: 1112, native_size: -1, calculated_instance_size: 1112, calculated_native_size: 1109, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7101)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7101), inst: 391 })}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7040))
-// CS Name: ::UnityEngine.UIElements::Slider*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7101)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7101), inst: 391 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(7099))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7040)) CS Name: ::UnityEngine.UIElements::Slider*
 class CORDL_TYPE Slider : public ::UnityEngine::UIElements::BaseSlider_1<float_t> {
 public:
   // Declarations
@@ -266,8 +266,8 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::Slider,
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6997)), TypeDefinitionIndex(TypeDefinitionIndex(7040)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6997), inst: 5276
-// }), TypeDefinitionIndex(TypeDefinitionIndex(7039))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7038)) CS Name: ::Slider::UxmlFactory*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7039)), TypeDefinitionIndex(TypeDefinitionIndex(6997)), TypeDefinitionIndex(TypeDefinitionIndex(7040)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6997), inst: 5276 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(7038)) CS Name: ::Slider::UxmlFactory*
 class CORDL_TYPE __Slider__UxmlFactory : public ::UnityEngine::UIElements::UxmlFactory_2<::UnityEngine::UIElements::Slider*, ::UnityEngine::UIElements::__Slider__UxmlTraits*> {
 public:
   // Declarations

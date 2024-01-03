@@ -7,25 +7,25 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(CustomBeatmapLevel)
 namespace GlobalNamespace {
-class IFilePathSongAudioClipProvider;
-}
-namespace GlobalNamespace {
 class BeatmapLevelData;
 }
 namespace GlobalNamespace {
-class IPreviewBeatmapLevel;
-}
-namespace GlobalNamespace {
-class IBeatmapLevel;
-}
-namespace GlobalNamespace {
 class CustomPreviewBeatmapLevel;
+}
+namespace GlobalNamespace {
+class IPreviewBeatmapLevel;
 }
 namespace GlobalNamespace {
 class IBeatmapLevelData;
 }
 namespace GlobalNamespace {
 class ColorScheme;
+}
+namespace GlobalNamespace {
+class IFilePathSongAudioClipProvider;
+}
+namespace GlobalNamespace {
+class IBeatmapLevel;
 }
 // Forward declare root types
 namespace GlobalNamespace {

@@ -7,14 +7,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(PlayerSpecificSettingsNetSerializable)
-namespace UnityEngine {
-struct Color;
+namespace LiteNetLib::Utils {
+class NetDataWriter;
 }
 namespace LiteNetLib::Utils {
 class INetSerializable;
 }
-namespace LiteNetLib::Utils {
-class NetDataWriter;
+namespace UnityEngine {
+struct Color;
 }
 namespace LiteNetLib::Utils {
 class NetDataReader;

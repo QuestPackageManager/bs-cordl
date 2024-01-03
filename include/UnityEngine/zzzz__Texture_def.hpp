@@ -6,32 +6,32 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Texture)
+namespace UnityEngine {
+struct Vector2;
+}
 namespace UnityEngine::Rendering {
 struct TextureDimension;
-}
-namespace UnityEngine {
-struct TextureFormat;
-}
-namespace UnityEngine {
-struct ColorSpace;
 }
 namespace UnityEngine::Experimental::Rendering {
 struct GraphicsFormat;
 }
 namespace UnityEngine {
-struct FilterMode;
+struct TextureWrapMode;
 }
 namespace UnityEngine::Experimental::Rendering {
 struct FormatUsage;
 }
 namespace UnityEngine {
-struct TextureWrapMode;
-}
-namespace UnityEngine {
 class UnityException;
 }
 namespace UnityEngine {
-struct Vector2;
+struct FilterMode;
+}
+namespace UnityEngine {
+struct ColorSpace;
+}
+namespace UnityEngine {
+struct TextureFormat;
 }
 // Forward declare root types
 namespace UnityEngine {

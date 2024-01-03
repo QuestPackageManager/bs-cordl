@@ -8,14 +8,14 @@ CORDL_MODULE_EXPORT(RenderPipeline)
 namespace UnityEngine {
 class Camera;
 }
-namespace UnityEngine {
-struct __Camera__RenderRequest;
-}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace UnityEngine::Rendering {
 struct ScriptableRenderContext;
+}
+namespace UnityEngine {
+struct __Camera__RenderRequest;
 }
 // Forward declare root types
 namespace UnityEngine::Rendering {

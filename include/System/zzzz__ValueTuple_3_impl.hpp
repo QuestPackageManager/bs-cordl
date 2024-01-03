@@ -1,15 +1,15 @@
 #pragma once
 #include "System/zzzz__ValueTuple_3_def.hpp"
-#include "System/zzzz__IComparable_def.hpp"
 #include "System/Collections/zzzz__IComparer_def.hpp"
-#include "System/zzzz__IEquatable_1_def.hpp"
-#include "System/Collections/zzzz__IStructuralComparable_def.hpp"
-#include "System/zzzz__Object_def.hpp"
-#include "System/zzzz__IComparable_1_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__ITuple_def.hpp"
-#include "System/Collections/zzzz__IEqualityComparer_def.hpp"
-#include "System/zzzz__IValueTupleInternal_def.hpp"
 #include "System/Collections/zzzz__IStructuralEquatable_def.hpp"
+#include "System/zzzz__IComparable_1_def.hpp"
+#include "System/zzzz__IEquatable_1_def.hpp"
+#include "System/zzzz__IComparable_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__ITuple_def.hpp"
+#include "System/zzzz__IValueTupleInternal_def.hpp"
+#include "System/Collections/zzzz__IStructuralComparable_def.hpp"
+#include "System/Collections/zzzz__IEqualityComparer_def.hpp"
 /// @brief Convert operator to "::System::IEquatable_1<::System::ValueTuple_3<T1,T2,T3>>"
 template <typename T1, typename T2, typename T3> constexpr System::ValueTuple_3<T1, T2, T3>::operator ::System::IEquatable_1<::System::ValueTuple_3<T1, T2, T3>>*() {
   return static_cast<::System::IEquatable_1<::System::ValueTuple_3<T1, T2, T3>>*>(static_cast<void*>(::cordl_internals::Box(this)));

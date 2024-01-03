@@ -14,14 +14,14 @@ class Object;
 namespace System::Collections {
 class IEnumerator;
 }
-namespace System::Collections {
-class IEnumerable;
-}
 namespace System::Xml {
 struct __XmlNamedNodeMap__SmallXmlNodeList;
 }
 namespace System::Xml {
 class XmlNode;
+}
+namespace System::Collections {
+class IEnumerable;
 }
 namespace System::Xml {
 class XmlDocument;

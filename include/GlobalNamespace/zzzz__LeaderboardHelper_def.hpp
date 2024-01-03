@@ -13,14 +13,23 @@ CORDL_MODULE_EXPORT(LeaderboardHelper)
 namespace GlobalNamespace {
 struct __LeaderboardHelper___CreateOculusLeaderboard_d__2;
 }
-namespace GlobalNamespace {
-class LeaderboardIdsModelSO;
-}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace GlobalNamespace {
 class BeatmapLevelCollectionSO;
+}
+namespace GlobalNamespace {
+class LeaderboardIdsModelSO;
+}
+namespace System::Runtime::CompilerServices {
+struct AsyncVoidMethodBuilder;
+}
+namespace System::Runtime::CompilerServices {
+template <typename TResult> struct TaskAwaiter_1;
+}
+namespace System::Net::Http {
+class HttpRequestMessage;
 }
 namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
@@ -29,16 +38,7 @@ namespace System::Net::Http {
 class HttpClient;
 }
 namespace System::Net::Http {
-class HttpRequestMessage;
-}
-namespace System::Runtime::CompilerServices {
-struct AsyncVoidMethodBuilder;
-}
-namespace System::Net::Http {
 class HttpResponseMessage;
-}
-namespace System::Runtime::CompilerServices {
-template <typename TResult> struct TaskAwaiter_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -55,7 +55,7 @@ MARK_VAL_T(::GlobalNamespace::__LeaderboardHelper___CreateOculusLeaderboard_d__2
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3394)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 883 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(14655)), TypeDefinitionIndex(TypeDefinitionIndex(3400))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5849)) CS Name:
+// TypeDefinitionIndex(TypeDefinitionIndex(3400)), TypeDefinitionIndex(TypeDefinitionIndex(14655))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5849)) CS Name:
 // ::LeaderboardHelper::<CreateOculusLeaderboard>d__2
 struct CORDL_TYPE __LeaderboardHelper___CreateOculusLeaderboard_d__2 {
 public:

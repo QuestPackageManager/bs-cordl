@@ -1,17 +1,17 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
+#include "UnityEngine/InputSystem/zzzz__InputActionType_impl.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputBinding_impl.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputControlScheme_impl.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputActionSetupExtensions_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputActionSetupExtensions_def.hpp"
-#include "UnityEngine/InputSystem/zzzz__InputControl_def.hpp"
-#include "UnityEngine/InputSystem/zzzz__InputActionType_def.hpp"
-#include "System/zzzz__Guid_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputActionMap_def.hpp"
+#include "UnityEngine/InputSystem/zzzz__InputControl_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputControlScheme_def.hpp"
-#include "UnityEngine/InputSystem/zzzz__InputBinding_def.hpp"
-#include "UnityEngine/InputSystem/zzzz__InputActionAsset_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputAction_def.hpp"
+#include "System/zzzz__Guid_def.hpp"
+#include "UnityEngine/InputSystem/zzzz__InputActionAsset_def.hpp"
+#include "UnityEngine/InputSystem/zzzz__InputBinding_def.hpp"
 //  Writing Method size for method: ::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax.get_valid
 template <>
 

@@ -8,11 +8,8 @@ CORDL_MODULE_EXPORT(StyleValueCollection)
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
-namespace UnityEngine::UIElements::StyleSheets {
-struct StylePropertyId;
-}
 namespace UnityEngine::UIElements {
-struct StyleInt;
+struct StyleLength;
 }
 namespace UnityEngine::UIElements {
 struct StyleFloat;
@@ -21,7 +18,10 @@ namespace UnityEngine::UIElements::StyleSheets {
 struct StyleValue;
 }
 namespace UnityEngine::UIElements {
-struct StyleLength;
+struct StyleInt;
+}
+namespace UnityEngine::UIElements::StyleSheets {
+struct StylePropertyId;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

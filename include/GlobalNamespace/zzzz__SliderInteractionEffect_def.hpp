@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(SliderInteractionEffect)
 namespace GlobalNamespace {
-struct ColorType;
+class SliderInteractionManager;
 }
 namespace GlobalNamespace {
-class SliderInteractionManager;
+struct ColorType;
 }
 // Forward declare root types
 namespace GlobalNamespace {

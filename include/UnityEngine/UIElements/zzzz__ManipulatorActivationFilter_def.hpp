@@ -8,19 +8,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ManipulatorActivationFilter)
 namespace UnityEngine::UIElements {
-struct MouseButton;
+class IMouseEvent;
 }
 namespace UnityEngine::UIElements {
 class IPointerEvent;
 }
-namespace System {
-class Object;
-}
 namespace UnityEngine::UIElements {
-class IMouseEvent;
+struct MouseButton;
 }
 namespace System {
 template <typename T> class IEquatable_1;
+}
+namespace System {
+class Object;
 }
 namespace UnityEngine {
 struct EventModifiers;

@@ -6,16 +6,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(PacketFreeCallback)
 namespace System {
-class Object;
-}
-namespace ENet {
-struct Packet;
-}
-namespace System {
 class AsyncCallback;
 }
 namespace System {
 class IAsyncResult;
+}
+namespace System {
+class Object;
+}
+namespace ENet {
+struct Packet;
 }
 // Forward declare root types
 namespace ENet {

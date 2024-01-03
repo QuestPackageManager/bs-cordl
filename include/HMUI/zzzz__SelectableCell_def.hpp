@@ -6,41 +6,41 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(SelectableCell)
-namespace UnityEngine::EventSystems {
-class IPointerClickHandler;
-}
-namespace UnityEngine::EventSystems {
-class IPointerExitHandler;
+namespace HMUI {
+struct __SelectableCell__TransitionType;
 }
 namespace System {
-template <typename T1, typename T2, typename T3> class Action_3;
+template <typename T1, typename T2> class Action_2;
 }
 namespace UnityEngine::EventSystems {
 class PointerEventData;
 }
 namespace UnityEngine::EventSystems {
-class ISubmitHandler;
-}
-namespace UnityEngine::EventSystems {
 class BaseEventData;
 }
 namespace UnityEngine::EventSystems {
-class IEventSystemHandler;
+class IPointerEnterHandler;
+}
+namespace UnityEngine::EventSystems {
+class IPointerClickHandler;
 }
 namespace GlobalNamespace {
 class Signal;
 }
 namespace UnityEngine::EventSystems {
-class IPointerEnterHandler;
-}
-namespace HMUI {
-struct __SelectableCell__TransitionType;
+class IPointerExitHandler;
 }
 namespace System {
 class Object;
 }
 namespace System {
-template <typename T1, typename T2> class Action_2;
+template <typename T1, typename T2, typename T3> class Action_3;
+}
+namespace UnityEngine::EventSystems {
+class ISubmitHandler;
+}
+namespace UnityEngine::EventSystems {
+class IEventSystemHandler;
 }
 // Forward declare root types
 namespace HMUI {

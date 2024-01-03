@@ -12,14 +12,14 @@ CORDL_MODULE_EXPORT(Amplifier)
 namespace RootMotion::FinalIK {
 class __Amplifier__Body;
 }
+namespace UnityEngine {
+class Transform;
+}
 namespace GlobalNamespace {
 class __Amplifier__Body__EffectorLink;
 }
 namespace RootMotion::FinalIK {
 class IKSolverFullBodyBiped;
-}
-namespace UnityEngine {
-class Transform;
 }
 namespace UnityEngine {
 struct Vector3;
@@ -42,7 +42,7 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::__Amplifier__Body);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12571))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12571)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12633))
 // CS Name: ::Amplifier::Body::EffectorLink*
 class CORDL_TYPE __Amplifier__Body__EffectorLink : public ::System::Object {
@@ -105,7 +105,7 @@ static_assert(offsetof(::GlobalNamespace::__Amplifier__Body__EffectorLink, ___we
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 77, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12634))
 // CS Name: ::Amplifier::Body*
 class CORDL_TYPE __Amplifier__Body : public ::System::Object {

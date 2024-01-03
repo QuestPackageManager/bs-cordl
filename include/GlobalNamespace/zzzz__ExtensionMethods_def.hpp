@@ -3,48 +3,46 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
+#include "UnityEngine/zzzz__TextureFormat_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(ExtensionMethods)
-namespace UnityEngine {
-class RenderTexture;
-}
-namespace UnityEngine {
-struct Vector3;
-}
 namespace System {
 template <typename T, typename TResult> class Func_2;
 }
 namespace UnityEngine {
-class Transform;
+class RenderTexture;
 }
 namespace UnityEngine {
-struct Quaternion;
+class Transform;
 }
 namespace System::Collections {
 class IEnumerator;
 }
 namespace UnityEngine {
-class Texture2D;
-}
-namespace UnityEngine {
-struct Vector2;
+struct LayerMask;
 }
 namespace UnityEngine {
 class Coroutine;
 }
 namespace UnityEngine {
-struct TextureFormat;
-}
-namespace System {
-template <typename TResult> class Func_1;
+class Texture2D;
 }
 namespace UnityEngine {
 class MonoBehaviour;
 }
 namespace UnityEngine {
-struct LayerMask;
+struct Vector3;
+}
+namespace UnityEngine {
+struct Quaternion;
+}
+namespace System {
+template <typename TResult> class Func_1;
+}
+namespace UnityEngine {
+struct Vector2;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -56,7 +54,7 @@ MARK_REF_PTR_T(::GlobalNamespace::ExtensionMethods);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10115)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15852))
 // CS Name: ::ExtensionMethods*
 class CORDL_TYPE ExtensionMethods : public ::System::Object {

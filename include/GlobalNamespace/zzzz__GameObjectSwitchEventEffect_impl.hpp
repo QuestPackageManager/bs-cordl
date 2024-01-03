@@ -1,10 +1,10 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__GameObjectSwitchEventEffect_def.hpp"
-#include "GlobalNamespace/zzzz__ColorBoostBeatmapEventData_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapDataCallbackWrapper_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapCallbacksController_def.hpp"
 #include "UnityEngine/zzzz__GameObject_def.hpp"
+#include "GlobalNamespace/zzzz__ColorBoostBeatmapEventData_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::GameObjectSwitchEventEffect.Start
 template <>
 

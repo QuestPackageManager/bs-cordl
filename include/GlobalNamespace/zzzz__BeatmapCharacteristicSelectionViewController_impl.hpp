@@ -1,10 +1,10 @@
 #pragma once
 #include "HMUI/zzzz__ViewController_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatmapCharacteristicSelectionViewController_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapCharacteristicSO_def.hpp"
 #include "HMUI/zzzz__IconSegmentedControl_def.hpp"
-#include "HMUI/zzzz__SegmentedControl_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapCharacteristicSO_def.hpp"
 #include "System/zzzz__Action_2_def.hpp"
+#include "HMUI/zzzz__SegmentedControl_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapCharacteristicCollection_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::BeatmapCharacteristicSelectionViewController.add_didSelectBeatmapCharacteristicEvent
 template <>

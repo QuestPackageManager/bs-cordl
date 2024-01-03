@@ -8,11 +8,14 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(PlayableHandle)
-namespace System {
-class Object;
+namespace UnityEngine::Playables {
+struct PlayState;
 }
 namespace UnityEngine::Playables {
 struct Playable;
+}
+namespace UnityEngine::Playables {
+struct PlayableTraversalMode;
 }
 namespace System {
 class Type;
@@ -20,11 +23,8 @@ class Type;
 namespace UnityEngine::Playables {
 struct PlayableGraph;
 }
-namespace UnityEngine::Playables {
-struct PlayState;
-}
-namespace UnityEngine::Playables {
-struct PlayableTraversalMode;
+namespace System {
+class Object;
 }
 namespace UnityEngine::Playables {
 struct DirectorWrapMode;

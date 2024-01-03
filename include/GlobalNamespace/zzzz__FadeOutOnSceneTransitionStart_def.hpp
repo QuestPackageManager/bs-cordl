@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(FadeOutOnSceneTransitionStart)
 namespace GlobalNamespace {
-class FadeInOutController;
+class GameScenesManager;
 }
 namespace GlobalNamespace {
-class GameScenesManager;
+class FadeInOutController;
 }
 // Forward declare root types
 namespace GlobalNamespace {

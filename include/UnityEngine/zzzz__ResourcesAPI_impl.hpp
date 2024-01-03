@@ -1,9 +1,9 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__ResourcesAPI_def.hpp"
+#include "System/zzzz__Type_def.hpp"
 #include "UnityEngine/zzzz__Object_def.hpp"
 #include "UnityEngine/zzzz__Shader_def.hpp"
-#include "System/zzzz__Type_def.hpp"
 #include "UnityEngine/zzzz__ResourceRequest_def.hpp"
 //  Writing Method size for method: ::UnityEngine::ResourcesAPI.get_ActiveAPI
 template <>

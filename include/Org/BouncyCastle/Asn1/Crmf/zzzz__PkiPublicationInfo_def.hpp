@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(PkiPublicationInfo)
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Sequence;
+}
 namespace Org::BouncyCastle::Asn1::Crmf {
 class SinglePubInfo;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
 }
 namespace System {
 class Object;
@@ -18,7 +18,7 @@ namespace Org::BouncyCastle::Asn1 {
 class DerInteger;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
+class Asn1Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Crmf {

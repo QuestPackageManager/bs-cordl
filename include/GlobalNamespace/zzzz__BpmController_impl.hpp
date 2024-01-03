@@ -1,12 +1,12 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__BpmController_def.hpp"
-#include "GlobalNamespace/zzzz__IBpmController_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
-#include "GlobalNamespace/zzzz__BpmController_def.hpp"
-#include "GlobalNamespace/zzzz__BPMChangeBeatmapEventData_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapDataCallbackWrapper_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapCallbacksController_def.hpp"
+#include "GlobalNamespace/zzzz__BpmController_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapDataCallbackWrapper_def.hpp"
+#include "GlobalNamespace/zzzz__BPMChangeBeatmapEventData_def.hpp"
+#include "GlobalNamespace/zzzz__IBpmController_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::__BpmController__InitData._ctor
 template <>
 

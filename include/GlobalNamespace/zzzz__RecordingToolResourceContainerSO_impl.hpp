@@ -1,10 +1,10 @@
 #pragma once
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_impl.hpp"
 #include "GlobalNamespace/zzzz__RecordingToolResourceContainerSO_def.hpp"
-#include "GlobalNamespace/zzzz__IBeatmapLevelPack_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapLevelPackCollectionSO_def.hpp"
-#include "GlobalNamespace/zzzz__EnvironmentsListSO_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapLevelPackCollectionSO_def.hpp"
+#include "GlobalNamespace/zzzz__IBeatmapLevelPack_def.hpp"
+#include "GlobalNamespace/zzzz__EnvironmentsListSO_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::RecordingToolResourceContainerSO.get_beatmapLevelPacks
 template <>
 

@@ -9,8 +9,8 @@ CORDL_MODULE_EXPORT(MissionObjectiveGameUIView)
 namespace GlobalNamespace {
 class MissionObjectiveChecker;
 }
-namespace TMPro {
-class TextMeshProUGUI;
+namespace UnityEngine {
+class ParticleSystem;
 }
 namespace UnityEngine {
 class Sprite;
@@ -18,8 +18,8 @@ class Sprite;
 namespace UnityEngine::UI {
 class Image;
 }
-namespace UnityEngine {
-class ParticleSystem;
+namespace TMPro {
+class TextMeshProUGUI;
 }
 // Forward declare root types
 namespace GlobalNamespace {

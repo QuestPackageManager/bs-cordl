@@ -5,20 +5,20 @@ CORDL_MODULE_INIT
 #include "System/Xml/Schema/zzzz__XmlBaseConverter_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(XmlBooleanConverter)
-namespace System::Xml {
-class IXmlNamespaceResolver;
-}
 namespace System {
-class Type;
+class Object;
 }
 namespace System::Xml::Schema {
 class XmlSchemaType;
+}
+namespace System::Xml {
+class IXmlNamespaceResolver;
 }
 namespace System::Xml::Schema {
 class XmlValueConverter;
 }
 namespace System {
-class Object;
+class Type;
 }
 // Forward declare root types
 namespace System::Xml::Schema {

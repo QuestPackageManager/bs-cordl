@@ -1,10 +1,10 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Globalization/zzzz__Calendar_def.hpp"
-#include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__DayOfWeek_def.hpp"
 #include "System/zzzz__DateTime_def.hpp"
 #include "System/zzzz__ICloneable_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::System::Globalization::Calendar.get_MinSupportedDateTime
 template <>
 

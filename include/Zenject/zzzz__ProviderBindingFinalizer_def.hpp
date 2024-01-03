@@ -6,23 +6,8 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(ProviderBindingFinalizer)
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace Zenject {
-class __ProviderBindingFinalizer____c;
-}
 namespace Zenject {
 class BindInfo;
-}
-namespace Zenject {
-class IBindingFinalizer;
-}
-namespace Zenject {
-class IProvider;
-}
-namespace System {
-template <typename T1, typename T2, typename TResult> class Func_3;
 }
 namespace Zenject {
 struct ScopeTypes;
@@ -31,19 +16,34 @@ namespace System {
 class Type;
 }
 namespace Zenject {
-class DiContainer;
+class IBindingFinalizer;
 }
 namespace Zenject {
 struct BindingInheritanceMethods;
+}
+namespace Zenject {
+class __ProviderBindingFinalizer____c;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace Zenject {
+class DiContainer;
+}
+namespace Zenject {
+class IProvider;
+}
+namespace System {
+template <typename T1, typename T2, typename TResult> class Func_3;
+}
+namespace System {
+class Object;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;
 }
 namespace Zenject {
 class InjectTypeInfo;
-}
-namespace System {
-class Object;
 }
 // Forward declare root types
 namespace Zenject {

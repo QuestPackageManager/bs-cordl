@@ -9,13 +9,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Normalization)
 namespace System::Text {
-class StringBuilder;
+struct NormalizationCheck;
 }
 namespace System::Text {
 struct NormalizationForm;
 }
 namespace System::Text {
-struct NormalizationCheck;
+class StringBuilder;
 }
 namespace System {
 class Object;

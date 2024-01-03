@@ -8,16 +8,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(X509CertificateUtility)
 namespace GlobalNamespace {
-class ICertificateEncryptionProvider;
+class __X509CertificateUtility__RSACertificateEncryptionProvider;
 }
 namespace GlobalNamespace {
 class __X509CertificateUtility____c;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
-namespace GlobalNamespace {
-class __X509CertificateUtility___GetCertificateList_d__9;
 }
 namespace System::Security::Cryptography::X509Certificates {
 class X509Certificate2;
@@ -25,14 +19,17 @@ class X509Certificate2;
 namespace GlobalNamespace {
 class __X509CertificateUtility__PasswordFinder;
 }
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
 namespace GlobalNamespace {
-class __X509CertificateUtility__RSACertificateEncryptionProvider;
+class ICertificateEncryptionProvider;
+}
+namespace GlobalNamespace {
+class __X509CertificateUtility___GetCertificateList_d__9;
 }
 namespace Org::BouncyCastle::OpenSsl {
 class IPasswordFinder;
-}
-namespace Org::BouncyCastle::Crypto::Parameters {
-class RsaPrivateCrtKeyParameters;
 }
 namespace Org::BouncyCastle::Crypto {
 class ISigner;
@@ -40,8 +37,11 @@ class ISigner;
 namespace System {
 class IDisposable;
 }
-namespace System::Collections {
-class IEnumerator;
+namespace Org::BouncyCastle::Crypto::Parameters {
+class RsaPrivateCrtKeyParameters;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
 }
 namespace System {
 class Object;
@@ -49,11 +49,11 @@ class Object;
 namespace System::Collections {
 class IEnumerable;
 }
+namespace System::Collections {
+class IEnumerator;
+}
 namespace Org::BouncyCastle::X509 {
 class X509CertificateParser;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
 }
 namespace System::Security::Cryptography::X509Certificates {
 struct X509ChainStatus;

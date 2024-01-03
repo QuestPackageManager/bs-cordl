@@ -13,25 +13,25 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(IKSolver)
 namespace RootMotion::FinalIK {
+class __IKSolver__Node;
+}
+namespace RootMotion::FinalIK {
 class __IKSolver__Bone;
 }
 namespace RootMotion::FinalIK {
 class __IKSolver__IterationDelegate;
 }
-namespace RootMotion::FinalIK {
-class __IKSolver__Node;
+namespace UnityEngine {
+struct Vector3;
 }
 namespace RootMotion::FinalIK {
 class __IKSolver__UpdateDelegate;
 }
-namespace RootMotion::FinalIK {
-class __IKSolver__Point;
-}
-namespace UnityEngine {
-struct Vector3;
-}
 namespace UnityEngine {
 class Transform;
+}
+namespace RootMotion::FinalIK {
+class __IKSolver__Point;
 }
 namespace RootMotion::FinalIK {
 class RotationLimit;
@@ -75,7 +75,7 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::__IKSolver__UpdateDelegate);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 84, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10252))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10252))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12559))
 // CS Name: ::IKSolver::Point*
 class CORDL_TYPE __IKSolver__Point : public ::System::Object {
@@ -351,7 +351,7 @@ static_assert(offsetof(::RootMotion::FinalIK::__IKSolver__Bone, ___isLimited) ==
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 108, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(12559))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12559)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12561))
 // CS Name: ::IKSolver::Node*
 class CORDL_TYPE __IKSolver__Node : public ::RootMotion::FinalIK::__IKSolver__Point {
@@ -540,7 +540,7 @@ static_assert(::cordl_internals::size_check_v<::RootMotion::FinalIK::__IKSolver_
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12564))
 // CS Name: ::RootMotion.FinalIK::IKSolver*
 class CORDL_TYPE IKSolver : public ::System::Object {

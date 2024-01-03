@@ -3,14 +3,14 @@
 #include "System/Xml/Schema/zzzz__XmlSchemaContentType_impl.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaDerivationMethod_impl.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaType_def.hpp"
+#include "System/Xml/Schema/zzzz__XmlValueConverter_def.hpp"
+#include "System/Xml/Schema/zzzz__XmlTypeCode_def.hpp"
+#include "System/Xml/Schema/zzzz__SchemaElementDecl_def.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaSimpleType_def.hpp"
-#include "System/Xml/zzzz__XmlQualifiedName_def.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaDerivationMethod_def.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaContentType_def.hpp"
-#include "System/Xml/Schema/zzzz__XmlValueConverter_def.hpp"
-#include "System/Xml/Schema/zzzz__SchemaElementDecl_def.hpp"
+#include "System/Xml/zzzz__XmlQualifiedName_def.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaDatatype_def.hpp"
-#include "System/Xml/Schema/zzzz__XmlTypeCode_def.hpp"
 //  Writing Method size for method: ::System::Xml::Schema::XmlSchemaType.GetBuiltInSimpleType
 template <>
 

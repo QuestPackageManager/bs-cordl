@@ -8,13 +8,13 @@ namespace GlobalNamespace {
 class PrepareLevelCompletionResults;
 }
 namespace GlobalNamespace {
-class MissionObjectiveCheckersManager;
-}
-namespace GlobalNamespace {
 class ILevelRestartController;
 }
 namespace GlobalNamespace {
 class MissionLevelScenesTransitionSetupDataSO;
+}
+namespace GlobalNamespace {
+class MissionObjectiveCheckersManager;
 }
 // Forward declare root types
 namespace GlobalNamespace {

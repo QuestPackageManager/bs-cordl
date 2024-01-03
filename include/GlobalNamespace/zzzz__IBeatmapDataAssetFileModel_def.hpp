@@ -3,20 +3,20 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IBeatmapDataAssetFileModel)
-namespace GlobalNamespace {
-class IPreviewBeatmapLevel;
+namespace System {
+template <typename T> class Action_1;
+}
+namespace System::Threading {
+struct CancellationToken;
 }
 namespace GlobalNamespace {
 struct LevelDataAssetDownloadUpdate;
 }
-namespace System {
-template <typename T> class Action_1;
-}
 namespace GlobalNamespace {
 struct GetAssetBundleFileResult;
 }
-namespace System::Threading {
-struct CancellationToken;
+namespace GlobalNamespace {
+class IPreviewBeatmapLevel;
 }
 namespace System::Threading::Tasks {
 template <typename TResult> class Task_1;

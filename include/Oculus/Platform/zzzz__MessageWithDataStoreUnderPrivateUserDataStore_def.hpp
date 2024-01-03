@@ -20,9 +20,9 @@ MARK_REF_PTR_T(::Oculus::Platform::MessageWithDataStoreUnderPrivateUserDataStore
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13262), inst: 4568 }), TypeDefinitionIndex(TypeDefinitionIndex(13262)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3824)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3824), inst: 608 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(13286)) CS
-// Name: ::Oculus.Platform::MessageWithDataStoreUnderPrivateUserDataStore*
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3824), inst: 608 }), TypeDefinitionIndex(TypeDefinitionIndex(13262)), GenericInstantiation(GenericInstantiation {
+// tdi: TypeDefinitionIndex(13262), inst: 4568 }), TypeDefinitionIndex(TypeDefinitionIndex(3824))} Self: TypeDefinitionIndex(TypeDefinitionIndex(13286)) CS Name:
+// ::Oculus.Platform::MessageWithDataStoreUnderPrivateUserDataStore*
 class CORDL_TYPE MessageWithDataStoreUnderPrivateUserDataStore : public ::Oculus::Platform::Message_1<::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*> {
 public:
   // Declarations

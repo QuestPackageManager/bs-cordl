@@ -1,12 +1,12 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__PlayerHeightSettingsController_def.hpp"
-#include "UnityEngine/UI/zzzz__Button_def.hpp"
 #include "HMUI/zzzz__ButtonBinder_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
-#include "GlobalNamespace/zzzz__Vector3SO_def.hpp"
+#include "UnityEngine/UI/zzzz__Button_def.hpp"
 #include "TMPro/zzzz__TextMeshProUGUI_def.hpp"
 #include "GlobalNamespace/zzzz__IVRPlatformHelper_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
+#include "GlobalNamespace/zzzz__Vector3SO_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::PlayerHeightSettingsController.add_valueDidChangeEvent
 template <>
 

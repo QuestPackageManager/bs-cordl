@@ -9,17 +9,17 @@ CORDL_MODULE_EXPORT(TubeLightIntensityBehaviour)
 namespace System {
 class Object;
 }
-namespace UnityEngine::Playables {
-struct FrameData;
+namespace GlobalNamespace {
+class TubeBloomPrePassLight;
 }
 namespace GlobalNamespace {
 class DirectionalLight;
 }
-namespace GlobalNamespace {
-class TubeBloomPrePassLight;
-}
 namespace UnityEngine::Playables {
 struct Playable;
+}
+namespace UnityEngine::Playables {
+struct FrameData;
 }
 // Forward declare root types
 namespace GlobalNamespace {

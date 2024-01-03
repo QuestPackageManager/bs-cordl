@@ -12,19 +12,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVRHandTest)
 namespace GlobalNamespace {
-class __OVRHandTest____c;
+class __OVRHandTest__BoolMonitor;
 }
 namespace System::Text {
 class StringBuilder;
+}
+namespace GlobalNamespace {
+class __OVRHandTest____c;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace GlobalNamespace {
 class __OVRPlugin__Mesh;
-}
-namespace GlobalNamespace {
-class __OVRHandTest__BoolMonitor;
 }
 namespace UnityEngine::UI {
 class Text;
@@ -304,7 +304,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRHandTest__
 // SizeInfo { instance_size: 376, native_size: -1, calculated_instance_size: 376, calculated_native_size: 372, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(7771)), TypeDefinitionIndex(TypeDefinitionIndex(7777))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7777)), TypeDefinitionIndex(TypeDefinitionIndex(7771)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8120))
 // CS Name: ::OVRHandTest*
 class CORDL_TYPE OVRHandTest : public ::UnityEngine::MonoBehaviour {

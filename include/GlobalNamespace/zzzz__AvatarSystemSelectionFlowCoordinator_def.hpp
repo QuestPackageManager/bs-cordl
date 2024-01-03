@@ -10,22 +10,37 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(AvatarSystemSelectionFlowCoordinator)
 namespace BeatSaber::AvatarCore {
-struct AvatarSystemIdentifier;
+class AvatarEditorFlowCoordinator;
+}
+namespace System::Collections::Generic {
+template <typename T> class IReadOnlyList_1;
+}
+namespace GlobalNamespace {
+struct __AvatarSystemSelectionFlowCoordinator__FinishAction;
+}
+namespace HMUI {
+struct __ViewController__AnimationType;
 }
 namespace BeatSaber::AvatarCore {
 class IAvatarSystemMetadata;
 }
-namespace HMUI {
-class ViewController;
+namespace BeatSaber::AvatarCore {
+struct __AvatarEditorFlowCoordinator__FinishAction;
+}
+namespace BeatSaber::AvatarCore {
+class AvatarSystemCollection;
 }
 namespace GlobalNamespace {
 class SelectAvatarSystemViewController;
 }
-namespace System {
-template <typename T1, typename T2> class Action_2;
+namespace Zenject {
+class DiContainer;
 }
-namespace GlobalNamespace {
-struct __AvatarSystemSelectionFlowCoordinator__FinishAction;
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace HMUI {
+class ViewController;
 }
 namespace GlobalNamespace {
 class PlayerDataModel;
@@ -33,26 +48,11 @@ class PlayerDataModel;
 namespace GlobalNamespace {
 struct __AvatarSystemSelectionFlowCoordinator___Initialize_d__10;
 }
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
+namespace System {
+template <typename T1, typename T2> class Action_2;
 }
 namespace BeatSaber::AvatarCore {
-class AvatarSystemCollection;
-}
-namespace System::Collections::Generic {
-template <typename T> class IReadOnlyList_1;
-}
-namespace BeatSaber::AvatarCore {
-class AvatarEditorFlowCoordinator;
-}
-namespace HMUI {
-struct __ViewController__AnimationType;
-}
-namespace BeatSaber::AvatarCore {
-struct __AvatarEditorFlowCoordinator__FinishAction;
-}
-namespace Zenject {
-class DiContainer;
+struct AvatarSystemIdentifier;
 }
 namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
@@ -60,11 +60,11 @@ class IAsyncStateMachine;
 namespace System::Runtime::CompilerServices {
 struct AsyncVoidMethodBuilder;
 }
-namespace System::Runtime::CompilerServices {
-template <typename TResult> struct TaskAwaiter_1;
-}
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
+}
+namespace System::Runtime::CompilerServices {
+template <typename TResult> struct TaskAwaiter_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -134,8 +134,8 @@ static_assert(offsetof(::GlobalNamespace::__AvatarSystemSelectionFlowCoordinator
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 5064 }), TypeDefinitionIndex(TypeDefinitionIndex(3400)),
-// TypeDefinitionIndex(TypeDefinitionIndex(15172)), TypeDefinitionIndex(TypeDefinitionIndex(3394))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5485)) CS Name:
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 5064 }), TypeDefinitionIndex(TypeDefinitionIndex(3394)),
+// TypeDefinitionIndex(TypeDefinitionIndex(15172)), TypeDefinitionIndex(TypeDefinitionIndex(3400))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5485)) CS Name:
 // ::AvatarSystemSelectionFlowCoordinator::<Initialize>d__10
 struct CORDL_TYPE __AvatarSystemSelectionFlowCoordinator___Initialize_d__10 {
 public:

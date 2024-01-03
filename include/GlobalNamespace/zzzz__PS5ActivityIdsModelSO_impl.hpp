@@ -1,8 +1,8 @@
 #pragma once
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_impl.hpp"
 #include "GlobalNamespace/zzzz__PS5ActivityIdsModelSO_def.hpp"
-#include "GlobalNamespace/zzzz__CompetetiveActivitySO_def.hpp"
 #include "GlobalNamespace/zzzz__ProgressActivitySO_def.hpp"
+#include "GlobalNamespace/zzzz__CompetetiveActivitySO_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::PS5ActivityIdsModelSO.get_progressActivities
 template <>
 

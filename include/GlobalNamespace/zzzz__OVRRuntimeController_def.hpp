@@ -8,32 +8,32 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVRRuntimeController)
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
+}
 namespace GlobalNamespace {
 class __OVRRuntimeController___UpdateControllerModel_d__16;
 }
 namespace UnityEngine {
 class GameObject;
 }
-namespace System::Collections {
-class IEnumerator;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
+namespace UnityEngine {
+class Shader;
 }
 namespace GlobalNamespace {
 class OVRGLTFAnimatinonNode;
 }
-namespace UnityEngine {
-class Shader;
+namespace System::Collections {
+class IEnumerator;
 }
 namespace GlobalNamespace {
 struct OVRGLTFInputNode;
 }
 namespace System {
-class IDisposable;
+class Object;
 }
 namespace System {
-class Object;
+class IDisposable;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;

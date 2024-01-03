@@ -8,13 +8,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(BaseVisualTreeHierarchyTrackerUpdater)
 namespace UnityEngine::UIElements {
-struct HierarchyChangeType;
-}
-namespace UnityEngine::UIElements {
 struct VersionChangeType;
 }
 namespace UnityEngine::UIElements {
 class VisualElement;
+}
+namespace UnityEngine::UIElements {
+struct HierarchyChangeType;
 }
 namespace UnityEngine::UIElements {
 struct __BaseVisualTreeHierarchyTrackerUpdater__State;
@@ -87,7 +87,7 @@ static_assert(offsetof(::UnityEngine::UIElements::__BaseVisualTreeHierarchyTrack
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6754)), TypeDefinitionIndex(TypeDefinitionIndex(6786))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6786)), TypeDefinitionIndex(TypeDefinitionIndex(6754))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6787))
 // CS Name: ::UnityEngine.UIElements::BaseVisualTreeHierarchyTrackerUpdater*
 class CORDL_TYPE BaseVisualTreeHierarchyTrackerUpdater : public ::UnityEngine::UIElements::BaseVisualTreeUpdater {

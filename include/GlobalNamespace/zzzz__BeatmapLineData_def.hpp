@@ -5,17 +5,17 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(BeatmapLineData)
-namespace GlobalNamespace {
-class IReadonlyBeatmapLineData;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace GlobalNamespace {
 class BeatmapObjectData;
 }
 namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace System::Collections::Generic {
 template <typename T> class IReadOnlyList_1;
+}
+namespace GlobalNamespace {
+class IReadonlyBeatmapLineData;
 }
 // Forward declare root types
 namespace GlobalNamespace {

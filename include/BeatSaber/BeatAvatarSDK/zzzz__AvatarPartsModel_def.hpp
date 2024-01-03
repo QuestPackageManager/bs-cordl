@@ -11,7 +11,7 @@ namespace BeatSaber::BeatAvatarSDK {
 class SkinColorSO;
 }
 namespace BeatSaber::BeatAvatarSDK {
-class SkinColorSetSO;
+template <typename T> class AvatarPartCollection_1;
 }
 namespace BeatSaber::BeatAvatarSDK {
 class AvatarMeshPartSO;
@@ -20,13 +20,13 @@ namespace BeatSaber::BeatAvatarSDK {
 class AvatarPartsModelSO;
 }
 namespace BeatSaber::BeatAvatarSDK {
-template <typename T> class AvatarPartCollection_1;
-}
-namespace BeatSaber::BeatAvatarSDK {
 class AvatarSpritePartSO;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace BeatSaber::BeatAvatarSDK {
+class SkinColorSetSO;
 }
 // Forward declare root types
 namespace BeatSaber::BeatAvatarSDK {

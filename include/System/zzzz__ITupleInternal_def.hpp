@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(ITupleInternal)
-namespace System::Text {
-class StringBuilder;
-}
 namespace System::Runtime::CompilerServices {
 class ITuple;
+}
+namespace System::Text {
+class StringBuilder;
 }
 // Forward declare root types
 namespace System {

@@ -9,28 +9,28 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Physics2D)
 namespace UnityEngine {
-struct Vector2;
-}
-namespace UnityEngine {
-class Rigidbody2D;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace UnityEngine {
-struct ContactFilter2D;
+struct PhysicsScene2D;
 }
 namespace UnityEngine {
 struct Ray;
 }
 namespace UnityEngine {
-struct PhysicsScene2D;
+struct Vector2;
 }
 namespace UnityEngine {
 struct RaycastHit2D;
 }
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
 namespace UnityEngine {
 struct Vector3;
+}
+namespace UnityEngine {
+class Rigidbody2D;
+}
+namespace UnityEngine {
+struct ContactFilter2D;
 }
 // Forward declare root types
 namespace UnityEngine {

@@ -7,13 +7,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Mgf1BytesGenerator)
 namespace Org::BouncyCastle::Crypto {
+class IDerivationFunction;
+}
+namespace Org::BouncyCastle::Crypto {
 class IDigest;
 }
 namespace Org::BouncyCastle::Crypto {
 class IDerivationParameters;
-}
-namespace Org::BouncyCastle::Crypto {
-class IDerivationFunction;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Generators {

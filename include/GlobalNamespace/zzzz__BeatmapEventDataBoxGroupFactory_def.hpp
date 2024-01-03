@@ -9,19 +9,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(BeatmapEventDataBoxGroupFactory)
 namespace GlobalNamespace {
-struct __BeatmapEventDataBoxGroupFactory____c__DisplayClass2_0;
+class __DefaultEnvironmentEvents__LightGroupFiltering;
 }
 namespace GlobalNamespace {
 class IndexFilter;
 }
 namespace GlobalNamespace {
-class __DefaultEnvironmentEvents__LightGroupEvent;
-}
-namespace GlobalNamespace {
-class __DefaultEnvironmentEvents__LightGroupFiltering;
+struct __BeatmapEventDataBoxGroupFactory____c__DisplayClass2_0;
 }
 namespace GlobalNamespace {
 class BeatmapEventDataBoxGroup;
+}
+namespace GlobalNamespace {
+class __DefaultEnvironmentEvents__LightGroupEvent;
 }
 // Forward declare root types
 namespace GlobalNamespace {

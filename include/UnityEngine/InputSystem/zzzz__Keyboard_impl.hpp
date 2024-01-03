@@ -4,15 +4,15 @@
 #include "UnityEngine/InputSystem/Utilities/zzzz__InlinedArray_1_impl.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputDevice_impl.hpp"
 #include "UnityEngine/InputSystem/zzzz__Keyboard_def.hpp"
-#include "UnityEngine/zzzz__Vector2_def.hpp"
-#include "UnityEngine/InputSystem/Controls/zzzz__KeyControl_def.hpp"
-#include "UnityEngine/InputSystem/LowLevel/zzzz__ITextInputReceiver_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
-#include "UnityEngine/InputSystem/zzzz__Key_def.hpp"
-#include "UnityEngine/InputSystem/Controls/zzzz__AnyKeyControl_def.hpp"
-#include "UnityEngine/InputSystem/Utilities/zzzz__ReadOnlyArray_1_def.hpp"
+#include "UnityEngine/zzzz__Vector2_def.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__IMECompositionString_def.hpp"
 #include "UnityEngine/InputSystem/Controls/zzzz__ButtonControl_def.hpp"
+#include "UnityEngine/InputSystem/Controls/zzzz__AnyKeyControl_def.hpp"
+#include "UnityEngine/InputSystem/zzzz__Key_def.hpp"
+#include "UnityEngine/InputSystem/Utilities/zzzz__ReadOnlyArray_1_def.hpp"
+#include "UnityEngine/InputSystem/LowLevel/zzzz__ITextInputReceiver_def.hpp"
+#include "UnityEngine/InputSystem/Controls/zzzz__KeyControl_def.hpp"
 //  Writing Method size for method: ::UnityEngine::InputSystem::Keyboard.add_onTextInput
 template <>
 

@@ -3,8 +3,8 @@
 #include "GlobalNamespace/zzzz__LightRotationDirection_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__LightRotationBaseData_def.hpp"
-#include "GlobalNamespace/zzzz__LightRotationDirection_def.hpp"
 #include "GlobalNamespace/zzzz__EaseType_def.hpp"
+#include "GlobalNamespace/zzzz__LightRotationDirection_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::LightRotationBaseData._ctor
 template <>
 

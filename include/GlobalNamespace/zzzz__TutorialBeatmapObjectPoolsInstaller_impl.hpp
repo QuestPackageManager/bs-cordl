@@ -1,8 +1,8 @@
 #pragma once
 #include "Zenject/zzzz__MonoInstaller_impl.hpp"
 #include "GlobalNamespace/zzzz__TutorialBeatmapObjectPoolsInstaller_def.hpp"
-#include "GlobalNamespace/zzzz__TutorialNoteController_def.hpp"
 #include "GlobalNamespace/zzzz__BombNoteController_def.hpp"
+#include "GlobalNamespace/zzzz__TutorialNoteController_def.hpp"
 #include "GlobalNamespace/zzzz__ObstacleController_def.hpp"
 #include "GlobalNamespace/zzzz__NoteLineConnectionController_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::TutorialBeatmapObjectPoolsInstaller.InstallBindings

@@ -4,20 +4,20 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(WingedEdgeEnumerator)
-namespace System::Collections {
-class IEnumerator;
-}
 namespace System {
 class Object;
 }
-namespace UnityEngine::ProBuilder {
-class WingedEdge;
+namespace System {
+class IDisposable;
+}
+namespace System::Collections {
+class IEnumerator;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
-namespace System {
-class IDisposable;
+namespace UnityEngine::ProBuilder {
+class WingedEdge;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder {

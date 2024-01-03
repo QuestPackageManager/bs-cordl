@@ -3,44 +3,42 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "Unity/Collections/zzzz__Allocator_def.hpp"
+#include "Unity/Collections/zzzz__NativeArrayOptions_def.hpp"
 #include "Unity/Collections/zzzz__NativeArray_1_def.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(NativeArray_1)
-namespace Unity::Jobs {
-struct JobHandle;
-}
-namespace Unity::Collections {
-struct NativeArrayOptions;
-}
 namespace Unity::Collections {
 template <typename T> struct __NativeArray_1__Enumerator;
+}
+namespace System {
+class Object;
+}
+namespace Unity::Jobs {
+struct JobHandle;
 }
 namespace System {
 class IDisposable;
 }
 namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
-}
-namespace System::Collections {
-class IEnumerator;
-}
-namespace System {
-class Object;
-}
-namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
-namespace System {
-template <typename T> class IEquatable_1;
+namespace System::Collections {
+class IEnumerable;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
 }
 namespace Unity::Collections {
 struct Allocator;
 }
 namespace System::Collections {
-class IEnumerable;
+class IEnumerator;
+}
+namespace System {
+template <typename T> class IEquatable_1;
 }
 // Forward declare root types
 namespace Unity::Collections {
@@ -58,7 +56,7 @@ namespace Unity::Collections {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10003))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10003)), TypeDefinitionIndex(TypeDefinitionIndex(9997))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9999))
 // CS Name: ::Unity.Collections::NativeArray`1<T>
 struct CORDL_TYPE NativeArray_1 {
@@ -199,7 +197,7 @@ namespace Unity::Collections {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9999)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 3160 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 3160 }), TypeDefinitionIndex(TypeDefinitionIndex(9999))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9998))
 // CS Name: ::NativeArray`1::Enumerator<T>
 struct CORDL_TYPE __NativeArray_1__Enumerator {

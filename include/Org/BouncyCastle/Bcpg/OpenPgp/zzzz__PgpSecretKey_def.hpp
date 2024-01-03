@@ -8,11 +8,26 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(PgpSecretKey)
+namespace Org::BouncyCastle::Bcpg {
+class S2k;
+}
 namespace Org::BouncyCastle::Crypto::Parameters {
 class ECPrivateKeyParameters;
 }
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
-class PgpKeyPair;
+class PgpPublicKey;
+}
+namespace Org::BouncyCastle::Bcpg {
+struct SymmetricKeyAlgorithmTag;
+}
+namespace Org::BouncyCastle::Bcpg::OpenPgp {
+class PgpPrivateKey;
+}
+namespace Org::BouncyCastle::Bcpg::OpenPgp {
+class PgpSignatureSubpacketVector;
+}
+namespace System {
+struct DateTime;
 }
 namespace Org::BouncyCastle::Bcpg {
 class SecretKeyPacket;
@@ -20,44 +35,29 @@ class SecretKeyPacket;
 namespace Org::BouncyCastle::Security {
 class SecureRandom;
 }
-namespace System::Collections {
-class IEnumerable;
-}
-namespace Org::BouncyCastle::Bcpg {
-struct SymmetricKeyAlgorithmTag;
-}
-namespace Org::BouncyCastle::Bcpg {
-class BcpgInputStream;
-}
-namespace System {
-struct DateTime;
-}
-namespace Org::BouncyCastle::Crypto {
-class AsymmetricKeyParameter;
-}
 namespace Org::BouncyCastle::Bcpg {
 struct HashAlgorithmTag;
-}
-namespace Org::BouncyCastle::Crypto::Parameters {
-class KeyParameter;
-}
-namespace Org::BouncyCastle::Bcpg::OpenPgp {
-class PgpPrivateKey;
-}
-namespace Org::BouncyCastle::Bcpg::OpenPgp {
-class PgpPublicKey;
-}
-namespace Org::BouncyCastle::Bcpg::OpenPgp {
-class PgpSignatureSubpacketVector;
 }
 namespace Org::BouncyCastle::Bcpg {
 struct PublicKeyAlgorithmTag;
 }
+namespace Org::BouncyCastle::Bcpg::OpenPgp {
+class PgpKeyPair;
+}
 namespace Org::BouncyCastle::Bcpg {
-class S2k;
+class BcpgInputStream;
 }
 namespace System::IO {
 class Stream;
+}
+namespace System::Collections {
+class IEnumerable;
+}
+namespace Org::BouncyCastle::Crypto {
+class AsymmetricKeyParameter;
+}
+namespace Org::BouncyCastle::Crypto::Parameters {
+class KeyParameter;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Bcpg::OpenPgp {

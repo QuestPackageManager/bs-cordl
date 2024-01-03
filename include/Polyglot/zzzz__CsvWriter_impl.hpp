@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "Polyglot/zzzz__CsvWriter_def.hpp"
-#include "System/Text/zzzz__StringBuilder_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "System/Text/zzzz__StringBuilder_def.hpp"
 //  Writing Method size for method: ::Polyglot::CsvWriter.AppendRow
 template <>
 

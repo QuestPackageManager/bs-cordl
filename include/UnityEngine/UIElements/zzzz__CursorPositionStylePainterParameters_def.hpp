@@ -19,14 +19,14 @@ class Font;
 namespace UnityEngine {
 struct FontStyle;
 }
-namespace UnityEngine::UIElements {
-struct TextNativeSettings;
-}
 namespace UnityEngine {
 struct TextAnchor;
 }
 namespace UnityEngine::UIElements {
 class VisualElement;
+}
+namespace UnityEngine::UIElements {
+struct TextNativeSettings;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -38,7 +38,7 @@ MARK_VAL_T(::UnityEngine::UIElements::CursorPositionStylePainterParameters);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15896)), TypeDefinitionIndex(TypeDefinitionIndex(15901)), TypeDefinitionIndex(TypeDefinitionIndex(10165))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10165)), TypeDefinitionIndex(TypeDefinitionIndex(15896)), TypeDefinitionIndex(TypeDefinitionIndex(15901))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6770))
 // CS Name: ::UnityEngine.UIElements::CursorPositionStylePainterParameters
 struct CORDL_TYPE CursorPositionStylePainterParameters {

@@ -7,11 +7,11 @@ CORDL_MODULE_EXPORT(SaberModelContainer)
 namespace GlobalNamespace {
 class SaberModelController;
 }
-namespace Zenject {
-class DiContainer;
-}
 namespace GlobalNamespace {
 class Saber;
+}
+namespace Zenject {
+class DiContainer;
 }
 // Forward declare root types
 namespace GlobalNamespace {

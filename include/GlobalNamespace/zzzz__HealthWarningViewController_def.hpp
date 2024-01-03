@@ -8,11 +8,8 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(HealthWarningViewController)
-namespace UnityEngine {
-class Coroutine;
-}
-namespace UnityEngine::UI {
-class Button;
+namespace TMPro {
+class TextMeshProUGUI;
 }
 namespace GlobalNamespace {
 class __HealthWarningViewController___DismissHealthAndSafety_d__15;
@@ -20,23 +17,26 @@ class __HealthWarningViewController___DismissHealthAndSafety_d__15;
 namespace System {
 class Action;
 }
-namespace TMPro {
-class TextMeshProUGUI;
+namespace GlobalNamespace {
+class SafeAreaRectChecker;
 }
-namespace System::Collections {
-class IEnumerator;
+namespace UnityEngine {
+class Coroutine;
+}
+namespace UnityEngine::UI {
+class Button;
 }
 namespace GlobalNamespace {
 class ICoroutineStarter;
 }
-namespace GlobalNamespace {
-class SafeAreaRectChecker;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
+namespace System::Collections {
+class IEnumerator;
 }
 namespace System {
 class Object;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
 }
 namespace System {
 class IDisposable;

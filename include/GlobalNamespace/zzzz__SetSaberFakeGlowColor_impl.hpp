@@ -4,9 +4,9 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__SetSaberFakeGlowColor_def.hpp"
 #include "GlobalNamespace/zzzz__SaberTypeObject_def.hpp"
-#include "GlobalNamespace/zzzz__SaberType_def.hpp"
 #include "GlobalNamespace/zzzz__ColorManager_def.hpp"
 #include "GlobalNamespace/zzzz__Parametric3SliceSpriteController_def.hpp"
+#include "GlobalNamespace/zzzz__SaberType_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::SetSaberFakeGlowColor.set_saberType
 template <>
 

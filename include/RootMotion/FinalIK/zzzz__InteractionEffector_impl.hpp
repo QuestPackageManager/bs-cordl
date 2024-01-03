@@ -4,14 +4,14 @@
 #include "UnityEngine/zzzz__Quaternion_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "RootMotion/FinalIK/zzzz__InteractionEffector_def.hpp"
-#include "RootMotion/FinalIK/zzzz__Poser_def.hpp"
-#include "RootMotion/FinalIK/zzzz__IKEffector_def.hpp"
-#include "RootMotion/FinalIK/zzzz__InteractionObject_def.hpp"
-#include "UnityEngine/zzzz__Transform_def.hpp"
-#include "RootMotion/FinalIK/zzzz__InteractionTarget_def.hpp"
-#include "RootMotion/FinalIK/zzzz__FullBodyBipedEffector_def.hpp"
 #include "RootMotion/FinalIK/zzzz__InteractionSystem_def.hpp"
+#include "RootMotion/FinalIK/zzzz__FullBodyBipedEffector_def.hpp"
+#include "RootMotion/FinalIK/zzzz__InteractionTarget_def.hpp"
+#include "RootMotion/FinalIK/zzzz__InteractionObject_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "RootMotion/FinalIK/zzzz__IKEffector_def.hpp"
+#include "RootMotion/FinalIK/zzzz__Poser_def.hpp"
+#include "UnityEngine/zzzz__Transform_def.hpp"
 //  Writing Method size for method: ::RootMotion::FinalIK::InteractionEffector.get_effectorType
 template <>
 

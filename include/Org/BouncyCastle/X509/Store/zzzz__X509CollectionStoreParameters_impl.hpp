@@ -1,9 +1,9 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/X509/Store/zzzz__X509CollectionStoreParameters_def.hpp"
-#include "System/Collections/zzzz__IList_def.hpp"
-#include "Org/BouncyCastle/X509/Store/zzzz__IX509StoreParameters_def.hpp"
 #include "System/Collections/zzzz__ICollection_def.hpp"
+#include "Org/BouncyCastle/X509/Store/zzzz__IX509StoreParameters_def.hpp"
+#include "System/Collections/zzzz__IList_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::X509::Store::X509CollectionStoreParameters._ctor
 template <>
 

@@ -7,10 +7,10 @@ namespace System::Collections::Generic {
 template <typename T> class IList_1;
 }
 namespace System {
-class Type;
+class Attribute;
 }
 namespace System {
-class Attribute;
+class Type;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Serialization {

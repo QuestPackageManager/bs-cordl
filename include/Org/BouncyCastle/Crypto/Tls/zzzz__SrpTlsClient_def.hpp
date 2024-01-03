@@ -6,20 +6,20 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(SrpTlsClient)
-namespace System::Collections {
-class IDictionary;
+namespace Org::BouncyCastle::Crypto::Tls {
+class TlsCipherFactory;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class TlsAuthentication;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class TlsSrpGroupVerifier;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class TlsCipherFactory;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
 class TlsKeyExchange;
 }
-namespace Org::BouncyCastle::Crypto::Tls {
-class TlsAuthentication;
+namespace System::Collections {
+class IDictionary;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {

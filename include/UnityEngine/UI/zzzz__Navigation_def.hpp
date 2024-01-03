@@ -9,11 +9,11 @@ CORDL_MODULE_EXPORT(Navigation)
 namespace UnityEngine::UI {
 class Selectable;
 }
-namespace System {
-template <typename T> class IEquatable_1;
-}
 namespace UnityEngine::UI {
 struct __Navigation__Mode;
+}
+namespace System {
+template <typename T> class IEquatable_1;
 }
 // Forward declare root types
 namespace UnityEngine::UI {

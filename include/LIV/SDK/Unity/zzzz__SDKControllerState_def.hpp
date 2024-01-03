@@ -8,10 +8,10 @@ CORDL_MODULE_INIT
 #include <cstddef>
 CORDL_MODULE_EXPORT(SDKControllerState)
 namespace LIV::SDK::Unity {
-struct SDKVector3;
+struct SDKQuaternion;
 }
 namespace LIV::SDK::Unity {
-struct SDKQuaternion;
+struct SDKVector3;
 }
 // Forward declare root types
 namespace LIV::SDK::Unity {
@@ -23,7 +23,7 @@ MARK_VAL_T(::LIV::SDK::Unity::SDKControllerState);
 // SizeInfo { instance_size: 140, native_size: 140, calculated_instance_size: 140, calculated_native_size: 156, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace LIV::SDK::Unity {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15110)), TypeDefinitionIndex(TypeDefinitionIndex(15109))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15109)), TypeDefinitionIndex(TypeDefinitionIndex(15110))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15121))
 // CS Name: ::LIV.SDK.Unity::SDKControllerState
 struct CORDL_TYPE SDKControllerState {

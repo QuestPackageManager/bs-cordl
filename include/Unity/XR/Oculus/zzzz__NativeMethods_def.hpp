@@ -11,19 +11,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(NativeMethods)
 namespace Unity::XR::Oculus {
-struct __NativeMethods__UserDefinedSettings;
-}
-namespace Unity::XR::Oculus {
-struct __Boundary__BoundaryType;
+class __NativeMethods__Internal;
 }
 namespace UnityEngine {
 struct Vector3;
 }
 namespace Unity::XR::Oculus {
-struct SystemHeadset;
+struct __Boundary__BoundaryType;
 }
 namespace Unity::XR::Oculus {
-class __NativeMethods__Internal;
+struct __NativeMethods__UserDefinedSettings;
+}
+namespace Unity::XR::Oculus {
+struct SystemHeadset;
 }
 // Forward declare root types
 namespace Unity::XR::Oculus {

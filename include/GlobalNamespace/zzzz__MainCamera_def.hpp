@@ -5,16 +5,16 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(MainCamera)
 namespace UnityEngine {
-struct Vector3;
-}
-namespace UnityEngine {
-class Transform;
+struct Quaternion;
 }
 namespace UnityEngine {
 class Camera;
 }
 namespace UnityEngine {
-struct Quaternion;
+struct Vector3;
+}
+namespace UnityEngine {
+class Transform;
 }
 // Forward declare root types
 namespace GlobalNamespace {

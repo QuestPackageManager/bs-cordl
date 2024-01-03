@@ -13,58 +13,58 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(TutorialSongController)
 namespace GlobalNamespace {
-class BeatmapData;
-}
-namespace GlobalNamespace {
-class __TutorialSongController__TutorialBasicNoteSpawnData;
-}
-namespace GlobalNamespace {
-class __TutorialSongController__TutorialObstacleSpawnData;
-}
-namespace GlobalNamespace {
-class __TutorialSongController__InitData;
-}
-namespace GlobalNamespace {
-class __TutorialSongController__TutorialObjectSpawnData;
-}
-namespace GlobalNamespace {
-class ObstacleData;
-}
-namespace GlobalNamespace {
-class NoteData;
-}
-namespace GlobalNamespace {
-class __TutorialSongController__TutorialBombNoteSpawnData;
-}
-namespace GlobalNamespace {
-class BeatmapObjectManager;
-}
-namespace GlobalNamespace {
-struct NoteCutInfo;
+class __TutorialSongController__TutorialJumpingNoteSpawnData;
 }
 namespace GlobalNamespace {
 class Signal;
 }
 namespace GlobalNamespace {
-class NoteController;
+class __TutorialSongController__TutorialObjectSpawnData;
 }
 namespace GlobalNamespace {
 class ObstacleController;
 }
 namespace GlobalNamespace {
+class __TutorialSongController__TutorialBombNoteSpawnData;
+}
+namespace GlobalNamespace {
+class ObstacleData;
+}
+namespace GlobalNamespace {
+class BeatmapData;
+}
+namespace GlobalNamespace {
+class BeatmapObjectManager;
+}
+namespace GlobalNamespace {
 class AudioTimeSyncController;
 }
 namespace GlobalNamespace {
-class __TutorialSongController__TutorialJumpingNoteSpawnData;
+class __TutorialSongController__InitData;
 }
 namespace GlobalNamespace {
-struct ColorType;
+class NoteController;
+}
+namespace GlobalNamespace {
+class NoteData;
+}
+namespace GlobalNamespace {
+struct NoteCutInfo;
+}
+namespace GlobalNamespace {
+class __TutorialSongController__TutorialObstacleSpawnData;
+}
+namespace GlobalNamespace {
+class __TutorialSongController__TutorialBasicNoteSpawnData;
 }
 namespace GlobalNamespace {
 struct NoteLineLayer;
 }
 namespace GlobalNamespace {
 struct NoteCutDirection;
+}
+namespace GlobalNamespace {
+struct ColorType;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -304,7 +304,7 @@ static_assert(offsetof(::GlobalNamespace::__TutorialSongController__TutorialJump
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14755)), TypeDefinitionIndex(TypeDefinitionIndex(5346)), TypeDefinitionIndex(TypeDefinitionIndex(14752))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14752)), TypeDefinitionIndex(TypeDefinitionIndex(14755)), TypeDefinitionIndex(TypeDefinitionIndex(5346))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5347))
 // CS Name: ::TutorialSongController::TutorialBasicNoteSpawnData*
 class CORDL_TYPE __TutorialSongController__TutorialBasicNoteSpawnData : public ::GlobalNamespace::__TutorialSongController__TutorialJumpingNoteSpawnData {

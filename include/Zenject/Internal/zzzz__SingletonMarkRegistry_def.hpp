@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(SingletonMarkRegistry)
-namespace System {
-class Type;
-}
 namespace System::Collections::Generic {
 template <typename T> class HashSet_1;
+}
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace Zenject::Internal {

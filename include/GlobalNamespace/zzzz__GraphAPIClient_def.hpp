@@ -13,8 +13,23 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(GraphAPIClient)
+namespace GlobalNamespace {
+struct __GraphAPIClient__PostOptions;
+}
+namespace System::Net::Http {
+class HttpContent;
+}
+namespace GlobalNamespace {
+class INetworkConfig;
+}
+namespace GlobalNamespace {
+template <typename TResponse> struct __GraphAPIClient___Post_d__5_1;
+}
 namespace System::Threading::Tasks {
 template <typename TResult> class Task_1;
+}
+namespace System {
+class Uri;
 }
 namespace GlobalNamespace {
 template <typename TRequest, typename TResponse> struct __GraphAPIClient___Post_d__4_2;
@@ -22,26 +37,11 @@ template <typename TRequest, typename TResponse> struct __GraphAPIClient___Post_
 namespace System::Net::Http {
 class HttpClient;
 }
-namespace System::Threading {
-struct CancellationToken;
-}
-namespace System {
-class Uri;
-}
-namespace System::Net::Http {
-class HttpContent;
-}
-namespace GlobalNamespace {
-template <typename TResponse> struct __GraphAPIClient___Post_d__5_1;
-}
-namespace GlobalNamespace {
-class INetworkConfig;
-}
-namespace GlobalNamespace {
-struct __GraphAPIClient__PostOptions;
+namespace System::Runtime::CompilerServices {
+class IAsyncStateMachine;
 }
 namespace System::Runtime::CompilerServices {
-struct TaskAwaiter;
+template <typename TResult> struct TaskAwaiter_1;
 }
 namespace System {
 class UriBuilder;
@@ -49,11 +49,11 @@ class UriBuilder;
 namespace System::Runtime::CompilerServices {
 template <typename TResult> struct AsyncTaskMethodBuilder_1;
 }
-namespace System::Runtime::CompilerServices {
-class IAsyncStateMachine;
+namespace System::Threading {
+struct CancellationToken;
 }
 namespace System::Runtime::CompilerServices {
-template <typename TResult> struct TaskAwaiter_1;
+struct TaskAwaiter;
 }
 namespace System::Net::Http {
 class HttpRequestMessage;
@@ -127,9 +127,9 @@ namespace GlobalNamespace {
 // cpp template
 template <typename TRequest, typename TResponse>
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12769)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(3393)),
-// TypeDefinitionIndex(TypeDefinitionIndex(2677)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 865 }), TypeDefinitionIndex(TypeDefinitionIndex(3402)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 865 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(12770)) CS Name:
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12769)), TypeDefinitionIndex(TypeDefinitionIndex(3393)), TypeDefinitionIndex(TypeDefinitionIndex(2677)),
+// TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 865 }), TypeDefinitionIndex(TypeDefinitionIndex(3394)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 865 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(12770)) CS Name:
 // ::GraphAPIClient::<Post>d__4`2<TRequest,TResponse>
 struct CORDL_TYPE __GraphAPIClient___Post_d__4_2 {
 public:
@@ -213,9 +213,9 @@ namespace GlobalNamespace {
 // cpp template
 template <typename TResponse>
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 94 }), TypeDefinitionIndex(TypeDefinitionIndex(2677)),
-// TypeDefinitionIndex(TypeDefinitionIndex(14655)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 397 }),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 883 }), TypeDefinitionIndex(TypeDefinitionIndex(3402))} Self: TypeDefinitionIndex(TypeDefinitionIndex(12771)) CS
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14655)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 94 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(3394)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 883 }), TypeDefinitionIndex(TypeDefinitionIndex(3402)),
+// TypeDefinitionIndex(TypeDefinitionIndex(2677)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 397 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(12771)) CS
 // Name: ::GraphAPIClient::<Post>d__5`1<TResponse>
 struct CORDL_TYPE __GraphAPIClient___Post_d__5_1 {
 public:
@@ -287,7 +287,7 @@ public:
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12769)), TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12772))
 // CS Name: ::GraphAPIClient*
 class CORDL_TYPE GraphAPIClient : public ::System::Object {

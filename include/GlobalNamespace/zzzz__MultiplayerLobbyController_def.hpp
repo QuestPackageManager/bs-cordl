@@ -6,22 +6,22 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(MultiplayerLobbyController)
 namespace GlobalNamespace {
-class MenuEnvironmentManager;
+class MultiplayerLobbyAvatarManager;
 }
 namespace GlobalNamespace {
-class MultiplayerLobbyAvatarPlaceManager;
+class MultiplayerLobbyCenterStageManager;
+}
+namespace GlobalNamespace {
+class MenuEnvironmentManager;
 }
 namespace BeatSaber::AvatarCore {
 class OptionalAvatarDataSender;
 }
 namespace GlobalNamespace {
+class MultiplayerLobbyAvatarPlaceManager;
+}
+namespace GlobalNamespace {
 class PlayerDataModel;
-}
-namespace GlobalNamespace {
-class MultiplayerLobbyAvatarManager;
-}
-namespace GlobalNamespace {
-class MultiplayerLobbyCenterStageManager;
 }
 // Forward declare root types
 namespace GlobalNamespace {

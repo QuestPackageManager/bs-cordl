@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "RootMotion/FinalIK/zzzz__VRIKLODController_def.hpp"
-#include "UnityEngine/zzzz__Renderer_def.hpp"
 #include "RootMotion/FinalIK/zzzz__VRIK_def.hpp"
+#include "UnityEngine/zzzz__Renderer_def.hpp"
 //  Writing Method size for method: ::RootMotion::FinalIK::VRIKLODController.Start
 template <>
 

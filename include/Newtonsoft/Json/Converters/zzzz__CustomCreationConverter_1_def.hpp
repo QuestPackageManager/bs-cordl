@@ -7,17 +7,17 @@ CORDL_MODULE_EXPORT(CustomCreationConverter_1)
 namespace System {
 class Type;
 }
-namespace System {
-class Object;
-}
-namespace Newtonsoft::Json {
-class JsonReader;
-}
 namespace Newtonsoft::Json {
 class JsonSerializer;
 }
 namespace Newtonsoft::Json {
 class JsonWriter;
+}
+namespace System {
+class Object;
+}
+namespace Newtonsoft::Json {
+class JsonReader;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Converters {

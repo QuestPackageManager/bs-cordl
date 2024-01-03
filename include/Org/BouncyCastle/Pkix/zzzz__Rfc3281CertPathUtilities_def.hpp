@@ -4,35 +4,35 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(Rfc3281CertPathUtilities)
-namespace Org::BouncyCastle::Pkix {
-class PkixParameters;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class DistributionPoint;
-}
-namespace Org::BouncyCastle::Pkix {
-class PkixCertPathValidatorResult;
-}
 namespace System {
 struct DateTime;
 }
 namespace Org::BouncyCastle::Pkix {
-class CertStatus;
+class PkixParameters;
 }
-namespace System::Collections {
-class IList;
+namespace Org::BouncyCastle::Pkix {
+class PkixCertPathValidatorResult;
 }
 namespace Org::BouncyCastle::X509 {
-class X509Certificate;
+class IX509AttributeCertificate;
 }
 namespace Org::BouncyCastle::Pkix {
 class ReasonsMask;
 }
+namespace System::Collections {
+class IList;
+}
 namespace Org::BouncyCastle::Pkix {
 class PkixCertPath;
 }
+namespace Org::BouncyCastle::Pkix {
+class CertStatus;
+}
 namespace Org::BouncyCastle::X509 {
-class IX509AttributeCertificate;
+class X509Certificate;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class DistributionPoint;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Pkix {

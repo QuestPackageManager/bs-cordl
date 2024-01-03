@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "Newtonsoft/Json/Linq/JsonPath/zzzz__QueryOperator_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(QueryExpression)
-namespace Newtonsoft::Json::Linq::JsonPath {
-struct QueryOperator;
-}
 namespace Newtonsoft::Json::Linq {
 class JToken;
+}
+namespace Newtonsoft::Json::Linq::JsonPath {
+struct QueryOperator;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Linq::JsonPath {

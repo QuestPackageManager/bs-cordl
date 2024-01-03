@@ -10,38 +10,29 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(GraphyDebugger)
-namespace Tayx::Graphy::Audio {
-class G_AudioMonitor;
-}
 namespace Tayx::Graphy {
-class __GraphyDebugger__DebugPacket;
-}
-namespace Tayx::Graphy {
-class __GraphyDebugger____c;
+struct __GraphyDebugger__DebugComparer;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace Tayx::Graphy {
+class __GraphyDebugger__DebugPacket;
+}
+namespace Tayx::Graphy {
 class __GraphyDebugger____c__DisplayClass18_0;
+}
+namespace Tayx::Graphy {
+struct __GraphyDebugger__DebugVariable;
+}
+namespace Tayx::Graphy::Fps {
+class G_FpsMonitor;
 }
 namespace Tayx::Graphy {
 struct __GraphyDebugger__DebugCondition;
 }
 namespace Tayx::Graphy {
-struct __GraphyDebugger__DebugComparer;
-}
-namespace Tayx::Graphy {
-struct __GraphyDebugger__DebugVariable;
-}
-namespace Tayx::Graphy {
 class __GraphyDebugger____c__DisplayClass19_0;
-}
-namespace Tayx::Graphy {
-struct __GraphyDebugger__ConditionEvaluation;
-}
-namespace Tayx::Graphy::Fps {
-class G_FpsMonitor;
 }
 namespace Tayx::Graphy {
 struct __GraphyDebugger__MessageType;
@@ -52,8 +43,17 @@ class __GraphyDebugger____c__DisplayClass21_0;
 namespace Tayx::Graphy::Ram {
 class G_RamMonitor;
 }
+namespace Tayx::Graphy::Audio {
+class G_AudioMonitor;
+}
 namespace System {
 class Action;
+}
+namespace Tayx::Graphy {
+struct __GraphyDebugger__ConditionEvaluation;
+}
+namespace Tayx::Graphy {
+class __GraphyDebugger____c;
 }
 namespace UnityEngine::Events {
 class UnityEvent;

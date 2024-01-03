@@ -4,8 +4,8 @@
 #include "UnityEngine/AI/zzzz__NavMesh_def.hpp"
 #include "UnityEngine/AI/zzzz__NavMeshHit_def.hpp"
 #include "UnityEngine/AI/zzzz__NavMeshPath_def.hpp"
-#include "UnityEngine/AI/zzzz__NavMesh_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "UnityEngine/AI/zzzz__NavMesh_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::UnityEngine::AI::__NavMesh__OnNavMeshPreUpdate._ctor
 template <>

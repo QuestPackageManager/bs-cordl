@@ -6,22 +6,22 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(PS4AppInit)
 namespace GlobalNamespace {
-class MainSystemInit;
-}
-namespace GlobalNamespace {
 class SonyOnGoingToBackgroundSaveHandler;
-}
-namespace GlobalNamespace {
-class DefaultScenesTransitionsFromInit;
 }
 namespace System::Threading::Tasks {
 class Task;
 }
 namespace GlobalNamespace {
-class AppInitScenesTransitionSetupDataContainerSO;
+class PS4ActivePublisherSKUSettingsSO;
 }
 namespace GlobalNamespace {
-class PS4ActivePublisherSKUSettingsSO;
+class MainSystemInit;
+}
+namespace GlobalNamespace {
+class DefaultScenesTransitionsFromInit;
+}
+namespace GlobalNamespace {
+class AppInitScenesTransitionSetupDataContainerSO;
 }
 // Forward declare root types
 namespace GlobalNamespace {

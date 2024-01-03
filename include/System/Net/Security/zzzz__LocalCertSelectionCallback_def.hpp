@@ -11,10 +11,10 @@ namespace System {
 class Object;
 }
 namespace System::Security::Cryptography::X509Certificates {
-class X509CertificateCollection;
+class X509Certificate;
 }
 namespace System::Security::Cryptography::X509Certificates {
-class X509Certificate;
+class X509CertificateCollection;
 }
 // Forward declare root types
 namespace System::Net::Security {

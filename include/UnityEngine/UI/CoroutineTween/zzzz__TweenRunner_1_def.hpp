@@ -9,20 +9,20 @@ CORDL_MODULE_EXPORT(TweenRunner_1)
 namespace UnityEngine {
 class MonoBehaviour;
 }
+namespace System::Collections {
+class IEnumerator;
+}
 namespace UnityEngine::UI::CoroutineTween {
 template <typename T> class __TweenRunner_1___Start_d__2;
 }
-namespace System::Collections {
-class IEnumerator;
+namespace System {
+class Object;
 }
 namespace System {
 class IDisposable;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
-}
-namespace System {
-class Object;
 }
 // Forward declare root types
 namespace UnityEngine::UI::CoroutineTween {

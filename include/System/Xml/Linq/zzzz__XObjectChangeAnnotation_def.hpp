@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(XObjectChangeAnnotation)
-namespace System::Xml::Linq {
-class XObjectChangeEventArgs;
-}
 namespace System {
 template <typename TEventArgs> class EventHandler_1;
+}
+namespace System::Xml::Linq {
+class XObjectChangeEventArgs;
 }
 // Forward declare root types
 namespace System::Xml::Linq {

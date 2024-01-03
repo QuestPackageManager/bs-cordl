@@ -10,10 +10,10 @@ namespace System::Threading::Tasks {
 struct ValueTask;
 }
 namespace System::Runtime::CompilerServices {
-struct AsyncTaskMethodBuilder;
+class IAsyncStateMachine;
 }
 namespace System::Runtime::CompilerServices {
-class IAsyncStateMachine;
+struct AsyncTaskMethodBuilder;
 }
 namespace System {
 class Exception;

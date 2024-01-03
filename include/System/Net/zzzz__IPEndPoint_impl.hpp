@@ -1,10 +1,10 @@
 #pragma once
 #include "System/Net/zzzz__EndPoint_impl.hpp"
 #include "System/Net/zzzz__IPEndPoint_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 #include "System/Net/zzzz__SocketAddress_def.hpp"
 #include "System/Net/zzzz__IPAddress_def.hpp"
 #include "System/Net/zzzz__EndPoint_def.hpp"
-#include "System/zzzz__Object_def.hpp"
 #include "System/Net/Sockets/zzzz__AddressFamily_def.hpp"
 //  Writing Method size for method: ::System::Net::IPEndPoint.get_AddressFamily
 template <>

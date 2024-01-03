@@ -7,10 +7,10 @@ namespace Org::BouncyCastle::Crypto::Tls {
 class Certificate;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class CertificateRequest;
+class TlsCredentials;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class TlsCredentials;
+class CertificateRequest;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {

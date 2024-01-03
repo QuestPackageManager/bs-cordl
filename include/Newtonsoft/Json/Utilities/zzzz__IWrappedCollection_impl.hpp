@@ -1,7 +1,7 @@
 #pragma once
 #include "Newtonsoft/Json/Utilities/zzzz__IWrappedCollection_def.hpp"
-#include "System/Collections/zzzz__IList_def.hpp"
 #include "System/Collections/zzzz__ICollection_def.hpp"
+#include "System/Collections/zzzz__IList_def.hpp"
 #include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::Newtonsoft::Json::Utilities::IWrappedCollection.get_UnderlyingCollection

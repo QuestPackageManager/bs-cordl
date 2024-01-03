@@ -18,11 +18,11 @@ class Type;
 namespace System::Diagnostics {
 struct __StackTrace__TraceFormat;
 }
-namespace System::Diagnostics {
-class StackFrame;
-}
 namespace System::Reflection {
 class MethodBase;
+}
+namespace System::Diagnostics {
+class StackFrame;
 }
 namespace System {
 class Exception;

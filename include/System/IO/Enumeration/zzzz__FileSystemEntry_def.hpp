@@ -12,26 +12,26 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 CORDL_MODULE_EXPORT(FileSystemEntry)
-namespace System::IO::Enumeration {
-struct __FileSystemEntry____fileNameBuffer_e__FixedBuffer;
-}
 namespace System::IO {
 class FileSystemInfo;
 }
-namespace System {
-template <typename T> struct Span_1;
+namespace System::IO {
+struct FileStatus;
+}
+namespace System::IO::Enumeration {
+struct __FileSystemEntry____fileNameBuffer_e__FixedBuffer;
 }
 namespace GlobalNamespace {
 struct __Interop__Sys__DirectoryEntry;
+}
+namespace System {
+template <typename T> struct Span_1;
 }
 namespace System {
 template <typename T> struct ReadOnlySpan_1;
 }
 namespace System::IO {
 struct FileAttributes;
-}
-namespace System::IO {
-struct FileStatus;
 }
 // Forward declare root types
 namespace System::IO::Enumeration {
@@ -83,10 +83,10 @@ static_assert(offsetof(::System::IO::Enumeration::__FileSystemEntry____fileNameB
 // SizeInfo { instance_size: 752, native_size: 760, calculated_instance_size: 752, calculated_native_size: 768, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::IO::Enumeration {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2470)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2470), inst: 292 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(3641)), TypeDefinitionIndex(TypeDefinitionIndex(3594)), TypeDefinitionIndex(TypeDefinitionIndex(2464)), TypeDefinitionIndex(TypeDefinitionIndex(3609)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2464), inst: 292 }), TypeDefinitionIndex(TypeDefinitionIndex(2214))} Self: TypeDefinitionIndex(TypeDefinitionIndex(3642)) CS
-// Name: ::System.IO.Enumeration::FileSystemEntry
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3641)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2470), inst: 292 }), GenericInstantiation(GenericInstantiation {
+// tdi: TypeDefinitionIndex(2464), inst: 292 }), TypeDefinitionIndex(TypeDefinitionIndex(2470)), TypeDefinitionIndex(TypeDefinitionIndex(3609)), TypeDefinitionIndex(TypeDefinitionIndex(3594)),
+// TypeDefinitionIndex(TypeDefinitionIndex(2214)), TypeDefinitionIndex(TypeDefinitionIndex(2464))} Self: TypeDefinitionIndex(TypeDefinitionIndex(3642)) CS Name:
+// ::System.IO.Enumeration::FileSystemEntry
 struct CORDL_TYPE FileSystemEntry {
 public:
   // Declarations

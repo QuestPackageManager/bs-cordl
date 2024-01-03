@@ -2,9 +2,9 @@
 #include "GlobalNamespace/zzzz__ObstacleController_impl.hpp"
 #include "Zenject/zzzz__MonoMemoryPool_1_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerConnectedPlayerObstacleController_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
-#include "GlobalNamespace/zzzz__MultiplayerConnectedPlayerObstacleController_def.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerConnectedPlayerObstacleClippingController_def.hpp"
+#include "GlobalNamespace/zzzz__MultiplayerConnectedPlayerObstacleController_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "GlobalNamespace/zzzz__ObstacleData_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::MultiplayerConnectedPlayerObstacleController.Init
 template <>

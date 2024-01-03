@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "UnityEngine/InputSystem/zzzz__InputControl_1_def.hpp"
 #include "UnityEngine/zzzz__Quaternion_def.hpp"
 CORDL_MODULE_EXPORT(QuaternionControl)
-namespace UnityEngine {
-struct Quaternion;
-}
 namespace UnityEngine::InputSystem::Controls {
 class AxisControl;
+}
+namespace UnityEngine {
+struct Quaternion;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::Controls {

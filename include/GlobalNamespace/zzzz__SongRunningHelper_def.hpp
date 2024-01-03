@@ -11,37 +11,37 @@ CORDL_MODULE_INIT
 #include <cstddef>
 CORDL_MODULE_EXPORT(SongRunningHelper)
 namespace GlobalNamespace {
-struct __SongRunningHelper__QueuedSongParams;
-}
-namespace GlobalNamespace {
-class StandardLevelScenesTransitionSetupDataSO;
-}
-namespace GlobalNamespace {
-class LevelCompletionResults;
-}
-namespace System::Collections::Generic {
-template <typename T> class Queue_1;
-}
-namespace GlobalNamespace {
 class MenuTransitionsHelper;
 }
 namespace GlobalNamespace {
-class BeatmapLevelsModel;
-}
-namespace GlobalNamespace {
-class IBeatmapLevel;
+struct __SongRunningHelper__QueuedSongParams;
 }
 namespace GlobalNamespace {
 class BeatmapCharacteristicCollection;
 }
 namespace GlobalNamespace {
-struct BeatmapDifficulty;
+class StandardLevelScenesTransitionSetupDataSO;
+}
+namespace GlobalNamespace {
+class BeatmapLevelsModel;
+}
+namespace System::Collections::Generic {
+template <typename T> class Queue_1;
+}
+namespace GlobalNamespace {
+class IBeatmapLevel;
+}
+namespace GlobalNamespace {
+class LevelCompletionResults;
+}
+namespace GlobalNamespace {
+struct __RecordingToolManager__SetupData;
 }
 namespace System {
 template <typename T1, typename T2> class Action_2;
 }
 namespace GlobalNamespace {
-struct __RecordingToolManager__SetupData;
+struct BeatmapDifficulty;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -57,7 +57,7 @@ MARK_VAL_T(::GlobalNamespace::__SongRunningHelper__QueuedSongParams);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14717)), TypeDefinitionIndex(TypeDefinitionIndex(5962))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5962)), TypeDefinitionIndex(TypeDefinitionIndex(14717))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5382))
 // CS Name: ::SongRunningHelper::QueuedSongParams
 struct CORDL_TYPE __SongRunningHelper__QueuedSongParams {
@@ -119,8 +119,8 @@ static_assert(offsetof(::GlobalNamespace::__SongRunningHelper__QueuedSongParams,
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5382)), TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(2613)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 4780 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(5383)) CS Name: ::SongRunningHelper*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2448)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 4780
+// }), TypeDefinitionIndex(TypeDefinitionIndex(5382))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5383)) CS Name: ::SongRunningHelper*
 class CORDL_TYPE SongRunningHelper : public ::System::Object {
 public:
   // Declarations

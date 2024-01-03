@@ -4,14 +4,14 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(CurvedCanvasSettingsHelper)
-namespace UnityEngine {
-class Canvas;
+namespace HMUI {
+class CurvedCanvasSettings;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
-namespace HMUI {
-class CurvedCanvasSettings;
+namespace UnityEngine {
+class Canvas;
 }
 // Forward declare root types
 namespace HMUI {

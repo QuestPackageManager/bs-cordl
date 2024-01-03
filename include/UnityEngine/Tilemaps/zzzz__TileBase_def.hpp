@@ -8,17 +8,17 @@ CORDL_MODULE_EXPORT(TileBase)
 namespace UnityEngine::Tilemaps {
 struct TileAnimationData;
 }
-namespace UnityEngine::Tilemaps {
-class ITilemap;
-}
 namespace UnityEngine {
 class GameObject;
 }
 namespace UnityEngine::Tilemaps {
-struct TileData;
+class ITilemap;
 }
 namespace UnityEngine {
 struct Vector3Int;
+}
+namespace UnityEngine::Tilemaps {
+struct TileData;
 }
 // Forward declare root types
 namespace UnityEngine::Tilemaps {

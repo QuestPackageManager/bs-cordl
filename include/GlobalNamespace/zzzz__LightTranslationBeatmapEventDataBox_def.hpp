@@ -11,19 +11,13 @@ namespace GlobalNamespace {
 struct __BeatmapEventDataBox__DistributionParamType;
 }
 namespace GlobalNamespace {
+struct LightAxis;
+}
+namespace GlobalNamespace {
 class IBeatToTimeConvertor;
 }
 namespace GlobalNamespace {
 class IndexFilter;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace GlobalNamespace {
-class LightTranslationBaseData;
-}
-namespace System::Collections::Generic {
-template <typename T> class IReadOnlyList_1;
 }
 namespace GlobalNamespace {
 struct EaseType;
@@ -31,8 +25,14 @@ struct EaseType;
 namespace GlobalNamespace {
 class BeatmapEventData;
 }
+namespace System::Collections::Generic {
+template <typename T> class IReadOnlyList_1;
+}
 namespace GlobalNamespace {
-struct LightAxis;
+class LightTranslationBaseData;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -44,7 +44,7 @@ MARK_REF_PTR_T(::GlobalNamespace::LightTranslationBeatmapEventDataBox);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 76, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14733)), TypeDefinitionIndex(TypeDefinitionIndex(4301))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4301)), TypeDefinitionIndex(TypeDefinitionIndex(14733))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4324))
 // CS Name: ::LightTranslationBeatmapEventDataBox*
 class CORDL_TYPE LightTranslationBeatmapEventDataBox : public ::GlobalNamespace::BeatmapEventDataBox {

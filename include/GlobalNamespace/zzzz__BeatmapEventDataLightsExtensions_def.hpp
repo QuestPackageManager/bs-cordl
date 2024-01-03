@@ -6,13 +6,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(BeatmapEventDataLightsExtensions)
 namespace GlobalNamespace {
-class __BeatmapEventDataLightsExtensions__LightSwitchEventEffectDataValues;
+class BasicBeatmapEventData;
 }
 namespace GlobalNamespace {
 struct EnvironmentColorType;
 }
 namespace GlobalNamespace {
-class BasicBeatmapEventData;
+class __BeatmapEventDataLightsExtensions__LightSwitchEventEffectDataValues;
 }
 // Forward declare root types
 namespace GlobalNamespace {

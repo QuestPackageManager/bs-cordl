@@ -1,10 +1,10 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__BitConverter_def.hpp"
-#include "System/zzzz__BitConverter_def.hpp"
 #include "System/zzzz__Span_1_def.hpp"
-#include "System/Buffers/zzzz__SpanAction_2_def.hpp"
+#include "System/zzzz__BitConverter_def.hpp"
 #include "System/zzzz__ValueTuple_3_def.hpp"
+#include "System/Buffers/zzzz__SpanAction_2_def.hpp"
 //  Writing Method size for method: ::System::__BitConverter____c._ctor
 template <>
 

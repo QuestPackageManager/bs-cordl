@@ -7,20 +7,20 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(OculusLoader)
+namespace Unity::XR::Oculus {
+struct __OculusLoader__DeviceSupportedResult;
+}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
-namespace UnityEngine::XR {
-class XRDisplaySubsystemDescriptor;
+namespace Unity::XR::Oculus {
+class OculusSettings;
 }
 namespace UnityEngine::XR {
 class XRInputSubsystem;
 }
-namespace Unity::XR::Oculus {
-struct __OculusLoader__DeviceSupportedResult;
-}
-namespace Unity::XR::Oculus {
-class OculusSettings;
+namespace UnityEngine::XR {
+class XRDisplaySubsystemDescriptor;
 }
 // Forward declare root types
 namespace Unity::XR::Oculus {

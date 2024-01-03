@@ -6,13 +6,13 @@ CORDL_MODULE_INIT
 #include <cstddef>
 CORDL_MODULE_EXPORT(AnimationPosePlayable)
 namespace UnityEngine::Playables {
-class IPlayable;
-}
-namespace UnityEngine::Playables {
 struct PlayableHandle;
 }
 namespace System {
 template <typename T> class IEquatable_1;
+}
+namespace UnityEngine::Playables {
+class IPlayable;
 }
 // Forward declare root types
 namespace UnityEngine::Animations {

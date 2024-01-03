@@ -14,29 +14,26 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(PacketEncryptionLayer)
-namespace GlobalNamespace {
-template <typename TKey, typename TValue> class ExpiringDictionary_2;
-}
-namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
-}
 namespace System::Threading::Tasks {
 class Task;
-}
-namespace System::Net {
-class IPEndPoint;
 }
 namespace System::Diagnostics {
 class Stopwatch;
 }
-namespace System::Net {
-class IPAddress;
-}
-namespace GlobalNamespace {
-class __PacketEncryptionLayer__EncryptionStatistics;
-}
 namespace GlobalNamespace {
 struct __PacketEncryptionLayer___AddPendingEncryptedEndpointAsync_d__27;
+}
+namespace GlobalNamespace {
+class __EncryptionUtility__IEncryptionState;
+}
+namespace BGNet::Core {
+class ITimeProvider;
+}
+namespace GlobalNamespace {
+template <typename TKey, typename TValue> class ExpiringDictionary_2;
+}
+namespace System::Net {
+class IPAddress;
 }
 namespace GlobalNamespace {
 struct __PacketEncryptionLayer___AddEncryptedEndpointAsync_d__25;
@@ -44,44 +41,47 @@ struct __PacketEncryptionLayer___AddEncryptedEndpointAsync_d__25;
 namespace GlobalNamespace {
 class __PacketEncryptionLayer__PendingEncryptionStateList;
 }
+namespace System::Net {
+class IPEndPoint;
+}
 namespace BGNet::Core {
 class ITaskUtility;
 }
-namespace BGNet::Core {
-class ITimeProvider;
-}
 namespace GlobalNamespace {
-class __EncryptionUtility__IEncryptionState;
+class __PacketEncryptionLayer__EncryptionStatistics;
+}
+namespace System::Threading::Tasks {
+template <typename TResult> class Task_1;
 }
 namespace GlobalNamespace {
 class __PacketEncryptionLayer__PendingEncryptionStateList____c__DisplayClass4_0;
 }
 namespace GlobalNamespace {
+class __PacketEncryptionLayer__PendingEncryptionStateList____c;
+}
+namespace GlobalNamespace {
 class __PacketEncryptionLayer__PendingEncryptionStateList____c__DisplayClass8_0;
+}
+namespace System {
+class IDisposable;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace System {
-class IDisposable;
-}
-namespace GlobalNamespace {
-class __PacketEncryptionLayer__PendingEncryptionStateList____c;
+template <typename T, typename TResult> class Func_2;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> struct KeyValuePair_2;
 }
-namespace System {
-template <typename T, typename TResult> class Func_2;
+namespace System::Runtime::CompilerServices {
+template <typename TResult> struct AsyncTaskMethodBuilder_1;
 }
 namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
 }
 namespace System::Runtime::CompilerServices {
 template <typename TResult> struct TaskAwaiter_1;
-}
-namespace System::Runtime::CompilerServices {
-template <typename TResult> struct AsyncTaskMethodBuilder_1;
 }
 namespace System::Runtime::CompilerServices {
 struct AsyncTaskMethodBuilder;
@@ -580,9 +580,9 @@ static_assert(offsetof(::GlobalNamespace::__PacketEncryptionLayer__PendingEncryp
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 907 }), TypeDefinitionIndex(TypeDefinitionIndex(3394)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 907 }), TypeDefinitionIndex(TypeDefinitionIndex(12723))} Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(12912)) CS Name: ::PacketEncryptionLayer::<AddEncryptedEndpointAsync>d__25
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 907 }), GenericInstantiation(GenericInstantiation {
+// tdi: TypeDefinitionIndex(3394), inst: 907 }), TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(12723))} Self: TypeDefinitionIndex(TypeDefinitionIndex(12912))
+// CS Name: ::PacketEncryptionLayer::<AddEncryptedEndpointAsync>d__25
 struct CORDL_TYPE __PacketEncryptionLayer___AddEncryptedEndpointAsync_d__25 {
 public:
   // Declarations
@@ -670,8 +670,9 @@ static_assert(offsetof(::GlobalNamespace::__PacketEncryptionLayer___AddEncrypted
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3401)), TypeDefinitionIndex(TypeDefinitionIndex(12723)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 907
-// }), TypeDefinitionIndex(TypeDefinitionIndex(3394))} Self: TypeDefinitionIndex(TypeDefinitionIndex(12913)) CS Name: ::PacketEncryptionLayer::<AddPendingEncryptedEndpointAsync>d__27
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3401)), TypeDefinitionIndex(TypeDefinitionIndex(12723)), TypeDefinitionIndex(TypeDefinitionIndex(3394)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 907 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(12913)) CS Name:
+// ::PacketEncryptionLayer::<AddPendingEncryptedEndpointAsync>d__27
 struct CORDL_TYPE __PacketEncryptionLayer___AddPendingEncryptedEndpointAsync_d__27 {
 public:
   // Declarations

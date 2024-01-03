@@ -4,29 +4,29 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(MockPlayerFiniteStateMachine)
-namespace GlobalNamespace {
-class IMenuRpcManager;
-}
-namespace System {
-class IDisposable;
-}
 namespace UnityEngine {
 struct Color;
-}
-namespace GlobalNamespace {
-class MockPlayerGamePoseGenerator;
 }
 namespace GlobalNamespace {
 class IMultiplayerSessionManager;
 }
 namespace GlobalNamespace {
-class IGameplayRpcManager;
+class IMenuRpcManager;
 }
 namespace GlobalNamespace {
 class MockPlayerLobbyPoseGenerator;
 }
 namespace GlobalNamespace {
 class IMockBeatmapDataProvider;
+}
+namespace System {
+class IDisposable;
+}
+namespace GlobalNamespace {
+class MockPlayerGamePoseGenerator;
+}
+namespace GlobalNamespace {
+class IGameplayRpcManager;
 }
 // Forward declare root types
 namespace GlobalNamespace {

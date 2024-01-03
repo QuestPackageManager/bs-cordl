@@ -1,9 +1,9 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "TMPro/zzzz__TMP_ListPool_1_def.hpp"
-#include "TMPro/zzzz__TMP_ObjectPool_1_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "TMPro/zzzz__TMP_ListPool_1_def.hpp"
+#include "TMPro/zzzz__TMP_ObjectPool_1_def.hpp"
 template <typename T> inline void TMPro::__TMP_ListPool_1____c<T>::setStaticF___9(::TMPro::__TMP_ListPool_1____c<T>* value) {
   ::cordl_internals::setStaticField<::TMPro::__TMP_ListPool_1____c<T>*, "<>9", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::__TMP_ListPool_1____c<T>*>::get>(
       std::forward<::TMPro::__TMP_ListPool_1____c<T>*>(value));

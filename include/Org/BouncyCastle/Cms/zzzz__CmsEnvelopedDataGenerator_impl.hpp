@@ -1,10 +1,10 @@
 #pragma once
 #include "Org/BouncyCastle/Cms/zzzz__CmsEnvelopedGenerator_impl.hpp"
 #include "Org/BouncyCastle/Cms/zzzz__CmsEnvelopedDataGenerator_def.hpp"
+#include "Org/BouncyCastle/Security/zzzz__SecureRandom_def.hpp"
 #include "Org/BouncyCastle/Cms/zzzz__CmsProcessable_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__CipherKeyGenerator_def.hpp"
 #include "Org/BouncyCastle/Cms/zzzz__CmsEnvelopedData_def.hpp"
-#include "Org/BouncyCastle/Security/zzzz__SecureRandom_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__ICipherBuilderWithKey_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Cms::CmsEnvelopedDataGenerator._ctor
 template <>

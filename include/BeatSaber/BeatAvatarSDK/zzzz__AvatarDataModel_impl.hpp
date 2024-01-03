@@ -1,11 +1,11 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "BeatSaber/BeatAvatarSDK/zzzz__AvatarDataModel_def.hpp"
-#include "BeatSaber/BeatAvatarSDK/zzzz__AvatarSaveData_def.hpp"
-#include "GlobalNamespace/zzzz__ISaveData_def.hpp"
 #include "BeatSaber/BeatAvatarSDK/zzzz__AvatarData_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
 #include "BeatSaber/BeatAvatarSDK/zzzz__AvatarPartsModel_def.hpp"
+#include "BeatSaber/BeatAvatarSDK/zzzz__AvatarSaveData_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
+#include "GlobalNamespace/zzzz__ISaveData_def.hpp"
 //  Writing Method size for method: ::BeatSaber::BeatAvatarSDK::AvatarDataModel.get_avatarData
 template <>
 

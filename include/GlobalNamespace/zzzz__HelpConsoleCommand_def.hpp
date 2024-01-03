@@ -10,7 +10,7 @@ namespace GlobalNamespace {
 struct __DebugConsoleController__ConsoleMessage;
 }
 namespace GlobalNamespace {
-class DebugConsoleController;
+template <typename T> class OptionalArgument_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
@@ -19,10 +19,10 @@ namespace System::Threading::Tasks {
 class Task;
 }
 namespace GlobalNamespace {
-class ArgumentBase;
+class DebugConsoleController;
 }
 namespace GlobalNamespace {
-template <typename T> class OptionalArgument_1;
+class ArgumentBase;
 }
 // Forward declare root types
 namespace GlobalNamespace {

@@ -18,7 +18,7 @@ MARK_REF_PTR_T(::GlobalNamespace::Vector4SO);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10246)), TypeDefinitionIndex(TypeDefinitionIndex(15857))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15857)), TypeDefinitionIndex(TypeDefinitionIndex(10246))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15875))
 // CS Name: ::Vector4SO*
 class CORDL_TYPE Vector4SO : public ::GlobalNamespace::PersistentScriptableObject {

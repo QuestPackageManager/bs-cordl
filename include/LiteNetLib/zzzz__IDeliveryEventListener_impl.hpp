@@ -1,7 +1,7 @@
 #pragma once
 #include "LiteNetLib/zzzz__IDeliveryEventListener_def.hpp"
-#include "LiteNetLib/zzzz__NetPeer_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "LiteNetLib/zzzz__NetPeer_def.hpp"
 //  Writing Method size for method: ::LiteNetLib::IDeliveryEventListener.OnMessageDelivered
 template <>
 

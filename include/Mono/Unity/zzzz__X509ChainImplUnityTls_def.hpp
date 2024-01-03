@@ -6,23 +6,23 @@ CORDL_MODULE_INIT
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509ChainImpl_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(X509ChainImplUnityTls)
+namespace Mono::Unity {
+struct __UnityTls__unitytls_x509list_ref;
+}
+namespace System::Security::Cryptography::X509Certificates {
+struct X509ChainStatusFlags;
+}
 namespace System::Security::Cryptography::X509Certificates {
 class X509ChainElementCollection;
 }
 namespace System::Security::Cryptography::X509Certificates {
 class X509ChainPolicy;
 }
-namespace Mono::Unity {
-struct __UnityTls__unitytls_x509list_ref;
-}
-namespace System::Security::Cryptography::X509Certificates {
-class X509Certificate2;
-}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace System::Security::Cryptography::X509Certificates {
-struct X509ChainStatusFlags;
+class X509Certificate2;
 }
 namespace System::Security::Cryptography::X509Certificates {
 struct X509ChainStatus;

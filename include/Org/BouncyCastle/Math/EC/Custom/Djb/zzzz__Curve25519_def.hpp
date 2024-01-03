@@ -10,26 +10,26 @@ CORDL_MODULE_EXPORT(Curve25519)
 namespace Org::BouncyCastle::Math::EC {
 class ECFieldElement;
 }
-namespace Org::BouncyCastle::Math {
-class BigInteger;
-}
 namespace Org::BouncyCastle::Math::EC::Custom::Djb {
 class Curve25519Point;
 }
 namespace Org::BouncyCastle::Math::EC {
 class ECCurve;
 }
-namespace Org::BouncyCastle::Math::EC {
-class ECLookupTable;
-}
 namespace Org::BouncyCastle::Math::EC::Custom::Djb {
 class __Curve25519__Curve25519LookupTable;
 }
-namespace Org::BouncyCastle::Security {
-class SecureRandom;
-}
 namespace Org::BouncyCastle::Math::EC {
 class ECPoint;
+}
+namespace Org::BouncyCastle::Math {
+class BigInteger;
+}
+namespace Org::BouncyCastle::Math::EC {
+class ECLookupTable;
+}
+namespace Org::BouncyCastle::Security {
+class SecureRandom;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Math::EC::Custom::Djb {

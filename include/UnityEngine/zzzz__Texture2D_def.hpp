@@ -10,37 +10,37 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Texture2D)
 namespace UnityEngine {
-struct Vector2;
-}
-namespace UnityEngine {
 struct Color;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace UnityEngine::Experimental::Rendering {
-struct GraphicsFormat;
-}
-namespace UnityEngine {
-struct __Texture2D__EXRFlags;
-}
-namespace UnityEngine {
-struct TextureFormat;
-}
-namespace UnityEngine::Experimental::Rendering {
-struct TextureCreationFlags;
-}
-namespace UnityEngine {
-struct Color32;
 }
 namespace Unity::Collections {
 template <typename T> struct NativeArray_1;
 }
 namespace UnityEngine {
+struct TextureFormat;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace UnityEngine {
 struct Rect;
+}
+namespace UnityEngine::Experimental::Rendering {
+struct TextureCreationFlags;
+}
+namespace UnityEngine {
+struct Vector2;
 }
 namespace System {
 class Array;
+}
+namespace UnityEngine::Experimental::Rendering {
+struct GraphicsFormat;
+}
+namespace UnityEngine {
+struct Color32;
+}
+namespace UnityEngine {
+struct __Texture2D__EXRFlags;
 }
 namespace UnityEngine::Experimental::Rendering {
 struct DefaultFormat;

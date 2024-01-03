@@ -5,13 +5,13 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(CallContextSecurityData)
 namespace System {
-class Object;
-}
-namespace System {
 class ICloneable;
 }
 namespace System::Security::Principal {
 class IPrincipal;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting::Messaging {

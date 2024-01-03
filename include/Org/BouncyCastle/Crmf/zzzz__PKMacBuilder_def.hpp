@@ -6,20 +6,20 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(PKMacBuilder)
+namespace Org::BouncyCastle::Security {
+class SecureRandom;
+}
 namespace Org::BouncyCastle::Asn1::Cmp {
 class PbmParameter;
-}
-namespace Org::BouncyCastle::Crypto {
-class IMacFactory;
 }
 namespace Org::BouncyCastle::Crmf {
 class IPKMacPrimitivesProvider;
 }
-namespace Org::BouncyCastle::Security {
-class SecureRandom;
-}
 namespace Org::BouncyCastle::Asn1::X509 {
 class AlgorithmIdentifier;
+}
+namespace Org::BouncyCastle::Crypto {
+class IMacFactory;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crmf {

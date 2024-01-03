@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include "Polyglot/zzzz__LocalizedTextComponent_1_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(LocalizedHoverHint)
-namespace Polyglot {
-struct LanguageDirection;
-}
 namespace HMUI {
 class HoverHint;
+}
+namespace Polyglot {
+struct LanguageDirection;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -22,8 +22,8 @@ MARK_REF_PTR_T(::GlobalNamespace::LocalizedHoverHint);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13532)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(15565), inst: 4462 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(15565))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5534)) CS Name: ::LocalizedHoverHint*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13532)), TypeDefinitionIndex(TypeDefinitionIndex(15565)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(15565), inst:
+// 4462 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(5534)) CS Name: ::LocalizedHoverHint*
 class CORDL_TYPE LocalizedHoverHint : public ::Polyglot::LocalizedTextComponent_1<::HMUI::HoverHint*> {
 public:
   // Declarations

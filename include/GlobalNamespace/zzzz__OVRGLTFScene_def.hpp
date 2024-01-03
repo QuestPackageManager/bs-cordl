@@ -6,9 +6,6 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVRGLTFScene)
-namespace UnityEngine {
-class GameObject;
-}
 namespace GlobalNamespace {
 struct OVRGLTFInputNode;
 }
@@ -16,13 +13,16 @@ namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace GlobalNamespace {
-class OVRGLTFAnimationNodeMorphTargetHandler;
-}
-namespace GlobalNamespace {
 class OVRGLTFAnimatinonNode;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace UnityEngine {
+class GameObject;
+}
+namespace GlobalNamespace {
+class OVRGLTFAnimationNodeMorphTargetHandler;
 }
 // Forward declare root types
 namespace GlobalNamespace {

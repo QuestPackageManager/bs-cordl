@@ -10,13 +10,7 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ConvertUtils)
 namespace Newtonsoft::Json::Utilities {
-class __ConvertUtils____c__DisplayClass9_0;
-}
-namespace System {
-class Version;
-}
-namespace Newtonsoft::Json::Utilities {
-struct ParseResult;
+struct __ConvertUtils__TypeConvertKey;
 }
 namespace System {
 struct Guid;
@@ -24,8 +18,8 @@ struct Guid;
 namespace System {
 class Type;
 }
-namespace Newtonsoft::Json::Utilities {
-struct __ConvertUtils__TypeConvertKey;
+namespace System {
+template <typename T, typename TResult> class Func_2;
 }
 namespace Newtonsoft::Json::Utilities {
 template <typename TKey, typename TValue> class ThreadSafeStore_2;
@@ -33,11 +27,17 @@ template <typename TKey, typename TValue> class ThreadSafeStore_2;
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
-namespace System {
-template <typename T, typename TResult> class Func_2;
-}
 namespace Newtonsoft::Json::Utilities {
-struct __ConvertUtils__ConvertResult;
+struct ParseResult;
+}
+namespace System::Globalization {
+class CultureInfo;
+}
+namespace System::ComponentModel {
+class TypeConverter;
+}
+namespace System {
+class Version;
 }
 namespace Newtonsoft::Json::Utilities {
 struct PrimitiveTypeCode;
@@ -45,20 +45,20 @@ struct PrimitiveTypeCode;
 namespace System {
 class Object;
 }
+namespace Newtonsoft::Json::Utilities {
+class TypeInformation;
+}
 namespace System {
 class IConvertible;
 }
-namespace System::Globalization {
-class CultureInfo;
+namespace Newtonsoft::Json::Utilities {
+class __ConvertUtils____c__DisplayClass9_0;
+}
+namespace Newtonsoft::Json::Utilities {
+struct __ConvertUtils__ConvertResult;
 }
 namespace System {
 struct TimeSpan;
-}
-namespace System::ComponentModel {
-class TypeConverter;
-}
-namespace Newtonsoft::Json::Utilities {
-class TypeInformation;
 }
 namespace Newtonsoft::Json::Utilities {
 template <typename T, typename TResult> class MethodCall_2;

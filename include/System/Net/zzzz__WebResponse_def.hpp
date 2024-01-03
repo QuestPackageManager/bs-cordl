@@ -5,25 +5,25 @@ CORDL_MODULE_INIT
 #include "System/zzzz__MarshalByRefObject_def.hpp"
 CORDL_MODULE_EXPORT(WebResponse)
 namespace System {
-class IDisposable;
-}
-namespace System::Runtime::Serialization {
-class SerializationInfo;
-}
-namespace System::Runtime::Serialization {
-struct StreamingContext;
-}
-namespace System::Runtime::Serialization {
-class ISerializable;
+class Uri;
 }
 namespace System {
-class Uri;
+class IDisposable;
 }
 namespace System::Net {
 class WebHeaderCollection;
 }
+namespace System::Runtime::Serialization {
+class ISerializable;
+}
+namespace System::Runtime::Serialization {
+class SerializationInfo;
+}
 namespace System::IO {
 class Stream;
+}
+namespace System::Runtime::Serialization {
+struct StreamingContext;
 }
 // Forward declare root types
 namespace System::Net {

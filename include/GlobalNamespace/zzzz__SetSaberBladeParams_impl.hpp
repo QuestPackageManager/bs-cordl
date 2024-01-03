@@ -4,9 +4,9 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__SetSaberBladeParams_def.hpp"
 #include "GlobalNamespace/zzzz__SetSaberBladeParams_def.hpp"
-#include "GlobalNamespace/zzzz__ColorManager_def.hpp"
 #include "UnityEngine/zzzz__MeshRenderer_def.hpp"
 #include "GlobalNamespace/zzzz__SaberTypeObject_def.hpp"
+#include "GlobalNamespace/zzzz__ColorManager_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::__SetSaberBladeParams__PropertyTintColorPair._ctor
 template <>
 

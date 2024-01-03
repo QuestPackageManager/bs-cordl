@@ -10,10 +10,10 @@ namespace GlobalNamespace {
 class BeatmapLevelSO;
 }
 namespace GlobalNamespace {
-class MissionHelpSO;
+class BeatmapCharacteristicSO;
 }
 namespace GlobalNamespace {
-class MissionObjective;
+class MissionHelpSO;
 }
 namespace GlobalNamespace {
 struct BeatmapDifficulty;
@@ -22,7 +22,7 @@ namespace GlobalNamespace {
 class GameplayModifiers;
 }
 namespace GlobalNamespace {
-class BeatmapCharacteristicSO;
+class MissionObjective;
 }
 // Forward declare root types
 namespace GlobalNamespace {

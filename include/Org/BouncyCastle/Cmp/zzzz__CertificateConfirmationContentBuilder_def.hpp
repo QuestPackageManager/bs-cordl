@@ -4,23 +4,23 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(CertificateConfirmationContentBuilder)
-namespace Org::BouncyCastle::Cms {
-class DefaultDigestAlgorithmIdentifierFinder;
-}
-namespace Org::BouncyCastle::X509 {
-class X509Certificate;
-}
 namespace Org::BouncyCastle::Math {
 class BigInteger;
 }
-namespace Org::BouncyCastle::Cmp {
-class CertificateConfirmationContent;
+namespace System::Collections {
+class IList;
 }
 namespace Org::BouncyCastle::Cms {
 class DefaultSignatureAlgorithmIdentifierFinder;
 }
-namespace System::Collections {
-class IList;
+namespace Org::BouncyCastle::X509 {
+class X509Certificate;
+}
+namespace Org::BouncyCastle::Cms {
+class DefaultDigestAlgorithmIdentifierFinder;
+}
+namespace Org::BouncyCastle::Cmp {
+class CertificateConfirmationContent;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Cmp {

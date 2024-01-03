@@ -8,31 +8,31 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(CmsSignedData)
 namespace Org::BouncyCastle::Cms {
-class SignerInformationStore;
-}
-namespace Org::BouncyCastle::Cms {
-class CmsProcessable;
-}
-namespace Org::BouncyCastle::Asn1::Cms {
-class SignedData;
-}
-namespace Org::BouncyCastle::X509::Store {
-class IX509Store;
-}
-namespace Org::BouncyCastle::Asn1 {
-class DerObjectIdentifier;
-}
-namespace System::IO {
-class Stream;
+class CmsSignedHelper;
 }
 namespace Org::BouncyCastle::Asn1::Cms {
 class ContentInfo;
 }
 namespace Org::BouncyCastle::Cms {
-class CmsSignedHelper;
+class CmsProcessable;
+}
+namespace Org::BouncyCastle::Cms {
+class SignerInformationStore;
+}
+namespace Org::BouncyCastle::X509::Store {
+class IX509Store;
+}
+namespace System::IO {
+class Stream;
 }
 namespace System::Collections {
 class IDictionary;
+}
+namespace Org::BouncyCastle::Asn1 {
+class DerObjectIdentifier;
+}
+namespace Org::BouncyCastle::Asn1::Cms {
+class SignedData;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Cms {

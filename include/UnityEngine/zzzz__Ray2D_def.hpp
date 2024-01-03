@@ -7,14 +7,14 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstddef>
 CORDL_MODULE_EXPORT(Ray2D)
-namespace UnityEngine {
-struct Vector2;
+namespace System {
+class IFormattable;
 }
 namespace System {
 class IFormatProvider;
 }
-namespace System {
-class IFormattable;
+namespace UnityEngine {
+struct Vector2;
 }
 // Forward declare root types
 namespace UnityEngine {

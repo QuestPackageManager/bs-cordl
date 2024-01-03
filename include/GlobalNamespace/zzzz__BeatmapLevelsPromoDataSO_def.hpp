@@ -6,17 +6,11 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__ScriptableObject_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(BeatmapLevelsPromoDataSO)
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace GlobalNamespace {
-class __BeatmapLevelsPromoDataSO____c;
-}
 namespace GlobalNamespace {
 class PreviewBeatmapLevelSO;
 }
 namespace GlobalNamespace {
-class PreviewBeatmapLevelPackSO;
+class __BeatmapLevelsPromoDataSO____c;
 }
 namespace System::Collections::Generic {
 template <typename T> class HashSet_1;
@@ -25,7 +19,13 @@ namespace GlobalNamespace {
 class IBeatmapLevelPack;
 }
 namespace GlobalNamespace {
+class PreviewBeatmapLevelPackSO;
+}
+namespace GlobalNamespace {
 class IPreviewBeatmapLevel;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;

@@ -6,14 +6,14 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(JoystickState)
-namespace UnityEngine::InputSystem::LowLevel {
-struct __JoystickState__Button;
+namespace UnityEngine {
+struct Vector2;
 }
 namespace UnityEngine::InputSystem::LowLevel {
 class IInputStateTypeInfo;
 }
-namespace UnityEngine {
-struct Vector2;
+namespace UnityEngine::InputSystem::LowLevel {
+struct __JoystickState__Button;
 }
 namespace UnityEngine::InputSystem::Utilities {
 struct FourCC;

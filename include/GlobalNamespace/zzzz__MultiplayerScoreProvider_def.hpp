@@ -9,19 +9,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(MultiplayerScoreProvider)
 namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
+template <typename T> class List_1;
 }
 namespace GlobalNamespace {
-class IScoreSyncStateManager;
+class __MultiplayerScoreProvider____c;
 }
-namespace System {
-template <typename T> class Action_1;
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace GlobalNamespace {
 class __MultiplayerScoreProvider____c__DisplayClass18_0;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace GlobalNamespace {
+class IScoreSyncStateManager;
 }
 namespace GlobalNamespace {
 class __MultiplayerScoreProvider__RankedPlayer;
@@ -29,20 +29,20 @@ class __MultiplayerScoreProvider__RankedPlayer;
 namespace System::Collections::Generic {
 template <typename T> class IReadOnlyList_1;
 }
-namespace GlobalNamespace {
-class __MultiplayerScoreProvider____c;
-}
 namespace System {
-template <typename T> class IComparable_1;
-}
-namespace GlobalNamespace {
-struct StandardScoreSyncState;
+template <typename T> class Action_1;
 }
 namespace GlobalNamespace {
 template <typename TStateTable, typename TType, typename TState> class MultiplayerSyncState_3;
 }
 namespace GlobalNamespace {
 struct __StandardScoreSyncState__Score;
+}
+namespace GlobalNamespace {
+struct StandardScoreSyncState;
+}
+namespace System {
+template <typename T> class IComparable_1;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;

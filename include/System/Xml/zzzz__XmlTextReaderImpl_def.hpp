@@ -22,142 +22,142 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(XmlTextReaderImpl)
 namespace System::Xml {
-class XmlParserContext;
-}
-namespace System::Xml {
-class XmlNameTable;
-}
-namespace System::Xml {
-class __XmlTextReaderImpl__LaterInitParam;
-}
-namespace System::Xml {
-class IXmlNamespaceResolver;
-}
-namespace System::Xml {
-class __XmlTextReaderImpl__OnDefaultAttributeUseDelegate;
-}
-namespace System::Xml {
-class __XmlTextReaderImpl__NoNamespaceManager;
-}
-namespace System::Text {
-class StringBuilder;
-}
-namespace System::Xml::Schema {
-struct XmlSeverityType;
-}
-namespace System::Xml {
-struct __XmlTextReaderImpl__ParsingMode;
-}
-namespace System::IO {
-class TextReader;
-}
-namespace System::Xml::Schema {
-class XmlSchemaException;
-}
-namespace System::IO {
-class Stream;
-}
-namespace System::Xml {
 class __XmlTextReaderImpl__DtdParserProxy;
-}
-namespace System::Xml {
-struct __XmlTextReaderImpl__IncrementalReadState;
-}
-namespace System::Xml {
-class IDtdDefaultAttributeInfo;
-}
-namespace System::Xml {
-class IDtdEntityInfo;
-}
-namespace System::Xml {
-struct __XmlTextReaderImpl__EntityType;
-}
-namespace System::Xml {
-class __XmlTextReaderImpl__XmlContext;
-}
-namespace System::Xml {
-struct __XmlTextReaderImpl__ParsingFunction;
-}
-namespace System::Text {
-class Encoding;
-}
-namespace System::Xml {
-class IncrementalReadDecoder;
-}
-namespace System::Xml {
-class XmlReaderSettings;
 }
 namespace System::Xml {
 struct EntityHandling;
 }
 namespace System::Xml {
-class __XmlTextReaderImpl__DtdDefaultAttributeInfoToNodeDataComparer;
+class IValidationEventHandling;
 }
-namespace System::Xml {
-struct __XmlTextReaderImpl__EntityExpandType;
-}
-namespace System::Xml {
-struct ReadState;
-}
-namespace System::Xml {
-class XmlResolver;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace System::Xml {
-class IDtdInfo;
-}
-namespace System::Xml {
-class XmlReader;
-}
-namespace System {
-class Uri;
-}
-namespace System {
-class Exception;
-}
-namespace System {
-template <typename T1, typename T2, typename T3, typename T4> class Tuple_4;
-}
-namespace System::Xml {
-struct __XmlTextReaderImpl__ParsingState;
-}
-namespace System::Xml {
-struct __XmlTextReaderImpl__InitInputType;
+namespace System::Text {
+class StringBuilder;
 }
 namespace System::Xml {
 class __XmlTextReaderImpl__NodeData;
 }
 namespace System::Xml {
+class IXmlNamespaceResolver;
+}
+namespace System::Xml {
+struct __XmlTextReaderImpl__IncrementalReadState;
+}
+namespace System::Xml {
 class XmlNamespaceManager;
 }
 namespace System::Xml {
-class IValidationEventHandling;
+class __XmlTextReaderImpl__LaterInitParam;
+}
+namespace System::Xml {
+class __XmlTextReaderImpl__OnDefaultAttributeUseDelegate;
+}
+namespace System {
+template <typename T1, typename T2, typename T3, typename T4> class Tuple_4;
 }
 namespace System::Threading::Tasks {
 template <typename TResult> class Task_1;
 }
 namespace System::Xml {
-struct LineInfo;
+class XmlParserContext;
 }
 namespace System::Xml {
-struct XmlNodeType;
+class XmlReaderSettings;
+}
+namespace System::Xml {
+struct ReadState;
+}
+namespace System::Xml {
+class IDtdEntityInfo;
+}
+namespace System::IO {
+class Stream;
+}
+namespace System::Xml {
+class XmlResolver;
+}
+namespace System::Xml {
+struct __XmlTextReaderImpl__ParsingState;
+}
+namespace System::Xml {
+class __XmlTextReaderImpl__XmlContext;
+}
+namespace System::Text {
+class Encoding;
 }
 namespace System {
 class Object;
 }
-namespace System::Collections::Generic {
-template <typename T> class IComparer_1;
+namespace System::Xml {
+class IDtdDefaultAttributeInfo;
 }
 namespace System::Xml {
-class IDtdParserAdapterV1;
+struct __XmlTextReaderImpl__ParsingMode;
+}
+namespace System::Xml {
+class IDtdInfo;
+}
+namespace System::Xml {
+class __XmlTextReaderImpl__NoNamespaceManager;
+}
+namespace System {
+class Uri;
+}
+namespace System::Xml {
+struct LineInfo;
+}
+namespace System::Xml {
+struct __XmlTextReaderImpl__EntityType;
+}
+namespace System {
+class Exception;
+}
+namespace System::Xml::Schema {
+struct XmlSeverityType;
+}
+namespace System::Xml {
+class XmlNameTable;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace System::IO {
+class TextReader;
+}
+namespace System::Xml {
+struct XmlNodeType;
+}
+namespace System::Xml {
+class XmlReader;
+}
+namespace System::Xml {
+struct __XmlTextReaderImpl__ParsingFunction;
+}
+namespace System::Xml {
+class IncrementalReadDecoder;
+}
+namespace System::Xml {
+struct __XmlTextReaderImpl__EntityExpandType;
+}
+namespace System::Xml {
+struct __XmlTextReaderImpl__InitInputType;
+}
+namespace System::Xml {
+class __XmlTextReaderImpl__DtdDefaultAttributeInfoToNodeDataComparer;
+}
+namespace System::Xml::Schema {
+class XmlSchemaException;
+}
+namespace System::Collections::Generic {
+template <typename T> class IComparer_1;
 }
 namespace System::Xml {
 class IDtdParserAdapter;
 }
 namespace System::Xml {
 class IDtdParserAdapterWithValidation;
+}
+namespace System::Xml {
+class IDtdParserAdapterV1;
 }
 namespace System::Collections {
 class IEnumerator;
@@ -722,7 +722,7 @@ static_assert(offsetof(::System::Xml::__XmlTextReaderImpl__InitInputType, value_
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 92, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(11466))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11466)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11465))
 // CS Name: ::XmlTextReaderImpl::LaterInitParam*
 class CORDL_TYPE __XmlTextReaderImpl__LaterInitParam : public ::System::Object {
@@ -1051,7 +1051,7 @@ static_assert(offsetof(::System::Xml::__XmlTextReaderImpl__ParsingState, entityR
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(11458))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11458)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11468))
 // CS Name: ::XmlTextReaderImpl::XmlContext*
 class CORDL_TYPE __XmlTextReaderImpl__XmlContext : public ::System::Object {
@@ -1389,7 +1389,7 @@ static_assert(offsetof(::System::Xml::__XmlTextReaderImpl__DtdParserProxy, ___re
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11532)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(11571))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11571)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(11532))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11471))
 // CS Name: ::XmlTextReaderImpl::NodeData*
 class CORDL_TYPE __XmlTextReaderImpl__NodeData : public ::System::Object {
@@ -1876,10 +1876,10 @@ static_assert(::cordl_internals::size_check_v<::System::Xml::__XmlTextReaderImpl
 // SizeInfo { instance_size: 576, native_size: -1, calculated_instance_size: 576, calculated_native_size: 576, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11461)), TypeDefinitionIndex(TypeDefinitionIndex(11414)), TypeDefinitionIndex(TypeDefinitionIndex(11440)),
-// TypeDefinitionIndex(TypeDefinitionIndex(11467)), TypeDefinitionIndex(TypeDefinitionIndex(11532)), TypeDefinitionIndex(TypeDefinitionIndex(11460)), TypeDefinitionIndex(TypeDefinitionIndex(11456)),
-// TypeDefinitionIndex(TypeDefinitionIndex(11544)), TypeDefinitionIndex(TypeDefinitionIndex(11415)), TypeDefinitionIndex(TypeDefinitionIndex(11464)), TypeDefinitionIndex(TypeDefinitionIndex(11446)),
-// TypeDefinitionIndex(TypeDefinitionIndex(11571))} Self: TypeDefinitionIndex(TypeDefinitionIndex(11474)) CS Name: ::System.Xml::XmlTextReaderImpl*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11414)), TypeDefinitionIndex(TypeDefinitionIndex(11415)), TypeDefinitionIndex(TypeDefinitionIndex(11467)),
+// TypeDefinitionIndex(TypeDefinitionIndex(11440)), TypeDefinitionIndex(TypeDefinitionIndex(11464)), TypeDefinitionIndex(TypeDefinitionIndex(11544)), TypeDefinitionIndex(TypeDefinitionIndex(11571)),
+// TypeDefinitionIndex(TypeDefinitionIndex(11532)), TypeDefinitionIndex(TypeDefinitionIndex(11456)), TypeDefinitionIndex(TypeDefinitionIndex(11446)), TypeDefinitionIndex(TypeDefinitionIndex(11460)),
+// TypeDefinitionIndex(TypeDefinitionIndex(11461))} Self: TypeDefinitionIndex(TypeDefinitionIndex(11474)) CS Name: ::System.Xml::XmlTextReaderImpl*
 class CORDL_TYPE XmlTextReaderImpl : public ::System::Xml::XmlReader {
 public:
   // Declarations

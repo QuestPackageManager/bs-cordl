@@ -4,14 +4,14 @@
 CORDL_MODULE_INIT
 #include "Zenject/zzzz__FactoryArgumentsToChoiceBinder_5_def.hpp"
 CORDL_MODULE_EXPORT(FactoryToChoiceIdBinder_5)
-namespace Zenject {
-class FactoryBindInfo;
+namespace System {
+class Object;
 }
 namespace Zenject {
 class BindInfo;
 }
-namespace System {
-class Object;
+namespace Zenject {
+class FactoryBindInfo;
 }
 namespace Zenject {
 class DiContainer;

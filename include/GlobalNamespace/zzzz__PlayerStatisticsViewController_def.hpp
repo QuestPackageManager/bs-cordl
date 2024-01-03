@@ -8,26 +8,26 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(PlayerStatisticsViewController)
-namespace GlobalNamespace {
-class PlayerDataModel;
-}
 namespace HMUI {
 class SegmentedControl;
 }
-namespace HMUI {
-class TextSegmentedControl;
-}
 namespace GlobalNamespace {
-class __PlayerAllOverallStatsData__PlayerOverallStatsData;
-}
-namespace GlobalNamespace {
-struct __PlayerStatisticsViewController__StatsScopeData;
+class PlayerDataModel;
 }
 namespace TMPro {
 class TextMeshProUGUI;
 }
 namespace GlobalNamespace {
+struct __PlayerStatisticsViewController__StatsScopeData;
+}
+namespace HMUI {
+class TextSegmentedControl;
+}
+namespace GlobalNamespace {
 class AppStaticSettingsSO;
+}
+namespace GlobalNamespace {
+class __PlayerAllOverallStatsData__PlayerOverallStatsData;
 }
 namespace System {
 template <typename TResult> class Func_1;

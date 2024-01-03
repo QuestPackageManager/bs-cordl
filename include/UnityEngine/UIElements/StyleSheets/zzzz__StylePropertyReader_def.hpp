@@ -12,40 +12,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(StylePropertyReader)
 namespace UnityEngine::UIElements {
-struct Rotate;
-}
-namespace UnityEngine::UIElements {
 class StyleProperty;
 }
-namespace UnityEngine::UIElements::StyleSheets {
-struct StyleEnumType;
-}
-namespace UnityEngine {
-struct Color;
+namespace UnityEngine::UIElements {
+struct TimeValue;
 }
 namespace UnityEngine::UIElements {
-struct EasingFunction;
+class StyleComplexSelector;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace UnityEngine::UIElements {
-class StyleVariableContext;
-}
-namespace UnityEngine::UIElements {
-struct TransformOrigin;
-}
-namespace UnityEngine::UIElements {
-struct TextShadow;
-}
-namespace UnityEngine::UIElements {
-struct StylePropertyName;
-}
-namespace UnityEngine::UIElements::StyleSheets {
-struct ImageSource;
-}
-namespace UnityEngine::UIElements::StyleSheets {
-struct StylePropertyValue;
-}
-namespace UnityEngine::UIElements::StyleSheets {
-struct StylePropertyId;
+struct StyleValueType;
 }
 namespace UnityEngine::UIElements {
 struct Scale;
@@ -54,52 +33,73 @@ namespace UnityEngine {
 class Font;
 }
 namespace UnityEngine::UIElements {
-struct Cursor;
+struct EasingFunction;
 }
 namespace UnityEngine::UIElements {
-struct StyleValueType;
-}
-namespace UnityEngine::UIElements {
-struct Length;
-}
-namespace UnityEngine::UIElements {
-struct Angle;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace UnityEngine::UIElements {
-struct Background;
-}
-namespace UnityEngine::UIElements {
-struct FontDefinition;
-}
-namespace UnityEngine::UIElements {
-struct StyleValueKeyword;
-}
-namespace UnityEngine::UIElements {
-class StyleSheet;
-}
-namespace UnityEngine::UIElements {
-struct TimeValue;
+class StyleVariableResolver;
 }
 namespace UnityEngine::UIElements::StyleSheets {
 class __StylePropertyReader__GetCursorIdFunction;
 }
 namespace UnityEngine::UIElements {
+struct TransformOrigin;
+}
+namespace UnityEngine::UIElements {
+struct Rotate;
+}
+namespace UnityEngine::UIElements {
+struct FontDefinition;
+}
+namespace UnityEngine::UIElements::StyleSheets {
+struct StylePropertyId;
+}
+namespace UnityEngine::UIElements {
+class StyleVariableContext;
+}
+namespace UnityEngine::UIElements {
 struct Translate;
 }
 namespace UnityEngine::UIElements {
-class StyleVariableResolver;
+struct Cursor;
 }
 namespace UnityEngine::UIElements {
-class StyleComplexSelector;
+struct Background;
 }
 namespace UnityEngine::UIElements {
-struct StyleValueHandle;
+struct TextShadow;
+}
+namespace UnityEngine::UIElements {
+struct StylePropertyName;
+}
+namespace UnityEngine::UIElements {
+class StyleSheet;
+}
+namespace UnityEngine::UIElements::StyleSheets {
+struct ImageSource;
+}
+namespace UnityEngine::UIElements::StyleSheets {
+struct StyleEnumType;
+}
+namespace UnityEngine::UIElements::StyleSheets {
+struct StylePropertyValue;
+}
+namespace UnityEngine::UIElements {
+struct StyleValueKeyword;
+}
+namespace UnityEngine::UIElements {
+struct Length;
+}
+namespace UnityEngine {
+struct Color;
+}
+namespace UnityEngine::UIElements {
+struct Angle;
 }
 namespace System {
 class Object;
+}
+namespace UnityEngine::UIElements {
+struct StyleValueHandle;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements::StyleSheets {
@@ -153,7 +153,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::StyleSh
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 92, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::StyleSheets {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(7487))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7487)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7465))
 // CS Name: ::UnityEngine.UIElements.StyleSheets::StylePropertyReader*
 class CORDL_TYPE StylePropertyReader : public ::System::Object {

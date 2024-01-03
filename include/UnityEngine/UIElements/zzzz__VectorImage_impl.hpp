@@ -2,8 +2,8 @@
 #include "UnityEngine/zzzz__ScriptableObject_impl.hpp"
 #include "UnityEngine/zzzz__Vector2_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__VectorImage_def.hpp"
-#include "UnityEngine/zzzz__Texture2D_def.hpp"
 #include "UnityEngine/UIElements/zzzz__GradientSettings_def.hpp"
+#include "UnityEngine/zzzz__Texture2D_def.hpp"
 #include "UnityEngine/UIElements/zzzz__VectorImageVertex_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::VectorImage._ctor
 template <>

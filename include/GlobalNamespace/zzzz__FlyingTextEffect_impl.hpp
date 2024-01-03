@@ -3,11 +3,11 @@
 #include "UnityEngine/zzzz__Color_impl.hpp"
 #include "Zenject/zzzz__MonoMemoryPool_1_impl.hpp"
 #include "GlobalNamespace/zzzz__FlyingTextEffect_def.hpp"
+#include "TMPro/zzzz__TextMeshPro_def.hpp"
 #include "UnityEngine/zzzz__Quaternion_def.hpp"
 #include "GlobalNamespace/zzzz__FlyingTextEffect_def.hpp"
-#include "UnityEngine/zzzz__Color_def.hpp"
 #include "UnityEngine/zzzz__AnimationCurve_def.hpp"
-#include "TMPro/zzzz__TextMeshPro_def.hpp"
+#include "UnityEngine/zzzz__Color_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::FlyingTextEffect.InitAndPresent
 template <>

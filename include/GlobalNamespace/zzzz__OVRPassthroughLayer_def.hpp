@@ -21,91 +21,91 @@ namespace UnityEngine {
 struct Matrix4x4;
 }
 namespace GlobalNamespace {
-struct __OVRPassthroughLayer__Settings;
-}
-namespace UnityEngine {
-class GameObject;
-}
-namespace GlobalNamespace {
-class __OVRPassthroughLayer____c__DisplayClass10_0;
-}
-namespace UnityEngine {
-class Gradient;
-}
-namespace GlobalNamespace {
-class __OVRPassthroughLayer__InterpolatedColorLutHandler;
-}
-namespace UnityEngine {
-struct Color;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace GlobalNamespace {
-class __OVRPassthroughLayer__IStyleHandler;
-}
-namespace GlobalNamespace {
-class __OVRPassthroughLayer__ColorLutHandler;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace GlobalNamespace {
-struct __OVROverlay__OverlayShape;
-}
-namespace UnityEngine {
-class Texture2D;
-}
-namespace GlobalNamespace {
-class __OVRPassthroughLayer__NoneStyleHandler;
-}
-namespace GlobalNamespace {
-class __OVRPassthroughLayer__BaseGeneratedStyleHandler;
-}
-namespace GlobalNamespace {
-class __OVRPassthroughLayer__MonoToMonoStyleHandler;
-}
-namespace GlobalNamespace {
-class OVRCameraRig;
-}
-namespace GlobalNamespace {
-class OVRPassthroughColorLut;
-}
-namespace GlobalNamespace {
 struct __OVRPlugin__InsightPassthroughStyle2;
-}
-namespace GlobalNamespace {
-struct __OVRPassthroughLayer__DeferredPassthroughMeshAddition;
-}
-namespace GlobalNamespace {
-class __OVRPassthroughLayer__StylesHandler;
-}
-namespace GlobalNamespace {
-class __OVRPassthroughLayer__BCSStyleHandler;
-}
-namespace GlobalNamespace {
-struct __OVRPassthroughLayer__SerializedSurfaceGeometry;
-}
-namespace GlobalNamespace {
-class OVROverlay;
-}
-namespace GlobalNamespace {
-struct __OVRPassthroughLayer__PassthroughMeshInstance;
-}
-namespace GlobalNamespace {
-struct __OVRPassthroughLayer__ColorMapEditorType;
 }
 namespace GlobalNamespace {
 class __OVRPassthroughLayer__MonoToRgbaStyleHandler;
 }
 namespace GlobalNamespace {
-struct __OVRPlugin__InsightPassthroughColorMapType;
+class __OVRPassthroughLayer__NoneStyleHandler;
+}
+namespace UnityEngine {
+class Gradient;
+}
+namespace GlobalNamespace {
+class __OVRPassthroughLayer__IStyleHandler;
+}
+namespace GlobalNamespace {
+struct __OVRPassthroughLayer__Settings;
+}
+namespace GlobalNamespace {
+struct __OVRPassthroughLayer__ColorMapEditorType;
+}
+namespace GlobalNamespace {
+class OVRPassthroughColorLut;
+}
+namespace UnityEngine {
+class GameObject;
+}
+namespace GlobalNamespace {
+class __OVRPassthroughLayer__BCSStyleHandler;
+}
+namespace GlobalNamespace {
+struct __OVROverlay__OverlayShape;
 }
 namespace GlobalNamespace {
 struct __OVRPassthroughLayer__ProjectionSurfaceType;
 }
 namespace GlobalNamespace {
+class __OVRPassthroughLayer__BaseGeneratedStyleHandler;
+}
+namespace GlobalNamespace {
+class __OVRPassthroughLayer__InterpolatedColorLutHandler;
+}
+namespace GlobalNamespace {
 class __OVRPassthroughLayer____c__DisplayClass9_0;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace UnityEngine {
+class Texture2D;
+}
+namespace GlobalNamespace {
+class __OVRPassthroughLayer__StylesHandler;
+}
+namespace GlobalNamespace {
+struct __OVRPlugin__InsightPassthroughColorMapType;
+}
+namespace GlobalNamespace {
+class __OVRPassthroughLayer__ColorLutHandler;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace GlobalNamespace {
+class __OVRPassthroughLayer__MonoToMonoStyleHandler;
+}
+namespace GlobalNamespace {
+struct __OVRPassthroughLayer__SerializedSurfaceGeometry;
+}
+namespace GlobalNamespace {
+struct __OVRPassthroughLayer__DeferredPassthroughMeshAddition;
+}
+namespace GlobalNamespace {
+class OVROverlay;
+}
+namespace GlobalNamespace {
+class OVRCameraRig;
+}
+namespace GlobalNamespace {
+struct __OVRPassthroughLayer__PassthroughMeshInstance;
+}
+namespace UnityEngine {
+struct Color;
+}
+namespace GlobalNamespace {
+class __OVRPassthroughLayer____c__DisplayClass10_0;
 }
 namespace System::Runtime::InteropServices {
 struct GCHandle;
@@ -783,7 +783,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRPassthroug
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3336)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3336))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7670))
 // CS Name: ::OVRPassthroughLayer::BaseGeneratedStyleHandler*
 class CORDL_TYPE __OVRPassthroughLayer__BaseGeneratedStyleHandler : public ::System::Object {
@@ -1379,9 +1379,9 @@ static_assert(offsetof(::GlobalNamespace::__OVRPassthroughLayer____c__DisplayCla
 // SizeInfo { instance_size: 272, native_size: -1, calculated_instance_size: 272, calculated_native_size: 272, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(7662)), TypeDefinitionIndex(TypeDefinitionIndex(7655)),
-// TypeDefinitionIndex(TypeDefinitionIndex(7661)), TypeDefinitionIndex(TypeDefinitionIndex(7825)), TypeDefinitionIndex(TypeDefinitionIndex(10246)), TypeDefinitionIndex(TypeDefinitionIndex(7663)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10251))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7678)) CS Name: ::OVRPassthroughLayer*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10246)), TypeDefinitionIndex(TypeDefinitionIndex(7655)), TypeDefinitionIndex(TypeDefinitionIndex(10225)),
+// TypeDefinitionIndex(TypeDefinitionIndex(7661)), TypeDefinitionIndex(TypeDefinitionIndex(7663)), TypeDefinitionIndex(TypeDefinitionIndex(7662)), TypeDefinitionIndex(TypeDefinitionIndex(10251)),
+// TypeDefinitionIndex(TypeDefinitionIndex(7825))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7678)) CS Name: ::OVRPassthroughLayer*
 class CORDL_TYPE OVRPassthroughLayer : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations

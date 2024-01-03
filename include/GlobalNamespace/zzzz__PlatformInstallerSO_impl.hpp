@@ -1,9 +1,9 @@
 #pragma once
 #include "Zenject/zzzz__ScriptableObjectInstaller_impl.hpp"
 #include "GlobalNamespace/zzzz__PlatformInstallerSO_def.hpp"
-#include "GlobalNamespace/zzzz__SonyAchievementIdsModelSO_def.hpp"
-#include "GlobalNamespace/zzzz__AppInitSetupData_def.hpp"
 #include "GlobalNamespace/zzzz__MockPlatformAdditionalContentModelInitialDataSO_def.hpp"
+#include "GlobalNamespace/zzzz__AppInitSetupData_def.hpp"
+#include "GlobalNamespace/zzzz__SonyAchievementIdsModelSO_def.hpp"
 #include "GlobalNamespace/zzzz__AchievementIdsModelSO_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::PlatformInstallerSO.InstallBindings
 template <>

@@ -5,17 +5,17 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 CORDL_MODULE_EXPORT(StaticPacketPoolProvider)
-namespace System {
-class Type;
-}
 namespace GlobalNamespace {
 class IPacketPool;
+}
+namespace GlobalNamespace {
+template <typename T> class PacketPool_1;
 }
 namespace System::Collections::Concurrent {
 template <typename TKey, typename TValue> class ConcurrentDictionary_2;
 }
-namespace GlobalNamespace {
-template <typename T> class PacketPool_1;
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace GlobalNamespace {

@@ -1,9 +1,9 @@
 #pragma once
 #include "GlobalNamespace/zzzz__MultiplayerGameplayAnimator_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerDuelConnectedPlayerGameplayAnimator_def.hpp"
-#include "GlobalNamespace/zzzz__MultiplayerController_def.hpp"
-#include "GlobalNamespace/zzzz__ScaleAnimator_def.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerConnectedPlayerLevelFailController_def.hpp"
+#include "GlobalNamespace/zzzz__ScaleAnimator_def.hpp"
+#include "GlobalNamespace/zzzz__MultiplayerController_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::MultiplayerDuelConnectedPlayerGameplayAnimator.OnDestroy
 template <>
 

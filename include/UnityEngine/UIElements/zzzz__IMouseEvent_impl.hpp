@@ -1,7 +1,7 @@
 #pragma once
 #include "UnityEngine/UIElements/zzzz__IMouseEvent_def.hpp"
-#include "UnityEngine/zzzz__Vector2_def.hpp"
 #include "UnityEngine/zzzz__EventModifiers_def.hpp"
+#include "UnityEngine/zzzz__Vector2_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::IMouseEvent.get_modifiers
 template <>
 

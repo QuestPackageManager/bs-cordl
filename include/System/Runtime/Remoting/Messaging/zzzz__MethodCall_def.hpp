@@ -7,23 +7,20 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(MethodCall)
+namespace System::Runtime::Remoting::Messaging {
+class IMethodMessage;
+}
+namespace System::Runtime::Remoting::Messaging {
+class LogicalCallContext;
+}
 namespace System::Runtime::Remoting {
 class Identity;
 }
 namespace System::Reflection {
 class MethodBase;
 }
-namespace System::Runtime::Remoting::Messaging {
-class LogicalCallContext;
-}
-namespace System {
-class Object;
-}
-namespace System::Runtime::Remoting::Messaging {
-class IInternalMessage;
-}
 namespace System::Runtime::Serialization {
-class ISerializable;
+struct StreamingContext;
 }
 namespace System::Runtime::Remoting::Messaging {
 class IMethodCallMessage;
@@ -31,23 +28,26 @@ class IMethodCallMessage;
 namespace System::Runtime::Remoting::Messaging {
 class IMessage;
 }
-namespace System::Collections {
-class IDictionary;
+namespace System::Runtime::Serialization {
+class SerializationInfo;
 }
 namespace System::Runtime::Remoting::Messaging {
-class IMethodMessage;
+class IInternalMessage;
 }
 namespace System {
 class Type;
-}
-namespace System::Runtime::Serialization {
-struct StreamingContext;
 }
 namespace System::Runtime::Remoting::Messaging {
 class CADMethodCallMessage;
 }
 namespace System::Runtime::Serialization {
-class SerializationInfo;
+class ISerializable;
+}
+namespace System {
+class Object;
+}
+namespace System::Collections {
+class IDictionary;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting::Messaging {

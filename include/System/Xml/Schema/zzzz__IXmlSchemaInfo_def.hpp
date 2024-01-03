@@ -4,19 +4,19 @@
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IXmlSchemaInfo)
 namespace System::Xml::Schema {
+class XmlSchemaElement;
+}
+namespace System::Xml::Schema {
 struct XmlSchemaValidity;
 }
 namespace System::Xml::Schema {
-class XmlSchemaType;
+class XmlSchemaSimpleType;
 }
 namespace System::Xml::Schema {
 class XmlSchemaAttribute;
 }
 namespace System::Xml::Schema {
-class XmlSchemaElement;
-}
-namespace System::Xml::Schema {
-class XmlSchemaSimpleType;
+class XmlSchemaType;
 }
 // Forward declare root types
 namespace System::Xml::Schema {

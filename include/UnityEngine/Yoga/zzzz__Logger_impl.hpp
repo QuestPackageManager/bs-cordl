@@ -1,10 +1,10 @@
 #pragma once
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "UnityEngine/Yoga/zzzz__Logger_def.hpp"
-#include "System/zzzz__Object_def.hpp"
-#include "UnityEngine/Yoga/zzzz__YogaLogLevel_def.hpp"
 #include "UnityEngine/Yoga/zzzz__YogaNode_def.hpp"
 #include "UnityEngine/Yoga/zzzz__YogaConfig_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+#include "UnityEngine/Yoga/zzzz__YogaLogLevel_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Yoga::Logger._ctor
 template <>
 

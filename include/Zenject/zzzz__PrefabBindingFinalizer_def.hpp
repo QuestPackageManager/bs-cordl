@@ -7,49 +7,49 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(PrefabBindingFinalizer)
 namespace Zenject {
-class __PrefabBindingFinalizer____c__DisplayClass5_0;
-}
-namespace Zenject {
 class __PrefabBindingFinalizer____c__DisplayClass6_1;
 }
-namespace System {
-template <typename T1, typename T2, typename TResult> class Func_3;
-}
 namespace Zenject {
-class BindInfo;
-}
-namespace UnityEngine {
-class Object;
+class __PrefabBindingFinalizer____c__DisplayClass5_0;
 }
 namespace Zenject {
 class __PrefabBindingFinalizer____c__DisplayClass5_1;
 }
 namespace Zenject {
-class DiContainer;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+class IPrefabInstantiator;
 }
 namespace System {
 class Type;
 }
 namespace Zenject {
-class IPrefabInstantiator;
-}
-namespace Zenject {
 class IProvider;
 }
 namespace Zenject {
-class GameObjectCreationParameters;
+class BindInfo;
+}
+namespace Zenject {
+class DiContainer;
 }
 namespace Zenject {
 class __PrefabBindingFinalizer____c__DisplayClass6_0;
 }
-namespace System {
+namespace Zenject {
+class GameObjectCreationParameters;
+}
+namespace UnityEngine {
 class Object;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace System {
+template <typename T1, typename T2, typename TResult> class Func_3;
 }
 namespace Zenject {
 class InjectTypeInfo;
+}
+namespace System {
+class Object;
 }
 namespace Zenject {
 class PrefabInstantiatorCached;

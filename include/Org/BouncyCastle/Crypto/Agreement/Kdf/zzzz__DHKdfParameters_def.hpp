@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(DHKdfParameters)
-namespace Org::BouncyCastle::Crypto {
-class IDerivationParameters;
-}
 namespace Org::BouncyCastle::Asn1 {
 class DerObjectIdentifier;
+}
+namespace Org::BouncyCastle::Crypto {
+class IDerivationParameters;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Agreement::Kdf {

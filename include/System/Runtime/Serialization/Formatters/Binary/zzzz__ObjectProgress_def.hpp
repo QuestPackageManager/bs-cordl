@@ -12,17 +12,17 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ObjectProgress)
-namespace System {
-class Type;
-}
 namespace System::Runtime::Serialization::Formatters::Binary {
-struct BinaryTypeEnum;
+class ParseRecord;
 }
 namespace System {
 class Object;
 }
 namespace System::Runtime::Serialization::Formatters::Binary {
-class ParseRecord;
+struct BinaryTypeEnum;
+}
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace System::Runtime::Serialization::Formatters::Binary {
@@ -34,8 +34,8 @@ MARK_REF_PTR_T(::System::Runtime::Serialization::Formatters::Binary::ObjectProgr
 // SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 136, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization::Formatters::Binary {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3248)), TypeDefinitionIndex(TypeDefinitionIndex(3244)), TypeDefinitionIndex(TypeDefinitionIndex(3252)),
-// TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3251))} Self: TypeDefinitionIndex(TypeDefinitionIndex(3276)) CS Name:
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3248)), TypeDefinitionIndex(TypeDefinitionIndex(3244)), TypeDefinitionIndex(TypeDefinitionIndex(3251)),
+// TypeDefinitionIndex(TypeDefinitionIndex(3252)), TypeDefinitionIndex(TypeDefinitionIndex(2613))} Self: TypeDefinitionIndex(TypeDefinitionIndex(3276)) CS Name:
 // ::System.Runtime.Serialization.Formatters.Binary::ObjectProgress*
 class CORDL_TYPE ObjectProgress : public ::System::Object {
 public:

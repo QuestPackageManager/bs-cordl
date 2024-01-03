@@ -10,14 +10,14 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(Vector2Composite)
-namespace UnityEngine::InputSystem {
-struct InputBindingCompositeContext;
-}
 namespace UnityEngine {
 struct Vector2;
 }
 namespace UnityEngine::InputSystem::Composites {
 struct __Vector2Composite__Mode;
+}
+namespace UnityEngine::InputSystem {
+struct InputBindingCompositeContext;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::Composites {
@@ -87,8 +87,8 @@ static_assert(offsetof(::UnityEngine::InputSystem::Composites::__Vector2Composit
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Composites {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6719)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6190), inst: 411 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(6190)), TypeDefinitionIndex(TypeDefinitionIndex(10243))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6720)) CS Name:
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6190)), TypeDefinitionIndex(TypeDefinitionIndex(6719)), TypeDefinitionIndex(TypeDefinitionIndex(10243)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6190), inst: 411 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(6720)) CS Name:
 // ::UnityEngine.InputSystem.Composites::Vector2Composite*
 class CORDL_TYPE Vector2Composite : public ::UnityEngine::InputSystem::InputBindingComposite_1<::UnityEngine::Vector2> {
 public:

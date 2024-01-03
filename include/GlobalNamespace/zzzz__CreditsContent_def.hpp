@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(CreditsContent)
 namespace UnityEngine {
-class TextAsset;
+class GameObject;
 }
 namespace UnityEngine {
-class GameObject;
+class TextAsset;
 }
 namespace UnityEngine {
 class RectTransform;

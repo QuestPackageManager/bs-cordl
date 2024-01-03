@@ -10,9 +10,6 @@ CORDL_MODULE_EXPORT(TextSegmentedControl)
 namespace HMUI {
 class SegmentedControlCell;
 }
-namespace UnityEngine {
-class Object;
-}
 namespace HMUI {
 class __SegmentedControl__IDataSource;
 }
@@ -24,6 +21,9 @@ class DiContainer;
 }
 namespace System::Collections::Generic {
 template <typename T> class IReadOnlyList_1;
+}
+namespace UnityEngine {
+class Object;
 }
 // Forward declare root types
 namespace HMUI {

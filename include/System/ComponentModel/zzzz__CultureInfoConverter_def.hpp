@@ -8,25 +8,25 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(CultureInfoConverter)
 namespace System::ComponentModel {
-class ITypeDescriptorContext;
+class __CultureInfoConverter__CultureComparer;
 }
 namespace System::ComponentModel {
 class __CultureInfoConverter__CultureInfoMapper;
 }
+namespace System::ComponentModel {
+class __TypeConverter__StandardValuesCollection;
+}
 namespace System {
 class Object;
-}
-namespace System::ComponentModel {
-class __CultureInfoConverter__CultureComparer;
-}
-namespace System::Globalization {
-class CultureInfo;
 }
 namespace System {
 class Type;
 }
+namespace System::Globalization {
+class CultureInfo;
+}
 namespace System::ComponentModel {
-class __TypeConverter__StandardValuesCollection;
+class ITypeDescriptorContext;
 }
 namespace System::Collections {
 class IComparer;

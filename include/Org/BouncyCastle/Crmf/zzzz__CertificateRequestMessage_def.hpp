@@ -7,13 +7,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(CertificateRequestMessage)
 namespace Org::BouncyCastle::Asn1::Crmf {
-class Controls;
-}
-namespace Org::BouncyCastle::Crypto {
-class IVerifierFactoryProvider;
+class AttributeTypeAndValue;
 }
 namespace Org::BouncyCastle::Asn1::Crmf {
-class AttributeTypeAndValue;
+class Controls;
+}
+namespace Org::BouncyCastle::Asn1::Crmf {
+class CertReqMsg;
+}
+namespace Org::BouncyCastle::Asn1 {
+class DerObjectIdentifier;
 }
 namespace Org::BouncyCastle::Asn1::Crmf {
 class CertTemplate;
@@ -21,14 +24,11 @@ class CertTemplate;
 namespace Org::BouncyCastle::Asn1::Crmf {
 class PopoSigningKey;
 }
-namespace Org::BouncyCastle::Asn1 {
-class DerObjectIdentifier;
+namespace Org::BouncyCastle::Crypto {
+class IVerifierFactoryProvider;
 }
 namespace Org::BouncyCastle::Crmf {
 class IControl;
-}
-namespace Org::BouncyCastle::Asn1::Crmf {
-class CertReqMsg;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crmf {

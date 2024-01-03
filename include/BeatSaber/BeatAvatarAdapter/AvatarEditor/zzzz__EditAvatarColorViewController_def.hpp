@@ -5,8 +5,14 @@ CORDL_MODULE_INIT
 #include "HMUI/zzzz__ViewController_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
 CORDL_MODULE_EXPORT(EditAvatarColorViewController)
-namespace UnityEngine::UI {
-class Button;
+namespace UnityEngine {
+struct Color;
+}
+namespace HMUI {
+class ButtonBinder;
+}
+namespace GlobalNamespace {
+class PreviousColorPanelController;
 }
 namespace GlobalNamespace {
 struct ColorChangeUIEventType;
@@ -14,17 +20,11 @@ struct ColorChangeUIEventType;
 namespace GlobalNamespace {
 class HSVPanelController;
 }
-namespace GlobalNamespace {
-class PreviousColorPanelController;
-}
-namespace UnityEngine {
-struct Color;
-}
 namespace System {
 template <typename T> class Action_1;
 }
-namespace HMUI {
-class ButtonBinder;
+namespace UnityEngine::UI {
+class Button;
 }
 // Forward declare root types
 namespace BeatSaber::BeatAvatarAdapter::AvatarEditor {

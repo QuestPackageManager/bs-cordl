@@ -9,9 +9,6 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(JProperty)
 namespace System {
-class Object;
-}
-namespace System {
 class IDisposable;
 }
 namespace Newtonsoft::Json::Linq {
@@ -20,20 +17,17 @@ class JToken;
 namespace System::Collections {
 class IEnumerator;
 }
+namespace System {
+class Object;
+}
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
-namespace Newtonsoft::Json {
-class JsonWriter;
-}
-namespace Newtonsoft::Json {
-class JsonReader;
+namespace Newtonsoft::Json::Linq {
+class JsonLoadSettings;
 }
 namespace System::Collections::Generic {
 template <typename T> class IList_1;
-}
-namespace Newtonsoft::Json::Linq {
-class JsonMergeSettings;
 }
 namespace Newtonsoft::Json {
 class JsonConverter;
@@ -42,10 +36,19 @@ namespace Newtonsoft::Json::Linq {
 struct JTokenType;
 }
 namespace Newtonsoft::Json::Linq {
-class JsonLoadSettings;
+class JsonMergeSettings;
 }
 namespace Newtonsoft::Json::Linq {
 class __JProperty__JPropertyList;
+}
+namespace Newtonsoft::Json {
+class JsonWriter;
+}
+namespace Newtonsoft::Json {
+class JsonReader;
+}
+namespace System::Collections {
+class IEnumerable;
 }
 namespace System::Collections::Generic {
 template <typename T> class ICollection_1;
@@ -55,9 +58,6 @@ template <typename T> class IEnumerable_1;
 }
 namespace GlobalNamespace {
 class __JProperty__JPropertyList___GetEnumerator_d__1;
-}
-namespace System::Collections {
-class IEnumerable;
 }
 // Forward declare root types
 namespace GlobalNamespace {

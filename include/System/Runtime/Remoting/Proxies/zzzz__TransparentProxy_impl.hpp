@@ -2,10 +2,10 @@
 #include "Mono/zzzz__RuntimeRemoteClassHandle_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Runtime/Remoting/Proxies/zzzz__TransparentProxy_def.hpp"
-#include "System/zzzz__Object_def.hpp"
-#include "System/Runtime/Remoting/Contexts/zzzz__Context_def.hpp"
-#include "System/zzzz__RuntimeType_def.hpp"
 #include "System/Runtime/Remoting/Proxies/zzzz__RealProxy_def.hpp"
+#include "System/Runtime/Remoting/Contexts/zzzz__Context_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+#include "System/zzzz__RuntimeType_def.hpp"
 //  Writing Method size for method: ::System::Runtime::Remoting::Proxies::TransparentProxy.GetProxyType
 template <>
 

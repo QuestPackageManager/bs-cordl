@@ -75,7 +75,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::Controls::__DiscreteButtonCon
 // SizeInfo { instance_size: 304, native_size: -1, calculated_instance_size: 304, calculated_native_size: 304, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Controls {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6631)), TypeDefinitionIndex(TypeDefinitionIndex(6629))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6629)), TypeDefinitionIndex(TypeDefinitionIndex(6631))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6632))
 // CS Name: ::UnityEngine.InputSystem.Controls::DiscreteButtonControl*
 class CORDL_TYPE DiscreteButtonControl : public ::UnityEngine::InputSystem::Controls::ButtonControl {

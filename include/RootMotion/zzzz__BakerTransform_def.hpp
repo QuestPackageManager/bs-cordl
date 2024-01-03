@@ -10,19 +10,19 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(BakerTransform)
 namespace UnityEngine {
+struct Vector3;
+}
+namespace UnityEngine {
+class AnimationClip;
+}
+namespace UnityEngine {
 class Transform;
 }
 namespace UnityEngine {
 struct Quaternion;
 }
 namespace UnityEngine {
-class AnimationClip;
-}
-namespace UnityEngine {
 class AnimationCurve;
-}
-namespace UnityEngine {
-struct Vector3;
 }
 // Forward declare root types
 namespace RootMotion {

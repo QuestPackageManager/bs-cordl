@@ -9,13 +9,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(SpawnRotationBeatmapEventData)
 namespace GlobalNamespace {
-class BeatmapDataItem;
-}
-namespace GlobalNamespace {
 struct __SpawnRotationBeatmapEventData__SpawnRotationEventType;
 }
 namespace GlobalNamespace {
 class BeatmapEventData;
+}
+namespace GlobalNamespace {
+class BeatmapDataItem;
 }
 // Forward declare root types
 namespace GlobalNamespace {

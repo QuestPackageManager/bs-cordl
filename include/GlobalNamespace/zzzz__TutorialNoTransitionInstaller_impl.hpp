@@ -1,9 +1,9 @@
 #pragma once
 #include "Zenject/zzzz__NoTransitionInstaller_impl.hpp"
 #include "GlobalNamespace/zzzz__TutorialNoTransitionInstaller_def.hpp"
+#include "GlobalNamespace/zzzz__PlayerSpecificSettings_def.hpp"
 #include "Zenject/zzzz__DiContainer_def.hpp"
 #include "GlobalNamespace/zzzz__TutorialScenesTransitionSetupDataSO_def.hpp"
-#include "GlobalNamespace/zzzz__PlayerSpecificSettings_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::TutorialNoTransitionInstaller.InstallBindings
 template <>
 

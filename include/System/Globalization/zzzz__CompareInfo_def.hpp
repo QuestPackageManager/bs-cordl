@@ -7,35 +7,35 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(CompareInfo)
-namespace System::Globalization {
-class CultureInfo;
+namespace System {
+template <typename T> struct ReadOnlySpan_1;
 }
 namespace System::Globalization {
-class ISimpleCollator;
+class SortVersion;
+}
+namespace System::Globalization {
+class SortKey;
+}
+namespace System::Runtime::Serialization {
+class IDeserializationCallback;
 }
 namespace System::Globalization {
 struct CompareOptions;
 }
 namespace System::Globalization {
-class SortKey;
-}
-namespace System::Globalization {
-class SortVersion;
-}
-namespace System::Runtime::Serialization {
-struct StreamingContext;
+class ISimpleCollator;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
-namespace System {
-class Object;
-}
-namespace System {
-template <typename T> struct ReadOnlySpan_1;
+namespace System::Globalization {
+class CultureInfo;
 }
 namespace System::Runtime::Serialization {
-class IDeserializationCallback;
+struct StreamingContext;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::Globalization {

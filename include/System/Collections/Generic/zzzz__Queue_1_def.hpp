@@ -8,32 +8,32 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(Queue_1)
-namespace System {
-class Object;
+namespace System::Collections {
+class ICollection;
+}
+namespace System::Collections {
+class IEnumerator;
 }
 namespace System::Collections {
 class IEnumerable;
 }
-namespace System::Collections::Generic {
-template <typename T> class IReadOnlyCollection_1;
+namespace System {
+class Object;
 }
-namespace System::Collections {
-class ICollection;
+namespace System::Collections::Generic {
+template <typename T> struct __Queue_1__Enumerator;
+}
+namespace System {
+class Array;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
 namespace System::Collections::Generic {
-template <typename T> struct __Queue_1__Enumerator;
+template <typename T> class IReadOnlyCollection_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
-}
-namespace System {
-class Array;
-}
-namespace System::Collections {
-class IEnumerator;
 }
 namespace System {
 class IDisposable;

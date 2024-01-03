@@ -3,11 +3,11 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(ILease)
-namespace System {
-struct TimeSpan;
-}
 namespace System::Runtime::Remoting::Lifetime {
 struct LeaseState;
+}
+namespace System {
+struct TimeSpan;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting::Lifetime {

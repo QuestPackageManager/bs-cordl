@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(IInputStateCallbackReceiver)
-namespace UnityEngine::InputSystem {
-class InputControl;
-}
 namespace UnityEngine::InputSystem::LowLevel {
 struct InputEventPtr;
+}
+namespace UnityEngine::InputSystem {
+class InputControl;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::LowLevel {

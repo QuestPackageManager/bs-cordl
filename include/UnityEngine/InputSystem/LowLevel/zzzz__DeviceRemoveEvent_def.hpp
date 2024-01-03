@@ -8,16 +8,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(DeviceRemoveEvent)
 namespace UnityEngine::InputSystem::LowLevel {
-class IInputEventTypeInfo;
+struct InputEvent;
 }
 namespace UnityEngine::InputSystem::Utilities {
 struct FourCC;
 }
 namespace UnityEngine::InputSystem::LowLevel {
-struct InputEventPtr;
+class IInputEventTypeInfo;
 }
 namespace UnityEngine::InputSystem::LowLevel {
-struct InputEvent;
+struct InputEventPtr;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::LowLevel {

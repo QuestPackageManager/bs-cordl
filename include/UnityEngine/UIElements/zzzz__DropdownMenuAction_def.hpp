@@ -8,11 +8,11 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(DropdownMenuAction)
+namespace UnityEngine::UIElements {
+struct __DropdownMenuAction__Status;
+}
 namespace System {
 template <typename T> class Action_1;
-}
-namespace UnityEngine::UIElements {
-class DropdownMenuEventInfo;
 }
 namespace System {
 class Object;
@@ -21,7 +21,7 @@ namespace System {
 template <typename T, typename TResult> class Func_2;
 }
 namespace UnityEngine::UIElements {
-struct __DropdownMenuAction__Status;
+class DropdownMenuEventInfo;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -99,7 +99,7 @@ static_assert(offsetof(::UnityEngine::UIElements::__DropdownMenuAction__Status, 
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6945)), TypeDefinitionIndex(TypeDefinitionIndex(6947))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6947)), TypeDefinitionIndex(TypeDefinitionIndex(6945))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6948))
 // CS Name: ::UnityEngine.UIElements::DropdownMenuAction*
 class CORDL_TYPE DropdownMenuAction : public ::UnityEngine::UIElements::DropdownMenuItem {

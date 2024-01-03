@@ -8,10 +8,10 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(UxmlEnumAttributeDescription_1)
 namespace UnityEngine::UIElements {
-template <typename T> class __UxmlEnumAttributeDescription_1____c;
+class IUxmlAttributes;
 }
 namespace UnityEngine::UIElements {
-class IUxmlAttributes;
+template <typename T> class __UxmlEnumAttributeDescription_1____c;
 }
 namespace UnityEngine::UIElements {
 struct CreationContext;

@@ -5,20 +5,20 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(TweeningManager)
-namespace Tweening {
-class Tween;
+namespace System::Collections::Generic {
+template <typename T> class HashSet_1;
+}
+namespace System {
+class Object;
 }
 namespace System::Collections::Generic {
 template <typename T> class Queue_1;
 }
-namespace System::Collections::Generic {
-template <typename T> class HashSet_1;
+namespace Tweening {
+class Tween;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
-}
-namespace System {
-class Object;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;

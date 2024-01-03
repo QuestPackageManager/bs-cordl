@@ -12,20 +12,17 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(PointerEventData)
-namespace UnityEngine {
-class GameObject;
-}
 namespace UnityEngine::EventSystems {
 struct RaycastResult;
 }
 namespace UnityEngine {
-class Camera;
+struct Vector2;
 }
 namespace UnityEngine::EventSystems {
 class EventSystem;
 }
-namespace UnityEngine::EventSystems {
-struct __PointerEventData__FramePressState;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace UnityEngine::EventSystems {
 struct __PointerEventData__InputButton;
@@ -34,10 +31,13 @@ namespace UnityEngine {
 struct Vector3;
 }
 namespace UnityEngine {
-struct Vector2;
+class GameObject;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace UnityEngine::EventSystems {
+struct __PointerEventData__FramePressState;
+}
+namespace UnityEngine {
+class Camera;
 }
 // Forward declare root types
 namespace UnityEngine::EventSystems {
@@ -169,8 +169,8 @@ static_assert(offsetof(::UnityEngine::EventSystems::__PointerEventData__FramePre
 // SizeInfo { instance_size: 352, native_size: -1, calculated_instance_size: 352, calculated_native_size: 350, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::EventSystems {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13166)), TypeDefinitionIndex(TypeDefinitionIndex(13213)), TypeDefinitionIndex(TypeDefinitionIndex(10243)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(13165))} Self: TypeDefinitionIndex(TypeDefinitionIndex(13168)) CS Name:
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13166)), TypeDefinitionIndex(TypeDefinitionIndex(13213)), TypeDefinitionIndex(TypeDefinitionIndex(13165)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(10249))} Self: TypeDefinitionIndex(TypeDefinitionIndex(13168)) CS Name:
 // ::UnityEngine.EventSystems::PointerEventData*
 class CORDL_TYPE PointerEventData : public ::UnityEngine::EventSystems::BaseEventData {
 public:

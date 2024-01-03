@@ -8,10 +8,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(RichTextTagAttribute)
 namespace TMPro {
-struct TagValueType;
+struct TagUnitType;
 }
 namespace TMPro {
-struct TagUnitType;
+struct TagValueType;
 }
 // Forward declare root types
 namespace TMPro {

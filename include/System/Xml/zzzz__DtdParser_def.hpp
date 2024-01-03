@@ -12,32 +12,23 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(DtdParser)
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
+namespace System::Xml::Schema {
+class SchemaElementDecl;
+}
+namespace System::Xml {
+struct __DtdParser__Token;
 }
 namespace System::Xml::Schema {
 class ParticleContentValidator;
 }
-namespace System::Xml::Schema {
-struct XmlSeverityType;
+namespace System::Xml {
+struct __DtdParser__ScanningFunction;
 }
 namespace System::Xml {
-class __DtdParser__ParseElementOnlyContent_LocalFrame;
+class IDtdParserAdapter;
 }
 namespace System::Xml::Schema {
 class SchemaAttDef;
-}
-namespace System::Xml::Schema {
-class SchemaInfo;
-}
-namespace System::Xml {
-struct __DtdParser__LiteralType;
-}
-namespace System::Xml {
-class __DtdParser__UndeclaredNotation;
-}
-namespace System::Xml {
-class IDtdParserAdapterWithValidation;
 }
 namespace System::Xml {
 class XmlQualifiedName;
@@ -46,31 +37,40 @@ namespace System::Xml {
 class IDtdParser;
 }
 namespace System::Xml::Schema {
-class SchemaEntity;
+class XmlSchemaException;
+}
+namespace System::Xml {
+struct __DtdParser__LiteralType;
+}
+namespace System::Xml {
+class __DtdParser__ParseElementOnlyContent_LocalFrame;
 }
 namespace System::Xml::Schema {
-class XmlSchemaException;
+struct XmlSeverityType;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace System::Text {
 class StringBuilder;
 }
 namespace System::Xml {
-class IDtdInfo;
+class __DtdParser__UndeclaredNotation;
 }
 namespace System::Xml {
-struct __DtdParser__ScanningFunction;
+class IDtdParserAdapterWithValidation;
 }
 namespace System::Xml {
 class XmlNameTable;
 }
-namespace System::Xml {
-class IDtdParserAdapter;
+namespace System::Xml::Schema {
+class SchemaInfo;
 }
 namespace System::Xml::Schema {
-class SchemaElementDecl;
+class SchemaEntity;
 }
 namespace System::Xml {
-struct __DtdParser__Token;
+class IDtdInfo;
 }
 // Forward declare root types
 namespace System::Xml {
@@ -722,7 +722,7 @@ static_assert(offsetof(::System::Xml::__DtdParser__ParseElementOnlyContent_Local
 // SizeInfo { instance_size: 200, native_size: -1, calculated_instance_size: 200, calculated_native_size: 200, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11544)), TypeDefinitionIndex(TypeDefinitionIndex(11537)), TypeDefinitionIndex(TypeDefinitionIndex(2613)),
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(11544)), TypeDefinitionIndex(TypeDefinitionIndex(11537)),
 // TypeDefinitionIndex(TypeDefinitionIndex(11532))} Self: TypeDefinitionIndex(TypeDefinitionIndex(11541)) CS Name: ::System.Xml::DtdParser*
 class CORDL_TYPE DtdParser : public ::System::Object {
 public:

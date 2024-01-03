@@ -9,68 +9,68 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(JsonConvert)
-namespace System::Xml {
-class XmlDocument;
-}
 namespace System::Xml::Linq {
 class XObject;
-}
-namespace Newtonsoft::Json {
-struct Formatting;
 }
 namespace System::Xml::Linq {
 class XDocument;
 }
 namespace System {
-struct Guid;
-}
-namespace Newtonsoft::Json {
-class JsonSerializer;
+struct DateTimeOffset;
 }
 namespace System {
 class Type;
 }
-namespace System::Xml {
-class XmlNode;
-}
-namespace Newtonsoft::Json {
-struct FloatFormatHandling;
-}
-namespace Newtonsoft::Json {
-class JsonConverter;
-}
-namespace Newtonsoft::Json {
-struct DateFormatHandling;
-}
 namespace System {
 class Object;
 }
-namespace System {
-struct DateTimeOffset;
+namespace Newtonsoft::Json {
+struct StringEscapeHandling;
 }
 namespace Newtonsoft::Json {
 class JsonSerializerSettings;
 }
-namespace Newtonsoft::Json {
-struct DateTimeZoneHandling;
+namespace System::Xml {
+class XmlNode;
 }
-namespace System {
-template <typename TResult> class Func_1;
-}
-namespace System {
-class Uri;
+namespace System::Xml {
+class XmlDocument;
 }
 namespace System {
 struct DateTime;
 }
 namespace System {
+class Uri;
+}
+namespace System {
+template <typename TResult> class Func_1;
+}
+namespace Newtonsoft::Json {
+struct DateTimeZoneHandling;
+}
+namespace System {
 struct Decimal;
 }
 namespace Newtonsoft::Json {
-struct StringEscapeHandling;
+struct Formatting;
+}
+namespace Newtonsoft::Json {
+class JsonConverter;
 }
 namespace System {
 struct TimeSpan;
+}
+namespace Newtonsoft::Json {
+class JsonSerializer;
+}
+namespace Newtonsoft::Json {
+struct DateFormatHandling;
+}
+namespace System {
+struct Guid;
+}
+namespace Newtonsoft::Json {
+struct FloatFormatHandling;
 }
 // Forward declare root types
 namespace Newtonsoft::Json {

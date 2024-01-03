@@ -17,41 +17,44 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(CryptoStream)
-namespace System::IO {
-class Stream;
-}
-namespace System::Threading {
-struct CancellationToken;
-}
-namespace System::Threading {
-class SemaphoreSlim;
-}
-namespace System::Security::Cryptography {
-struct __CryptoStream___ReadAsyncInternal_d__37;
-}
-namespace System::Threading::Tasks {
-class Task;
-}
-namespace System::Security::Cryptography {
-struct __CryptoStream___WriteAsyncInternal_d__46;
-}
 namespace System::Security::Cryptography {
 struct __CryptoStream___WriteAsyncCore_d__49;
 }
 namespace System::Security::Cryptography {
 struct CryptoStreamMode;
 }
-namespace System {
-class IDisposable;
+namespace System::Threading::Tasks {
+template <typename TResult> class Task_1;
 }
 namespace System {
 class AsyncCallback;
 }
+namespace System::Security::Cryptography {
+class ICryptoTransform;
+}
+namespace System::Security::Cryptography {
+struct __CryptoStream___ReadAsyncInternal_d__37;
+}
 namespace System {
 class IAsyncResult;
 }
+namespace System::Security::Cryptography {
+class __CryptoStream____c;
+}
 namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
+class Task;
+}
+namespace System {
+class IDisposable;
+}
+namespace System::Security::Cryptography {
+struct __CryptoStream___WriteAsyncInternal_d__46;
+}
+namespace System::Threading {
+struct CancellationToken;
+}
+namespace System::IO {
+class Stream;
 }
 namespace System::Security::Cryptography {
 struct __CryptoStream___ReadAsyncCore_d__42;
@@ -59,14 +62,11 @@ struct __CryptoStream___ReadAsyncCore_d__42;
 namespace System::IO {
 struct SeekOrigin;
 }
-namespace System::Security::Cryptography {
-class ICryptoTransform;
-}
 namespace System {
 class Object;
 }
-namespace System::Security::Cryptography {
-class __CryptoStream____c;
+namespace System::Threading {
+class SemaphoreSlim;
 }
 namespace System {
 template <typename TResult> class Func_1;
@@ -80,11 +80,11 @@ template <typename TResult> struct ValueTaskAwaiter_1;
 namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
 }
-namespace System::Runtime::CompilerServices {
-template <typename TResult> struct TaskAwaiter_1;
-}
 namespace System::Threading::Tasks {
 struct ForceAsyncAwaiter;
+}
+namespace System::Runtime::CompilerServices {
+template <typename TResult> struct TaskAwaiter_1;
 }
 namespace System::Runtime::CompilerServices {
 struct AsyncTaskMethodBuilder;
@@ -125,9 +125,9 @@ MARK_VAL_T(::System::Security::Cryptography::__CryptoStream___WriteAsyncInternal
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Cryptography {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2769)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 98 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(2677)), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(3402), inst: 98 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(2908)) CS Name: ::CryptoStream::<ReadAsyncInternal>d__37
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(2769)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 98
+// }), TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 98 })} Self:
+// TypeDefinitionIndex(TypeDefinitionIndex(2908)) CS Name: ::CryptoStream::<ReadAsyncInternal>d__37
 struct CORDL_TYPE __CryptoStream___ReadAsyncInternal_d__37 {
 public:
   // Declarations
@@ -219,9 +219,9 @@ static_assert(offsetof(::System::Security::Cryptography::__CryptoStream___ReadAs
 // SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 136, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Cryptography {
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3391), inst: 98 }), TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation {
-// tdi: TypeDefinitionIndex(3402), inst: 98 }), TypeDefinitionIndex(TypeDefinitionIndex(3391)), TypeDefinitionIndex(TypeDefinitionIndex(2677))} Self: TypeDefinitionIndex(TypeDefinitionIndex(2909)) CS
-// Name: ::CryptoStream::<ReadAsyncCore>d__42
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 98 }), TypeDefinitionIndex(TypeDefinitionIndex(2677)),
+// TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(3391)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3391), inst: 98 })} Self:
+// TypeDefinitionIndex(TypeDefinitionIndex(2909)) CS Name: ::CryptoStream::<ReadAsyncCore>d__42
 struct CORDL_TYPE __CryptoStream___ReadAsyncCore_d__42 {
 public:
   // Declarations
@@ -336,8 +336,8 @@ static_assert(offsetof(::System::Security::Cryptography::__CryptoStream___ReadAs
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Cryptography {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3393)), TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(2769)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3401))} Self: TypeDefinitionIndex(TypeDefinitionIndex(2910)) CS Name: ::CryptoStream::<WriteAsyncInternal>d__46
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3401)), TypeDefinitionIndex(TypeDefinitionIndex(2769)),
+// TypeDefinitionIndex(TypeDefinitionIndex(3393))} Self: TypeDefinitionIndex(TypeDefinitionIndex(2910)) CS Name: ::CryptoStream::<WriteAsyncInternal>d__46
 struct CORDL_TYPE __CryptoStream___WriteAsyncInternal_d__46 {
 public:
   // Declarations
@@ -597,7 +597,7 @@ static_assert(::cordl_internals::size_check_v<::System::Security::Cryptography::
 // SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 113, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Cryptography {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2914)), TypeDefinitionIndex(TypeDefinitionIndex(3619))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3619)), TypeDefinitionIndex(TypeDefinitionIndex(2914))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2913))
 // CS Name: ::System.Security.Cryptography::CryptoStream*
 class CORDL_TYPE CryptoStream : public ::System::IO::Stream {

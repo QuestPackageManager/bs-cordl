@@ -9,26 +9,26 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(GUILayoutUtility)
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
 namespace UnityEngine {
-class GUIContent;
+class __GUILayoutUtility__LayoutCache;
 }
 namespace UnityEngine {
 class GUILayoutGroup;
 }
 namespace UnityEngine {
-class __GUILayoutUtility__LayoutCache;
+struct Rect;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace UnityEngine {
+class GUILayoutOption;
 }
 namespace UnityEngine {
 class GUIStyle;
 }
 namespace UnityEngine {
-struct Rect;
-}
-namespace UnityEngine {
-class GUILayoutOption;
+class GUIContent;
 }
 namespace UnityEngineInternal {
 class GenericStack;
@@ -147,7 +147,7 @@ static_assert(offsetof(::UnityEngine::__GUILayoutUtility__LayoutCache, ___window
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10165)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10165))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14607))
 // CS Name: ::UnityEngine::GUILayoutUtility*
 class CORDL_TYPE GUILayoutUtility : public ::System::Object {

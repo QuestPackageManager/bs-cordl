@@ -9,11 +9,11 @@ CORDL_MODULE_EXPORT(MemoryManager_1)
 namespace System {
 template <typename T> struct Span_1;
 }
-namespace System::Buffers {
-struct MemoryHandle;
-}
 namespace System {
 template <typename T> struct ArraySegment_1;
+}
+namespace System::Buffers {
+struct MemoryHandle;
 }
 // Forward declare root types
 namespace System::Buffers {

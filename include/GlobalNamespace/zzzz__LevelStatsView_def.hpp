@@ -4,14 +4,14 @@
 CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(LevelStatsView)
+namespace GlobalNamespace {
+class IDifficultyBeatmap;
+}
 namespace TMPro {
 class TextMeshProUGUI;
 }
 namespace GlobalNamespace {
 class PlayerData;
-}
-namespace GlobalNamespace {
-class IDifficultyBeatmap;
 }
 // Forward declare root types
 namespace GlobalNamespace {

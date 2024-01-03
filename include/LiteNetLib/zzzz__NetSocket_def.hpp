@@ -2,34 +2,32 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/Threading/zzzz__ThreadPriority_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(NetSocket)
+namespace System::Net {
+class IPEndPoint;
+}
 namespace System::Net::Sockets {
 struct SocketError;
 }
 namespace System::Net {
 class IPAddress;
 }
-namespace System {
-class Object;
-}
-namespace System::Net {
-class IPEndPoint;
-}
 namespace LiteNetLib {
 class INetSocketListener;
 }
-namespace System::Threading {
-class Thread;
-}
-namespace System::Threading {
-struct ThreadPriority;
+namespace System {
+class Object;
 }
 namespace System::Net::Sockets {
 class Socket;
+}
+namespace System::Threading {
+class Thread;
 }
 // Forward declare root types
 namespace LiteNetLib {
@@ -41,7 +39,7 @@ MARK_REF_PTR_T(::LiteNetLib::NetSocket);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 61, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace LiteNetLib {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2670)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14180))
 // CS Name: ::LiteNetLib::NetSocket*
 class CORDL_TYPE NetSocket : public ::System::Object {

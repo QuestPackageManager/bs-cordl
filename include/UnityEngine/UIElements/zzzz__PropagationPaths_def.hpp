@@ -7,19 +7,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(PropagationPaths)
 namespace UnityEngine::UIElements {
-class VisualElement;
+template <typename T> class ObjectPool_1;
 }
 namespace UnityEngine::UIElements {
 struct __PropagationPaths__Type;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace UnityEngine::UIElements {
+class VisualElement;
 }
 namespace UnityEngine::UIElements {
 class EventBase;
 }
-namespace UnityEngine::UIElements {
-template <typename T> class ObjectPool_1;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

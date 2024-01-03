@@ -8,6 +8,9 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(KnucklesUnityXRHapticsHandler)
+namespace UnityEngine {
+class Coroutine;
+}
 namespace System::Collections {
 class IEnumerator;
 }
@@ -17,26 +20,23 @@ class IDisposable;
 namespace GlobalNamespace {
 class __KnucklesUnityXRHapticsHandler___HapticsCoroutine_d__9;
 }
-namespace UnityEngine {
-class MonoBehaviour;
-}
 namespace GlobalNamespace {
 class IUnityXRHapticsHandler;
 }
 namespace UnityEngine {
-class Coroutine;
+class MonoBehaviour;
 }
 namespace UnityEngine::XR {
 struct XRNode;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
 }
 namespace UnityEngine {
 class WaitForSecondsRealtime;
 }
 namespace System {
 class Object;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -185,7 +185,7 @@ static_assert(offsetof(::GlobalNamespace::__KnucklesUnityXRHapticsHandler___Hapt
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15614))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15614)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14414))
 // CS Name: ::KnucklesUnityXRHapticsHandler*
 class CORDL_TYPE KnucklesUnityXRHapticsHandler : public ::System::Object {

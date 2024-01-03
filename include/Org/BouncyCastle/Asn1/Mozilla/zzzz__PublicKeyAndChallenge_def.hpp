@@ -8,16 +8,16 @@ namespace System {
 class Object;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
+class Asn1Object;
 }
 namespace Org::BouncyCastle::Asn1 {
 class DerIA5String;
 }
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Sequence;
+}
 namespace Org::BouncyCastle::Asn1::X509 {
 class SubjectPublicKeyInfo;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Mozilla {

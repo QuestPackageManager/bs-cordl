@@ -7,21 +7,6 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Clickable)
 namespace UnityEngine::UIElements {
-class MouseDownEvent;
-}
-namespace UnityEngine::UIElements {
-class MouseMoveEvent;
-}
-namespace UnityEngine::UIElements {
-class PointerDownEvent;
-}
-namespace UnityEngine::UIElements {
-class PointerMoveEvent;
-}
-namespace UnityEngine::UIElements {
-struct TimerState;
-}
-namespace UnityEngine::UIElements {
 class IVisualElementScheduledItem;
 }
 namespace System {
@@ -31,28 +16,43 @@ namespace System {
 class Action;
 }
 namespace UnityEngine::UIElements {
-class PointerUpEvent;
-}
-namespace UnityEngine::UIElements {
 struct InvokePolicy;
 }
 namespace UnityEngine::UIElements {
-class EventBase;
+struct TimerState;
 }
 namespace UnityEngine::UIElements {
-class MouseUpEvent;
+class MouseDownEvent;
+}
+namespace UnityEngine::UIElements {
+class PointerDownEvent;
+}
+namespace UnityEngine::UIElements {
+class PointerMoveEvent;
 }
 namespace UnityEngine::UIElements {
 class PointerCancelEvent;
-}
-namespace UnityEngine {
-struct Vector2;
 }
 namespace UnityEngine::UIElements {
 class PointerCaptureOutEvent;
 }
 namespace UnityEngine::UIElements {
+class MouseUpEvent;
+}
+namespace UnityEngine {
+struct Vector2;
+}
+namespace UnityEngine::UIElements {
+class PointerUpEvent;
+}
+namespace UnityEngine::UIElements {
+class MouseMoveEvent;
+}
+namespace UnityEngine::UIElements {
 class MouseCaptureOutEvent;
+}
+namespace UnityEngine::UIElements {
+class EventBase;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

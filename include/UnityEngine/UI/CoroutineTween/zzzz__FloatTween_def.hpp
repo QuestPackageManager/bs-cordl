@@ -6,14 +6,14 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstddef>
 CORDL_MODULE_EXPORT(FloatTween)
+namespace UnityEngine::UI::CoroutineTween {
+class ITweenValue;
+}
 namespace UnityEngine::Events {
 template <typename T0> class UnityAction_1;
 }
 namespace UnityEngine::UI::CoroutineTween {
 class __FloatTween__FloatTweenCallback;
-}
-namespace UnityEngine::UI::CoroutineTween {
-class ITweenValue;
 }
 // Forward declare root types
 namespace UnityEngine::UI::CoroutineTween {

@@ -19,8 +19,8 @@ MARK_REF_PTR_T(::Oculus::Platform::MessageWithShareMediaResult);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13262), inst: 4610 }), TypeDefinitionIndex(TypeDefinitionIndex(13481)),
-// TypeDefinitionIndex(TypeDefinitionIndex(13262))} Self: TypeDefinitionIndex(TypeDefinitionIndex(13323)) CS Name: ::Oculus.Platform::MessageWithShareMediaResult*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13481)), TypeDefinitionIndex(TypeDefinitionIndex(13262)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13262), inst:
+// 4610 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(13323)) CS Name: ::Oculus.Platform::MessageWithShareMediaResult*
 class CORDL_TYPE MessageWithShareMediaResult : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::ShareMediaResult*> {
 public:
   // Declarations

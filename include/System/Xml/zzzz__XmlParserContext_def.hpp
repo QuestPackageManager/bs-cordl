@@ -7,7 +7,7 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(XmlParserContext)
 namespace System::Xml {
-class XmlNamespaceManager;
+class XmlNameTable;
 }
 namespace System::Xml {
 struct XmlSpace;
@@ -16,7 +16,7 @@ namespace System::Text {
 class Encoding;
 }
 namespace System::Xml {
-class XmlNameTable;
+class XmlNamespaceManager;
 }
 // Forward declare root types
 namespace System::Xml {

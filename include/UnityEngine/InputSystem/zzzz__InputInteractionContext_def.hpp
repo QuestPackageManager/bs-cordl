@@ -12,19 +12,19 @@ namespace UnityEngine::InputSystem {
 struct __InputInteractionContext__Flags;
 }
 namespace UnityEngine::InputSystem {
-struct InputActionPhase;
+class InputActionState;
 }
 namespace UnityEngine::InputSystem {
 class InputAction;
 }
 namespace UnityEngine::InputSystem {
-struct __InputActionState__TriggerState;
-}
-namespace UnityEngine::InputSystem {
 class InputControl;
 }
 namespace UnityEngine::InputSystem {
-class InputActionState;
+struct __InputActionState__TriggerState;
+}
+namespace UnityEngine::InputSystem {
+struct InputActionPhase;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem {

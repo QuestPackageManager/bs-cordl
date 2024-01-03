@@ -5,17 +5,17 @@ CORDL_MODULE_INIT
 #include "UnityEngine/UI/zzzz__Graphic_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(CurvedCanvasSettings)
-namespace UnityEngine {
-struct Vector2;
-}
-namespace UnityEngine {
-struct Vector3;
-}
 namespace UnityEngine::UI {
 class VertexHelper;
 }
 namespace UnityEngine {
 class Transform;
+}
+namespace UnityEngine {
+struct Vector2;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace HMUI {

@@ -12,13 +12,19 @@ namespace UnityEngine::Timeline {
 class AudioClipProperties;
 }
 namespace UnityEngine {
-class GameObject;
+class AudioClip;
 }
 namespace UnityEngine::Playables {
 struct PlayableBinding;
 }
+namespace UnityEngine::Playables {
+struct PlayableGraph;
+}
 namespace UnityEngine::Timeline {
-struct ClipCaps;
+class ITimelineClipAsset;
+}
+namespace UnityEngine {
+class GameObject;
 }
 namespace UnityEngine::Timeline {
 class __AudioPlayableAsset___get_outputs_d__16;
@@ -26,23 +32,17 @@ class __AudioPlayableAsset___get_outputs_d__16;
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
-namespace UnityEngine {
-class AudioClip;
-}
-namespace UnityEngine::Playables {
-struct PlayableGraph;
+namespace UnityEngine::Timeline {
+struct ClipCaps;
 }
 namespace UnityEngine::Playables {
 struct Playable;
 }
-namespace UnityEngine::Timeline {
-class ITimelineClipAsset;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
 }
 namespace System::Collections {
 class IEnumerator;
-}
-namespace System {
-class IDisposable;
 }
 namespace System {
 class Object;
@@ -50,8 +50,8 @@ class Object;
 namespace System::Collections {
 class IEnumerable;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
+namespace System {
+class IDisposable;
 }
 // Forward declare root types
 namespace UnityEngine::Timeline {

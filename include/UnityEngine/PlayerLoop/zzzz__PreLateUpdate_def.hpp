@@ -8,43 +8,43 @@ namespace UnityEngine::PlayerLoop {
 struct __PreLateUpdate__EndGraphicsJobsAfterScriptUpdate;
 }
 namespace UnityEngine::PlayerLoop {
-struct __PreLateUpdate__ScriptRunBehaviourLateUpdate;
-}
-namespace UnityEngine::PlayerLoop {
-struct __PreLateUpdate__ConstraintManagerUpdate;
-}
-namespace UnityEngine::PlayerLoop {
-struct __PreLateUpdate__UIElementsUpdatePanels;
-}
-namespace UnityEngine::PlayerLoop {
-struct __PreLateUpdate__UpdateMasterServerInterface;
-}
-namespace UnityEngine::PlayerLoop {
-struct __PreLateUpdate__UNetUpdate;
-}
-namespace UnityEngine::PlayerLoop {
-struct __PreLateUpdate__ParticleSystemBeginUpdateAll;
-}
-namespace UnityEngine::PlayerLoop {
-struct __PreLateUpdate__Physics2DLateUpdate;
+struct __PreLateUpdate__AIUpdatePostScript;
 }
 namespace UnityEngine::PlayerLoop {
 struct __PreLateUpdate__DirectorDeferredEvaluate;
 }
 namespace UnityEngine::PlayerLoop {
-struct __PreLateUpdate__AIUpdatePostScript;
+struct __PreLateUpdate__UpdateNetworkManager;
+}
+namespace UnityEngine::PlayerLoop {
+struct __PreLateUpdate__Physics2DLateUpdate;
+}
+namespace UnityEngine::PlayerLoop {
+struct __PreLateUpdate__ConstraintManagerUpdate;
 }
 namespace UnityEngine::PlayerLoop {
 struct __PreLateUpdate__DirectorUpdateAnimationBegin;
 }
 namespace UnityEngine::PlayerLoop {
-struct __PreLateUpdate__LegacyAnimationUpdate;
-}
-namespace UnityEngine::PlayerLoop {
 struct __PreLateUpdate__DirectorUpdateAnimationEnd;
 }
 namespace UnityEngine::PlayerLoop {
-struct __PreLateUpdate__UpdateNetworkManager;
+struct __PreLateUpdate__UNetUpdate;
+}
+namespace UnityEngine::PlayerLoop {
+struct __PreLateUpdate__ScriptRunBehaviourLateUpdate;
+}
+namespace UnityEngine::PlayerLoop {
+struct __PreLateUpdate__LegacyAnimationUpdate;
+}
+namespace UnityEngine::PlayerLoop {
+struct __PreLateUpdate__UIElementsUpdatePanels;
+}
+namespace UnityEngine::PlayerLoop {
+struct __PreLateUpdate__ParticleSystemBeginUpdateAll;
+}
+namespace UnityEngine::PlayerLoop {
+struct __PreLateUpdate__UpdateMasterServerInterface;
 }
 // Forward declare root types
 namespace UnityEngine::PlayerLoop {

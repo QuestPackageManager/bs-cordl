@@ -6,14 +6,14 @@ CORDL_MODULE_INIT
 #include "System/Net/Sockets/zzzz__SocketError_def.hpp"
 #include <cstddef>
 CORDL_MODULE_EXPORT(DisconnectInfo)
+namespace LiteNetLib {
+struct DisconnectReason;
+}
 namespace System::Net::Sockets {
 struct SocketError;
 }
 namespace LiteNetLib {
 class NetPacketReader;
-}
-namespace LiteNetLib {
-struct DisconnectReason;
 }
 // Forward declare root types
 namespace LiteNetLib {

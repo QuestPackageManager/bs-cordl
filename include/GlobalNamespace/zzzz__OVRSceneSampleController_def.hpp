@@ -10,14 +10,14 @@ CORDL_MODULE_EXPORT(OVRSceneSampleController)
 namespace GlobalNamespace {
 class OVRPlayerController;
 }
-namespace GlobalNamespace {
-class OVRGridCube;
+namespace UnityEngine {
+class Texture;
 }
 namespace GlobalNamespace {
 class OVRCameraRig;
 }
-namespace UnityEngine {
-class Texture;
+namespace GlobalNamespace {
+class OVRGridCube;
 }
 // Forward declare root types
 namespace GlobalNamespace {

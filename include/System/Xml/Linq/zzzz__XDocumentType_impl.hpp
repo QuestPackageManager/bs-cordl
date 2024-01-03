@@ -1,9 +1,9 @@
 #pragma once
 #include "System/Xml/Linq/zzzz__XNode_impl.hpp"
 #include "System/Xml/Linq/zzzz__XDocumentType_def.hpp"
+#include "System/Xml/Linq/zzzz__XNode_def.hpp"
 #include "System/Xml/zzzz__XmlWriter_def.hpp"
 #include "System/Xml/zzzz__XmlNodeType_def.hpp"
-#include "System/Xml/Linq/zzzz__XNode_def.hpp"
 //  Writing Method size for method: ::System::Xml::Linq::XDocumentType._ctor
 template <>
 

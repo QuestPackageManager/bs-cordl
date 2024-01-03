@@ -8,10 +8,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(IPv6AddressHelper)
 namespace System {
-template <typename T1, typename T2> struct ValueTuple_2;
+template <typename T> struct ReadOnlySpan_1;
 }
 namespace System {
-template <typename T> struct ReadOnlySpan_1;
+template <typename T1, typename T2> struct ValueTuple_2;
 }
 // Forward declare root types
 namespace System {

@@ -4,13 +4,13 @@
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IFocusRing)
 namespace UnityEngine::UIElements {
-class Focusable;
-}
-namespace UnityEngine::UIElements {
 class FocusChangeDirection;
 }
 namespace UnityEngine::UIElements {
 class EventBase;
+}
+namespace UnityEngine::UIElements {
+class Focusable;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

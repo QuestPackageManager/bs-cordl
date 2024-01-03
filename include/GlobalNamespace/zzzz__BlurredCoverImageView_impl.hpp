@@ -5,17 +5,17 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "UnityEngine/zzzz__Sprite_impl.hpp"
 #include "GlobalNamespace/zzzz__BlurredCoverImageView_def.hpp"
-#include "GlobalNamespace/zzzz__BlurredCoverImageView_def.hpp"
-#include "UnityEngine/zzzz__Texture2D_def.hpp"
-#include "GlobalNamespace/zzzz__KawaseBlurRendererSO_def.hpp"
 #include "HMUI/zzzz__ImageView_def.hpp"
+#include "GlobalNamespace/zzzz__KawaseBlurRendererSO_def.hpp"
+#include "GlobalNamespace/zzzz__BlurredCoverImageView_def.hpp"
 #include "System/Threading/zzzz__CancellationTokenSource_def.hpp"
+#include "UnityEngine/zzzz__Texture2D_def.hpp"
 #include "GlobalNamespace/zzzz__IPreviewBeatmapLevel_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
-#include "System/Threading/zzzz__CancellationToken_def.hpp"
 #include "UnityEngine/zzzz__Sprite_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncVoidMethodBuilder_def.hpp"
+#include "System/Threading/zzzz__CancellationToken_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::__BlurredCoverImageView___SetTextureAsync_d__6.MoveNext
 template <>
 

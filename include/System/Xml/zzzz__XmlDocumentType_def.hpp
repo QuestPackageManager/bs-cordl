@@ -5,12 +5,6 @@ CORDL_MODULE_INIT
 #include "System/Xml/zzzz__XmlLinkedNode_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(XmlDocumentType)
-namespace System::Xml::Schema {
-class SchemaInfo;
-}
-namespace System::Xml {
-class XmlDocument;
-}
 namespace System::Xml {
 class XmlNamedNodeMap;
 }
@@ -19,6 +13,12 @@ struct XmlNodeType;
 }
 namespace System::Xml {
 class XmlNode;
+}
+namespace System::Xml::Schema {
+class SchemaInfo;
+}
+namespace System::Xml {
+class XmlDocument;
 }
 // Forward declare root types
 namespace System::Xml {

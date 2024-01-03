@@ -7,19 +7,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(PublicKey)
 namespace System::Security::Cryptography {
-class AsymmetricAlgorithm;
-}
-namespace System::Security::Cryptography {
-class Oid;
+class AsnEncodedData;
 }
 namespace System::Security::Cryptography {
 class DSA;
 }
 namespace System::Security::Cryptography {
-class AsnEncodedData;
+class Oid;
 }
 namespace System::Security::Cryptography {
 class RSA;
+}
+namespace System::Security::Cryptography {
+class AsymmetricAlgorithm;
 }
 // Forward declare root types
 namespace System::Security::Cryptography::X509Certificates {

@@ -1,13 +1,13 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__ForDeviceEventObservable_def.hpp"
-#include "UnityEngine/InputSystem/Utilities/zzzz__ForDeviceEventObservable_def.hpp"
-#include "System/zzzz__IObservable_1_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
+#include "UnityEngine/InputSystem/zzzz__InputDevice_def.hpp"
 #include "System/zzzz__Type_def.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__InputEventPtr_def.hpp"
-#include "UnityEngine/InputSystem/zzzz__InputDevice_def.hpp"
 #include "System/zzzz__IObserver_1_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
+#include "UnityEngine/InputSystem/Utilities/zzzz__ForDeviceEventObservable_def.hpp"
+#include "System/zzzz__IObservable_1_def.hpp"
 #include "System/zzzz__Exception_def.hpp"
 //  Writing Method size for method: ::UnityEngine::InputSystem::Utilities::__ForDeviceEventObservable__ForDevice._ctor
 template <>

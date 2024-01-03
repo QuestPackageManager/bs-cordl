@@ -8,10 +8,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ZenjectSceneLoader)
 namespace Zenject {
-class ProjectKernel;
+class SceneContext;
 }
 namespace Zenject {
-struct LoadSceneRelationship;
+class InjectTypeInfo;
 }
 namespace UnityEngine {
 class AsyncOperation;
@@ -20,19 +20,19 @@ namespace Zenject {
 class DiContainer;
 }
 namespace System {
-class Object;
-}
-namespace Zenject {
-class InjectTypeInfo;
+template <typename T> class Action_1;
 }
 namespace UnityEngine::SceneManagement {
 struct LoadSceneMode;
 }
 namespace Zenject {
-class SceneContext;
+struct LoadSceneRelationship;
 }
 namespace System {
-template <typename T> class Action_1;
+class Object;
+}
+namespace Zenject {
+class ProjectKernel;
 }
 // Forward declare root types
 namespace Zenject {

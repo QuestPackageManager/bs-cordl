@@ -6,13 +6,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ZenMemberSetterMethod)
 namespace System {
+class Object;
+}
+namespace System {
 class IAsyncResult;
 }
 namespace System {
 class AsyncCallback;
-}
-namespace System {
-class Object;
 }
 // Forward declare root types
 namespace Zenject {

@@ -7,31 +7,31 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(HEU_MaterialFactory)
 namespace HoudiniEngineUnity {
-struct __HEU_MaterialData__Source;
-}
-namespace HoudiniEngineUnity {
-class HEU_MaterialData;
-}
-namespace UnityEngine {
-class Shader;
-}
-namespace UnityEngine {
-class Texture2D;
-}
-namespace HoudiniEngineUnity {
-class HEU_SessionBase;
-}
-namespace HoudiniEngineUnity {
 struct HAPI_MaterialInfo;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
+namespace HoudiniEngineUnity {
+class HEU_SessionBase;
 }
 namespace UnityEngine {
 class Material;
+}
+namespace UnityEngine {
+class Shader;
+}
+namespace HoudiniEngineUnity {
+class HEU_MaterialData;
+}
+namespace UnityEngine {
+class Texture2D;
+}
+namespace HoudiniEngineUnity {
+struct __HEU_MaterialData__Source;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {

@@ -1,12 +1,12 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Xml/Linq/zzzz__XObject_def.hpp"
-#include "System/Xml/Linq/zzzz__XElement_def.hpp"
-#include "System/Xml/Linq/zzzz__XContainer_def.hpp"
-#include "System/zzzz__Type_def.hpp"
-#include "System/Xml/Linq/zzzz__XObjectChangeEventArgs_def.hpp"
-#include "System/zzzz__Object_def.hpp"
 #include "System/Xml/zzzz__XmlNodeType_def.hpp"
+#include "System/Xml/Linq/zzzz__XContainer_def.hpp"
+#include "System/Xml/Linq/zzzz__XElement_def.hpp"
+#include "System/Xml/Linq/zzzz__XObjectChangeEventArgs_def.hpp"
+#include "System/zzzz__Type_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 #include "System/Xml/Linq/zzzz__SaveOptions_def.hpp"
 //  Writing Method size for method: ::System::Xml::Linq::XObject._ctor
 template <>

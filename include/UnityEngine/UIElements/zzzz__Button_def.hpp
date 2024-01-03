@@ -11,10 +11,10 @@ namespace System {
 class Action;
 }
 namespace UnityEngine::UIElements {
-class NavigationSubmitEvent;
+struct __VisualElement__MeasureMode;
 }
 namespace UnityEngine::UIElements {
-class KeyDownEvent;
+class Clickable;
 }
 namespace UnityEngine::UIElements {
 class __Button__UxmlTraits;
@@ -23,13 +23,13 @@ namespace UnityEngine {
 struct Vector2;
 }
 namespace UnityEngine::UIElements {
-class Clickable;
-}
-namespace UnityEngine::UIElements {
-struct __VisualElement__MeasureMode;
+class NavigationSubmitEvent;
 }
 namespace UnityEngine::UIElements {
 class __Button__UxmlFactory;
+}
+namespace UnityEngine::UIElements {
+class KeyDownEvent;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -174,8 +174,8 @@ static_assert(offsetof(::UnityEngine::UIElements::Button, ___m_Clickable) == 0x4
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7125)), TypeDefinitionIndex(TypeDefinitionIndex(6997)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6997), inst: 5257
-// }), TypeDefinitionIndex(TypeDefinitionIndex(7124))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7123)) CS Name: ::Button::UxmlFactory*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7124)), TypeDefinitionIndex(TypeDefinitionIndex(7125)), TypeDefinitionIndex(TypeDefinitionIndex(6997)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6997), inst: 5257 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(7123)) CS Name: ::Button::UxmlFactory*
 class CORDL_TYPE __Button__UxmlFactory : public ::UnityEngine::UIElements::UxmlFactory_2<::UnityEngine::UIElements::Button*, ::UnityEngine::UIElements::__Button__UxmlTraits*> {
 public:
   // Declarations

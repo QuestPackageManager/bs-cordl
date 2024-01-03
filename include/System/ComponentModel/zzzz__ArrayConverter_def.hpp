@@ -8,19 +8,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ArrayConverter)
 namespace System {
-class Type;
-}
-namespace System {
 class Object;
-}
-namespace System::Globalization {
-class CultureInfo;
 }
 namespace System::ComponentModel {
 class ITypeDescriptorContext;
 }
 namespace System::ComponentModel {
 class __ArrayConverter__ArrayPropertyDescriptor;
+}
+namespace System::Globalization {
+class CultureInfo;
+}
+namespace System {
+class Type;
 }
 namespace System::ComponentModel {
 class PropertyDescriptorCollection;

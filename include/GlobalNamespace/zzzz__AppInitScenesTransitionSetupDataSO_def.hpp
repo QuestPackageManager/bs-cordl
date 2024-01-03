@@ -9,10 +9,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(AppInitScenesTransitionSetupDataSO)
 namespace GlobalNamespace {
-struct __AppInitScenesTransitionSetupDataSO__AppInitOverrideStartType;
+class __AppInitScenesTransitionSetupDataSO__AppInitSceneSetupData;
 }
 namespace GlobalNamespace {
-class __AppInitScenesTransitionSetupDataSO__AppInitSceneSetupData;
+struct __AppInitScenesTransitionSetupDataSO__AppInitOverrideStartType;
 }
 // Forward declare root types
 namespace GlobalNamespace {

@@ -16,140 +16,140 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(InputField)
-namespace UnityEngine::UI {
-class __InputField__SubmitEvent;
-}
-namespace UnityEngine {
-class CanvasRenderer;
-}
-namespace UnityEngine::UI {
-class ICanvasElement;
-}
 namespace UnityEngine::EventSystems {
-class IDragHandler;
-}
-namespace UnityEngine::UI {
-struct __InputField__CharacterValidation;
-}
-namespace System::Collections {
-class IEnumerator;
-}
-namespace UnityEngine::UI {
-class ILayoutElement;
+class BaseInput;
 }
 namespace UnityEngine::EventSystems {
 class IBeginDragHandler;
 }
-namespace UnityEngine::EventSystems {
-class IEndDragHandler;
-}
-namespace UnityEngine {
-struct UIVertex;
-}
-namespace UnityEngine::EventSystems {
-class BaseEventData;
-}
-namespace UnityEngine::UI {
-struct CanvasUpdate;
-}
-namespace UnityEngine::UI {
-class __InputField___CaretBlink_d__172;
-}
-namespace UnityEngine {
-class RectTransform;
-}
-namespace UnityEngine {
-class Mesh;
-}
-namespace UnityEngine::UI {
-struct __InputField__InputType;
-}
-namespace UnityEngine::UI {
-class __InputField__OnValidateInput;
-}
-namespace UnityEngine {
-class Coroutine;
-}
-namespace UnityEngine::UI {
-class Graphic;
-}
-namespace UnityEngine::EventSystems {
-class IPointerClickHandler;
-}
-namespace UnityEngine {
-struct Color;
-}
-namespace UnityEngine::UI {
-class Text;
-}
-namespace UnityEngine::UI {
-struct __Selectable__SelectionState;
-}
-namespace UnityEngine {
-class Transform;
-}
-namespace UnityEngine {
-class TextGenerator;
-}
-namespace UnityEngine::UI {
-class __InputField__EndEditEvent;
-}
-namespace UnityEngine::UI {
-class VertexHelper;
-}
 namespace UnityEngine::UI {
 class __InputField__OnChangeEvent;
-}
-namespace UnityEngine::EventSystems {
-class IUpdateSelectedHandler;
-}
-namespace UnityEngine {
-struct TouchScreenKeyboardType;
-}
-namespace UnityEngine {
-class TouchScreenKeyboard;
-}
-namespace UnityEngine::EventSystems {
-class ISubmitHandler;
-}
-namespace UnityEngine::EventSystems {
-class PointerEventData;
-}
-namespace UnityEngine::EventSystems {
-class IEventSystemHandler;
 }
 namespace UnityEngine::UI {
 class __InputField___MouseDragOutsideRect_d__194;
 }
 namespace UnityEngine {
-struct Vector2;
+class TouchScreenKeyboard;
 }
 namespace UnityEngine {
-class WaitForSecondsRealtime;
+class CanvasRenderer;
+}
+namespace UnityEngine::UI {
+struct __Selectable__SelectionState;
+}
+namespace UnityEngine::EventSystems {
+class IPointerClickHandler;
+}
+namespace UnityEngine {
+struct UIVertex;
+}
+namespace UnityEngine::EventSystems {
+class IEventSystemHandler;
+}
+namespace UnityEngine::UI {
+struct __InputField__EditState;
+}
+namespace UnityEngine::EventSystems {
+class ISubmitHandler;
+}
+namespace UnityEngine::EventSystems {
+class IDragHandler;
+}
+namespace UnityEngine {
+class Transform;
+}
+namespace UnityEngine::UI {
+class VertexHelper;
+}
+namespace UnityEngine {
+struct TouchScreenKeyboardType;
+}
+namespace UnityEngine {
+struct Color;
+}
+namespace UnityEngine::UI {
+struct __InputField__ContentType;
+}
+namespace UnityEngine {
+class Coroutine;
+}
+namespace UnityEngine::UI {
+struct __InputField__CharacterValidation;
+}
+namespace UnityEngine {
+class TextGenerator;
+}
+namespace UnityEngine::EventSystems {
+class PointerEventData;
+}
+namespace UnityEngine {
+class Event;
+}
+namespace UnityEngine {
+class RectTransform;
+}
+namespace UnityEngine::UI {
+class __InputField__SubmitEvent;
+}
+namespace UnityEngine::UI {
+class ICanvasElement;
+}
+namespace UnityEngine::UI {
+class Text;
 }
 namespace UnityEngine::UI {
 struct __InputField__LineType;
 }
 namespace UnityEngine::UI {
-struct __InputField__ContentType;
+struct CanvasUpdate;
 }
 namespace UnityEngine::UI {
-struct __InputField__EditState;
-}
-namespace UnityEngine {
-class Event;
+class Graphic;
 }
 namespace UnityEngine::EventSystems {
-class BaseInput;
+class IUpdateSelectedHandler;
+}
+namespace UnityEngine::UI {
+class ILayoutElement;
+}
+namespace UnityEngine::EventSystems {
+class BaseEventData;
+}
+namespace UnityEngine::EventSystems {
+class IEndDragHandler;
+}
+namespace UnityEngine::UI {
+class __InputField__OnValidateInput;
+}
+namespace UnityEngine::UI {
+struct __InputField__InputType;
+}
+namespace UnityEngine::UI {
+class __InputField___CaretBlink_d__172;
+}
+namespace UnityEngine {
+struct Vector2;
+}
+namespace UnityEngine::UI {
+class __InputField__EndEditEvent;
+}
+namespace UnityEngine {
+class Mesh;
+}
+namespace System::Collections {
+class IEnumerator;
+}
+namespace UnityEngine {
+class WaitForSecondsRealtime;
+}
+namespace System {
+class IAsyncResult;
 }
 namespace System {
 class AsyncCallback;
 }
 namespace System {
 class Object;
-}
-namespace System {
-class IAsyncResult;
 }
 namespace System {
 class IDisposable;
@@ -546,7 +546,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UI::__InputField__S
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10465)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10465), inst: 397 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10465), inst: 397 }), TypeDefinitionIndex(TypeDefinitionIndex(10465))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13064))
 // CS Name: ::InputField::EndEditEvent*
 class CORDL_TYPE __InputField__EndEditEvent : public ::UnityEngine::Events::UnityEvent_1<::StringW> {
@@ -890,8 +890,8 @@ static_assert(offsetof(::UnityEngine::UI::__InputField___MouseDragOutsideRect_d_
 // SizeInfo { instance_size: 536, native_size: -1, calculated_instance_size: 536, calculated_native_size: 536, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13059)), TypeDefinitionIndex(TypeDefinitionIndex(13060)), TypeDefinitionIndex(TypeDefinitionIndex(13058)),
-// TypeDefinitionIndex(TypeDefinitionIndex(13061)), TypeDefinitionIndex(TypeDefinitionIndex(13119)), TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(10185))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13119)), TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(13061)),
+// TypeDefinitionIndex(TypeDefinitionIndex(13058)), TypeDefinitionIndex(TypeDefinitionIndex(13060)), TypeDefinitionIndex(TypeDefinitionIndex(13059)), TypeDefinitionIndex(TypeDefinitionIndex(10185))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13069))
 // CS Name: ::UnityEngine.UI::InputField*
 class CORDL_TYPE InputField : public ::UnityEngine::UI::Selectable {

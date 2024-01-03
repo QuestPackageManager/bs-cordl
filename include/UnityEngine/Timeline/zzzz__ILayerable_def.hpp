@@ -5,13 +5,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ILayerable)
 namespace UnityEngine::Playables {
-struct Playable;
+struct PlayableGraph;
 }
 namespace UnityEngine {
 class GameObject;
 }
 namespace UnityEngine::Playables {
-struct PlayableGraph;
+struct Playable;
 }
 // Forward declare root types
 namespace UnityEngine::Timeline {

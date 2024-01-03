@@ -10,10 +10,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Peer)
 namespace ENet {
-struct PeerState;
+struct Packet;
 }
 namespace ENet {
-struct Packet;
+struct PeerState;
 }
 // Forward declare root types
 namespace ENet {

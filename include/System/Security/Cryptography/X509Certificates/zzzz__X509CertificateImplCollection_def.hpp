@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(X509CertificateImplCollection)
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
 namespace System {
 class IDisposable;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace System::Security::Cryptography::X509Certificates {
 class X509CertificateImpl;

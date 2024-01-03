@@ -8,23 +8,23 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(MobileTlsContext)
+namespace System::Security::Cryptography::X509Certificates {
+class X509Chain;
+}
+namespace System::Security::Cryptography::X509Certificates {
+class X509Certificate2;
+}
 namespace System {
 class IDisposable;
 }
 namespace System::Security::Cryptography::X509Certificates {
 class X509CertificateCollection;
 }
+namespace Mono::Net::Security {
+class MobileAuthenticatedStream;
+}
 namespace System {
 template <typename T1, typename T2> struct ValueTuple_2;
-}
-namespace Mono::Security::Interface {
-class MonoTlsSettings;
-}
-namespace System::Security::Cryptography::X509Certificates {
-class X509Certificate2;
-}
-namespace System::Security::Cryptography::X509Certificates {
-class X509Chain;
 }
 namespace Mono::Net::Security {
 class MonoSslAuthenticationOptions;
@@ -35,8 +35,8 @@ class ChainValidationHelper;
 namespace System::Security::Cryptography::X509Certificates {
 class X509Certificate;
 }
-namespace Mono::Net::Security {
-class MobileAuthenticatedStream;
+namespace Mono::Security::Interface {
+class MonoTlsSettings;
 }
 // Forward declare root types
 namespace Mono::Net::Security {
@@ -48,7 +48,7 @@ MARK_REF_PTR_T(::Mono::Net::Security::MobileTlsContext);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Net::Security {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8964)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8964))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8837))
 // CS Name: ::Mono.Net.Security::MobileTlsContext*
 class CORDL_TYPE MobileTlsContext : public ::System::Object {

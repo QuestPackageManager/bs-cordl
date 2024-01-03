@@ -8,35 +8,35 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(G_AdvancedData)
+namespace Tayx::Graphy::UI {
+class IModifiableState;
+}
+namespace UnityEngine::UI {
+class Image;
+}
+namespace Tayx::Graphy::UI {
+class IMovable;
+}
+namespace Tayx::Graphy {
+struct __GraphyManager__ModulePosition;
+}
 namespace System::Text {
 class StringBuilder;
+}
+namespace Tayx::Graphy {
+struct __GraphyManager__ModuleState;
+}
+namespace UnityEngine {
+class RectTransform;
+}
+namespace UnityEngine::UI {
+class Text;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace Tayx::Graphy {
-struct __GraphyManager__ModulePosition;
-}
-namespace UnityEngine::UI {
-class Image;
-}
-namespace Tayx::Graphy {
 class GraphyManager;
-}
-namespace Tayx::Graphy::UI {
-class IMovable;
-}
-namespace UnityEngine::UI {
-class Text;
-}
-namespace Tayx::Graphy::UI {
-class IModifiableState;
-}
-namespace UnityEngine {
-class RectTransform;
-}
-namespace Tayx::Graphy {
-struct __GraphyManager__ModuleState;
 }
 // Forward declare root types
 namespace Tayx::Graphy::Advanced {
@@ -48,7 +48,7 @@ MARK_REF_PTR_T(::Tayx::Graphy::Advanced::G_AdvancedData);
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Tayx::Graphy::Advanced {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15064)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(15064))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15090))
 // CS Name: ::Tayx.Graphy.Advanced::G_AdvancedData*
 class CORDL_TYPE G_AdvancedData : public ::UnityEngine::MonoBehaviour {

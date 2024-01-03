@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(PrefabProvider)
-namespace Zenject {
-class IPrefabProvider;
-}
 namespace UnityEngine {
 class Object;
+}
+namespace Zenject {
+class IPrefabProvider;
 }
 // Forward declare root types
 namespace Zenject {

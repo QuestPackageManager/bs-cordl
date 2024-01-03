@@ -6,44 +6,44 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(CollectionUtils)
+namespace System::Collections::Generic {
+template <typename T> class ICollection_1;
+}
 namespace System::Collections {
-class IEnumerable;
+class IEqualityComparer;
 }
 namespace System {
-class Array;
-}
-namespace System {
-class Object;
+class Type;
 }
 namespace System::Reflection {
 class ConstructorInfo;
 }
+namespace System {
+class Array;
+}
 namespace System::Collections::Generic {
 template <typename T> class IList_1;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
+namespace System::Collections {
+class IEnumerable;
 }
 namespace System::Collections::Generic {
-template <typename T> class ICollection_1;
+template <typename T> class IEqualityComparer_1;
+}
+namespace System {
+template <typename T, typename TResult> class Func_2;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace System::Collections {
-class IEqualityComparer;
-}
-namespace System::Collections {
 class IList;
 }
 namespace System {
-template <typename T, typename TResult> class Func_2;
-}
-namespace System {
-class Type;
+class Object;
 }
 namespace System::Collections::Generic {
-template <typename T> class IEqualityComparer_1;
+template <typename T> class IEnumerable_1;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Utilities {

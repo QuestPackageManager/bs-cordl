@@ -24,8 +24,8 @@ MARK_REF_PTR_T(::GlobalNamespace::LightTranslationGroup);
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(4943)), TypeDefinitionIndex(TypeDefinitionIndex(4937)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(4943), inst: 3960 }), TypeDefinitionIndex(TypeDefinitionIndex(4936)), TypeDefinitionIndex(TypeDefinitionIndex(4938))} Self:
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(4937)), TypeDefinitionIndex(TypeDefinitionIndex(4936)),
+// TypeDefinitionIndex(TypeDefinitionIndex(4943)), TypeDefinitionIndex(TypeDefinitionIndex(4938)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(4943), inst: 3960 })} Self:
 // TypeDefinitionIndex(TypeDefinitionIndex(4944)) CS Name: ::LightTranslationGroup*
 class CORDL_TYPE LightTranslationGroup : public ::GlobalNamespace::LightTransformGroup_3<::GlobalNamespace::LightGroupTranslationXTransform*, ::GlobalNamespace::LightGroupTranslationYTransform*,
                                                                                          ::GlobalNamespace::LightGroupTranslationZTransform*> {

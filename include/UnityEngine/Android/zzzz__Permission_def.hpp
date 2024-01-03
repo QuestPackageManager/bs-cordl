@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 CORDL_MODULE_EXPORT(Permission)
-namespace UnityEngine::Android {
-class PermissionCallbacks;
-}
 namespace UnityEngine {
 class AndroidJavaObject;
+}
+namespace UnityEngine::Android {
+class PermissionCallbacks;
 }
 // Forward declare root types
 namespace UnityEngine::Android {

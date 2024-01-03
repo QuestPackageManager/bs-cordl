@@ -2,15 +2,15 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/XR/zzzz__XRNode_impl.hpp"
 #include "GlobalNamespace/zzzz__PS5AdvancedHapticsPlayerController_def.hpp"
-#include "Zenject/zzzz__IInitializable_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
-#include "GlobalNamespace/zzzz__IHapticFeedbackPlayer_def.hpp"
+#include "System/zzzz__ValueTuple_2_def.hpp"
 #include "GlobalNamespace/zzzz__PS5AdvancedHapticsPlayerController_def.hpp"
 #include "GlobalNamespace/zzzz__HapticsAudioClipPlayer_def.hpp"
-#include "System/zzzz__ValueTuple_2_def.hpp"
-#include "GlobalNamespace/zzzz__ICoroutineStarter_def.hpp"
-#include "Libraries/HM/HMLib/VR/zzzz__HapticPresetSO_def.hpp"
 #include "UnityEngine/XR/zzzz__XRNode_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "GlobalNamespace/zzzz__ICoroutineStarter_def.hpp"
+#include "GlobalNamespace/zzzz__IHapticFeedbackPlayer_def.hpp"
+#include "Zenject/zzzz__IInitializable_def.hpp"
+#include "Libraries/HM/HMLib/VR/zzzz__HapticPresetSO_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::__PS5AdvancedHapticsPlayerController____c__DisplayClass6_0._ctor
 template <>
 

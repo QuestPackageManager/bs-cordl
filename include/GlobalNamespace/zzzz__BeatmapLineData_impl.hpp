@@ -1,10 +1,10 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatmapLineData_def.hpp"
-#include "GlobalNamespace/zzzz__IReadonlyBeatmapLineData_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapObjectData_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapObjectData_def.hpp"
 #include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
+#include "GlobalNamespace/zzzz__IReadonlyBeatmapLineData_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::BeatmapLineData.get_beatmapObjectsData
 template <>
 

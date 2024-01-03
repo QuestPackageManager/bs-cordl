@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(LayoutElement)
 namespace UnityEngine::UI {
-class ILayoutElement;
+class ILayoutIgnorer;
 }
 namespace UnityEngine::UI {
-class ILayoutIgnorer;
+class ILayoutElement;
 }
 // Forward declare root types
 namespace UnityEngine::UI {

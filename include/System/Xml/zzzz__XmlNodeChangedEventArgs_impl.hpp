@@ -2,8 +2,8 @@
 #include "System/Xml/zzzz__XmlNodeChangedAction_impl.hpp"
 #include "System/zzzz__EventArgs_impl.hpp"
 #include "System/Xml/zzzz__XmlNodeChangedEventArgs_def.hpp"
-#include "System/Xml/zzzz__XmlNodeChangedAction_def.hpp"
 #include "System/Xml/zzzz__XmlNode_def.hpp"
+#include "System/Xml/zzzz__XmlNodeChangedAction_def.hpp"
 //  Writing Method size for method: ::System::Xml::XmlNodeChangedEventArgs._ctor
 template <>
 

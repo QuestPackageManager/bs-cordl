@@ -3,31 +3,30 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
+#include "UnityEngine/UIElements/zzzz__InvokePolicy_def.hpp"
+#include "UnityEngine/UIElements/zzzz__TrickleDown_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(EventCallbackRegistry)
 namespace UnityEngine::UIElements {
-struct InvokePolicy;
+class EventBase;
 }
 namespace UnityEngine::UIElements {
 class EventCallbackListPool;
 }
 namespace UnityEngine::UIElements {
-template <typename TEventType> class EventCallback_1;
-}
-namespace UnityEngine::UIElements {
-struct PropagationPhase;
+class EventCallbackList;
 }
 namespace System {
 class Delegate;
 }
 namespace UnityEngine::UIElements {
-class EventCallbackList;
-}
-namespace UnityEngine::UIElements {
-class EventBase;
+struct PropagationPhase;
 }
 namespace UnityEngine::UIElements {
 struct TrickleDown;
+}
+namespace UnityEngine::UIElements {
+template <typename TEventType> class EventCallback_1;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -39,7 +38,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::EventCallbackRegistry);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7162)), TypeDefinitionIndex(TypeDefinitionIndex(7164)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7167))
 // CS Name: ::UnityEngine.UIElements::EventCallbackRegistry*
 class CORDL_TYPE EventCallbackRegistry : public ::System::Object {

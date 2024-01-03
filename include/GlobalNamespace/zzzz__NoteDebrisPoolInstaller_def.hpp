@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include "Zenject/zzzz__ScriptableObjectInstaller_def.hpp"
 CORDL_MODULE_EXPORT(NoteDebrisPoolInstaller)
 namespace GlobalNamespace {
-class NoteDebris;
+class BoolSO;
 }
 namespace GlobalNamespace {
-class BoolSO;
+class NoteDebris;
 }
 // Forward declare root types
 namespace GlobalNamespace {

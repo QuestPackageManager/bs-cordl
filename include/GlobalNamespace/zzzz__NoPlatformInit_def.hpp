@@ -4,14 +4,14 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(NoPlatformInit)
-namespace GlobalNamespace {
-class IPlatformInit;
+namespace Zenject {
+class IInitializable;
 }
 namespace System::Threading::Tasks {
 template <typename TResult> class Task_1;
 }
-namespace Zenject {
-class IInitializable;
+namespace GlobalNamespace {
+class IPlatformInit;
 }
 // Forward declare root types
 namespace GlobalNamespace {

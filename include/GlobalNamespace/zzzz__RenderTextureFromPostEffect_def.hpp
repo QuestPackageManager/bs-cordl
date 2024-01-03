@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(RenderTextureFromPostEffect)
 namespace UnityEngine {
-class RenderTexture;
+class Camera;
 }
 namespace UnityEngine {
-class Camera;
+class RenderTexture;
 }
 // Forward declare root types
 namespace GlobalNamespace {

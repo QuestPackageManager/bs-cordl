@@ -2,12 +2,12 @@
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__HumanPoseHandler_def.hpp"
-#include "UnityEngine/zzzz__Avatar_def.hpp"
-#include "UnityEngine/zzzz__Transform_def.hpp"
-#include "UnityEngine/zzzz__Quaternion_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
+#include "UnityEngine/zzzz__Transform_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "UnityEngine/zzzz__HumanPose_def.hpp"
+#include "UnityEngine/zzzz__Avatar_def.hpp"
+#include "UnityEngine/zzzz__Quaternion_def.hpp"
 //  Writing Method size for method: ::UnityEngine::HumanPoseHandler.Internal_CreateFromRoot
 template <>
 

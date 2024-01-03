@@ -9,17 +9,17 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(TextShadow)
-namespace System {
-class Object;
+namespace UnityEngine {
+struct Color;
 }
 namespace System {
 template <typename T> class IEquatable_1;
 }
 namespace UnityEngine {
-struct Color;
-}
-namespace UnityEngine {
 struct Vector2;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

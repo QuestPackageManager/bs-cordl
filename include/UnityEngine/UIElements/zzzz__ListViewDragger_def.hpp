@@ -11,40 +11,40 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ListViewDragger)
 namespace UnityEngine::UIElements {
-class ScrollView;
-}
-namespace UnityEngine::UIElements {
-class BaseVerticalCollectionView;
-}
-namespace UnityEngine::UIElements {
-class ReusableCollectionItem;
+struct DragVisualMode;
 }
 namespace UnityEngine::UIElements {
 class ICollectionDragAndDropController;
 }
 namespace UnityEngine::UIElements {
-struct __ListViewDragger__DragPosition;
+class ScrollView;
+}
+namespace UnityEngine::UIElements {
+struct ListDragAndDropArgs;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 namespace UnityEngine::UIElements {
 class VisualElement;
 }
 namespace UnityEngine::UIElements {
-struct DragVisualMode;
+class StartDragArgs;
 }
 namespace UnityEngine::UIElements {
-struct ListDragAndDropArgs;
+struct __ListViewDragger__DragPosition;
+}
+namespace UnityEngine::UIElements {
+class BaseVerticalCollectionView;
 }
 namespace UnityEngine::UIElements {
 class GeometryChangedEvent;
 }
-namespace UnityEngine {
-struct Vector3;
+namespace UnityEngine::UIElements {
+class ReusableCollectionItem;
 }
 namespace UnityEngine {
 struct Vector2;
-}
-namespace UnityEngine::UIElements {
-class StartDragArgs;
 }
 namespace System {
 class Object;

@@ -5,13 +5,13 @@
 #include "System/Net/Sockets/zzzz__SocketError_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "LiteNetLib/zzzz__NetEvent_def.hpp"
-#include "LiteNetLib/zzzz__NetPacketReader_def.hpp"
-#include "LiteNetLib/zzzz__NetManager_def.hpp"
 #include "System/Net/zzzz__IPEndPoint_def.hpp"
-#include "LiteNetLib/zzzz__NetEvent_def.hpp"
-#include "System/zzzz__Object_def.hpp"
-#include "LiteNetLib/zzzz__ConnectionRequest_def.hpp"
 #include "LiteNetLib/zzzz__NetPeer_def.hpp"
+#include "LiteNetLib/zzzz__ConnectionRequest_def.hpp"
+#include "LiteNetLib/zzzz__NetManager_def.hpp"
+#include "LiteNetLib/zzzz__NetPacketReader_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+#include "LiteNetLib/zzzz__NetEvent_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::LiteNetLib::__NetEvent__EType::__NetEvent__EType(int32_t value__) noexcept {
   this->value__ = value__;

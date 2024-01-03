@@ -9,16 +9,16 @@ namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
 namespace Zenject {
-struct TypeValuePair;
-}
-namespace Zenject {
-class InstantiateCallbackConditionCopyNonLazyBinder;
+class BindInfo;
 }
 namespace System {
 class Object;
 }
 namespace Zenject {
-class BindInfo;
+class InstantiateCallbackConditionCopyNonLazyBinder;
+}
+namespace Zenject {
+struct TypeValuePair;
 }
 // Forward declare root types
 namespace Zenject {

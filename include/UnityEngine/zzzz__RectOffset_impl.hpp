@@ -2,10 +2,10 @@
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__RectOffset_def.hpp"
-#include "System/zzzz__IFormattable_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/zzzz__Rect_def.hpp"
 #include "System/zzzz__IFormatProvider_def.hpp"
-#include "System/zzzz__Object_def.hpp"
+#include "System/zzzz__IFormattable_def.hpp"
 //  Writing Method size for method: ::UnityEngine::RectOffset._ctor
 template <>
 

@@ -5,8 +5,11 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(ScaleAnimator)
+namespace Tweening {
+class TimeTweeningManager;
+}
 namespace UnityEngine {
-struct Quaternion;
+class Transform;
 }
 namespace GlobalNamespace {
 struct EaseType;
@@ -15,10 +18,7 @@ namespace Tweening {
 template <typename T> class Tween_1;
 }
 namespace UnityEngine {
-class Transform;
-}
-namespace Tweening {
-class TimeTweeningManager;
+struct Quaternion;
 }
 namespace UnityEngine {
 struct Vector3;

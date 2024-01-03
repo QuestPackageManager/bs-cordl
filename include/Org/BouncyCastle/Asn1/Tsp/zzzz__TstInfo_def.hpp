@@ -7,8 +7,14 @@ CORDL_MODULE_EXPORT(TstInfo)
 namespace Org::BouncyCastle::Asn1::Tsp {
 class Accuracy;
 }
-namespace Org::BouncyCastle::Asn1::X509 {
-class X509Extensions;
+namespace Org::BouncyCastle::Asn1 {
+class DerBoolean;
+}
+namespace System {
+class Object;
+}
+namespace Org::BouncyCastle::Asn1 {
+class DerGeneralizedTime;
 }
 namespace Org::BouncyCastle::Asn1 {
 class DerInteger;
@@ -16,26 +22,20 @@ class DerInteger;
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
 }
-namespace Org::BouncyCastle::Asn1::Tsp {
-class MessageImprint;
+namespace Org::BouncyCastle::Asn1::X509 {
+class GeneralName;
 }
-namespace Org::BouncyCastle::Asn1 {
-class DerBoolean;
-}
-namespace Org::BouncyCastle::Asn1 {
-class DerGeneralizedTime;
-}
-namespace System {
-class Object;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
+namespace Org::BouncyCastle::Asn1::X509 {
+class X509Extensions;
 }
 namespace Org::BouncyCastle::Asn1 {
 class DerObjectIdentifier;
 }
-namespace Org::BouncyCastle::Asn1::X509 {
-class GeneralName;
+namespace Org::BouncyCastle::Asn1::Tsp {
+class MessageImprint;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Tsp {

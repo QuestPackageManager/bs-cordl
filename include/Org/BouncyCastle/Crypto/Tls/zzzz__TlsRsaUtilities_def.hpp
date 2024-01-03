@@ -9,11 +9,11 @@ CORDL_MODULE_EXPORT(TlsRsaUtilities)
 namespace Org::BouncyCastle::Crypto::Tls {
 class TlsContext;
 }
-namespace System::IO {
-class Stream;
-}
 namespace Org::BouncyCastle::Crypto::Parameters {
 class RsaKeyParameters;
+}
+namespace System::IO {
+class Stream;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {

@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "RootMotion/FinalIK/zzzz__IKExecutionOrder_def.hpp"
-#include "RootMotion/FinalIK/zzzz__IK_def.hpp"
 #include "UnityEngine/zzzz__Animator_def.hpp"
+#include "RootMotion/FinalIK/zzzz__IK_def.hpp"
 //  Writing Method size for method: ::RootMotion::FinalIK::IKExecutionOrder.get_animatePhysics
 template <>
 

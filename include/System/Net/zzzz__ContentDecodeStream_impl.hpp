@@ -1,12 +1,12 @@
 #pragma once
 #include "System/Net/zzzz__WebReadStream_impl.hpp"
 #include "System/Net/zzzz__ContentDecodeStream_def.hpp"
+#include "System/IO/zzzz__Stream_def.hpp"
+#include "System/Net/zzzz__WebOperation_def.hpp"
+#include "System/Threading/zzzz__CancellationToken_def.hpp"
+#include "System/Threading/Tasks/zzzz__Task_def.hpp"
 #include "System/Net/zzzz__ContentDecodeStream_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
-#include "System/Threading/Tasks/zzzz__Task_def.hpp"
-#include "System/IO/zzzz__Stream_def.hpp"
-#include "System/Threading/zzzz__CancellationToken_def.hpp"
-#include "System/Net/zzzz__WebOperation_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::System::Net::__ContentDecodeStream__Mode::__ContentDecodeStream__Mode(int32_t value__) noexcept {
   this->value__ = value__;

@@ -9,14 +9,14 @@ CORDL_MODULE_EXPORT(PackLevelListHeaderTableCell)
 namespace UnityEngine::UI {
 class Image;
 }
-namespace HMUI {
-struct __SelectableCell__TransitionType;
-}
 namespace System::Threading {
 class CancellationTokenSource;
 }
 namespace TMPro {
 class TextMeshProUGUI;
+}
+namespace HMUI {
+struct __SelectableCell__TransitionType;
 }
 // Forward declare root types
 namespace GlobalNamespace {

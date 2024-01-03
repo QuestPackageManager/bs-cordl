@@ -4,8 +4,8 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "Tayx/Graphy/Audio/zzzz__G_AudioMonitor_def.hpp"
 #include "Tayx/Graphy/zzzz__GraphyManager_def.hpp"
-#include "UnityEngine/SceneManagement/zzzz__Scene_def.hpp"
 #include "UnityEngine/zzzz__AudioListener_def.hpp"
+#include "UnityEngine/SceneManagement/zzzz__Scene_def.hpp"
 #include "UnityEngine/SceneManagement/zzzz__LoadSceneMode_def.hpp"
 //  Writing Method size for method: ::Tayx::Graphy::Audio::G_AudioMonitor.get_Spectrum
 template <>

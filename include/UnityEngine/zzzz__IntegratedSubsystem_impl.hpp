@@ -2,8 +2,8 @@
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__IntegratedSubsystem_def.hpp"
-#include "UnityEngine/zzzz__ISubsystemDescriptor_def.hpp"
 #include "UnityEngine/zzzz__ISubsystem_def.hpp"
+#include "UnityEngine/zzzz__ISubsystemDescriptor_def.hpp"
 //  Writing Method size for method: ::UnityEngine::IntegratedSubsystem.SetHandle
 template <>
 

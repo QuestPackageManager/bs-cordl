@@ -23,7 +23,7 @@ MARK_REF_PTR_T(::Mono::Security::Interface::MonoTlsConnectionInfo);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Security::Interface {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13786)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(13777))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13786)), TypeDefinitionIndex(TypeDefinitionIndex(13777)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13778))
 // CS Name: ::Mono.Security.Interface::MonoTlsConnectionInfo*
 class CORDL_TYPE MonoTlsConnectionInfo : public ::System::Object {

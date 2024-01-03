@@ -10,10 +10,10 @@ namespace Newtonsoft::Json::Linq {
 class JObject;
 }
 namespace System {
-class Type;
+class Object;
 }
 namespace System {
-class Object;
+class Type;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Linq {

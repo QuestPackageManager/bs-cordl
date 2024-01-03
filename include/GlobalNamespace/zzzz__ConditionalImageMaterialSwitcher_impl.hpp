@@ -2,8 +2,8 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__ConditionalImageMaterialSwitcher_def.hpp"
 #include "UnityEngine/zzzz__Material_def.hpp"
-#include "GlobalNamespace/zzzz__BoolSO_def.hpp"
 #include "UnityEngine/UI/zzzz__Image_def.hpp"
+#include "GlobalNamespace/zzzz__BoolSO_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::ConditionalImageMaterialSwitcher.Awake
 template <>
 

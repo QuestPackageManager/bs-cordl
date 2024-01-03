@@ -9,17 +9,17 @@ CORDL_MODULE_EXPORT(LightWithIdManager)
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
-namespace GlobalNamespace {
-class ILightWithId;
+namespace System {
+template <typename T> struct Nullable_1;
 }
 namespace UnityEngine {
 struct Color;
 }
-namespace System {
-class Action;
+namespace GlobalNamespace {
+class ILightWithId;
 }
 namespace System {
-template <typename T> struct Nullable_1;
+class Action;
 }
 // Forward declare root types
 namespace GlobalNamespace {

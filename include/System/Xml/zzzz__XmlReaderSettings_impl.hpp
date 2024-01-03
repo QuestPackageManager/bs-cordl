@@ -6,12 +6,12 @@
 #include "System/zzzz__Nullable_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Xml/zzzz__XmlReaderSettings_def.hpp"
-#include "System/Xml/zzzz__XmlResolver_def.hpp"
-#include "System/Xml/zzzz__ValidationType_def.hpp"
-#include "System/Xml/zzzz__DtdProcessing_def.hpp"
-#include "System/Xml/zzzz__ConformanceLevel_def.hpp"
-#include "System/Xml/zzzz__XmlNameTable_def.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaSet_def.hpp"
+#include "System/Xml/zzzz__XmlResolver_def.hpp"
+#include "System/Xml/zzzz__ConformanceLevel_def.hpp"
+#include "System/Xml/zzzz__DtdProcessing_def.hpp"
+#include "System/Xml/zzzz__XmlNameTable_def.hpp"
+#include "System/Xml/zzzz__ValidationType_def.hpp"
 //  Writing Method size for method: ::System::Xml::XmlReaderSettings._ctor
 template <>
 

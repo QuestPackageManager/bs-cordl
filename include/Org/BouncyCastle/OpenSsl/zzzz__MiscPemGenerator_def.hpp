@@ -8,20 +8,20 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(MiscPemGenerator)
-namespace Org::BouncyCastle::Security {
-class SecureRandom;
-}
 namespace Org::BouncyCastle::Crypto {
 class AsymmetricKeyParameter;
 }
 namespace Org::BouncyCastle::Utilities::IO::Pem {
-class PemObject;
+class PemObjectGenerator;
+}
+namespace Org::BouncyCastle::Security {
+class SecureRandom;
 }
 namespace System {
 class Object;
 }
 namespace Org::BouncyCastle::Utilities::IO::Pem {
-class PemObjectGenerator;
+class PemObject;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::OpenSsl {

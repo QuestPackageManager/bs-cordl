@@ -3,8 +3,8 @@
 #include "GlobalNamespace/zzzz__EnvironmentColorType_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__LightColorBaseData_def.hpp"
-#include "GlobalNamespace/zzzz__EnvironmentColorType_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapEventTransitionType_def.hpp"
+#include "GlobalNamespace/zzzz__EnvironmentColorType_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::LightColorBaseData._ctor
 template <>
 

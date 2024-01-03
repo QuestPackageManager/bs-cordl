@@ -2,22 +2,14 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "UnityEngine/UIElements/zzzz__SliderDirection_def.hpp"
 #include "UnityEngine/UIElements/zzzz__UxmlFactory_2_def.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(Scroller)
 namespace UnityEngine::UIElements {
-class RepeatButton;
-}
-namespace UnityEngine::UIElements {
-class __Scroller__UxmlTraits;
-}
-namespace UnityEngine::UIElements {
 template <typename T> class ChangeEvent_1;
-}
-namespace UnityEngine::UIElements {
-class __Scroller__UxmlFactory;
 }
 namespace System {
 template <typename T> class Action_1;
@@ -26,13 +18,16 @@ namespace UnityEngine::UIElements {
 class Slider;
 }
 namespace UnityEngine::UIElements {
+class __Scroller__UxmlFactory;
+}
+namespace UnityEngine::UIElements {
+class __Scroller__UxmlTraits;
+}
+namespace UnityEngine::UIElements {
+class RepeatButton;
+}
+namespace UnityEngine::UIElements {
 struct SliderDirection;
-}
-namespace UnityEngine::UIElements {
-class UxmlFloatAttributeDescription;
-}
-namespace UnityEngine::UIElements {
-template <typename T> class UxmlEnumAttributeDescription_1;
 }
 namespace UnityEngine::UIElements {
 class VisualElement;
@@ -42,6 +37,12 @@ class IUxmlAttributes;
 }
 namespace UnityEngine::UIElements {
 struct CreationContext;
+}
+namespace UnityEngine::UIElements {
+template <typename T> class UxmlEnumAttributeDescription_1;
+}
+namespace UnityEngine::UIElements {
+class UxmlFloatAttributeDescription;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -155,7 +156,7 @@ static_assert(offsetof(::UnityEngine::UIElements::__Scroller__UxmlTraits, ___m_V
 // SizeInfo { instance_size: 976, native_size: -1, calculated_instance_size: 976, calculated_native_size: 976, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6744))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6744)), TypeDefinitionIndex(TypeDefinitionIndex(7099))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7064))
 // CS Name: ::UnityEngine.UIElements::Scroller*
 class CORDL_TYPE Scroller : public ::UnityEngine::UIElements::VisualElement {
@@ -375,8 +376,8 @@ static_assert(offsetof(::UnityEngine::UIElements::Scroller, ____highButton_k__Ba
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6997)), TypeDefinitionIndex(TypeDefinitionIndex(7063)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6997), inst: 5275
-// }), TypeDefinitionIndex(TypeDefinitionIndex(7064))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7062)) CS Name: ::Scroller::UxmlFactory*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7064)), TypeDefinitionIndex(TypeDefinitionIndex(6997)), TypeDefinitionIndex(TypeDefinitionIndex(7063)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6997), inst: 5275 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(7062)) CS Name: ::Scroller::UxmlFactory*
 class CORDL_TYPE __Scroller__UxmlFactory : public ::UnityEngine::UIElements::UxmlFactory_2<::UnityEngine::UIElements::Scroller*, ::UnityEngine::UIElements::__Scroller__UxmlTraits*> {
 public:
   // Declarations

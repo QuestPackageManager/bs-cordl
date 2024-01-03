@@ -7,26 +7,26 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(StringUtils)
-namespace Newtonsoft::Json::Utilities {
-template <typename TSource> class __StringUtils____c__DisplayClass15_0_1;
+namespace System {
+template <typename T, typename TResult> class Func_2;
+}
+namespace System {
+class IFormatProvider;
 }
 namespace System::IO {
 class StringWriter;
 }
 namespace System {
-template <typename T, typename TResult> class Func_2;
-}
-namespace System {
 template <typename T> struct Nullable_1;
-}
-namespace System {
-class Object;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
+namespace Newtonsoft::Json::Utilities {
+template <typename TSource> class __StringUtils____c__DisplayClass15_0_1;
+}
 namespace System {
-class IFormatProvider;
+class Object;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Utilities {

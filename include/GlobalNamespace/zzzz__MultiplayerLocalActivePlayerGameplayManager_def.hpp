@@ -9,28 +9,28 @@ namespace GlobalNamespace {
 class GameEnergyCounter;
 }
 namespace GlobalNamespace {
-class MultiplayerLocalPlayerDisconnectHelper;
-}
-namespace GlobalNamespace {
-class GameSongController;
-}
-namespace GlobalNamespace {
-class IMultiplayerSessionManager;
-}
-namespace GlobalNamespace {
-class SaberManager;
-}
-namespace GlobalNamespace {
-class __MultiplayerLocalActivePlayerGameplayManager__InitData;
-}
-namespace GlobalNamespace {
-class IMultiplayerLevelEndActionsListener;
+class IVRPlatformHelper;
 }
 namespace GlobalNamespace {
 class PrepareLevelCompletionResults;
 }
 namespace GlobalNamespace {
-class IVRPlatformHelper;
+class IMultiplayerLevelEndActionsListener;
+}
+namespace GlobalNamespace {
+class MultiplayerLocalPlayerDisconnectHelper;
+}
+namespace GlobalNamespace {
+class SaberManager;
+}
+namespace GlobalNamespace {
+class IMultiplayerSessionManager;
+}
+namespace GlobalNamespace {
+class __MultiplayerLocalActivePlayerGameplayManager__InitData;
+}
+namespace GlobalNamespace {
+class GameSongController;
 }
 namespace GlobalNamespace {
 class MultiplayerLocalActivePlayerInGameMenuController;

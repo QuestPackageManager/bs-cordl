@@ -13,10 +13,10 @@ namespace GlobalNamespace {
 class MultiplayerCenterResizeController;
 }
 namespace GlobalNamespace {
-class BeatmapObjectSpawnCenter;
+class MultiplayerLayoutProvider;
 }
 namespace GlobalNamespace {
-class MultiplayerLayoutProvider;
+class BeatmapObjectSpawnCenter;
 }
 // Forward declare root types
 namespace GlobalNamespace {

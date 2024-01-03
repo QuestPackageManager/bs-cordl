@@ -1,10 +1,10 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UI/zzzz__CanvasUpdateRegistry_def.hpp"
-#include "UnityEngine/UI/Collections/zzzz__IndexedSet_1_def.hpp"
-#include "UnityEngine/UI/zzzz__ICanvasElement_def.hpp"
 #include "System/zzzz__Comparison_1_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
+#include "UnityEngine/UI/zzzz__ICanvasElement_def.hpp"
+#include "UnityEngine/UI/Collections/zzzz__IndexedSet_1_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UI::CanvasUpdateRegistry._ctor
 template <>
 

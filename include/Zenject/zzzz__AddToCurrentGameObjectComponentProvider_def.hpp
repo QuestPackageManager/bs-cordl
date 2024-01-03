@@ -6,26 +6,29 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(AddToCurrentGameObjectComponentProvider)
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
 namespace Zenject {
 class IProvider;
 }
-namespace Zenject {
-class InjectContext;
+namespace System {
+class Object;
+}
+namespace System {
+template <typename T1, typename T2> class Action_2;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
 }
 namespace System {
 class Type;
 }
 namespace Zenject {
-class __AddToCurrentGameObjectComponentProvider____c__DisplayClass15_0;
+class DiContainer;
 }
-namespace System {
-template <typename T1, typename T2> class Action_2;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace Zenject {
-class DiContainer;
+class __AddToCurrentGameObjectComponentProvider____c__DisplayClass15_0;
 }
 namespace Zenject {
 struct TypeValuePair;
@@ -33,11 +36,8 @@ struct TypeValuePair;
 namespace System {
 class Action;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace System {
-class Object;
+namespace Zenject {
+class InjectContext;
 }
 namespace Zenject {
 class InjectTypeInfo;

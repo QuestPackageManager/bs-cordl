@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include "Unity/Profiling/zzzz__ProfilerMarker_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(TMP_UpdateManager)
-namespace TMPro {
-class TMP_Text;
-}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
+}
+namespace TMPro {
+class TMP_Text;
 }
 namespace System::Collections::Generic {
 template <typename T> class HashSet_1;

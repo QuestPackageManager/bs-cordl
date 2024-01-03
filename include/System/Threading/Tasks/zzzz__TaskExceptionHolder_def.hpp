@@ -4,11 +4,8 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(TaskExceptionHolder)
-namespace System::Collections::Generic {
-template <typename T> class LowLevelListWithIList_1;
-}
-namespace System::Threading::Tasks {
-class Task;
+namespace System {
+class Exception;
 }
 namespace System::Collections::ObjectModel {
 template <typename T> class ReadOnlyCollection_1;
@@ -17,13 +14,16 @@ namespace System::Runtime::ExceptionServices {
 class ExceptionDispatchInfo;
 }
 namespace System {
-class Object;
-}
-namespace System {
 class AggregateException;
 }
+namespace System::Threading::Tasks {
+class Task;
+}
 namespace System {
-class Exception;
+class Object;
+}
+namespace System::Collections::Generic {
+template <typename T> class LowLevelListWithIList_1;
 }
 // Forward declare root types
 namespace System::Threading::Tasks {

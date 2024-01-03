@@ -1,8 +1,8 @@
 #pragma once
 #include "Zenject/zzzz__ScriptableObjectInstaller_impl.hpp"
 #include "GlobalNamespace/zzzz__BaseViewControllersInstaller_def.hpp"
-#include "GlobalNamespace/zzzz__SafeAreaFocusedSimpleDialogPromptViewController_def.hpp"
 #include "GlobalNamespace/zzzz__SimpleDialogPromptViewController_def.hpp"
+#include "GlobalNamespace/zzzz__SafeAreaFocusedSimpleDialogPromptViewController_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::BaseViewControllersInstaller.InstallBindings
 template <>
 

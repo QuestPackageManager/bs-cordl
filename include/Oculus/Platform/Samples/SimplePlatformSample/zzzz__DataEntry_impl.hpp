@@ -1,15 +1,15 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "Oculus/Platform/Samples/SimplePlatformSample/zzzz__DataEntry_def.hpp"
-#include "Oculus/Platform/Models/zzzz__AchievementProgressList_def.hpp"
+#include "Oculus/Platform/Models/zzzz__User_def.hpp"
+#include "Oculus/Platform/zzzz__Message_1_def.hpp"
+#include "UnityEngine/UI/zzzz__Text_def.hpp"
+#include "Oculus/Platform/Models/zzzz__LeaderboardEntryList_def.hpp"
+#include "Oculus/Platform/Models/zzzz__UserList_def.hpp"
 #include "Oculus/Platform/Models/zzzz__AchievementDefinitionList_def.hpp"
 #include "Oculus/Platform/Models/zzzz__UserProof_def.hpp"
-#include "Oculus/Platform/Models/zzzz__UserList_def.hpp"
-#include "Oculus/Platform/Models/zzzz__User_def.hpp"
-#include "UnityEngine/UI/zzzz__Text_def.hpp"
-#include "Oculus/Platform/zzzz__Message_1_def.hpp"
 #include "Oculus/Platform/zzzz__Message_def.hpp"
-#include "Oculus/Platform/Models/zzzz__LeaderboardEntryList_def.hpp"
+#include "Oculus/Platform/Models/zzzz__AchievementProgressList_def.hpp"
 //  Writing Method size for method: ::Oculus::Platform::Samples::SimplePlatformSample::DataEntry.Start
 template <>
 

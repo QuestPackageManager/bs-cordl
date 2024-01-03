@@ -2,8 +2,8 @@
 #include "System/IO/zzzz__Stream_impl.hpp"
 #include "Org/BouncyCastle/Crypto/IO/zzzz__MacStream_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__IMac_def.hpp"
-#include "System/IO/zzzz__Stream_def.hpp"
 #include "System/IO/zzzz__SeekOrigin_def.hpp"
+#include "System/IO/zzzz__Stream_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::IO::MacStream._ctor
 template <>
 

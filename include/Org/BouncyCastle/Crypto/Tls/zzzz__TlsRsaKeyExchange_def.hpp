@@ -9,26 +9,26 @@ CORDL_MODULE_EXPORT(TlsRsaKeyExchange)
 namespace Org::BouncyCastle::Crypto::Tls {
 class TlsEncryptionCredentials;
 }
-namespace Org::BouncyCastle::Crypto::Parameters {
-class RsaKeyParameters;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
-class CertificateRequest;
-}
 namespace System::IO {
 class Stream;
-}
-namespace System::Collections {
-class IList;
-}
-namespace Org::BouncyCastle::Crypto {
-class AsymmetricKeyParameter;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class Certificate;
 }
+namespace Org::BouncyCastle::Crypto {
+class AsymmetricKeyParameter;
+}
+namespace System::Collections {
+class IList;
+}
 namespace Org::BouncyCastle::Crypto::Tls {
 class TlsCredentials;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class CertificateRequest;
+}
+namespace Org::BouncyCastle::Crypto::Parameters {
+class RsaKeyParameters;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {

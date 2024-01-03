@@ -4,6 +4,9 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(HttpMessageHandler)
+namespace System::Threading {
+struct CancellationToken;
+}
 namespace System {
 class IDisposable;
 }
@@ -15,9 +18,6 @@ template <typename TResult> class Task_1;
 }
 namespace System::Net::Http {
 class HttpRequestMessage;
-}
-namespace System::Threading {
-struct CancellationToken;
 }
 // Forward declare root types
 namespace System::Net::Http {

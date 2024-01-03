@@ -6,17 +6,17 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Spectrogram)
+namespace GlobalNamespace {
+class MaterialPropertyBlockController;
+}
+namespace UnityEngine {
+class MeshRenderer;
+}
 namespace UnityEngine {
 class MaterialPropertyBlock;
 }
 namespace GlobalNamespace {
-class MaterialPropertyBlockController;
-}
-namespace GlobalNamespace {
 class BasicSpectrogramData;
-}
-namespace UnityEngine {
-class MeshRenderer;
 }
 // Forward declare root types
 namespace GlobalNamespace {

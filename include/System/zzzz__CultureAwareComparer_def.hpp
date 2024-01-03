@@ -8,25 +8,25 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(CultureAwareComparer)
 namespace System::Runtime::Serialization {
-struct StreamingContext;
-}
-namespace System::Globalization {
-struct CompareOptions;
-}
-namespace System::Runtime::Serialization {
 class SerializationInfo;
 }
-namespace System::Globalization {
-class CultureInfo;
-}
-namespace System::Globalization {
-class CompareInfo;
+namespace System::Runtime::Serialization {
+struct StreamingContext;
 }
 namespace System::Runtime::Serialization {
 class ISerializable;
 }
 namespace System {
 class Object;
+}
+namespace System::Globalization {
+class CultureInfo;
+}
+namespace System::Globalization {
+struct CompareOptions;
+}
+namespace System::Globalization {
+class CompareInfo;
 }
 // Forward declare root types
 namespace System {
@@ -38,7 +38,7 @@ MARK_REF_PTR_T(::System::CultureAwareComparer);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3659)), TypeDefinitionIndex(TypeDefinitionIndex(2474))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2474)), TypeDefinitionIndex(TypeDefinitionIndex(3659))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2475))
 // CS Name: ::System::CultureAwareComparer*
 class CORDL_TYPE CultureAwareComparer : public ::System::StringComparer {

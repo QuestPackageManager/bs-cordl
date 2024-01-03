@@ -8,20 +8,20 @@ CORDL_MODULE_EXPORT(PrefabFactory_4)
 namespace System {
 class Object;
 }
-namespace Zenject {
-class IFactory;
-}
-namespace Zenject {
-class InjectTypeInfo;
-}
 namespace UnityEngine {
 class Object;
 }
 namespace Zenject {
-template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TValue> class IFactory_5;
+class InjectTypeInfo;
+}
+namespace Zenject {
+class IFactory;
 }
 namespace Zenject {
 class DiContainer;
+}
+namespace Zenject {
+template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TValue> class IFactory_5;
 }
 // Forward declare root types
 namespace Zenject {

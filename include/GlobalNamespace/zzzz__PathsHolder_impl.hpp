@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__PathsHolder_def.hpp"
-#include "GlobalNamespace/zzzz__VertexPath_def.hpp"
 #include "GlobalNamespace/zzzz__BezierPath_def.hpp"
+#include "GlobalNamespace/zzzz__VertexPath_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::PathsHolder.get_bezierPath
 template <>
 

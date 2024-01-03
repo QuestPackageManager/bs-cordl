@@ -2,9 +2,9 @@
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Oculus/Platform/zzzz__ChallengeOptions_def.hpp"
-#include "System/zzzz__DateTime_def.hpp"
 #include "Oculus/Platform/zzzz__ChallengeViewerFilter_def.hpp"
 #include "Oculus/Platform/zzzz__ChallengeVisibility_def.hpp"
+#include "System/zzzz__DateTime_def.hpp"
 //  Writing Method size for method: ::Oculus::Platform::ChallengeOptions._ctor
 template <>
 

@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(PkixCertPathValidatorResult)
-namespace Org::BouncyCastle::Pkix {
-class PkixPolicyNode;
+namespace System {
+class Object;
 }
 namespace Org::BouncyCastle::Pkix {
 class TrustAnchor;
 }
-namespace System {
-class Object;
+namespace Org::BouncyCastle::Pkix {
+class PkixPolicyNode;
 }
 namespace Org::BouncyCastle::Crypto {
 class AsymmetricKeyParameter;

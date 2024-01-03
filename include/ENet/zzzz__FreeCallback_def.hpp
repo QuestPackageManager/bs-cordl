@@ -9,10 +9,10 @@ namespace System {
 class AsyncCallback;
 }
 namespace System {
-class IAsyncResult;
+class Object;
 }
 namespace System {
-class Object;
+class IAsyncResult;
 }
 // Forward declare root types
 namespace ENet {

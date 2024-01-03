@@ -12,68 +12,68 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(RuntimePropertyInfo)
-namespace System::Runtime::Serialization {
-class SerializationInfo;
-}
-namespace Mono {
-struct RuntimePropertyHandle;
-}
-namespace System::Runtime::Serialization {
-struct StreamingContext;
-}
-namespace System::Reflection {
-template <typename T, typename R> class __RuntimePropertyInfo__Getter_2;
-}
 namespace System {
-class Object;
-}
-namespace System {
-class RuntimeType;
-}
-namespace System::Reflection {
-class ParameterInfo;
-}
-namespace System::Reflection {
-class MethodInfo;
-}
-namespace System::Reflection {
-template <typename R> class __RuntimePropertyInfo__StaticGetter_1;
+struct RuntimeTypeHandle;
 }
 namespace System::Reflection {
 class Module;
 }
 namespace System::Reflection {
+class RuntimeModule;
+}
+namespace System::Runtime::Serialization {
+struct StreamingContext;
+}
+namespace System::Reflection {
 struct MonoPropertyInfo;
 }
 namespace System::Reflection {
-struct BindingFlags;
-}
-namespace System::Reflection {
-class RuntimeModule;
-}
-namespace System::Reflection {
-struct PInfo;
+class MethodInfo;
 }
 namespace System {
 class Type;
 }
 namespace System::Reflection {
-class __RuntimePropertyInfo__GetterAdapter;
+template <typename R> class __RuntimePropertyInfo__StaticGetter_1;
 }
-namespace System::Globalization {
-class CultureInfo;
+namespace System::Reflection {
+class ParameterInfo;
 }
-namespace System::Runtime::Serialization {
-class ISerializable;
+namespace System::Reflection {
+struct BindingFlags;
 }
-namespace System {
-struct RuntimeTypeHandle;
+namespace System::Reflection {
+template <typename T, typename R> class __RuntimePropertyInfo__Getter_2;
 }
 namespace System::Reflection {
 class Binder;
 }
 namespace System::Reflection {
 class PropertyInfo;
+}
+namespace Mono {
+struct RuntimePropertyHandle;
+}
+namespace System::Runtime::Serialization {
+class SerializationInfo;
+}
+namespace System {
+class RuntimeType;
+}
+namespace System::Runtime::Serialization {
+class ISerializable;
+}
+namespace System::Reflection {
+class __RuntimePropertyInfo__GetterAdapter;
+}
+namespace System::Reflection {
+struct PInfo;
+}
+namespace System {
+class Object;
+}
+namespace System::Globalization {
+class CultureInfo;
 }
 // Forward declare root types
 namespace System::Reflection {
@@ -211,7 +211,7 @@ public:
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Reflection {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(3528)), TypeDefinitionIndex(TypeDefinitionIndex(3488)),
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3488)), TypeDefinitionIndex(TypeDefinitionIndex(3528)), TypeDefinitionIndex(TypeDefinitionIndex(2603)),
 // TypeDefinitionIndex(TypeDefinitionIndex(3527))} Self: TypeDefinitionIndex(TypeDefinitionIndex(3532)) CS Name: ::System.Reflection::RuntimePropertyInfo*
 class CORDL_TYPE RuntimePropertyInfo : public ::System::Reflection::PropertyInfo {
 public:

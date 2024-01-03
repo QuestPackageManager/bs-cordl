@@ -8,22 +8,22 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Arch)
 namespace UnityEngine {
-struct Bounds;
-}
-namespace UnityEngine::ProBuilder::Shapes {
-class Shape;
+struct Vector3;
 }
 namespace UnityEngine {
 struct Vector2;
 }
-namespace UnityEngine {
-struct Vector3;
+namespace UnityEngine::ProBuilder::Shapes {
+class Shape;
 }
 namespace UnityEngine::ProBuilder {
 class ProBuilderMesh;
 }
 namespace UnityEngine {
 struct Quaternion;
+}
+namespace UnityEngine {
+struct Bounds;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder::Shapes {

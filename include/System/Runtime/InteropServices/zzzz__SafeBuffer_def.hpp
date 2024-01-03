@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::System::Runtime::InteropServices::SafeBuffer);
 // SizeInfo { instance_size: 40, native_size: 8, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::InteropServices {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638)), TypeDefinitionIndex(TypeDefinitionIndex(2301))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2301)), TypeDefinitionIndex(TypeDefinitionIndex(2638))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3309))
 // CS Name: ::System.Runtime.InteropServices::SafeBuffer*
 class CORDL_TYPE SafeBuffer : public ::Microsoft::Win32::SafeHandles::SafeHandleZeroOrMinusOneIsInvalid {

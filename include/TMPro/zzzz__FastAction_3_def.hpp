@@ -8,13 +8,13 @@ namespace System {
 template <typename T1, typename T2, typename T3> class Action_3;
 }
 namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
+template <typename T> class LinkedListNode_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class LinkedList_1;
 }
 namespace System::Collections::Generic {
-template <typename T> class LinkedListNode_1;
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 // Forward declare root types
 namespace TMPro {

@@ -10,11 +10,11 @@ CORDL_MODULE_EXPORT(SerializationUtilities)
 namespace UnityEngine::AddressableAssets::Utility {
 struct __SerializationUtilities__ObjectType;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
 namespace System {
 class Object;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 // Forward declare root types
 namespace UnityEngine::AddressableAssets::Utility {

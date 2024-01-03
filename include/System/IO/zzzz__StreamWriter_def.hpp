@@ -16,44 +16,44 @@ CORDL_MODULE_EXPORT(StreamWriter)
 namespace System::IO {
 struct __StreamWriter___DisposeAsyncCore_d__33;
 }
-namespace System {
-template <typename T> struct ReadOnlySpan_1;
-}
-namespace System::IO {
-struct __StreamWriter___FlushAsyncInternal_d__74;
+namespace System::Text {
+class Encoder;
 }
 namespace System::IO {
 class Stream;
 }
-namespace System::Threading::Tasks {
-struct ValueTask;
-}
-namespace System::Threading::Tasks {
-class Task;
-}
-namespace System::Text {
-class Encoder;
-}
-namespace System::Threading {
-struct CancellationToken;
+namespace System {
+template <typename T> struct ReadOnlySpan_1;
 }
 namespace System::Text {
 class Encoding;
 }
-namespace System::Runtime::CompilerServices {
-struct __ConfiguredTaskAwaitable__ConfiguredTaskAwaiter;
+namespace System::Threading {
+struct CancellationToken;
 }
-namespace System::Runtime::CompilerServices {
-class IAsyncStateMachine;
+namespace System::Threading::Tasks {
+class Task;
+}
+namespace System::Threading::Tasks {
+struct ValueTask;
+}
+namespace System::IO {
+struct __StreamWriter___FlushAsyncInternal_d__74;
 }
 namespace System::Runtime::CompilerServices {
 struct AsyncValueTaskMethodBuilder;
 }
 namespace System::Runtime::CompilerServices {
-struct AsyncTaskMethodBuilder;
+class IAsyncStateMachine;
+}
+namespace System::Runtime::CompilerServices {
+struct __ConfiguredTaskAwaitable__ConfiguredTaskAwaiter;
 }
 namespace System::Runtime::CompilerServices {
 struct __ConfiguredValueTaskAwaitable__ConfiguredValueTaskAwaiter;
+}
+namespace System::Runtime::CompilerServices {
+struct AsyncTaskMethodBuilder;
 }
 // Forward declare root types
 namespace System::IO {
@@ -253,7 +253,7 @@ static_assert(offsetof(::System::IO::__StreamWriter___FlushAsyncInternal_d__74, 
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::IO {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3586))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3586))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3578))
 // CS Name: ::System.IO::StreamWriter*
 class CORDL_TYPE StreamWriter : public ::System::IO::TextWriter {

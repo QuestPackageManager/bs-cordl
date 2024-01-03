@@ -10,14 +10,14 @@ CORDL_MODULE_EXPORT(SerializationInfoEnumerator)
 namespace System::Runtime::Serialization {
 struct SerializationEntry;
 }
-namespace System {
-class Object;
+namespace System::Collections {
+class IEnumerator;
 }
 namespace System {
 class Type;
 }
-namespace System::Collections {
-class IEnumerator;
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::Runtime::Serialization {

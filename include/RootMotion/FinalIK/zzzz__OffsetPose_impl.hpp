@@ -4,9 +4,9 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "RootMotion/FinalIK/zzzz__OffsetPose_def.hpp"
-#include "RootMotion/FinalIK/zzzz__OffsetPose_def.hpp"
 #include "RootMotion/FinalIK/zzzz__IKSolverFullBodyBiped_def.hpp"
 #include "UnityEngine/zzzz__Quaternion_def.hpp"
+#include "RootMotion/FinalIK/zzzz__OffsetPose_def.hpp"
 //  Writing Method size for method: ::RootMotion::FinalIK::__OffsetPose__EffectorLink.Apply
 template <>
 

@@ -9,10 +9,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(PS4PublisherSKUSettingsSO)
 namespace GlobalNamespace {
-struct PS4ApplicationCategory;
+class __PS4PublisherSKUSettingsSO__PS4BuildVersion;
 }
 namespace GlobalNamespace {
-class __PS4PublisherSKUSettingsSO__PS4BuildVersion;
+struct PS4ApplicationCategory;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -101,7 +101,7 @@ static_assert(offsetof(::GlobalNamespace::__PS4PublisherSKUSettingsSO__PS4BuildV
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4602)), TypeDefinitionIndex(TypeDefinitionIndex(4554))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4554)), TypeDefinitionIndex(TypeDefinitionIndex(4602))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4556))
 // CS Name: ::PS4PublisherSKUSettingsSO*
 class CORDL_TYPE PS4PublisherSKUSettingsSO : public ::GlobalNamespace::SonyPublisherSKUSettingsSO {

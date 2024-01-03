@@ -3,13 +3,13 @@
 #include "Unity/Profiling/zzzz__ProfilerMarker_impl.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__GradientSettingsAtlas_impl.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__GradientSettingsAtlas_def.hpp"
-#include "UnityEngine/UIElements/UIR/zzzz__BestFitAllocator_def.hpp"
-#include "UnityEngine/zzzz__Texture2D_def.hpp"
-#include "UnityEngine/UIElements/zzzz__GradientSettings_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__GradientSettingsAtlas_def.hpp"
+#include "UnityEngine/zzzz__Texture2D_def.hpp"
+#include "UnityEngine/UIElements/UIR/zzzz__BestFitAllocator_def.hpp"
+#include "UnityEngine/UIElements/zzzz__GradientSettings_def.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__GradientRemap_def.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__Alloc_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include "UnityEngine/zzzz__Color32_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::UIR::__GradientSettingsAtlas__RawTexture.WriteRawInt2Packed
 template <>

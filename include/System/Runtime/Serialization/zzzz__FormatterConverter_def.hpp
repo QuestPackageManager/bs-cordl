@@ -7,14 +7,14 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(FormatterConverter)
-namespace System {
-class Object;
-}
 namespace System::Runtime::Serialization {
 class IFormatterConverter;
 }
 namespace System {
 class Type;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::Runtime::Serialization {

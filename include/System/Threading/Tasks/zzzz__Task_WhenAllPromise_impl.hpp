@@ -2,8 +2,8 @@
 #include "System/Threading/Tasks/zzzz__Task_1_impl.hpp"
 #include "System/Threading/Tasks/zzzz__VoidTaskResult_impl.hpp"
 #include "System/Threading/Tasks/zzzz__Task_WhenAllPromise_def.hpp"
-#include "System/Threading/Tasks/zzzz__Task_def.hpp"
 #include "System/Threading/Tasks/zzzz__ITaskCompletionAction_def.hpp"
+#include "System/Threading/Tasks/zzzz__Task_def.hpp"
 //  Writing Method size for method: ::System::Threading::Tasks::__Task__WhenAllPromise._ctor
 template <>
 

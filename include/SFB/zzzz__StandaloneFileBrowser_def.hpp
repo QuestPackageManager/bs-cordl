@@ -6,14 +6,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(StandaloneFileBrowser)
+namespace SFB {
+struct ExtensionFilter;
+}
 namespace System {
 template <typename T> class Action_1;
 }
 namespace SFB {
 class IStandaloneFileBrowser;
-}
-namespace SFB {
-struct ExtensionFilter;
 }
 // Forward declare root types
 namespace SFB {

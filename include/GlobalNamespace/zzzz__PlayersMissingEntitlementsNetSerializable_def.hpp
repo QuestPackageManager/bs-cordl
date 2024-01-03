@@ -5,9 +5,6 @@ CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__PoolableSerializable_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(PlayersMissingEntitlementsNetSerializable)
-namespace LiteNetLib::Utils {
-class NetDataReader;
-}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
@@ -16,6 +13,9 @@ template <typename T> class IEnumerable_1;
 }
 namespace LiteNetLib::Utils {
 class NetDataWriter;
+}
+namespace LiteNetLib::Utils {
+class NetDataReader;
 }
 // Forward declare root types
 namespace GlobalNamespace {

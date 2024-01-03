@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include "Zenject/zzzz__ScriptableObjectInstaller_def.hpp"
 CORDL_MODULE_EXPORT(BaseViewControllersInstaller)
 namespace GlobalNamespace {
-class SafeAreaFocusedSimpleDialogPromptViewController;
+class SimpleDialogPromptViewController;
 }
 namespace GlobalNamespace {
-class SimpleDialogPromptViewController;
+class SafeAreaFocusedSimpleDialogPromptViewController;
 }
 // Forward declare root types
 namespace GlobalNamespace {

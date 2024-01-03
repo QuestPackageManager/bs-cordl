@@ -6,14 +6,14 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__Vector2_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(VisualMetronome)
+namespace UnityEngine {
+class RectTransform;
+}
 namespace UnityEngine::UI {
 class Image;
 }
 namespace UnityEngine {
 class AudioSource;
-}
-namespace UnityEngine {
-class RectTransform;
 }
 namespace UnityEngine {
 struct Color;

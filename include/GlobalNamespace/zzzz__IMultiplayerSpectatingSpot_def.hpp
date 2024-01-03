@@ -7,11 +7,11 @@ CORDL_MODULE_EXPORT(IMultiplayerSpectatingSpot)
 namespace UnityEngine {
 class Transform;
 }
-namespace System {
-template <typename T> class Action_1;
-}
 namespace GlobalNamespace {
 class IMultiplayerObservable;
+}
+namespace System {
+template <typename T> class Action_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {

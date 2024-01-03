@@ -5,32 +5,32 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(ICustomTypeDescriptor)
+namespace System {
+class Type;
+}
 namespace System::ComponentModel {
-class PropertyDescriptor;
+class AttributeCollection;
+}
+namespace System {
+class Object;
 }
 namespace System::ComponentModel {
 class EventDescriptor;
 }
-namespace System {
-class Type;
+namespace System::ComponentModel {
+class PropertyDescriptor;
 }
-namespace System {
-class Object;
+namespace System::ComponentModel {
+class EventDescriptorCollection;
+}
+namespace System::ComponentModel {
+class TypeConverter;
 }
 namespace System::ComponentModel {
 class PropertyDescriptorCollection;
 }
 namespace System {
 class Attribute;
-}
-namespace System::ComponentModel {
-class TypeConverter;
-}
-namespace System::ComponentModel {
-class EventDescriptorCollection;
-}
-namespace System::ComponentModel {
-class AttributeCollection;
 }
 // Forward declare root types
 namespace System::ComponentModel {

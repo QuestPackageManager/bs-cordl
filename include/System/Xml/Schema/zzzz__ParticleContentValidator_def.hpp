@@ -7,38 +7,38 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ParticleContentValidator)
-namespace System::Xml {
-class XmlQualifiedName;
-}
 namespace System::Xml::Schema {
-class NamespaceList;
-}
-namespace System::Xml::Schema {
-class SymbolsDictionary;
-}
-namespace System::Collections {
-class Stack;
-}
-namespace System::Xml::Schema {
-struct XmlSchemaContentType;
-}
-namespace System::Xml::Schema {
-class Positions;
+class SyntaxTreeNode;
 }
 namespace System::Xml::Schema {
 class ContentValidator;
 }
 namespace System::Xml::Schema {
-class SyntaxTreeNode;
+class BitSet;
+}
+namespace System::Xml::Schema {
+struct XmlSchemaContentType;
+}
+namespace System::Xml::Schema {
+class NamespaceList;
 }
 namespace System::Xml::Schema {
 class InteriorNode;
+}
+namespace System::Collections {
+class Stack;
 }
 namespace System {
 class Object;
 }
 namespace System::Xml::Schema {
-class BitSet;
+class SymbolsDictionary;
+}
+namespace System::Xml::Schema {
+class Positions;
+}
+namespace System::Xml {
+class XmlQualifiedName;
 }
 // Forward declare root types
 namespace System::Xml::Schema {

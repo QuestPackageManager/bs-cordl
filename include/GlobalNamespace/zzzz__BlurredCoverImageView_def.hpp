@@ -11,29 +11,26 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(BlurredCoverImageView)
-namespace GlobalNamespace {
-struct __BlurredCoverImageView___SetTextureAsync_d__6;
-}
-namespace UnityEngine {
-class Texture2D;
+namespace HMUI {
+class ImageView;
 }
 namespace GlobalNamespace {
 class KawaseBlurRendererSO;
 }
-namespace HMUI {
-class ImageView;
+namespace GlobalNamespace {
+struct __BlurredCoverImageView___SetTextureAsync_d__6;
 }
 namespace System::Threading {
 class CancellationTokenSource;
+}
+namespace UnityEngine {
+class Texture2D;
 }
 namespace GlobalNamespace {
 class IPreviewBeatmapLevel;
 }
 namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
-}
-namespace System::Threading {
-struct CancellationToken;
 }
 namespace UnityEngine {
 class Sprite;
@@ -43,6 +40,9 @@ template <typename TResult> struct TaskAwaiter_1;
 }
 namespace System::Runtime::CompilerServices {
 struct AsyncVoidMethodBuilder;
+}
+namespace System::Threading {
+struct CancellationToken;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -58,9 +58,9 @@ MARK_VAL_T(::GlobalNamespace::__BlurredCoverImageView___SetTextureAsync_d__6);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 777 }), TypeDefinitionIndex(TypeDefinitionIndex(3400)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10291)), TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3394))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5774))
-// CS Name: ::BlurredCoverImageView::<SetTextureAsync>d__6
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10291)), TypeDefinitionIndex(TypeDefinitionIndex(2677)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 777
+// }), TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(3400))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5774)) CS Name:
+// ::BlurredCoverImageView::<SetTextureAsync>d__6
 struct CORDL_TYPE __BlurredCoverImageView___SetTextureAsync_d__6 {
 public:
   // Declarations

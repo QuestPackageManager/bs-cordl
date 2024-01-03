@@ -11,59 +11,59 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(TextMeshPro)
-namespace UnityEngine {
-class Renderer;
-}
 namespace UnityEngine::UI {
-struct CanvasUpdate;
-}
-namespace TMPro {
-struct TMP_VertexDataUpdateFlags;
-}
-namespace TMPro {
-class TextContainer;
-}
-namespace TMPro {
-class TMP_TextInfo;
-}
-namespace UnityEngine {
-class MeshFilter;
-}
-namespace UnityEngine {
-struct Bounds;
+class ILayoutElement;
 }
 namespace System {
 template <typename T> class Action_1;
 }
-namespace UnityEngine::UI {
-class ILayoutElement;
-}
 namespace UnityEngine {
 class Material;
 }
-namespace TMPro {
-struct __TMP_Text__UnicodeChar;
-}
-namespace TMPro {
-class TMP_SubMesh;
-}
-namespace UnityEngine {
-class Mesh;
-}
-namespace UnityEngine {
-struct Vector3;
-}
-namespace UnityEngine {
-struct Vector4;
-}
-namespace UnityEngine {
-struct Color32;
+namespace UnityEngine::UI {
+struct CanvasUpdate;
 }
 namespace TMPro {
 struct MaskingTypes;
 }
 namespace UnityEngine {
 class Transform;
+}
+namespace TMPro {
+class TMP_TextInfo;
+}
+namespace UnityEngine {
+class Renderer;
+}
+namespace TMPro {
+class TextContainer;
+}
+namespace UnityEngine {
+struct Bounds;
+}
+namespace TMPro {
+class TMP_SubMesh;
+}
+namespace UnityEngine {
+class MeshFilter;
+}
+namespace UnityEngine {
+class Mesh;
+}
+namespace UnityEngine {
+struct Color32;
+}
+namespace UnityEngine {
+struct Vector3;
+}
+namespace TMPro {
+struct __TMP_Text__UnicodeChar;
+}
+namespace TMPro {
+struct TMP_VertexDataUpdateFlags;
+}
+namespace UnityEngine {
+struct Vector4;
 }
 // Forward declare root types
 namespace TMPro {
@@ -75,8 +75,8 @@ MARK_REF_PTR_T(::TMPro::TextMeshPro);
 // SizeInfo { instance_size: 1888, native_size: -1, calculated_instance_size: 1888, calculated_native_size: 1881, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9966)), TypeDefinitionIndex(TypeDefinitionIndex(12446)), TypeDefinitionIndex(TypeDefinitionIndex(12434)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10245))} Self: TypeDefinitionIndex(TypeDefinitionIndex(12307)) CS Name: ::TMPro::TextMeshPro*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12446)), TypeDefinitionIndex(TypeDefinitionIndex(10245)), TypeDefinitionIndex(TypeDefinitionIndex(9966)),
+// TypeDefinitionIndex(TypeDefinitionIndex(12434))} Self: TypeDefinitionIndex(TypeDefinitionIndex(12307)) CS Name: ::TMPro::TextMeshPro*
 class CORDL_TYPE TextMeshPro : public ::TMPro::TMP_Text {
 public:
   // Declarations

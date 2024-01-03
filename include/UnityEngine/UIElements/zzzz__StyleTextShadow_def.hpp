@@ -9,19 +9,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(StyleTextShadow)
 namespace UnityEngine::UIElements {
-template <typename T> class IStyleValue_1;
-}
-namespace UnityEngine::UIElements {
 struct StyleKeyword;
 }
 namespace System {
 template <typename T> class IEquatable_1;
 }
 namespace UnityEngine::UIElements {
-struct TextShadow;
+template <typename T> class IStyleValue_1;
 }
 namespace System {
 class Object;
+}
+namespace UnityEngine::UIElements {
+struct TextShadow;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

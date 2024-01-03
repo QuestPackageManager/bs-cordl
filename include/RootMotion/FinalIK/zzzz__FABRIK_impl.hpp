@@ -1,8 +1,8 @@
 #pragma once
 #include "RootMotion/FinalIK/zzzz__IK_impl.hpp"
 #include "RootMotion/FinalIK/zzzz__FABRIK_def.hpp"
-#include "RootMotion/FinalIK/zzzz__IKSolverFABRIK_def.hpp"
 #include "RootMotion/FinalIK/zzzz__IKSolver_def.hpp"
+#include "RootMotion/FinalIK/zzzz__IKSolverFABRIK_def.hpp"
 //  Writing Method size for method: ::RootMotion::FinalIK::FABRIK.OpenUserManual
 template <>
 

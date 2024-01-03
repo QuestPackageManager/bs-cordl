@@ -7,40 +7,40 @@ CORDL_MODULE_INIT
 #include <cstddef>
 CORDL_MODULE_EXPORT(OVRObjectPool)
 namespace System::Collections::Generic {
-template <typename T> class Stack_1;
+template <typename T> class Queue_1;
 }
 namespace GlobalNamespace {
 template <typename T> struct __OVRObjectPool__ListScope_1;
 }
-namespace GlobalNamespace {
-template <typename TKey, typename TValue> struct __OVRObjectPool__DictionaryScope_2;
-}
-namespace GlobalNamespace {
-template <typename T> class __OVRObjectPool__Storage_1;
-}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
-}
-namespace GlobalNamespace {
-template <typename T> struct __OVRObjectPool__ItemScope_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class HashSet_1;
 }
 namespace System::Collections::Generic {
-template <typename T> class Queue_1;
-}
-namespace GlobalNamespace {
-template <typename T> struct __OVRObjectPool__QueueScope_1;
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
+template <typename T> class Stack_1;
+}
+namespace GlobalNamespace {
+template <typename T> class __OVRObjectPool__Storage_1;
+}
+namespace GlobalNamespace {
+template <typename TKey, typename TValue> struct __OVRObjectPool__DictionaryScope_2;
+}
+namespace GlobalNamespace {
+template <typename T> struct __OVRObjectPool__StackScope_1;
 }
 namespace GlobalNamespace {
 template <typename T> struct __OVRObjectPool__HashSetScope_1;
 }
 namespace GlobalNamespace {
-template <typename T> struct __OVRObjectPool__StackScope_1;
+template <typename T> struct __OVRObjectPool__ItemScope_1;
+}
+namespace GlobalNamespace {
+template <typename T> struct __OVRObjectPool__QueueScope_1;
 }
 namespace System {
 class IDisposable;

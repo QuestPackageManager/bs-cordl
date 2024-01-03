@@ -9,10 +9,10 @@ namespace System::Threading::Tasks {
 class Task;
 }
 namespace System::Threading::Tasks {
-struct TaskContinuationOptions;
+class TaskScheduler;
 }
 namespace System::Threading::Tasks {
-class TaskScheduler;
+struct TaskContinuationOptions;
 }
 // Forward declare root types
 namespace System::Threading::Tasks {
@@ -24,7 +24,7 @@ MARK_REF_PTR_T(::System::Threading::Tasks::StandardTaskContinuation);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Threading::Tasks {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2801)), TypeDefinitionIndex(TypeDefinitionIndex(2792))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2792)), TypeDefinitionIndex(TypeDefinitionIndex(2801))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2802))
 // CS Name: ::System.Threading.Tasks::StandardTaskContinuation*
 class CORDL_TYPE StandardTaskContinuation : public ::System::Threading::Tasks::TaskContinuation {

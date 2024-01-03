@@ -2,43 +2,45 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/zzzz__Nullable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "Zenject/zzzz__SignalMissingHandlerResponses_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(SignalBus)
-namespace Zenject {
-class __SignalSubscription__Pool;
-}
-namespace Zenject {
-class __ZenjectSettings__SignalSettings;
-}
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace System {
-class Action;
-}
-namespace System {
-template <typename T> struct Nullable_1;
-}
-namespace Zenject {
-template <typename TSignal> class __SignalBus____c__DisplayClass25_0_1;
-}
-namespace System {
-class Object;
-}
-namespace Zenject {
-class SignalDeclaration;
 }
 namespace System {
 class Type;
 }
 namespace Zenject {
-class InjectTypeInfo;
+class __SignalBus____c;
+}
+namespace Zenject {
+class ZenjectSettings;
 }
 namespace Zenject {
 class ILateDisposable;
+}
+namespace Zenject {
+class __SignalSubscription__Pool;
+}
+namespace Zenject {
+struct BindingId;
+}
+namespace System {
+class Action;
+}
+namespace Zenject {
+class __ZenjectSettings__SignalSettings;
+}
+namespace Zenject {
+class SignalDeclaration;
+}
+namespace Zenject {
+class DiContainer;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
@@ -47,31 +49,25 @@ namespace System {
 template <typename T> class Action_1;
 }
 namespace Zenject {
+class __SignalDeclaration__Factory;
+}
+namespace Zenject {
 template <typename TSignal> class __SignalBus____c__DisplayClass27_0_1;
 }
-namespace Zenject {
-struct SignalMissingHandlerResponses;
-}
-namespace Zenject {
-struct BindingId;
-}
-namespace Zenject {
-class DiContainer;
-}
-namespace Zenject {
-class ZenjectSettings;
+namespace System {
+class Object;
 }
 namespace Zenject {
 class SignalSubscription;
 }
 namespace Zenject {
+template <typename TSignal> class __SignalBus____c__DisplayClass25_0_1;
+}
+namespace Zenject {
+class InjectTypeInfo;
+}
+namespace Zenject {
 struct SignalSubscriptionId;
-}
-namespace Zenject {
-class __SignalDeclaration__Factory;
-}
-namespace Zenject {
-class __SignalBus____c;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;
@@ -288,9 +284,9 @@ public:
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10666))
-// CS Name: ::Zenject::SignalBus*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11172)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 98
+// }), TypeDefinitionIndex(TypeDefinitionIndex(2448)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 4757 }), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(2448), inst: 105 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(10666)) CS Name: ::Zenject::SignalBus*
 class CORDL_TYPE SignalBus : public ::System::Object {
 public:
   // Declarations

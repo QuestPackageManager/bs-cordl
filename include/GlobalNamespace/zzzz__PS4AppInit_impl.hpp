@@ -1,12 +1,12 @@
 #pragma once
 #include "GlobalNamespace/zzzz__AppInit_impl.hpp"
 #include "GlobalNamespace/zzzz__PS4AppInit_def.hpp"
-#include "GlobalNamespace/zzzz__MainSystemInit_def.hpp"
 #include "GlobalNamespace/zzzz__SonyOnGoingToBackgroundSaveHandler_def.hpp"
-#include "GlobalNamespace/zzzz__DefaultScenesTransitionsFromInit_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_def.hpp"
-#include "GlobalNamespace/zzzz__AppInitScenesTransitionSetupDataContainerSO_def.hpp"
 #include "GlobalNamespace/zzzz__PS4ActivePublisherSKUSettingsSO_def.hpp"
+#include "GlobalNamespace/zzzz__MainSystemInit_def.hpp"
+#include "GlobalNamespace/zzzz__DefaultScenesTransitionsFromInit_def.hpp"
+#include "GlobalNamespace/zzzz__AppInitScenesTransitionSetupDataContainerSO_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::PS4AppInit.InitializeModules
 template <>
 

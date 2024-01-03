@@ -8,11 +8,11 @@ CORDL_MODULE_EXPORT(XDeclarationWrapper)
 namespace System::Xml::Linq {
 class XDeclaration;
 }
-namespace System::Xml {
-struct XmlNodeType;
-}
 namespace Newtonsoft::Json::Converters {
 class IXmlNode;
+}
+namespace System::Xml {
+struct XmlNodeType;
 }
 namespace Newtonsoft::Json::Converters {
 class IXmlDeclaration;

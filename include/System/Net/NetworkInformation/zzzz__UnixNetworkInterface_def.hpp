@@ -9,10 +9,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(UnixNetworkInterface)
 namespace System::Net::NetworkInformation {
-class IPInterfaceProperties;
+struct NetworkInterfaceType;
 }
 namespace System::Net::NetworkInformation {
-struct NetworkInterfaceType;
+class IPInterfaceProperties;
 }
 namespace System::Net {
 class IPAddress;
@@ -30,7 +30,7 @@ MARK_REF_PTR_T(::System::Net::NetworkInformation::UnixNetworkInterface);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::NetworkInformation {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9258)), TypeDefinitionIndex(TypeDefinitionIndex(9252))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9252)), TypeDefinitionIndex(TypeDefinitionIndex(9258))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9292))
 // CS Name: ::System.Net.NetworkInformation::UnixNetworkInterface*
 class CORDL_TYPE UnixNetworkInterface : public ::System::Net::NetworkInformation::NetworkInterface {

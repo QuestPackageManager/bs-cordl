@@ -5,6 +5,21 @@ CORDL_MODULE_INIT
 #include "Zenject/zzzz__Context_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(SceneDecoratorContext)
+namespace UnityEngine {
+class GameObject;
+}
+namespace Zenject {
+class MonoInstaller;
+}
+namespace Zenject {
+class ScriptableObjectInstaller;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace UnityEngine {
+class MonoBehaviour;
+}
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
@@ -12,22 +27,7 @@ namespace Zenject {
 class InjectTypeInfo;
 }
 namespace Zenject {
-class ScriptableObjectInstaller;
-}
-namespace Zenject {
 class DiContainer;
-}
-namespace UnityEngine {
-class MonoBehaviour;
-}
-namespace UnityEngine {
-class GameObject;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace Zenject {
-class MonoInstaller;
 }
 // Forward declare root types
 namespace Zenject {

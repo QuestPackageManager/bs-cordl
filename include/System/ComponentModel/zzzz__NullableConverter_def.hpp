@@ -5,32 +5,32 @@ CORDL_MODULE_INIT
 #include "System/ComponentModel/zzzz__TypeConverter_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(NullableConverter)
-namespace System::ComponentModel {
-class __TypeConverter__StandardValuesCollection;
+namespace System {
+class Type;
 }
 namespace System::ComponentModel {
 class ITypeDescriptorContext;
 }
-namespace System::ComponentModel {
-class PropertyDescriptorCollection;
-}
-namespace System {
-class Attribute;
-}
 namespace System {
 class Object;
 }
-namespace System {
-class Type;
+namespace System::ComponentModel {
+class __TypeConverter__StandardValuesCollection;
 }
 namespace System::Globalization {
 class CultureInfo;
 }
-namespace System::Collections {
-class IDictionary;
+namespace System {
+class Attribute;
 }
 namespace System::ComponentModel {
 class TypeConverter;
+}
+namespace System::ComponentModel {
+class PropertyDescriptorCollection;
+}
+namespace System::Collections {
+class IDictionary;
 }
 // Forward declare root types
 namespace System::ComponentModel {

@@ -10,46 +10,46 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(InjectContext)
 namespace Zenject {
-class __InjectContext___get_ParentContextsAndSelf_d__54;
-}
-namespace Zenject {
 class __InjectContext___get_ParentContexts_d__52;
-}
-namespace System {
-class Object;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
-namespace Zenject {
-class DiContainer;
 }
 namespace System {
 class IDisposable;
 }
 namespace Zenject {
-struct BindingId;
+class __InjectContext___get_AllObjectTypes_d__56;
 }
 namespace Zenject {
 struct InjectSources;
+}
+namespace Zenject {
+struct BindingId;
+}
+namespace System {
+class Object;
+}
+namespace Zenject {
+class __InjectContext___get_ParentContextsAndSelf_d__54;
 }
 namespace System {
 class Type;
 }
 namespace Zenject {
-class __InjectContext___get_AllObjectTypes_d__56;
+class DiContainer;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
 }
 namespace System::Collections {
-class IEnumerator;
+class IEnumerable;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
+namespace System::Collections {
+class IEnumerator;
+}
 namespace Zenject {
 class InjectTypeInfo;
-}
-namespace System::Collections {
-class IEnumerable;
 }
 // Forward declare root types
 namespace Zenject {
@@ -535,7 +535,7 @@ static_assert(offsetof(::Zenject::__InjectContext___get_AllObjectTypes_d__56, __
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11158)), TypeDefinitionIndex(TypeDefinitionIndex(15712)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(11158)), TypeDefinitionIndex(TypeDefinitionIndex(15712))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11113))
 // CS Name: ::Zenject::InjectContext*
 class CORDL_TYPE InjectContext : public ::System::Object {

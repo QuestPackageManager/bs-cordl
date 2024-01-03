@@ -8,6 +8,12 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(PolyShape)
+namespace System::Collections::Generic {
+template <typename T> class IList_1;
+}
+namespace System::Collections::ObjectModel {
+template <typename T> class ReadOnlyCollection_1;
+}
 namespace UnityEngine::ProBuilder {
 class ProBuilderMesh;
 }
@@ -17,14 +23,8 @@ struct __PolyShape__PolyEditMode;
 namespace UnityEngine {
 struct Vector3;
 }
-namespace System::Collections::ObjectModel {
-template <typename T> class ReadOnlyCollection_1;
-}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class IList_1;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder {
@@ -98,7 +98,7 @@ static_assert(offsetof(::UnityEngine::ProBuilder::__PolyShape__PolyEditMode, val
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 50, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12149)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(12149))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12150))
 // CS Name: ::UnityEngine.ProBuilder::PolyShape*
 class CORDL_TYPE PolyShape : public ::UnityEngine::MonoBehaviour {

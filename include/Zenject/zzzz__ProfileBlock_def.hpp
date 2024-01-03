@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(ProfileBlock)
-namespace System::Text::RegularExpressions {
-class Regex;
-}
 namespace System {
 class Object;
+}
+namespace System::Text::RegularExpressions {
+class Regex;
 }
 namespace System {
 class IDisposable;

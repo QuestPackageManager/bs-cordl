@@ -6,17 +6,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(CADMethodReturnMessage)
-namespace System {
-class Type;
-}
-namespace System {
-class Object;
-}
 namespace System::Runtime::Remoting::Messaging {
 class IMessage;
 }
 namespace System::Runtime::Remoting::Messaging {
 class IMethodReturnMessage;
+}
+namespace System::Runtime::Remoting::Messaging {
+class CADArgHolder;
 }
 namespace System::Collections {
 class ArrayList;
@@ -24,8 +21,11 @@ class ArrayList;
 namespace System {
 class Exception;
 }
-namespace System::Runtime::Remoting::Messaging {
-class CADArgHolder;
+namespace System {
+class Object;
+}
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting::Messaging {

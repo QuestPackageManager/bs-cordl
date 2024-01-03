@@ -10,8 +10,29 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(TMP_Dropdown)
+namespace UnityEngine::EventSystems {
+class PointerEventData;
+}
+namespace UnityEngine::EventSystems {
+class ISubmitHandler;
+}
+namespace UnityEngine::EventSystems {
+class IEventSystemHandler;
+}
+namespace TMPro {
+template <typename T> class TweenRunner_1;
+}
+namespace System::Collections {
+class IEnumerator;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace UnityEngine {
+class RectTransform;
+}
 namespace UnityEngine::UI {
-class Image;
+class Graphic;
 }
 namespace UnityEngine::EventSystems {
 class ICancelHandler;
@@ -19,71 +40,50 @@ class ICancelHandler;
 namespace UnityEngine {
 class GameObject;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace TMPro {
-class __TMP_Dropdown__OptionDataList;
-}
-namespace TMPro {
-class TMP_Text;
-}
-namespace UnityEngine {
-class Sprite;
-}
-namespace UnityEngine {
-class Coroutine;
-}
-namespace UnityEngine::EventSystems {
-class PointerEventData;
-}
-namespace UnityEngine::EventSystems {
-class IPointerClickHandler;
+namespace UnityEngine::UI {
+class Toggle;
 }
 namespace TMPro {
 class __TMP_Dropdown___DelayedDestroyDropdownList_d__81;
 }
+namespace TMPro {
+class TMP_Text;
+}
 namespace UnityEngine::EventSystems {
 class BaseEventData;
 }
-namespace TMPro {
-class __TMP_Dropdown__OptionData;
+namespace UnityEngine {
+class Sprite;
 }
 namespace UnityEngine::EventSystems {
-class IEventSystemHandler;
+class IPointerClickHandler;
 }
-namespace UnityEngine::UI {
-class Graphic;
-}
-namespace TMPro {
-class __TMP_Dropdown__DropdownItem;
-}
-namespace System::Collections {
-class IEnumerator;
-}
-namespace TMPro {
-struct FloatTween;
-}
-namespace UnityEngine::EventSystems {
-class ISubmitHandler;
+namespace UnityEngine {
+class Coroutine;
 }
 namespace UnityEngine {
 class Canvas;
 }
 namespace TMPro {
-template <typename T> class TweenRunner_1;
+class __TMP_Dropdown__OptionData;
 }
 namespace TMPro {
-class __TMP_Dropdown____c__DisplayClass69_0;
+class __TMP_Dropdown__OptionDataList;
 }
-namespace UnityEngine::UI {
-class Toggle;
+namespace TMPro {
+class __TMP_Dropdown__DropdownItem;
 }
 namespace TMPro {
 class __TMP_Dropdown__DropdownEvent;
 }
-namespace UnityEngine {
-class RectTransform;
+namespace UnityEngine::UI {
+class Image;
+}
+namespace TMPro {
+struct FloatTween;
+}
+namespace TMPro {
+class __TMP_Dropdown____c__DisplayClass69_0;
 }
 namespace UnityEngine::EventSystems {
 class IPointerEnterHandler;

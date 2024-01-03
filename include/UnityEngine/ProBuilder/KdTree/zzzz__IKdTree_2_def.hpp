@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(IKdTree_2)
-namespace UnityEngine::ProBuilder::KdTree {
-template <typename TKey, typename TValue> class KdTreeNode_2;
-}
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
+}
+namespace UnityEngine::ProBuilder::KdTree {
+template <typename TKey, typename TValue> class KdTreeNode_2;
 }
 namespace System::Collections {
 class IEnumerable;

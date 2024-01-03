@@ -8,20 +8,20 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(BigInteger)
+namespace Mono::Math {
+class __BigInteger__ModulusRing;
+}
 namespace System {
 class Object;
 }
-namespace Mono::Math {
-class __BigInteger__Kernel;
-}
-namespace Mono::Math {
-class __BigInteger__ModulusRing;
+namespace System::Security::Cryptography {
+class RandomNumberGenerator;
 }
 namespace Mono::Math {
 struct __BigInteger__Sign;
 }
-namespace System::Security::Cryptography {
-class RandomNumberGenerator;
+namespace Mono::Math {
+class __BigInteger__Kernel;
 }
 // Forward declare root types
 namespace Mono::Math {

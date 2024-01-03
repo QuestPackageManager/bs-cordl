@@ -4,13 +4,13 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "GlobalNamespace/zzzz__SmoothStepPositionGroupEventEffect_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "Tweening/zzzz__SongTimeTweeningManager_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapCallbacksController_def.hpp"
+#include "UnityEngine/zzzz__Transform_def.hpp"
+#include "Tweening/zzzz__Vector3Tween_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapDataCallbackWrapper_def.hpp"
 #include "GlobalNamespace/zzzz__BasicBeatmapEventData_def.hpp"
-#include "Tweening/zzzz__SongTimeTweeningManager_def.hpp"
-#include "Tweening/zzzz__Vector3Tween_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
-#include "UnityEngine/zzzz__Transform_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapCallbacksController_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::SmoothStepPositionGroupEventEffect.Awake
 template <>
 

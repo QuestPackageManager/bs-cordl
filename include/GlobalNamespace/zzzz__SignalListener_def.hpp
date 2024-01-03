@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(SignalListener)
-namespace GlobalNamespace {
-class Signal;
-}
 namespace UnityEngine::Events {
 class UnityEvent;
+}
+namespace GlobalNamespace {
+class Signal;
 }
 // Forward declare root types
 namespace GlobalNamespace {

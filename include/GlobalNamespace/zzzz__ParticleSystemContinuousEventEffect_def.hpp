@@ -6,17 +6,17 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(ParticleSystemContinuousEventEffect)
-namespace UnityEngine {
-class ParticleSystem;
-}
 namespace GlobalNamespace {
 class BeatmapCallbacksController;
 }
 namespace GlobalNamespace {
-class BasicBeatmapEventData;
+class BeatmapDataCallbackWrapper;
+}
+namespace UnityEngine {
+class ParticleSystem;
 }
 namespace GlobalNamespace {
-class BeatmapDataCallbackWrapper;
+class BasicBeatmapEventData;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -28,7 +28,7 @@ MARK_REF_PTR_T(::GlobalNamespace::ParticleSystemContinuousEventEffect);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14724)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(14724))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4959))
 // CS Name: ::ParticleSystemContinuousEventEffect*
 class CORDL_TYPE ParticleSystemContinuousEventEffect : public ::UnityEngine::MonoBehaviour {

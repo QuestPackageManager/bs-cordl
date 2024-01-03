@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(IValueTupleInternal)
-namespace System::Collections {
-class IEqualityComparer;
-}
 namespace System::Runtime::CompilerServices {
 class ITuple;
+}
+namespace System::Collections {
+class IEqualityComparer;
 }
 // Forward declare root types
 namespace System {

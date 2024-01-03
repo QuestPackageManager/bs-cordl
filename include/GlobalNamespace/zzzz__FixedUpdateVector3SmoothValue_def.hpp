@@ -19,8 +19,8 @@ MARK_REF_PTR_T(::GlobalNamespace::FixedUpdateVector3SmoothValue);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14333)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14333), inst: 412 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(10249))} Self: TypeDefinitionIndex(TypeDefinitionIndex(14334)) CS Name: ::FixedUpdateVector3SmoothValue*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14333)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14333), inst:
+// 412 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(14334)) CS Name: ::FixedUpdateVector3SmoothValue*
 class CORDL_TYPE FixedUpdateVector3SmoothValue : public ::GlobalNamespace::FixedUpdateSmoothValue_1<::UnityEngine::Vector3> {
 public:
   // Declarations

@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__LightWithIdMonoBehaviour_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(RectangleFakeGlowLightWithId)
-namespace GlobalNamespace {
-class RectangleFakeGlow;
-}
 namespace UnityEngine {
 struct Color;
+}
+namespace GlobalNamespace {
+class RectangleFakeGlow;
 }
 // Forward declare root types
 namespace GlobalNamespace {

@@ -7,11 +7,11 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(DebugScreenCapture)
-namespace Unity::Collections {
-template <typename T> struct NativeArray_1;
-}
 namespace UnityEngine {
 struct TextureFormat;
+}
+namespace Unity::Collections {
+template <typename T> struct NativeArray_1;
 }
 // Forward declare root types
 namespace UnityEngine::Profiling::Experimental {
@@ -23,8 +23,8 @@ MARK_VAL_T(::UnityEngine::Profiling::Experimental::DebugScreenCapture);
 // SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Profiling::Experimental {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9999)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 741 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(10115))} Self: TypeDefinitionIndex(TypeDefinitionIndex(10300)) CS Name: ::UnityEngine.Profiling.Experimental::DebugScreenCapture
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 741 }), TypeDefinitionIndex(TypeDefinitionIndex(10115)),
+// TypeDefinitionIndex(TypeDefinitionIndex(9999))} Self: TypeDefinitionIndex(TypeDefinitionIndex(10300)) CS Name: ::UnityEngine.Profiling.Experimental::DebugScreenCapture
 struct CORDL_TYPE DebugScreenCapture {
 public:
   // Declarations

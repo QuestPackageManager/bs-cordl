@@ -5,6 +5,27 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(IntervalTree_2)
+namespace System::Collections {
+class IEnumerator;
+}
+namespace IntervalTree {
+template <typename TKey, typename TValue> class __IntervalTree_2____c__DisplayClass20_0;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
+}
+namespace IntervalTree {
+template <typename TKey, typename TValue> struct RangeValuePair_2;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace IntervalTree {
+template <typename TKey, typename TValue> class __IntervalTree_2____c;
+}
 namespace IntervalTree {
 template <typename TKey, typename TValue> class __IntervalTree_2____c__DisplayClass23_0;
 }
@@ -14,38 +35,17 @@ template <typename TKey, typename TValue> class IntervalTreeNode_2;
 namespace IntervalTree {
 template <typename TKey, typename TValue> class IIntervalTree_2;
 }
-namespace System::Collections {
-class IEnumerator;
-}
 namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
+template <typename T> class IComparer_1;
 }
 namespace IntervalTree {
 template <typename TKey, typename TValue> class __IntervalTree_2____c__DisplayClass24_0;
 }
 namespace IntervalTree {
-template <typename TKey, typename TValue> class __IntervalTree_2____c__DisplayClass20_0;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class IComparer_1;
-}
-namespace IntervalTree {
-template <typename TKey, typename TValue> struct RangeValuePair_2;
+template <typename TKey, typename TValue> class __IntervalTree_2____c__DisplayClass19_0;
 }
 namespace System::Collections {
 class IEnumerable;
-}
-namespace IntervalTree {
-template <typename TKey, typename TValue> class __IntervalTree_2____c__DisplayClass19_0;
-}
-namespace IntervalTree {
-template <typename TKey, typename TValue> class __IntervalTree_2____c;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;

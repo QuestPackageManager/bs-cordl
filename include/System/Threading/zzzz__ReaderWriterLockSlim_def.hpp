@@ -8,19 +8,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ReaderWriterLockSlim)
 namespace System::Threading {
-struct LockRecursionPolicy;
+class ReaderWriterCount;
 }
 namespace System::Threading {
 struct __ReaderWriterLockSlim__TimeoutTracker;
 }
-namespace System {
-class IDisposable;
+namespace System::Threading {
+struct LockRecursionPolicy;
 }
 namespace System::Threading {
 class EventWaitHandle;
 }
-namespace System::Threading {
-class ReaderWriterCount;
+namespace System {
+class IDisposable;
 }
 // Forward declare root types
 namespace System::Threading {

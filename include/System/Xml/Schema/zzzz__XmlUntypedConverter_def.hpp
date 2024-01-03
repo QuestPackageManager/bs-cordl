@@ -14,19 +14,19 @@ namespace System {
 struct Decimal;
 }
 namespace System {
-class Type;
+class Object;
 }
 namespace System {
 struct DateTime;
 }
-namespace System {
-struct DateTimeOffset;
-}
-namespace System {
-class Object;
-}
 namespace System::Xml::Schema {
 class XmlValueConverter;
+}
+namespace System {
+class Type;
+}
+namespace System {
+struct DateTimeOffset;
 }
 // Forward declare root types
 namespace System::Xml::Schema {

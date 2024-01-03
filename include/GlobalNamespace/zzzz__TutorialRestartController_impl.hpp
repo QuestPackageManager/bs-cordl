@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__TutorialRestartController_def.hpp"
-#include "GlobalNamespace/zzzz__ILevelRestartController_def.hpp"
 #include "GlobalNamespace/zzzz__TutorialScenesTransitionSetupDataSO_def.hpp"
+#include "GlobalNamespace/zzzz__ILevelRestartController_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::TutorialRestartController.RestartLevel
 template <>
 

@@ -10,6 +10,15 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(IVRInput)
+namespace OVR::OpenVR {
+struct EVRInputError;
+}
+namespace System {
+class AsyncCallback;
+}
+namespace OVR::OpenVR {
+struct VRBoneTransform_t;
+}
 namespace System {
 class IAsyncResult;
 }
@@ -17,16 +26,7 @@ namespace System {
 class Object;
 }
 namespace OVR::OpenVR {
-struct EVRInputError;
-}
-namespace OVR::OpenVR {
 struct EVRSkeletalTransformSpace;
-}
-namespace System {
-class AsyncCallback;
-}
-namespace OVR::OpenVR {
-struct VRBoneTransform_t;
 }
 namespace OVR::OpenVR {
 struct InputAnalogActionData_t;
@@ -56,55 +56,55 @@ namespace OVR::OpenVR {
 struct VRActiveActionSet_t;
 }
 namespace OVR::OpenVR {
-class __IVRInput___SetActionManifestPath;
-}
-namespace OVR::OpenVR {
-class __IVRInput___GetInputSourceHandle;
-}
-namespace OVR::OpenVR {
-class __IVRInput___GetDigitalActionData;
-}
-namespace OVR::OpenVR {
-class __IVRInput___GetOriginLocalizedName;
-}
-namespace OVR::OpenVR {
-class __IVRInput___TriggerHapticVibrationAction;
-}
-namespace OVR::OpenVR {
-class __IVRInput___ShowBindingsForActionSet;
-}
-namespace OVR::OpenVR {
-class __IVRInput___GetSkeletalBoneData;
-}
-namespace OVR::OpenVR {
-class __IVRInput___DecompressSkeletalBoneData;
-}
-namespace OVR::OpenVR {
-class __IVRInput___GetPoseActionData;
-}
-namespace OVR::OpenVR {
-class __IVRInput___GetSkeletalBoneDataCompressed;
-}
-namespace OVR::OpenVR {
-class __IVRInput___GetActionSetHandle;
-}
-namespace OVR::OpenVR {
-class __IVRInput___GetAnalogActionData;
-}
-namespace OVR::OpenVR {
-class __IVRInput___GetActionOrigins;
-}
-namespace OVR::OpenVR {
-class __IVRInput___UpdateActionState;
+class __IVRInput___GetActionHandle;
 }
 namespace OVR::OpenVR {
 class __IVRInput___ShowActionOrigins;
 }
 namespace OVR::OpenVR {
+class __IVRInput___SetActionManifestPath;
+}
+namespace OVR::OpenVR {
+class __IVRInput___GetActionSetHandle;
+}
+namespace OVR::OpenVR {
+class __IVRInput___UpdateActionState;
+}
+namespace OVR::OpenVR {
+class __IVRInput___GetAnalogActionData;
+}
+namespace OVR::OpenVR {
+class __IVRInput___GetDigitalActionData;
+}
+namespace OVR::OpenVR {
 class __IVRInput___GetOriginTrackedDeviceInfo;
 }
 namespace OVR::OpenVR {
-class __IVRInput___GetActionHandle;
+class __IVRInput___GetInputSourceHandle;
+}
+namespace OVR::OpenVR {
+class __IVRInput___GetOriginLocalizedName;
+}
+namespace OVR::OpenVR {
+class __IVRInput___GetSkeletalBoneData;
+}
+namespace OVR::OpenVR {
+class __IVRInput___GetPoseActionData;
+}
+namespace OVR::OpenVR {
+class __IVRInput___GetActionOrigins;
+}
+namespace OVR::OpenVR {
+class __IVRInput___TriggerHapticVibrationAction;
+}
+namespace OVR::OpenVR {
+class __IVRInput___DecompressSkeletalBoneData;
+}
+namespace OVR::OpenVR {
+class __IVRInput___GetSkeletalBoneDataCompressed;
+}
+namespace OVR::OpenVR {
+class __IVRInput___ShowBindingsForActionSet;
 }
 namespace OVR::OpenVR {
 class __IVRInput___GetSkeletalActionData;

@@ -7,29 +7,29 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(SignalReceiver)
-namespace UnityEngine::Timeline {
-class __SignalReceiver__EventKeyValue;
-}
-namespace System {
-class Object;
-}
-namespace UnityEngine::Playables {
-class INotification;
-}
-namespace UnityEngine::Timeline {
-class SignalAsset;
-}
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
 namespace UnityEngine::Playables {
 class INotificationReceiver;
 }
-namespace UnityEngine::Playables {
-struct Playable;
+namespace System {
+class Object;
+}
+namespace UnityEngine::Timeline {
+class SignalAsset;
 }
 namespace UnityEngine::Events {
 class UnityEvent;
+}
+namespace UnityEngine::Playables {
+class INotification;
+}
+namespace UnityEngine::Timeline {
+class __SignalReceiver__EventKeyValue;
+}
+namespace UnityEngine::Playables {
+struct Playable;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;

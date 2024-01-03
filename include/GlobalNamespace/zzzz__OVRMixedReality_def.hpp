@@ -7,17 +7,17 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(OVRMixedReality)
-namespace UnityEngine {
-class Camera;
-}
 namespace GlobalNamespace {
 class OVRMixedRealityCaptureConfiguration;
 }
-namespace GlobalNamespace {
-class OVRComposition;
+namespace UnityEngine {
+class Camera;
 }
 namespace UnityEngine {
 class GameObject;
+}
+namespace GlobalNamespace {
+class OVRComposition;
 }
 namespace GlobalNamespace {
 struct __OVRManager__TrackingOrigin;

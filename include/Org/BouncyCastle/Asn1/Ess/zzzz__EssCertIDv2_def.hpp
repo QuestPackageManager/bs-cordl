@@ -9,14 +9,14 @@ CORDL_MODULE_EXPORT(EssCertIDv2)
 namespace Org::BouncyCastle::Asn1::X509 {
 class IssuerSerial;
 }
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
+namespace System {
+class Object;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class AlgorithmIdentifier;
 }
-namespace System {
-class Object;
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Sequence;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;

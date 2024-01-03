@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(IInputStateChangeMonitor)
-namespace UnityEngine::InputSystem::LowLevel {
-struct InputEventPtr;
-}
 namespace UnityEngine::InputSystem {
 class InputControl;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+struct InputEventPtr;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::LowLevel {

@@ -15,23 +15,23 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(Grounding)
-namespace UnityEngine {
-struct RaycastHit;
-}
-namespace UnityEngine {
-class Transform;
-}
 namespace RootMotion::FinalIK {
-class __Grounding__Pelvis;
+struct __Grounding__Quality;
 }
 namespace UnityEngine {
 struct Vector3;
 }
 namespace RootMotion::FinalIK {
-struct __Grounding__Quality;
+class __Grounding__Pelvis;
 }
 namespace RootMotion::FinalIK {
 class __Grounding__Leg;
+}
+namespace UnityEngine {
+class Transform;
+}
+namespace UnityEngine {
+struct RaycastHit;
 }
 namespace UnityEngine {
 struct Quaternion;
@@ -112,8 +112,8 @@ static_assert(offsetof(::RootMotion::FinalIK::__Grounding__Quality, value__) == 
 // SizeInfo { instance_size: 280, native_size: -1, calculated_instance_size: 280, calculated_native_size: 276, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10252)),
-// TypeDefinitionIndex(TypeDefinitionIndex(15487))} Self: TypeDefinitionIndex(TypeDefinitionIndex(12527)) CS Name: ::Grounding::Leg*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(15487)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10252))} Self: TypeDefinitionIndex(TypeDefinitionIndex(12527)) CS Name: ::Grounding::Leg*
 class CORDL_TYPE __Grounding__Leg : public ::System::Object {
 public:
   // Declarations
@@ -727,8 +727,8 @@ static_assert(offsetof(::RootMotion::FinalIK::__Grounding__Pelvis, ___lastTime) 
 // SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 165, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10204)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12526)),
-// TypeDefinitionIndex(TypeDefinitionIndex(15487))} Self: TypeDefinitionIndex(TypeDefinitionIndex(12529)) CS Name: ::RootMotion.FinalIK::Grounding*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10204)), TypeDefinitionIndex(TypeDefinitionIndex(15487)), TypeDefinitionIndex(TypeDefinitionIndex(2613)),
+// TypeDefinitionIndex(TypeDefinitionIndex(12526))} Self: TypeDefinitionIndex(TypeDefinitionIndex(12529)) CS Name: ::RootMotion.FinalIK::Grounding*
 class CORDL_TYPE Grounding : public ::System::Object {
 public:
   // Declarations

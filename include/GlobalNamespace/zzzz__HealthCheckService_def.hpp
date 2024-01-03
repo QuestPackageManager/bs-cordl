@@ -5,23 +5,23 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(HealthCheckService)
+namespace GlobalNamespace {
+class IHealthCheckService;
+}
 namespace System {
 class IDisposable;
 }
 namespace System::Threading {
 class ManualResetEvent;
 }
+namespace System::Threading {
+class Thread;
+}
 namespace System::Net {
 class HttpListener;
 }
 namespace GlobalNamespace {
-class IHealthCheckService;
-}
-namespace GlobalNamespace {
 class IPollable;
-}
-namespace System::Threading {
-class Thread;
 }
 // Forward declare root types
 namespace GlobalNamespace {

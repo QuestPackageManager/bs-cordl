@@ -1,9 +1,9 @@
 #pragma once
 #include "System/Xml/Schema/zzzz__Datatype_float_impl.hpp"
 #include "System/Xml/Schema/zzzz__Datatype_floatXdr_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 #include "System/Xml/zzzz__XmlNameTable_def.hpp"
 #include "System/Xml/zzzz__IXmlNamespaceResolver_def.hpp"
-#include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::System::Xml::Schema::Datatype_floatXdr.ParseValue
 template <>
 

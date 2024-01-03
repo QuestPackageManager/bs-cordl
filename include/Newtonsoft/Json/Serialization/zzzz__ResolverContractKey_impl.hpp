@@ -1,7 +1,7 @@
 #pragma once
 #include "Newtonsoft/Json/Serialization/zzzz__ResolverContractKey_def.hpp"
-#include "System/zzzz__Type_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "System/zzzz__Type_def.hpp"
 //  Writing Method size for method: ::Newtonsoft::Json::Serialization::ResolverContractKey._ctor
 template <>
 

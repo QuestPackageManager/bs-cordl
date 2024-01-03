@@ -9,6 +9,9 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVRBoundary)
+namespace UnityEngine {
+struct Vector3;
+}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
@@ -19,13 +22,10 @@ namespace GlobalNamespace {
 class OVRNativeBuffer;
 }
 namespace GlobalNamespace {
-struct __OVRBoundary__BoundaryType;
-}
-namespace GlobalNamespace {
 struct __OVRBoundary__Node;
 }
-namespace UnityEngine {
-struct Vector3;
+namespace GlobalNamespace {
+struct __OVRBoundary__BoundaryType;
 }
 // Forward declare root types
 namespace GlobalNamespace {

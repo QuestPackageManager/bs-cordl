@@ -4,8 +4,8 @@
 #include "BGNet/Core/zzzz__ITaskUtility_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "System/Net/zzzz__IPEndPoint_def.hpp"
-#include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
+#include "System/zzzz__IEquatable_1_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::DnsEndPoint.get_endPoint
 template <>
 

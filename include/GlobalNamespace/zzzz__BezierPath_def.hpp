@@ -13,17 +13,17 @@ CORDL_MODULE_EXPORT(BezierPath)
 namespace GlobalNamespace {
 struct __BezierPath__ControlMode;
 }
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
 namespace UnityEngine {
 struct Vector3;
-}
-namespace System::Collections::Generic {
-template <typename T> class IReadOnlyList_1;
 }
 namespace System {
 class Action;
 }
 namespace System::Collections::Generic {
-template <typename T> class List_1;
+template <typename T> class IReadOnlyList_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {

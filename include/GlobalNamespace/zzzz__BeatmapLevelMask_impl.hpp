@@ -1,12 +1,12 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatmapLevelMask_def.hpp"
+#include "System/zzzz__IEquatable_1_def.hpp"
 #include "LiteNetLib/Utils/zzzz__NetDataWriter_def.hpp"
 #include "LiteNetLib/Utils/zzzz__NetDataReader_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "System/zzzz__IEquatable_1_def.hpp"
-#include "GlobalNamespace/zzzz__BitMaskSparse_def.hpp"
 #include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
+#include "GlobalNamespace/zzzz__BitMaskSparse_def.hpp"
 #include "LiteNetLib/Utils/zzzz__INetSerializable_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::BeatmapLevelMask._ctor
 template <>

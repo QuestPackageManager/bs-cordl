@@ -8,44 +8,44 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ECCurve)
+namespace Org::BouncyCastle::Math::EC {
+class __ECCurve__DefaultLookupTable;
+}
+namespace Org::BouncyCastle::Math::EC {
+class __ECCurve__Config;
+}
+namespace System {
+class Object;
+}
+namespace Org::BouncyCastle::Math::EC::Multiplier {
+class PreCompInfo;
+}
+namespace Org::BouncyCastle::Math::EC {
+class ECFieldElement;
+}
+namespace Org::BouncyCastle::Math::Field {
+class IFiniteField;
+}
+namespace Org::BouncyCastle::Math::EC {
+class ECPoint;
+}
+namespace Org::BouncyCastle::Security {
+class SecureRandom;
+}
+namespace Org::BouncyCastle::Math::EC::Endo {
+class ECEndomorphism;
+}
+namespace Org::BouncyCastle::Math::EC {
+class ECLookupTable;
+}
 namespace Org::BouncyCastle::Math {
 class BigInteger;
 }
 namespace Org::BouncyCastle::Math::EC::Multiplier {
 class IPreCompCallback;
 }
-namespace Org::BouncyCastle::Math::EC {
-class ECFieldElement;
-}
-namespace Org::BouncyCastle::Math::EC {
-class ECPoint;
-}
-namespace Org::BouncyCastle::Math::Field {
-class IFiniteField;
-}
-namespace Org::BouncyCastle::Security {
-class SecureRandom;
-}
 namespace Org::BouncyCastle::Math::EC::Multiplier {
 class ECMultiplier;
-}
-namespace Org::BouncyCastle::Math::EC {
-class ECLookupTable;
-}
-namespace System {
-class Object;
-}
-namespace Org::BouncyCastle::Math::EC {
-class __ECCurve__Config;
-}
-namespace Org::BouncyCastle::Math::EC::Endo {
-class ECEndomorphism;
-}
-namespace Org::BouncyCastle::Math::EC::Multiplier {
-class PreCompInfo;
-}
-namespace Org::BouncyCastle::Math::EC {
-class __ECCurve__DefaultLookupTable;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Math::EC {

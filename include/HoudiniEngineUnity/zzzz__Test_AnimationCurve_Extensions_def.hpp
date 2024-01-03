@@ -6,13 +6,13 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(Test_AnimationCurve_Extensions)
 namespace HoudiniEngineUnity {
-class __Test_AnimationCurve_Extensions____c;
-}
-namespace HoudiniEngineUnity {
 class Test_AnimationCurve;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
+}
+namespace HoudiniEngineUnity {
+class __Test_AnimationCurve_Extensions____c;
 }
 namespace UnityEngine {
 class AnimationCurve;

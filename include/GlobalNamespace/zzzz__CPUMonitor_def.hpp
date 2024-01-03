@@ -10,13 +10,13 @@ namespace System::Diagnostics {
 class Process;
 }
 namespace GlobalNamespace {
+class IPollable;
+}
+namespace GlobalNamespace {
 class RollingAverage;
 }
 namespace GlobalNamespace {
 class ICPUMonitor;
-}
-namespace GlobalNamespace {
-class IPollable;
 }
 // Forward declare root types
 namespace GlobalNamespace {

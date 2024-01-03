@@ -7,11 +7,11 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(BloomPrePassDoubleKawaseBlurTextureEffectSO)
-namespace UnityEngine {
-class RenderTexture;
-}
 namespace GlobalNamespace {
 class KawaseBlurRendererSO;
+}
+namespace UnityEngine {
+class RenderTexture;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -23,7 +23,7 @@ MARK_REF_PTR_T(::GlobalNamespace::BloomPrePassDoubleKawaseBlurTextureEffectSO);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14503)), TypeDefinitionIndex(TypeDefinitionIndex(14470))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14470)), TypeDefinitionIndex(TypeDefinitionIndex(14503))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15313))
 // CS Name: ::BloomPrePassDoubleKawaseBlurTextureEffectSO*
 class CORDL_TYPE BloomPrePassDoubleKawaseBlurTextureEffectSO : public ::GlobalNamespace::BloomPrePassEffectSO {

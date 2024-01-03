@@ -4,14 +4,14 @@
 #include "UnityEngine/zzzz__TextEditor_impl.hpp"
 #include "UnityEngine/zzzz__Vector2_impl.hpp"
 #include "UnityEngine/zzzz__TextEditor_def.hpp"
+#include "UnityEngine/zzzz__GUIContent_def.hpp"
 #include "UnityEngine/zzzz__TextEditor_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "UnityEngine/zzzz__Rect_def.hpp"
+#include "UnityEngine/zzzz__TouchScreenKeyboard_def.hpp"
 #include "UnityEngine/zzzz__Event_def.hpp"
 #include "UnityEngine/zzzz__GUIStyle_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
-#include "UnityEngine/zzzz__GUIContent_def.hpp"
-#include "UnityEngine/zzzz__TouchScreenKeyboard_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
-#include "UnityEngine/zzzz__Rect_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::__TextEditor__DblClickSnapping::__TextEditor__DblClickSnapping(uint8_t value__) noexcept {
   this->value__ = value__;

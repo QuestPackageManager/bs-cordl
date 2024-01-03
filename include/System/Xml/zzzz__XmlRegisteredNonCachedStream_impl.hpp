@@ -1,12 +1,12 @@
 #pragma once
 #include "System/IO/zzzz__Stream_impl.hpp"
 #include "System/Xml/zzzz__XmlRegisteredNonCachedStream_def.hpp"
-#include "System/zzzz__Object_def.hpp"
-#include "System/zzzz__IAsyncResult_def.hpp"
 #include "System/IO/zzzz__SeekOrigin_def.hpp"
+#include "System/zzzz__AsyncCallback_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"
 #include "System/Xml/zzzz__XmlDownloadManager_def.hpp"
-#include "System/zzzz__AsyncCallback_def.hpp"
+#include "System/zzzz__IAsyncResult_def.hpp"
 //  Writing Method size for method: ::System::Xml::XmlRegisteredNonCachedStream._ctor
 template <>
 

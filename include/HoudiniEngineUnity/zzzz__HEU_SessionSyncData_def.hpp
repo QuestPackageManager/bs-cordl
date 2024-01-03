@@ -89,7 +89,7 @@ static_assert(offsetof(::HoudiniEngineUnity::__HEU_SessionSyncData__Status, valu
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 99, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9755)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9756))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9755)), TypeDefinitionIndex(TypeDefinitionIndex(9756))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9790))
 // CS Name: ::HoudiniEngineUnity::HEU_SessionSyncData*
 class CORDL_TYPE HEU_SessionSyncData : public ::System::Object {

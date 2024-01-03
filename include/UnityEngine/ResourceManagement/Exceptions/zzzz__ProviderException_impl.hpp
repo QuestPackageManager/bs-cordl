@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/ResourceManagement/Exceptions/zzzz__OperationException_impl.hpp"
 #include "UnityEngine/ResourceManagement/Exceptions/zzzz__ProviderException_def.hpp"
-#include "UnityEngine/ResourceManagement/ResourceLocations/zzzz__IResourceLocation_def.hpp"
 #include "System/zzzz__Exception_def.hpp"
+#include "UnityEngine/ResourceManagement/ResourceLocations/zzzz__IResourceLocation_def.hpp"
 //  Writing Method size for method: ::UnityEngine::ResourceManagement::Exceptions::ProviderException._ctor
 template <>
 

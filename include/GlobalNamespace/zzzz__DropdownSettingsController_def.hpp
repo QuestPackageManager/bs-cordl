@@ -10,11 +10,11 @@ CORDL_MODULE_EXPORT(DropdownSettingsController)
 namespace HMUI {
 class SimpleTextDropdown;
 }
-namespace HMUI {
-class DropdownWithTableView;
-}
 namespace System {
 class Action;
+}
+namespace HMUI {
+class DropdownWithTableView;
 }
 // Forward declare root types
 namespace GlobalNamespace {

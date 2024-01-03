@@ -7,29 +7,29 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(SceneManager)
-namespace UnityEngine::SceneManagement {
-struct UnloadSceneOptions;
-}
-namespace UnityEngine::SceneManagement {
-struct Scene;
-}
 namespace UnityEngine {
 class AsyncOperation;
 }
 namespace UnityEngine::SceneManagement {
-struct LoadSceneMode;
-}
-namespace UnityEngine::Events {
-template <typename T0, typename T1> class UnityAction_2;
-}
-namespace UnityEngine::Events {
-template <typename T0> class UnityAction_1;
+struct LoadSceneParameters;
 }
 namespace UnityEngine {
 class GameObject;
 }
 namespace UnityEngine::SceneManagement {
-struct LoadSceneParameters;
+struct UnloadSceneOptions;
+}
+namespace UnityEngine::SceneManagement {
+struct LoadSceneMode;
+}
+namespace UnityEngine::Events {
+template <typename T0> class UnityAction_1;
+}
+namespace UnityEngine::SceneManagement {
+struct Scene;
+}
+namespace UnityEngine::Events {
+template <typename T0, typename T1> class UnityAction_2;
 }
 // Forward declare root types
 namespace UnityEngine::SceneManagement {

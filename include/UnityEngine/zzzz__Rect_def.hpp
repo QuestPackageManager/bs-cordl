@@ -8,16 +8,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Rect)
 namespace System {
-class IFormattable;
-}
-namespace System {
 class IFormatProvider;
-}
-namespace System {
-template <typename T> class IEquatable_1;
 }
 namespace UnityEngine {
 struct Vector2;
+}
+namespace System {
+class IFormattable;
+}
+namespace System {
+template <typename T> class IEquatable_1;
 }
 namespace UnityEngine {
 struct Vector3;

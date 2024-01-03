@@ -6,8 +6,8 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(ExtendedPropertyDescriptor)
-namespace System {
-class Attribute;
+namespace System::ComponentModel {
+class IExtenderProvider;
 }
 namespace System::ComponentModel {
 class ReflectPropertyDescriptor;
@@ -16,10 +16,10 @@ namespace System {
 class Type;
 }
 namespace System {
-class Object;
+class Attribute;
 }
-namespace System::ComponentModel {
-class IExtenderProvider;
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::ComponentModel {

@@ -3,11 +3,11 @@
 #include "UnityEngine/zzzz__Color_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__LightWithIds_def.hpp"
+#include "GlobalNamespace/zzzz__LightWithIdManager_def.hpp"
 #include "GlobalNamespace/zzzz__LightWithIds_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "GlobalNamespace/zzzz__LightWithIdManager_def.hpp"
-#include "GlobalNamespace/zzzz__ILightWithId_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
+#include "GlobalNamespace/zzzz__ILightWithId_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::__LightWithIds__LightWithId.get_lightId
 template <>
 

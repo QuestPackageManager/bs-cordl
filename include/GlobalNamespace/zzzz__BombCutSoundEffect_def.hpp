@@ -6,14 +6,14 @@ CORDL_MODULE_INIT
 #include "Zenject/zzzz__MonoMemoryPool_1_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(BombCutSoundEffect)
-namespace UnityEngine {
-class AudioSource;
-}
 namespace GlobalNamespace {
 class __BombCutSoundEffect__Pool;
 }
 namespace GlobalNamespace {
 class Saber;
+}
+namespace UnityEngine {
+class AudioSource;
 }
 namespace System {
 template <typename T> class Action_1;

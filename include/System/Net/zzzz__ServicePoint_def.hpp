@@ -8,38 +8,38 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ServicePoint)
-namespace System::Net {
-class WebOperation;
+namespace System {
+class Object;
+}
+namespace System::Net::Sockets {
+class Socket;
+}
+namespace System::Security::Cryptography::X509Certificates {
+class X509Certificate;
 }
 namespace System::Net {
-class IPEndPoint;
+class __ServicePointManager__SPKey;
 }
 namespace System::Net {
 class ServicePointScheduler;
 }
 namespace System::Net {
-class IPHostEntry;
-}
-namespace System {
-class Object;
+class BindIPEndPoint;
 }
 namespace System::Net {
-class __ServicePointManager__SPKey;
+class IPEndPoint;
 }
-namespace System {
-class Version;
-}
-namespace System::Net::Sockets {
-class Socket;
+namespace System::Net {
+class IPHostEntry;
 }
 namespace System {
 class Uri;
 }
-namespace System::Net {
-class BindIPEndPoint;
+namespace System {
+class Version;
 }
-namespace System::Security::Cryptography::X509Certificates {
-class X509Certificate;
+namespace System::Net {
+class WebOperation;
 }
 // Forward declare root types
 namespace System::Net {
@@ -51,7 +51,7 @@ MARK_REF_PTR_T(::System::Net::ServicePoint);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2368)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2368))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9200))
 // CS Name: ::System.Net::ServicePoint*
 class CORDL_TYPE ServicePoint : public ::System::Object {

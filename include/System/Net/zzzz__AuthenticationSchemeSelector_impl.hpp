@@ -1,9 +1,9 @@
 #pragma once
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/Net/zzzz__AuthenticationSchemeSelector_def.hpp"
+#include "System/Net/zzzz__AuthenticationSchemes_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "System/Net/zzzz__HttpListenerRequest_def.hpp"
-#include "System/Net/zzzz__AuthenticationSchemes_def.hpp"
 //  Writing Method size for method: ::System::Net::AuthenticationSchemeSelector._ctor
 template <>
 

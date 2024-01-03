@@ -25,32 +25,62 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(JsonSerializerSettings)
-namespace System::Collections::Generic {
-template <typename T> class IList_1;
+namespace Newtonsoft::Json {
+struct FloatFormatHandling;
+}
+namespace System::Globalization {
+class CultureInfo;
 }
 namespace Newtonsoft::Json {
-struct Formatting;
+struct ObjectCreationHandling;
 }
-namespace System::Runtime::Serialization {
-struct StreamingContext;
-}
-namespace Newtonsoft::Json::Serialization {
-class IReferenceResolver;
+namespace Newtonsoft::Json {
+struct TypeNameHandling;
 }
 namespace Newtonsoft::Json::Serialization {
-class ITraceWriter;
+class IContractResolver;
+}
+namespace System {
+template <typename T> struct Nullable_1;
+}
+namespace Newtonsoft::Json {
+struct DefaultValueHandling;
 }
 namespace Newtonsoft::Json {
 struct FloatParseHandling;
 }
-namespace System {
-template <typename TResult> class Func_1;
-}
-namespace Newtonsoft::Json::Serialization {
-class ErrorEventArgs;
+namespace System::Collections {
+class IEqualityComparer;
 }
 namespace Newtonsoft::Json {
-struct FloatFormatHandling;
+struct ConstructorHandling;
+}
+namespace Newtonsoft::Json {
+struct Formatting;
+}
+namespace Newtonsoft::Json {
+struct DateTimeZoneHandling;
+}
+namespace System {
+template <typename TEventArgs> class EventHandler_1;
+}
+namespace Newtonsoft::Json {
+struct ReferenceLoopHandling;
+}
+namespace Newtonsoft::Json::Serialization {
+class IReferenceResolver;
+}
+namespace Newtonsoft::Json {
+struct MissingMemberHandling;
+}
+namespace Newtonsoft::Json {
+class JsonConverter;
+}
+namespace Newtonsoft::Json {
+struct NullValueHandling;
+}
+namespace Newtonsoft::Json::Serialization {
+class ITraceWriter;
 }
 namespace Newtonsoft::Json {
 struct MetadataPropertyHandling;
@@ -58,65 +88,35 @@ struct MetadataPropertyHandling;
 namespace System::Runtime::Serialization::Formatters {
 struct FormatterAssemblyStyle;
 }
-namespace System::Globalization {
-class CultureInfo;
-}
-namespace System {
-template <typename TEventArgs> class EventHandler_1;
-}
-namespace System {
-template <typename T> struct Nullable_1;
+namespace Newtonsoft::Json {
+struct PreserveReferencesHandling;
 }
 namespace Newtonsoft::Json {
-struct MissingMemberHandling;
+struct DateParseHandling;
 }
-namespace System::Collections {
-class IEqualityComparer;
-}
-namespace Newtonsoft::Json {
-struct ReferenceLoopHandling;
-}
-namespace Newtonsoft::Json {
-class JsonConverter;
+namespace System::Collections::Generic {
+template <typename T> class IList_1;
 }
 namespace Newtonsoft::Json {
 struct StringEscapeHandling;
 }
 namespace Newtonsoft::Json {
-class __JsonSerializerSettings____c__DisplayClass90_0;
-}
-namespace Newtonsoft::Json {
-struct ObjectCreationHandling;
-}
-namespace Newtonsoft::Json {
 struct DateFormatHandling;
 }
-namespace Newtonsoft::Json {
-struct PreserveReferencesHandling;
-}
-namespace Newtonsoft::Json {
-struct NullValueHandling;
-}
-namespace Newtonsoft::Json::Serialization {
-class IContractResolver;
-}
-namespace Newtonsoft::Json {
-struct DefaultValueHandling;
-}
-namespace Newtonsoft::Json {
-struct ConstructorHandling;
-}
-namespace Newtonsoft::Json {
-struct DateTimeZoneHandling;
-}
-namespace Newtonsoft::Json {
-struct TypeNameHandling;
+namespace System {
+template <typename TResult> class Func_1;
 }
 namespace System::Runtime::Serialization {
 class SerializationBinder;
 }
+namespace Newtonsoft::Json::Serialization {
+class ErrorEventArgs;
+}
+namespace System::Runtime::Serialization {
+struct StreamingContext;
+}
 namespace Newtonsoft::Json {
-struct DateParseHandling;
+class __JsonSerializerSettings____c__DisplayClass90_0;
 }
 // Forward declare root types
 namespace Newtonsoft::Json {
@@ -184,22 +184,22 @@ static_assert(offsetof(::Newtonsoft::Json::__JsonSerializerSettings____c__Displa
 // SizeInfo { instance_size: 272, native_size: -1, calculated_instance_size: 272, calculated_native_size: 272, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 4758 }), TypeDefinitionIndex(TypeDefinitionIndex(11816)),
-// TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 4738 }),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 4739 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 105 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(11797)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 4752 }), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(2448), inst: 4735 }), TypeDefinitionIndex(TypeDefinitionIndex(11822)), TypeDefinitionIndex(TypeDefinitionIndex(11796)), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(2448), inst: 4745 }), TypeDefinitionIndex(TypeDefinitionIndex(11839)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 4737 }),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 4732 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 4734 }),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 4754 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 4731 }),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 4740 }), TypeDefinitionIndex(TypeDefinitionIndex(11794)), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(2448), inst: 4759 }), TypeDefinitionIndex(TypeDefinitionIndex(11840)), TypeDefinitionIndex(TypeDefinitionIndex(11838)), TypeDefinitionIndex(TypeDefinitionIndex(11812)),
-// TypeDefinitionIndex(TypeDefinitionIndex(11799)), TypeDefinitionIndex(TypeDefinitionIndex(11800)), TypeDefinitionIndex(TypeDefinitionIndex(11795)), TypeDefinitionIndex(TypeDefinitionIndex(11837)),
-// TypeDefinitionIndex(TypeDefinitionIndex(11809)), TypeDefinitionIndex(TypeDefinitionIndex(11810)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 4733 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(11798)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 4753 }), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(2448), inst: 4744 }), TypeDefinitionIndex(TypeDefinitionIndex(3235)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 4762 }),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 98 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 4750 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(3241))} Self: TypeDefinitionIndex(TypeDefinitionIndex(11820)) CS Name: ::Newtonsoft.Json::JsonSerializerSettings*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11795)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 4753 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(11810)), TypeDefinitionIndex(TypeDefinitionIndex(11794)), TypeDefinitionIndex(TypeDefinitionIndex(11800)), TypeDefinitionIndex(TypeDefinitionIndex(11840)),
+// TypeDefinitionIndex(TypeDefinitionIndex(11822)), TypeDefinitionIndex(TypeDefinitionIndex(11839)), TypeDefinitionIndex(TypeDefinitionIndex(11799)), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(2448), inst: 4733 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 98 }), TypeDefinitionIndex(TypeDefinitionIndex(2613)),
+// TypeDefinitionIndex(TypeDefinitionIndex(11812)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 4739 }), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(2448), inst: 4731 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 4732 }), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(2448), inst: 4738 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 4754 }), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(2448), inst: 4750 }), TypeDefinitionIndex(TypeDefinitionIndex(11796)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 4734 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(11837)), TypeDefinitionIndex(TypeDefinitionIndex(3235)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 4735 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(11797)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 4762 }), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(2448), inst: 4758 }), TypeDefinitionIndex(TypeDefinitionIndex(3241)), TypeDefinitionIndex(TypeDefinitionIndex(11838)), TypeDefinitionIndex(TypeDefinitionIndex(2448)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 4737 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 4759 }),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 4744 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 105 }),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 4740 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 4752 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(11798)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 4745 }), TypeDefinitionIndex(TypeDefinitionIndex(11816)),
+// TypeDefinitionIndex(TypeDefinitionIndex(11809))} Self: TypeDefinitionIndex(TypeDefinitionIndex(11820)) CS Name: ::Newtonsoft.Json::JsonSerializerSettings*
 class CORDL_TYPE JsonSerializerSettings : public ::System::Object {
 public:
   // Declarations

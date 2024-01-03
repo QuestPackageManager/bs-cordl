@@ -7,29 +7,29 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(ColorSaturationValueSlider)
-namespace UnityEngine::EventSystems {
-class IPointerUpHandler;
+namespace UnityEngine {
+struct Vector2;
 }
 namespace UnityEngine::EventSystems {
 class PointerEventData;
 }
-namespace UnityEngine::EventSystems {
-class IEventSystemHandler;
-}
-namespace UnityEngine {
-struct Vector2;
-}
-namespace UnityEngine::UI {
-class Graphic;
-}
-namespace GlobalNamespace {
-struct ColorChangeUIEventType;
+namespace HMUI {
+class Slider2D;
 }
 namespace System {
 template <typename T1, typename T2, typename T3> class Action_3;
 }
-namespace HMUI {
-class Slider2D;
+namespace UnityEngine::UI {
+class Graphic;
+}
+namespace UnityEngine::EventSystems {
+class IEventSystemHandler;
+}
+namespace UnityEngine::EventSystems {
+class IPointerUpHandler;
+}
+namespace GlobalNamespace {
+struct ColorChangeUIEventType;
 }
 // Forward declare root types
 namespace GlobalNamespace {

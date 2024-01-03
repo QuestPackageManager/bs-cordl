@@ -7,29 +7,41 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(HealthWarningFlowCoordinator)
-namespace GlobalNamespace {
-class ISaveData;
-}
-namespace GlobalNamespace {
-class MainSettingsModelSO;
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace GlobalNamespace {
 class SelectRegionViewController;
 }
 namespace GlobalNamespace {
-struct __PrivacyPolicyViewController__ButtonType;
+class AppInitScenesTransitionSetupDataContainerSO;
+}
+namespace GlobalNamespace {
+class MainSettingsModelSO;
+}
+namespace GlobalNamespace {
+struct __EulaViewController__ButtonType;
+}
+namespace GlobalNamespace {
+struct __SelectRegionViewController__Region;
+}
+namespace GlobalNamespace {
+class PlayerDataModel;
+}
+namespace GlobalNamespace {
+class FadeInOutController;
 }
 namespace HMUI {
 struct __ViewController__AnimationType;
 }
 namespace GlobalNamespace {
-class GameScenesManager;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
+class PrivacyPolicyViewController;
 }
 namespace GlobalNamespace {
-class __HealthWarningFlowCoordinator__InitData;
+class ISaveData;
+}
+namespace GlobalNamespace {
+class EulaViewController;
 }
 namespace GlobalNamespace {
 class HealthWarningViewController;
@@ -37,32 +49,20 @@ class HealthWarningViewController;
 namespace GlobalNamespace {
 class SelectLanguageViewController;
 }
-namespace HMUI {
-class ViewController;
-}
-namespace GlobalNamespace {
-struct __SelectRegionViewController__Region;
-}
-namespace GlobalNamespace {
-class EulaViewController;
-}
-namespace GlobalNamespace {
-class PrivacyPolicyViewController;
-}
-namespace GlobalNamespace {
-class PlayerDataModel;
-}
 namespace GlobalNamespace {
 class ExplicitContentWarningViewController;
 }
 namespace GlobalNamespace {
-class FadeInOutController;
+struct __PrivacyPolicyViewController__ButtonType;
+}
+namespace HMUI {
+class ViewController;
 }
 namespace GlobalNamespace {
-struct __EulaViewController__ButtonType;
+class __HealthWarningFlowCoordinator__InitData;
 }
 namespace GlobalNamespace {
-class AppInitScenesTransitionSetupDataContainerSO;
+class GameScenesManager;
 }
 namespace GlobalNamespace {
 class ScenesTransitionSetupDataSO;

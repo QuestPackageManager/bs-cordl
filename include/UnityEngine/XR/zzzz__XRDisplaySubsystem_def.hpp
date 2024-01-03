@@ -8,11 +8,11 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(XRDisplaySubsystem)
-namespace UnityEngine::Rendering {
-struct RenderTargetIdentifier;
-}
 namespace UnityEngine {
 struct RenderTextureDescriptor;
+}
+namespace UnityEngine::Rendering {
+struct RenderTargetIdentifier;
 }
 // Forward declare root types
 namespace UnityEngine::XR {

@@ -23,7 +23,7 @@ MARK_REF_PTR_T(::UnityEngine::Timeline::InfiniteRuntimeClip);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13884)), TypeDefinitionIndex(TypeDefinitionIndex(10428))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10428)), TypeDefinitionIndex(TypeDefinitionIndex(13884))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13877))
 // CS Name: ::UnityEngine.Timeline::InfiniteRuntimeClip*
 class CORDL_TYPE InfiniteRuntimeClip : public ::UnityEngine::Timeline::RuntimeElement {

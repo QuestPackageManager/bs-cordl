@@ -8,14 +8,14 @@ CORDL_MODULE_EXPORT(ScaleRectTransformViewStateTransition)
 namespace GlobalNamespace {
 class Vector3TransitionSO;
 }
+namespace Tweening {
+class Vector3Tween;
+}
 namespace GlobalNamespace {
 class BaseTransitionSO;
 }
 namespace UnityEngine {
 struct Vector3;
-}
-namespace Tweening {
-class Vector3Tween;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -27,8 +27,8 @@ MARK_REF_PTR_T(::GlobalNamespace::ScaleRectTransformViewStateTransition);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(5442), inst: 926 }), TypeDefinitionIndex(TypeDefinitionIndex(10282)),
-// TypeDefinitionIndex(TypeDefinitionIndex(5442))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5454)) CS Name: ::ScaleRectTransformViewStateTransition*
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(5442), inst: 926 }), TypeDefinitionIndex(TypeDefinitionIndex(5442)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10282))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5454)) CS Name: ::ScaleRectTransformViewStateTransition*
 class CORDL_TYPE ScaleRectTransformViewStateTransition : public ::GlobalNamespace::BaseStateTransition_1<::UnityEngine::RectTransform*> {
 public:
   // Declarations

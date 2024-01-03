@@ -10,6 +10,9 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(PhysicsRaycasterWithCache)
+namespace VRUIControls {
+struct __PhysicsRaycasterWithCache__CachedRaycast;
+}
 namespace UnityEngine {
 struct RaycastHit;
 }
@@ -18,9 +21,6 @@ struct Ray;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
-}
-namespace VRUIControls {
-struct __PhysicsRaycasterWithCache__CachedRaycast;
 }
 // Forward declare root types
 namespace VRUIControls {

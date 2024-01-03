@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(CompensateDirectionProcessor)
-namespace UnityEngine {
-struct Vector3;
-}
 namespace UnityEngine::InputSystem {
 class InputControl;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::Processors {
@@ -22,8 +22,8 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::Processors::CompensateDirectionProces
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Processors {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(6236)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6236), inst: 412
-// })} Self: TypeDefinitionIndex(TypeDefinitionIndex(6582)) CS Name: ::UnityEngine.InputSystem.Processors::CompensateDirectionProcessor*
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6236), inst: 412 }), TypeDefinitionIndex(TypeDefinitionIndex(10249)),
+// TypeDefinitionIndex(TypeDefinitionIndex(6236))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6582)) CS Name: ::UnityEngine.InputSystem.Processors::CompensateDirectionProcessor*
 class CORDL_TYPE CompensateDirectionProcessor : public ::UnityEngine::InputSystem::InputProcessor_1<::UnityEngine::Vector3> {
 public:
   // Declarations

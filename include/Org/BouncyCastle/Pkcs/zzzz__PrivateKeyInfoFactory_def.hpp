@@ -6,20 +6,20 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(PrivateKeyInfoFactory)
-namespace Org::BouncyCastle::Crypto {
-class AsymmetricKeyParameter;
-}
 namespace Org::BouncyCastle::Math {
 class BigInteger;
 }
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Set;
+namespace Org::BouncyCastle::Crypto {
+class AsymmetricKeyParameter;
+}
+namespace Org::BouncyCastle::Asn1::Pkcs {
+class EncryptedPrivateKeyInfo;
 }
 namespace Org::BouncyCastle::Asn1::Pkcs {
 class PrivateKeyInfo;
 }
-namespace Org::BouncyCastle::Asn1::Pkcs {
-class EncryptedPrivateKeyInfo;
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Set;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Pkcs {

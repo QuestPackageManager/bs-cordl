@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(RijndaelManaged)
 namespace System::Security::Cryptography {
-struct CipherMode;
+class ICryptoTransform;
 }
 namespace System::Security::Cryptography {
-class ICryptoTransform;
+struct CipherMode;
 }
 namespace System::Security::Cryptography {
 struct RijndaelManagedTransformMode;

@@ -12,10 +12,10 @@ namespace System {
 template <typename T> struct Span_1;
 }
 namespace System {
-template <typename T> struct ReadOnlySpan_1;
+struct StringComparison;
 }
 namespace System {
-struct StringComparison;
+template <typename T> struct ReadOnlySpan_1;
 }
 // Forward declare root types
 namespace System {

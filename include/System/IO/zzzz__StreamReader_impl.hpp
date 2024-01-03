@@ -6,17 +6,17 @@
 #include "System/IO/zzzz__StreamReader_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"
 #include "System/IO/zzzz__StreamReader_def.hpp"
-#include "System/zzzz__Span_1_def.hpp"
-#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
+#include "System/Text/zzzz__Encoding_def.hpp"
 #include "System/Text/zzzz__Decoder_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_def.hpp"
-#include "System/Text/zzzz__Encoding_def.hpp"
+#include "System/zzzz__Span_1_def.hpp"
 #include "System/IO/zzzz__StreamReader_NullStreamReader_def.hpp"
+#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__ConfiguredValueTaskAwaitable_1_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__ConfiguredValueTaskAwaitable_1_def.hpp"
-#include "System/Text/zzzz__StringBuilder_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__ConfiguredTaskAwaitable_1_def.hpp"
+#include "System/Text/zzzz__StringBuilder_def.hpp"
 //  Writing Method size for method: ::System::IO::__StreamReader___ReadLineAsyncInternal_d__61.MoveNext
 template <>
 

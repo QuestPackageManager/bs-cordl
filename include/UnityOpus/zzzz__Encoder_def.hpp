@@ -11,10 +11,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Encoder)
 namespace UnityOpus {
-struct NumChannels;
+struct OpusApplication;
 }
 namespace UnityOpus {
-struct OpusApplication;
+struct OpusSignal;
 }
 namespace System {
 class IDisposable;
@@ -23,7 +23,7 @@ namespace UnityOpus {
 struct SamplingFrequency;
 }
 namespace UnityOpus {
-struct OpusSignal;
+struct NumChannels;
 }
 // Forward declare root types
 namespace UnityOpus {
@@ -35,8 +35,8 @@ MARK_REF_PTR_T(::UnityOpus::Encoder);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 45, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityOpus {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(16215)),
-// TypeDefinitionIndex(TypeDefinitionIndex(16217))} Self: TypeDefinitionIndex(TypeDefinitionIndex(16213)) CS Name: ::UnityOpus::Encoder*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(16217)), TypeDefinitionIndex(TypeDefinitionIndex(16215)), TypeDefinitionIndex(TypeDefinitionIndex(2603)),
+// TypeDefinitionIndex(TypeDefinitionIndex(2613))} Self: TypeDefinitionIndex(TypeDefinitionIndex(16213)) CS Name: ::UnityOpus::Encoder*
 class CORDL_TYPE Encoder : public ::System::Object {
 public:
   // Declarations

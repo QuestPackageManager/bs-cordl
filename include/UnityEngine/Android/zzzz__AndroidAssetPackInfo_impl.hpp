@@ -3,8 +3,8 @@
 #include "UnityEngine/Android/zzzz__AndroidAssetPackError_impl.hpp"
 #include "UnityEngine/Android/zzzz__AndroidAssetPackStatus_impl.hpp"
 #include "UnityEngine/Android/zzzz__AndroidAssetPackInfo_def.hpp"
-#include "UnityEngine/Android/zzzz__AndroidAssetPackError_def.hpp"
 #include "UnityEngine/Android/zzzz__AndroidAssetPackStatus_def.hpp"
+#include "UnityEngine/Android/zzzz__AndroidAssetPackError_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Android::AndroidAssetPackInfo._ctor
 template <>
 

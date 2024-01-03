@@ -16,58 +16,61 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(PlatformLeaderboardsModel)
 namespace GlobalNamespace {
-struct __PlatformLeaderboardsModel__State;
-}
-namespace GlobalNamespace {
-class UserInfo;
-}
-namespace System {
-class Action;
+class IDifficultyBeatmap;
 }
 namespace GlobalNamespace {
 struct __PlatformLeaderboardsModel__ScoresScope;
 }
 namespace GlobalNamespace {
-class GameplayModifiersModelSO;
-}
-namespace GlobalNamespace {
-class HMAsyncRequest;
-}
-namespace GlobalNamespace {
-class __PlatformLeaderboardsModel__UploadScoreCompletionHandler;
-}
-namespace GlobalNamespace {
 class __LeaderboardScoreUploader__ScoreData;
-}
-namespace GlobalNamespace {
-class __PlatformLeaderboardsModel__GetScoresCompletionHandler;
-}
-namespace GlobalNamespace {
-class PlatformLeaderboardsHandler;
-}
-namespace GlobalNamespace {
-class IDifficultyBeatmap;
-}
-namespace GlobalNamespace {
-class GameplayModifiers;
-}
-namespace GlobalNamespace {
-struct __PlatformLeaderboardsModel__UploadScoreResult;
-}
-namespace GlobalNamespace {
-class IPlatformUserModel;
 }
 namespace GlobalNamespace {
 class LeaderboardScoreUploader;
 }
 namespace GlobalNamespace {
-class __PlatformLeaderboardsModel__LeaderboardScore;
+struct __PlatformLeaderboardsModel__State;
+}
+namespace GlobalNamespace {
+class __PlatformLeaderboardsModel__GetScoresCompletionHandler;
+}
+namespace System {
+class Action;
+}
+namespace GlobalNamespace {
+class GameplayModifiers;
+}
+namespace GlobalNamespace {
+class GameplayModifiersModelSO;
+}
+namespace GlobalNamespace {
+struct __PlatformLeaderboardsModel__GetScoresResult;
+}
+namespace GlobalNamespace {
+class HMAsyncRequest;
+}
+namespace GlobalNamespace {
+class UserInfo;
 }
 namespace GlobalNamespace {
 struct __PlatformLeaderboardsModel___Initialize_d__19;
 }
 namespace GlobalNamespace {
-struct __PlatformLeaderboardsModel__GetScoresResult;
+class __PlatformLeaderboardsModel__LeaderboardScore;
+}
+namespace GlobalNamespace {
+class IPlatformUserModel;
+}
+namespace GlobalNamespace {
+class PlatformLeaderboardsHandler;
+}
+namespace GlobalNamespace {
+struct __PlatformLeaderboardsModel__UploadScoreResult;
+}
+namespace GlobalNamespace {
+class __PlatformLeaderboardsModel__UploadScoreCompletionHandler;
+}
+namespace System {
+class AsyncCallback;
 }
 namespace System {
 class IAsyncResult;
@@ -76,25 +79,22 @@ namespace System {
 class Object;
 }
 namespace System {
-class AsyncCallback;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace System {
 template <typename T> class IComparable_1;
 }
 namespace GlobalNamespace {
 class GameplayModifierParamsSO;
 }
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
 namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
 }
 namespace System::Runtime::CompilerServices {
-struct AsyncVoidMethodBuilder;
+template <typename TResult> struct TaskAwaiter_1;
 }
 namespace System::Runtime::CompilerServices {
-template <typename TResult> struct TaskAwaiter_1;
+struct AsyncVoidMethodBuilder;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -541,7 +541,7 @@ static_assert(offsetof(::GlobalNamespace::__PlatformLeaderboardsModel__Leaderboa
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15996)), TypeDefinitionIndex(TypeDefinitionIndex(3400)), TypeDefinitionIndex(TypeDefinitionIndex(3394)),
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3400)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(15996)),
 // GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 410 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(4234)) CS Name:
 // ::PlatformLeaderboardsModel::<Initialize>d__19
 struct CORDL_TYPE __PlatformLeaderboardsModel___Initialize_d__19 {

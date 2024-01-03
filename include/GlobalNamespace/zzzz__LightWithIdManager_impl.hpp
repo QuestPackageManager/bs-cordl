@@ -2,10 +2,10 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__LightWithIdManager_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "GlobalNamespace/zzzz__ILightWithId_def.hpp"
-#include "UnityEngine/zzzz__Color_def.hpp"
-#include "System/zzzz__Action_def.hpp"
 #include "System/zzzz__Nullable_1_def.hpp"
+#include "UnityEngine/zzzz__Color_def.hpp"
+#include "GlobalNamespace/zzzz__ILightWithId_def.hpp"
+#include "System/zzzz__Action_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::LightWithIdManager.add_didChangeSomeColorsThisFrameEvent
 template <>
 

@@ -10,34 +10,19 @@ CORDL_MODULE_EXPORT(FactorySubContainerBinder_11)
 namespace Zenject {
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TParam7, typename TParam8, typename TParam9, typename TParam10,
           typename TContract>
-class __FactorySubContainerBinder_11____c__DisplayClass2_0;
-}
-namespace Zenject {
-class ScopeConcreteIdArgConditionCopyNonLazyBinder;
-}
-namespace Zenject {
-class NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder;
-}
-namespace Zenject {
-class DiContainer;
+class __FactorySubContainerBinder_11____c__DisplayClass1_0;
 }
 namespace Zenject {
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TParam7, typename TParam8, typename TParam9, typename TParam10,
           typename TContract>
 class __FactorySubContainerBinder_11____c__DisplayClass3_0;
 }
-namespace System {
-template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8, typename T9, typename T10, typename T11> class Action_11;
-}
-namespace UnityEngine {
-class Object;
-}
 namespace Zenject {
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TParam7, typename TParam8, typename TParam9, typename TParam10,
           typename TContract>
-class __FactorySubContainerBinder_11____c__DisplayClass1_0;
+class __FactorySubContainerBinder_11____c__DisplayClass4_0;
 }
-namespace System {
+namespace UnityEngine {
 class Object;
 }
 namespace Zenject {
@@ -46,19 +31,34 @@ class BindInfo;
 namespace Zenject {
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TParam7, typename TParam8, typename TParam9, typename TParam10,
           typename TContract>
-class __FactorySubContainerBinder_11____c__DisplayClass4_0;
+class __FactorySubContainerBinder_11____c__DisplayClass2_0;
+}
+namespace Zenject {
+class DiContainer;
 }
 namespace Zenject {
 class FactoryBindInfo;
+}
+namespace System {
+class Object;
+}
+namespace System {
+template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8, typename T9, typename T10, typename T11> class Action_11;
+}
+namespace Zenject {
+class ScopeConcreteIdArgConditionCopyNonLazyBinder;
+}
+namespace Zenject {
+class NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder;
+}
+namespace Zenject {
+class IProvider;
 }
 namespace Zenject {
 class SubContainerCreatorBindInfo;
 }
 namespace Zenject {
 class InjectTypeInfo;
-}
-namespace Zenject {
-class IProvider;
 }
 namespace Zenject {
 class GameObjectCreationParameters;

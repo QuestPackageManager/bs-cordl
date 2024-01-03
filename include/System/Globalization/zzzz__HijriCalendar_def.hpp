@@ -8,10 +8,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(HijriCalendar)
 namespace System {
-struct DayOfWeek;
+struct DateTime;
 }
 namespace System {
-struct DateTime;
+struct DayOfWeek;
 }
 // Forward declare root types
 namespace System::Globalization {
@@ -23,7 +23,7 @@ MARK_REF_PTR_T(::System::Globalization::HijriCalendar);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Globalization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2368)), TypeDefinitionIndex(TypeDefinitionIndex(3696))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3696)), TypeDefinitionIndex(TypeDefinitionIndex(2368))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3702))
 // CS Name: ::System.Globalization::HijriCalendar*
 class CORDL_TYPE HijriCalendar : public ::System::Globalization::Calendar {

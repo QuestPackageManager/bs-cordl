@@ -7,19 +7,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(UnwrapPromise_1)
 namespace System::Threading::Tasks {
-class Task;
-}
-namespace System::Threading::Tasks {
 template <typename TResult> class __UnwrapPromise_1____c;
 }
 namespace System::Threading::Tasks {
 class ITaskCompletionAction;
 }
-namespace System::Threading {
-class WaitCallback;
+namespace System::Threading::Tasks {
+class Task;
 }
 namespace System {
 class Object;
+}
+namespace System::Threading {
+class WaitCallback;
 }
 // Forward declare root types
 namespace System::Threading::Tasks {

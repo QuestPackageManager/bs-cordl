@@ -4,8 +4,8 @@
 #include "System/Threading/zzzz__WaitHandle_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
 #include "Microsoft/Win32/SafeHandles/zzzz__SafeWaitHandle_def.hpp"
-#include "System/zzzz__TimeSpan_def.hpp"
 #include "System/Runtime/InteropServices/zzzz__SafeHandle_def.hpp"
+#include "System/zzzz__TimeSpan_def.hpp"
 //  Writing Method size for method: ::System::Threading::WaitHandle._ctor
 template <>
 

@@ -21,7 +21,7 @@ MARK_VAL_T(::System::Variant);
 // SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 1, natural_alignment: 8, packing: Some(1), specified_packing: None }
 namespace System {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2641)), TypeDefinitionIndex(TypeDefinitionIndex(2603))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(2641))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2640))
 // CS Name: ::System::Variant
 struct CORDL_TYPE Variant {

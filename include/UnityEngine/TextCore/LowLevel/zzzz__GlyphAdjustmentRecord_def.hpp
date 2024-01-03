@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(GlyphAdjustmentRecord)
-namespace UnityEngine::TextCore::LowLevel {
-struct GlyphValueRecord;
-}
 namespace System {
 class Object;
+}
+namespace UnityEngine::TextCore::LowLevel {
+struct GlyphValueRecord;
 }
 namespace System {
 template <typename T> class IEquatable_1;

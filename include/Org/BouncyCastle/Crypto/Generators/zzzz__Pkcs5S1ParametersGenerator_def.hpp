@@ -8,10 +8,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Pkcs5S1ParametersGenerator)
 namespace Org::BouncyCastle::Crypto {
-class ICipherParameters;
+class IDigest;
 }
 namespace Org::BouncyCastle::Crypto {
-class IDigest;
+class ICipherParameters;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Generators {

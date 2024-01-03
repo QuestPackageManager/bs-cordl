@@ -6,8 +6,26 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Collection_1)
+namespace System::Collections::Generic {
+template <typename T> class ICollection_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class IReadOnlyList_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
+}
+namespace System {
+class Array;
+}
+namespace System::Collections {
+class IList;
+}
 namespace System::Collections {
 class ICollection;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
 }
 namespace System::Collections {
 class IEnumerable;
@@ -18,29 +36,11 @@ class Object;
 namespace System::Collections::Generic {
 template <typename T> class IReadOnlyCollection_1;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
-}
 namespace System::Collections {
 class IEnumerator;
 }
-namespace System::Collections {
-class IList;
-}
 namespace System::Collections::Generic {
 template <typename T> class IList_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class ICollection_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
-namespace System {
-class Array;
-}
-namespace System::Collections::Generic {
-template <typename T> class IReadOnlyList_1;
 }
 // Forward declare root types
 namespace System::Collections::ObjectModel {

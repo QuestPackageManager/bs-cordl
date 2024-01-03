@@ -19,7 +19,7 @@ MARK_REF_PTR_T(::GlobalNamespace::XPlatformAccessTokenData);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 25, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12924))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12924)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12925))
 // CS Name: ::XPlatformAccessTokenData*
 class CORDL_TYPE XPlatformAccessTokenData : public ::System::Object {

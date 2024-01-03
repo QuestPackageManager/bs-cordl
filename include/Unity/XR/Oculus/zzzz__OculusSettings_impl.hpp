@@ -2,8 +2,8 @@
 #include "Unity/XR/Oculus/zzzz__OculusSettings_impl.hpp"
 #include "UnityEngine/zzzz__ScriptableObject_impl.hpp"
 #include "Unity/XR/Oculus/zzzz__OculusSettings_def.hpp"
-#include "Unity/XR/Oculus/zzzz__OculusSettings_def.hpp"
 #include "UnityEngine/zzzz__Texture2D_def.hpp"
+#include "Unity/XR/Oculus/zzzz__OculusSettings_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::Unity::XR::Oculus::__OculusSettings__StereoRenderingModeDesktop::__OculusSettings__StereoRenderingModeDesktop(int32_t value__) noexcept {
   this->value__ = value__;

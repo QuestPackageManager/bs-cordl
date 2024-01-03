@@ -5,11 +5,26 @@ CORDL_MODULE_INIT
 #include "Tayx/Graphy/zzzz__GraphyManager_def.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(G_FpsManager)
+namespace Tayx::Graphy::Fps {
+class G_FpsMonitor;
+}
+namespace Tayx::Graphy::Fps {
+class G_FpsGraph;
+}
+namespace UnityEngine {
+class GameObject;
+}
+namespace Tayx::Graphy {
+class GraphyManager;
+}
+namespace UnityEngine {
+class RectTransform;
+}
+namespace Tayx::Graphy {
+struct __GraphyManager__ModulePosition;
+}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
-}
-namespace Tayx::Graphy::UI {
-class IMovable;
 }
 namespace Tayx::Graphy::UI {
 class IModifiableState;
@@ -20,26 +35,11 @@ class Image;
 namespace Tayx::Graphy {
 struct __GraphyManager__ModuleState;
 }
-namespace UnityEngine {
-class GameObject;
-}
-namespace Tayx::Graphy::Fps {
-class G_FpsMonitor;
-}
-namespace Tayx::Graphy {
-class GraphyManager;
-}
-namespace UnityEngine {
-class RectTransform;
-}
 namespace Tayx::Graphy::Fps {
 class G_FpsText;
 }
-namespace Tayx::Graphy {
-struct __GraphyManager__ModulePosition;
-}
-namespace Tayx::Graphy::Fps {
-class G_FpsGraph;
+namespace Tayx::Graphy::UI {
+class IMovable;
 }
 // Forward declare root types
 namespace Tayx::Graphy::Fps {

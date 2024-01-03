@@ -11,10 +11,10 @@ namespace UnityEngine {
 class GlobalJavaObjectRef;
 }
 namespace System {
-class Exception;
+class Type;
 }
 namespace System {
-class Type;
+class Exception;
 }
 // Forward declare root types
 namespace UnityEngine {

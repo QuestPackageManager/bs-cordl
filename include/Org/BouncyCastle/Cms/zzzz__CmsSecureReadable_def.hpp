@@ -3,17 +3,17 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(CmsSecureReadable)
-namespace System {
-class Object;
-}
 namespace Org::BouncyCastle::Crypto::Parameters {
 class KeyParameter;
+}
+namespace Org::BouncyCastle::Cms {
+class CmsReadable;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class AlgorithmIdentifier;
 }
-namespace Org::BouncyCastle::Cms {
-class CmsReadable;
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Cms {

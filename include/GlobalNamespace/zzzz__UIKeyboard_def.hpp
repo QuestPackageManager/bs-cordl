@@ -6,20 +6,20 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(UIKeyboard)
+namespace GlobalNamespace {
+class __UIKeyboard____c__DisplayClass21_0;
+}
 namespace System {
 class Action;
 }
-namespace System {
-template <typename T> class Action_1;
-}
-namespace GlobalNamespace {
-class __UIKeyboard____c__DisplayClass21_0;
+namespace UnityEngine::UI {
+class Button;
 }
 namespace GlobalNamespace {
 class TextMeshProButton;
 }
-namespace UnityEngine::UI {
-class Button;
+namespace System {
+template <typename T> class Action_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {

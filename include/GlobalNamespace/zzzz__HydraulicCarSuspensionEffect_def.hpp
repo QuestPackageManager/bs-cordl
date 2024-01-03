@@ -8,23 +8,23 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(HydraulicCarSuspensionEffect)
+namespace GlobalNamespace {
+class BasicBeatmapEventData;
+}
 namespace UnityEngine {
 class SpringJoint;
 }
+namespace GlobalNamespace {
+class BeatmapDataCallbackWrapper;
+}
 namespace UnityEngine {
 class Rigidbody;
-}
-namespace GlobalNamespace {
-class BeatmapCallbacksController;
 }
 namespace System::Collections::Generic {
 template <typename T> class HashSet_1;
 }
 namespace GlobalNamespace {
-class BasicBeatmapEventData;
-}
-namespace GlobalNamespace {
-class BeatmapDataCallbackWrapper;
+class BeatmapCallbacksController;
 }
 // Forward declare root types
 namespace GlobalNamespace {

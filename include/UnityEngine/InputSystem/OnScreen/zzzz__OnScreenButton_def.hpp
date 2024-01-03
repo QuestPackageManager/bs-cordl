@@ -9,13 +9,13 @@ namespace UnityEngine::EventSystems {
 class IPointerUpHandler;
 }
 namespace UnityEngine::EventSystems {
-class IEventSystemHandler;
+class PointerEventData;
 }
 namespace UnityEngine::EventSystems {
 class IPointerDownHandler;
 }
 namespace UnityEngine::EventSystems {
-class PointerEventData;
+class IEventSystemHandler;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::OnScreen {

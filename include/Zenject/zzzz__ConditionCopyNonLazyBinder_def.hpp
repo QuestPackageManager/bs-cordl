@@ -6,17 +6,17 @@ CORDL_MODULE_INIT
 #include "Zenject/zzzz__CopyNonLazyBinder_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(ConditionCopyNonLazyBinder)
+namespace Zenject {
+template <typename T> class __ConditionCopyNonLazyBinder____c__5_1;
+}
 namespace System {
 class Type;
 }
 namespace Zenject {
-class __ConditionCopyNonLazyBinder____c__DisplayClass3_0;
+class __ConditionCopyNonLazyBinder____c__DisplayClass3_1;
 }
 namespace Zenject {
-template <typename T> class __ConditionCopyNonLazyBinder____c__5_1;
-}
-namespace Zenject {
-template <typename T> class __ConditionCopyNonLazyBinder____c__4_1;
+class __ConditionCopyNonLazyBinder____c__DisplayClass2_0;
 }
 namespace Zenject {
 class BindingCondition;
@@ -24,17 +24,17 @@ class BindingCondition;
 namespace Zenject {
 class CopyNonLazyBinder;
 }
+namespace System {
+class Object;
+}
 namespace Zenject {
-class __ConditionCopyNonLazyBinder____c__DisplayClass2_0;
+template <typename T> class __ConditionCopyNonLazyBinder____c__4_1;
 }
 namespace Zenject {
 class BindInfo;
 }
 namespace Zenject {
-class __ConditionCopyNonLazyBinder____c__DisplayClass3_1;
-}
-namespace System {
-class Object;
+class __ConditionCopyNonLazyBinder____c__DisplayClass3_0;
 }
 namespace Zenject {
 class InjectTypeInfo;

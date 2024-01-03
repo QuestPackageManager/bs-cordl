@@ -1,9 +1,9 @@
 #pragma once
 #include "Zenject/zzzz__MonoInstaller_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerBigAvatarInstaller_def.hpp"
-#include "GlobalNamespace/zzzz__IConnectedPlayer_def.hpp"
 #include "GlobalNamespace/zzzz__SaberManager_def.hpp"
 #include "GlobalNamespace/zzzz__PlayersSpecificSettingsAtGameStartModel_def.hpp"
+#include "GlobalNamespace/zzzz__IConnectedPlayer_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::MultiplayerBigAvatarInstaller.InstallBindings
 template <>
 

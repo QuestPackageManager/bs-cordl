@@ -12,13 +12,13 @@ namespace System {
 class Array;
 }
 namespace System::Runtime::Serialization::Formatters::Binary {
+class ReadObjectInfo;
+}
+namespace System::Runtime::Serialization::Formatters::Binary {
 class ParseRecord;
 }
 namespace System {
 class Object;
-}
-namespace System::Runtime::Serialization::Formatters::Binary {
-class ReadObjectInfo;
 }
 namespace System::Reflection {
 class MemberInfo;
@@ -33,7 +33,7 @@ MARK_REF_PTR_T(::System::Runtime::Serialization::Formatters::Binary::ValueFixup)
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization::Formatters::Binary {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3254))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3254)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3296))
 // CS Name: ::System.Runtime.Serialization.Formatters.Binary::ValueFixup*
 class CORDL_TYPE ValueFixup : public ::System::Object {

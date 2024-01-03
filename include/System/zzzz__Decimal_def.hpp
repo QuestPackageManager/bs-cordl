@@ -2,6 +2,7 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/zzzz__ReadOnlySpan_1_def.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
@@ -12,8 +13,8 @@ CORDL_MODULE_EXPORT(Decimal)
 namespace System {
 struct DateTime;
 }
-namespace System::Runtime::Serialization {
-class IDeserializationCallback;
+namespace System {
+class Object;
 }
 namespace System {
 class IFormatProvider;
@@ -21,53 +22,50 @@ class IFormatProvider;
 namespace System {
 class IConvertible;
 }
-namespace System {
-template <typename T> class IEquatable_1;
-}
-namespace System::Globalization {
-struct NumberStyles;
-}
-namespace System {
-class IFormattable;
-}
-namespace System {
-struct MidpointRounding;
-}
-namespace System {
-template <typename T> class IComparable_1;
-}
-namespace System {
-template <typename T> struct Span_1;
-}
-namespace System {
-class IComparable;
-}
-namespace System {
-class Type;
-}
-namespace System {
-class ISpanFormattable;
-}
-namespace System {
-class Object;
-}
-namespace System {
-struct __Decimal__DecCalc;
+namespace System::Runtime::Serialization {
+class IDeserializationCallback;
 }
 namespace System {
 struct TypeCode;
 }
 namespace System {
-template <typename T> struct ReadOnlySpan_1;
+class IFormattable;
+}
+namespace System {
+template <typename T> class IEquatable_1;
+}
+namespace System {
+template <typename T> struct Span_1;
+}
+namespace System::Globalization {
+struct NumberStyles;
+}
+namespace System {
+class Type;
+}
+namespace System {
+struct __Decimal__DecCalc;
+}
+namespace System {
+template <typename T> class IComparable_1;
+}
+namespace System {
+class IComparable;
+}
+namespace System {
+class ISpanFormattable;
+}
+namespace System {
+struct MidpointRounding;
+}
+namespace GlobalNamespace {
+struct __Decimal__DecCalc__PowerOvfl;
 }
 namespace GlobalNamespace {
 struct __Decimal__DecCalc__Buf24;
 }
 namespace GlobalNamespace {
 struct __Decimal__DecCalc__RoundingMode;
-}
-namespace GlobalNamespace {
-struct __Decimal__DecCalc__PowerOvfl;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -737,7 +735,7 @@ static_assert(::cordl_internals::size_check_v<::System::__Decimal__DecCalc, 0x10
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 1, natural_alignment: 8, packing: Some(1), specified_packing: None }
 namespace System {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2464)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2464), inst: 292 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2655))
 // CS Name: ::System::Decimal
 struct CORDL_TYPE Decimal {

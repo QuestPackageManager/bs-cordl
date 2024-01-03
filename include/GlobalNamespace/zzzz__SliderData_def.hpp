@@ -19,16 +19,16 @@ namespace GlobalNamespace {
 struct NoteLineLayer;
 }
 namespace GlobalNamespace {
-struct SliderMidAnchorMode;
+struct NoteCutDirection;
 }
 namespace GlobalNamespace {
 struct __SliderData__Type;
 }
 namespace GlobalNamespace {
-struct ColorType;
+struct SliderMidAnchorMode;
 }
 namespace GlobalNamespace {
-struct NoteCutDirection;
+struct ColorType;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -94,8 +94,8 @@ static_assert(offsetof(::GlobalNamespace::__SliderData__Type, value__) == 0x0, "
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14751)), TypeDefinitionIndex(TypeDefinitionIndex(14766)), TypeDefinitionIndex(TypeDefinitionIndex(14764)),
-// TypeDefinitionIndex(TypeDefinitionIndex(14752)), TypeDefinitionIndex(TypeDefinitionIndex(14760)), TypeDefinitionIndex(TypeDefinitionIndex(14755))} Self:
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14766)), TypeDefinitionIndex(TypeDefinitionIndex(14751)), TypeDefinitionIndex(TypeDefinitionIndex(14760)),
+// TypeDefinitionIndex(TypeDefinitionIndex(14752)), TypeDefinitionIndex(TypeDefinitionIndex(14764)), TypeDefinitionIndex(TypeDefinitionIndex(14755))} Self:
 // TypeDefinitionIndex(TypeDefinitionIndex(14765)) CS Name: ::SliderData*
 class CORDL_TYPE SliderData : public ::GlobalNamespace::BeatmapObjectData {
 public:

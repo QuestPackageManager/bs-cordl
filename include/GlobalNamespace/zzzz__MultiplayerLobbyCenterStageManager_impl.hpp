@@ -1,9 +1,9 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerLobbyCenterStageManager_def.hpp"
-#include "GlobalNamespace/zzzz__CenterStageScreenController_def.hpp"
-#include "UnityEngine/zzzz__Transform_def.hpp"
 #include "GlobalNamespace/zzzz__ILobbyStateDataModel_def.hpp"
+#include "UnityEngine/zzzz__Transform_def.hpp"
+#include "GlobalNamespace/zzzz__CenterStageScreenController_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::MultiplayerLobbyCenterStageManager.Init
 template <>
 

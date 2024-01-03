@@ -6,13 +6,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ISpanFormattable)
 namespace System {
+class IFormatProvider;
+}
+namespace System {
 template <typename T> struct ReadOnlySpan_1;
 }
 namespace System {
 template <typename T> struct Span_1;
-}
-namespace System {
-class IFormatProvider;
 }
 // Forward declare root types
 namespace System {

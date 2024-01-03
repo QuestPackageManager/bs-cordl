@@ -6,35 +6,35 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(CollectionWrapper_1)
-namespace System {
-class Array;
-}
 namespace System::Collections {
 class ICollection;
 }
-namespace System::Collections {
-class IEnumerator;
-}
-namespace System::Collections {
-class IList;
-}
 namespace System {
 class Object;
-}
-namespace Newtonsoft::Json::Utilities {
-class IWrappedCollection;
-}
-namespace System::Collections::Generic {
-template <typename T> class ICollection_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
 }
 namespace System::Collections {
 class IEnumerable;
 }
 namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
+}
+namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
+}
+namespace System::Collections {
+class IEnumerator;
+}
+namespace System::Collections::Generic {
+template <typename T> class ICollection_1;
+}
+namespace Newtonsoft::Json::Utilities {
+class IWrappedCollection;
+}
+namespace System::Collections {
+class IList;
+}
+namespace System {
+class Array;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Utilities {

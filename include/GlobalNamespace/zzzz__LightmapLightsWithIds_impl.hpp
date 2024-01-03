@@ -2,11 +2,11 @@
 #include "GlobalNamespace/zzzz__LightConstants_impl.hpp"
 #include "GlobalNamespace/zzzz__LightWithIds_impl.hpp"
 #include "GlobalNamespace/zzzz__LightmapLightsWithIds_def.hpp"
+#include "GlobalNamespace/zzzz__LightWithIds_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "GlobalNamespace/zzzz__LightmapLightsWithIds_def.hpp"
-#include "GlobalNamespace/zzzz__LightWithIds_def.hpp"
-#include "GlobalNamespace/zzzz__LightConstants_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
+#include "GlobalNamespace/zzzz__LightConstants_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::__LightmapLightsWithIds__LightIntensitiesWithId.get_bakeId
 template <>
 

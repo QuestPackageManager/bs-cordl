@@ -6,11 +6,8 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(DirectoryInfo)
-namespace System::IO {
-struct SearchTarget;
-}
 namespace System::Runtime::Serialization {
-class SerializationInfo;
+struct StreamingContext;
 }
 namespace System::IO {
 class FileSystemInfo;
@@ -21,8 +18,11 @@ template <typename T> class IEnumerable_1;
 namespace System::IO {
 class EnumerationOptions;
 }
+namespace System::IO {
+struct SearchTarget;
+}
 namespace System::Runtime::Serialization {
-struct StreamingContext;
+class SerializationInfo;
 }
 // Forward declare root types
 namespace System::IO {

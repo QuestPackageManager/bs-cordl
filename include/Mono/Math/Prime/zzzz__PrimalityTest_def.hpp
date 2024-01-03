@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "System/zzzz__MulticastDelegate_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(PrimalityTest)
+namespace Mono::Math {
+class BigInteger;
+}
 namespace System {
 class Object;
 }
 namespace Mono::Math::Prime {
 struct ConfidenceFactor;
-}
-namespace Mono::Math {
-class BigInteger;
 }
 // Forward declare root types
 namespace Mono::Math::Prime {
@@ -25,17 +25,17 @@ MARK_REF_PTR_T(::Mono::Math::Prime::PrimalityTest);
 namespace Mono::Math::Prime {
 // Is value type: false
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13809))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2292))
 // CS Name: ::Mono.Math.Prime::PrimalityTest*
 class CORDL_TYPE PrimalityTest : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::Mono::Math::Prime::PrimalityTest* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x240fe24, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x242b2e8, size 0x130, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x240ff54, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x242b418, size 0x14, virtual true, abstract: false, final false
   inline bool Invoke(::Mono::Math::BigInteger* bi, ::Mono::Math::Prime::ConfidenceFactor confidence);
 
   // Ctor Parameters [CppParam { name: "", ty: "PrimalityTest", modifiers: "&&", def_value: None }]

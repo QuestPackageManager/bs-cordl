@@ -8,13 +8,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(BloomPrePassEffectSO)
 namespace GlobalNamespace {
-struct ToneMapping;
+class IBloomPrePassParams;
 }
 namespace UnityEngine {
 struct Vector2;
 }
 namespace GlobalNamespace {
-class IBloomPrePassParams;
+struct ToneMapping;
 }
 namespace GlobalNamespace {
 class TextureEffectSO;

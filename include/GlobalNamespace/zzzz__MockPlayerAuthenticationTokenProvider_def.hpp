@@ -6,18 +6,6 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(MockPlayerAuthenticationTokenProvider)
-namespace System::Threading {
-struct CancellationToken;
-}
-namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
-}
-namespace GlobalNamespace {
-class IAuthenticationTokenProvider;
-}
-namespace GlobalNamespace {
-struct PlatformEnvironment;
-}
 namespace GlobalNamespace {
 struct __AuthenticationToken__Platform;
 }
@@ -25,7 +13,19 @@ namespace GlobalNamespace {
 class XPlatformAccessTokenData;
 }
 namespace GlobalNamespace {
+struct PlatformEnvironment;
+}
+namespace GlobalNamespace {
+class IAuthenticationTokenProvider;
+}
+namespace System::Threading {
+struct CancellationToken;
+}
+namespace GlobalNamespace {
 struct AuthenticationToken;
+}
+namespace System::Threading::Tasks {
+template <typename TResult> class Task_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {

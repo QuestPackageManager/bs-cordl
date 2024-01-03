@@ -9,37 +9,28 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(MultiplayerScoreRingManager)
 namespace GlobalNamespace {
-class __MultiplayerScoreRingItem__Pool;
-}
-namespace UnityEngine {
-class GameObject;
-}
-namespace GlobalNamespace {
-class IMultiplayerSessionManager;
-}
-namespace GlobalNamespace {
-class MultiplayerLayoutProvider;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+class MultiplayerController;
 }
 namespace GlobalNamespace {
 class MultiplayerPlayersManager;
 }
 namespace GlobalNamespace {
-struct EaseType;
+class MultiplayerScoreRingItem;
+}
+namespace UnityEngine {
+class GameObject;
+}
+namespace GlobalNamespace {
+struct __MultiplayerController__State;
+}
+namespace GlobalNamespace {
+class BeatmapObjectSpawnCenter;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace GlobalNamespace {
-class MultiplayerController;
-}
-namespace GlobalNamespace {
-class BeatmapObjectSpawnCenter;
-}
-namespace GlobalNamespace {
-struct __MultiplayerController__State;
+class MultiplayerLayoutProvider;
 }
 namespace GlobalNamespace {
 class MultiplayerScoreProvider;
@@ -47,11 +38,20 @@ class MultiplayerScoreProvider;
 namespace GlobalNamespace {
 class IConnectedPlayer;
 }
+namespace GlobalNamespace {
+class IMultiplayerSessionManager;
+}
+namespace GlobalNamespace {
+class __MultiplayerScoreRingItem__Pool;
+}
 namespace UnityEngine {
 struct Color;
 }
 namespace GlobalNamespace {
-class MultiplayerScoreRingItem;
+struct EaseType;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {

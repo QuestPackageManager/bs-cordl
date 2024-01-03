@@ -6,8 +6,8 @@
 #include "RootMotion/FinalIK/zzzz__Inertia_def.hpp"
 #include "RootMotion/FinalIK/zzzz__Inertia_def.hpp"
 #include "RootMotion/FinalIK/zzzz__OffsetModifier_def.hpp"
-#include "UnityEngine/zzzz__Transform_def.hpp"
 #include "RootMotion/FinalIK/zzzz__IKSolverFullBodyBiped_def.hpp"
+#include "UnityEngine/zzzz__Transform_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::__Inertia__Body__EffectorLink._ctor
 template <>
 

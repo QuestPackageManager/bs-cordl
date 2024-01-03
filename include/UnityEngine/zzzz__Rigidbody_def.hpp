@@ -7,16 +7,16 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(Rigidbody)
 namespace UnityEngine {
-struct Quaternion;
+struct ForceMode;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 namespace UnityEngine {
 struct CollisionDetectionMode;
 }
 namespace UnityEngine {
-struct ForceMode;
-}
-namespace UnityEngine {
-struct Vector3;
+struct Quaternion;
 }
 // Forward declare root types
 namespace UnityEngine {

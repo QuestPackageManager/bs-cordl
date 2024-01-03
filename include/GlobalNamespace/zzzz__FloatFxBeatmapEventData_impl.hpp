@@ -4,8 +4,8 @@
 #include "GlobalNamespace/zzzz__FloatFxBeatmapEventData_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapDataItem_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
-#include "GlobalNamespace/zzzz__EaseType_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapEventData_def.hpp"
+#include "GlobalNamespace/zzzz__EaseType_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::FloatFxBeatmapEventData.get_value
 template <>
 

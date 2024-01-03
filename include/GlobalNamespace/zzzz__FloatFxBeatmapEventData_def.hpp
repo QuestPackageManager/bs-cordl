@@ -14,10 +14,10 @@ namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace GlobalNamespace {
-struct EaseType;
+class BeatmapEventData;
 }
 namespace GlobalNamespace {
-class BeatmapEventData;
+struct EaseType;
 }
 // Forward declare root types
 namespace GlobalNamespace {

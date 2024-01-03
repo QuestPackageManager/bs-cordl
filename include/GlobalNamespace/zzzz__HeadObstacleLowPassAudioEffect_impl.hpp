@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__HeadObstacleLowPassAudioEffect_def.hpp"
-#include "GlobalNamespace/zzzz__PlayerHeadAndObstacleInteraction_def.hpp"
 #include "GlobalNamespace/zzzz__MainAudioEffects_def.hpp"
+#include "GlobalNamespace/zzzz__PlayerHeadAndObstacleInteraction_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::HeadObstacleLowPassAudioEffect.Update
 template <>
 

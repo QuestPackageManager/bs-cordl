@@ -7,11 +7,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ASN1Convert)
-namespace Mono::Security {
-class ASN1;
-}
 namespace System {
 struct DateTime;
+}
+namespace Mono::Security {
+class ASN1;
 }
 // Forward declare root types
 namespace Mono::Security {

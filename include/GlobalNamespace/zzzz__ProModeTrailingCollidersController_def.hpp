@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(ProModeTrailingCollidersController)
 namespace GlobalNamespace {
-class BoxCuttableBySaber;
+class NoteMovement;
 }
 namespace GlobalNamespace {
-class NoteMovement;
+class BoxCuttableBySaber;
 }
 namespace UnityEngine {
 class Transform;

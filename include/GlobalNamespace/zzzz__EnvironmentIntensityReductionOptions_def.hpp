@@ -8,10 +8,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(EnvironmentIntensityReductionOptions)
 namespace GlobalNamespace {
-struct __EnvironmentIntensityReductionOptions__RotateRingsReductionType;
+struct __EnvironmentIntensityReductionOptions__CompressExpandReductionType;
 }
 namespace GlobalNamespace {
-struct __EnvironmentIntensityReductionOptions__CompressExpandReductionType;
+struct __EnvironmentIntensityReductionOptions__RotateRingsReductionType;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -131,7 +131,7 @@ static_assert(offsetof(::GlobalNamespace::__EnvironmentIntensityReductionOptions
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(4171)), TypeDefinitionIndex(TypeDefinitionIndex(4172))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(4172)), TypeDefinitionIndex(TypeDefinitionIndex(4171))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4173))
 // CS Name: ::EnvironmentIntensityReductionOptions*
 class CORDL_TYPE EnvironmentIntensityReductionOptions : public ::System::Object {

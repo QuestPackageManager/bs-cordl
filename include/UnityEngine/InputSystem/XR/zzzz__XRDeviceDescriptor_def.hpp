@@ -7,11 +7,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(XRDeviceDescriptor)
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
 namespace UnityEngine::InputSystem::XR {
 struct XRFeatureDescriptor;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::XR {
@@ -23,7 +23,7 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::XR::XRDeviceDescriptor);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::XR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15617))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15617)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6336))
 // CS Name: ::UnityEngine.InputSystem.XR::XRDeviceDescriptor*
 class CORDL_TYPE XRDeviceDescriptor : public ::System::Object {

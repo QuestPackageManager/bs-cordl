@@ -9,13 +9,13 @@ namespace System::Collections {
 class IList;
 }
 namespace System::Collections {
-class IDictionary;
+class Hashtable;
 }
 namespace System::Collections {
 class ArrayList;
 }
 namespace System::Collections {
-class Hashtable;
+class IDictionary;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting::Channels {

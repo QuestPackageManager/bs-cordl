@@ -7,14 +7,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(AlphabetScrollbarInfoBeatmapLevelHelper)
-namespace GlobalNamespace {
-class __AlphabetScrollInfo__Data;
-}
 namespace System::Collections::Generic {
 template <typename T> class IReadOnlyList_1;
 }
 namespace GlobalNamespace {
 class __AlphabetScrollbarInfoBeatmapLevelHelper____c;
+}
+namespace GlobalNamespace {
+class __AlphabetScrollInfo__Data;
 }
 namespace GlobalNamespace {
 class IPreviewBeatmapLevel;

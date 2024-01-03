@@ -5,13 +5,13 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(RequestCacheBinding)
 namespace System::Net::Cache {
-class RequestCache;
-}
-namespace System::Net::Cache {
 class RequestCachePolicy;
 }
 namespace System::Net::Cache {
 class RequestCacheValidator;
+}
+namespace System::Net::Cache {
+class RequestCache;
 }
 // Forward declare root types
 namespace System::Net::Cache {

@@ -6,26 +6,26 @@ CORDL_MODULE_INIT
 #include "UnityEngine/Timeline/zzzz__ActivationTrack_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ActivationMixerPlayable)
-namespace UnityEngine::Timeline {
-struct __ActivationTrack__PostPlaybackState;
+namespace System {
+class Object;
 }
 namespace UnityEngine {
 class GameObject;
 }
-namespace System {
-class Object;
+namespace UnityEngine::Playables {
+struct PlayableGraph;
+}
+namespace UnityEngine::Timeline {
+struct __ActivationTrack__PostPlaybackState;
 }
 namespace UnityEngine::Playables {
 struct FrameData;
 }
 namespace UnityEngine::Playables {
-struct Playable;
-}
-namespace UnityEngine::Playables {
 template <typename T> struct ScriptPlayable_1;
 }
 namespace UnityEngine::Playables {
-struct PlayableGraph;
+struct Playable;
 }
 // Forward declare root types
 namespace UnityEngine::Timeline {

@@ -8,52 +8,52 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(HashSet_1)
 namespace System::Collections::Generic {
-template <typename T> struct __HashSet_1__Slot;
-}
-namespace System::Runtime::Serialization {
-class ISerializable;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEqualityComparer_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
-}
-namespace System::Runtime::Serialization {
-class SerializationInfo;
+template <typename T> struct __HashSet_1__Enumerator;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
-namespace System::Collections {
-class IEnumerator;
-}
-namespace System::Collections {
-class IEnumerable;
-}
-namespace System {
-template <typename T> class Predicate_1;
-}
-namespace System {
-class Object;
-}
-namespace System::Runtime::Serialization {
-class IDeserializationCallback;
-}
 namespace System::Collections::Generic {
-template <typename T> class IReadOnlyCollection_1;
-}
-namespace System::Collections::Generic {
-template <typename T> struct __HashSet_1__Enumerator;
-}
-namespace System::Runtime::Serialization {
-struct StreamingContext;
+template <typename T> struct __HashSet_1__ElementCount;
 }
 namespace System::Collections::Generic {
 template <typename T> class ICollection_1;
 }
 namespace System::Collections::Generic {
-template <typename T> struct __HashSet_1__ElementCount;
+template <typename T> class IEqualityComparer_1;
+}
+namespace System {
+template <typename T> class Predicate_1;
+}
+namespace System::Runtime::Serialization {
+class IDeserializationCallback;
+}
+namespace System::Runtime::Serialization {
+class SerializationInfo;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
+}
+namespace System::Runtime::Serialization {
+struct StreamingContext;
+}
+namespace System::Collections {
+class IEnumerator;
+}
+namespace System::Runtime::Serialization {
+class ISerializable;
+}
+namespace System {
+class Object;
+}
+namespace System::Collections {
+class IEnumerable;
+}
+namespace System::Collections::Generic {
+template <typename T> struct __HashSet_1__Slot;
+}
+namespace System::Collections::Generic {
+template <typename T> class IReadOnlyCollection_1;
 }
 namespace System {
 class IDisposable;

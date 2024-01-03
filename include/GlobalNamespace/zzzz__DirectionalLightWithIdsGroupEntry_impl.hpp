@@ -4,8 +4,8 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__DirectionalLightWithIdsGroupEntry_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "GlobalNamespace/zzzz__DirectionalLightWithIdsGroupEntry_def.hpp"
 #include "GlobalNamespace/zzzz__ColorMixAndWeightingApproach_def.hpp"
+#include "GlobalNamespace/zzzz__DirectionalLightWithIdsGroupEntry_def.hpp"
 #include "GlobalNamespace/zzzz__DirectionalLightWithIds_def.hpp"
 #include "GlobalNamespace/zzzz__LightGroupSO_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::__DirectionalLightWithIdsGroupEntry__GroupLightData.get_lightGroup

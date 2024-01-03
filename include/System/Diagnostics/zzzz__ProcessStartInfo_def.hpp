@@ -12,26 +12,26 @@ CORDL_MODULE_EXPORT(ProcessStartInfo)
 namespace System::Collections::Specialized {
 class StringDictionary;
 }
-namespace System::Collections::ObjectModel {
-template <typename T> class Collection_1;
-}
-namespace System::Text {
-class Encoding;
-}
 namespace System::Diagnostics {
-class Process;
+struct ProcessWindowStyle;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class IDictionary_2;
 }
+namespace System::Security {
+class SecureString;
+}
+namespace System::Diagnostics {
+class Process;
+}
+namespace System::Text {
+class Encoding;
+}
 namespace System {
 class WeakReference;
 }
-namespace System::Diagnostics {
-struct ProcessWindowStyle;
-}
-namespace System::Security {
-class SecureString;
+namespace System::Collections::ObjectModel {
+template <typename T> class Collection_1;
 }
 // Forward declare root types
 namespace System::Diagnostics {
@@ -43,7 +43,7 @@ MARK_REF_PTR_T(::System::Diagnostics::ProcessStartInfo);
 // SizeInfo { instance_size: 176, native_size: -1, calculated_instance_size: 176, calculated_native_size: 176, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Diagnostics {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8960)), TypeDefinitionIndex(TypeDefinitionIndex(2603))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(8960)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8955))
 // CS Name: ::System.Diagnostics::ProcessStartInfo*
 class CORDL_TYPE ProcessStartInfo : public ::System::Object {

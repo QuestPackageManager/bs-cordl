@@ -8,32 +8,32 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(VisualTreeBindingsUpdater)
-namespace UnityEngine::UIElements {
-class IBinding;
-}
-namespace System {
-class Object;
-}
-namespace System::Collections::Generic {
-template <typename T> class HashSet_1;
-}
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
+namespace UnityEngine::UIElements {
+class IBinding;
+}
 namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace UnityEngine::UIElements {
-struct VersionChangeType;
-}
-namespace UnityEngine::UIElements {
-class VisualElement;
+template <typename T> class HashSet_1;
 }
 namespace Unity::Profiling {
 struct ProfilerMarker;
 }
 namespace UnityEngine::UIElements {
 struct HierarchyChangeType;
+}
+namespace System {
+class Object;
+}
+namespace UnityEngine::UIElements {
+class VisualElement;
+}
+namespace UnityEngine::UIElements {
+struct VersionChangeType;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -45,7 +45,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::VisualTreeBindingsUpdater);
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9966)), TypeDefinitionIndex(TypeDefinitionIndex(10159)), TypeDefinitionIndex(TypeDefinitionIndex(6787))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6787)), TypeDefinitionIndex(TypeDefinitionIndex(10159)), TypeDefinitionIndex(TypeDefinitionIndex(9966))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7344))
 // CS Name: ::UnityEngine.UIElements::VisualTreeBindingsUpdater*
 class CORDL_TYPE VisualTreeBindingsUpdater : public ::UnityEngine::UIElements::BaseVisualTreeHierarchyTrackerUpdater {

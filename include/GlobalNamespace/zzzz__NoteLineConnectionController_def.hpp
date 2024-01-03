@@ -7,9 +7,6 @@ CORDL_MODULE_INIT
 #include "Zenject/zzzz__MonoMemoryPool_1_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(NoteLineConnectionController)
-namespace GlobalNamespace {
-class PlayerTransforms;
-}
 namespace UnityEngine {
 class LineRenderer;
 }
@@ -21,6 +18,9 @@ class ColorManager;
 }
 namespace System {
 template <typename T> class Action_1;
+}
+namespace GlobalNamespace {
+class PlayerTransforms;
 }
 namespace GlobalNamespace {
 class __NoteLineConnectionController__Pool;
@@ -42,7 +42,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__NoteLineConnectionController__Pool);
 // SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 125, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10251))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4781))
 // CS Name: ::NoteLineConnectionController*
 class CORDL_TYPE NoteLineConnectionController : public ::UnityEngine::MonoBehaviour {

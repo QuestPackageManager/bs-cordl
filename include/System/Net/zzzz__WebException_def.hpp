@@ -8,7 +8,10 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(WebException)
 namespace System::Net {
-struct WebExceptionInternalStatus;
+class WebResponse;
+}
+namespace System::Runtime::Serialization {
+struct StreamingContext;
 }
 namespace System::Net {
 struct WebExceptionStatus;
@@ -16,17 +19,14 @@ struct WebExceptionStatus;
 namespace System::Runtime::Serialization {
 class SerializationInfo;
 }
-namespace System::Runtime::Serialization {
-class ISerializable;
+namespace System::Net {
+struct WebExceptionInternalStatus;
 }
 namespace System {
 class Exception;
 }
-namespace System::Net {
-class WebResponse;
-}
 namespace System::Runtime::Serialization {
-struct StreamingContext;
+class ISerializable;
 }
 // Forward declare root types
 namespace System::Net {
@@ -38,7 +38,7 @@ MARK_REF_PTR_T(::System::Net::WebException);
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 156, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9087)), TypeDefinitionIndex(TypeDefinitionIndex(9086)), TypeDefinitionIndex(TypeDefinitionIndex(2427))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2427)), TypeDefinitionIndex(TypeDefinitionIndex(9087)), TypeDefinitionIndex(TypeDefinitionIndex(9086))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9085))
 // CS Name: ::System.Net::WebException*
 class CORDL_TYPE WebException : public ::System::InvalidOperationException {

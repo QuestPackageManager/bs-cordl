@@ -7,14 +7,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(HEU_TOPNetworkData)
+namespace HoudiniEngineUnity {
+class HEU_TOPNodeData;
+}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace HoudiniEngineUnity {
 class TOPNodeTags;
-}
-namespace HoudiniEngineUnity {
-class HEU_TOPNodeData;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {

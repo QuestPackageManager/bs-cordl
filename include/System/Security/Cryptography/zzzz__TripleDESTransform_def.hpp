@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(TripleDESTransform)
 namespace System::Security::Cryptography {
-class DESTransform;
+class TripleDES;
 }
 namespace System::Security::Cryptography {
-class TripleDES;
+class DESTransform;
 }
 // Forward declare root types
 namespace System::Security::Cryptography {

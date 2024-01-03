@@ -14,43 +14,40 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(VisualTreeAsset)
 namespace UnityEngine::UIElements {
-struct __VisualTreeAsset____c__DisplayClass49_0;
+class __VisualTreeAsset__UsingEntryComparer;
 }
 namespace UnityEngine::UIElements {
-class StyleSheet;
+struct __VisualTreeAsset__SlotUsageEntry;
+}
+namespace UnityEngine::UIElements {
+class TemplateAsset;
+}
+namespace UnityEngine::UIElements {
+class __VisualTreeAsset____c__DisplayClass45_0;
 }
 namespace UnityEngine::UIElements {
 class __VisualTreeAsset___get_stylesheets_d__21;
 }
 namespace UnityEngine::UIElements {
-struct __VisualTreeAsset__SlotDefinition;
+class VisualElement;
 }
 namespace UnityEngine::UIElements {
-struct __VisualTreeAsset__SlotUsageEntry;
+struct __TemplateAsset__AttributeOverride;
 }
 namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace UnityEngine::UIElements {
-struct CreationContext;
-}
-namespace UnityEngine::UIElements {
-class __VisualTreeAsset__UsingEntryComparer;
-}
-namespace UnityEngine::UIElements {
-struct __VisualTreeAsset__UsingEntry;
+template <typename T> class IEnumerable_1;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace UnityEngine::UIElements {
-class __VisualTreeAsset____c__DisplayClass45_0;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
+struct __VisualTreeAsset____c__DisplayClass49_0;
 }
 namespace UnityEngine::UIElements {
-class VisualElement;
+struct CreationContext;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace UnityEngine::UIElements {
 class VisualElementAsset;
@@ -59,22 +56,19 @@ namespace UnityEngine::UIElements {
 class TemplateContainer;
 }
 namespace UnityEngine::UIElements {
-class TemplateAsset;
-}
-namespace UnityEngine::UIElements {
-struct __TemplateAsset__AttributeOverride;
-}
-namespace UnityEngine::UIElements {
 class __VisualTreeAsset___get_templateDependencies_d__17;
+}
+namespace UnityEngine::UIElements {
+struct __VisualTreeAsset__SlotDefinition;
+}
+namespace UnityEngine::UIElements {
+class StyleSheet;
+}
+namespace UnityEngine::UIElements {
+struct __VisualTreeAsset__UsingEntry;
 }
 namespace System::Collections::Generic {
 template <typename T> class IComparer_1;
-}
-namespace System {
-class IDisposable;
-}
-namespace System::Collections {
-class IEnumerator;
 }
 namespace System::Collections {
 class IEnumerable;
@@ -87,6 +81,12 @@ template <typename T> class IEnumerator_1;
 }
 namespace System {
 class Object;
+}
+namespace System::Collections {
+class IEnumerator;
+}
+namespace System {
+class IDisposable;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -295,8 +295,9 @@ static_assert(offsetof(::UnityEngine::UIElements::__VisualTreeAsset__SlotUsageEn
 // SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7003)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3842), inst: 1698
-// }), TypeDefinitionIndex(TypeDefinitionIndex(3842))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7007)) CS Name: ::VisualTreeAsset::<get_templateDependencies>d__17*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7003)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3842)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3842), inst: 1698 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(7007)) CS Name:
+// ::VisualTreeAsset::<get_templateDependencies>d__17*
 class CORDL_TYPE __VisualTreeAsset___get_templateDependencies_d__17 : public ::System::Object {
 public:
   // Declarations
@@ -485,10 +486,9 @@ static_assert(offsetof(::UnityEngine::UIElements::__VisualTreeAsset___get_templa
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3842)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3842), inst: 1696 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(7279)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3842), inst: 1694 }), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(3842), inst: 397 }), TypeDefinitionIndex(TypeDefinitionIndex(7013)), TypeDefinitionIndex(TypeDefinitionIndex(2613))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7008)) CS
-// Name: ::VisualTreeAsset::<get_stylesheets>d__21*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3842), inst: 1696 }), GenericInstantiation(GenericInstantiation {
+// tdi: TypeDefinitionIndex(3842), inst: 1694 }), TypeDefinitionIndex(TypeDefinitionIndex(3842)), TypeDefinitionIndex(TypeDefinitionIndex(7279)), TypeDefinitionIndex(TypeDefinitionIndex(7013)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3842), inst: 397 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(7008)) CS Name: ::VisualTreeAsset::<get_stylesheets>d__21*
 class CORDL_TYPE __VisualTreeAsset___get_stylesheets_d__21 : public ::System::Object {
 public:
   // Declarations

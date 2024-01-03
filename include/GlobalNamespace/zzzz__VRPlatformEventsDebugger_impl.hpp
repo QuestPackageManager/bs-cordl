@@ -1,10 +1,10 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__VRPlatformEventsDebugger_def.hpp"
-#include "Zenject/zzzz__IInitializable_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "GlobalNamespace/zzzz__IVerboseLogger_def.hpp"
 #include "GlobalNamespace/zzzz__IVRPlatformHelper_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
+#include "Zenject/zzzz__IInitializable_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::VRPlatformEventsDebugger.get_loggerPrefix
 template <>
 

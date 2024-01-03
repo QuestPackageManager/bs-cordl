@@ -11,10 +11,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(AnimationEvent)
 namespace UnityEngine {
-class AnimationState;
+class Object;
 }
 namespace UnityEngine {
-class Object;
+class AnimationState;
 }
 // Forward declare root types
 namespace UnityEngine {

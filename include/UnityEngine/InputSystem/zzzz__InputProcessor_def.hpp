@@ -9,11 +9,11 @@ CORDL_MODULE_EXPORT(InputProcessor)
 namespace System {
 class Object;
 }
-namespace UnityEngine::InputSystem {
-class InputControl;
-}
 namespace System {
 class Type;
+}
+namespace UnityEngine::InputSystem {
+class InputControl;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem {

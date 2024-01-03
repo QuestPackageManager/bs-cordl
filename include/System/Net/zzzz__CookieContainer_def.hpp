@@ -9,25 +9,25 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(CookieContainer)
 namespace System::Net {
-class Cookie;
+class PathList;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace System::Net {
+class CookieCollection;
+}
+namespace System {
+class Uri;
+}
+namespace System::Net {
+struct HeaderVariantInfo;
 }
 namespace System::Collections {
 class Hashtable;
 }
 namespace System::Net {
-class CookieCollection;
-}
-namespace System::Net {
-class PathList;
-}
-namespace System::Net {
-struct HeaderVariantInfo;
-}
-namespace System {
-class Uri;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+class Cookie;
 }
 // Forward declare root types
 namespace System::Net {

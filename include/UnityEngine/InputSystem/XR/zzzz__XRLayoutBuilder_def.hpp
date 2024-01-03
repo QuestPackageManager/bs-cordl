@@ -8,17 +8,20 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(XRLayoutBuilder)
+namespace UnityEngine::InputSystem::Layouts {
+struct InputDeviceDescription;
+}
 namespace UnityEngine::InputSystem::XR {
-struct FeatureType;
+struct XRFeatureDescriptor;
 }
 namespace UnityEngine::InputSystem::XR {
 class __XRLayoutBuilder____c__DisplayClass5_0;
 }
+namespace UnityEngine::InputSystem::XR {
+struct FeatureType;
+}
 namespace UnityEngine::InputSystem::Layouts {
 class InputControlLayout;
-}
-namespace UnityEngine::InputSystem::LowLevel {
-class InputDeviceExecuteCommandDelegate;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
@@ -26,11 +29,8 @@ template <typename T> class List_1;
 namespace UnityEngine::InputSystem::XR {
 class XRDeviceDescriptor;
 }
-namespace UnityEngine::InputSystem::Layouts {
-struct InputDeviceDescription;
-}
-namespace UnityEngine::InputSystem::XR {
-struct XRFeatureDescriptor;
+namespace UnityEngine::InputSystem::LowLevel {
+class InputDeviceExecuteCommandDelegate;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::XR {

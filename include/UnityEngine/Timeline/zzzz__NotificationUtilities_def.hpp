@@ -6,10 +6,7 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(NotificationUtilities)
 namespace UnityEngine::Timeline {
-class IMarker;
-}
-namespace UnityEngine::Playables {
-template <typename T> struct ScriptPlayable_1;
+class TimeNotificationBehaviour;
 }
 namespace UnityEngine::Playables {
 struct DirectorWrapMode;
@@ -18,13 +15,16 @@ namespace UnityEngine::Playables {
 struct PlayableGraph;
 }
 namespace UnityEngine::Timeline {
-class TimeNotificationBehaviour;
-}
-namespace System {
-class Type;
+class IMarker;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
+}
+namespace UnityEngine::Playables {
+template <typename T> struct ScriptPlayable_1;
+}
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace UnityEngine::Timeline {

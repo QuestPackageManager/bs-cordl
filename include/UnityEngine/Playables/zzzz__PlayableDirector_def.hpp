@@ -7,34 +7,34 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(PlayableDirector)
 namespace UnityEngine {
-struct PropertyName;
-}
-namespace UnityEngine {
-class ScriptableObject;
-}
-namespace UnityEngine::Playables {
-struct DirectorWrapMode;
-}
-namespace UnityEngine::Playables {
-struct FrameRate;
-}
-namespace UnityEngine {
-class IExposedPropertyTable;
+class Object;
 }
 namespace System {
 template <typename T> class Action_1;
 }
-namespace UnityEngine::Playables {
-class PlayableAsset;
-}
 namespace UnityEngine {
-class Object;
+class IExposedPropertyTable;
+}
+namespace UnityEngine::Playables {
+struct FrameRate;
 }
 namespace UnityEngine::Playables {
 struct PlayableGraph;
 }
 namespace UnityEngine::Playables {
+struct DirectorWrapMode;
+}
+namespace UnityEngine {
+struct PropertyName;
+}
+namespace UnityEngine::Playables {
+class PlayableAsset;
+}
+namespace UnityEngine::Playables {
 struct PlayState;
+}
+namespace UnityEngine {
+class ScriptableObject;
 }
 // Forward declare root types
 namespace UnityEngine::Playables {

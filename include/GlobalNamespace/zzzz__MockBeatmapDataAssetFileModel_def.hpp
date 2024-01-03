@@ -11,26 +11,26 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(MockBeatmapDataAssetFileModel)
-namespace GlobalNamespace {
-class IPreviewBeatmapLevel;
+namespace System {
+template <typename T> class Action_1;
 }
 namespace System::Threading::Tasks {
 template <typename TResult> class Task_1;
 }
 namespace GlobalNamespace {
-struct GetAssetBundleFileResult;
+class IPreviewBeatmapLevel;
+}
+namespace GlobalNamespace {
+struct LevelDataAssetDownloadUpdate;
+}
+namespace GlobalNamespace {
+class IBeatmapDataAssetFileModel;
 }
 namespace GlobalNamespace {
 struct __MockBeatmapDataAssetFileModel___GetAssetBundleFileForPreviewLevelAsync_d__4;
 }
 namespace GlobalNamespace {
-class IBeatmapDataAssetFileModel;
-}
-namespace System {
-template <typename T> class Action_1;
-}
-namespace GlobalNamespace {
-struct LevelDataAssetDownloadUpdate;
+struct GetAssetBundleFileResult;
 }
 namespace System::Threading {
 struct CancellationToken;
@@ -58,8 +58,8 @@ MARK_VAL_T(::GlobalNamespace::__MockBeatmapDataAssetFileModel___GetAssetBundleFi
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 92, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 882 }), TypeDefinitionIndex(TypeDefinitionIndex(3402)),
-// TypeDefinitionIndex(TypeDefinitionIndex(4413)), TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3393))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4416))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4413)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 882 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(3393)), TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(2677))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4416))
 // CS Name: ::MockBeatmapDataAssetFileModel::<GetAssetBundleFileForPreviewLevelAsync>d__4
 struct CORDL_TYPE __MockBeatmapDataAssetFileModel___GetAssetBundleFileForPreviewLevelAsync_d__4 {
 public:

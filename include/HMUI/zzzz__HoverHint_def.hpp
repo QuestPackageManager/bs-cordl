@@ -6,26 +6,26 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(HoverHint)
+namespace HMUI {
+class HoverHintController;
+}
 namespace UnityEngine::EventSystems {
-class IPointerExitHandler;
+class PointerEventData;
 }
 namespace UnityEngine {
 struct Vector2;
 }
-namespace HMUI {
-class HoverHintController;
+namespace UnityEngine::EventSystems {
+class IEventSystemHandler;
+}
+namespace UnityEngine::EventSystems {
+class IPointerExitHandler;
 }
 namespace UnityEngine::EventSystems {
 class IPointerEnterHandler;
 }
 namespace UnityEngine {
 struct Vector3;
-}
-namespace UnityEngine::EventSystems {
-class PointerEventData;
-}
-namespace UnityEngine::EventSystems {
-class IEventSystemHandler;
 }
 // Forward declare root types
 namespace HMUI {

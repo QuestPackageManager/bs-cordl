@@ -9,12 +9,6 @@ CORDL_MODULE_EXPORT(SubContainerCreatorByNewGameObjectMethod_3)
 namespace Zenject {
 class DiContainer;
 }
-namespace Zenject {
-class GameObjectContext;
-}
-namespace Zenject {
-template <typename TParam1, typename TParam2, typename TParam3> class __SubContainerCreatorByNewGameObjectMethod_3____c__DisplayClass2_0;
-}
 namespace System {
 template <typename T1, typename T2, typename T3, typename T4> class Action_4;
 }
@@ -26,6 +20,12 @@ struct TypeValuePair;
 }
 namespace Zenject {
 class GameObjectCreationParameters;
+}
+namespace Zenject {
+class GameObjectContext;
+}
+namespace Zenject {
+template <typename TParam1, typename TParam2, typename TParam3> class __SubContainerCreatorByNewGameObjectMethod_3____c__DisplayClass2_0;
 }
 namespace System {
 class Object;

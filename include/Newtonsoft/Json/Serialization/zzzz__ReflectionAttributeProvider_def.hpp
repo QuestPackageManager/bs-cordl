@@ -4,6 +4,9 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(ReflectionAttributeProvider)
+namespace System {
+class Type;
+}
 namespace System::Collections::Generic {
 template <typename T> class IList_1;
 }
@@ -15,9 +18,6 @@ class Object;
 }
 namespace System {
 class Attribute;
-}
-namespace System {
-class Type;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Serialization {

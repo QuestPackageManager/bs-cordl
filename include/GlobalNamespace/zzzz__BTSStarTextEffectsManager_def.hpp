@@ -7,14 +7,14 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(BTSStarTextEffectsManager)
-namespace GlobalNamespace {
-class BTSStarTextEventEffect;
+namespace UnityEngine {
+class Transform;
 }
 namespace GlobalNamespace {
 class __BTSStarTextEffectsManager___DespawnEffectDelayed_d__5;
 }
-namespace System::Collections {
-class IEnumerator;
+namespace GlobalNamespace {
+class BTSStarTextEventEffect;
 }
 namespace GlobalNamespace {
 class __BTSStarTextEffectController__Pool;
@@ -22,17 +22,17 @@ class __BTSStarTextEffectController__Pool;
 namespace GlobalNamespace {
 class BTSStarTextEffectController;
 }
+namespace System::Collections {
+class IEnumerator;
+}
 namespace UnityEngine {
 class Sprite;
 }
-namespace UnityEngine {
-class Transform;
+namespace System {
+class IDisposable;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
-}
-namespace System {
-class IDisposable;
 }
 namespace System {
 class Object;

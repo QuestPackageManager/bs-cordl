@@ -2,10 +2,10 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__TutorialPause_def.hpp"
 #include "GlobalNamespace/zzzz__TutorialSongController_def.hpp"
-#include "GlobalNamespace/zzzz__AudioListenerController_def.hpp"
-#include "System/zzzz__Action_def.hpp"
-#include "GlobalNamespace/zzzz__SaberManager_def.hpp"
 #include "GlobalNamespace/zzzz__IGamePause_def.hpp"
+#include "GlobalNamespace/zzzz__SaberManager_def.hpp"
+#include "System/zzzz__Action_def.hpp"
+#include "GlobalNamespace/zzzz__AudioListenerController_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::TutorialPause.get_isPaused
 template <>
 

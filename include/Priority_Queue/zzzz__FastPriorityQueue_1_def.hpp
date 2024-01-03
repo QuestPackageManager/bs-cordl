@@ -7,26 +7,26 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(FastPriorityQueue_1)
-namespace System::Collections {
-class IEnumerator;
-}
 namespace Priority_Queue {
-template <typename TItem, typename TPriority> class IPriorityQueue_2;
+template <typename TItem, typename TPriority> class IFixedSizePriorityQueue_2;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
-namespace Priority_Queue {
-template <typename T> class __FastPriorityQueue_1___GetEnumerator_d__22;
-}
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
-namespace Priority_Queue {
-template <typename TItem, typename TPriority> class IFixedSizePriorityQueue_2;
+namespace System::Collections {
+class IEnumerator;
 }
 namespace System::Collections {
 class IEnumerable;
+}
+namespace Priority_Queue {
+template <typename T> class __FastPriorityQueue_1___GetEnumerator_d__22;
+}
+namespace Priority_Queue {
+template <typename TItem, typename TPriority> class IPriorityQueue_2;
 }
 namespace System {
 class Object;

@@ -5,10 +5,10 @@
 #include "UnityEngine/UIElements/zzzz__BindableElement_def.hpp"
 #include "UnityEngine/UIElements/zzzz__IBinding_def.hpp"
 #include "UnityEngine/UIElements/zzzz__IBindable_def.hpp"
-#include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
 #include "UnityEngine/UIElements/zzzz__UxmlStringAttributeDescription_def.hpp"
-#include "UnityEngine/UIElements/zzzz__IUxmlAttributes_def.hpp"
 #include "UnityEngine/UIElements/zzzz__CreationContext_def.hpp"
+#include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
+#include "UnityEngine/UIElements/zzzz__IUxmlAttributes_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::__BindableElement__UxmlTraits._ctor
 template <>
 

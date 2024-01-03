@@ -1,9 +1,9 @@
 #pragma once
 #include "GlobalNamespace/zzzz__RemoteProcedureCall_impl.hpp"
 #include "GlobalNamespace/zzzz__RemoteProcedureCall_2_def.hpp"
-#include "GlobalNamespace/zzzz__RemoteProcedureCall_def.hpp"
 #include "LiteNetLib/Utils/zzzz__NetDataWriter_def.hpp"
 #include "LiteNetLib/Utils/zzzz__NetDataReader_def.hpp"
+#include "GlobalNamespace/zzzz__RemoteProcedureCall_def.hpp"
 #include "GlobalNamespace/zzzz__IRemoteProcedureCall_def.hpp"
 template <typename T0, typename T1> constexpr ::GlobalNamespace::__RemoteProcedureCall__TypeWrapper_1<T0>*& GlobalNamespace::RemoteProcedureCall_2<T0, T1>::__get__value0() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));

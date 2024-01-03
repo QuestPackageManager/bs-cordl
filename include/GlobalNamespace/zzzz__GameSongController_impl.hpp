@@ -2,11 +2,11 @@
 #include "GlobalNamespace/zzzz__SongController_impl.hpp"
 #include "GlobalNamespace/zzzz__GameSongController_def.hpp"
 #include "GlobalNamespace/zzzz__AudioTimeSyncController_def.hpp"
-#include "GlobalNamespace/zzzz__AudioPitchGainEffect_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapCallbacksController_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapCallbacksUpdater_def.hpp"
-#include "UnityEngine/zzzz__WaitUntil_def.hpp"
+#include "GlobalNamespace/zzzz__AudioPitchGainEffect_def.hpp"
 #include "GlobalNamespace/zzzz__IStartSeekSongController_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapCallbacksController_def.hpp"
+#include "UnityEngine/zzzz__WaitUntil_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::GameSongController.get_songLength
 template <>
 

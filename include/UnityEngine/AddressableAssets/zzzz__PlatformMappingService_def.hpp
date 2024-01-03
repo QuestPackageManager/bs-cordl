@@ -8,11 +8,11 @@ CORDL_MODULE_EXPORT(PlatformMappingService)
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
-namespace UnityEngine::AddressableAssets {
-struct AddressablesPlatform;
-}
 namespace UnityEngine {
 struct RuntimePlatform;
+}
+namespace UnityEngine::AddressableAssets {
+struct AddressablesPlatform;
 }
 // Forward declare root types
 namespace UnityEngine::AddressableAssets {

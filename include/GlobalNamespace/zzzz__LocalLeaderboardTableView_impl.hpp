@@ -1,8 +1,8 @@
 #pragma once
 #include "GlobalNamespace/zzzz__LeaderboardTableView_impl.hpp"
 #include "GlobalNamespace/zzzz__LocalLeaderboardTableView_def.hpp"
-#include "GlobalNamespace/zzzz__LocalLeaderboardsModel_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "GlobalNamespace/zzzz__LocalLeaderboardsModel_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::LocalLeaderboardTableView.SetScores
 template <>
 

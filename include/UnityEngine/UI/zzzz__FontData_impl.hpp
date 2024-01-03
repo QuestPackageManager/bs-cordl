@@ -7,10 +7,10 @@
 #include "UnityEngine/UI/zzzz__FontData_def.hpp"
 #include "UnityEngine/zzzz__ISerializationCallbackReceiver_def.hpp"
 #include "UnityEngine/zzzz__HorizontalWrapMode_def.hpp"
-#include "UnityEngine/zzzz__Font_def.hpp"
-#include "UnityEngine/zzzz__FontStyle_def.hpp"
-#include "UnityEngine/zzzz__TextAnchor_def.hpp"
 #include "UnityEngine/zzzz__VerticalWrapMode_def.hpp"
+#include "UnityEngine/zzzz__Font_def.hpp"
+#include "UnityEngine/zzzz__TextAnchor_def.hpp"
+#include "UnityEngine/zzzz__FontStyle_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UI::FontData.get_defaultFontData
 template <>
 

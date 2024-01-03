@@ -7,7 +7,7 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(KdfFeedbackBytesGenerator)
 namespace Org::BouncyCastle::Crypto {
-class IDerivationFunction;
+class IMac;
 }
 namespace Org::BouncyCastle::Crypto {
 class IMacDerivationFunction;
@@ -16,7 +16,7 @@ namespace Org::BouncyCastle::Math {
 class BigInteger;
 }
 namespace Org::BouncyCastle::Crypto {
-class IMac;
+class IDerivationFunction;
 }
 namespace Org::BouncyCastle::Crypto {
 class IDigest;

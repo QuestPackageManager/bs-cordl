@@ -6,23 +6,23 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Tnaf)
+namespace Org::BouncyCastle::Math::EC {
+class ECFieldElement;
+}
 namespace Org::BouncyCastle::Math::EC::Abc {
 class ZTauElement;
+}
+namespace Org::BouncyCastle::Math {
+class BigInteger;
 }
 namespace Org::BouncyCastle::Math::EC {
 class AbstractF2mCurve;
 }
 namespace Org::BouncyCastle::Math::EC {
-class ECFieldElement;
-}
-namespace Org::BouncyCastle::Math {
-class BigInteger;
+class AbstractF2mPoint;
 }
 namespace Org::BouncyCastle::Math::EC::Abc {
 class SimpleBigDecimal;
-}
-namespace Org::BouncyCastle::Math::EC {
-class AbstractF2mPoint;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Math::EC::Abc {

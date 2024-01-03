@@ -1,12 +1,12 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__GameServersFilterText_def.hpp"
-#include "GlobalNamespace/zzzz__SongPackMasksModel_def.hpp"
-#include "GlobalNamespace/zzzz__SongPackMask_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapDifficultyMask_def.hpp"
-#include "HMUI/zzzz__CurvedTextMeshPro_def.hpp"
 #include "System/Text/zzzz__StringBuilder_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapDifficultyMask_def.hpp"
+#include "GlobalNamespace/zzzz__SongPackMask_def.hpp"
+#include "HMUI/zzzz__CurvedTextMeshPro_def.hpp"
 #include "GlobalNamespace/zzzz__GameServersFilter_def.hpp"
+#include "GlobalNamespace/zzzz__SongPackMasksModel_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::GameServersFilterText.Setup
 template <>
 

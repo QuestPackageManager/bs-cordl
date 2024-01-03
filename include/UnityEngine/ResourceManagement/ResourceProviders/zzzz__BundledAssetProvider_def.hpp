@@ -10,13 +10,13 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(BundledAssetProvider)
 namespace UnityEngine::ResourceManagement::ResourceProviders {
-struct ProvideHandle;
-}
-namespace UnityEngine::ResourceManagement::ResourceProviders {
 class __BundledAssetProvider__InternalOp;
 }
+namespace UnityEngine::ResourceManagement::ResourceProviders {
+struct ProvideHandle;
+}
 namespace UnityEngine {
-class Object;
+class AssetBundleRequest;
 }
 namespace System {
 class Object;
@@ -25,13 +25,13 @@ namespace System::Collections::Generic {
 template <typename T> class IList_1;
 }
 namespace UnityEngine {
-class AssetBundleRequest;
-}
-namespace UnityEngine {
-class AssetBundle;
+class Object;
 }
 namespace UnityEngine {
 class AsyncOperation;
+}
+namespace UnityEngine {
+class AssetBundle;
 }
 // Forward declare root types
 namespace UnityEngine::ResourceManagement::ResourceProviders {

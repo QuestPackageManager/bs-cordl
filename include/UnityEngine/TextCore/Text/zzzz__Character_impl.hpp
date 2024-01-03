@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/TextCore/Text/zzzz__TextElement_impl.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__Character_def.hpp"
-#include "UnityEngine/TextCore/zzzz__Glyph_def.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__FontAsset_def.hpp"
+#include "UnityEngine/TextCore/zzzz__Glyph_def.hpp"
 //  Writing Method size for method: ::UnityEngine::TextCore::Text::Character._ctor
 template <>
 

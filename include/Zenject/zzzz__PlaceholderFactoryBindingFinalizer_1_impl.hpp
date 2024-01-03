@@ -2,8 +2,8 @@
 #include "Zenject/zzzz__ProviderBindingFinalizer_impl.hpp"
 #include "Zenject/zzzz__PlaceholderFactoryBindingFinalizer_1_def.hpp"
 #include "Zenject/zzzz__FactoryBindInfo_def.hpp"
-#include "Zenject/zzzz__DiContainer_def.hpp"
 #include "Zenject/zzzz__BindInfo_def.hpp"
+#include "Zenject/zzzz__DiContainer_def.hpp"
 template <typename TContract> constexpr ::Zenject::FactoryBindInfo*& Zenject::PlaceholderFactoryBindingFinalizer_1<TContract>::__get__factoryBindInfo() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____factoryBindInfo;

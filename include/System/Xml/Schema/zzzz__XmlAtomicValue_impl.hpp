@@ -5,13 +5,13 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__TypeCode_impl.hpp"
 #include "System/Xml/Schema/zzzz__XmlAtomicValue_def.hpp"
-#include "System/Xml/zzzz__IXmlNamespaceResolver_def.hpp"
-#include "System/Xml/Schema/zzzz__XmlSchemaType_def.hpp"
 #include "System/Xml/Schema/zzzz__XmlAtomicValue_def.hpp"
-#include "System/zzzz__Object_def.hpp"
-#include "System/zzzz__DateTime_def.hpp"
 #include "System/zzzz__ICloneable_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+#include "System/Xml/Schema/zzzz__XmlSchemaType_def.hpp"
+#include "System/Xml/zzzz__IXmlNamespaceResolver_def.hpp"
 #include "System/zzzz__Type_def.hpp"
+#include "System/zzzz__DateTime_def.hpp"
 constexpr bool& System::Xml::Schema::__XmlAtomicValue__Union::__get_boolVal() {
   return this->___boolVal;
 }

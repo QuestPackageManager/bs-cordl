@@ -2,9 +2,9 @@
 #include "GlobalNamespace/zzzz__ScoreMultiplierCounter_impl.hpp"
 #include "GlobalNamespace/zzzz__ScoringElement_impl.hpp"
 #include "GlobalNamespace/zzzz__MissScoringElement_def.hpp"
-#include "GlobalNamespace/zzzz__MissScoringElement_def.hpp"
 #include "GlobalNamespace/zzzz__ScoreMultiplierCounter_def.hpp"
 #include "GlobalNamespace/zzzz__NoteData_def.hpp"
+#include "GlobalNamespace/zzzz__MissScoringElement_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::MissScoringElement.get_cutScore
 template <>
 

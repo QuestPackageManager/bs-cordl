@@ -8,25 +8,25 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(FireEffect)
 namespace GlobalNamespace {
-class BloomPrePassBackgroundNonLightRenderer;
+class MaterialPropertyBlockController;
 }
 namespace GlobalNamespace {
 class LightColorBeatmapEventData;
 }
 namespace GlobalNamespace {
-class ColorSO;
+class BloomPrePassBackgroundNonLightRenderer;
 }
 namespace GlobalNamespace {
 class LightWithIdManager;
 }
 namespace GlobalNamespace {
-class BeatmapDataCallbackWrapper;
-}
-namespace GlobalNamespace {
-class MaterialPropertyBlockController;
-}
-namespace GlobalNamespace {
 class BeatmapCallbacksController;
+}
+namespace GlobalNamespace {
+class ColorSO;
+}
+namespace GlobalNamespace {
+class BeatmapDataCallbackWrapper;
 }
 // Forward declare root types
 namespace GlobalNamespace {

@@ -5,8 +5,8 @@ CORDL_MODULE_INIT
 #include "System/zzzz__MulticastDelegate_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ExtensionDataGetter)
-namespace System {
-class Object;
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> struct KeyValuePair_2;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
@@ -17,8 +17,8 @@ class AsyncCallback;
 namespace System {
 class IAsyncResult;
 }
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> struct KeyValuePair_2;
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Serialization {

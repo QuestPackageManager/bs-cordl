@@ -8,32 +8,32 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(LeaderboardScoreUploader)
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace System {
+class Action;
 }
 namespace GlobalNamespace {
 class __LeaderboardScoreUploader__UploadScoreCallback;
 }
 namespace GlobalNamespace {
-class __LeaderboardScoreUploader____c__DisplayClass16_0;
-}
-namespace GlobalNamespace {
 class __LeaderboardScoreUploader__ScoresToUploadData;
 }
 namespace GlobalNamespace {
-class __LeaderboardScoreUploader___UploadScoresCoroutine_d__16;
-}
-namespace System::Collections {
-class IEnumerator;
+class __LeaderboardScoreUploader____c__DisplayClass16_0;
 }
 namespace GlobalNamespace {
 class __LeaderboardScoreUploader__ScoreData;
 }
 namespace GlobalNamespace {
+class __LeaderboardScoreUploader___UploadScoresCoroutine_d__16;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace GlobalNamespace {
 class ISaveData;
 }
-namespace System {
-class Action;
+namespace System::Collections {
+class IEnumerator;
 }
 namespace GlobalNamespace {
 class IDifficultyBeatmap;
@@ -41,20 +41,20 @@ class IDifficultyBeatmap;
 namespace GlobalNamespace {
 class GameplayModifiers;
 }
-namespace GlobalNamespace {
-class HMAsyncRequest;
-}
-namespace System {
-class AsyncCallback;
-}
-namespace GlobalNamespace {
-class __PlatformLeaderboardsModel__UploadScoreCompletionHandler;
-}
 namespace System {
 class Object;
 }
 namespace System {
+class AsyncCallback;
+}
+namespace System {
 class IAsyncResult;
+}
+namespace GlobalNamespace {
+class __PlatformLeaderboardsModel__UploadScoreCompletionHandler;
+}
+namespace GlobalNamespace {
+class HMAsyncRequest;
 }
 namespace System {
 class IDisposable;

@@ -5,20 +5,20 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(PkiArchiveControl)
-namespace Org::BouncyCastle::Asn1::Crmf {
-class PkiArchiveOptions;
+namespace Org::BouncyCastle::Asn1 {
+class DerObjectIdentifier;
+}
+namespace Org::BouncyCastle::Cms {
+class CmsEnvelopedData;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Encodable;
 }
-namespace Org::BouncyCastle::Asn1 {
-class DerObjectIdentifier;
+namespace Org::BouncyCastle::Asn1::Crmf {
+class PkiArchiveOptions;
 }
 namespace Org::BouncyCastle::Crmf {
 class IControl;
-}
-namespace Org::BouncyCastle::Cms {
-class CmsEnvelopedData;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crmf {

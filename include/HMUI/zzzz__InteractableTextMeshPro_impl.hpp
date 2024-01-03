@@ -1,9 +1,9 @@
 #pragma once
 #include "UnityEngine/EventSystems/zzzz__UIBehaviour_impl.hpp"
 #include "HMUI/zzzz__InteractableTextMeshPro_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "TMPro/zzzz__TextMeshProUGUI_def.hpp"
 #include "UnityEngine/zzzz__CanvasGroup_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 //  Writing Method size for method: ::HMUI::InteractableTextMeshPro.OnCanvasGroupChanged
 template <>
 

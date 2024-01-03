@@ -4,14 +4,14 @@
 CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(IDragAndDropController_1)
-namespace UnityEngine::UIElements {
-struct DragVisualMode;
-}
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
 namespace UnityEngine::UIElements {
 class StartDragArgs;
+}
+namespace UnityEngine::UIElements {
+struct DragVisualMode;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

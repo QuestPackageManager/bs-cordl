@@ -7,11 +7,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(SecureStringHasher)
-namespace System::Xml {
-class __SecureStringHasher__HashCodeOfStringDelegate;
-}
 namespace System::Collections::Generic {
 template <typename T> class IEqualityComparer_1;
+}
+namespace System::Xml {
+class __SecureStringHasher__HashCodeOfStringDelegate;
 }
 namespace System {
 class Object;

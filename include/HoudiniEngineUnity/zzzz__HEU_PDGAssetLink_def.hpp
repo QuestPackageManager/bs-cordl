@@ -15,13 +15,25 @@ namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace HoudiniEngineUnity {
+class HEU_SessionBase;
+}
+namespace HoudiniEngineUnity {
+class HEU_TOPNetworkData;
+}
+namespace HoudiniEngineUnity {
 struct HAPI_PDG_WorkitemResultInfo;
 }
-namespace HoudiniEngineUnity {
-class HEU_CookedEventData;
+namespace UnityEngine {
+class Transform;
 }
 namespace HoudiniEngineUnity {
-class HEU_TOPWorkResult;
+struct HAPI_NodeInfo;
+}
+namespace HoudiniEngineUnity {
+struct HAPI_PDG_WorkitemInfo;
+}
+namespace HoudiniEngineUnity {
+struct __HEU_PDGAssetLink__LinkState;
 }
 namespace UnityEngine {
 class ISerializationCallbackReceiver;
@@ -30,49 +42,37 @@ namespace HoudiniEngineUnity {
 class HEU_ReloadEventData;
 }
 namespace HoudiniEngineUnity {
-struct HAPI_NodeInfo;
-}
-namespace HoudiniEngineUnity {
-struct __HEU_PDGAssetLink__LinkState;
-}
-namespace HoudiniEngineUnity {
 class TOPNodeTags;
 }
 namespace HoudiniEngineUnity {
-class HEU_WorkItemTally;
+class HEU_CookedEventData;
 }
 namespace HoudiniEngineUnity {
 class HEU_HoudiniAsset;
-}
-namespace HoudiniEngineUnity {
-struct HAPI_PDG_WorkitemInfo;
 }
 namespace UnityEngine {
 class GameObject;
 }
 namespace HoudiniEngineUnity {
-class HEU_TOPNodeData;
-}
-namespace HoudiniEngineUnity {
-class HEU_TOPNetworkData;
-}
-namespace UnityEngine {
-class Transform;
-}
-namespace HoudiniEngineUnity {
-class HEU_SessionBase;
+class HEU_WorkItemTally;
 }
 namespace HoudiniEngineUnity {
 class __HEU_PDGAssetLink__UpdateUIDelegate;
+}
+namespace HoudiniEngineUnity {
+class HEU_TOPWorkResult;
+}
+namespace HoudiniEngineUnity {
+class HEU_TOPNodeData;
+}
+namespace System {
+class Object;
 }
 namespace System {
 class AsyncCallback;
 }
 namespace System {
 class IAsyncResult;
-}
-namespace System {
-class Object;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {

@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(RelativeSfxVolumePerLevelModel)
-namespace GlobalNamespace {
-class RelativeSfxVolumePerLevelSO;
-}
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace GlobalNamespace {
+class RelativeSfxVolumePerLevelSO;
 }
 // Forward declare root types
 namespace GlobalNamespace {

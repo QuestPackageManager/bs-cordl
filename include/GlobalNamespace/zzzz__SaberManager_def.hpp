@@ -7,16 +7,16 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(SaberManager)
 namespace GlobalNamespace {
-class Saber;
+class __SaberManager__InitData;
+}
+namespace System {
+template <typename T1, typename T2> class Action_2;
 }
 namespace GlobalNamespace {
 struct SaberType;
 }
 namespace GlobalNamespace {
-class __SaberManager__InitData;
-}
-namespace System {
-template <typename T1, typename T2> class Action_2;
+class Saber;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -32,7 +32,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__SaberManager__InitData);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15036)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15036))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5295))
 // CS Name: ::SaberManager::InitData*
 class CORDL_TYPE __SaberManager__InitData : public ::System::Object {

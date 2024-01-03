@@ -1,12 +1,12 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "VRUIControls/zzzz__VRPointer_def.hpp"
-#include "VRUIControls/zzzz__VRLaserPointer_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__PointerEventData_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
 #include "UnityEngine/EventSystems/zzzz__EventSystem_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__PointerEventData_def.hpp"
 #include "GlobalNamespace/zzzz__VRController_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "VRUIControls/zzzz__VRLaserPointer_def.hpp"
 //  Writing Method size for method: ::VRUIControls::VRPointer.get_lastSelectedVrController
 template <>
 

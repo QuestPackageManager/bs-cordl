@@ -8,17 +8,17 @@ CORDL_MODULE_EXPORT(StyleMatchingContext)
 namespace UnityEngine::UIElements {
 class StyleSheet;
 }
-namespace UnityEngine::UIElements {
-class StyleVariableContext;
+namespace System {
+template <typename T1, typename T2> class Action_2;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace UnityEngine::UIElements {
-class VisualElement;
+class StyleVariableContext;
 }
-namespace System {
-template <typename T1, typename T2> class Action_2;
+namespace UnityEngine::UIElements {
+class VisualElement;
 }
 namespace UnityEngine::UIElements::StyleSheets {
 struct MatchResultInfo;

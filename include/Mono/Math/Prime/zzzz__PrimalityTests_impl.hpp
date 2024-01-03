@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "Mono/Math/Prime/zzzz__PrimalityTests_def.hpp"
-#include "Mono/Math/zzzz__BigInteger_def.hpp"
 #include "Mono/Math/Prime/zzzz__ConfidenceFactor_def.hpp"
+#include "Mono/Math/zzzz__BigInteger_def.hpp"
 //  Writing Method size for method: ::Mono::Math::Prime::PrimalityTests.GetSPPRounds
 template <>
 

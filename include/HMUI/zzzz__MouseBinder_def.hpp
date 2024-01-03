@@ -10,6 +10,15 @@ CORDL_MODULE_EXPORT(MouseBinder)
 namespace HMUI {
 struct __MouseBinder__ButtonType;
 }
+namespace UnityEngine::Events {
+template <typename T0> class UnityAction_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace System {
+template <typename T1, typename T2, typename T3> struct ValueTuple_3;
+}
 namespace System {
 template <typename T1, typename T2, typename T3> class Tuple_3;
 }
@@ -17,16 +26,7 @@ namespace HMUI {
 struct __MouseBinder__MouseEventType;
 }
 namespace UnityEngine::Events {
-template <typename T0> class UnityAction_1;
-}
-namespace UnityEngine::Events {
 class UnityAction;
-}
-namespace System {
-template <typename T1, typename T2, typename T3> struct ValueTuple_3;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
 }
 // Forward declare root types
 namespace HMUI {

@@ -10,17 +10,17 @@ CORDL_MODULE_EXPORT(FlyingObjectEffect)
 namespace UnityEngine {
 struct Vector3;
 }
-namespace UnityEngine {
-struct Quaternion;
-}
-namespace UnityEngine {
-class AnimationCurve;
-}
 namespace GlobalNamespace {
 class IFlyingObjectEffectDidFinishEvent;
 }
 namespace GlobalNamespace {
 template <typename T> class ILazyCopyHashSet_1;
+}
+namespace UnityEngine {
+class AnimationCurve;
+}
+namespace UnityEngine {
+struct Quaternion;
 }
 namespace GlobalNamespace {
 template <typename T> class LazyCopyHashSet_1;

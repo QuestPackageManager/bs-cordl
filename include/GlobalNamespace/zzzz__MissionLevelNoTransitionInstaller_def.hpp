@@ -8,7 +8,13 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(MissionLevelNoTransitionInstaller)
 namespace GlobalNamespace {
+class BeatmapCharacteristicSO;
+}
+namespace GlobalNamespace {
 class ColorSchemeSO;
+}
+namespace GlobalNamespace {
+class MissionObjective;
 }
 namespace GlobalNamespace {
 class GameplayModifiers;
@@ -19,17 +25,11 @@ class BeatmapLevelSO;
 namespace GlobalNamespace {
 class PlayerSpecificSettings;
 }
-namespace Zenject {
-class DiContainer;
-}
-namespace GlobalNamespace {
-class BeatmapCharacteristicSO;
-}
 namespace GlobalNamespace {
 class MissionLevelScenesTransitionSetupDataSO;
 }
-namespace GlobalNamespace {
-class MissionObjective;
+namespace Zenject {
+class DiContainer;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -41,7 +41,7 @@ MARK_REF_PTR_T(::GlobalNamespace::MissionLevelNoTransitionInstaller);
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14717)), TypeDefinitionIndex(TypeDefinitionIndex(11176))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11176)), TypeDefinitionIndex(TypeDefinitionIndex(14717))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6039))
 // CS Name: ::MissionLevelNoTransitionInstaller*
 class CORDL_TYPE MissionLevelNoTransitionInstaller : public ::Zenject::NoTransitionInstaller {

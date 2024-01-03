@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Utilities/Zlib/zzzz__Deflate_def.hpp"
-#include "Org/BouncyCastle/Utilities/Zlib/zzzz__Deflate_def.hpp"
 #include "Org/BouncyCastle/Utilities/Zlib/zzzz__ZStream_def.hpp"
+#include "Org/BouncyCastle/Utilities/Zlib/zzzz__Deflate_def.hpp"
 #include "Org/BouncyCastle/Utilities/Zlib/zzzz__Tree_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Utilities::Zlib::__Deflate__Config._ctor
 template <>

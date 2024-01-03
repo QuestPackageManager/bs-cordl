@@ -83,7 +83,7 @@ static_assert(offsetof(::HoudiniEngineUnity::__HEU_HandleParamBinding__HEU_Handl
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9683))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9683)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9684))
 // CS Name: ::HoudiniEngineUnity::HEU_HandleParamBinding*
 class CORDL_TYPE HEU_HandleParamBinding : public ::System::Object {

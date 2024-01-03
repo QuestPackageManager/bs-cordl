@@ -2,9 +2,9 @@
 #include "System/zzzz__ConsoleKey_impl.hpp"
 #include "System/zzzz__ConsoleModifiers_impl.hpp"
 #include "System/zzzz__ConsoleKeyInfo_def.hpp"
-#include "System/zzzz__ConsoleKey_def.hpp"
 #include "System/zzzz__ConsoleModifiers_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "System/zzzz__ConsoleKey_def.hpp"
 //  Writing Method size for method: ::System::ConsoleKeyInfo._ctor
 template <>
 

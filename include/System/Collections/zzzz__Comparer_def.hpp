@@ -5,6 +5,9 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Comparer)
+namespace System::Globalization {
+class CompareInfo;
+}
 namespace System::Runtime::Serialization {
 struct StreamingContext;
 }
@@ -17,14 +20,11 @@ class Object;
 namespace System::Runtime::Serialization {
 class SerializationInfo;
 }
-namespace System::Collections {
-class IComparer;
-}
-namespace System::Globalization {
-class CompareInfo;
-}
 namespace System::Globalization {
 class CultureInfo;
+}
+namespace System::Collections {
+class IComparer;
 }
 // Forward declare root types
 namespace System::Collections {

@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(TrackLaneRingsPositionStepEffectSpawner)
 namespace GlobalNamespace {
-class BeatmapCallbacksController;
+class TrackLaneRingsManager;
 }
 namespace GlobalNamespace {
-class TrackLaneRingsManager;
+class BeatmapCallbacksController;
 }
 namespace GlobalNamespace {
 class BeatmapDataCallbackWrapper;
@@ -28,7 +28,7 @@ MARK_REF_PTR_T(::GlobalNamespace::TrackLaneRingsPositionStepEffectSpawner);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14724)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(14724))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5005))
 // CS Name: ::TrackLaneRingsPositionStepEffectSpawner*
 class CORDL_TYPE TrackLaneRingsPositionStepEffectSpawner : public ::UnityEngine::MonoBehaviour {

@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 CORDL_MODULE_EXPORT(HEU_InstancedInput)
-namespace HoudiniEngineUnity {
-template <typename T> class IEquivable_1;
-}
 namespace UnityEngine {
 class GameObject;
+}
+namespace HoudiniEngineUnity {
+template <typename T> class IEquivable_1;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {

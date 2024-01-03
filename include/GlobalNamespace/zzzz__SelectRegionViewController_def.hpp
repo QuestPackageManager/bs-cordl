@@ -10,26 +10,26 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(SelectRegionViewController)
-namespace HMUI {
-class DropdownWithTableView;
-}
-namespace GlobalNamespace {
-struct __SelectRegionViewController__Region;
-}
-namespace GlobalNamespace {
-struct __SelectRegionViewController__RegionToLocalizationKeyPair;
-}
 namespace UnityEngine::UI {
 class Button;
 }
 namespace HMUI {
 class SimpleTextDropdown;
 }
+namespace HMUI {
+class DropdownWithTableView;
+}
 namespace System {
 template <typename T> class Action_1;
 }
 namespace GlobalNamespace {
 class __SelectRegionViewController____c;
+}
+namespace GlobalNamespace {
+struct __SelectRegionViewController__Region;
+}
+namespace GlobalNamespace {
+struct __SelectRegionViewController__RegionToLocalizationKeyPair;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;

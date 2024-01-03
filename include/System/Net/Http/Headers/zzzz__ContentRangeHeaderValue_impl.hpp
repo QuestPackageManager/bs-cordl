@@ -3,8 +3,8 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/Http/Headers/zzzz__ContentRangeHeaderValue_def.hpp"
 #include "System/zzzz__ICloneable_def.hpp"
-#include "System/zzzz__Nullable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "System/zzzz__Nullable_1_def.hpp"
 //  Writing Method size for method: ::System::Net::Http::Headers::ContentRangeHeaderValue._ctor
 template <>
 

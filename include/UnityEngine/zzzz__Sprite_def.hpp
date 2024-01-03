@@ -9,7 +9,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Sprite)
 namespace UnityEngine {
-struct Vector4;
+class Texture2D;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace UnityEngine {
+struct Bounds;
+}
+namespace UnityEngine {
+struct Rect;
 }
 namespace System::Collections::Generic {
 template <typename T> class IList_1;
@@ -18,25 +27,16 @@ namespace UnityEngine {
 struct Vector2;
 }
 namespace UnityEngine {
-struct SpriteMeshType;
+struct SpritePackingMode;
 }
 namespace UnityEngine {
-struct Bounds;
+struct SpriteMeshType;
 }
 namespace UnityEngine {
 struct SpritePackingRotation;
 }
 namespace UnityEngine {
-class Texture2D;
-}
-namespace UnityEngine {
-struct Rect;
-}
-namespace UnityEngine {
-struct SpritePackingMode;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+struct Vector4;
 }
 // Forward declare root types
 namespace UnityEngine {

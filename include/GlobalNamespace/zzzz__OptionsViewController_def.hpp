@@ -12,11 +12,11 @@ class Button;
 namespace GlobalNamespace {
 class AppStaticSettingsSO;
 }
-namespace GlobalNamespace {
-struct __OptionsViewController__OptionsButton;
-}
 namespace System {
 template <typename T> class Action_1;
+}
+namespace GlobalNamespace {
+struct __OptionsViewController__OptionsButton;
 }
 // Forward declare root types
 namespace GlobalNamespace {

@@ -1,16 +1,16 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerLocalActivePlayerInGameMenuViewController_def.hpp"
+#include "GlobalNamespace/zzzz__DisconnectPromptView_def.hpp"
 #include "GlobalNamespace/zzzz__IVRPlatformHelper_def.hpp"
-#include "UnityEngine/UI/zzzz__Button_def.hpp"
-#include "Polyglot/zzzz__LocalizedTextMeshProUGUI_def.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerLocalPlayerDisconnectHelper_def.hpp"
-#include "System/zzzz__Action_def.hpp"
+#include "GlobalNamespace/zzzz__LevelBar_def.hpp"
+#include "Polyglot/zzzz__LocalizedTextMeshProUGUI_def.hpp"
+#include "GlobalNamespace/zzzz__LocalPlayerInGameMenuInitData_def.hpp"
 #include "GlobalNamespace/zzzz__IConnectedPlayer_def.hpp"
 #include "HMUI/zzzz__ButtonBinder_def.hpp"
-#include "GlobalNamespace/zzzz__DisconnectPromptView_def.hpp"
-#include "GlobalNamespace/zzzz__LocalPlayerInGameMenuInitData_def.hpp"
-#include "GlobalNamespace/zzzz__LevelBar_def.hpp"
+#include "System/zzzz__Action_def.hpp"
+#include "UnityEngine/UI/zzzz__Button_def.hpp"
 #include "UnityEngine/zzzz__GameObject_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::MultiplayerLocalActivePlayerInGameMenuViewController.add_didPressDisconnectButtonEvent
 template <>

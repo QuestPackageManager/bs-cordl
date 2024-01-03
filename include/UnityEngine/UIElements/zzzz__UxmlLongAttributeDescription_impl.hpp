@@ -2,9 +2,9 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__TypedUxmlAttributeDescription_1_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__UxmlLongAttributeDescription_def.hpp"
-#include "UnityEngine/UIElements/zzzz__UxmlLongAttributeDescription_def.hpp"
-#include "UnityEngine/UIElements/zzzz__IUxmlAttributes_def.hpp"
 #include "UnityEngine/UIElements/zzzz__CreationContext_def.hpp"
+#include "UnityEngine/UIElements/zzzz__IUxmlAttributes_def.hpp"
+#include "UnityEngine/UIElements/zzzz__UxmlLongAttributeDescription_def.hpp"
 #include "System/zzzz__Func_3_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::__UxmlLongAttributeDescription____c._ctor
 template <>

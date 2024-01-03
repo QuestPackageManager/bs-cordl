@@ -5,9 +5,9 @@
 #include "GlobalNamespace/zzzz__SongProfilingController_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "GlobalNamespace/zzzz__GameplayCoreSceneSetupData_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::__SongProfilingController___ProfileCoroutine_d__8._ctor
 template <>
 

@@ -1,10 +1,10 @@
 #pragma once
 #include "System/Security/Cryptography/zzzz__DSA_impl.hpp"
 #include "System/Security/Cryptography/zzzz__DSACryptoServiceProvider_def.hpp"
-#include "System/zzzz__Object_def.hpp"
-#include "Mono/Security/Cryptography/zzzz__DSAManaged_def.hpp"
 #include "System/zzzz__EventArgs_def.hpp"
 #include "Mono/Security/Cryptography/zzzz__KeyPairPersistence_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+#include "Mono/Security/Cryptography/zzzz__DSAManaged_def.hpp"
 #include "System/Security/Cryptography/zzzz__DSAParameters_def.hpp"
 //  Writing Method size for method: ::System::Security::Cryptography::DSACryptoServiceProvider._ctor
 template <>

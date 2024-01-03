@@ -4,14 +4,14 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(InvokableCallList)
+namespace UnityEngine::Events {
+class BaseInvokableCall;
+}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace System {
 class Object;
-}
-namespace UnityEngine::Events {
-class BaseInvokableCall;
 }
 namespace System::Reflection {
 class MethodInfo;

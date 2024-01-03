@@ -9,34 +9,34 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Toggle)
 namespace UnityEngine::EventSystems {
-class PointerEventData;
-}
-namespace UnityEngine::EventSystems {
 class IEventSystemHandler;
 }
 namespace UnityEngine::UI {
 struct __Toggle__ToggleTransition;
 }
-namespace UnityEngine {
-class Transform;
+namespace UnityEngine::UI {
+class __Toggle__ToggleEvent;
+}
+namespace UnityEngine::EventSystems {
+class PointerEventData;
+}
+namespace UnityEngine::UI {
+class ICanvasElement;
 }
 namespace UnityEngine::EventSystems {
 class IPointerClickHandler;
+}
+namespace UnityEngine {
+class Transform;
+}
+namespace UnityEngine::UI {
+class Graphic;
 }
 namespace UnityEngine::EventSystems {
 class ISubmitHandler;
 }
 namespace UnityEngine::EventSystems {
 class BaseEventData;
-}
-namespace UnityEngine::UI {
-class ICanvasElement;
-}
-namespace UnityEngine::UI {
-class Graphic;
-}
-namespace UnityEngine::UI {
-class __Toggle__ToggleEvent;
 }
 namespace UnityEngine::UI {
 class ToggleGroup;

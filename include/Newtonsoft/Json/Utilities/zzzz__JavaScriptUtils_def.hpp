@@ -9,13 +9,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(JavaScriptUtils)
 namespace Newtonsoft::Json {
-template <typename T> class IArrayPool_1;
-}
-namespace Newtonsoft::Json {
 struct StringEscapeHandling;
 }
 namespace System::IO {
 class TextWriter;
+}
+namespace Newtonsoft::Json {
+template <typename T> class IArrayPool_1;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Utilities {

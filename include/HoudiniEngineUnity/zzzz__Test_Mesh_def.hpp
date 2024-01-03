@@ -7,11 +7,11 @@ CORDL_MODULE_EXPORT(Test_Mesh)
 namespace HoudiniEngineUnity {
 template <typename T> class IEquivableWrapperClass_1;
 }
-namespace HoudiniEngineUnity {
-template <typename T> class IEquivable_1;
-}
 namespace UnityEngine {
 class Mesh;
+}
+namespace HoudiniEngineUnity {
+template <typename T> class IEquivable_1;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {

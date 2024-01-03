@@ -1,11 +1,11 @@
 #pragma once
 #include "System/Text/zzzz__EncodingNLS_impl.hpp"
 #include "System/Text/zzzz__Latin1Encoding_def.hpp"
-#include "System/Text/zzzz__DecoderNLS_def.hpp"
-#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
 #include "System/Text/zzzz__EncoderNLS_def.hpp"
-#include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
+#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
 #include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
+#include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
+#include "System/Text/zzzz__DecoderNLS_def.hpp"
 //  Writing Method size for method: ::System::Text::Latin1Encoding._ctor
 template <>
 

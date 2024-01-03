@@ -5,16 +5,16 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(SystemDependencyProvider)
 namespace Mono {
-class ISystemDependencyProvider;
+class ISystemCertificateProvider;
+}
+namespace Mono {
+class X509PalImpl;
 }
 namespace Mono {
 class SystemCertificateProvider;
 }
 namespace Mono {
-class ISystemCertificateProvider;
-}
-namespace Mono {
-class X509PalImpl;
+class ISystemDependencyProvider;
 }
 namespace System {
 class Object;

@@ -1,16 +1,16 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__SimpleTextureLoader_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
-#include "GlobalNamespace/zzzz__HMCache_2_def.hpp"
-#include "UnityEngine/zzzz__Texture2D_def.hpp"
-#include "GlobalNamespace/zzzz__ICoroutineStarter_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "GlobalNamespace/zzzz__ICoroutineStarter_def.hpp"
+#include "GlobalNamespace/zzzz__HMCache_2_def.hpp"
 #include "GlobalNamespace/zzzz__SimpleTextureLoader_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
-#include "System/zzzz__Object_def.hpp"
-#include "UnityEngine/Networking/zzzz__UnityWebRequest_def.hpp"
+#include "UnityEngine/zzzz__Texture2D_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
+#include "UnityEngine/Networking/zzzz__UnityWebRequest_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::__SimpleTextureLoader___LoadTextureCoroutine_d__3._ctor
 template <>
 

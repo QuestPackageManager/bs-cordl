@@ -11,19 +11,22 @@ namespace Tweening {
 class FloatTween;
 }
 namespace GlobalNamespace {
-class ColorManager;
-}
-namespace GlobalNamespace {
-class __LightColorGroupEffect__InitData;
-}
-namespace GlobalNamespace {
-class LightWithIdManager;
+class BeatmapDataCallbackWrapper;
 }
 namespace GlobalNamespace {
 class IBpmController;
 }
 namespace GlobalNamespace {
+class BeatmapCallbacksController;
+}
+namespace GlobalNamespace {
+class ColorManager;
+}
+namespace GlobalNamespace {
 class LightColorBeatmapEventData;
+}
+namespace GlobalNamespace {
+class __LightColorGroupEffect__InitData;
 }
 namespace UnityEngine {
 struct Color;
@@ -31,14 +34,11 @@ struct Color;
 namespace GlobalNamespace {
 struct EnvironmentColorType;
 }
+namespace GlobalNamespace {
+class LightWithIdManager;
+}
 namespace Tweening {
 class SongTimeTweeningManager;
-}
-namespace GlobalNamespace {
-class BeatmapCallbacksController;
-}
-namespace GlobalNamespace {
-class BeatmapDataCallbackWrapper;
 }
 // Forward declare root types
 namespace GlobalNamespace {

@@ -10,38 +10,38 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(AvatarController)
-namespace Zenject {
-class DiContainer;
-}
 namespace BeatSaber::AvatarCore {
-class IOptionalAvatarDataProvider;
-}
-namespace BeatSaber::AvatarCore {
-struct __AvatarController___LoadAndDisplayAvatar_d__11;
-}
-namespace BeatSaber::AvatarCore {
-class Avatar;
-}
-namespace UnityEngine {
-class Transform;
+class IAvatarPoseDataProvider;
 }
 namespace BeatSaber::AvatarCore {
 class AvatarSystemCollection;
 }
 namespace BeatSaber::AvatarCore {
-class IAvatarPoseDataProvider;
+struct __AvatarController___LoadAndDisplayAvatar_d__11;
+}
+namespace BeatSaber::AvatarCore {
+class IOptionalAvatarDataProvider;
+}
+namespace BeatSaber::AvatarCore {
+class Avatar;
 }
 namespace BeatSaber::AvatarCore {
 class IAvatarVisualDataProvider;
 }
-namespace System::Runtime::CompilerServices {
-template <typename TResult> struct TaskAwaiter_1;
+namespace UnityEngine {
+class Transform;
+}
+namespace Zenject {
+class DiContainer;
 }
 namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
 }
 namespace System::Runtime::CompilerServices {
 struct AsyncVoidMethodBuilder;
+}
+namespace System::Runtime::CompilerServices {
+template <typename TResult> struct TaskAwaiter_1;
 }
 // Forward declare root types
 namespace BeatSaber::AvatarCore {
@@ -57,9 +57,8 @@ MARK_VAL_T(::BeatSaber::AvatarCore::__AvatarController___LoadAndDisplayAvatar_d_
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace BeatSaber::AvatarCore {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3394)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 5063 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(15166)), TypeDefinitionIndex(TypeDefinitionIndex(3400))} Self: TypeDefinitionIndex(TypeDefinitionIndex(15167)) CS Name:
-// ::AvatarController::<LoadAndDisplayAvatar>d__11
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(3400)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 5063
+// }), TypeDefinitionIndex(TypeDefinitionIndex(15166))} Self: TypeDefinitionIndex(TypeDefinitionIndex(15167)) CS Name: ::AvatarController::<LoadAndDisplayAvatar>d__11
 struct CORDL_TYPE __AvatarController___LoadAndDisplayAvatar_d__11 {
 public:
   // Declarations
@@ -116,7 +115,7 @@ static_assert(offsetof(::BeatSaber::AvatarCore::__AvatarController___LoadAndDisp
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace BeatSaber::AvatarCore {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15169)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(15169))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15168))
 // CS Name: ::BeatSaber.AvatarCore::AvatarController*
 class CORDL_TYPE AvatarController : public ::UnityEngine::MonoBehaviour {

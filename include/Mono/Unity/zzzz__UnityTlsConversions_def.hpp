@@ -2,28 +2,29 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "Mono/Security/Interface/zzzz__AlertDescription_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(UnityTlsConversions)
-namespace System::Security::Authentication {
-struct SslProtocols;
-}
-namespace Mono::Security::Interface {
-struct AlertDescription;
-}
-namespace System::Net::Security {
-struct SslPolicyErrors;
-}
-namespace Mono::Unity {
-struct __UnityTls__unitytls_x509verify_result;
+namespace System::Security::Cryptography::X509Certificates {
+struct X509ChainStatusFlags;
 }
 namespace Mono::Security::Interface {
 struct TlsProtocols;
 }
-namespace System::Security::Cryptography::X509Certificates {
-struct X509ChainStatusFlags;
+namespace System::Net::Security {
+struct SslPolicyErrors;
+}
+namespace System::Security::Authentication {
+struct SslProtocols;
+}
+namespace Mono::Unity {
+struct __UnityTls__unitytls_x509verify_result;
 }
 namespace Mono::Unity {
 struct __UnityTls__unitytls_protocol;
+}
+namespace Mono::Security::Interface {
+struct AlertDescription;
 }
 // Forward declare root types
 namespace Mono::Unity {
@@ -35,7 +36,7 @@ MARK_REF_PTR_T(::Mono::Unity::UnityTlsConversions);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Mono::Unity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13773)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8811))
 // CS Name: ::Mono.Unity::UnityTlsConversions*
 class CORDL_TYPE UnityTlsConversions : public ::System::Object {

@@ -2,13 +2,13 @@
 #include "UnityEngine/UIElements/zzzz__BindableElement_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__UxmlFactory_2_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__GroupBox_def.hpp"
-#include "UnityEngine/UIElements/zzzz__IGroupBox_def.hpp"
 #include "UnityEngine/UIElements/zzzz__GroupBox_def.hpp"
 #include "UnityEngine/UIElements/zzzz__Label_def.hpp"
+#include "UnityEngine/UIElements/zzzz__IGroupBox_def.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
-#include "UnityEngine/UIElements/zzzz__CreationContext_def.hpp"
-#include "UnityEngine/UIElements/zzzz__UxmlStringAttributeDescription_def.hpp"
 #include "UnityEngine/UIElements/zzzz__IUxmlAttributes_def.hpp"
+#include "UnityEngine/UIElements/zzzz__UxmlStringAttributeDescription_def.hpp"
+#include "UnityEngine/UIElements/zzzz__CreationContext_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::__GroupBox__UxmlTraits.Init
 template <>
 

@@ -8,14 +8,14 @@ CORDL_MODULE_EXPORT(CmsContentEncryptorBuilder)
 namespace System::Collections {
 class IDictionary;
 }
-namespace Org::BouncyCastle::Cms {
-class EnvelopedDataHelper;
+namespace Org::BouncyCastle::Crypto {
+class ICipherBuilderWithKey;
 }
 namespace Org::BouncyCastle::Asn1 {
 class DerObjectIdentifier;
 }
-namespace Org::BouncyCastle::Crypto {
-class ICipherBuilderWithKey;
+namespace Org::BouncyCastle::Cms {
+class EnvelopedDataHelper;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Operators {

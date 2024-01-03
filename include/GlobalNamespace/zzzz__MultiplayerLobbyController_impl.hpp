@@ -1,12 +1,12 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerLobbyController_def.hpp"
-#include "GlobalNamespace/zzzz__MenuEnvironmentManager_def.hpp"
-#include "GlobalNamespace/zzzz__MultiplayerLobbyAvatarPlaceManager_def.hpp"
-#include "BeatSaber/AvatarCore/zzzz__OptionalAvatarDataSender_def.hpp"
-#include "GlobalNamespace/zzzz__PlayerDataModel_def.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerLobbyAvatarManager_def.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerLobbyCenterStageManager_def.hpp"
+#include "GlobalNamespace/zzzz__MenuEnvironmentManager_def.hpp"
+#include "BeatSaber/AvatarCore/zzzz__OptionalAvatarDataSender_def.hpp"
+#include "GlobalNamespace/zzzz__MultiplayerLobbyAvatarPlaceManager_def.hpp"
+#include "GlobalNamespace/zzzz__PlayerDataModel_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::MultiplayerLobbyController.get_lobbyActivated
 template <>
 

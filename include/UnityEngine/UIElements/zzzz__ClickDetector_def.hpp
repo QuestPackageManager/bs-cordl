@@ -6,20 +6,20 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ClickDetector)
-namespace UnityEngine::UIElements {
-class VisualElement;
-}
-namespace UnityEngine::UIElements {
-class __ClickDetector__ButtonClickStatus;
+namespace UnityEngine {
+struct Vector2;
 }
 namespace UnityEngine::UIElements {
 class EventBase;
 }
+namespace UnityEngine::UIElements {
+class VisualElement;
+}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
-namespace UnityEngine {
-struct Vector2;
+namespace UnityEngine::UIElements {
+class __ClickDetector__ButtonClickStatus;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

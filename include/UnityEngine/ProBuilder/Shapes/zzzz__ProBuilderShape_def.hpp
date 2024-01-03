@@ -9,6 +9,15 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ProBuilderShape)
+namespace UnityEngine {
+struct Bounds;
+}
+namespace UnityEngine {
+struct Vector3;
+}
+namespace UnityEngine {
+struct Quaternion;
+}
 namespace UnityEngine::ProBuilder::Shapes {
 class Shape;
 }
@@ -17,15 +26,6 @@ class ProBuilderMesh;
 }
 namespace UnityEngine::ProBuilder {
 struct PivotLocation;
-}
-namespace UnityEngine {
-struct Quaternion;
-}
-namespace UnityEngine {
-struct Bounds;
-}
-namespace UnityEngine {
-struct Vector3;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder::Shapes {
@@ -37,8 +37,8 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::Shapes::ProBuilderShape);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::Shapes {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12195)), TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10249)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(10164))} Self: TypeDefinitionIndex(TypeDefinitionIndex(12232)) CS Name:
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(10164)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(12195))} Self: TypeDefinitionIndex(TypeDefinitionIndex(12232)) CS Name:
 // ::UnityEngine.ProBuilder.Shapes::ProBuilderShape*
 class CORDL_TYPE ProBuilderShape : public ::UnityEngine::MonoBehaviour {
 public:

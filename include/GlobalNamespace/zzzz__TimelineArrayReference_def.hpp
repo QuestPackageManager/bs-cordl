@@ -8,23 +8,23 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(TimelineArrayReference)
-namespace GlobalNamespace {
-struct __TimelineArrayReference__ArrayTypes;
-}
-namespace GlobalNamespace {
-class TubeBloomPrePassLight;
-}
-namespace UnityEngine {
-class CanvasGroup;
-}
 namespace TMPro {
 class TextMeshPro;
 }
 namespace UnityEngine {
-class Transform;
+class CanvasGroup;
+}
+namespace GlobalNamespace {
+class TubeBloomPrePassLight;
+}
+namespace GlobalNamespace {
+struct __TimelineArrayReference__ArrayTypes;
 }
 namespace GlobalNamespace {
 class DirectionalLight;
+}
+namespace UnityEngine {
+class Transform;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -102,7 +102,7 @@ static_assert(offsetof(::GlobalNamespace::__TimelineArrayReference__ArrayTypes, 
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6018)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(6018))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6019))
 // CS Name: ::TimelineArrayReference*
 class CORDL_TYPE TimelineArrayReference : public ::UnityEngine::MonoBehaviour {

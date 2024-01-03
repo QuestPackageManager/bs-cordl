@@ -6,16 +6,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(CaseInsensitiveHashCodeProvider)
 namespace System::Globalization {
-class CultureInfo;
+class CompareInfo;
 }
 namespace System {
 class Object;
 }
+namespace System::Globalization {
+class CultureInfo;
+}
 namespace System::Collections {
 class IHashCodeProvider;
-}
-namespace System::Globalization {
-class CompareInfo;
 }
 // Forward declare root types
 namespace System::Collections {

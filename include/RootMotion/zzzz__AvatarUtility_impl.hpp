@@ -1,11 +1,11 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "RootMotion/zzzz__AvatarUtility_def.hpp"
+#include "RootMotion/zzzz__TQ_def.hpp"
+#include "UnityEngine/zzzz__Quaternion_def.hpp"
+#include "UnityEngine/zzzz__Avatar_def.hpp"
 #include "UnityEngine/zzzz__HumanBodyBones_def.hpp"
 #include "UnityEngine/zzzz__AvatarIKGoal_def.hpp"
-#include "UnityEngine/zzzz__Avatar_def.hpp"
-#include "UnityEngine/zzzz__Quaternion_def.hpp"
-#include "RootMotion/zzzz__TQ_def.hpp"
 //  Writing Method size for method: ::RootMotion::AvatarUtility.GetPostRotation
 template <>
 

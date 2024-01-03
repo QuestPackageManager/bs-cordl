@@ -1,8 +1,8 @@
 #pragma once
 #include "Zenject/zzzz__Context_impl.hpp"
 #include "Zenject/zzzz__RunnableContext_def.hpp"
-#include "Zenject/zzzz__InjectTypeInfo_def.hpp"
 #include "UnityEngine/zzzz__GameObject_def.hpp"
+#include "Zenject/zzzz__InjectTypeInfo_def.hpp"
 //  Writing Method size for method: ::Zenject::RunnableContext.get_Initialized
 template <>
 

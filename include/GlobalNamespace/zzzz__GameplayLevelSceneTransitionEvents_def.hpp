@@ -4,11 +4,17 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(GameplayLevelSceneTransitionEvents)
+namespace GlobalNamespace {
+class StandardLevelScenesTransitionSetupDataSO;
+}
 namespace System {
 class Action;
 }
 namespace GlobalNamespace {
 class LevelCompletionResults;
+}
+namespace GlobalNamespace {
+class MultiplayerLevelScenesTransitionSetupDataSO;
 }
 namespace GlobalNamespace {
 class MissionLevelScenesTransitionSetupDataSO;
@@ -18,12 +24,6 @@ class MultiplayerResultsData;
 }
 namespace GlobalNamespace {
 class MissionCompletionResults;
-}
-namespace GlobalNamespace {
-class StandardLevelScenesTransitionSetupDataSO;
-}
-namespace GlobalNamespace {
-class MultiplayerLevelScenesTransitionSetupDataSO;
 }
 // Forward declare root types
 namespace GlobalNamespace {

@@ -12,11 +12,11 @@ CORDL_MODULE_EXPORT(X509KeyUsageExtension)
 namespace System::Security::Cryptography {
 class AsnEncodedData;
 }
-namespace System::Security::Cryptography::X509Certificates {
-struct X509KeyUsageFlags;
-}
 namespace System::Security::Cryptography {
 struct AsnDecodeStatus;
+}
+namespace System::Security::Cryptography::X509Certificates {
+struct X509KeyUsageFlags;
 }
 // Forward declare root types
 namespace System::Security::Cryptography::X509Certificates {
@@ -28,7 +28,7 @@ MARK_REF_PTR_T(::System::Security::Cryptography::X509Certificates::X509KeyUsageE
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Security::Cryptography::X509Certificates {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8984)), TypeDefinitionIndex(TypeDefinitionIndex(9011)), TypeDefinitionIndex(TypeDefinitionIndex(8976))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9011)), TypeDefinitionIndex(TypeDefinitionIndex(8984)), TypeDefinitionIndex(TypeDefinitionIndex(8976))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9015))
 // CS Name: ::System.Security.Cryptography.X509Certificates::X509KeyUsageExtension*
 class CORDL_TYPE X509KeyUsageExtension : public ::System::Security::Cryptography::X509Certificates::X509Extension {

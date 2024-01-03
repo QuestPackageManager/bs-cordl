@@ -4,17 +4,17 @@
 CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 CORDL_MODULE_EXPORT(SignaturePolicyIdentifier)
-namespace System {
-class Object;
-}
-namespace Org::BouncyCastle::Asn1 {
-class IAsn1Choice;
-}
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
 }
 namespace Org::BouncyCastle::Asn1::Esf {
 class SignaturePolicyId;
+}
+namespace System {
+class Object;
+}
+namespace Org::BouncyCastle::Asn1 {
+class IAsn1Choice;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Esf {

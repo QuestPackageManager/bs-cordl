@@ -1,10 +1,10 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "Mono/Http/zzzz__NtlmSession_def.hpp"
-#include "System/Net/zzzz__WebRequest_def.hpp"
 #include "Mono/Security/Protocol/Ntlm/zzzz__MessageBase_def.hpp"
-#include "System/Net/zzzz__ICredentials_def.hpp"
 #include "System/Net/zzzz__Authorization_def.hpp"
+#include "System/Net/zzzz__ICredentials_def.hpp"
+#include "System/Net/zzzz__WebRequest_def.hpp"
 //  Writing Method size for method: ::Mono::Http::NtlmSession._ctor
 template <>
 

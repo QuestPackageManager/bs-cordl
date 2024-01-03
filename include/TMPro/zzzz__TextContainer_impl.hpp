@@ -5,13 +5,13 @@
 #include "UnityEngine/zzzz__Vector2_impl.hpp"
 #include "UnityEngine/zzzz__Vector4_impl.hpp"
 #include "TMPro/zzzz__TextContainer_def.hpp"
-#include "UnityEngine/zzzz__Vector4_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
-#include "UnityEngine/zzzz__Rect_def.hpp"
-#include "TMPro/zzzz__TextContainerAnchors_def.hpp"
-#include "TMPro/zzzz__TextMeshPro_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
 #include "UnityEngine/zzzz__RectTransform_def.hpp"
+#include "TMPro/zzzz__TextMeshPro_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "TMPro/zzzz__TextContainerAnchors_def.hpp"
+#include "UnityEngine/zzzz__Vector4_def.hpp"
+#include "UnityEngine/zzzz__Rect_def.hpp"
 //  Writing Method size for method: ::TMPro::TextContainer.get_hasChanged
 template <>
 

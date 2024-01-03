@@ -7,11 +7,14 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(CoroutineHelpers)
+namespace System::Collections {
+class IEnumerator;
+}
 namespace GlobalNamespace {
 class __CoroutineHelpers___ExecuteAfterDelayCoroutine_d__0;
 }
-namespace System::Collections {
-class IEnumerator;
+namespace System {
+class Action;
 }
 namespace GlobalNamespace {
 class ICoroutineStarter;
@@ -20,16 +23,13 @@ namespace UnityEngine {
 class Coroutine;
 }
 namespace System {
-class Action;
-}
-namespace System {
 class Object;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
 }
 namespace System {
 class IDisposable;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {

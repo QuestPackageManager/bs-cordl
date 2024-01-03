@@ -9,32 +9,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(MonoMethodMessage)
+namespace System::Runtime::Remoting::Messaging {
+struct CallType;
+}
 namespace System::Collections {
 class IDictionary;
 }
 namespace System::Runtime::Remoting::Messaging {
-class IMethodCallMessage;
-}
-namespace System {
-class Object;
-}
-namespace System::Reflection {
-class MethodInfo;
-}
-namespace System::Runtime::Remoting::Messaging {
-struct CallType;
-}
-namespace System::Runtime::Remoting::Messaging {
-class IInternalMessage;
-}
-namespace System::Reflection {
-class MethodBase;
-}
-namespace System::Runtime::Remoting::Messaging {
-class LogicalCallContext;
-}
-namespace System {
-class Type;
+class IMethodMessage;
 }
 namespace System::Runtime::Remoting {
 class Identity;
@@ -43,22 +25,40 @@ namespace System::Runtime::Remoting::Messaging {
 class MCMDictionary;
 }
 namespace System::Runtime::Remoting::Messaging {
-class IMethodMessage;
+class AsyncResult;
 }
-namespace System::Reflection {
-class RuntimeMethodInfo;
+namespace System::Runtime::Remoting::Messaging {
+class LogicalCallContext;
 }
 namespace System {
 class Exception;
+}
+namespace System::Reflection {
+class MethodInfo;
+}
+namespace System::Reflection {
+class MethodBase;
+}
+namespace System {
+class Type;
 }
 namespace System::Runtime::Remoting::Messaging {
 class IMethodReturnMessage;
 }
 namespace System::Runtime::Remoting::Messaging {
-class AsyncResult;
+class IMessage;
 }
 namespace System::Runtime::Remoting::Messaging {
-class IMessage;
+class IInternalMessage;
+}
+namespace System {
+class Object;
+}
+namespace System::Runtime::Remoting::Messaging {
+class IMethodCallMessage;
+}
+namespace System::Reflection {
+class RuntimeMethodInfo;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting::Messaging {

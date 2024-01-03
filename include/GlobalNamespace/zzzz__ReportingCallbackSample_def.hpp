@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(ReportingCallbackSample)
-namespace Oculus::Platform {
-template <typename T> class Message_1;
+namespace Oculus::Platform::Models {
+class PlatformInitialize;
 }
 namespace UnityEngine::UI {
 class Text;
 }
-namespace Oculus::Platform::Models {
-class PlatformInitialize;
+namespace Oculus::Platform {
+template <typename T> class Message_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {

@@ -3,22 +3,78 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
+#include "UnityEngine/SceneManagement/zzzz__LoadSceneMode_def.hpp"
+#include "UnityEngine/zzzz__LogType_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(Addressables)
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
+namespace System {
+template <typename T, typename TResult> class Func_2;
 }
-namespace UnityEngine {
-struct Vector3;
+namespace UnityEngine::ResourceManagement::ResourceProviders {
+struct InstantiationParameters;
+}
+namespace UnityEngine::SceneManagement {
+struct UnloadSceneOptions;
+}
+namespace UnityEngine::ResourceManagement::ResourceProviders {
+class IInstanceProvider;
+}
+namespace UnityEngine::Networking {
+class UnityWebRequest;
 }
 namespace System {
 template <typename T> class Action_1;
 }
+namespace UnityEngine::ResourceManagement::AsyncOperations {
+struct AsyncOperationHandle;
+}
+namespace System {
+class Object;
+}
+namespace UnityEngine::ResourceManagement::AsyncOperations {
+template <typename TObject> struct AsyncOperationHandle_1;
+}
+namespace UnityEngine {
+struct Vector3;
+}
+namespace UnityEngine::AddressableAssets {
+class AddressablesImpl;
+}
+namespace UnityEngine {
+struct Quaternion;
+}
 namespace System::Collections {
 class IEnumerable;
+}
+namespace UnityEngine::AddressableAssets::ResourceLocators {
+class IResourceLocator;
+}
+namespace UnityEngine::ResourceManagement {
+class ResourceManager;
+}
+namespace System::Collections::Generic {
+template <typename T> class IList_1;
+}
+namespace UnityEngine {
+class GameObject;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
+namespace UnityEngine::ResourceManagement::ResourceProviders {
+struct SceneInstance;
+}
+namespace UnityEngine::AddressableAssets {
+struct __Addressables__MergeMode;
+}
+namespace UnityEngine::ResourceManagement::ResourceLocations {
+class IResourceLocation;
+}
+namespace System {
+class Exception;
 }
 namespace UnityEngine {
 class Transform;
@@ -26,68 +82,8 @@ class Transform;
 namespace System {
 class Type;
 }
-namespace System {
-template <typename T, typename TResult> class Func_2;
-}
-namespace UnityEngine::SceneManagement {
-struct LoadSceneMode;
-}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
-}
-namespace UnityEngine {
-struct Quaternion;
-}
-namespace UnityEngine::ResourceManagement::AsyncOperations {
-struct AsyncOperationHandle;
-}
-namespace System {
-class Exception;
-}
-namespace System {
-class Object;
-}
-namespace UnityEngine::ResourceManagement::ResourceProviders {
-class IInstanceProvider;
-}
-namespace UnityEngine::ResourceManagement {
-class ResourceManager;
-}
-namespace UnityEngine::AddressableAssets {
-class AddressablesImpl;
-}
-namespace UnityEngine::ResourceManagement::ResourceProviders {
-struct InstantiationParameters;
-}
-namespace UnityEngine::ResourceManagement::ResourceProviders {
-struct SceneInstance;
-}
-namespace UnityEngine::ResourceManagement::AsyncOperations {
-template <typename TObject> struct AsyncOperationHandle_1;
-}
-namespace UnityEngine::ResourceManagement::ResourceLocations {
-class IResourceLocation;
-}
-namespace UnityEngine {
-class GameObject;
-}
-namespace System::Collections::Generic {
-template <typename T> class IList_1;
-}
-namespace UnityEngine::AddressableAssets {
-struct __Addressables__MergeMode;
-}
-namespace UnityEngine::SceneManagement {
-struct UnloadSceneOptions;
-}
-namespace UnityEngine::Networking {
-class UnityWebRequest;
-}
-namespace UnityEngine {
-struct LogType;
-}
-namespace UnityEngine::AddressableAssets::ResourceLocators {
-class IResourceLocator;
 }
 // Forward declare root types
 namespace UnityEngine::AddressableAssets {
@@ -161,7 +157,7 @@ static_assert(offsetof(::UnityEngine::AddressableAssets::__Addressables__MergeMo
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::AddressableAssets {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10375)), TypeDefinitionIndex(TypeDefinitionIndex(10036)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14050))
 // CS Name: ::UnityEngine.AddressableAssets::Addressables*
 class CORDL_TYPE Addressables : public ::System::Object {

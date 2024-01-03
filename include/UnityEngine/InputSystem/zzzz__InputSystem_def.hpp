@@ -2,7 +2,9 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/zzzz__Nullable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "UnityEngine/InputSystem/Layouts/zzzz__InputDeviceMatcher_def.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__DeltaStateEvent_def.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__StateEvent_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputSystem_def.hpp"
@@ -13,124 +15,121 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(InputSystem)
 namespace UnityEngine::InputSystem {
-struct InputControlLayoutChange;
-}
-namespace UnityEngine::InputSystem::Layouts {
-struct InputDeviceMatcher;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace UnityEngine::InputSystem {
-class __InputSystem____c;
-}
-namespace UnityEngine::InputSystem {
-class InputSettings;
-}
-namespace System {
-class Object;
-}
-namespace UnityEngine::InputSystem::LowLevel {
-class IInputRuntime;
-}
-namespace System {
-template <typename TResult> class Func_1;
-}
-namespace UnityEngine::InputSystem::Utilities {
-struct InternedString;
-}
-namespace UnityEngine::InputSystem {
-class InputControl;
-}
-namespace UnityEngine::InputSystem::LowLevel {
-struct InputEventPtr;
-}
-namespace UnityEngine::InputSystem {
-class InputAction;
-}
-namespace UnityEngine::InputSystem {
-struct InputDeviceChange;
-}
-namespace System {
-template <typename T> struct Nullable_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
-namespace System {
-template <typename T> class IObservable_1;
+class InputRemoting;
 }
 namespace System {
 class Type;
 }
 namespace UnityEngine::InputSystem {
-struct __InputSystem__StateEventBuffer;
-}
-namespace UnityEngine::InputSystem {
-struct InputActionChange;
-}
-namespace UnityEngine::InputSystem::Layouts {
-class InputDeviceFindControlLayoutDelegate;
-}
-namespace UnityEngine::InputSystem {
-class InputManager;
-}
-namespace UnityEngine::InputSystem {
-template <typename TControl> struct InputControlList_1;
-}
-namespace UnityEngine::InputSystem::Layouts {
-class InputControlLayout;
-}
-namespace UnityEngine::InputSystem::Layouts {
-struct InputDeviceDescription;
-}
-namespace UnityEngine::InputSystem::Utilities {
-template <typename TValue> struct ReadOnlyArray_1;
-}
-namespace UnityEngine::InputSystem::LowLevel {
-struct InputMetrics;
-}
-namespace UnityEngine::InputSystem {
 class InputDevice;
 }
 namespace UnityEngine::InputSystem {
-class InputRemoting;
+class __InputSystem____c;
 }
-namespace UnityEngine::InputSystem::LowLevel {
-class InputDeviceCommandDelegate;
-}
-namespace System {
-template <typename T1, typename T2> class Action_2;
-}
-namespace UnityEngine::InputSystem::LowLevel {
-struct InputEventListener;
-}
-namespace System {
-class Action;
-}
-namespace System {
-class Version;
+namespace UnityEngine::InputSystem {
+class InputManager;
 }
 namespace UnityEngine::InputSystem::LowLevel {
 struct InputUpdateType;
 }
 namespace UnityEngine::InputSystem {
+struct __InputSystem__StateEventBuffer;
+}
+namespace UnityEngine::InputSystem::Layouts {
+class InputControlLayout;
+}
+namespace System {
+template <typename T> class IObservable_1;
+}
+namespace System {
+class Version;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+struct InputMetrics;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+class IInputRuntime;
+}
+namespace UnityEngine::InputSystem {
 struct __InputSystem__DeltaStateEventBuffer;
+}
+namespace UnityEngine::InputSystem {
+struct InputDeviceChange;
+}
+namespace System {
+class Object;
+}
+namespace UnityEngine::InputSystem {
+template <typename TControl> struct InputControlList_1;
+}
+namespace UnityEngine::InputSystem::Utilities {
+struct InternedString;
+}
+namespace System {
+template <typename T1, typename T2> class Action_2;
+}
+namespace UnityEngine::InputSystem {
+struct InputActionChange;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+class InputDeviceCommandDelegate;
+}
+namespace UnityEngine::InputSystem::Utilities {
+template <typename TValue> struct ReadOnlyArray_1;
+}
+namespace UnityEngine::InputSystem {
+class InputControl;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+struct InputEventListener;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+struct InputEventPtr;
+}
+namespace UnityEngine::InputSystem::Layouts {
+class InputDeviceFindControlLayoutDelegate;
+}
+namespace System {
+class Action;
+}
+namespace UnityEngine::InputSystem::Layouts {
+struct InputDeviceDescription;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace UnityEngine::InputSystem {
+class InputSettings;
+}
+namespace UnityEngine::InputSystem::Layouts {
+struct InputDeviceMatcher;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
+namespace UnityEngine::InputSystem {
+class InputAction;
+}
+namespace System {
+template <typename TResult> class Func_1;
+}
+namespace UnityEngine::InputSystem {
+struct InputControlLayoutChange;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;
 }
-namespace UnityEngine::InputSystem::LowLevel {
-struct DeltaStateEvent;
-}
 namespace GlobalNamespace {
 struct __InputSystem__DeltaStateEventBuffer___data_e__FixedBuffer;
 }
-namespace GlobalNamespace {
-struct __InputSystem__StateEventBuffer___data_e__FixedBuffer;
+namespace UnityEngine::InputSystem::LowLevel {
+struct DeltaStateEvent;
 }
 namespace UnityEngine::InputSystem::LowLevel {
 struct StateEvent;
+}
+namespace GlobalNamespace {
+struct __InputSystem__StateEventBuffer___data_e__FixedBuffer;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem {
@@ -198,7 +197,7 @@ static_assert(offsetof(::GlobalNamespace::__InputSystem__StateEventBuffer___data
 // SizeInfo { instance_size: 536, native_size: 536, calculated_instance_size: 536, calculated_native_size: 552, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6207)), TypeDefinitionIndex(TypeDefinitionIndex(6546))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6546)), TypeDefinitionIndex(TypeDefinitionIndex(6207))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6208))
 // CS Name: ::InputSystem::StateEventBuffer
 struct CORDL_TYPE __InputSystem__StateEventBuffer {
@@ -382,9 +381,8 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::__Inpu
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6212))
-// CS Name: ::UnityEngine.InputSystem::InputSystem*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6625)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 3302 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2448))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6212)) CS Name: ::UnityEngine.InputSystem::InputSystem*
 class CORDL_TYPE InputSystem : public ::System::Object {
 public:
   // Declarations

@@ -11,14 +11,14 @@ CORDL_MODULE_EXPORT(StyleColor)
 namespace System {
 template <typename T> class IEquatable_1;
 }
-namespace UnityEngine::UIElements {
-struct StyleKeyword;
-}
 namespace UnityEngine {
 struct Color;
 }
 namespace UnityEngine::UIElements {
 template <typename T> class IStyleValue_1;
+}
+namespace UnityEngine::UIElements {
+struct StyleKeyword;
 }
 namespace System {
 class Object;

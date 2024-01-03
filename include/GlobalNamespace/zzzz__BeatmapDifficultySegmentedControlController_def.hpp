@@ -6,11 +6,17 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(BeatmapDifficultySegmentedControlController)
+namespace GlobalNamespace {
+struct BeatmapDifficulty;
+}
+namespace System {
+template <typename T1, typename T2> class Action_2;
+}
 namespace System::Collections::Generic {
 template <typename T> class IReadOnlyList_1;
 }
 namespace GlobalNamespace {
-struct BeatmapDifficulty;
+class IDifficultyBeatmap;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
@@ -20,12 +26,6 @@ class SegmentedControl;
 }
 namespace HMUI {
 class TextSegmentedControl;
-}
-namespace GlobalNamespace {
-class IDifficultyBeatmap;
-}
-namespace System {
-template <typename T1, typename T2> class Action_2;
 }
 // Forward declare root types
 namespace GlobalNamespace {

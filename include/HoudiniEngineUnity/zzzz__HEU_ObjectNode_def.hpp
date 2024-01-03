@@ -9,49 +9,49 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(HEU_ObjectNode)
 namespace HoudiniEngineUnity {
-class HEU_HoudiniAsset;
-}
-namespace HoudiniEngineUnity {
-struct HAPI_ObjectInfo;
-}
-namespace System::Text {
-class StringBuilder;
-}
-namespace HoudiniEngineUnity {
-class HEU_MaterialData;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace HoudiniEngineUnity {
-struct HAPI_Transform;
-}
-namespace HoudiniEngineUnity {
-class HEU_ObjectInstanceInfo;
+struct HAPI_GeoInfo;
 }
 namespace HoudiniEngineUnity {
 class HEU_GeoNode;
 }
 namespace HoudiniEngineUnity {
-template <typename T> class IEquivable_1;
+class HEU_MaterialData;
 }
 namespace HoudiniEngineUnity {
-struct HAPI_GeoInfo;
+class HEU_HoudiniAsset;
+}
+namespace HoudiniEngineUnity {
+struct HAPI_ObjectInfo;
+}
+namespace HoudiniEngineUnity {
+struct HAPI_Transform;
+}
+namespace HoudiniEngineUnity {
+class HEU_SessionBase;
 }
 namespace HoudiniEngineUnity {
 class HEU_PartData;
+}
+namespace System::Text {
+class StringBuilder;
+}
+namespace HoudiniEngineUnity {
+template <typename T> class IEquivable_1;
 }
 namespace HoudiniEngineUnity {
 class HEU_GeneratedOutput;
 }
 namespace HoudiniEngineUnity {
-class HEU_SessionBase;
+class HEU_Curve;
+}
+namespace HoudiniEngineUnity {
+class HEU_ObjectInstanceInfo;
 }
 namespace UnityEngine {
 class GameObject;
 }
-namespace HoudiniEngineUnity {
-class HEU_Curve;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -63,7 +63,7 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_ObjectNode);
 // SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 120, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10210)), TypeDefinitionIndex(TypeDefinitionIndex(9738)), TypeDefinitionIndex(TypeDefinitionIndex(9726))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9726)), TypeDefinitionIndex(TypeDefinitionIndex(10210)), TypeDefinitionIndex(TypeDefinitionIndex(9738))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9654))
 // CS Name: ::HoudiniEngineUnity::HEU_ObjectNode*
 class CORDL_TYPE HEU_ObjectNode : public ::UnityEngine::ScriptableObject {

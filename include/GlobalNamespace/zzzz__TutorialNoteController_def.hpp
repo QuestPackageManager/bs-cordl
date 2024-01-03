@@ -6,41 +6,41 @@ CORDL_MODULE_INIT
 #include "Zenject/zzzz__MonoMemoryPool_1_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(TutorialNoteController)
-namespace GlobalNamespace {
-class Saber;
-}
-namespace GlobalNamespace {
-struct __NoteData__GameplayType;
-}
-namespace GlobalNamespace {
-class NoteMovement;
-}
 namespace UnityEngine {
 class GameObject;
 }
-namespace UnityEngine {
-struct Vector3;
-}
 namespace GlobalNamespace {
-class BoxCuttableBySaber;
-}
-namespace GlobalNamespace {
-class INoteMirrorable;
+class Saber;
 }
 namespace GlobalNamespace {
 class NoteData;
 }
 namespace GlobalNamespace {
-class IGameNoteMirrorable;
+struct NoteVisualModifierType;
 }
 namespace UnityEngine {
 struct Quaternion;
 }
 namespace GlobalNamespace {
-struct NoteVisualModifierType;
+class NoteMovement;
 }
 namespace GlobalNamespace {
 class __TutorialNoteController__Pool;
+}
+namespace GlobalNamespace {
+class BoxCuttableBySaber;
+}
+namespace GlobalNamespace {
+class IGameNoteMirrorable;
+}
+namespace GlobalNamespace {
+class INoteMirrorable;
+}
+namespace GlobalNamespace {
+struct __NoteData__GameplayType;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -209,7 +209,7 @@ static_assert(offsetof(::GlobalNamespace::TutorialNoteController, ____cutAngleTo
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11050), inst: 2828 }), TypeDefinitionIndex(TypeDefinitionIndex(11050)),
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11050)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11050), inst: 2828 }),
 // TypeDefinitionIndex(TypeDefinitionIndex(4787))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4786)) CS Name: ::TutorialNoteController::Pool*
 class CORDL_TYPE __TutorialNoteController__Pool : public ::Zenject::MonoMemoryPool_1<::GlobalNamespace::TutorialNoteController*> {
 public:

@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(StaticEnvironmentLights)
 namespace UnityEngine {
-struct Color;
+class Material;
 }
 namespace UnityEngine {
-class Material;
+struct Color;
 }
 // Forward declare root types
 namespace GlobalNamespace {

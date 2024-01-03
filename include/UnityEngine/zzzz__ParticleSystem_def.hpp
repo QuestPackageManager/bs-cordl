@@ -16,28 +16,7 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ParticleSystem)
 namespace UnityEngine {
-struct __ParticleSystem__Particle;
-}
-namespace UnityEngine {
 struct __ParticleSystem__SubEmittersModule;
-}
-namespace UnityEngine {
-struct __ParticleSystem__MinMaxCurve;
-}
-namespace UnityEngine {
-struct __ParticleSystem__MinMaxGradient;
-}
-namespace UnityEngine {
-struct Vector3;
-}
-namespace UnityEngine {
-struct __ParticleSystem__ShapeModule;
-}
-namespace UnityEngine {
-struct __ParticleSystem__EmitParams;
-}
-namespace UnityEngine {
-struct __ParticleSystem__EmissionModule;
 }
 namespace UnityEngine {
 struct ParticleSystemStopBehavior;
@@ -46,7 +25,28 @@ namespace UnityEngine {
 struct Color32;
 }
 namespace UnityEngine {
+struct Vector3;
+}
+namespace UnityEngine {
 struct __ParticleSystem__MainModule;
+}
+namespace UnityEngine {
+struct __ParticleSystem__ShapeModule;
+}
+namespace UnityEngine {
+struct __ParticleSystem__Particle;
+}
+namespace UnityEngine {
+struct __ParticleSystem__EmissionModule;
+}
+namespace UnityEngine {
+struct __ParticleSystem__MinMaxCurve;
+}
+namespace UnityEngine {
+struct __ParticleSystem__MinMaxGradient;
+}
+namespace UnityEngine {
+struct __ParticleSystem__EmitParams;
 }
 namespace UnityEngine {
 struct ParticleSystemCurveMode;
@@ -55,13 +55,13 @@ namespace UnityEngine {
 class AnimationCurve;
 }
 namespace UnityEngine {
+struct ParticleSystemGradientMode;
+}
+namespace UnityEngine {
 struct Color;
 }
 namespace UnityEngine {
 class Gradient;
-}
-namespace UnityEngine {
-struct ParticleSystemGradientMode;
 }
 namespace UnityEngine {
 class MeshRenderer;
@@ -520,7 +520,7 @@ static_assert(offsetof(::UnityEngine::__ParticleSystem__MinMaxGradient, m_ColorM
 // SizeInfo { instance_size: 132, native_size: 132, calculated_instance_size: 132, calculated_native_size: 148, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10250))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10250)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15888))
 // CS Name: ::ParticleSystem::Particle
 struct CORDL_TYPE __ParticleSystem__Particle {

@@ -5,20 +5,20 @@ CORDL_MODULE_INIT
 #include "UnityEngine/Playables/zzzz__PlayableBehaviour_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(BloomFogParamsBehaviour)
+namespace System {
+class Object;
+}
 namespace UnityEngine::Playables {
-struct FrameData;
+struct Playable;
 }
 namespace GlobalNamespace {
 class BloomFogSO;
-}
-namespace System {
-class Object;
 }
 namespace GlobalNamespace {
 class BloomFogEnvironmentParams;
 }
 namespace UnityEngine::Playables {
-struct Playable;
+struct FrameData;
 }
 // Forward declare root types
 namespace GlobalNamespace {

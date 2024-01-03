@@ -18,7 +18,7 @@ MARK_REF_PTR_T(::System::Threading::__CancellationTokenSource__Linked2Cancellati
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Threading {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2688)), TypeDefinitionIndex(TypeDefinitionIndex(2683))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2683)), TypeDefinitionIndex(TypeDefinitionIndex(2688))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2685))
 // CS Name: ::CancellationTokenSource::Linked2CancellationTokenSource*
 class CORDL_TYPE __CancellationTokenSource__Linked2CancellationTokenSource : public ::System::Threading::CancellationTokenSource {

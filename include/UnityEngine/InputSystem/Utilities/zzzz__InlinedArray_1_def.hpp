@@ -8,31 +8,31 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(InlinedArray_1)
 namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
-namespace System::Collections {
-class IEnumerable;
-}
-namespace System {
-template <typename T, typename TResult> class Func_2;
-}
-namespace System::Collections::Generic {
 template <typename T> class IEqualityComparer_1;
 }
 namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
+template <typename T> class IEnumerable_1;
 }
 namespace System::Collections {
 class IEnumerator;
 }
+namespace System {
+template <typename T, typename TResult> class Func_2;
+}
+namespace System::Collections {
+class IEnumerable;
+}
 namespace UnityEngine::InputSystem::Utilities {
 template <typename TValue> struct __InlinedArray_1__Enumerator;
 }
-namespace System {
-class IDisposable;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
 }
 namespace System {
 class Object;
+}
+namespace System {
+class IDisposable;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::Utilities {

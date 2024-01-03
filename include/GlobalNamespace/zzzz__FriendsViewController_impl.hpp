@@ -2,10 +2,10 @@
 #include "GlobalNamespace/zzzz__NetworkPlayersViewController_impl.hpp"
 #include "GlobalNamespace/zzzz__FriendsViewController_def.hpp"
 #include "GlobalNamespace/zzzz__PlatformNetworkPlayerModel_def.hpp"
-#include "GlobalNamespace/zzzz__INetworkPlayerModel_def.hpp"
-#include "GlobalNamespace/zzzz__INetworkConfig_def.hpp"
-#include "UnityEngine/UI/zzzz__Toggle_def.hpp"
 #include "HMUI/zzzz__ToggleBinder_def.hpp"
+#include "GlobalNamespace/zzzz__INetworkPlayerModel_def.hpp"
+#include "UnityEngine/UI/zzzz__Toggle_def.hpp"
+#include "GlobalNamespace/zzzz__INetworkConfig_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::FriendsViewController.get_myPartyTitle
 template <>
 

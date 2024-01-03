@@ -4,20 +4,20 @@
 CORDL_MODULE_INIT
 #include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
 CORDL_MODULE_EXPORT(ContinuationResultTaskFromResultTask_2)
-namespace System {
-class Delegate;
+namespace System::Threading::Tasks {
+struct TaskCreationOptions;
 }
 namespace System {
-class Object;
+class Delegate;
 }
 namespace System::Threading::Tasks {
 template <typename TResult> class Task_1;
 }
 namespace System::Threading::Tasks {
-struct TaskCreationOptions;
-}
-namespace System::Threading::Tasks {
 struct InternalTaskOptions;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::Threading::Tasks {

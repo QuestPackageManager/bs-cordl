@@ -7,32 +7,32 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(FileWebStream)
-namespace System {
-class AsyncCallback;
-}
-namespace System::Net {
-struct CloseExState;
-}
-namespace System {
-class Object;
-}
-namespace System::IO {
-struct FileShare;
-}
-namespace System::IO {
-struct FileMode;
-}
-namespace System::Net {
-class ICloseEx;
-}
 namespace System::Net {
 class FileWebRequest;
 }
 namespace System {
 class IAsyncResult;
 }
+namespace System {
+class Object;
+}
+namespace System {
+class AsyncCallback;
+}
 namespace System::IO {
 struct FileAccess;
+}
+namespace System::Net {
+class ICloseEx;
+}
+namespace System::IO {
+struct FileMode;
+}
+namespace System::IO {
+struct FileShare;
+}
+namespace System::Net {
+struct CloseExState;
 }
 // Forward declare root types
 namespace System::Net {

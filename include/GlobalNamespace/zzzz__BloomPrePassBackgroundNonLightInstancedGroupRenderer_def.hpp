@@ -11,32 +11,32 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(BloomPrePassBackgroundNonLightInstancedGroupRenderer)
-namespace UnityEngine {
-class MaterialPropertyBlock;
-}
-namespace UnityEngine {
-struct Matrix4x4;
-}
-namespace UnityEngine::Rendering {
-class CommandBuffer;
-}
-namespace GlobalNamespace {
-struct __BloomPrePassBackgroundNonLightInstancedGroupRenderer__PropertyType;
-}
-namespace UnityEngine {
-struct Vector4;
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace UnityEngine {
 class RenderTexture;
 }
 namespace GlobalNamespace {
-class __BloomPrePassBackgroundNonLightInstancedGroupRenderer__SupportedProperty;
+struct __BloomPrePassBackgroundNonLightInstancedGroupRenderer__PropertyType;
+}
+namespace UnityEngine::Rendering {
+class CommandBuffer;
+}
+namespace UnityEngine {
+class MaterialPropertyBlock;
+}
+namespace UnityEngine {
+struct Vector4;
 }
 namespace GlobalNamespace {
 class BloomPrePassBackgroundNonLightRenderer;
 }
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
+namespace GlobalNamespace {
+class __BloomPrePassBackgroundNonLightInstancedGroupRenderer__SupportedProperty;
+}
+namespace UnityEngine {
+struct Matrix4x4;
 }
 // Forward declare root types
 namespace GlobalNamespace {

@@ -4,9 +4,6 @@
 CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(EnvironmentColorManager)
-namespace UnityEngine {
-struct Color;
-}
 namespace GlobalNamespace {
 class SimpleColorSO;
 }
@@ -15,6 +12,9 @@ class ColorSchemeSO;
 }
 namespace GlobalNamespace {
 class ColorScheme;
+}
+namespace UnityEngine {
+struct Color;
 }
 // Forward declare root types
 namespace GlobalNamespace {

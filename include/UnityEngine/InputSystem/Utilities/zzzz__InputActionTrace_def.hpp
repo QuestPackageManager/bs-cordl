@@ -13,53 +13,53 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(InputActionTrace)
-namespace System {
-template <typename T> class Action_1;
-}
 namespace UnityEngine::InputSystem {
-struct InputActionChange;
-}
-namespace System {
-template <typename T1, typename T2> class Action_2;
-}
-namespace System {
-class IDisposable;
-}
-namespace System {
-class Object;
+class InputActionMap;
 }
 namespace UnityEngine::InputSystem {
 struct __InputAction__CallbackContext;
 }
+namespace UnityEngine::InputSystem::LowLevel {
+struct InputEventBuffer;
+}
+namespace System {
+template <typename T1, typename T2> class Action_2;
+}
 namespace UnityEngine::InputSystem {
-class InputActionMap;
+struct InputActionChange;
 }
 namespace UnityEngine::InputSystem::Utilities {
 struct __InputActionTrace__ActionEventPtr;
 }
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
 namespace System::Collections {
 class IEnumerator;
+}
+namespace System {
+class Object;
 }
 namespace System::Collections {
 class IEnumerable;
 }
+namespace System {
+class IDisposable;
+}
 namespace UnityEngine::InputSystem::Utilities {
 struct __InputActionTrace__Enumerator;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
-namespace UnityEngine::InputSystem::LowLevel {
-struct InputEventBuffer;
 }
 namespace UnityEngine::InputSystem {
 class InputAction;
 }
-namespace UnityEngine::InputSystem {
-class InputActionState;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
+}
+namespace System {
+template <typename T> class Action_1;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+struct ActionEvent;
 }
 namespace UnityEngine::InputSystem {
 struct InputActionPhase;
@@ -70,8 +70,8 @@ class InputControl;
 namespace UnityEngine::InputSystem {
 class IInputInteraction;
 }
-namespace UnityEngine::InputSystem::LowLevel {
-struct ActionEvent;
+namespace UnityEngine::InputSystem {
+class InputActionState;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::Utilities {
@@ -266,10 +266,10 @@ static_assert(offsetof(::UnityEngine::InputSystem::Utilities::__InputActionTrace
 // SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 168, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Utilities {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6669)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(6532)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6669), inst: 3103 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6669), inst: 3104 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(6152)), TypeDefinitionIndex(TypeDefinitionIndex(6181)), TypeDefinitionIndex(TypeDefinitionIndex(6134)), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(6669), inst: 3867 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(6655)) CS Name: ::UnityEngine.InputSystem.Utilities::InputActionTrace*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6669)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6669), inst: 3867 }), GenericInstantiation(GenericInstantiation {
+// tdi: TypeDefinitionIndex(6669), inst: 3103 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6669), inst: 3104 }), TypeDefinitionIndex(TypeDefinitionIndex(6134)),
+// TypeDefinitionIndex(TypeDefinitionIndex(6532)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(6181)), TypeDefinitionIndex(TypeDefinitionIndex(6152))} Self:
+// TypeDefinitionIndex(TypeDefinitionIndex(6655)) CS Name: ::UnityEngine.InputSystem.Utilities::InputActionTrace*
 class CORDL_TYPE InputActionTrace : public ::System::Object {
 public:
   // Declarations

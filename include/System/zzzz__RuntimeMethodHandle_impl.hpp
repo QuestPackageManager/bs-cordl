@@ -1,12 +1,12 @@
 #pragma once
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "System/zzzz__RuntimeMethodHandle_def.hpp"
-#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
+#include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
+#include "System/zzzz__TypeNameFormatFlags_def.hpp"
 #include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
+#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "System/Reflection/zzzz__RuntimeMethodInfo_def.hpp"
-#include "System/zzzz__TypeNameFormatFlags_def.hpp"
-#include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
 //  Writing Method size for method: ::System::RuntimeMethodHandle._ctor
 template <>
 

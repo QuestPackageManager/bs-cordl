@@ -2,8 +2,8 @@
 #include "System/IO/zzzz__UnmanagedMemoryStream_impl.hpp"
 #include "System/Runtime/InteropServices/zzzz__GCHandle_impl.hpp"
 #include "System/IO/zzzz__PinnedBufferMemoryStream_def.hpp"
-#include "System/zzzz__ReadOnlySpan_1_def.hpp"
 #include "System/zzzz__Span_1_def.hpp"
+#include "System/zzzz__ReadOnlySpan_1_def.hpp"
 //  Writing Method size for method: ::System::IO::PinnedBufferMemoryStream._ctor
 template <>
 

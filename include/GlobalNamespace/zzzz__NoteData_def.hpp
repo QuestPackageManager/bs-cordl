@@ -7,6 +7,7 @@ CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__NoteCutDirection_def.hpp"
 #include "GlobalNamespace/zzzz__NoteData_def.hpp"
 #include "GlobalNamespace/zzzz__NoteLineLayer_def.hpp"
+#include "System/zzzz__Nullable_1_def.hpp"
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
@@ -15,22 +16,19 @@ namespace GlobalNamespace {
 struct NoteLineLayer;
 }
 namespace GlobalNamespace {
+class BeatmapDataItem;
+}
+namespace GlobalNamespace {
 struct __NoteData__ScoringType;
 }
 namespace GlobalNamespace {
-class BeatmapDataItem;
-}
-namespace System {
-template <typename T> struct Nullable_1;
+struct ColorType;
 }
 namespace GlobalNamespace {
 struct NoteCutDirection;
 }
 namespace GlobalNamespace {
 struct __NoteData__GameplayType;
-}
-namespace GlobalNamespace {
-struct ColorType;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -182,9 +180,12 @@ static_assert(offsetof(::GlobalNamespace::__NoteData__ScoringType, value__) == 0
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 84, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14752)), TypeDefinitionIndex(TypeDefinitionIndex(14751)), TypeDefinitionIndex(TypeDefinitionIndex(14755)),
-// TypeDefinitionIndex(TypeDefinitionIndex(14760)), TypeDefinitionIndex(TypeDefinitionIndex(14757)), TypeDefinitionIndex(TypeDefinitionIndex(14758))} Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(14759)) CS Name: ::NoteData*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14760)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 391 }), GenericInstantiation(GenericInstantiation {
+// tdi: TypeDefinitionIndex(2448), inst: 4770 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 4730 }), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(2448), inst: 4749 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 98 }), TypeDefinitionIndex(TypeDefinitionIndex(14752)),
+// TypeDefinitionIndex(TypeDefinitionIndex(14755)), TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(14758)), TypeDefinitionIndex(TypeDefinitionIndex(14757)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 4747 }), TypeDefinitionIndex(TypeDefinitionIndex(14751)), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(2448), inst: 2610 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(14759)) CS Name: ::NoteData*
 class CORDL_TYPE NoteData : public ::GlobalNamespace::BeatmapObjectData {
 public:
   // Declarations

@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(BeatmapSaveDataHelpers)
-namespace GlobalNamespace {
-class __BeatmapSaveDataHelpers__VersionSerializedData;
-}
 namespace System {
 class Version;
+}
+namespace GlobalNamespace {
+class __BeatmapSaveDataHelpers__VersionSerializedData;
 }
 // Forward declare root types
 namespace GlobalNamespace {

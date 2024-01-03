@@ -1,10 +1,10 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__NoteCutHapticEffect_def.hpp"
-#include "GlobalNamespace/zzzz__SaberType_def.hpp"
-#include "GlobalNamespace/zzzz__NoteCutHapticEffect_def.hpp"
-#include "GlobalNamespace/zzzz__HapticFeedbackManager_def.hpp"
 #include "Libraries/HM/HMLib/VR/zzzz__HapticPresetSO_def.hpp"
+#include "GlobalNamespace/zzzz__HapticFeedbackManager_def.hpp"
+#include "GlobalNamespace/zzzz__NoteCutHapticEffect_def.hpp"
+#include "GlobalNamespace/zzzz__SaberType_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::GlobalNamespace::__NoteCutHapticEffect__Type::__NoteCutHapticEffect__Type(int32_t value__) noexcept {
   this->value__ = value__;

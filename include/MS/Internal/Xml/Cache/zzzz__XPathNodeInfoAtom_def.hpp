@@ -6,14 +6,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(XPathNodeInfoAtom)
-namespace System::Xml::XPath {
-class XPathDocument;
-}
 namespace MS::Internal::Xml::Cache {
 struct XPathNode;
 }
 namespace MS::Internal::Xml::Cache {
 class XPathNodePageInfo;
+}
+namespace System::Xml::XPath {
+class XPathDocument;
 }
 // Forward declare root types
 namespace MS::Internal::Xml::Cache {

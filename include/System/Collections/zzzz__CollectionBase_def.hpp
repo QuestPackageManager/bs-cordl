@@ -5,26 +5,26 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(CollectionBase)
-namespace System {
-class Array;
-}
-namespace System::Collections {
-class ICollection;
-}
-namespace System::Collections {
-class IEnumerator;
-}
 namespace System::Collections {
 class ArrayList;
 }
 namespace System::Collections {
-class IEnumerable;
+class ICollection;
 }
 namespace System {
 class Object;
 }
 namespace System::Collections {
 class IList;
+}
+namespace System::Collections {
+class IEnumerable;
+}
+namespace System {
+class Array;
+}
+namespace System::Collections {
+class IEnumerator;
 }
 // Forward declare root types
 namespace System::Collections {

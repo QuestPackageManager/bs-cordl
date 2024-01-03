@@ -12,43 +12,13 @@ namespace System {
 class Object;
 }
 namespace Mono::Unity {
-struct __UnityTls__unitytls_x509list;
-}
-namespace Mono::Unity {
-struct __UnityTls__unitytls_key_ref;
-}
-namespace Mono::Unity {
-struct __UnityTls__unitytls_errorstate;
-}
-namespace Mono::Unity {
-struct __UnityTls__unitytls_x509list_ref;
-}
-namespace Mono::Unity {
-class __UnityTls__unitytls_x509verify_callback;
-}
-namespace Mono::Unity {
-class __UnityTls__unitytls_tlsctx_x509verify_callback;
-}
-namespace Mono::Unity {
-struct __UnityTls__unitytls_error_code;
-}
-namespace Mono::Unity {
-struct __UnityTls__unitytls_tlsctx;
-}
-namespace Mono::Unity {
-class __UnityTls__unitytls_tlsctx_trace_callback;
-}
-namespace Mono::Unity {
 class __UnityTls__unitytls_interface_struct;
 }
 namespace Mono::Unity {
-struct __UnityTls__unitytls_tlsctx_protocolrange;
+class __UnityTls__unitytls_tlsctx_write_callback;
 }
 namespace Mono::Unity {
-class __UnityTls__unitytls_tlsctx_read_callback;
-}
-namespace Mono::Unity {
-struct __UnityTls__unitytls_key;
+struct __UnityTls__unitytls_errorstate;
 }
 namespace Mono::Unity {
 struct __UnityTls__unitytls_x509_ref;
@@ -57,10 +27,7 @@ namespace Mono::Unity {
 struct __UnityTls__unitytls_x509name;
 }
 namespace Mono::Unity {
-struct __UnityTls__unitytls_tlsctx_callbacks;
-}
-namespace Mono::Unity {
-class __UnityTls__unitytls_tlsctx_write_callback;
+struct __UnityTls__unitytls_key;
 }
 namespace Mono::Unity {
 struct __UnityTls__unitytls_ciphersuite;
@@ -72,55 +39,43 @@ namespace Mono::Unity {
 class __UnityTls__unitytls_tlsctx_certificate_callback;
 }
 namespace Mono::Unity {
+struct __UnityTls__unitytls_error_code;
+}
+namespace Mono::Unity {
+class __UnityTls__unitytls_tlsctx_trace_callback;
+}
+namespace Mono::Unity {
+struct __UnityTls__unitytls_tlsctx_callbacks;
+}
+namespace Mono::Unity {
+class __UnityTls__unitytls_x509verify_callback;
+}
+namespace Mono::Unity {
+class __UnityTls__unitytls_tlsctx_x509verify_callback;
+}
+namespace Mono::Unity {
+struct __UnityTls__unitytls_x509list;
+}
+namespace Mono::Unity {
+struct __UnityTls__unitytls_tlsctx_protocolrange;
+}
+namespace Mono::Unity {
+struct __UnityTls__unitytls_tlsctx;
+}
+namespace Mono::Unity {
+struct __UnityTls__unitytls_x509list_ref;
+}
+namespace Mono::Unity {
+class __UnityTls__unitytls_tlsctx_read_callback;
+}
+namespace Mono::Unity {
+struct __UnityTls__unitytls_key_ref;
+}
+namespace Mono::Unity {
 struct __UnityTls__unitytls_protocol;
 }
 namespace GlobalNamespace {
-class __UnityTls__unitytls_interface_struct__unitytls_errorstate_raise_error_t;
-}
-namespace GlobalNamespace {
-class __UnityTls__unitytls_interface_struct__unitytls_x509list_get_x509_t;
-}
-namespace GlobalNamespace {
-class __UnityTls__unitytls_interface_struct__unitytls_tlsctx_read_t;
-}
-namespace GlobalNamespace {
-class __UnityTls__unitytls_interface_struct__unitytls_tlsctx_free_t;
-}
-namespace GlobalNamespace {
-class __UnityTls__unitytls_interface_struct__unitytls_tlsctx_get_ciphersuite_t;
-}
-namespace GlobalNamespace {
-class __UnityTls__unitytls_interface_struct__unitytls_key_free_t;
-}
-namespace GlobalNamespace {
-class __UnityTls__unitytls_interface_struct__unitytls_tlsctx_notify_close_t;
-}
-namespace GlobalNamespace {
-class __UnityTls__unitytls_interface_struct__unitytls_x509list_append_der_t;
-}
-namespace GlobalNamespace {
-class __UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_trace_callback_t;
-}
-namespace GlobalNamespace {
-class __UnityTls__unitytls_interface_struct__unitytls_tlsctx_get_protocol_t;
-}
-namespace GlobalNamespace {
-class __UnityTls__unitytls_interface_struct__unitytls_random_generate_bytes_t;
-}
-namespace GlobalNamespace {
-class __UnityTls__unitytls_interface_struct__unitytls_key_parse_der_t;
-}
-namespace GlobalNamespace {
-class __UnityTls__unitytls_interface_struct__unitytls_x509list_get_ref_t;
-}
-namespace GlobalNamespace {
-class __UnityTls__unitytls_interface_struct__unitytls_x509list_free_t;
-}
-namespace GlobalNamespace {
-class __UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_x509verify_callback_t;
-}
-namespace GlobalNamespace {
-class __UnityTls__unitytls_interface_struct__unitytls_tlsctx_create_client_t;
+class __UnityTls__unitytls_interface_struct__unitytls_x509list_append_t;
 }
 namespace GlobalNamespace {
 class __UnityTls__unitytls_interface_struct__unitytls_x509list_create_t;
@@ -129,40 +84,85 @@ namespace GlobalNamespace {
 class __UnityTls__unitytls_interface_struct__unitytls_tlsctx_create_server_t;
 }
 namespace GlobalNamespace {
-class __UnityTls__unitytls_interface_struct__unitytls_x509verify_default_ca_t;
+class __UnityTls__unitytls_interface_struct__unitytls_tlsctx_create_client_t;
 }
 namespace GlobalNamespace {
-class __UnityTls__unitytls_interface_struct__unitytls_tlsctx_server_require_client_authentication_t;
+class __UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_trace_callback_t;
 }
 namespace GlobalNamespace {
-class __UnityTls__unitytls_interface_struct__unitytls_errorstate_create_t;
+class __UnityTls__unitytls_interface_struct__unitytls_tlsctx_get_protocol_t;
 }
 namespace GlobalNamespace {
-class __UnityTls__unitytls_interface_struct__unitytls_x509_export_der_t;
+class __UnityTls__unitytls_interface_struct__unitytls_x509list_get_x509_t;
 }
 namespace GlobalNamespace {
-class __UnityTls__unitytls_interface_struct__unitytls_key_get_ref_t;
+class __UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_x509verify_callback_t;
 }
 namespace GlobalNamespace {
-class __UnityTls__unitytls_interface_struct__unitytls_tlsctx_write_t;
+class __UnityTls__unitytls_interface_struct__unitytls_x509list_free_t;
 }
 namespace GlobalNamespace {
 class __UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_certificate_callback_t;
 }
 namespace GlobalNamespace {
-class __UnityTls__unitytls_interface_struct__unitytls_x509verify_explicit_ca_t;
+class __UnityTls__unitytls_interface_struct__unitytls_x509list_get_ref_t;
 }
 namespace GlobalNamespace {
-class __UnityTls__unitytls_interface_struct__unitytls_x509list_append_t;
-}
-namespace GlobalNamespace {
-class __UnityTls__unitytls_interface_struct__unitytls_tlsctx_process_handshake_t;
+class __UnityTls__unitytls_interface_struct__unitytls_tlsctx_server_require_client_authentication_t;
 }
 namespace GlobalNamespace {
 class __UnityTls__unitytls_interface_struct__unitytls_key_parse_pem_t;
 }
 namespace GlobalNamespace {
+class __UnityTls__unitytls_interface_struct__unitytls_errorstate_create_t;
+}
+namespace GlobalNamespace {
+class __UnityTls__unitytls_interface_struct__unitytls_key_get_ref_t;
+}
+namespace GlobalNamespace {
+class __UnityTls__unitytls_interface_struct__unitytls_tlsctx_read_t;
+}
+namespace GlobalNamespace {
+class __UnityTls__unitytls_interface_struct__unitytls_x509_export_der_t;
+}
+namespace GlobalNamespace {
+class __UnityTls__unitytls_interface_struct__unitytls_random_generate_bytes_t;
+}
+namespace GlobalNamespace {
+class __UnityTls__unitytls_interface_struct__unitytls_key_parse_der_t;
+}
+namespace GlobalNamespace {
+class __UnityTls__unitytls_interface_struct__unitytls_tlsctx_get_ciphersuite_t;
+}
+namespace GlobalNamespace {
+class __UnityTls__unitytls_interface_struct__unitytls_x509list_append_der_t;
+}
+namespace GlobalNamespace {
+class __UnityTls__unitytls_interface_struct__unitytls_tlsctx_free_t;
+}
+namespace GlobalNamespace {
+class __UnityTls__unitytls_interface_struct__unitytls_tlsctx_write_t;
+}
+namespace GlobalNamespace {
+class __UnityTls__unitytls_interface_struct__unitytls_x509verify_default_ca_t;
+}
+namespace GlobalNamespace {
+class __UnityTls__unitytls_interface_struct__unitytls_tlsctx_notify_close_t;
+}
+namespace GlobalNamespace {
+class __UnityTls__unitytls_interface_struct__unitytls_key_free_t;
+}
+namespace GlobalNamespace {
+class __UnityTls__unitytls_interface_struct__unitytls_tlsctx_process_handshake_t;
+}
+namespace GlobalNamespace {
+class __UnityTls__unitytls_interface_struct__unitytls_x509verify_explicit_ca_t;
+}
+namespace GlobalNamespace {
 class __UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_supported_ciphersuites_t;
+}
+namespace GlobalNamespace {
+class __UnityTls__unitytls_interface_struct__unitytls_errorstate_raise_error_t;
 }
 // Forward declare root types
 namespace Mono::Unity {
@@ -2428,7 +2428,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__UnityTls__uni
 // SizeInfo { instance_size: 280, native_size: 264, calculated_instance_size: 280, calculated_native_size: 280, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Unity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8771)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8771))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8808))
 // CS Name: ::UnityTls::unitytls_interface_struct*
 class CORDL_TYPE __UnityTls__unitytls_interface_struct : public ::System::Object {

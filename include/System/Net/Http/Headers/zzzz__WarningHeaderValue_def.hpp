@@ -9,26 +9,26 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(WarningHeaderValue)
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
 namespace System {
-struct DateTimeOffset;
+class ICloneable;
 }
 namespace System {
 template <typename T> struct Nullable_1;
 }
 namespace System {
-class ICloneable;
+struct DateTimeOffset;
 }
-namespace System {
-class Object;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace System::Net::Http::Headers {
+class Lexer;
 }
 namespace System::Net::Http::Headers {
 struct Token;
 }
-namespace System::Net::Http::Headers {
-class Lexer;
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::Net::Http::Headers {
@@ -41,7 +41,7 @@ MARK_REF_PTR_T(::System::Net::Http::Headers::WarningHeaderValue);
 namespace System::Net::Http::Headers {
 // Is value type: false
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2448)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 2702 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2370))} Self: TypeDefinitionIndex(TypeDefinitionIndex(14711)) CS Name:
+// TypeDefinitionIndex(TypeDefinitionIndex(2370)), TypeDefinitionIndex(TypeDefinitionIndex(2613))} Self: TypeDefinitionIndex(TypeDefinitionIndex(14711)) CS Name:
 // ::System.Net.Http.Headers::WarningHeaderValue*
 class CORDL_TYPE WarningHeaderValue : public ::System::Object {
 public:

@@ -2,9 +2,9 @@
 #include "GlobalNamespace/zzzz__TextureEffectSO_impl.hpp"
 #include "UnityEngine/zzzz__Vector2_impl.hpp"
 #include "GlobalNamespace/zzzz__BloomPrePassEffectSO_def.hpp"
-#include "GlobalNamespace/zzzz__ToneMapping_def.hpp"
-#include "UnityEngine/zzzz__Vector2_def.hpp"
 #include "GlobalNamespace/zzzz__IBloomPrePassParams_def.hpp"
+#include "UnityEngine/zzzz__Vector2_def.hpp"
+#include "GlobalNamespace/zzzz__ToneMapping_def.hpp"
 #include "GlobalNamespace/zzzz__TextureEffectSO_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::BloomPrePassEffectSO.get_textureEffect
 template <>

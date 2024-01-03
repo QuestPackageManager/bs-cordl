@@ -6,16 +6,16 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(VRsenalLogger)
 namespace GlobalNamespace {
-class GameScenesManager;
+class StringSignal;
 }
 namespace GlobalNamespace {
-class ScenesTransitionSetupDataSO;
+class GameScenesManager;
 }
 namespace Zenject {
 class DiContainer;
 }
 namespace GlobalNamespace {
-class StringSignal;
+class ScenesTransitionSetupDataSO;
 }
 namespace GlobalNamespace {
 class VRsenalScoreLogger;

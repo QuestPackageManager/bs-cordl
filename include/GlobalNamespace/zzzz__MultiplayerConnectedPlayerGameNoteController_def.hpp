@@ -9,34 +9,34 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(MultiplayerConnectedPlayerGameNoteController)
 namespace GlobalNamespace {
-class NoteData;
-}
-namespace GlobalNamespace {
 class INoteVisualModifierTypeProvider;
-}
-namespace GlobalNamespace {
-class __MultiplayerConnectedPlayerGameNoteController__Pool;
-}
-namespace UnityEngine {
-struct Vector3;
-}
-namespace System {
-template <typename T> class Action_1;
-}
-namespace GlobalNamespace {
-class NoteMovement;
 }
 namespace GlobalNamespace {
 template <typename T> class ICubeNoteControllerInitializable_1;
 }
 namespace GlobalNamespace {
-struct NoteVisualModifierType;
+class NoteMovement;
 }
 namespace GlobalNamespace {
 struct __NoteData__GameplayType;
 }
 namespace GlobalNamespace {
+struct NoteVisualModifierType;
+}
+namespace GlobalNamespace {
+class NoteData;
+}
+namespace GlobalNamespace {
 class INoteMovementProvider;
+}
+namespace System {
+template <typename T> class Action_1;
+}
+namespace UnityEngine {
+struct Vector3;
+}
+namespace GlobalNamespace {
+class __MultiplayerConnectedPlayerGameNoteController__Pool;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -52,7 +52,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__MultiplayerConnectedPlayerGameNoteController
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14757)), TypeDefinitionIndex(TypeDefinitionIndex(5138)), TypeDefinitionIndex(TypeDefinitionIndex(4749))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5138)), TypeDefinitionIndex(TypeDefinitionIndex(4749)), TypeDefinitionIndex(TypeDefinitionIndex(14757))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5137))
 // CS Name: ::MultiplayerConnectedPlayerGameNoteController*
 class CORDL_TYPE MultiplayerConnectedPlayerGameNoteController : public ::GlobalNamespace::MultiplayerConnectedPlayerNoteController {

@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(StandardLevelReturnToMenuController)
 namespace GlobalNamespace {
-class StandardLevelScenesTransitionSetupDataSO;
+class PrepareLevelCompletionResults;
 }
 namespace GlobalNamespace {
-class PrepareLevelCompletionResults;
+class StandardLevelScenesTransitionSetupDataSO;
 }
 namespace GlobalNamespace {
 class IReturnToMenuController;

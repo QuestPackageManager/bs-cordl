@@ -6,17 +6,17 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(BakedLightTexturePacking)
+namespace System::Collections::Generic {
+template <typename T> class IReadOnlyList_1;
+}
 namespace UnityEngine {
 class Material;
 }
 namespace UnityEngine {
-class RenderTexture;
-}
-namespace UnityEngine {
 struct RenderTextureDescriptor;
 }
-namespace System::Collections::Generic {
-template <typename T> class IReadOnlyList_1;
+namespace UnityEngine {
+class RenderTexture;
 }
 // Forward declare root types
 namespace GlobalNamespace {

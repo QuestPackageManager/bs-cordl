@@ -9,52 +9,52 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(PartyMessageHandler)
 namespace GlobalNamespace {
-class ConnectedPlayerManager;
+template <typename TType, typename TData> class NetworkPacketSerializer_2;
 }
 namespace GlobalNamespace {
 struct __PartyMessageHandler__MessageType;
 }
 namespace GlobalNamespace {
+class __PartyMessageHandler__ConnectToMasterServerDelegate;
+}
+namespace GlobalNamespace {
+class ConnectedPlayerManager;
+}
+namespace GlobalNamespace {
 class __PartyMessageHandler__ConnectToMasterServerMessage;
+}
+namespace GlobalNamespace {
+class IConnectedPlayer;
 }
 namespace GlobalNamespace {
 class __PartyMessageHandler__ServerStatusUpdatedDelegate;
 }
-namespace GlobalNamespace {
-class __PartyMessageHandler__ConnectToMasterServerDelegate;
-}
-namespace GlobalNamespace {
-template <typename TType, typename TData> class NetworkPacketSerializer_2;
-}
 namespace System {
 class IDisposable;
-}
-namespace GlobalNamespace {
-class IConnectedPlayer;
 }
 namespace System {
 class Object;
 }
 namespace System {
-class AsyncCallback;
-}
-namespace System {
 class IAsyncResult;
 }
-namespace GlobalNamespace {
-class IPoolablePacket;
-}
-namespace LiteNetLib::Utils {
-class NetDataWriter;
-}
-namespace GlobalNamespace {
-template <typename T> class PacketPool_1;
+namespace System {
+class AsyncCallback;
 }
 namespace LiteNetLib::Utils {
 class NetDataReader;
 }
 namespace LiteNetLib::Utils {
 class INetSerializable;
+}
+namespace GlobalNamespace {
+class IPoolablePacket;
+}
+namespace GlobalNamespace {
+template <typename T> class PacketPool_1;
+}
+namespace LiteNetLib::Utils {
+class NetDataWriter;
 }
 namespace GlobalNamespace {
 struct GameplayServerConfiguration;

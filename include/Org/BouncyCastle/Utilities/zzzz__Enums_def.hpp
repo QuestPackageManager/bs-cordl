@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(Enums)
 namespace System {
-class Type;
+class Array;
 }
 namespace System {
-class Array;
+class Type;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Utilities {

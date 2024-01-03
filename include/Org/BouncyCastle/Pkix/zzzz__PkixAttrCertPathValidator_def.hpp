@@ -8,10 +8,10 @@ namespace Org::BouncyCastle::Pkix {
 class PkixCertPath;
 }
 namespace Org::BouncyCastle::Pkix {
-class PkixCertPathValidatorResult;
+class PkixParameters;
 }
 namespace Org::BouncyCastle::Pkix {
-class PkixParameters;
+class PkixCertPathValidatorResult;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Pkix {

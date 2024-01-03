@@ -10,14 +10,14 @@ CORDL_MODULE_EXPORT(OaepEncoding)
 namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;
 }
-namespace Org::BouncyCastle::Security {
-class SecureRandom;
+namespace Org::BouncyCastle::Crypto {
+class IDigest;
 }
 namespace Org::BouncyCastle::Crypto {
 class IAsymmetricBlockCipher;
 }
-namespace Org::BouncyCastle::Crypto {
-class IDigest;
+namespace Org::BouncyCastle::Security {
+class SecureRandom;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Encodings {

@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__IPv6AddressHelper_def.hpp"
-#include "System/zzzz__ValueTuple_2_def.hpp"
 #include "System/zzzz__ReadOnlySpan_1_def.hpp"
+#include "System/zzzz__ValueTuple_2_def.hpp"
 //  Writing Method size for method: ::System::IPv6AddressHelper.FindCompressionRange
 template <>
 

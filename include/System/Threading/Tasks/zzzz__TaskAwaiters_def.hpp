@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(TaskAwaiters)
 namespace System::Threading::Tasks {
-class Task;
+struct ForceAsyncAwaiter;
 }
 namespace System::Threading::Tasks {
-struct ForceAsyncAwaiter;
+class Task;
 }
 // Forward declare root types
 namespace System::Threading::Tasks {

@@ -9,22 +9,22 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Component)
 namespace UnityEngine {
-class GameObject;
-}
-namespace System {
-class Object;
-}
-namespace UnityEngine {
 struct SendMessageOptions;
 }
 namespace UnityEngine {
-class Transform;
+class GameObject;
 }
 namespace System {
 class Type;
 }
+namespace UnityEngine {
+class Transform;
+}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace UnityEngine {

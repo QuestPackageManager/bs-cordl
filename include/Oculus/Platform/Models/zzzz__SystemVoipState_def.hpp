@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::Oculus::Platform::Models::SystemVoipState);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Oculus::Platform::Models {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13391)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(13400))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(13391)), TypeDefinitionIndex(TypeDefinitionIndex(13400))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13483))
 // CS Name: ::Oculus.Platform.Models::SystemVoipState*
 class CORDL_TYPE SystemVoipState : public ::System::Object {

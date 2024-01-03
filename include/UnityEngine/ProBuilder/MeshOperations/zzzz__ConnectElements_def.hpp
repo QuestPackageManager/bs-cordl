@@ -10,32 +10,14 @@ CORDL_MODULE_EXPORT(ConnectElements)
 namespace UnityEngine::ProBuilder {
 class WingedEdge;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
 namespace UnityEngine::ProBuilder::MeshOperations {
 class __ConnectElements____c;
-}
-namespace UnityEngine::ProBuilder {
-class ProBuilderMesh;
-}
-namespace UnityEngine::ProBuilder {
-class Face;
-}
-namespace UnityEngine::ProBuilder {
-class Vertex;
-}
-namespace UnityEngine::ProBuilder::MeshOperations {
-class __ConnectElements____c__DisplayClass2_0;
-}
-namespace UnityEngine::ProBuilder {
-template <typename T1, typename T2> struct SimpleTuple_2;
 }
 namespace UnityEngine::ProBuilder::MeshOperations {
 class __ConnectElements____c__DisplayClass3_0;
 }
-namespace UnityEngine::ProBuilder {
-class ActionResult;
+namespace UnityEngine::ProBuilder::MeshOperations {
+class ConnectFaceRebuildData;
 }
 namespace UnityEngine::ProBuilder {
 struct Edge;
@@ -43,26 +25,44 @@ struct Edge;
 namespace System::Collections::Generic {
 template <typename T> class IList_1;
 }
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
 namespace UnityEngine::ProBuilder::MeshOperations {
-class ConnectFaceRebuildData;
+class __ConnectElements____c__DisplayClass2_0;
 }
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
+namespace UnityEngine::ProBuilder {
+template <typename T1, typename T2> struct SimpleTuple_2;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
+namespace UnityEngine::ProBuilder {
+class ProBuilderMesh;
 }
 namespace System::Collections::Generic {
 template <typename T> class HashSet_1;
 }
 namespace UnityEngine::ProBuilder {
-struct EdgeLookup;
+class ActionResult;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace UnityEngine::ProBuilder {
+class Face;
+}
+namespace UnityEngine::ProBuilder {
+class Vertex;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;
 }
 namespace UnityEngine::ProBuilder {
 class FaceRebuildData;
+}
+namespace UnityEngine::ProBuilder {
+struct EdgeLookup;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder::MeshOperations {

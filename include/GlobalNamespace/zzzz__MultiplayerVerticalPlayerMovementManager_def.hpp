@@ -5,32 +5,32 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(MultiplayerVerticalPlayerMovementManager)
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace GlobalNamespace {
-class MultiplayerLayoutProvider;
-}
 namespace GlobalNamespace {
 class MultiplayerPlayersManager;
+}
+namespace GlobalNamespace {
+class MultiplayerController;
+}
+namespace GlobalNamespace {
+class __MultiplayerScoreProvider__RankedPlayer;
+}
+namespace GlobalNamespace {
+struct __MultiplayerController__State;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace GlobalNamespace {
-struct __MultiplayerController__State;
+class MultiplayerLayoutProvider;
 }
-namespace GlobalNamespace {
-class __MultiplayerScoreProvider__RankedPlayer;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace GlobalNamespace {
 class MultiplayerScoreProvider;
 }
 namespace GlobalNamespace {
 class MultiplayerConnectedPlayerFacade;
-}
-namespace GlobalNamespace {
-class MultiplayerController;
 }
 // Forward declare root types
 namespace GlobalNamespace {

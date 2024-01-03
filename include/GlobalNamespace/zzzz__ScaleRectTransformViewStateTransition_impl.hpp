@@ -3,9 +3,9 @@
 #include "UnityEngine/zzzz__RectTransform_impl.hpp"
 #include "GlobalNamespace/zzzz__ScaleRectTransformViewStateTransition_def.hpp"
 #include "GlobalNamespace/zzzz__Vector3TransitionSO_def.hpp"
+#include "Tweening/zzzz__Vector3Tween_def.hpp"
 #include "GlobalNamespace/zzzz__BaseTransitionSO_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
-#include "Tweening/zzzz__Vector3Tween_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::ScaleRectTransformViewStateTransition.get_transition
 template <>
 

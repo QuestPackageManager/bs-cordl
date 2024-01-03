@@ -3,8 +3,12 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(SR)
+namespace System::Globalization {
+class CultureInfo;
+}
 namespace System {
 class Object;
 }
@@ -19,13 +23,31 @@ MARK_REF_PTR_T(::GlobalNamespace::SR);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15431))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2222))
 // CS Name: ::SR*
 class CORDL_TYPE SR : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Format, addr 0x285a978, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method GetString, addr 0x2411d8c, size 0x70, virtual false, abstract: false, final false
+  static inline ::StringW GetString(::StringW name, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
+
+  /// @brief Method GetString, addr 0x2411dfc, size 0x8, virtual false, abstract: false, final false
+  static inline ::StringW GetString(::System::Globalization::CultureInfo* culture, ::StringW name, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
+
+  /// @brief Method GetString, addr 0x2411e04, size 0x4, virtual false, abstract: false, final false
+  static inline ::StringW GetString(::StringW name);
+
+  /// @brief Method Format, addr 0x2410dd8, size 0x70, virtual false, abstract: false, final false
   static inline ::StringW Format(::StringW resourceFormat, ::System::Object* p1);
+
+  /// @brief Method Format, addr 0x2411e08, size 0x78, virtual false, abstract: false, final false
+  static inline ::StringW Format(::StringW resourceFormat, ::System::Object* p1, ::System::Object* p2);
+
+  /// @brief Method Format, addr 0x2411e80, size 0x88, virtual false, abstract: false, final false
+  static inline ::StringW Format(::StringW resourceFormat, ::System::Object* p1, ::System::Object* p2, ::System::Object* p3);
+
+  /// @brief Method GetResourceString, addr 0x2411f08, size 0x4, virtual false, abstract: false, final false
+  static inline ::StringW GetResourceString(::StringW str);
 
   // Ctor Parameters [CppParam { name: "", ty: "SR", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

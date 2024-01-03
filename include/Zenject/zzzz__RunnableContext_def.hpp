@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include "Zenject/zzzz__Context_def.hpp"
 CORDL_MODULE_EXPORT(RunnableContext)
-namespace Zenject {
-class InjectTypeInfo;
-}
 namespace UnityEngine {
 class GameObject;
+}
+namespace Zenject {
+class InjectTypeInfo;
 }
 // Forward declare root types
 namespace Zenject {

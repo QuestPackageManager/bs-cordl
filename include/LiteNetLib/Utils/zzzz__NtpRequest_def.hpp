@@ -7,26 +7,26 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(NtpRequest)
-namespace System::Net {
-class IPEndPoint;
-}
-namespace System {
-template <typename T> class Action_1;
-}
-namespace System::Net {
-class IPAddress;
-}
 namespace LiteNetLib::Utils {
 class NtpPacket;
 }
-namespace LiteNetLib {
-class INetSocketListener;
+namespace System {
+template <typename T> class Action_1;
 }
 namespace System::Net::Sockets {
 struct SocketError;
 }
 namespace LiteNetLib {
 class NetSocket;
+}
+namespace System::Net {
+class IPEndPoint;
+}
+namespace LiteNetLib {
+class INetSocketListener;
+}
+namespace System::Net {
+class IPAddress;
 }
 // Forward declare root types
 namespace LiteNetLib::Utils {

@@ -4,19 +4,19 @@
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IMockBeatmapDataProvider)
 namespace GlobalNamespace {
-class MockBeatmapData;
-}
-namespace System::Threading {
-struct CancellationToken;
-}
-namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
-}
-namespace GlobalNamespace {
 class BeatmapIdentifierNetSerializable;
 }
 namespace System {
 class IDisposable;
+}
+namespace System::Threading::Tasks {
+template <typename TResult> class Task_1;
+}
+namespace System::Threading {
+struct CancellationToken;
+}
+namespace GlobalNamespace {
+class MockBeatmapData;
 }
 // Forward declare root types
 namespace GlobalNamespace {

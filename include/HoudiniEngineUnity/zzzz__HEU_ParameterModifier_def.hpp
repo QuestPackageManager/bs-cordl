@@ -9,10 +9,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(HEU_ParameterModifier)
 namespace HoudiniEngineUnity {
-struct __HEU_ParameterModifier__ModifierAction;
+template <typename T> class IEquivable_1;
 }
 namespace HoudiniEngineUnity {
-template <typename T> class IEquivable_1;
+struct __HEU_ParameterModifier__ModifierAction;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -90,7 +90,7 @@ static_assert(offsetof(::HoudiniEngineUnity::__HEU_ParameterModifier__ModifierAc
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9761))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9761)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9762))
 // CS Name: ::HoudiniEngineUnity::HEU_ParameterModifier*
 class CORDL_TYPE HEU_ParameterModifier : public ::System::Object {

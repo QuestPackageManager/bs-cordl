@@ -4,17 +4,17 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(Pointer)
-namespace System::Runtime::Serialization {
-class ISerializable;
-}
-namespace System::Runtime::Serialization {
-struct StreamingContext;
+namespace System {
+class Type;
 }
 namespace System {
 class Object;
 }
-namespace System {
-class Type;
+namespace System::Runtime::Serialization {
+struct StreamingContext;
+}
+namespace System::Runtime::Serialization {
+class ISerializable;
 }
 namespace System::Runtime::Serialization {
 class SerializationInfo;

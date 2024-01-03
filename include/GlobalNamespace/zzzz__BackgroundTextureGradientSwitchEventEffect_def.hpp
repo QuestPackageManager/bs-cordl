@@ -8,13 +8,13 @@ namespace GlobalNamespace {
 class ColorBoostBeatmapEventData;
 }
 namespace GlobalNamespace {
-class BeatmapCallbacksController;
-}
-namespace GlobalNamespace {
 class BloomPrePassBackgroundTextureGradient;
 }
 namespace GlobalNamespace {
 class BeatmapDataCallbackWrapper;
+}
+namespace GlobalNamespace {
+class BeatmapCallbacksController;
 }
 // Forward declare root types
 namespace GlobalNamespace {

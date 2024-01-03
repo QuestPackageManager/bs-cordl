@@ -3,11 +3,11 @@
 #include "System/Xml/zzzz__ElementProperties_impl.hpp"
 #include "System/Xml/zzzz__XmlUtf8RawTextWriter_impl.hpp"
 #include "System/Xml/zzzz__HtmlUtf8RawTextWriter_def.hpp"
-#include "System/Xml/zzzz__ByteStack_def.hpp"
-#include "System/Xml/zzzz__XmlWriterSettings_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"
+#include "System/Xml/zzzz__ByteStack_def.hpp"
 #include "System/Xml/zzzz__XmlStandalone_def.hpp"
 #include "System/Xml/zzzz__TernaryTreeReadOnly_def.hpp"
+#include "System/Xml/zzzz__XmlWriterSettings_def.hpp"
 //  Writing Method size for method: ::System::Xml::HtmlUtf8RawTextWriter._ctor
 template <>
 

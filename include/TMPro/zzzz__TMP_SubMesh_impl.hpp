@@ -1,15 +1,15 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "TMPro/zzzz__TMP_SubMesh_def.hpp"
-#include "TMPro/zzzz__TMP_Text_def.hpp"
-#include "UnityEngine/zzzz__Mesh_def.hpp"
 #include "UnityEngine/zzzz__Renderer_def.hpp"
-#include "TMPro/zzzz__TMP_FontAsset_def.hpp"
-#include "TMPro/zzzz__TMP_SpriteAsset_def.hpp"
-#include "TMPro/zzzz__MaterialReference_def.hpp"
 #include "TMPro/zzzz__TextMeshPro_def.hpp"
-#include "UnityEngine/zzzz__Material_def.hpp"
+#include "TMPro/zzzz__TMP_FontAsset_def.hpp"
+#include "UnityEngine/zzzz__Mesh_def.hpp"
 #include "UnityEngine/zzzz__MeshFilter_def.hpp"
+#include "TMPro/zzzz__MaterialReference_def.hpp"
+#include "UnityEngine/zzzz__Material_def.hpp"
+#include "TMPro/zzzz__TMP_Text_def.hpp"
+#include "TMPro/zzzz__TMP_SpriteAsset_def.hpp"
 //  Writing Method size for method: ::TMPro::TMP_SubMesh.get_fontAsset
 template <>
 

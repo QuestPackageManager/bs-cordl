@@ -2,12 +2,12 @@
 #include "UnityEngine/Playables/zzzz__PlayableBehaviour_impl.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"
 #include "GlobalNamespace/zzzz__TubeLightBehaviour_def.hpp"
-#include "GlobalNamespace/zzzz__TubeLightBehaviour_def.hpp"
-#include "GlobalNamespace/zzzz__ColorSO_def.hpp"
-#include "UnityEngine/Playables/zzzz__Playable_def.hpp"
-#include "GlobalNamespace/zzzz__DirectionalLight_def.hpp"
 #include "UnityEngine/Playables/zzzz__FrameData_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "GlobalNamespace/zzzz__DirectionalLight_def.hpp"
+#include "UnityEngine/Playables/zzzz__Playable_def.hpp"
+#include "GlobalNamespace/zzzz__ColorSO_def.hpp"
+#include "GlobalNamespace/zzzz__TubeLightBehaviour_def.hpp"
 #include "GlobalNamespace/zzzz__TubeBloomPrePassLight_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::GlobalNamespace::__TubeLightBehaviour__ParameterType::__TubeLightBehaviour__ParameterType(int32_t value__) noexcept {

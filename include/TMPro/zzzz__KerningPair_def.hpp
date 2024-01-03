@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::TMPro::KerningPair);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 61, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12362))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12362)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12363))
 // CS Name: ::TMPro::KerningPair*
 class CORDL_TYPE KerningPair : public ::System::Object {

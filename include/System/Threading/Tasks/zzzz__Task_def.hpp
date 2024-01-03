@@ -9,23 +9,47 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Task)
-namespace System::Threading::Tasks {
-class __Task__SetOnInvokeMres;
+namespace System::Threading {
+class ContextCallback;
+}
+namespace System {
+class Action;
+}
+namespace System {
+template <typename T> class Action_1;
+}
+namespace System {
+struct TimeSpan;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
 }
 namespace System {
 template <typename T> class Predicate_1;
 }
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
+namespace System::Threading {
+class ThreadAbortException;
+}
+namespace System::Threading::Tasks {
+class __Task__DelayPromise;
+}
+namespace System::Threading::Tasks {
+template <typename T> class __Task__WhenAllPromise_1;
+}
+namespace System::Threading::Tasks {
+class __Task____c;
+}
+namespace System::Threading {
+class WaitHandle;
+}
+namespace System {
+template <typename TResult> class Func_1;
+}
+namespace System::Threading::Tasks {
+class __Task__ContingentProperties;
 }
 namespace System::Threading::Tasks {
 class TaskScheduler;
-}
-namespace System::Threading::Tasks {
-struct TaskContinuationOptions;
-}
-namespace System::Threading::Tasks {
-class ITaskCompletionAction;
 }
 namespace System::Threading::Tasks {
 struct TaskStatus;
@@ -33,32 +57,50 @@ struct TaskStatus;
 namespace System::Threading {
 struct CancellationToken;
 }
-namespace System::Threading::Tasks {
-class __Task____c;
+namespace System::Threading {
+class ExecutionContext;
 }
 namespace System::Threading::Tasks {
-class __Task__DelayPromise;
+class TaskFactory;
 }
-namespace System::Runtime::ExceptionServices {
-class ExceptionDispatchInfo;
-}
-namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
+namespace System::Threading {
+class ManualResetEventSlim;
 }
 namespace System::Collections::ObjectModel {
 template <typename T> class ReadOnlyCollection_1;
 }
-namespace System::Threading {
-class ContextCallback;
-}
-namespace System {
-class Object;
-}
-namespace System {
-struct TimeSpan;
-}
 namespace System::Threading::Tasks {
 class __Task__WhenAllPromise;
+}
+namespace System::Threading::Tasks {
+struct TaskCreationOptions;
+}
+namespace System::Threading::Tasks {
+struct InternalTaskOptions;
+}
+namespace System::Threading::Tasks {
+class TaskContinuation;
+}
+namespace System::Threading::Tasks {
+class ITaskCompletionAction;
+}
+namespace System {
+class IAsyncResult;
+}
+namespace System::Threading::Tasks {
+class StackGuard;
+}
+namespace System::Threading {
+class IThreadPoolWorkItem;
+}
+namespace System {
+class IDisposable;
+}
+namespace System::Threading::Tasks {
+class __Task__SetOnInvokeMres;
+}
+namespace System::Runtime::CompilerServices {
+struct TaskAwaiter;
 }
 namespace System {
 class AggregateException;
@@ -66,77 +108,35 @@ class AggregateException;
 namespace System::Runtime::CompilerServices {
 struct ConfiguredTaskAwaitable;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
+namespace System::Runtime::CompilerServices {
+struct YieldAwaitable;
 }
 namespace System::Threading::Tasks {
-struct TaskCreationOptions;
+template <typename TResult> class Task_1;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace System {
 class Exception;
 }
 namespace System::Threading::Tasks {
-template <typename T> class __Task__WhenAllPromise_1;
-}
-namespace System {
-class IDisposable;
-}
-namespace System::Threading::Tasks {
-struct InternalTaskOptions;
-}
-namespace System::Runtime::CompilerServices {
-struct YieldAwaitable;
-}
-namespace System::Threading {
-class IThreadPoolWorkItem;
+struct TaskContinuationOptions;
 }
 namespace System {
 template <typename T1, typename T2> class Action_2;
 }
-namespace System::Threading::Tasks {
-class TaskFactory;
-}
-namespace System::Threading {
-class ExecutionContext;
-}
-namespace System::Threading::Tasks {
-class TaskContinuation;
-}
-namespace System {
-class IAsyncResult;
-}
-namespace System {
-template <typename TResult> class Func_1;
-}
-namespace System::Threading {
-class ThreadAbortException;
-}
-namespace System::Threading::Tasks {
-class StackGuard;
-}
-namespace System {
-class Action;
-}
-namespace System::Runtime::CompilerServices {
-struct TaskAwaiter;
-}
-namespace System {
-template <typename T> class Action_1;
-}
 namespace System {
 class OperationCanceledException;
 }
-namespace System::Threading {
-class ManualResetEventSlim;
-}
-namespace System::Threading {
-class WaitHandle;
+namespace System::Runtime::ExceptionServices {
+class ExceptionDispatchInfo;
 }
 namespace System {
 class Delegate;
 }
-namespace System::Threading::Tasks {
-class __Task__ContingentProperties;
+namespace System {
+class Object;
 }
 namespace System::Threading::Tasks {
 class TaskExceptionHolder;

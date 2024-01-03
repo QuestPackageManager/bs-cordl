@@ -1,10 +1,10 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__TextureSlotManager_def.hpp"
+#include "UnityEngine/UIElements/zzzz__TextureRegistry_def.hpp"
+#include "UnityEngine/zzzz__MaterialPropertyBlock_def.hpp"
 #include "UnityEngine/UIElements/zzzz__TextureId_def.hpp"
 #include "UnityEngine/zzzz__Vector4_def.hpp"
-#include "UnityEngine/zzzz__MaterialPropertyBlock_def.hpp"
-#include "UnityEngine/UIElements/zzzz__TextureRegistry_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::UIR::TextureSlotManager._ctor
 template <>
 

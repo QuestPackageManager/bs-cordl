@@ -7,26 +7,26 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(CancellationTokenRegistration)
+namespace System::Threading::Tasks {
+struct ValueTask;
+}
 namespace System {
 class IDisposable;
+}
+namespace System {
+class IAsyncDisposable;
+}
+namespace System::Threading {
+template <typename T> struct SparselyPopulatedArrayAddInfo_1;
 }
 namespace System::Threading {
 class CancellationCallbackInfo;
 }
 namespace System {
-class Object;
-}
-namespace System::Threading {
-template <typename T> struct SparselyPopulatedArrayAddInfo_1;
-}
-namespace System::Threading::Tasks {
-struct ValueTask;
-}
-namespace System {
 template <typename T> class IEquatable_1;
 }
 namespace System {
-class IAsyncDisposable;
+class Object;
 }
 // Forward declare root types
 namespace System::Threading {
@@ -38,8 +38,8 @@ MARK_VAL_T(::System::Threading::CancellationTokenRegistration);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Threading {
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2693), inst: 4999 }), TypeDefinitionIndex(TypeDefinitionIndex(2693)),
-// TypeDefinitionIndex(TypeDefinitionIndex(2691))} Self: TypeDefinitionIndex(TypeDefinitionIndex(2683)) CS Name: ::System.Threading::CancellationTokenRegistration
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2691)), TypeDefinitionIndex(TypeDefinitionIndex(2693)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2693), inst: 4999
+// })} Self: TypeDefinitionIndex(TypeDefinitionIndex(2683)) CS Name: ::System.Threading::CancellationTokenRegistration
 struct CORDL_TYPE CancellationTokenRegistration {
 public:
   // Declarations

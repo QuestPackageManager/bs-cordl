@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "Zenject/zzzz__NullBindingFinalizer_def.hpp"
-#include "Zenject/zzzz__IBindingFinalizer_def.hpp"
 #include "Zenject/zzzz__DiContainer_def.hpp"
+#include "Zenject/zzzz__IBindingFinalizer_def.hpp"
 #include "Zenject/zzzz__BindingInheritanceMethods_def.hpp"
 //  Writing Method size for method: ::Zenject::NullBindingFinalizer.get_BindingInheritanceMethod
 template <>

@@ -3,8 +3,8 @@
 #include "GlobalNamespace/zzzz__GenericLogger_def.hpp"
 #include "GlobalNamespace/zzzz__GenericLogger_def.hpp"
 #include "GlobalNamespace/zzzz__IVerboseLogger_def.hpp"
-#include "System/Diagnostics/zzzz__Stopwatch_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
+#include "System/Diagnostics/zzzz__Stopwatch_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::__GenericLogger__ScopedStopwatch._ctor
 template <>
 

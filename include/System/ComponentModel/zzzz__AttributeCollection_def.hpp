@@ -10,29 +10,29 @@ CORDL_MODULE_EXPORT(AttributeCollection)
 namespace System::Collections {
 class ICollection;
 }
-namespace System::Collections {
-class Hashtable;
-}
-namespace System::Collections {
-class IEnumerator;
-}
 namespace System {
-class Object;
-}
-namespace System {
-class Array;
+class Type;
 }
 namespace System::ComponentModel {
 struct __AttributeCollection__AttributeEntry;
 }
 namespace System {
+class Object;
+}
+namespace System::Collections {
+class Hashtable;
+}
+namespace System {
 class Attribute;
+}
+namespace System {
+class Array;
 }
 namespace System::Collections {
 class IEnumerable;
 }
-namespace System {
-class Type;
+namespace System::Collections {
+class IEnumerator;
 }
 // Forward declare root types
 namespace System::ComponentModel {

@@ -1,12 +1,12 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Tsp/zzzz__TimeStampResponse_def.hpp"
-#include "Org/BouncyCastle/Asn1/Cmp/zzzz__PkiFailureInfo_def.hpp"
-#include "Org/BouncyCastle/Tsp/zzzz__TimeStampToken_def.hpp"
-#include "System/IO/zzzz__Stream_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1InputStream_def.hpp"
-#include "Org/BouncyCastle/Asn1/Tsp/zzzz__TimeStampResp_def.hpp"
+#include "System/IO/zzzz__Stream_def.hpp"
+#include "Org/BouncyCastle/Asn1/Cmp/zzzz__PkiFailureInfo_def.hpp"
 #include "Org/BouncyCastle/Tsp/zzzz__TimeStampRequest_def.hpp"
+#include "Org/BouncyCastle/Asn1/Tsp/zzzz__TimeStampResp_def.hpp"
+#include "Org/BouncyCastle/Tsp/zzzz__TimeStampToken_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Tsp::TimeStampResponse._ctor
 template <>
 

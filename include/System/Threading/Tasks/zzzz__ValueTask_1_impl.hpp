@@ -6,9 +6,9 @@
 #include "System/zzzz__Action_1_def.hpp"
 #include "System/Threading/Tasks/zzzz__ValueTask_1_def.hpp"
 #include "System/Threading/Tasks/Sources/zzzz__IValueTaskSource_1_def.hpp"
-#include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__ConfiguredValueTaskAwaitable_1_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
+#include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__ValueTaskAwaiter_1_def.hpp"
 template <typename TResult>
 inline void GlobalNamespace::__ValueTask_1__ValueTaskSourceAsTask____c<TResult>::setStaticF___9(::GlobalNamespace::__ValueTask_1__ValueTaskSourceAsTask____c<TResult>* value) {

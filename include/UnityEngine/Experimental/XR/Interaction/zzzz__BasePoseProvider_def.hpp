@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 CORDL_MODULE_EXPORT(BasePoseProvider)
-namespace UnityEngine {
-struct Pose;
-}
 namespace UnityEngine::SpatialTracking {
 struct PoseDataFlags;
+}
+namespace UnityEngine {
+struct Pose;
 }
 // Forward declare root types
 namespace UnityEngine::Experimental::XR::Interaction {

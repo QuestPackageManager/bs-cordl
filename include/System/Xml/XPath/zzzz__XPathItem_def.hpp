@@ -7,20 +7,20 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(XPathItem)
-namespace System {
-class Object;
-}
 namespace System::Xml::Schema {
 class XmlSchemaType;
-}
-namespace System {
-class Type;
 }
 namespace System {
 struct DateTime;
 }
 namespace System::Xml {
 class IXmlNamespaceResolver;
+}
+namespace System {
+class Type;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::Xml::XPath {

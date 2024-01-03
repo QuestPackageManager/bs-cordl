@@ -74,7 +74,7 @@ static_assert(offsetof(::GlobalNamespace::__AppInitSetupData__RunMode, value__) 
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15393))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15393)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15394))
 // CS Name: ::AppInitSetupData*
 class CORDL_TYPE AppInitSetupData : public ::System::Object {

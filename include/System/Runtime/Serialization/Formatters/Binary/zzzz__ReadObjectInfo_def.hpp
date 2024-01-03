@@ -12,38 +12,38 @@ CORDL_MODULE_EXPORT(ReadObjectInfo)
 namespace System::Runtime::Serialization {
 class ISerializationSurrogate;
 }
-namespace System::Reflection {
-class MemberInfo;
-}
-namespace System::Runtime::Serialization::Formatters::Binary {
-class SerObjectInfoCache;
-}
-namespace System::Runtime::Serialization {
-class SerializationInfo;
-}
-namespace System {
-class Object;
-}
-namespace System::Runtime::Serialization {
-class ObjectManager;
-}
 namespace System {
 class Type;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
 }
 namespace System::Runtime::Serialization::Formatters::Binary {
 class SerObjectInfoInit;
 }
 namespace System::Runtime::Serialization {
+struct StreamingContext;
+}
+namespace System::Runtime::Serialization {
 class IFormatterConverter;
+}
+namespace System {
+class Object;
+}
+namespace System::Runtime::Serialization {
+class SerializationInfo;
+}
+namespace System::Reflection {
+class MemberInfo;
+}
+namespace System::Runtime::Serialization {
+class ObjectManager;
 }
 namespace System::Runtime::Serialization {
 class ISurrogateSelector;
 }
-namespace System::Runtime::Serialization {
-struct StreamingContext;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace System::Runtime::Serialization::Formatters::Binary {
+class SerObjectInfoCache;
 }
 // Forward declare root types
 namespace System::Runtime::Serialization::Formatters::Binary {
@@ -55,7 +55,7 @@ MARK_REF_PTR_T(::System::Runtime::Serialization::Formatters::Binary::ReadObjectI
 // SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization::Formatters::Binary {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3235)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3235))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3282))
 // CS Name: ::System.Runtime.Serialization.Formatters.Binary::ReadObjectInfo*
 class CORDL_TYPE ReadObjectInfo : public ::System::Object {

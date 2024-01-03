@@ -3,8 +3,8 @@
 #include "GlobalNamespace/zzzz__ServerPasswordEntryViewController_def.hpp"
 #include "HMUI/zzzz__UIKeyboard_def.hpp"
 #include "GlobalNamespace/zzzz__INetworkPlayer_def.hpp"
-#include "System/zzzz__Action_2_def.hpp"
 #include "HMUI/zzzz__InputFieldView_def.hpp"
+#include "System/zzzz__Action_2_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::ServerPasswordEntryViewController.add_didFinishEvent
 template <>
 

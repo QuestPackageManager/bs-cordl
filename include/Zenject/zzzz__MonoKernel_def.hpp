@@ -5,19 +5,19 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(MonoKernel)
 namespace Zenject {
-class InitializableManager;
+class TickableManager;
 }
-namespace Zenject {
-class DisposableManager;
+namespace System {
+class Object;
 }
 namespace Zenject {
 class InjectTypeInfo;
 }
 namespace Zenject {
-class TickableManager;
+class InitializableManager;
 }
-namespace System {
-class Object;
+namespace Zenject {
+class DisposableManager;
 }
 // Forward declare root types
 namespace Zenject {

@@ -1,9 +1,9 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__ReportingCallbackSample_def.hpp"
-#include "Oculus/Platform/zzzz__Message_1_def.hpp"
-#include "UnityEngine/UI/zzzz__Text_def.hpp"
 #include "Oculus/Platform/Models/zzzz__PlatformInitialize_def.hpp"
+#include "UnityEngine/UI/zzzz__Text_def.hpp"
+#include "Oculus/Platform/zzzz__Message_1_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::ReportingCallbackSample.Start
 template <>
 

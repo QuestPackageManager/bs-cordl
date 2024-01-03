@@ -5,17 +5,17 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(AceEnumerator)
+namespace System::Collections {
+class IEnumerator;
+}
+namespace System::Security::AccessControl {
+class GenericAcl;
+}
 namespace System::Security::AccessControl {
 class GenericAce;
 }
 namespace System {
 class Object;
-}
-namespace System::Security::AccessControl {
-class GenericAcl;
-}
-namespace System::Collections {
-class IEnumerator;
 }
 // Forward declare root types
 namespace System::Security::AccessControl {

@@ -1,10 +1,10 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__LightRotationGroupEffectManager_def.hpp"
-#include "GlobalNamespace/zzzz__LightRotationGroupEffect_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "GlobalNamespace/zzzz__LightRotationGroup_def.hpp"
 #include "Zenject/zzzz__DiContainer_def.hpp"
+#include "GlobalNamespace/zzzz__LightRotationGroup_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "GlobalNamespace/zzzz__LightRotationGroupEffect_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::LightRotationGroupEffectManager.Start
 template <>
 

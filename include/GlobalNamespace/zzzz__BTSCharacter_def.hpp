@@ -9,16 +9,16 @@ namespace UnityEngine {
 class Transform;
 }
 namespace GlobalNamespace {
-class BTSCharacterMaterialSwitcher;
-}
-namespace GlobalNamespace {
 class MaterialPropertyBlockController;
 }
-namespace UnityEngine {
-class Animator;
+namespace GlobalNamespace {
+class BTSCharacterMaterialSwitcher;
 }
 namespace UnityEngine {
 class AnimationClip;
+}
+namespace UnityEngine {
+class Animator;
 }
 // Forward declare root types
 namespace GlobalNamespace {

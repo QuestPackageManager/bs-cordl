@@ -5,35 +5,35 @@ CORDL_MODULE_INIT
 #include "System/Threading/Tasks/zzzz__TaskContinuation_def.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 CORDL_MODULE_EXPORT(AwaitTaskContinuation)
-namespace System {
-class Object;
-}
-namespace System::Threading::Tasks {
-class TaskScheduler;
-}
-namespace System::Threading {
-class ThreadAbortException;
-}
 namespace System::Threading {
 class IThreadPoolWorkItem;
-}
-namespace System::Threading {
-class ContextCallback;
-}
-namespace System {
-template <typename T> class Action_1;
-}
-namespace System {
-class Action;
 }
 namespace System {
 class Exception;
 }
 namespace System::Threading::Tasks {
+class TaskScheduler;
+}
+namespace System::Threading::Tasks {
 class Task;
+}
+namespace System {
+class Object;
+}
+namespace System::Threading {
+class ThreadAbortException;
+}
+namespace System {
+template <typename T> class Action_1;
 }
 namespace System::Threading {
 class ExecutionContext;
+}
+namespace System {
+class Action;
+}
+namespace System::Threading {
+class ContextCallback;
 }
 // Forward declare root types
 namespace System::Threading::Tasks {

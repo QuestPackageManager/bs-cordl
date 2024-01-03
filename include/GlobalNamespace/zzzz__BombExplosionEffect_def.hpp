@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(BombExplosionEffect)
 namespace UnityEngine {
-struct Vector3;
+class ParticleSystem;
 }
 namespace UnityEngine {
-class ParticleSystem;
+struct Vector3;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -22,7 +22,7 @@ MARK_REF_PTR_T(::GlobalNamespace::BombExplosionEffect);
 // SizeInfo { instance_size: 336, native_size: -1, calculated_instance_size: 336, calculated_native_size: 336, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15889)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(15889))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4838))
 // CS Name: ::BombExplosionEffect*
 class CORDL_TYPE BombExplosionEffect : public ::UnityEngine::MonoBehaviour {

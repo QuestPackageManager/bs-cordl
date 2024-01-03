@@ -7,20 +7,20 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(CrossAppDomainChannel)
-namespace System::Runtime::Remoting::Channels {
-class IChannel;
-}
-namespace System::Runtime::Remoting::Channels {
-class IChannelReceiver;
+namespace System {
+class Object;
 }
 namespace System::Runtime::Remoting::Messaging {
 class IMessageSink;
 }
-namespace System {
-class Object;
-}
 namespace System::Runtime::Remoting::Channels {
 class IChannelSender;
+}
+namespace System::Runtime::Remoting::Channels {
+class IChannelReceiver;
+}
+namespace System::Runtime::Remoting::Channels {
+class IChannel;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting::Channels {

@@ -10,23 +10,23 @@ CORDL_MODULE_EXPORT(DerObjectIdentifier)
 namespace System {
 class Object;
 }
+namespace Org::BouncyCastle::Math {
+class BigInteger;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Object;
+}
 namespace Org::BouncyCastle::Asn1 {
 class Asn1TaggedObject;
 }
 namespace System::IO {
 class Stream;
 }
-namespace Org::BouncyCastle::Math {
-class BigInteger;
-}
-namespace Org::BouncyCastle::Asn1 {
-class DerOutputStream;
-}
 namespace System::IO {
 class MemoryStream;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
+class DerOutputStream;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1 {

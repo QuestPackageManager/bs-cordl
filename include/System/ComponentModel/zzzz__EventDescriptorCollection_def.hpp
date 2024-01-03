@@ -7,32 +7,32 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(EventDescriptorCollection)
-namespace System::ComponentModel {
-class __EventDescriptorCollection__ArraySubsetEnumerator;
-}
-namespace System::Collections {
-class ICollection;
+namespace System {
+class Object;
 }
 namespace System::Collections {
 class IEnumerable;
 }
 namespace System::Collections {
-class IList;
-}
-namespace System::ComponentModel {
-class EventDescriptor;
-}
-namespace System {
-class Array;
+class ICollection;
 }
 namespace System::Collections {
 class IEnumerator;
 }
 namespace System::Collections {
+class IList;
+}
+namespace System::ComponentModel {
+class __EventDescriptorCollection__ArraySubsetEnumerator;
+}
+namespace System::ComponentModel {
+class EventDescriptor;
+}
+namespace System::Collections {
 class IComparer;
 }
 namespace System {
-class Object;
+class Array;
 }
 // Forward declare root types
 namespace System::ComponentModel {

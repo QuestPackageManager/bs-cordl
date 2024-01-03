@@ -11,11 +11,11 @@ struct __ConfiguredValueTaskAwaitable__ConfiguredValueTaskAwaiter;
 namespace System::Threading::Tasks {
 struct ValueTask;
 }
-namespace System::Runtime::CompilerServices {
-class INotifyCompletion;
-}
 namespace System {
 class Action;
+}
+namespace System::Runtime::CompilerServices {
+class INotifyCompletion;
 }
 namespace System::Runtime::CompilerServices {
 class ICriticalNotifyCompletion;

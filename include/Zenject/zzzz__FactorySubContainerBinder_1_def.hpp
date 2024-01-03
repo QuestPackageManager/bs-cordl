@@ -8,19 +8,13 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(FactorySubContainerBinder_1)
 namespace Zenject {
-class ScopeConcreteIdArgConditionCopyNonLazyBinder;
-}
-namespace Zenject {
-class FactoryBindInfo;
+template <typename TContract> class __FactorySubContainerBinder_1____c__DisplayClass2_0;
 }
 namespace System {
 template <typename T> class Action_1;
 }
 namespace Zenject {
-class DiContainer;
-}
-namespace Zenject {
-template <typename TContract> class __FactorySubContainerBinder_1____c__DisplayClass4_0;
+class ScopeConcreteIdArgConditionCopyNonLazyBinder;
 }
 namespace UnityEngine {
 class Object;
@@ -28,35 +22,41 @@ class Object;
 namespace Zenject {
 class BindInfo;
 }
-namespace Zenject {
-template <typename TContract> class __FactorySubContainerBinder_1____c__DisplayClass6_0;
-}
 namespace System {
 class Object;
-}
-namespace Zenject {
-class NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder;
-}
-namespace Zenject {
-template <typename TContract> class __FactorySubContainerBinder_1____c__DisplayClass2_0;
-}
-namespace Zenject {
-template <typename TContract> class __FactorySubContainerBinder_1____c__DisplayClass3_0;
-}
-namespace Zenject {
-template <typename TContract> class __FactorySubContainerBinder_1____c__DisplayClass1_0;
 }
 namespace Zenject {
 template <typename TContract> class __FactorySubContainerBinder_1____c__DisplayClass8_0;
 }
 namespace Zenject {
-class IProvider;
+template <typename TContract> class __FactorySubContainerBinder_1____c__DisplayClass1_0;
+}
+namespace Zenject {
+class NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder;
+}
+namespace Zenject {
+template <typename TContract> class __FactorySubContainerBinder_1____c__DisplayClass6_0;
+}
+namespace Zenject {
+template <typename TContract> class __FactorySubContainerBinder_1____c__DisplayClass3_0;
+}
+namespace Zenject {
+class DiContainer;
+}
+namespace Zenject {
+template <typename TContract> class __FactorySubContainerBinder_1____c__DisplayClass4_0;
+}
+namespace Zenject {
+class FactoryBindInfo;
+}
+namespace Zenject {
+class InjectTypeInfo;
 }
 namespace Zenject {
 class SubContainerCreatorBindInfo;
 }
 namespace Zenject {
-class InjectTypeInfo;
+class IProvider;
 }
 namespace Zenject {
 class GameObjectCreationParameters;

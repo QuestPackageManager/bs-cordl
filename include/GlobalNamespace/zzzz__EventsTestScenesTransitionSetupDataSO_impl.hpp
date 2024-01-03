@@ -1,8 +1,8 @@
 #pragma once
 #include "GlobalNamespace/zzzz__ScenesTransitionSetupDataSO_impl.hpp"
 #include "GlobalNamespace/zzzz__EventsTestScenesTransitionSetupDataSO_def.hpp"
-#include "GlobalNamespace/zzzz__SceneInfo_def.hpp"
 #include "GlobalNamespace/zzzz__EnvironmentInfoSO_def.hpp"
+#include "GlobalNamespace/zzzz__SceneInfo_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::EventsTestScenesTransitionSetupDataSO.Init
 template <>
 

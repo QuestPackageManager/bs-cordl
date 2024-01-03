@@ -10,19 +10,19 @@ namespace System {
 template <typename T> class Action_1;
 }
 namespace HMUI {
-class ViewController;
+class SegmentedControl;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
-}
-namespace HMUI {
-class TextSegmentedControl;
 }
 namespace System {
 template <typename T1, typename T2> struct ValueTuple_2;
 }
 namespace HMUI {
-class SegmentedControl;
+class ViewController;
+}
+namespace HMUI {
+class TextSegmentedControl;
 }
 // Forward declare root types
 namespace GlobalNamespace {

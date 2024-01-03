@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(XStreamingElement)
-namespace System::Xml::Linq {
-class XName;
-}
 namespace System {
 class Object;
+}
+namespace System::Xml::Linq {
+class XName;
 }
 // Forward declare root types
 namespace System::Xml::Linq {

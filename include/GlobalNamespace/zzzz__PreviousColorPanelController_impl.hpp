@@ -2,11 +2,11 @@
 #include "UnityEngine/zzzz__Color_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__PreviousColorPanelController_def.hpp"
-#include "HMUI/zzzz__ButtonBinder_def.hpp"
-#include "UnityEngine/UI/zzzz__Button_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
 #include "UnityEngine/UI/zzzz__Graphic_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
+#include "HMUI/zzzz__ButtonBinder_def.hpp"
+#include "UnityEngine/UI/zzzz__Button_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::PreviousColorPanelController.add_colorWasSelectedEvent
 template <>
 

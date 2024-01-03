@@ -2,8 +2,8 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "Tayx/Graphy/Audio/zzzz__G_AudioText_def.hpp"
 #include "Tayx/Graphy/Audio/zzzz__G_AudioMonitor_def.hpp"
-#include "Tayx/Graphy/zzzz__GraphyManager_def.hpp"
 #include "UnityEngine/UI/zzzz__Text_def.hpp"
+#include "Tayx/Graphy/zzzz__GraphyManager_def.hpp"
 //  Writing Method size for method: ::Tayx::Graphy::Audio::G_AudioText.Awake
 template <>
 

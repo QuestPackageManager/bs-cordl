@@ -2,11 +2,11 @@
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "RootMotion/zzzz__Warning_def.hpp"
-#include "RootMotion/zzzz__Warning_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
+#include "RootMotion/zzzz__Warning_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__IAsyncResult_def.hpp"
 #include "System/zzzz__AsyncCallback_def.hpp"
-#include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::RootMotion::__Warning__Logger._ctor
 template <>
 

@@ -7,20 +7,20 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(GeneratorUtilities)
-namespace Org::BouncyCastle::Crypto {
-class IAsymmetricCipherKeyPairGenerator;
-}
-namespace System {
-class Object;
-}
 namespace Org::BouncyCastle::Asn1 {
 class DerObjectIdentifier;
 }
 namespace Org::BouncyCastle::Crypto {
 class CipherKeyGenerator;
 }
+namespace Org::BouncyCastle::Crypto {
+class IAsymmetricCipherKeyPairGenerator;
+}
 namespace System::Collections {
 class IDictionary;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Security {

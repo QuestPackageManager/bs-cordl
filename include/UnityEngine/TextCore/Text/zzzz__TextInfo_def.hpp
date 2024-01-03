@@ -9,19 +9,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(TextInfo)
 namespace UnityEngine::TextCore::Text {
-struct TextElementInfo;
+struct MeshInfo;
 }
 namespace UnityEngine::TextCore::Text {
-struct WordInfo;
+struct LineInfo;
 }
 namespace UnityEngine::TextCore::Text {
 struct LinkInfo;
 }
 namespace UnityEngine::TextCore::Text {
-struct MeshInfo;
+struct TextElementInfo;
 }
 namespace UnityEngine::TextCore::Text {
-struct LineInfo;
+struct WordInfo;
 }
 namespace UnityEngine::TextCore::Text {
 struct PageInfo;

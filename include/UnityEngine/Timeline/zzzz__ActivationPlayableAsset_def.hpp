@@ -10,14 +10,14 @@ class ITimelineClipAsset;
 namespace UnityEngine::Timeline {
 struct ClipCaps;
 }
-namespace UnityEngine {
-class GameObject;
-}
 namespace UnityEngine::Playables {
 struct Playable;
 }
 namespace UnityEngine::Playables {
 struct PlayableGraph;
+}
+namespace UnityEngine {
+class GameObject;
 }
 // Forward declare root types
 namespace UnityEngine::Timeline {

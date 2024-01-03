@@ -4,17 +4,17 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(EmptyBeatmapLevelData)
-namespace GlobalNamespace {
-class IDifficultyBeatmapSet;
-}
-namespace GlobalNamespace {
-class IBeatmapLevelData;
+namespace UnityEngine {
+class AudioClip;
 }
 namespace System::Collections::Generic {
 template <typename T> class IReadOnlyList_1;
 }
-namespace UnityEngine {
-class AudioClip;
+namespace GlobalNamespace {
+class IBeatmapLevelData;
+}
+namespace GlobalNamespace {
+class IDifficultyBeatmapSet;
 }
 // Forward declare root types
 namespace GlobalNamespace {

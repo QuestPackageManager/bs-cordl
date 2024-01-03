@@ -9,40 +9,40 @@ namespace System {
 class IDisposable;
 }
 namespace GlobalNamespace {
-class PlayersMissingEntitlementsNetSerializable;
+struct CannotStartGameReason;
+}
+namespace GlobalNamespace {
+class GameplayModifiers;
+}
+namespace System {
+template <typename T1, typename T2, typename T3, typename T4> class Action_4;
+}
+namespace System {
+template <typename T> class Action_1;
 }
 namespace System {
 template <typename T1, typename T2, typename T3> class Action_3;
 }
 namespace GlobalNamespace {
-struct EntitlementsStatus;
+struct SongPackMask;
 }
 namespace GlobalNamespace {
-struct SongPackMask;
+struct EntitlementsStatus;
 }
 namespace GlobalNamespace {
 class PlayersLobbyPermissionConfigurationNetSerializable;
 }
+namespace System {
+template <typename T1, typename T2> class Action_2;
+}
 namespace GlobalNamespace {
-class GameplayModifiers;
+class BeatmapIdentifierNetSerializable;
 }
 namespace GlobalNamespace {
 struct MultiplayerGameState;
 }
 namespace GlobalNamespace {
-class BeatmapIdentifierNetSerializable;
-}
-namespace System {
-template <typename T1, typename T2> class Action_2;
-}
-namespace System {
-template <typename T> class Action_1;
-}
-namespace GlobalNamespace {
-struct CannotStartGameReason;
-}
-namespace System {
-template <typename T1, typename T2, typename T3, typename T4> class Action_4;
+class PlayersMissingEntitlementsNetSerializable;
 }
 // Forward declare root types
 namespace GlobalNamespace {

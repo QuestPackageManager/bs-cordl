@@ -7,29 +7,29 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(NodePoseSyncStateNetSerializable)
-namespace LiteNetLib::Utils {
-class NetDataReader;
+namespace GlobalNamespace {
+struct SyncStateId;
+}
+namespace GlobalNamespace {
+struct NodePoseSyncState;
+}
+namespace GlobalNamespace {
+class IPoolablePacket;
 }
 namespace LiteNetLib::Utils {
 class INetSerializable;
 }
 namespace GlobalNamespace {
-struct SyncStateId;
+template <typename T> class ISyncStateSerializable_1;
+}
+namespace LiteNetLib::Utils {
+class NetDataReader;
 }
 namespace GlobalNamespace {
 template <typename T> class PacketPool_1;
 }
-namespace GlobalNamespace {
-class IPoolablePacket;
-}
-namespace GlobalNamespace {
-struct NodePoseSyncState;
-}
 namespace LiteNetLib::Utils {
 class NetDataWriter;
-}
-namespace GlobalNamespace {
-template <typename T> class ISyncStateSerializable_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -41,7 +41,7 @@ MARK_REF_PTR_T(::GlobalNamespace::NodePoseSyncStateNetSerializable);
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12973)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12988))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12973)), TypeDefinitionIndex(TypeDefinitionIndex(12988))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12975))
 // CS Name: ::NodePoseSyncStateNetSerializable*
 class CORDL_TYPE NodePoseSyncStateNetSerializable : public ::System::Object {

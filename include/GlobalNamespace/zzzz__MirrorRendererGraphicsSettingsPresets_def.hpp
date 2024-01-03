@@ -11,10 +11,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(MirrorRendererGraphicsSettingsPresets)
 namespace GlobalNamespace {
-class __MirrorRendererGraphicsSettingsPresets__Preset;
+class NamedPreset;
 }
 namespace GlobalNamespace {
-class NamedPreset;
+class __MirrorRendererGraphicsSettingsPresets__Preset;
 }
 namespace GlobalNamespace {
 struct __MirrorRendererGraphicsSettingsPresets__Preset__MirrorType;
@@ -91,7 +91,7 @@ static_assert(offsetof(::GlobalNamespace::__MirrorRendererGraphicsSettingsPreset
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 53, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4437)), TypeDefinitionIndex(TypeDefinitionIndex(4440)), TypeDefinitionIndex(TypeDefinitionIndex(10204))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4440)), TypeDefinitionIndex(TypeDefinitionIndex(4437)), TypeDefinitionIndex(TypeDefinitionIndex(10204))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4438))
 // CS Name: ::MirrorRendererGraphicsSettingsPresets::Preset*
 class CORDL_TYPE __MirrorRendererGraphicsSettingsPresets__Preset : public ::GlobalNamespace::NamedPreset {

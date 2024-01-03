@@ -5,14 +5,14 @@
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "UnityEngine/zzzz__Vector4_impl.hpp"
 #include "HMUI/zzzz__GradientImage_def.hpp"
-#include "UnityEngine/UI/zzzz__VertexHelper_def.hpp"
-#include "UnityEngine/zzzz__Rect_def.hpp"
-#include "HMUI/zzzz__CurvedCanvasSettingsHelper_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
-#include "UnityEngine/zzzz__Vector2_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
-#include "UnityEngine/zzzz__Vector4_def.hpp"
 #include "UnityEngine/zzzz__Color32_def.hpp"
+#include "UnityEngine/zzzz__Rect_def.hpp"
+#include "UnityEngine/zzzz__Vector4_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "HMUI/zzzz__CurvedCanvasSettingsHelper_def.hpp"
+#include "UnityEngine/zzzz__Vector2_def.hpp"
+#include "UnityEngine/UI/zzzz__VertexHelper_def.hpp"
 //  Writing Method size for method: ::HMUI::GradientImage.get_color0
 template <>
 

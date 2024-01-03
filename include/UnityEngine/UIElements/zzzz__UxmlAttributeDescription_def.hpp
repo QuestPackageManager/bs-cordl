@@ -17,13 +17,13 @@ namespace System {
 template <typename T1, typename T2, typename TResult> class Func_3;
 }
 namespace UnityEngine::UIElements {
+class UxmlTypeRestriction;
+}
+namespace UnityEngine::UIElements {
 struct __UxmlAttributeDescription__Use;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
-}
-namespace UnityEngine::UIElements {
-class UxmlTypeRestriction;
 }
 namespace UnityEngine::UIElements {
 class IUxmlAttributes;

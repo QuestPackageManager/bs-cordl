@@ -2,8 +2,8 @@
 #include "GlobalNamespace/zzzz__RankModel_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__ImmediateRankUIPanel_def.hpp"
-#include "TMPro/zzzz__TextMeshProUGUI_def.hpp"
 #include "GlobalNamespace/zzzz__RelativeScoreAndImmediateRankCounter_def.hpp"
+#include "TMPro/zzzz__TextMeshProUGUI_def.hpp"
 #include "System/Text/zzzz__StringBuilder_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::ImmediateRankUIPanel.Start
 template <>

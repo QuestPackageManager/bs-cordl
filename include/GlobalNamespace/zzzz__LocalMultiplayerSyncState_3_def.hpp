@@ -7,22 +7,22 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(LocalMultiplayerSyncState_3)
 namespace GlobalNamespace {
-template <typename TStateTable, typename TType, typename TState> class __StateBuffer_3__InterpolationDelegate;
+class IConnectedPlayer;
 }
 namespace GlobalNamespace {
 template <typename TStateTable, typename TType, typename TState> class StateBuffer_3;
-}
-namespace GlobalNamespace {
-template <typename TStateTable, typename TType, typename TState> class LocalStateBuffer_3;
-}
-namespace GlobalNamespace {
-class IConnectedPlayer;
 }
 namespace GlobalNamespace {
 template <typename TStateTable, typename TType, typename TState> class __StateBuffer_3__SmoothingDelegate;
 }
 namespace GlobalNamespace {
 template <typename T> class IPacketPool_1;
+}
+namespace GlobalNamespace {
+template <typename TStateTable, typename TType, typename TState> class LocalStateBuffer_3;
+}
+namespace GlobalNamespace {
+template <typename TStateTable, typename TType, typename TState> class __StateBuffer_3__InterpolationDelegate;
 }
 // Forward declare root types
 namespace GlobalNamespace {

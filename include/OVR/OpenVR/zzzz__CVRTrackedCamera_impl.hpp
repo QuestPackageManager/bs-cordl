@@ -2,12 +2,12 @@
 #include "OVR/OpenVR/zzzz__IVRTrackedCamera_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "OVR/OpenVR/zzzz__CVRTrackedCamera_def.hpp"
-#include "OVR/OpenVR/zzzz__HmdMatrix44_t_def.hpp"
-#include "OVR/OpenVR/zzzz__CameraVideoStreamFrameHeader_t_def.hpp"
-#include "OVR/OpenVR/zzzz__EVRTrackedCameraFrameType_def.hpp"
 #include "OVR/OpenVR/zzzz__HmdVector2_t_def.hpp"
-#include "OVR/OpenVR/zzzz__EVRTrackedCameraError_def.hpp"
+#include "OVR/OpenVR/zzzz__CameraVideoStreamFrameHeader_t_def.hpp"
 #include "OVR/OpenVR/zzzz__VRTextureBounds_t_def.hpp"
+#include "OVR/OpenVR/zzzz__EVRTrackedCameraFrameType_def.hpp"
+#include "OVR/OpenVR/zzzz__EVRTrackedCameraError_def.hpp"
+#include "OVR/OpenVR/zzzz__HmdMatrix44_t_def.hpp"
 //  Writing Method size for method: ::OVR::OpenVR::CVRTrackedCamera._ctor
 template <>
 

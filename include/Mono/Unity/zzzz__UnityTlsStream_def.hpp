@@ -4,23 +4,23 @@
 CORDL_MODULE_INIT
 #include "Mono/Net/Security/zzzz__MobileAuthenticatedStream_def.hpp"
 CORDL_MODULE_EXPORT(UnityTlsStream)
-namespace System::Net::Security {
-class SslStream;
+namespace Mono::Net::Security {
+class MobileTlsContext;
 }
 namespace Mono::Net::Security {
 class MonoSslAuthenticationOptions;
 }
-namespace Mono::Net::Security {
-class MobileTlsProvider;
-}
 namespace System::IO {
 class Stream;
+}
+namespace System::Net::Security {
+class SslStream;
 }
 namespace Mono::Security::Interface {
 class MonoTlsSettings;
 }
 namespace Mono::Net::Security {
-class MobileTlsContext;
+class MobileTlsProvider;
 }
 // Forward declare root types
 namespace Mono::Unity {

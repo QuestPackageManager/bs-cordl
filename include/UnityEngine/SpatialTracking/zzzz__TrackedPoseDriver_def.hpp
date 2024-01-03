@@ -9,32 +9,32 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(TrackedPoseDriver)
-namespace UnityEngine {
-struct Vector3;
+namespace UnityEngine::Experimental::XR::Interaction {
+class BasePoseProvider;
 }
 namespace UnityEngine::SpatialTracking {
 struct PoseDataFlags;
 }
 namespace UnityEngine::SpatialTracking {
-struct __TrackedPoseDriver__UpdateType;
+struct __TrackedPoseDriver__DeviceType;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 namespace UnityEngine::SpatialTracking {
-struct __TrackedPoseDriver__TrackingType;
+struct __TrackedPoseDriver__UpdateType;
 }
-namespace UnityEngine::Experimental::XR::Interaction {
-class BasePoseProvider;
+namespace UnityEngine {
+struct Pose;
 }
 namespace UnityEngine {
 struct Quaternion;
 }
 namespace UnityEngine::SpatialTracking {
-struct __TrackedPoseDriver__DeviceType;
+struct __TrackedPoseDriver__TrackingType;
 }
 namespace UnityEngine::SpatialTracking {
 struct __TrackedPoseDriver__TrackedPose;
-}
-namespace UnityEngine {
-struct Pose;
 }
 // Forward declare root types
 namespace UnityEngine::SpatialTracking {
@@ -310,8 +310,8 @@ static_assert(offsetof(::UnityEngine::SpatialTracking::__TrackedPoseDriver__Upda
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::SpatialTracking {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10057)), TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(16193)),
-// TypeDefinitionIndex(TypeDefinitionIndex(16196)), TypeDefinitionIndex(TypeDefinitionIndex(16195)), TypeDefinitionIndex(TypeDefinitionIndex(16194))} Self:
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(16193)), TypeDefinitionIndex(TypeDefinitionIndex(16196)), TypeDefinitionIndex(TypeDefinitionIndex(16194)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10057)), TypeDefinitionIndex(TypeDefinitionIndex(16195)), TypeDefinitionIndex(TypeDefinitionIndex(10225))} Self:
 // TypeDefinitionIndex(TypeDefinitionIndex(16197)) CS Name: ::UnityEngine.SpatialTracking::TrackedPoseDriver*
 class CORDL_TYPE TrackedPoseDriver : public ::UnityEngine::MonoBehaviour {
 public:

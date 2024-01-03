@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ZenInjectMethod)
 namespace System {
-class IAsyncResult;
+class Object;
 }
 namespace System {
-class Object;
+class IAsyncResult;
 }
 namespace System {
 class AsyncCallback;

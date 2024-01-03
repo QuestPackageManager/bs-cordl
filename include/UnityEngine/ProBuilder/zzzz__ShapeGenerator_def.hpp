@@ -3,27 +3,28 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
+#include "UnityEngine/ProBuilder/zzzz__PivotLocation_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(ShapeGenerator)
+namespace UnityEngine {
+struct Quaternion;
+}
+namespace UnityEngine {
+struct Vector3;
+}
 namespace UnityEngine::ProBuilder {
-struct ShapeType;
+class ProBuilderMesh;
 }
 namespace UnityEngine::ProBuilder {
 struct Axis;
 }
 namespace UnityEngine::ProBuilder {
-struct PivotLocation;
-}
-namespace UnityEngine {
-struct Vector3;
-}
-namespace UnityEngine {
-struct Quaternion;
+struct ShapeType;
 }
 namespace UnityEngine::ProBuilder {
-class ProBuilderMesh;
+struct PivotLocation;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder {
@@ -35,7 +36,7 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::ShapeGenerator);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12195)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12198))
 // CS Name: ::UnityEngine.ProBuilder::ShapeGenerator*
 class CORDL_TYPE ShapeGenerator : public ::System::Object {

@@ -7,13 +7,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(LazyDerSet)
 namespace Org::BouncyCastle::Asn1 {
+class DerOutputStream;
+}
+namespace Org::BouncyCastle::Asn1 {
 class Asn1Encodable;
 }
 namespace System::Collections {
 class IEnumerator;
-}
-namespace Org::BouncyCastle::Asn1 {
-class DerOutputStream;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1 {

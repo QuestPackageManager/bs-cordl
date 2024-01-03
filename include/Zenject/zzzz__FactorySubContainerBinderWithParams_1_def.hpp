@@ -7,38 +7,38 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(FactorySubContainerBinderWithParams_1)
-namespace System {
-class Object;
-}
-namespace System {
-class Type;
-}
 namespace Zenject {
-class NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder;
+class BindInfo;
 }
 namespace Zenject {
 template <typename TContract> class __FactorySubContainerBinderWithParams_1____c__DisplayClass4_0;
 }
 namespace Zenject {
-class BindInfo;
-}
-namespace Zenject {
-class DiContainer;
+template <typename TContract> class __FactorySubContainerBinderWithParams_1____c__DisplayClass8_0;
 }
 namespace UnityEngine {
 class Object;
 }
 namespace Zenject {
-template <typename TContract> class __FactorySubContainerBinderWithParams_1____c__DisplayClass8_0;
+class DiContainer;
+}
+namespace Zenject {
+class NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder;
+}
+namespace System {
+class Type;
 }
 namespace Zenject {
 class FactoryBindInfo;
 }
-namespace Zenject {
-class GameObjectCreationParameters;
+namespace System {
+class Object;
 }
 namespace Zenject {
 class IProvider;
+}
+namespace Zenject {
+class GameObjectCreationParameters;
 }
 namespace Zenject {
 class InjectTypeInfo;
@@ -247,7 +247,7 @@ namespace Zenject {
 // cpp template
 template <typename TContract>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10827)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10827), inst: 1849 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10827), inst: 1849 }), TypeDefinitionIndex(TypeDefinitionIndex(10827))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10830))
 // CS Name: ::Zenject::FactorySubContainerBinderWithParams`1<TContract>*
 class CORDL_TYPE FactorySubContainerBinderWithParams_1 : public ::Zenject::FactorySubContainerBinderBase_1<TContract> {

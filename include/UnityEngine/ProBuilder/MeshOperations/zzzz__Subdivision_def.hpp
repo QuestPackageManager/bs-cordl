@@ -6,16 +6,16 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(Subdivision)
 namespace UnityEngine::ProBuilder {
-class ProBuilderMesh;
+class ActionResult;
 }
 namespace UnityEngine::ProBuilder {
-class ActionResult;
+class Face;
 }
 namespace System::Collections::Generic {
 template <typename T> class IList_1;
 }
 namespace UnityEngine::ProBuilder {
-class Face;
+class ProBuilderMesh;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder::MeshOperations {

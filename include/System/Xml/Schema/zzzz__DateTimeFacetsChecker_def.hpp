@@ -4,14 +4,14 @@
 CORDL_MODULE_INIT
 #include "System/Xml/Schema/zzzz__FacetsChecker_def.hpp"
 CORDL_MODULE_EXPORT(DateTimeFacetsChecker)
-namespace System {
-class Object;
-}
 namespace System::Xml::Schema {
 class XmlSchemaDatatype;
 }
 namespace System::Collections {
 class ArrayList;
+}
+namespace System {
+class Object;
 }
 namespace System {
 struct DateTime;

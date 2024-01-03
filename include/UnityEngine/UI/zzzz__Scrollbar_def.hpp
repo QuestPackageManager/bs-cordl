@@ -12,71 +12,71 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(Scrollbar)
+namespace System::Collections {
+class IEnumerator;
+}
+namespace UnityEngine::EventSystems {
+class IEventSystemHandler;
+}
+namespace UnityEngine {
+class Coroutine;
+}
+namespace UnityEngine::EventSystems {
+class IDragHandler;
+}
 namespace UnityEngine {
 class Transform;
 }
-namespace UnityEngine::UI {
-class __Scrollbar__ScrollEvent;
-}
-namespace UnityEngine::UI {
-struct CanvasUpdate;
+namespace UnityEngine::EventSystems {
+class PointerEventData;
 }
 namespace UnityEngine::EventSystems {
 class AxisEventData;
 }
+namespace UnityEngine::UI {
+struct __Scrollbar__Axis;
+}
+namespace UnityEngine::UI {
+struct __Scrollbar__Direction;
+}
 namespace UnityEngine {
 class RectTransform;
 }
-namespace UnityEngine::EventSystems {
-class IInitializePotentialDragHandler;
+namespace UnityEngine {
+struct Vector2;
 }
-namespace UnityEngine::EventSystems {
-class IEventSystemHandler;
+namespace UnityEngine {
+class Camera;
 }
 namespace UnityEngine::UI {
 class Selectable;
 }
 namespace UnityEngine::UI {
-struct __Scrollbar__Direction;
-}
-namespace UnityEngine::UI {
-struct __Scrollbar__Axis;
-}
-namespace UnityEngine::EventSystems {
-class IBeginDragHandler;
-}
-namespace UnityEngine::UI {
 class __Scrollbar___ClickRepeat_d__58;
 }
-namespace UnityEngine {
-class Coroutine;
+namespace UnityEngine::UI {
+struct CanvasUpdate;
 }
 namespace UnityEngine::UI {
 class ICanvasElement;
 }
 namespace UnityEngine::EventSystems {
-class IDragHandler;
+class IInitializePotentialDragHandler;
+}
+namespace UnityEngine::UI {
+class __Scrollbar__ScrollEvent;
 }
 namespace UnityEngine::EventSystems {
-class PointerEventData;
-}
-namespace UnityEngine {
-class Camera;
-}
-namespace UnityEngine {
-struct Vector2;
-}
-namespace System::Collections {
-class IEnumerator;
-}
-namespace System {
-class IDisposable;
+class IBeginDragHandler;
 }
 namespace System {
 class Object;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
+}
+namespace System {
+class IDisposable;
 }
 // Forward declare root types
 namespace UnityEngine::UI {
@@ -162,7 +162,7 @@ static_assert(offsetof(::UnityEngine::UI::__Scrollbar__Direction, value__) == 0x
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10465), inst: 391 }), TypeDefinitionIndex(TypeDefinitionIndex(10465))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10465)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10465), inst: 391 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13109))
 // CS Name: ::Scrollbar::ScrollEvent*
 class CORDL_TYPE __Scrollbar__ScrollEvent : public ::UnityEngine::Events::UnityEvent_1<float_t> {
@@ -247,7 +247,7 @@ static_assert(offsetof(::UnityEngine::UI::__Scrollbar__Axis, value__) == 0x0, "O
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10243))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13111))
 // CS Name: ::Scrollbar::<ClickRepeat>d__58*
 class CORDL_TYPE __Scrollbar___ClickRepeat_d__58 : public ::System::Object {
@@ -380,7 +380,7 @@ static_assert(offsetof(::UnityEngine::UI::__Scrollbar___ClickRepeat_d__58, ___ca
 // SizeInfo { instance_size: 320, native_size: -1, calculated_instance_size: 320, calculated_native_size: 314, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13108)), TypeDefinitionIndex(TypeDefinitionIndex(10278)), TypeDefinitionIndex(TypeDefinitionIndex(10243)),
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(13108)), TypeDefinitionIndex(TypeDefinitionIndex(10278)),
 // TypeDefinitionIndex(TypeDefinitionIndex(13119))} Self: TypeDefinitionIndex(TypeDefinitionIndex(13112)) CS Name: ::UnityEngine.UI::Scrollbar*
 class CORDL_TYPE Scrollbar : public ::UnityEngine::UI::Selectable {
 public:

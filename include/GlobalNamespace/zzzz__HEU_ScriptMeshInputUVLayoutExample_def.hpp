@@ -8,11 +8,11 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(HEU_ScriptMeshInputUVLayoutExample)
-namespace GlobalNamespace {
-struct __HEU_ScriptMeshInputUVLayoutExample__OutputMode;
-}
 namespace UnityEngine {
 class GameObject;
+}
+namespace GlobalNamespace {
+struct __HEU_ScriptMeshInputUVLayoutExample__OutputMode;
 }
 // Forward declare root types
 namespace GlobalNamespace {

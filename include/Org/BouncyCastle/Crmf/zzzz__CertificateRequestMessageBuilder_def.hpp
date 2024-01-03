@@ -7,28 +7,40 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(CertificateRequestMessageBuilder)
 namespace Org::BouncyCastle::Crmf {
-class PKMacBuilder;
-}
-namespace Org::BouncyCastle::Asn1::Crmf {
-class CertTemplateBuilder;
+class CertificateRequestMessage;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class X509ExtensionsGenerator;
 }
 namespace Org::BouncyCastle::Asn1::Crmf {
-class PopoPrivKey;
+class PKMacValue;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
-class SubjectPublicKeyInfo;
+class GeneralName;
 }
-namespace Org::BouncyCastle::Asn1::X509 {
-class X509Name;
+namespace Org::BouncyCastle::Crmf {
+class PKMacBuilder;
 }
 namespace Org::BouncyCastle::Asn1::Crmf {
 class SubsequentMessage;
 }
 namespace Org::BouncyCastle::Asn1::Crmf {
-class PKMacValue;
+class CertTemplateBuilder;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class SubjectPublicKeyInfo;
+}
+namespace System::Collections {
+class IList;
+}
+namespace Org::BouncyCastle::Math {
+class BigInteger;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Null;
+}
+namespace Org::BouncyCastle::Asn1 {
+class DerObjectIdentifier;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Encodable;
@@ -36,29 +48,17 @@ class Asn1Encodable;
 namespace Org::BouncyCastle::Crmf {
 class IControl;
 }
-namespace Org::BouncyCastle::Asn1::X509 {
-class Time;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class GeneralName;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Null;
-}
 namespace Org::BouncyCastle::Crypto {
 class ISignatureFactory;
 }
-namespace Org::BouncyCastle::Crmf {
-class CertificateRequestMessage;
+namespace Org::BouncyCastle::Asn1::Crmf {
+class PopoPrivKey;
 }
-namespace Org::BouncyCastle::Math {
-class BigInteger;
+namespace Org::BouncyCastle::Asn1::X509 {
+class X509Name;
 }
-namespace System::Collections {
-class IList;
-}
-namespace Org::BouncyCastle::Asn1 {
-class DerObjectIdentifier;
+namespace Org::BouncyCastle::Asn1::X509 {
+class Time;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crmf {

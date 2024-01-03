@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "Tayx/Graphy/Ram/zzzz__G_RamText_def.hpp"
-#include "Tayx/Graphy/Ram/zzzz__G_RamMonitor_def.hpp"
 #include "UnityEngine/UI/zzzz__Text_def.hpp"
+#include "Tayx/Graphy/Ram/zzzz__G_RamMonitor_def.hpp"
 #include "Tayx/Graphy/zzzz__GraphyManager_def.hpp"
 //  Writing Method size for method: ::Tayx::Graphy::Ram::G_RamText.Awake
 template <>

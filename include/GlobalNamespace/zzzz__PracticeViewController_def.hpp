@@ -9,6 +9,30 @@ CORDL_MODULE_EXPORT(PracticeViewController)
 namespace HMUI {
 class TimeSlider;
 }
+namespace UnityEngine::UI {
+class Button;
+}
+namespace GlobalNamespace {
+struct BeatmapDifficulty;
+}
+namespace HMUI {
+class RangeValuesTextSlider;
+}
+namespace GlobalNamespace {
+class LevelBar;
+}
+namespace GlobalNamespace {
+class PlayerDataModel;
+}
+namespace GlobalNamespace {
+class PerceivedLoudnessPerLevelModel;
+}
+namespace GlobalNamespace {
+class IBeatmapLevel;
+}
+namespace GlobalNamespace {
+class PracticeSettings;
+}
 namespace System {
 class Action;
 }
@@ -16,34 +40,10 @@ namespace HMUI {
 class PercentSlider;
 }
 namespace GlobalNamespace {
-class BeatmapCharacteristicSO;
-}
-namespace UnityEngine::UI {
-class Button;
-}
-namespace GlobalNamespace {
-class PracticeSettings;
-}
-namespace GlobalNamespace {
-class LevelBar;
-}
-namespace GlobalNamespace {
-class PerceivedLoudnessPerLevelModel;
-}
-namespace GlobalNamespace {
 class SongPreviewPlayer;
 }
 namespace GlobalNamespace {
-struct BeatmapDifficulty;
-}
-namespace GlobalNamespace {
-class IBeatmapLevel;
-}
-namespace HMUI {
-class RangeValuesTextSlider;
-}
-namespace GlobalNamespace {
-class PlayerDataModel;
+class BeatmapCharacteristicSO;
 }
 // Forward declare root types
 namespace GlobalNamespace {

@@ -1,16 +1,16 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/InputSystem/EnhancedTouch/zzzz__Finger_def.hpp"
-#include "UnityEngine/InputSystem/EnhancedTouch/zzzz__Touch_def.hpp"
-#include "UnityEngine/InputSystem/LowLevel/zzzz__InputUpdateType_def.hpp"
+#include "UnityEngine/InputSystem/LowLevel/zzzz__TouchState_def.hpp"
+#include "UnityEngine/InputSystem/zzzz__Touchscreen_def.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__InputStateHistory_1_def.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__InputEventPtr_def.hpp"
-#include "UnityEngine/InputSystem/zzzz__Touchscreen_def.hpp"
-#include "UnityEngine/InputSystem/LowLevel/zzzz__TouchState_def.hpp"
-#include "UnityEngine/InputSystem/EnhancedTouch/zzzz__TouchHistory_def.hpp"
-#include "UnityEngine/InputSystem/LowLevel/zzzz__InputStateHistory_def.hpp"
+#include "UnityEngine/InputSystem/LowLevel/zzzz__InputUpdateType_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputControl_def.hpp"
+#include "UnityEngine/InputSystem/LowLevel/zzzz__InputStateHistory_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
+#include "UnityEngine/InputSystem/EnhancedTouch/zzzz__TouchHistory_def.hpp"
+#include "UnityEngine/InputSystem/EnhancedTouch/zzzz__Touch_def.hpp"
 //  Writing Method size for method: ::UnityEngine::InputSystem::EnhancedTouch::Finger.get_screen
 template <>
 

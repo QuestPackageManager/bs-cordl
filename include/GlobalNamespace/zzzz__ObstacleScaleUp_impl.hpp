@@ -1,9 +1,9 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__ObstacleScaleUp_def.hpp"
-#include "GlobalNamespace/zzzz__ObstacleController_def.hpp"
 #include "GlobalNamespace/zzzz__ObstacleControllerBase_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
+#include "GlobalNamespace/zzzz__ObstacleController_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::ObstacleScaleUp.Awake
 template <>
 

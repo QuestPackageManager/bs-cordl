@@ -9,22 +9,22 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(PosesRecorder)
 namespace GlobalNamespace {
-class PoseObject;
-}
-namespace GlobalNamespace {
 class __PosesRecordingData__ExternalCameraCalibration;
 }
 namespace GlobalNamespace {
-class __PosesRecorder____c;
-}
-namespace GlobalNamespace {
-class AudioTimeSyncController;
+class PosesRecordingData;
 }
 namespace UnityEngine {
 class Transform;
 }
 namespace GlobalNamespace {
-class PosesRecordingData;
+class AudioTimeSyncController;
+}
+namespace GlobalNamespace {
+class __PosesRecorder____c;
+}
+namespace GlobalNamespace {
+class PoseObject;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;

@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "System/Threading/zzzz__ExecutionContext_def.hpp"
 #include <cstddef>
 CORDL_MODULE_EXPORT(ExecutionContextSwitcher)
-namespace System {
-class Object;
-}
 namespace System::Threading {
 struct __ExecutionContext__Reader;
+}
+namespace System {
+class Object;
 }
 namespace System::Threading {
 class Thread;

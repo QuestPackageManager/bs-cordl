@@ -6,14 +6,17 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(BeatmapCharacteristicSegmentedControlController)
+namespace HMUI {
+class SegmentedControl;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
 namespace GlobalNamespace {
 class BeatmapCharacteristicSO;
 }
-namespace GlobalNamespace {
-class IDifficultyBeatmapSet;
-}
-namespace HMUI {
-class SegmentedControl;
+namespace System {
+template <typename T1, typename T2> class Action_2;
 }
 namespace GlobalNamespace {
 class __BeatmapCharacteristicSegmentedControlController____c;
@@ -21,11 +24,8 @@ class __BeatmapCharacteristicSegmentedControlController____c;
 namespace System::Collections::Generic {
 template <typename T> class IReadOnlyList_1;
 }
-namespace System {
-template <typename T1, typename T2> class Action_2;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace GlobalNamespace {
+class IDifficultyBeatmapSet;
 }
 namespace HMUI {
 class IconSegmentedControl;

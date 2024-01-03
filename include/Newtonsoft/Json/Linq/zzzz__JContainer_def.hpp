@@ -8,71 +8,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(JContainer)
-namespace System::ComponentModel {
-class ITypedList;
-}
-namespace System::ComponentModel {
-class IBindingList;
-}
-namespace System::Collections::Generic {
-template <typename T> class IList_1;
-}
-namespace System {
-class Object;
-}
-namespace Newtonsoft::Json::Linq {
-class JToken;
-}
-namespace System::ComponentModel {
-class PropertyDescriptor;
-}
-namespace System {
-class Array;
-}
-namespace System::Collections {
-class IEnumerable;
-}
 namespace Newtonsoft::Json {
 class JsonWriter;
 }
 namespace Newtonsoft::Json::Linq {
-template <typename T> struct JEnumerable_1;
-}
-namespace System::ComponentModel {
-class AddingNewEventHandler;
-}
-namespace System::ComponentModel {
-class ListChangedEventArgs;
-}
-namespace System::ComponentModel {
-struct ListSortDirection;
-}
-namespace Newtonsoft::Json::Linq {
 class JsonLoadSettings;
 }
-namespace System::ComponentModel {
-class ListChangedEventHandler;
-}
-namespace System::ComponentModel {
-class AddingNewEventArgs;
-}
 namespace Newtonsoft::Json::Linq {
-class JsonMergeSettings;
-}
-namespace System::Collections {
-class ICollection;
-}
-namespace Newtonsoft::Json {
-class JsonReader;
-}
-namespace System::ComponentModel {
-class PropertyDescriptorCollection;
-}
-namespace Newtonsoft::Json::Linq {
-class __JContainer___GetDescendants_d__29;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
+template <typename T> struct JEnumerable_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class ICollection_1;
@@ -81,13 +24,70 @@ namespace System::Collections {
 class IList;
 }
 namespace System {
+class Array;
+}
+namespace Newtonsoft::Json::Linq {
+class JsonMergeSettings;
+}
+namespace Newtonsoft::Json::Linq {
+class JToken;
+}
+namespace System::ComponentModel {
+struct ListSortDirection;
+}
+namespace System::Collections::Generic {
+template <typename T> class IList_1;
+}
+namespace System::ComponentModel {
+class PropertyDescriptor;
+}
+namespace System::ComponentModel {
+class ListChangedEventHandler;
+}
+namespace System {
+class Object;
+}
+namespace System::ComponentModel {
+class ListChangedEventArgs;
+}
+namespace System::ComponentModel {
+class PropertyDescriptorCollection;
+}
+namespace System::ComponentModel {
+class ITypedList;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
+namespace System::ComponentModel {
+class AddingNewEventHandler;
+}
+namespace System::Collections {
+class IEnumerable;
+}
+namespace System::ComponentModel {
+class AddingNewEventArgs;
+}
+namespace System::Collections {
+class ICollection;
+}
+namespace Newtonsoft::Json::Linq {
+class __JContainer___GetDescendants_d__29;
+}
+namespace Newtonsoft::Json {
+class JsonReader;
+}
+namespace System::ComponentModel {
+class IBindingList;
+}
+namespace System::Collections {
+class IEnumerator;
+}
+namespace System {
 class IDisposable;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
-}
-namespace System::Collections {
-class IEnumerator;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Linq {

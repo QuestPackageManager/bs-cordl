@@ -10,32 +10,32 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(MultiplayerConnectedPlayerFacade)
-namespace UnityEngine {
-class GameObject;
-}
-namespace GlobalNamespace {
-class MultiplayerConnectedPlayerIntroAnimator;
-}
-namespace GlobalNamespace {
-class MultiplayerBigAvatarAnimator;
-}
-namespace GlobalNamespace {
-class IConnectedPlayerBeatmapObjectEventManager;
-}
 namespace GlobalNamespace {
 class __MultiplayerConnectedPlayerFacade__Factory;
 }
 namespace GlobalNamespace {
-class MultiplayerConnectedPlayerSongTimeSyncController;
+class MultiplayerScoreDiffText;
+}
+namespace UnityEngine {
+class GameObject;
 }
 namespace GlobalNamespace {
-class BeatmapObjectManager;
+class IConnectedPlayerBeatmapObjectEventManager;
 }
 namespace BeatSaber::AvatarCore {
 class Avatar;
 }
 namespace GlobalNamespace {
-class MultiplayerScoreDiffText;
+class MultiplayerBigAvatarAnimator;
+}
+namespace GlobalNamespace {
+class MultiplayerConnectedPlayerSongTimeSyncController;
+}
+namespace GlobalNamespace {
+class MultiplayerConnectedPlayerIntroAnimator;
+}
+namespace GlobalNamespace {
+class BeatmapObjectManager;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -51,7 +51,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__MultiplayerConnectedPlayerFacade__Factory);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(16090))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(16090)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5122))
 // CS Name: ::MultiplayerConnectedPlayerFacade*
 class CORDL_TYPE MultiplayerConnectedPlayerFacade : public ::UnityEngine::MonoBehaviour {
@@ -247,9 +247,9 @@ static_assert(offsetof(::GlobalNamespace::MultiplayerConnectedPlayerFacade, ____
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11008), inst: 3503 }), TypeDefinitionIndex(TypeDefinitionIndex(12778)),
-// TypeDefinitionIndex(TypeDefinitionIndex(5239)), TypeDefinitionIndex(TypeDefinitionIndex(11008)), TypeDefinitionIndex(TypeDefinitionIndex(5122))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5121))
-// CS Name: ::MultiplayerConnectedPlayerFacade::Factory*
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11008), inst: 3503 }), TypeDefinitionIndex(TypeDefinitionIndex(5239)),
+// TypeDefinitionIndex(TypeDefinitionIndex(11008)), TypeDefinitionIndex(TypeDefinitionIndex(5122)), TypeDefinitionIndex(TypeDefinitionIndex(12778))} Self:
+// TypeDefinitionIndex(TypeDefinitionIndex(5121)) CS Name: ::MultiplayerConnectedPlayerFacade::Factory*
 class CORDL_TYPE __MultiplayerConnectedPlayerFacade__Factory
     : public ::Zenject::PlaceholderFactory_3<::GlobalNamespace::IConnectedPlayer*, ::GlobalNamespace::MultiplayerPlayerStartState, ::GlobalNamespace::MultiplayerConnectedPlayerFacade*> {
 public:

@@ -13,20 +13,20 @@ class __SecT193R2Curve__SecT193R2LookupTable;
 namespace Org::BouncyCastle::Math::EC {
 class ECPoint;
 }
-namespace Org::BouncyCastle::Math {
-class BigInteger;
-}
 namespace Org::BouncyCastle::Math::EC {
-class ECCurve;
-}
-namespace Org::BouncyCastle::Math::EC {
-class ECLookupTable;
+class ECFieldElement;
 }
 namespace Org::BouncyCastle::Math::EC::Custom::Sec {
 class SecT193R2Point;
 }
 namespace Org::BouncyCastle::Math::EC {
-class ECFieldElement;
+class ECCurve;
+}
+namespace Org::BouncyCastle::Math {
+class BigInteger;
+}
+namespace Org::BouncyCastle::Math::EC {
+class ECLookupTable;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Math::EC::Custom::Sec {

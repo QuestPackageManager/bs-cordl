@@ -1,19 +1,19 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__MirroredBeatmapObjectManager_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "GlobalNamespace/zzzz__MirroredObstacleController_def.hpp"
-#include "GlobalNamespace/zzzz__MirroredSliderController_def.hpp"
-#include "GlobalNamespace/zzzz__ObstacleController_def.hpp"
-#include "GlobalNamespace/zzzz__MirroredGameNoteController_def.hpp"
-#include "System/zzzz__ValueTuple_2_def.hpp"
-#include "GlobalNamespace/zzzz__MemoryPoolContainer_1_def.hpp"
-#include "GlobalNamespace/zzzz__INoteMirrorable_def.hpp"
 #include "GlobalNamespace/zzzz__IGameNoteMirrorable_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "GlobalNamespace/zzzz__SliderController_def.hpp"
+#include "GlobalNamespace/zzzz__ObstacleController_def.hpp"
+#include "GlobalNamespace/zzzz__INoteMirrorable_def.hpp"
 #include "GlobalNamespace/zzzz__MirroredBombNoteController_def.hpp"
+#include "System/zzzz__ValueTuple_2_def.hpp"
+#include "GlobalNamespace/zzzz__MirroredSliderController_def.hpp"
 #include "GlobalNamespace/zzzz__NoteController_def.hpp"
+#include "GlobalNamespace/zzzz__MirroredGameNoteController_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapObjectManager_def.hpp"
+#include "GlobalNamespace/zzzz__MemoryPoolContainer_1_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::MirroredBeatmapObjectManager.Init
 template <>
 

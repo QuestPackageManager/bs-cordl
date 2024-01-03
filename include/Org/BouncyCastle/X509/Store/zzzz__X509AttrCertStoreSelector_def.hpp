@@ -6,23 +6,26 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(X509AttrCertStoreSelector)
-namespace Org::BouncyCastle::Math {
-class BigInteger;
-}
 namespace Org::BouncyCastle::X509 {
 class IX509AttributeCertificate;
-}
-namespace Org::BouncyCastle::Utilities::Collections {
-class ISet;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class GeneralName;
 }
-namespace Org::BouncyCastle::X509 {
-class AttributeCertificateIssuer;
+namespace Org::BouncyCastle::Utilities::Collections {
+class ISet;
 }
-namespace Org::BouncyCastle::X509::Store {
-class IX509Selector;
+namespace System {
+class ICloneable;
+}
+namespace Org::BouncyCastle::Utilities::Date {
+class DateTimeObject;
+}
+namespace Org::BouncyCastle::X509 {
+class AttributeCertificateHolder;
+}
+namespace Org::BouncyCastle::Math {
+class BigInteger;
 }
 namespace System {
 class Object;
@@ -31,13 +34,10 @@ namespace System::Collections {
 class IEnumerable;
 }
 namespace Org::BouncyCastle::X509 {
-class AttributeCertificateHolder;
+class AttributeCertificateIssuer;
 }
-namespace System {
-class ICloneable;
-}
-namespace Org::BouncyCastle::Utilities::Date {
-class DateTimeObject;
+namespace Org::BouncyCastle::X509::Store {
+class IX509Selector;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::X509::Store {

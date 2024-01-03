@@ -1,10 +1,10 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__DelayedMenuButtonTrigger_def.hpp"
+#include "Zenject/zzzz__ITickable_def.hpp"
+#include "System/zzzz__Action_def.hpp"
 #include "GlobalNamespace/zzzz__IVRPlatformHelper_def.hpp"
 #include "GlobalNamespace/zzzz__IMenuButtonTrigger_def.hpp"
-#include "System/zzzz__Action_def.hpp"
-#include "Zenject/zzzz__ITickable_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::DelayedMenuButtonTrigger.add_menuButtonTriggeredEvent
 template <>
 

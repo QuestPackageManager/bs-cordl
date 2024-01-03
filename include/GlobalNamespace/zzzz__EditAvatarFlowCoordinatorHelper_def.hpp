@@ -10,31 +10,28 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(EditAvatarFlowCoordinatorHelper)
 namespace GlobalNamespace {
-class PlayerDataModel;
-}
-namespace GlobalNamespace {
-class AvatarSystemSelectionFlowCoordinator;
-}
-namespace BeatSaber::AvatarCore {
-class AvatarSystemCollection;
+struct __EditAvatarFlowCoordinatorHelper___Initialize_d__13;
 }
 namespace HMUI {
 class FlowCoordinator;
 }
-namespace System {
-template <typename T1, typename T2> class Action_2;
-}
 namespace BeatSaber::AvatarCore {
 struct __AvatarEditorFlowCoordinator__EditMode;
+}
+namespace Zenject {
+class DiContainer;
 }
 namespace BeatSaber::AvatarCore {
 struct __AvatarEditorFlowCoordinator__FinishAction;
 }
 namespace BeatSaber::AvatarCore {
-class AvatarEditorFlowCoordinator;
+class AvatarSystemCollection;
 }
 namespace GlobalNamespace {
-struct __AvatarSystemSelectionFlowCoordinator__FinishAction;
+class AvatarSystemSelectionFlowCoordinator;
+}
+namespace BeatSaber::AvatarCore {
+class AvatarEditorFlowCoordinator;
 }
 namespace GlobalNamespace {
 struct __EditAvatarFlowCoordinatorHelper___Show_d__12;
@@ -42,23 +39,26 @@ struct __EditAvatarFlowCoordinatorHelper___Show_d__12;
 namespace GlobalNamespace {
 struct __EditAvatarFlowCoordinatorHelper__FinishAction;
 }
-namespace Zenject {
-class DiContainer;
+namespace GlobalNamespace {
+struct __AvatarSystemSelectionFlowCoordinator__FinishAction;
+}
+namespace System {
+template <typename T1, typename T2> class Action_2;
+}
+namespace GlobalNamespace {
+class PlayerDataModel;
 }
 namespace BeatSaber::AvatarCore {
 class IAvatarSystemMetadata;
-}
-namespace GlobalNamespace {
-struct __EditAvatarFlowCoordinatorHelper___Initialize_d__13;
 }
 namespace BeatSaber::AvatarCore {
 class IAvatarSystem;
 }
 namespace System::Runtime::CompilerServices {
-template <typename TResult> struct TaskAwaiter_1;
+class IAsyncStateMachine;
 }
 namespace System::Runtime::CompilerServices {
-class IAsyncStateMachine;
+template <typename TResult> struct TaskAwaiter_1;
 }
 namespace System::Runtime::CompilerServices {
 struct AsyncVoidMethodBuilder;
@@ -135,8 +135,8 @@ static_assert(offsetof(::GlobalNamespace::__EditAvatarFlowCoordinatorHelper__Fin
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 105 }), TypeDefinitionIndex(TypeDefinitionIndex(3394)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3400))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5491)) CS Name: ::EditAvatarFlowCoordinatorHelper::<Show>d__12
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3400)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 105 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(3394))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5491)) CS Name: ::EditAvatarFlowCoordinatorHelper::<Show>d__12
 struct CORDL_TYPE __EditAvatarFlowCoordinatorHelper___Show_d__12 {
 public:
   // Declarations
@@ -215,8 +215,8 @@ static_assert(offsetof(::GlobalNamespace::__EditAvatarFlowCoordinatorHelper___Sh
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 5064 }), TypeDefinitionIndex(TypeDefinitionIndex(3394)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3400)), TypeDefinitionIndex(TypeDefinitionIndex(15172))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5492)) CS Name:
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15172)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(3400)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 5064 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(5492)) CS Name:
 // ::EditAvatarFlowCoordinatorHelper::<Initialize>d__13
 struct CORDL_TYPE __EditAvatarFlowCoordinatorHelper___Initialize_d__13 {
 public:

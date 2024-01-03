@@ -8,19 +8,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(XmlWriter)
 namespace System::IO {
-class TextWriter;
+class Stream;
 }
 namespace System {
 class IDisposable;
 }
 namespace System::Xml {
-class XmlWriterSettings;
+struct WriteState;
 }
 namespace System::IO {
-class Stream;
+class TextWriter;
 }
 namespace System::Xml {
-struct WriteState;
+class XmlWriterSettings;
 }
 // Forward declare root types
 namespace System::Xml {

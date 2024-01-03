@@ -6,11 +6,32 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "Zenject/zzzz__PlaceholderFactory_2_def.hpp"
 CORDL_MODULE_EXPORT(MultiplayerLocalInactivePlayerFacade)
-namespace GlobalNamespace {
-class IStartSeekSongController;
+namespace UnityEngine {
+class GameObject;
 }
 namespace GlobalNamespace {
 class IMultiplayerLevelEndActionsListener;
+}
+namespace System {
+template <typename T> class Action_1;
+}
+namespace UnityEngine::Playables {
+class PlayableDirector;
+}
+namespace GlobalNamespace {
+class MultiplayerLocalInactivePlayerSongSyncController;
+}
+namespace GlobalNamespace {
+class IMultiplayerLevelEndActionsPublisher;
+}
+namespace GlobalNamespace {
+class __MultiplayerLocalInactivePlayerFacade__Factory;
+}
+namespace GlobalNamespace {
+class IStartSeekSongControllerProvider;
+}
+namespace GlobalNamespace {
+class MultiplayerLocalInactivePlayerOutroAnimator;
 }
 namespace GlobalNamespace {
 class MultiplayerSpectatorController;
@@ -19,28 +40,7 @@ namespace GlobalNamespace {
 class MultiplayerLevelCompletionResults;
 }
 namespace GlobalNamespace {
-class IStartSeekSongControllerProvider;
-}
-namespace GlobalNamespace {
-class IMultiplayerLevelEndActionsPublisher;
-}
-namespace GlobalNamespace {
-class MultiplayerLocalInactivePlayerSongSyncController;
-}
-namespace UnityEngine::Playables {
-class PlayableDirector;
-}
-namespace System {
-template <typename T> class Action_1;
-}
-namespace GlobalNamespace {
-class MultiplayerLocalInactivePlayerOutroAnimator;
-}
-namespace UnityEngine {
-class GameObject;
-}
-namespace GlobalNamespace {
-class __MultiplayerLocalInactivePlayerFacade__Factory;
+class IStartSeekSongController;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -231,8 +231,8 @@ static_assert(offsetof(::GlobalNamespace::MultiplayerLocalInactivePlayerFacade, 
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11005)), TypeDefinitionIndex(TypeDefinitionIndex(5161)), TypeDefinitionIndex(TypeDefinitionIndex(5239)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11005), inst: 3491 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(5160)) CS Name:
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5239)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11005), inst: 3491 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(5161)), TypeDefinitionIndex(TypeDefinitionIndex(11005))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5160)) CS Name:
 // ::MultiplayerLocalInactivePlayerFacade::Factory*
 class CORDL_TYPE __MultiplayerLocalInactivePlayerFacade__Factory
     : public ::Zenject::PlaceholderFactory_2<::GlobalNamespace::MultiplayerPlayerStartState, ::GlobalNamespace::MultiplayerLocalInactivePlayerFacade*> {

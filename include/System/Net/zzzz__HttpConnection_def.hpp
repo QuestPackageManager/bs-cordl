@@ -10,44 +10,14 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(HttpConnection)
-namespace System::Security::Cryptography::X509Certificates {
-class X509Chain;
-}
-namespace System::Net {
-class IPEndPoint;
+namespace System {
+class Object;
 }
 namespace System::Threading {
 class Timer;
 }
-namespace System::Net::Sockets {
-class Socket;
-}
 namespace System::Net {
-class RequestStream;
-}
-namespace System {
-class Object;
-}
-namespace System::Net {
-struct __HttpConnection__LineState;
-}
-namespace System::IO {
-class MemoryStream;
-}
-namespace System::Net {
-class EndPointListener;
-}
-namespace System::Net {
-class ListenerPrefix;
-}
-namespace System::Net {
-class ResponseStream;
-}
-namespace System::Net {
-class HttpListener;
-}
-namespace System::Net::Security {
-struct SslPolicyErrors;
+struct __HttpConnection__InputState;
 }
 namespace System::Net::Security {
 class SslStream;
@@ -56,22 +26,52 @@ namespace System::Security::Cryptography::X509Certificates {
 class X509Certificate;
 }
 namespace System::Net {
-struct __HttpConnection__InputState;
+class RequestStream;
 }
-namespace System::Text {
-class StringBuilder;
+namespace System::Net {
+class EndPointListener;
 }
 namespace System {
 class AsyncCallback;
 }
 namespace System::Net {
-class HttpListenerContext;
+class IPEndPoint;
 }
 namespace System::Security::Cryptography::X509Certificates {
 class X509Certificate2;
 }
+namespace System::Text {
+class StringBuilder;
+}
+namespace System::Net {
+class HttpListener;
+}
+namespace System::Net {
+class HttpListenerContext;
+}
 namespace System {
 class IAsyncResult;
+}
+namespace System::Net {
+class ResponseStream;
+}
+namespace System::Net {
+class ListenerPrefix;
+}
+namespace System::Net {
+struct __HttpConnection__LineState;
+}
+namespace System::Security::Cryptography::X509Certificates {
+class X509Chain;
+}
+namespace System::IO {
+class MemoryStream;
+}
+namespace System::Net::Sockets {
+class Socket;
+}
+namespace System::Net::Security {
+struct SslPolicyErrors;
 }
 namespace System::IO {
 class Stream;
@@ -198,7 +198,7 @@ static_assert(offsetof(::System::Net::__HttpConnection__LineState, value__) == 0
 // SizeInfo { instance_size: 192, native_size: -1, calculated_instance_size: 192, calculated_native_size: 188, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9168)), TypeDefinitionIndex(TypeDefinitionIndex(9169))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9168)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9169))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9170))
 // CS Name: ::System.Net::HttpConnection*
 class CORDL_TYPE HttpConnection : public ::System::Object {

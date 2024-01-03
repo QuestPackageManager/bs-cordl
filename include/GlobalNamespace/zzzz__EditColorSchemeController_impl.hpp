@@ -1,16 +1,16 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__EditColorSchemeController_def.hpp"
-#include "UnityEngine/UI/zzzz__Button_def.hpp"
-#include "GlobalNamespace/zzzz__ColorScheme_def.hpp"
-#include "System/zzzz__Action_def.hpp"
-#include "GlobalNamespace/zzzz__RGBPanelController_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
 #include "GlobalNamespace/zzzz__HSVPanelController_def.hpp"
-#include "HMUI/zzzz__ButtonBinder_def.hpp"
 #include "GlobalNamespace/zzzz__ColorSchemeColorsToggleGroup_def.hpp"
-#include "UnityEngine/zzzz__Color_def.hpp"
 #include "GlobalNamespace/zzzz__PreviousColorPanelController_def.hpp"
+#include "System/zzzz__Action_def.hpp"
+#include "GlobalNamespace/zzzz__ColorScheme_def.hpp"
+#include "UnityEngine/UI/zzzz__Button_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
+#include "HMUI/zzzz__ButtonBinder_def.hpp"
+#include "UnityEngine/zzzz__Color_def.hpp"
+#include "GlobalNamespace/zzzz__RGBPanelController_def.hpp"
 #include "GlobalNamespace/zzzz__ColorChangeUIEventType_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::EditColorSchemeController.add_didFinishEvent
 template <>

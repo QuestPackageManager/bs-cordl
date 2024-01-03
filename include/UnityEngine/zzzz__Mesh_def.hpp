@@ -3,6 +3,7 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__IntPtr_def.hpp"
+#include "UnityEngine/Rendering/zzzz__MeshUpdateFlags_def.hpp"
 #include "UnityEngine/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
@@ -11,77 +12,77 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(Mesh)
-namespace UnityEngine::Rendering {
-struct VertexAttribute;
-}
-namespace Unity::Collections {
-template <typename T> struct NativeArray_1;
-}
-namespace UnityEngine {
-struct CombineInstance;
-}
-namespace System {
-class Array;
-}
-namespace UnityEngine::Rendering {
-struct SubMeshDescriptor;
-}
-namespace UnityEngine::Rendering {
-struct MeshUpdateFlags;
-}
-namespace UnityEngine {
-struct Color32;
-}
 namespace UnityEngine {
 struct Bounds;
-}
-namespace UnityEngine::Rendering {
-struct IndexFormat;
-}
-namespace UnityEngine {
-struct Color;
-}
-namespace UnityEngine::Rendering {
-struct VertexAttributeDescriptor;
-}
-namespace UnityEngine {
-struct Vector4;
-}
-namespace UnityEngine::Rendering {
-struct VertexAttributeFormat;
-}
-namespace UnityEngine {
-class GraphicsBuffer;
-}
-namespace UnityEngine {
-struct Vector3;
 }
 namespace UnityEngine {
 struct __Mesh__MeshData;
 }
 namespace UnityEngine {
+struct MeshTopology;
+}
+namespace UnityEngine::Rendering {
+struct VertexAttributeDescriptor;
+}
+namespace UnityEngine::Rendering {
+struct MeshUpdateFlags;
+}
+namespace UnityEngine {
 struct __Mesh__MeshDataArray;
+}
+namespace UnityEngine::Rendering {
+struct VertexAttribute;
+}
+namespace UnityEngine::Rendering {
+struct IndexFormat;
+}
+namespace UnityEngine {
+struct Vector4;
 }
 namespace UnityEngine {
 struct __GraphicsBuffer__Target;
-}
-namespace UnityEngine {
-struct Vector2;
-}
-namespace UnityEngine {
-struct Matrix4x4;
-}
-namespace UnityEngine {
-struct BoneWeight;
-}
-namespace UnityEngine {
-struct BoneWeight1;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace UnityEngine {
-struct MeshTopology;
+class GraphicsBuffer;
+}
+namespace UnityEngine {
+struct Vector2;
+}
+namespace UnityEngine {
+struct Vector3;
+}
+namespace UnityEngine::Rendering {
+struct VertexAttributeFormat;
+}
+namespace Unity::Collections {
+template <typename T> struct NativeArray_1;
+}
+namespace UnityEngine {
+struct Color32;
+}
+namespace UnityEngine {
+struct Color;
+}
+namespace UnityEngine {
+struct BoneWeight1;
+}
+namespace System {
+class Array;
+}
+namespace UnityEngine {
+struct CombineInstance;
+}
+namespace UnityEngine {
+struct BoneWeight;
+}
+namespace UnityEngine {
+struct Matrix4x4;
+}
+namespace UnityEngine::Rendering {
+struct SubMeshDescriptor;
 }
 namespace System {
 class IDisposable;
@@ -192,7 +193,7 @@ static_assert(offsetof(::UnityEngine::__Mesh__MeshDataArray, m_Length) == 0x8, "
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2603))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(10329))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10069))
 // CS Name: ::Mesh::MeshData
 struct CORDL_TYPE __Mesh__MeshData {
@@ -281,7 +282,7 @@ static_assert(offsetof(::UnityEngine::__Mesh__MeshData, m_Ptr) == 0x0, "Offset m
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10200))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10329)), TypeDefinitionIndex(TypeDefinitionIndex(10200))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10070))
 // CS Name: ::UnityEngine::Mesh*
 class CORDL_TYPE Mesh : public ::UnityEngine::Object {

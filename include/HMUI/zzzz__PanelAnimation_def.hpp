@@ -10,6 +10,12 @@ CORDL_MODULE_EXPORT(PanelAnimation)
 namespace HMUI {
 class __PanelAnimation___AnimationCoroutine_d__1;
 }
+namespace UnityEngine {
+class AnimationCurve;
+}
+namespace UnityEngine {
+class CanvasGroup;
+}
 namespace System::Collections {
 class IEnumerator;
 }
@@ -17,22 +23,16 @@ namespace System {
 class Action;
 }
 namespace UnityEngine {
-class CanvasGroup;
-}
-namespace UnityEngine {
-class AnimationCurve;
-}
-namespace System {
-class Object;
-}
-namespace System {
-class IDisposable;
+class Transform;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
-namespace UnityEngine {
-class Transform;
+namespace System {
+class IDisposable;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace HMUI {

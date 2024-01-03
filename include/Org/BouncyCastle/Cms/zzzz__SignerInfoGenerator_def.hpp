@@ -4,14 +4,14 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(SignerInfoGenerator)
-namespace Org::BouncyCastle::X509 {
-class X509Certificate;
+namespace Org::BouncyCastle::Crypto {
+class ISignatureFactory;
 }
 namespace Org::BouncyCastle::Asn1::Cms {
 class SignerIdentifier;
 }
-namespace Org::BouncyCastle::Crypto {
-class ISignatureFactory;
+namespace Org::BouncyCastle::X509 {
+class X509Certificate;
 }
 namespace Org::BouncyCastle::Cms {
 class CmsAttributeTableGenerator;

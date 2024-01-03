@@ -9,10 +9,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVRCubemapCapture)
 namespace UnityEngine {
-class Camera;
+struct Vector3;
 }
 namespace UnityEngine {
-struct Vector3;
+class Camera;
 }
 namespace UnityEngine {
 class Cubemap;

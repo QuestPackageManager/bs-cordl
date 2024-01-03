@@ -1,12 +1,12 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Xml/Schema/zzzz__SymbolsDictionary_def.hpp"
-#include "System/Collections/zzzz__Hashtable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "System/Collections/zzzz__ArrayList_def.hpp"
 #include "System/Xml/zzzz__XmlQualifiedName_def.hpp"
 #include "System/Collections/zzzz__ICollection_def.hpp"
+#include "System/Collections/zzzz__Hashtable_def.hpp"
 #include "System/Xml/Schema/zzzz__NamespaceList_def.hpp"
+#include "System/Collections/zzzz__ArrayList_def.hpp"
 //  Writing Method size for method: ::System::Xml::Schema::SymbolsDictionary._ctor
 template <>
 

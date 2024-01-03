@@ -5,10 +5,10 @@
 #include "GlobalNamespace/zzzz__DlcPromoPanelDataSO_def.hpp"
 #include "GlobalNamespace/zzzz__DlcPromoPanelDataSO_def.hpp"
 #include "GlobalNamespace/zzzz__PreviewBeatmapLevelPackSO_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapLevelSO_def.hpp"
 #include "UnityEngine/zzzz__Sprite_def.hpp"
-#include "GlobalNamespace/zzzz__IPreviewBeatmapLevel_def.hpp"
 #include "GlobalNamespace/zzzz__PlayerSensitivityFlag_def.hpp"
+#include "GlobalNamespace/zzzz__IPreviewBeatmapLevel_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapLevelSO_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::__DlcPromoPanelDataSO__MusicPackPromoInfo.get_previewBeatmapLevel
 template <>
 

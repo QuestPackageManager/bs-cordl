@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include "Zenject/zzzz__MonoInstaller_def.hpp"
 CORDL_MODULE_EXPORT(FireworksItemPoolInstaller)
 namespace GlobalNamespace {
-class FireworksController;
+class FireworkItemController;
 }
 namespace GlobalNamespace {
-class FireworkItemController;
+class FireworksController;
 }
 // Forward declare root types
 namespace GlobalNamespace {

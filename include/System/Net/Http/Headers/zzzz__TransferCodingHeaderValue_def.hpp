@@ -7,8 +7,8 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(TransferCodingHeaderValue)
-namespace System {
-class ICloneable;
+namespace System::Net::Http::Headers {
+struct Token;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
@@ -16,17 +16,17 @@ template <typename T> class List_1;
 namespace System::Collections::Generic {
 template <typename T> class ICollection_1;
 }
+namespace System::Net::Http::Headers {
+class Lexer;
+}
 namespace System {
 class Object;
 }
 namespace System::Net::Http::Headers {
 class NameValueHeaderValue;
 }
-namespace System::Net::Http::Headers {
-class Lexer;
-}
-namespace System::Net::Http::Headers {
-struct Token;
+namespace System {
+class ICloneable;
 }
 // Forward declare root types
 namespace System::Net::Http::Headers {

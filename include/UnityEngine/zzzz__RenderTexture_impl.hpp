@@ -1,14 +1,15 @@
 #pragma once
+#include "UnityEngine/zzzz__RenderTextureMemoryless_impl.hpp"
 #include "UnityEngine/zzzz__Texture_impl.hpp"
+#include "UnityEngine/zzzz__VRTextureUsage_impl.hpp"
 #include "UnityEngine/zzzz__RenderTexture_def.hpp"
-#include "UnityEngine/zzzz__RenderBuffer_def.hpp"
+#include "UnityEngine/Experimental/Rendering/zzzz__DefaultFormat_def.hpp"
+#include "UnityEngine/zzzz__RenderTextureReadWrite_def.hpp"
 #include "UnityEngine/Rendering/zzzz__TextureDimension_def.hpp"
 #include "UnityEngine/Experimental/Rendering/zzzz__GraphicsFormat_def.hpp"
-#include "UnityEngine/zzzz__RenderTextureReadWrite_def.hpp"
-#include "UnityEngine/Experimental/Rendering/zzzz__DefaultFormat_def.hpp"
-#include "UnityEngine/zzzz__RenderTextureFormat_def.hpp"
 #include "UnityEngine/zzzz__VRTextureUsage_def.hpp"
-#include "UnityEngine/zzzz__RenderTextureMemoryless_def.hpp"
+#include "UnityEngine/zzzz__RenderBuffer_def.hpp"
+#include "UnityEngine/zzzz__RenderTextureFormat_def.hpp"
 #include "UnityEngine/zzzz__RenderTextureDescriptor_def.hpp"
 //  Writing Method size for method: ::UnityEngine::RenderTexture.get_width
 template <>

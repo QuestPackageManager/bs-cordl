@@ -8,50 +8,50 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__Vector4_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(RectMask2D)
-namespace UnityEngine {
-class RectTransform;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace UnityEngine {
-class Canvas;
-}
-namespace UnityEngine::UI {
-class RectangularVertexClipper;
-}
-namespace UnityEngine {
-struct Vector3;
-}
-namespace UnityEngine {
-struct Vector2;
-}
 namespace UnityEngine::UI {
 class IClipper;
 }
 namespace UnityEngine {
-struct Vector4;
-}
-namespace UnityEngine {
-class Camera;
-}
-namespace UnityEngine::UI {
-class IClippable;
-}
-namespace UnityEngine::UI {
-class MaskableGraphic;
-}
-namespace System::Collections::Generic {
-template <typename T> class HashSet_1;
-}
-namespace UnityEngine {
-struct Rect;
+struct Vector3;
 }
 namespace UnityEngine {
 class ICanvasRaycastFilter;
 }
 namespace UnityEngine {
 struct Vector2Int;
+}
+namespace UnityEngine {
+class Camera;
+}
+namespace System::Collections::Generic {
+template <typename T> class HashSet_1;
+}
+namespace UnityEngine::UI {
+class IClippable;
+}
+namespace UnityEngine {
+struct Vector4;
+}
+namespace UnityEngine {
+class Canvas;
+}
+namespace UnityEngine {
+struct Rect;
+}
+namespace UnityEngine::UI {
+class RectangularVertexClipper;
+}
+namespace UnityEngine {
+class RectTransform;
+}
+namespace UnityEngine::UI {
+class MaskableGraphic;
+}
+namespace UnityEngine {
+struct Vector2;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 // Forward declare root types
 namespace UnityEngine::UI {
@@ -63,7 +63,7 @@ MARK_REF_PTR_T(::UnityEngine::UI::RectMask2D);
 // SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 136, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10246)), TypeDefinitionIndex(TypeDefinitionIndex(10165)), TypeDefinitionIndex(TypeDefinitionIndex(13214)),
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13214)), TypeDefinitionIndex(TypeDefinitionIndex(10246)), TypeDefinitionIndex(TypeDefinitionIndex(10165)),
 // TypeDefinitionIndex(TypeDefinitionIndex(10244))} Self: TypeDefinitionIndex(TypeDefinitionIndex(13107)) CS Name: ::UnityEngine.UI::RectMask2D*
 class CORDL_TYPE RectMask2D : public ::UnityEngine::EventSystems::UIBehaviour {
 public:

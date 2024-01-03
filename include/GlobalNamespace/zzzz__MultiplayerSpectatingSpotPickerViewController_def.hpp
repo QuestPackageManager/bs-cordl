@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(MultiplayerSpectatingSpotPickerViewController)
 namespace GlobalNamespace {
-class MultiplayerSpectatorController;
+class IMultiplayerSpectatingSpot;
 }
 namespace GlobalNamespace {
-class IMultiplayerSpectatingSpot;
+class MultiplayerSpectatorController;
 }
 namespace GlobalNamespace {
 class StepValuePicker;

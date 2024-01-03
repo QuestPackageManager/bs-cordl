@@ -3,13 +3,13 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "HMUI/zzzz__HoverHintController_def.hpp"
 #include "HMUI/zzzz__HoverHintController_def.hpp"
+#include "HMUI/zzzz__HoverHint_def.hpp"
 #include "HMUI/zzzz__HoverHintPanel_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
-#include "HMUI/zzzz__HoverHint_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 //  Writing Method size for method: ::HMUI::__HoverHintController___ShowHintAfterDelay_d__10._ctor
 template <>
 

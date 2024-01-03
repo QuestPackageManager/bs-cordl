@@ -2,16 +2,16 @@
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__GUIStyle_def.hpp"
-#include "UnityEngine/zzzz__RectOffset_def.hpp"
-#include "UnityEngine/zzzz__Vector2_def.hpp"
-#include "UnityEngine/zzzz__TextAnchor_def.hpp"
-#include "UnityEngine/zzzz__TextClipping_def.hpp"
 #include "UnityEngine/zzzz__Rect_def.hpp"
 #include "UnityEngine/zzzz__GUIContent_def.hpp"
+#include "UnityEngine/zzzz__Vector2_def.hpp"
 #include "UnityEngine/zzzz__Font_def.hpp"
+#include "UnityEngine/zzzz__GUIStyleState_def.hpp"
+#include "UnityEngine/zzzz__TextAnchor_def.hpp"
 #include "UnityEngine/zzzz__FontStyle_def.hpp"
 #include "UnityEngine/zzzz__ImagePosition_def.hpp"
-#include "UnityEngine/zzzz__GUIStyleState_def.hpp"
+#include "UnityEngine/zzzz__TextClipping_def.hpp"
+#include "UnityEngine/zzzz__RectOffset_def.hpp"
 //  Writing Method size for method: ::UnityEngine::GUIStyle.get_rawName
 template <>
 

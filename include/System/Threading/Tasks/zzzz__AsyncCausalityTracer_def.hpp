@@ -7,13 +7,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(AsyncCausalityTracer)
 namespace System::Threading::Tasks {
+struct CausalityTraceLevel;
+}
+namespace System::Threading::Tasks {
 struct CausalitySynchronousWork;
 }
 namespace System::Threading::Tasks {
 struct AsyncCausalityStatus;
-}
-namespace System::Threading::Tasks {
-struct CausalityTraceLevel;
 }
 // Forward declare root types
 namespace System::Threading::Tasks {

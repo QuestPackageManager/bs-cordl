@@ -3,9 +3,9 @@
 #include "UnityEngine/Events/zzzz__UnityEvent_1_impl.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"
 #include "TMPro/zzzz__ColorTween_def.hpp"
+#include "TMPro/zzzz__ColorTween_def.hpp"
 #include "TMPro/zzzz__ITweenValue_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
-#include "TMPro/zzzz__ColorTween_def.hpp"
 #include "UnityEngine/Events/zzzz__UnityAction_1_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::TMPro::__ColorTween__ColorTweenMode::__ColorTween__ColorTweenMode(int32_t value__) noexcept {

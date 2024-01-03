@@ -3,10 +3,10 @@
 #include "Mono/Net/Security/zzzz__MonoSslClientAuthenticationOptions_def.hpp"
 #include "System/Net/Security/zzzz__SslClientAuthenticationOptions_def.hpp"
 #include "System/Security/Authentication/zzzz__SslProtocols_def.hpp"
-#include "System/Security/Cryptography/X509Certificates/zzzz__X509RevocationMode_def.hpp"
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509CertificateCollection_def.hpp"
-#include "System/Security/Cryptography/X509Certificates/zzzz__X509Certificate_def.hpp"
 #include "System/Net/Security/zzzz__EncryptionPolicy_def.hpp"
+#include "System/Security/Cryptography/X509Certificates/zzzz__X509Certificate_def.hpp"
+#include "System/Security/Cryptography/X509Certificates/zzzz__X509RevocationMode_def.hpp"
 //  Writing Method size for method: ::Mono::Net::Security::MonoSslClientAuthenticationOptions.get_Options
 template <>
 

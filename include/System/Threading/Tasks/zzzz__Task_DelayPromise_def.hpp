@@ -8,10 +8,10 @@ CORDL_MODULE_INIT
 #include "System/Threading/zzzz__CancellationToken_def.hpp"
 CORDL_MODULE_EXPORT(Task_DelayPromise)
 namespace System::Threading {
-struct CancellationToken;
+class Timer;
 }
 namespace System::Threading {
-class Timer;
+struct CancellationToken;
 }
 // Forward declare root types
 namespace System::Threading::Tasks {
@@ -23,9 +23,8 @@ MARK_REF_PTR_T(::System::Threading::Tasks::__Task__DelayPromise);
 // SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Threading::Tasks {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2773), inst: 900 }), TypeDefinitionIndex(TypeDefinitionIndex(2683)),
-// TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(2773)), TypeDefinitionIndex(TypeDefinitionIndex(2794))} Self: TypeDefinitionIndex(TypeDefinitionIndex(2783))
-// CS Name: ::Task::DelayPromise*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2773)), TypeDefinitionIndex(TypeDefinitionIndex(2794)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2773), inst: 900
+// }), TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(2683))} Self: TypeDefinitionIndex(TypeDefinitionIndex(2783)) CS Name: ::Task::DelayPromise*
 class CORDL_TYPE __Task__DelayPromise : public ::System::Threading::Tasks::Task_1<::System::Threading::Tasks::VoidTaskResult> {
 public:
   // Declarations

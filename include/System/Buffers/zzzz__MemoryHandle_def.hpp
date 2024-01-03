@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "System/Runtime/InteropServices/zzzz__GCHandle_def.hpp"
 #include <cstddef>
 CORDL_MODULE_EXPORT(MemoryHandle)
-namespace System {
-class IDisposable;
-}
 namespace System::Runtime::InteropServices {
 struct GCHandle;
 }
 namespace System::Buffers {
 class IPinnable;
+}
+namespace System {
+class IDisposable;
 }
 // Forward declare root types
 namespace System::Buffers {

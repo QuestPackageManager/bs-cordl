@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(CryptoApiEntropySourceProvider)
-namespace Org::BouncyCastle::Crypto {
-class IEntropySourceProvider;
-}
 namespace Org::BouncyCastle::Crypto::Prng {
 class __CryptoApiEntropySourceProvider__CryptoApiEntropySource;
+}
+namespace Org::BouncyCastle::Crypto {
+class IEntropySourceProvider;
 }
 namespace System::Security::Cryptography {
 class RandomNumberGenerator;

@@ -3,26 +3,26 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IMonoHttpClientHandler)
-namespace System {
-class IDisposable;
-}
 namespace System::Net::Http {
 class HttpResponseMessage;
+}
+namespace System::Threading {
+struct CancellationToken;
+}
+namespace System::Net::Security {
+class SslClientAuthenticationOptions;
 }
 namespace System::Threading::Tasks {
 template <typename TResult> class Task_1;
 }
 namespace System {
-struct TimeSpan;
+class IDisposable;
 }
 namespace System::Net::Http {
 class HttpRequestMessage;
 }
-namespace System::Net::Security {
-class SslClientAuthenticationOptions;
-}
-namespace System::Threading {
-struct CancellationToken;
+namespace System {
+struct TimeSpan;
 }
 // Forward declare root types
 namespace System::Net::Http {

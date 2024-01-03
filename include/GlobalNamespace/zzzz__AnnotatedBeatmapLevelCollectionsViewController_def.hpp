@@ -6,16 +6,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(AnnotatedBeatmapLevelCollectionsViewController)
 namespace System {
+template <typename T> class Action_1;
+}
+namespace System {
 class Action;
 }
 namespace GlobalNamespace {
 class IAdditionalContentModel;
-}
-namespace GlobalNamespace {
-class LoadingControl;
-}
-namespace GlobalNamespace {
-class IAnnotatedBeatmapLevelCollection;
 }
 namespace System::Collections::Generic {
 template <typename T> class IReadOnlyList_1;
@@ -23,8 +20,11 @@ template <typename T> class IReadOnlyList_1;
 namespace GlobalNamespace {
 class AnnotatedBeatmapLevelCollectionsGridView;
 }
-namespace System {
-template <typename T> class Action_1;
+namespace GlobalNamespace {
+class IAnnotatedBeatmapLevelCollection;
+}
+namespace GlobalNamespace {
+class LoadingControl;
 }
 // Forward declare root types
 namespace GlobalNamespace {

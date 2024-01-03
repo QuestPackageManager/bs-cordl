@@ -1,8 +1,8 @@
 #pragma once
 #include "System/ComponentModel/zzzz__ISynchronizeInvoke_def.hpp"
 #include "System/zzzz__Delegate_def.hpp"
-#include "System/zzzz__IAsyncResult_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "System/zzzz__IAsyncResult_def.hpp"
 //  Writing Method size for method: ::System::ComponentModel::ISynchronizeInvoke.get_InvokeRequired
 template <>
 

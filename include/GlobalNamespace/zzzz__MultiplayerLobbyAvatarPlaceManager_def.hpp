@@ -5,9 +5,6 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(MultiplayerLobbyAvatarPlaceManager)
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
 namespace GlobalNamespace {
 class __MultiplayerLobbyAvatarPlace__Pool;
 }
@@ -16,6 +13,9 @@ class MultiplayerLobbyAvatarPlace;
 }
 namespace GlobalNamespace {
 class ILobbyStateDataModel;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {

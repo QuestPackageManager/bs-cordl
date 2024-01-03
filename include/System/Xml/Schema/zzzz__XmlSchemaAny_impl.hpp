@@ -2,8 +2,8 @@
 #include "System/Xml/Schema/zzzz__XmlSchemaContentProcessing_impl.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaParticle_impl.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaAny_def.hpp"
-#include "System/Xml/Schema/zzzz__XmlSchemaContentProcessing_def.hpp"
 #include "System/Xml/Schema/zzzz__NamespaceList_def.hpp"
+#include "System/Xml/Schema/zzzz__XmlSchemaContentProcessing_def.hpp"
 //  Writing Method size for method: ::System::Xml::Schema::XmlSchemaAny.set_ProcessContents
 template <>
 

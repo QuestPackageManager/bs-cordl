@@ -20,10 +20,10 @@ namespace System {
 class Object;
 }
 namespace OVR::OpenVR {
-struct TrackedDevicePose_t;
+struct HmdMatrix34_t;
 }
 namespace OVR::OpenVR {
-struct HmdMatrix34_t;
+struct TrackedDevicePose_t;
 }
 namespace OVR::OpenVR {
 struct DistortionCoordinates_t;
@@ -35,10 +35,10 @@ namespace System::Text {
 class StringBuilder;
 }
 namespace OVR::OpenVR {
-struct ETrackedDeviceProperty;
+struct ETrackedPropertyError;
 }
 namespace OVR::OpenVR {
-struct ETrackedPropertyError;
+struct ETrackedDeviceProperty;
 }
 namespace OVR::OpenVR {
 struct EVRButtonId;
@@ -83,145 +83,145 @@ namespace OVR::OpenVR {
 struct VREvent_t;
 }
 namespace OVR::OpenVR {
-class __IVRSystem___GetMatrix34TrackedDeviceProperty;
-}
-namespace OVR::OpenVR {
-class __IVRSystem___ResetSeatedZeroPose;
-}
-namespace OVR::OpenVR {
-class __IVRSystem___GetPropErrorNameFromEnum;
-}
-namespace OVR::OpenVR {
-class __IVRSystem___DriverDebugRequest;
-}
-namespace OVR::OpenVR {
-class __IVRSystem___AcknowledgeQuit_UserPrompt;
-}
-namespace OVR::OpenVR {
-class __IVRSystem___ApplyTransform;
-}
-namespace OVR::OpenVR {
-class __IVRSystem___GetTrackedDeviceIndexForControllerRole;
-}
-namespace OVR::OpenVR {
-class __IVRSystem___GetButtonIdNameFromEnum;
-}
-namespace OVR::OpenVR {
-class __IVRSystem___IsInputAvailable;
-}
-namespace OVR::OpenVR {
-class __IVRSystem___GetEventTypeNameFromEnum;
-}
-namespace OVR::OpenVR {
-class __IVRSystem___GetControllerAxisTypeNameFromEnum;
-}
-namespace OVR::OpenVR {
-class __IVRSystem___GetTrackedDeviceClass;
-}
-namespace OVR::OpenVR {
-class __IVRSystem___GetBoolTrackedDeviceProperty;
-}
-namespace OVR::OpenVR {
-class __IVRSystem___IsSteamVRDrawingControllers;
-}
-namespace OVR::OpenVR {
-class __IVRSystem___GetProjectionRaw;
-}
-namespace OVR::OpenVR {
-class __IVRSystem___ShouldApplicationPause;
-}
-namespace OVR::OpenVR {
-class __IVRSystem___AcknowledgeQuit_Exiting;
-}
-namespace OVR::OpenVR {
-class __IVRSystem___ComputeDistortion;
-}
-namespace OVR::OpenVR {
-class __IVRSystem___GetEyeToHeadTransform;
+class __IVRSystem___GetRecommendedRenderTargetSize;
 }
 namespace OVR::OpenVR {
 class __IVRSystem___GetStringTrackedDeviceProperty;
 }
 namespace OVR::OpenVR {
-class __IVRSystem___PerformFirmwareUpdate;
+class __IVRSystem___GetOutputDevice;
 }
 namespace OVR::OpenVR {
-class __IVRSystem___PollNextEventWithPose;
+class __IVRSystem___GetBoolTrackedDeviceProperty;
 }
 namespace OVR::OpenVR {
 class __IVRSystem___SetDisplayVisibility;
 }
 namespace OVR::OpenVR {
-class __IVRSystem___IsDisplayOnDesktop;
-}
-namespace OVR::OpenVR {
-class __IVRSystem___GetProjectionMatrix;
-}
-namespace OVR::OpenVR {
-class __IVRSystem___GetTimeSinceLastVsync;
-}
-namespace OVR::OpenVR {
-class __IVRSystem___GetSeatedZeroPoseToStandingAbsoluteTrackingPose;
-}
-namespace OVR::OpenVR {
 class __IVRSystem___GetControllerRoleForTrackedDeviceIndex;
-}
-namespace OVR::OpenVR {
-class __IVRSystem___PollNextEvent;
-}
-namespace OVR::OpenVR {
-class __IVRSystem___GetHiddenAreaMesh;
-}
-namespace OVR::OpenVR {
-class __IVRSystem___TriggerHapticPulse;
-}
-namespace OVR::OpenVR {
-class __IVRSystem___GetOutputDevice;
-}
-namespace OVR::OpenVR {
-class __IVRSystem___GetSortedTrackedDeviceIndicesOfClass;
-}
-namespace OVR::OpenVR {
-class __IVRSystem___GetControllerStateWithPose;
-}
-namespace OVR::OpenVR {
-class __IVRSystem___ShouldApplicationReduceRenderingWork;
-}
-namespace OVR::OpenVR {
-class __IVRSystem___GetD3D9AdapterIndex;
-}
-namespace OVR::OpenVR {
-class __IVRSystem___GetFloatTrackedDeviceProperty;
-}
-namespace OVR::OpenVR {
-class __IVRSystem___GetControllerState;
-}
-namespace OVR::OpenVR {
-class __IVRSystem___GetDXGIOutputInfo;
-}
-namespace OVR::OpenVR {
-class __IVRSystem___GetArrayTrackedDeviceProperty;
-}
-namespace OVR::OpenVR {
-class __IVRSystem___GetRawZeroPoseToStandingAbsoluteTrackingPose;
 }
 namespace OVR::OpenVR {
 class __IVRSystem___GetUint64TrackedDeviceProperty;
 }
 namespace OVR::OpenVR {
-class __IVRSystem___GetRecommendedRenderTargetSize;
+class __IVRSystem___GetTimeSinceLastVsync;
 }
 namespace OVR::OpenVR {
-class __IVRSystem___GetInt32TrackedDeviceProperty;
+class __IVRSystem___PollNextEventWithPose;
 }
 namespace OVR::OpenVR {
-class __IVRSystem___GetDeviceToAbsoluteTrackingPose;
+class __IVRSystem___ShouldApplicationPause;
+}
+namespace OVR::OpenVR {
+class __IVRSystem___GetTrackedDeviceIndexForControllerRole;
+}
+namespace OVR::OpenVR {
+class __IVRSystem___AcknowledgeQuit_UserPrompt;
+}
+namespace OVR::OpenVR {
+class __IVRSystem___GetFloatTrackedDeviceProperty;
+}
+namespace OVR::OpenVR {
+class __IVRSystem___GetEventTypeNameFromEnum;
+}
+namespace OVR::OpenVR {
+class __IVRSystem___GetControllerState;
+}
+namespace OVR::OpenVR {
+class __IVRSystem___GetControllerStateWithPose;
+}
+namespace OVR::OpenVR {
+class __IVRSystem___GetHiddenAreaMesh;
+}
+namespace OVR::OpenVR {
+class __IVRSystem___PollNextEvent;
 }
 namespace OVR::OpenVR {
 class __IVRSystem___GetTrackedDeviceActivityLevel;
 }
 namespace OVR::OpenVR {
+class __IVRSystem___IsInputAvailable;
+}
+namespace OVR::OpenVR {
+class __IVRSystem___IsSteamVRDrawingControllers;
+}
+namespace OVR::OpenVR {
+class __IVRSystem___GetEyeToHeadTransform;
+}
+namespace OVR::OpenVR {
+class __IVRSystem___GetProjectionRaw;
+}
+namespace OVR::OpenVR {
+class __IVRSystem___TriggerHapticPulse;
+}
+namespace OVR::OpenVR {
+class __IVRSystem___ComputeDistortion;
+}
+namespace OVR::OpenVR {
+class __IVRSystem___ShouldApplicationReduceRenderingWork;
+}
+namespace OVR::OpenVR {
+class __IVRSystem___ApplyTransform;
+}
+namespace OVR::OpenVR {
+class __IVRSystem___AcknowledgeQuit_Exiting;
+}
+namespace OVR::OpenVR {
+class __IVRSystem___GetControllerAxisTypeNameFromEnum;
+}
+namespace OVR::OpenVR {
+class __IVRSystem___DriverDebugRequest;
+}
+namespace OVR::OpenVR {
+class __IVRSystem___GetSortedTrackedDeviceIndicesOfClass;
+}
+namespace OVR::OpenVR {
+class __IVRSystem___GetDeviceToAbsoluteTrackingPose;
+}
+namespace OVR::OpenVR {
 class __IVRSystem___IsTrackedDeviceConnected;
+}
+namespace OVR::OpenVR {
+class __IVRSystem___GetButtonIdNameFromEnum;
+}
+namespace OVR::OpenVR {
+class __IVRSystem___GetDXGIOutputInfo;
+}
+namespace OVR::OpenVR {
+class __IVRSystem___PerformFirmwareUpdate;
+}
+namespace OVR::OpenVR {
+class __IVRSystem___GetArrayTrackedDeviceProperty;
+}
+namespace OVR::OpenVR {
+class __IVRSystem___GetD3D9AdapterIndex;
+}
+namespace OVR::OpenVR {
+class __IVRSystem___ResetSeatedZeroPose;
+}
+namespace OVR::OpenVR {
+class __IVRSystem___GetTrackedDeviceClass;
+}
+namespace OVR::OpenVR {
+class __IVRSystem___GetProjectionMatrix;
+}
+namespace OVR::OpenVR {
+class __IVRSystem___GetPropErrorNameFromEnum;
+}
+namespace OVR::OpenVR {
+class __IVRSystem___GetInt32TrackedDeviceProperty;
+}
+namespace OVR::OpenVR {
+class __IVRSystem___GetMatrix34TrackedDeviceProperty;
+}
+namespace OVR::OpenVR {
+class __IVRSystem___IsDisplayOnDesktop;
+}
+namespace OVR::OpenVR {
+class __IVRSystem___GetRawZeroPoseToStandingAbsoluteTrackingPose;
+}
+namespace OVR::OpenVR {
+class __IVRSystem___GetSeatedZeroPoseToStandingAbsoluteTrackingPose;
 }
 // Forward declare root types
 namespace OVR::OpenVR {

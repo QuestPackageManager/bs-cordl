@@ -94,7 +94,7 @@ static_assert(offsetof(::GlobalNamespace::__SelectSubMenuDestination__Destinatio
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4152)), TypeDefinitionIndex(TypeDefinitionIndex(4153))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4153)), TypeDefinitionIndex(TypeDefinitionIndex(4152))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4154))
 // CS Name: ::SelectSubMenuDestination*
 class CORDL_TYPE SelectSubMenuDestination : public ::GlobalNamespace::MenuDestination {

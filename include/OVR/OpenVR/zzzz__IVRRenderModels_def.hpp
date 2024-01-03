@@ -12,10 +12,10 @@ namespace System {
 class Object;
 }
 namespace System {
-class IAsyncResult;
+class AsyncCallback;
 }
 namespace System {
-class AsyncCallback;
+class IAsyncResult;
 }
 namespace System::Text {
 class StringBuilder;
@@ -33,40 +33,16 @@ namespace OVR::OpenVR {
 struct EVRRenderModelError;
 }
 namespace OVR::OpenVR {
-class __IVRRenderModels___FreeTextureD3D11;
-}
-namespace OVR::OpenVR {
-class __IVRRenderModels___LoadIntoTextureD3D11_Async;
-}
-namespace OVR::OpenVR {
-class __IVRRenderModels___FreeTexture;
-}
-namespace OVR::OpenVR {
-class __IVRRenderModels___GetComponentName;
-}
-namespace OVR::OpenVR {
-class __IVRRenderModels___FreeRenderModel;
-}
-namespace OVR::OpenVR {
 class __IVRRenderModels___LoadRenderModel_Async;
-}
-namespace OVR::OpenVR {
-class __IVRRenderModels___LoadTextureD3D11_Async;
-}
-namespace OVR::OpenVR {
-class __IVRRenderModels___GetComponentRenderModelName;
-}
-namespace OVR::OpenVR {
-class __IVRRenderModels___GetComponentCount;
 }
 namespace OVR::OpenVR {
 class __IVRRenderModels___GetRenderModelOriginalPath;
 }
 namespace OVR::OpenVR {
-class __IVRRenderModels___GetRenderModelCount;
+class __IVRRenderModels___LoadTextureD3D11_Async;
 }
 namespace OVR::OpenVR {
-class __IVRRenderModels___GetRenderModelErrorNameFromEnum;
+class __IVRRenderModels___FreeRenderModel;
 }
 namespace OVR::OpenVR {
 class __IVRRenderModels___GetComponentStateForDevicePath;
@@ -78,16 +54,40 @@ namespace OVR::OpenVR {
 class __IVRRenderModels___GetRenderModelThumbnailURL;
 }
 namespace OVR::OpenVR {
+class __IVRRenderModels___GetComponentName;
+}
+namespace OVR::OpenVR {
+class __IVRRenderModels___GetComponentCount;
+}
+namespace OVR::OpenVR {
+class __IVRRenderModels___GetComponentButtonMask;
+}
+namespace OVR::OpenVR {
+class __IVRRenderModels___GetRenderModelCount;
+}
+namespace OVR::OpenVR {
 class __IVRRenderModels___LoadTexture_Async;
+}
+namespace OVR::OpenVR {
+class __IVRRenderModels___FreeTexture;
+}
+namespace OVR::OpenVR {
+class __IVRRenderModels___FreeTextureD3D11;
 }
 namespace OVR::OpenVR {
 class __IVRRenderModels___RenderModelHasComponent;
 }
 namespace OVR::OpenVR {
+class __IVRRenderModels___GetComponentRenderModelName;
+}
+namespace OVR::OpenVR {
 class __IVRRenderModels___GetComponentState;
 }
 namespace OVR::OpenVR {
-class __IVRRenderModels___GetComponentButtonMask;
+class __IVRRenderModels___GetRenderModelErrorNameFromEnum;
+}
+namespace OVR::OpenVR {
+class __IVRRenderModels___LoadIntoTextureD3D11_Async;
 }
 // Forward declare root types
 namespace OVR::OpenVR {

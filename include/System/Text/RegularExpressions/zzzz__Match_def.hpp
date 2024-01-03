@@ -8,10 +8,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Match)
 namespace System::Text::RegularExpressions {
-class GroupCollection;
+class Regex;
 }
 namespace System::Text::RegularExpressions {
-class Regex;
+class GroupCollection;
 }
 namespace System {
 template <typename T> struct ReadOnlySpan_1;

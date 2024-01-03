@@ -5,23 +5,23 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(WebRequestQueue)
-namespace UnityEngine::ResourceManagement {
-class WebRequestQueueOperation;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
 namespace UnityEngine {
 class AsyncOperation;
+}
+namespace UnityEngine::ResourceManagement {
+class WebRequestQueueOperation;
 }
 namespace UnityEngine::Networking {
 class UnityWebRequestAsyncOperation;
 }
-namespace UnityEngine::Networking {
-class UnityWebRequest;
-}
 namespace System::Collections::Generic {
 template <typename T> class Queue_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace UnityEngine::Networking {
+class UnityWebRequest;
 }
 // Forward declare root types
 namespace UnityEngine::ResourceManagement {

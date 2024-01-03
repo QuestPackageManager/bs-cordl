@@ -1,11 +1,11 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Security/Cryptography/X509Certificates/zzzz__PublicKey_def.hpp"
-#include "System/Security/Cryptography/zzzz__AsymmetricAlgorithm_def.hpp"
-#include "System/Security/Cryptography/zzzz__Oid_def.hpp"
-#include "System/Security/Cryptography/zzzz__DSA_def.hpp"
 #include "System/Security/Cryptography/zzzz__AsnEncodedData_def.hpp"
+#include "System/Security/Cryptography/zzzz__DSA_def.hpp"
+#include "System/Security/Cryptography/zzzz__Oid_def.hpp"
 #include "System/Security/Cryptography/zzzz__RSA_def.hpp"
+#include "System/Security/Cryptography/zzzz__AsymmetricAlgorithm_def.hpp"
 //  Writing Method size for method: ::System::Security::Cryptography::X509Certificates::PublicKey._ctor
 template <>
 

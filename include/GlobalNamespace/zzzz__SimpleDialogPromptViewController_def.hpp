@@ -8,14 +8,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(SimpleDialogPromptViewController)
+namespace GlobalNamespace {
+class __SimpleDialogPromptViewController____c__DisplayClass5_0;
+}
 namespace UnityEngine::UI {
 class Button;
 }
 namespace TMPro {
 class TextMeshProUGUI;
-}
-namespace GlobalNamespace {
-class __SimpleDialogPromptViewController____c__DisplayClass5_0;
 }
 namespace System {
 template <typename T> class Action_1;

@@ -8,6 +8,9 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(BinaryConverter)
 namespace System::Runtime::Serialization::Formatters::Binary {
+class ObjectReader;
+}
+namespace System::Runtime::Serialization::Formatters::Binary {
 class BinaryAssemblyInfo;
 }
 namespace System::Runtime::Serialization::Formatters::Binary {
@@ -16,26 +19,23 @@ struct InternalPrimitiveTypeE;
 namespace System::Runtime::Serialization::Formatters::Binary {
 class ObjectWriter;
 }
-namespace System::Runtime::Serialization::Formatters::Binary {
-struct BinaryTypeEnum;
-}
-namespace System {
-class Type;
-}
-namespace System::Runtime::Serialization::Formatters::Binary {
-class ObjectReader;
-}
 namespace System {
 class Object;
 }
 namespace System::Runtime::Serialization::Formatters::Binary {
-class __BinaryParser;
+struct BinaryTypeEnum;
+}
+namespace System::Runtime::Serialization::Formatters::Binary {
+class WriteObjectInfo;
 }
 namespace System::Runtime::Serialization::Formatters::Binary {
 class __BinaryWriter;
 }
 namespace System::Runtime::Serialization::Formatters::Binary {
-class WriteObjectInfo;
+class __BinaryParser;
+}
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace System::Runtime::Serialization::Formatters::Binary {

@@ -9,74 +9,74 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(BeatAvatarEditorViewController)
-namespace System {
-template <typename TResult> class Func_1;
+namespace UnityEngine::UI {
+class Button;
 }
-namespace BeatSaber::BeatAvatarSDK {
-struct AvatarPart;
+namespace UnityEngine::UI {
+class Image;
 }
 namespace GlobalNamespace {
-class NamedIntListController;
+class NamedColorListController;
+}
+namespace BeatSaber::BeatAvatarSDK {
+class SkinColorSO;
 }
 namespace BeatSaber::BeatAvatarSDK {
 class AvatarPartsModel;
 }
+namespace System {
+class Action;
+}
 namespace BeatSaber::BeatAvatarSDK {
 class AvatarDataModel;
 }
-namespace BeatSaber::BeatAvatarAdapter::AvatarEditor {
-class __BeatAvatarEditorViewController____c__DisplayClass62_0;
+namespace HMUI {
+class CurvedTextMeshPro;
 }
 namespace UnityEngine {
 struct Color;
 }
-namespace HMUI {
-class ButtonBinder;
-}
-namespace System {
-class Action;
-}
 namespace GlobalNamespace {
-class __NamedColorListController__ColorValuePair;
-}
-namespace System {
-template <typename T> class Action_1;
-}
-namespace GlobalNamespace {
-class __NamedIntListController__TextValuePair;
+class ColorPickerButtonController;
 }
 namespace System {
 template <typename T1, typename T2, typename T3, typename T4> class Action_4;
 }
 namespace BeatSaber::BeatAvatarAdapter::AvatarEditor {
-class AvatarEditHistory;
+template <typename T> class __BeatAvatarEditorViewController____c__DisplayClass63_0_1;
 }
-namespace HMUI {
-class CurvedTextMeshPro;
+namespace System {
+template <typename TResult> class Func_1;
 }
-namespace UnityEngine::UI {
-class Image;
+namespace System {
+template <typename T> class Action_1;
 }
 namespace BeatSaber::BeatAvatarSDK {
-class SkinColorSO;
+struct AvatarPart;
 }
-namespace BeatSaber::BeatAvatarAdapter::AvatarEditor {
-template <typename T> class __BeatAvatarEditorViewController____c__DisplayClass63_0_1;
+namespace HMUI {
+class ButtonBinder;
 }
 namespace HMUI {
 template <typename T> class ValueChangedBinder_1;
 }
+namespace GlobalNamespace {
+class NamedIntListController;
+}
+namespace GlobalNamespace {
+class __NamedColorListController__ColorValuePair;
+}
+namespace BeatSaber::BeatAvatarAdapter::AvatarEditor {
+class AvatarEditHistory;
+}
 namespace BeatSaber::BeatAvatarSDK {
 template <typename T> class AvatarPartCollection_1;
 }
-namespace GlobalNamespace {
-class ColorPickerButtonController;
+namespace BeatSaber::BeatAvatarAdapter::AvatarEditor {
+class __BeatAvatarEditorViewController____c__DisplayClass62_0;
 }
 namespace GlobalNamespace {
-class NamedColorListController;
-}
-namespace UnityEngine::UI {
-class Button;
+class __NamedIntListController__TextValuePair;
 }
 // Forward declare root types
 namespace BeatSaber::BeatAvatarAdapter::AvatarEditor {
@@ -96,7 +96,7 @@ MARK_GEN_REF_PTR_T(::BeatSaber::BeatAvatarAdapter::AvatarEditor::__BeatAvatarEdi
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace BeatSaber::BeatAvatarAdapter::AvatarEditor {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15683))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15683)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15266))
 // CS Name: ::BeatAvatarEditorViewController::<>c__DisplayClass62_0*
 class CORDL_TYPE __BeatAvatarEditorViewController____c__DisplayClass62_0 : public ::System::Object {

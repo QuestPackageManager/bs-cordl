@@ -8,61 +8,61 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(FilteredBeatmapLevel)
 namespace GlobalNamespace {
-class BeatmapCharacteristicSO;
-}
-namespace GlobalNamespace {
-class IBeatmapLevel;
-}
-namespace UnityEngine {
-class Sprite;
-}
-namespace GlobalNamespace {
-class EnvironmentInfoSO;
-}
-namespace GlobalNamespace {
-struct PlayerSensitivityFlag;
-}
-namespace System::Threading {
-struct CancellationToken;
-}
-namespace GlobalNamespace {
-class IBeatmapLevelData;
-}
-namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
-}
-namespace UnityEngine {
-class AudioClip;
-}
-namespace GlobalNamespace {
-class IFilePathSongAudioClipProvider;
+class __FilteredBeatmapLevel__FilteredBeatmapLevelData;
 }
 namespace GlobalNamespace {
 struct BeatmapDifficultyMask;
 }
-namespace System::Collections::Generic {
-template <typename T> class HashSet_1;
+namespace GlobalNamespace {
+class IBeatmapLevelData;
 }
 namespace GlobalNamespace {
 class IAssetSongPreviewAudioClipProvider;
 }
 namespace GlobalNamespace {
-class IFilePathSongPreviewAudioClipProvider;
+class IAssetSongAudioClipProvider;
+}
+namespace System::Threading {
+struct CancellationToken;
+}
+namespace GlobalNamespace {
+class EnvironmentInfoSO;
+}
+namespace GlobalNamespace {
+class IFilePathSongAudioClipProvider;
+}
+namespace UnityEngine {
+class AudioClip;
 }
 namespace GlobalNamespace {
 class PreviewDifficultyBeatmapSet;
 }
 namespace GlobalNamespace {
-class __FilteredBeatmapLevel__FilteredBeatmapLevelData;
+class BeatmapCharacteristicSO;
+}
+namespace GlobalNamespace {
+class IBeatmapLevel;
 }
 namespace System::Collections::Generic {
 template <typename T> class IReadOnlyList_1;
 }
 namespace GlobalNamespace {
-class IAssetSongAudioClipProvider;
+class IPreviewBeatmapLevel;
+}
+namespace UnityEngine {
+class Sprite;
+}
+namespace System::Threading::Tasks {
+template <typename TResult> class Task_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class HashSet_1;
 }
 namespace GlobalNamespace {
-class IPreviewBeatmapLevel;
+class IFilePathSongPreviewAudioClipProvider;
+}
+namespace GlobalNamespace {
+struct PlayerSensitivityFlag;
 }
 namespace GlobalNamespace {
 class IDifficultyBeatmapSet;

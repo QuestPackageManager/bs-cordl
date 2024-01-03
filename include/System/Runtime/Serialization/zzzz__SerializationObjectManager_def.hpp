@@ -5,17 +5,17 @@ CORDL_MODULE_INIT
 #include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(SerializationObjectManager)
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
 namespace System {
 class Object;
 }
-namespace System::Runtime::Serialization {
-struct StreamingContext;
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace System::Runtime::Serialization {
 class SerializationEventHandler;
+}
+namespace System::Runtime::Serialization {
+struct StreamingContext;
 }
 // Forward declare root types
 namespace System::Runtime::Serialization {

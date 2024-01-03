@@ -2,10 +2,10 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__FloatFxGroupEffectManager_def.hpp"
-#include "GlobalNamespace/zzzz__FloatFxGroupEffect_def.hpp"
-#include "Zenject/zzzz__DiContainer_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "GlobalNamespace/zzzz__FloatFxGroupEffectManager_def.hpp"
+#include "GlobalNamespace/zzzz__FloatFxGroupEffect_def.hpp"
+#include "Zenject/zzzz__DiContainer_def.hpp"
 #include "GlobalNamespace/zzzz__FloatFxGroup_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::__FloatFxGroupEffectManager____c._ctor

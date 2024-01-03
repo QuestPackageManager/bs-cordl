@@ -10,10 +10,22 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(GameNoteController)
 namespace GlobalNamespace {
-template <typename T> class ICubeNoteControllerInitializable_1;
+class INoteVisualModifierTypeProvider;
+}
+namespace GlobalNamespace {
+struct __NoteData__GameplayType;
 }
 namespace UnityEngine {
 class GameObject;
+}
+namespace UnityEngine {
+struct Vector3;
+}
+namespace GlobalNamespace {
+template <typename T> class ICubeNoteControllerInitializable_1;
+}
+namespace GlobalNamespace {
+class NoteData;
 }
 namespace System {
 template <typename T> class Action_1;
@@ -22,43 +34,31 @@ namespace GlobalNamespace {
 class NoteMovement;
 }
 namespace GlobalNamespace {
-struct NoteVisualModifierType;
-}
-namespace GlobalNamespace {
-class AudioTimeSyncController;
-}
-namespace GlobalNamespace {
-class NoteData;
-}
-namespace UnityEngine {
-struct Vector3;
-}
-namespace GlobalNamespace {
-class INoteVisualModifierTypeProvider;
+class INoteMovementProvider;
 }
 namespace GlobalNamespace {
 class IGameNoteMirrorable;
 }
 namespace GlobalNamespace {
-class INoteMirrorable;
+class AudioTimeSyncController;
+}
+namespace UnityEngine {
+struct Quaternion;
 }
 namespace GlobalNamespace {
-class INoteMovementProvider;
-}
-namespace GlobalNamespace {
-class __GameNoteController__Pool;
+class Saber;
 }
 namespace GlobalNamespace {
 class BoxCuttableBySaber;
 }
 namespace GlobalNamespace {
-struct __NoteData__GameplayType;
+struct NoteVisualModifierType;
 }
 namespace GlobalNamespace {
-class Saber;
+class INoteMirrorable;
 }
-namespace UnityEngine {
-struct Quaternion;
+namespace GlobalNamespace {
+class __GameNoteController__Pool;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -74,7 +74,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__GameNoteController__Pool);
 // SizeInfo { instance_size: 184, native_size: -1, calculated_instance_size: 184, calculated_native_size: 180, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4749)), TypeDefinitionIndex(TypeDefinitionIndex(4761)), TypeDefinitionIndex(TypeDefinitionIndex(14757))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4749)), TypeDefinitionIndex(TypeDefinitionIndex(14757)), TypeDefinitionIndex(TypeDefinitionIndex(4761))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4744))
 // CS Name: ::GameNoteController*
 class CORDL_TYPE GameNoteController : public ::GlobalNamespace::NoteController {
@@ -296,8 +296,8 @@ static_assert(offsetof(::GlobalNamespace::GameNoteController, ____cutAngleTolera
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11050), inst: 310 }), TypeDefinitionIndex(TypeDefinitionIndex(4744)),
-// TypeDefinitionIndex(TypeDefinitionIndex(11050))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4743)) CS Name: ::GameNoteController::Pool*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11050)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11050), inst: 310 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(4744))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4743)) CS Name: ::GameNoteController::Pool*
 class CORDL_TYPE __GameNoteController__Pool : public ::Zenject::MonoMemoryPool_1<::GlobalNamespace::GameNoteController*> {
 public:
   // Declarations

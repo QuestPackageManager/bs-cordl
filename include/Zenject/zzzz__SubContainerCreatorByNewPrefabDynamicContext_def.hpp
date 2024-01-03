@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "Zenject/zzzz__SubContainerCreatorDynamicContext_def.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 CORDL_MODULE_EXPORT(SubContainerCreatorByNewPrefabDynamicContext)
-namespace Zenject {
-class GameObjectCreationParameters;
-}
 namespace UnityEngine {
 class GameObject;
+}
+namespace Zenject {
+class GameObjectCreationParameters;
 }
 namespace Zenject {
 class DiContainer;

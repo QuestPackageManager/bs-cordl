@@ -29,8 +29,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__BloomPrePassRenderDataSO__Data);
 // SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 168, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(14490)), TypeDefinitionIndex(TypeDefinitionIndex(2613)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10245))} Self: TypeDefinitionIndex(TypeDefinitionIndex(14479)) CS Name: ::BloomPrePassRenderDataSO::Data*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10245)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10243)),
+// TypeDefinitionIndex(TypeDefinitionIndex(14490))} Self: TypeDefinitionIndex(TypeDefinitionIndex(14479)) CS Name: ::BloomPrePassRenderDataSO::Data*
 class CORDL_TYPE __BloomPrePassRenderDataSO__Data : public ::System::Object {
 public:
   // Declarations

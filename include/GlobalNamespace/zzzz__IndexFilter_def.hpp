@@ -10,43 +10,43 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(IndexFilter)
 namespace System::Collections::Generic {
-template <typename T> class IReadOnlyCollection_1;
-}
-namespace System::Collections {
-class IEnumerable;
+template <typename T> class IEnumerator_1;
 }
 namespace GlobalNamespace {
 struct __IndexFilter__IndexFilterRandomType;
 }
 namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
-}
-namespace GlobalNamespace {
-class __IndexFilter___GetEnumerator_d__23;
-}
-namespace GlobalNamespace {
-struct __IndexFilter__IndexFilterLimitAlsoAffectType;
-}
-namespace System {
-template <typename T1, typename T2, typename T3> struct ValueTuple_3;
-}
-namespace GlobalNamespace {
-class __IndexFilter___GetValues_d__24;
+template <typename T> class IEnumerable_1;
 }
 namespace System::Collections {
 class IEnumerator;
 }
+namespace GlobalNamespace {
+class __IndexFilter___GetValues_d__24;
+}
+namespace GlobalNamespace {
+class __IndexFilter___GetEnumerator_d__23;
+}
+namespace System {
+template <typename T1, typename T2, typename T3> struct ValueTuple_3;
+}
+namespace System::Collections {
+class IEnumerable;
+}
+namespace GlobalNamespace {
+struct __IndexFilter__IndexFilterLimitAlsoAffectType;
+}
 namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
+template <typename T> class IReadOnlyCollection_1;
+}
+namespace System {
+class IDisposable;
 }
 namespace System {
 template <typename T1, typename T2> struct ValueTuple_2;
 }
 namespace System {
 class Object;
-}
-namespace System {
-class IDisposable;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -182,8 +182,8 @@ static_assert(offsetof(::GlobalNamespace::__IndexFilter__IndexFilterLimitAlsoAff
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 68, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2508)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2508), inst: 5323
-// })} Self: TypeDefinitionIndex(TypeDefinitionIndex(4317)) CS Name: ::IndexFilter::<GetEnumerator>d__23*
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2508), inst: 5323 }), TypeDefinitionIndex(TypeDefinitionIndex(2613)),
+// TypeDefinitionIndex(TypeDefinitionIndex(2508))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4317)) CS Name: ::IndexFilter::<GetEnumerator>d__23*
 class CORDL_TYPE __IndexFilter___GetEnumerator_d__23 : public ::System::Object {
 public:
   // Declarations
@@ -520,7 +520,7 @@ static_assert(offsetof(::GlobalNamespace::__IndexFilter___GetValues_d__24, ____i
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4316)), TypeDefinitionIndex(TypeDefinitionIndex(4315)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4315)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(4316))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4319))
 // CS Name: ::IndexFilter*
 class CORDL_TYPE IndexFilter : public ::System::Object {

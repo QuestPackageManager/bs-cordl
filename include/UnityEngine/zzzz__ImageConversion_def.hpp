@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ImageConversion)
 namespace UnityEngine {
-class Texture2D;
+struct __Texture2D__EXRFlags;
 }
 namespace UnityEngine {
-struct __Texture2D__EXRFlags;
+class Texture2D;
 }
 // Forward declare root types
 namespace UnityEngine {

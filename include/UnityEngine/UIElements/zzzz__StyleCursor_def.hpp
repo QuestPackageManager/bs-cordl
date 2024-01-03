@@ -14,14 +14,14 @@ struct StyleKeyword;
 namespace UnityEngine::UIElements {
 template <typename T> class IStyleValue_1;
 }
-namespace System {
-template <typename T> class IEquatable_1;
+namespace UnityEngine::UIElements {
+struct Cursor;
 }
 namespace System {
 class Object;
 }
-namespace UnityEngine::UIElements {
-struct Cursor;
+namespace System {
+template <typename T> class IEquatable_1;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

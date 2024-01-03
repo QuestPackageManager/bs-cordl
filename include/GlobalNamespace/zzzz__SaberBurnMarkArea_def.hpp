@@ -11,34 +11,34 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(SaberBurnMarkArea)
 namespace UnityEngine {
-class LineRenderer;
+class RenderTexture;
 }
 namespace UnityEngine {
-class Material;
+class LineRenderer;
 }
 namespace UnityEngine {
 class Shader;
 }
 namespace GlobalNamespace {
-class Saber;
-}
-namespace UnityEngine {
-class Camera;
+class ColorManager;
 }
 namespace UnityEngine {
 class Renderer;
+}
+namespace GlobalNamespace {
+class Saber;
+}
+namespace GlobalNamespace {
+class SaberManager;
 }
 namespace UnityEngine {
 struct Vector3;
 }
 namespace UnityEngine {
-class RenderTexture;
+class Camera;
 }
-namespace GlobalNamespace {
-class ColorManager;
-}
-namespace GlobalNamespace {
-class SaberManager;
+namespace UnityEngine {
+class Material;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -50,7 +50,7 @@ MARK_REF_PTR_T(::GlobalNamespace::SaberBurnMarkArea);
 // SizeInfo { instance_size: 312, native_size: -1, calculated_instance_size: 312, calculated_native_size: 312, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10163)), TypeDefinitionIndex(TypeDefinitionIndex(15889)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15889)), TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10163))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4874))
 // CS Name: ::SaberBurnMarkArea*
 class CORDL_TYPE SaberBurnMarkArea : public ::UnityEngine::MonoBehaviour {

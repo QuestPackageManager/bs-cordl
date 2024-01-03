@@ -1,9 +1,9 @@
 #pragma once
 #include "GlobalNamespace/zzzz__NoteDebrisPhysics_impl.hpp"
 #include "GlobalNamespace/zzzz__NoteDebrisRigidbodyPhysics_def.hpp"
+#include "UnityEngine/zzzz__Rigidbody_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "GlobalNamespace/zzzz__NoteDebrisSimplePhysics_def.hpp"
-#include "UnityEngine/zzzz__Rigidbody_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::NoteDebrisRigidbodyPhysics.get_position
 template <>
 

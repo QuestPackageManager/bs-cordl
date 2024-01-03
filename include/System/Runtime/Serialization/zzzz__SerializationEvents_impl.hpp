@@ -3,10 +3,10 @@
 #include "System/Runtime/Serialization/zzzz__SerializationEvents_def.hpp"
 #include "System/Reflection/zzzz__MethodInfo_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "System/Runtime/Serialization/zzzz__SerializationEventHandler_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
 #include "System/zzzz__Type_def.hpp"
-#include "System/Runtime/Serialization/zzzz__SerializationEventHandler_def.hpp"
 //  Writing Method size for method: ::System::Runtime::Serialization::SerializationEvents._ctor
 template <>
 

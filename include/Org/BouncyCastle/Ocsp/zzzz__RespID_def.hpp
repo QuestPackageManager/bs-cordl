@@ -8,14 +8,14 @@ CORDL_MODULE_EXPORT(RespID)
 namespace System {
 class Object;
 }
-namespace Org::BouncyCastle::Asn1::X509 {
-class X509Name;
+namespace Org::BouncyCastle::Crypto {
+class AsymmetricKeyParameter;
 }
 namespace Org::BouncyCastle::Asn1::Ocsp {
 class ResponderID;
 }
-namespace Org::BouncyCastle::Crypto {
-class AsymmetricKeyParameter;
+namespace Org::BouncyCastle::Asn1::X509 {
+class X509Name;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Ocsp {

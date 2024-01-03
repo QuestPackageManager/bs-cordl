@@ -11,17 +11,17 @@ CORDL_MODULE_EXPORT(FloorLightStreakTileEffect)
 namespace UnityEngine {
 struct Color;
 }
-namespace GlobalNamespace {
-class IAudioTimeSource;
+namespace Ice {
+class FloorLightTilesGrid;
 }
 namespace Ice {
 class __FloorLightStreakTileEffect__Element;
 }
 namespace GlobalNamespace {
-template <typename T> class SimpleMemoryPool_1;
+class IAudioTimeSource;
 }
-namespace Ice {
-class FloorLightTilesGrid;
+namespace GlobalNamespace {
+template <typename T> class SimpleMemoryPool_1;
 }
 namespace System {
 template <typename T> class Action_1;
@@ -40,7 +40,7 @@ MARK_REF_PTR_T(::Ice::__FloorLightStreakTileEffect__Element);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Ice {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10251))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(16165))
 // CS Name: ::FloorLightStreakTileEffect::Element*
 class CORDL_TYPE __FloorLightStreakTileEffect__Element : public ::System::Object {

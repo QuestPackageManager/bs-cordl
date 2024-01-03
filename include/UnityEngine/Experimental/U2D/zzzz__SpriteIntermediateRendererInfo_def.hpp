@@ -10,13 +10,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(SpriteIntermediateRendererInfo)
 namespace UnityEngine {
-struct Matrix4x4;
+struct Bounds;
 }
 namespace UnityEngine {
 struct Color;
 }
 namespace UnityEngine {
-struct Bounds;
+struct Matrix4x4;
 }
 // Forward declare root types
 namespace UnityEngine::Experimental::U2D {
@@ -28,8 +28,8 @@ MARK_VAL_T(::UnityEngine::Experimental::U2D::SpriteIntermediateRendererInfo);
 // SizeInfo { instance_size: 168, native_size: 168, calculated_instance_size: 168, calculated_native_size: 180, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Experimental::U2D {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(10164)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10245))} Self: TypeDefinitionIndex(TypeDefinitionIndex(10384)) CS Name: ::UnityEngine.Experimental.U2D::SpriteIntermediateRendererInfo
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10245)), TypeDefinitionIndex(TypeDefinitionIndex(10164)), TypeDefinitionIndex(TypeDefinitionIndex(2603)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10251))} Self: TypeDefinitionIndex(TypeDefinitionIndex(10384)) CS Name: ::UnityEngine.Experimental.U2D::SpriteIntermediateRendererInfo
 struct CORDL_TYPE SpriteIntermediateRendererInfo {
 public:
   // Declarations

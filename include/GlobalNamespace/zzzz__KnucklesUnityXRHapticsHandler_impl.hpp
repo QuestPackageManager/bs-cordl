@@ -3,16 +3,16 @@
 #include "UnityEngine/XR/zzzz__InputDevice_impl.hpp"
 #include "UnityEngine/XR/zzzz__XRNode_impl.hpp"
 #include "GlobalNamespace/zzzz__KnucklesUnityXRHapticsHandler_def.hpp"
+#include "UnityEngine/zzzz__Coroutine_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
 #include "GlobalNamespace/zzzz__KnucklesUnityXRHapticsHandler_def.hpp"
-#include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "GlobalNamespace/zzzz__IUnityXRHapticsHandler_def.hpp"
-#include "UnityEngine/zzzz__Coroutine_def.hpp"
+#include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "UnityEngine/XR/zzzz__XRNode_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "UnityEngine/zzzz__WaitForSecondsRealtime_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::__KnucklesUnityXRHapticsHandler___HapticsCoroutine_d__9._ctor
 template <>
 

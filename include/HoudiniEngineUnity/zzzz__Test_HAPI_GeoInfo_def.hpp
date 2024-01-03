@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(Test_HAPI_GeoInfo)
 namespace HoudiniEngineUnity {
-struct HAPI_GeoInfo;
+template <typename T> class IEquivable_1;
 }
 namespace HoudiniEngineUnity {
-template <typename T> class IEquivable_1;
+struct HAPI_GeoInfo;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -21,7 +21,7 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::Test_HAPI_GeoInfo);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9739))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9739)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9896))
 // CS Name: ::HoudiniEngineUnity::Test_HAPI_GeoInfo*
 class CORDL_TYPE Test_HAPI_GeoInfo : public ::System::Object {

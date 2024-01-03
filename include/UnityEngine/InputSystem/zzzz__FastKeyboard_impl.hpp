@@ -1,12 +1,12 @@
 #pragma once
 #include "UnityEngine/InputSystem/zzzz__Keyboard_impl.hpp"
 #include "UnityEngine/InputSystem/zzzz__FastKeyboard_def.hpp"
-#include "UnityEngine/InputSystem/Utilities/zzzz__InternedString_def.hpp"
+#include "UnityEngine/InputSystem/zzzz__InputControl_def.hpp"
 #include "UnityEngine/InputSystem/Controls/zzzz__KeyControl_def.hpp"
 #include "UnityEngine/InputSystem/Controls/zzzz__ButtonControl_def.hpp"
 #include "UnityEngine/InputSystem/Controls/zzzz__AnyKeyControl_def.hpp"
 #include "UnityEngine/InputSystem/Controls/zzzz__DiscreteButtonControl_def.hpp"
-#include "UnityEngine/InputSystem/zzzz__InputControl_def.hpp"
+#include "UnityEngine/InputSystem/Utilities/zzzz__InternedString_def.hpp"
 //  Writing Method size for method: ::UnityEngine::InputSystem::FastKeyboard._ctor
 template <>
 

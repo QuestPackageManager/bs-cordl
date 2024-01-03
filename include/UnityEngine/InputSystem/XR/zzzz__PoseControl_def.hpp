@@ -6,7 +6,7 @@ CORDL_MODULE_INIT
 #include "UnityEngine/InputSystem/zzzz__InputControl_1_def.hpp"
 CORDL_MODULE_EXPORT(PoseControl)
 namespace UnityEngine::InputSystem::Controls {
-class Vector3Control;
+class IntegerControl;
 }
 namespace UnityEngine::InputSystem::Controls {
 class QuaternionControl;
@@ -15,7 +15,7 @@ namespace UnityEngine::InputSystem::Controls {
 class ButtonControl;
 }
 namespace UnityEngine::InputSystem::Controls {
-class IntegerControl;
+class Vector3Control;
 }
 namespace UnityEngine::InputSystem::XR {
 struct PoseState;

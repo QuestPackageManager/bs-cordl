@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include "UnityEngine/InputSystem/XR/zzzz__XRController_def.hpp"
 CORDL_MODULE_EXPORT(DaydreamController)
 namespace UnityEngine::InputSystem::Controls {
-class Vector3Control;
+class ButtonControl;
 }
 namespace UnityEngine::InputSystem::Controls {
-class ButtonControl;
+class Vector3Control;
 }
 namespace UnityEngine::InputSystem::Controls {
 class Vector2Control;

@@ -12,9 +12,6 @@ CORDL_MODULE_EXPORT(ParticleSystemEmitEventEffect)
 namespace UnityEngine {
 class Transform;
 }
-namespace GlobalNamespace {
-class __ParticleSystemEmitEventEffect__ParticleSystemEmitBehavior;
-}
 namespace Zenject {
 class DiContainer;
 }
@@ -25,43 +22,46 @@ namespace GlobalNamespace {
 class __ParticleSystemEmitEventEffect__GameplayParticleSystemEmitBehavior;
 }
 namespace GlobalNamespace {
-struct BasicBeatmapEventType;
+class __ParticleSystemEmitEventEffect__ParticleSystemEmitBehavior;
+}
+namespace GlobalNamespace {
+class BeatmapCallbacksController;
 }
 namespace GlobalNamespace {
 class __ParticleSystemEventController__Pool;
 }
-namespace GlobalNamespace {
-class IAudioTimeSource;
+namespace Zenject {
+class ITickable;
 }
 namespace Zenject {
 class TickableManager;
 }
 namespace GlobalNamespace {
-class BeatmapCallbacksController;
+struct BasicBeatmapEventType;
 }
-namespace Zenject {
-class ITickable;
+namespace GlobalNamespace {
+class IAudioTimeSource;
 }
 namespace GlobalNamespace {
 class ParticleSystemEventController;
 }
 namespace GlobalNamespace {
-class SongSpeedData;
-}
-namespace GlobalNamespace {
 class PauseController;
 }
-namespace System {
-class IDisposable;
+namespace GlobalNamespace {
+class SongSpeedData;
 }
 namespace GlobalNamespace {
 class BasicBeatmapEventData;
 }
 namespace GlobalNamespace {
-template <typename T> class MemoryPoolContainer_1;
+class BeatmapDataCallbackWrapper;
+}
+namespace System {
+class IDisposable;
 }
 namespace GlobalNamespace {
-class BeatmapDataCallbackWrapper;
+template <typename T> class MemoryPoolContainer_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -370,7 +370,7 @@ static_assert(offsetof(::GlobalNamespace::__ParticleSystemEmitEventEffect__Gamep
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4982)), TypeDefinitionIndex(TypeDefinitionIndex(14724)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14724)), TypeDefinitionIndex(TypeDefinitionIndex(4982)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4963))
 // CS Name: ::ParticleSystemEmitEventEffect*
 class CORDL_TYPE ParticleSystemEmitEventEffect : public ::UnityEngine::MonoBehaviour {

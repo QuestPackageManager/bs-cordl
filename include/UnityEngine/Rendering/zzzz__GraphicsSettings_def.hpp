@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(GraphicsSettings)
-namespace UnityEngine::Rendering {
-class RenderPipelineAsset;
-}
 namespace UnityEngine {
 class ScriptableObject;
+}
+namespace UnityEngine::Rendering {
+class RenderPipelineAsset;
 }
 // Forward declare root types
 namespace UnityEngine::Rendering {

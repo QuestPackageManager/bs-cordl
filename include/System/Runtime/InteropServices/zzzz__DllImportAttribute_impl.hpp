@@ -3,9 +3,9 @@
 #include "System/Runtime/InteropServices/zzzz__CharSet_impl.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "System/Runtime/InteropServices/zzzz__DllImportAttribute_def.hpp"
+#include "System/Runtime/InteropServices/zzzz__CallingConvention_def.hpp"
 #include "System/zzzz__Attribute_def.hpp"
 #include "System/Reflection/zzzz__RuntimeMethodInfo_def.hpp"
-#include "System/Runtime/InteropServices/zzzz__CallingConvention_def.hpp"
 #include "System/Runtime/InteropServices/zzzz__CharSet_def.hpp"
 //  Writing Method size for method: ::System::Runtime::InteropServices::DllImportAttribute.GetCustomAttribute
 template <>

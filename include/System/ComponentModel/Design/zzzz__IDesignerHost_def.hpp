@@ -3,11 +3,11 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IDesignerHost)
-namespace System {
-class IServiceProvider;
-}
 namespace System::ComponentModel::Design {
 class IDesigner;
+}
+namespace System {
+class IServiceProvider;
 }
 namespace System::ComponentModel {
 class IComponent;

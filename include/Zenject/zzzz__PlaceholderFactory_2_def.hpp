@@ -7,11 +7,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(PlaceholderFactory_2)
-namespace System {
-class Object;
+namespace Zenject {
+template <typename TParam1, typename TValue> class IFactory_2;
 }
 namespace Zenject {
-class InjectTypeInfo;
+template <typename TParam1, typename TValue> class __PlaceholderFactory_2___get_ParamTypes_d__2;
 }
 namespace Zenject {
 class IFactory;
@@ -19,26 +19,26 @@ class IFactory;
 namespace System {
 class Type;
 }
-namespace Zenject {
-template <typename TParam1, typename TValue> class __PlaceholderFactory_2___get_ParamTypes_d__2;
-}
-namespace Zenject {
-template <typename TParam1, typename TValue> class IFactory_2;
-}
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
-namespace System::Collections {
-class IEnumerable;
+namespace System {
+class Object;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
+namespace Zenject {
+class InjectTypeInfo;
 }
 namespace System::Collections {
 class IEnumerator;
 }
 namespace System {
 class IDisposable;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
+}
+namespace System::Collections {
+class IEnumerable;
 }
 // Forward declare root types
 namespace Zenject {
@@ -173,7 +173,7 @@ namespace Zenject {
 // cpp template
 template <typename TParam1, typename TValue>
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11026), inst: 4822 }), TypeDefinitionIndex(TypeDefinitionIndex(11026))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11026)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11026), inst: 4822 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11005))
 // CS Name: ::Zenject::PlaceholderFactory`2<TParam1,TValue>*
 class CORDL_TYPE PlaceholderFactory_2 : public ::Zenject::PlaceholderFactoryBase_1<TValue> {

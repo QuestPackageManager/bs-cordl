@@ -3,27 +3,23 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
+#include "UnityEngine/ProBuilder/zzzz__SortMethod_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(Projection)
 namespace UnityEngine::ProBuilder {
-class Face;
-}
-namespace UnityEngine {
-struct Vector2;
-}
-namespace UnityEngine::ProBuilder {
 struct ProjectionAxis;
 }
-namespace UnityEngine {
-struct Plane;
+namespace UnityEngine::ProBuilder {
+class Face;
 }
 namespace UnityEngine {
 struct Vector3;
 }
-namespace UnityEngine::ProBuilder {
-class ProBuilderMesh;
+namespace System::Collections::Generic {
+template <typename T> class IList_1;
 }
 namespace UnityEngine::ProBuilder {
 class __Projection____c;
@@ -31,23 +27,26 @@ class __Projection____c;
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
-namespace UnityEngine::ProBuilder {
-struct SortMethod;
+namespace UnityEngine {
+struct Plane;
 }
 namespace UnityEngine::ProBuilder {
 struct AutoUnwrapSettings;
 }
-namespace System::Collections::Generic {
-template <typename T> class IList_1;
+namespace UnityEngine {
+struct Vector2;
+}
+namespace UnityEngine::ProBuilder {
+class ProBuilderMesh;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;
 }
-namespace System {
-template <typename T> class Comparison_1;
-}
 namespace UnityEngine::ProBuilder {
 template <typename T1, typename T2> struct SimpleTuple_2;
+}
+namespace System {
+template <typename T> class Comparison_1;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder {
@@ -126,7 +125,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::__Proje
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12162)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12180))
 // CS Name: ::UnityEngine.ProBuilder::Projection*
 class CORDL_TYPE Projection : public ::System::Object {

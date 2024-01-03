@@ -4,8 +4,8 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"
 #include "GlobalNamespace/zzzz__MockPlayerSettings_def.hpp"
-#include "UnityEngine/zzzz__Color_def.hpp"
 #include "GlobalNamespace/zzzz__MockPlayerMovementType_def.hpp"
+#include "UnityEngine/zzzz__Color_def.hpp"
 #include "GlobalNamespace/zzzz__MockPlayerAvatarType_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::MockPlayerSettings.get_userName
 template <>

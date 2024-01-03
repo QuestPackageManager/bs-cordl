@@ -11,59 +11,59 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(ProviderOperation_1)
-namespace System::Collections::Generic {
-template <typename T> class IList_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
 namespace UnityEngine::ResourceManagement::AsyncOperations {
 struct DownloadStatus;
+}
+namespace System {
+class Object;
+}
+namespace System::Collections::Generic {
+template <typename T> class HashSet_1;
+}
+namespace System {
+class Exception;
 }
 namespace System {
 class Type;
 }
 namespace System {
-class Object;
-}
-namespace System {
-template <typename T1, typename T2> class Action_2;
-}
-namespace UnityEngine::ResourceManagement::AsyncOperations {
-struct AsyncOperationHandle;
-}
-namespace System {
-template <typename TResult> class Func_1;
-}
-namespace UnityEngine::ResourceManagement::ResourceProviders {
-class IResourceProvider;
-}
-namespace System {
 template <typename T1, typename T2, typename T3, typename T4> class Action_4;
 }
-namespace System {
-class Exception;
-}
-namespace UnityEngine::ResourceManagement::AsyncOperations {
-template <typename TObject> struct AsyncOperationHandle_1;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace UnityEngine::ResourceManagement::ResourceLocations {
 class IResourceLocation;
 }
+namespace UnityEngine::ResourceManagement::AsyncOperations {
+class ICachable;
+}
+namespace System {
+template <typename TResult> class Func_1;
+}
 namespace UnityEngine::ResourceManagement::Util {
 class IOperationCacheKey;
 }
-namespace System::Collections::Generic {
-template <typename T> class HashSet_1;
+namespace System {
+template <typename T1, typename T2> class Action_2;
 }
-namespace UnityEngine::ResourceManagement::AsyncOperations {
-class IGenericProviderOperation;
+namespace System::Collections::Generic {
+template <typename T> class IList_1;
 }
 namespace UnityEngine::ResourceManagement {
 class ResourceManager;
 }
 namespace UnityEngine::ResourceManagement::AsyncOperations {
-class ICachable;
+class IGenericProviderOperation;
+}
+namespace UnityEngine::ResourceManagement::AsyncOperations {
+struct AsyncOperationHandle;
+}
+namespace UnityEngine::ResourceManagement::AsyncOperations {
+template <typename TObject> struct AsyncOperationHandle_1;
+}
+namespace UnityEngine::ResourceManagement::ResourceProviders {
+class IResourceProvider;
 }
 // Forward declare root types
 namespace UnityEngine::ResourceManagement::AsyncOperations {
@@ -77,9 +77,9 @@ namespace UnityEngine::ResourceManagement::AsyncOperations {
 // cpp template
 template <typename TObject>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14034)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3835), inst: 275 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(14033)), TypeDefinitionIndex(TypeDefinitionIndex(14036)), TypeDefinitionIndex(TypeDefinitionIndex(14032)), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(14032), inst: 790 }), TypeDefinitionIndex(TypeDefinitionIndex(3835)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14033), inst: 792 })} Self:
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14032), inst: 790 }), TypeDefinitionIndex(TypeDefinitionIndex(14036)),
+// TypeDefinitionIndex(TypeDefinitionIndex(14032)), TypeDefinitionIndex(TypeDefinitionIndex(14033)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14033), inst: 792 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(14034)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3835), inst: 275 }), TypeDefinitionIndex(TypeDefinitionIndex(3835))} Self:
 // TypeDefinitionIndex(TypeDefinitionIndex(14040)) CS Name: ::UnityEngine.ResourceManagement.AsyncOperations::ProviderOperation`1<TObject>*
 class CORDL_TYPE ProviderOperation_1 : public ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<TObject> {
 public:

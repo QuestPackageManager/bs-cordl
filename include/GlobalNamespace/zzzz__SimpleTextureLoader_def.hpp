@@ -6,35 +6,35 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(SimpleTextureLoader)
-namespace System {
-template <typename T> class Action_1;
-}
-namespace GlobalNamespace {
-template <typename K, typename V> class HMCache_2;
-}
-namespace UnityEngine {
-class Texture2D;
-}
-namespace GlobalNamespace {
-class ICoroutineStarter;
-}
 namespace System::Collections {
 class IEnumerator;
 }
 namespace GlobalNamespace {
+class ICoroutineStarter;
+}
+namespace GlobalNamespace {
+template <typename K, typename V> class HMCache_2;
+}
+namespace GlobalNamespace {
 class __SimpleTextureLoader___LoadTextureCoroutine_d__3;
 }
+namespace UnityEngine {
+class Texture2D;
+}
 namespace System {
-class IDisposable;
+template <typename T> class Action_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
 }
 namespace System {
 class Object;
 }
+namespace System {
+class IDisposable;
+}
 namespace UnityEngine::Networking {
 class UnityWebRequest;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {

@@ -8,23 +8,14 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(XPathNavigator)
-namespace System {
-struct DateTime;
-}
 namespace System::Xml::XPath {
 struct XPathNamespaceScope;
 }
 namespace System::Xml {
-class XmlNameTable;
+class IXmlNamespaceResolver;
 }
 namespace System::Xml::Schema {
-class IXmlSchemaInfo;
-}
-namespace System {
-class ICloneable;
-}
-namespace System::Xml {
-class IXmlNamespaceResolver;
+class XmlSchemaType;
 }
 namespace System::Xml::XPath {
 class XPathNavigatorKeyComparer;
@@ -32,14 +23,23 @@ class XPathNavigatorKeyComparer;
 namespace System {
 class Type;
 }
+namespace System {
+struct DateTime;
+}
+namespace System {
+class ICloneable;
+}
 namespace System::Xml::XPath {
 struct XPathNodeType;
+}
+namespace System::Xml::Schema {
+class IXmlSchemaInfo;
 }
 namespace System {
 class Object;
 }
-namespace System::Xml::Schema {
-class XmlSchemaType;
+namespace System::Xml {
+class XmlNameTable;
 }
 // Forward declare root types
 namespace System::Xml::XPath {

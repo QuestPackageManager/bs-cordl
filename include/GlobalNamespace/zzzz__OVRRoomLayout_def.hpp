@@ -10,19 +10,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVRRoomLayout)
 namespace GlobalNamespace {
-template <typename TResult> struct OVRTask_1;
-}
-namespace System {
-template <typename T> class IEquatable_1;
+template <typename T> class IOVRAnchorComponent_1;
 }
 namespace GlobalNamespace {
-struct OVRAnchor;
+struct __OVRPlugin__SpaceComponentType;
 }
 namespace System {
 class Object;
 }
 namespace GlobalNamespace {
-struct __OVRPlugin__SpaceComponentType;
+struct OVRAnchor;
+}
+namespace GlobalNamespace {
+template <typename TResult> struct OVRTask_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
@@ -30,8 +30,8 @@ template <typename T> class List_1;
 namespace System {
 struct Guid;
 }
-namespace GlobalNamespace {
-template <typename T> class IOVRAnchorComponent_1;
+namespace System {
+template <typename T> class IEquatable_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {

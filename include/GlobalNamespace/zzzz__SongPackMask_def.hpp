@@ -9,26 +9,26 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(SongPackMask)
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
+namespace LiteNetLib::Utils {
+class NetDataReader;
+}
+namespace System {
+template <typename T> class IEquatable_1;
+}
+namespace LiteNetLib::Utils {
+template <typename T> class INetImmutableSerializable_1;
+}
 namespace LiteNetLib::Utils {
 class NetDataWriter;
 }
 namespace System {
 class Object;
 }
-namespace System {
-template <typename T> class IEquatable_1;
-}
-namespace LiteNetLib::Utils {
-class NetDataReader;
-}
 namespace GlobalNamespace {
 struct BitMask256;
-}
-namespace LiteNetLib::Utils {
-template <typename T> class INetImmutableSerializable_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {

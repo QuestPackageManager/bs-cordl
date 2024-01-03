@@ -1,12 +1,12 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "Zenject/zzzz__SceneContextRegistryAdderAndRemover_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include "Zenject/zzzz__SceneContextRegistry_def.hpp"
+#include "Zenject/zzzz__IInitializable_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "Zenject/zzzz__SceneContext_def.hpp"
 #include "Zenject/zzzz__InjectTypeInfo_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "Zenject/zzzz__IInitializable_def.hpp"
 //  Writing Method size for method: ::Zenject::SceneContextRegistryAdderAndRemover._ctor
 template <>
 

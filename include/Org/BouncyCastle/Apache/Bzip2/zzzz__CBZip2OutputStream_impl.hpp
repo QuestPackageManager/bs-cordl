@@ -3,9 +3,9 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Apache/Bzip2/zzzz__CBZip2OutputStream_def.hpp"
 #include "Org/BouncyCastle/Apache/Bzip2/zzzz__CBZip2OutputStream_def.hpp"
-#include "Org/BouncyCastle/Apache/Bzip2/zzzz__CRC_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"
 #include "System/IO/zzzz__SeekOrigin_def.hpp"
+#include "Org/BouncyCastle/Apache/Bzip2/zzzz__CRC_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Apache::Bzip2::__CBZip2OutputStream__StackElem._ctor
 template <>
 

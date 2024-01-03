@@ -9,13 +9,13 @@ namespace Org::BouncyCastle::Asn1 {
 class IAsn1Convertible;
 }
 namespace Org::BouncyCastle::Asn1 {
-class IAsn1ApplicationSpecificParser;
+class Asn1StreamParser;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1StreamParser;
+class IAsn1ApplicationSpecificParser;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1 {

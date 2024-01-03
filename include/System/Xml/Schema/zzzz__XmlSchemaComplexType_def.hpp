@@ -10,10 +10,10 @@ namespace System::Xml::Schema {
 struct XmlSchemaContentProcessing;
 }
 namespace System::Xml::Schema {
-class ContentValidator;
+class XmlSchemaAnyAttribute;
 }
 namespace System::Xml::Schema {
-class XmlSchemaAnyAttribute;
+class ContentValidator;
 }
 namespace System::Xml::Schema {
 class XmlSchemaParticle;

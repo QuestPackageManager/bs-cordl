@@ -11,31 +11,31 @@ namespace System::Text {
 class StringBuilder;
 }
 namespace System {
-class IComparable;
-}
-namespace System {
-class Object;
-}
-namespace System {
-template <typename T> class IEquatable_1;
-}
-namespace System {
-template <typename T> class IComparable_1;
-}
-namespace System {
-class IFormatProvider;
+class ICloneable;
 }
 namespace System {
 template <typename T> struct Span_1;
 }
 namespace System {
-class ICloneable;
-}
-namespace System {
 class ISpanFormattable;
 }
 namespace System {
+class Object;
+}
+namespace System {
+class IFormatProvider;
+}
+namespace System {
+class IComparable;
+}
+namespace System {
+template <typename T> class IEquatable_1;
+}
+namespace System {
 template <typename T> struct ReadOnlySpan_1;
+}
+namespace System {
+template <typename T> class IComparable_1;
 }
 // Forward declare root types
 namespace System {

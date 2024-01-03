@@ -1,9 +1,9 @@
 #pragma once
 #include "UnityEngine/UIElements/zzzz__FocusChangeDirection_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualElementFocusChangeTarget_def.hpp"
-#include "UnityEngine/UIElements/zzzz__ObjectPool_1_def.hpp"
-#include "UnityEngine/UIElements/zzzz__Focusable_def.hpp"
 #include "UnityEngine/UIElements/zzzz__FocusController_def.hpp"
+#include "UnityEngine/UIElements/zzzz__Focusable_def.hpp"
+#include "UnityEngine/UIElements/zzzz__ObjectPool_1_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::VisualElementFocusChangeTarget.GetPooled
 template <>
 

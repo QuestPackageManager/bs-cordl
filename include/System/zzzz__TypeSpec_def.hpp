@@ -8,38 +8,38 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(TypeSpec)
-namespace System::Threading {
-struct StackCrawlMark;
-}
 namespace System {
-template <typename T1, typename T2, typename T3, typename TResult> class Func_4;
-}
-namespace System {
-class ModifierSpec;
+class TypeIdentifier;
 }
 namespace System::Reflection {
 class Assembly;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace System::Text {
+class StringBuilder;
+}
+namespace System {
+class Type;
+}
+namespace System::Reflection {
+class AssemblyName;
+}
+namespace System {
+template <typename T, typename TResult> class Func_2;
 }
 namespace System {
 struct __TypeSpec__DisplayNameFormat;
 }
 namespace System {
-class Type;
+template <typename T1, typename T2, typename T3, typename TResult> class Func_4;
+}
+namespace System::Threading {
+struct StackCrawlMark;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace System {
-class TypeIdentifier;
-}
-namespace System {
-template <typename T, typename TResult> class Func_2;
-}
-namespace System::Text {
-class StringBuilder;
-}
-namespace System::Reflection {
-class AssemblyName;
+class ModifierSpec;
 }
 // Forward declare root types
 namespace System {

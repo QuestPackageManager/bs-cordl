@@ -1,10 +1,10 @@
 #pragma once
 #include "UnityEngine/zzzz__Component_impl.hpp"
 #include "UnityEngine/zzzz__Rigidbody_def.hpp"
-#include "UnityEngine/zzzz__Quaternion_def.hpp"
-#include "UnityEngine/zzzz__CollisionDetectionMode_def.hpp"
 #include "UnityEngine/zzzz__ForceMode_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "UnityEngine/zzzz__CollisionDetectionMode_def.hpp"
+#include "UnityEngine/zzzz__Quaternion_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Rigidbody.set_velocity
 template <>
 

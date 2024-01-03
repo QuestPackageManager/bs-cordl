@@ -2,9 +2,9 @@
 #include "System/Security/AccessControl/zzzz__AccessControlType_impl.hpp"
 #include "System/Security/AccessControl/zzzz__AuthorizationRule_impl.hpp"
 #include "System/Security/AccessControl/zzzz__AccessRule_def.hpp"
+#include "System/Security/AccessControl/zzzz__InheritanceFlags_def.hpp"
 #include "System/Security/Principal/zzzz__IdentityReference_def.hpp"
 #include "System/Security/AccessControl/zzzz__AccessControlType_def.hpp"
-#include "System/Security/AccessControl/zzzz__InheritanceFlags_def.hpp"
 #include "System/Security/AccessControl/zzzz__PropagationFlags_def.hpp"
 //  Writing Method size for method: ::System::Security::AccessControl::AccessRule._ctor
 template <>

@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(CookieParser)
 namespace System::Net {
-class Cookie;
+class CookieTokenizer;
 }
 namespace System::Net {
-class CookieTokenizer;
+class Cookie;
 }
 // Forward declare root types
 namespace System::Net {

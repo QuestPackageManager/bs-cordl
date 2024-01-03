@@ -12,14 +12,14 @@ class Object;
 namespace System::Reflection {
 class MethodInfo;
 }
-namespace UnityEngine::Events {
-template <typename T0> class UnityAction_1;
+namespace System {
+class Type;
 }
 namespace UnityEngine::Events {
 class BaseInvokableCall;
 }
-namespace System {
-class Type;
+namespace UnityEngine::Events {
+template <typename T0> class UnityAction_1;
 }
 // Forward declare root types
 namespace UnityEngine::Events {

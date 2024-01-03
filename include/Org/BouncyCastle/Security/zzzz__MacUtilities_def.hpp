@@ -11,10 +11,10 @@ namespace System::Collections {
 class IDictionary;
 }
 namespace Org::BouncyCastle::Crypto {
-class IMac;
+class ICipherParameters;
 }
 namespace Org::BouncyCastle::Crypto {
-class ICipherParameters;
+class IMac;
 }
 namespace Org::BouncyCastle::Asn1 {
 class DerObjectIdentifier;

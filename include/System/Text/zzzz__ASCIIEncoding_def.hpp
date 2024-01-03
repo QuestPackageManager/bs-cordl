@@ -11,16 +11,16 @@ namespace System::Text {
 class __ASCIIEncoding__ASCIIEncodingSealed;
 }
 namespace System::Text {
-class EncoderNLS;
+class DecoderNLS;
 }
 namespace System::Text {
 class Encoder;
 }
 namespace System::Text {
-class Decoder;
+class EncoderNLS;
 }
 namespace System::Text {
-class DecoderNLS;
+class Decoder;
 }
 // Forward declare root types
 namespace System::Text {

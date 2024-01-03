@@ -8,35 +8,35 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Asn1Set)
-namespace Org::BouncyCastle::Asn1 {
-class Asn1SetParser;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1EncodableVector;
+namespace System {
+class Object;
 }
 namespace System::Collections {
 class IEnumerator;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1TaggedObject;
+class Asn1Object;
 }
-namespace System {
-class Object;
+namespace Org::BouncyCastle::Asn1 {
+class Asn1EncodableVector;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1SetParser;
 }
 namespace System::Collections {
 class IEnumerable;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
+class __Asn1Set__DerComparer;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1TaggedObject;
 }
 namespace Org::BouncyCastle::Asn1 {
 class __Asn1Set__Asn1SetParserImpl;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Encodable;
-}
-namespace Org::BouncyCastle::Asn1 {
-class __Asn1Set__DerComparer;
 }
 namespace Org::BouncyCastle::Asn1 {
 class IAsn1Convertible;

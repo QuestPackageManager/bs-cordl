@@ -8,7 +8,7 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(PkixNameConstraintValidator)
 namespace Org::BouncyCastle::Asn1::X509 {
-class GeneralSubtree;
+class GeneralName;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class OtherName;
@@ -16,20 +16,20 @@ class OtherName;
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
 }
+namespace Org::BouncyCastle::Asn1 {
+class DerObjectIdentifier;
+}
 namespace Org::BouncyCastle::Asn1::X509 {
-class GeneralName;
+class GeneralSubtree;
 }
 namespace Org::BouncyCastle::Utilities::Collections {
 class ISet;
 }
-namespace Org::BouncyCastle::Asn1 {
-class DerObjectIdentifier;
+namespace System::Collections {
+class ICollection;
 }
 namespace System {
 class Object;
-}
-namespace System::Collections {
-class ICollection;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Pkix {

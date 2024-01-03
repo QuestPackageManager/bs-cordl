@@ -12,17 +12,41 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(Selectable)
+namespace UnityEngine::EventSystems {
+class IMoveHandler;
+}
 namespace UnityEngine::UI {
-struct ColorBlock;
+class Image;
 }
 namespace UnityEngine {
-class RectTransform;
+class Sprite;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
+namespace UnityEngine::EventSystems {
+class AxisEventData;
+}
+namespace UnityEngine {
+struct Color;
+}
 namespace UnityEngine {
 struct Vector3;
+}
+namespace UnityEngine::EventSystems {
+class IDeselectHandler;
+}
+namespace UnityEngine::UI {
+struct ColorBlock;
+}
+namespace UnityEngine::UI {
+struct __Selectable__Transition;
+}
+namespace UnityEngine {
+class RectTransform;
+}
+namespace UnityEngine::UI {
+struct __Selectable__SelectionState;
 }
 namespace UnityEngine::EventSystems {
 class IPointerExitHandler;
@@ -30,11 +54,14 @@ class IPointerExitHandler;
 namespace UnityEngine {
 struct Vector2;
 }
-namespace UnityEngine {
-class Sprite;
+namespace UnityEngine::EventSystems {
+class BaseEventData;
+}
+namespace UnityEngine::EventSystems {
+class IPointerUpHandler;
 }
 namespace UnityEngine::UI {
-class Image;
+struct Navigation;
 }
 namespace UnityEngine::EventSystems {
 class PointerEventData;
@@ -46,52 +73,25 @@ namespace UnityEngine {
 class CanvasGroup;
 }
 namespace UnityEngine::EventSystems {
+class ISelectHandler;
+}
+namespace UnityEngine::EventSystems {
 class IPointerDownHandler;
-}
-namespace UnityEngine::UI {
-struct Navigation;
-}
-namespace UnityEngine {
-struct Color;
-}
-namespace UnityEngine::UI {
-class Graphic;
-}
-namespace UnityEngine::EventSystems {
-class IDeselectHandler;
-}
-namespace UnityEngine::EventSystems {
-class IMoveHandler;
-}
-namespace UnityEngine::UI {
-struct SpriteState;
-}
-namespace UnityEngine::EventSystems {
-class AxisEventData;
-}
-namespace UnityEngine::EventSystems {
-class BaseEventData;
 }
 namespace UnityEngine::EventSystems {
 class IPointerEnterHandler;
 }
 namespace UnityEngine::UI {
-struct __Selectable__SelectionState;
-}
-namespace UnityEngine::EventSystems {
-class IPointerUpHandler;
-}
-namespace UnityEngine::EventSystems {
-class IEventSystemHandler;
+class Graphic;
 }
 namespace UnityEngine::UI {
 class AnimationTriggers;
 }
-namespace UnityEngine::EventSystems {
-class ISelectHandler;
-}
 namespace UnityEngine::UI {
-struct __Selectable__Transition;
+struct SpriteState;
+}
+namespace UnityEngine::EventSystems {
+class IEventSystemHandler;
 }
 // Forward declare root types
 namespace UnityEngine::UI {
@@ -231,8 +231,8 @@ static_assert(offsetof(::UnityEngine::UI::__Selectable__SelectionState, value__)
 // SizeInfo { instance_size: 248, native_size: -1, calculated_instance_size: 248, calculated_native_size: 248, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13023)), TypeDefinitionIndex(TypeDefinitionIndex(13125)), TypeDefinitionIndex(TypeDefinitionIndex(13214)),
-// TypeDefinitionIndex(TypeDefinitionIndex(13105)), TypeDefinitionIndex(TypeDefinitionIndex(13117))} Self: TypeDefinitionIndex(TypeDefinitionIndex(13119)) CS Name: ::UnityEngine.UI::Selectable*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13125)), TypeDefinitionIndex(TypeDefinitionIndex(13105)), TypeDefinitionIndex(TypeDefinitionIndex(13023)),
+// TypeDefinitionIndex(TypeDefinitionIndex(13117)), TypeDefinitionIndex(TypeDefinitionIndex(13214))} Self: TypeDefinitionIndex(TypeDefinitionIndex(13119)) CS Name: ::UnityEngine.UI::Selectable*
 class CORDL_TYPE Selectable : public ::UnityEngine::EventSystems::UIBehaviour {
 public:
   // Declarations

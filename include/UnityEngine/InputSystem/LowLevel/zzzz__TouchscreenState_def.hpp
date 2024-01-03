@@ -6,17 +6,17 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(TouchscreenState)
-namespace UnityEngine::InputSystem::Utilities {
-struct FourCC;
-}
 namespace UnityEngine::InputSystem::LowLevel {
 class IInputStateTypeInfo;
 }
 namespace UnityEngine::InputSystem::LowLevel {
-struct __TouchscreenState___primaryTouchData_e__FixedBuffer;
+struct __TouchscreenState___touchData_e__FixedBuffer;
 }
 namespace UnityEngine::InputSystem::LowLevel {
-struct __TouchscreenState___touchData_e__FixedBuffer;
+struct __TouchscreenState___primaryTouchData_e__FixedBuffer;
+}
+namespace UnityEngine::InputSystem::Utilities {
+struct FourCC;
 }
 namespace UnityEngine::InputSystem::LowLevel {
 struct TouchState;

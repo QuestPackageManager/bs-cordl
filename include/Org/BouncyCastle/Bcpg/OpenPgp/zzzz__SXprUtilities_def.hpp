@@ -8,14 +8,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(SXprUtilities)
-namespace Org::BouncyCastle::Bcpg::OpenPgp {
-class __SXprUtilities__MyS2k;
-}
 namespace System::IO {
 class Stream;
 }
 namespace Org::BouncyCastle::Bcpg {
 class S2k;
+}
+namespace Org::BouncyCastle::Bcpg::OpenPgp {
+class __SXprUtilities__MyS2k;
 }
 namespace Org::BouncyCastle::Bcpg {
 struct HashAlgorithmTag;

@@ -9,22 +9,22 @@ namespace UnityEngine::ProBuilder::MeshOperations {
 class __MergeElements____c;
 }
 namespace System::Collections::Generic {
-template <typename T> class List_1;
+template <typename T> class IEnumerable_1;
 }
 namespace UnityEngine::ProBuilder {
 class ProBuilderMesh;
 }
-namespace UnityEngine::ProBuilder::MeshOperations {
-class __MergeElements____c__DisplayClass0_0;
-}
 namespace UnityEngine::ProBuilder {
 template <typename T1, typename T2> struct SimpleTuple_2;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
 namespace UnityEngine::ProBuilder {
 class Face;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace UnityEngine::ProBuilder::MeshOperations {
+class __MergeElements____c__DisplayClass0_0;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;

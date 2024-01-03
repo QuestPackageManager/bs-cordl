@@ -10,25 +10,25 @@ namespace GlobalNamespace {
 class __ModifiersSelectionView____c__DisplayClass3_0;
 }
 namespace GlobalNamespace {
-class GameplayModifiersModelSO;
+class GameplayModifiers;
 }
 namespace GlobalNamespace {
-class GameplayModifiers;
+class GameplayModifierInfoListItemsList;
 }
 namespace TMPro {
 class TextMeshProUGUI;
 }
 namespace GlobalNamespace {
-class GameplayModifierInfoListItemsList;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+class GameplayModifiersModelSO;
 }
 namespace GlobalNamespace {
 class GameplayModifierInfoListItem;
 }
 namespace GlobalNamespace {
 class GameplayModifierParamsSO;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {

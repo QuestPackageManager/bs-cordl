@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__UriBuilder_def.hpp"
-#include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__Uri_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::System::UriBuilder._ctor
 template <>
 

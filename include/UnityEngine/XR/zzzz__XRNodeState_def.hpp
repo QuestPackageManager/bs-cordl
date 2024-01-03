@@ -10,9 +10,6 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(XRNodeState)
-namespace UnityEngine::XR {
-struct AvailableTrackingData;
-}
 namespace UnityEngine {
 struct Vector3;
 }
@@ -21,6 +18,9 @@ struct XRNode;
 }
 namespace UnityEngine {
 struct Quaternion;
+}
+namespace UnityEngine::XR {
+struct AvailableTrackingData;
 }
 // Forward declare root types
 namespace UnityEngine::XR {
@@ -32,8 +32,8 @@ MARK_VAL_T(::UnityEngine::XR::XRNodeState);
 // SizeInfo { instance_size: 96, native_size: 96, calculated_instance_size: 96, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::XR {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(15628)),
-// TypeDefinitionIndex(TypeDefinitionIndex(15614))} Self: TypeDefinitionIndex(TypeDefinitionIndex(15629)) CS Name: ::UnityEngine.XR::XRNodeState
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15614)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10252)),
+// TypeDefinitionIndex(TypeDefinitionIndex(15628))} Self: TypeDefinitionIndex(TypeDefinitionIndex(15629)) CS Name: ::UnityEngine.XR::XRNodeState
 struct CORDL_TYPE XRNodeState {
 public:
   // Declarations

@@ -9,25 +9,34 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(MultiplayerConnectedPlayerBeatmapObjectEventManager)
 namespace GlobalNamespace {
-struct __MultiplayerConnectedPlayerBeatmapObjectEventManager__TimestampedBeatmapObjectEventData;
-}
-namespace GlobalNamespace {
 class MultiplayerConnectedPlayerSongTimeSyncController;
 }
-namespace GlobalNamespace {
-class ObstacleSpawnInfoNetSerializable;
+namespace System {
+template <typename T> class Action_1;
 }
 namespace GlobalNamespace {
 class SliderSpawnInfoNetSerializable;
 }
 namespace GlobalNamespace {
+struct __MultiplayerConnectedPlayerBeatmapObjectEventManager__TimestampedBeatmapObjectEventData;
+}
+namespace GlobalNamespace {
+class IConnectedPlayerBeatmapObjectEventManager;
+}
+namespace GlobalNamespace {
 class NoteCutInfoNetSerializable;
+}
+namespace GlobalNamespace {
+class ObstacleSpawnInfoNetSerializable;
 }
 namespace GlobalNamespace {
 class IConnectedPlayer;
 }
 namespace GlobalNamespace {
-class IGameplayRpcManager;
+class NoteMissInfoNetSerializable;
+}
+namespace GlobalNamespace {
+class NoteSpawnInfoNetSerializable;
 }
 namespace System::Collections::Generic {
 template <typename T> class Queue_1;
@@ -36,16 +45,7 @@ namespace GlobalNamespace {
 class IPoolableSerializable;
 }
 namespace GlobalNamespace {
-class IConnectedPlayerBeatmapObjectEventManager;
-}
-namespace GlobalNamespace {
-class NoteSpawnInfoNetSerializable;
-}
-namespace System {
-template <typename T> class Action_1;
-}
-namespace GlobalNamespace {
-class NoteMissInfoNetSerializable;
+class IGameplayRpcManager;
 }
 // Forward declare root types
 namespace GlobalNamespace {

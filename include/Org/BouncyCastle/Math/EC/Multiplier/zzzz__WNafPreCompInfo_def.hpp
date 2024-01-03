@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(WNafPreCompInfo)
-namespace Org::BouncyCastle::Math::EC::Multiplier {
-class PreCompInfo;
-}
 namespace Org::BouncyCastle::Math::EC {
 class ECPoint;
+}
+namespace Org::BouncyCastle::Math::EC::Multiplier {
+class PreCompInfo;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Math::EC::Multiplier {

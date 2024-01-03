@@ -8,10 +8,10 @@ namespace UnityEngine::UIElements {
 class ITextHandle;
 }
 namespace UnityEngine::UIElements {
-struct __MeshGenerationContextUtils__TextParams;
+struct __MeshGenerationContextUtils__RectangleParams;
 }
 namespace UnityEngine::UIElements {
-struct __MeshGenerationContextUtils__RectangleParams;
+struct __MeshGenerationContextUtils__TextParams;
 }
 namespace System {
 class Action;

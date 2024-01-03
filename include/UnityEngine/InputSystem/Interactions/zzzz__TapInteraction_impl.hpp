@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/InputSystem/Interactions/zzzz__TapInteraction_def.hpp"
-#include "UnityEngine/InputSystem/zzzz__IInputInteraction_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputInteractionContext_def.hpp"
+#include "UnityEngine/InputSystem/zzzz__IInputInteraction_def.hpp"
 //  Writing Method size for method: ::UnityEngine::InputSystem::Interactions::TapInteraction.get_durationOrDefault
 template <>
 

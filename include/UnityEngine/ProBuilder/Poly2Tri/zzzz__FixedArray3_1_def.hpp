@@ -7,23 +7,23 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(FixedArray3_1)
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
-}
 namespace System {
-class Object;
+class IDisposable;
 }
 namespace System::Collections {
 class IEnumerable;
 }
-namespace System::Collections {
-class IEnumerator;
+namespace System {
+class Object;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
-namespace System {
-class IDisposable;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
+}
+namespace System::Collections {
+class IEnumerator;
 }
 namespace UnityEngine::ProBuilder::Poly2Tri {
 template <typename T> class __FixedArray3_1___Enumerate_d__10;
@@ -117,8 +117,8 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(15349), inst: 1981 }), TypeDefinitionIndex(TypeDefinitionIndex(2613)),
-// TypeDefinitionIndex(TypeDefinitionIndex(15349))} Self: TypeDefinitionIndex(TypeDefinitionIndex(15348)) CS Name: ::FixedArray3`1::<Enumerate>d__10<T>*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15349)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(15349), inst: 1981 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(2613))} Self: TypeDefinitionIndex(TypeDefinitionIndex(15348)) CS Name: ::FixedArray3`1::<Enumerate>d__10<T>*
 class CORDL_TYPE __FixedArray3_1___Enumerate_d__10 : public ::System::Object {
 public:
   // Declarations

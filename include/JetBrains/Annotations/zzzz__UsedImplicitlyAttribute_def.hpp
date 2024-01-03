@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Attribute_def.hpp"
 CORDL_MODULE_EXPORT(UsedImplicitlyAttribute)
 namespace JetBrains::Annotations {
-struct ImplicitUseKindFlags;
+struct ImplicitUseTargetFlags;
 }
 namespace JetBrains::Annotations {
-struct ImplicitUseTargetFlags;
+struct ImplicitUseKindFlags;
 }
 // Forward declare root types
 namespace JetBrains::Annotations {
@@ -22,7 +22,7 @@ MARK_REF_PTR_T(::JetBrains::Annotations::UsedImplicitlyAttribute);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace JetBrains::Annotations {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547)), TypeDefinitionIndex(TypeDefinitionIndex(10029)), TypeDefinitionIndex(TypeDefinitionIndex(10028))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547)), TypeDefinitionIndex(TypeDefinitionIndex(10028)), TypeDefinitionIndex(TypeDefinitionIndex(10029))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10027))
 // CS Name: ::JetBrains.Annotations::UsedImplicitlyAttribute*
 class CORDL_TYPE UsedImplicitlyAttribute : public ::System::Attribute {

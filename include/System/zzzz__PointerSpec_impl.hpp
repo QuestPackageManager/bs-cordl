@@ -1,9 +1,9 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__PointerSpec_def.hpp"
-#include "System/zzzz__Type_def.hpp"
-#include "System/zzzz__ModifierSpec_def.hpp"
 #include "System/Text/zzzz__StringBuilder_def.hpp"
+#include "System/zzzz__ModifierSpec_def.hpp"
+#include "System/zzzz__Type_def.hpp"
 //  Writing Method size for method: ::System::PointerSpec._ctor
 template <>
 

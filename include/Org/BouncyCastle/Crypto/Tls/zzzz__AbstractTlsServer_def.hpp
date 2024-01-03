@@ -7,40 +7,34 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(AbstractTlsServer)
 namespace Org::BouncyCastle::Crypto::Tls {
-class TlsCredentials;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
 class TlsCipherFactory;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class TlsCompression;
+class TlsCredentials;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class Certificate;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
-class CertificateStatus;
+class TlsServer;
 }
 namespace System::Collections {
 class IList;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class NewSessionTicket;
-}
-namespace System::Collections {
-class IDictionary;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
 class TlsCipher;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class TlsServer;
+class Certificate;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class ProtocolVersion;
+class TlsCompression;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class TlsPeer;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class NewSessionTicket;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class TlsServerContext;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class CertificateRequest;
@@ -49,7 +43,13 @@ namespace Org::BouncyCastle::Crypto::Tls {
 class TlsKeyExchange;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class TlsServerContext;
+class ProtocolVersion;
+}
+namespace System::Collections {
+class IDictionary;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class CertificateStatus;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {

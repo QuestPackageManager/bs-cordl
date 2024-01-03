@@ -9,68 +9,68 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(MissionResultsViewController)
-namespace GlobalNamespace {
-class MissionNode;
+namespace System::Collections {
+class IEnumerator;
 }
 namespace UnityEngine::UI {
 class Button;
-}
-namespace TMPro {
-class TextMeshProUGUI;
-}
-namespace UnityEngine {
-class GameObject;
-}
-namespace GlobalNamespace {
-class __MissionResultsViewController___StartFireworksAfterDelay_d__28;
-}
-namespace GlobalNamespace {
-class ResultObjectiveListItemsList;
-}
-namespace UnityEngine {
-class Sprite;
-}
-namespace System {
-template <typename T> class Action_1;
-}
-namespace GlobalNamespace {
-class SongPreviewPlayer;
-}
-namespace UnityEngine {
-class Coroutine;
 }
 namespace GlobalNamespace {
 class FireworksController;
 }
 namespace UnityEngine {
+class Sprite;
+}
+namespace GlobalNamespace {
+class MissionNode;
+}
+namespace UnityEngine {
 class AudioClip;
+}
+namespace GlobalNamespace {
+class __MissionResultsViewController___StartFireworksAfterDelay_d__28;
 }
 namespace GlobalNamespace {
 class MissionCompletionResults;
 }
-namespace System::Collections {
-class IEnumerator;
+namespace GlobalNamespace {
+class SongPreviewPlayer;
+}
+namespace System {
+template <typename T> class Action_1;
+}
+namespace UnityEngine {
+class Coroutine;
+}
+namespace UnityEngine {
+class GameObject;
 }
 namespace GlobalNamespace {
 class __MissionResultsViewController____c__DisplayClass29_0;
 }
-namespace System {
-class Object;
+namespace GlobalNamespace {
+class ResultObjectiveListItemsList;
+}
+namespace TMPro {
+class TextMeshProUGUI;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
 namespace System {
+class Object;
+}
+namespace System {
 class IDisposable;
+}
+namespace GlobalNamespace {
+class ResultObjectiveListItem;
 }
 namespace GlobalNamespace {
 class MissionObjective;
 }
 namespace GlobalNamespace {
 class MissionObjectiveResult;
-}
-namespace GlobalNamespace {
-class ResultObjectiveListItem;
 }
 // Forward declare root types
 namespace GlobalNamespace {

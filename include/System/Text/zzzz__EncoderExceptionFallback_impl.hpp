@@ -1,8 +1,8 @@
 #pragma once
 #include "System/Text/zzzz__EncoderFallback_impl.hpp"
 #include "System/Text/zzzz__EncoderExceptionFallback_def.hpp"
-#include "System/Text/zzzz__EncoderFallbackBuffer_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "System/Text/zzzz__EncoderFallbackBuffer_def.hpp"
 //  Writing Method size for method: ::System::Text::EncoderExceptionFallback._ctor
 template <>
 

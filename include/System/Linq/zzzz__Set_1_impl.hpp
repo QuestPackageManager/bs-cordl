@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Linq/zzzz__Set_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IEqualityComparer_1_def.hpp"
 #include "System/Linq/zzzz__Set_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IEqualityComparer_1_def.hpp"
 // Ctor Parameters [CppParam { name: "hashCode", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "value", ty: "TElement", modifiers: "", def_value: Some("nullptr") }, CppParam
 // { name: "next", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 template <typename TElement> constexpr ::System::Linq::__Set_1__Slot<TElement>::__Set_1__Slot(int32_t hashCode, TElement value, int32_t next) noexcept {

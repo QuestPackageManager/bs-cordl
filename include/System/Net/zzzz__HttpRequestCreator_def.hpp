@@ -7,11 +7,11 @@ CORDL_MODULE_EXPORT(HttpRequestCreator)
 namespace System::Net {
 class IWebRequestCreate;
 }
-namespace System {
-class Uri;
-}
 namespace System::Net {
 class WebRequest;
+}
+namespace System {
+class Uri;
 }
 // Forward declare root types
 namespace System::Net {

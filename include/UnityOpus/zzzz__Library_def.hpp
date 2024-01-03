@@ -12,7 +12,7 @@ namespace UnityOpus {
 struct ErrorCode;
 }
 namespace UnityOpus {
-struct NumChannels;
+struct OpusApplication;
 }
 namespace UnityOpus {
 struct OpusSignal;
@@ -21,7 +21,7 @@ namespace UnityOpus {
 struct SamplingFrequency;
 }
 namespace UnityOpus {
-struct OpusApplication;
+struct NumChannels;
 }
 // Forward declare root types
 namespace UnityOpus {

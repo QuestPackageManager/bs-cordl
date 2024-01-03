@@ -3,8 +3,8 @@
 #include "UnityEngine/zzzz__Vector2_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatmapObjectAvoidanceTiltEvaluator_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
-#include "GlobalNamespace/zzzz__IAudioTimeSource_def.hpp"
 #include "GlobalNamespace/zzzz__BezierSplineEvaluator_def.hpp"
+#include "GlobalNamespace/zzzz__IAudioTimeSource_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::BeatmapObjectAvoidanceTiltEvaluator._ctor
 template <>
 

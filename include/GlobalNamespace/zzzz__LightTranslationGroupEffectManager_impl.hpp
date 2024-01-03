@@ -1,10 +1,10 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__LightTranslationGroupEffectManager_def.hpp"
-#include "Zenject/zzzz__DiContainer_def.hpp"
 #include "GlobalNamespace/zzzz__LightTranslationGroup_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "Zenject/zzzz__DiContainer_def.hpp"
 #include "GlobalNamespace/zzzz__LightTranslationGroupEffect_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::LightTranslationGroupEffectManager.Start
 template <>
 

@@ -1,9 +1,9 @@
 #pragma once
 #include "RootMotion/FinalIK/zzzz__RotationLimit_impl.hpp"
 #include "RootMotion/FinalIK/zzzz__RotationLimitSpline_def.hpp"
-#include "UnityEngine/zzzz__Keyframe_def.hpp"
 #include "UnityEngine/zzzz__Quaternion_def.hpp"
 #include "UnityEngine/zzzz__AnimationCurve_def.hpp"
+#include "UnityEngine/zzzz__Keyframe_def.hpp"
 //  Writing Method size for method: ::RootMotion::FinalIK::RotationLimitSpline.OpenUserManual
 template <>
 

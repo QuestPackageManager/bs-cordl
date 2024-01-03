@@ -7,17 +7,17 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(LevelKey)
-namespace System {
-template <typename T> class IEquatable_1;
+namespace GlobalNamespace {
+class BeatmapCharacteristicSO;
 }
 namespace GlobalNamespace {
 struct BeatmapDifficulty;
 }
-namespace GlobalNamespace {
-class BeatmapCharacteristicSO;
-}
 namespace System {
 class Object;
+}
+namespace System {
+template <typename T> class IEquatable_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {

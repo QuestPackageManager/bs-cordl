@@ -6,19 +6,19 @@ CORDL_MODULE_INIT
 #include <cstddef>
 CORDL_MODULE_EXPORT(OVRMeshAttributes)
 namespace UnityEngine {
+struct BoneWeight;
+}
+namespace UnityEngine {
 struct Vector2;
 }
 namespace UnityEngine {
-struct Vector3;
+struct Vector4;
 }
 namespace UnityEngine {
 struct Color;
 }
 namespace UnityEngine {
-struct BoneWeight;
-}
-namespace UnityEngine {
-struct Vector4;
+struct Vector3;
 }
 // Forward declare root types
 namespace GlobalNamespace {

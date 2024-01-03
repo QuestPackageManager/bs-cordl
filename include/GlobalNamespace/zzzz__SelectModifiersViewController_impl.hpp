@@ -1,8 +1,8 @@
 #pragma once
 #include "HMUI/zzzz__ViewController_impl.hpp"
 #include "GlobalNamespace/zzzz__SelectModifiersViewController_def.hpp"
-#include "GlobalNamespace/zzzz__GameplayModifiersPanelController_def.hpp"
 #include "GlobalNamespace/zzzz__GameplayModifiers_def.hpp"
+#include "GlobalNamespace/zzzz__GameplayModifiersPanelController_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::SelectModifiersViewController.get_gameplayModifiers
 template <>
 

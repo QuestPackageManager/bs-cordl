@@ -10,9 +10,6 @@ class Object;
 namespace Org::BouncyCastle::Asn1::Ocsp {
 class SingleResponse;
 }
-namespace Org::BouncyCastle::Ocsp {
-class CertificateID;
-}
 namespace System {
 struct DateTime;
 }
@@ -21,6 +18,9 @@ class DateTimeObject;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class X509Extensions;
+}
+namespace Org::BouncyCastle::Ocsp {
+class CertificateID;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Ocsp {

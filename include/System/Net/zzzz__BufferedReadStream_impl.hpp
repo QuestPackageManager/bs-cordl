@@ -4,15 +4,15 @@
 #include "System/Runtime/CompilerServices/zzzz__ConfiguredTaskAwaitable_1_impl.hpp"
 #include "System/Threading/zzzz__CancellationToken_impl.hpp"
 #include "System/Net/zzzz__BufferedReadStream_def.hpp"
-#include "System/Threading/zzzz__CancellationToken_def.hpp"
-#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
-#include "System/IO/zzzz__Stream_def.hpp"
-#include "System/Net/zzzz__BufferedReadStream_def.hpp"
 #include "System/Net/zzzz__BufferOffsetSize_def.hpp"
 #include "System/Net/zzzz__WebOperation_def.hpp"
+#include "System/Net/zzzz__BufferedReadStream_def.hpp"
+#include "System/IO/zzzz__Stream_def.hpp"
+#include "System/Threading/zzzz__CancellationToken_def.hpp"
+#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__ConfiguredTaskAwaitable_1_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__ConfiguredTaskAwaitable_1_def.hpp"
 //  Writing Method size for method: ::System::Net::__BufferedReadStream___ProcessReadAsync_d__2.MoveNext
 template <>
 

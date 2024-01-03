@@ -6,35 +6,35 @@ CORDL_MODULE_INIT
 #include "System/Net/zzzz__WebResponse_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(FileWebResponse)
-namespace System::Runtime::Serialization {
-class ISerializable;
-}
-namespace System::Net {
-class FileWebRequest;
-}
-namespace System::Net {
-struct CloseExState;
-}
 namespace System::Net {
 class ICloseEx;
-}
-namespace System::IO {
-struct FileAccess;
-}
-namespace System::Runtime::Serialization {
-class SerializationInfo;
-}
-namespace System::Runtime::Serialization {
-struct StreamingContext;
 }
 namespace System::Net {
 class WebHeaderCollection;
 }
-namespace System {
-class Uri;
+namespace System::Runtime::Serialization {
+class ISerializable;
+}
+namespace System::Runtime::Serialization {
+class SerializationInfo;
 }
 namespace System::IO {
 class Stream;
+}
+namespace System::Runtime::Serialization {
+struct StreamingContext;
+}
+namespace System {
+class Uri;
+}
+namespace System::Net {
+struct CloseExState;
+}
+namespace System::IO {
+struct FileAccess;
+}
+namespace System::Net {
+class FileWebRequest;
 }
 // Forward declare root types
 namespace System::Net {
@@ -46,7 +46,7 @@ MARK_REF_PTR_T(::System::Net::FileWebResponse);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9097)), TypeDefinitionIndex(TypeDefinitionIndex(3559))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3559)), TypeDefinitionIndex(TypeDefinitionIndex(9097))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9137))
 // CS Name: ::System.Net::FileWebResponse*
 class CORDL_TYPE FileWebResponse : public ::System::Net::WebResponse {

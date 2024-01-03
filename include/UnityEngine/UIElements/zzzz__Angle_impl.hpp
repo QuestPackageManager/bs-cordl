@@ -1,10 +1,10 @@
 #pragma once
 #include "UnityEngine/UIElements/zzzz__Angle_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__Angle_def.hpp"
-#include "UnityEngine/UIElements/zzzz__AngleUnit_def.hpp"
-#include "UnityEngine/UIElements/zzzz__Angle_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "UnityEngine/UIElements/zzzz__Angle_def.hpp"
+#include "UnityEngine/UIElements/zzzz__AngleUnit_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::UIElements::__Angle__Unit::__Angle__Unit(int32_t value__) noexcept {
   this->value__ = value__;

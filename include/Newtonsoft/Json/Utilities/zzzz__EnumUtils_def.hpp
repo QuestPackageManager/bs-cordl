@@ -6,6 +6,12 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(EnumUtils)
+namespace System {
+class Type;
+}
+namespace Newtonsoft::Json::Utilities {
+class __EnumUtils____c;
+}
 namespace Newtonsoft::Json::Utilities {
 template <typename TFirst, typename TSecond> class BidirectionalDictionary_2;
 }
@@ -13,31 +19,25 @@ namespace Newtonsoft::Json::Utilities {
 template <typename TKey, typename TValue> class ThreadSafeStore_2;
 }
 namespace System {
-class Type;
-}
-namespace System {
 class Object;
 }
 namespace Newtonsoft::Json::Utilities {
 template <typename T> class __EnumUtils____c__2_1;
 }
+namespace Newtonsoft::Json::Utilities {
+template <typename T> class EnumValue_1;
+}
 namespace System::Collections::Generic {
 template <typename T> class IList_1;
 }
-namespace Newtonsoft::Json::Utilities {
-class __EnumUtils____c;
-}
-namespace Newtonsoft::Json::Utilities {
-template <typename T> class EnumValue_1;
+namespace System::Runtime::Serialization {
+class EnumMemberAttribute;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;
 }
 namespace System::Reflection {
 class FieldInfo;
-}
-namespace System::Runtime::Serialization {
-class EnumMemberAttribute;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Utilities {

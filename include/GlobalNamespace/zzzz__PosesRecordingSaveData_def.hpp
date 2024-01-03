@@ -8,13 +8,13 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(PosesRecordingSaveData)
 namespace GlobalNamespace {
-class __PosesRecordingSaveData__ExternalCameraCalibrationSaveData;
-}
-namespace GlobalNamespace {
 class __PosesRecordingSaveData__PoseSaveData;
 }
 namespace GlobalNamespace {
 class __PosesRecordingSaveData__TransformsSaveKeyframe;
+}
+namespace GlobalNamespace {
+class __PosesRecordingSaveData__ExternalCameraCalibrationSaveData;
 }
 // Forward declare root types
 namespace GlobalNamespace {

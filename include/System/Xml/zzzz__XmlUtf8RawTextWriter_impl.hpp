@@ -5,10 +5,10 @@
 #include "System/Xml/zzzz__XmlRawWriter_impl.hpp"
 #include "System/Xml/zzzz__XmlStandalone_impl.hpp"
 #include "System/Xml/zzzz__XmlUtf8RawTextWriter_def.hpp"
-#include "System/IO/zzzz__Stream_def.hpp"
+#include "System/Text/zzzz__Encoding_def.hpp"
 #include "System/Xml/zzzz__XmlWriterSettings_def.hpp"
 #include "System/Xml/zzzz__XmlStandalone_def.hpp"
-#include "System/Text/zzzz__Encoding_def.hpp"
+#include "System/IO/zzzz__Stream_def.hpp"
 //  Writing Method size for method: ::System::Xml::XmlUtf8RawTextWriter._ctor
 template <>
 

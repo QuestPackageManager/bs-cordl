@@ -7,10 +7,16 @@ CORDL_MODULE_INIT
 #include "System/Xml/Schema/zzzz__XmlSchemaDerivationMethod_def.hpp"
 CORDL_MODULE_EXPORT(XmlSchemaType)
 namespace System::Xml::Schema {
-class XmlSchemaSimpleType;
+class XmlValueConverter;
 }
-namespace System::Xml {
-class XmlQualifiedName;
+namespace System::Xml::Schema {
+struct XmlTypeCode;
+}
+namespace System::Xml::Schema {
+class SchemaElementDecl;
+}
+namespace System::Xml::Schema {
+class XmlSchemaSimpleType;
 }
 namespace System::Xml::Schema {
 struct XmlSchemaDerivationMethod;
@@ -18,17 +24,11 @@ struct XmlSchemaDerivationMethod;
 namespace System::Xml::Schema {
 struct XmlSchemaContentType;
 }
-namespace System::Xml::Schema {
-class XmlValueConverter;
-}
-namespace System::Xml::Schema {
-class SchemaElementDecl;
+namespace System::Xml {
+class XmlQualifiedName;
 }
 namespace System::Xml::Schema {
 class XmlSchemaDatatype;
-}
-namespace System::Xml::Schema {
-struct XmlTypeCode;
 }
 // Forward declare root types
 namespace System::Xml::Schema {

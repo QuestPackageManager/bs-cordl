@@ -6,13 +6,13 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(ObstacleScaleUp)
 namespace GlobalNamespace {
-class ObstacleController;
-}
-namespace GlobalNamespace {
 class ObstacleControllerBase;
 }
 namespace UnityEngine {
 class Transform;
+}
+namespace GlobalNamespace {
+class ObstacleController;
 }
 // Forward declare root types
 namespace GlobalNamespace {

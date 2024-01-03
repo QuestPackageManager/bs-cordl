@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include "UnityEngine/UIElements/zzzz__MouseEventBase_1_def.hpp"
 CORDL_MODULE_EXPORT(MouseLeaveWindowEvent)
-namespace UnityEngine {
-class Event;
-}
 namespace UnityEngine::UIElements {
 class IPanel;
+}
+namespace UnityEngine {
+class Event;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

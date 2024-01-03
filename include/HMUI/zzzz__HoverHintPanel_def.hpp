@@ -8,16 +8,16 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(HoverHintPanel)
 namespace UnityEngine {
-struct Vector2;
-}
-namespace UnityEngine {
 struct Rect;
 }
 namespace UnityEngine {
-class Transform;
+struct Vector2;
 }
 namespace TMPro {
 class TextMeshProUGUI;
+}
+namespace UnityEngine {
+class Transform;
 }
 // Forward declare root types
 namespace HMUI {

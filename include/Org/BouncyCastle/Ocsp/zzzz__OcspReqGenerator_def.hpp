@@ -6,41 +6,41 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(OcspReqGenerator)
-namespace System::Collections {
-class IEnumerable;
-}
 namespace Org::BouncyCastle::Ocsp {
-class OcspReq;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class X509Extensions;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class GeneralName;
-}
-namespace Org::BouncyCastle::Ocsp {
-class CertificateID;
-}
-namespace Org::BouncyCastle::Crypto {
-class AsymmetricKeyParameter;
+class __OcspReqGenerator__RequestObject;
 }
 namespace Org::BouncyCastle::Security {
 class SecureRandom;
 }
-namespace Org::BouncyCastle::X509 {
-class X509Certificate;
-}
 namespace System::Collections {
 class IList;
 }
-namespace Org::BouncyCastle::Asn1::X509 {
-class X509Name;
+namespace Org::BouncyCastle::Ocsp {
+class CertificateID;
 }
 namespace Org::BouncyCastle::Asn1 {
 class DerObjectIdentifier;
 }
+namespace Org::BouncyCastle::Asn1::X509 {
+class X509Extensions;
+}
+namespace Org::BouncyCastle::X509 {
+class X509Certificate;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class GeneralName;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class X509Name;
+}
 namespace Org::BouncyCastle::Ocsp {
-class __OcspReqGenerator__RequestObject;
+class OcspReq;
+}
+namespace System::Collections {
+class IEnumerable;
+}
+namespace Org::BouncyCastle::Crypto {
+class AsymmetricKeyParameter;
 }
 namespace Org::BouncyCastle::Asn1::Ocsp {
 class Request;

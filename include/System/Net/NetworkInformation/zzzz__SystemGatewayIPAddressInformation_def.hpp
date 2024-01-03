@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include "System/Net/NetworkInformation/zzzz__GatewayIPAddressInformation_def.hpp"
 CORDL_MODULE_EXPORT(SystemGatewayIPAddressInformation)
 namespace System::Net::NetworkInformation {
-class GatewayIPAddressInformationCollection;
+class IPAddressCollection;
 }
 namespace System::Net::NetworkInformation {
-class IPAddressCollection;
+class GatewayIPAddressInformationCollection;
 }
 namespace System::Net {
 class IPAddress;

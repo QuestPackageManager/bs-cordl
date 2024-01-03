@@ -3,11 +3,11 @@
 #include "System/zzzz__Nullable_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/Http/Headers/zzzz__HttpRequestHeaders_def.hpp"
-#include "System/Net/Http/Headers/zzzz__AuthenticationHeaderValue_def.hpp"
 #include "System/Net/Http/Headers/zzzz__HttpHeaderValueCollection_1_def.hpp"
+#include "System/Net/Http/Headers/zzzz__AuthenticationHeaderValue_def.hpp"
+#include "System/Net/Http/Headers/zzzz__HttpRequestHeaders_def.hpp"
 #include "System/Net/Http/Headers/zzzz__TransferCodingHeaderValue_def.hpp"
 #include "System/zzzz__Nullable_1_def.hpp"
-#include "System/Net/Http/Headers/zzzz__HttpRequestHeaders_def.hpp"
 #include "System/zzzz__Predicate_1_def.hpp"
 //  Writing Method size for method: ::System::Net::Http::Headers::__HttpRequestHeaders____c._ctor
 template <>

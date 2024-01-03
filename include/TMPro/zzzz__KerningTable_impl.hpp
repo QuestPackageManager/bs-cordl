@@ -1,10 +1,10 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "TMPro/zzzz__KerningTable_def.hpp"
-#include "TMPro/zzzz__KerningTable_def.hpp"
 #include "TMPro/zzzz__KerningPair_def.hpp"
-#include "TMPro/zzzz__GlyphValueRecord_Legacy_def.hpp"
+#include "TMPro/zzzz__KerningTable_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "TMPro/zzzz__GlyphValueRecord_Legacy_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
 //  Writing Method size for method: ::TMPro::__KerningTable____c__DisplayClass3_0._ctor
 template <>

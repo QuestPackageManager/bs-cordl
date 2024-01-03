@@ -9,41 +9,32 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(RecordingToolManager)
-namespace GlobalNamespace {
-struct __RecordingToolManager__SetupData;
+namespace Zenject {
+class DiContainer;
 }
 namespace GlobalNamespace {
-class IPosesSerializer;
-}
-namespace System {
-class IDisposable;
-}
-namespace GlobalNamespace {
-class BeatmapCharacteristicCollection;
-}
-namespace GlobalNamespace {
-class RecordingToolSettings;
-}
-namespace GlobalNamespace {
-class __RecordingToolManager____c;
-}
-namespace GlobalNamespace {
-class RecordingToolConfigurationProcessor;
-}
-namespace GlobalNamespace {
-class GameplayLevelSceneTransitionEvents;
-}
-namespace GlobalNamespace {
-class GameScenesManager;
+class MenuDestination;
 }
 namespace GlobalNamespace {
 class IBeatSaberLogger;
 }
 namespace GlobalNamespace {
-class MenuDestination;
+class GameplayLevelSceneTransitionEvents;
 }
-namespace Zenject {
-class DiContainer;
+namespace System {
+class IDisposable;
+}
+namespace GlobalNamespace {
+class IPosesSerializer;
+}
+namespace GlobalNamespace {
+class RecordingSettings;
+}
+namespace GlobalNamespace {
+struct __RecordingToolManager__SetupData;
+}
+namespace GlobalNamespace {
+class __RecordingToolManager____c;
 }
 namespace GlobalNamespace {
 struct __RecordingToolManager___HandleGameplayLevelSceneTransitionEventsAnyGameplayLevelDidFinish_d__28;
@@ -52,19 +43,28 @@ namespace Zenject {
 class IInitializable;
 }
 namespace GlobalNamespace {
-class RecordingSettings;
+class GameScenesManager;
+}
+namespace GlobalNamespace {
+class RecordingToolSettings;
+}
+namespace GlobalNamespace {
+class RecordingToolConfigurationProcessor;
+}
+namespace GlobalNamespace {
+class BeatmapCharacteristicCollection;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;
-}
-namespace System::Runtime::CompilerServices {
-struct TaskAwaiter;
 }
 namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
 }
 namespace System::Runtime::CompilerServices {
 struct AsyncVoidMethodBuilder;
+}
+namespace System::Runtime::CompilerServices {
+struct TaskAwaiter;
 }
 // Forward declare root types
 namespace GlobalNamespace {

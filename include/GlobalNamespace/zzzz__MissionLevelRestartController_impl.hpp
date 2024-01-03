@@ -2,9 +2,9 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__MissionLevelRestartController_def.hpp"
 #include "GlobalNamespace/zzzz__PrepareLevelCompletionResults_def.hpp"
-#include "GlobalNamespace/zzzz__MissionObjectiveCheckersManager_def.hpp"
 #include "GlobalNamespace/zzzz__ILevelRestartController_def.hpp"
 #include "GlobalNamespace/zzzz__MissionLevelScenesTransitionSetupDataSO_def.hpp"
+#include "GlobalNamespace/zzzz__MissionObjectiveCheckersManager_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::MissionLevelRestartController.RestartLevel
 template <>
 

@@ -8,13 +8,13 @@ namespace System {
 class Object;
 }
 namespace Newtonsoft::Json {
-class JsonWriter;
+class JsonSerializer;
 }
 namespace Newtonsoft::Json {
 class JsonReader;
 }
 namespace Newtonsoft::Json {
-class JsonSerializer;
+class JsonWriter;
 }
 namespace System {
 class Type;

@@ -7,40 +7,40 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(MultiplayerLocalActiveLevelFailController)
 namespace GlobalNamespace {
-class MultiplayerLevelCompletionResults;
-}
-namespace GlobalNamespace {
-class BeatmapObjectSpawnController;
+class GameSongController;
 }
 namespace System::Collections {
 class IEnumerator;
 }
 namespace GlobalNamespace {
-class BeatmapObjectManager;
+class __MultiplayerLocalActiveLevelFailController___PlayerFailedCoroutine_d__8;
+}
+namespace GlobalNamespace {
+class MultiplayerLevelCompletionResults;
+}
+namespace GlobalNamespace {
+class MultiplayerPlayersManager;
 }
 namespace GlobalNamespace {
 class LevelFailedTextEffect;
 }
 namespace GlobalNamespace {
-class __MultiplayerLocalActiveLevelFailController___PlayerFailedCoroutine_d__8;
-}
-namespace GlobalNamespace {
 class IMultiplayerLevelEndActionsPublisher;
 }
 namespace GlobalNamespace {
-class GameSongController;
+class BeatmapObjectManager;
 }
 namespace GlobalNamespace {
-class MultiplayerPlayersManager;
+class BeatmapObjectSpawnController;
 }
 namespace System {
 class Object;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
-}
 namespace System {
 class IDisposable;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {

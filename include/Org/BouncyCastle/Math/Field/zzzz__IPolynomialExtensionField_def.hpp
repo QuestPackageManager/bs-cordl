@@ -4,13 +4,13 @@
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IPolynomialExtensionField)
 namespace Org::BouncyCastle::Math::Field {
-class IFiniteField;
+class IPolynomial;
 }
 namespace Org::BouncyCastle::Math::Field {
 class IExtensionField;
 }
 namespace Org::BouncyCastle::Math::Field {
-class IPolynomial;
+class IFiniteField;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Math::Field {

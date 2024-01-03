@@ -2,10 +2,10 @@
 #include "System/Net/NetworkInformation/zzzz__IPInterfaceProperties_impl.hpp"
 #include "System/Net/NetworkInformation/zzzz__UnixIPInterfaceProperties_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "System/Net/NetworkInformation/zzzz__UnixNetworkInterface_def.hpp"
-#include "System/Net/zzzz__IPAddress_def.hpp"
-#include "System/Net/NetworkInformation/zzzz__UnicastIPAddressInformationCollection_def.hpp"
 #include "System/Text/RegularExpressions/zzzz__Regex_def.hpp"
+#include "System/Net/NetworkInformation/zzzz__UnixNetworkInterface_def.hpp"
+#include "System/Net/NetworkInformation/zzzz__UnicastIPAddressInformationCollection_def.hpp"
+#include "System/Net/zzzz__IPAddress_def.hpp"
 //  Writing Method size for method: ::System::Net::NetworkInformation::UnixIPInterfaceProperties._ctor
 template <>
 

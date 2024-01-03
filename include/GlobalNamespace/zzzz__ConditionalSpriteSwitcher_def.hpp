@@ -4,17 +4,17 @@
 CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(ConditionalSpriteSwitcher)
-namespace UnityEngine {
-class Material;
-}
 namespace GlobalNamespace {
 class BoolSO;
 }
 namespace UnityEngine {
-class SpriteRenderer;
+class Sprite;
 }
 namespace UnityEngine {
-class Sprite;
+class Material;
+}
+namespace UnityEngine {
+class SpriteRenderer;
 }
 // Forward declare root types
 namespace GlobalNamespace {

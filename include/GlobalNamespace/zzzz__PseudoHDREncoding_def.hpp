@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(PseudoHDREncoding)
 namespace UnityEngine {
-class Material;
+class RenderTexture;
 }
 namespace UnityEngine {
-class RenderTexture;
+class Material;
 }
 // Forward declare root types
 namespace GlobalNamespace {

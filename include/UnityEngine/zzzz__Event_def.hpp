@@ -10,10 +10,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Event)
 namespace UnityEngine {
-struct EventModifiers;
+struct EventType;
 }
 namespace UnityEngine {
 struct PointerType;
+}
+namespace UnityEngine {
+struct EventModifiers;
 }
 namespace UnityEngine {
 struct KeyCode;
@@ -23,9 +26,6 @@ class Object;
 }
 namespace UnityEngine {
 struct Vector2;
-}
-namespace UnityEngine {
-struct EventType;
 }
 // Forward declare root types
 namespace UnityEngine {

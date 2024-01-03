@@ -8,38 +8,38 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(MultiplayerLevelFinishedController)
-namespace GlobalNamespace {
-class MultiplayerLevelCompletionResults;
-}
 namespace System {
 template <typename T1, typename T2> class Action_2;
 }
 namespace GlobalNamespace {
-class __MultiplayerLevelFinishedController___StartLevelFinished_d__19;
-}
-namespace GlobalNamespace {
 class IGameplayRpcManager;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace GlobalNamespace {
-class IMultiplayerLevelEndActionsPublisher;
 }
 namespace System::Collections {
 class IEnumerator;
 }
 namespace GlobalNamespace {
+class IMultiplayerLevelEndActionsPublisher;
+}
+namespace GlobalNamespace {
 class IMultiplayerSessionManager;
+}
+namespace GlobalNamespace {
+class MultiplayerLevelCompletionResults;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace GlobalNamespace {
+class __MultiplayerLevelFinishedController___StartLevelFinished_d__19;
 }
 namespace System {
 class Object;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
-}
 namespace System {
 class IDisposable;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {

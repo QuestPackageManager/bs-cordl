@@ -7,17 +7,20 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ConcurrentBag_1)
-namespace System {
-class Object;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
 }
 namespace System::Collections {
-class IEnumerator;
+class IEnumerable;
 }
-namespace System {
-class Array;
+namespace System::Collections::Concurrent {
+template <typename T> class __ConcurrentBag_1__WorkStealingQueue;
 }
 namespace System::Collections::Concurrent {
 template <typename T> class __ConcurrentBag_1__Enumerator;
+}
+namespace System {
+class Object;
 }
 namespace System::Collections::Concurrent {
 template <typename T> class IProducerConsumerCollection_1;
@@ -26,22 +29,19 @@ namespace System::Threading {
 template <typename T> class ThreadLocal_1;
 }
 namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
+template <typename T> class IReadOnlyCollection_1;
 }
 namespace System::Collections {
-class IEnumerable;
+class IEnumerator;
 }
 namespace System::Collections {
 class ICollection;
 }
 namespace System::Collections::Generic {
-template <typename T> class IReadOnlyCollection_1;
-}
-namespace System::Collections::Concurrent {
-template <typename T> class __ConcurrentBag_1__WorkStealingQueue;
-}
-namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
+}
+namespace System {
+class Array;
 }
 namespace System {
 class IDisposable;

@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(BinaryAssembly)
 namespace System::Runtime::Serialization::Formatters::Binary {
-class __BinaryParser;
+class __BinaryWriter;
 }
 namespace System::Runtime::Serialization::Formatters::Binary {
-class __BinaryWriter;
+class __BinaryParser;
 }
 // Forward declare root types
 namespace System::Runtime::Serialization::Formatters::Binary {

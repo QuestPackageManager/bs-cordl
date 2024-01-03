@@ -3,11 +3,11 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IMeshModifier)
-namespace UnityEngine {
-class Mesh;
-}
 namespace UnityEngine::UI {
 class VertexHelper;
+}
+namespace UnityEngine {
+class Mesh;
 }
 // Forward declare root types
 namespace UnityEngine::UI {

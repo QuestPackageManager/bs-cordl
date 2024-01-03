@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(JsonLoadSettings)
 namespace Newtonsoft::Json::Linq {
-struct CommentHandling;
+struct LineInfoHandling;
 }
 namespace Newtonsoft::Json::Linq {
-struct LineInfoHandling;
+struct CommentHandling;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Linq {
@@ -22,7 +22,7 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Linq::JsonLoadSettings);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Linq {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11967)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(11966))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(11966)), TypeDefinitionIndex(TypeDefinitionIndex(11967))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11970))
 // CS Name: ::Newtonsoft.Json.Linq::JsonLoadSettings*
 class CORDL_TYPE JsonLoadSettings : public ::System::Object {

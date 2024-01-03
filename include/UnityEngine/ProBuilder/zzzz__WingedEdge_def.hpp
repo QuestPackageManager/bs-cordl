@@ -8,41 +8,41 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(WingedEdge)
-namespace UnityEngine::ProBuilder {
-struct Edge;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
 }
 namespace System {
 class Object;
 }
-namespace System::Collections::Generic {
-template <typename T> class HashSet_1;
-}
 namespace UnityEngine::ProBuilder {
-class ProBuilderMesh;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
-namespace UnityEngine::ProBuilder {
-class __WingedEdge____c;
-}
-namespace UnityEngine::ProBuilder {
-class Face;
+struct Edge;
 }
 namespace System {
 template <typename T> class IEquatable_1;
 }
 namespace UnityEngine::ProBuilder {
-struct EdgeLookup;
+class __WingedEdge____c;
 }
 namespace UnityEngine::ProBuilder {
 class __WingedEdge____c__DisplayClass32_0;
+}
+namespace UnityEngine::ProBuilder {
+struct EdgeLookup;
+}
+namespace UnityEngine::ProBuilder {
+class Face;
+}
+namespace System::Collections::Generic {
+template <typename T> class HashSet_1;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace UnityEngine::ProBuilder {
+class ProBuilderMesh;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;
@@ -179,7 +179,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::__Winge
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12119))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12119)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12222))
 // CS Name: ::UnityEngine.ProBuilder::WingedEdge*
 class CORDL_TYPE WingedEdge : public ::System::Object {

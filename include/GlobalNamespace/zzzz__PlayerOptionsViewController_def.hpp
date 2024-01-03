@@ -4,9 +4,6 @@
 CORDL_MODULE_INIT
 #include "HMUI/zzzz__ViewController_def.hpp"
 CORDL_MODULE_EXPORT(PlayerOptionsViewController)
-namespace HMUI {
-class ViewController;
-}
 namespace GlobalNamespace {
 class PlayerSettingsPanelController;
 }
@@ -18,6 +15,9 @@ class PlayerDataModel;
 }
 namespace System {
 template <typename T> class Action_1;
+}
+namespace HMUI {
+class ViewController;
 }
 // Forward declare root types
 namespace GlobalNamespace {

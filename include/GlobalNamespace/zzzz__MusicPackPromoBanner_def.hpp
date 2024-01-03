@@ -5,23 +5,23 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(MusicPackPromoBanner)
+namespace UnityEngine {
+class GameObject;
+}
 namespace GlobalNamespace {
 class IPreviewBeatmapLevel;
 }
-namespace UnityEngine {
-class GameObject;
+namespace GlobalNamespace {
+class __DlcPromoPanelDataSO__MusicPackPromoInfo;
+}
+namespace GlobalNamespace {
+class IBeatmapLevelPack;
 }
 namespace UnityEngine {
 class RectTransform;
 }
 namespace TMPro {
 class TextMeshProUGUI;
-}
-namespace GlobalNamespace {
-class IBeatmapLevelPack;
-}
-namespace GlobalNamespace {
-class __DlcPromoPanelDataSO__MusicPackPromoInfo;
 }
 namespace UnityEngine::UI {
 class Image;

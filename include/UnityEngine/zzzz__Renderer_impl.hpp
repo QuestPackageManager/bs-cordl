@@ -1,14 +1,14 @@
 #pragma once
 #include "UnityEngine/zzzz__Component_impl.hpp"
 #include "UnityEngine/zzzz__Renderer_def.hpp"
-#include "UnityEngine/Rendering/zzzz__ShadowCastingMode_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "UnityEngine/Rendering/zzzz__LightProbeUsage_def.hpp"
-#include "UnityEngine/zzzz__Material_def.hpp"
+#include "UnityEngine/zzzz__MotionVectorGenerationMode_def.hpp"
 #include "UnityEngine/zzzz__MaterialPropertyBlock_def.hpp"
+#include "UnityEngine/Rendering/zzzz__ShadowCastingMode_def.hpp"
 #include "UnityEngine/zzzz__Bounds_def.hpp"
 #include "UnityEngine/Rendering/zzzz__ReflectionProbeUsage_def.hpp"
-#include "UnityEngine/zzzz__MotionVectorGenerationMode_def.hpp"
+#include "UnityEngine/Rendering/zzzz__LightProbeUsage_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "UnityEngine/zzzz__Material_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Renderer.get_bounds
 template <>
 

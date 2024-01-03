@@ -4,8 +4,8 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(AttributeTable)
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Set;
+namespace Org::BouncyCastle::Asn1::X509 {
+class AttributeX509;
 }
 namespace System::Collections {
 class IDictionary;
@@ -16,11 +16,11 @@ class Hashtable;
 namespace Org::BouncyCastle::Asn1 {
 class DerObjectIdentifier;
 }
-namespace Org::BouncyCastle::Asn1::X509 {
-class AttributeX509;
-}
 namespace Org::BouncyCastle::Asn1 {
 class Asn1EncodableVector;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Set;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::X509 {

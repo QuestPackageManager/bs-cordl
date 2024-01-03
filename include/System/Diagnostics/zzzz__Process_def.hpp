@@ -11,35 +11,8 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(Process)
-namespace System::Diagnostics {
-class ProcessThreadTimes;
-}
-namespace System {
-class Object;
-}
-namespace System::Threading {
-class WaitHandle;
-}
-namespace System::Diagnostics {
-class AsyncStreamReader;
-}
-namespace System::Diagnostics {
-class ProcessModuleCollection;
-}
-namespace Microsoft::Win32::SafeHandles {
-class SafeProcessHandle;
-}
-namespace System::Diagnostics {
-struct __Process__State;
-}
-namespace System::Diagnostics {
-class ProcessThreadCollection;
-}
 namespace System::Threading {
 class RegisteredWaitHandle;
-}
-namespace System::ComponentModel {
-class ISynchronizeInvoke;
 }
 namespace System::IO {
 class StreamWriter;
@@ -47,23 +20,50 @@ class StreamWriter;
 namespace System::Diagnostics {
 class ProcessInfo;
 }
+namespace System {
+struct TimeSpan;
+}
 namespace System::Diagnostics {
 class ProcessStartInfo;
 }
-namespace System::Diagnostics {
-struct __Process__StreamReadMode;
+namespace Microsoft::Win32::SafeHandles {
+class SafeProcessHandle;
 }
 namespace System {
 class EventHandler;
 }
 namespace System::Diagnostics {
+class ProcessThreadTimes;
+}
+namespace System::Diagnostics {
 struct __Process__ProcInfo;
+}
+namespace System::Diagnostics {
+class AsyncStreamReader;
+}
+namespace System {
+class Object;
+}
+namespace System::Diagnostics {
+class ProcessThreadCollection;
+}
+namespace System::Diagnostics {
+struct __Process__StreamReadMode;
+}
+namespace System::Diagnostics {
+struct __Process__State;
+}
+namespace System::ComponentModel {
+class ISynchronizeInvoke;
+}
+namespace System::Diagnostics {
+class ProcessModuleCollection;
 }
 namespace System::IO {
 class StreamReader;
 }
-namespace System {
-struct TimeSpan;
+namespace System::Threading {
+class WaitHandle;
 }
 // Forward declare root types
 namespace System::Diagnostics {
@@ -280,7 +280,7 @@ static_assert(offsetof(::System::Diagnostics::__Process__ProcInfo, LoadUserProfi
 // SizeInfo { instance_size: 240, native_size: -1, calculated_instance_size: 240, calculated_native_size: 240, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Diagnostics {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8948)), TypeDefinitionIndex(TypeDefinitionIndex(9469))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9469)), TypeDefinitionIndex(TypeDefinitionIndex(8948))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8951))
 // CS Name: ::System.Diagnostics::Process*
 class CORDL_TYPE Process : public ::System::ComponentModel::Component {

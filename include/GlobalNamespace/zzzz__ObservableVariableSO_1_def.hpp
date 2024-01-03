@@ -7,11 +7,11 @@ CORDL_MODULE_EXPORT(ObservableVariableSO_1)
 namespace GlobalNamespace {
 class IObservableChange;
 }
-namespace GlobalNamespace {
-template <typename T> class IValue_1;
-}
 namespace System {
 class Action;
+}
+namespace GlobalNamespace {
+template <typename T> class IValue_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {

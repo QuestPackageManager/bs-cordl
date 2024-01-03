@@ -1,11 +1,11 @@
 #pragma once
 #include "UnityEngine/zzzz__ScriptableObject_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerMockSettings_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "GlobalNamespace/zzzz__QuickPlaySetupData_def.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerStatusData_def.hpp"
 #include "GlobalNamespace/zzzz__MockPlayerSettings_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "GlobalNamespace/zzzz__MockServerSettings_def.hpp"
+#include "GlobalNamespace/zzzz__QuickPlaySetupData_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::MultiplayerMockSettings.get_quickplayServer
 template <>
 

@@ -10,79 +10,79 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Array)
 namespace System {
+class __Array__ArrayEnumerator;
+}
+namespace System {
+class __Array__RawData;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
+}
+namespace System {
 class ICloneable;
 }
 namespace System {
-template <typename T> class Predicate_1;
+template <typename TInput, typename TOutput> class Converter_2;
 }
 namespace System {
-class Type;
+template <typename T> class __Array__EmptyInternalEnumerator_1;
 }
-namespace System {
-template <typename T> struct __Array__InternalEnumerator_1;
-}
-namespace System::Collections::ObjectModel {
-template <typename T> class ReadOnlyCollection_1;
-}
-namespace System {
-class ArrayTypeMismatchException;
+namespace System::Collections {
+class IEqualityComparer;
 }
 namespace System {
 template <typename T> class Action_1;
 }
 namespace System::Collections {
+class IStructuralComparable;
+}
+namespace System::Collections::ObjectModel {
+template <typename T> class ReadOnlyCollection_1;
+}
+namespace System::Collections {
 class IStructuralEquatable;
 }
 namespace System {
-class __Array__RawData;
+class ArrayTypeMismatchException;
 }
 namespace System::Collections {
-class IList;
+class IEnumerable;
+}
+namespace System {
+class Type;
+}
+namespace System {
+struct __Array__SorterObjectArray;
+}
+namespace System {
+class Object;
+}
+namespace System::Collections {
+class IComparer;
 }
 namespace System::Collections {
 class ICollection;
 }
 namespace System::Collections {
-class IStructuralComparable;
-}
-namespace System {
-class __Array__ArrayEnumerator;
-}
-namespace System {
-template <typename T> class __Array__EmptyInternalEnumerator_1;
-}
-namespace System {
-struct __Array__SorterGenericArray;
-}
-namespace System::Collections {
-class IComparer;
-}
-namespace System {
-template <typename TInput, typename TOutput> class Converter_2;
+class IList;
 }
 namespace System::Collections::Generic {
 template <typename T> class IComparer_1;
 }
 namespace System {
-template <typename T> class Comparison_1;
+template <typename T> class Predicate_1;
 }
 namespace System {
-class Object;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
-}
-namespace System::Collections {
-class IEnumerable;
-}
-namespace System::Collections {
-class IEqualityComparer;
+template <typename T> class Comparison_1;
 }
 namespace System::Collections {
 class IEnumerator;
 }
 namespace System {
-struct __Array__SorterObjectArray;
+template <typename T> struct __Array__InternalEnumerator_1;
+}
+namespace System {
+struct __Array__SorterGenericArray;
 }
 namespace System {
 class IDisposable;

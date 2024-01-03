@@ -7,11 +7,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(NavMeshPath)
-namespace UnityEngine::AI {
-struct NavMeshPathStatus;
-}
 namespace UnityEngine {
 struct Vector3;
+}
+namespace UnityEngine::AI {
+struct NavMeshPathStatus;
 }
 // Forward declare root types
 namespace UnityEngine::AI {

@@ -7,14 +7,14 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Attribute_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(DllImportAttribute)
+namespace System::Runtime::InteropServices {
+struct CallingConvention;
+}
 namespace System {
 class Attribute;
 }
 namespace System::Reflection {
 class RuntimeMethodInfo;
-}
-namespace System::Runtime::InteropServices {
-struct CallingConvention;
 }
 namespace System::Runtime::InteropServices {
 struct CharSet;
@@ -29,7 +29,7 @@ MARK_REF_PTR_T(::System::Runtime::InteropServices::DllImportAttribute);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 46, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::InteropServices {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547)), TypeDefinitionIndex(TypeDefinitionIndex(3301)), TypeDefinitionIndex(TypeDefinitionIndex(3333))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3333)), TypeDefinitionIndex(TypeDefinitionIndex(3301)), TypeDefinitionIndex(TypeDefinitionIndex(2547))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3330))
 // CS Name: ::System.Runtime.InteropServices::DllImportAttribute*
 class CORDL_TYPE DllImportAttribute : public ::System::Attribute {

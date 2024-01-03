@@ -1,9 +1,9 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__PosesPlayback_def.hpp"
+#include "GlobalNamespace/zzzz__PosesRecordingData_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
 #include "GlobalNamespace/zzzz__AudioTimeSyncController_def.hpp"
-#include "GlobalNamespace/zzzz__PosesRecordingData_def.hpp"
 #include "GlobalNamespace/zzzz__PoseObject_def.hpp"
 #include "GlobalNamespace/zzzz__IBeatSaberLogger_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::PosesPlayback.Update

@@ -14,29 +14,29 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(JsonPropertyAttribute)
-namespace System {
-class Object;
-}
 namespace Newtonsoft::Json {
 struct TypeNameHandling;
 }
 namespace Newtonsoft::Json {
-struct NullValueHandling;
+struct Required;
 }
 namespace System {
 class Type;
 }
 namespace Newtonsoft::Json {
-struct DefaultValueHandling;
-}
-namespace Newtonsoft::Json {
 struct ReferenceLoopHandling;
+}
+namespace System {
+class Object;
 }
 namespace Newtonsoft::Json {
 struct ObjectCreationHandling;
 }
 namespace Newtonsoft::Json {
-struct Required;
+struct DefaultValueHandling;
+}
+namespace Newtonsoft::Json {
+struct NullValueHandling;
 }
 // Forward declare root types
 namespace Newtonsoft::Json {
@@ -48,13 +48,13 @@ MARK_REF_PTR_T(::Newtonsoft::Json::JsonPropertyAttribute);
 // SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 120, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 4762 }), TypeDefinitionIndex(TypeDefinitionIndex(2448)), GenericInstantiation(GenericInstantiation {
-// tdi: TypeDefinitionIndex(2448), inst: 4754 }), TypeDefinitionIndex(TypeDefinitionIndex(11840)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 105 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(11822)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 4735 }), TypeDefinitionIndex(TypeDefinitionIndex(2547)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 98 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 4756 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(11838)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 4752 }), TypeDefinitionIndex(TypeDefinitionIndex(11811)),
-// TypeDefinitionIndex(TypeDefinitionIndex(11839)), TypeDefinitionIndex(TypeDefinitionIndex(11816)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 4750 })} Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(11825)) CS Name: ::Newtonsoft.Json::JsonPropertyAttribute*
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 105 }), TypeDefinitionIndex(TypeDefinitionIndex(11838)),
+// TypeDefinitionIndex(TypeDefinitionIndex(11811)), TypeDefinitionIndex(TypeDefinitionIndex(11839)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 4754 }),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 98 }), TypeDefinitionIndex(TypeDefinitionIndex(11816)), TypeDefinitionIndex(TypeDefinitionIndex(2547)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 4750 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 4752 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(11822)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 4756 }), TypeDefinitionIndex(TypeDefinitionIndex(2448)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 4762 }), TypeDefinitionIndex(TypeDefinitionIndex(11840)), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(2448), inst: 4735 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(11825)) CS Name: ::Newtonsoft.Json::JsonPropertyAttribute*
 class CORDL_TYPE JsonPropertyAttribute : public ::System::Attribute {
 public:
   // Declarations

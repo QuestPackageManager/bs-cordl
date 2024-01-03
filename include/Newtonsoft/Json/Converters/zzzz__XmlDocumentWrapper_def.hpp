@@ -6,16 +6,16 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(XmlDocumentWrapper)
 namespace Newtonsoft::Json::Converters {
-class IXmlNode;
-}
-namespace System::Xml {
-class XmlDocument;
+class IXmlElement;
 }
 namespace Newtonsoft::Json::Converters {
 class IXmlDocument;
 }
 namespace Newtonsoft::Json::Converters {
-class IXmlElement;
+class IXmlNode;
+}
+namespace System::Xml {
+class XmlDocument;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Converters {

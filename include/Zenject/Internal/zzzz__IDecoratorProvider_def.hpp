@@ -3,6 +3,9 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IDecoratorProvider)
+namespace Zenject {
+class IProvider;
+}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
@@ -11,9 +14,6 @@ class InjectContext;
 }
 namespace System {
 class Object;
-}
-namespace Zenject {
-class IProvider;
 }
 // Forward declare root types
 namespace Zenject::Internal {

@@ -3,11 +3,11 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IHapticFeedbackPlayer)
-namespace Libraries::HM::HMLib::VR {
-class HapticPresetSO;
-}
 namespace UnityEngine::XR {
 struct XRNode;
+}
+namespace Libraries::HM::HMLib::VR {
+class HapticPresetSO;
 }
 // Forward declare root types
 namespace GlobalNamespace {

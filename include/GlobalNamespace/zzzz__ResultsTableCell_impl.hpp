@@ -1,9 +1,9 @@
 #pragma once
 #include "GlobalNamespace/zzzz__TableCellWithSeparator_impl.hpp"
 #include "GlobalNamespace/zzzz__ResultsTableCell_def.hpp"
-#include "GlobalNamespace/zzzz__LevelCompletionResults_def.hpp"
-#include "GlobalNamespace/zzzz__IConnectedPlayer_def.hpp"
 #include "TMPro/zzzz__TextMeshProUGUI_def.hpp"
+#include "GlobalNamespace/zzzz__IConnectedPlayer_def.hpp"
+#include "GlobalNamespace/zzzz__LevelCompletionResults_def.hpp"
 #include "UnityEngine/zzzz__GameObject_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::ResultsTableCell.SetData
 template <>

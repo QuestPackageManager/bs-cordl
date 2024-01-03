@@ -6,9 +6,6 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(BaseNumberConverter)
-namespace System::Globalization {
-class NumberFormatInfo;
-}
 namespace System {
 class Object;
 }
@@ -17,6 +14,9 @@ class ITypeDescriptorContext;
 }
 namespace System {
 class Type;
+}
+namespace System::Globalization {
+class NumberFormatInfo;
 }
 namespace System::Globalization {
 class CultureInfo;

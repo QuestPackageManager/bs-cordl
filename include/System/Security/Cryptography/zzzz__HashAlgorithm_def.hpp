@@ -7,11 +7,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(HashAlgorithm)
-namespace System::Security::Cryptography {
-class ICryptoTransform;
-}
 namespace System {
 class IDisposable;
+}
+namespace System::Security::Cryptography {
+class ICryptoTransform;
 }
 // Forward declare root types
 namespace System::Security::Cryptography {

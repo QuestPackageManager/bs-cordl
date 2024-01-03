@@ -20,10 +20,10 @@ namespace System::Text {
 class StringBuilder;
 }
 namespace OVR::OpenVR {
-class __IVRResources___GetResourceFullPath;
+class __IVRResources___LoadSharedResource;
 }
 namespace OVR::OpenVR {
-class __IVRResources___LoadSharedResource;
+class __IVRResources___GetResourceFullPath;
 }
 // Forward declare root types
 namespace OVR::OpenVR {

@@ -4,8 +4,8 @@
 #include "Mono/Security/X509/zzzz__X509CertificateCollection_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/Collections/zzzz__IEnumerable_def.hpp"
-#include "Mono/Security/X509/zzzz__X509Certificate_def.hpp"
 #include "Mono/Security/X509/zzzz__X509CertificateCollection_def.hpp"
+#include "Mono/Security/X509/zzzz__X509Certificate_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::Mono::Security::X509::__X509CertificateCollection__X509CertificateEnumerator._ctor
 template <>

@@ -9,77 +9,77 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(Dictionary_2)
-namespace System::Runtime::Serialization {
-class ISerializable;
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> struct KeyValuePair_2;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class IReadOnlyDictionary_2;
 }
 namespace System::Collections {
 class IDictionary;
 }
 namespace System::Collections::Generic {
-template <typename T> class IReadOnlyCollection_1;
-}
-namespace System::Collections {
-class ICollection;
-}
-namespace System {
-class Object;
-}
-namespace System::Collections::Generic {
-template <typename T> class ICollection_1;
+template <typename TKey, typename TValue> struct __Dictionary_2__Enumerator;
 }
 namespace System::Runtime::Serialization {
-class SerializationInfo;
+class ISerializable;
 }
 namespace System::Collections::Generic {
 struct InsertionBehavior;
 }
-namespace System::Collections {
-class IEnumerator;
-}
-namespace System::Runtime::Serialization {
-class IDeserializationCallback;
+namespace System::Collections::Generic {
+template <typename T> class IEqualityComparer_1;
 }
 namespace System {
 class Array;
-}
-namespace System::Collections {
-class IDictionaryEnumerator;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
 }
 namespace System::Runtime::Serialization {
 struct StreamingContext;
 }
 namespace System::Collections {
-class IEnumerable;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> struct __Dictionary_2__Entry;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEqualityComparer_1;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> struct KeyValuePair_2;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class IDictionary_2;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class IReadOnlyDictionary_2;
+class IEnumerator;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class __Dictionary_2__ValueCollection;
+}
+namespace System::Runtime::Serialization {
+class IDeserializationCallback;
+}
+namespace System::Collections {
+class IDictionaryEnumerator;
+}
+namespace System::Collections::Generic {
+template <typename T> class ICollection_1;
+}
+namespace System::Collections {
+class ICollection;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
+namespace System {
+class Object;
+}
+namespace System::Runtime::Serialization {
+class SerializationInfo;
+}
+namespace System::Collections {
+class IEnumerable;
+}
+namespace System::Collections::Generic {
+template <typename T> class IReadOnlyCollection_1;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class __Dictionary_2__KeyCollection;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
 namespace System::Collections::Generic {
-template <typename TKey, typename TValue> struct __Dictionary_2__Enumerator;
+template <typename TKey, typename TValue> struct __Dictionary_2__Entry;
 }
 namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class __Dictionary_2__KeyCollection;
+template <typename TKey, typename TValue> class IDictionary_2;
 }
 namespace GlobalNamespace {
 template <typename TKey, typename TValue> struct __Dictionary_2__KeyCollection__Enumerator;
@@ -168,7 +168,7 @@ namespace System::Collections::Generic {
 // cpp template
 template <typename TKey, typename TValue>
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3841), inst: 1206 }), TypeDefinitionIndex(TypeDefinitionIndex(3841))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3841)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3841), inst: 1206 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3819))
 // CS Name: ::Dictionary`2::Enumerator<TKey,TValue>
 struct CORDL_TYPE __Dictionary_2__Enumerator {

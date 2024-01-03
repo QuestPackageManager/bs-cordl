@@ -12,13 +12,82 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(JObject)
 namespace System::ComponentModel {
-class TypeConverter;
+class ICustomTypeDescriptor;
 }
-namespace System {
-class Attribute;
+namespace Newtonsoft::Json::Linq {
+class JPropertyKeyedCollection;
+}
+namespace Newtonsoft::Json::Linq {
+class __JObject____c;
+}
+namespace Newtonsoft::Json {
+class JsonSerializer;
+}
+namespace Newtonsoft::Json {
+class JsonWriter;
+}
+namespace System::ComponentModel {
+class TypeConverter;
 }
 namespace Newtonsoft::Json::Linq {
 class JProperty;
+}
+namespace System::ComponentModel {
+class PropertyChangingEventHandler;
+}
+namespace System::ComponentModel {
+class AttributeCollection;
+}
+namespace System {
+struct StringComparison;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> struct KeyValuePair_2;
+}
+namespace System::Collections::Generic {
+template <typename T> class ICollection_1;
+}
+namespace System::ComponentModel {
+class INotifyPropertyChanged;
+}
+namespace System::ComponentModel {
+class EventDescriptor;
+}
+namespace Newtonsoft::Json::Linq {
+class JsonLoadSettings;
+}
+namespace System {
+class Type;
+}
+namespace System {
+class Object;
+}
+namespace System::ComponentModel {
+class PropertyDescriptor;
+}
+namespace System::ComponentModel {
+class PropertyChangedEventHandler;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
+namespace System::Collections {
+class IEnumerable;
+}
+namespace System::ComponentModel {
+class EventDescriptorCollection;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class IDictionary_2;
+}
+namespace Newtonsoft::Json::Linq {
+class JsonMergeSettings;
+}
+namespace Newtonsoft::Json::Linq {
+class __JObject___GetEnumerator_d__58;
+}
+namespace System {
+class Attribute;
 }
 namespace Newtonsoft::Json {
 class JsonConverter;
@@ -27,100 +96,31 @@ namespace Newtonsoft::Json::Linq {
 class JToken;
 }
 namespace System::ComponentModel {
-class AttributeCollection;
-}
-namespace Newtonsoft::Json::Linq {
-class __JObject____c;
-}
-namespace Newtonsoft::Json {
-class JsonWriter;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class IDictionary_2;
-}
-namespace Newtonsoft::Json::Linq {
-class __JObject___GetEnumerator_d__58;
-}
-namespace System::ComponentModel {
-class PropertyDescriptor;
+class PropertyDescriptorCollection;
 }
 namespace System::ComponentModel {
 class INotifyPropertyChanging;
 }
-namespace System::ComponentModel {
-class EventDescriptorCollection;
-}
 namespace Newtonsoft::Json::Linq {
-class JPropertyKeyedCollection;
+template <typename T> struct JEnumerable_1;
+}
+namespace Newtonsoft::Json {
+class JsonReader;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
-namespace Newtonsoft::Json::Linq {
-class JsonMergeSettings;
-}
-namespace System::ComponentModel {
-class INotifyPropertyChanged;
-}
 namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
-namespace Newtonsoft::Json {
-class JsonSerializer;
-}
-namespace System::ComponentModel {
-class PropertyChangedEventHandler;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> struct KeyValuePair_2;
+template <typename T> class IList_1;
 }
 namespace Newtonsoft::Json::Linq {
 struct JTokenType;
 }
 namespace System::Collections {
-class IEnumerable;
-}
-namespace System {
-struct StringComparison;
-}
-namespace Newtonsoft::Json::Linq {
-template <typename T> struct JEnumerable_1;
-}
-namespace System::ComponentModel {
-class EventDescriptor;
-}
-namespace System::ComponentModel {
-class ICustomTypeDescriptor;
-}
-namespace System {
-class Type;
-}
-namespace System::ComponentModel {
-class PropertyChangingEventHandler;
-}
-namespace System::Collections::Generic {
-template <typename T> class IList_1;
-}
-namespace System {
-class Object;
-}
-namespace System::Collections::Generic {
-template <typename T> class ICollection_1;
-}
-namespace Newtonsoft::Json::Linq {
-class JsonLoadSettings;
-}
-namespace System::ComponentModel {
-class PropertyDescriptorCollection;
-}
-namespace Newtonsoft::Json {
-class JsonReader;
+class IEnumerator;
 }
 namespace System {
 class IDisposable;
-}
-namespace System::Collections {
-class IEnumerator;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;
@@ -195,8 +195,8 @@ static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::Linq::__JObjec
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Linq {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3841)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3841), inst: 1430
-// }), TypeDefinitionIndex(TypeDefinitionIndex(12002))} Self: TypeDefinitionIndex(TypeDefinitionIndex(11991)) CS Name: ::JObject::<GetEnumerator>d__58*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12002)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3841)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3841), inst: 1430 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(11991)) CS Name: ::JObject::<GetEnumerator>d__58*
 class CORDL_TYPE __JObject___GetEnumerator_d__58 : public ::System::Object {
 public:
   // Declarations

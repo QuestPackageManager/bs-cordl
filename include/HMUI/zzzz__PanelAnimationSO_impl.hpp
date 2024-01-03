@@ -1,10 +1,10 @@
 #pragma once
 #include "UnityEngine/zzzz__ScriptableObject_impl.hpp"
 #include "HMUI/zzzz__PanelAnimationSO_def.hpp"
-#include "UnityEngine/zzzz__CanvasGroup_def.hpp"
-#include "UnityEngine/zzzz__GameObject_def.hpp"
 #include "System/zzzz__Action_def.hpp"
 #include "UnityEngine/zzzz__AnimationCurve_def.hpp"
+#include "UnityEngine/zzzz__CanvasGroup_def.hpp"
+#include "UnityEngine/zzzz__GameObject_def.hpp"
 //  Writing Method size for method: ::HMUI::PanelAnimationSO.ExecuteAnimation
 template <>
 

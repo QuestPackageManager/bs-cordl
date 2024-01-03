@@ -7,11 +7,11 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(TrackLaneRingsRotationEffect)
-namespace GlobalNamespace {
-class TrackLaneRingsManager;
-}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
+}
+namespace GlobalNamespace {
+class TrackLaneRingsManager;
 }
 namespace GlobalNamespace {
 class __TrackLaneRingsRotationEffect__RingRotationEffect;

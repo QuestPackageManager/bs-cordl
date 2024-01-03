@@ -8,40 +8,40 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVRSceneRoom)
 namespace System {
-struct Guid;
+template <typename T> class Action_1;
+}
+namespace GlobalNamespace {
+class OVRScenePlane;
+}
+namespace System {
+template <typename T1, typename T2> class Action_2;
 }
 namespace System::Collections::Generic {
-template <typename T> class HashSet_1;
+template <typename T> class List_1;
+}
+namespace System {
+template <typename T> class Comparison_1;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace GlobalNamespace {
-class OVRSceneAnchor;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+class IOVRSceneComponent;
 }
 namespace GlobalNamespace {
 class OVRSceneManager;
 }
+namespace System::Collections::Generic {
+template <typename T> class HashSet_1;
+}
 namespace GlobalNamespace {
-class IOVRSceneComponent;
+class OVRSceneAnchor;
 }
 namespace GlobalNamespace {
 struct OVRAnchor;
 }
 namespace System {
-template <typename T> class Comparison_1;
-}
-namespace System {
-template <typename T> class Action_1;
-}
-namespace System {
-template <typename T1, typename T2> class Action_2;
-}
-namespace GlobalNamespace {
-class OVRScenePlane;
+struct Guid;
 }
 // Forward declare root types
 namespace GlobalNamespace {

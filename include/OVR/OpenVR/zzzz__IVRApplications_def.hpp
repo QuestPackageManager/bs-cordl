@@ -10,16 +10,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(IVRApplications)
 namespace System {
-class AsyncCallback;
-}
-namespace OVR::OpenVR {
-struct EVRApplicationError;
-}
-namespace System {
 class IAsyncResult;
 }
 namespace System {
+class AsyncCallback;
+}
+namespace System {
 class Object;
+}
+namespace OVR::OpenVR {
+struct EVRApplicationError;
 }
 namespace System::Text {
 class StringBuilder;
@@ -34,97 +34,97 @@ namespace OVR::OpenVR {
 struct AppOverrideKeys_t;
 }
 namespace OVR::OpenVR {
+class __IVRApplications___CancelApplicationLaunch;
+}
+namespace OVR::OpenVR {
+class __IVRApplications___LaunchApplication;
+}
+namespace OVR::OpenVR {
+class __IVRApplications___GetApplicationKeyByIndex;
+}
+namespace OVR::OpenVR {
+class __IVRApplications___IdentifyApplication;
+}
+namespace OVR::OpenVR {
+class __IVRApplications___GetApplicationsErrorNameFromEnum;
+}
+namespace OVR::OpenVR {
+class __IVRApplications___GetCurrentSceneProcessId;
+}
+namespace OVR::OpenVR {
+class __IVRApplications___GetApplicationKeyByProcessId;
+}
+namespace OVR::OpenVR {
+class __IVRApplications___GetApplicationSupportedMimeTypes;
+}
+namespace OVR::OpenVR {
+class __IVRApplications___GetApplicationCount;
+}
+namespace OVR::OpenVR {
+class __IVRApplications___GetApplicationPropertyUint64;
+}
+namespace OVR::OpenVR {
+class __IVRApplications___GetApplicationAutoLaunch;
+}
+namespace OVR::OpenVR {
+class __IVRApplications___GetApplicationsTransitionStateNameFromEnum;
+}
+namespace OVR::OpenVR {
+class __IVRApplications___LaunchInternalProcess;
+}
+namespace OVR::OpenVR {
+class __IVRApplications___LaunchTemplateApplication;
+}
+namespace OVR::OpenVR {
+class __IVRApplications___SetDefaultApplicationForMimeType;
+}
+namespace OVR::OpenVR {
+class __IVRApplications___GetDefaultApplicationForMimeType;
+}
+namespace OVR::OpenVR {
+class __IVRApplications___GetStartingApplication;
+}
+namespace OVR::OpenVR {
+class __IVRApplications___GetApplicationPropertyString;
+}
+namespace OVR::OpenVR {
+class __IVRApplications___GetTransitionState;
+}
+namespace OVR::OpenVR {
 class __IVRApplications___RemoveApplicationManifest;
 }
 namespace OVR::OpenVR {
 class __IVRApplications___GetApplicationProcessId;
 }
 namespace OVR::OpenVR {
-class __IVRApplications___GetApplicationCount;
-}
-namespace OVR::OpenVR {
-class __IVRApplications___IsApplicationInstalled;
-}
-namespace OVR::OpenVR {
-class __IVRApplications___CancelApplicationLaunch;
-}
-namespace OVR::OpenVR {
-class __IVRApplications___GetStartingApplication;
-}
-namespace OVR::OpenVR {
-class __IVRApplications___GetApplicationPropertyUint64;
-}
-namespace OVR::OpenVR {
-class __IVRApplications___GetTransitionState;
-}
-namespace OVR::OpenVR {
-class __IVRApplications___SetDefaultApplicationForMimeType;
-}
-namespace OVR::OpenVR {
-class __IVRApplications___LaunchInternalProcess;
-}
-namespace OVR::OpenVR {
-class __IVRApplications___LaunchApplication;
-}
-namespace OVR::OpenVR {
-class __IVRApplications___GetApplicationLaunchArguments;
-}
-namespace OVR::OpenVR {
-class __IVRApplications___SetApplicationAutoLaunch;
-}
-namespace OVR::OpenVR {
-class __IVRApplications___LaunchApplicationFromMimeType;
-}
-namespace OVR::OpenVR {
-class __IVRApplications___GetApplicationPropertyBool;
-}
-namespace OVR::OpenVR {
-class __IVRApplications___GetApplicationSupportedMimeTypes;
-}
-namespace OVR::OpenVR {
-class __IVRApplications___LaunchDashboardOverlay;
-}
-namespace OVR::OpenVR {
-class __IVRApplications___IsQuitUserPromptRequested;
-}
-namespace OVR::OpenVR {
-class __IVRApplications___AddApplicationManifest;
-}
-namespace OVR::OpenVR {
-class __IVRApplications___GetApplicationKeyByIndex;
+class __IVRApplications___PerformApplicationPrelaunchCheck;
 }
 namespace OVR::OpenVR {
 class __IVRApplications___GetApplicationsThatSupportMimeType;
 }
 namespace OVR::OpenVR {
-class __IVRApplications___PerformApplicationPrelaunchCheck;
+class __IVRApplications___AddApplicationManifest;
 }
 namespace OVR::OpenVR {
-class __IVRApplications___GetApplicationsErrorNameFromEnum;
+class __IVRApplications___GetApplicationLaunchArguments;
 }
 namespace OVR::OpenVR {
-class __IVRApplications___GetApplicationPropertyString;
+class __IVRApplications___IsApplicationInstalled;
 }
 namespace OVR::OpenVR {
-class __IVRApplications___GetApplicationAutoLaunch;
+class __IVRApplications___LaunchApplicationFromMimeType;
 }
 namespace OVR::OpenVR {
-class __IVRApplications___GetApplicationKeyByProcessId;
+class __IVRApplications___LaunchDashboardOverlay;
 }
 namespace OVR::OpenVR {
-class __IVRApplications___GetApplicationsTransitionStateNameFromEnum;
+class __IVRApplications___GetApplicationPropertyBool;
 }
 namespace OVR::OpenVR {
-class __IVRApplications___GetCurrentSceneProcessId;
+class __IVRApplications___SetApplicationAutoLaunch;
 }
 namespace OVR::OpenVR {
-class __IVRApplications___LaunchTemplateApplication;
-}
-namespace OVR::OpenVR {
-class __IVRApplications___GetDefaultApplicationForMimeType;
-}
-namespace OVR::OpenVR {
-class __IVRApplications___IdentifyApplication;
+class __IVRApplications___IsQuitUserPromptRequested;
 }
 // Forward declare root types
 namespace OVR::OpenVR {

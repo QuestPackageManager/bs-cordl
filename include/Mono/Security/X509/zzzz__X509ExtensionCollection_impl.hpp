@@ -1,9 +1,9 @@
 #pragma once
 #include "System/Collections/zzzz__CollectionBase_impl.hpp"
 #include "Mono/Security/X509/zzzz__X509ExtensionCollection_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "Mono/Security/X509/zzzz__X509Extension_def.hpp"
 #include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "Mono/Security/X509/zzzz__X509Extension_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "Mono/Security/zzzz__ASN1_def.hpp"
 //  Writing Method size for method: ::Mono::Security::X509::X509ExtensionCollection._ctor
 template <>

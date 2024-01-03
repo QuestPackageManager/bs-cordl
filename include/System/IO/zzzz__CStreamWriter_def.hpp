@@ -7,14 +7,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(CStreamWriter)
-namespace System {
-class TermInfoDriver;
+namespace System::Text {
+class Encoding;
 }
 namespace System::IO {
 class Stream;
 }
-namespace System::Text {
-class Encoding;
+namespace System {
+class TermInfoDriver;
 }
 // Forward declare root types
 namespace System::IO {

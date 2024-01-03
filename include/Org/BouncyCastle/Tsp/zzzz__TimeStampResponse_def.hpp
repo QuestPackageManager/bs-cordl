@@ -7,23 +7,23 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(TimeStampResponse)
-namespace Org::BouncyCastle::Asn1::Cmp {
-class PkiFailureInfo;
-}
-namespace Org::BouncyCastle::Tsp {
-class TimeStampToken;
+namespace Org::BouncyCastle::Asn1 {
+class Asn1InputStream;
 }
 namespace System::IO {
 class Stream;
 }
-namespace Org::BouncyCastle::Asn1 {
-class Asn1InputStream;
+namespace Org::BouncyCastle::Asn1::Cmp {
+class PkiFailureInfo;
+}
+namespace Org::BouncyCastle::Tsp {
+class TimeStampRequest;
 }
 namespace Org::BouncyCastle::Asn1::Tsp {
 class TimeStampResp;
 }
 namespace Org::BouncyCastle::Tsp {
-class TimeStampRequest;
+class TimeStampToken;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Tsp {

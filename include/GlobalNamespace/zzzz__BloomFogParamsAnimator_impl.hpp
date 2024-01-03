@@ -2,13 +2,13 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__BloomFogParamsAnimator_def.hpp"
-#include "GlobalNamespace/zzzz__BloomFogSO_def.hpp"
-#include "GlobalNamespace/zzzz__BloomFogEnvironmentParams_def.hpp"
 #include "GlobalNamespace/zzzz__BloomFogParamsAnimator_def.hpp"
+#include "GlobalNamespace/zzzz__BloomFogSO_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "GlobalNamespace/zzzz__BloomFogEnvironmentParams_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::__BloomFogParamsAnimator___AnimationCoroutine_d__2._ctor
 template <>
 

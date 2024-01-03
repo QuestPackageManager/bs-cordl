@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Timeline/zzzz__TrackAssetExtensions_def.hpp"
-#include "UnityEngine/Timeline/zzzz__GroupTrack_def.hpp"
 #include "UnityEngine/Timeline/zzzz__TrackAsset_def.hpp"
+#include "UnityEngine/Timeline/zzzz__GroupTrack_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Timeline::TrackAssetExtensions.GetGroup
 template <>
 

@@ -7,22 +7,22 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(SliderInteractionManager)
 namespace GlobalNamespace {
+class SliderController;
+}
+namespace GlobalNamespace {
 class BeatmapObjectManager;
+}
+namespace System {
+class Action;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
-}
-namespace GlobalNamespace {
-struct ColorType;
 }
 namespace System {
 template <typename T> class Action_1;
 }
 namespace GlobalNamespace {
-class SliderController;
-}
-namespace System {
-class Action;
+struct ColorType;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -34,7 +34,7 @@ MARK_REF_PTR_T(::GlobalNamespace::SliderInteractionManager);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14752)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(14752))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4820))
 // CS Name: ::SliderInteractionManager*
 class CORDL_TYPE SliderInteractionManager : public ::UnityEngine::MonoBehaviour {

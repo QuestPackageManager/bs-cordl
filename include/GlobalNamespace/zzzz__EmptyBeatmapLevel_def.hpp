@@ -7,29 +7,8 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(EmptyBeatmapLevel)
-namespace UnityEngine {
-class Sprite;
-}
 namespace GlobalNamespace {
-class IPreviewBeatmapLevel;
-}
-namespace System::Collections::Generic {
-template <typename T> class IReadOnlyList_1;
-}
-namespace UnityEngine {
-class AudioClip;
-}
-namespace GlobalNamespace {
-class IBeatmapLevelData;
-}
-namespace System::Threading {
-struct CancellationToken;
-}
-namespace GlobalNamespace {
-class IBeatmapLevel;
-}
-namespace GlobalNamespace {
-class PreviewDifficultyBeatmapSet;
+class EnvironmentInfoSO;
 }
 namespace System::Threading::Tasks {
 template <typename TResult> class Task_1;
@@ -37,8 +16,29 @@ template <typename TResult> class Task_1;
 namespace GlobalNamespace {
 struct PlayerSensitivityFlag;
 }
+namespace UnityEngine {
+class Sprite;
+}
 namespace GlobalNamespace {
-class EnvironmentInfoSO;
+class PreviewDifficultyBeatmapSet;
+}
+namespace GlobalNamespace {
+class IBeatmapLevel;
+}
+namespace GlobalNamespace {
+class IPreviewBeatmapLevel;
+}
+namespace System::Threading {
+struct CancellationToken;
+}
+namespace System::Collections::Generic {
+template <typename T> class IReadOnlyList_1;
+}
+namespace GlobalNamespace {
+class IBeatmapLevelData;
+}
+namespace UnityEngine {
+class AudioClip;
 }
 // Forward declare root types
 namespace GlobalNamespace {

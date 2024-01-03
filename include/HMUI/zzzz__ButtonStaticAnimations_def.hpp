@@ -4,14 +4,14 @@
 CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(ButtonStaticAnimations)
+namespace HMUI {
+class NoTransitionsButton;
+}
 namespace UnityEngine {
 class AnimationClip;
 }
 namespace HMUI {
 struct __NoTransitionsButton__SelectionState;
-}
-namespace HMUI {
-class NoTransitionsButton;
 }
 // Forward declare root types
 namespace HMUI {

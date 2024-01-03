@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "System/Runtime/InteropServices/zzzz__GCHandle_def.hpp"
-#include "System/Runtime/InteropServices/zzzz__GCHandleType_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "System/Runtime/InteropServices/zzzz__GCHandleType_def.hpp"
 //  Writing Method size for method: ::System::Runtime::InteropServices::GCHandle._ctor
 template <>
 

@@ -8,10 +8,7 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(PoolableManager)
 namespace Zenject {
-class IPoolable;
-}
-namespace Zenject {
-class __PoolableManager____c;
+class __PoolableManager____c__DisplayClass2_0;
 }
 namespace Zenject {
 struct __PoolableManager__PoolableInfo;
@@ -19,8 +16,11 @@ struct __PoolableManager__PoolableInfo;
 namespace Zenject {
 class __PoolableManager____c__DisplayClass3_0;
 }
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
 namespace Zenject {
-class __PoolableManager____c__DisplayClass2_0;
+class __PoolableManager____c;
 }
 namespace System {
 class Type;
@@ -28,20 +28,20 @@ class Type;
 namespace ModestTree::Util {
 template <typename T1, typename T2> class ValuePair_2;
 }
-namespace System {
-class Object;
-}
 namespace Zenject {
 class InjectTypeInfo;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace Zenject {
+class IPoolable;
 }
 namespace System {
-template <typename T> struct Nullable_1;
+class Object;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;
+}
+namespace System {
+template <typename T> struct Nullable_1;
 }
 // Forward declare root types
 namespace Zenject {

@@ -16,70 +16,70 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(InputSystemUIInputModule)
 namespace UnityEngine::InputSystem {
+class InputAction;
+}
+namespace UnityEngine::EventSystems {
+class AxisEventData;
+}
+namespace System {
+template <typename T> class Action_1;
+}
+namespace System {
+class Object;
+}
+namespace UnityEngine::InputSystem {
 class InputActionAsset;
 }
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
+namespace UnityEngine::EventSystems {
+struct RaycastResult;
+}
+namespace UnityEngine::InputSystem::UI {
+struct UIPointerBehavior;
 }
 namespace UnityEngine::InputSystem::UI {
 class ExtendedPointerEventData;
 }
 namespace UnityEngine::InputSystem::UI {
-struct NavigationModel;
-}
-namespace UnityEngine::InputSystem::UI {
-struct UIPointerBehavior;
-}
-namespace UnityEngine {
-class Transform;
-}
-namespace UnityEngine::InputSystem::UI {
-struct UIPointerType;
-}
-namespace UnityEngine::InputSystem::UI {
-struct PointerModel;
-}
-namespace UnityEngine::InputSystem {
-class InputControl;
-}
-namespace UnityEngine::InputSystem::UI {
 struct __InputSystemUIInputModule__InputActionReferenceState;
 }
-namespace UnityEngine::InputSystem::UI {
-struct __InputSystemUIInputModule__CursorLockBehavior;
-}
 namespace UnityEngine::InputSystem {
-class InputAction;
-}
-namespace System {
-template <typename T> class Action_1;
-}
-namespace UnityEngine {
-class GameObject;
-}
-namespace System {
-class Object;
+struct __InputAction__CallbackContext;
 }
 namespace UnityEngine::InputSystem::UI {
 struct __PointerModel__ButtonState;
 }
 namespace UnityEngine::EventSystems {
-struct RaycastResult;
-}
-namespace UnityEngine::InputSystem {
-class InputActionReference;
-}
-namespace UnityEngine::InputSystem {
-struct __InputAction__CallbackContext;
-}
-namespace UnityEngine::EventSystems {
 class PointerEventData;
 }
-namespace UnityEngine::EventSystems {
-class AxisEventData;
+namespace UnityEngine::InputSystem::UI {
+struct PointerModel;
+}
+namespace UnityEngine::InputSystem::UI {
+struct NavigationModel;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace UnityEngine::InputSystem::UI {
+struct __InputSystemUIInputModule__CursorLockBehavior;
+}
+namespace UnityEngine::InputSystem {
+class InputControl;
+}
+namespace UnityEngine::InputSystem::UI {
+struct UIPointerType;
+}
+namespace UnityEngine {
+class GameObject;
 }
 namespace UnityEngine::InputSystem {
 class InputDevice;
+}
+namespace UnityEngine {
+class Transform;
+}
+namespace UnityEngine::InputSystem {
+class InputActionReference;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::UI {
@@ -185,11 +185,11 @@ static_assert(offsetof(::UnityEngine::InputSystem::UI::__InputSystemUIInputModul
 // SizeInfo { instance_size: 912, native_size: -1, calculated_instance_size: 912, calculated_native_size: 912, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::UI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13199)), TypeDefinitionIndex(TypeDefinitionIndex(6669)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6669), inst:
-// 3868 }), TypeDefinitionIndex(TypeDefinitionIndex(6375)), TypeDefinitionIndex(TypeDefinitionIndex(6380)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6669), inst: 3106 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(6215)), TypeDefinitionIndex(TypeDefinitionIndex(6378)), TypeDefinitionIndex(TypeDefinitionIndex(6372)), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(6669), inst: 98 }), TypeDefinitionIndex(TypeDefinitionIndex(6373))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6376)) CS Name:
-// ::UnityEngine.InputSystem.UI::InputSystemUIInputModule*
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6669), inst: 3868 }), TypeDefinitionIndex(TypeDefinitionIndex(6375)),
+// TypeDefinitionIndex(TypeDefinitionIndex(6372)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6669), inst: 3106 }), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(6669), inst: 98 }), TypeDefinitionIndex(TypeDefinitionIndex(13199)), TypeDefinitionIndex(TypeDefinitionIndex(6380)), TypeDefinitionIndex(TypeDefinitionIndex(6669)),
+// TypeDefinitionIndex(TypeDefinitionIndex(6215)), TypeDefinitionIndex(TypeDefinitionIndex(6373)), TypeDefinitionIndex(TypeDefinitionIndex(6378))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6376))
+// CS Name: ::UnityEngine.InputSystem.UI::InputSystemUIInputModule*
 class CORDL_TYPE InputSystemUIInputModule : public ::UnityEngine::EventSystems::BaseInputModule {
 public:
   // Declarations

@@ -8,28 +8,28 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(JSONLazyCreator)
 namespace OVRSimpleJSON {
-struct JSONNodeType;
+class JSONArray;
 }
 namespace OVRSimpleJSON {
-class JSONObject;
+struct JSONTextMode;
+}
+namespace OVRSimpleJSON {
+class JSONNode;
+}
+namespace System {
+class Object;
 }
 namespace System::Text {
 class StringBuilder;
 }
 namespace OVRSimpleJSON {
-class JSONArray;
+struct JSONNodeType;
 }
 namespace OVRSimpleJSON {
-class JSONNode;
+class JSONObject;
 }
 namespace OVRSimpleJSON {
 struct __JSONNode__Enumerator;
-}
-namespace System {
-class Object;
-}
-namespace OVRSimpleJSON {
-struct JSONTextMode;
 }
 // Forward declare root types
 namespace OVRSimpleJSON {

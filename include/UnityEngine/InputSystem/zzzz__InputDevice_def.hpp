@@ -12,6 +12,18 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(InputDevice)
+namespace UnityEngine::InputSystem {
+struct __InputDevice__DeviceFlags;
+}
+namespace UnityEngine::InputSystem::Utilities {
+template <typename TValue> struct ReadOnlyArray_1;
+}
+namespace System {
+class Object;
+}
+namespace UnityEngine::InputSystem {
+class InputControl;
+}
 namespace UnityEngine::InputSystem::LowLevel {
 struct InputDeviceCommand;
 }
@@ -21,20 +33,8 @@ struct InternedString;
 namespace System {
 class Type;
 }
-namespace System {
-class Object;
-}
-namespace UnityEngine::InputSystem {
-class InputControl;
-}
 namespace UnityEngine::InputSystem::Layouts {
 struct InputDeviceDescription;
-}
-namespace UnityEngine::InputSystem {
-struct __InputDevice__DeviceFlags;
-}
-namespace UnityEngine::InputSystem::Utilities {
-template <typename TValue> struct ReadOnlyArray_1;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem {

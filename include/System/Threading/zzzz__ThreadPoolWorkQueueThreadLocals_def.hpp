@@ -5,13 +5,13 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(ThreadPoolWorkQueueThreadLocals)
 namespace System::Threading {
+class ThreadPoolWorkQueue;
+}
+namespace System::Threading {
 class __ThreadPoolWorkQueue__WorkStealingQueue;
 }
 namespace System {
 class Random;
-}
-namespace System::Threading {
-class ThreadPoolWorkQueue;
 }
 // Forward declare root types
 namespace System::Threading {

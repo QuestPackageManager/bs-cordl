@@ -7,16 +7,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(DSACryptoServiceProvider)
 namespace System {
-class Object;
-}
-namespace Mono::Security::Cryptography {
-class DSAManaged;
-}
-namespace System {
 class EventArgs;
 }
 namespace Mono::Security::Cryptography {
 class KeyPairPersistence;
+}
+namespace System {
+class Object;
+}
+namespace Mono::Security::Cryptography {
+class DSAManaged;
 }
 namespace System::Security::Cryptography {
 struct DSAParameters;

@@ -1,8 +1,8 @@
 #pragma once
 #include "GlobalNamespace/zzzz__CuttableBySaber_impl.hpp"
 #include "GlobalNamespace/zzzz__BoxCuttableBySaber_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "UnityEngine/zzzz__Quaternion_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "GlobalNamespace/zzzz__Saber_def.hpp"
 #include "UnityEngine/zzzz__BoxCollider_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::BoxCuttableBySaber.get_radius

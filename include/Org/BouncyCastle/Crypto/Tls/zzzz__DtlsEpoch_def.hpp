@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(DtlsEpoch)
 namespace Org::BouncyCastle::Crypto::Tls {
-class TlsCipher;
+class DtlsReplayWindow;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class DtlsReplayWindow;
+class TlsCipher;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {

@@ -9,14 +9,14 @@ CORDL_MODULE_EXPORT(NclUtilities)
 namespace System {
 class Exception;
 }
-namespace System::Net {
-class IPAddress;
-}
 namespace System {
 class Object;
 }
 namespace System::Net {
 class IPHostEntry;
+}
+namespace System::Net {
+class IPAddress;
 }
 // Forward declare root types
 namespace System::Net {

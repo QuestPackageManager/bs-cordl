@@ -9,26 +9,26 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstddef>
 CORDL_MODULE_EXPORT(BipedReferences)
+namespace RootMotion {
+struct __BipedNaming__BoneType;
+}
 namespace UnityEngine {
 struct Vector3;
-}
-namespace UnityEngine {
-class Transform;
-}
-namespace RootMotion {
-struct __BipedNaming__BoneSide;
-}
-namespace UnityEngine {
-struct Quaternion;
 }
 namespace RootMotion {
 struct __BipedReferences__AutoDetectParams;
 }
 namespace UnityEngine {
+class Transform;
+}
+namespace UnityEngine {
 class Animator;
 }
+namespace UnityEngine {
+struct Quaternion;
+}
 namespace RootMotion {
-struct __BipedNaming__BoneType;
+struct __BipedNaming__BoneSide;
 }
 // Forward declare root types
 namespace RootMotion {

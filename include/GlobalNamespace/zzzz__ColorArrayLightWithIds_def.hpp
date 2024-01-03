@@ -10,23 +10,23 @@ CORDL_MODULE_EXPORT(ColorArrayLightWithIds)
 namespace GlobalNamespace {
 class __LightWithIds__LightWithId;
 }
-namespace GlobalNamespace {
-class MaterialController;
+namespace UnityEngine {
+struct Color;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
+}
+namespace GlobalNamespace {
+class MaterialController;
+}
+namespace GlobalNamespace {
+class MaterialPropertyBlockController;
 }
 namespace UnityEngine {
 struct Vector4;
 }
 namespace GlobalNamespace {
 class __ColorArrayLightWithIds__ColorArrayLightWithId;
-}
-namespace UnityEngine {
-struct Color;
-}
-namespace GlobalNamespace {
-class MaterialPropertyBlockController;
 }
 namespace System {
 template <typename T1, typename T2> class Action_2;

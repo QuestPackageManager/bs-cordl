@@ -2,9 +2,9 @@
 #include "UnityEngine/UIElements/zzzz__BaseField_1_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__UxmlFactory_2_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__ButtonStripField_def.hpp"
-#include "UnityEngine/UIElements/zzzz__ButtonStripField_def.hpp"
-#include "UnityEngine/UIElements/zzzz__Button_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "UnityEngine/UIElements/zzzz__Button_def.hpp"
+#include "UnityEngine/UIElements/zzzz__ButtonStripField_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::__ButtonStripField__UxmlTraits._ctor
 template <>
 

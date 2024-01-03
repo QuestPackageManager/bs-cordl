@@ -5,16 +5,16 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(Parties)
 namespace Oculus::Platform {
-template <typename T> class Request_1;
+template <typename T> class __Message_1__Callback;
 }
 namespace Oculus::Platform::Models {
 class Party;
 }
+namespace Oculus::Platform {
+template <typename T> class Request_1;
+}
 namespace Oculus::Platform::Models {
 class PartyUpdateNotification;
-}
-namespace Oculus::Platform {
-template <typename T> class __Message_1__Callback;
 }
 // Forward declare root types
 namespace Oculus::Platform {

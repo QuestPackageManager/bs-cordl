@@ -10,16 +10,16 @@ namespace System::Xml {
 class IXmlNamespaceResolver;
 }
 namespace System {
+class Object;
+}
+namespace System {
 class Type;
 }
 namespace System::Xml::Schema {
-class XmlValueConverter;
-}
-namespace System {
-class Object;
+class XmlSchemaType;
 }
 namespace System::Xml::Schema {
-class XmlSchemaType;
+class XmlValueConverter;
 }
 // Forward declare root types
 namespace System::Xml::Schema {

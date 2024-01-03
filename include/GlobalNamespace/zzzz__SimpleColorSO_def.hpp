@@ -18,7 +18,7 @@ MARK_REF_PTR_T(::GlobalNamespace::SimpleColorSO);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(16207)), TypeDefinitionIndex(TypeDefinitionIndex(10251))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(16207))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(16210))
 // CS Name: ::SimpleColorSO*
 class CORDL_TYPE SimpleColorSO : public ::GlobalNamespace::ColorSO {

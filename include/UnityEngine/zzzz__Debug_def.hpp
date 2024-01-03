@@ -10,10 +10,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Debug)
 namespace UnityEngine {
-class Object;
+struct Vector3;
 }
 namespace UnityEngine {
-struct Vector3;
+struct Color;
 }
 namespace System {
 class Object;
@@ -22,7 +22,7 @@ namespace UnityEngine {
 class ILogger;
 }
 namespace UnityEngine {
-struct Color;
+class Object;
 }
 namespace System {
 class Exception;

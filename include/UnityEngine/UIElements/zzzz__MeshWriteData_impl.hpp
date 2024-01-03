@@ -4,9 +4,9 @@
 #include "UnityEngine/UIElements/zzzz__Vertex_impl.hpp"
 #include "UnityEngine/zzzz__Rect_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__MeshWriteData_def.hpp"
-#include "UnityEngine/zzzz__Rect_def.hpp"
 #include "Unity/Collections/zzzz__NativeSlice_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__Vertex_def.hpp"
+#include "UnityEngine/zzzz__Rect_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::MeshWriteData._ctor
 template <>
 

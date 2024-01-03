@@ -8,15 +8,6 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVRPhysicsRaycaster)
-namespace UnityEngine {
-class Camera;
-}
-namespace UnityEngine {
-struct Vector3;
-}
-namespace UnityEngine::EventSystems {
-struct RaycastResult;
-}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
@@ -24,19 +15,28 @@ namespace UnityEngine::EventSystems {
 class PointerEventData;
 }
 namespace UnityEngine {
-struct LayerMask;
+struct Vector3;
+}
+namespace UnityEngine {
+class Camera;
+}
+namespace UnityEngine::EventSystems {
+struct RaycastResult;
 }
 namespace UnityEngine::EventSystems {
 class __OVRPhysicsRaycaster____c;
 }
 namespace UnityEngine {
-struct Vector2;
+struct LayerMask;
 }
-namespace System {
-template <typename T> class Comparison_1;
+namespace UnityEngine {
+struct Vector2;
 }
 namespace UnityEngine {
 struct RaycastHit;
+}
+namespace System {
+template <typename T> class Comparison_1;
 }
 // Forward declare root types
 namespace UnityEngine::EventSystems {
@@ -114,7 +114,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::EventSystems::__OVR
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::EventSystems {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13209)), TypeDefinitionIndex(TypeDefinitionIndex(10204))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10204)), TypeDefinitionIndex(TypeDefinitionIndex(13209))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8741))
 // CS Name: ::UnityEngine.EventSystems::OVRPhysicsRaycaster*
 class CORDL_TYPE OVRPhysicsRaycaster : public ::UnityEngine::EventSystems::BaseRaycaster {

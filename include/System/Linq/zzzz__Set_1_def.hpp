@@ -7,11 +7,11 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(Set_1)
-namespace System::Collections::Generic {
-template <typename T> class IEqualityComparer_1;
-}
 namespace System::Linq {
 template <typename TElement> struct __Set_1__Slot;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEqualityComparer_1;
 }
 // Forward declare root types
 namespace System::Linq {

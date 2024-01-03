@@ -1,8 +1,8 @@
 #pragma once
 #include "HMUI/zzzz__ViewController_impl.hpp"
 #include "GlobalNamespace/zzzz__LicensesDisplayViewController_def.hpp"
-#include "HMUI/zzzz__TextPageScrollView_def.hpp"
 #include "UnityEngine/zzzz__TextAsset_def.hpp"
+#include "HMUI/zzzz__TextPageScrollView_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::LicensesDisplayViewController.DidActivate
 template <>
 

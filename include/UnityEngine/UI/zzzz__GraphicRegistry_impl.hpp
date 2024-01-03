@@ -1,12 +1,12 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UI/zzzz__GraphicRegistry_def.hpp"
-#include "UnityEngine/UI/zzzz__Graphic_def.hpp"
+#include "UnityEngine/UI/Collections/zzzz__IndexedSet_1_def.hpp"
 #include "UnityEngine/zzzz__Canvas_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
-#include "System/Collections/Generic/zzzz__IList_1_def.hpp"
-#include "UnityEngine/UI/Collections/zzzz__IndexedSet_1_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IList_1_def.hpp"
+#include "UnityEngine/UI/zzzz__Graphic_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UI::GraphicRegistry._ctor
 template <>
 

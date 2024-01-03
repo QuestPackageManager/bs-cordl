@@ -18,31 +18,31 @@ namespace GlobalNamespace {
 class ColorSchemeSO;
 }
 namespace GlobalNamespace {
-class BeatmapCharacteristicSO;
-}
-namespace GlobalNamespace {
 class BeatmapLevelSO;
 }
 namespace GlobalNamespace {
 class StandardLevelNoTransitionInstallerData;
 }
 namespace GlobalNamespace {
-struct __LightmappingSceneSetup____c__DisplayClass8_0____InstallBindings_b__0_d;
+class BeatmapCharacteristicSO;
 }
 namespace System::Threading::Tasks {
 class Task;
 }
 namespace GlobalNamespace {
+struct __LightmappingSceneSetup____c__DisplayClass8_0____InstallBindings_b__0_d;
+}
+namespace GlobalNamespace {
 class IReadonlyBeatmapData;
+}
+namespace System::Runtime::CompilerServices {
+template <typename TResult> struct TaskAwaiter_1;
 }
 namespace System::Runtime::CompilerServices {
 struct AsyncTaskMethodBuilder;
 }
 namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
-}
-namespace System::Runtime::CompilerServices {
-template <typename TResult> struct TaskAwaiter_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -62,8 +62,8 @@ MARK_VAL_T(::GlobalNamespace::__LightmappingSceneSetup____c__DisplayClass8_0____
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(4260)), TypeDefinitionIndex(TypeDefinitionIndex(3401)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 890 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(6033)) CS Name:
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 890 }), TypeDefinitionIndex(TypeDefinitionIndex(3394)),
+// TypeDefinitionIndex(TypeDefinitionIndex(4260)), TypeDefinitionIndex(TypeDefinitionIndex(3401))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6033)) CS Name:
 // ::LightmappingSceneSetup::<>c__DisplayClass8_0::<<InstallBindings>b__0>d
 struct CORDL_TYPE __LightmappingSceneSetup____c__DisplayClass8_0____InstallBindings_b__0_d {
 public:

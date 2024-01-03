@@ -8,34 +8,34 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(GameServersListTableView)
 namespace GlobalNamespace {
+class GameServerListDetailTableCell;
+}
+namespace GlobalNamespace {
 class GameServerListTableCell;
 }
-namespace Zenject {
-class DiContainer;
+namespace GlobalNamespace {
+class INetworkPlayer;
 }
 namespace HMUI {
 class TableCell;
 }
 namespace GlobalNamespace {
-class GameServerListDetailTableCell;
+class __TableViewWithDetailCell__IDataSource;
 }
 namespace HMUI {
 class TableView;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
 namespace GlobalNamespace {
 class TableViewWithDetailCell;
 }
-namespace GlobalNamespace {
-class __TableViewWithDetailCell__IDataSource;
-}
-namespace GlobalNamespace {
-class INetworkPlayer;
-}
 namespace System {
 template <typename T> class Action_1;
+}
+namespace Zenject {
+class DiContainer;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {

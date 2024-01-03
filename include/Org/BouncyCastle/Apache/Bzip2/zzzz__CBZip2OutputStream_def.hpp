@@ -10,14 +10,14 @@ CORDL_MODULE_EXPORT(CBZip2OutputStream)
 namespace Org::BouncyCastle::Apache::Bzip2 {
 class __CBZip2OutputStream__StackElem;
 }
-namespace Org::BouncyCastle::Apache::Bzip2 {
-class CRC;
-}
 namespace System::IO {
 class Stream;
 }
 namespace System::IO {
 struct SeekOrigin;
+}
+namespace Org::BouncyCastle::Apache::Bzip2 {
+class CRC;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Apache::Bzip2 {

@@ -13,11 +13,11 @@ struct __SwitchView__AnimationType;
 namespace HMUI {
 class ToggleWithCallbacks;
 }
-namespace UnityEngine {
-class AnimationClip;
-}
 namespace HMUI {
 struct __ToggleWithCallbacks__SelectionState;
+}
+namespace UnityEngine {
+class AnimationClip;
 }
 // Forward declare root types
 namespace HMUI {
@@ -83,7 +83,7 @@ static_assert(offsetof(::HMUI::__SwitchView__AnimationType, value__) == 0x0, "Of
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(13657))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13657)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13658))
 // CS Name: ::HMUI::SwitchView*
 class CORDL_TYPE SwitchView : public ::UnityEngine::MonoBehaviour {

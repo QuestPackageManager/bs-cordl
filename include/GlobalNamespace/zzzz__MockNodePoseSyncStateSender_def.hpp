@@ -5,19 +5,19 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(MockNodePoseSyncStateSender)
 namespace GlobalNamespace {
-struct PoseSerializable;
-}
-namespace GlobalNamespace {
-class IMultiplayerSessionManager;
-}
-namespace GlobalNamespace {
 class NodePoseSyncStateNetSerializable;
 }
 namespace GlobalNamespace {
 class IConnectedPlayer;
 }
+namespace GlobalNamespace {
+class IMultiplayerSessionManager;
+}
 namespace System {
 class IDisposable;
+}
+namespace GlobalNamespace {
+struct PoseSerializable;
 }
 // Forward declare root types
 namespace GlobalNamespace {

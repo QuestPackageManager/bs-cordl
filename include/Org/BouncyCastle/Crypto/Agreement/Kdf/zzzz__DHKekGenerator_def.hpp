@@ -6,14 +6,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(DHKekGenerator)
+namespace Org::BouncyCastle::Crypto {
+class IDerivationFunction;
+}
 namespace Org::BouncyCastle::Asn1 {
 class DerObjectIdentifier;
 }
 namespace Org::BouncyCastle::Crypto {
 class IDigest;
-}
-namespace Org::BouncyCastle::Crypto {
-class IDerivationFunction;
 }
 namespace Org::BouncyCastle::Crypto {
 class IDerivationParameters;

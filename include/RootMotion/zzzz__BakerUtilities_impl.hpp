@@ -2,8 +2,8 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "RootMotion/zzzz__BakerUtilities_def.hpp"
 #include "UnityEngine/zzzz__AnimationCurve_def.hpp"
-#include "UnityEngine/zzzz__Quaternion_def.hpp"
 #include "UnityEngine/zzzz__Keyframe_def.hpp"
+#include "UnityEngine/zzzz__Quaternion_def.hpp"
 //  Writing Method size for method: ::RootMotion::BakerUtilities.ReduceKeyframes
 template <>
 

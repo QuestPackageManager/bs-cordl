@@ -7,17 +7,14 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(CrossAppDomainSink)
-namespace System::Collections {
-class Hashtable;
-}
 namespace System::Runtime::Remoting::Messaging {
 class CADMethodCallMessage;
 }
 namespace System::Runtime::Remoting::Messaging {
 class IMessage;
 }
-namespace System::Runtime::Remoting::Messaging {
-class IMessageCtrl;
+namespace System {
+class Object;
 }
 namespace System::Runtime::Remoting::Messaging {
 class IMessageSink;
@@ -25,11 +22,14 @@ class IMessageSink;
 namespace System::Runtime::Remoting::Channels {
 struct __CrossAppDomainSink__ProcessMessageRes;
 }
+namespace System::Runtime::Remoting::Messaging {
+class IMessageCtrl;
+}
+namespace System::Collections {
+class Hashtable;
+}
 namespace System::Reflection {
 class MethodInfo;
-}
-namespace System {
-class Object;
 }
 namespace System::Runtime::Remoting::Messaging {
 class CADMethodReturnMessage;

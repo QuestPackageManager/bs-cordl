@@ -10,9 +10,6 @@ namespace Newtonsoft::Json {
 struct JsonToken;
 }
 namespace Newtonsoft::Json::Linq {
-class JContainer;
-}
-namespace Newtonsoft::Json::Linq {
 class JToken;
 }
 namespace System {
@@ -20,6 +17,9 @@ template <typename T> struct Nullable_1;
 }
 namespace System {
 class Object;
+}
+namespace Newtonsoft::Json::Linq {
+class JContainer;
 }
 namespace Newtonsoft::Json {
 class IJsonLineInfo;

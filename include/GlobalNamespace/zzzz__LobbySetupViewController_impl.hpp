@@ -1,19 +1,19 @@
 #pragma once
 #include "HMUI/zzzz__ViewController_impl.hpp"
 #include "GlobalNamespace/zzzz__LobbySetupViewController_def.hpp"
-#include "HMUI/zzzz__ToggleBinder_def.hpp"
+#include "UnityEngine/UI/zzzz__Button_def.hpp"
+#include "HMUI/zzzz__HoverHint_def.hpp"
+#include "GlobalNamespace/zzzz__ILobbyPlayerData_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapLevelSelectionMask_def.hpp"
 #include "Polyglot/zzzz__LocalizedTextMeshProUGUI_def.hpp"
-#include "UnityEngine/zzzz__GameObject_def.hpp"
-#include "GlobalNamespace/zzzz__CannotStartGameReason_def.hpp"
-#include "GlobalNamespace/zzzz__MultiplayerLobbyState_def.hpp"
-#include "HMUI/zzzz__HoverHint_def.hpp"
-#include "UnityEngine/UI/zzzz__Button_def.hpp"
-#include "GlobalNamespace/zzzz__EditableModifiersSelectionView_def.hpp"
-#include "GlobalNamespace/zzzz__ILobbyPlayerData_def.hpp"
-#include "GlobalNamespace/zzzz__EditableBeatmapSelectionView_def.hpp"
 #include "GlobalNamespace/zzzz__GameServersFilterText_def.hpp"
+#include "HMUI/zzzz__ToggleBinder_def.hpp"
+#include "GlobalNamespace/zzzz__CannotStartGameReason_def.hpp"
+#include "GlobalNamespace/zzzz__EditableModifiersSelectionView_def.hpp"
+#include "GlobalNamespace/zzzz__EditableBeatmapSelectionView_def.hpp"
 #include "System/zzzz__Action_def.hpp"
+#include "UnityEngine/zzzz__GameObject_def.hpp"
+#include "GlobalNamespace/zzzz__MultiplayerLobbyState_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::LobbySetupViewController.add_selectBeatmapEvent
 template <>
 

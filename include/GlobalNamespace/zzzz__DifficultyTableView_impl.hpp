@@ -1,11 +1,11 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__DifficultyTableView_def.hpp"
-#include "System/zzzz__Action_2_def.hpp"
-#include "GlobalNamespace/zzzz__IDifficultyBeatmap_def.hpp"
-#include "HMUI/zzzz__TableCell_def.hpp"
 #include "HMUI/zzzz__TableView_def.hpp"
+#include "GlobalNamespace/zzzz__IDifficultyBeatmap_def.hpp"
 #include "GlobalNamespace/zzzz__DifficultyTableCell_def.hpp"
+#include "System/zzzz__Action_2_def.hpp"
+#include "HMUI/zzzz__TableCell_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::DifficultyTableView.add_didSelectRow
 template <>
 

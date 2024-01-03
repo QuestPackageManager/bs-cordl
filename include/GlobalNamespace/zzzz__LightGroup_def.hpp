@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(LightGroup)
+namespace UnityEngine {
+class GameObject;
+}
 namespace GlobalNamespace {
 class LightGroupSO;
 }
 namespace System {
 template <typename T> class Action_1;
-}
-namespace UnityEngine {
-class GameObject;
 }
 // Forward declare root types
 namespace GlobalNamespace {

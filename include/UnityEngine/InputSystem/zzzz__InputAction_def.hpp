@@ -16,19 +16,34 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(InputAction)
 namespace UnityEngine::InputSystem {
-struct __InputActionState__TriggerState;
+class InputActionMap;
 }
 namespace UnityEngine::InputSystem {
-struct __InputAction__CallbackContext;
+struct InputBinding;
 }
-namespace System {
-class Object;
+namespace UnityEngine::InputSystem {
+class InputControl;
 }
 namespace UnityEngine::InputSystem::Utilities {
 template <typename TValue> struct ReadOnlyArray_1;
 }
+namespace UnityEngine::InputSystem {
+struct __InputActionState__TriggerState;
+}
 namespace System {
 template <typename T> class Action_1;
+}
+namespace UnityEngine::InputSystem {
+struct InputActionType;
+}
+namespace System {
+template <typename T> struct Nullable_1;
+}
+namespace System {
+class Object;
+}
+namespace UnityEngine::InputSystem {
+struct InputActionPhase;
 }
 namespace System {
 class IDisposable;
@@ -36,38 +51,23 @@ class IDisposable;
 namespace UnityEngine::InputSystem {
 struct __InputAction__ActionFlags;
 }
+namespace System {
+struct Guid;
+}
 namespace UnityEngine::InputSystem {
-struct InputActionType;
+struct __InputAction__CallbackContext;
 }
 namespace System {
 class ICloneable;
 }
 namespace UnityEngine::InputSystem {
-struct InputActionPhase;
-}
-namespace System {
-struct Guid;
-}
-namespace UnityEngine::InputSystem {
-class InputControl;
-}
-namespace UnityEngine::InputSystem {
-struct InputBinding;
-}
-namespace System {
-template <typename T> struct Nullable_1;
-}
-namespace UnityEngine::InputSystem {
-class InputActionMap;
-}
-namespace UnityEngine::InputSystem {
 class IInputInteraction;
-}
-namespace UnityEngine::InputSystem {
-class InputActionState;
 }
 namespace System {
 class Type;
+}
+namespace UnityEngine::InputSystem {
+class InputActionState;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem {
@@ -265,11 +265,10 @@ static_assert(offsetof(::UnityEngine::InputSystem::__InputAction__CallbackContex
 // SizeInfo { instance_size: 448, native_size: -1, calculated_instance_size: 448, calculated_native_size: 448, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2323), inst: 424 }), TypeDefinitionIndex(TypeDefinitionIndex(6133)),
-// TypeDefinitionIndex(TypeDefinitionIndex(6660)), TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(6187)), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(6660), inst: 989 }), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(6132)), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(2448), inst: 3105 }), TypeDefinitionIndex(TypeDefinitionIndex(6182)), TypeDefinitionIndex(TypeDefinitionIndex(2323))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6134)) CS
-// Name: ::UnityEngine.InputSystem::InputAction*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6187)), TypeDefinitionIndex(TypeDefinitionIndex(6182)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 3105
+// }), TypeDefinitionIndex(TypeDefinitionIndex(6133)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6660), inst: 989 }), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(2323), inst: 424 }), TypeDefinitionIndex(TypeDefinitionIndex(6132)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2448)),
+// TypeDefinitionIndex(TypeDefinitionIndex(2323)), TypeDefinitionIndex(TypeDefinitionIndex(6660))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6134)) CS Name: ::UnityEngine.InputSystem::InputAction*
 class CORDL_TYPE InputAction : public ::System::Object {
 public:
   // Declarations

@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(Test_HAPI_TransformEuler_Extensions)
 namespace HoudiniEngineUnity {
-class Test_HAPI_TransformEuler;
+struct HAPI_TransformEuler;
 }
 namespace HoudiniEngineUnity {
-struct HAPI_TransformEuler;
+class Test_HAPI_TransformEuler;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {

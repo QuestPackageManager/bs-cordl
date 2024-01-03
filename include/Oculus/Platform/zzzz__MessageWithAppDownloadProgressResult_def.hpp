@@ -19,8 +19,8 @@ MARK_REF_PTR_T(::Oculus::Platform::MessageWithAppDownloadProgressResult);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13412)), TypeDefinitionIndex(TypeDefinitionIndex(13262)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13262), inst:
-// 4573 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(13271)) CS Name: ::Oculus.Platform::MessageWithAppDownloadProgressResult*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13262)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13262), inst: 4573 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(13412))} Self: TypeDefinitionIndex(TypeDefinitionIndex(13271)) CS Name: ::Oculus.Platform::MessageWithAppDownloadProgressResult*
 class CORDL_TYPE MessageWithAppDownloadProgressResult : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::AppDownloadProgressResult*> {
 public:
   // Declarations

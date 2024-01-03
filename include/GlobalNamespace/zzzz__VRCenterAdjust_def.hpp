@@ -5,16 +5,16 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(VRCenterAdjust)
 namespace GlobalNamespace {
-class MainSettingsModelSO;
-}
-namespace GlobalNamespace {
 class Vector3SO;
 }
 namespace GlobalNamespace {
-class ISaveData;
+class FloatSO;
 }
 namespace GlobalNamespace {
-class FloatSO;
+class MainSettingsModelSO;
+}
+namespace GlobalNamespace {
+class ISaveData;
 }
 // Forward declare root types
 namespace GlobalNamespace {

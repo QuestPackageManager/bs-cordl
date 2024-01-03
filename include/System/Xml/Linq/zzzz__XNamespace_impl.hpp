@@ -2,9 +2,9 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Xml/Linq/zzzz__XNamespace_def.hpp"
 #include "System/Xml/Linq/zzzz__XHashtable_1_def.hpp"
-#include "System/zzzz__WeakReference_def.hpp"
-#include "System/zzzz__Object_def.hpp"
 #include "System/Xml/Linq/zzzz__XName_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+#include "System/zzzz__WeakReference_def.hpp"
 //  Writing Method size for method: ::System::Xml::Linq::XNamespace._ctor
 template <>
 

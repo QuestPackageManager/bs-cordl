@@ -2,8 +2,8 @@
 #include "Unity/Collections/zzzz__NativeArray_1_impl.hpp"
 #include "UnityEngine/zzzz__TextureFormat_impl.hpp"
 #include "UnityEngine/Profiling/Experimental/zzzz__DebugScreenCapture_def.hpp"
-#include "Unity/Collections/zzzz__NativeArray_1_def.hpp"
 #include "UnityEngine/zzzz__TextureFormat_def.hpp"
+#include "Unity/Collections/zzzz__NativeArray_1_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Profiling::Experimental::DebugScreenCapture.set_rawImageDataReference
 template <>
 

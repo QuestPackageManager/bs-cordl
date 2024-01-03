@@ -11,16 +11,16 @@ namespace System {
 struct DayOfWeek;
 }
 namespace System::Globalization {
-class Calendar;
+class GregorianCalendarHelper;
 }
 namespace System::Globalization {
-class EraInfo;
+class Calendar;
 }
 namespace System {
 struct DateTime;
 }
 namespace System::Globalization {
-class GregorianCalendarHelper;
+class EraInfo;
 }
 // Forward declare root types
 namespace System::Globalization {

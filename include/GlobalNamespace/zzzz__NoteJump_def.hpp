@@ -8,26 +8,26 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(NoteJump)
+namespace UnityEngine {
+class Transform;
+}
+namespace GlobalNamespace {
+class PlayerTransforms;
+}
+namespace UnityEngine {
+struct Vector3;
+}
 namespace System {
 class Action;
+}
+namespace GlobalNamespace {
+class PlayerSpaceConvertor;
 }
 namespace System {
 template <typename T> class Action_1;
 }
 namespace GlobalNamespace {
-class PlayerSpaceConvertor;
-}
-namespace GlobalNamespace {
-class PlayerTransforms;
-}
-namespace GlobalNamespace {
 class IAudioTimeSource;
-}
-namespace UnityEngine {
-struct Vector3;
-}
-namespace UnityEngine {
-class Transform;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -39,7 +39,7 @@ MARK_REF_PTR_T(::GlobalNamespace::NoteJump);
 // SizeInfo { instance_size: 288, native_size: -1, calculated_instance_size: 288, calculated_native_size: 281, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10252))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4778))
 // CS Name: ::NoteJump*
 class CORDL_TYPE NoteJump : public ::UnityEngine::MonoBehaviour {

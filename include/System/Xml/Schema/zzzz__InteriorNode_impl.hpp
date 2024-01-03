@@ -1,9 +1,9 @@
 #pragma once
 #include "System/Xml/Schema/zzzz__SyntaxTreeNode_impl.hpp"
 #include "System/Xml/Schema/zzzz__InteriorNode_def.hpp"
-#include "System/Xml/Schema/zzzz__SymbolsDictionary_def.hpp"
-#include "System/Xml/Schema/zzzz__Positions_def.hpp"
 #include "System/Xml/Schema/zzzz__SyntaxTreeNode_def.hpp"
+#include "System/Xml/Schema/zzzz__Positions_def.hpp"
+#include "System/Xml/Schema/zzzz__SymbolsDictionary_def.hpp"
 //  Writing Method size for method: ::System::Xml::Schema::InteriorNode.get_LeftChild
 template <>
 

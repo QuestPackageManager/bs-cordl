@@ -5,13 +5,13 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(HEU_InputNodeUICache)
 namespace HoudiniEngineUnity {
-class __HEU_InputNodeUICache__HEU_InputObjectUICache;
+class __HEU_InputNodeUICache__HEU_InputAssetUICache;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace HoudiniEngineUnity {
-class __HEU_InputNodeUICache__HEU_InputAssetUICache;
+class __HEU_InputNodeUICache__HEU_InputObjectUICache;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {

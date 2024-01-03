@@ -9,14 +9,14 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(TextFadeTransitions)
+namespace UnityEngine {
+class CanvasGroup;
+}
 namespace GlobalNamespace {
 struct __TextFadeTransitions__State;
 }
 namespace TMPro {
 class TextMeshProUGUI;
-}
-namespace UnityEngine {
-class CanvasGroup;
 }
 // Forward declare root types
 namespace GlobalNamespace {

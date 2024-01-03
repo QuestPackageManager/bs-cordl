@@ -14,56 +14,56 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(StandaloneMonobehavior)
-namespace System::Threading {
-struct CancellationToken;
-}
-namespace GlobalNamespace {
-struct __StandaloneMonobehavior___DispatchAsync_d__21;
-}
 namespace System::Collections {
 class IEnumerator;
 }
 namespace GlobalNamespace {
-struct __StandaloneMonobehavior___Dispatch_d__20;
-}
-namespace GlobalNamespace {
-class IStandaloneThreadRunner;
+struct __StandaloneMonobehavior___DispatchAsync_d__21;
 }
 namespace GlobalNamespace {
 class IStandaloneMonobehavior;
+}
+namespace GlobalNamespace {
+class __StandaloneMonobehavior___RunAsyncCoroutine_d__25;
+}
+namespace System::Threading::Tasks {
+class Task;
+}
+namespace System {
+template <typename TResult> class Func_1;
 }
 namespace UnityEngine {
 struct FrameTiming;
 }
 namespace GlobalNamespace {
-class __StandaloneMonobehavior___RunAsyncCoroutine_d__25;
+struct __StandaloneMonobehavior___Dispatch_d__20;
 }
 namespace System {
 class Action;
 }
 namespace System::Threading::Tasks {
-class Task;
-}
-namespace System::Threading::Tasks {
 template <typename TResult> class TaskCompletionSource_1;
 }
-namespace System {
-template <typename TResult> class Func_1;
+namespace GlobalNamespace {
+class IStandaloneThreadRunner;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
-}
-namespace System {
-class Object;
+namespace System::Threading {
+struct CancellationToken;
 }
 namespace System {
 class IDisposable;
 }
-namespace System::Runtime::CompilerServices {
-struct AsyncTaskMethodBuilder;
+namespace System {
+class Object;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
 }
 namespace System::Runtime::CompilerServices {
 template <typename TResult> struct TaskAwaiter_1;
+}
+namespace System::Runtime::CompilerServices {
+struct AsyncTaskMethodBuilder;
 }
 namespace System::Runtime::CompilerServices {
 struct TaskAwaiter;
@@ -96,8 +96,8 @@ MARK_VAL_T(::GlobalNamespace::__StandaloneMonobehavior___Dispatch_d__20);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(3400)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 105
-// })} Self: TypeDefinitionIndex(TypeDefinitionIndex(12963)) CS Name: ::StandaloneMonobehavior::<Dispatch>d__20
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3394)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 105 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(3400))} Self: TypeDefinitionIndex(TypeDefinitionIndex(12963)) CS Name: ::StandaloneMonobehavior::<Dispatch>d__20
 struct CORDL_TYPE __StandaloneMonobehavior___Dispatch_d__20 {
 public:
   // Declarations
@@ -160,8 +160,8 @@ static_assert(offsetof(::GlobalNamespace::__StandaloneMonobehavior___Dispatch_d_
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 105 }), TypeDefinitionIndex(TypeDefinitionIndex(3394)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3401)), TypeDefinitionIndex(TypeDefinitionIndex(3393))} Self: TypeDefinitionIndex(TypeDefinitionIndex(12964)) CS Name:
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(3401)), TypeDefinitionIndex(TypeDefinitionIndex(3393)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 105 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(12964)) CS Name:
 // ::StandaloneMonobehavior::<DispatchAsync>d__21
 struct CORDL_TYPE __StandaloneMonobehavior___DispatchAsync_d__21 {
 public:

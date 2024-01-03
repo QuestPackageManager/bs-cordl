@@ -6,29 +6,29 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(LightColorBeatmapEventDataBox)
+namespace System::Collections::Generic {
+template <typename T> class IReadOnlyList_1;
+}
+namespace GlobalNamespace {
+class LightColorBaseData;
+}
+namespace GlobalNamespace {
+struct __BeatmapEventDataBox__DistributionParamType;
+}
+namespace GlobalNamespace {
+class IBeatToTimeConvertor;
+}
+namespace GlobalNamespace {
+class BeatmapEventData;
+}
 namespace GlobalNamespace {
 struct EaseType;
 }
 namespace GlobalNamespace {
 class IndexFilter;
 }
-namespace GlobalNamespace {
-struct __BeatmapEventDataBox__DistributionParamType;
-}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class IReadOnlyList_1;
-}
-namespace GlobalNamespace {
-class IBeatToTimeConvertor;
-}
-namespace GlobalNamespace {
-class LightColorBaseData;
-}
-namespace GlobalNamespace {
-class BeatmapEventData;
 }
 // Forward declare root types
 namespace GlobalNamespace {

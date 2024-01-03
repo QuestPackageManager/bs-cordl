@@ -2,8 +2,8 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "LiteNetLib/Utils/zzzz__NetDataReader_def.hpp"
 #include "System/Net/zzzz__IPEndPoint_def.hpp"
-#include "System/zzzz__ArraySegment_1_def.hpp"
 #include "LiteNetLib/Utils/zzzz__NetDataWriter_def.hpp"
+#include "System/zzzz__ArraySegment_1_def.hpp"
 //  Writing Method size for method: ::LiteNetLib::Utils::NetDataReader.get_RawData
 template <>
 

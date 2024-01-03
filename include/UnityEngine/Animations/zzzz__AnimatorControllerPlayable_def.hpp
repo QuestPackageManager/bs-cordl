@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "UnityEngine/Playables/zzzz__PlayableHandle_def.hpp"
 #include <cstddef>
 CORDL_MODULE_EXPORT(AnimatorControllerPlayable)
+namespace System {
+template <typename T> class IEquatable_1;
+}
 namespace UnityEngine::Playables {
 struct PlayableHandle;
 }
 namespace UnityEngine::Playables {
 class IPlayable;
-}
-namespace System {
-template <typename T> class IEquatable_1;
 }
 // Forward declare root types
 namespace UnityEngine::Animations {

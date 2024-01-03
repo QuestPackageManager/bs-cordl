@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__MissionClearedEnvironmentEffect_def.hpp"
-#include "GlobalNamespace/zzzz__MissionObjectiveCheckersManager_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapCallbacksController_def.hpp"
+#include "GlobalNamespace/zzzz__MissionObjectiveCheckersManager_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::MissionClearedEnvironmentEffect.Awake
 template <>
 

@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(PemReader)
-namespace Org::BouncyCastle::Utilities::IO::Pem {
-class PemObject;
-}
 namespace System::IO {
 class TextReader;
+}
+namespace Org::BouncyCastle::Utilities::IO::Pem {
+class PemObject;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Utilities::IO::Pem {

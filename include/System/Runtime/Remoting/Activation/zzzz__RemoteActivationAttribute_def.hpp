@@ -4,6 +4,9 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Attribute_def.hpp"
 CORDL_MODULE_EXPORT(RemoteActivationAttribute)
+namespace System::Runtime::Remoting::Contexts {
+class Context;
+}
 namespace System::Runtime::Remoting::Activation {
 class IConstructionCallMessage;
 }
@@ -12,9 +15,6 @@ class IContextAttribute;
 }
 namespace System::Collections {
 class IList;
-}
-namespace System::Runtime::Remoting::Contexts {
-class Context;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting::Activation {

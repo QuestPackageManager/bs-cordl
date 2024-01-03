@@ -9,13 +9,13 @@ namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace System {
-class Object;
-}
-namespace System {
 class Exception;
 }
 namespace GlobalNamespace {
 class IBeatSaberLogger;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace GlobalNamespace {

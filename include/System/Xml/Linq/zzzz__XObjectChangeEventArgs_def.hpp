@@ -18,7 +18,7 @@ MARK_REF_PTR_T(::System::Xml::Linq::XObjectChangeEventArgs);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Xml::Linq {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2376)), TypeDefinitionIndex(TypeDefinitionIndex(15449))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15449)), TypeDefinitionIndex(TypeDefinitionIndex(2376))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15456))
 // CS Name: ::System.Xml.Linq::XObjectChangeEventArgs*
 class CORDL_TYPE XObjectChangeEventArgs : public ::System::EventArgs {

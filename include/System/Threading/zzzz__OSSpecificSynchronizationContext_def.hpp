@@ -8,25 +8,25 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(OSSpecificSynchronizationContext)
 namespace System::Threading {
-class __OSSpecificSynchronizationContext__InvocationContext;
-}
-namespace System::Threading {
 class SynchronizationContext;
-}
-namespace System::Threading {
-class SendOrPostCallback;
 }
 namespace System::Threading {
 class __OSSpecificSynchronizationContext____c;
 }
 namespace System::Threading {
-class __OSSpecificSynchronizationContext__InvocationEntryDelegate;
+class __OSSpecificSynchronizationContext__InvocationContext;
 }
-namespace System {
-class Object;
+namespace System::Threading {
+class SendOrPostCallback;
+}
+namespace System::Threading {
+class __OSSpecificSynchronizationContext__InvocationEntryDelegate;
 }
 namespace System::Runtime::CompilerServices {
 template <typename TKey, typename TValue> class ConditionalWeakTable_2;
+}
+namespace System {
+class Object;
 }
 namespace System::Runtime::CompilerServices {
 template <typename TKey, typename TValue> class __ConditionalWeakTable_2__CreateValueCallback;

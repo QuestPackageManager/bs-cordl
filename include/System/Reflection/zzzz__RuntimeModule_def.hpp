@@ -8,11 +8,8 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(RuntimeModule)
-namespace System::Runtime::Serialization {
-class SerializationInfo;
-}
-namespace System {
-struct Guid;
+namespace System::Reflection {
+class RuntimeAssembly;
 }
 namespace System::Runtime::Serialization {
 struct StreamingContext;
@@ -20,11 +17,14 @@ struct StreamingContext;
 namespace System {
 class Object;
 }
-namespace System::Reflection {
-class Assembly;
+namespace System::Runtime::Serialization {
+class SerializationInfo;
+}
+namespace System {
+struct Guid;
 }
 namespace System::Reflection {
-class RuntimeAssembly;
+class Assembly;
 }
 namespace System {
 class Type;
@@ -39,7 +39,7 @@ MARK_REF_PTR_T(::System::Reflection::RuntimeModule);
 // SizeInfo { instance_size: 64, native_size: 48, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Reflection {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3481)), TypeDefinitionIndex(TypeDefinitionIndex(2603))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(3481))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3525))
 // CS Name: ::System.Reflection::RuntimeModule*
 class CORDL_TYPE RuntimeModule : public ::System::Reflection::Module {

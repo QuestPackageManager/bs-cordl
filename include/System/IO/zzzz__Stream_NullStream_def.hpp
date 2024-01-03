@@ -3,50 +3,51 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/IO/zzzz__Stream_def.hpp"
+#include "System/Threading/zzzz__CancellationToken_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Stream_NullStream)
-namespace System::IO {
-struct SeekOrigin;
+namespace System::Threading::Tasks {
+template <typename TResult> struct ValueTask_1;
 }
 namespace System::Threading::Tasks {
 struct ValueTask;
 }
+namespace System::IO {
+struct SeekOrigin;
+}
 namespace System {
 class AsyncCallback;
-}
-namespace System::IO {
-class Stream;
 }
 namespace System::Threading::Tasks {
 template <typename TResult> class Task_1;
 }
 namespace System {
-class Object;
-}
-namespace System::Threading::Tasks {
-class Task;
-}
-namespace System {
 template <typename T> struct Span_1;
 }
-namespace System {
-template <typename T> struct ReadOnlySpan_1;
-}
-namespace System {
-class IAsyncResult;
-}
-namespace System::Threading {
-struct CancellationToken;
+namespace System::IO {
+class Stream;
 }
 namespace System {
 template <typename T> struct Memory_1;
 }
 namespace System {
-template <typename T> struct ReadOnlyMemory_1;
+class Object;
+}
+namespace System::Threading {
+struct CancellationToken;
 }
 namespace System::Threading::Tasks {
-template <typename TResult> struct ValueTask_1;
+class Task;
+}
+namespace System {
+template <typename T> struct ReadOnlySpan_1;
+}
+namespace System {
+template <typename T> struct ReadOnlyMemory_1;
+}
+namespace System {
+class IAsyncResult;
 }
 // Forward declare root types
 namespace System::IO {
@@ -58,7 +59,7 @@ MARK_REF_PTR_T(::System::IO::__Stream__NullStream);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::IO {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3619))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3619))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3612))
 // CS Name: ::Stream::NullStream*
 class CORDL_TYPE __Stream__NullStream : public ::System::IO::Stream {

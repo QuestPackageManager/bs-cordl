@@ -7,26 +7,26 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(TextCoreHandle)
-namespace UnityEngine::UIElements {
-class ITextHandle;
-}
 namespace UnityEngine::TextCore::Text {
 class TextInfo;
+}
+namespace UnityEngine {
+struct Vector2;
+}
+namespace UnityEngine::UIElements {
+struct CursorPositionStylePainterParameters;
+}
+namespace UnityEngine::TextCore::Text {
+class TextGenerationSettings;
+}
+namespace UnityEngine::UIElements {
+class ITextHandle;
 }
 namespace UnityEngine::UIElements {
 struct __MeshGenerationContextUtils__TextParams;
 }
 namespace UnityEngine::TextCore::Text {
-class TextGenerationSettings;
-}
-namespace UnityEngine {
-struct Vector2;
-}
-namespace UnityEngine::TextCore::Text {
 struct TextOverflowMode;
-}
-namespace UnityEngine::UIElements {
-struct CursorPositionStylePainterParameters;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

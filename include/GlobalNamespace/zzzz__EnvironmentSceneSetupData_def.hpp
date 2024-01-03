@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__SceneSetupData_def.hpp"
 CORDL_MODULE_EXPORT(EnvironmentSceneSetupData)
 namespace GlobalNamespace {
-class EnvironmentInfoSO;
+class IPreviewBeatmapLevel;
 }
 namespace GlobalNamespace {
-class IPreviewBeatmapLevel;
+class EnvironmentInfoSO;
 }
 // Forward declare root types
 namespace GlobalNamespace {

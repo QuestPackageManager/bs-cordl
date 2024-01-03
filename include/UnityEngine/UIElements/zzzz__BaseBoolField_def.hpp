@@ -6,7 +6,7 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(BaseBoolField)
 namespace UnityEngine::UIElements {
-class KeyDownEvent;
+class Label;
 }
 namespace UnityEngine::UIElements {
 class Clickable;
@@ -15,13 +15,13 @@ namespace UnityEngine::UIElements {
 class VisualElement;
 }
 namespace UnityEngine::UIElements {
-class NavigationSubmitEvent;
+class KeyDownEvent;
 }
 namespace UnityEngine::UIElements {
 class EventBase;
 }
 namespace UnityEngine::UIElements {
-class Label;
+class NavigationSubmitEvent;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

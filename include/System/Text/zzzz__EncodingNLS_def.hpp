@@ -8,10 +8,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(EncodingNLS)
 namespace System::Text {
-class Decoder;
+class Encoder;
 }
 namespace System::Text {
-class Encoder;
+class Decoder;
 }
 // Forward declare root types
 namespace System::Text {

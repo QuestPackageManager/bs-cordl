@@ -8,17 +8,11 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(Exception)
-namespace System::Runtime::Serialization {
-class ISerializable;
+namespace System::Diagnostics {
+class StackTrace;
 }
 namespace System {
 class Type;
-}
-namespace System::Runtime::Serialization {
-class SerializationInfo;
-}
-namespace System::Runtime::Serialization {
-struct StreamingContext;
 }
 namespace System {
 struct __Exception__ExceptionMessageKind;
@@ -26,17 +20,23 @@ struct __Exception__ExceptionMessageKind;
 namespace System {
 class Object;
 }
+namespace System::Runtime::ExceptionServices {
+class ExceptionDispatchInfo;
+}
+namespace System::Runtime::Serialization {
+struct StreamingContext;
+}
+namespace System::Runtime::Serialization {
+class ISerializable;
+}
 namespace System::Collections {
 class IDictionary;
 }
 namespace System::Runtime::Serialization {
 class SafeSerializationManager;
 }
-namespace System::Diagnostics {
-class StackTrace;
-}
-namespace System::Runtime::ExceptionServices {
-class ExceptionDispatchInfo;
+namespace System::Runtime::Serialization {
+class SerializationInfo;
 }
 // Forward declare root types
 namespace System {

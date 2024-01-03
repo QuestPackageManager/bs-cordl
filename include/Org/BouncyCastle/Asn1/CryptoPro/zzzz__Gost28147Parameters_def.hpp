@@ -13,14 +13,14 @@ class DerObjectIdentifier;
 namespace Org::BouncyCastle::Asn1 {
 class Asn1OctetString;
 }
-namespace Org::BouncyCastle::Asn1 {
-class Asn1TaggedObject;
+namespace System {
+class Object;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
 }
-namespace System {
-class Object;
+namespace Org::BouncyCastle::Asn1 {
+class Asn1TaggedObject;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::CryptoPro {

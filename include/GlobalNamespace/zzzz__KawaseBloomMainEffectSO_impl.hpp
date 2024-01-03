@@ -1,9 +1,9 @@
 #pragma once
 #include "GlobalNamespace/zzzz__MainEffectSO_impl.hpp"
 #include "GlobalNamespace/zzzz__KawaseBloomMainEffectSO_def.hpp"
+#include "UnityEngine/zzzz__Material_def.hpp"
 #include "UnityEngine/zzzz__RenderTexture_def.hpp"
 #include "UnityEngine/zzzz__Shader_def.hpp"
-#include "UnityEngine/zzzz__Material_def.hpp"
 #include "GlobalNamespace/zzzz__KawaseBlurRendererSO_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::KawaseBloomMainEffectSO.get_hasPostProcessEffect
 template <>

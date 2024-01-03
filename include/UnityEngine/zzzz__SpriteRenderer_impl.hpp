@@ -1,16 +1,16 @@
 #pragma once
 #include "UnityEngine/zzzz__Renderer_impl.hpp"
 #include "UnityEngine/zzzz__SpriteRenderer_def.hpp"
-#include "UnityEngine/zzzz__Sprite_def.hpp"
-#include "UnityEngine/zzzz__Vector2_def.hpp"
-#include "UnityEngine/zzzz__Bounds_def.hpp"
-#include "UnityEngine/Events/zzzz__UnityEvent_1_def.hpp"
-#include "UnityEngine/zzzz__SpriteMaskInteraction_def.hpp"
-#include "UnityEngine/zzzz__SpriteSortPoint_def.hpp"
-#include "UnityEngine/zzzz__Color_def.hpp"
 #include "UnityEngine/zzzz__SpriteDrawMode_def.hpp"
+#include "UnityEngine/zzzz__SpriteSortPoint_def.hpp"
+#include "UnityEngine/zzzz__Bounds_def.hpp"
 #include "UnityEngine/Events/zzzz__UnityAction_1_def.hpp"
+#include "UnityEngine/zzzz__Sprite_def.hpp"
 #include "UnityEngine/zzzz__SpriteTileMode_def.hpp"
+#include "UnityEngine/zzzz__Vector2_def.hpp"
+#include "UnityEngine/zzzz__Color_def.hpp"
+#include "UnityEngine/zzzz__SpriteMaskInteraction_def.hpp"
+#include "UnityEngine/Events/zzzz__UnityEvent_1_def.hpp"
 //  Writing Method size for method: ::UnityEngine::SpriteRenderer.RegisterSpriteChangeCallback
 template <>
 

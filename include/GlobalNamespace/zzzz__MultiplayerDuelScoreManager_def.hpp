@@ -6,22 +6,22 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(MultiplayerDuelScoreManager)
 namespace GlobalNamespace {
+class MultiplayerScoreProvider;
+}
+namespace GlobalNamespace {
 class IMultiplayerSessionManager;
 }
 namespace GlobalNamespace {
 class MultiplayerScoreItem;
 }
 namespace GlobalNamespace {
-class IConnectedPlayer;
+class MultiplayerController;
 }
 namespace GlobalNamespace {
 struct __MultiplayerController__State;
 }
 namespace GlobalNamespace {
-class MultiplayerController;
-}
-namespace GlobalNamespace {
-class MultiplayerScoreProvider;
+class IConnectedPlayer;
 }
 // Forward declare root types
 namespace GlobalNamespace {

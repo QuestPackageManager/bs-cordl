@@ -2,11 +2,11 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "GlobalNamespace/zzzz__SaberActivityCounter_def.hpp"
-#include "GlobalNamespace/zzzz__MovementHistoryRecorder_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
 #include "GlobalNamespace/zzzz__Saber_def.hpp"
-#include "GlobalNamespace/zzzz__AveragingValueRecorder_def.hpp"
+#include "GlobalNamespace/zzzz__MovementHistoryRecorder_def.hpp"
 #include "GlobalNamespace/zzzz__SaberManager_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
+#include "GlobalNamespace/zzzz__AveragingValueRecorder_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::SaberActivityCounter.add_totalDistanceDidChangeEvent
 template <>
 

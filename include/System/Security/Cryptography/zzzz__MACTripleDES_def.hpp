@@ -7,16 +7,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(MACTripleDES)
 namespace System::Security::Cryptography {
-class TripleDES;
+class ICryptoTransform;
 }
 namespace System::Security::Cryptography {
 class CryptoStream;
 }
 namespace System::Security::Cryptography {
-class ICryptoTransform;
+class TailStream;
 }
 namespace System::Security::Cryptography {
-class TailStream;
+class TripleDES;
 }
 // Forward declare root types
 namespace System::Security::Cryptography {

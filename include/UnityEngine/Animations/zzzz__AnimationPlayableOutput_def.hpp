@@ -8,19 +8,19 @@ CORDL_MODULE_INIT
 #include <cstddef>
 CORDL_MODULE_EXPORT(AnimationPlayableOutput)
 namespace UnityEngine::Playables {
-struct PlayableOutput;
-}
-namespace UnityEngine::Playables {
 class IPlayableOutput;
-}
-namespace UnityEngine::Playables {
-struct PlayableGraph;
 }
 namespace UnityEngine {
 class Animator;
 }
 namespace UnityEngine::Playables {
 struct PlayableOutputHandle;
+}
+namespace UnityEngine::Playables {
+struct PlayableGraph;
+}
+namespace UnityEngine::Playables {
+struct PlayableOutput;
 }
 // Forward declare root types
 namespace UnityEngine::Animations {

@@ -9,11 +9,11 @@ CORDL_MODULE_EXPORT(SignalDeclarationBindInfo)
 namespace System {
 class Object;
 }
-namespace Zenject {
-struct SignalMissingHandlerResponses;
-}
 namespace System {
 class Type;
+}
+namespace Zenject {
+struct SignalMissingHandlerResponses;
 }
 // Forward declare root types
 namespace Zenject {

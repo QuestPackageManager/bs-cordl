@@ -6,20 +6,26 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(LayoutRebuilder)
-namespace UnityEngine::UI {
-class __LayoutRebuilder____c;
+namespace UnityEngine {
+class Component;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace System {
+class Object;
 }
 namespace UnityEngine::UI {
 struct CanvasUpdate;
 }
 namespace UnityEngine {
-class Transform;
+class RectTransform;
 }
-namespace UnityEngine::Events {
-template <typename T0> class UnityAction_1;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace UnityEngine::UI {
+class __LayoutRebuilder____c;
+}
+namespace UnityEngine {
+class Transform;
 }
 namespace UnityEngine::UI {
 class ICanvasElement;
@@ -27,14 +33,8 @@ class ICanvasElement;
 namespace UnityEngine::Pool {
 template <typename T> class ObjectPool_1;
 }
-namespace UnityEngine {
-class RectTransform;
-}
-namespace UnityEngine {
-class Component;
-}
-namespace System {
-class Object;
+namespace UnityEngine::Events {
+template <typename T0> class UnityAction_1;
 }
 namespace System {
 template <typename T> class Predicate_1;

@@ -1,9 +1,9 @@
 #pragma once
 #include "Org/BouncyCastle/Asn1/zzzz__DerSequence_impl.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__LazyDerSequence_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__DerOutputStream_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__DerOutputStream_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Asn1::LazyDerSequence._ctor
 template <>
 

@@ -4,13 +4,13 @@
 #include "System/Net/zzzz__WebResponse_impl.hpp"
 #include "System/zzzz__DateTime_impl.hpp"
 #include "System/Net/zzzz__FtpWebResponse_def.hpp"
-#include "System/Net/zzzz__FtpStatusCode_def.hpp"
 #include "System/zzzz__Uri_def.hpp"
+#include "System/IO/zzzz__Stream_def.hpp"
 #include "System/Net/zzzz__WebHeaderCollection_def.hpp"
+#include "System/zzzz__DateTime_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
 #include "System/Net/zzzz__FtpWebResponse_def.hpp"
-#include "System/zzzz__DateTime_def.hpp"
-#include "System/IO/zzzz__Stream_def.hpp"
+#include "System/Net/zzzz__FtpStatusCode_def.hpp"
 //  Writing Method size for method: ::System::Net::__FtpWebResponse__EmptyStream._ctor
 template <>
 

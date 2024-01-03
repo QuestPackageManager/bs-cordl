@@ -1,9 +1,9 @@
 #pragma once
 #include "Newtonsoft/Json/Linq/zzzz__JValue_impl.hpp"
 #include "Newtonsoft/Json/Linq/zzzz__JRaw_def.hpp"
+#include "Newtonsoft/Json/Linq/zzzz__JToken_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "Newtonsoft/Json/zzzz__JsonReader_def.hpp"
-#include "Newtonsoft/Json/Linq/zzzz__JToken_def.hpp"
 //  Writing Method size for method: ::Newtonsoft::Json::Linq::JRaw._ctor
 template <>
 

@@ -9,11 +9,11 @@ CORDL_MODULE_EXPORT(NTAccount)
 namespace System {
 class Type;
 }
-namespace System {
-class Object;
-}
 namespace System::Security::Principal {
 class IdentityReference;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::Security::Principal {

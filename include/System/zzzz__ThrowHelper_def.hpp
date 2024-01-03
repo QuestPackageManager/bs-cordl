@@ -6,38 +6,38 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ThrowHelper)
-namespace System {
-class Array;
-}
-namespace System {
-class ArgumentNullException;
-}
-namespace System {
-struct ExceptionResource;
-}
-namespace System {
-class InvalidOperationException;
-}
-namespace System {
-struct ExceptionArgument;
-}
-namespace System {
-class Exception;
-}
 namespace System::Collections::Generic {
 class KeyNotFoundException;
-}
-namespace System {
-class ArgumentException;
 }
 namespace System {
 class Object;
 }
 namespace System {
+class Array;
+}
+namespace System {
 class Type;
 }
 namespace System {
+struct ExceptionResource;
+}
+namespace System {
 class ArgumentOutOfRangeException;
+}
+namespace System {
+struct ExceptionArgument;
+}
+namespace System {
+class ArgumentException;
+}
+namespace System {
+class InvalidOperationException;
+}
+namespace System {
+class ArgumentNullException;
+}
+namespace System {
+class Exception;
 }
 // Forward declare root types
 namespace System {

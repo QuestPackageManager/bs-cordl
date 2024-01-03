@@ -7,20 +7,20 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Warning)
+namespace UnityEngine {
+class Transform;
+}
 namespace RootMotion {
 class __Warning__Logger;
 }
-namespace UnityEngine {
-class Transform;
+namespace System {
+class Object;
 }
 namespace System {
 class IAsyncResult;
 }
 namespace System {
 class AsyncCallback;
-}
-namespace System {
-class Object;
 }
 // Forward declare root types
 namespace RootMotion {

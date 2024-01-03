@@ -12,52 +12,52 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(AudioClipAsyncLoader)
 namespace GlobalNamespace {
-class IFilePathSongAudioClipProvider;
-}
-namespace GlobalNamespace {
 template <typename TKey, typename TValue> class IReferenceCountingCache_2;
 }
-namespace System {
-template <typename T> class Action_1;
-}
 namespace GlobalNamespace {
-class IAssetSongPreviewAudioClipProvider;
-}
-namespace UnityEngine {
-class AudioClip;
-}
-namespace GlobalNamespace {
-class __AudioClipAsyncLoader____c;
-}
-namespace GlobalNamespace {
-class IBeatmapLevel;
+class IAssetSongAudioClipProvider;
 }
 namespace GlobalNamespace {
 class IPreviewBeatmapLevel;
 }
 namespace GlobalNamespace {
-class IAssetSongAudioClipProvider;
+class IAssetSongPreviewAudioClipProvider;
 }
-namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
+namespace GlobalNamespace {
+class IBeatmapLevel;
 }
 namespace GlobalNamespace {
 struct __AudioClipAsyncLoader___Unload_d__21;
 }
 namespace GlobalNamespace {
-class __AudioClipAsyncLoader____c__DisplayClass17_0;
-}
-namespace GlobalNamespace {
-class __AudioClipAsyncLoader____c__DisplayClass16_0;
-}
-namespace GlobalNamespace {
 class IFilePathSongPreviewAudioClipProvider;
+}
+namespace GlobalNamespace {
+class __AudioClipAsyncLoader____c__DisplayClass17_0;
 }
 namespace GlobalNamespace {
 class IMediaAsyncLoader;
 }
 namespace GlobalNamespace {
+class __AudioClipAsyncLoader____c;
+}
+namespace GlobalNamespace {
+class IFilePathSongAudioClipProvider;
+}
+namespace System::Threading::Tasks {
+template <typename TResult> class Task_1;
+}
+namespace GlobalNamespace {
 class __AudioClipAsyncLoader__LoadMethodDelegate;
+}
+namespace UnityEngine {
+class AudioClip;
+}
+namespace System {
+template <typename T> class Action_1;
+}
+namespace GlobalNamespace {
+class __AudioClipAsyncLoader____c__DisplayClass16_0;
 }
 namespace System {
 class AsyncCallback;
@@ -72,10 +72,10 @@ namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
 }
 namespace System::Runtime::CompilerServices {
-template <typename TResult> struct TaskAwaiter_1;
+struct AsyncVoidMethodBuilder;
 }
 namespace System::Runtime::CompilerServices {
-struct AsyncVoidMethodBuilder;
+template <typename TResult> struct TaskAwaiter_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -321,8 +321,8 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__AudioClipAsyn
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3400)), TypeDefinitionIndex(TypeDefinitionIndex(15594)), TypeDefinitionIndex(TypeDefinitionIndex(3394)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 276 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(5887)) CS Name: ::AudioClipAsyncLoader::<Unload>d__21
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3394)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 276 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(3400)), TypeDefinitionIndex(TypeDefinitionIndex(15594))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5887)) CS Name: ::AudioClipAsyncLoader::<Unload>d__21
 struct CORDL_TYPE __AudioClipAsyncLoader___Unload_d__21 {
 public:
   // Declarations

@@ -1,7 +1,7 @@
 #pragma once
 #include "UnityEngine/XR/zzzz__Hand_def.hpp"
-#include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "System/zzzz__IEquatable_1_def.hpp"
 //  Writing Method size for method: ::UnityEngine::XR::Hand.get_deviceId
 template <>
 

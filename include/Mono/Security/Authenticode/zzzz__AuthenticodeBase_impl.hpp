@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "Mono/Security/Authenticode/zzzz__AuthenticodeBase_def.hpp"
-#include "System/IO/zzzz__Stream_def.hpp"
 #include "System/Security/Cryptography/zzzz__HashAlgorithm_def.hpp"
+#include "System/IO/zzzz__Stream_def.hpp"
 //  Writing Method size for method: ::Mono::Security::Authenticode::AuthenticodeBase._ctor
 template <>
 

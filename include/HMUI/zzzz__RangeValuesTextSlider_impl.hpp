@@ -1,10 +1,10 @@
 #pragma once
 #include "HMUI/zzzz__TextSlider_impl.hpp"
 #include "HMUI/zzzz__RangeValuesTextSlider_def.hpp"
-#include "HMUI/zzzz__ButtonBinder_def.hpp"
-#include "HMUI/zzzz__TextSlider_def.hpp"
 #include "System/zzzz__Action_2_def.hpp"
 #include "UnityEngine/UI/zzzz__Button_def.hpp"
+#include "HMUI/zzzz__TextSlider_def.hpp"
+#include "HMUI/zzzz__ButtonBinder_def.hpp"
 //  Writing Method size for method: ::HMUI::RangeValuesTextSlider.get_minValue
 template <>
 

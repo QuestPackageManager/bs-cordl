@@ -6,29 +6,8 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ZenPools)
-namespace Zenject {
-class InjectableInfo;
-}
-namespace Zenject {
-class InjectContext;
-}
-namespace Zenject {
-class BindStatement;
-}
-namespace System::Collections::Generic {
-template <typename T> class HashSet_1;
-}
-namespace Zenject {
-class IProvider;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
-}
-namespace Zenject {
-class BindInfo;
 }
 namespace Zenject {
 class DiContainer;
@@ -36,17 +15,38 @@ class DiContainer;
 namespace System {
 class Type;
 }
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
+}
 namespace Zenject {
 struct BindingId;
 }
-namespace Zenject {
-template <typename TValue> class StaticMemoryPool_1;
+namespace System {
+class Object;
 }
 namespace Zenject::Internal {
 class LookupId;
 }
-namespace System {
-class Object;
+namespace Zenject {
+class InjectContext;
+}
+namespace Zenject {
+class IProvider;
+}
+namespace Zenject {
+template <typename TValue> class StaticMemoryPool_1;
+}
+namespace Zenject {
+class BindInfo;
+}
+namespace System::Collections::Generic {
+template <typename T> class HashSet_1;
+}
+namespace Zenject {
+class InjectableInfo;
+}
+namespace Zenject {
+class BindStatement;
 }
 // Forward declare root types
 namespace Zenject::Internal {

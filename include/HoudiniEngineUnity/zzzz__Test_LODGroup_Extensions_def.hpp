@@ -5,17 +5,17 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(Test_LODGroup_Extensions)
-namespace HoudiniEngineUnity {
-class Test_LODGroup;
-}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
-namespace UnityEngine {
-class LODGroup;
+namespace HoudiniEngineUnity {
+class Test_LODGroup;
 }
 namespace HoudiniEngineUnity {
 class __Test_LODGroup_Extensions____c;
+}
+namespace UnityEngine {
+class LODGroup;
 }
 namespace System {
 template <typename TInput, typename TOutput> class Converter_2;

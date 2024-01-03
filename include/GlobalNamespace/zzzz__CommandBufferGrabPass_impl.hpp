@@ -2,10 +2,10 @@
 #include "GlobalNamespace/zzzz__CommandBufferGOCore_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__CameraEvent_impl.hpp"
 #include "GlobalNamespace/zzzz__CommandBufferGrabPass_def.hpp"
-#include "UnityEngine/zzzz__Camera_def.hpp"
-#include "UnityEngine/Rendering/zzzz__CameraEvent_def.hpp"
 #include "UnityEngine/Rendering/zzzz__CommandBuffer_def.hpp"
+#include "UnityEngine/Rendering/zzzz__CameraEvent_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "UnityEngine/zzzz__Camera_def.hpp"
 #include "GlobalNamespace/zzzz__CommandBufferOwners_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::CommandBufferGrabPass.CreateCommandBuffer
 template <>

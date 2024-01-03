@@ -7,26 +7,26 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(SceneSelection)
-namespace UnityEngine {
-class GameObject;
-}
 namespace System {
-class Object;
+template <typename T> class IEquatable_1;
 }
 namespace UnityEngine::ProBuilder {
 class Face;
-}
-namespace UnityEngine::ProBuilder {
-class ProBuilderMesh;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace System {
-template <typename T> class IEquatable_1;
+class Object;
+}
+namespace UnityEngine::ProBuilder {
+class ProBuilderMesh;
 }
 namespace UnityEngine::ProBuilder {
 struct Edge;
+}
+namespace UnityEngine {
+class GameObject;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder {
@@ -38,7 +38,7 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::SceneSelection);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12117))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12117)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12191))
 // CS Name: ::UnityEngine.ProBuilder::SceneSelection*
 class CORDL_TYPE SceneSelection : public ::System::Object {

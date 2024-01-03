@@ -7,19 +7,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Substring)
 namespace System {
-struct StringComparison;
-}
-namespace System {
-template <typename T> class IComparable_1;
-}
-namespace System {
 template <typename T> class IEquatable_1;
 }
 namespace System {
 class Object;
 }
+namespace System {
+template <typename T> class IComparable_1;
+}
 namespace UnityEngine::InputSystem::Utilities {
 struct InternedString;
+}
+namespace System {
+struct StringComparison;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::Utilities {

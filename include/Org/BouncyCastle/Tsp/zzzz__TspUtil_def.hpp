@@ -6,29 +6,29 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(TspUtil)
-namespace System::Collections {
-class IDictionary;
+namespace Org::BouncyCastle::X509 {
+class X509Certificate;
 }
 namespace Org::BouncyCastle::Cms {
 class SignerInformation;
 }
-namespace Org::BouncyCastle::X509 {
-class X509Certificate;
-}
-namespace Org::BouncyCastle::Utilities::Collections {
-class ISet;
+namespace System::Collections {
+class IDictionary;
 }
 namespace System::Collections {
 class ICollection;
 }
-namespace Org::BouncyCastle::Asn1::X509 {
-class X509Extensions;
+namespace System::Collections {
+class IList;
+}
+namespace Org::BouncyCastle::Utilities::Collections {
+class ISet;
 }
 namespace Org::BouncyCastle::Crypto {
 class IDigest;
 }
-namespace System::Collections {
-class IList;
+namespace Org::BouncyCastle::Asn1::X509 {
+class X509Extensions;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Tsp {

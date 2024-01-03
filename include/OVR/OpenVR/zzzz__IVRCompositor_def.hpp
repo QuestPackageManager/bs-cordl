@@ -55,49 +55,46 @@ namespace OVR::OpenVR {
 struct VRTextureBounds_t;
 }
 namespace OVR::OpenVR {
-class __IVRCompositor___CompositorGoToBack;
+class __IVRCompositor___CanRenderScene;
+}
+namespace OVR::OpenVR {
+class __IVRCompositor___SuspendRendering;
+}
+namespace OVR::OpenVR {
+class __IVRCompositor___ReleaseSharedGLTexture;
 }
 namespace OVR::OpenVR {
 class __IVRCompositor___WaitGetPoses;
 }
 namespace OVR::OpenVR {
-class __IVRCompositor___CompositorQuit;
-}
-namespace OVR::OpenVR {
-class __IVRCompositor___GetFrameTimeRemaining;
-}
-namespace OVR::OpenVR {
-class __IVRCompositor___CompositorDumpImages;
-}
-namespace OVR::OpenVR {
 class __IVRCompositor___GetMirrorTextureGL;
+}
+namespace OVR::OpenVR {
+class __IVRCompositor___SetExplicitTimingMode;
+}
+namespace OVR::OpenVR {
+class __IVRCompositor___GetCurrentFadeColor;
+}
+namespace OVR::OpenVR {
+class __IVRCompositor___GetTrackingSpace;
+}
+namespace OVR::OpenVR {
+class __IVRCompositor___ShowMirrorWindow;
+}
+namespace OVR::OpenVR {
+class __IVRCompositor___ForceReconnectProcess;
+}
+namespace OVR::OpenVR {
+class __IVRCompositor___GetLastPoseForTrackedDeviceIndex;
 }
 namespace OVR::OpenVR {
 class __IVRCompositor___PostPresentHandoff;
 }
 namespace OVR::OpenVR {
-class __IVRCompositor___UnlockGLSharedTextureForAccess;
-}
-namespace OVR::OpenVR {
-class __IVRCompositor___ClearSkyboxOverride;
-}
-namespace OVR::OpenVR {
 class __IVRCompositor___SubmitExplicitTimingData;
 }
 namespace OVR::OpenVR {
-class __IVRCompositor___GetFrameTimings;
-}
-namespace OVR::OpenVR {
-class __IVRCompositor___GetLastFrameRenderer;
-}
-namespace OVR::OpenVR {
-class __IVRCompositor___ShouldAppRenderWithLowResources;
-}
-namespace OVR::OpenVR {
-class __IVRCompositor___ReleaseMirrorTextureD3D11;
-}
-namespace OVR::OpenVR {
-class __IVRCompositor___SuspendRendering;
+class __IVRCompositor___CompositorDumpImages;
 }
 namespace OVR::OpenVR {
 class __IVRCompositor___Submit;
@@ -106,7 +103,55 @@ namespace OVR::OpenVR {
 class __IVRCompositor___GetCumulativeStats;
 }
 namespace OVR::OpenVR {
-class __IVRCompositor___GetCurrentFadeColor;
+class __IVRCompositor___GetVulkanDeviceExtensionsRequired;
+}
+namespace OVR::OpenVR {
+class __IVRCompositor___GetFrameTimeRemaining;
+}
+namespace OVR::OpenVR {
+class __IVRCompositor___CompositorGoToBack;
+}
+namespace OVR::OpenVR {
+class __IVRCompositor___ClearSkyboxOverride;
+}
+namespace OVR::OpenVR {
+class __IVRCompositor___CompositorBringToFront;
+}
+namespace OVR::OpenVR {
+class __IVRCompositor___ShouldAppRenderWithLowResources;
+}
+namespace OVR::OpenVR {
+class __IVRCompositor___ReleaseMirrorTextureD3D11;
+}
+namespace OVR::OpenVR {
+class __IVRCompositor___GetFrameTimings;
+}
+namespace OVR::OpenVR {
+class __IVRCompositor___GetFrameTiming;
+}
+namespace OVR::OpenVR {
+class __IVRCompositor___ForceInterleavedReprojectionOn;
+}
+namespace OVR::OpenVR {
+class __IVRCompositor___GetVulkanInstanceExtensionsRequired;
+}
+namespace OVR::OpenVR {
+class __IVRCompositor___GetLastPoses;
+}
+namespace OVR::OpenVR {
+class __IVRCompositor___FadeToColor;
+}
+namespace OVR::OpenVR {
+class __IVRCompositor___UnlockGLSharedTextureForAccess;
+}
+namespace OVR::OpenVR {
+class __IVRCompositor___GetLastFrameRenderer;
+}
+namespace OVR::OpenVR {
+class __IVRCompositor___LockGLSharedTextureForAccess;
+}
+namespace OVR::OpenVR {
+class __IVRCompositor___IsFullscreen;
 }
 namespace OVR::OpenVR {
 class __IVRCompositor___SetTrackingSpace;
@@ -115,13 +160,16 @@ namespace OVR::OpenVR {
 class __IVRCompositor___GetCurrentGridAlpha;
 }
 namespace OVR::OpenVR {
-class __IVRCompositor___ReleaseSharedGLTexture;
+class __IVRCompositor___FadeGrid;
 }
 namespace OVR::OpenVR {
-class __IVRCompositor___SetExplicitTimingMode;
+class __IVRCompositor___SetSkyboxOverride;
 }
 namespace OVR::OpenVR {
-class __IVRCompositor___GetLastPoseForTrackedDeviceIndex;
+class __IVRCompositor___CompositorQuit;
+}
+namespace OVR::OpenVR {
+class __IVRCompositor___GetMirrorTextureD3D11;
 }
 namespace OVR::OpenVR {
 class __IVRCompositor___ClearLastSubmittedFrame;
@@ -130,58 +178,10 @@ namespace OVR::OpenVR {
 class __IVRCompositor___HideMirrorWindow;
 }
 namespace OVR::OpenVR {
-class __IVRCompositor___ShowMirrorWindow;
-}
-namespace OVR::OpenVR {
-class __IVRCompositor___FadeGrid;
-}
-namespace OVR::OpenVR {
-class __IVRCompositor___CompositorBringToFront;
-}
-namespace OVR::OpenVR {
-class __IVRCompositor___ForceInterleavedReprojectionOn;
-}
-namespace OVR::OpenVR {
-class __IVRCompositor___GetMirrorTextureD3D11;
-}
-namespace OVR::OpenVR {
-class __IVRCompositor___GetVulkanDeviceExtensionsRequired;
-}
-namespace OVR::OpenVR {
-class __IVRCompositor___GetTrackingSpace;
-}
-namespace OVR::OpenVR {
-class __IVRCompositor___GetLastPoses;
-}
-namespace OVR::OpenVR {
-class __IVRCompositor___ForceReconnectProcess;
-}
-namespace OVR::OpenVR {
-class __IVRCompositor___LockGLSharedTextureForAccess;
-}
-namespace OVR::OpenVR {
 class __IVRCompositor___GetCurrentSceneFocusProcess;
 }
 namespace OVR::OpenVR {
-class __IVRCompositor___CanRenderScene;
-}
-namespace OVR::OpenVR {
 class __IVRCompositor___IsMirrorWindowVisible;
-}
-namespace OVR::OpenVR {
-class __IVRCompositor___SetSkyboxOverride;
-}
-namespace OVR::OpenVR {
-class __IVRCompositor___GetFrameTiming;
-}
-namespace OVR::OpenVR {
-class __IVRCompositor___GetVulkanInstanceExtensionsRequired;
-}
-namespace OVR::OpenVR {
-class __IVRCompositor___IsFullscreen;
-}
-namespace OVR::OpenVR {
-class __IVRCompositor___FadeToColor;
 }
 // Forward declare root types
 namespace OVR::OpenVR {

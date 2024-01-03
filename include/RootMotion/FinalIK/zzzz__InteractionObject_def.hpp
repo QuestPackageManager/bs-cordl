@@ -12,34 +12,34 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(InteractionObject)
 namespace RootMotion::FinalIK {
-class InteractionTarget;
+class __InteractionObject__InteractionEvent;
 }
 namespace RootMotion::FinalIK {
 class __InteractionObject__Message;
 }
 namespace RootMotion::FinalIK {
-class __InteractionObject__AnimatorEvent;
-}
-namespace RootMotion::FinalIK {
 class __InteractionObject__WeightCurve;
-}
-namespace RootMotion::FinalIK {
-struct FullBodyBipedEffector;
 }
 namespace RootMotion::FinalIK {
 class IKSolverFullBodyBiped;
 }
 namespace RootMotion::FinalIK {
-class __InteractionObject__InteractionEvent;
+struct FullBodyBipedEffector;
+}
+namespace RootMotion::FinalIK {
+class InteractionSystem;
 }
 namespace RootMotion::FinalIK {
 class __InteractionObject__Multiplier;
 }
-namespace UnityEngine {
-class Transform;
+namespace RootMotion::FinalIK {
+class InteractionTarget;
 }
 namespace RootMotion::FinalIK {
-class InteractionSystem;
+class __InteractionObject__AnimatorEvent;
+}
+namespace UnityEngine {
+class Transform;
 }
 namespace UnityEngine {
 class Animation;
@@ -507,7 +507,7 @@ static_assert(offsetof(::GlobalNamespace::__InteractionObject__WeightCurve__Type
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12600))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12600)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12601))
 // CS Name: ::InteractionObject::WeightCurve*
 class CORDL_TYPE __InteractionObject__WeightCurve : public ::System::Object {

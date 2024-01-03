@@ -11,34 +11,34 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVRDeserialize)
 namespace GlobalNamespace {
-struct __OVRDeserialize__DisplayRefreshRateChangedData;
-}
-namespace GlobalNamespace {
-struct __OVRDeserialize__SpaceQueryResultsData;
+struct __OVRDeserialize__SpaceEraseCompleteData;
 }
 namespace GlobalNamespace {
 struct __OVRDeserialize__SpaceShareResultData;
 }
 namespace GlobalNamespace {
+struct __OVRDeserialize__SpatialAnchorCreateCompleteData;
+}
+namespace GlobalNamespace {
+struct __OVRDeserialize__SpaceQueryResultsData;
+}
+namespace GlobalNamespace {
+struct __OVRDeserialize__SpaceQueryCompleteData;
+}
+namespace GlobalNamespace {
 struct __OVRDeserialize__SpaceSaveCompleteData;
-}
-namespace GlobalNamespace {
-struct __OVRDeserialize__SpaceEraseCompleteData;
-}
-namespace GlobalNamespace {
-struct __OVRDeserialize__SpaceListSaveResultData;
 }
 namespace GlobalNamespace {
 struct __OVRDeserialize__SceneCaptureCompleteData;
 }
 namespace GlobalNamespace {
-struct __OVRDeserialize__SpatialAnchorCreateCompleteData;
+struct __OVRDeserialize__SpaceListSaveResultData;
 }
 namespace GlobalNamespace {
 struct __OVRDeserialize__SpaceSetComponentStatusCompleteData;
 }
 namespace GlobalNamespace {
-struct __OVRDeserialize__SpaceQueryCompleteData;
+struct __OVRDeserialize__DisplayRefreshRateChangedData;
 }
 namespace System {
 struct Guid;
@@ -391,7 +391,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRDeserialize__SpaceSaveCompleteDat
 // SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2406)), TypeDefinitionIndex(TypeDefinitionIndex(7836))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7836)), TypeDefinitionIndex(TypeDefinitionIndex(2406))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8100))
 // CS Name: ::OVRDeserialize::SpaceEraseCompleteData
 struct CORDL_TYPE __OVRDeserialize__SpaceEraseCompleteData {

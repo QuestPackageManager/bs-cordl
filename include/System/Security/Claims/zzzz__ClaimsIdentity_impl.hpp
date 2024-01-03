@@ -1,19 +1,19 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Security/Claims/zzzz__ClaimsIdentity_def.hpp"
-#include "System/zzzz__Object_def.hpp"
-#include "System/Security/Claims/zzzz__Claim_def.hpp"
-#include "System/Security/Claims/zzzz__ClaimsIdentity_def.hpp"
-#include "System/Security/Principal/zzzz__IIdentity_def.hpp"
-#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+#include "System/Security/Claims/zzzz__ClaimsIdentity_def.hpp"
 #include "System/Collections/ObjectModel/zzzz__Collection_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "System/Security/Principal/zzzz__IIdentity_def.hpp"
+#include "System/Security/Claims/zzzz__Claim_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include "System/Collections/zzzz__IEnumerable_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 //  Writing Method size for method: ::System::Security::Claims::__ClaimsIdentity___get_Claims_d__51._ctor
 template <>
 

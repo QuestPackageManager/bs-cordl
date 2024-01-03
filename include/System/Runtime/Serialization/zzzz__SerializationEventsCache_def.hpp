@@ -4,8 +4,8 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(SerializationEventsCache)
-namespace System {
-class Type;
+namespace System::Runtime::Serialization {
+class SerializationEvents;
 }
 namespace System::Collections::Concurrent {
 template <typename TKey, typename TValue> class ConcurrentDictionary_2;
@@ -13,8 +13,8 @@ template <typename TKey, typename TValue> class ConcurrentDictionary_2;
 namespace System::Runtime::Serialization {
 class __SerializationEventsCache____c;
 }
-namespace System::Runtime::Serialization {
-class SerializationEvents;
+namespace System {
+class Type;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;

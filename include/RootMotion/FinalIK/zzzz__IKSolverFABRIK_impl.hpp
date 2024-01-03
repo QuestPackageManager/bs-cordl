@@ -1,9 +1,9 @@
 #pragma once
 #include "RootMotion/FinalIK/zzzz__IKSolverHeuristic_impl.hpp"
 #include "RootMotion/FinalIK/zzzz__IKSolverFABRIK_def.hpp"
-#include "UnityEngine/zzzz__Quaternion_def.hpp"
 #include "RootMotion/FinalIK/zzzz__IKSolver_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "UnityEngine/zzzz__Quaternion_def.hpp"
 //  Writing Method size for method: ::RootMotion::FinalIK::IKSolverFABRIK.SolveForward
 template <>
 

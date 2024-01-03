@@ -11,11 +11,11 @@ class IRemoteProcedureCall;
 namespace LiteNetLib::Utils {
 class NetDataReader;
 }
-namespace LiteNetLib::Utils {
-class NetDataWriter;
-}
 namespace GlobalNamespace {
 template <typename T> class __RemoteProcedureCall__TypeWrapper_1;
+}
+namespace LiteNetLib::Utils {
+class NetDataWriter;
 }
 // Forward declare root types
 namespace GlobalNamespace {

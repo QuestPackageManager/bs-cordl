@@ -6,17 +6,17 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(NoteCutHapticEffect)
+namespace Libraries::HM::HMLib::VR {
+class HapticPresetSO;
+}
 namespace GlobalNamespace {
-struct SaberType;
+class HapticFeedbackManager;
 }
 namespace GlobalNamespace {
 struct __NoteCutHapticEffect__Type;
 }
 namespace GlobalNamespace {
-class HapticFeedbackManager;
-}
-namespace Libraries::HM::HMLib::VR {
-class HapticPresetSO;
+struct SaberType;
 }
 // Forward declare root types
 namespace GlobalNamespace {

@@ -5,16 +5,16 @@ CORDL_MODULE_INIT
 #include "UnityEngine/UIElements/zzzz__EventBase_1_def.hpp"
 CORDL_MODULE_EXPORT(FocusEventBase_1)
 namespace UnityEngine::UIElements {
-class IEventHandler;
-}
-namespace UnityEngine::UIElements {
-class FocusChangeDirection;
+class Focusable;
 }
 namespace UnityEngine::UIElements {
 class FocusController;
 }
 namespace UnityEngine::UIElements {
-class Focusable;
+class IEventHandler;
+}
+namespace UnityEngine::UIElements {
+class FocusChangeDirection;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

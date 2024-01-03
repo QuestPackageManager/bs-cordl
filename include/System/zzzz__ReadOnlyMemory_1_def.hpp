@@ -9,13 +9,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ReadOnlyMemory_1)
 namespace System {
-class Object;
+template <typename T> struct ReadOnlySpan_1;
 }
 namespace System {
 template <typename T> class IEquatable_1;
 }
 namespace System {
-template <typename T> struct ReadOnlySpan_1;
+class Object;
 }
 // Forward declare root types
 namespace System {

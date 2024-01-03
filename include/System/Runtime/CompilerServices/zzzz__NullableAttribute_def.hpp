@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::System::Runtime::CompilerServices::NullableAttribute);
 namespace System::Runtime::CompilerServices {
 // Is value type: false
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3954))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15838))
 // CS Name: ::System.Runtime.CompilerServices::NullableAttribute*
 class CORDL_TYPE NullableAttribute : public ::System::Attribute {
 public:
@@ -33,12 +33,12 @@ public:
 
   static inline ::System::Runtime::CompilerServices::NullableAttribute* New_ctor(uint8_t _cordl_fixed_empty_name_whitespace);
 
-  /// @brief Method .ctor, addr 0x2216b9c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe26510, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(uint8_t _cordl_fixed_empty_name_whitespace);
 
   static inline ::System::Runtime::CompilerServices::NullableAttribute* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> _cordl_fixed_empty_name_whitespace);
 
-  /// @brief Method .ctor, addr 0x2216c1c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe26590, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> _cordl_fixed_empty_name_whitespace);
 
   // Ctor Parameters [CppParam { name: "", ty: "NullableAttribute", modifiers: "&&", def_value: None }]

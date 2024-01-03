@@ -9,16 +9,16 @@ namespace GlobalNamespace {
 class GameScenesManager;
 }
 namespace GlobalNamespace {
-class RecordingToolSettingsViewController;
+class RecordingToolConfigViewController;
 }
 namespace GlobalNamespace {
-class __RecordingToolSettingsFlowCoordinator__InitData;
+class RecordingToolSettingsViewController;
 }
 namespace GlobalNamespace {
 class RecordingToolLoggingViewController;
 }
 namespace GlobalNamespace {
-class RecordingToolConfigViewController;
+class __RecordingToolSettingsFlowCoordinator__InitData;
 }
 namespace GlobalNamespace {
 class ScenesTransitionSetupDataSO;

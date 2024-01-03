@@ -17,26 +17,8 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVRTrackedKeyboard)
-namespace UnityEngine {
-class MeshFilter;
-}
 namespace GlobalNamespace {
-class OVRPassthroughLayer;
-}
-namespace UnityEngine {
-class BoxCollider;
-}
-namespace GlobalNamespace {
-class __OVRTrackedKeyboard____c;
-}
-namespace GlobalNamespace {
-class __OVRTrackedKeyboard___UpdateTrackingStateCoroutine_d__95;
-}
-namespace GlobalNamespace {
-class __OVRTrackedKeyboard___UpdateKeyboardPose_d__98;
-}
-namespace UnityEngine {
-class Coroutine;
+struct __OVRTrackedKeyboard__KeyboardPresentation;
 }
 namespace GlobalNamespace {
 class OVRCameraRig;
@@ -45,55 +27,73 @@ namespace GlobalNamespace {
 struct __OVRPlugin__TrackedKeyboardQueryFlags;
 }
 namespace UnityEngine {
-class MeshRenderer;
+class Transform;
 }
 namespace UnityEngine {
-class GameObject;
+class Texture2D;
 }
 namespace GlobalNamespace {
 class __OVRTrackedKeyboard___Start_d__88;
 }
-namespace UnityEngine {
-class Shader;
-}
-namespace UnityEngine {
-class Transform;
-}
 namespace System {
 template <typename T> class Action_1;
-}
-namespace GlobalNamespace {
-struct __OVRKeyboard__TrackedKeyboardInfo;
 }
 namespace System::Collections {
 class IEnumerator;
 }
 namespace GlobalNamespace {
-struct __OVRTrackedKeyboard__TrackedKeyboardState;
+struct __OVRKeyboard__TrackedKeyboardInfo;
+}
+namespace GlobalNamespace {
+struct __OVRTrackedKeyboard__TrackedKeyboardVisibilityChangedEvent;
+}
+namespace UnityEngine {
+class GameObject;
+}
+namespace GlobalNamespace {
+class OVRPassthroughLayer;
+}
+namespace GlobalNamespace {
+class __OVRTrackedKeyboard___StartKeyboardTrackingCoroutine_d__96;
+}
+namespace GlobalNamespace {
+class OVROverlay;
+}
+namespace UnityEngine {
+class MeshFilter;
+}
+namespace UnityEngine {
+class MeshRenderer;
+}
+namespace GlobalNamespace {
+struct __OVRTrackedKeyboard__TrackedKeyboardSetActiveEvent;
+}
+namespace UnityEngine {
+class Coroutine;
+}
+namespace UnityEngine {
+class BoxCollider;
 }
 namespace UnityEngine {
 struct Vector3;
 }
 namespace GlobalNamespace {
-class __OVRTrackedKeyboard___InitializeHandPresenceData_d__89;
-}
-namespace GlobalNamespace {
-struct __OVRTrackedKeyboard__TrackedKeyboardVisibilityChangedEvent;
-}
-namespace GlobalNamespace {
-class OVROverlay;
-}
-namespace GlobalNamespace {
-struct __OVRTrackedKeyboard__KeyboardPresentation;
-}
-namespace GlobalNamespace {
-struct __OVRTrackedKeyboard__TrackedKeyboardSetActiveEvent;
-}
-namespace GlobalNamespace {
-class __OVRTrackedKeyboard___StartKeyboardTrackingCoroutine_d__96;
+class __OVRTrackedKeyboard____c;
 }
 namespace UnityEngine {
-class Texture2D;
+class Shader;
+}
+namespace GlobalNamespace {
+struct __OVRTrackedKeyboard__TrackedKeyboardState;
+}
+namespace GlobalNamespace {
+class __OVRTrackedKeyboard___UpdateKeyboardPose_d__98;
+}
+namespace GlobalNamespace {
+class __OVRTrackedKeyboard___UpdateTrackingStateCoroutine_d__95;
+}
+namespace GlobalNamespace {
+class __OVRTrackedKeyboard___InitializeHandPresenceData_d__89;
 }
 namespace System {
 class Object;
@@ -568,7 +568,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRTrackedKeyboard___InitializeHandP
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8026)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8026))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8034))
 // CS Name: ::OVRTrackedKeyboard::<UpdateTrackingStateCoroutine>d__95*
 class CORDL_TYPE __OVRTrackedKeyboard___UpdateTrackingStateCoroutine_d__95 : public ::System::Object {
@@ -959,11 +959,11 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRTrackedKey
 // SizeInfo { instance_size: 400, native_size: -1, calculated_instance_size: 400, calculated_native_size: 393, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(7563)), TypeDefinitionIndex(TypeDefinitionIndex(8026)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 3342 }), TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(10225)),
-// TypeDefinitionIndex(TypeDefinitionIndex(8028)), TypeDefinitionIndex(TypeDefinitionIndex(7792)), TypeDefinitionIndex(TypeDefinitionIndex(8029)), TypeDefinitionIndex(TypeDefinitionIndex(2448)),
-// TypeDefinitionIndex(TypeDefinitionIndex(7790)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 412 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(8038)) CS
-// Name: ::OVRTrackedKeyboard*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8028)), TypeDefinitionIndex(TypeDefinitionIndex(7563)), TypeDefinitionIndex(TypeDefinitionIndex(7790)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 3342 }), TypeDefinitionIndex(TypeDefinitionIndex(8029)), TypeDefinitionIndex(TypeDefinitionIndex(10252)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 412 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(7792)), TypeDefinitionIndex(TypeDefinitionIndex(8026))} Self: TypeDefinitionIndex(TypeDefinitionIndex(8038))
+// CS Name: ::OVRTrackedKeyboard*
 class CORDL_TYPE OVRTrackedKeyboard : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations

@@ -6,50 +6,50 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(PrefabInstantiator)
-namespace Zenject {
-class IPrefabInstantiator;
-}
 namespace System {
 class Action;
 }
-namespace Zenject {
-struct TypeValuePair;
+namespace System {
+class Object;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace UnityEngine {
 class GameObject;
 }
 namespace Zenject {
-class __PrefabInstantiator____c__DisplayClass15_0;
-}
-namespace System {
-template <typename T1, typename T2> class Action_2;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
-namespace Zenject {
-class GameObjectCreationParameters;
-}
-namespace System {
-class Object;
-}
-namespace System {
-class Type;
-}
-namespace Zenject {
-class DiContainer;
+class InjectContext;
 }
 namespace UnityEngine {
 class Object;
 }
 namespace Zenject {
-class InjectContext;
+class __PrefabInstantiator____c__DisplayClass15_0;
+}
+namespace Zenject {
+class DiContainer;
+}
+namespace Zenject {
+class GameObjectCreationParameters;
+}
+namespace Zenject {
+class IPrefabInstantiator;
+}
+namespace Zenject {
+struct TypeValuePair;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
+namespace System {
+template <typename T1, typename T2> class Action_2;
 }
 namespace Zenject {
 class IPrefabProvider;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace System {
+class Type;
 }
 namespace Zenject {
 class InjectTypeInfo;

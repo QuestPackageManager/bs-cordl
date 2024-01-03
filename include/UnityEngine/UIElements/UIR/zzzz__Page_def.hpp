@@ -7,23 +7,23 @@ CORDL_MODULE_INIT
 #include "UnityEngine/UIElements/UIR/zzzz__GfxUpdateBufferRange_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Page)
-namespace System {
-class IDisposable;
+namespace UnityEngine::UIElements::UIR {
+template <typename T> class __Page__DataSet_1;
 }
 namespace UnityEngine::UIElements {
 struct Vertex;
 }
-namespace UnityEngine::UIElements::UIR {
-template <typename T> class __Page__DataSet_1;
+namespace System {
+class IDisposable;
 }
 namespace UnityEngine::UIElements::UIR {
-class GPUBufferAllocator;
+struct __Utility__GPUBufferType;
 }
 namespace UnityEngine::UIElements::UIR {
 template <typename T> class __Utility__GPUBuffer_1;
 }
 namespace UnityEngine::UIElements::UIR {
-struct __Utility__GPUBufferType;
+class GPUBufferAllocator;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements::UIR {
@@ -41,9 +41,9 @@ namespace UnityEngine::UIElements::UIR {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9999)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 744
-// }), TypeDefinitionIndex(TypeDefinitionIndex(15379)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 2550 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(7438))
-// CS Name: ::Page::DataSet`1<T>*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9999)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15379)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 744 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 2550 })} Self:
+// TypeDefinitionIndex(TypeDefinitionIndex(7438)) CS Name: ::Page::DataSet`1<T>*
 class CORDL_TYPE __Page__DataSet_1 : public ::System::Object {
 public:
   // Declarations

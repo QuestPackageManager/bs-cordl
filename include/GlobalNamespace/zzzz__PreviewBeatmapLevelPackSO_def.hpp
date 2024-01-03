@@ -7,19 +7,19 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(PreviewBeatmapLevelPackSO)
 namespace GlobalNamespace {
-class IBeatmapLevelPack;
+class PreviewBeatmapLevelCollectionSO;
 }
 namespace UnityEngine {
 class Sprite;
 }
 namespace GlobalNamespace {
-class IBeatmapLevelCollection;
-}
-namespace GlobalNamespace {
 class IAnnotatedBeatmapLevelCollection;
 }
 namespace GlobalNamespace {
-class PreviewBeatmapLevelCollectionSO;
+class IBeatmapLevelCollection;
+}
+namespace GlobalNamespace {
+class IBeatmapLevelPack;
 }
 namespace GlobalNamespace {
 struct PlayerSensitivityFlag;

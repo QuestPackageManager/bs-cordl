@@ -8,11 +8,11 @@ CORDL_MODULE_EXPORT(GuiRenderer)
 namespace Zenject {
 class InjectTypeInfo;
 }
-namespace System {
-class Object;
-}
 namespace Zenject {
 class GuiRenderableManager;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace Zenject {

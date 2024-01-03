@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__EnableOnVisible_def.hpp"
-#include "UnityEngine/zzzz__Behaviour_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
+#include "UnityEngine/zzzz__Behaviour_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::EnableOnVisible.add_VisibilityChangedEvent
 template <>
 

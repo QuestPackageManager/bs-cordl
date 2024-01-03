@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ConstructedOctetStream)
-namespace System::IO {
-class Stream;
-}
 namespace Org::BouncyCastle::Asn1 {
 class Asn1StreamParser;
+}
+namespace System::IO {
+class Stream;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1OctetStringParser;

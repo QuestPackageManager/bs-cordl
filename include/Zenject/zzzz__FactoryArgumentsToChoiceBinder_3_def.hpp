@@ -6,13 +6,10 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(FactoryArgumentsToChoiceBinder_3)
 namespace Zenject {
-class DiContainer;
-}
-namespace Zenject {
 class FactoryBindInfo;
 }
-namespace System {
-class Object;
+namespace Zenject {
+struct TypeValuePair;
 }
 namespace Zenject {
 class BindInfo;
@@ -21,7 +18,10 @@ namespace Zenject {
 template <typename TParam1, typename TParam2, typename TContract> class FactoryToChoiceBinder_3;
 }
 namespace Zenject {
-struct TypeValuePair;
+class DiContainer;
+}
+namespace System {
+class Object;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;

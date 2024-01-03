@@ -8,22 +8,22 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ElementUnderPointer)
 namespace UnityEngine::UIElements {
-struct ContextType;
-}
-namespace UnityEngine {
-struct Vector2;
-}
-namespace UnityEngine::UIElements {
-class IPointerEvent;
-}
-namespace UnityEngine::UIElements {
-class IMouseEvent;
+class VisualElement;
 }
 namespace UnityEngine::UIElements {
 class EventBase;
 }
 namespace UnityEngine::UIElements {
-class VisualElement;
+struct ContextType;
+}
+namespace UnityEngine::UIElements {
+class IPointerEvent;
+}
+namespace UnityEngine {
+struct Vector2;
+}
+namespace UnityEngine::UIElements {
+class IMouseEvent;
 }
 namespace UnityEngine::UIElements {
 class EventDispatcher;

@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(MultiplayerUnavailableReasonMethods)
-namespace Polyglot {
-struct Language;
-}
 namespace GlobalNamespace {
 class MultiplayerStatusData;
+}
+namespace Polyglot {
+struct Language;
 }
 namespace GlobalNamespace {
 struct MultiplayerUnavailableReason;

@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Asn1/zzzz__DerGenerator_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(DerSetGenerator)
-namespace System::IO {
-class Stream;
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Encodable;
 }
 namespace System::IO {
 class MemoryStream;
 }
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Encodable;
+namespace System::IO {
+class Stream;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1 {

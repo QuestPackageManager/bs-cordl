@@ -9,26 +9,26 @@ CORDL_MODULE_EXPORT(OptionalAvatarDataSyncHandler)
 namespace BeatSaber::AvatarCore {
 struct OptionalAvatarData;
 }
-namespace GlobalNamespace {
-class IConnectedPlayer;
+namespace System {
+template <typename T1, typename T2> class Action_2;
 }
 namespace GlobalNamespace {
-class ByteArrayNetSerializable;
+class IMultiplayerSessionManager;
+}
+namespace BeatSaber::AvatarCore {
+class OptionalAvatarDataPacket;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace System {
-template <typename T1, typename T2> class Action_2;
-}
-namespace BeatSaber::AvatarCore {
-class OptionalAvatarDataPacket;
+class IDisposable;
 }
 namespace GlobalNamespace {
-class IMultiplayerSessionManager;
+class IConnectedPlayer;
 }
-namespace System {
-class IDisposable;
+namespace GlobalNamespace {
+class ByteArrayNetSerializable;
 }
 // Forward declare root types
 namespace BeatSaber::AvatarCore {

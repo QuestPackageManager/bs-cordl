@@ -6,13 +6,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(IOVRAnchorComponent_1)
 namespace GlobalNamespace {
-template <typename TResult> struct OVRTask_1;
+struct OVRAnchor;
 }
 namespace GlobalNamespace {
 struct __OVRPlugin__SpaceComponentType;
 }
 namespace GlobalNamespace {
-struct OVRAnchor;
+template <typename TResult> struct OVRTask_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {

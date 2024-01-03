@@ -9,13 +9,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(StyleTranslate)
 namespace UnityEngine::UIElements {
+struct Translate;
+}
+namespace UnityEngine::UIElements {
 template <typename T> class IStyleValue_1;
 }
 namespace System {
 template <typename T> class IEquatable_1;
-}
-namespace UnityEngine::UIElements {
-struct Translate;
 }
 namespace UnityEngine::UIElements {
 struct StyleKeyword;

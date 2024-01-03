@@ -8,47 +8,56 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(NetPeer)
-namespace LiteNetLib {
-class NetPacketPool;
-}
 namespace System::Diagnostics {
 class Stopwatch;
 }
 namespace LiteNetLib {
-class BaseChannel;
-}
-namespace System::Net {
-class IPEndPoint;
-}
-namespace LiteNetLib {
-class NetStatistics;
-}
-namespace System::Collections::Generic {
-template <typename T> class Queue_1;
-}
-namespace LiteNetLib {
-struct DisconnectResult;
-}
-namespace LiteNetLib {
-class __NetPeer__IncomingFragments;
-}
-namespace LiteNetLib {
-struct ConnectionState;
-}
-namespace LiteNetLib {
-class NetConnectAcceptPacket;
+class NetPacket;
 }
 namespace LiteNetLib {
 class NetManager;
 }
 namespace LiteNetLib {
-class NetPacket;
+class __NetPeer__IncomingFragments;
+}
+namespace LiteNetLib {
+class NetStatistics;
+}
+namespace LiteNetLib {
+class BaseChannel;
+}
+namespace System::Collections::Generic {
+template <typename T> class Queue_1;
+}
+namespace LiteNetLib {
+class NetConnectAcceptPacket;
+}
+namespace System::Net {
+class IPEndPoint;
+}
+namespace LiteNetLib {
+struct DeliveryMethod;
+}
+namespace LiteNetLib {
+class NetPacketPool;
+}
+namespace LiteNetLib {
+struct ConnectionState;
+}
+namespace LiteNetLib {
+struct ShutdownResult;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace LiteNetLib::Utils {
 class NetDataWriter;
 }
 namespace LiteNetLib {
-struct DeliveryMethod;
+struct DisconnectResult;
+}
+namespace LiteNetLib {
+class NetConnectRequestPacket;
 }
 namespace LiteNetLib {
 struct ConnectRequestResult;
@@ -56,17 +65,8 @@ struct ConnectRequestResult;
 namespace System {
 class Object;
 }
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace LiteNetLib {
-class NetConnectRequestPacket;
-}
 namespace System {
 struct DateTime;
-}
-namespace LiteNetLib {
-struct ShutdownResult;
 }
 // Forward declare root types
 namespace LiteNetLib {

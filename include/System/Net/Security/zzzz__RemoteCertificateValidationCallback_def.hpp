@@ -8,11 +8,11 @@ CORDL_MODULE_EXPORT(RemoteCertificateValidationCallback)
 namespace System {
 class Object;
 }
-namespace System::Net::Security {
-struct SslPolicyErrors;
-}
 namespace System::Security::Cryptography::X509Certificates {
 class X509Certificate;
+}
+namespace System::Net::Security {
+struct SslPolicyErrors;
 }
 namespace System::Security::Cryptography::X509Certificates {
 class X509Chain;

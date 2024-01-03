@@ -2,9 +2,9 @@
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Networking/zzzz__DownloadHandler_def.hpp"
-#include "Unity/Collections/zzzz__NativeArray_1_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include "UnityEngine/Networking/zzzz__UnityWebRequest_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
+#include "Unity/Collections/zzzz__NativeArray_1_def.hpp"
 #include "System/Text/zzzz__Encoding_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Networking::DownloadHandler.Release
 template <>

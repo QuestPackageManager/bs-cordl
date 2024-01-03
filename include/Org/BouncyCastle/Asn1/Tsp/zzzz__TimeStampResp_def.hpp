@@ -7,17 +7,17 @@ CORDL_MODULE_EXPORT(TimeStampResp)
 namespace Org::BouncyCastle::Asn1::Cms {
 class ContentInfo;
 }
-namespace System {
-class Object;
-}
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
+}
+namespace Org::BouncyCastle::Asn1::Cmp {
+class PkiStatusInfo;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
 }
-namespace Org::BouncyCastle::Asn1::Cmp {
-class PkiStatusInfo;
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Tsp {

@@ -12,17 +12,17 @@ CORDL_MODULE_EXPORT(RegexCode)
 namespace System::Text::RegularExpressions {
 class RegexBoyerMoore;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
 namespace System::Collections {
 class Hashtable;
 }
-namespace System {
-template <typename T> struct Nullable_1;
-}
 namespace System::Text::RegularExpressions {
 struct RegexPrefix;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace System {
+template <typename T> struct Nullable_1;
 }
 // Forward declare root types
 namespace System::Text::RegularExpressions {
@@ -34,9 +34,8 @@ MARK_REF_PTR_T(::System::Text::RegularExpressions::RegexCode);
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 93, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Text::RegularExpressions {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2448)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 4755 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8927))} Self: TypeDefinitionIndex(TypeDefinitionIndex(8919)) CS Name:
-// ::System.Text.RegularExpressions::RegexCode*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8927)), TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(2613)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 4755 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(8919)) CS Name: ::System.Text.RegularExpressions::RegexCode*
 class CORDL_TYPE RegexCode : public ::System::Object {
 public:
   // Declarations

@@ -4,10 +4,10 @@
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IObservable_1)
 namespace System {
-template <typename T> class IObserver_1;
+class IDisposable;
 }
 namespace System {
-class IDisposable;
+template <typename T> class IObserver_1;
 }
 // Forward declare root types
 namespace System {

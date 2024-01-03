@@ -7,13 +7,13 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(MeshRendererSwitchEventEffect)
 namespace GlobalNamespace {
-class BeatmapDataCallbackWrapper;
+class BeatmapCallbacksController;
 }
 namespace UnityEngine {
 class MeshRenderer;
 }
 namespace GlobalNamespace {
-class BeatmapCallbacksController;
+class BeatmapDataCallbackWrapper;
 }
 namespace GlobalNamespace {
 class BasicBeatmapEventData;
@@ -28,7 +28,7 @@ MARK_REF_PTR_T(::GlobalNamespace::MeshRendererSwitchEventEffect);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(14724))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14724)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4955))
 // CS Name: ::MeshRendererSwitchEventEffect*
 class CORDL_TYPE MeshRendererSwitchEventEffect : public ::UnityEngine::MonoBehaviour {

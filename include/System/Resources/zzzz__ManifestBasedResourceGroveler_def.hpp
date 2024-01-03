@@ -7,20 +7,20 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ManifestBasedResourceGroveler)
-namespace System::Resources {
-struct UltimateResourceFallbackLocation;
-}
-namespace System::Resources {
-class __ResourceManager__ResourceManagerMediator;
+namespace System::Reflection {
+class Assembly;
 }
 namespace System::Resources {
 class IResourceGroveler;
 }
-namespace System::Reflection {
-class Assembly;
+namespace System::Resources {
+struct UltimateResourceFallbackLocation;
 }
 namespace System::Globalization {
 class CultureInfo;
+}
+namespace System::Resources {
+class __ResourceManager__ResourceManagerMediator;
 }
 // Forward declare root types
 namespace System::Resources {

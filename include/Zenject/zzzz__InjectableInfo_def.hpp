@@ -6,14 +6,14 @@ CORDL_MODULE_INIT
 #include "Zenject/zzzz__InjectSources_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(InjectableInfo)
-namespace Zenject {
-struct InjectSources;
+namespace System {
+class Type;
 }
 namespace System {
 class Object;
 }
-namespace System {
-class Type;
+namespace Zenject {
+struct InjectSources;
 }
 // Forward declare root types
 namespace Zenject {

@@ -10,10 +10,10 @@ namespace System {
 class Type;
 }
 namespace System::Reflection {
-struct PropertyAttributes;
+class MethodInfo;
 }
 namespace System::Reflection {
-class MethodInfo;
+struct PropertyAttributes;
 }
 // Forward declare root types
 namespace System::Reflection {

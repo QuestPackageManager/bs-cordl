@@ -12,16 +12,16 @@ namespace System::Security::Authentication {
 struct SslProtocols;
 }
 namespace System::Security::Cryptography::X509Certificates {
-struct X509RevocationMode;
-}
-namespace System::Security::Cryptography::X509Certificates {
 class X509CertificateCollection;
+}
+namespace System::Net::Security {
+struct EncryptionPolicy;
 }
 namespace System::Security::Cryptography::X509Certificates {
 class X509Certificate;
 }
-namespace System::Net::Security {
-struct EncryptionPolicy;
+namespace System::Security::Cryptography::X509Certificates {
+struct X509RevocationMode;
 }
 // Forward declare root types
 namespace Mono::Net::Security {

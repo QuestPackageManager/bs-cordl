@@ -12,22 +12,25 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(MainSettingsModelAsyncLoader)
 namespace GlobalNamespace {
-class ISaveData;
-}
-namespace BGLib::AppFlow::Initialization {
-class __AsyncInstaller__IInstallerRegistry;
+struct __MainSettingsModelAsyncLoader___LoadResourcesBeforeInstallAsync_d__3;
 }
 namespace GlobalNamespace {
 class MainSettingsModelSO;
 }
 namespace GlobalNamespace {
-struct __MainSettingsModelAsyncLoader___LoadResourcesBeforeInstallAsync_d__3;
+class ISaveData;
+}
+namespace BGLib::AppFlow::Initialization {
+class __AsyncInstaller__IInstallerRegistry;
 }
 namespace System::Threading::Tasks {
 class Task;
 }
 namespace System::Runtime::CompilerServices {
-class IAsyncStateMachine;
+struct AsyncTaskMethodBuilder;
+}
+namespace System {
+template <typename T1, typename T2> struct ValueTuple_2;
 }
 namespace System::Runtime::CompilerServices {
 template <typename TResult> struct TaskAwaiter_1;
@@ -35,11 +38,8 @@ template <typename TResult> struct TaskAwaiter_1;
 namespace GlobalNamespace {
 class PerformancePreset;
 }
-namespace System {
-template <typename T1, typename T2> struct ValueTuple_2;
-}
 namespace System::Runtime::CompilerServices {
-struct AsyncTaskMethodBuilder;
+class IAsyncStateMachine;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -55,9 +55,9 @@ MARK_VAL_T(::GlobalNamespace::__MainSettingsModelAsyncLoader___LoadResourcesBefo
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2507), inst: 5315 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 870 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(4443)), TypeDefinitionIndex(TypeDefinitionIndex(2507)), TypeDefinitionIndex(TypeDefinitionIndex(3401))} Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(4027)) CS Name: ::MainSettingsModelAsyncLoader::<LoadResourcesBeforeInstallAsync>d__3
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3394)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2507), inst: 5315 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(2507)), TypeDefinitionIndex(TypeDefinitionIndex(3401)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 870 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(4443))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4027)) CS Name: ::MainSettingsModelAsyncLoader::<LoadResourcesBeforeInstallAsync>d__3
 struct CORDL_TYPE __MainSettingsModelAsyncLoader___LoadResourcesBeforeInstallAsync_d__3 {
 public:
   // Declarations

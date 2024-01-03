@@ -12,8 +12,35 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(JSONNode)
+namespace UnityEngine {
+struct Matrix4x4;
+}
+namespace UnityEngine {
+struct Vector2;
+}
+namespace System::Text {
+class StringBuilder;
+}
+namespace UnityEngine {
+struct Vector3;
+}
 namespace OVRSimpleJSON {
 struct JSONTextMode;
+}
+namespace OVRSimpleJSON {
+struct __JSONNode__ValueEnumerator;
+}
+namespace UnityEngine {
+struct Rect;
+}
+namespace UnityEngine {
+struct Quaternion;
+}
+namespace OVRSimpleJSON {
+class __JSONNode__LinqEnumerator;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
 }
 namespace OVRSimpleJSON {
 class __JSONNode___get_DeepChildren_d__42;
@@ -24,41 +51,26 @@ struct JSONNodeType;
 namespace OVRSimpleJSON {
 struct JSONContainerType;
 }
-namespace System::Text {
-class StringBuilder;
+namespace OVRSimpleJSON {
+class __JSONNode___get_Children_d__40;
+}
+namespace OVRSimpleJSON {
+class JSONArray;
+}
+namespace OVRSimpleJSON {
+class JSONObject;
 }
 namespace UnityEngine {
-struct Matrix4x4;
+class RectOffset;
 }
 namespace UnityEngine {
-struct Quaternion;
+struct Vector4;
 }
 namespace OVRSimpleJSON {
 struct __JSONNode__Enumerator;
 }
 namespace OVRSimpleJSON {
-class __JSONNode___get_Children_d__40;
-}
-namespace UnityEngine {
-struct Vector3;
-}
-namespace UnityEngine {
-class RectOffset;
-}
-namespace OVRSimpleJSON {
-class __JSONNode__LinqEnumerator;
-}
-namespace OVRSimpleJSON {
-class JSONArray;
-}
-namespace UnityEngine {
-struct Vector2;
-}
-namespace OVRSimpleJSON {
 struct __JSONNode__KeyEnumerator;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> struct KeyValuePair_2;
@@ -66,20 +78,8 @@ template <typename TKey, typename TValue> struct KeyValuePair_2;
 namespace System {
 class Object;
 }
-namespace OVRSimpleJSON {
-class JSONObject;
-}
-namespace OVRSimpleJSON {
-struct __JSONNode__ValueEnumerator;
-}
-namespace UnityEngine {
-struct Rect;
-}
-namespace UnityEngine {
-struct Vector4;
-}
 namespace System::Collections {
-class IEnumerator;
+class IEnumerable;
 }
 namespace System {
 class IDisposable;
@@ -88,16 +88,16 @@ namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
 namespace System::Collections {
-class IEnumerable;
+class IEnumerator;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> struct __Dictionary_2__Enumerator;
 }
 namespace System::Collections::Generic {
 template <typename T> struct __List_1__Enumerator;
 }
 namespace GlobalNamespace {
 struct __JSONNode__Enumerator__Type;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> struct __Dictionary_2__Enumerator;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -627,9 +627,9 @@ static_assert(::cordl_internals::size_check_v<::OVRSimpleJSON::JSONNode, 0x10>, 
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace OVRSimpleJSON {
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3842), inst: 1691 }), TypeDefinitionIndex(TypeDefinitionIndex(3842)),
-// TypeDefinitionIndex(TypeDefinitionIndex(8204)), TypeDefinitionIndex(TypeDefinitionIndex(8197)), TypeDefinitionIndex(TypeDefinitionIndex(3819)), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(3819), inst: 1429 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(8198)) CS Name: ::JSONNode::Enumerator
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8197)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3819), inst: 1429 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(8204)), TypeDefinitionIndex(TypeDefinitionIndex(3842)), TypeDefinitionIndex(TypeDefinitionIndex(3819)), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(3842), inst: 1691 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(8198)) CS Name: ::JSONNode::Enumerator
 struct CORDL_TYPE __JSONNode__Enumerator {
 public:
   // Declarations
@@ -794,7 +794,7 @@ static_assert(offsetof(::OVRSimpleJSON::__JSONNode__KeyEnumerator, m_Enumerator)
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace OVRSimpleJSON {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8198)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8198))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8201))
 // CS Name: ::JSONNode::LinqEnumerator*
 class CORDL_TYPE __JSONNode__LinqEnumerator : public ::System::Object {

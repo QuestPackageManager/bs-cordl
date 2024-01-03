@@ -1,8 +1,8 @@
 #pragma once
 #include "System/Text/zzzz__Encoding_impl.hpp"
 #include "System/Text/zzzz__EncodingNLS_def.hpp"
-#include "System/Text/zzzz__Decoder_def.hpp"
 #include "System/Text/zzzz__Encoder_def.hpp"
+#include "System/Text/zzzz__Decoder_def.hpp"
 //  Writing Method size for method: ::System::Text::EncodingNLS._ctor
 template <>
 

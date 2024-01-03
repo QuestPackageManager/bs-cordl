@@ -5,23 +5,23 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(GlvTypeBEndomorphism)
-namespace Org::BouncyCastle::Math::EC::Endo {
-class GlvEndomorphism;
+namespace Org::BouncyCastle::Math {
+class BigInteger;
 }
 namespace Org::BouncyCastle::Math::EC::Endo {
-class ECEndomorphism;
+class GlvEndomorphism;
 }
 namespace Org::BouncyCastle::Math::EC {
 class ECPointMap;
 }
-namespace Org::BouncyCastle::Math {
-class BigInteger;
+namespace Org::BouncyCastle::Math::EC::Endo {
+class GlvTypeBParameters;
 }
 namespace Org::BouncyCastle::Math::EC {
 class ECCurve;
 }
 namespace Org::BouncyCastle::Math::EC::Endo {
-class GlvTypeBParameters;
+class ECEndomorphism;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Math::EC::Endo {

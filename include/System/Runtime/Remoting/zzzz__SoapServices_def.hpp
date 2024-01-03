@@ -6,17 +6,17 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(SoapServices)
-namespace System::Collections {
-class Hashtable;
-}
-namespace System::Reflection {
-class MethodBase;
-}
 namespace System::Reflection {
 class Assembly;
 }
+namespace System::Collections {
+class Hashtable;
+}
 namespace System::Runtime::Remoting {
 class __SoapServices__TypeInfo;
+}
+namespace System::Reflection {
+class MethodBase;
 }
 namespace System {
 class Type;

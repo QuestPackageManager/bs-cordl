@@ -10,14 +10,14 @@ CORDL_MODULE_EXPORT(XNamespace)
 namespace System::Xml::Linq {
 template <typename TValue> class XHashtable_1;
 }
-namespace System {
-class WeakReference;
+namespace System::Xml::Linq {
+class XName;
 }
 namespace System {
 class Object;
 }
-namespace System::Xml::Linq {
-class XName;
+namespace System {
+class WeakReference;
 }
 // Forward declare root types
 namespace System::Xml::Linq {

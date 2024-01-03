@@ -7,20 +7,20 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(HEU_InputInterfaceTilemap)
-namespace HoudiniEngineUnity {
-class HEU_InputInterfaceTilemapSettings;
-}
 namespace UnityEngine {
 class GameObject;
-}
-namespace HoudiniEngineUnity {
-class HEU_SessionBase;
 }
 namespace HoudiniEngineUnity {
 class HEU_InputData;
 }
 namespace HoudiniEngineUnity {
 class __HEU_InputInterfaceTilemap__HEU_InputDataTilemap;
+}
+namespace HoudiniEngineUnity {
+class HEU_InputInterfaceTilemapSettings;
+}
+namespace HoudiniEngineUnity {
+class HEU_SessionBase;
 }
 namespace UnityEngine::Tilemaps {
 class Tilemap;

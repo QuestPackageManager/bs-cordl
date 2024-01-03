@@ -9,52 +9,52 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(LevelCollectionTableView)
 namespace GlobalNamespace {
-class BeatmapLevelsPromoDataSO;
+class LevelListTableCell;
 }
-namespace System {
-template <typename T> class Action_1;
-}
-namespace System {
-template <typename T1, typename T2> class Action_2;
+namespace GlobalNamespace {
+class IAdditionalContentModel;
 }
 namespace HMUI {
-class AlphabetScrollbar;
+class __TableView__IDataSource;
 }
 namespace GlobalNamespace {
 class PlayerDataModel;
-}
-namespace UnityEngine {
-class Sprite;
-}
-namespace GlobalNamespace {
-class LevelListTableCell;
-}
-namespace HMUI {
-class TableView;
-}
-namespace System::Collections::Generic {
-template <typename T> class HashSet_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class IReadOnlyList_1;
 }
 namespace GlobalNamespace {
+class BeatmapLevelsPromoDataSO;
+}
+namespace HMUI {
+class TableView;
+}
+namespace GlobalNamespace {
 class LevelPackHeaderTableCell;
 }
-namespace GlobalNamespace {
-class __LevelCollectionTableView____c;
+namespace UnityEngine {
+class Sprite;
 }
-namespace GlobalNamespace {
-class IAdditionalContentModel;
+namespace System {
+template <typename T1, typename T2> class Action_2;
 }
 namespace GlobalNamespace {
 class IPreviewBeatmapLevel;
 }
 namespace HMUI {
-class __TableView__IDataSource;
+class TableCell;
+}
+namespace GlobalNamespace {
+class __LevelCollectionTableView____c;
+}
+namespace System {
+template <typename T> class Action_1;
 }
 namespace HMUI {
-class TableCell;
+class AlphabetScrollbar;
+}
+namespace System::Collections::Generic {
+template <typename T> class HashSet_1;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;

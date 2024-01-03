@@ -6,28 +6,28 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(BsonObject)
 namespace Newtonsoft::Json::Bson {
-class BsonProperty;
+class BsonToken;
 }
 namespace System::Collections {
 class IEnumerable;
 }
 namespace Newtonsoft::Json::Bson {
-struct BsonType;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
+class BsonProperty;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
-namespace System::Collections {
-class IEnumerator;
-}
-namespace Newtonsoft::Json::Bson {
-class BsonToken;
-}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
+}
+namespace Newtonsoft::Json::Bson {
+struct BsonType;
+}
+namespace System::Collections {
+class IEnumerator;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Bson {

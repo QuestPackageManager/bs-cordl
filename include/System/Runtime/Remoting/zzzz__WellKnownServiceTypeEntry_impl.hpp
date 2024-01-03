@@ -2,8 +2,8 @@
 #include "System/Runtime/Remoting/zzzz__TypeEntry_impl.hpp"
 #include "System/Runtime/Remoting/zzzz__WellKnownObjectMode_impl.hpp"
 #include "System/Runtime/Remoting/zzzz__WellKnownServiceTypeEntry_def.hpp"
-#include "System/zzzz__Type_def.hpp"
 #include "System/Runtime/Remoting/zzzz__WellKnownObjectMode_def.hpp"
+#include "System/zzzz__Type_def.hpp"
 //  Writing Method size for method: ::System::Runtime::Remoting::WellKnownServiceTypeEntry._ctor
 template <>
 

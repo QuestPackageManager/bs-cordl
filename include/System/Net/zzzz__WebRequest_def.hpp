@@ -9,20 +9,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(WebRequest)
-namespace System::Runtime::Serialization {
-class ISerializable;
+namespace System {
+class IAsyncResult;
 }
 namespace System::Net::Cache {
 class RequestCachePolicy;
 }
-namespace System::Net {
-class IWebProxy;
-}
 namespace System::Net::Cache {
-class RequestCacheBinding;
-}
-namespace System::Net {
-class __WebRequest____c__DisplayClass78_0;
+class RequestCacheProtocol;
 }
 namespace System::Net {
 class __WebRequest____c__DisplayClass79_0;
@@ -30,50 +24,56 @@ class __WebRequest____c__DisplayClass79_0;
 namespace System {
 class Object;
 }
-namespace System::Net::Cache {
-class RequestCacheProtocol;
-}
 namespace System::Net {
 class WebHeaderCollection;
 }
 namespace System::Net {
-class WebResponse;
+class ICredentials;
+}
+namespace System::Net::Cache {
+class RequestCacheBinding;
 }
 namespace System::Runtime::Serialization {
 struct StreamingContext;
 }
-namespace System::Collections {
-class ArrayList;
-}
-namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
-}
-namespace System::Security::Principal {
-class WindowsIdentity;
-}
-namespace System::Net {
-class __TimerThread__Queue;
+namespace System::IO {
+class Stream;
 }
 namespace System::Net {
 class __WebRequest__DesignerWebRequestCreate;
 }
-namespace System::IO {
-class Stream;
+namespace System::Net {
+class __WebRequest____c__DisplayClass78_0;
+}
+namespace System::Net {
+class WebResponse;
 }
 namespace System {
 class Uri;
 }
-namespace System::Runtime::Serialization {
-class SerializationInfo;
-}
 namespace System {
 class AsyncCallback;
 }
-namespace System {
-class IAsyncResult;
+namespace System::Net {
+class IWebProxy;
+}
+namespace System::Runtime::Serialization {
+class SerializationInfo;
+}
+namespace System::Security::Principal {
+class WindowsIdentity;
+}
+namespace System::Runtime::Serialization {
+class ISerializable;
+}
+namespace System::Collections {
+class ArrayList;
 }
 namespace System::Net {
-class ICredentials;
+class __TimerThread__Queue;
+}
+namespace System::Threading::Tasks {
+template <typename TResult> class Task_1;
 }
 namespace System::Net {
 class IWebRequestCreate;
@@ -273,7 +273,7 @@ static_assert(offsetof(::System::Net::__WebRequest____c__DisplayClass79_0, _____
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9365)), TypeDefinitionIndex(TypeDefinitionIndex(2997)), TypeDefinitionIndex(TypeDefinitionIndex(2605))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2997)), TypeDefinitionIndex(TypeDefinitionIndex(2605)), TypeDefinitionIndex(TypeDefinitionIndex(9365))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9096))
 // CS Name: ::System.Net::WebRequest*
 class CORDL_TYPE WebRequest : public ::System::MarshalByRefObject {

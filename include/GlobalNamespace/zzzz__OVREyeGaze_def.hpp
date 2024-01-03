@@ -12,20 +12,20 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVREyeGaze)
-namespace GlobalNamespace {
-struct __OVREyeGaze__EyeTrackingMode;
+namespace UnityEngine {
+struct Quaternion;
+}
+namespace UnityEngine {
+class Transform;
 }
 namespace System {
 template <typename T> class Action_1;
 }
-namespace UnityEngine {
-struct Quaternion;
-}
 namespace GlobalNamespace {
 struct __OVREyeGaze__EyeId;
 }
-namespace UnityEngine {
-class Transform;
+namespace GlobalNamespace {
+struct __OVREyeGaze__EyeTrackingMode;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -149,8 +149,8 @@ static_assert(offsetof(::GlobalNamespace::__OVREyeGaze__EyeTrackingMode, value__
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7543)), TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(7679)),
-// TypeDefinitionIndex(TypeDefinitionIndex(7544)), TypeDefinitionIndex(TypeDefinitionIndex(7803)), TypeDefinitionIndex(TypeDefinitionIndex(10225))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7545))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7803)), TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10252)),
+// TypeDefinitionIndex(TypeDefinitionIndex(7544)), TypeDefinitionIndex(TypeDefinitionIndex(7679)), TypeDefinitionIndex(TypeDefinitionIndex(7543))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7545))
 // CS Name: ::OVREyeGaze*
 class CORDL_TYPE OVREyeGaze : public ::UnityEngine::MonoBehaviour {
 public:

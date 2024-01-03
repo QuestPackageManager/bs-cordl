@@ -7,8 +7,11 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(DetailPrototype)
+namespace System {
+class Object;
+}
 namespace UnityEngine {
-struct DetailRenderMode;
+class GameObject;
 }
 namespace UnityEngine {
 struct Color;
@@ -16,11 +19,8 @@ struct Color;
 namespace UnityEngine {
 class Texture2D;
 }
-namespace System {
-class Object;
-}
 namespace UnityEngine {
-class GameObject;
+struct DetailRenderMode;
 }
 // Forward declare root types
 namespace UnityEngine {

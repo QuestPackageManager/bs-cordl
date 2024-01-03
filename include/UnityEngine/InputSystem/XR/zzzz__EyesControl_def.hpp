@@ -5,17 +5,17 @@ CORDL_MODULE_INIT
 #include "UnityEngine/InputSystem/XR/zzzz__Eyes_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputControl_1_def.hpp"
 CORDL_MODULE_EXPORT(EyesControl)
+namespace UnityEngine::InputSystem::XR {
+struct Eyes;
+}
+namespace UnityEngine::InputSystem::Controls {
+class QuaternionControl;
+}
 namespace UnityEngine::InputSystem::Controls {
 class AxisControl;
 }
 namespace UnityEngine::InputSystem::Controls {
 class Vector3Control;
-}
-namespace UnityEngine::InputSystem::Controls {
-class QuaternionControl;
-}
-namespace UnityEngine::InputSystem::XR {
-struct Eyes;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::XR {
@@ -27,8 +27,8 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::XR::EyesControl);
 // SizeInfo { instance_size: 296, native_size: -1, calculated_instance_size: 296, calculated_native_size: 296, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::XR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6338)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6216), inst: 3893 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(6216))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6340)) CS Name: ::UnityEngine.InputSystem.XR::EyesControl*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6216)), TypeDefinitionIndex(TypeDefinitionIndex(6338)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6216), inst: 3893
+// })} Self: TypeDefinitionIndex(TypeDefinitionIndex(6340)) CS Name: ::UnityEngine.InputSystem.XR::EyesControl*
 class CORDL_TYPE EyesControl : public ::UnityEngine::InputSystem::InputControl_1<::UnityEngine::InputSystem::XR::Eyes> {
 public:
   // Declarations

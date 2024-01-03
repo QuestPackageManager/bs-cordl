@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "BeatmapSaveDataVersion3/zzzz__BeatmapLightshowSaveData_def.hpp"
-#include "BeatmapSaveDataVersion3/zzzz__BeatmapSaveData_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "BeatmapSaveDataVersion3/zzzz__BeatmapSaveData_def.hpp"
 //  Writing Method size for method: ::BeatmapSaveDataVersion3::BeatmapLightshowSaveData.get_isEmpty
 template <>
 

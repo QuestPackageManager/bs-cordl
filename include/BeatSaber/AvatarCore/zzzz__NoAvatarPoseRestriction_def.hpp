@@ -9,10 +9,10 @@ namespace BeatSaber::AvatarCore {
 class IAvatarPoseRestriction;
 }
 namespace UnityEngine {
-struct Quaternion;
+struct Vector3;
 }
 namespace UnityEngine {
-struct Vector3;
+struct Quaternion;
 }
 // Forward declare root types
 namespace BeatSaber::AvatarCore {

@@ -6,8 +6,26 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(DynamicHeightVirtualizationController_1)
+namespace UnityEngine {
+struct Vector2;
+}
+namespace UnityEngine::UIElements {
+class IVisualElementScheduledItem;
+}
+namespace System {
+class Action;
+}
+namespace System {
+template <typename T> class Predicate_1;
+}
+namespace System {
+template <typename T> class Action_1;
+}
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace UnityEngine::UIElements {
+class GeometryChangedEvent;
 }
 namespace UnityEngine::UIElements {
 class BaseVerticalCollectionView;
@@ -16,28 +34,10 @@ namespace System::Collections::Generic {
 template <typename T> class HashSet_1;
 }
 namespace UnityEngine::UIElements {
-class IVisualElementScheduledItem;
-}
-namespace System {
-class Action;
-}
-namespace UnityEngine::UIElements {
 class ReusableCollectionItem;
-}
-namespace UnityEngine {
-struct Vector2;
-}
-namespace UnityEngine::UIElements {
-class GeometryChangedEvent;
 }
 namespace UnityEngine::UIElements {
 class VisualElement;
-}
-namespace System {
-template <typename T> class Predicate_1;
-}
-namespace System {
-template <typename T> class Action_1;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -51,7 +51,7 @@ namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7370)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7370), inst: 5349 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7370), inst: 5349 }), TypeDefinitionIndex(TypeDefinitionIndex(7370))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7366))
 // CS Name: ::UnityEngine.UIElements::DynamicHeightVirtualizationController`1<T>*
 class CORDL_TYPE DynamicHeightVirtualizationController_1 : public ::UnityEngine::UIElements::VerticalVirtualizationController_1<T> {

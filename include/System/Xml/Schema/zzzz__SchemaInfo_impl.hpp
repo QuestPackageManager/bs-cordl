@@ -2,16 +2,16 @@
 #include "System/Xml/Schema/zzzz__SchemaType_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Xml/Schema/zzzz__SchemaInfo_def.hpp"
-#include "System/Xml/Schema/zzzz__SchemaEntity_def.hpp"
-#include "System/Xml/zzzz__IDtdEntityInfo_def.hpp"
-#include "System/Xml/zzzz__XmlQualifiedName_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
-#include "System/Xml/zzzz__IDtdAttributeListInfo_def.hpp"
+#include "System/Xml/Schema/zzzz__SchemaNotation_def.hpp"
 #include "System/Xml/Schema/zzzz__SchemaElementDecl_def.hpp"
+#include "System/Xml/zzzz__XmlQualifiedName_def.hpp"
+#include "System/Xml/zzzz__IDtdAttributeListInfo_def.hpp"
+#include "System/Xml/zzzz__IDtdEntityInfo_def.hpp"
 #include "System/Xml/zzzz__IDtdInfo_def.hpp"
 #include "System/Xml/Schema/zzzz__SchemaType_def.hpp"
-#include "System/Xml/Schema/zzzz__SchemaNotation_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "System/Xml/Schema/zzzz__SchemaAttDef_def.hpp"
+#include "System/Xml/Schema/zzzz__SchemaEntity_def.hpp"
 //  Writing Method size for method: ::System::Xml::Schema::SchemaInfo._ctor
 template <>
 

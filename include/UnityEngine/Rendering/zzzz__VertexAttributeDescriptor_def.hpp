@@ -9,16 +9,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(VertexAttributeDescriptor)
 namespace System {
-template <typename T> class IEquatable_1;
-}
-namespace System {
 class Object;
+}
+namespace UnityEngine::Rendering {
+struct VertexAttributeFormat;
 }
 namespace UnityEngine::Rendering {
 struct VertexAttribute;
 }
-namespace UnityEngine::Rendering {
-struct VertexAttributeFormat;
+namespace System {
+template <typename T> class IEquatable_1;
 }
 // Forward declare root types
 namespace UnityEngine::Rendering {
@@ -30,7 +30,7 @@ MARK_VAL_T(::UnityEngine::Rendering::VertexAttributeDescriptor);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::Rendering {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10331)), TypeDefinitionIndex(TypeDefinitionIndex(10330))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10330)), TypeDefinitionIndex(TypeDefinitionIndex(10331))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10345))
 // CS Name: ::UnityEngine.Rendering::VertexAttributeDescriptor
 struct CORDL_TYPE VertexAttributeDescriptor {

@@ -20,11 +20,11 @@ struct LODParameters;
 namespace UnityEngine::Rendering {
 struct BatchCullingContext;
 }
-namespace System {
-class Object;
-}
 namespace Unity::Jobs {
 struct JobHandle;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace UnityEngine::Rendering {
@@ -78,7 +78,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::__BatchR
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Rendering {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2603))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10368))
 // CS Name: ::UnityEngine.Rendering::BatchRendererGroup*
 class CORDL_TYPE BatchRendererGroup : public ::System::Object {

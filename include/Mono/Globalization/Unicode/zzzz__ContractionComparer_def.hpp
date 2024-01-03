@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ContractionComparer)
-namespace System::Collections::Generic {
-template <typename T> class IComparer_1;
-}
 namespace Mono::Globalization::Unicode {
 class Contraction;
+}
+namespace System::Collections::Generic {
+template <typename T> class IComparer_1;
 }
 // Forward declare root types
 namespace Mono::Globalization::Unicode {

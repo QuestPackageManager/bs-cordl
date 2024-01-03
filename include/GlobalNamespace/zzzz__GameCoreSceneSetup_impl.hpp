@@ -2,8 +2,8 @@
 #include "Zenject/zzzz__MonoInstaller_impl.hpp"
 #include "GlobalNamespace/zzzz__GameCoreSceneSetup_def.hpp"
 #include "GlobalNamespace/zzzz__MainSettingsModelSO_def.hpp"
-#include "GlobalNamespace/zzzz__BloomFogSO_def.hpp"
 #include "GlobalNamespace/zzzz__ScreenCaptureAfterDelay_def.hpp"
+#include "GlobalNamespace/zzzz__BloomFogSO_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::GameCoreSceneSetup.InstallBindings
 template <>
 

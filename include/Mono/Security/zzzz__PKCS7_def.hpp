@@ -8,25 +8,25 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(PKCS7)
 namespace Mono::Security {
-class __PKCS7__EncryptedData;
-}
-namespace Mono::Security {
 class __PKCS7__SignedData;
-}
-namespace Mono::Security {
-class __PKCS7__ContentInfo;
 }
 namespace Mono::Security {
 class __PKCS7__SignerInfo;
 }
 namespace Mono::Security {
-class ASN1;
+class __PKCS7__ContentInfo;
 }
-namespace System::Collections {
-class ArrayList;
+namespace Mono::Security {
+class __PKCS7__EncryptedData;
+}
+namespace Mono::Security {
+class ASN1;
 }
 namespace Mono::Security::X509 {
 class X509CertificateCollection;
+}
+namespace System::Collections {
+class ArrayList;
 }
 // Forward declare root types
 namespace Mono::Security {

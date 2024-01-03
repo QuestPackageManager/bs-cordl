@@ -8,58 +8,58 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(DtlsServerProtocol)
 namespace Org::BouncyCastle::Crypto::Tls {
-class Certificate;
+class DtlsRecordLayer;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class NewSessionTicket;
-}
-namespace Org::BouncyCastle::Security {
-class SecureRandom;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
-class __DtlsServerProtocol__ServerHandshakeState;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class DtlsTransport;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class CertificateStatus;
+class __DtlsServerProtocol__ServerHandshakeState;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class TlsHandshakeHash;
+class TlsServer;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class CertificateRequest;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class DtlsRecordLayer;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
 class DatagramTransport;
 }
-namespace Org::BouncyCastle::Crypto::Tls {
-class TlsServer;
-}
-namespace System::Collections {
-class IDictionary;
+namespace Org::BouncyCastle::Security {
+class SecureRandom;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class TlsCredentials;
+class CertificateStatus;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class TlsSession;
+class Certificate;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class TlsKeyExchange;
+class TlsHandshakeHash;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class TlsServerContextImpl;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class __SessionParameters__Builder;
+class TlsKeyExchange;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class SessionParameters;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class __SessionParameters__Builder;
+}
+namespace System::Collections {
+class IDictionary;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class TlsSession;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class TlsCredentials;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {

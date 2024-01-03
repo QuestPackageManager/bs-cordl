@@ -5,9 +5,6 @@ CORDL_MODULE_INIT
 #include "System/Runtime/Remoting/zzzz__Identity_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(ClientIdentity)
-namespace System {
-class MarshalByRefObject;
-}
 namespace System::Runtime::Remoting {
 class ObjRef;
 }
@@ -16,6 +13,9 @@ class WeakReference;
 }
 namespace System {
 class Type;
+}
+namespace System {
+class MarshalByRefObject;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting {

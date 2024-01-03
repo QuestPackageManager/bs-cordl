@@ -5,11 +5,17 @@ CORDL_MODULE_INIT
 #include "Tayx/Graphy/zzzz__GraphyManager_def.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(G_AudioManager)
-namespace Tayx::Graphy::Audio {
-class G_AudioText;
+namespace Tayx::Graphy::UI {
+class IModifiableState;
 }
-namespace Tayx::Graphy {
-struct __GraphyManager__ModulePosition;
+namespace UnityEngine::UI {
+class Text;
+}
+namespace Tayx::Graphy::UI {
+class IMovable;
+}
+namespace UnityEngine {
+class RectTransform;
 }
 namespace Tayx::Graphy {
 struct __GraphyManager__ModuleState;
@@ -17,32 +23,26 @@ struct __GraphyManager__ModuleState;
 namespace UnityEngine::UI {
 class Image;
 }
-namespace UnityEngine {
-class GameObject;
-}
-namespace Tayx::Graphy::UI {
-class IModifiableState;
-}
-namespace UnityEngine::UI {
-class Text;
-}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
+}
+namespace Tayx::Graphy::Audio {
+class G_AudioMonitor;
+}
+namespace Tayx::Graphy::Audio {
+class G_AudioGraph;
 }
 namespace Tayx::Graphy {
 class GraphyManager;
 }
 namespace Tayx::Graphy::Audio {
-class G_AudioGraph;
+class G_AudioText;
+}
+namespace Tayx::Graphy {
+struct __GraphyManager__ModulePosition;
 }
 namespace UnityEngine {
-class RectTransform;
-}
-namespace Tayx::Graphy::UI {
-class IMovable;
-}
-namespace Tayx::Graphy::Audio {
-class G_AudioMonitor;
+class GameObject;
 }
 // Forward declare root types
 namespace Tayx::Graphy::Audio {

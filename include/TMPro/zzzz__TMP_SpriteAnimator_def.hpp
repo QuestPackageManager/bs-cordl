@@ -10,28 +10,28 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(TMP_SpriteAnimator)
 namespace TMPro {
-class TMP_SpriteAsset;
+class __TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7;
 }
 namespace TMPro {
 class TMP_Text;
 }
-namespace TMPro {
-class __TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7;
-}
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace TMPro {
+class TMP_SpriteAsset;
 }
 namespace System::Collections {
 class IEnumerator;
 }
 namespace System {
-class IDisposable;
+class Object;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
 namespace System {
-class Object;
+class IDisposable;
 }
 // Forward declare root types
 namespace TMPro {

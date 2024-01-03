@@ -5,15 +5,15 @@
 #include "UnityEngine/zzzz__Color_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "HMUI/zzzz__AnimatedSwitchView_def.hpp"
-#include "HMUI/zzzz__ImageView_def.hpp"
 #include "HMUI/zzzz__AnimatedSwitchView_def.hpp"
 #include "HMUI/zzzz__ToggleWithCallbacks_def.hpp"
+#include "UnityEngine/zzzz__Color_def.hpp"
+#include "HMUI/zzzz__ImageView_def.hpp"
 #include "TMPro/zzzz__TextMeshProUGUI_def.hpp"
 #include "UnityEngine/zzzz__RectTransform_def.hpp"
-#include "UnityEngine/zzzz__Color_def.hpp"
-#include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__AsyncCallback_def.hpp"
 #include "System/zzzz__IAsyncResult_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::HMUI::__AnimatedSwitchView__ColorBlock._ctor
 template <>
 

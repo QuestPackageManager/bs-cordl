@@ -8,25 +8,25 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(SongPacksDropdown)
 namespace GlobalNamespace {
-struct SongPackMask;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace GlobalNamespace {
 class __SongPacksDropdown____c;
+}
+namespace System {
+template <typename T> class Action_1;
 }
 namespace HMUI {
 class DropdownWithTableView;
+}
+namespace GlobalNamespace {
+class SongPackMasksModel;
 }
 namespace HMUI {
 class SimpleTextDropdown;
 }
 namespace GlobalNamespace {
-class SongPackMasksModel;
+struct SongPackMask;
 }
-namespace System {
-template <typename T> class Action_1;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;

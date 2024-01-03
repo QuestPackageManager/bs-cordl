@@ -7,23 +7,23 @@ CORDL_MODULE_INIT
 #include "Newtonsoft/Json/zzzz__TypeNameHandling_def.hpp"
 #include "System/zzzz__Nullable_1_def.hpp"
 CORDL_MODULE_EXPORT(JsonContainerContract)
-namespace Newtonsoft::Json {
-class JsonConverter;
+namespace System {
+class Type;
 }
 namespace System {
 template <typename T> struct Nullable_1;
 }
 namespace Newtonsoft::Json {
-struct TypeNameHandling;
+class JsonConverter;
 }
-namespace System {
-class Type;
+namespace Newtonsoft::Json::Serialization {
+class JsonContract;
 }
 namespace Newtonsoft::Json {
 struct ReferenceLoopHandling;
 }
-namespace Newtonsoft::Json::Serialization {
-class JsonContract;
+namespace Newtonsoft::Json {
+struct TypeNameHandling;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Serialization {
@@ -35,9 +35,9 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Serialization::JsonContainerContract);
 // SizeInfo { instance_size: 192, native_size: -1, calculated_instance_size: 192, calculated_native_size: 188, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Serialization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11943)), TypeDefinitionIndex(TypeDefinitionIndex(11839)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst:
-// 4762 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 105 }), TypeDefinitionIndex(TypeDefinitionIndex(2448)), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(2448), inst: 4754 }), TypeDefinitionIndex(TypeDefinitionIndex(11840))} Self: TypeDefinitionIndex(TypeDefinitionIndex(11907)) CS Name:
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11839)), TypeDefinitionIndex(TypeDefinitionIndex(11840)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst:
+// 4762 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 4754 }), TypeDefinitionIndex(TypeDefinitionIndex(11943)), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(2448), inst: 105 }), TypeDefinitionIndex(TypeDefinitionIndex(2448))} Self: TypeDefinitionIndex(TypeDefinitionIndex(11907)) CS Name:
 // ::Newtonsoft.Json.Serialization::JsonContainerContract*
 class CORDL_TYPE JsonContainerContract : public ::Newtonsoft::Json::Serialization::JsonContract {
 public:

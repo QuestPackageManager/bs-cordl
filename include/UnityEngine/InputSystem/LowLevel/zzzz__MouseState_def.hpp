@@ -7,16 +7,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(MouseState)
 namespace UnityEngine::InputSystem::LowLevel {
-struct MouseButton;
-}
-namespace UnityEngine::InputSystem::LowLevel {
 class IInputStateTypeInfo;
+}
+namespace UnityEngine::InputSystem::Utilities {
+struct FourCC;
 }
 namespace UnityEngine {
 struct Vector2;
 }
-namespace UnityEngine::InputSystem::Utilities {
-struct FourCC;
+namespace UnityEngine::InputSystem::LowLevel {
+struct MouseButton;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::LowLevel {

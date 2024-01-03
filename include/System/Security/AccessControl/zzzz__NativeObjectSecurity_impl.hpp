@@ -2,11 +2,11 @@
 #include "System/Security/AccessControl/zzzz__CommonObjectSecurity_impl.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/Security/AccessControl/zzzz__NativeObjectSecurity_def.hpp"
-#include "System/Security/AccessControl/zzzz__ResourceType_def.hpp"
+#include "System/Security/AccessControl/zzzz__NativeObjectSecurity_def.hpp"
 #include "System/Security/AccessControl/zzzz__AccessControlSections_def.hpp"
 #include "System/Runtime/InteropServices/zzzz__SafeHandle_def.hpp"
-#include "System/Security/AccessControl/zzzz__NativeObjectSecurity_def.hpp"
 #include "System/zzzz__Exception_def.hpp"
+#include "System/Security/AccessControl/zzzz__ResourceType_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::System::Security::AccessControl::__NativeObjectSecurity__ExceptionFromErrorCode._ctor
 template <>

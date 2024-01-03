@@ -14,34 +14,55 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(FtpControlStream)
 namespace System::Net {
-class IPAddress;
+class __FtpControlStream____c__DisplayClass31_0;
+}
+namespace System {
+class WeakReference;
+}
+namespace System {
+class Uri;
+}
+namespace System::Net {
+class __CommandStream__PipelineEntry;
+}
+namespace System::Net {
+class ResponseDescription;
 }
 namespace System::Net {
 class NetworkCredential;
 }
+namespace System {
+class AsyncCallback;
+}
+namespace System::Net::Sockets {
+class Socket;
+}
+namespace System::Text {
+class StringBuilder;
+}
 namespace System::Net {
 struct __FtpControlStream__GetPathOption;
+}
+namespace System {
+struct DateTime;
 }
 namespace System::Net {
 class TlsStream;
 }
-namespace System::Net::Sockets {
-class TcpClient;
+namespace System::IO {
+class Stream;
+}
+namespace System {
+class IAsyncResult;
 }
 namespace System::Net {
 class IPEndPoint;
 }
 namespace System::Net {
-class __FtpControlStream____c__DisplayClass31_0;
+struct __CommandStream__PipelineInstruction;
 }
-namespace System::Text {
-class StringBuilder;
-}
-namespace System {
-class WeakReference;
-}
-namespace System::Net::Sockets {
-class Socket;
+namespace System::Net {
+class WebRequest;
 }
 namespace System::Net {
 class FtpWebRequest;
@@ -49,32 +70,11 @@ class FtpWebRequest;
 namespace System::Net {
 struct TriState;
 }
-namespace System {
-class Uri;
-}
-namespace System {
-class AsyncCallback;
-}
-namespace System {
-class IAsyncResult;
-}
-namespace System::IO {
-class Stream;
-}
 namespace System::Net {
-class WebRequest;
+class IPAddress;
 }
-namespace System {
-struct DateTime;
-}
-namespace System::Net {
-struct __CommandStream__PipelineInstruction;
-}
-namespace System::Net {
-class __CommandStream__PipelineEntry;
-}
-namespace System::Net {
-class ResponseDescription;
+namespace System::Net::Sockets {
+class TcpClient;
 }
 // Forward declare root types
 namespace System::Net {
@@ -214,8 +214,8 @@ static_assert(offsetof(::System::Net::__FtpControlStream____c__DisplayClass31_0,
 // SizeInfo { instance_size: 272, native_size: -1, calculated_instance_size: 272, calculated_native_size: 272, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2368)), TypeDefinitionIndex(TypeDefinitionIndex(9039)), TypeDefinitionIndex(TypeDefinitionIndex(9036)),
-// TypeDefinitionIndex(TypeDefinitionIndex(9062))} Self: TypeDefinitionIndex(TypeDefinitionIndex(9042)) CS Name: ::System.Net::FtpControlStream*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2368)), TypeDefinitionIndex(TypeDefinitionIndex(9062)), TypeDefinitionIndex(TypeDefinitionIndex(9039)),
+// TypeDefinitionIndex(TypeDefinitionIndex(9036))} Self: TypeDefinitionIndex(TypeDefinitionIndex(9042)) CS Name: ::System.Net::FtpControlStream*
 class CORDL_TYPE FtpControlStream : public ::System::Net::CommandStream {
 public:
   // Declarations

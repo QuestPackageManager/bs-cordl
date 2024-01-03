@@ -7,7 +7,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(HttpListenerContext)
 namespace System::Net {
-class HttpListener;
+struct AuthenticationSchemes;
+}
+namespace System::Net {
+class HttpConnection;
+}
+namespace System::Security::Principal {
+class IPrincipal;
 }
 namespace System::Net {
 class HttpListenerRequest;
@@ -16,13 +22,7 @@ namespace System::Net {
 class HttpListenerResponse;
 }
 namespace System::Net {
-struct AuthenticationSchemes;
-}
-namespace System::Security::Principal {
-class IPrincipal;
-}
-namespace System::Net {
-class HttpConnection;
+class HttpListener;
 }
 // Forward declare root types
 namespace System::Net {

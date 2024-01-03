@@ -10,11 +10,11 @@ CORDL_MODULE_EXPORT(DefaultSerializationBinder)
 namespace Newtonsoft::Json::Serialization {
 struct __DefaultSerializationBinder__TypeNameKey;
 }
-namespace System {
-class Type;
-}
 namespace Newtonsoft::Json::Utilities {
 template <typename TKey, typename TValue> class ThreadSafeStore_2;
+}
+namespace System {
+class Type;
 }
 namespace System {
 class Object;

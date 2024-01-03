@@ -10,10 +10,10 @@ namespace GlobalNamespace {
 struct OVRMeshAttributes;
 }
 namespace UnityEngine {
-class Mesh;
+class Material;
 }
 namespace UnityEngine {
-class Material;
+class Mesh;
 }
 // Forward declare root types
 namespace GlobalNamespace {

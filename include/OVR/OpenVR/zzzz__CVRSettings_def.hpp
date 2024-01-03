@@ -25,7 +25,7 @@ MARK_REF_PTR_T(::OVR::OpenVR::CVRSettings);
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8506))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8506)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8572))
 // CS Name: ::OVR.OpenVR::CVRSettings*
 class CORDL_TYPE CVRSettings : public ::System::Object {

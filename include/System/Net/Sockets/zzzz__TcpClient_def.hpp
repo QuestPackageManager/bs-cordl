@@ -7,32 +7,32 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(TcpClient)
-namespace System {
-class IDisposable;
-}
 namespace System::Threading::Tasks {
 class Task;
+}
+namespace System::Net::Sockets {
+struct AddressFamily;
 }
 namespace System {
 class AsyncCallback;
 }
-namespace System {
-class Object;
-}
 namespace System::Net {
 class IPEndPoint;
-}
-namespace System::Net::Sockets {
-class Socket;
-}
-namespace System::Net::Sockets {
-struct AddressFamily;
 }
 namespace System::Net::Sockets {
 class NetworkStream;
 }
 namespace System {
 class IAsyncResult;
+}
+namespace System::Net::Sockets {
+class Socket;
+}
+namespace System {
+class IDisposable;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::Net::Sockets {

@@ -7,28 +7,28 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(AssetFile)
 namespace Oculus::Platform::Models {
-class AssetFileDeleteResult;
+class AssetFileDownloadUpdate;
 }
 namespace Oculus::Platform::Models {
 class AssetFileDownloadResult;
-}
-namespace Oculus::Platform {
-template <typename T> class __Message_1__Callback;
-}
-namespace Oculus::Platform {
-template <typename T> class Request_1;
-}
-namespace Oculus::Platform::Models {
-class AssetFileDownloadCancelResult;
-}
-namespace Oculus::Platform::Models {
-class AssetFileDownloadUpdate;
 }
 namespace Oculus::Platform::Models {
 class AssetDetailsList;
 }
 namespace Oculus::Platform::Models {
+class AssetFileDownloadCancelResult;
+}
+namespace Oculus::Platform::Models {
+class AssetFileDeleteResult;
+}
+namespace Oculus::Platform::Models {
 class AssetDetails;
+}
+namespace Oculus::Platform {
+template <typename T> class Request_1;
+}
+namespace Oculus::Platform {
+template <typename T> class __Message_1__Callback;
 }
 // Forward declare root types
 namespace Oculus::Platform {

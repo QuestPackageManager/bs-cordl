@@ -5,12 +5,12 @@
 #include "System/Text/zzzz__EncoderNLS_impl.hpp"
 #include "System/Text/zzzz__Encoding_impl.hpp"
 #include "System/Text/zzzz__UTF7Encoding_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 #include "System/Text/zzzz__UTF7Encoding_def.hpp"
 #include "System/Text/zzzz__Encoder_def.hpp"
-#include "System/Text/zzzz__EncoderNLS_def.hpp"
-#include "System/Text/zzzz__DecoderNLS_def.hpp"
 #include "System/Text/zzzz__Decoder_def.hpp"
-#include "System/zzzz__Object_def.hpp"
+#include "System/Text/zzzz__DecoderNLS_def.hpp"
+#include "System/Text/zzzz__EncoderNLS_def.hpp"
 #include "System/Text/zzzz__DecoderFallbackBuffer_def.hpp"
 //  Writing Method size for method: ::System::Text::__UTF7Encoding__Decoder._ctor
 template <>

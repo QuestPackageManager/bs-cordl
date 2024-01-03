@@ -10,13 +10,7 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(IKMappingLimb)
 namespace RootMotion::FinalIK {
-class IKSolverFullBody;
-}
-namespace RootMotion::FinalIK {
 struct __IKMappingLimb__BoneMapType;
-}
-namespace RootMotion::FinalIK {
-class __IKMapping__BoneMap;
 }
 namespace UnityEngine {
 class Transform;
@@ -26,6 +20,12 @@ class IKSolver;
 }
 namespace UnityEngine {
 struct Vector3;
+}
+namespace RootMotion::FinalIK {
+class __IKMapping__BoneMap;
+}
+namespace RootMotion::FinalIK {
+class IKSolverFullBody;
 }
 // Forward declare root types
 namespace RootMotion::FinalIK {

@@ -6,26 +6,26 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(RumbleHapticFeedbackPlayer)
+namespace GlobalNamespace {
+class IHapticFeedbackPlayer;
+}
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace System {
-class Object;
-}
-namespace Libraries::HM::HMLib::VR {
-class HapticPresetSO;
 }
 namespace GlobalNamespace {
 class __RumbleHapticFeedbackPlayer__RumbleData;
 }
-namespace GlobalNamespace {
-class IVRPlatformHelper;
+namespace Libraries::HM::HMLib::VR {
+class HapticPresetSO;
 }
 namespace UnityEngine::XR {
 struct XRNode;
 }
 namespace GlobalNamespace {
-class IHapticFeedbackPlayer;
+class IVRPlatformHelper;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace GlobalNamespace {

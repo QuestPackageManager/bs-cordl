@@ -94,7 +94,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Utilit
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Utilities {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6701)), TypeDefinitionIndex(TypeDefinitionIndex(6683)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6701), inst: 3114
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6683)), TypeDefinitionIndex(TypeDefinitionIndex(6701)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6701), inst: 3114
 // })} Self: TypeDefinitionIndex(TypeDefinitionIndex(6682)) CS Name: ::UnityEngine.InputSystem.Utilities::NameAndParameters
 struct CORDL_TYPE NameAndParameters {
 public:

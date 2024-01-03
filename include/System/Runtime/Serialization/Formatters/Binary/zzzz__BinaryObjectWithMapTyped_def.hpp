@@ -8,11 +8,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(BinaryObjectWithMapTyped)
+namespace System::Runtime::Serialization::Formatters::Binary {
+class __BinaryParser;
+}
 namespace System {
 class Object;
-}
-namespace System::Runtime::Serialization::Formatters::Binary {
-class __BinaryWriter;
 }
 namespace System::Runtime::Serialization::Formatters::Binary {
 struct BinaryTypeEnum;
@@ -21,7 +21,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
 struct BinaryHeaderEnum;
 }
 namespace System::Runtime::Serialization::Formatters::Binary {
-class __BinaryParser;
+class __BinaryWriter;
 }
 // Forward declare root types
 namespace System::Runtime::Serialization::Formatters::Binary {
@@ -33,7 +33,7 @@ MARK_REF_PTR_T(::System::Runtime::Serialization::Formatters::Binary::BinaryObjec
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 76, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization::Formatters::Binary {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3243)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3243))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3269))
 // CS Name: ::System.Runtime.Serialization.Formatters.Binary::BinaryObjectWithMapTyped*
 class CORDL_TYPE BinaryObjectWithMapTyped : public ::System::Object {

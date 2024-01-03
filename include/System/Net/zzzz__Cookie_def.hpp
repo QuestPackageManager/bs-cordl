@@ -15,8 +15,8 @@ class Comparer;
 namespace System {
 class Uri;
 }
-namespace System::Net {
-struct CookieVariant;
+namespace System {
+struct DateTime;
 }
 namespace System::Collections {
 class IComparer;
@@ -24,8 +24,8 @@ class IComparer;
 namespace System {
 class Object;
 }
-namespace System {
-struct DateTime;
+namespace System::Net {
+struct CookieVariant;
 }
 // Forward declare root types
 namespace System::Net {
@@ -37,7 +37,7 @@ MARK_REF_PTR_T(::System::Net::Cookie);
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 154, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9119)), TypeDefinitionIndex(TypeDefinitionIndex(2368))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2368)), TypeDefinitionIndex(TypeDefinitionIndex(9119)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9120))
 // CS Name: ::System.Net::Cookie*
 class CORDL_TYPE Cookie : public ::System::Object {

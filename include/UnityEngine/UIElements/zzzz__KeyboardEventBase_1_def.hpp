@@ -6,8 +6,8 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__EventModifiers_def.hpp"
 #include "UnityEngine/zzzz__KeyCode_def.hpp"
 CORDL_MODULE_EXPORT(KeyboardEventBase_1)
-namespace UnityEngine {
-class Event;
+namespace UnityEngine::UIElements {
+class IKeyboardEvent;
 }
 namespace UnityEngine {
 struct EventModifiers;
@@ -15,8 +15,8 @@ struct EventModifiers;
 namespace UnityEngine {
 struct KeyCode;
 }
-namespace UnityEngine::UIElements {
-class IKeyboardEvent;
+namespace UnityEngine {
+class Event;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -30,8 +30,8 @@ namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7180), inst: 1713 }), TypeDefinitionIndex(TypeDefinitionIndex(10058)),
-// TypeDefinitionIndex(TypeDefinitionIndex(7180)), TypeDefinitionIndex(TypeDefinitionIndex(14602))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7240)) CS Name:
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10058)), TypeDefinitionIndex(TypeDefinitionIndex(7180)), TypeDefinitionIndex(TypeDefinitionIndex(14602)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7180), inst: 1713 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(7240)) CS Name:
 // ::UnityEngine.UIElements::KeyboardEventBase`1<T>*
 class CORDL_TYPE KeyboardEventBase_1 : public ::UnityEngine::UIElements::EventBase_1<T> {
 public:

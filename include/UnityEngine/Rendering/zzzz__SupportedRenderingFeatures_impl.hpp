@@ -5,9 +5,9 @@
 #include "UnityEngine/zzzz__LightmapsMode_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__SupportedRenderingFeatures_def.hpp"
 #include "UnityEngine/zzzz__LightmapsMode_def.hpp"
-#include "UnityEngine/zzzz__MixedLightingMode_def.hpp"
-#include "UnityEngine/zzzz__LightmapBakeType_def.hpp"
 #include "UnityEngine/Rendering/zzzz__SupportedRenderingFeatures_def.hpp"
+#include "UnityEngine/zzzz__LightmapBakeType_def.hpp"
+#include "UnityEngine/zzzz__MixedLightingMode_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::Rendering::__SupportedRenderingFeatures__ReflectionProbeModes::__SupportedRenderingFeatures__ReflectionProbeModes(int32_t value__) noexcept {
   this->value__ = value__;

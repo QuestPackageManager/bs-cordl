@@ -4,14 +4,14 @@
 #include "UnityEngine/Playables/zzzz__PlayableBehaviour_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "GlobalNamespace/zzzz__GhostEffectBehaviour_def.hpp"
-#include "GlobalNamespace/zzzz__GhostEffectBehaviour_def.hpp"
 #include "UnityEngine/Playables/zzzz__Playable_def.hpp"
-#include "UnityEngine/zzzz__AnimationCurve_def.hpp"
+#include "GlobalNamespace/zzzz__GhostEffectBehaviour_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 #include "TMPro/zzzz__TextMeshPro_def.hpp"
 #include "UnityEngine/zzzz__CanvasGroup_def.hpp"
-#include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/Playables/zzzz__FrameData_def.hpp"
+#include "UnityEngine/zzzz__AnimationCurve_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::GlobalNamespace::__GhostEffectBehaviour__EndBehavior::__GhostEffectBehaviour__EndBehavior(int32_t value__) noexcept {
   this->value__ = value__;

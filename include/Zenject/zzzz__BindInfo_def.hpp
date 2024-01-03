@@ -9,6 +9,15 @@ CORDL_MODULE_INIT
 #include "Zenject/zzzz__ToChoices_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(BindInfo)
+namespace System {
+class IDisposable;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace Zenject {
+struct TypeValuePair;
+}
 namespace Zenject {
 class InjectContext;
 }
@@ -16,22 +25,13 @@ namespace System {
 class Type;
 }
 namespace System {
-class Object;
+template <typename T1, typename T2> class Action_2;
 }
 namespace Zenject {
 class BindingCondition;
 }
 namespace System {
-template <typename T1, typename T2> class Action_2;
-}
-namespace System {
-class IDisposable;
-}
-namespace Zenject {
-struct TypeValuePair;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+class Object;
 }
 // Forward declare root types
 namespace Zenject {
@@ -43,8 +43,8 @@ MARK_REF_PTR_T(::Zenject::BindInfo);
 // SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10943)), TypeDefinitionIndex(TypeDefinitionIndex(10945)), TypeDefinitionIndex(TypeDefinitionIndex(10942)),
-// TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10944))} Self: TypeDefinitionIndex(TypeDefinitionIndex(10946)) CS Name: ::Zenject::BindInfo*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10943)), TypeDefinitionIndex(TypeDefinitionIndex(10944)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10945)), TypeDefinitionIndex(TypeDefinitionIndex(10942))} Self: TypeDefinitionIndex(TypeDefinitionIndex(10946)) CS Name: ::Zenject::BindInfo*
 class CORDL_TYPE BindInfo : public ::System::Object {
 public:
   // Declarations

@@ -4,17 +4,17 @@
 CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(INetworkPacketSubSerializer_1)
-namespace System {
-class Type;
+namespace LiteNetLib::Utils {
+class NetDataWriter;
 }
 namespace LiteNetLib::Utils {
 class INetSerializable;
 }
-namespace LiteNetLib::Utils {
-class NetDataReader;
+namespace System {
+class Type;
 }
 namespace LiteNetLib::Utils {
-class NetDataWriter;
+class NetDataReader;
 }
 // Forward declare root types
 namespace GlobalNamespace {

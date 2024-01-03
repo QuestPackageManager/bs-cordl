@@ -2,15 +2,15 @@
 #include "System/Net/Http/Headers/zzzz__HttpHeaderKind_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/Http/Headers/zzzz__HeaderInfo_def.hpp"
-#include "System/zzzz__Object_def.hpp"
-#include "System/Net/Http/Headers/zzzz__HttpHeaderKind_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "System/Net/Http/Headers/zzzz__HeaderInfo_CollectionHeaderTypeInfo_2_def.hpp"
-#include "System/zzzz__Func_2_def.hpp"
-#include "System/Net/Http/Headers/zzzz__HeaderInfo_HeaderTypeInfo_2_def.hpp"
-#include "System/Net/Http/Headers/zzzz__TryParseListDelegate_1_def.hpp"
-#include "System/Net/Http/Headers/zzzz__HttpHeaders_def.hpp"
 #include "System/Net/Http/Headers/zzzz__TryParseDelegate_1_def.hpp"
+#include "System/zzzz__Func_2_def.hpp"
+#include "System/Net/Http/Headers/zzzz__HeaderInfo_CollectionHeaderTypeInfo_2_def.hpp"
+#include "System/Net/Http/Headers/zzzz__HttpHeaderKind_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+#include "System/Net/Http/Headers/zzzz__HttpHeaders_def.hpp"
+#include "System/Net/Http/Headers/zzzz__TryParseListDelegate_1_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "System/Net/Http/Headers/zzzz__HeaderInfo_HeaderTypeInfo_2_def.hpp"
 //  Writing Method size for method: ::System::Net::Http::Headers::HeaderInfo._ctor
 template <>
 

@@ -7,14 +7,14 @@ CORDL_MODULE_EXPORT(MockMultiplayerStatusModel)
 namespace GlobalNamespace {
 class MultiplayerStatusData;
 }
+namespace System::Threading::Tasks {
+template <typename TResult> class Task_1;
+}
 namespace System::Threading {
 struct CancellationToken;
 }
 namespace GlobalNamespace {
 class IMultiplayerStatusModel;
-}
-namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {

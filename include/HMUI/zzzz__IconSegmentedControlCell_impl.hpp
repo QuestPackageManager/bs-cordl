@@ -1,10 +1,10 @@
 #pragma once
 #include "HMUI/zzzz__SegmentedControlCell_impl.hpp"
 #include "HMUI/zzzz__IconSegmentedControlCell_def.hpp"
-#include "HMUI/zzzz__HoverHint_def.hpp"
-#include "UnityEngine/UI/zzzz__Image_def.hpp"
-#include "UnityEngine/zzzz__GameObject_def.hpp"
 #include "UnityEngine/zzzz__Sprite_def.hpp"
+#include "UnityEngine/zzzz__GameObject_def.hpp"
+#include "UnityEngine/UI/zzzz__Image_def.hpp"
+#include "HMUI/zzzz__HoverHint_def.hpp"
 //  Writing Method size for method: ::HMUI::IconSegmentedControlCell.set_sprite
 template <>
 

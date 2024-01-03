@@ -9,35 +9,35 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(RuntimeAssembly)
+namespace System::Reflection {
+class Module;
+}
 namespace System::Runtime::Serialization {
 class SerializationInfo;
 }
-namespace System::Security::Policy {
-class Evidence;
+namespace System::Reflection {
+class AssemblyName;
 }
 namespace System::Reflection {
 class __Assembly__ResolveEventHolder;
 }
-namespace System::Runtime::Serialization {
-struct StreamingContext;
+namespace System {
+class Type;
 }
 namespace System::Threading {
 struct StackCrawlMark;
 }
-namespace System::Reflection {
-class Module;
-}
-namespace System {
-class Type;
-}
 namespace System {
 class Object;
+}
+namespace System::Runtime::Serialization {
+struct StreamingContext;
 }
 namespace System::Reflection {
 class Assembly;
 }
-namespace System::Reflection {
-class AssemblyName;
+namespace System::Security::Policy {
+class Evidence;
 }
 // Forward declare root types
 namespace System::Reflection {
@@ -49,7 +49,7 @@ MARK_REF_PTR_T(::System::Reflection::RuntimeAssembly);
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Reflection {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3511)), TypeDefinitionIndex(TypeDefinitionIndex(2603))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(3511))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3517))
 // CS Name: ::System.Reflection::RuntimeAssembly*
 class CORDL_TYPE RuntimeAssembly : public ::System::Reflection::Assembly {

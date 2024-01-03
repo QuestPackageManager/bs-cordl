@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(WeakHashtable)
-namespace System {
-class Object;
-}
 namespace System::ComponentModel {
 class __WeakHashtable__WeakKeyComparer;
+}
+namespace System {
+class Object;
 }
 namespace System::Collections {
 class IEqualityComparer;

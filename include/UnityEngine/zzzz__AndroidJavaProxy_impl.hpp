@@ -2,10 +2,10 @@
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__AndroidJavaProxy_def.hpp"
-#include "UnityEngine/zzzz__AndroidJavaClass_def.hpp"
 #include "UnityEngine/zzzz__GlobalJavaObjectRef_def.hpp"
-#include "UnityEngine/zzzz__AndroidJavaObject_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "UnityEngine/zzzz__AndroidJavaObject_def.hpp"
+#include "UnityEngine/zzzz__AndroidJavaClass_def.hpp"
 //  Writing Method size for method: ::UnityEngine::AndroidJavaProxy._ctor
 template <>
 

@@ -8,16 +8,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(X509Store)
 namespace Mono::Security::X509 {
+class X509Certificate;
+}
+namespace Mono::Security::X509 {
 class X509Crl;
 }
 namespace Mono::Security::X509 {
-class X509Certificate;
+class X509CertificateCollection;
 }
 namespace System::Collections {
 class ArrayList;
-}
-namespace Mono::Security::X509 {
-class X509CertificateCollection;
 }
 // Forward declare root types
 namespace Mono::Security::X509 {

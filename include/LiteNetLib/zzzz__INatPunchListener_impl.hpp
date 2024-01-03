@@ -1,7 +1,7 @@
 #pragma once
 #include "LiteNetLib/zzzz__INatPunchListener_def.hpp"
-#include "LiteNetLib/zzzz__NatAddressType_def.hpp"
 #include "System/Net/zzzz__IPEndPoint_def.hpp"
+#include "LiteNetLib/zzzz__NatAddressType_def.hpp"
 //  Writing Method size for method: ::LiteNetLib::INatPunchListener.OnNatIntroductionRequest
 template <>
 

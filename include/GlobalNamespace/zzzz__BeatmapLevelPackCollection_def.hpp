@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(BeatmapLevelPackCollection)
 namespace GlobalNamespace {
-class IBeatmapLevelPack;
+class IBeatmapLevelPackCollection;
 }
 namespace GlobalNamespace {
-class IBeatmapLevelPackCollection;
+class IBeatmapLevelPack;
 }
 // Forward declare root types
 namespace GlobalNamespace {

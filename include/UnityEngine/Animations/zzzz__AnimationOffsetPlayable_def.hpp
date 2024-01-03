@@ -7,26 +7,26 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(AnimationOffsetPlayable)
-namespace UnityEngine {
-struct Vector3;
-}
-namespace UnityEngine::Playables {
-class IPlayable;
+namespace System {
+template <typename T> class IEquatable_1;
 }
 namespace UnityEngine {
 struct Quaternion;
 }
 namespace UnityEngine::Playables {
-struct PlayableGraph;
+struct PlayableHandle;
 }
 namespace UnityEngine::Playables {
-struct PlayableHandle;
+class IPlayable;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 namespace UnityEngine::Playables {
 struct Playable;
 }
-namespace System {
-template <typename T> class IEquatable_1;
+namespace UnityEngine::Playables {
+struct PlayableGraph;
 }
 // Forward declare root types
 namespace UnityEngine::Animations {

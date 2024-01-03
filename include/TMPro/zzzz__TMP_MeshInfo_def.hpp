@@ -10,14 +10,14 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(TMP_MeshInfo)
-namespace UnityEngine {
-class Mesh;
+namespace TMPro {
+struct VertexSortingOrder;
 }
 namespace UnityEngine {
 struct Color32;
 }
-namespace TMPro {
-struct VertexSortingOrder;
+namespace UnityEngine {
+class Mesh;
 }
 namespace UnityEngine {
 struct Vector4;
@@ -44,7 +44,7 @@ MARK_VAL_T(::TMPro::TMP_MeshInfo);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10250)), TypeDefinitionIndex(TypeDefinitionIndex(10164)),
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10250)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10164)),
 // TypeDefinitionIndex(TypeDefinitionIndex(10246))} Self: TypeDefinitionIndex(TypeDefinitionIndex(12405)) CS Name: ::TMPro::TMP_MeshInfo
 struct CORDL_TYPE TMP_MeshInfo {
 public:

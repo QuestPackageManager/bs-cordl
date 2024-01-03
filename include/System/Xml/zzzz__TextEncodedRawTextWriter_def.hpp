@@ -8,16 +8,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(TextEncodedRawTextWriter)
 namespace System::IO {
-class TextWriter;
+class Stream;
 }
 namespace System::Xml {
 struct XmlStandalone;
 }
+namespace System::IO {
+class TextWriter;
+}
 namespace System::Xml {
 class XmlWriterSettings;
-}
-namespace System::IO {
-class Stream;
 }
 // Forward declare root types
 namespace System::Xml {

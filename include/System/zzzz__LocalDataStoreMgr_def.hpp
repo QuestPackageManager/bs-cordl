@@ -10,9 +10,6 @@ CORDL_MODULE_EXPORT(LocalDataStoreMgr)
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
-namespace System {
-class LocalDataStoreSlot;
-}
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
@@ -21,6 +18,9 @@ class LocalDataStoreHolder;
 }
 namespace System {
 class LocalDataStore;
+}
+namespace System {
+class LocalDataStoreSlot;
 }
 // Forward declare root types
 namespace System {

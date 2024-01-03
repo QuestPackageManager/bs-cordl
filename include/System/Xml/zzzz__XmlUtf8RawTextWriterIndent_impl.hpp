@@ -2,10 +2,10 @@
 #include "System/Xml/zzzz__ConformanceLevel_impl.hpp"
 #include "System/Xml/zzzz__XmlUtf8RawTextWriter_impl.hpp"
 #include "System/Xml/zzzz__XmlUtf8RawTextWriterIndent_def.hpp"
-#include "System/Xml/zzzz__ConformanceLevel_def.hpp"
+#include "System/Xml/zzzz__BitStack_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"
 #include "System/Xml/zzzz__XmlWriterSettings_def.hpp"
-#include "System/Xml/zzzz__BitStack_def.hpp"
+#include "System/Xml/zzzz__ConformanceLevel_def.hpp"
 //  Writing Method size for method: ::System::Xml::XmlUtf8RawTextWriterIndent._ctor
 template <>
 

@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__InputFieldSettingsController_def.hpp"
-#include "HMUI/zzzz__InputFieldView_def.hpp"
 #include "GlobalNamespace/zzzz__StringSO_def.hpp"
+#include "HMUI/zzzz__InputFieldView_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::InputFieldSettingsController.Awake
 template <>
 

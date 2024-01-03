@@ -7,16 +7,64 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(CustomNamedCurves)
 namespace Org::BouncyCastle::Crypto::EC {
-class __CustomNamedCurves__SecP224R1Holder;
+class __CustomNamedCurves__SecT233R1Holder;
+}
+namespace Org::BouncyCastle::Asn1 {
+class DerObjectIdentifier;
 }
 namespace Org::BouncyCastle::Crypto::EC {
 class __CustomNamedCurves__SecP224K1Holder;
 }
-namespace Org::BouncyCastle::Math::EC {
-class ECCurve;
+namespace Org::BouncyCastle::Asn1::X9 {
+class X9ECParametersHolder;
 }
 namespace Org::BouncyCastle::Crypto::EC {
-class __CustomNamedCurves__SecT113R2Holder;
+class __CustomNamedCurves__SecT193R2Holder;
+}
+namespace System::Collections {
+class IEnumerable;
+}
+namespace Org::BouncyCastle::Crypto::EC {
+class __CustomNamedCurves__SecP384R1Holder;
+}
+namespace Org::BouncyCastle::Crypto::EC {
+class __CustomNamedCurves__SecP160R2Holder;
+}
+namespace Org::BouncyCastle::Crypto::EC {
+class __CustomNamedCurves__SecP128R1Holder;
+}
+namespace Org::BouncyCastle::Crypto::EC {
+class __CustomNamedCurves__SecP192R1Holder;
+}
+namespace Org::BouncyCastle::Asn1::X9 {
+class X9ECPoint;
+}
+namespace Org::BouncyCastle::Crypto::EC {
+class __CustomNamedCurves__SecP160K1Holder;
+}
+namespace Org::BouncyCastle::Crypto::EC {
+class __CustomNamedCurves__SecT283K1Holder;
+}
+namespace Org::BouncyCastle::Crypto::EC {
+class __CustomNamedCurves__SecT163R2Holder;
+}
+namespace System::Collections {
+class IDictionary;
+}
+namespace System::Collections {
+class IList;
+}
+namespace Org::BouncyCastle::Crypto::EC {
+class __CustomNamedCurves__SecP256K1Holder;
+}
+namespace Org::BouncyCastle::Crypto::EC {
+class __CustomNamedCurves__SecP521R1Holder;
+}
+namespace Org::BouncyCastle::Crypto::EC {
+class __CustomNamedCurves__SecT283R1Holder;
+}
+namespace Org::BouncyCastle::Asn1::X9 {
+class X9ECParameters;
 }
 namespace Org::BouncyCastle::Crypto::EC {
 class __CustomNamedCurves__SecT131R2Holder;
@@ -28,106 +76,58 @@ namespace Org::BouncyCastle::Crypto::EC {
 class __CustomNamedCurves__SecT571K1Holder;
 }
 namespace Org::BouncyCastle::Crypto::EC {
-class __CustomNamedCurves__SecP192K1Holder;
-}
-namespace Org::BouncyCastle::Crypto::EC {
-class __CustomNamedCurves__SecT163R2Holder;
-}
-namespace Org::BouncyCastle::Crypto::EC {
-class __CustomNamedCurves__SecT193R1Holder;
-}
-namespace Org::BouncyCastle::Crypto::EC {
-class __CustomNamedCurves__SecP384R1Holder;
-}
-namespace Org::BouncyCastle::Crypto::EC {
-class __CustomNamedCurves__SecP160R2Holder;
-}
-namespace System::Collections {
-class IList;
-}
-namespace Org::BouncyCastle::Asn1 {
-class DerObjectIdentifier;
-}
-namespace Org::BouncyCastle::Crypto::EC {
-class __CustomNamedCurves__SM2P256V1Holder;
-}
-namespace Org::BouncyCastle::Crypto::EC {
-class __CustomNamedCurves__SecP256K1Holder;
-}
-namespace Org::BouncyCastle::Crypto::EC {
-class __CustomNamedCurves__SecT131R1Holder;
-}
-namespace Org::BouncyCastle::Crypto::EC {
-class __CustomNamedCurves__SecP128R1Holder;
-}
-namespace Org::BouncyCastle::Crypto::EC {
-class __CustomNamedCurves__SecP160R1Holder;
+class __CustomNamedCurves__SecT239K1Holder;
 }
 namespace Org::BouncyCastle::Crypto::EC {
 class __CustomNamedCurves__SecT163R1Holder;
 }
 namespace Org::BouncyCastle::Crypto::EC {
+class __CustomNamedCurves__SecT193R1Holder;
+}
+namespace Org::BouncyCastle::Crypto::EC {
+class __CustomNamedCurves__SecP160R1Holder;
+}
+namespace Org::BouncyCastle::Crypto::EC {
 class __CustomNamedCurves__SecT409K1Holder;
 }
 namespace Org::BouncyCastle::Crypto::EC {
-class __CustomNamedCurves__SecT233R1Holder;
-}
-namespace Org::BouncyCastle::Crypto::EC {
-class __CustomNamedCurves__SecP160K1Holder;
-}
-namespace Org::BouncyCastle::Crypto::EC {
 class __CustomNamedCurves__SecT571R1Holder;
-}
-namespace System::Collections {
-class IEnumerable;
-}
-namespace Org::BouncyCastle::Crypto::EC {
-class __CustomNamedCurves__SecT283R1Holder;
-}
-namespace Org::BouncyCastle::Crypto::EC {
-class __CustomNamedCurves__SecP256R1Holder;
-}
-namespace Org::BouncyCastle::Crypto::EC {
-class __CustomNamedCurves__SecT193R2Holder;
-}
-namespace Org::BouncyCastle::Crypto::EC {
-class __CustomNamedCurves__SecP521R1Holder;
-}
-namespace Org::BouncyCastle::Asn1::X9 {
-class X9ECPoint;
-}
-namespace Org::BouncyCastle::Crypto::EC {
-class __CustomNamedCurves__SecT409R1Holder;
-}
-namespace Org::BouncyCastle::Math::EC::Endo {
-class GlvTypeBParameters;
-}
-namespace System::Collections {
-class IDictionary;
-}
-namespace Org::BouncyCastle::Asn1::X9 {
-class X9ECParameters;
-}
-namespace Org::BouncyCastle::Asn1::X9 {
-class X9ECParametersHolder;
-}
-namespace Org::BouncyCastle::Crypto::EC {
-class __CustomNamedCurves__Curve25519Holder;
-}
-namespace Org::BouncyCastle::Crypto::EC {
-class __CustomNamedCurves__SecT163K1Holder;
-}
-namespace Org::BouncyCastle::Crypto::EC {
-class __CustomNamedCurves__SecT239K1Holder;
-}
-namespace Org::BouncyCastle::Crypto::EC {
-class __CustomNamedCurves__SecT283K1Holder;
 }
 namespace Org::BouncyCastle::Crypto::EC {
 class __CustomNamedCurves__SecT113R1Holder;
 }
 namespace Org::BouncyCastle::Crypto::EC {
-class __CustomNamedCurves__SecP192R1Holder;
+class __CustomNamedCurves__SecT131R1Holder;
+}
+namespace Org::BouncyCastle::Crypto::EC {
+class __CustomNamedCurves__SecT113R2Holder;
+}
+namespace Org::BouncyCastle::Crypto::EC {
+class __CustomNamedCurves__SecT163K1Holder;
+}
+namespace Org::BouncyCastle::Crypto::EC {
+class __CustomNamedCurves__Curve25519Holder;
+}
+namespace Org::BouncyCastle::Math::EC {
+class ECCurve;
+}
+namespace Org::BouncyCastle::Math::EC::Endo {
+class GlvTypeBParameters;
+}
+namespace Org::BouncyCastle::Crypto::EC {
+class __CustomNamedCurves__SecP192K1Holder;
+}
+namespace Org::BouncyCastle::Crypto::EC {
+class __CustomNamedCurves__SecP224R1Holder;
+}
+namespace Org::BouncyCastle::Crypto::EC {
+class __CustomNamedCurves__SecP256R1Holder;
+}
+namespace Org::BouncyCastle::Crypto::EC {
+class __CustomNamedCurves__SecT409R1Holder;
+}
+namespace Org::BouncyCastle::Crypto::EC {
+class __CustomNamedCurves__SM2P256V1Holder;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::EC {

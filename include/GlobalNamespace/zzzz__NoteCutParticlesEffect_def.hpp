@@ -8,13 +8,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(NoteCutParticlesEffect)
 namespace UnityEngine {
+class ParticleSystem;
+}
+namespace UnityEngine {
 struct Vector3;
 }
 namespace UnityEngine {
 struct Color32;
-}
-namespace UnityEngine {
-class ParticleSystem;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -26,8 +26,8 @@ MARK_REF_PTR_T(::GlobalNamespace::NoteCutParticlesEffect);
 // SizeInfo { instance_size: 560, native_size: -1, calculated_instance_size: 560, calculated_native_size: 560, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15884)), TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(15889)),
-// TypeDefinitionIndex(TypeDefinitionIndex(15886)), TypeDefinitionIndex(TypeDefinitionIndex(15882))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4871)) CS Name: ::NoteCutParticlesEffect*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15884)), TypeDefinitionIndex(TypeDefinitionIndex(15886)), TypeDefinitionIndex(TypeDefinitionIndex(15889)),
+// TypeDefinitionIndex(TypeDefinitionIndex(15882)), TypeDefinitionIndex(TypeDefinitionIndex(10225))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4871)) CS Name: ::NoteCutParticlesEffect*
 class CORDL_TYPE NoteCutParticlesEffect : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations

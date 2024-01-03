@@ -17,43 +17,79 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(TrackAsset)
 namespace UnityEngine::Timeline {
-class TimelineClip;
+class ICurvesOwner;
 }
-namespace UnityEngine::Playables {
-class PlayableAsset;
-}
-namespace UnityEngine::Playables {
-class PlayableDirector;
-}
-namespace UnityEngine {
-class ScriptableObject;
+namespace UnityEngine::Timeline {
+class __TrackAsset____c;
 }
 namespace UnityEngine::Timeline {
 class IMarker;
 }
-namespace System::Collections::Generic {
-template <typename T> class IList_1;
-}
 namespace UnityEngine::Timeline {
 class IPropertyPreview;
 }
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
+}
 namespace UnityEngine::Timeline {
-class RuntimeElement;
+template <typename T> class IntervalTree_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class IList_1;
+}
+namespace System {
+template <typename T1, typename T2, typename T3> class Action_3;
+}
+namespace UnityEngine::Timeline {
+class TrackBindingTypeAttribute;
 }
 namespace UnityEngine::Playables {
-class IPlayableAsset;
+struct PlayableGraph;
 }
-namespace UnityEngine::Timeline {
-class TimelineAsset;
-}
-namespace UnityEngine::Timeline {
-struct __TrackAsset__Versions;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace UnityEngine::Timeline {
 class __TrackAsset__TrackAssetUpgrade;
 }
+namespace UnityEngine {
+class AnimationClip;
+}
+namespace UnityEngine::Timeline {
+class __TrackAsset___get_outputs_d__65;
+}
+namespace UnityEngine::Timeline {
+class TimelineAsset;
+}
+namespace UnityEngine {
+class Object;
+}
 namespace UnityEngine::Playables {
 struct Playable;
+}
+namespace UnityEngine::Timeline {
+struct __TrackAsset__TransientBuildData;
+}
+namespace UnityEngine::Playables {
+class PlayableAsset;
+}
+namespace UnityEngine::Timeline {
+struct __TrackAsset__Versions;
+}
+namespace UnityEngine {
+class ISerializationCallbackReceiver;
+}
+namespace System {
+class Type;
+}
+namespace UnityEngine::Timeline {
+class TimelineClip;
+}
+namespace UnityEngine {
+class ScriptableObject;
+}
+namespace UnityEngine::Playables {
+struct PlayableBinding;
 }
 namespace UnityEngine::Timeline {
 class IPropertyCollector;
@@ -61,59 +97,26 @@ class IPropertyCollector;
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace UnityEngine::Timeline {
-struct __TrackAsset__TransientBuildData;
-}
 namespace UnityEngine::Playables {
-struct PlayableGraph;
+class IPlayableAsset;
 }
 namespace UnityEngine::Timeline {
-template <typename T> class IntervalTree_1;
-}
-namespace System {
-template <typename T1, typename T2, typename T3> class Action_3;
+class RuntimeElement;
 }
 namespace UnityEngine {
 class GameObject;
 }
-namespace UnityEngine::Timeline {
-class __TrackAsset___get_outputs_d__65;
-}
-namespace UnityEngine {
-class Object;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace UnityEngine::Timeline {
-class ICurvesOwner;
-}
-namespace System {
-class Type;
-}
-namespace UnityEngine {
-class AnimationClip;
-}
 namespace UnityEngine::Playables {
-struct PlayableBinding;
-}
-namespace UnityEngine {
-class ISerializationCallbackReceiver;
-}
-namespace UnityEngine::Timeline {
-class TrackBindingTypeAttribute;
-}
-namespace UnityEngine::Timeline {
-class __TrackAsset____c;
+class PlayableDirector;
 }
 namespace System {
 template <typename T> class Comparison_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
+}
+namespace System::Collections {
+class IEnumerable;
 }
 namespace System::Collections {
 class IEnumerator;
@@ -123,9 +126,6 @@ class Object;
 }
 namespace System {
 class IDisposable;
-}
-namespace System::Collections {
-class IEnumerable;
 }
 // Forward declare root types
 namespace UnityEngine::Timeline {
@@ -296,7 +296,7 @@ static_assert(offsetof(::UnityEngine::Timeline::__TrackAsset__TransientBuildData
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10431)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10431))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13860))
 // CS Name: ::TrackAsset::<get_outputs>d__65*
 class CORDL_TYPE __TrackAsset___get_outputs_d__65 : public ::System::Object {
@@ -480,10 +480,9 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::Timeline::__TrackAs
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2448)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 105 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(13859)), TypeDefinitionIndex(TypeDefinitionIndex(13889)), TypeDefinitionIndex(TypeDefinitionIndex(13876)), TypeDefinitionIndex(TypeDefinitionIndex(10422))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13862))
-// CS Name: ::UnityEngine.Timeline::TrackAsset*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13889)), TypeDefinitionIndex(TypeDefinitionIndex(10422)), TypeDefinitionIndex(TypeDefinitionIndex(2448)),
+// TypeDefinitionIndex(TypeDefinitionIndex(13876)), TypeDefinitionIndex(TypeDefinitionIndex(13859)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 105 })} Self:
+// TypeDefinitionIndex(TypeDefinitionIndex(13862)) CS Name: ::UnityEngine.Timeline::TrackAsset*
 class CORDL_TYPE TrackAsset : public ::UnityEngine::Playables::PlayableAsset {
 public:
   // Declarations

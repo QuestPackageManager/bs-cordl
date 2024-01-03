@@ -90,7 +90,7 @@ static_assert(offsetof(::GlobalNamespace::__MenuEnvironmentManager__MenuEnvironm
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(4690))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4690)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4691))
 // CS Name: ::MenuEnvironmentManager::MenuEnvironmentObjects*
 class CORDL_TYPE __MenuEnvironmentManager__MenuEnvironmentObjects : public ::System::Object {

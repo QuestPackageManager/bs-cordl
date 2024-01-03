@@ -2,8 +2,8 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Xml/zzzz__DomNameTable_def.hpp"
 #include "System/Xml/zzzz__XmlNameTable_def.hpp"
-#include "System/Xml/zzzz__XmlName_def.hpp"
 #include "System/Xml/Schema/zzzz__IXmlSchemaInfo_def.hpp"
+#include "System/Xml/zzzz__XmlName_def.hpp"
 #include "System/Xml/zzzz__XmlDocument_def.hpp"
 //  Writing Method size for method: ::System::Xml::DomNameTable._ctor
 template <>

@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(ImmediateRankUIPanel)
-namespace TMPro {
-class TextMeshProUGUI;
-}
 namespace GlobalNamespace {
 class RelativeScoreAndImmediateRankCounter;
+}
+namespace TMPro {
+class TextMeshProUGUI;
 }
 namespace System::Text {
 class StringBuilder;

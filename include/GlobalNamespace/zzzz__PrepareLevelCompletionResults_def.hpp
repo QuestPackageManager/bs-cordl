@@ -8,37 +8,37 @@ namespace GlobalNamespace {
 struct __LevelCompletionResults__LevelEndStateType;
 }
 namespace GlobalNamespace {
-class LevelCompletionResults;
-}
-namespace GlobalNamespace {
-class GameplayModifiersModelSO;
-}
-namespace GlobalNamespace {
-struct __LevelCompletionResults__LevelEndAction;
-}
-namespace GlobalNamespace {
-class IReadonlyBeatmapData;
-}
-namespace GlobalNamespace {
-class BeatmapObjectExecutionRatingsRecorder;
+class GameplayModifiers;
 }
 namespace GlobalNamespace {
 class ComboController;
 }
 namespace GlobalNamespace {
+class IReadonlyBeatmapData;
+}
+namespace GlobalNamespace {
+class LevelCompletionResults;
+}
+namespace GlobalNamespace {
 class AudioTimeSyncController;
-}
-namespace GlobalNamespace {
-class IScoreController;
-}
-namespace GlobalNamespace {
-class GameplayModifiers;
 }
 namespace GlobalNamespace {
 class GameEnergyCounter;
 }
 namespace GlobalNamespace {
+class IScoreController;
+}
+namespace GlobalNamespace {
+class BeatmapObjectExecutionRatingsRecorder;
+}
+namespace GlobalNamespace {
 class SaberActivityCounter;
+}
+namespace GlobalNamespace {
+struct __LevelCompletionResults__LevelEndAction;
+}
+namespace GlobalNamespace {
+class GameplayModifiersModelSO;
 }
 // Forward declare root types
 namespace GlobalNamespace {

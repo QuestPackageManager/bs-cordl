@@ -2,10 +2,10 @@
 #include "GlobalNamespace/zzzz__ConsoleCommandBase_impl.hpp"
 #include "GlobalNamespace/zzzz__HelpConsoleCommand_def.hpp"
 #include "GlobalNamespace/zzzz__DebugConsoleController_def.hpp"
+#include "GlobalNamespace/zzzz__OptionalArgument_1_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_def.hpp"
 #include "GlobalNamespace/zzzz__ArgumentBase_def.hpp"
-#include "GlobalNamespace/zzzz__OptionalArgument_1_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::HelpConsoleCommand.get_isAsyncCommand
 template <>
 

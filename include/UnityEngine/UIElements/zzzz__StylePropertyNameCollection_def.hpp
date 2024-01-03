@@ -6,20 +6,11 @@ CORDL_MODULE_INIT
 #include "UnityEngine/UIElements/zzzz__StylePropertyName_def.hpp"
 #include <cstddef>
 CORDL_MODULE_EXPORT(StylePropertyNameCollection)
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
-}
-namespace UnityEngine::UIElements {
-struct StylePropertyName;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
 namespace System::Collections {
 class IEnumerator;
 }
 namespace System::Collections::Generic {
-template <typename T> class List_1;
+template <typename T> class IEnumerable_1;
 }
 namespace UnityEngine::UIElements {
 struct __StylePropertyNameCollection__Enumerator;
@@ -28,13 +19,22 @@ namespace System::Collections {
 class IEnumerable;
 }
 namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
+}
+namespace UnityEngine::UIElements {
+struct StylePropertyName;
+}
+namespace System {
+class Object;
+}
+namespace System::Collections::Generic {
 template <typename T> struct __List_1__Enumerator;
 }
 namespace System {
 class IDisposable;
-}
-namespace System {
-class Object;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -50,8 +50,8 @@ MARK_VAL_T(::UnityEngine::UIElements::__StylePropertyNameCollection__Enumerator)
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3842), inst: 1693 }), TypeDefinitionIndex(TypeDefinitionIndex(6791)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3842))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7186)) CS Name: ::StylePropertyNameCollection::Enumerator
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3842)), TypeDefinitionIndex(TypeDefinitionIndex(6791)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3842), inst: 1693
+// })} Self: TypeDefinitionIndex(TypeDefinitionIndex(7186)) CS Name: ::StylePropertyNameCollection::Enumerator
 struct CORDL_TYPE __StylePropertyNameCollection__Enumerator {
 public:
   // Declarations

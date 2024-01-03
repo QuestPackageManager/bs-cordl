@@ -8,16 +8,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(EncodingTable)
 namespace System::Globalization {
-class CodePageDataItem;
+struct InternalCodePageDataItem;
 }
 namespace System::Globalization {
 struct InternalEncodingDataItem;
 }
+namespace System::Globalization {
+class CodePageDataItem;
+}
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace System::Globalization {
-struct InternalCodePageDataItem;
 }
 // Forward declare root types
 namespace System::Globalization {

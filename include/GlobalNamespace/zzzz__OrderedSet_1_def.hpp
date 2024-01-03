@@ -8,38 +8,38 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(OrderedSet_1)
-namespace GlobalNamespace {
-template <typename T> struct __OrderedSet_1__ProcessOrder;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
+namespace System::Collections {
+class IEnumerator;
 }
 namespace System::Collections {
 class IEnumerable;
+}
+namespace GlobalNamespace {
+template <typename T> class __OrderedSet_1__Node;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
 namespace GlobalNamespace {
-template <typename T> class __OrderedSet_1__Node;
+template <typename T> class __OrderedSet_1___GetEnumerator_d__23;
+}
+namespace GlobalNamespace {
+template <typename T> struct __OrderedSet_1__ProcessOrder;
 }
 namespace System {
 template <typename T> class Comparison_1;
 }
-namespace GlobalNamespace {
-template <typename T> class __OrderedSet_1___GetEnumerator_d__23;
-}
-namespace System::Collections {
-class IEnumerator;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace System {
-class IDisposable;
+class Object;
 }
 namespace System {
-class Object;
+class IDisposable;
 }
 // Forward declare root types
 namespace GlobalNamespace {

@@ -7,14 +7,14 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(ClothRandomFluctuation)
+namespace GlobalNamespace {
+class __ClothRandomFluctuation__SineLayer;
+}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace UnityEngine {
 class Cloth;
-}
-namespace GlobalNamespace {
-class __ClothRandomFluctuation__SineLayer;
 }
 // Forward declare root types
 namespace GlobalNamespace {

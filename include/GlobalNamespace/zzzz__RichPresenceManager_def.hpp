@@ -6,25 +6,25 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(RichPresenceManager)
 namespace GlobalNamespace {
-class GameScenesManager;
-}
-namespace GlobalNamespace {
-class IUnifiedNetworkPlayerModel;
+class BrowsingMenusRichPresenceData;
 }
 namespace GlobalNamespace {
 class IRichPresenceData;
 }
 namespace GlobalNamespace {
-class BrowsingMenusRichPresenceData;
-}
-namespace GlobalNamespace {
-class MultiplayerLevelScenesTransitionSetupDataSO;
+class ScenesTransitionSetupDataSO;
 }
 namespace GlobalNamespace {
 class StandardLevelScenesTransitionSetupDataSO;
 }
 namespace GlobalNamespace {
-class ScenesTransitionSetupDataSO;
+class IUnifiedNetworkPlayerModel;
+}
+namespace GlobalNamespace {
+class PlayingCampaignRichPresenceData;
+}
+namespace GlobalNamespace {
+class LobbyPlayerPermissionsModel;
 }
 namespace GlobalNamespace {
 class InMultiplayerRichPresenceData;
@@ -32,29 +32,29 @@ class InMultiplayerRichPresenceData;
 namespace GlobalNamespace {
 struct MultiplayerGameState;
 }
-namespace GlobalNamespace {
-class PlayingCampaignRichPresenceData;
+namespace Zenject {
+class DiContainer;
 }
 namespace GlobalNamespace {
 class PlayingTutorialPresenceData;
 }
 namespace GlobalNamespace {
-class LobbyGameStateModel;
+class IRichPresencePlatformHandler;
 }
 namespace GlobalNamespace {
 class MissionLevelScenesTransitionSetupDataSO;
 }
-namespace Zenject {
-class DiContainer;
-}
 namespace GlobalNamespace {
-class LobbyPlayerPermissionsModel;
-}
-namespace GlobalNamespace {
-class IRichPresencePlatformHandler;
+class MultiplayerLevelScenesTransitionSetupDataSO;
 }
 namespace GlobalNamespace {
 class MenuScenesTransitionSetupDataSO;
+}
+namespace GlobalNamespace {
+class GameScenesManager;
+}
+namespace GlobalNamespace {
+class LobbyGameStateModel;
 }
 // Forward declare root types
 namespace GlobalNamespace {

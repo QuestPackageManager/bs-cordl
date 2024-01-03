@@ -11,13 +11,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(TextNativeSettings)
 namespace UnityEngine {
-struct FontStyle;
-}
-namespace UnityEngine {
 class Font;
 }
 namespace UnityEngine {
 struct TextAnchor;
+}
+namespace UnityEngine {
+struct FontStyle;
 }
 namespace UnityEngine {
 struct Color;
@@ -32,7 +32,7 @@ MARK_VAL_T(::UnityEngine::UIElements::TextNativeSettings);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 73, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15896)), TypeDefinitionIndex(TypeDefinitionIndex(15901)), TypeDefinitionIndex(TypeDefinitionIndex(10251))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(15896)), TypeDefinitionIndex(TypeDefinitionIndex(15901))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15376))
 // CS Name: ::UnityEngine.UIElements::TextNativeSettings
 struct CORDL_TYPE TextNativeSettings {

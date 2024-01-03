@@ -4,56 +4,56 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(MirroredBeatmapObjectManager)
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
+namespace GlobalNamespace {
+class MirroredObstacleController;
 }
 namespace GlobalNamespace {
 class __MirroredObstacleController__Pool;
 }
 namespace GlobalNamespace {
-class __MirroredSliderController__Pool;
-}
-namespace GlobalNamespace {
-class MirroredObstacleController;
-}
-namespace GlobalNamespace {
-class ObstacleController;
-}
-namespace GlobalNamespace {
-class MirroredGameNoteController;
-}
-namespace System {
-template <typename T1, typename T2> struct ValueTuple_2;
-}
-namespace GlobalNamespace {
-template <typename T> class MemoryPoolContainer_1;
-}
-namespace GlobalNamespace {
-class INoteMirrorable;
-}
-namespace GlobalNamespace {
 class IGameNoteMirrorable;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace GlobalNamespace {
 class SliderController;
 }
 namespace GlobalNamespace {
-class MirroredSliderController;
+class ObstacleController;
+}
+namespace GlobalNamespace {
+class INoteMirrorable;
+}
+namespace GlobalNamespace {
+class __MirroredBombNoteController__Pool;
+}
+namespace System {
+template <typename T1, typename T2> struct ValueTuple_2;
+}
+namespace GlobalNamespace {
+class __MirroredSliderController__Pool;
+}
+namespace GlobalNamespace {
+class NoteController;
 }
 namespace GlobalNamespace {
 class __MirroredGameNoteController__Pool;
 }
 namespace GlobalNamespace {
-class __MirroredBombNoteController__Pool;
+class MirroredGameNoteController;
 }
 namespace GlobalNamespace {
-class NoteController;
+class MirroredSliderController;
 }
 namespace GlobalNamespace {
 class MirroredBombNoteController;
 }
 namespace GlobalNamespace {
 class BeatmapObjectManager;
+}
+namespace GlobalNamespace {
+template <typename T> class MemoryPoolContainer_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {

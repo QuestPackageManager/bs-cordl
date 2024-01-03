@@ -5,8 +5,11 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(UIKeyboardManager)
-namespace VRUIControls {
-class VRInputModule;
+namespace HMUI {
+class UIKeyboard;
+}
+namespace HMUI {
+class InputFieldView;
 }
 namespace UnityEngine {
 class GameObject;
@@ -17,14 +20,11 @@ class RectTransform;
 namespace HMUI {
 class ModalView;
 }
-namespace HMUI {
-class UIKeyboard;
-}
-namespace HMUI {
-class InputFieldView;
-}
 namespace UnityEngine {
 class Transform;
+}
+namespace VRUIControls {
+class VRInputModule;
 }
 // Forward declare root types
 namespace GlobalNamespace {

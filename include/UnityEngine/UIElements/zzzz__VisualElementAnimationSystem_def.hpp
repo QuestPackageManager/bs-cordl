@@ -7,23 +7,23 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(VisualElementAnimationSystem)
-namespace UnityEngine::UIElements::Experimental {
-class IValueAnimationUpdate;
+namespace UnityEngine::UIElements {
+class VisualElement;
 }
 namespace UnityEngine::UIElements {
 struct VersionChangeType;
 }
 namespace System::Collections::Generic {
-template <typename T> class HashSet_1;
-}
-namespace UnityEngine::UIElements {
-class VisualElement;
-}
-namespace System::Collections::Generic {
 template <typename T> class List_1;
+}
+namespace UnityEngine::UIElements::Experimental {
+class IValueAnimationUpdate;
 }
 namespace Unity::Profiling {
 struct ProfilerMarker;
+}
+namespace System::Collections::Generic {
+template <typename T> class HashSet_1;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

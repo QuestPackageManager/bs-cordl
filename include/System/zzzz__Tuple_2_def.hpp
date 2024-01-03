@@ -7,19 +7,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Tuple_2)
 namespace System::Collections {
-class IStructuralComparable;
-}
-namespace System::Text {
-class StringBuilder;
+class IStructuralEquatable;
 }
 namespace System {
 class IComparable;
-}
-namespace System {
-class Object;
-}
-namespace System::Collections {
-class IComparer;
 }
 namespace System::Collections {
 class IEqualityComparer;
@@ -28,10 +19,19 @@ namespace System::Runtime::CompilerServices {
 class ITuple;
 }
 namespace System::Collections {
-class IStructuralEquatable;
+class IStructuralComparable;
+}
+namespace System {
+class Object;
 }
 namespace System {
 class ITupleInternal;
+}
+namespace System::Collections {
+class IComparer;
+}
+namespace System::Text {
+class StringBuilder;
 }
 // Forward declare root types
 namespace System {

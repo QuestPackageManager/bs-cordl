@@ -20,152 +20,83 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(TMP_InputField)
-namespace UnityEngine::UI {
-class RectMask2D;
-}
-namespace TMPro {
-class __TMP_InputField___CaretBlink_d__276;
-}
 namespace System::Collections {
 class IEnumerator;
-}
-namespace UnityEngine {
-class TouchScreenKeyboard;
-}
-namespace TMPro {
-struct __TMP_InputField__InputType;
-}
-namespace TMPro {
-struct __TMP_InputField__EditState;
-}
-namespace UnityEngine::UI {
-struct __Selectable__SelectionState;
-}
-namespace UnityEngine::EventSystems {
-class IScrollHandler;
-}
-namespace TMPro {
-struct __TMP_InputField__CharacterValidation;
-}
-namespace UnityEngine::UI {
-class Graphic;
-}
-namespace TMPro {
-class __TMP_InputField__OnValidateInput;
 }
 namespace TMPro {
 struct __TMP_InputField__ContentType;
 }
-namespace TMPro {
-class __TMP_InputField__TouchScreenKeyboardEvent;
+namespace UnityEngine::UI {
+class Graphic;
 }
 namespace UnityEngine::EventSystems {
-class IUpdateSelectedHandler;
-}
-namespace TMPro {
-class TMP_Text;
-}
-namespace TMPro {
-class __TMP_InputField__SelectionEvent;
-}
-namespace UnityEngine::UI {
-class VertexHelper;
-}
-namespace UnityEngine::UI {
-class Scrollbar;
-}
-namespace UnityEngine::EventSystems {
-class ISubmitHandler;
-}
-namespace TMPro {
-class TMP_ScrollbarEventHandler;
-}
-namespace UnityEngine {
-class Event;
-}
-namespace UnityEngine::UI {
-class ICanvasElement;
-}
-namespace TMPro {
-class TMP_InputValidator;
-}
-namespace UnityEngine {
-class Transform;
-}
-namespace UnityEngine {
-class WaitForSecondsRealtime;
-}
-namespace UnityEngine::EventSystems {
-class IEventSystemHandler;
+class IDragHandler;
 }
 namespace UnityEngine::EventSystems {
 class IBeginDragHandler;
 }
 namespace UnityEngine {
-class Object;
-}
-namespace TMPro {
-struct __TMP_InputField__LineType;
-}
-namespace UnityEngine {
 class Mesh;
 }
-namespace UnityEngine::UI {
-struct CanvasUpdate;
-}
-namespace UnityEngine::EventSystems {
-class IEndDragHandler;
-}
-namespace UnityEngine {
-struct TouchScreenKeyboardType;
-}
 namespace TMPro {
-class __TMP_InputField__SubmitEvent;
-}
-namespace UnityEngine {
-class RectTransform;
-}
-namespace UnityEngine::UI {
-class LayoutGroup;
-}
-namespace TMPro {
-class __TMP_InputField__OnChangeEvent;
-}
-namespace TMPro {
-class __TMP_InputField___MouseDragOutsideRect_d__294;
+struct __TMP_InputField__InputType;
 }
 namespace UnityEngine {
 struct UIVertex;
-}
-namespace UnityEngine::EventSystems {
-class BaseInput;
-}
-namespace UnityEngine {
-struct Color;
-}
-namespace UnityEngine {
-struct Vector2;
-}
-namespace UnityEngine::UI {
-class ILayoutElement;
-}
-namespace UnityEngine {
-class CanvasRenderer;
-}
-namespace UnityEngine {
-class Coroutine;
-}
-namespace UnityEngine::EventSystems {
-class IDragHandler;
 }
 namespace UnityEngine {
 class GameObject;
 }
 namespace UnityEngine::EventSystems {
+class IScrollHandler;
+}
+namespace UnityEngine::EventSystems {
+class ISubmitHandler;
+}
+namespace UnityEngine::UI {
+class RectMask2D;
+}
+namespace UnityEngine::UI {
+class ILayoutElement;
+}
+namespace UnityEngine::EventSystems {
 class PointerEventData;
+}
+namespace UnityEngine {
+class Object;
+}
+namespace UnityEngine::EventSystems {
+class IUpdateSelectedHandler;
+}
+namespace TMPro {
+class TMP_ScrollbarEventHandler;
+}
+namespace UnityEngine::UI {
+class VertexHelper;
+}
+namespace UnityEngine::EventSystems {
+class BaseInput;
+}
+namespace UnityEngine {
+class CanvasRenderer;
+}
+namespace TMPro {
+class __TMP_InputField__OnValidateInput;
+}
+namespace UnityEngine::UI {
+class LayoutGroup;
 }
 namespace UnityEngine::EventSystems {
 class BaseEventData;
+}
+namespace UnityEngine::UI {
+class Scrollbar;
+}
+namespace UnityEngine::EventSystems {
+class IEndDragHandler;
+}
+namespace TMPro {
+class __TMP_InputField__OnChangeEvent;
 }
 namespace UnityEngine::EventSystems {
 class IPointerClickHandler;
@@ -174,22 +105,91 @@ namespace TMPro {
 class __TMP_InputField__TextSelectionEvent;
 }
 namespace TMPro {
+class __TMP_InputField___MouseDragOutsideRect_d__294;
+}
+namespace UnityEngine {
+class Event;
+}
+namespace TMPro {
+class __TMP_InputField__SelectionEvent;
+}
+namespace UnityEngine {
+struct Color;
+}
+namespace UnityEngine {
+struct TouchScreenKeyboardType;
+}
+namespace TMPro {
+struct __TMP_InputField__CharacterValidation;
+}
+namespace TMPro {
+class __TMP_InputField__TouchScreenKeyboardEvent;
+}
+namespace UnityEngine {
+class WaitForSecondsRealtime;
+}
+namespace UnityEngine {
+struct Vector2;
+}
+namespace TMPro {
 class TMP_FontAsset;
+}
+namespace UnityEngine::UI {
+struct __Selectable__SelectionState;
+}
+namespace UnityEngine {
+class Transform;
+}
+namespace TMPro {
+class __TMP_InputField__SubmitEvent;
+}
+namespace UnityEngine::UI {
+class ICanvasElement;
+}
+namespace TMPro {
+struct __TMP_InputField__EditState;
+}
+namespace UnityEngine {
+class TouchScreenKeyboard;
+}
+namespace TMPro {
+class __TMP_InputField___CaretBlink_d__276;
+}
+namespace UnityEngine {
+class RectTransform;
+}
+namespace UnityEngine {
+class Coroutine;
+}
+namespace TMPro {
+class TMP_InputValidator;
+}
+namespace UnityEngine::UI {
+struct CanvasUpdate;
+}
+namespace UnityEngine::EventSystems {
+class IEventSystemHandler;
+}
+namespace TMPro {
+class TMP_Text;
+}
+namespace TMPro {
+struct __TMP_InputField__LineType;
 }
 namespace System {
 class Object;
 }
 namespace System {
-class IAsyncResult;
-}
-namespace System {
 class AsyncCallback;
 }
 namespace System {
-class IDisposable;
+class IAsyncResult;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
+}
+namespace System {
+class IDisposable;
 }
 // Forward declare root types
 namespace TMPro {
@@ -600,7 +600,7 @@ static_assert(::cordl_internals::size_check_v<::TMPro::__TMP_InputField__SubmitE
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10465), inst: 397 }), TypeDefinitionIndex(TypeDefinitionIndex(10465))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10465)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10465), inst: 397 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12384))
 // CS Name: ::TMP_InputField::OnChangeEvent*
 class CORDL_TYPE __TMP_InputField__OnChangeEvent : public ::UnityEngine::Events::UnityEvent_1<::StringW> {
@@ -670,7 +670,7 @@ static_assert(::cordl_internals::size_check_v<::TMPro::__TMP_InputField__Selecti
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10467), inst: 2503 }), TypeDefinitionIndex(TypeDefinitionIndex(10467))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10467)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10467), inst: 2503 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12386))
 // CS Name: ::TMP_InputField::TextSelectionEvent*
 class CORDL_TYPE __TMP_InputField__TextSelectionEvent : public ::UnityEngine::Events::UnityEvent_3<::StringW, int32_t, int32_t> {
@@ -705,7 +705,7 @@ static_assert(::cordl_internals::size_check_v<::TMPro::__TMP_InputField__TextSel
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10465)), TypeDefinitionIndex(TypeDefinitionIndex(10183)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10465), inst:
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10183)), TypeDefinitionIndex(TypeDefinitionIndex(10465)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10465), inst:
 // 5240 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(12387)) CS Name: ::TMP_InputField::TouchScreenKeyboardEvent*
 class CORDL_TYPE __TMP_InputField__TouchScreenKeyboardEvent : public ::UnityEngine::Events::UnityEvent_1<::UnityEngine::__TouchScreenKeyboard__Status> {
 public:
@@ -1013,9 +1013,9 @@ static_assert(offsetof(::TMPro::__TMP_InputField___MouseDragOutsideRect_d__294, 
 // SizeInfo { instance_size: 752, native_size: -1, calculated_instance_size: 752, calculated_native_size: 752, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12380)), TypeDefinitionIndex(TypeDefinitionIndex(10165)), TypeDefinitionIndex(TypeDefinitionIndex(12381)),
-// TypeDefinitionIndex(TypeDefinitionIndex(13119)), TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(12379)),
-// TypeDefinitionIndex(TypeDefinitionIndex(12378)), TypeDefinitionIndex(TypeDefinitionIndex(10185))} Self: TypeDefinitionIndex(TypeDefinitionIndex(12391)) CS Name: ::TMPro::TMP_InputField*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12378)), TypeDefinitionIndex(TypeDefinitionIndex(12379)), TypeDefinitionIndex(TypeDefinitionIndex(12381)),
+// TypeDefinitionIndex(TypeDefinitionIndex(12380)), TypeDefinitionIndex(TypeDefinitionIndex(13119)), TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(10165)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10185)), TypeDefinitionIndex(TypeDefinitionIndex(10251))} Self: TypeDefinitionIndex(TypeDefinitionIndex(12391)) CS Name: ::TMPro::TMP_InputField*
 class CORDL_TYPE TMP_InputField : public ::UnityEngine::UI::Selectable {
 public:
   // Declarations

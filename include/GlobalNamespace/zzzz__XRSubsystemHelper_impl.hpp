@@ -1,9 +1,9 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__XRSubsystemHelper_def.hpp"
-#include "UnityEngine/XR/zzzz__XRDisplaySubsystemDescriptor_def.hpp"
 #include "UnityEngine/XR/zzzz__XRInputSubsystem_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "UnityEngine/XR/zzzz__XRDisplaySubsystemDescriptor_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::XRSubsystemHelper.GetCurrentDisplaySubsystem
 template <>
 

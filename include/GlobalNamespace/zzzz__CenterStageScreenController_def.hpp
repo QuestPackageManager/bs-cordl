@@ -6,25 +6,25 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(CenterStageScreenController)
 namespace GlobalNamespace {
+class ILobbyGameStateController;
+}
+namespace GlobalNamespace {
+class BeatmapSelectionView;
+}
+namespace GlobalNamespace {
 class ModifiersSelectionView;
 }
 namespace GlobalNamespace {
-class ILevelGameplaySetupData;
+class MenuLightsManager;
 }
 namespace GlobalNamespace {
-class MenuLightsManager;
+class ILevelGameplaySetupData;
 }
 namespace GlobalNamespace {
 class MenuLightsPresetSO;
 }
 namespace GlobalNamespace {
 class CountdownController;
-}
-namespace GlobalNamespace {
-class ILobbyGameStateController;
-}
-namespace GlobalNamespace {
-class BeatmapSelectionView;
 }
 namespace GlobalNamespace {
 class MultiplayerLobbyCenterScreenLayoutAnimator;

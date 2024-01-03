@@ -7,26 +7,23 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ArraySliceFilter)
-namespace Newtonsoft::Json::Linq::JsonPath {
-class __ArraySliceFilter___ExecuteFilter_d__12;
-}
-namespace System {
-template <typename T> struct Nullable_1;
-}
-namespace Newtonsoft::Json::Linq {
-class JToken;
-}
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
 namespace System {
-class IDisposable;
+template <typename T> struct Nullable_1;
 }
-namespace System {
-class Object;
+namespace Newtonsoft::Json::Linq::JsonPath {
+class __ArraySliceFilter___ExecuteFilter_d__12;
+}
+namespace Newtonsoft::Json::Linq {
+class JToken;
 }
 namespace Newtonsoft::Json::Linq {
 class JArray;
+}
+namespace System {
+class IDisposable;
 }
 namespace System::Collections {
 class IEnumerator;
@@ -36,6 +33,9 @@ template <typename T> class IEnumerator_1;
 }
 namespace System::Collections {
 class IEnumerable;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Linq::JsonPath {
@@ -340,7 +340,7 @@ static_assert(offsetof(::Newtonsoft::Json::Linq::JsonPath::__ArraySliceFilter___
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Linq::JsonPath {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 98 }), TypeDefinitionIndex(TypeDefinitionIndex(12020)),
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12020)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 98 }),
 // TypeDefinitionIndex(TypeDefinitionIndex(2448))} Self: TypeDefinitionIndex(TypeDefinitionIndex(12013)) CS Name: ::Newtonsoft.Json.Linq.JsonPath::ArraySliceFilter*
 class CORDL_TYPE ArraySliceFilter : public ::Newtonsoft::Json::Linq::JsonPath::PathFilter {
 public:

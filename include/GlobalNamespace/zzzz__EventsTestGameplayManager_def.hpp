@@ -9,41 +9,41 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(EventsTestGameplayManager)
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
+namespace GlobalNamespace {
+class BeatmapCallbacksController;
 }
 namespace GlobalNamespace {
 class __EventsTestGameplayManager__MockBeatToTimeConvertor;
 }
-namespace GlobalNamespace {
-class BeatmapData;
+namespace UnityEngine {
+struct KeyCode;
 }
-namespace GlobalNamespace {
-class IAudioTimeSource;
-}
-namespace GlobalNamespace {
-struct EnvironmentColorType;
-}
-namespace GlobalNamespace {
-class __EventsTestGameplayManager____c__DisplayClass18_0;
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace GlobalNamespace {
 struct BasicBeatmapEventType;
 }
 namespace GlobalNamespace {
-class BeatmapEventDataBoxGroupList;
-}
-namespace GlobalNamespace {
 class __EventsTestGameplayManager____c__DisplayClass20_0;
 }
 namespace GlobalNamespace {
-class BeatmapCallbacksController;
+class BeatmapData;
 }
-namespace UnityEngine {
-struct KeyCode;
+namespace GlobalNamespace {
+struct EnvironmentColorType;
+}
+namespace GlobalNamespace {
+class BeatmapEventDataBoxGroupList;
+}
+namespace GlobalNamespace {
+class __EventsTestGameplayManager____c__DisplayClass18_0;
 }
 namespace GlobalNamespace {
 class __EventsTestGameplayManager____c__DisplayClass19_0;
+}
+namespace GlobalNamespace {
+class IAudioTimeSource;
 }
 namespace GlobalNamespace {
 class IBeatToTimeConvertor;
@@ -288,7 +288,7 @@ static_assert(offsetof(::GlobalNamespace::__EventsTestGameplayManager____c__Disp
 // SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 113, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(14724))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14724)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5014))
 // CS Name: ::EventsTestGameplayManager*
 class CORDL_TYPE EventsTestGameplayManager : public ::UnityEngine::MonoBehaviour {

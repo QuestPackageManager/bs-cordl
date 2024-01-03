@@ -8,10 +8,10 @@ CORDL_MODULE_INIT
 #include <cstddef>
 CORDL_MODULE_EXPORT(SDKTransform)
 namespace LIV::SDK::Unity {
-struct SDKQuaternion;
+struct SDKVector3;
 }
 namespace LIV::SDK::Unity {
-struct SDKVector3;
+struct SDKQuaternion;
 }
 // Forward declare root types
 namespace LIV::SDK::Unity {

@@ -6,14 +6,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(HMacSP800Drbg)
+namespace Org::BouncyCastle::Crypto {
+class IEntropySource;
+}
 namespace Org::BouncyCastle::Crypto::Prng::Drbg {
 class ISP80090Drbg;
 }
 namespace Org::BouncyCastle::Crypto {
 class IMac;
-}
-namespace Org::BouncyCastle::Crypto {
-class IEntropySource;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Prng::Drbg {

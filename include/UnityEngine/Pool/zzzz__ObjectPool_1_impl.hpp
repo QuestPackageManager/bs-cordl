@@ -1,12 +1,12 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Pool/zzzz__ObjectPool_1_def.hpp"
-#include "System/zzzz__Func_1_def.hpp"
-#include "UnityEngine/Pool/zzzz__PooledObject_1_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "UnityEngine/Pool/zzzz__IObjectPool_1_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
+#include "System/zzzz__Func_1_def.hpp"
+#include "UnityEngine/Pool/zzzz__PooledObject_1_def.hpp"
 /// @brief Convert operator to "::System::IDisposable"
 template <typename T> constexpr UnityEngine::Pool::ObjectPool_1<T>::operator ::System::IDisposable*() noexcept {
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));

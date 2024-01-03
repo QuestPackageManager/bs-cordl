@@ -8,32 +8,32 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(TextInfo)
+namespace System::Globalization {
+struct UnicodeCategory;
+}
 namespace System::Runtime::Serialization {
 class IDeserializationCallback;
 }
-namespace System::Globalization {
-class CultureData;
+namespace System {
+class ICloneable;
 }
 namespace System::Text {
 class StringBuilder;
 }
 namespace System {
-template <typename T> struct Span_1;
+class Object;
+}
+namespace System {
+template <typename T> struct ReadOnlySpan_1;
+}
+namespace System::Globalization {
+class CultureData;
 }
 namespace System::Runtime::Serialization {
 struct StreamingContext;
 }
 namespace System {
-class Object;
-}
-namespace System::Globalization {
-struct UnicodeCategory;
-}
-namespace System {
-template <typename T> struct ReadOnlySpan_1;
-}
-namespace System {
-class ICloneable;
+template <typename T> struct Span_1;
 }
 // Forward declare root types
 namespace System::Globalization {
@@ -45,8 +45,8 @@ MARK_REF_PTR_T(::System::Globalization::TextInfo);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 84, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Globalization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2448)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 105
-// })} Self: TypeDefinitionIndex(TypeDefinitionIndex(3706)) CS Name: ::System.Globalization::TextInfo*
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 105 }), TypeDefinitionIndex(TypeDefinitionIndex(2448)),
+// TypeDefinitionIndex(TypeDefinitionIndex(2613))} Self: TypeDefinitionIndex(TypeDefinitionIndex(3706)) CS Name: ::System.Globalization::TextInfo*
 class CORDL_TYPE TextInfo : public ::System::Object {
 public:
   // Declarations

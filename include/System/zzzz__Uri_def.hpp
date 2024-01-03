@@ -13,32 +13,23 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(Uri)
-namespace System {
-struct UriComponents;
-}
-namespace System {
-class UriFormatException;
-}
 namespace System::Runtime::Serialization {
 struct StreamingContext;
-}
-namespace System {
-struct __Uri__Check;
 }
 namespace System {
 class __Uri__UriInfo;
 }
 namespace System {
-class Object;
-}
-namespace System {
-struct UriKind;
-}
-namespace System {
 struct UriFormat;
 }
 namespace System {
-struct __Uri__Flags;
+class UriFormatException;
+}
+namespace System {
+struct __Uri__Check;
+}
+namespace System::Runtime::Serialization {
+class ISerializable;
 }
 namespace System {
 class __Uri__MoreInfo;
@@ -47,19 +38,28 @@ namespace System {
 struct __Uri__Offset;
 }
 namespace System {
+struct __Uri__Flags;
+}
+namespace System {
+class Object;
+}
+namespace System {
 struct UriHostNameType;
+}
+namespace System {
+struct UriComponents;
 }
 namespace System {
 class UriParser;
 }
-namespace System::Runtime::Serialization {
-class ISerializable;
+namespace System {
+struct ParsingError;
 }
 namespace System::Runtime::Serialization {
 class SerializationInfo;
 }
 namespace System {
-struct ParsingError;
+struct UriKind;
 }
 // Forward declare root types
 namespace System {
@@ -740,8 +740,8 @@ static_assert(offsetof(::System::__Uri__Check, value__) == 0x0, "Offset mismatch
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 65, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8879)), TypeDefinitionIndex(TypeDefinitionIndex(8880)), TypeDefinitionIndex(TypeDefinitionIndex(2613)),
-// TypeDefinitionIndex(TypeDefinitionIndex(8870)), TypeDefinitionIndex(TypeDefinitionIndex(8877))} Self: TypeDefinitionIndex(TypeDefinitionIndex(8875)) CS Name: ::System::Uri*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8879)), TypeDefinitionIndex(TypeDefinitionIndex(8870)), TypeDefinitionIndex(TypeDefinitionIndex(8877)),
+// TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8880))} Self: TypeDefinitionIndex(TypeDefinitionIndex(8875)) CS Name: ::System::Uri*
 class CORDL_TYPE Uri : public ::System::Object {
 public:
   // Declarations

@@ -1,12 +1,12 @@
 #pragma once
 #include "System/zzzz__MarshalByRefObject_impl.hpp"
 #include "System/ComponentModel/zzzz__Component_def.hpp"
-#include "System/zzzz__Object_def.hpp"
-#include "System/ComponentModel/zzzz__ISite_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include "System/ComponentModel/zzzz__EventHandlerList_def.hpp"
 #include "System/zzzz__Type_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 #include "System/ComponentModel/zzzz__IComponent_def.hpp"
+#include "System/ComponentModel/zzzz__ISite_def.hpp"
 //  Writing Method size for method: ::System::ComponentModel::Component.Finalize
 template <>
 

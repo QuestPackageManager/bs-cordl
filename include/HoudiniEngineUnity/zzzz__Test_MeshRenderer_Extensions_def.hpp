@@ -8,11 +8,11 @@ CORDL_MODULE_EXPORT(Test_MeshRenderer_Extensions)
 namespace UnityEngine {
 class MeshRenderer;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
 namespace HoudiniEngineUnity {
 class __Test_MeshRenderer_Extensions____c;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace HoudiniEngineUnity {
 class Test_MeshRenderer;

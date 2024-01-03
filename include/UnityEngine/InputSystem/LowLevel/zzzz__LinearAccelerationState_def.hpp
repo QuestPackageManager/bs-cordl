@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 #include <cstddef>
 CORDL_MODULE_EXPORT(LinearAccelerationState)
+namespace UnityEngine::InputSystem::Utilities {
+struct FourCC;
+}
 namespace UnityEngine {
 struct Vector3;
 }
 namespace UnityEngine::InputSystem::LowLevel {
 class IInputStateTypeInfo;
-}
-namespace UnityEngine::InputSystem::Utilities {
-struct FourCC;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::LowLevel {

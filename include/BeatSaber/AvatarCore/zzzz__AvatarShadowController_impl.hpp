@@ -1,9 +1,9 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "BeatSaber/AvatarCore/zzzz__AvatarShadowController_def.hpp"
-#include "UnityEngine/zzzz__Transform_def.hpp"
-#include "UnityEngine/zzzz__SpriteRenderer_def.hpp"
 #include "BeatSaber/AvatarCore/zzzz__AvatarController_def.hpp"
+#include "UnityEngine/zzzz__SpriteRenderer_def.hpp"
+#include "UnityEngine/zzzz__Transform_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 //  Writing Method size for method: ::BeatSaber::AvatarCore::AvatarShadowController.Start
 template <>

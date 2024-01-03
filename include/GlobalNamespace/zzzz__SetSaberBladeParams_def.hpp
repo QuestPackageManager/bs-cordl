@@ -11,14 +11,14 @@ CORDL_MODULE_EXPORT(SetSaberBladeParams)
 namespace GlobalNamespace {
 class __SetSaberBladeParams__PropertyTintColorPair;
 }
-namespace GlobalNamespace {
-class ColorManager;
-}
 namespace UnityEngine {
 class MeshRenderer;
 }
 namespace GlobalNamespace {
 class SaberTypeObject;
+}
+namespace GlobalNamespace {
+class ColorManager;
 }
 // Forward declare root types
 namespace GlobalNamespace {

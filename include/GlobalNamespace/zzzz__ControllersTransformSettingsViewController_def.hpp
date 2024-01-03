@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "HMUI/zzzz__ViewController_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(ControllersTransformSettingsViewController)
-namespace GlobalNamespace {
-class Vector3SO;
+namespace HMUI {
+class RangeValuesTextSlider;
 }
 namespace GlobalNamespace {
 class IVRPlatformHelper;
 }
-namespace HMUI {
-class RangeValuesTextSlider;
+namespace GlobalNamespace {
+class Vector3SO;
 }
 // Forward declare root types
 namespace GlobalNamespace {

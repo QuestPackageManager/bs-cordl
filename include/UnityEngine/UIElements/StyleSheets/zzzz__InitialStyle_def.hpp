@@ -8,14 +8,56 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(InitialStyle)
+namespace UnityEngine {
+class Font;
+}
+namespace UnityEngine::UIElements {
+struct ComputedStyle;
+}
+namespace UnityEngine::UIElements {
+struct FlexDirection;
+}
+namespace UnityEngine::UIElements {
+struct Visibility;
+}
+namespace UnityEngine::UIElements {
+struct Background;
+}
+namespace UnityEngine::UIElements {
+struct Justify;
+}
+namespace UnityEngine::UIElements {
+struct EasingFunction;
+}
+namespace UnityEngine::UIElements {
+struct TextOverflow;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace UnityEngine::UIElements {
+struct FontDefinition;
+}
+namespace UnityEngine::UIElements {
+struct StylePropertyName;
+}
+namespace UnityEngine::UIElements {
+struct TextShadow;
+}
+namespace UnityEngine::UIElements {
+struct Wrap;
+}
+namespace UnityEngine::UIElements {
+struct Translate;
+}
 namespace UnityEngine::UIElements {
 struct Length;
 }
 namespace UnityEngine::UIElements {
-struct WhiteSpace;
+struct TimeValue;
 }
-namespace UnityEngine::UIElements {
-struct EasingFunction;
+namespace UnityEngine {
+struct ScaleMode;
 }
 namespace UnityEngine::UIElements {
 struct OverflowClipBox;
@@ -24,82 +66,40 @@ namespace UnityEngine::UIElements {
 struct Cursor;
 }
 namespace UnityEngine::UIElements {
-struct Wrap;
-}
-namespace UnityEngine::UIElements {
-struct Position;
-}
-namespace UnityEngine::UIElements {
-struct TransformOrigin;
-}
-namespace UnityEngine::UIElements {
-struct StylePropertyName;
-}
-namespace UnityEngine::UIElements {
-struct TextOverflow;
-}
-namespace UnityEngine::UIElements {
 struct OverflowInternal;
 }
 namespace UnityEngine::UIElements {
-struct FontDefinition;
-}
-namespace UnityEngine::UIElements {
-struct Translate;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace UnityEngine::UIElements {
-struct Justify;
-}
-namespace UnityEngine::UIElements {
-struct TimeValue;
-}
-namespace UnityEngine {
-class Font;
-}
-namespace UnityEngine {
-struct TextAnchor;
+struct Rotate;
 }
 namespace UnityEngine {
 struct Color;
 }
 namespace UnityEngine::UIElements {
-struct ComputedStyle;
+struct WhiteSpace;
 }
 namespace UnityEngine::UIElements {
 struct DisplayStyle;
 }
-namespace UnityEngine {
-struct FontStyle;
-}
 namespace UnityEngine::UIElements {
-struct TextOverflowPosition;
-}
-namespace UnityEngine {
-struct ScaleMode;
-}
-namespace UnityEngine::UIElements {
-struct TextShadow;
+struct TransformOrigin;
 }
 namespace UnityEngine::UIElements {
 struct Align;
 }
 namespace UnityEngine::UIElements {
-struct Rotate;
+struct Position;
 }
 namespace UnityEngine::UIElements {
-struct FlexDirection;
+struct TextOverflowPosition;
+}
+namespace UnityEngine {
+struct TextAnchor;
 }
 namespace UnityEngine::UIElements {
 struct Scale;
 }
-namespace UnityEngine::UIElements {
-struct Visibility;
-}
-namespace UnityEngine::UIElements {
-struct Background;
+namespace UnityEngine {
+struct FontStyle;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements::StyleSheets {

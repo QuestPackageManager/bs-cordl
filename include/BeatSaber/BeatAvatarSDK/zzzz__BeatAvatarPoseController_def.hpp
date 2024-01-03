@@ -4,8 +4,8 @@
 CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(BeatAvatarPoseController)
-namespace BeatSaber::BeatAvatarSDK {
-class HeadBodyOffsetSO;
+namespace UnityEngine {
+struct Quaternion;
 }
 namespace UnityEngine {
 struct Vector3;
@@ -13,8 +13,8 @@ struct Vector3;
 namespace UnityEngine {
 class Transform;
 }
-namespace UnityEngine {
-struct Quaternion;
+namespace BeatSaber::BeatAvatarSDK {
+class HeadBodyOffsetSO;
 }
 // Forward declare root types
 namespace BeatSaber::BeatAvatarSDK {

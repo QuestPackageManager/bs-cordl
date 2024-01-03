@@ -5,8 +5,8 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(VRPlatformEventsDebugger)
-namespace Zenject {
-class IInitializable;
+namespace System {
+class IDisposable;
 }
 namespace GlobalNamespace {
 class IVerboseLogger;
@@ -14,8 +14,8 @@ class IVerboseLogger;
 namespace GlobalNamespace {
 class IVRPlatformHelper;
 }
-namespace System {
-class IDisposable;
+namespace Zenject {
+class IInitializable;
 }
 // Forward declare root types
 namespace GlobalNamespace {

@@ -4,35 +4,33 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__AsyncOperationHandle_def.hpp"
+#include "UnityEngine/SceneManagement/zzzz__LoadSceneMode_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(AssetReference)
-namespace System {
-class Object;
-}
 namespace UnityEngine {
 class Transform;
 }
 namespace UnityEngine {
 class GameObject;
 }
+namespace System {
+class Type;
+}
 namespace UnityEngine::AddressableAssets {
 class IKeyEvaluator;
-}
-namespace UnityEngine::SceneManagement {
-struct LoadSceneMode;
-}
-namespace UnityEngine::ResourceManagement::AsyncOperations {
-struct AsyncOperationHandle;
 }
 namespace UnityEngine {
 class Object;
 }
-namespace UnityEngine::ResourceManagement::AsyncOperations {
-template <typename TObject> struct AsyncOperationHandle_1;
+namespace System {
+class Object;
 }
 namespace UnityEngine {
 struct Vector3;
+}
+namespace UnityEngine::ResourceManagement::AsyncOperations {
+template <typename TObject> struct AsyncOperationHandle_1;
 }
 namespace UnityEngine {
 struct Quaternion;
@@ -40,8 +38,8 @@ struct Quaternion;
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 struct SceneInstance;
 }
-namespace System {
-class Type;
+namespace UnityEngine::ResourceManagement::AsyncOperations {
+struct AsyncOperationHandle;
 }
 // Forward declare root types
 namespace UnityEngine::AddressableAssets {
@@ -53,7 +51,7 @@ MARK_REF_PTR_T(::UnityEngine::AddressableAssets::AssetReference);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::AddressableAssets {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(14034))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10375)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(14034))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14089))
 // CS Name: ::UnityEngine.AddressableAssets::AssetReference*
 class CORDL_TYPE AssetReference : public ::System::Object {

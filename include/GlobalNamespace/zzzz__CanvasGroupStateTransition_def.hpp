@@ -6,14 +6,14 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__CanvasGroup_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(CanvasGroupStateTransition)
-namespace Tweening {
-class FloatTween;
-}
 namespace GlobalNamespace {
 class CanvasGroupTransitionSO;
 }
 namespace GlobalNamespace {
 class BaseTransitionSO;
+}
+namespace Tweening {
+class FloatTween;
 }
 // Forward declare root types
 namespace GlobalNamespace {

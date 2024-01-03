@@ -7,32 +7,32 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(AudioPitchGainEffect)
-namespace System {
-class Action;
-}
 namespace GlobalNamespace {
 class __AudioPitchGainEffect___StartEffectCoroutine_d__8;
 }
 namespace UnityEngine {
-class AudioSource;
-}
-namespace UnityEngine {
 class Coroutine;
+}
+namespace System {
+class Action;
 }
 namespace System::Collections {
 class IEnumerator;
 }
 namespace UnityEngine {
-class AnimationCurve;
+class AudioSource;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
+namespace UnityEngine {
+class AnimationCurve;
 }
 namespace System {
 class IDisposable;
 }
 namespace System {
 class Object;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {

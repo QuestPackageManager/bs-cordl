@@ -1,11 +1,11 @@
 #pragma once
 #include "BeatSaber/AvatarCore/zzzz__AvatarSelectionView_impl.hpp"
 #include "BeatSaber/AvatarCore/zzzz__BeatAvatarSelectionView_def.hpp"
-#include "BeatSaber/BeatAvatarAdapter/AvatarEditor/zzzz__AvatarTweenController_def.hpp"
 #include "BeatSaber/BeatAvatarSDK/zzzz__AvatarDataModel_def.hpp"
-#include "BeatSaber/BeatAvatarSDK/zzzz__BeatAvatarVisualController_def.hpp"
 #include "UnityEngine/zzzz__GameObject_def.hpp"
 #include "BeatSaber/BeatAvatarSDK/zzzz__AvatarData_def.hpp"
+#include "BeatSaber/BeatAvatarAdapter/AvatarEditor/zzzz__AvatarTweenController_def.hpp"
+#include "BeatSaber/BeatAvatarSDK/zzzz__BeatAvatarVisualController_def.hpp"
 //  Writing Method size for method: ::BeatSaber::AvatarCore::BeatAvatarSelectionView.Init
 template <>
 

@@ -8,10 +8,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(CameraRaycastHelper)
 namespace UnityEngine {
-struct Ray;
+class Camera;
 }
 namespace UnityEngine {
-class Camera;
+struct Ray;
 }
 namespace UnityEngine {
 class GameObject;

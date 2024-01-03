@@ -8,23 +8,23 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(Spline)
-namespace UnityEngine::ProBuilder {
-struct BezierPoint;
+namespace UnityEngine {
+struct Quaternion;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class IList_1;
 }
-namespace UnityEngine {
-struct Quaternion;
+namespace UnityEngine::ProBuilder {
+struct BezierPoint;
 }
 namespace UnityEngine::ProBuilder {
 class ProBuilderMesh;
 }
 namespace UnityEngine {
 struct Vector3;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder {

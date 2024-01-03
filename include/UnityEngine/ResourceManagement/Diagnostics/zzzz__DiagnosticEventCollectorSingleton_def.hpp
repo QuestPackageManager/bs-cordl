@@ -9,26 +9,26 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(DiagnosticEventCollectorSingleton)
-namespace GlobalNamespace {
-template <typename T> class DelegateList_1;
-}
-namespace System {
-template <typename T> class Action_1;
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
 namespace UnityEngine::ResourceManagement::Diagnostics {
 struct DiagnosticEvent;
+}
+namespace UnityEngine::ResourceManagement::Diagnostics {
+class __DiagnosticEventCollectorSingleton____c;
+}
+namespace GlobalNamespace {
+template <typename T> class DelegateList_1;
 }
 namespace System {
 struct Guid;
 }
-namespace UnityEngine::ResourceManagement::Diagnostics {
-class __DiagnosticEventCollectorSingleton____c;
+namespace System {
+template <typename T> class Action_1;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;
@@ -109,7 +109,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::ResourceManagement:
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 60, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ResourceManagement::Diagnostics {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2406)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13966), inst: 1061 }),
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13966), inst: 1061 }), TypeDefinitionIndex(TypeDefinitionIndex(2406)),
 // TypeDefinitionIndex(TypeDefinitionIndex(13966))} Self: TypeDefinitionIndex(TypeDefinitionIndex(14026)) CS Name: ::UnityEngine.ResourceManagement.Diagnostics::DiagnosticEventCollectorSingleton*
 class CORDL_TYPE DiagnosticEventCollectorSingleton
     : public ::UnityEngine::ResourceManagement::Util::ComponentSingleton_1<::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollectorSingleton*> {

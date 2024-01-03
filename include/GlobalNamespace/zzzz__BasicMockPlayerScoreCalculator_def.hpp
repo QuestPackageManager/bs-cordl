@@ -9,11 +9,11 @@ CORDL_MODULE_EXPORT(BasicMockPlayerScoreCalculator)
 namespace GlobalNamespace {
 class IMockPlayerScoreCalculator;
 }
-namespace System {
-class Random;
-}
 namespace GlobalNamespace {
 class MockNoteData;
+}
+namespace System {
+class Random;
 }
 // Forward declare root types
 namespace GlobalNamespace {

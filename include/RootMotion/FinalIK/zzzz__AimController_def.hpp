@@ -8,29 +8,29 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(AimController)
-namespace RootMotion::FinalIK {
-class AimIK;
-}
-namespace UnityEngine {
-struct Vector3;
+namespace System::Collections {
+class IEnumerator;
 }
 namespace RootMotion::FinalIK {
 class __AimController___TurnToTarget_d__33;
 }
+namespace RootMotion::FinalIK {
+class AimIK;
+}
 namespace UnityEngine {
 class Transform;
 }
-namespace System::Collections {
-class IEnumerator;
+namespace UnityEngine {
+struct Vector3;
+}
+namespace System {
+class IDisposable;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
 namespace System {
 class Object;
-}
-namespace System {
-class IDisposable;
 }
 // Forward declare root types
 namespace RootMotion::FinalIK {
@@ -151,7 +151,7 @@ static_assert(offsetof(::RootMotion::FinalIK::__AimController___TurnToTarget_d__
 // SizeInfo { instance_size: 184, native_size: -1, calculated_instance_size: 184, calculated_native_size: 184, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12630))
 // CS Name: ::RootMotion.FinalIK::AimController*
 class CORDL_TYPE AimController : public ::UnityEngine::MonoBehaviour {

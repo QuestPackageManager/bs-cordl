@@ -21,7 +21,7 @@ MARK_REF_PTR_T(::Zenject::SignalBusInstaller);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11131)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11131), inst: 3903 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11131), inst: 3903 }), TypeDefinitionIndex(TypeDefinitionIndex(11131))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10667))
 // CS Name: ::Zenject::SignalBusInstaller*
 class CORDL_TYPE SignalBusInstaller : public ::Zenject::Installer_1<::Zenject::SignalBusInstaller*> {

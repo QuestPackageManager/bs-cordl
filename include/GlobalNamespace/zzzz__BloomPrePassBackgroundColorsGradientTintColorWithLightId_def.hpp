@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__RuntimeLightWithIds_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(BloomPrePassBackgroundColorsGradientTintColorWithLightId)
-namespace UnityEngine {
-struct Color;
-}
 namespace GlobalNamespace {
 class BloomPrePassBackgroundColorsGradient;
+}
+namespace UnityEngine {
+struct Color;
 }
 // Forward declare root types
 namespace GlobalNamespace {

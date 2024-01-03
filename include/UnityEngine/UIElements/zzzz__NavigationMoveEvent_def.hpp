@@ -9,11 +9,11 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(NavigationMoveEvent)
-namespace UnityEngine {
-struct Vector2;
-}
 namespace UnityEngine::UIElements {
 struct __NavigationMoveEvent__Direction;
+}
+namespace UnityEngine {
+struct Vector2;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -91,8 +91,9 @@ static_assert(offsetof(::UnityEngine::UIElements::__NavigationMoveEvent__Directi
 // SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 136, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7249)), TypeDefinitionIndex(TypeDefinitionIndex(10243)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7248), inst:
-// 4702 }), TypeDefinitionIndex(TypeDefinitionIndex(7248))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7250)) CS Name: ::UnityEngine.UIElements::NavigationMoveEvent*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7249)), TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(7248)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7248), inst: 4702 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(7250)) CS Name:
+// ::UnityEngine.UIElements::NavigationMoveEvent*
 class CORDL_TYPE NavigationMoveEvent : public ::UnityEngine::UIElements::NavigationEventBase_1<::UnityEngine::UIElements::NavigationMoveEvent*> {
 public:
   // Declarations

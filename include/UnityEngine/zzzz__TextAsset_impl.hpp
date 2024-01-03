@@ -4,8 +4,8 @@
 #include "UnityEngine/zzzz__TextAsset_def.hpp"
 #include "UnityEngine/zzzz__TextAsset_def.hpp"
 #include "Unity/Collections/zzzz__NativeArray_1_def.hpp"
-#include "System/Collections/Generic/zzzz__KeyValuePair_2_def.hpp"
 #include "System/Text/zzzz__Encoding_def.hpp"
+#include "System/Collections/Generic/zzzz__KeyValuePair_2_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::__TextAsset__CreateOptions::__TextAsset__CreateOptions(int32_t value__) noexcept {
   this->value__ = value__;

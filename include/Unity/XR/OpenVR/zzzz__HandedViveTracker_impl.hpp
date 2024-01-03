@@ -1,8 +1,8 @@
 #pragma once
 #include "Unity/XR/OpenVR/zzzz__ViveTracker_impl.hpp"
 #include "Unity/XR/OpenVR/zzzz__HandedViveTracker_def.hpp"
-#include "UnityEngine/InputSystem/Controls/zzzz__ButtonControl_def.hpp"
 #include "UnityEngine/InputSystem/Controls/zzzz__AxisControl_def.hpp"
+#include "UnityEngine/InputSystem/Controls/zzzz__ButtonControl_def.hpp"
 //  Writing Method size for method: ::Unity::XR::OpenVR::HandedViveTracker.get_grip
 template <>
 

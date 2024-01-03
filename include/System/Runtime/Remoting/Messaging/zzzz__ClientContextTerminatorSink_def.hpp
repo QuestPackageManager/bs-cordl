@@ -4,14 +4,14 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(ClientContextTerminatorSink)
-namespace System::Runtime::Remoting::Contexts {
-class Context;
+namespace System::Runtime::Remoting::Messaging {
+class IMessage;
 }
 namespace System::Runtime::Remoting::Messaging {
 class IMessageSink;
 }
-namespace System::Runtime::Remoting::Messaging {
-class IMessage;
+namespace System::Runtime::Remoting::Contexts {
+class Context;
 }
 namespace System::Runtime::Remoting::Messaging {
 class IMessageCtrl;

@@ -2,8 +2,8 @@
 #include "System/Net/NetworkInformation/zzzz__NetworkInterfaceType_impl.hpp"
 #include "System/Net/NetworkInformation/zzzz__NetworkInterface_impl.hpp"
 #include "System/Net/NetworkInformation/zzzz__UnixNetworkInterface_def.hpp"
-#include "System/Net/NetworkInformation/zzzz__IPInterfaceProperties_def.hpp"
 #include "System/Net/NetworkInformation/zzzz__NetworkInterfaceType_def.hpp"
+#include "System/Net/NetworkInformation/zzzz__IPInterfaceProperties_def.hpp"
 #include "System/Net/zzzz__IPAddress_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 //  Writing Method size for method: ::System::Net::NetworkInformation::UnixNetworkInterface._ctor

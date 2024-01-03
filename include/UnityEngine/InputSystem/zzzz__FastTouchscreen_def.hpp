@@ -7,18 +7,6 @@ CORDL_MODULE_EXPORT(FastTouchscreen)
 namespace UnityEngine::InputSystem::Utilities {
 struct InternedString;
 }
-namespace UnityEngine::InputSystem {
-class InputControl;
-}
-namespace UnityEngine::InputSystem::Controls {
-class TouchPhaseControl;
-}
-namespace UnityEngine::InputSystem::Controls {
-class AxisControl;
-}
-namespace UnityEngine::InputSystem::Controls {
-class DeltaControl;
-}
 namespace UnityEngine::InputSystem::Controls {
 class Vector2Control;
 }
@@ -26,16 +14,28 @@ namespace UnityEngine::InputSystem::Controls {
 class TouchControl;
 }
 namespace UnityEngine::InputSystem::Controls {
-class IntegerControl;
+class DeltaControl;
 }
 namespace UnityEngine::InputSystem::Controls {
-class TouchPressControl;
+class AxisControl;
 }
 namespace UnityEngine::InputSystem::Controls {
 class ButtonControl;
 }
+namespace UnityEngine::InputSystem {
+class InputControl;
+}
+namespace UnityEngine::InputSystem::Controls {
+class IntegerControl;
+}
+namespace UnityEngine::InputSystem::Controls {
+class TouchPhaseControl;
+}
 namespace UnityEngine::InputSystem::Controls {
 class DoubleControl;
+}
+namespace UnityEngine::InputSystem::Controls {
+class TouchPressControl;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem {

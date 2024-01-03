@@ -25,7 +25,7 @@ MARK_REF_PTR_T(::GlobalNamespace::NullAllowedIf);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(16252)), TypeDefinitionIndex(TypeDefinitionIndex(16247))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(16251)), TypeDefinitionIndex(TypeDefinitionIndex(16252)), TypeDefinitionIndex(TypeDefinitionIndex(16247))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(16253))
 // CS Name: ::NullAllowedIf*
 class CORDL_TYPE NullAllowedIf : public ::GlobalNamespace::NullAllowed {

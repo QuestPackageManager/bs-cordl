@@ -9,10 +9,10 @@ namespace System::Runtime::Serialization::Formatters::Binary {
 class __BinaryWriter;
 }
 namespace System::Runtime::Serialization::Formatters::Binary {
-class __BinaryParser;
+struct BinaryHeaderEnum;
 }
 namespace System::Runtime::Serialization::Formatters::Binary {
-struct BinaryHeaderEnum;
+class __BinaryParser;
 }
 // Forward declare root types
 namespace System::Runtime::Serialization::Formatters::Binary {

@@ -7,25 +7,25 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(StandardLevelNoTransitionInstallerData)
 namespace GlobalNamespace {
-class BeatmapCharacteristicSO;
+class PlayerSpecificSettings;
+}
+namespace GlobalNamespace {
+struct BeatmapDifficulty;
 }
 namespace GlobalNamespace {
 class PracticeSettings;
 }
 namespace GlobalNamespace {
-class BeatmapLevelSO;
-}
-namespace GlobalNamespace {
-class PlayerSpecificSettings;
+class BeatmapCharacteristicSO;
 }
 namespace GlobalNamespace {
 class ColorSchemeSO;
 }
 namespace GlobalNamespace {
-class GameplayModifiers;
+class BeatmapLevelSO;
 }
 namespace GlobalNamespace {
-struct BeatmapDifficulty;
+class GameplayModifiers;
 }
 namespace GlobalNamespace {
 class EnvironmentInfoSO;
@@ -40,7 +40,7 @@ MARK_REF_PTR_T(::GlobalNamespace::StandardLevelNoTransitionInstallerData);
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 97, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14717)), TypeDefinitionIndex(TypeDefinitionIndex(10210))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10210)), TypeDefinitionIndex(TypeDefinitionIndex(14717))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6043))
 // CS Name: ::StandardLevelNoTransitionInstallerData*
 class CORDL_TYPE StandardLevelNoTransitionInstallerData : public ::UnityEngine::ScriptableObject {

@@ -10,11 +10,11 @@ class Object;
 namespace System::Threading {
 template <typename T> struct AsyncLocalValueChangedArgs_1;
 }
-namespace System::Threading {
-class IAsyncLocal;
-}
 namespace System {
 template <typename T> class Action_1;
+}
+namespace System::Threading {
+class IAsyncLocal;
 }
 // Forward declare root types
 namespace System::Threading {

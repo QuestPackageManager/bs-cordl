@@ -3,11 +3,11 @@
 #include "GlobalNamespace/zzzz__BeatmapEventTransitionType_impl.hpp"
 #include "GlobalNamespace/zzzz__EnvironmentColorType_impl.hpp"
 #include "GlobalNamespace/zzzz__LightColorBeatmapEventData_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapDataItem_def.hpp"
 #include "GlobalNamespace/zzzz__EnvironmentColorType_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapEventTransitionType_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapEventData_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapDataItem_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::LightColorBeatmapEventData.get_colorType
 template <>
 

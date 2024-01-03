@@ -5,9 +5,9 @@
 #include "System/zzzz__Nullable_1_impl.hpp"
 #include "Newtonsoft/Json/zzzz__JsonContainerAttribute_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "System/zzzz__Type_def.hpp"
-#include "Newtonsoft/Json/zzzz__TypeNameHandling_def.hpp"
 #include "Newtonsoft/Json/zzzz__ReferenceLoopHandling_def.hpp"
+#include "Newtonsoft/Json/zzzz__TypeNameHandling_def.hpp"
+#include "System/zzzz__Type_def.hpp"
 //  Writing Method size for method: ::Newtonsoft::Json::JsonContainerAttribute.get_Id
 template <>
 

@@ -2,8 +2,8 @@
 #include "System/ComponentModel/zzzz__EditorBrowsableState_impl.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "System/ComponentModel/zzzz__EditorBrowsableAttribute_def.hpp"
-#include "System/zzzz__Object_def.hpp"
 #include "System/ComponentModel/zzzz__EditorBrowsableState_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::System::ComponentModel::EditorBrowsableAttribute._ctor
 template <>
 

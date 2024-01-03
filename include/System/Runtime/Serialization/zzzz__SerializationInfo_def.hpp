@@ -9,23 +9,23 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(SerializationInfo)
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace System {
-class Object;
-}
-namespace System {
-class Type;
-}
-namespace System::Runtime::Serialization {
-class IFormatterConverter;
-}
 namespace System::Runtime::Serialization {
 class SerializationInfoEnumerator;
 }
 namespace System {
 struct DateTime;
+}
+namespace System {
+class Type;
+}
+namespace System {
+class Object;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace System::Runtime::Serialization {
+class IFormatterConverter;
 }
 // Forward declare root types
 namespace System::Runtime::Serialization {

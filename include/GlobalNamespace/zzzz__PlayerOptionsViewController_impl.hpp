@@ -1,11 +1,11 @@
 #pragma once
 #include "HMUI/zzzz__ViewController_impl.hpp"
 #include "GlobalNamespace/zzzz__PlayerOptionsViewController_def.hpp"
-#include "HMUI/zzzz__ViewController_def.hpp"
 #include "GlobalNamespace/zzzz__PlayerSettingsPanelController_def.hpp"
 #include "UnityEngine/UI/zzzz__Button_def.hpp"
 #include "GlobalNamespace/zzzz__PlayerDataModel_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
+#include "HMUI/zzzz__ViewController_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::PlayerOptionsViewController.add_didFinishEvent
 template <>
 

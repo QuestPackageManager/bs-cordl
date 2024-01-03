@@ -3,23 +3,23 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(Triangulatable)
-namespace System::Collections::Generic {
-template <typename T> class IList_1;
-}
-namespace UnityEngine::ProBuilder::Poly2Tri {
-class DelaunayTriangle;
-}
 namespace UnityEngine::ProBuilder::Poly2Tri {
 class TriangulationContext;
-}
-namespace UnityEngine::ProBuilder::Poly2Tri {
-struct TriangulationMode;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
+namespace System::Collections::Generic {
+template <typename T> class IList_1;
+}
 namespace UnityEngine::ProBuilder::Poly2Tri {
 class TriangulationPoint;
+}
+namespace UnityEngine::ProBuilder::Poly2Tri {
+struct TriangulationMode;
+}
+namespace UnityEngine::ProBuilder::Poly2Tri {
+class DelaunayTriangle;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder::Poly2Tri {

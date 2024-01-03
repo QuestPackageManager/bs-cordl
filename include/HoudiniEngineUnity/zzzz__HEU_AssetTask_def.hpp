@@ -9,15 +9,6 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(HEU_AssetTask)
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace HoudiniEngineUnity {
-class HEU_ReloadEventData;
-}
-namespace UnityEngine {
-class GameObject;
-}
 namespace HoudiniEngineUnity {
 class HEU_CookedEventData;
 }
@@ -25,13 +16,22 @@ namespace HoudiniEngineUnity {
 struct __HEU_AssetTask__BuildType;
 }
 namespace HoudiniEngineUnity {
-class HEU_SessionBase;
-}
-namespace HoudiniEngineUnity {
 struct __HEU_Task__TaskResult;
 }
 namespace HoudiniEngineUnity {
 class HEU_HoudiniAsset;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace HoudiniEngineUnity {
+class HEU_SessionBase;
+}
+namespace UnityEngine {
+class GameObject;
+}
+namespace HoudiniEngineUnity {
+class HEU_ReloadEventData;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -105,7 +105,7 @@ static_assert(offsetof(::HoudiniEngineUnity::__HEU_AssetTask__BuildType, value__
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9800)), TypeDefinitionIndex(TypeDefinitionIndex(9801)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(9801)), TypeDefinitionIndex(TypeDefinitionIndex(9800))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9802))
 // CS Name: ::HoudiniEngineUnity::HEU_AssetTask*
 class CORDL_TYPE HEU_AssetTask : public ::HoudiniEngineUnity::HEU_Task {

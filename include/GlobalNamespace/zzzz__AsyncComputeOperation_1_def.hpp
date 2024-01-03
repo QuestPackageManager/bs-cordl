@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(AsyncComputeOperation_1)
 namespace System::Threading::Tasks {
-template <typename TResult> class TaskCompletionSource_1;
+template <typename TResult> class Task_1;
 }
 namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
+template <typename TResult> class TaskCompletionSource_1;
 }
 namespace System {
 class Exception;

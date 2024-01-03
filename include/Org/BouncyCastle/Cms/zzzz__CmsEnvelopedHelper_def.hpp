@@ -7,6 +7,18 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(CmsEnvelopedHelper)
 namespace System::Collections {
+class IList;
+}
+namespace Org::BouncyCastle::Crypto {
+class IWrapper;
+}
+namespace Org::BouncyCastle::Cms {
+class __CmsEnvelopedHelper__CmsEnvelopedSecureReadable;
+}
+namespace Org::BouncyCastle::Cms {
+class __CmsEnvelopedHelper__CmsAuthenticatedSecureReadable;
+}
+namespace System::Collections {
 class IDictionary;
 }
 namespace Org::BouncyCastle::Crypto {
@@ -16,31 +28,13 @@ namespace Org::BouncyCastle::Asn1 {
 class Asn1Set;
 }
 namespace Org::BouncyCastle::Cms {
-class __CmsEnvelopedHelper__CmsAuthenticatedSecureReadable;
-}
-namespace Org::BouncyCastle::Cms {
 class CmsSecureReadable;
-}
-namespace Org::BouncyCastle::Asn1::Cms {
-class RecipientInfo;
-}
-namespace System::Collections {
-class IList;
 }
 namespace Org::BouncyCastle::Cms {
 class RecipientInformationStore;
 }
-namespace Org::BouncyCastle::Crypto {
-class IWrapper;
-}
-namespace Org::BouncyCastle::Cms {
-class __CmsEnvelopedHelper__CmsEnvelopedSecureReadable;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class AlgorithmIdentifier;
-}
-namespace System {
-class Object;
+namespace Org::BouncyCastle::Asn1::Cms {
+class RecipientInfo;
 }
 namespace Org::BouncyCastle::Crypto::Parameters {
 class KeyParameter;
@@ -50,6 +44,12 @@ class IMac;
 }
 namespace Org::BouncyCastle::Cms {
 class CmsReadable;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class AlgorithmIdentifier;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Cms {

@@ -5,17 +5,17 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(XmlResolver)
-namespace System {
-class Uri;
+namespace System::Threading::Tasks {
+template <typename TResult> class Task_1;
 }
 namespace System {
 class Object;
 }
 namespace System {
-class Type;
+class Uri;
 }
-namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace System::Xml {

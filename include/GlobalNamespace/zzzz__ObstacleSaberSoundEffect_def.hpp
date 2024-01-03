@@ -10,10 +10,10 @@ namespace UnityEngine {
 class AudioSource;
 }
 namespace GlobalNamespace {
-struct SaberType;
+class ObstacleSaberSparkleEffectManager;
 }
 namespace GlobalNamespace {
-class ObstacleSaberSparkleEffectManager;
+struct SaberType;
 }
 // Forward declare root types
 namespace GlobalNamespace {

@@ -12,16 +12,19 @@ namespace GlobalNamespace {
 class SaberSwingRatingCounter;
 }
 namespace GlobalNamespace {
-class ICutScoreBufferDidFinishReceiver;
-}
-namespace GlobalNamespace {
-template <typename T> class LazyCopyHashSet_1;
-}
-namespace GlobalNamespace {
 class IReadonlyCutScoreBuffer;
 }
 namespace GlobalNamespace {
 class ISaberSwingRatingCounterDidFinishReceiver;
+}
+namespace GlobalNamespace {
+class ICutScoreBufferDidFinishReceiver;
+}
+namespace GlobalNamespace {
+class ISaberSwingRatingCounterDidChangeReceiver;
+}
+namespace GlobalNamespace {
+struct NoteCutInfo;
 }
 namespace GlobalNamespace {
 class ISaberSwingRatingCounter;
@@ -30,10 +33,7 @@ namespace GlobalNamespace {
 class __ScoreModel__NoteScoreDefinition;
 }
 namespace GlobalNamespace {
-class ISaberSwingRatingCounterDidChangeReceiver;
-}
-namespace GlobalNamespace {
-struct NoteCutInfo;
+template <typename T> class LazyCopyHashSet_1;
 }
 namespace GlobalNamespace {
 class ICutScoreBufferDidChangeReceiver;
@@ -48,7 +48,7 @@ MARK_REF_PTR_T(::GlobalNamespace::CutScoreBuffer);
 // SizeInfo { instance_size: 208, native_size: -1, calculated_instance_size: 208, calculated_native_size: 208, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15025)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15025))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5315))
 // CS Name: ::CutScoreBuffer*
 class CORDL_TYPE CutScoreBuffer : public ::System::Object {

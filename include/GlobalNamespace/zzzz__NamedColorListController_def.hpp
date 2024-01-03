@@ -12,14 +12,14 @@ CORDL_MODULE_EXPORT(NamedColorListController)
 namespace System {
 template <typename T> class Action_1;
 }
-namespace HMUI {
-template <typename T> class IValueChanger_1;
-}
 namespace GlobalNamespace {
 class __NamedColorListController__ColorValuePair;
 }
 namespace UnityEngine {
 struct Color;
+}
+namespace HMUI {
+template <typename T> class IValueChanger_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -35,7 +35,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__NamedColorListController__ColorValuePair);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10251))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(16150))
 // CS Name: ::NamedColorListController::ColorValuePair*
 class CORDL_TYPE __NamedColorListController__ColorValuePair : public ::System::Object {

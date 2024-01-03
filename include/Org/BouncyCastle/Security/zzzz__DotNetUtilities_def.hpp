@@ -9,29 +9,26 @@ CORDL_MODULE_EXPORT(DotNetUtilities)
 namespace System::Security::Cryptography {
 class AsymmetricAlgorithm;
 }
-namespace Org::BouncyCastle::Asn1::Pkcs {
-class RsaPrivateKeyStructure;
+namespace Org::BouncyCastle::Crypto::Parameters {
+class RsaKeyParameters;
 }
 namespace System::Security::Cryptography {
-struct RSAParameters;
+class RSA;
+}
+namespace System::Security::Cryptography::X509Certificates {
+class X509Certificate;
+}
+namespace System::Security::Cryptography {
+struct DSAParameters;
+}
+namespace Org::BouncyCastle::Asn1::Pkcs {
+class RsaPrivateKeyStructure;
 }
 namespace Org::BouncyCastle::Math {
 class BigInteger;
 }
 namespace System::Security::Cryptography {
-struct DSAParameters;
-}
-namespace Org::BouncyCastle::Crypto {
-class AsymmetricCipherKeyPair;
-}
-namespace Org::BouncyCastle::Crypto::Parameters {
-class RsaKeyParameters;
-}
-namespace Org::BouncyCastle::Crypto::Parameters {
-class DsaPublicKeyParameters;
-}
-namespace System::Security::Cryptography {
-class CspParameters;
+struct RSAParameters;
 }
 namespace Org::BouncyCastle::Crypto::Parameters {
 class RsaPrivateCrtKeyParameters;
@@ -39,17 +36,20 @@ class RsaPrivateCrtKeyParameters;
 namespace Org::BouncyCastle::Asn1::X509 {
 class X509CertificateStructure;
 }
-namespace System::Security::Cryptography::X509Certificates {
+namespace Org::BouncyCastle::X509 {
 class X509Certificate;
 }
 namespace System::Security::Cryptography {
 class DSA;
 }
-namespace Org::BouncyCastle::X509 {
-class X509Certificate;
+namespace Org::BouncyCastle::Crypto {
+class AsymmetricCipherKeyPair;
+}
+namespace Org::BouncyCastle::Crypto::Parameters {
+class DsaPublicKeyParameters;
 }
 namespace System::Security::Cryptography {
-class RSA;
+class CspParameters;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Security {

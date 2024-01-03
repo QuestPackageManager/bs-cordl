@@ -10,11 +10,23 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(PointerInputModule)
+namespace UnityEngine::EventSystems {
+struct __PointerEventData__FramePressState;
+}
 namespace UnityEngine {
 class GameObject;
 }
 namespace UnityEngine::EventSystems {
 class __PointerInputModule__MouseButtonEventData;
+}
+namespace UnityEngine::EventSystems {
+class __PointerInputModule__ButtonState;
+}
+namespace UnityEngine::EventSystems {
+class PointerEventData;
+}
+namespace UnityEngine::EventSystems {
+class BaseEventData;
 }
 namespace UnityEngine {
 struct Touch;
@@ -22,23 +34,11 @@ struct Touch;
 namespace UnityEngine::EventSystems {
 class __PointerInputModule__MouseState;
 }
-namespace UnityEngine::EventSystems {
-class PointerEventData;
-}
-namespace UnityEngine::EventSystems {
-struct __PointerEventData__FramePressState;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
 namespace UnityEngine {
 struct Vector2;
 }
-namespace UnityEngine::EventSystems {
-class BaseEventData;
-}
-namespace UnityEngine::EventSystems {
-class __PointerInputModule__ButtonState;
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace UnityEngine::EventSystems {
 struct __PointerEventData__InputButton;
@@ -210,7 +210,7 @@ static_assert(offsetof(::UnityEngine::EventSystems::__PointerInputModule__MouseS
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::EventSystems {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(13167))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13167)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13202))
 // CS Name: ::PointerInputModule::MouseButtonEventData*
 class CORDL_TYPE __PointerInputModule__MouseButtonEventData : public ::System::Object {

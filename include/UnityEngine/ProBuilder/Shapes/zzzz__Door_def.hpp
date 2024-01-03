@@ -5,20 +5,20 @@ CORDL_MODULE_INIT
 #include "UnityEngine/ProBuilder/Shapes/zzzz__Shape_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(Door)
+namespace UnityEngine::ProBuilder::Shapes {
+class Shape;
+}
 namespace UnityEngine::ProBuilder {
 class ProBuilderMesh;
 }
 namespace UnityEngine {
-struct Vector3;
+struct Quaternion;
 }
 namespace UnityEngine {
 struct Bounds;
 }
 namespace UnityEngine {
-struct Quaternion;
-}
-namespace UnityEngine::ProBuilder::Shapes {
-class Shape;
+struct Vector3;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder::Shapes {

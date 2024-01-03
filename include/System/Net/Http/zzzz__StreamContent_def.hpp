@@ -29,7 +29,7 @@ MARK_REF_PTR_T(::System::Net::Http::StreamContent);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 73, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Http {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14649)), TypeDefinitionIndex(TypeDefinitionIndex(2677))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(14649))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14656))
 // CS Name: ::System.Net.Http::StreamContent*
 class CORDL_TYPE StreamContent : public ::System::Net::Http::HttpContent {

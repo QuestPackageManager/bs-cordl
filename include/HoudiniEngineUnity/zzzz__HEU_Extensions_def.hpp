@@ -8,26 +8,26 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(HEU_Extensions)
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
 namespace UnityEngine {
 struct Vector3;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;
 }
+namespace UnityEngine {
+struct Quaternion;
+}
+namespace UnityEngine {
+struct Matrix4x4;
+}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace HoudiniEngineUnity {
 template <typename T> class IEquivable_1;
-}
-namespace UnityEngine {
-struct Matrix4x4;
-}
-namespace UnityEngine {
-struct Quaternion;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
 }
 namespace System {
 template <typename T1, typename T2, typename TResult> class Func_3;

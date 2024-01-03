@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(InputFieldSettingsController)
-namespace HMUI {
-class InputFieldView;
-}
 namespace GlobalNamespace {
 class StringSO;
+}
+namespace HMUI {
+class InputFieldView;
 }
 // Forward declare root types
 namespace GlobalNamespace {

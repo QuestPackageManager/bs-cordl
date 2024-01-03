@@ -16,20 +16,38 @@ struct InternedString;
 namespace System {
 template <typename T, typename TResult> class Func_2;
 }
-namespace UnityEngine::InputSystem {
-struct __InputRemoting__Message;
-}
-namespace UnityEngine::InputSystem {
-class __InputRemoting__NewLayoutMsg;
-}
-namespace UnityEngine::InputSystem {
-class InputDevice;
-}
 namespace System {
 class Exception;
 }
 namespace UnityEngine::InputSystem {
+struct __InputRemoting__Flags;
+}
+namespace UnityEngine::InputSystem {
+class __InputRemoting__DisconnectMsg;
+}
+namespace UnityEngine::InputSystem {
+class __InputRemoting__ConnectMsg;
+}
+namespace UnityEngine::InputSystem {
+class __InputRemoting__ChangeUsageMsg;
+}
+namespace UnityEngine::InputSystem {
 class InputManager;
+}
+namespace System {
+class IDisposable;
+}
+namespace UnityEngine::InputSystem {
+class __InputRemoting__NewEventsMsg;
+}
+namespace UnityEngine::InputSystem {
+struct __InputRemoting__RemoteSender;
+}
+namespace UnityEngine::InputSystem {
+struct InputControlLayoutChange;
+}
+namespace UnityEngine::InputSystem {
+struct __InputRemoting__Message;
 }
 namespace UnityEngine::InputSystem {
 struct InputDeviceChange;
@@ -38,55 +56,37 @@ namespace UnityEngine::InputSystem {
 class __InputRemoting__RemoveDeviceMsg;
 }
 namespace UnityEngine::InputSystem {
-struct __InputRemoting__RemoteSender;
-}
-namespace UnityEngine::InputSystem {
-class __InputRemoting__ChangeUsageMsg;
+class InputDevice;
 }
 namespace UnityEngine::InputSystem::LowLevel {
 struct InputEventPtr;
 }
 namespace UnityEngine::InputSystem {
-class __InputRemoting__StartSendingMsg;
-}
-namespace UnityEngine::InputSystem {
-class __InputRemoting__DisconnectMsg;
-}
-namespace System {
-template <typename T> class IObserver_1;
-}
-namespace UnityEngine::InputSystem {
 struct __InputRemoting__RemoteInputDevice;
-}
-namespace UnityEngine::InputSystem {
-struct __InputRemoting__Flags;
-}
-namespace UnityEngine::InputSystem {
-class __InputRemoting__Subscriber;
-}
-namespace UnityEngine::InputSystem {
-class __InputRemoting__NewDeviceMsg;
-}
-namespace UnityEngine::InputSystem {
-class __InputRemoting__ConnectMsg;
-}
-namespace UnityEngine::InputSystem {
-struct __InputRemoting__MessageType;
-}
-namespace UnityEngine::InputSystem {
-class __InputRemoting__StopSendingMsg;
-}
-namespace UnityEngine::InputSystem {
-struct InputControlLayoutChange;
 }
 namespace System {
 template <typename T> class IObservable_1;
 }
 namespace UnityEngine::InputSystem {
-class __InputRemoting__NewEventsMsg;
+class __InputRemoting__StartSendingMsg;
+}
+namespace UnityEngine::InputSystem {
+class __InputRemoting__StopSendingMsg;
+}
+namespace UnityEngine::InputSystem {
+class __InputRemoting__Subscriber;
+}
+namespace UnityEngine::InputSystem {
+struct __InputRemoting__MessageType;
+}
+namespace UnityEngine::InputSystem {
+class __InputRemoting__NewLayoutMsg;
 }
 namespace System {
-class IDisposable;
+template <typename T> class IObserver_1;
+}
+namespace UnityEngine::InputSystem {
+class __InputRemoting__NewDeviceMsg;
 }
 namespace GlobalNamespace {
 struct __InputRemoting__ChangeUsageMsg__Data;
@@ -95,19 +95,19 @@ namespace GlobalNamespace {
 class __InputRemoting__ChangeUsageMsg____c;
 }
 namespace GlobalNamespace {
-class __InputRemoting__NewDeviceMsg____c;
+struct __InputRemoting__NewDeviceMsg__Data;
 }
 namespace GlobalNamespace {
-struct __InputRemoting__NewDeviceMsg__Data;
+class __InputRemoting__NewDeviceMsg____c;
 }
 namespace UnityEngine::InputSystem::LowLevel {
 struct InputEvent;
 }
-namespace GlobalNamespace {
-struct __InputRemoting__NewLayoutMsg__Data;
-}
 namespace System {
 template <typename T> struct Nullable_1;
+}
+namespace GlobalNamespace {
+struct __InputRemoting__NewLayoutMsg__Data;
 }
 namespace UnityEngine::InputSystem::Layouts {
 struct InputDeviceDescription;

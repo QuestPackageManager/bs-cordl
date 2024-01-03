@@ -15,11 +15,11 @@ CORDL_MODULE_EXPORT(InputDeviceMatcher)
 namespace System {
 template <typename T, typename TResult> class Func_2;
 }
-namespace System::Collections {
-class IEnumerator;
-}
 namespace System::Collections::Generic {
-template <typename TKey, typename TValue> struct KeyValuePair_2;
+template <typename T> class IEnumerator_1;
+}
+namespace System {
+class Object;
 }
 namespace System::Collections {
 class IEnumerable;
@@ -27,14 +27,20 @@ class IEnumerable;
 namespace System {
 class IDisposable;
 }
-namespace System {
-class Object;
-}
 namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
+template <typename TKey, typename TValue> struct KeyValuePair_2;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
+}
+namespace System::Collections {
+class IEnumerator;
+}
+namespace System {
+template <typename T> class IEquatable_1;
+}
+namespace UnityEngine::InputSystem::Layouts {
+struct __InputDeviceMatcher__MatcherJson;
 }
 namespace UnityEngine::InputSystem::Utilities {
 struct InternedString;
@@ -43,16 +49,10 @@ namespace UnityEngine::InputSystem::Layouts {
 class __InputDeviceMatcher____c;
 }
 namespace UnityEngine::InputSystem::Layouts {
-struct __InputDeviceMatcher__MatcherJson;
+struct InputDeviceDescription;
 }
 namespace UnityEngine::InputSystem::Layouts {
 class __InputDeviceMatcher___get_patterns_d__4;
-}
-namespace UnityEngine::InputSystem::Layouts {
-struct InputDeviceDescription;
-}
-namespace System {
-template <typename T> class IEquatable_1;
 }
 namespace GlobalNamespace {
 struct __InputDeviceMatcher__MatcherJson__Capability;

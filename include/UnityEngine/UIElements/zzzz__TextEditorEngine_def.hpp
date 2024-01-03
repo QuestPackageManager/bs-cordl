@@ -9,11 +9,11 @@ CORDL_MODULE_EXPORT(TextEditorEngine)
 namespace UnityEngine::UIElements {
 class __TextEditorEngine__OnIndexChangeFunction;
 }
-namespace UnityEngine::UIElements {
-class __TextEditorEngine__OnDetectFocusChangeFunction;
-}
 namespace UnityEngine {
 struct Rect;
+}
+namespace UnityEngine::UIElements {
+class __TextEditorEngine__OnDetectFocusChangeFunction;
 }
 namespace System {
 class Object;

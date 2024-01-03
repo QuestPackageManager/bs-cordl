@@ -7,14 +7,14 @@ CORDL_MODULE_EXPORT(RecipientEncryptedKey)
 namespace Org::BouncyCastle::Asn1 {
 class Asn1OctetString;
 }
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Sequence;
+}
 namespace Org::BouncyCastle::Asn1::Cms {
 class KeyAgreeRecipientIdentifier;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1TaggedObject;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
 }
 namespace System {
 class Object;

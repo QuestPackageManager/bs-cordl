@@ -1,10 +1,10 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "HMUI/zzzz__ScreenSystem_def.hpp"
-#include "HMUI/zzzz__ButtonBinder_def.hpp"
 #include "HMUI/zzzz__Screen_def.hpp"
 #include "HMUI/zzzz__TitleViewController_def.hpp"
 #include "UnityEngine/UI/zzzz__Button_def.hpp"
+#include "HMUI/zzzz__ButtonBinder_def.hpp"
 #include "System/zzzz__Action_def.hpp"
 //  Writing Method size for method: ::HMUI::ScreenSystem.get_titleViewController
 template <>

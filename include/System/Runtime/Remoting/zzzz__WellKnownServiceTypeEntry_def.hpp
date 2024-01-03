@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include "System/Runtime/Remoting/zzzz__WellKnownObjectMode_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(WellKnownServiceTypeEntry)
-namespace System {
-class Type;
-}
 namespace System::Runtime::Remoting {
 struct WellKnownObjectMode;
+}
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting {

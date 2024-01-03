@@ -8,22 +8,22 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(X509CrlEntry)
 namespace System {
+struct DateTime;
+}
+namespace System {
 class Object;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class X509Extensions;
-}
-namespace Org::BouncyCastle::Math {
-class BigInteger;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class CrlEntry;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
+class X509Extensions;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
 class X509Name;
 }
-namespace System {
-struct DateTime;
+namespace Org::BouncyCastle::Math {
+class BigInteger;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::X509 {

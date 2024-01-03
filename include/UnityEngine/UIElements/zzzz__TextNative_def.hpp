@@ -7,20 +7,20 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(TextNative)
-namespace UnityEngine::UIElements {
-struct TextNativeSettings;
-}
 namespace UnityEngine {
 struct Vector2;
 }
-namespace UnityEngine {
-struct Matrix4x4;
+namespace Unity::Collections {
+template <typename T> struct NativeArray_1;
 }
 namespace UnityEngine::UIElements {
 struct TextVertex;
 }
-namespace Unity::Collections {
-template <typename T> struct NativeArray_1;
+namespace UnityEngine::UIElements {
+struct TextNativeSettings;
+}
+namespace UnityEngine {
+struct Matrix4x4;
 }
 namespace UnityEngine {
 struct Rect;

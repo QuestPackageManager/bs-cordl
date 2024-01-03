@@ -1,11 +1,11 @@
 #pragma once
 #include "Zenject/zzzz__ConcreteBinderNonGeneric_impl.hpp"
 #include "Zenject/zzzz__ConcreteIdBinderNonGeneric_def.hpp"
-#include "Zenject/zzzz__BindInfo_def.hpp"
-#include "Zenject/zzzz__ConcreteBinderNonGeneric_def.hpp"
 #include "Zenject/zzzz__BindStatement_def.hpp"
 #include "Zenject/zzzz__DiContainer_def.hpp"
+#include "Zenject/zzzz__BindInfo_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "Zenject/zzzz__ConcreteBinderNonGeneric_def.hpp"
 //  Writing Method size for method: ::Zenject::ConcreteIdBinderNonGeneric._ctor
 template <>
 

@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(RenderPipelineManager)
-namespace System {
-template <typename T1, typename T2> class Action_2;
+namespace UnityEngine::Rendering {
+struct ScriptableRenderContext;
 }
-namespace UnityEngine {
-struct __Camera__RenderRequest;
+namespace System {
+class Action;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
@@ -18,17 +18,17 @@ template <typename T> class List_1;
 namespace UnityEngine::Rendering {
 class RenderPipelineAsset;
 }
+namespace UnityEngine {
+class Camera;
+}
+namespace UnityEngine {
+struct __Camera__RenderRequest;
+}
 namespace UnityEngine::Rendering {
 class RenderPipeline;
 }
-namespace UnityEngine::Rendering {
-struct ScriptableRenderContext;
-}
 namespace System {
-class Action;
-}
-namespace UnityEngine {
-class Camera;
+template <typename T1, typename T2> class Action_2;
 }
 // Forward declare root types
 namespace UnityEngine::Rendering {

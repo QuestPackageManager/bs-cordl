@@ -8,11 +8,11 @@ CORDL_MODULE_EXPORT(IGameEnergyCounter)
 namespace System {
 class Action;
 }
-namespace GlobalNamespace {
-struct __GameplayModifiers__EnergyType;
-}
 namespace System {
 template <typename T> class Action_1;
+}
+namespace GlobalNamespace {
+struct __GameplayModifiers__EnergyType;
 }
 // Forward declare root types
 namespace GlobalNamespace {

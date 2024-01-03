@@ -11,19 +11,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(RetryConditionHeaderValue)
 namespace System {
-class ICloneable;
+struct TimeSpan;
 }
 namespace System {
 template <typename T> struct Nullable_1;
 }
 namespace System {
-struct DateTimeOffset;
-}
-namespace System {
 class Object;
 }
 namespace System {
-struct TimeSpan;
+class ICloneable;
+}
+namespace System {
+struct DateTimeOffset;
 }
 // Forward declare root types
 namespace System::Net::Http::Headers {
@@ -35,9 +35,9 @@ MARK_REF_PTR_T(::System::Net::Http::Headers::RetryConditionHeaderValue);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Http::Headers {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 2702 }), GenericInstantiation(GenericInstantiation {
-// tdi: TypeDefinitionIndex(2448), inst: 2711 }), TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(2484)), TypeDefinitionIndex(TypeDefinitionIndex(2370))} Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(14706)) CS Name: ::System.Net.Http.Headers::RetryConditionHeaderValue*
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 2702 }), TypeDefinitionIndex(TypeDefinitionIndex(2613)),
+// TypeDefinitionIndex(TypeDefinitionIndex(2370)), TypeDefinitionIndex(TypeDefinitionIndex(2448)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 2711 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(2484))} Self: TypeDefinitionIndex(TypeDefinitionIndex(14706)) CS Name: ::System.Net.Http.Headers::RetryConditionHeaderValue*
 class CORDL_TYPE RetryConditionHeaderValue : public ::System::Object {
 public:
   // Declarations

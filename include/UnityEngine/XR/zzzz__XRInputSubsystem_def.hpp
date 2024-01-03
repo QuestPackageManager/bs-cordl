@@ -21,7 +21,7 @@ MARK_REF_PTR_T(::UnityEngine::XR::XRInputSubsystem);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::XR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15965)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(15965), inst: 3917 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(15965), inst: 3917 }), TypeDefinitionIndex(TypeDefinitionIndex(15965))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15631))
 // CS Name: ::UnityEngine.XR::XRInputSubsystem*
 class CORDL_TYPE XRInputSubsystem : public ::UnityEngine::IntegratedSubsystem_1<Il2CppObject*> {

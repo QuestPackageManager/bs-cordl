@@ -10,11 +10,11 @@ CORDL_MODULE_EXPORT(HEU_AssetPreset)
 namespace HoudiniEngineUnity {
 class HEU_InputPreset;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
 namespace HoudiniEngineUnity {
 class HEU_VolumeCachePreset;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {

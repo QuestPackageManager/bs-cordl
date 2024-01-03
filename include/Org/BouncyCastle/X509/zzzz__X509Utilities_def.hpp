@@ -10,11 +10,14 @@ CORDL_MODULE_EXPORT(X509Utilities)
 namespace Org::BouncyCastle::Asn1 {
 class DerObjectIdentifier;
 }
-namespace Org::BouncyCastle::Asn1::Pkcs {
-class RsassaPssParameters;
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Encodable;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class AlgorithmIdentifier;
 }
 namespace System::Collections {
-class IDictionary;
+class IEnumerable;
 }
 namespace Org::BouncyCastle::Crypto {
 class AsymmetricKeyParameter;
@@ -22,17 +25,14 @@ class AsymmetricKeyParameter;
 namespace Org::BouncyCastle::Utilities::Collections {
 class ISet;
 }
-namespace Org::BouncyCastle::Security {
-class SecureRandom;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Encodable;
+namespace Org::BouncyCastle::Asn1::Pkcs {
+class RsassaPssParameters;
 }
 namespace System::Collections {
-class IEnumerable;
+class IDictionary;
 }
-namespace Org::BouncyCastle::Asn1::X509 {
-class AlgorithmIdentifier;
+namespace Org::BouncyCastle::Security {
+class SecureRandom;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::X509 {

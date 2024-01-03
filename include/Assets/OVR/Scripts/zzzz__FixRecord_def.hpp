@@ -7,11 +7,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(FixRecord)
-namespace UnityEngine {
-class Object;
-}
 namespace Assets::OVR::Scripts {
 class FixMethodDelegate;
+}
+namespace UnityEngine {
+class Object;
 }
 // Forward declare root types
 namespace Assets::OVR::Scripts {

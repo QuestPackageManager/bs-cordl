@@ -10,13 +10,13 @@ namespace System {
 class Object;
 }
 namespace UnityEngine::UIElements {
-class IDragAndDropData;
-}
-namespace UnityEngine::UIElements {
 class IListDragAndDropArgs;
 }
 namespace UnityEngine::UIElements {
 struct DragAndDropPosition;
+}
+namespace UnityEngine::UIElements {
+class IDragAndDropData;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

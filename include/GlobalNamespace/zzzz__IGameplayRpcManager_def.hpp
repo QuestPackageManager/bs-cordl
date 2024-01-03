@@ -9,41 +9,41 @@ CORDL_MODULE_EXPORT(IGameplayRpcManager)
 namespace GlobalNamespace {
 class NoteCutInfoNetSerializable;
 }
-namespace GlobalNamespace {
-class NoteSpawnInfoNetSerializable;
-}
-namespace GlobalNamespace {
-class MultiplayerLevelCompletionResults;
-}
-namespace GlobalNamespace {
-class ObstacleSpawnInfoNetSerializable;
-}
-namespace System {
-template <typename T1, typename T2, typename T3, typename T4> class Action_4;
-}
-namespace GlobalNamespace {
-class PlayerSpecificSettingsAtStartNetSerializable;
-}
 namespace System {
 template <typename T1, typename T2, typename T3> class Action_3;
-}
-namespace System {
-template <typename T> class Action_1;
 }
 namespace System {
 template <typename T1, typename T2> class Action_2;
 }
 namespace GlobalNamespace {
+class PlayerSpecificSettingsNetSerializable;
+}
+namespace GlobalNamespace {
+class NoteSpawnInfoNetSerializable;
+}
+namespace System {
+template <typename T1, typename T2, typename T3, typename T4> class Action_4;
+}
+namespace System {
+template <typename T> class Action_1;
+}
+namespace GlobalNamespace {
 class SliderSpawnInfoNetSerializable;
 }
 namespace GlobalNamespace {
-class NoteMissInfoNetSerializable;
+class MultiplayerLevelCompletionResults;
 }
 namespace System {
 class IDisposable;
 }
 namespace GlobalNamespace {
-class PlayerSpecificSettingsNetSerializable;
+class PlayerSpecificSettingsAtStartNetSerializable;
+}
+namespace GlobalNamespace {
+class NoteMissInfoNetSerializable;
+}
+namespace GlobalNamespace {
+class ObstacleSpawnInfoNetSerializable;
 }
 // Forward declare root types
 namespace GlobalNamespace {

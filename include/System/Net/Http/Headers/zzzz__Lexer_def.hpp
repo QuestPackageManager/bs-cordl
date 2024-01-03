@@ -10,16 +10,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Lexer)
 namespace System {
-template <typename T> struct Nullable_1;
+struct TimeSpan;
 }
-namespace System::Net::Http::Headers {
-struct Token;
+namespace System {
+template <typename T> struct Nullable_1;
 }
 namespace System {
 struct DateTimeOffset;
 }
-namespace System {
-struct TimeSpan;
+namespace System::Net::Http::Headers {
+struct Token;
 }
 // Forward declare root types
 namespace System::Net::Http::Headers {

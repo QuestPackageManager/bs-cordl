@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(StandardLevelRestartController)
 namespace GlobalNamespace {
-class StandardLevelScenesTransitionSetupDataSO;
+class ILevelRestartController;
 }
 namespace GlobalNamespace {
-class ILevelRestartController;
+class StandardLevelScenesTransitionSetupDataSO;
 }
 namespace GlobalNamespace {
 class PrepareLevelCompletionResults;

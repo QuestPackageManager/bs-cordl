@@ -6,23 +6,23 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(SongStartHandler)
-namespace System {
-class IDisposable;
+namespace GlobalNamespace {
+class PlayersSpecificSettingsAtGameStartModel;
+}
+namespace GlobalNamespace {
+class IMultiplayerSessionManager;
 }
 namespace System::Collections::Generic {
 template <typename T> class HashSet_1;
-}
-namespace GlobalNamespace {
-class IGameplayRpcManager;
 }
 namespace System {
 template <typename T> class Action_1;
 }
 namespace GlobalNamespace {
-class IMultiplayerSessionManager;
+class IGameplayRpcManager;
 }
-namespace GlobalNamespace {
-class PlayersSpecificSettingsAtGameStartModel;
+namespace System {
+class IDisposable;
 }
 // Forward declare root types
 namespace GlobalNamespace {

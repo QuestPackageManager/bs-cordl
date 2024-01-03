@@ -4,9 +4,9 @@
 #include "GlobalNamespace/zzzz__TriggerFloatFxGroupEffectManager_def.hpp"
 #include "GlobalNamespace/zzzz__FloatFxGroup_def.hpp"
 #include "GlobalNamespace/zzzz__TriggerFloatFxGroupEffect_def.hpp"
+#include "GlobalNamespace/zzzz__TriggerFloatFxGroupEffectManager_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "Zenject/zzzz__DiContainer_def.hpp"
-#include "GlobalNamespace/zzzz__TriggerFloatFxGroupEffectManager_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::__TriggerFloatFxGroupEffectManager____c._ctor
 template <>

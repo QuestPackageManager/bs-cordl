@@ -9,25 +9,25 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(PlatformInternal)
 namespace Oculus::Platform {
-class Message;
-}
-namespace Oculus::Platform::Models {
-class PlatformInitialize;
-}
-namespace Oculus::Platform {
-class __PlatformInternal__Users;
-}
-namespace Oculus::Platform {
 class __PlatformInternal__HTTP;
-}
-namespace Oculus::Platform {
-struct __PlatformInternal__MessageTypeInternal;
 }
 namespace Oculus::Platform {
 struct __Message__MessageType;
 }
 namespace Oculus::Platform {
+class __PlatformInternal__Users;
+}
+namespace Oculus::Platform {
 template <typename T> class Request_1;
+}
+namespace Oculus::Platform {
+class Message;
+}
+namespace Oculus::Platform {
+struct __PlatformInternal__MessageTypeInternal;
+}
+namespace Oculus::Platform::Models {
+class PlatformInitialize;
 }
 namespace Oculus::Platform::Models {
 class HttpTransferUpdate;

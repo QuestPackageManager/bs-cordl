@@ -10,17 +10,17 @@ CORDL_MODULE_EXPORT(SyncStateId)
 namespace LiteNetLib::Utils {
 template <typename T> class INetImmutableSerializable_1;
 }
-namespace System {
-class Object;
+namespace LiteNetLib::Utils {
+class NetDataReader;
 }
 namespace LiteNetLib::Utils {
 class NetDataWriter;
 }
 namespace System {
-template <typename T> class IEquatable_1;
+class Object;
 }
-namespace LiteNetLib::Utils {
-class NetDataReader;
+namespace System {
+template <typename T> class IEquatable_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {

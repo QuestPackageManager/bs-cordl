@@ -5,9 +5,6 @@ CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(TimeStampTokenEvidence)
-namespace Org::BouncyCastle::Asn1::Cms {
-class TimeStampAndCrl;
-}
 namespace System {
 class Object;
 }
@@ -15,10 +12,13 @@ namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
+class Asn1TaggedObject;
+}
+namespace Org::BouncyCastle::Asn1::Cms {
+class TimeStampAndCrl;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1TaggedObject;
+class Asn1Sequence;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Cms {

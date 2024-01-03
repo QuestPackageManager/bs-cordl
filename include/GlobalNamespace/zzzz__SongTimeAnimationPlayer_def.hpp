@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(SongTimeAnimationPlayer)
-namespace UnityEngine {
-class AnimationClip;
-}
 namespace GlobalNamespace {
 class AudioTimeSyncController;
+}
+namespace UnityEngine {
+class AnimationClip;
 }
 // Forward declare root types
 namespace GlobalNamespace {

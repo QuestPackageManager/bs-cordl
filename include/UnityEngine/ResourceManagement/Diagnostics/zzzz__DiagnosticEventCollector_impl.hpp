@@ -2,8 +2,8 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "UnityEngine/ResourceManagement/Diagnostics/zzzz__DiagnosticEventCollector_def.hpp"
 #include "System/zzzz__Guid_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
 #include "UnityEngine/ResourceManagement/Diagnostics/zzzz__DiagnosticEvent_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
 //  Writing Method size for method: ::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollector.get_PlayerConnectionGuid
 template <>
 

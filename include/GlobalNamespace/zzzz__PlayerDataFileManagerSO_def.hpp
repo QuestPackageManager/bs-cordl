@@ -8,10 +8,25 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(PlayerDataFileManagerSO)
 namespace GlobalNamespace {
+class PlayerSaveDataV1_0_1;
+}
+namespace GlobalNamespace {
+class EnvironmentTypeSO;
+}
+namespace GlobalNamespace {
 class ColorSchemesListSO;
 }
 namespace GlobalNamespace {
-class PlayerSaveDataV1_0_1;
+class PlayerData;
+}
+namespace GlobalNamespace {
+class PlayerSaveData;
+}
+namespace GlobalNamespace {
+class EnvironmentsListSO;
+}
+namespace GlobalNamespace {
+class BeatmapCharacteristicSO;
 }
 namespace GlobalNamespace {
 class EnvironmentInfoSO;
@@ -22,26 +37,11 @@ class ISaveData;
 namespace GlobalNamespace {
 class BeatmapCharacteristicCollection;
 }
-namespace GlobalNamespace {
-class PlayerData;
-}
-namespace GlobalNamespace {
-class EnvironmentsListSO;
-}
-namespace GlobalNamespace {
-class BeatmapCharacteristicSO;
-}
-namespace GlobalNamespace {
-class EnvironmentTypeSO;
-}
-namespace GlobalNamespace {
-class PlayerSaveData;
+namespace System {
+class Version;
 }
 namespace GlobalNamespace {
 class OverrideEnvironmentSettings;
-}
-namespace System {
-class Version;
 }
 // Forward declare root types
 namespace GlobalNamespace {

@@ -7,20 +7,8 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(TriangulationContext)
-namespace UnityEngine::ProBuilder::Poly2Tri {
-class DelaunayTriangle;
-}
-namespace UnityEngine::ProBuilder::Poly2Tri {
-struct TriangulationMode;
-}
-namespace UnityEngine::ProBuilder::Poly2Tri {
-struct TriangulationAlgorithm;
-}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
-}
-namespace UnityEngine::ProBuilder::Poly2Tri {
-class TriangulationDebugContext;
 }
 namespace UnityEngine::ProBuilder::Poly2Tri {
 class DTSweepDebugContext;
@@ -29,10 +17,22 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
 class TriangulationConstraint;
 }
 namespace UnityEngine::ProBuilder::Poly2Tri {
-class Triangulatable;
+class DelaunayTriangle;
+}
+namespace UnityEngine::ProBuilder::Poly2Tri {
+struct TriangulationMode;
 }
 namespace UnityEngine::ProBuilder::Poly2Tri {
 class TriangulationPoint;
+}
+namespace UnityEngine::ProBuilder::Poly2Tri {
+struct TriangulationAlgorithm;
+}
+namespace UnityEngine::ProBuilder::Poly2Tri {
+class TriangulationDebugContext;
+}
+namespace UnityEngine::ProBuilder::Poly2Tri {
+class Triangulatable;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder::Poly2Tri {

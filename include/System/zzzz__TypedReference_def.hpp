@@ -8,17 +8,17 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(TypedReference)
+namespace System::Reflection {
+class FieldInfo;
+}
 namespace System {
-struct RuntimeTypeHandle;
+class Object;
 }
 namespace System {
 class RuntimeType;
 }
 namespace System {
-class Object;
-}
-namespace System::Reflection {
-class FieldInfo;
+struct RuntimeTypeHandle;
 }
 // Forward declare root types
 namespace System {

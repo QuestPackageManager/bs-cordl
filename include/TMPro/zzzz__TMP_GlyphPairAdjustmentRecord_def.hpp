@@ -9,11 +9,11 @@ CORDL_MODULE_EXPORT(TMP_GlyphPairAdjustmentRecord)
 namespace TMPro {
 struct TMP_GlyphAdjustmentRecord;
 }
-namespace UnityEngine::TextCore::LowLevel {
-struct GlyphPairAdjustmentRecord;
-}
 namespace TMPro {
 struct FontFeatureLookupFlags;
+}
+namespace UnityEngine::TextCore::LowLevel {
+struct GlyphPairAdjustmentRecord;
 }
 // Forward declare root types
 namespace TMPro {
@@ -25,7 +25,7 @@ MARK_REF_PTR_T(::TMPro::TMP_GlyphPairAdjustmentRecord);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 60, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12373)), TypeDefinitionIndex(TypeDefinitionIndex(12371))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12371)), TypeDefinitionIndex(TypeDefinitionIndex(12373))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12374))
 // CS Name: ::TMPro::TMP_GlyphPairAdjustmentRecord*
 class CORDL_TYPE TMP_GlyphPairAdjustmentRecord : public ::System::Object {

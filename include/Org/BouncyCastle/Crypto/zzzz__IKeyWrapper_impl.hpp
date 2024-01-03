@@ -1,7 +1,7 @@
 #pragma once
 #include "Org/BouncyCastle/Crypto/zzzz__IKeyWrapper_def.hpp"
-#include "System/zzzz__Object_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__IBlockResult_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::IKeyWrapper.get_AlgorithmDetails
 template <>
 

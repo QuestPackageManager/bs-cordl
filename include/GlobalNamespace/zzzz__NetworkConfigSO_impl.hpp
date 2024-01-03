@@ -2,9 +2,9 @@
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_impl.hpp"
 #include "GlobalNamespace/zzzz__ServiceEnvironment_impl.hpp"
 #include "GlobalNamespace/zzzz__NetworkConfigSO_def.hpp"
+#include "GlobalNamespace/zzzz__DnsEndPoint_def.hpp"
 #include "GlobalNamespace/zzzz__INetworkConfig_def.hpp"
 #include "GlobalNamespace/zzzz__ServiceEnvironment_def.hpp"
-#include "GlobalNamespace/zzzz__DnsEndPoint_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::NetworkConfigSO.get_maxPartySize
 template <>
 

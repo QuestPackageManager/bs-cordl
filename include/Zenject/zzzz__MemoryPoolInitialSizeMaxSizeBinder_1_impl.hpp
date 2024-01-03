@@ -1,11 +1,11 @@
 #pragma once
 #include "Zenject/zzzz__MemoryPoolMaxSizeBinder_1_impl.hpp"
 #include "Zenject/zzzz__MemoryPoolInitialSizeMaxSizeBinder_1_def.hpp"
-#include "Zenject/zzzz__MemoryPoolBindInfo_def.hpp"
-#include "Zenject/zzzz__FactoryBindInfo_def.hpp"
 #include "Zenject/zzzz__MemoryPoolMaxSizeBinder_1_def.hpp"
-#include "Zenject/zzzz__FactoryArgumentsToChoiceBinder_1_def.hpp"
+#include "Zenject/zzzz__FactoryBindInfo_def.hpp"
 #include "Zenject/zzzz__DiContainer_def.hpp"
+#include "Zenject/zzzz__MemoryPoolBindInfo_def.hpp"
+#include "Zenject/zzzz__FactoryArgumentsToChoiceBinder_1_def.hpp"
 #include "Zenject/zzzz__BindInfo_def.hpp"
 template <typename TContract>
 inline ::Zenject::MemoryPoolInitialSizeMaxSizeBinder_1<TContract>*

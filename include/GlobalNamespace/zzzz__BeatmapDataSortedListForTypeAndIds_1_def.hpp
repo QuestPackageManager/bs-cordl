@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(BeatmapDataSortedListForTypeAndIds_1)
 namespace GlobalNamespace {
-template <typename T> class ISortedList_1;
+template <typename TBase> class __BeatmapDataSortedListForTypeAndIds_1____c;
 }
 namespace GlobalNamespace {
-template <typename TBase> class __BeatmapDataSortedListForTypeAndIds_1____c;
+template <typename T> class ISortedList_1;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
@@ -22,10 +22,10 @@ namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
 namespace System {
-template <typename T1, typename T2> struct ValueTuple_2;
+class Type;
 }
 namespace System {
-class Type;
+template <typename T1, typename T2> struct ValueTuple_2;
 }
 namespace GlobalNamespace {
 template <typename T> class ISortedListItemProcessor_1;

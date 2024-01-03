@@ -10,19 +10,19 @@ namespace GlobalNamespace {
 class MultiplayerPlayerResultsData;
 }
 namespace GlobalNamespace {
-class PlayerDataModel;
+class IDifficultyBeatmap;
+}
+namespace System::Collections::Generic {
+template <typename T> class IReadOnlyList_1;
 }
 namespace GlobalNamespace {
 class MultiplayerBadgeAwardData;
 }
-namespace GlobalNamespace {
-class IDifficultyBeatmap;
-}
 namespace UnityEngine {
 class Sprite;
 }
-namespace System::Collections::Generic {
-template <typename T> class IReadOnlyList_1;
+namespace GlobalNamespace {
+class PlayerDataModel;
 }
 // Forward declare root types
 namespace GlobalNamespace {

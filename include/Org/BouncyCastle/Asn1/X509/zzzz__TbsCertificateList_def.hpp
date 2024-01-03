@@ -7,20 +7,20 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(TbsCertificateList)
+namespace System::Collections {
+class IEnumerator;
+}
 namespace System {
 class Object;
 }
-namespace System::Collections {
-class IEnumerator;
+namespace Org::BouncyCastle::Asn1::X509 {
+class Time;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class X509Extensions;
 }
-namespace Org::BouncyCastle::Asn1::X509 {
-class CrlEntry;
-}
-namespace Org::BouncyCastle::Asn1 {
-class DerInteger;
+namespace System::Collections {
+class IEnumerable;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class X509Name;
@@ -28,23 +28,23 @@ class X509Name;
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
 }
-namespace Org::BouncyCastle::Asn1::X509 {
-class __TbsCertificateList__RevokedCertificatesEnumeration;
-}
-namespace System::Collections {
-class IEnumerable;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class Time;
-}
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
+class DerInteger;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class AlgorithmIdentifier;
 }
 namespace Org::BouncyCastle::Asn1 {
+class Asn1Sequence;
+}
+namespace Org::BouncyCastle::Asn1 {
 class Asn1TaggedObject;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class __TbsCertificateList__RevokedCertificatesEnumeration;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class CrlEntry;
 }
 namespace GlobalNamespace {
 class __TbsCertificateList__RevokedCertificatesEnumeration__RevokedCertificatesEnumerator;

@@ -1,7 +1,7 @@
 #pragma once
 #include "LiteNetLib/zzzz__INetLogger_def.hpp"
-#include "System/zzzz__Object_def.hpp"
 #include "LiteNetLib/zzzz__NetLogLevel_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::LiteNetLib::INetLogger.WriteNet
 template <>
 

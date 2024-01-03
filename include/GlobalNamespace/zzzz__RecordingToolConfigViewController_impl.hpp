@@ -1,8 +1,8 @@
 #pragma once
 #include "HMUI/zzzz__ViewController_impl.hpp"
 #include "GlobalNamespace/zzzz__RecordingToolConfigViewController_def.hpp"
-#include "HMUI/zzzz__TextPageScrollView_def.hpp"
 #include "GlobalNamespace/zzzz__RecordingToolManager_def.hpp"
+#include "HMUI/zzzz__TextPageScrollView_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::RecordingToolConfigViewController.DidActivate
 template <>
 

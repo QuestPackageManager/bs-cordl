@@ -1,10 +1,10 @@
 #pragma once
 #include "System/zzzz__SystemException_impl.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaException_def.hpp"
-#include "System/Xml/Schema/zzzz__XmlSchemaObject_def.hpp"
 #include "System/zzzz__Exception_def.hpp"
-#include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
 #include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
+#include "System/Xml/Schema/zzzz__XmlSchemaObject_def.hpp"
+#include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
 //  Writing Method size for method: ::System::Xml::Schema::XmlSchemaException._ctor
 template <>
 

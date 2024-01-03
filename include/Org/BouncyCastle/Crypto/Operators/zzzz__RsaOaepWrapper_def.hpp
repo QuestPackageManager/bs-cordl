@@ -7,16 +7,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(RsaOaepWrapper)
 namespace Org::BouncyCastle::Crypto {
-class IBlockResult;
+class IKeyUnwrapper;
+}
+namespace Org::BouncyCastle::Asn1 {
+class DerObjectIdentifier;
 }
 namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;
 }
-namespace System {
-class Object;
-}
 namespace Org::BouncyCastle::Crypto {
-class IKeyUnwrapper;
+class IBlockResult;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class AlgorithmIdentifier;
@@ -24,8 +24,8 @@ class AlgorithmIdentifier;
 namespace Org::BouncyCastle::Crypto {
 class IKeyWrapper;
 }
-namespace Org::BouncyCastle::Asn1 {
-class DerObjectIdentifier;
+namespace System {
+class Object;
 }
 namespace Org::BouncyCastle::Crypto {
 class IAsymmetricBlockCipher;

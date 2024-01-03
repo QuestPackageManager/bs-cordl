@@ -7,6 +7,9 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(InputEventPtr)
+namespace UnityEngine::InputSystem::Utilities {
+struct FourCC;
+}
 namespace UnityEngine::InputSystem::LowLevel {
 struct InputEvent;
 }
@@ -15,9 +18,6 @@ template <typename T> class IEquatable_1;
 }
 namespace System {
 class Object;
-}
-namespace UnityEngine::InputSystem::Utilities {
-struct FourCC;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::LowLevel {

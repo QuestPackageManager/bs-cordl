@@ -9,11 +9,11 @@ CORDL_MODULE_EXPORT(AbstractTlsAgreementCredentials)
 namespace Org::BouncyCastle::Crypto::Tls {
 class TlsCredentials;
 }
-namespace Org::BouncyCastle::Crypto {
-class AsymmetricKeyParameter;
-}
 namespace Org::BouncyCastle::Crypto::Tls {
 class TlsAgreementCredentials;
+}
+namespace Org::BouncyCastle::Crypto {
+class AsymmetricKeyParameter;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {

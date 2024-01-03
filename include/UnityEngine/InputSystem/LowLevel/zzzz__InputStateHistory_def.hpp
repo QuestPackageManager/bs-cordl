@@ -14,14 +14,14 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(InputStateHistory)
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
+}
 namespace UnityEngine::InputSystem::LowLevel {
 struct __InputStateHistory__Record;
 }
 namespace UnityEngine::InputSystem::LowLevel {
-struct InputEventPtr;
-}
-namespace UnityEngine::InputSystem::LowLevel {
-struct __InputStateHistory__Enumerator;
+struct InputUpdateType;
 }
 namespace System {
 template <typename T> class Action_1;
@@ -29,11 +29,11 @@ template <typename T> class Action_1;
 namespace System::Collections {
 class IEnumerator;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
 namespace System {
-class Object;
+class IDisposable;
+}
+namespace System::Collections {
+class IEnumerable;
 }
 namespace System {
 template <typename T1, typename T2, typename T3, typename TResult> class Func_4;
@@ -41,26 +41,26 @@ template <typename T1, typename T2, typename T3, typename TResult> class Func_4;
 namespace UnityEngine::InputSystem::Utilities {
 template <typename TValue> struct ReadOnlyArray_1;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
-}
-namespace System::Collections {
-class IEnumerable;
-}
-namespace System {
-class IDisposable;
-}
-namespace UnityEngine::InputSystem::LowLevel {
-struct InputUpdateType;
-}
 namespace UnityEngine::InputSystem::LowLevel {
 struct __InputStateHistory__RecordHeader;
 }
 namespace UnityEngine::InputSystem::LowLevel {
-class IInputStateChangeMonitor;
+struct InputEventPtr;
+}
+namespace System {
+class Object;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
 }
 namespace UnityEngine::InputSystem {
 class InputControl;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+class IInputStateChangeMonitor;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+struct __InputStateHistory__Enumerator;
 }
 namespace System {
 template <typename T> class IEquatable_1;
@@ -235,7 +235,7 @@ static_assert(offsetof(::GlobalNamespace::__InputStateHistory__RecordHeader___m_
 // SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 17, calculated_native_size: 33, minimum_alignment: 1, natural_alignment: 8, packing: Some(1), specified_packing: None }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6570)), TypeDefinitionIndex(TypeDefinitionIndex(6571))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6571)), TypeDefinitionIndex(TypeDefinitionIndex(6570))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6572))
 // CS Name: ::InputStateHistory::RecordHeader
 struct CORDL_TYPE __InputStateHistory__RecordHeader {
@@ -544,8 +544,8 @@ static_assert(offsetof(::UnityEngine::InputSystem::LowLevel::__InputStateHistory
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 97, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 741 }), GenericInstantiation(GenericInstantiation {
-// tdi: TypeDefinitionIndex(2448), inst: 332 }), TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(9999)), TypeDefinitionIndex(TypeDefinitionIndex(6553))} Self:
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 332 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 741 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(6553)), TypeDefinitionIndex(TypeDefinitionIndex(9999))} Self:
 // TypeDefinitionIndex(TypeDefinitionIndex(6574)) CS Name: ::UnityEngine.InputSystem.LowLevel::InputStateHistory*
 class CORDL_TYPE InputStateHistory : public ::System::Object {
 public:

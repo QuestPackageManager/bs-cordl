@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__Span_1_impl.hpp"
 #include "System/Collections/Generic/zzzz__ValueListBuilder_1_def.hpp"
-#include "System/zzzz__ReadOnlySpan_1_def.hpp"
 #include "System/zzzz__Span_1_def.hpp"
+#include "System/zzzz__ReadOnlySpan_1_def.hpp"
 template <typename T> inline void System::Collections::Generic::ValueListBuilder_1<T>::_ctor(::System::Span_1<T> initialSpan) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Generic::ValueListBuilder_1<T>>::get(), ".ctor",

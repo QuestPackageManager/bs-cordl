@@ -1,11 +1,11 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "Newtonsoft/Json/Serialization/zzzz__ReflectionAttributeProvider_def.hpp"
+#include "System/zzzz__Type_def.hpp"
 #include "System/Collections/Generic/zzzz__IList_1_def.hpp"
 #include "Newtonsoft/Json/Serialization/zzzz__IAttributeProvider_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__Attribute_def.hpp"
-#include "System/zzzz__Type_def.hpp"
 //  Writing Method size for method: ::Newtonsoft::Json::Serialization::ReflectionAttributeProvider._ctor
 template <>
 

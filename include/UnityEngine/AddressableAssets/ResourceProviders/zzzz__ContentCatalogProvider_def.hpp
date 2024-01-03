@@ -11,44 +11,44 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(ContentCatalogProvider)
-namespace UnityEngine::AddressableAssets::ResourceLocators {
-class ContentCatalogData;
-}
-namespace UnityEngine::Networking {
-class UnityWebRequestAsyncOperation;
-}
-namespace UnityEngine {
-class AssetBundleRequest;
-}
-namespace UnityEngine {
-class AsyncOperation;
-}
-namespace UnityEngine::ResourceManagement {
-class WebRequestQueueOperation;
-}
-namespace UnityEngine {
-class AssetBundleCreateRequest;
-}
 namespace System {
 template <typename T> class Action_1;
 }
 namespace UnityEngine {
+class AssetBundleCreateRequest;
+}
+namespace UnityEngine {
+class AssetBundleRequest;
+}
+namespace UnityEngine::ResourceManagement {
+class WebRequestQueueOperation;
+}
+namespace UnityEngine::Networking {
+class UnityWebRequestAsyncOperation;
+}
+namespace UnityEngine::AddressableAssets::ResourceLocators {
+class ContentCatalogData;
+}
+namespace UnityEngine {
 class AssetBundle;
+}
+namespace UnityEngine {
+class AsyncOperation;
 }
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 struct ProvideHandle;
 }
-namespace UnityEngine::AddressableAssets::ResourceProviders {
-struct __ContentCatalogProvider__DependencyHashIndex;
-}
-namespace UnityEngine::ResourceManagement::ResourceLocations {
-class IResourceLocation;
-}
 namespace UnityEngine::ResourceManagement {
 class ResourceManager;
 }
+namespace UnityEngine::AddressableAssets::ResourceProviders {
+struct __ContentCatalogProvider__DependencyHashIndex;
+}
 namespace System {
 class Object;
+}
+namespace UnityEngine::ResourceManagement::ResourceLocations {
+class IResourceLocation;
 }
 namespace UnityEngine::AddressableAssets::ResourceProviders {
 class __ContentCatalogProvider__InternalOp;
@@ -56,14 +56,14 @@ class __ContentCatalogProvider__InternalOp;
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
+namespace System::Collections::Generic {
+template <typename T> class IList_1;
+}
 namespace UnityEngine::ResourceManagement::AsyncOperations {
 template <typename TObject> struct AsyncOperationHandle_1;
 }
 namespace GlobalNamespace {
 class __ContentCatalogProvider__InternalOp__BundledCatalog;
-}
-namespace System::Collections::Generic {
-template <typename T> class IList_1;
 }
 // Forward declare root types
 namespace UnityEngine::AddressableAssets::ResourceProviders {
@@ -357,9 +357,9 @@ static_assert(offsetof(::GlobalNamespace::__ContentCatalogProvider__InternalOp__
 // SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 115, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::AddressableAssets::ResourceProviders {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14002)), TypeDefinitionIndex(TypeDefinitionIndex(14033)), TypeDefinitionIndex(TypeDefinitionIndex(2613)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14033), inst: 296 }), TypeDefinitionIndex(TypeDefinitionIndex(14111))} Self: TypeDefinitionIndex(TypeDefinitionIndex(14106)) CS
-// Name: ::ContentCatalogProvider::InternalOp*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14002)), TypeDefinitionIndex(TypeDefinitionIndex(14033)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14033), inst:
+// 296 }), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(14111))} Self: TypeDefinitionIndex(TypeDefinitionIndex(14106)) CS Name:
+// ::ContentCatalogProvider::InternalOp*
 class CORDL_TYPE __ContentCatalogProvider__InternalOp : public ::System::Object {
 public:
   // Declarations

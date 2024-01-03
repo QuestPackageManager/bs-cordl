@@ -6,38 +6,38 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(CmsAuthEnvelopedData)
-namespace Org::BouncyCastle::Cms {
-class __CmsAuthEnvelopedData__AuthEnvelopedSecureReadable;
-}
-namespace Org::BouncyCastle::Cms {
-class RecipientInformationStore;
-}
-namespace System::IO {
-class Stream;
+namespace Org::BouncyCastle::Asn1::Cms {
+class ContentInfo;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Set;
 }
-namespace Org::BouncyCastle::Asn1::Cms {
-class ContentInfo;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class AlgorithmIdentifier;
+namespace Org::BouncyCastle::Cms {
+class RecipientInformationStore;
 }
 namespace Org::BouncyCastle::Asn1::Cms {
 class OriginatorInfo;
 }
 namespace Org::BouncyCastle::Cms {
-class CmsReadable;
+class __CmsAuthEnvelopedData__AuthEnvelopedSecureReadable;
 }
-namespace System {
-class Object;
+namespace System::IO {
+class Stream;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class AlgorithmIdentifier;
 }
 namespace Org::BouncyCastle::Cms {
 class CmsSecureReadable;
 }
 namespace Org::BouncyCastle::Crypto::Parameters {
 class KeyParameter;
+}
+namespace Org::BouncyCastle::Cms {
+class CmsReadable;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Cms {

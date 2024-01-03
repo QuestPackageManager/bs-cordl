@@ -1,11 +1,11 @@
 #pragma once
 #include "Zenject/zzzz__ConcreteBinderGeneric_1_impl.hpp"
 #include "Zenject/zzzz__ConcreteIdBinderGeneric_1_def.hpp"
-#include "Zenject/zzzz__DiContainer_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 #include "Zenject/zzzz__ConcreteBinderGeneric_1_def.hpp"
 #include "Zenject/zzzz__BindInfo_def.hpp"
 #include "Zenject/zzzz__BindStatement_def.hpp"
-#include "System/zzzz__Object_def.hpp"
+#include "Zenject/zzzz__DiContainer_def.hpp"
 template <typename TContract>
 inline ::Zenject::ConcreteIdBinderGeneric_1<TContract>* Zenject::ConcreteIdBinderGeneric_1<TContract>::New_ctor(::Zenject::DiContainer* bindContainer, ::Zenject::BindInfo* bindInfo,
                                                                                                                 ::Zenject::BindStatement* bindStatement) {

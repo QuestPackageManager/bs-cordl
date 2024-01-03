@@ -7,32 +7,32 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(UQueryBuilder_1)
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace UnityEngine::UIElements {
+class VisualElement;
 }
 namespace System {
 class Object;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace UnityEngine::UIElements {
+template <typename T> struct UQueryState_1;
+}
+namespace UnityEngine::UIElements {
+struct StyleSelectorRelationship;
 }
 namespace System {
 template <typename T> class IEquatable_1;
 }
 namespace UnityEngine::UIElements {
-struct StyleSelectorRelationship;
+struct StyleSelectorPart;
 }
 namespace UnityEngine::UIElements {
 class StyleSelector;
 }
 namespace UnityEngine::UIElements {
 struct RuleMatcher;
-}
-namespace UnityEngine::UIElements {
-struct StyleSelectorPart;
-}
-namespace UnityEngine::UIElements {
-class VisualElement;
-}
-namespace UnityEngine::UIElements {
-template <typename T> struct UQueryState_1;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

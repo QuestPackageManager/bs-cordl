@@ -9,40 +9,40 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(SongTimeSyncedVideoPlayer)
 namespace GlobalNamespace {
-class MaterialPropertyBlockController;
-}
-namespace GlobalNamespace {
 class __SongTimeSyncedVideoPlayer___WaitForDependenciesAndPlay_d__17;
 }
 namespace UnityEngine {
-class Sprite;
-}
-namespace UnityEngine::Video {
-class VideoClip;
+struct Color;
 }
 namespace System::Collections {
 class IEnumerator;
 }
+namespace UnityEngine::Video {
+class VideoPlayer;
+}
 namespace GlobalNamespace {
 class IAudioTimeSource;
+}
+namespace UnityEngine::Video {
+class VideoClip;
 }
 namespace UnityEngine {
 class Coroutine;
 }
 namespace UnityEngine {
-struct Color;
+class Sprite;
 }
-namespace UnityEngine::Video {
-class VideoPlayer;
+namespace GlobalNamespace {
+class MaterialPropertyBlockController;
 }
-namespace System {
-class IDisposable;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
 }
 namespace System {
 class Object;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
+namespace System {
+class IDisposable;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -163,7 +163,7 @@ static_assert(offsetof(::GlobalNamespace::__SongTimeSyncedVideoPlayer___WaitForD
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(14542)), TypeDefinitionIndex(TypeDefinitionIndex(4982))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4982)), TypeDefinitionIndex(TypeDefinitionIndex(14542)), TypeDefinitionIndex(TypeDefinitionIndex(10251))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5976))
 // CS Name: ::SongTimeSyncedVideoPlayer*
 class CORDL_TYPE SongTimeSyncedVideoPlayer : public ::GlobalNamespace::LightWithIdMonoBehaviour {

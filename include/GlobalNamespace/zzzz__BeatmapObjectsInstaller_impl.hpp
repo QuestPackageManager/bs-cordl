@@ -1,14 +1,14 @@
 #pragma once
 #include "Zenject/zzzz__MonoInstaller_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatmapObjectsInstaller_def.hpp"
-#include "GlobalNamespace/zzzz__BeatLine_def.hpp"
-#include "GlobalNamespace/zzzz__GameNoteController_def.hpp"
-#include "GlobalNamespace/zzzz__BombNoteController_def.hpp"
-#include "GlobalNamespace/zzzz__ObstacleController_def.hpp"
 #include "GlobalNamespace/zzzz__GameplayCoreSceneSetupData_def.hpp"
-#include "GlobalNamespace/zzzz__SliderController_def.hpp"
-#include "GlobalNamespace/zzzz__BurstSliderGameNoteController_def.hpp"
 #include "GlobalNamespace/zzzz__NoteLineConnectionController_def.hpp"
+#include "GlobalNamespace/zzzz__GameNoteController_def.hpp"
+#include "GlobalNamespace/zzzz__SliderController_def.hpp"
+#include "GlobalNamespace/zzzz__BombNoteController_def.hpp"
+#include "GlobalNamespace/zzzz__BurstSliderGameNoteController_def.hpp"
+#include "GlobalNamespace/zzzz__ObstacleController_def.hpp"
+#include "GlobalNamespace/zzzz__BeatLine_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::BeatmapObjectsInstaller.InstallBindings
 template <>
 

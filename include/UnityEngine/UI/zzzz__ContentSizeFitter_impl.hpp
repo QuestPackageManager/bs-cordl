@@ -5,8 +5,8 @@
 #include "UnityEngine/UI/zzzz__ContentSizeFitter_def.hpp"
 #include "UnityEngine/UI/zzzz__ILayoutController_def.hpp"
 #include "UnityEngine/UI/zzzz__ContentSizeFitter_def.hpp"
-#include "UnityEngine/UI/zzzz__ILayoutSelfController_def.hpp"
 #include "UnityEngine/zzzz__RectTransform_def.hpp"
+#include "UnityEngine/UI/zzzz__ILayoutSelfController_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::UI::__ContentSizeFitter__FitMode::__ContentSizeFitter__FitMode(int32_t value__) noexcept {
   this->value__ = value__;

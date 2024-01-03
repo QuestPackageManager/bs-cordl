@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Asn1/zzzz__DerOutputStream_def.hpp"
 CORDL_MODULE_EXPORT(Asn1OutputStream)
-namespace System {
-class Object;
-}
 namespace System::IO {
 class Stream;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1 {

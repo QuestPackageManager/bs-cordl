@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(TrackAssetExtensions)
 namespace UnityEngine::Timeline {
-class GroupTrack;
+class TrackAsset;
 }
 namespace UnityEngine::Timeline {
-class TrackAsset;
+class GroupTrack;
 }
 // Forward declare root types
 namespace UnityEngine::Timeline {

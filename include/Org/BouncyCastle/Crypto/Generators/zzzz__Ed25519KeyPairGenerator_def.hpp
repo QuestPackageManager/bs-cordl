@@ -10,11 +10,11 @@ class IAsymmetricCipherKeyPairGenerator;
 namespace Org::BouncyCastle::Crypto {
 class AsymmetricCipherKeyPair;
 }
-namespace Org::BouncyCastle::Crypto {
-class KeyGenerationParameters;
-}
 namespace Org::BouncyCastle::Security {
 class SecureRandom;
+}
+namespace Org::BouncyCastle::Crypto {
+class KeyGenerationParameters;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Generators {

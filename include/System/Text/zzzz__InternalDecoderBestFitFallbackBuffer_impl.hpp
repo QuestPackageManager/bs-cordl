@@ -1,8 +1,8 @@
 #pragma once
 #include "System/Text/zzzz__DecoderFallbackBuffer_impl.hpp"
 #include "System/Text/zzzz__InternalDecoderBestFitFallbackBuffer_def.hpp"
-#include "System/zzzz__Object_def.hpp"
 #include "System/Text/zzzz__InternalDecoderBestFitFallback_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::System::Text::InternalDecoderBestFitFallbackBuffer.get_InternalSyncObject
 template <>
 

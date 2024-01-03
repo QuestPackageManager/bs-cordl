@@ -1,9 +1,9 @@
 #pragma once
 #include "UnityEngine/EventSystems/zzzz__UIBehaviour_impl.hpp"
 #include "UnityEngine/UI/zzzz__BaseMeshEffect_def.hpp"
-#include "UnityEngine/UI/zzzz__VertexHelper_def.hpp"
-#include "UnityEngine/UI/zzzz__Graphic_def.hpp"
 #include "UnityEngine/UI/zzzz__IMeshModifier_def.hpp"
+#include "UnityEngine/UI/zzzz__Graphic_def.hpp"
+#include "UnityEngine/UI/zzzz__VertexHelper_def.hpp"
 #include "UnityEngine/zzzz__Mesh_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UI::BaseMeshEffect.get_graphic
 template <>

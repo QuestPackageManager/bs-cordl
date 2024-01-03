@@ -3,9 +3,9 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "GlobalNamespace/zzzz__ClothRandomFluctuation_def.hpp"
+#include "GlobalNamespace/zzzz__ClothRandomFluctuation_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "UnityEngine/zzzz__Cloth_def.hpp"
-#include "GlobalNamespace/zzzz__ClothRandomFluctuation_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::__ClothRandomFluctuation__SineLayer._ctor
 template <>
 

@@ -2,10 +2,10 @@
 #include "GlobalNamespace/zzzz__BloomPrePassEffectSO_impl.hpp"
 #include "GlobalNamespace/zzzz__PyramidBloomRendererSO_impl.hpp"
 #include "GlobalNamespace/zzzz__BloomPrePassBloomTextureEffectSO_def.hpp"
-#include "GlobalNamespace/zzzz__PyramidBloomRendererSO_def.hpp"
 #include "GlobalNamespace/zzzz__ToneMapping_def.hpp"
-#include "UnityEngine/zzzz__RenderTexture_def.hpp"
 #include "GlobalNamespace/zzzz__BloomFogSO_def.hpp"
+#include "GlobalNamespace/zzzz__PyramidBloomRendererSO_def.hpp"
+#include "UnityEngine/zzzz__RenderTexture_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::BloomPrePassBloomTextureEffectSO.get_toneMapping
 template <>
 

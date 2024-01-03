@@ -1,11 +1,11 @@
 #pragma once
 #include "System/Xml/Schema/zzzz__Datatype_decimal_impl.hpp"
 #include "System/Xml/Schema/zzzz__Datatype_integer_def.hpp"
-#include "System/Xml/Schema/zzzz__XmlTypeCode_def.hpp"
-#include "System/zzzz__Exception_def.hpp"
-#include "System/Xml/zzzz__XmlNameTable_def.hpp"
-#include "System/Xml/zzzz__IXmlNamespaceResolver_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "System/Xml/Schema/zzzz__XmlTypeCode_def.hpp"
+#include "System/Xml/zzzz__IXmlNamespaceResolver_def.hpp"
+#include "System/Xml/zzzz__XmlNameTable_def.hpp"
+#include "System/zzzz__Exception_def.hpp"
 //  Writing Method size for method: ::System::Xml::Schema::Datatype_integer.get_TypeCode
 template <>
 

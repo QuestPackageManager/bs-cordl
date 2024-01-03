@@ -20,13 +20,13 @@ namespace Zenject {
 struct RootResolveMethods;
 }
 namespace Zenject {
+struct SignalMissingHandlerResponses;
+}
+namespace Zenject {
 struct SignalDefaultSyncModes;
 }
 namespace Zenject {
 class InjectTypeInfo;
-}
-namespace Zenject {
-struct SignalMissingHandlerResponses;
 }
 namespace System {
 class Object;
@@ -45,7 +45,7 @@ MARK_REF_PTR_T(::Zenject::__ZenjectSettings__SignalSettings);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11171)), TypeDefinitionIndex(TypeDefinitionIndex(11172)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(11172)), TypeDefinitionIndex(TypeDefinitionIndex(11171))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11173))
 // CS Name: ::ZenjectSettings::SignalSettings*
 class CORDL_TYPE __ZenjectSettings__SignalSettings : public ::System::Object {
@@ -179,7 +179,7 @@ static_assert(offsetof(::Zenject::__ZenjectSettings__SignalSettings, ____default
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(11170)), TypeDefinitionIndex(TypeDefinitionIndex(11169))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11169)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(11170))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11174))
 // CS Name: ::Zenject::ZenjectSettings*
 class CORDL_TYPE ZenjectSettings : public ::System::Object {

@@ -7,8 +7,11 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(AnimationMixerPlayable)
-namespace System {
-template <typename T> class IEquatable_1;
+namespace UnityEngine::Playables {
+struct PlayableGraph;
+}
+namespace UnityEngine::Playables {
+struct PlayableHandle;
 }
 namespace UnityEngine::Playables {
 class IPlayable;
@@ -16,11 +19,8 @@ class IPlayable;
 namespace UnityEngine::Playables {
 struct Playable;
 }
-namespace UnityEngine::Playables {
-struct PlayableHandle;
-}
-namespace UnityEngine::Playables {
-struct PlayableGraph;
+namespace System {
+template <typename T> class IEquatable_1;
 }
 // Forward declare root types
 namespace UnityEngine::Animations {

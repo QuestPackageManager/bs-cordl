@@ -10,13 +10,13 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(OffsetPose)
 namespace RootMotion::FinalIK {
-class __OffsetPose__EffectorLink;
-}
-namespace RootMotion::FinalIK {
 class IKSolverFullBodyBiped;
 }
 namespace UnityEngine {
 struct Quaternion;
+}
+namespace RootMotion::FinalIK {
+class __OffsetPose__EffectorLink;
 }
 // Forward declare root types
 namespace RootMotion::FinalIK {
@@ -32,7 +32,7 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::__OffsetPose__EffectorLink);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12571)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12571)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12659))
 // CS Name: ::OffsetPose::EffectorLink*
 class CORDL_TYPE __OffsetPose__EffectorLink : public ::System::Object {

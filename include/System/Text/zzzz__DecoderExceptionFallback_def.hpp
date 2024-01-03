@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "System/Text/zzzz__DecoderFallback_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(DecoderExceptionFallback)
-namespace System::Text {
-class DecoderFallbackBuffer;
-}
 namespace System {
 class Object;
+}
+namespace System::Text {
+class DecoderFallbackBuffer;
 }
 // Forward declare root types
 namespace System::Text {

@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Signers/zzzz__PlainDsaEncoding_def.hpp"
-#include "Org/BouncyCastle/Crypto/Signers/zzzz__IDsaEncoding_def.hpp"
 #include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
+#include "Org/BouncyCastle/Crypto/Signers/zzzz__IDsaEncoding_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Signers::PlainDsaEncoding.Decode
 template <>
 

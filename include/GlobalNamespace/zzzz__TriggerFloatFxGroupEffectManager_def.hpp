@@ -12,14 +12,14 @@ class FloatFxGroup;
 namespace GlobalNamespace {
 class TriggerFloatFxGroupEffect;
 }
+namespace GlobalNamespace {
+class __TriggerFloatFxGroupEffectManager____c;
+}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace Zenject {
 class DiContainer;
-}
-namespace GlobalNamespace {
-class __TriggerFloatFxGroupEffectManager____c;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;

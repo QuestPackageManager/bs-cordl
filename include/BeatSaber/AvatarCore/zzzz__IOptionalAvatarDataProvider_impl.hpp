@@ -2,8 +2,8 @@
 #include "BeatSaber/AvatarCore/zzzz__IOptionalAvatarDataProvider_def.hpp"
 #include "BeatSaber/AvatarCore/zzzz__AvatarDisplayContext_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
-#include "BeatSaber/AvatarCore/zzzz__OptionalAvatarData_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "BeatSaber/AvatarCore/zzzz__OptionalAvatarData_def.hpp"
 //  Writing Method size for method: ::BeatSaber::AvatarCore::IOptionalAvatarDataProvider.get_currentData
 template <>
 

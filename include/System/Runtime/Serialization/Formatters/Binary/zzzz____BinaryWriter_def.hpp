@@ -9,83 +9,83 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(__BinaryWriter)
-namespace System::Collections {
-class Hashtable;
-}
-namespace System::Runtime::Serialization::Formatters::Binary {
-class BinaryObjectWithMapTyped;
-}
-namespace System::Runtime::Serialization::Formatters::Binary {
-class MemberPrimitiveTyped;
-}
 namespace System {
 struct DateTime;
 }
 namespace System::Runtime::Serialization::Formatters::Binary {
-class WriteObjectInfo;
-}
-namespace System::Runtime::Serialization::Formatters::Binary {
-struct InternalPrimitiveTypeE;
+class BinaryAssembly;
 }
 namespace System {
 class Array;
-}
-namespace System::Runtime::Serialization::Formatters::Binary {
-class BinaryMethodCall;
-}
-namespace System::Runtime::Serialization::Formatters::Binary {
-class ObjectWriter;
-}
-namespace System::Runtime::Serialization::Formatters::Binary {
-class NameInfo;
-}
-namespace System::Runtime::Serialization::Formatters::Binary {
-class BinaryArray;
-}
-namespace System::IO {
-class Stream;
-}
-namespace System::Runtime::Serialization::Formatters::Binary {
-class BinaryObject;
-}
-namespace System::Runtime::Serialization::Formatters::Binary {
-class BinaryObjectString;
-}
-namespace System {
-struct Decimal;
-}
-namespace System {
-struct TimeSpan;
-}
-namespace System::Runtime::Serialization::Formatters::Binary {
-class BinaryObjectWithMap;
-}
-namespace System::Runtime::Serialization::Formatters::Binary {
-class ObjectNull;
-}
-namespace System {
-class Type;
 }
 namespace System {
 class Object;
 }
 namespace System::Runtime::Serialization::Formatters::Binary {
-class BinaryMethodReturn;
+class ObjectWriter;
+}
+namespace System::Runtime::Serialization::Formatters::Binary {
+class MemberPrimitiveTyped;
+}
+namespace System::Runtime::Serialization::Formatters::Binary {
+class BinaryArray;
+}
+namespace System::Runtime::Serialization::Formatters::Binary {
+struct InternalPrimitiveTypeE;
+}
+namespace System::Runtime::Serialization::Formatters::Binary {
+class BinaryObjectWithMapTyped;
 }
 namespace System::Runtime::Serialization::Formatters::Binary {
 class MemberReference;
+}
+namespace System::Runtime::Serialization::Formatters {
+struct FormatterTypeStyle;
 }
 namespace System::IO {
 class BinaryWriter;
 }
 namespace System::Runtime::Serialization::Formatters::Binary {
-class MemberPrimitiveUnTyped;
+class WriteObjectInfo;
 }
 namespace System::Runtime::Serialization::Formatters::Binary {
-class BinaryAssembly;
+class BinaryObjectString;
 }
-namespace System::Runtime::Serialization::Formatters {
-struct FormatterTypeStyle;
+namespace System::Runtime::Serialization::Formatters::Binary {
+class ObjectNull;
+}
+namespace System::Collections {
+class Hashtable;
+}
+namespace System::Runtime::Serialization::Formatters::Binary {
+class BinaryMethodReturn;
+}
+namespace System::Runtime::Serialization::Formatters::Binary {
+class MemberPrimitiveUnTyped;
+}
+namespace System {
+struct TimeSpan;
+}
+namespace System::Runtime::Serialization::Formatters::Binary {
+class NameInfo;
+}
+namespace System::IO {
+class Stream;
+}
+namespace System::Runtime::Serialization::Formatters::Binary {
+class BinaryMethodCall;
+}
+namespace System {
+class Type;
+}
+namespace System {
+struct Decimal;
+}
+namespace System::Runtime::Serialization::Formatters::Binary {
+class BinaryObjectWithMap;
+}
+namespace System::Runtime::Serialization::Formatters::Binary {
+class BinaryObject;
 }
 // Forward declare root types
 namespace System::Runtime::Serialization::Formatters::Binary {
@@ -97,7 +97,7 @@ MARK_REF_PTR_T(::System::Runtime::Serialization::Formatters::Binary::__BinaryWri
 // SizeInfo { instance_size: 176, native_size: -1, calculated_instance_size: 176, calculated_native_size: 176, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization::Formatters::Binary {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3240)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3240))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3279))
 // CS Name: ::System.Runtime.Serialization.Formatters.Binary::__BinaryWriter*
 class CORDL_TYPE __BinaryWriter : public ::System::Object {

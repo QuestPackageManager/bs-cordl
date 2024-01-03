@@ -12,16 +12,16 @@ namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace GlobalNamespace {
-struct LightAxis;
+struct EaseType;
 }
 namespace GlobalNamespace {
-class BeatmapDataItem;
+struct LightAxis;
 }
 namespace GlobalNamespace {
 class BeatmapEventData;
 }
 namespace GlobalNamespace {
-struct EaseType;
+class BeatmapDataItem;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -33,7 +33,7 @@ MARK_REF_PTR_T(::GlobalNamespace::LightTranslationBeatmapEventData);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 76, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(16090)), TypeDefinitionIndex(TypeDefinitionIndex(14727)), TypeDefinitionIndex(TypeDefinitionIndex(14733))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(16090)), TypeDefinitionIndex(TypeDefinitionIndex(14733)), TypeDefinitionIndex(TypeDefinitionIndex(14727))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14737))
 // CS Name: ::LightTranslationBeatmapEventData*
 class CORDL_TYPE LightTranslationBeatmapEventData : public ::GlobalNamespace::BeatmapEventData {

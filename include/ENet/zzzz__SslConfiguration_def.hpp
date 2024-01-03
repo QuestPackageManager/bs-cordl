@@ -7,13 +7,13 @@ CORDL_MODULE_INIT
 #include <cstddef>
 CORDL_MODULE_EXPORT(SslConfiguration)
 namespace ENet {
-struct SslMode;
-}
-namespace ENet {
 struct ENetSslConfiguration;
 }
 namespace System {
 class IDisposable;
+}
+namespace ENet {
+struct SslMode;
 }
 // Forward declare root types
 namespace ENet {

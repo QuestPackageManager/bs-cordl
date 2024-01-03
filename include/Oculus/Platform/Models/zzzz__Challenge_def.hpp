@@ -25,8 +25,8 @@ MARK_REF_PTR_T(::Oculus::Platform::Models::Challenge);
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 108, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Oculus::Platform::Models {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2368)), TypeDefinitionIndex(TypeDefinitionIndex(13241)),
-// TypeDefinitionIndex(TypeDefinitionIndex(13244))} Self: TypeDefinitionIndex(TypeDefinitionIndex(13426)) CS Name: ::Oculus.Platform.Models::Challenge*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(13244)), TypeDefinitionIndex(TypeDefinitionIndex(2368)),
+// TypeDefinitionIndex(TypeDefinitionIndex(13241))} Self: TypeDefinitionIndex(TypeDefinitionIndex(13426)) CS Name: ::Oculus.Platform.Models::Challenge*
 class CORDL_TYPE Challenge : public ::System::Object {
 public:
   // Declarations

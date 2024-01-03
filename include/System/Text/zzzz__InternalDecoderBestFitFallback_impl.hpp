@@ -2,8 +2,8 @@
 #include "System/Text/zzzz__DecoderFallback_impl.hpp"
 #include "System/Text/zzzz__InternalDecoderBestFitFallback_def.hpp"
 #include "System/Text/zzzz__DecoderFallbackBuffer_def.hpp"
-#include "System/zzzz__Object_def.hpp"
 #include "System/Text/zzzz__Encoding_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::System::Text::InternalDecoderBestFitFallback._ctor
 template <>
 

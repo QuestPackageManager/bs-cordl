@@ -5,23 +5,23 @@ CORDL_MODULE_INIT
 #include "System/zzzz__MulticastDelegate_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(InputDeviceCommandDelegate)
-namespace System {
-class Object;
-}
 namespace UnityEngine::InputSystem::LowLevel {
 struct InputDeviceCommand;
 }
 namespace System {
-class IAsyncResult;
+class Object;
 }
 namespace UnityEngine::InputSystem {
 class InputDevice;
 }
 namespace System {
+template <typename T> struct Nullable_1;
+}
+namespace System {
 class AsyncCallback;
 }
 namespace System {
-template <typename T> struct Nullable_1;
+class IAsyncResult;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::LowLevel {

@@ -9,22 +9,22 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(GenericAce)
 namespace System::Security::AccessControl {
-struct PropagationFlags;
-}
-namespace System::Security::AccessControl {
 struct AceFlags;
-}
-namespace System {
-class Object;
-}
-namespace System::Security::AccessControl {
-struct AceType;
 }
 namespace System::Security::AccessControl {
 struct InheritanceFlags;
 }
 namespace System::Security::AccessControl {
+struct AceType;
+}
+namespace System::Security::AccessControl {
+struct PropagationFlags;
+}
+namespace System::Security::AccessControl {
 struct AuditFlags;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::Security::AccessControl {
@@ -36,7 +36,7 @@ MARK_REF_PTR_T(::System::Security::AccessControl::GenericAce);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 18, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace System::Security::AccessControl {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3017)), TypeDefinitionIndex(TypeDefinitionIndex(3019)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3017)), TypeDefinitionIndex(TypeDefinitionIndex(3019))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3035))
 // CS Name: ::System.Security.AccessControl::GenericAce*
 class CORDL_TYPE GenericAce : public ::System::Object {

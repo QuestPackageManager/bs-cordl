@@ -6,14 +6,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(CodeAccessPermission)
+namespace System::Security {
+class IPermission;
+}
 namespace System {
 class Object;
-}
-namespace System::Security {
-class ISecurityEncodable;
-}
-namespace System::Security {
-class SecurityElement;
 }
 namespace System::Security::Permissions {
 struct PermissionState;
@@ -22,7 +19,10 @@ namespace System {
 class Type;
 }
 namespace System::Security {
-class IPermission;
+class SecurityElement;
+}
+namespace System::Security {
+class ISecurityEncodable;
 }
 // Forward declare root types
 namespace System::Security {

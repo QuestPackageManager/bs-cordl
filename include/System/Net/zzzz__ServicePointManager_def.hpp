@@ -8,15 +8,6 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ServicePointManager)
 namespace System::Net {
-struct SecurityProtocolType;
-}
-namespace System::Net {
-class __ServicePointManager__SPKey;
-}
-namespace System::Collections::Concurrent {
-template <typename TKey, typename TValue> class ConcurrentDictionary_2;
-}
-namespace System::Net {
 class ICertificatePolicy;
 }
 namespace System::Net {
@@ -25,14 +16,23 @@ class IWebProxy;
 namespace System::Net {
 class ServicePoint;
 }
+namespace System::Collections::Concurrent {
+template <typename TKey, typename TValue> class ConcurrentDictionary_2;
+}
+namespace System::Net {
+class __ServicePointManager__SPKey;
+}
+namespace System::Net {
+struct SecurityProtocolType;
+}
 namespace System::Net::Security {
 class RemoteCertificateValidationCallback;
 }
-namespace System {
-class Uri;
-}
 namespace System::Net {
 class ServerCertValidationCallback;
+}
+namespace System {
+class Uri;
 }
 namespace System {
 class Object;

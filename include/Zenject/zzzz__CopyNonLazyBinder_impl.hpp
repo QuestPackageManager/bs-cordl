@@ -1,10 +1,10 @@
 #pragma once
 #include "Zenject/zzzz__NonLazyBinder_impl.hpp"
 #include "Zenject/zzzz__CopyNonLazyBinder_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "Zenject/zzzz__NonLazyBinder_def.hpp"
 #include "Zenject/zzzz__BindInfo_def.hpp"
 #include "Zenject/zzzz__BindingInheritanceMethods_def.hpp"
-#include "Zenject/zzzz__NonLazyBinder_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 //  Writing Method size for method: ::Zenject::CopyNonLazyBinder._ctor
 template <>
 

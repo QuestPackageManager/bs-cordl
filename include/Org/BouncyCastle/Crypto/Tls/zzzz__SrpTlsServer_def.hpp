@@ -15,11 +15,11 @@ class TlsCipherFactory;
 namespace Org::BouncyCastle::Crypto::Tls {
 class TlsSrpLoginParameters;
 }
-namespace Org::BouncyCastle::Crypto::Tls {
-class TlsSrpIdentityManager;
-}
 namespace System::Collections {
 class IDictionary;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class TlsSrpIdentityManager;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class TlsCredentials;

@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(PickerOptions)
-namespace UnityEngine::ProBuilder {
-struct RectSelectMode;
-}
 namespace System {
 class Object;
+}
+namespace UnityEngine::ProBuilder {
+struct RectSelectMode;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder {

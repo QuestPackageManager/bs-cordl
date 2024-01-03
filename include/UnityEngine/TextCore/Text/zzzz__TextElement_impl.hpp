@@ -2,9 +2,9 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__TextElementType_impl.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__TextElement_def.hpp"
-#include "UnityEngine/TextCore/Text/zzzz__TextAsset_def.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__TextElementType_def.hpp"
 #include "UnityEngine/TextCore/zzzz__Glyph_def.hpp"
+#include "UnityEngine/TextCore/Text/zzzz__TextAsset_def.hpp"
 //  Writing Method size for method: ::UnityEngine::TextCore::Text::TextElement.get_elementType
 template <>
 

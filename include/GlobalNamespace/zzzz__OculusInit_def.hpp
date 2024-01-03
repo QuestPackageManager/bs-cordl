@@ -10,46 +10,46 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(OculusInit)
 namespace GlobalNamespace {
-class __OculusInit____c__DisplayClass10_0;
-}
-namespace GlobalNamespace {
-struct __OculusInit___InitializeInternalAsync_d__7;
-}
-namespace System::Threading::Tasks {
-template <typename TResult> class TaskCompletionSource_1;
-}
-namespace GlobalNamespace {
-class PlayerDataModel;
+class __OculusInit____c__DisplayClass9_0;
 }
 namespace System::Threading::Tasks {
 template <typename TResult> class Task_1;
 }
 namespace GlobalNamespace {
+class PlayerDataModel;
+}
+namespace GlobalNamespace {
+struct __OculusInit___InitializeInternalAsync_d__7;
+}
+namespace GlobalNamespace {
 class __OculusInit____c__DisplayClass8_0;
 }
 namespace GlobalNamespace {
-class __OculusInit____c__DisplayClass9_0;
+class __OculusInit____c__DisplayClass10_0;
+}
+namespace System::Threading::Tasks {
+template <typename TResult> class TaskCompletionSource_1;
 }
 namespace Oculus::Platform {
 class Message;
-}
-namespace Oculus::Platform::Models {
-class PlatformInitialize;
 }
 namespace Oculus::Platform {
 template <typename T> class Message_1;
 }
 namespace Oculus::Platform::Models {
+class PlatformInitialize;
+}
+namespace Oculus::Platform::Models {
 class UserAccountAgeCategory;
+}
+namespace System::Runtime::CompilerServices {
+class IAsyncStateMachine;
 }
 namespace System::Runtime::CompilerServices {
 template <typename TResult> struct AsyncTaskMethodBuilder_1;
 }
 namespace System::Runtime::CompilerServices {
 template <typename TResult> struct TaskAwaiter_1;
-}
-namespace System::Runtime::CompilerServices {
-class IAsyncStateMachine;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -77,8 +77,8 @@ MARK_VAL_T(::GlobalNamespace::__OculusInit___InitializeInternalAsync_d__7);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 105 }), TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation {
-// tdi: TypeDefinitionIndex(3402), inst: 105 }), TypeDefinitionIndex(TypeDefinitionIndex(3394))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4030)) CS Name:
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3394)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 105 }), GenericInstantiation(GenericInstantiation {
+// tdi: TypeDefinitionIndex(3402), inst: 105 }), TypeDefinitionIndex(TypeDefinitionIndex(3402))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4030)) CS Name:
 // ::OculusInit::<InitializeInternalAsync>d__7
 struct CORDL_TYPE __OculusInit___InitializeInternalAsync_d__7 {
 public:

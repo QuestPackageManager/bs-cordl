@@ -2,9 +2,9 @@
 #include "System/Text/RegularExpressions/zzzz__RegexOptions_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Text/RegularExpressions/zzzz__RegexTree_def.hpp"
+#include "System/Text/RegularExpressions/zzzz__RegexNode_def.hpp"
 #include "System/Collections/zzzz__Hashtable_def.hpp"
 #include "System/Text/RegularExpressions/zzzz__RegexOptions_def.hpp"
-#include "System/Text/RegularExpressions/zzzz__RegexNode_def.hpp"
 //  Writing Method size for method: ::System::Text::RegularExpressions::RegexTree._ctor
 template <>
 

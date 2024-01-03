@@ -14,26 +14,26 @@ CORDL_MODULE_EXPORT(HEU_MaterialData)
 namespace HoudiniEngineUnity {
 struct HAPI_ParmInfo;
 }
-namespace UnityEngine {
-class Material;
-}
 namespace HoudiniEngineUnity {
 struct __HEU_MaterialData__Source;
 }
 namespace HoudiniEngineUnity {
-struct HAPI_NodeInfo;
+class HEU_SessionBase;
 }
 namespace HoudiniEngineUnity {
 template <typename T> class IEquivable_1;
 }
-namespace HoudiniEngineUnity {
-struct HAPI_ImageInfo;
+namespace UnityEngine {
+class Material;
 }
 namespace HoudiniEngineUnity {
 struct HAPI_MaterialInfo;
 }
 namespace HoudiniEngineUnity {
-class HEU_SessionBase;
+struct HAPI_NodeInfo;
+}
+namespace HoudiniEngineUnity {
+struct HAPI_ImageInfo;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -107,7 +107,7 @@ static_assert(offsetof(::HoudiniEngineUnity::__HEU_MaterialData__Source, value__
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10210)), TypeDefinitionIndex(TypeDefinitionIndex(9777))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9777)), TypeDefinitionIndex(TypeDefinitionIndex(10210))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9778))
 // CS Name: ::HoudiniEngineUnity::HEU_MaterialData*
 class CORDL_TYPE HEU_MaterialData : public ::UnityEngine::ScriptableObject {

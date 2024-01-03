@@ -7,28 +7,28 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(StringComparer)
 namespace System {
-class OrdinalCaseSensitiveComparer;
+class Object;
 }
-namespace System {
-class OrdinalIgnoreCaseComparer;
+namespace System::Collections {
+class IEqualityComparer;
 }
 namespace System {
 class CultureAwareComparer;
 }
-namespace System {
-class Object;
-}
-namespace System::Collections::Generic {
-template <typename T> class IComparer_1;
+namespace System::Collections {
+class IComparer;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEqualityComparer_1;
 }
-namespace System::Collections {
-class IComparer;
+namespace System::Collections::Generic {
+template <typename T> class IComparer_1;
 }
-namespace System::Collections {
-class IEqualityComparer;
+namespace System {
+class OrdinalCaseSensitiveComparer;
+}
+namespace System {
+class OrdinalIgnoreCaseComparer;
 }
 // Forward declare root types
 namespace System {

@@ -7,13 +7,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ZInflaterInputStream)
 namespace System::IO {
-struct SeekOrigin;
+class Stream;
 }
 namespace Org::BouncyCastle::Utilities::Zlib {
 class ZStream;
 }
 namespace System::IO {
-class Stream;
+struct SeekOrigin;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Utilities::Zlib {

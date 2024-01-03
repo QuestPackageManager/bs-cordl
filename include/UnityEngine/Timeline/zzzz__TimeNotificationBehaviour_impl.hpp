@@ -4,17 +4,17 @@
 #include "UnityEngine/Playables/zzzz__Playable_impl.hpp"
 #include "UnityEngine/Timeline/zzzz__NotificationFlags_impl.hpp"
 #include "UnityEngine/Timeline/zzzz__TimeNotificationBehaviour_def.hpp"
-#include "UnityEngine/Timeline/zzzz__TimeNotificationBehaviour_def.hpp"
-#include "UnityEngine/Playables/zzzz__ScriptPlayable_1_def.hpp"
+#include "UnityEngine/Playables/zzzz__DirectorWrapMode_def.hpp"
 #include "UnityEngine/Playables/zzzz__INotification_def.hpp"
-#include "UnityEngine/Playables/zzzz__Playable_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "UnityEngine/Playables/zzzz__FrameData_def.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableOutput_def.hpp"
-#include "UnityEngine/Timeline/zzzz__NotificationFlags_def.hpp"
-#include "UnityEngine/Playables/zzzz__DirectorWrapMode_def.hpp"
+#include "UnityEngine/Playables/zzzz__Playable_def.hpp"
+#include "UnityEngine/Playables/zzzz__ScriptPlayable_1_def.hpp"
+#include "UnityEngine/Timeline/zzzz__TimeNotificationBehaviour_def.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableGraph_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/zzzz__Comparison_1_def.hpp"
+#include "UnityEngine/Timeline/zzzz__NotificationFlags_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Timeline::__TimeNotificationBehaviour__NotificationEntry.get_triggerInEditor
 template <>
 

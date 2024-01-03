@@ -9,11 +9,23 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(Material)
-namespace UnityEngine::Rendering {
-struct ShaderPropertyFlags;
-}
 namespace UnityEngine {
 struct MaterialGlobalIlluminationFlags;
+}
+namespace UnityEngine {
+class RenderTexture;
+}
+namespace UnityEngine {
+class Texture;
+}
+namespace UnityEngine::Rendering {
+struct LocalKeyword;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace UnityEngine {
+struct Vector4;
 }
 namespace UnityEngine {
 class Shader;
@@ -21,38 +33,26 @@ class Shader;
 namespace UnityEngine {
 class ComputeBuffer;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
 namespace UnityEngine {
 struct Vector2;
 }
+namespace UnityEngine::Rendering {
+struct RenderTextureSubElement;
+}
 namespace UnityEngine {
-struct Color;
+struct Matrix4x4;
 }
 namespace UnityEngine {
 class GraphicsBuffer;
 }
 namespace UnityEngine {
-class Texture;
-}
-namespace UnityEngine {
-class RenderTexture;
-}
-namespace UnityEngine {
-struct Vector4;
+struct Color;
 }
 namespace UnityEngine::Rendering {
-struct LocalKeyword;
-}
-namespace UnityEngine::Rendering {
-struct RenderTextureSubElement;
+struct ShaderPropertyFlags;
 }
 namespace System {
 class Object;
-}
-namespace UnityEngine {
-struct Matrix4x4;
 }
 // Forward declare root types
 namespace UnityEngine {

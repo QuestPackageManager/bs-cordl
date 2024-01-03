@@ -13,9 +13,6 @@ namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1EncodableVector;
-}
-namespace Org::BouncyCastle::Asn1 {
 class DerSequence;
 }
 namespace Org::BouncyCastle::Asn1 {
@@ -23,6 +20,9 @@ class DerSet;
 }
 namespace Org::BouncyCastle::Asn1 {
 class DefiniteLengthInputStream;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1EncodableVector;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1 {

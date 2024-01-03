@@ -7,20 +7,20 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(CmsAuthenticatedDataParser)
-namespace Org::BouncyCastle::Cms {
-class RecipientInformationStore;
-}
-namespace Org::BouncyCastle::Asn1::Cms {
-class AuthenticatedDataParser;
+namespace System::IO {
+class Stream;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class AlgorithmIdentifier;
 }
+namespace Org::BouncyCastle::Cms {
+class RecipientInformationStore;
+}
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
 }
-namespace System::IO {
-class Stream;
+namespace Org::BouncyCastle::Asn1::Cms {
+class AuthenticatedDataParser;
 }
 namespace Org::BouncyCastle::Asn1::Cms {
 class AttributeTable;

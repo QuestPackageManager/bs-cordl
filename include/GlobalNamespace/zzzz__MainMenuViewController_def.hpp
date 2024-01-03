@@ -6,17 +6,11 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(MainMenuViewController)
-namespace GlobalNamespace {
-class AppStaticSettingsSO;
-}
-namespace GlobalNamespace {
-class IPreviewBeatmapLevel;
-}
 namespace System {
 template <typename T1, typename T2> class Action_2;
 }
 namespace GlobalNamespace {
-class MusicPackPromoBanner;
+class IPreviewBeatmapLevel;
 }
 namespace GlobalNamespace {
 class IAnalyticsModel;
@@ -25,13 +19,19 @@ namespace GlobalNamespace {
 class IBeatmapLevelPack;
 }
 namespace GlobalNamespace {
-struct __MainMenuViewController__MenuButton;
+class DlcPromoPanelModel;
 }
 namespace GlobalNamespace {
-class DlcPromoPanelModel;
+struct __MainMenuViewController__MenuButton;
 }
 namespace UnityEngine::UI {
 class Button;
+}
+namespace GlobalNamespace {
+class AppStaticSettingsSO;
+}
+namespace GlobalNamespace {
+class MusicPackPromoBanner;
 }
 // Forward declare root types
 namespace GlobalNamespace {

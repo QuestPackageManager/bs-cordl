@@ -9,16 +9,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(XPathNode)
 namespace MS::Internal::Xml::Cache {
-class XPathNodeInfoAtom;
-}
-namespace System::Xml::XPath {
-class XPathDocument;
+class XPathNodePageInfo;
 }
 namespace System::Xml::XPath {
 struct XPathNodeType;
 }
 namespace MS::Internal::Xml::Cache {
-class XPathNodePageInfo;
+class XPathNodeInfoAtom;
+}
+namespace System::Xml::XPath {
+class XPathDocument;
 }
 // Forward declare root types
 namespace MS::Internal::Xml::Cache {

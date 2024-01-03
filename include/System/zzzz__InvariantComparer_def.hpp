@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(InvariantComparer)
+namespace System::Collections {
+class IComparer;
+}
 namespace System::Globalization {
 class CompareInfo;
 }
 namespace System {
 class Object;
-}
-namespace System::Collections {
-class IComparer;
 }
 // Forward declare root types
 namespace System {

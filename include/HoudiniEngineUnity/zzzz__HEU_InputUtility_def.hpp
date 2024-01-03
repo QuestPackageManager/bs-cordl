@@ -7,31 +7,31 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(HEU_InputUtility)
 namespace HoudiniEngineUnity {
-class HEU_InputInterface;
+class HEU_HoudiniAsset;
+}
+namespace HoudiniEngineUnity {
+class HEU_InputHDAInfo;
 }
 namespace UnityEngine {
 class GameObject;
 }
 namespace HoudiniEngineUnity {
-class HEU_InputObjectInfo;
+class HEU_InputNode;
 }
 namespace HoudiniEngineUnity {
-class HEU_HoudiniAsset;
-}
-namespace System {
-class Type;
+class HEU_InputObjectInfo;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace HoudiniEngineUnity {
+class HEU_InputInterface;
+}
+namespace System {
+class Type;
+}
+namespace HoudiniEngineUnity {
 class HEU_SessionBase;
-}
-namespace HoudiniEngineUnity {
-class HEU_InputHDAInfo;
-}
-namespace HoudiniEngineUnity {
-class HEU_InputNode;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {

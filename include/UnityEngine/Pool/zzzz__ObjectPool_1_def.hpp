@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ObjectPool_1)
 namespace System {
-template <typename TResult> class Func_1;
+template <typename T> class Action_1;
 }
-namespace UnityEngine::Pool {
-template <typename T> struct PooledObject_1;
+namespace System {
+class IDisposable;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
@@ -19,10 +19,10 @@ namespace UnityEngine::Pool {
 template <typename T> class IObjectPool_1;
 }
 namespace System {
-class IDisposable;
+template <typename TResult> class Func_1;
 }
-namespace System {
-template <typename T> class Action_1;
+namespace UnityEngine::Pool {
+template <typename T> struct PooledObject_1;
 }
 // Forward declare root types
 namespace UnityEngine::Pool {

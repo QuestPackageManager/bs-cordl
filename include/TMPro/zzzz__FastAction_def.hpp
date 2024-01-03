@@ -5,7 +5,7 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(FastAction)
 namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
+template <typename T> class LinkedListNode_1;
 }
 namespace System {
 class Action;
@@ -14,7 +14,7 @@ namespace System::Collections::Generic {
 template <typename T> class LinkedList_1;
 }
 namespace System::Collections::Generic {
-template <typename T> class LinkedListNode_1;
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 // Forward declare root types
 namespace TMPro {

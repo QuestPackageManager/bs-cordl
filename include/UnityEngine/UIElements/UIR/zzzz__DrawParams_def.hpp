@@ -6,19 +6,19 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__Rect_def.hpp"
 CORDL_MODULE_EXPORT(DrawParams)
 namespace UnityEngine {
-struct Matrix4x4;
-}
-namespace UnityEngine {
 class RenderTexture;
 }
 namespace System::Collections::Generic {
-template <typename T> class List_1;
+template <typename T> class Stack_1;
 }
 namespace UnityEngine {
 struct Rect;
 }
 namespace System::Collections::Generic {
-template <typename T> class Stack_1;
+template <typename T> class List_1;
+}
+namespace UnityEngine {
+struct Matrix4x4;
 }
 namespace UnityEngine {
 class Material;
@@ -33,7 +33,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::UIR::DrawParams);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10165)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10165))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7443))
 // CS Name: ::UnityEngine.UIElements.UIR::DrawParams*
 class CORDL_TYPE DrawParams : public ::System::Object {

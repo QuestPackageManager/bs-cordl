@@ -2,14 +2,14 @@
 #include "HMUI/zzzz__Slider2D_impl.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"
 #include "GlobalNamespace/zzzz__ColorSaturationValueSlider_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__IPointerUpHandler_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__PointerEventData_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__IEventSystemHandler_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
-#include "UnityEngine/UI/zzzz__Graphic_def.hpp"
-#include "GlobalNamespace/zzzz__ColorChangeUIEventType_def.hpp"
-#include "System/zzzz__Action_3_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__PointerEventData_def.hpp"
 #include "HMUI/zzzz__Slider2D_def.hpp"
+#include "System/zzzz__Action_3_def.hpp"
+#include "UnityEngine/UI/zzzz__Graphic_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__IEventSystemHandler_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__IPointerUpHandler_def.hpp"
+#include "GlobalNamespace/zzzz__ColorChangeUIEventType_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::ColorSaturationValueSlider.add_colorSaturationOrValueDidChangeEvent
 template <>
 

@@ -7,19 +7,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Application)
 namespace Oculus::Platform::Models {
-class AppDownloadProgressResult;
-}
-namespace Oculus::Platform {
-template <typename T> class Request_1;
+class AppDownloadResult;
 }
 namespace Oculus::Platform {
 class ApplicationOptions;
 }
 namespace Oculus::Platform::Models {
-class AppDownloadResult;
+class AppDownloadProgressResult;
 }
 namespace Oculus::Platform::Models {
 class ApplicationVersion;
+}
+namespace Oculus::Platform {
+template <typename T> class Request_1;
 }
 // Forward declare root types
 namespace Oculus::Platform {

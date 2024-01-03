@@ -9,22 +9,22 @@ namespace GlobalNamespace {
 struct __OVRManager__CompositionMethod;
 }
 namespace GlobalNamespace {
-struct OVRPose;
-}
-namespace GlobalNamespace {
 struct __OVRManager__TrackingOrigin;
 }
 namespace GlobalNamespace {
-class OVRCameraRig;
+struct OVRPose;
 }
 namespace UnityEngine {
-class GameObject;
+class Camera;
+}
+namespace GlobalNamespace {
+class OVRCameraRig;
 }
 namespace GlobalNamespace {
 class OVRMixedRealityCaptureConfiguration;
 }
 namespace UnityEngine {
-class Camera;
+class GameObject;
 }
 namespace GlobalNamespace {
 struct __OVRPlugin__CameraExtrinsics;

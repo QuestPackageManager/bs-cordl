@@ -8,59 +8,59 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ReflectionUtils)
-namespace System::Runtime::Serialization::Formatters {
-struct FormatterAssemblyStyle;
+namespace Newtonsoft::Json::Utilities {
+class __ReflectionUtils____c__DisplayClass42_0;
 }
 namespace System::Runtime::Serialization {
 class SerializationBinder;
 }
+namespace System::Collections::Generic {
+template <typename T> class IList_1;
+}
+namespace System::Reflection {
+class FieldInfo;
+}
+namespace Newtonsoft::Json::Utilities {
+class __ReflectionUtils____c;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
+namespace System {
+class Type;
+}
+namespace System::Reflection {
+class MemberInfo;
+}
+namespace System {
+template <typename T> struct Nullable_1;
+}
 namespace System::Reflection {
 struct BindingFlags;
+}
+namespace System::Reflection {
+class ConstructorInfo;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace System::Runtime::Serialization::Formatters {
+struct FormatterAssemblyStyle;
+}
+namespace System {
+class Attribute;
+}
+namespace Newtonsoft::Json::Utilities {
+class __ReflectionUtils____c__DisplayClass43_0;
+}
+namespace System::Reflection {
+class PropertyInfo;
 }
 namespace System {
 class Object;
 }
 namespace System::Reflection {
 class MethodInfo;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace System::Reflection {
-class PropertyInfo;
-}
-namespace System::Collections::Generic {
-template <typename T> class IList_1;
-}
-namespace System::Reflection {
-class ConstructorInfo;
-}
-namespace System::Reflection {
-class FieldInfo;
-}
-namespace System {
-class Type;
-}
-namespace Newtonsoft::Json::Utilities {
-class __ReflectionUtils____c__DisplayClass43_0;
-}
-namespace System {
-template <typename T> struct Nullable_1;
-}
-namespace System {
-class Attribute;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
-namespace Newtonsoft::Json::Utilities {
-class __ReflectionUtils____c__DisplayClass42_0;
-}
-namespace Newtonsoft::Json::Utilities {
-class __ReflectionUtils____c;
-}
-namespace System::Reflection {
-class MemberInfo;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;

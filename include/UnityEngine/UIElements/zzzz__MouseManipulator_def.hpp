@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "UnityEngine/UIElements/zzzz__ManipulatorActivationFilter_def.hpp"
 #include "UnityEngine/UIElements/zzzz__Manipulator_def.hpp"
 CORDL_MODULE_EXPORT(MouseManipulator)
-namespace UnityEngine::UIElements {
-class IMouseEvent;
-}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace UnityEngine::UIElements {
 struct ManipulatorActivationFilter;
+}
+namespace UnityEngine::UIElements {
+class IMouseEvent;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

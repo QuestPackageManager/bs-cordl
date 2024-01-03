@@ -7,35 +7,35 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(PbeUtilities)
-namespace System::Collections {
-class ICollection;
-}
-namespace Org::BouncyCastle::Security {
-class SecureRandom;
-}
-namespace Org::BouncyCastle::Crypto {
-class IDigest;
-}
 namespace Org::BouncyCastle::Asn1 {
 class DerObjectIdentifier;
 }
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Encodable;
-}
 namespace Org::BouncyCastle::Crypto {
-class PbeParametersGenerator;
-}
-namespace System {
-class Object;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class AlgorithmIdentifier;
+class ICipherParameters;
 }
 namespace System::Collections {
 class IDictionary;
 }
+namespace System::Collections {
+class ICollection;
+}
 namespace Org::BouncyCastle::Crypto {
-class ICipherParameters;
+class PbeParametersGenerator;
+}
+namespace Org::BouncyCastle::Crypto {
+class IDigest;
+}
+namespace System {
+class Object;
+}
+namespace Org::BouncyCastle::Security {
+class SecureRandom;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Encodable;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class AlgorithmIdentifier;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Security {

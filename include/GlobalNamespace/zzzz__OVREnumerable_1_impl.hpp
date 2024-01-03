@@ -3,16 +3,16 @@
 #include "System/Collections/Generic/zzzz__HashSet_1_impl.hpp"
 #include "System/Collections/Generic/zzzz__Queue_1_impl.hpp"
 #include "GlobalNamespace/zzzz__OVREnumerable_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
-#include "GlobalNamespace/zzzz__OVREnumerable_1_def.hpp"
 #include "System/Collections/zzzz__IEnumerable_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "GlobalNamespace/zzzz__OVREnumerable_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
-#include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
 #include "System/Collections/Generic/zzzz__Queue_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
+#include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 template <typename T> constexpr ::GlobalNamespace::__OVREnumerable_1__Enumerator__CollectionType<T>::__OVREnumerable_1__Enumerator__CollectionType(int32_t value__) noexcept {
   this->value__ = value__;

@@ -8,12 +8,6 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(Gamepad)
-namespace UnityEngine::InputSystem::Haptics {
-class IHaptics;
-}
-namespace UnityEngine::InputSystem::Haptics {
-class IDualMotorRumble;
-}
 namespace UnityEngine::InputSystem::LowLevel {
 struct GamepadButton;
 }
@@ -23,11 +17,17 @@ template <typename TValue> struct ReadOnlyArray_1;
 namespace UnityEngine::InputSystem::Controls {
 class StickControl;
 }
-namespace UnityEngine::InputSystem::Controls {
-class DpadControl;
+namespace UnityEngine::InputSystem::Haptics {
+class IHaptics;
 }
 namespace UnityEngine::InputSystem::Controls {
 class ButtonControl;
+}
+namespace UnityEngine::InputSystem::Haptics {
+class IDualMotorRumble;
+}
+namespace UnityEngine::InputSystem::Controls {
+class DpadControl;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem {
@@ -39,7 +39,7 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::Gamepad);
 // SizeInfo { instance_size: 472, native_size: -1, calculated_instance_size: 472, calculated_native_size: 472, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6460)), TypeDefinitionIndex(TypeDefinitionIndex(6239))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6239)), TypeDefinitionIndex(TypeDefinitionIndex(6460))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6237))
 // CS Name: ::UnityEngine.InputSystem::Gamepad*
 class CORDL_TYPE Gamepad : public ::UnityEngine::InputSystem::InputDevice {

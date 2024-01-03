@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/zzzz__EndPoint_def.hpp"
-#include "System/Net/Sockets/zzzz__AddressFamily_def.hpp"
 #include "System/Net/zzzz__SocketAddress_def.hpp"
+#include "System/Net/Sockets/zzzz__AddressFamily_def.hpp"
 //  Writing Method size for method: ::System::Net::EndPoint.get_AddressFamily
 template <>
 

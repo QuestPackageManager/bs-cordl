@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(SerObjectInfoInit)
-namespace System::Collections {
-class Hashtable;
-}
 namespace System::Runtime::Serialization::Formatters::Binary {
 class SerStack;
+}
+namespace System::Collections {
+class Hashtable;
 }
 // Forward declare root types
 namespace System::Runtime::Serialization::Formatters::Binary {

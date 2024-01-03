@@ -19,8 +19,8 @@ MARK_REF_PTR_T(::Oculus::Platform::MessageWithSendInvitesResult);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13262), inst: 4609 }), TypeDefinitionIndex(TypeDefinitionIndex(13480)),
-// TypeDefinitionIndex(TypeDefinitionIndex(13262))} Self: TypeDefinitionIndex(TypeDefinitionIndex(13322)) CS Name: ::Oculus.Platform::MessageWithSendInvitesResult*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13262)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13262), inst: 4609 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(13480))} Self: TypeDefinitionIndex(TypeDefinitionIndex(13322)) CS Name: ::Oculus.Platform::MessageWithSendInvitesResult*
 class CORDL_TYPE MessageWithSendInvitesResult : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::SendInvitesResult*> {
 public:
   // Declarations

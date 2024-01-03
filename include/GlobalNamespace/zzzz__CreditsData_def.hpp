@@ -13,10 +13,10 @@ namespace GlobalNamespace {
 struct __CreditsData__TextStyle;
 }
 namespace GlobalNamespace {
-class __CreditsData__ChildCreditsItem;
+class __CreditsData__RootCreditsItem;
 }
 namespace GlobalNamespace {
-class __CreditsData__RootCreditsItem;
+class __CreditsData__ChildCreditsItem;
 }
 namespace GlobalNamespace {
 class __CreditsData__Text;
@@ -101,7 +101,7 @@ static_assert(offsetof(::GlobalNamespace::__CreditsData__TextStyle, value__) == 
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(5473))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5473)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5474))
 // CS Name: ::CreditsData::Text*
 class CORDL_TYPE __CreditsData__Text : public ::System::Object {

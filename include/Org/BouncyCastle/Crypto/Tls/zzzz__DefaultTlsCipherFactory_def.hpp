@@ -9,31 +9,31 @@ namespace Org::BouncyCastle::Crypto::Modes {
 class IAeadBlockCipher;
 }
 namespace Org::BouncyCastle::Crypto {
+class IStreamCipher;
+}
+namespace Org::BouncyCastle::Crypto {
 class IDigest;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
-class TlsAeadCipher;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
-class TlsNullCipher;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class TlsStreamCipher;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class TlsBlockCipher;
+class TlsContext;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class TlsAeadCipher;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class TlsCipher;
 }
-namespace Org::BouncyCastle::Crypto {
-class IStreamCipher;
-}
 namespace Org::BouncyCastle::Crypto::Tls {
-class TlsContext;
+class TlsNullCipher;
 }
 namespace Org::BouncyCastle::Crypto {
 class IBlockCipher;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class TlsBlockCipher;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {

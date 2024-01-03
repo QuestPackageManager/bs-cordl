@@ -11,16 +11,16 @@ namespace Org::BouncyCastle::Bcpg {
 class MPInteger;
 }
 namespace Org::BouncyCastle::Bcpg {
-class IBcpgKey;
+class BcpgInputStream;
+}
+namespace Org::BouncyCastle::Bcpg {
+class BcpgOutputStream;
 }
 namespace Org::BouncyCastle::Math {
 class BigInteger;
 }
 namespace Org::BouncyCastle::Bcpg {
-class BcpgInputStream;
-}
-namespace Org::BouncyCastle::Bcpg {
-class BcpgOutputStream;
+class IBcpgKey;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Bcpg {

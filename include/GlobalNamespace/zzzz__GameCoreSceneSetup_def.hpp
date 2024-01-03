@@ -9,10 +9,10 @@ namespace GlobalNamespace {
 class MainSettingsModelSO;
 }
 namespace GlobalNamespace {
-class BloomFogSO;
+class ScreenCaptureAfterDelay;
 }
 namespace GlobalNamespace {
-class ScreenCaptureAfterDelay;
+class BloomFogSO;
 }
 // Forward declare root types
 namespace GlobalNamespace {

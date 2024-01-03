@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "UnityEngine/UI/zzzz__MaskableGraphic_def.hpp"
 #include "UnityEngine/zzzz__Rect_def.hpp"
 CORDL_MODULE_EXPORT(RawImage)
-namespace UnityEngine {
-struct Rect;
+namespace UnityEngine::UI {
+class VertexHelper;
 }
 namespace UnityEngine {
 class Texture;
 }
-namespace UnityEngine::UI {
-class VertexHelper;
+namespace UnityEngine {
+struct Rect;
 }
 // Forward declare root types
 namespace UnityEngine::UI {

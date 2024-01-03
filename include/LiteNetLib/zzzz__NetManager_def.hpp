@@ -2,6 +2,9 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "LiteNetLib/zzzz__DeliveryMethod_def.hpp"
+#include "LiteNetLib/zzzz__DisconnectReason_def.hpp"
+#include "System/Net/Sockets/zzzz__SocketError_def.hpp"
 #include "System/Threading/zzzz__ThreadPriority_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
@@ -10,50 +13,80 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(NetManager)
-namespace System {
-class Object;
-}
-namespace LiteNetLib {
-class NetPacketPool;
-}
-namespace LiteNetLib {
-class IDeliveryEventListener;
-}
 namespace LiteNetLib::Layers {
 class PacketLayerBase;
-}
-namespace System::Collections {
-class IEnumerator;
-}
-namespace LiteNetLib {
-class NetConnectRequestPacket;
-}
-namespace LiteNetLib {
-struct ConnectionState;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
-}
-namespace LiteNetLib {
-class NetStatistics;
-}
-namespace LiteNetLib {
-struct DeliveryMethod;
-}
-namespace LiteNetLib {
-class NatPunchModule;
-}
-namespace LiteNetLib {
-class NetSocket;
-}
-namespace LiteNetLib {
-struct DisconnectReason;
 }
 namespace LiteNetLib {
 struct __NetManager__NetPeerEnumerator;
 }
 namespace System::Collections::Generic {
+template <typename T> class Stack_1;
+}
+namespace LiteNetLib {
+class NetEvent;
+}
+namespace System::Collections {
+class IEnumerator;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace System {
+class Object;
+}
+namespace LiteNetLib::Utils {
+class NetDataWriter;
+}
+namespace LiteNetLib {
+class NetPeer;
+}
+namespace System::Collections::Generic {
+template <typename T> class Queue_1;
+}
+namespace LiteNetLib {
+class NatPunchModule;
+}
+namespace LiteNetLib {
+struct DisconnectReason;
+}
+namespace LiteNetLib {
+class NetPacket;
+}
+namespace LiteNetLib {
+class IDeliveryEventListener;
+}
+namespace LiteNetLib {
+class ConnectionRequest;
+}
+namespace LiteNetLib {
+class NetConnectRequestPacket;
+}
+namespace System::Net {
+class IPAddress;
+}
+namespace LiteNetLib {
+struct ConnectionState;
+}
+namespace System::Net {
+class IPEndPoint;
+}
+namespace LiteNetLib {
+struct __NetEvent__EType;
+}
+namespace LiteNetLib {
+struct DeliveryMethod;
+}
+namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
+}
+namespace System::Threading {
+class ReaderWriterLockSlim;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
+}
+namespace LiteNetLib {
+class INetEventListener;
 }
 namespace LiteNetLib {
 class INetSocketListener;
@@ -61,56 +94,26 @@ class INetSocketListener;
 namespace System::Collections {
 class IEnumerable;
 }
-namespace LiteNetLib {
-class ConnectionRequest;
-}
 namespace System::Threading {
 class Thread;
 }
 namespace LiteNetLib {
-class __NetManager__IPEndPointComparer;
-}
-namespace LiteNetLib {
-struct __NetEvent__EType;
-}
-namespace System::Net {
-class IPEndPoint;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace LiteNetLib::Utils {
-class NetDataWriter;
-}
-namespace System::Collections::Generic {
-template <typename T> class Queue_1;
-}
-namespace LiteNetLib {
-class NetEvent;
-}
-namespace LiteNetLib {
-class NetPeer;
-}
-namespace LiteNetLib {
-class INetEventListener;
-}
-namespace LiteNetLib {
-class NetPacket;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace System::Net {
-class IPAddress;
-}
-namespace System::Threading {
-class ReaderWriterLockSlim;
-}
-namespace System::Collections::Generic {
-template <typename T> class Stack_1;
+class NetPacketPool;
 }
 namespace System::Net::Sockets {
 struct SocketError;
+}
+namespace LiteNetLib {
+class NetSocket;
+}
+namespace LiteNetLib {
+class NetStatistics;
+}
+namespace LiteNetLib {
+class __NetManager__IPEndPointComparer;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEqualityComparer_1;
@@ -248,9 +251,8 @@ static_assert(offsetof(::LiteNetLib::__NetManager__NetPeerEnumerator, _p) == 0x8
 // SizeInfo { instance_size: 240, native_size: -1, calculated_instance_size: 240, calculated_native_size: 240, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace LiteNetLib {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2670)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14167))
-// CS Name: ::LiteNetLib::NetManager*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9347)), TypeDefinitionIndex(TypeDefinitionIndex(2670)),
+// TypeDefinitionIndex(TypeDefinitionIndex(14131)), TypeDefinitionIndex(TypeDefinitionIndex(14155))} Self: TypeDefinitionIndex(TypeDefinitionIndex(14167)) CS Name: ::LiteNetLib::NetManager*
 class CORDL_TYPE NetManager : public ::System::Object {
 public:
   // Declarations

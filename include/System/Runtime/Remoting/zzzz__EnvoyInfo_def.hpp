@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(EnvoyInfo)
-namespace System::Runtime::Remoting {
-class IEnvoyInfo;
-}
 namespace System::Runtime::Remoting::Messaging {
 class IMessageSink;
+}
+namespace System::Runtime::Remoting {
+class IEnvoyInfo;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting {

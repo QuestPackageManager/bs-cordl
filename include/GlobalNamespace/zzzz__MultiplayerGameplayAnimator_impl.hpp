@@ -1,12 +1,12 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerGameplayAnimator_def.hpp"
-#include "GlobalNamespace/zzzz__ColorSO_def.hpp"
-#include "GlobalNamespace/zzzz__MultiplayerLeadPlayerProvider_def.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerController_def.hpp"
 #include "Tweening/zzzz__TimeTweeningManager_def.hpp"
 #include "GlobalNamespace/zzzz__IConnectedPlayer_def.hpp"
+#include "GlobalNamespace/zzzz__ColorSO_def.hpp"
 #include "GlobalNamespace/zzzz__LightsAnimator_def.hpp"
+#include "GlobalNamespace/zzzz__MultiplayerLeadPlayerProvider_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::MultiplayerGameplayAnimator.Start
 template <>
 

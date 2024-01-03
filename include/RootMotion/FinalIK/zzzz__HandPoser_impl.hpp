@@ -1,9 +1,9 @@
 #pragma once
 #include "RootMotion/FinalIK/zzzz__Poser_impl.hpp"
 #include "RootMotion/FinalIK/zzzz__HandPoser_def.hpp"
-#include "UnityEngine/zzzz__Transform_def.hpp"
-#include "UnityEngine/zzzz__Quaternion_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "UnityEngine/zzzz__Quaternion_def.hpp"
+#include "UnityEngine/zzzz__Transform_def.hpp"
 //  Writing Method size for method: ::RootMotion::FinalIK::HandPoser.AutoMapping
 template <>
 

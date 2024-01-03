@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(ISonyPSPremiumHelper)
+namespace GlobalNamespace {
+struct __ISonyPSPremiumHelper__DisplayJoinPremiumDialogResult;
+}
 namespace System::Threading {
 struct CancellationToken;
 }
 namespace GlobalNamespace {
 struct __ISonyPSPremiumHelper__GetPremiumStatusResult;
-}
-namespace GlobalNamespace {
-struct __ISonyPSPremiumHelper__DisplayJoinPremiumDialogResult;
 }
 namespace System::Threading::Tasks {
 template <typename TResult> class Task_1;

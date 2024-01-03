@@ -4,11 +4,11 @@
 #include "UnityEngine/zzzz__Quaternion_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "RootMotion/zzzz__HumanoidBaker_def.hpp"
-#include "UnityEngine/zzzz__HumanPoseHandler_def.hpp"
+#include "UnityEngine/zzzz__AnimationClip_def.hpp"
 #include "RootMotion/zzzz__BakerMuscle_def.hpp"
 #include "RootMotion/zzzz__BakerHumanoidQT_def.hpp"
+#include "UnityEngine/zzzz__HumanPoseHandler_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
-#include "UnityEngine/zzzz__AnimationClip_def.hpp"
 //  Writing Method size for method: ::RootMotion::HumanoidBaker.Awake
 template <>
 

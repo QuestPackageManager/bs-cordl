@@ -3,9 +3,9 @@
 #include "Unity/Profiling/zzzz__ProfilerMarker_impl.hpp"
 #include "UnityEngine/zzzz__RectInt_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__UIRAtlasAllocator_def.hpp"
-#include "UnityEngine/UIElements/zzzz__UIRAtlasAllocator_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include "UnityEngine/zzzz__RectInt_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
+#include "UnityEngine/UIElements/zzzz__UIRAtlasAllocator_def.hpp"
 #include "UnityEngine/UIElements/zzzz__ObjectPool_1_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::__UIRAtlasAllocator__Row.get_offsetX
 template <>

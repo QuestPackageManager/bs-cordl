@@ -46,19 +46,19 @@ namespace OVR::OpenVR {
 struct HmdColor_t;
 }
 namespace OVR::OpenVR {
+struct ETextureType;
+}
+namespace OVR::OpenVR {
 struct VRTextureBounds_t;
 }
 namespace OVR::OpenVR {
 struct EColorSpace;
 }
 namespace OVR::OpenVR {
-struct ETextureType;
+struct HmdMatrix34_t;
 }
 namespace OVR::OpenVR {
 struct ETrackingUniverseOrigin;
-}
-namespace OVR::OpenVR {
-struct HmdMatrix34_t;
 }
 namespace OVR::OpenVR {
 struct VROverlayTransformType;
@@ -82,166 +82,100 @@ namespace OVR::OpenVR {
 struct VRMessageOverlayResponse;
 }
 namespace OVR::OpenVR {
-class __IVROverlay___SetOverlayTransformAbsolute;
-}
-namespace OVR::OpenVR {
-class __IVROverlay___SetOverlayRenderingPid;
-}
-namespace OVR::OpenVR {
-class __IVROverlay___GetKeyboardText;
-}
-namespace OVR::OpenVR {
-class __IVROverlay___IsHoverTargetOverlay;
-}
-namespace OVR::OpenVR {
-class __IVROverlay___DestroyOverlay;
-}
-namespace OVR::OpenVR {
-class __IVROverlay___GetOverlayWidthInMeters;
-}
-namespace OVR::OpenVR {
-class __IVROverlay___GetOverlayMouseScale;
-}
-namespace OVR::OpenVR {
-class __IVROverlay___SetOverlayTexture;
-}
-namespace OVR::OpenVR {
-class __IVROverlay___SetOverlayName;
-}
-namespace OVR::OpenVR {
-class __IVROverlay___GetOverlayTextureColorSpace;
-}
-namespace OVR::OpenVR {
-class __IVROverlay___SetOverlayAutoCurveDistanceRangeInMeters;
-}
-namespace OVR::OpenVR {
-class __IVROverlay___GetOverlayAutoCurveDistanceRangeInMeters;
-}
-namespace OVR::OpenVR {
-class __IVROverlay___GetOverlayRenderModel;
-}
-namespace OVR::OpenVR {
-class __IVROverlay___GetOverlayTransformType;
+class __IVROverlay___GetOverlayErrorNameFromEnum;
 }
 namespace OVR::OpenVR {
 class __IVROverlay___GetGamepadFocusOverlay;
 }
 namespace OVR::OpenVR {
-class __IVROverlay___SetOverlayFromFile;
-}
-namespace OVR::OpenVR {
-class __IVROverlay___SetHighQualityOverlay;
-}
-namespace OVR::OpenVR {
-class __IVROverlay___HideOverlay;
-}
-namespace OVR::OpenVR {
-class __IVROverlay___SetOverlayIntersectionMask;
-}
-namespace OVR::OpenVR {
-class __IVROverlay___SetOverlayTextureColorSpace;
-}
-namespace OVR::OpenVR {
-class __IVROverlay___SetOverlayTransformTrackedDeviceComponent;
-}
-namespace OVR::OpenVR {
-class __IVROverlay___IsActiveDashboardOverlay;
-}
-namespace OVR::OpenVR {
-class __IVROverlay___CreateDashboardOverlay;
-}
-namespace OVR::OpenVR {
-class __IVROverlay___GetTransformForOverlayCoordinates;
-}
-namespace OVR::OpenVR {
-class __IVROverlay___GetOverlayRenderingPid;
-}
-namespace OVR::OpenVR {
-class __IVROverlay___GetDashboardOverlaySceneProcess;
-}
-namespace OVR::OpenVR {
-class __IVROverlay___GetOverlayTransformOverlayRelative;
-}
-namespace OVR::OpenVR {
-class __IVROverlay___GetOverlayTransformAbsolute;
-}
-namespace OVR::OpenVR {
-class __IVROverlay___SetGamepadFocusOverlay;
-}
-namespace OVR::OpenVR {
-class __IVROverlay___GetOverlayFlag;
-}
-namespace OVR::OpenVR {
-class __IVROverlay___GetOverlayImageData;
-}
-namespace OVR::OpenVR {
-class __IVROverlay___SetOverlayWidthInMeters;
-}
-namespace OVR::OpenVR {
-class __IVROverlay___SetOverlayRenderModel;
-}
-namespace OVR::OpenVR {
-class __IVROverlay___ComputeOverlayIntersection;
-}
-namespace OVR::OpenVR {
-class __IVROverlay___GetHighQualityOverlay;
-}
-namespace OVR::OpenVR {
-class __IVROverlay___SetOverlayAlpha;
-}
-namespace OVR::OpenVR {
-class __IVROverlay___SetOverlayColor;
-}
-namespace OVR::OpenVR {
-class __IVROverlay___ShowOverlay;
-}
-namespace OVR::OpenVR {
-class __IVROverlay___ShowDashboard;
-}
-namespace OVR::OpenVR {
-class __IVROverlay___SetOverlayTransformOverlayRelative;
-}
-namespace OVR::OpenVR {
-class __IVROverlay___GetOverlayTransformTrackedDeviceComponent;
-}
-namespace OVR::OpenVR {
-class __IVROverlay___SetOverlayNeighbor;
-}
-namespace OVR::OpenVR {
-class __IVROverlay___SetDashboardOverlaySceneProcess;
-}
-namespace OVR::OpenVR {
-class __IVROverlay___GetOverlayTransformTrackedDeviceRelative;
-}
-namespace OVR::OpenVR {
-class __IVROverlay___GetOverlayTexelAspect;
-}
-namespace OVR::OpenVR {
-class __IVROverlay___HideKeyboard;
-}
-namespace OVR::OpenVR {
 class __IVROverlay___IsOverlayVisible;
 }
 namespace OVR::OpenVR {
-class __IVROverlay___GetOverlayErrorNameFromEnum;
+class __IVROverlay___SetOverlayFromFile;
 }
 namespace OVR::OpenVR {
-class __IVROverlay___SetOverlayTexelAspect;
-}
-namespace OVR::OpenVR {
-class __IVROverlay___PollNextOverlayEvent;
-}
-namespace OVR::OpenVR {
-class __IVROverlay___SetOverlayInputMethod;
-}
-namespace OVR::OpenVR {
-class __IVROverlay___GetOverlayTextureBounds;
+class __IVROverlay___SetOverlayFlag;
 }
 namespace OVR::OpenVR {
 class __IVROverlay___GetOverlayDualAnalogTransform;
 }
 namespace OVR::OpenVR {
-class __IVROverlay___SetOverlayFlag;
+class __IVROverlay___GetOverlayTextureBounds;
+}
+namespace OVR::OpenVR {
+class __IVROverlay___SetOverlayAlpha;
+}
+namespace OVR::OpenVR {
+class __IVROverlay___GetOverlayTextureSize;
+}
+namespace OVR::OpenVR {
+class __IVROverlay___GetOverlayRenderingPid;
+}
+namespace OVR::OpenVR {
+class __IVROverlay___ShowMessageOverlay;
+}
+namespace OVR::OpenVR {
+class __IVROverlay___GetOverlayRenderModel;
+}
+namespace OVR::OpenVR {
+class __IVROverlay___IsActiveDashboardOverlay;
+}
+namespace OVR::OpenVR {
+class __IVROverlay___SetHighQualityOverlay;
+}
+namespace OVR::OpenVR {
+class __IVROverlay___GetOverlaySortOrder;
+}
+namespace OVR::OpenVR {
+class __IVROverlay___SetOverlayTransformAbsolute;
+}
+namespace OVR::OpenVR {
+class __IVROverlay___GetOverlayTexelAspect;
+}
+namespace OVR::OpenVR {
+class __IVROverlay___SetOverlayTransformOverlayRelative;
+}
+namespace OVR::OpenVR {
+class __IVROverlay___GetOverlayAutoCurveDistanceRangeInMeters;
+}
+namespace OVR::OpenVR {
+class __IVROverlay___FindOverlay;
+}
+namespace OVR::OpenVR {
+class __IVROverlay___SetOverlayTransformTrackedDeviceRelative;
+}
+namespace OVR::OpenVR {
+class __IVROverlay___GetOverlayTransformAbsolute;
+}
+namespace OVR::OpenVR {
+class __IVROverlay___GetOverlayTransformTrackedDeviceRelative;
+}
+namespace OVR::OpenVR {
+class __IVROverlay___GetTransformForOverlayCoordinates;
+}
+namespace OVR::OpenVR {
+class __IVROverlay___GetKeyboardText;
+}
+namespace OVR::OpenVR {
+class __IVROverlay___GetOverlayInputMethod;
+}
+namespace OVR::OpenVR {
+class __IVROverlay___GetOverlayTransformTrackedDeviceComponent;
+}
+namespace OVR::OpenVR {
+class __IVROverlay___GetOverlayTransformOverlayRelative;
+}
+namespace OVR::OpenVR {
+class __IVROverlay___SetOverlayMouseScale;
+}
+namespace OVR::OpenVR {
+class __IVROverlay___SetOverlayRenderModel;
+}
+namespace OVR::OpenVR {
+class __IVROverlay___IsHoverTargetOverlay;
+}
+namespace OVR::OpenVR {
+class __IVROverlay___IsDashboardVisible;
 }
 namespace OVR::OpenVR {
 class __IVROverlay___GetOverlayKey;
@@ -250,82 +184,148 @@ namespace OVR::OpenVR {
 class __IVROverlay___SetOverlayRaw;
 }
 namespace OVR::OpenVR {
-class __IVROverlay___ReleaseNativeOverlayHandle;
+class __IVROverlay___SetOverlayTextureColorSpace;
 }
 namespace OVR::OpenVR {
-class __IVROverlay___SetKeyboardTransformAbsolute;
+class __IVROverlay___GetOverlayTextureColorSpace;
 }
 namespace OVR::OpenVR {
-class __IVROverlay___GetOverlayInputMethod;
+class __IVROverlay___SetOverlayColor;
 }
 namespace OVR::OpenVR {
-class __IVROverlay___SetKeyboardPositionForOverlay;
+class __IVROverlay___GetOverlayTransformType;
 }
 namespace OVR::OpenVR {
-class __IVROverlay___CreateOverlay;
+class __IVROverlay___SetOverlayTransformTrackedDeviceComponent;
 }
 namespace OVR::OpenVR {
-class __IVROverlay___SetOverlayTextureBounds;
-}
-namespace OVR::OpenVR {
-class __IVROverlay___GetOverlayTextureSize;
-}
-namespace OVR::OpenVR {
-class __IVROverlay___IsDashboardVisible;
-}
-namespace OVR::OpenVR {
-class __IVROverlay___GetOverlayAlpha;
-}
-namespace OVR::OpenVR {
-class __IVROverlay___GetOverlayTexture;
-}
-namespace OVR::OpenVR {
-class __IVROverlay___ShowKeyboard;
-}
-namespace OVR::OpenVR {
-class __IVROverlay___ShowKeyboardForOverlay;
-}
-namespace OVR::OpenVR {
-class __IVROverlay___CloseMessageOverlay;
-}
-namespace OVR::OpenVR {
-class __IVROverlay___GetOverlaySortOrder;
-}
-namespace OVR::OpenVR {
-class __IVROverlay___FindOverlay;
+class __IVROverlay___PollNextOverlayEvent;
 }
 namespace OVR::OpenVR {
 class __IVROverlay___SetOverlayDualAnalogTransform;
 }
 namespace OVR::OpenVR {
-class __IVROverlay___MoveGamepadFocusToNeighbor;
-}
-namespace OVR::OpenVR {
 class __IVROverlay___GetPrimaryDashboardDevice;
 }
 namespace OVR::OpenVR {
-class __IVROverlay___SetOverlayMouseScale;
+class __IVROverlay___SetOverlayAutoCurveDistanceRangeInMeters;
 }
 namespace OVR::OpenVR {
-class __IVROverlay___ClearOverlayTexture;
+class __IVROverlay___SetOverlayWidthInMeters;
 }
 namespace OVR::OpenVR {
-class __IVROverlay___SetOverlayTransformTrackedDeviceRelative;
+class __IVROverlay___SetGamepadFocusOverlay;
 }
 namespace OVR::OpenVR {
-class __IVROverlay___SetOverlaySortOrder;
+class __IVROverlay___GetOverlayFlag;
 }
 namespace OVR::OpenVR {
-class __IVROverlay___GetOverlayColor;
+class __IVROverlay___SetOverlayIntersectionMask;
 }
 namespace OVR::OpenVR {
 class __IVROverlay___GetOverlayFlags;
 }
 namespace OVR::OpenVR {
-class __IVROverlay___ShowMessageOverlay;
+class __IVROverlay___SetOverlayTexture;
+}
+namespace OVR::OpenVR {
+class __IVROverlay___ClearOverlayTexture;
+}
+namespace OVR::OpenVR {
+class __IVROverlay___ShowKeyboardForOverlay;
+}
+namespace OVR::OpenVR {
+class __IVROverlay___SetOverlayName;
+}
+namespace OVR::OpenVR {
+class __IVROverlay___GetOverlayMouseScale;
+}
+namespace OVR::OpenVR {
+class __IVROverlay___GetOverlayWidthInMeters;
+}
+namespace OVR::OpenVR {
+class __IVROverlay___GetDashboardOverlaySceneProcess;
+}
+namespace OVR::OpenVR {
+class __IVROverlay___GetOverlayColor;
+}
+namespace OVR::OpenVR {
+class __IVROverlay___SetOverlayTexelAspect;
+}
+namespace OVR::OpenVR {
+class __IVROverlay___SetKeyboardTransformAbsolute;
+}
+namespace OVR::OpenVR {
+class __IVROverlay___SetOverlayTextureBounds;
+}
+namespace OVR::OpenVR {
+class __IVROverlay___CreateDashboardOverlay;
+}
+namespace OVR::OpenVR {
+class __IVROverlay___CreateOverlay;
 }
 namespace OVR::OpenVR {
 class __IVROverlay___GetOverlayName;
+}
+namespace OVR::OpenVR {
+class __IVROverlay___GetOverlayAlpha;
+}
+namespace OVR::OpenVR {
+class __IVROverlay___DestroyOverlay;
+}
+namespace OVR::OpenVR {
+class __IVROverlay___SetOverlayRenderingPid;
+}
+namespace OVR::OpenVR {
+class __IVROverlay___SetOverlaySortOrder;
+}
+namespace OVR::OpenVR {
+class __IVROverlay___HideOverlay;
+}
+namespace OVR::OpenVR {
+class __IVROverlay___ComputeOverlayIntersection;
+}
+namespace OVR::OpenVR {
+class __IVROverlay___ReleaseNativeOverlayHandle;
+}
+namespace OVR::OpenVR {
+class __IVROverlay___SetDashboardOverlaySceneProcess;
+}
+namespace OVR::OpenVR {
+class __IVROverlay___SetKeyboardPositionForOverlay;
+}
+namespace OVR::OpenVR {
+class __IVROverlay___ShowOverlay;
+}
+namespace OVR::OpenVR {
+class __IVROverlay___GetOverlayImageData;
+}
+namespace OVR::OpenVR {
+class __IVROverlay___ShowDashboard;
+}
+namespace OVR::OpenVR {
+class __IVROverlay___ShowKeyboard;
+}
+namespace OVR::OpenVR {
+class __IVROverlay___HideKeyboard;
+}
+namespace OVR::OpenVR {
+class __IVROverlay___GetHighQualityOverlay;
+}
+namespace OVR::OpenVR {
+class __IVROverlay___SetOverlayNeighbor;
+}
+namespace OVR::OpenVR {
+class __IVROverlay___SetOverlayInputMethod;
+}
+namespace OVR::OpenVR {
+class __IVROverlay___MoveGamepadFocusToNeighbor;
+}
+namespace OVR::OpenVR {
+class __IVROverlay___GetOverlayTexture;
+}
+namespace OVR::OpenVR {
+class __IVROverlay___CloseMessageOverlay;
 }
 // Forward declare root types
 namespace OVR::OpenVR {

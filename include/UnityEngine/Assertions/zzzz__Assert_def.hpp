@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Assert)
-namespace UnityEngine {
-class Object;
-}
 namespace System::Collections::Generic {
 template <typename T> class IEqualityComparer_1;
+}
+namespace UnityEngine {
+class Object;
 }
 // Forward declare root types
 namespace UnityEngine::Assertions {

@@ -7,41 +7,41 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(ChainValidationHelper)
-namespace System {
-template <typename T> class WeakReference_1;
-}
 namespace Mono::Net::Security {
 class __ChainValidationHelper____c__DisplayClass11_0;
-}
-namespace Mono::Net::Security {
-class MonoTlsStream;
-}
-namespace Mono::Security::Interface {
-class ValidationResult;
 }
 namespace System::Net {
 class ServerCertValidationCallback;
 }
-namespace Mono::Security::Interface {
-class ICertificateValidator;
+namespace System::Security::Cryptography::X509Certificates {
+class X509Certificate;
+}
+namespace System {
+template <typename T> class WeakReference_1;
+}
+namespace System::Net::Security {
+class SslStream;
+}
+namespace System::Net::Security {
+class LocalCertSelectionCallback;
 }
 namespace System::Net {
 class HttpWebRequest;
 }
 namespace Mono::Net::Security {
-class MobileTlsProvider;
+class MonoTlsStream;
 }
 namespace System::Security::Cryptography::X509Certificates {
 class X509Chain;
 }
-namespace System::Net::Security {
-class LocalCertSelectionCallback;
+namespace Mono::Security::Interface {
+class ValidationResult;
 }
-namespace System::Security::Cryptography::X509Certificates {
-class X509Certificate;
+namespace Mono::Net::Security {
+class MobileTlsProvider;
 }
 namespace System::Net::Security {
-class SslStream;
+struct SslPolicyErrors;
 }
 namespace Mono::Security::Interface {
 class MonoTlsSettings;
@@ -49,8 +49,8 @@ class MonoTlsSettings;
 namespace System::Security::Cryptography::X509Certificates {
 class X509CertificateCollection;
 }
-namespace System::Net::Security {
-struct SslPolicyErrors;
+namespace Mono::Security::Interface {
+class ICertificateValidator;
 }
 namespace System {
 class Object;

@@ -7,11 +7,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(GC)
-namespace System::Runtime::CompilerServices {
-struct Ephemeron;
-}
 namespace System {
 class Object;
+}
+namespace System::Runtime::CompilerServices {
+struct Ephemeron;
 }
 // Forward declare root types
 namespace System {

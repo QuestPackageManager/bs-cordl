@@ -7,14 +7,14 @@ CORDL_MODULE_EXPORT(DefaultSignedAttributeTableGenerator)
 namespace System::Collections {
 class Hashtable;
 }
+namespace Org::BouncyCastle::Asn1::Cms {
+class AttributeTable;
+}
 namespace Org::BouncyCastle::Cms {
 class CmsAttributeTableGenerator;
 }
 namespace System::Collections {
 class IDictionary;
-}
-namespace Org::BouncyCastle::Asn1::Cms {
-class AttributeTable;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Cms {

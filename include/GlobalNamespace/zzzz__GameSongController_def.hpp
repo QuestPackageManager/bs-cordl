@@ -9,19 +9,19 @@ namespace GlobalNamespace {
 class AudioTimeSyncController;
 }
 namespace GlobalNamespace {
+class BeatmapCallbacksUpdater;
+}
+namespace GlobalNamespace {
 class AudioPitchGainEffect;
+}
+namespace GlobalNamespace {
+class IStartSeekSongController;
 }
 namespace GlobalNamespace {
 class BeatmapCallbacksController;
 }
-namespace GlobalNamespace {
-class BeatmapCallbacksUpdater;
-}
 namespace UnityEngine {
 class WaitUntil;
-}
-namespace GlobalNamespace {
-class IStartSeekSongController;
 }
 // Forward declare root types
 namespace GlobalNamespace {

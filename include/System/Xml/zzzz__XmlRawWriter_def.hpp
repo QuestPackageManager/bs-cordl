@@ -11,16 +11,16 @@ namespace System::Xml {
 class XmlRawWriterBase64Encoder;
 }
 namespace System::Xml {
-class IXmlNamespaceResolver;
+struct WriteState;
 }
 namespace System::Xml {
-struct WriteState;
+struct XmlStandalone;
 }
 namespace System::Xml {
 struct ConformanceLevel;
 }
 namespace System::Xml {
-struct XmlStandalone;
+class IXmlNamespaceResolver;
 }
 // Forward declare root types
 namespace System::Xml {

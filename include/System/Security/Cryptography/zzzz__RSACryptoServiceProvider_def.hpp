@@ -8,14 +8,8 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(RSACryptoServiceProvider)
-namespace System::Security::Cryptography {
-struct RSAParameters;
-}
 namespace Mono::Security::Cryptography {
-class RSAManaged;
-}
-namespace System {
-class Object;
+class KeyPairPersistence;
 }
 namespace System {
 class EventArgs;
@@ -23,8 +17,14 @@ class EventArgs;
 namespace System::Security::Cryptography {
 class CspParameters;
 }
+namespace System::Security::Cryptography {
+struct RSAParameters;
+}
+namespace System {
+class Object;
+}
 namespace Mono::Security::Cryptography {
-class KeyPairPersistence;
+class RSAManaged;
 }
 // Forward declare root types
 namespace System::Security::Cryptography {
@@ -36,7 +36,7 @@ MARK_REF_PTR_T(::System::Security::Cryptography::RSACryptoServiceProvider);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Cryptography {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2926)), TypeDefinitionIndex(TypeDefinitionIndex(2956))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2956)), TypeDefinitionIndex(TypeDefinitionIndex(2926))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2957))
 // CS Name: ::System.Security.Cryptography::RSACryptoServiceProvider*
 class CORDL_TYPE RSACryptoServiceProvider : public ::System::Security::Cryptography::RSA {

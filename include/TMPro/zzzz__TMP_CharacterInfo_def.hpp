@@ -13,25 +13,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(TMP_CharacterInfo)
 namespace TMPro {
-class TMP_FontAsset;
-}
-namespace TMPro {
-class TMP_SpriteAsset;
-}
-namespace TMPro {
-struct TMP_TextElementType;
-}
-namespace TMPro {
-class TMP_TextElement;
-}
-namespace UnityEngine {
-struct Vector3;
-}
-namespace TMPro {
 struct FontStyles;
 }
 namespace TMPro {
 struct HighlightState;
+}
+namespace TMPro {
+struct TMP_TextElementType;
 }
 namespace UnityEngine {
 struct Color32;
@@ -41,6 +29,18 @@ class Material;
 }
 namespace TMPro {
 struct TMP_Vertex;
+}
+namespace TMPro {
+class TMP_TextElement;
+}
+namespace TMPro {
+class TMP_FontAsset;
+}
+namespace TMPro {
+class TMP_SpriteAsset;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace TMPro {
@@ -52,8 +52,8 @@ MARK_VAL_T(::TMPro::TMP_CharacterInfo);
 // SizeInfo { instance_size: 376, native_size: -1, calculated_instance_size: 376, calculated_native_size: 389, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12331)), TypeDefinitionIndex(TypeDefinitionIndex(12438)), TypeDefinitionIndex(TypeDefinitionIndex(10250)),
-// TypeDefinitionIndex(TypeDefinitionIndex(12329)), TypeDefinitionIndex(TypeDefinitionIndex(12433)), TypeDefinitionIndex(TypeDefinitionIndex(10249))} Self:
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12438)), TypeDefinitionIndex(TypeDefinitionIndex(12329)), TypeDefinitionIndex(TypeDefinitionIndex(12433)),
+// TypeDefinitionIndex(TypeDefinitionIndex(12331)), TypeDefinitionIndex(TypeDefinitionIndex(10250)), TypeDefinitionIndex(TypeDefinitionIndex(10249))} Self:
 // TypeDefinitionIndex(TypeDefinitionIndex(12332)) CS Name: ::TMPro::TMP_CharacterInfo
 struct CORDL_TYPE TMP_CharacterInfo {
 public:

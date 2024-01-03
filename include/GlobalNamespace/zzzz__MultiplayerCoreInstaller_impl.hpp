@@ -1,9 +1,9 @@
 #pragma once
 #include "Zenject/zzzz__MonoInstaller_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerCoreInstaller_def.hpp"
+#include "GlobalNamespace/zzzz__MultiplayerBadgesModelSO_def.hpp"
 #include "GlobalNamespace/zzzz__GameplayCoreSceneSetupData_def.hpp"
 #include "GlobalNamespace/zzzz__ScoreSyncStateManager_def.hpp"
-#include "GlobalNamespace/zzzz__MultiplayerBadgesModelSO_def.hpp"
 #include "GlobalNamespace/zzzz__IMultiplayerSessionManager_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::MultiplayerCoreInstaller.InstallBindings
 template <>

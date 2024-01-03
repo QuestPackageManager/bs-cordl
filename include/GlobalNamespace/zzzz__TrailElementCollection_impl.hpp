@@ -1,9 +1,9 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__TrailElementCollection_def.hpp"
+#include "GlobalNamespace/zzzz__TrailElement_def.hpp"
 #include "GlobalNamespace/zzzz__TrailElementCollection_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
-#include "GlobalNamespace/zzzz__TrailElement_def.hpp"
 // Ctor Parameters [CppParam { name: "segmentIndex", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "segmentLerp", ty: "float_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::GlobalNamespace::__TrailElementCollection__InterpolationState::__TrailElementCollection__InterpolationState(int32_t segmentIndex, float_t segmentLerp) noexcept {
   this->segmentIndex = segmentIndex;

@@ -9,35 +9,35 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(BaseRuntimePanel)
-namespace UnityEngine {
-class GameObject;
+namespace System {
+template <typename T, typename TResult> class Func_2;
 }
 namespace UnityEngine {
 struct Vector2;
 }
 namespace UnityEngine {
-class ScriptableObject;
+class GameObject;
+}
+namespace UnityEngine {
+class Event;
 }
 namespace UnityEngine {
 class RenderTexture;
 }
 namespace System {
-template <typename T, typename TResult> class Func_2;
+class Action;
+}
+namespace UnityEngine {
+class Shader;
 }
 namespace UnityEngine::UIElements {
 class __BaseRuntimePanel____c;
 }
-namespace System {
-class Action;
-}
 namespace UnityEngine {
-class Event;
+class ScriptableObject;
 }
 namespace UnityEngine::UIElements {
 class EventDispatcher;
-}
-namespace UnityEngine {
-class Shader;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -98,7 +98,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__BaseR
 // SizeInfo { instance_size: 472, native_size: -1, calculated_instance_size: 472, calculated_native_size: 472, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10245)), TypeDefinitionIndex(TypeDefinitionIndex(6875))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6875)), TypeDefinitionIndex(TypeDefinitionIndex(10245))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6877))
 // CS Name: ::UnityEngine.UIElements::BaseRuntimePanel*
 class CORDL_TYPE BaseRuntimePanel : public ::UnityEngine::UIElements::Panel {

@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__StandardLevelInfoSaveData_V100_def.hpp"
-#include "GlobalNamespace/zzzz__StandardLevelInfoSaveData_def.hpp"
 #include "GlobalNamespace/zzzz__StandardLevelInfoSaveData_V100_def.hpp"
+#include "GlobalNamespace/zzzz__StandardLevelInfoSaveData_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::__StandardLevelInfoSaveData_V100__DifficultyBeatmap.get_difficulty
 template <>
 

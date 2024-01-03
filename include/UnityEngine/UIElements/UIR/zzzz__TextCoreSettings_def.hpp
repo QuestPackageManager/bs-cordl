@@ -8,14 +8,14 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(TextCoreSettings)
-namespace System {
-template <typename T> class IEquatable_1;
+namespace UnityEngine {
+struct Vector2;
 }
 namespace UnityEngine {
 struct Color;
 }
-namespace UnityEngine {
-struct Vector2;
+namespace System {
+template <typename T> class IEquatable_1;
 }
 namespace System {
 class Object;
@@ -30,7 +30,7 @@ MARK_VAL_T(::UnityEngine::UIElements::UIR::TextCoreSettings);
 // SizeInfo { instance_size: 64, native_size: 64, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(10251))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(10243))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7415))
 // CS Name: ::UnityEngine.UIElements.UIR::TextCoreSettings
 struct CORDL_TYPE TextCoreSettings {

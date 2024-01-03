@@ -10,13 +10,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(HAPI_VolumeInfo)
 namespace HoudiniEngineUnity {
-struct HAPI_StorageType;
+struct HAPI_VolumeType;
 }
 namespace HoudiniEngineUnity {
 struct HAPI_Transform;
 }
 namespace HoudiniEngineUnity {
-struct HAPI_VolumeType;
+struct HAPI_StorageType;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {

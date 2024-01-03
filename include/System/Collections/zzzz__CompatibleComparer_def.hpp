@@ -5,8 +5,8 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(CompatibleComparer)
-namespace System {
-class Object;
+namespace System::Collections {
+class IHashCodeProvider;
 }
 namespace System::Collections {
 class IEqualityComparer;
@@ -14,8 +14,8 @@ class IEqualityComparer;
 namespace System::Collections {
 class IComparer;
 }
-namespace System::Collections {
-class IHashCodeProvider;
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::Collections {

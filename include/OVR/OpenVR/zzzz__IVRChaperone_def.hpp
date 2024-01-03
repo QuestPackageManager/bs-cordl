@@ -9,13 +9,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(IVRChaperone)
 namespace System {
-class Object;
-}
-namespace System {
 class IAsyncResult;
 }
 namespace System {
 class AsyncCallback;
+}
+namespace System {
+class Object;
 }
 namespace OVR::OpenVR {
 struct HmdColor_t;
@@ -27,13 +27,19 @@ namespace OVR::OpenVR {
 struct HmdQuad_t;
 }
 namespace OVR::OpenVR {
-class __IVRChaperone___GetCalibrationState;
-}
-namespace OVR::OpenVR {
 class __IVRChaperone___GetPlayAreaRect;
 }
 namespace OVR::OpenVR {
-class __IVRChaperone___SetSceneColor;
+class __IVRChaperone___GetBoundsColor;
+}
+namespace OVR::OpenVR {
+class __IVRChaperone___GetCalibrationState;
+}
+namespace OVR::OpenVR {
+class __IVRChaperone___ReloadInfo;
+}
+namespace OVR::OpenVR {
+class __IVRChaperone___GetPlayAreaSize;
 }
 namespace OVR::OpenVR {
 class __IVRChaperone___ForceBoundsVisible;
@@ -42,13 +48,7 @@ namespace OVR::OpenVR {
 class __IVRChaperone___AreBoundsVisible;
 }
 namespace OVR::OpenVR {
-class __IVRChaperone___GetBoundsColor;
-}
-namespace OVR::OpenVR {
-class __IVRChaperone___ReloadInfo;
-}
-namespace OVR::OpenVR {
-class __IVRChaperone___GetPlayAreaSize;
+class __IVRChaperone___SetSceneColor;
 }
 // Forward declare root types
 namespace OVR::OpenVR {

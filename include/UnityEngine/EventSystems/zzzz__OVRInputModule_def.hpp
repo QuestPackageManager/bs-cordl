@@ -12,29 +12,23 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVRInputModule)
-namespace UnityEngine {
-struct Vector3;
+namespace UnityEngine::EventSystems {
+struct __OVRInputModule__InputMode;
 }
 namespace UnityEngine::EventSystems {
-class PointerEventData;
+class OVRPointerEventData;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace UnityEngine::EventSystems {
-struct __OVRInputModule__InputMode;
-}
-namespace UnityEngine {
-struct Vector2;
-}
-namespace UnityEngine::EventSystems {
 class __PointerInputModule__MouseState;
+}
+namespace GlobalNamespace {
+class OVRCursor;
 }
 namespace UnityEngine {
 class Transform;
-}
-namespace UnityEngine::EventSystems {
-class __PointerInputModule__MouseButtonEventData;
 }
 namespace GlobalNamespace {
 class OVRRaycaster;
@@ -42,14 +36,20 @@ class OVRRaycaster;
 namespace UnityEngine {
 class RectTransform;
 }
+namespace UnityEngine {
+struct Vector3;
+}
+namespace UnityEngine::EventSystems {
+class __PointerInputModule__MouseButtonEventData;
+}
+namespace UnityEngine::EventSystems {
+class PointerEventData;
+}
+namespace UnityEngine {
+struct Vector2;
+}
 namespace UnityEngine::EventSystems {
 struct __PointerEventData__FramePressState;
-}
-namespace UnityEngine::EventSystems {
-class OVRPointerEventData;
-}
-namespace GlobalNamespace {
-class OVRCursor;
 }
 // Forward declare root types
 namespace UnityEngine::EventSystems {
@@ -115,8 +115,8 @@ static_assert(offsetof(::UnityEngine::EventSystems::__OVRInputModule__InputMode,
 // SizeInfo { instance_size: 240, native_size: -1, calculated_instance_size: 240, calculated_native_size: 240, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::EventSystems {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7587)), TypeDefinitionIndex(TypeDefinitionIndex(13203)), TypeDefinitionIndex(TypeDefinitionIndex(10243)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10058))} Self: TypeDefinitionIndex(TypeDefinitionIndex(8739)) CS Name: ::UnityEngine.EventSystems::OVRInputModule*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7587)), TypeDefinitionIndex(TypeDefinitionIndex(13203)), TypeDefinitionIndex(TypeDefinitionIndex(10058)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10243))} Self: TypeDefinitionIndex(TypeDefinitionIndex(8739)) CS Name: ::UnityEngine.EventSystems::OVRInputModule*
 class CORDL_TYPE OVRInputModule : public ::UnityEngine::EventSystems::PointerInputModule {
 public:
   // Declarations

@@ -4,12 +4,6 @@
 CORDL_MODULE_INIT
 #include "System/Xml/Schema/zzzz__FacetsChecker_def.hpp"
 CORDL_MODULE_EXPORT(DurationFacetsChecker)
-namespace System::Collections {
-class ArrayList;
-}
-namespace System {
-struct TimeSpan;
-}
 namespace System::Xml::Schema {
 class XmlSchemaDatatype;
 }
@@ -18,6 +12,12 @@ class Exception;
 }
 namespace System {
 class Object;
+}
+namespace System {
+struct TimeSpan;
+}
+namespace System::Collections {
+class ArrayList;
 }
 // Forward declare root types
 namespace System::Xml::Schema {

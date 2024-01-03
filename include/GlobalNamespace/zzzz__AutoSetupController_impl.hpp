@@ -3,10 +3,10 @@
 #include "GlobalNamespace/zzzz__AutoSetupController_def.hpp"
 #include "HMUI/zzzz__ButtonBinder_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
-#include "HMUI/zzzz__ToggleBinder_def.hpp"
+#include "GlobalNamespace/zzzz__AutoSetupData_def.hpp"
 #include "UnityEngine/UI/zzzz__Button_def.hpp"
 #include "UnityEngine/UI/zzzz__Toggle_def.hpp"
-#include "GlobalNamespace/zzzz__AutoSetupData_def.hpp"
+#include "HMUI/zzzz__ToggleBinder_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::AutoSetupController.add_didFinishEvent
 template <>
 

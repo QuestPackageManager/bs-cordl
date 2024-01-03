@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ICertificateValidator)
-namespace GlobalNamespace {
-class DnsEndPoint;
-}
 namespace System::Security::Cryptography::X509Certificates {
 class X509Certificate2;
+}
+namespace GlobalNamespace {
+class DnsEndPoint;
 }
 // Forward declare root types
 namespace GlobalNamespace {

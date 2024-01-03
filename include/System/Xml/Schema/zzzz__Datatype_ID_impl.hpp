@@ -1,8 +1,8 @@
 #pragma once
 #include "System/Xml/Schema/zzzz__Datatype_NCName_impl.hpp"
 #include "System/Xml/Schema/zzzz__Datatype_ID_def.hpp"
-#include "System/Xml/zzzz__XmlTokenizedType_def.hpp"
 #include "System/Xml/Schema/zzzz__XmlTypeCode_def.hpp"
+#include "System/Xml/zzzz__XmlTokenizedType_def.hpp"
 //  Writing Method size for method: ::System::Xml::Schema::Datatype_ID.get_TypeCode
 template <>
 

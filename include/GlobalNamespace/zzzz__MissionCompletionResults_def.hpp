@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(MissionCompletionResults)
 namespace GlobalNamespace {
-class LevelCompletionResults;
+class MissionObjectiveResult;
 }
 namespace GlobalNamespace {
-class MissionObjectiveResult;
+class LevelCompletionResults;
 }
 // Forward declare root types
 namespace GlobalNamespace {

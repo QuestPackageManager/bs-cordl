@@ -1,12 +1,12 @@
 #pragma once
 #include "System/Xml/zzzz__XmlNamedNodeMap_impl.hpp"
 #include "System/Xml/zzzz__XmlAttributeCollection_def.hpp"
-#include "System/Xml/zzzz__XmlAttribute_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "System/Collections/zzzz__ICollection_def.hpp"
 #include "System/Xml/zzzz__XmlNode_def.hpp"
 #include "System/Collections/zzzz__IEnumerable_def.hpp"
-#include "System/Collections/zzzz__ICollection_def.hpp"
 #include "System/zzzz__Array_def.hpp"
+#include "System/Xml/zzzz__XmlAttribute_def.hpp"
 //  Writing Method size for method: ::System::Xml::XmlAttributeCollection._ctor
 template <>
 

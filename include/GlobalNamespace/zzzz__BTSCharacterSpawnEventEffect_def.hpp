@@ -7,29 +7,11 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(BTSCharacterSpawnEventEffect)
-namespace UnityEngine {
-class Transform;
-}
 namespace GlobalNamespace {
 class IAudioTimeSource;
 }
-namespace GlobalNamespace {
-class BTSCharacterDataModel;
-}
-namespace UnityEngine {
-class AnimationClip;
-}
-namespace GlobalNamespace {
-class BTSCharacter;
-}
-namespace GlobalNamespace {
-class IReadonlyBeatmapData;
-}
-namespace GlobalNamespace {
-class BeatmapCallbacksController;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
+namespace System {
+template <typename T> class Action_1;
 }
 namespace GlobalNamespace {
 class BeatmapDataCallbackWrapper;
@@ -37,17 +19,35 @@ class BeatmapDataCallbackWrapper;
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
-namespace UnityEngine::ResourceManagement::AsyncOperations {
-struct AsyncOperationHandle;
-}
 namespace GlobalNamespace {
-class BasicBeatmapEventData;
+class BTSCharacter;
+}
+namespace UnityEngine {
+class AnimationClip;
 }
 namespace System {
 template <typename T1, typename T2> class Tuple_2;
 }
-namespace System {
-template <typename T> class Action_1;
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace GlobalNamespace {
+class IReadonlyBeatmapData;
+}
+namespace GlobalNamespace {
+class BeatmapCallbacksController;
+}
+namespace UnityEngine::ResourceManagement::AsyncOperations {
+struct AsyncOperationHandle;
+}
+namespace GlobalNamespace {
+class BTSCharacterDataModel;
+}
+namespace GlobalNamespace {
+class BasicBeatmapEventData;
+}
+namespace UnityEngine {
+class Transform;
 }
 // Forward declare root types
 namespace GlobalNamespace {

@@ -5,13 +5,13 @@ CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__MultiplayerGameplayAnimator_def.hpp"
 CORDL_MODULE_EXPORT(MultiplayerDuelConnectedPlayerGameplayAnimator)
 namespace GlobalNamespace {
-struct __MultiplayerController__State;
+class MultiplayerConnectedPlayerLevelFailController;
 }
 namespace GlobalNamespace {
 class ScaleAnimator;
 }
 namespace GlobalNamespace {
-class MultiplayerConnectedPlayerLevelFailController;
+struct __MultiplayerController__State;
 }
 // Forward declare root types
 namespace GlobalNamespace {

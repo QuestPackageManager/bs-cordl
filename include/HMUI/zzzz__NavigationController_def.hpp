@@ -11,13 +11,7 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(NavigationController)
 namespace HMUI {
-class __NavigationController____c__DisplayClass8_0;
-}
-namespace UnityEngine {
-struct Vector3;
-}
-namespace System {
-class Action;
+class ViewController;
 }
 namespace HMUI {
 class __NavigationController____c__DisplayClass10_0;
@@ -31,11 +25,17 @@ template <typename T> class HashSet_1;
 namespace HMUI {
 struct __NavigationController__Alignment;
 }
+namespace UnityEngine {
+struct Vector3;
+}
+namespace System {
+class Action;
+}
 namespace HMUI {
 struct __NavigationController__Orientation;
 }
 namespace HMUI {
-class ViewController;
+class __NavigationController____c__DisplayClass8_0;
 }
 // Forward declare root types
 namespace HMUI {
@@ -356,7 +356,7 @@ static_assert(offsetof(::HMUI::__NavigationController____c__DisplayClass10_0, __
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 148, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13584)), TypeDefinitionIndex(TypeDefinitionIndex(13570)), TypeDefinitionIndex(TypeDefinitionIndex(13585))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13570)), TypeDefinitionIndex(TypeDefinitionIndex(13584)), TypeDefinitionIndex(TypeDefinitionIndex(13585))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13588))
 // CS Name: ::HMUI::NavigationController*
 class CORDL_TYPE NavigationController : public ::HMUI::ContainerViewController {

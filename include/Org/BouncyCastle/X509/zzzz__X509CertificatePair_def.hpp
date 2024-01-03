@@ -6,14 +6,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(X509CertificatePair)
-namespace System {
-class Object;
-}
 namespace Org::BouncyCastle::Asn1::X509 {
 class CertificatePair;
 }
 namespace Org::BouncyCastle::X509 {
 class X509Certificate;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::X509 {

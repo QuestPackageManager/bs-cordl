@@ -7,13 +7,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(X509ExtensionCollection)
 namespace System::Collections {
-class IEnumerator;
+class IEnumerable;
 }
 namespace Mono::Security::X509 {
 class X509Extension;
 }
 namespace System::Collections {
-class IEnumerable;
+class IEnumerator;
 }
 namespace Mono::Security {
 class ASN1;

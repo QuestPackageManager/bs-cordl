@@ -10,10 +10,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Bounds)
 namespace System {
-class IFormattable;
+template <typename T> class IEquatable_1;
 }
 namespace System {
-template <typename T> class IEquatable_1;
+class IFormattable;
 }
 namespace System {
 class Object;
@@ -22,10 +22,10 @@ namespace System {
 class IFormatProvider;
 }
 namespace UnityEngine {
-struct Ray;
+struct Vector3;
 }
 namespace UnityEngine {
-struct Vector3;
+struct Ray;
 }
 // Forward declare root types
 namespace UnityEngine {

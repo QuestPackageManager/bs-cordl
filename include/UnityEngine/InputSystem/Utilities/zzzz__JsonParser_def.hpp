@@ -12,26 +12,26 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(JsonParser)
-namespace System {
-template <typename T, typename TResult> class Func_2;
-}
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> struct KeyValuePair_2;
+}
+namespace System {
+template <typename T, typename TResult> class Func_2;
 }
 namespace UnityEngine::InputSystem::Utilities {
 struct __JsonParser__JsonString;
 }
 namespace UnityEngine::InputSystem::Utilities {
+struct __JsonParser__JsonValueType;
+}
+namespace UnityEngine::InputSystem::Utilities {
 struct __JsonParser__JsonValue;
 }
 namespace UnityEngine::InputSystem::Utilities {
-struct __JsonParser__JsonValueType;
+struct Substring;
 }
 namespace System {
 template <typename T> class IEquatable_1;
-}
-namespace UnityEngine::InputSystem::Utilities {
-struct Substring;
 }
 namespace System {
 class Object;
@@ -39,11 +39,11 @@ class Object;
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
-namespace GlobalNamespace {
-class __JsonParser__JsonValue____c;
-}
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace GlobalNamespace {
+class __JsonParser__JsonValue____c;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::Utilities {

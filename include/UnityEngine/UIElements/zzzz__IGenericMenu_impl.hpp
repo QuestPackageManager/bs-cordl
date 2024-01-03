@@ -1,7 +1,7 @@
 #pragma once
 #include "UnityEngine/UIElements/zzzz__IGenericMenu_def.hpp"
-#include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
 #include "UnityEngine/zzzz__Rect_def.hpp"
+#include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
 #include "System/zzzz__Action_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::IGenericMenu.AddItem
 template <>

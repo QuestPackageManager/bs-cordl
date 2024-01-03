@@ -12,10 +12,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(HEU_ToolsInfo)
 namespace HoudiniEngineUnity {
-struct __HEU_ToolsInfo__PaintMeshVisibility;
+struct __HEU_ToolsInfo__PaintMergeMode;
 }
 namespace HoudiniEngineUnity {
-struct __HEU_ToolsInfo__PaintMergeMode;
+struct __HEU_ToolsInfo__PaintMeshVisibility;
 }
 namespace HoudiniEngineUnity {
 template <typename T> class IEquivable_1;

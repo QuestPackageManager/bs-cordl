@@ -8,40 +8,61 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(SignatureType)
 namespace System::Reflection {
-class Binder;
-}
-namespace System::Reflection {
-class Assembly;
-}
-namespace System::Reflection {
-class EventInfo;
-}
-namespace System::Reflection {
-struct ParameterModifier;
-}
-namespace System::Reflection {
-class MemberInfo;
+struct GenericParameterAttributes;
 }
 namespace System::Reflection {
 struct CallingConventions;
 }
-namespace System::Reflection {
-class ConstructorInfo;
-}
 namespace System {
-class Type;
+struct Guid;
 }
 namespace System {
 class Array;
 }
 namespace System::Reflection {
-struct BindingFlags;
+class Assembly;
+}
+namespace System::Reflection {
+struct ParameterModifier;
+}
+namespace System::Reflection {
+struct MemberTypes;
+}
+namespace System::Reflection {
+class MethodInfo;
+}
+namespace System::Reflection {
+class Binder;
+}
+namespace System::Reflection {
+class MethodBase;
+}
+namespace System::Globalization {
+class CultureInfo;
+}
+namespace System::Reflection {
+class ConstructorInfo;
+}
+namespace System::Reflection {
+class MemberInfo;
+}
+namespace System {
+struct RuntimeTypeHandle;
+}
+namespace System::Reflection {
+struct TypeAttributes;
+}
+namespace System {
+class Type;
+}
+namespace System {
+struct TypeCode;
 }
 namespace System::Reflection {
 class Module;
 }
 namespace System::Reflection {
-struct TypeAttributes;
+struct BindingFlags;
 }
 namespace System::Reflection {
 class FieldInfo;
@@ -50,31 +71,10 @@ namespace System {
 class Object;
 }
 namespace System::Reflection {
+class EventInfo;
+}
+namespace System::Reflection {
 class PropertyInfo;
-}
-namespace System::Globalization {
-class CultureInfo;
-}
-namespace System::Reflection {
-struct GenericParameterAttributes;
-}
-namespace System {
-struct Guid;
-}
-namespace System::Reflection {
-class MethodInfo;
-}
-namespace System::Reflection {
-struct MemberTypes;
-}
-namespace System {
-struct TypeCode;
-}
-namespace System::Reflection {
-class MethodBase;
-}
-namespace System {
-struct RuntimeTypeHandle;
 }
 // Forward declare root types
 namespace System::Reflection {

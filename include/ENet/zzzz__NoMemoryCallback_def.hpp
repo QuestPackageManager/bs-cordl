@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(NoMemoryCallback)
 namespace System {
-class Object;
+class AsyncCallback;
 }
 namespace System {
-class AsyncCallback;
+class Object;
 }
 namespace System {
 class IAsyncResult;

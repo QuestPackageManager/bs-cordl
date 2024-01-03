@@ -2,10 +2,10 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/ResourceManagement/Util/zzzz__LRUCacheAllocationStrategy_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
-#include "UnityEngine/ResourceManagement/Util/zzzz__IAllocationStrategy_def.hpp"
+#include "System/zzzz__Type_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "System/zzzz__Type_def.hpp"
+#include "UnityEngine/ResourceManagement/Util/zzzz__IAllocationStrategy_def.hpp"
 //  Writing Method size for method: ::UnityEngine::ResourceManagement::Util::LRUCacheAllocationStrategy._ctor
 template <>
 

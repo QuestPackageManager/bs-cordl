@@ -6,17 +6,17 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(MeasureFunction)
-namespace UnityEngine::Yoga {
-struct YogaSize;
-}
-namespace UnityEngine::Yoga {
-class YogaNode;
-}
 namespace System {
 class Object;
 }
 namespace UnityEngine::Yoga {
+struct YogaSize;
+}
+namespace UnityEngine::Yoga {
 struct YogaMeasureMode;
+}
+namespace UnityEngine::Yoga {
+class YogaNode;
 }
 // Forward declare root types
 namespace UnityEngine::Yoga {

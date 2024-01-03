@@ -6,16 +6,16 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(ScreenModeController)
 namespace HMUI {
-class ScreenModeData;
-}
-namespace HMUI {
 class CurvedCanvasSettings;
-}
-namespace UnityEngine {
-class Transform;
 }
 namespace GlobalNamespace {
 class IVRPlatformHelper;
+}
+namespace HMUI {
+class ScreenModeData;
+}
+namespace UnityEngine {
+class Transform;
 }
 // Forward declare root types
 namespace HMUI {

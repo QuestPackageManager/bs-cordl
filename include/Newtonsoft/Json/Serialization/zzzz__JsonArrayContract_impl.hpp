@@ -1,13 +1,13 @@
 #pragma once
 #include "Newtonsoft/Json/Serialization/zzzz__JsonContainerContract_impl.hpp"
 #include "Newtonsoft/Json/Serialization/zzzz__JsonArrayContract_def.hpp"
-#include "System/Reflection/zzzz__ConstructorInfo_def.hpp"
-#include "System/zzzz__Func_1_def.hpp"
-#include "System/zzzz__Object_def.hpp"
-#include "Newtonsoft/Json/Serialization/zzzz__ObjectConstructor_1_def.hpp"
-#include "System/zzzz__Type_def.hpp"
 #include "System/Collections/zzzz__IList_def.hpp"
 #include "Newtonsoft/Json/Utilities/zzzz__IWrappedCollection_def.hpp"
+#include "System/zzzz__Type_def.hpp"
+#include "System/Reflection/zzzz__ConstructorInfo_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+#include "Newtonsoft/Json/Serialization/zzzz__ObjectConstructor_1_def.hpp"
+#include "System/zzzz__Func_1_def.hpp"
 //  Writing Method size for method: ::Newtonsoft::Json::Serialization::JsonArrayContract.get_CollectionItemType
 template <>
 

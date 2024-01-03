@@ -1,10 +1,10 @@
 #pragma once
 #include "Zenject/zzzz__MonoInstaller_impl.hpp"
 #include "GlobalNamespace/zzzz__TutorialInstaller_def.hpp"
-#include "GlobalNamespace/zzzz__TutorialSceneSetupData_def.hpp"
+#include "GlobalNamespace/zzzz__EffectPoolsManualInstaller_def.hpp"
 #include "UnityEngine/zzzz__AudioClip_def.hpp"
 #include "GlobalNamespace/zzzz__PlayerHeightDetector_def.hpp"
-#include "GlobalNamespace/zzzz__EffectPoolsManualInstaller_def.hpp"
+#include "GlobalNamespace/zzzz__TutorialSceneSetupData_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::TutorialInstaller.InstallBindings
 template <>
 

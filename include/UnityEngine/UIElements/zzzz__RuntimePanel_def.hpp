@@ -5,13 +5,13 @@ CORDL_MODULE_INIT
 #include "UnityEngine/UIElements/zzzz__BaseRuntimePanel_def.hpp"
 CORDL_MODULE_EXPORT(RuntimePanel)
 namespace UnityEngine::UIElements {
+class EventDispatcher;
+}
+namespace UnityEngine::UIElements {
 class PanelSettings;
 }
 namespace UnityEngine {
 class ScriptableObject;
-}
-namespace UnityEngine::UIElements {
-class EventDispatcher;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

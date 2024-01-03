@@ -7,26 +7,26 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(AbstractTlsContext)
+namespace Org::BouncyCastle::Crypto::Prng {
+class IRandomGenerator;
+}
 namespace Org::BouncyCastle::Crypto::Tls {
 class ProtocolVersion;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class TlsContext;
+}
+namespace System {
+class Object;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class SecurityParameters;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class TlsContext;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
 class TlsSession;
-}
-namespace System {
-class Object;
 }
 namespace Org::BouncyCastle::Security {
 class SecureRandom;
-}
-namespace Org::BouncyCastle::Crypto::Prng {
-class IRandomGenerator;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {

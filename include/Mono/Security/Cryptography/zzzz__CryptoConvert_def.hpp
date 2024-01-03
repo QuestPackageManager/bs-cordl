@@ -8,10 +8,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(CryptoConvert)
 namespace System::Security::Cryptography {
-class RSA;
+struct RSAParameters;
 }
 namespace System::Security::Cryptography {
-struct RSAParameters;
+class RSA;
 }
 // Forward declare root types
 namespace Mono::Security::Cryptography {

@@ -7,47 +7,47 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Nullable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(JsonContract)
+namespace Newtonsoft::Json::Serialization {
+class SerializationErrorCallback;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
 namespace System {
-template <typename T> struct Nullable_1;
+template <typename TResult> class Func_1;
+}
+namespace System::Runtime::Serialization {
+struct StreamingContext;
+}
+namespace Newtonsoft::Json::Serialization {
+class SerializationCallback;
+}
+namespace Newtonsoft::Json::Serialization {
+class ErrorContext;
 }
 namespace System::Reflection {
 class MethodInfo;
 }
+namespace System {
+template <typename T> struct Nullable_1;
+}
 namespace Newtonsoft::Json::Serialization {
-class SerializationErrorCallback;
+class __JsonContract____c__DisplayClass74_0;
+}
+namespace Newtonsoft::Json::Serialization {
+class __JsonContract____c__DisplayClass73_0;
+}
+namespace System {
+class Type;
+}
+namespace System::Collections::Generic {
+template <typename T> class IList_1;
 }
 namespace Newtonsoft::Json {
 class JsonConverter;
 }
 namespace System {
-class Type;
-}
-namespace Newtonsoft::Json::Serialization {
-class __JsonContract____c__DisplayClass74_0;
-}
-namespace System::Runtime::Serialization {
-struct StreamingContext;
-}
-namespace System::Collections::Generic {
-template <typename T> class IList_1;
-}
-namespace Newtonsoft::Json::Serialization {
-class __JsonContract____c__DisplayClass73_0;
-}
-namespace Newtonsoft::Json::Serialization {
-class SerializationCallback;
-}
-namespace System {
-template <typename TResult> class Func_1;
-}
-namespace System {
 class Object;
-}
-namespace Newtonsoft::Json::Serialization {
-class ErrorContext;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Serialization {
@@ -171,9 +171,9 @@ static_assert(offsetof(::Newtonsoft::Json::Serialization::__JsonContract____c__D
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 137, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Serialization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(11823)),
-// TypeDefinitionIndex(TypeDefinitionIndex(11936)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 105 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(11943)) CS
-// Name: ::Newtonsoft.Json.Serialization::JsonContract*
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 105 }), TypeDefinitionIndex(TypeDefinitionIndex(2613)),
+// TypeDefinitionIndex(TypeDefinitionIndex(11936)), TypeDefinitionIndex(TypeDefinitionIndex(11823)), TypeDefinitionIndex(TypeDefinitionIndex(2448))} Self:
+// TypeDefinitionIndex(TypeDefinitionIndex(11943)) CS Name: ::Newtonsoft.Json.Serialization::JsonContract*
 class CORDL_TYPE JsonContract : public ::System::Object {
 public:
   // Declarations

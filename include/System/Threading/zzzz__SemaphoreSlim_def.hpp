@@ -13,22 +13,7 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(SemaphoreSlim)
 namespace System::Threading {
-struct CancellationToken;
-}
-namespace System::Threading {
-class __SemaphoreSlim__TaskNode;
-}
-namespace System {
-class Object;
-}
-namespace System::Threading {
 struct __SemaphoreSlim___WaitUntilCountOrTimeoutAsync_d__32;
-}
-namespace System {
-class IDisposable;
-}
-namespace System::Threading::Tasks {
-class Task;
 }
 namespace System::Threading::Tasks {
 template <typename TResult> class Task_1;
@@ -36,8 +21,23 @@ template <typename TResult> class Task_1;
 namespace System::Threading {
 class ManualResetEvent;
 }
+namespace System::Threading::Tasks {
+class Task;
+}
+namespace System::Threading {
+class __SemaphoreSlim__TaskNode;
+}
 namespace System {
 template <typename T> class Action_1;
+}
+namespace System {
+class Object;
+}
+namespace System::Threading {
+struct CancellationToken;
+}
+namespace System {
+class IDisposable;
 }
 namespace System::Threading {
 class ThreadAbortException;
@@ -46,13 +46,13 @@ namespace System::Threading {
 class IThreadPoolWorkItem;
 }
 namespace System::Runtime::CompilerServices {
+template <typename TResult> struct __ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter;
+}
+namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
 }
 namespace System::Runtime::CompilerServices {
 template <typename TResult> struct AsyncTaskMethodBuilder_1;
-}
-namespace System::Runtime::CompilerServices {
-template <typename TResult> struct __ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter;
 }
 namespace System::Threading {
 class CancellationTokenSource;
@@ -147,9 +147,9 @@ static_assert(offsetof(::System::Threading::__SemaphoreSlim__TaskNode, ___Next) 
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Threading {
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 400 }), TypeDefinitionIndex(TypeDefinitionIndex(3397)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(2787)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 105 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(2677)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 105 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(2698)) CS
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 400 }), TypeDefinitionIndex(TypeDefinitionIndex(2677)),
+// TypeDefinitionIndex(TypeDefinitionIndex(2787)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 105 }), TypeDefinitionIndex(TypeDefinitionIndex(3397)),
+// TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 105 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(2698)) CS
 // Name: ::SemaphoreSlim::<WaitUntilCountOrTimeoutAsync>d__32
 struct CORDL_TYPE __SemaphoreSlim___WaitUntilCountOrTimeoutAsync_d__32 {
 public:

@@ -9,20 +9,20 @@ CORDL_MODULE_EXPORT(ResultsTableView)
 namespace HMUI {
 class TableCell;
 }
+namespace GlobalNamespace {
+class MultiplayerPlayerResultsData;
+}
 namespace HMUI {
 class __TableView__IDataSource;
 }
 namespace HMUI {
 class TableView;
 }
-namespace GlobalNamespace {
-class ResultsTableCell;
-}
 namespace System::Collections::Generic {
 template <typename T> class IReadOnlyList_1;
 }
 namespace GlobalNamespace {
-class MultiplayerPlayerResultsData;
+class ResultsTableCell;
 }
 // Forward declare root types
 namespace GlobalNamespace {

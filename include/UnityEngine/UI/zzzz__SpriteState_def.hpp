@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include <cstddef>
 CORDL_MODULE_EXPORT(SpriteState)
-namespace UnityEngine {
-class Sprite;
-}
 namespace System {
 template <typename T> class IEquatable_1;
+}
+namespace UnityEngine {
+class Sprite;
 }
 // Forward declare root types
 namespace UnityEngine::UI {

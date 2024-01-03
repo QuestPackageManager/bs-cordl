@@ -6,35 +6,35 @@ CORDL_MODULE_INIT
 #include "BeatSaber/AvatarCore/zzzz__AvatarSystem_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(BeatAvatarSystem)
-namespace BeatSaber::BeatAvatarSDK {
-class AvatarDataModel;
+namespace GlobalNamespace {
+struct MultiplayerAvatarData;
+}
+namespace BeatSaber::AvatarCore {
+struct AvatarDisplayContext;
+}
+namespace Zenject {
+class DiContainer;
 }
 namespace BeatSaber::AvatarCore {
 class AvatarEditorFlowCoordinator;
 }
 namespace BeatSaber::AvatarCore {
-class IOptionalAvatarDataProvider;
+class Avatar;
+}
+namespace BeatSaber::BeatAvatarSDK {
+class AvatarDataModel;
 }
 namespace BeatSaber::BeatAvatarAdapter {
 class BeatAvatarSystemSettings;
-}
-namespace GlobalNamespace {
-struct MultiplayerAvatarData;
 }
 namespace System::Threading::Tasks {
 template <typename TResult> class Task_1;
 }
 namespace BeatSaber::AvatarCore {
-struct AvatarDisplayContext;
-}
-namespace BeatSaber::AvatarCore {
-class Avatar;
-}
-namespace BeatSaber::AvatarCore {
 class AvatarSelectionView;
 }
-namespace Zenject {
-class DiContainer;
+namespace BeatSaber::AvatarCore {
+class IOptionalAvatarDataProvider;
 }
 // Forward declare root types
 namespace BeatSaber::BeatAvatarAdapter {

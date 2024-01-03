@@ -9,14 +9,14 @@ CORDL_MODULE_EXPORT(CountdownController)
 namespace GlobalNamespace {
 class CountdownElementController;
 }
+namespace GlobalNamespace {
+class ITimeProvider;
+}
 namespace UnityEngine {
 class AudioSource;
 }
 namespace System::Collections::Generic {
 template <typename T> class Queue_1;
-}
-namespace GlobalNamespace {
-class ITimeProvider;
 }
 // Forward declare root types
 namespace GlobalNamespace {

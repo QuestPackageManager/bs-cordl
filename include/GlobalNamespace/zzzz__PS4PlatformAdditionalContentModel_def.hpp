@@ -24,7 +24,7 @@ MARK_REF_PTR_T(::GlobalNamespace::PS4PlatformAdditionalContentModel);
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4601)), TypeDefinitionIndex(TypeDefinitionIndex(4552)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(4601), inst: 4982
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4552)), TypeDefinitionIndex(TypeDefinitionIndex(4601)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(4601), inst: 4982
 // })} Self: TypeDefinitionIndex(TypeDefinitionIndex(4553)) CS Name: ::PS4PlatformAdditionalContentModel*
 class CORDL_TYPE PS4PlatformAdditionalContentModel : public ::GlobalNamespace::SonyPlatformAdditionalContentModel_1<::GlobalNamespace::PS4LevelProductsModelSO*> {
 public:

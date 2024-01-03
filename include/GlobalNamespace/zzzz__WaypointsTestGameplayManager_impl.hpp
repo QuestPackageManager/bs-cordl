@@ -3,11 +3,11 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "GlobalNamespace/zzzz__WaypointsTestGameplayManager_def.hpp"
-#include "GlobalNamespace/zzzz__StandardGameplaySceneSetupData_def.hpp"
-#include "GlobalNamespace/zzzz__GameplayCoreSceneSetupData_def.hpp"
 #include "GlobalNamespace/zzzz__BTSCharacterSpawnController_def.hpp"
+#include "GlobalNamespace/zzzz__GameplayCoreSceneSetupData_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
 #include "GlobalNamespace/zzzz__IAudioTimeSource_def.hpp"
+#include "GlobalNamespace/zzzz__StandardGameplaySceneSetupData_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::WaypointsTestGameplayManager.Start
 template <>
 

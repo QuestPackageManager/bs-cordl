@@ -6,20 +6,20 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(OtherHash)
+namespace Org::BouncyCastle::Asn1::X509 {
+class AlgorithmIdentifier;
+}
 namespace Org::BouncyCastle::Asn1 {
 class IAsn1Choice;
 }
-namespace Org::BouncyCastle::Asn1::X509 {
-class AlgorithmIdentifier;
+namespace Org::BouncyCastle::Asn1 {
+class Asn1OctetString;
 }
 namespace System {
 class Object;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1OctetString;
 }
 namespace Org::BouncyCastle::Asn1::Esf {
 class OtherHashAlgAndValue;

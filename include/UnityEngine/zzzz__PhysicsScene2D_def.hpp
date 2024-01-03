@@ -9,6 +9,12 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(PhysicsScene2D)
+namespace System {
+template <typename T> class IEquatable_1;
+}
+namespace System {
+class Object;
+}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
@@ -19,19 +25,13 @@ namespace UnityEngine {
 struct Vector2;
 }
 namespace UnityEngine {
-struct RaycastHit2D;
-}
-namespace System {
-template <typename T> class IEquatable_1;
-}
-namespace UnityEngine {
 struct Ray;
 }
 namespace UnityEngine {
 struct Vector3;
 }
-namespace System {
-class Object;
+namespace UnityEngine {
+struct RaycastHit2D;
 }
 // Forward declare root types
 namespace UnityEngine {

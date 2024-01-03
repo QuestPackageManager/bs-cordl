@@ -83,7 +83,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::Controls::__AxisControl__Clam
 // SizeInfo { instance_size: 280, native_size: -1, calculated_instance_size: 280, calculated_native_size: 280, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Controls {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6627)), TypeDefinitionIndex(TypeDefinitionIndex(6216)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6216), inst: 391
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6216)), TypeDefinitionIndex(TypeDefinitionIndex(6627)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6216), inst: 391
 // })} Self: TypeDefinitionIndex(TypeDefinitionIndex(6628)) CS Name: ::UnityEngine.InputSystem.Controls::AxisControl*
 class CORDL_TYPE AxisControl : public ::UnityEngine::InputSystem::InputControl_1<float_t> {
 public:

@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerMenuClient_def.hpp"
-#include "GlobalNamespace/zzzz__MenuPlayerController_def.hpp"
 #include "GlobalNamespace/zzzz__INodePoseSyncStateManager_def.hpp"
+#include "GlobalNamespace/zzzz__MenuPlayerController_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::MultiplayerMenuClient.LateUpdate
 template <>
 

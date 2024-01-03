@@ -3,17 +3,17 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(ISubContainerCreator)
-namespace Zenject {
-class InjectContext;
-}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace Zenject {
-class DiContainer;
+class InjectContext;
 }
 namespace Zenject {
 struct TypeValuePair;
+}
+namespace Zenject {
+class DiContainer;
 }
 // Forward declare root types
 namespace Zenject {

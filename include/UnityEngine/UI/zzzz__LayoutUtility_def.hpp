@@ -7,17 +7,17 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(LayoutUtility)
-namespace UnityEngine {
-class RectTransform;
+namespace UnityEngine::UI {
+class __LayoutUtility____c;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;
 }
 namespace UnityEngine::UI {
-class __LayoutUtility____c;
-}
-namespace UnityEngine::UI {
 class ILayoutElement;
+}
+namespace UnityEngine {
+class RectTransform;
 }
 // Forward declare root types
 namespace UnityEngine::UI {

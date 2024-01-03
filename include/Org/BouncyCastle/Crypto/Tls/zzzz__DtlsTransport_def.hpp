@@ -7,13 +7,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(DtlsTransport)
 namespace Org::BouncyCastle::Crypto::Tls {
-class DtlsRecordLayer;
+class TlsCloseable;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class DatagramTransport;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class TlsCloseable;
+class DtlsRecordLayer;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {

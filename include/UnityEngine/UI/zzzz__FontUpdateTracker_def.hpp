@@ -4,17 +4,17 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(FontUpdateTracker)
+namespace System::Collections::Generic {
+template <typename T> class HashSet_1;
+}
 namespace UnityEngine::UI {
 class Text;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace UnityEngine {
 class Font;
 }
 namespace System::Collections::Generic {
-template <typename T> class HashSet_1;
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 // Forward declare root types
 namespace UnityEngine::UI {

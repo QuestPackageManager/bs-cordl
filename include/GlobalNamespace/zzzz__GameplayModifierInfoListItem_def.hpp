@@ -7,11 +7,11 @@ CORDL_MODULE_EXPORT(GameplayModifierInfoListItem)
 namespace HMUI {
 class HoverHint;
 }
-namespace GlobalNamespace {
-class GameplayModifierParamsSO;
-}
 namespace UnityEngine::UI {
 class Image;
+}
+namespace GlobalNamespace {
+class GameplayModifierParamsSO;
 }
 // Forward declare root types
 namespace GlobalNamespace {

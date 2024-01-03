@@ -10,20 +10,20 @@ CORDL_MODULE_EXPORT(Color32Serializable)
 namespace System {
 class Object;
 }
+namespace LiteNetLib::Utils {
+class NetDataWriter;
+}
 namespace UnityEngine {
 struct Color32;
 }
 namespace LiteNetLib::Utils {
 class NetDataReader;
 }
-namespace LiteNetLib::Utils {
-class INetSerializable;
-}
 namespace System {
 template <typename T> class IEquatable_1;
 }
 namespace LiteNetLib::Utils {
-class NetDataWriter;
+class INetSerializable;
 }
 // Forward declare root types
 namespace GlobalNamespace {

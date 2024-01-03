@@ -6,37 +6,37 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(MultiplayerLocalActivePlayerInGameMenuController)
 namespace GlobalNamespace {
+class BeatmapObjectManager;
+}
+namespace GlobalNamespace {
+class IVRPlatformHelper;
+}
+namespace GlobalNamespace {
+class IGamePause;
+}
+namespace System {
+template <typename T> class Action_1;
+}
+namespace GlobalNamespace {
+class IMenuButtonTrigger;
+}
+namespace GlobalNamespace {
+class MultiplayerController;
+}
+namespace GlobalNamespace {
+struct __MultiplayerController__State;
+}
+namespace GlobalNamespace {
 class __MultiplayerLocalActivePlayerInGameMenuController____c__DisplayClass19_0;
 }
 namespace System {
 class Action;
 }
 namespace GlobalNamespace {
-struct __MultiplayerController__State;
+class MultiplayerLocalActivePlayerInGameMenuViewController;
 }
 namespace GlobalNamespace {
 class SaberManager;
-}
-namespace GlobalNamespace {
-class IMenuButtonTrigger;
-}
-namespace GlobalNamespace {
-class MultiplayerLocalActivePlayerInGameMenuViewController;
-}
-namespace System {
-template <typename T> class Action_1;
-}
-namespace GlobalNamespace {
-class IGamePause;
-}
-namespace GlobalNamespace {
-class IVRPlatformHelper;
-}
-namespace GlobalNamespace {
-class BeatmapObjectManager;
-}
-namespace GlobalNamespace {
-class MultiplayerController;
 }
 // Forward declare root types
 namespace GlobalNamespace {

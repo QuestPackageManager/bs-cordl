@@ -6,14 +6,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(MatchSparse)
-namespace System::Text::RegularExpressions {
-class Regex;
+namespace System::Collections {
+class Hashtable;
 }
 namespace System::Text::RegularExpressions {
 class GroupCollection;
 }
-namespace System::Collections {
-class Hashtable;
+namespace System::Text::RegularExpressions {
+class Regex;
 }
 // Forward declare root types
 namespace System::Text::RegularExpressions {

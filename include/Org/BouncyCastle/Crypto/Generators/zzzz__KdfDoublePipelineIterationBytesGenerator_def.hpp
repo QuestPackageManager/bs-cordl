@@ -13,16 +13,16 @@ namespace Org::BouncyCastle::Crypto {
 class IMac;
 }
 namespace Org::BouncyCastle::Crypto {
-class IDigest;
+class IMacDerivationFunction;
+}
+namespace Org::BouncyCastle::Crypto {
+class IDerivationFunction;
 }
 namespace Org::BouncyCastle::Crypto {
 class IDerivationParameters;
 }
 namespace Org::BouncyCastle::Crypto {
-class IMacDerivationFunction;
-}
-namespace Org::BouncyCastle::Crypto {
-class IDerivationFunction;
+class IDigest;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Generators {

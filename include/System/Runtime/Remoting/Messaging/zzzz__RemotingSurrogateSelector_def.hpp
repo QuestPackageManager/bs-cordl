@@ -14,14 +14,14 @@ class ObjRefSurrogate;
 namespace System::Runtime::Remoting::Messaging {
 class RemotingSurrogate;
 }
+namespace System {
+class Type;
+}
 namespace System::Runtime::Serialization {
 struct StreamingContext;
 }
 namespace System::Runtime::Serialization {
 class ISerializationSurrogate;
-}
-namespace System {
-class Type;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting::Messaging {

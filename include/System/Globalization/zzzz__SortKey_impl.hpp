@@ -2,8 +2,8 @@
 #include "System/Globalization/zzzz__CompareOptions_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Globalization/zzzz__SortKey_def.hpp"
-#include "System/Globalization/zzzz__CompareOptions_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "System/Globalization/zzzz__CompareOptions_def.hpp"
 //  Writing Method size for method: ::System::Globalization::SortKey.Compare
 template <>
 

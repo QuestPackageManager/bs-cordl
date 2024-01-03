@@ -2,9 +2,9 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__ScoreMultiplierUIController_def.hpp"
 #include "UnityEngine/UI/zzzz__Image_def.hpp"
+#include "UnityEngine/zzzz__Animator_def.hpp"
 #include "GlobalNamespace/zzzz__IScoreController_def.hpp"
 #include "TMPro/zzzz__TextMeshProUGUI_def.hpp"
-#include "UnityEngine/zzzz__Animator_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::ScoreMultiplierUIController.Start
 template <>
 

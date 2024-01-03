@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__NoRichPresencePlatformHandler_def.hpp"
-#include "GlobalNamespace/zzzz__IRichPresencePlatformHandler_def.hpp"
 #include "GlobalNamespace/zzzz__IRichPresenceData_def.hpp"
+#include "GlobalNamespace/zzzz__IRichPresencePlatformHandler_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::NoRichPresencePlatformHandler.get_currentPresenceApiName
 template <>
 

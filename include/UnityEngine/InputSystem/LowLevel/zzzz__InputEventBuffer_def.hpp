@@ -2,6 +2,7 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "Unity/Collections/zzzz__Allocator_def.hpp"
 #include "Unity/Collections/zzzz__NativeArray_1_def.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstddef>
@@ -10,38 +11,35 @@ CORDL_MODULE_EXPORT(InputEventBuffer)
 namespace System::Collections {
 class IEnumerable;
 }
+namespace System {
+class Object;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+struct InputEvent;
+}
+namespace System {
+class IDisposable;
+}
 namespace System::Collections {
 class IEnumerator;
 }
 namespace System {
 class ICloneable;
 }
-namespace System {
-class IDisposable;
-}
-namespace UnityEngine::InputSystem::LowLevel {
-struct InputEvent;
-}
 namespace Unity::Collections {
 template <typename T> struct NativeArray_1;
-}
-namespace System {
-class Object;
-}
-namespace UnityEngine::InputSystem::LowLevel {
-struct InputEventPtr;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
-namespace Unity::Collections {
-struct Allocator;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
 namespace UnityEngine::InputSystem::LowLevel {
 struct __InputEventBuffer__Enumerator;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+struct InputEventPtr;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::LowLevel {
@@ -137,9 +135,8 @@ static_assert(offsetof(::UnityEngine::InputSystem::LowLevel::__InputEventBuffer_
 // SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 45, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9999)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 741 })}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6532))
-// CS Name: ::UnityEngine.InputSystem.LowLevel::InputEventBuffer
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9999)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 741 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(10003))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6532)) CS Name: ::UnityEngine.InputSystem.LowLevel::InputEventBuffer
 struct CORDL_TYPE InputEventBuffer {
 public:
   // Declarations

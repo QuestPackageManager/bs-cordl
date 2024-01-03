@@ -4,14 +4,14 @@
 CORDL_MODULE_INIT
 #include "Zenject/zzzz__NoTransitionInstaller_def.hpp"
 CORDL_MODULE_EXPORT(TutorialNoTransitionInstaller)
+namespace GlobalNamespace {
+class PlayerSpecificSettings;
+}
 namespace Zenject {
 class DiContainer;
 }
 namespace GlobalNamespace {
 class TutorialScenesTransitionSetupDataSO;
-}
-namespace GlobalNamespace {
-class PlayerSpecificSettings;
 }
 // Forward declare root types
 namespace GlobalNamespace {

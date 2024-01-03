@@ -11,14 +11,14 @@ CORDL_MODULE_EXPORT(StylePropertyUtil)
 namespace System::Collections::Generic {
 template <typename T> class HashSet_1;
 }
-namespace UnityEngine::UIElements::StyleSheets {
-struct StyleEnumType;
-}
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace UnityEngine::UIElements::StyleSheets {
 struct StylePropertyId;
+}
+namespace UnityEngine::UIElements::StyleSheets {
+struct StyleEnumType;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements::StyleSheets {

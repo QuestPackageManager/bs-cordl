@@ -2,13 +2,13 @@
 #include "HMUI/zzzz__ViewController_impl.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"
 #include "BeatSaber/BeatAvatarAdapter/AvatarEditor/zzzz__EditAvatarColorViewController_def.hpp"
-#include "UnityEngine/UI/zzzz__Button_def.hpp"
+#include "UnityEngine/zzzz__Color_def.hpp"
+#include "HMUI/zzzz__ButtonBinder_def.hpp"
+#include "GlobalNamespace/zzzz__PreviousColorPanelController_def.hpp"
 #include "GlobalNamespace/zzzz__ColorChangeUIEventType_def.hpp"
 #include "GlobalNamespace/zzzz__HSVPanelController_def.hpp"
-#include "GlobalNamespace/zzzz__PreviousColorPanelController_def.hpp"
-#include "UnityEngine/zzzz__Color_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
-#include "HMUI/zzzz__ButtonBinder_def.hpp"
+#include "UnityEngine/UI/zzzz__Button_def.hpp"
 //  Writing Method size for method: ::BeatSaber::BeatAvatarAdapter::AvatarEditor::EditAvatarColorViewController.add_didChangeColorEvent
 template <>
 

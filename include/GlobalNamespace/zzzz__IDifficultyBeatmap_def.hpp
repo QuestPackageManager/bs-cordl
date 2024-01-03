@@ -9,10 +9,10 @@ namespace GlobalNamespace {
 class PlayerSpecificSettings;
 }
 namespace GlobalNamespace {
-struct BeatmapDifficulty;
+class EnvironmentInfoSO;
 }
-namespace GlobalNamespace {
-class IReadonlyBeatmapData;
+namespace System::Threading::Tasks {
+template <typename TResult> class Task_1;
 }
 namespace GlobalNamespace {
 class IBeatmapDataBasicInfo;
@@ -21,13 +21,13 @@ namespace GlobalNamespace {
 class IDifficultyBeatmapSet;
 }
 namespace GlobalNamespace {
+struct BeatmapDifficulty;
+}
+namespace GlobalNamespace {
 class IBeatmapLevel;
 }
 namespace GlobalNamespace {
-class EnvironmentInfoSO;
-}
-namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
+class IReadonlyBeatmapData;
 }
 // Forward declare root types
 namespace GlobalNamespace {

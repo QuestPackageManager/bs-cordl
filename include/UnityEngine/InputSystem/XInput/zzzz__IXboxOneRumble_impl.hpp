@@ -1,7 +1,7 @@
 #pragma once
 #include "UnityEngine/InputSystem/XInput/zzzz__IXboxOneRumble_def.hpp"
-#include "UnityEngine/InputSystem/Haptics/zzzz__IHaptics_def.hpp"
 #include "UnityEngine/InputSystem/Haptics/zzzz__IDualMotorRumble_def.hpp"
+#include "UnityEngine/InputSystem/Haptics/zzzz__IHaptics_def.hpp"
 //  Writing Method size for method: ::UnityEngine::InputSystem::XInput::IXboxOneRumble.SetMotorSpeeds
 template <>
 

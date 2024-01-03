@@ -9,10 +9,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Input)
 namespace UnityEngine {
-struct KeyCode;
+struct Vector3;
 }
 namespace UnityEngine {
-struct Vector3;
+struct KeyCode;
 }
 namespace UnityEngine {
 struct Touch;

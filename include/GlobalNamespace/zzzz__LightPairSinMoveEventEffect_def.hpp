@@ -10,22 +10,22 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(LightPairSinMoveEventEffect)
 namespace GlobalNamespace {
-class BeatmapCallbacksController;
+class BasicBeatmapEventData;
 }
 namespace GlobalNamespace {
-class IAudioTimeSource;
-}
-namespace GlobalNamespace {
-class BeatmapDataCallbackWrapper;
+class __LightPairSinMoveEventEffect__MovementData;
 }
 namespace UnityEngine {
 class Transform;
 }
 namespace GlobalNamespace {
-class __LightPairSinMoveEventEffect__MovementData;
+class BeatmapDataCallbackWrapper;
 }
 namespace GlobalNamespace {
-class BasicBeatmapEventData;
+class BeatmapCallbacksController;
+}
+namespace GlobalNamespace {
+class IAudioTimeSource;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -41,7 +41,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__LightPairSinMoveEventEffect__MovementData);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 60, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4951))
 // CS Name: ::LightPairSinMoveEventEffect::MovementData*
 class CORDL_TYPE __LightPairSinMoveEventEffect__MovementData : public ::System::Object {
@@ -174,7 +174,7 @@ static_assert(offsetof(::GlobalNamespace::__LightPairSinMoveEventEffect__Movemen
 // SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 136, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(14724))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(14724))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4952))
 // CS Name: ::LightPairSinMoveEventEffect*
 class CORDL_TYPE LightPairSinMoveEventEffect : public ::UnityEngine::MonoBehaviour {

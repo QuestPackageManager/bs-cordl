@@ -11,14 +11,14 @@ CORDL_MODULE_EXPORT(AixIPInterfaceProperties)
 namespace System::Net::NetworkInformation {
 class GatewayIPAddressInformationCollection;
 }
-namespace System::Net::NetworkInformation {
-class AixNetworkInterface;
+namespace System::Net {
+class IPAddress;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
-namespace System::Net {
-class IPAddress;
+namespace System::Net::NetworkInformation {
+class AixNetworkInterface;
 }
 // Forward declare root types
 namespace System::Net::NetworkInformation {

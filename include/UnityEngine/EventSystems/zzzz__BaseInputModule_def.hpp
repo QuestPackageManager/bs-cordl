@@ -7,31 +7,31 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(BaseInputModule)
 namespace UnityEngine::EventSystems {
+struct RaycastResult;
+}
+namespace UnityEngine::EventSystems {
+class BaseInput;
+}
+namespace UnityEngine::EventSystems {
 struct MoveDirection;
 }
 namespace UnityEngine::EventSystems {
-class AxisEventData;
-}
-namespace UnityEngine::EventSystems {
-class BaseEventData;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+class PointerEventData;
 }
 namespace UnityEngine::EventSystems {
 class EventSystem;
 }
 namespace UnityEngine::EventSystems {
-class PointerEventData;
+class BaseEventData;
 }
 namespace UnityEngine {
 class GameObject;
 }
 namespace UnityEngine::EventSystems {
-struct RaycastResult;
+class AxisEventData;
 }
-namespace UnityEngine::EventSystems {
-class BaseInput;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 // Forward declare root types
 namespace UnityEngine::EventSystems {

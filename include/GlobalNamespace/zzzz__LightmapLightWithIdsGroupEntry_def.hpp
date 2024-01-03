@@ -13,7 +13,7 @@ namespace GlobalNamespace {
 class __LightmapLightWithIdsGroupEntry__LightIntensitiesWithId;
 }
 namespace GlobalNamespace {
-class LightmapLightWithIds;
+struct ColorMixAndWeightingApproach;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
@@ -22,7 +22,7 @@ namespace GlobalNamespace {
 class __LightmapLightWithIdsGroupEntry__GroupLightData;
 }
 namespace GlobalNamespace {
-struct ColorMixAndWeightingApproach;
+class LightmapLightWithIds;
 }
 namespace GlobalNamespace {
 class LightGroupSO;
@@ -230,7 +230,7 @@ static_assert(offsetof(::GlobalNamespace::__LightmapLightWithIdsGroupEntry__Ligh
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 60, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14522)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(14522))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14540))
 // CS Name: ::LightmapLightWithIdsGroupEntry*
 class CORDL_TYPE LightmapLightWithIdsGroupEntry : public ::UnityEngine::MonoBehaviour {

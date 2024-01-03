@@ -9,10 +9,7 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(PlayableOutputHandle)
 namespace UnityEngine::Playables {
-struct PlayableHandle;
-}
-namespace UnityEngine {
-class Object;
+class INotification;
 }
 namespace UnityEngine::Playables {
 class INotificationReceiver;
@@ -21,13 +18,16 @@ namespace System {
 class Type;
 }
 namespace System {
+template <typename T> class IEquatable_1;
+}
+namespace UnityEngine {
+class Object;
+}
+namespace System {
 class Object;
 }
 namespace UnityEngine::Playables {
-class INotification;
-}
-namespace System {
-template <typename T> class IEquatable_1;
+struct PlayableHandle;
 }
 // Forward declare root types
 namespace UnityEngine::Playables {

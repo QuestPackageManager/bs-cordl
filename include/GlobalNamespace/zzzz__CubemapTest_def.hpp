@@ -9,10 +9,10 @@ namespace UnityEngine {
 class Camera;
 }
 namespace UnityEngine {
-class Material;
+class RenderTexture;
 }
 namespace UnityEngine {
-class RenderTexture;
+class Material;
 }
 // Forward declare root types
 namespace GlobalNamespace {

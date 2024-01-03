@@ -11,23 +11,23 @@ CORDL_MODULE_EXPORT(IVRNotifications)
 namespace OVR::OpenVR {
 struct EVRNotificationStyle;
 }
-namespace System {
-class AsyncCallback;
-}
 namespace OVR::OpenVR {
-struct NotificationBitmap_t;
-}
-namespace System {
-class IAsyncResult;
-}
-namespace System {
-class Object;
+struct EVRNotificationError;
 }
 namespace OVR::OpenVR {
 struct EVRNotificationType;
 }
 namespace OVR::OpenVR {
-struct EVRNotificationError;
+struct NotificationBitmap_t;
+}
+namespace System {
+class Object;
+}
+namespace System {
+class AsyncCallback;
+}
+namespace System {
+class IAsyncResult;
 }
 namespace OVR::OpenVR {
 class __IVRNotifications___CreateNotification;

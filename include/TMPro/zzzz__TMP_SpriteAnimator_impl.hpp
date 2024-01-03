@@ -4,14 +4,14 @@
 #include "TMPro/zzzz__TMP_MeshInfo_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "TMPro/zzzz__TMP_SpriteAnimator_def.hpp"
-#include "TMPro/zzzz__TMP_SpriteAsset_def.hpp"
-#include "TMPro/zzzz__TMP_Text_def.hpp"
 #include "TMPro/zzzz__TMP_SpriteAnimator_def.hpp"
+#include "TMPro/zzzz__TMP_Text_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "TMPro/zzzz__TMP_SpriteAsset_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 //  Writing Method size for method: ::TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7._ctor
 template <>
 

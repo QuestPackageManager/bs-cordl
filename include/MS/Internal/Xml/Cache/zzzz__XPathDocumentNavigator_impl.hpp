@@ -1,12 +1,12 @@
 #pragma once
 #include "System/Xml/XPath/zzzz__XPathNavigator_impl.hpp"
 #include "MS/Internal/Xml/Cache/zzzz__XPathDocumentNavigator_def.hpp"
-#include "MS/Internal/Xml/Cache/zzzz__XPathNode_def.hpp"
-#include "System/Xml/zzzz__XmlNameTable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "System/Xml/XPath/zzzz__XPathNavigator_def.hpp"
 #include "System/Xml/XPath/zzzz__XPathNamespaceScope_def.hpp"
+#include "System/Xml/zzzz__XmlNameTable_def.hpp"
+#include "MS/Internal/Xml/Cache/zzzz__XPathNode_def.hpp"
 #include "System/Xml/XPath/zzzz__XPathNodeType_def.hpp"
+#include "System/Xml/XPath/zzzz__XPathNavigator_def.hpp"
 //  Writing Method size for method: ::MS::Internal::Xml::Cache::XPathDocumentNavigator._ctor
 template <>
 

@@ -8,19 +8,19 @@ namespace Org::BouncyCastle::Asn1 {
 class Asn1TaggedObject;
 }
 namespace Org::BouncyCastle::Asn1 {
-class IAsn1Choice;
-}
-namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
+}
+namespace Org::BouncyCastle::Asn1::Cms {
+class TimeStampTokenEvidence;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
 }
+namespace Org::BouncyCastle::Asn1 {
+class IAsn1Choice;
+}
 namespace System {
 class Object;
-}
-namespace Org::BouncyCastle::Asn1::Cms {
-class TimeStampTokenEvidence;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Cms {

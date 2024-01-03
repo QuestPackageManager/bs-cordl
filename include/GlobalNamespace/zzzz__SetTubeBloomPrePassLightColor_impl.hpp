@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__SetTubeBloomPrePassLightColor_def.hpp"
-#include "GlobalNamespace/zzzz__ColorSO_def.hpp"
 #include "GlobalNamespace/zzzz__TubeBloomPrePassLight_def.hpp"
+#include "GlobalNamespace/zzzz__ColorSO_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::SetTubeBloomPrePassLightColor.Start
 template <>
 

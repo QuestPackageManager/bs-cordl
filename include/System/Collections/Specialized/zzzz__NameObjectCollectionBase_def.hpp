@@ -7,52 +7,52 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(NameObjectCollectionBase)
 namespace System {
-class DBNull;
-}
-namespace System::Collections::Specialized {
-class __NameObjectCollectionBase__NameObjectKeysEnumerator;
+class StringComparer;
 }
 namespace System::Collections {
-class IEnumerable;
-}
-namespace System::Collections {
-class Hashtable;
+class ICollection;
 }
 namespace System {
-class Array;
+class DBNull;
 }
 namespace System::Runtime::Serialization {
 class IDeserializationCallback;
 }
-namespace System {
-class StringComparer;
+namespace System::Runtime::Serialization {
+struct StreamingContext;
 }
 namespace System::Collections::Specialized {
 class __NameObjectCollectionBase__NameObjectEntry;
 }
-namespace System::Runtime::Serialization {
-struct StreamingContext;
-}
 namespace System::Collections {
-class ArrayList;
+class IEqualityComparer;
 }
-namespace System {
-class Object;
+namespace System::Collections::Specialized {
+class __NameObjectCollectionBase__NameObjectKeysEnumerator;
 }
 namespace System::Runtime::Serialization {
 class ISerializable;
 }
 namespace System::Collections {
-class ICollection;
+class ArrayList;
 }
 namespace System::Collections {
 class IEnumerator;
 }
+namespace System::Collections {
+class Hashtable;
+}
 namespace System::Runtime::Serialization {
 class SerializationInfo;
 }
+namespace System {
+class Object;
+}
 namespace System::Collections {
-class IEqualityComparer;
+class IEnumerable;
+}
+namespace System {
+class Array;
 }
 // Forward declare root types
 namespace System::Collections::Specialized {

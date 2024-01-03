@@ -12,11 +12,11 @@ CORDL_MODULE_EXPORT(UmAlQuraCalendar)
 namespace System {
 struct DateTime;
 }
-namespace System::Globalization {
-struct __UmAlQuraCalendar__DateMapping;
-}
 namespace System {
 struct DayOfWeek;
+}
+namespace System::Globalization {
+struct __UmAlQuraCalendar__DateMapping;
 }
 // Forward declare root types
 namespace System::Globalization {
@@ -72,7 +72,7 @@ static_assert(offsetof(::System::Globalization::__UmAlQuraCalendar__DateMapping,
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Globalization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3696)), TypeDefinitionIndex(TypeDefinitionIndex(2368))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2368)), TypeDefinitionIndex(TypeDefinitionIndex(3696))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3709))
 // CS Name: ::System.Globalization::UmAlQuraCalendar*
 class CORDL_TYPE UmAlQuraCalendar : public ::System::Globalization::Calendar {

@@ -10,13 +10,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(EulaViewController)
 namespace GlobalNamespace {
-class LocalizedTextAsset;
+struct __EulaViewController__ButtonType;
 }
 namespace UnityEngine::UI {
 class Image;
-}
-namespace System::Collections {
-class IEnumerator;
 }
 namespace GlobalNamespace {
 class __EulaViewController___EnableButtonsCoroutine_d__21;
@@ -24,17 +21,14 @@ class __EulaViewController___EnableButtonsCoroutine_d__21;
 namespace GlobalNamespace {
 class __EulaViewController__InitData;
 }
-namespace GlobalNamespace {
-struct __EulaViewController__ButtonType;
-}
-namespace UnityEngine {
-class Coroutine;
-}
 namespace HMUI {
 class TextPageScrollView;
 }
 namespace GlobalNamespace {
 class ICoroutineStarter;
+}
+namespace System::Collections {
+class IEnumerator;
 }
 namespace UnityEngine::UI {
 class Button;
@@ -42,14 +36,20 @@ class Button;
 namespace System {
 template <typename T> class Action_1;
 }
+namespace UnityEngine {
+class Coroutine;
+}
+namespace GlobalNamespace {
+class LocalizedTextAsset;
+}
 namespace System {
 class Object;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
-}
 namespace System {
 class IDisposable;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {

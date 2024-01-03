@@ -10,14 +10,14 @@ CORDL_MODULE_EXPORT(OVRSpace)
 namespace System {
 struct Guid;
 }
-namespace System {
-class Object;
+namespace GlobalNamespace {
+struct __OVRSpace__StorageLocation;
 }
 namespace System {
 template <typename T> class IEquatable_1;
 }
-namespace GlobalNamespace {
-struct __OVRSpace__StorageLocation;
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace GlobalNamespace {

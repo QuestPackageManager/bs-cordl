@@ -12,44 +12,35 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(InputControlPath)
+namespace UnityEngine::InputSystem::Utilities {
+struct Substring;
+}
 namespace System {
 template <typename T, typename TResult> class Func_2;
 }
-namespace UnityEngine::InputSystem::Utilities {
-struct Substring;
+namespace UnityEngine::InputSystem::Layouts {
+class InputControlLayout;
+}
+namespace UnityEngine::InputSystem::Layouts {
+struct __InputControlLayout__ControlItem;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
 namespace UnityEngine::InputSystem {
-struct __InputControlPath__PathParser;
+class __InputControlPath____c;
 }
 namespace UnityEngine::InputSystem {
 class InputControl;
 }
-namespace UnityEngine::InputSystem::Layouts {
-struct __InputControlLayout__ControlItem;
-}
 namespace UnityEngine::InputSystem {
-struct __InputControlPath__PathComponentType;
+class InputDevice;
 }
 namespace UnityEngine::InputSystem::Utilities {
 struct InternedString;
 }
 namespace UnityEngine::InputSystem {
-class __InputControlPath____c;
-}
-namespace UnityEngine::InputSystem {
-struct __InputControlPath__ParsedPathComponent;
-}
-namespace UnityEngine::InputSystem {
-template <typename TControl> struct InputControlList_1;
-}
-namespace UnityEngine::InputSystem::Layouts {
-class InputControlLayout;
-}
-namespace UnityEngine::InputSystem {
-class InputDevice;
+struct __InputControlPath__PathComponentType;
 }
 namespace UnityEngine::InputSystem {
 struct __InputControlPath__HumanReadableStringOptions;
@@ -57,26 +48,35 @@ struct __InputControlPath__HumanReadableStringOptions;
 namespace UnityEngine::InputSystem {
 class __InputControlPath___Parse_d__33;
 }
+namespace UnityEngine::InputSystem {
+template <typename TControl> struct InputControlList_1;
+}
+namespace UnityEngine::InputSystem {
+struct __InputControlPath__ParsedPathComponent;
+}
+namespace UnityEngine::InputSystem {
+struct __InputControlPath__PathParser;
+}
 namespace System {
 class Object;
 }
 namespace System::Collections {
-class IEnumerable;
-}
-namespace System::Collections {
 class IEnumerator;
-}
-namespace System {
-class IDisposable;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
-namespace UnityEngine::InputSystem::Utilities {
-template <typename TValue> struct InlinedArray_1;
+namespace System {
+class IDisposable;
+}
+namespace System::Collections {
+class IEnumerable;
 }
 namespace GlobalNamespace {
 class __InputControlPath__ParsedPathComponent____c;
+}
+namespace UnityEngine::InputSystem::Utilities {
+template <typename TValue> struct InlinedArray_1;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem {
@@ -280,8 +280,8 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__InputControlP
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6709)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6669), inst: 2710 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(6669))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6230)) CS Name: ::InputControlPath::ParsedPathComponent
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6709)), TypeDefinitionIndex(TypeDefinitionIndex(6669)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6669), inst: 2710
+// })} Self: TypeDefinitionIndex(TypeDefinitionIndex(6230)) CS Name: ::InputControlPath::ParsedPathComponent
 struct CORDL_TYPE __InputControlPath__ParsedPathComponent {
 public:
   // Declarations
@@ -495,7 +495,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::__Inpu
 // SizeInfo { instance_size: 232, native_size: -1, calculated_instance_size: 232, calculated_native_size: 232, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6231)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(6230))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6230)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(6231))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6233))
 // CS Name: ::InputControlPath::<Parse>d__33*
 class CORDL_TYPE __InputControlPath___Parse_d__33 : public ::System::Object {
@@ -659,7 +659,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::__InputControlPath___Parse_d_
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(6227))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6234))
 // CS Name: ::UnityEngine.InputSystem::InputControlPath*
 class CORDL_TYPE InputControlPath : public ::System::Object {

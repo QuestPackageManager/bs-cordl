@@ -3,10 +3,10 @@
 #include "UnityEngine/zzzz__Ray_impl.hpp"
 #include "UnityEngine/zzzz__RaycastHit_impl.hpp"
 #include "VRUIControls/zzzz__PhysicsRaycasterWithCache_def.hpp"
+#include "VRUIControls/zzzz__PhysicsRaycasterWithCache_def.hpp"
 #include "UnityEngine/zzzz__RaycastHit_def.hpp"
 #include "UnityEngine/zzzz__Ray_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "VRUIControls/zzzz__PhysicsRaycasterWithCache_def.hpp"
 //  Writing Method size for method: ::VRUIControls::__PhysicsRaycasterWithCache__CachedRaycast._ctor
 template <>
 

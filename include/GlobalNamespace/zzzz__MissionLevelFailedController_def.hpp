@@ -7,16 +7,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(MissionLevelFailedController)
 namespace GlobalNamespace {
-class BeatmapObjectManager;
+class LevelFailedTextEffect;
 }
 namespace GlobalNamespace {
 class __MissionLevelFailedController__InitData;
 }
 namespace GlobalNamespace {
 class GameSongController;
-}
-namespace GlobalNamespace {
-class PrepareLevelCompletionResults;
 }
 namespace System::Collections {
 class IEnumerator;
@@ -25,19 +22,25 @@ namespace GlobalNamespace {
 class __MissionLevelFailedController___LevelFailedCoroutine_d__13;
 }
 namespace GlobalNamespace {
+class MissionLevelScenesTransitionSetupDataSO;
+}
+namespace GlobalNamespace {
+class PrepareLevelCompletionResults;
+}
+namespace GlobalNamespace {
+class BeatmapObjectSpawnController;
+}
+namespace GlobalNamespace {
+class BeatmapObjectManager;
+}
+namespace GlobalNamespace {
 class MissionObjectiveCheckersManager;
 }
 namespace GlobalNamespace {
 class ILevelEndActions;
 }
 namespace GlobalNamespace {
-class MissionLevelScenesTransitionSetupDataSO;
-}
-namespace GlobalNamespace {
-class LevelFailedTextEffect;
-}
-namespace GlobalNamespace {
-class BeatmapObjectSpawnController;
+class MissionCompletionResults;
 }
 namespace System {
 class Object;
@@ -47,9 +50,6 @@ class IDisposable;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
-}
-namespace GlobalNamespace {
-class MissionCompletionResults;
 }
 // Forward declare root types
 namespace GlobalNamespace {

@@ -13,22 +13,22 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVRKeyboard)
 namespace GlobalNamespace {
+struct __OVRKeyboard__TrackedKeyboardInfo;
+}
+namespace GlobalNamespace {
 struct __OVRKeyboard__TrackedKeyboardState;
 }
 namespace GlobalNamespace {
 struct __OVRPlugin__TrackedKeyboardQueryFlags;
 }
 namespace GlobalNamespace {
-struct __OVRKeyboard__TrackedKeyboardInfo;
+struct __OVRPlugin__TrackedKeyboardPresentationStyles;
 }
 namespace UnityEngine {
 struct Vector3;
 }
 namespace GlobalNamespace {
 struct __OVRPlugin__TrackedKeyboardFlags;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__TrackedKeyboardPresentationStyles;
 }
 namespace UnityEngine {
 struct Quaternion;
@@ -51,7 +51,7 @@ MARK_VAL_T(::GlobalNamespace::__OVRKeyboard__TrackedKeyboardState);
 // SizeInfo { instance_size: 40, native_size: 56, calculated_instance_size: 40, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10252))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8025))
 // CS Name: ::OVRKeyboard::TrackedKeyboardState
 struct CORDL_TYPE __OVRKeyboard__TrackedKeyboardState {
@@ -116,7 +116,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRKeyboard__TrackedKeyboardState, t
 // SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(7790)), TypeDefinitionIndex(TypeDefinitionIndex(7791))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7791)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(7790))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8026))
 // CS Name: ::OVRKeyboard::TrackedKeyboardInfo
 struct CORDL_TYPE __OVRKeyboard__TrackedKeyboardInfo {

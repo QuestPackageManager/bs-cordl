@@ -2,9 +2,9 @@
 #include "HMUI/zzzz__ViewController_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__TabBarViewController_def.hpp"
+#include "HMUI/zzzz__TextSegmentedControl_def.hpp"
 #include "UnityEngine/UI/zzzz__ContentSizeFitter_def.hpp"
 #include "GlobalNamespace/zzzz__TabBarViewController_def.hpp"
-#include "HMUI/zzzz__TextSegmentedControl_def.hpp"
 #include "HMUI/zzzz__SegmentedControl_def.hpp"
 #include "System/zzzz__Action_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::__TabBarViewController__TabBarItem._ctor

@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(VRIKLODController)
-namespace UnityEngine {
-class Renderer;
-}
 namespace RootMotion::FinalIK {
 class VRIK;
+}
+namespace UnityEngine {
+class Renderer;
 }
 // Forward declare root types
 namespace RootMotion::FinalIK {

@@ -10,20 +10,44 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(GenericDropdownMenu)
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
 namespace UnityEngine::UIElements {
-class GeometryChangedEvent;
-}
-namespace UnityEngine::UIElements {
-class IGenericMenu;
+class AttachToPanelEvent;
 }
 namespace UnityEngine::UIElements {
 class __GenericDropdownMenu__MenuItem;
 }
 namespace UnityEngine::UIElements {
+class PointerUpEvent;
+}
+namespace UnityEngine::UIElements {
+class GeometryChangedEvent;
+}
+namespace UnityEngine::UIElements {
+class VisualElement;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace UnityEngine::UIElements {
+class ScrollView;
+}
+namespace UnityEngine::UIElements {
+class KeyboardNavigationManipulator;
+}
+namespace UnityEngine::UIElements {
+class EventBase;
+}
+namespace UnityEngine::UIElements {
+struct KeyboardNavigationOperation;
+}
+namespace UnityEngine::UIElements {
 class PointerDownEvent;
+}
+namespace UnityEngine::UIElements {
+struct __GenericDropdownMenu____c__DisplayClass25_0;
+}
+namespace UnityEngine::UIElements {
+class DetachFromPanelEvent;
 }
 namespace System {
 class Action;
@@ -32,40 +56,16 @@ namespace UnityEngine {
 struct Rect;
 }
 namespace UnityEngine::UIElements {
-class KeyboardNavigationManipulator;
+class IGenericMenu;
 }
-namespace UnityEngine::UIElements {
-class ScrollView;
-}
-namespace UnityEngine::UIElements {
-struct __GenericDropdownMenu____c__DisplayClass25_0;
-}
-namespace UnityEngine::UIElements {
-class VisualElement;
-}
-namespace UnityEngine::UIElements {
-class AttachToPanelEvent;
-}
-namespace UnityEngine::UIElements {
-class EventBase;
+namespace System {
+class Object;
 }
 namespace UnityEngine::UIElements {
 class PointerMoveEvent;
 }
 namespace UnityEngine::UIElements {
 class FocusOutEvent;
-}
-namespace UnityEngine::UIElements {
-struct KeyboardNavigationOperation;
-}
-namespace UnityEngine::UIElements {
-class DetachFromPanelEvent;
-}
-namespace UnityEngine::UIElements {
-class PointerUpEvent;
-}
-namespace System {
-class Object;
 }
 namespace System {
 template <typename T> class Action_1;
@@ -216,7 +216,7 @@ static_assert(offsetof(::UnityEngine::UIElements::__GenericDropdownMenu____c__Di
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10165))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10165)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10243))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7075))
 // CS Name: ::UnityEngine.UIElements::GenericDropdownMenu*
 class CORDL_TYPE GenericDropdownMenu : public ::System::Object {

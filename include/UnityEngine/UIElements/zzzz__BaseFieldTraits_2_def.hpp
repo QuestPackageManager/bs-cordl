@@ -25,7 +25,7 @@ namespace UnityEngine::UIElements {
 // cpp template
 template <typename TValueType, typename TValueUxmlAttributeType>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7129)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7129), inst: 5214 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7129), inst: 5214 }), TypeDefinitionIndex(TypeDefinitionIndex(7129))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7131))
 // CS Name: ::UnityEngine.UIElements::BaseFieldTraits`2<TValueType,TValueUxmlAttributeType>*
 class CORDL_TYPE BaseFieldTraits_2 : public ::UnityEngine::UIElements::__BaseField_1__UxmlTraits<TValueType> {

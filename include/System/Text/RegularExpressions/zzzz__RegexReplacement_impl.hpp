@@ -1,14 +1,14 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Text/RegularExpressions/zzzz__RegexReplacement_def.hpp"
-#include "System/Text/RegularExpressions/zzzz__RegexNode_def.hpp"
 #include "System/Text/zzzz__StringBuilder_def.hpp"
-#include "System/zzzz__WeakReference_1_def.hpp"
 #include "System/Text/RegularExpressions/zzzz__RegexOptions_def.hpp"
 #include "System/Text/RegularExpressions/zzzz__Match_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "System/Collections/zzzz__Hashtable_def.hpp"
 #include "System/Text/RegularExpressions/zzzz__Regex_def.hpp"
+#include "System/zzzz__WeakReference_1_def.hpp"
+#include "System/Collections/zzzz__Hashtable_def.hpp"
+#include "System/Text/RegularExpressions/zzzz__RegexNode_def.hpp"
 //  Writing Method size for method: ::System::Text::RegularExpressions::RegexReplacement._ctor
 template <>
 

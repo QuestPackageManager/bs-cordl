@@ -6,19 +6,22 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(MultiplayerLocalActivePlayerInGameMenuViewController)
 namespace GlobalNamespace {
+class DisconnectPromptView;
+}
+namespace GlobalNamespace {
 class IVRPlatformHelper;
 }
-namespace UnityEngine::UI {
-class Button;
+namespace GlobalNamespace {
+class MultiplayerLocalPlayerDisconnectHelper;
+}
+namespace GlobalNamespace {
+class LevelBar;
 }
 namespace Polyglot {
 class LocalizedTextMeshProUGUI;
 }
 namespace GlobalNamespace {
-class MultiplayerLocalPlayerDisconnectHelper;
-}
-namespace System {
-class Action;
+class LocalPlayerInGameMenuInitData;
 }
 namespace GlobalNamespace {
 class IConnectedPlayer;
@@ -26,14 +29,11 @@ class IConnectedPlayer;
 namespace HMUI {
 class ButtonBinder;
 }
-namespace GlobalNamespace {
-class DisconnectPromptView;
+namespace System {
+class Action;
 }
-namespace GlobalNamespace {
-class LocalPlayerInGameMenuInitData;
-}
-namespace GlobalNamespace {
-class LevelBar;
+namespace UnityEngine::UI {
+class Button;
 }
 namespace UnityEngine {
 class GameObject;

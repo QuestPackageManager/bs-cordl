@@ -11,10 +11,10 @@ namespace UnityEngine::Timeline {
 class TimelineClip;
 }
 namespace UnityEngine::Timeline {
-class TrackAsset;
+class __Extrapolation____c;
 }
 namespace UnityEngine::Timeline {
-class __Extrapolation____c;
+class TrackAsset;
 }
 namespace System {
 template <typename T> class Comparison_1;

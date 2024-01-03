@@ -10,7 +10,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(FileSystemEnumerable_1)
 namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
+template <typename T> class IEnumerable_1;
+}
+namespace System::IO {
+class EnumerationOptions;
+}
+namespace System::Collections {
+class IEnumerator;
+}
+namespace System::IO::Enumeration {
+template <typename TResult> class __FileSystemEnumerable_1__DelegateEnumerator;
+}
+namespace System::IO::Enumeration {
+template <typename TResult> class __FileSystemEnumerable_1__FindPredicate;
 }
 namespace System::IO::Enumeration {
 template <typename TResult> class __FileSystemEnumerable_1__FindTransform;
@@ -19,19 +31,7 @@ namespace System::Collections {
 class IEnumerable;
 }
 namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
-namespace System::IO::Enumeration {
-template <typename TResult> class __FileSystemEnumerable_1__FindPredicate;
-}
-namespace System::IO::Enumeration {
-template <typename TResult> class __FileSystemEnumerable_1__DelegateEnumerator;
-}
-namespace System::Collections {
-class IEnumerator;
-}
-namespace System::IO {
-class EnumerationOptions;
+template <typename T> class IEnumerator_1;
 }
 namespace System::IO::Enumeration {
 struct FileSystemEntry;
@@ -139,7 +139,7 @@ namespace System::IO::Enumeration {
 // cpp template
 template <typename TResult>
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3655), inst: 1976 }), TypeDefinitionIndex(TypeDefinitionIndex(3655))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3655)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3655), inst: 1976 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3645))
 // CS Name: ::FileSystemEnumerable`1::DelegateEnumerator<TResult>*
 class CORDL_TYPE __FileSystemEnumerable_1__DelegateEnumerator : public ::System::IO::Enumeration::FileSystemEnumerator_1<TResult> {

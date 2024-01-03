@@ -5,16 +5,16 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(ObjRefSurrogate)
 namespace System::Runtime::Serialization {
-struct StreamingContext;
-}
-namespace System::Runtime::Serialization {
 class ISerializationSurrogate;
 }
 namespace System::Runtime::Serialization {
-class ISurrogateSelector;
+struct StreamingContext;
 }
 namespace System {
 class Object;
+}
+namespace System::Runtime::Serialization {
+class ISurrogateSelector;
 }
 namespace System::Runtime::Serialization {
 class SerializationInfo;

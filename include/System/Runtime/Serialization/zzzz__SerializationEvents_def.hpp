@@ -10,6 +10,9 @@ class MethodInfo;
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
+namespace System::Runtime::Serialization {
+class SerializationEventHandler;
+}
 namespace System {
 class Object;
 }
@@ -18,9 +21,6 @@ struct StreamingContext;
 }
 namespace System {
 class Type;
-}
-namespace System::Runtime::Serialization {
-class SerializationEventHandler;
 }
 // Forward declare root types
 namespace System::Runtime::Serialization {

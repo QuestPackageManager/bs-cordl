@@ -10,11 +10,11 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(InputSettings)
+namespace System::Collections::Generic {
+template <typename T> class HashSet_1;
+}
 namespace UnityEngine::InputSystem::Utilities {
 template <typename TValue> struct ReadOnlyArray_1;
-}
-namespace UnityEngine::InputSystem {
-struct __InputSettings__EditorInputBehaviorInPlayMode;
 }
 namespace UnityEngine::InputSystem {
 struct __InputSettings__UpdateMode;
@@ -22,8 +22,8 @@ struct __InputSettings__UpdateMode;
 namespace UnityEngine::InputSystem {
 struct __InputSettings__BackgroundBehavior;
 }
-namespace System::Collections::Generic {
-template <typename T> class HashSet_1;
+namespace UnityEngine::InputSystem {
+struct __InputSettings__EditorInputBehaviorInPlayMode;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem {
@@ -209,7 +209,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::__InputSettings__EditorInputB
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10210)), TypeDefinitionIndex(TypeDefinitionIndex(6302)), TypeDefinitionIndex(TypeDefinitionIndex(6303)),
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6303)), TypeDefinitionIndex(TypeDefinitionIndex(6302)), TypeDefinitionIndex(TypeDefinitionIndex(10210)),
 // TypeDefinitionIndex(TypeDefinitionIndex(6301))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6304)) CS Name: ::UnityEngine.InputSystem::InputSettings*
 class CORDL_TYPE InputSettings : public ::UnityEngine::ScriptableObject {
 public:

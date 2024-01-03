@@ -8,16 +8,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(SliderMeshController)
 namespace GlobalNamespace {
-class SliderMeshConstructor;
-}
-namespace GlobalNamespace {
-class PathsHolder;
+struct NoteCutDirection;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace GlobalNamespace {
 class SliderData;
+}
+namespace GlobalNamespace {
+class PathsHolder;
 }
 namespace UnityEngine {
 struct Vector3;
@@ -26,7 +26,7 @@ namespace UnityEngine {
 class Mesh;
 }
 namespace GlobalNamespace {
-struct NoteCutDirection;
+class SliderMeshConstructor;
 }
 // Forward declare root types
 namespace GlobalNamespace {

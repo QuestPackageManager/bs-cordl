@@ -4,10 +4,10 @@
 #include "System/IO/zzzz__MatchType_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/IO/zzzz__EnumerationOptions_def.hpp"
+#include "System/IO/zzzz__FileAttributes_def.hpp"
 #include "System/IO/zzzz__MatchCasing_def.hpp"
 #include "System/IO/zzzz__SearchOption_def.hpp"
 #include "System/IO/zzzz__MatchType_def.hpp"
-#include "System/IO/zzzz__FileAttributes_def.hpp"
 //  Writing Method size for method: ::System::IO::EnumerationOptions.get_Compatible
 template <>
 

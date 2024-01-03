@@ -7,8 +7,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(X509Crl)
-namespace Org::BouncyCastle::Utilities::Date {
-class DateTimeObject;
+namespace Org::BouncyCastle::Utilities::Collections {
+class ISet;
+}
+namespace Org::BouncyCastle::X509 {
+class X509CrlEntry;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class CertificateList;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class X509Name;
@@ -16,17 +22,14 @@ class X509Name;
 namespace System {
 struct DateTime;
 }
+namespace Org::BouncyCastle::Utilities::Date {
+class DateTimeObject;
+}
 namespace System {
 class Object;
 }
-namespace Org::BouncyCastle::X509 {
-class X509Certificate;
-}
 namespace Org::BouncyCastle::Crypto {
 class AsymmetricKeyParameter;
-}
-namespace Org::BouncyCastle::Crypto {
-class IVerifierFactoryProvider;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class X509Extensions;
@@ -34,17 +37,14 @@ class X509Extensions;
 namespace Org::BouncyCastle::Crypto {
 class IVerifierFactory;
 }
-namespace Org::BouncyCastle::Asn1::X509 {
-class CertificateList;
+namespace Org::BouncyCastle::Crypto {
+class IVerifierFactoryProvider;
 }
 namespace Org::BouncyCastle::Math {
 class BigInteger;
 }
 namespace Org::BouncyCastle::X509 {
-class X509CrlEntry;
-}
-namespace Org::BouncyCastle::Utilities::Collections {
-class ISet;
+class X509Certificate;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::X509 {

@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 CORDL_MODULE_EXPORT(MultipleDisplayUtilities)
-namespace UnityEngine::EventSystems {
-class PointerEventData;
-}
 namespace UnityEngine {
 struct Vector2;
 }
 namespace UnityEngine {
 struct Vector3;
+}
+namespace UnityEngine::EventSystems {
+class PointerEventData;
 }
 // Forward declare root types
 namespace UnityEngine::UI {

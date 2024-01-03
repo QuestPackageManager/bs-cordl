@@ -2,13 +2,13 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__GroupBoxUtility_def.hpp"
 #include "UnityEngine/UIElements/zzzz__IGroupManager_def.hpp"
-#include "UnityEngine/UIElements/zzzz__BaseVisualElementPanel_def.hpp"
-#include "UnityEngine/UIElements/zzzz__DetachFromPanelEvent_def.hpp"
-#include "UnityEngine/UIElements/zzzz__IGroupBox_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
-#include "UnityEngine/UIElements/zzzz__IGroupBoxOption_def.hpp"
 #include "System/zzzz__Type_def.hpp"
+#include "UnityEngine/UIElements/zzzz__BaseVisualElementPanel_def.hpp"
+#include "UnityEngine/UIElements/zzzz__IGroupBoxOption_def.hpp"
 #include "UnityEngine/UIElements/zzzz__AttachToPanelEvent_def.hpp"
+#include "UnityEngine/UIElements/zzzz__IGroupBox_def.hpp"
+#include "UnityEngine/UIElements/zzzz__DetachFromPanelEvent_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::GroupBoxUtility.OnOptionAttachToPanel
 template <>
 

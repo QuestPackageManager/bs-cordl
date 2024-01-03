@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ISortedList_1)
 namespace System::Collections::Generic {
-template <typename T> class LinkedList_1;
+template <typename T> class LinkedListNode_1;
 }
 namespace System::Collections::Generic {
-template <typename T> class LinkedListNode_1;
+template <typename T> class LinkedList_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {

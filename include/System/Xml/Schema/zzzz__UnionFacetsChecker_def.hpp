@@ -7,14 +7,14 @@ CORDL_MODULE_EXPORT(UnionFacetsChecker)
 namespace System {
 class Object;
 }
-namespace System::Collections {
-class ArrayList;
-}
 namespace System {
 class Exception;
 }
 namespace System::Xml::Schema {
 class XmlSchemaDatatype;
+}
+namespace System::Collections {
+class ArrayList;
 }
 // Forward declare root types
 namespace System::Xml::Schema {

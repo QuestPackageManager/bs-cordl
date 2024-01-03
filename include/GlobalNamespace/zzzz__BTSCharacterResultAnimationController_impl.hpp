@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__BTSCharacterResultAnimationController_def.hpp"
-#include "GlobalNamespace/zzzz__MaterialPropertyBlockFloatAnimator_def.hpp"
 #include "GlobalNamespace/zzzz__MaterialPropertyBlockColorSetter_def.hpp"
+#include "GlobalNamespace/zzzz__MaterialPropertyBlockFloatAnimator_def.hpp"
 #include "UnityEngine/zzzz__GameObject_def.hpp"
 #include "GlobalNamespace/zzzz__BTSCharacter_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::BTSCharacterResultAnimationController.SetCharacter

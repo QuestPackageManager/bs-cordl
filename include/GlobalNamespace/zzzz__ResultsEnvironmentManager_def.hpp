@@ -8,13 +8,13 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(ResultsEnvironmentManager)
 namespace GlobalNamespace {
+class __ResultsEnvironmentManager____c__DisplayClass3_0;
+}
+namespace GlobalNamespace {
 class BaseResultsEnvironmentController;
 }
 namespace GlobalNamespace {
 class __ResultsEnvironmentManager__ResultEnvironmentControllerWithKeyword;
-}
-namespace GlobalNamespace {
-class __ResultsEnvironmentManager____c__DisplayClass3_0;
 }
 // Forward declare root types
 namespace GlobalNamespace {

@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Attribute_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(EditorBrowsableAttribute)
-namespace System {
-class Object;
-}
 namespace System::ComponentModel {
 struct EditorBrowsableState;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::ComponentModel {

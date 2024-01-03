@@ -2,9 +2,9 @@
 #include "GlobalNamespace/zzzz__MainEffectSO_impl.hpp"
 #include "GlobalNamespace/zzzz__PyramidBloomRendererSO_impl.hpp"
 #include "GlobalNamespace/zzzz__PyramidBloomMainEffectSO_def.hpp"
+#include "GlobalNamespace/zzzz__PyramidBloomRendererSO_def.hpp"
 #include "UnityEngine/zzzz__RenderTexture_def.hpp"
 #include "GlobalNamespace/zzzz__BloomFogSO_def.hpp"
-#include "GlobalNamespace/zzzz__PyramidBloomRendererSO_def.hpp"
 #include "UnityEngine/zzzz__Shader_def.hpp"
 #include "UnityEngine/zzzz__Material_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::PyramidBloomMainEffectSO.get_hasPostProcessEffect

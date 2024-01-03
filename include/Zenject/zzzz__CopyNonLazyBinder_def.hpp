@@ -4,8 +4,8 @@
 CORDL_MODULE_INIT
 #include "Zenject/zzzz__NonLazyBinder_def.hpp"
 CORDL_MODULE_EXPORT(CopyNonLazyBinder)
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace Zenject {
+class NonLazyBinder;
 }
 namespace Zenject {
 class BindInfo;
@@ -13,8 +13,8 @@ class BindInfo;
 namespace Zenject {
 struct BindingInheritanceMethods;
 }
-namespace Zenject {
-class NonLazyBinder;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 // Forward declare root types
 namespace Zenject {

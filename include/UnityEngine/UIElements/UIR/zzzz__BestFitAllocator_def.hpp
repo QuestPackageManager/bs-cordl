@@ -34,7 +34,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::UIR::__BestFitAllocator__BlockPool);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 65, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7399)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7399), inst: 3980 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7399), inst: 3980 }), TypeDefinitionIndex(TypeDefinitionIndex(7399))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7435))
 // CS Name: ::BestFitAllocator::Block*
 class CORDL_TYPE __BestFitAllocator__Block : public ::UnityEngine::UIElements::UIR::LinkedPoolItem_1<::UnityEngine::UIElements::UIR::__BestFitAllocator__Block*> {
@@ -172,8 +172,8 @@ static_assert(offsetof(::UnityEngine::UIElements::UIR::__BestFitAllocator__Block
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7400)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7400), inst: 3980 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(7435))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7434)) CS Name: ::BestFitAllocator::BlockPool*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7435)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7400), inst: 3980 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(7400))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7434)) CS Name: ::BestFitAllocator::BlockPool*
 class CORDL_TYPE __BestFitAllocator__BlockPool : public ::UnityEngine::UIElements::UIR::LinkedPool_1<::UnityEngine::UIElements::UIR::__BestFitAllocator__Block*> {
 public:
   // Declarations

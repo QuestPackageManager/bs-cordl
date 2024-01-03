@@ -6,20 +6,20 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(EncoderReplacementFallback)
+namespace System::Runtime::Serialization {
+class ISerializable;
+}
 namespace System::Text {
 class EncoderFallbackBuffer;
-}
-namespace System {
-class Object;
 }
 namespace System::Runtime::Serialization {
 struct StreamingContext;
 }
 namespace System::Runtime::Serialization {
-class ISerializable;
-}
-namespace System::Runtime::Serialization {
 class SerializationInfo;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::Text {

@@ -4,8 +4,8 @@
 #include "System/Text/zzzz__StringBuilder_def.hpp"
 #include "System/zzzz__Type_def.hpp"
 #include "System/Diagnostics/zzzz__StackTrace_def.hpp"
-#include "System/Diagnostics/zzzz__StackFrame_def.hpp"
 #include "System/Reflection/zzzz__MethodBase_def.hpp"
+#include "System/Diagnostics/zzzz__StackFrame_def.hpp"
 #include "System/zzzz__Exception_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::System::Diagnostics::__StackTrace__TraceFormat::__StackTrace__TraceFormat(int32_t value__) noexcept {

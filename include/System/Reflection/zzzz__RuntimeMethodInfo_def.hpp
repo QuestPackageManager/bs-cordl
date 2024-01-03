@@ -9,50 +9,29 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(RuntimeMethodInfo)
-namespace System {
-struct RuntimeTypeHandle;
-}
-namespace System {
-class Exception;
+namespace System::Reflection {
+struct PInvokeAttributes;
 }
 namespace System::Reflection {
 class CustomAttributeData;
 }
-namespace System::Reflection {
-class Binder;
-}
 namespace System {
-struct RuntimeMethodHandle;
+class Type;
 }
 namespace System::Reflection {
-struct CallingConventions;
-}
-namespace System {
-class Object;
+class Module;
 }
 namespace System::Reflection {
-struct MethodImplAttributes;
+class RuntimeModule;
 }
-namespace System::Reflection {
-struct PInvokeAttributes;
-}
-namespace System::Globalization {
-class CultureInfo;
-}
-namespace System::Reflection {
-struct BindingFlags;
+namespace System::Runtime::Serialization {
+struct StreamingContext;
 }
 namespace System::Reflection {
 struct MethodAttributes;
 }
-namespace System::Reflection {
-class MethodBase;
-}
-namespace System::Runtime::Serialization {
-class SerializationInfo;
-}
-namespace System::Runtime::Serialization {
-class ISerializable;
+namespace System {
+class Delegate;
 }
 namespace System::Reflection {
 class MethodInfo;
@@ -61,19 +40,40 @@ namespace System {
 class RuntimeType;
 }
 namespace System::Reflection {
-class Module;
-}
-namespace System {
-class Type;
-}
-namespace System {
-class Delegate;
+struct MethodImplAttributes;
 }
 namespace System::Reflection {
-class RuntimeModule;
+class Binder;
+}
+namespace System {
+class Object;
+}
+namespace System::Globalization {
+class CultureInfo;
 }
 namespace System::Runtime::Serialization {
-struct StreamingContext;
+class SerializationInfo;
+}
+namespace System {
+struct RuntimeTypeHandle;
+}
+namespace System::Reflection {
+struct BindingFlags;
+}
+namespace System {
+class Exception;
+}
+namespace System::Reflection {
+class MethodBase;
+}
+namespace System::Reflection {
+struct CallingConventions;
+}
+namespace System {
+struct RuntimeMethodHandle;
+}
+namespace System::Runtime::Serialization {
+class ISerializable;
 }
 namespace System::Reflection {
 class ParameterInfo;
@@ -88,7 +88,7 @@ MARK_REF_PTR_T(::System::Reflection::RuntimeMethodInfo);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Reflection {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3479)), TypeDefinitionIndex(TypeDefinitionIndex(2603))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(3479))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3523))
 // CS Name: ::System.Reflection::RuntimeMethodInfo*
 class CORDL_TYPE RuntimeMethodInfo : public ::System::Reflection::MethodInfo {

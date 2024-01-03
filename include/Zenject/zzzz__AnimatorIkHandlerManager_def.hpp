@@ -8,14 +8,14 @@ CORDL_MODULE_EXPORT(AnimatorIkHandlerManager)
 namespace System {
 class Object;
 }
+namespace Zenject {
+class IAnimatorIkHandler;
+}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace Zenject {
 class InjectTypeInfo;
-}
-namespace Zenject {
-class IAnimatorIkHandler;
 }
 // Forward declare root types
 namespace Zenject {

@@ -1,12 +1,12 @@
 #pragma once
 #include "System/IO/zzzz__TextWriter_impl.hpp"
 #include "System/IO/zzzz__TextWriter_SyncTextWriter_def.hpp"
-#include "System/Threading/Tasks/zzzz__Task_def.hpp"
-#include "System/IO/zzzz__TextWriter_def.hpp"
-#include "System/zzzz__IFormatProvider_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
-#include "System/Text/zzzz__Encoding_def.hpp"
+#include "System/zzzz__IFormatProvider_def.hpp"
+#include "System/Threading/Tasks/zzzz__Task_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "System/IO/zzzz__TextWriter_def.hpp"
+#include "System/Text/zzzz__Encoding_def.hpp"
 //  Writing Method size for method: ::System::IO::__TextWriter__SyncTextWriter._ctor
 template <>
 

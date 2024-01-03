@@ -7,11 +7,11 @@ CORDL_MODULE_EXPORT(InternalRemotingServices)
 namespace System::Collections {
 class Hashtable;
 }
-namespace System {
-class Object;
-}
 namespace System::Runtime::Remoting::Metadata {
 class SoapAttribute;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting {

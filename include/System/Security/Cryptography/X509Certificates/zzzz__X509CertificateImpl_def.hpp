@@ -7,20 +7,20 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(X509CertificateImpl)
-namespace System::Security::Cryptography {
-class DSA;
-}
 namespace System {
-class Object;
+class IDisposable;
 }
 namespace System::Security::Cryptography {
 class RSA;
+}
+namespace System::Security::Cryptography {
+class DSA;
 }
 namespace System {
 struct DateTime;
 }
 namespace System {
-class IDisposable;
+class Object;
 }
 // Forward declare root types
 namespace System::Security::Cryptography::X509Certificates {

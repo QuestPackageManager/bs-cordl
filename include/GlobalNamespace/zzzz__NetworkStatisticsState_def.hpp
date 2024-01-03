@@ -11,10 +11,10 @@ namespace System {
 class IAsyncResult;
 }
 namespace System {
-class AsyncCallback;
+class Object;
 }
 namespace System {
-class Object;
+class AsyncCallback;
 }
 namespace GlobalNamespace {
 struct NetworkStatisticsDelta;

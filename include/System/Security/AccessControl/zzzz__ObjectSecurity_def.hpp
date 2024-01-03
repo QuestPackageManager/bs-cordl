@@ -7,37 +7,37 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ObjectSecurity)
 namespace System::Security::AccessControl {
-struct AccessControlType;
-}
-namespace System::Security::AccessControl {
 class AuthorizationRuleCollection;
-}
-namespace System::Security::AccessControl {
-struct InheritanceFlags;
-}
-namespace System::Security::AccessControl {
-class CommonSecurityDescriptor;
 }
 namespace System::Security::AccessControl {
 struct AccessControlSections;
 }
+namespace System::Security::AccessControl {
+struct AccessControlType;
+}
 namespace System::Threading {
 class ReaderWriterLock;
-}
-namespace System::Security::Principal {
-class IdentityReference;
-}
-namespace System::Security::AccessControl {
-class AccessRule;
-}
-namespace System {
-class Type;
 }
 namespace System::Security::AccessControl {
 struct PropagationFlags;
 }
 namespace System::Security::AccessControl {
+class CommonSecurityDescriptor;
+}
+namespace System::Security::AccessControl {
+class AccessRule;
+}
+namespace System::Security::AccessControl {
+struct InheritanceFlags;
+}
+namespace System {
+class Type;
+}
+namespace System::Security::AccessControl {
 class QualifiedAce;
+}
+namespace System::Security::Principal {
+class IdentityReference;
 }
 // Forward declare root types
 namespace System::Security::AccessControl {

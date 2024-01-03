@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(BeatmapObjectSpawnControllerHelpers)
 namespace GlobalNamespace {
-struct __BeatmapObjectSpawnMovementData__NoteJumpValueType;
+class PlayerSpecificSettings;
 }
 namespace GlobalNamespace {
-class PlayerSpecificSettings;
+struct __BeatmapObjectSpawnMovementData__NoteJumpValueType;
 }
 // Forward declare root types
 namespace GlobalNamespace {

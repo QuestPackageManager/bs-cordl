@@ -7,17 +7,17 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(CanvasUpdateRegistry)
-namespace UnityEngine::UI::Collections {
-template <typename T> class IndexedSet_1;
-}
-namespace UnityEngine::UI {
-class ICanvasElement;
-}
 namespace System {
 template <typename T> class Comparison_1;
 }
 namespace UnityEngine {
 class Transform;
+}
+namespace UnityEngine::UI {
+class ICanvasElement;
+}
+namespace UnityEngine::UI::Collections {
+template <typename T> class IndexedSet_1;
 }
 // Forward declare root types
 namespace UnityEngine::UI {

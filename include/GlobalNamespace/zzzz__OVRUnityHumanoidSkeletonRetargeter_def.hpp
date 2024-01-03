@@ -13,23 +13,14 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVRUnityHumanoidSkeletonRetargeter)
-namespace GlobalNamespace {
-class __OVRUnityHumanoidSkeletonRetargeter__OVRHumanBodyBonesMappings;
-}
 namespace UnityEngine {
-struct HumanBodyBones;
-}
-namespace UnityEngine {
-struct Quaternion;
-}
-namespace UnityEngine {
-class GameObject;
+class Animator;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
-namespace UnityEngine {
-class Animator;
+namespace GlobalNamespace {
+struct __OVRSkeleton__BoneId;
 }
 namespace GlobalNamespace {
 class __OVRUnityHumanoidSkeletonRetargeter__OVRSkeletonMetadata;
@@ -37,17 +28,35 @@ class __OVRUnityHumanoidSkeletonRetargeter__OVRSkeletonMetadata;
 namespace GlobalNamespace {
 class __OVRUnityHumanoidSkeletonRetargeter__JointAdjustment;
 }
-namespace GlobalNamespace {
-struct __OVRSkeleton__BoneId;
+namespace UnityEngine {
+class GameObject;
+}
+namespace UnityEngine {
+struct HumanBodyBones;
 }
 namespace GlobalNamespace {
-struct __OVRUnityHumanoidSkeletonRetargeter__OVRHumanBodyBonesMappings__BodySection;
+class __OVRUnityHumanoidSkeletonRetargeter__OVRHumanBodyBonesMappings;
+}
+namespace UnityEngine {
+struct Quaternion;
+}
+namespace GlobalNamespace {
+struct __OVRUnityHumanoidSkeletonRetargeter__OVRHumanBodyBonesMappings__BodyTrackingBoneId;
 }
 namespace System {
 template <typename T1, typename T2> class Tuple_2;
 }
 namespace GlobalNamespace {
-struct __OVRUnityHumanoidSkeletonRetargeter__OVRHumanBodyBonesMappings__BodyTrackingBoneId;
+struct __OVRUnityHumanoidSkeletonRetargeter__OVRHumanBodyBonesMappings__BodySection;
+}
+namespace GlobalNamespace {
+class __OVRUnityHumanoidSkeletonRetargeter__OVRSkeletonMetadata__BoneData;
+}
+namespace UnityEngine {
+class Transform;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 namespace System::Collections::Generic {
 template <typename T> class IList_1;
@@ -55,17 +64,8 @@ template <typename T> class IList_1;
 namespace GlobalNamespace {
 class OVRBone;
 }
-namespace UnityEngine {
-class Transform;
-}
 namespace GlobalNamespace {
 class OVRSkeleton;
-}
-namespace GlobalNamespace {
-class __OVRUnityHumanoidSkeletonRetargeter__OVRSkeletonMetadata__BoneData;
-}
-namespace UnityEngine {
-struct Vector3;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -604,9 +604,9 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRUnityHuman
 // SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 113, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 3342 }), TypeDefinitionIndex(TypeDefinitionIndex(2613)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(2448))} Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(7583)) CS Name: ::OVRUnityHumanoidSkeletonRetargeter::OVRSkeletonMetadata::BoneData*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2448)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10252)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 3342 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(7583)) CS
+// Name: ::OVRUnityHumanoidSkeletonRetargeter::OVRSkeletonMetadata::BoneData*
 class CORDL_TYPE __OVRUnityHumanoidSkeletonRetargeter__OVRSkeletonMetadata__BoneData : public ::System::Object {
 public:
   // Declarations
@@ -888,8 +888,8 @@ static_assert(offsetof(::GlobalNamespace::__OVRUnityHumanoidSkeletonRetargeter__
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(14853)),
-// TypeDefinitionIndex(TypeDefinitionIndex(7581))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7585)) CS Name: ::OVRUnityHumanoidSkeletonRetargeter::JointAdjustment*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(7581)), TypeDefinitionIndex(TypeDefinitionIndex(10252)),
+// TypeDefinitionIndex(TypeDefinitionIndex(14853))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7585)) CS Name: ::OVRUnityHumanoidSkeletonRetargeter::JointAdjustment*
 class CORDL_TYPE __OVRUnityHumanoidSkeletonRetargeter__JointAdjustment : public ::System::Object {
 public:
   // Declarations

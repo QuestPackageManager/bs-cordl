@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(StreamingContext)
-namespace System {
-class Object;
-}
 namespace System::Runtime::Serialization {
 struct StreamingContextStates;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::Runtime::Serialization {

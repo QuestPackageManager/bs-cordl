@@ -1,7 +1,7 @@
 #pragma once
 #include "IgnoranceCore/zzzz__IgnoranceServerStats_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "IgnoranceCore/zzzz__IgnoranceClientStats_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 // Ctor Parameters [CppParam { name: "BytesReceived", ty: "uint64_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "BytesSent", ty: "uint64_t", modifiers: "", def_value: Some("{}") },
 // CppParam { name: "PacketsReceived", ty: "uint64_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "PacketsSent", ty: "uint64_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
 // "PeersCount", ty: "uint64_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "PeerStats", ty:

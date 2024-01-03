@@ -5,17 +5,17 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(InputActionProperty)
-namespace System {
-template <typename T> class IEquatable_1;
-}
 namespace UnityEngine::InputSystem {
 class InputAction;
 }
 namespace System {
-class Object;
+template <typename T> class IEquatable_1;
 }
 namespace UnityEngine::InputSystem {
 class InputActionReference;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem {

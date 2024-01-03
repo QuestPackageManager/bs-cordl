@@ -7,19 +7,19 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(PromoViewController)
 namespace GlobalNamespace {
-class __PromoViewController__ButtonPromoTypePair;
-}
-namespace System {
-template <typename T1, typename T2, typename T3> class Action_3;
-}
-namespace GlobalNamespace {
-class __PromoViewController____c__DisplayClass5_0;
-}
-namespace GlobalNamespace {
 class IPreviewBeatmapLevel;
 }
 namespace GlobalNamespace {
 class IAnnotatedBeatmapLevelCollection;
+}
+namespace GlobalNamespace {
+class __PromoViewController__ButtonPromoTypePair;
+}
+namespace GlobalNamespace {
+class __PromoViewController____c__DisplayClass5_0;
+}
+namespace System {
+template <typename T1, typename T2, typename T3> class Action_3;
 }
 namespace UnityEngine::UI {
 class Button;

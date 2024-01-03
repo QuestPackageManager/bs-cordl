@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Text/zzzz__Encoder_def.hpp"
-#include "System/Text/zzzz__EncoderFallback_def.hpp"
 #include "System/Text/zzzz__EncoderFallbackBuffer_def.hpp"
+#include "System/Text/zzzz__EncoderFallback_def.hpp"
 //  Writing Method size for method: ::System::Text::Encoder._ctor
 template <>
 

@@ -6,17 +6,17 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(IconSegmentedControlCell)
-namespace HMUI {
-class HoverHint;
-}
-namespace UnityEngine::UI {
-class Image;
+namespace UnityEngine {
+class Sprite;
 }
 namespace UnityEngine {
 class GameObject;
 }
-namespace UnityEngine {
-class Sprite;
+namespace UnityEngine::UI {
+class Image;
+}
+namespace HMUI {
+class HoverHint;
 }
 // Forward declare root types
 namespace HMUI {

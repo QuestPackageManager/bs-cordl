@@ -13,41 +13,41 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(PlaybackRenderer)
-namespace UnityEngine {
-class Shader;
-}
-namespace UnityEngine {
-class Transform;
-}
-namespace UnityEngine {
-class GameObject;
-}
-namespace System {
-class Action;
+namespace GlobalNamespace {
+class __PosesRecordingData__ExternalCameraCalibration;
 }
 namespace UnityEngine {
 class Material;
 }
 namespace UnityEngine {
+class Transform;
+}
+namespace UnityEngine {
 class Camera;
+}
+namespace System {
+class Action;
 }
 namespace GlobalNamespace {
 class __PlaybackRenderer__PlaybackScreenshot;
 }
-namespace GlobalNamespace {
-class __PosesRecordingData__ExternalCameraCalibration;
+namespace UnityEngine {
+class Shader;
 }
 namespace UnityEngine {
-struct Color;
+class GameObject;
+}
+namespace UnityEngine {
+struct LayerMask;
 }
 namespace UnityEngine {
 class RenderTexture;
 }
+namespace UnityEngine {
+struct Color;
+}
 namespace GlobalNamespace {
 struct __PlaybackRenderer__PlaybackScreenshot__Type;
-}
-namespace UnityEngine {
-struct LayerMask;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -117,7 +117,7 @@ static_assert(offsetof(::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5923)), TypeDefinitionIndex(TypeDefinitionIndex(10204)), TypeDefinitionIndex(TypeDefinitionIndex(2613)),
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5923)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10204)),
 // TypeDefinitionIndex(TypeDefinitionIndex(10251))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5924)) CS Name: ::PlaybackRenderer::PlaybackScreenshot*
 class CORDL_TYPE __PlaybackRenderer__PlaybackScreenshot : public ::System::Object {
 public:

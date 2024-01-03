@@ -3,11 +3,11 @@
 #include "UnityEngine/UIElements/zzzz__CallbackPhase_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__InvokePolicy_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__EventCallbackFunctorBase_def.hpp"
-#include "UnityEngine/UIElements/zzzz__PropagationPhase_def.hpp"
 #include "UnityEngine/UIElements/zzzz__EventBase_def.hpp"
+#include "UnityEngine/UIElements/zzzz__CallbackPhase_def.hpp"
 #include "UnityEngine/UIElements/zzzz__InvokePolicy_def.hpp"
 #include "System/zzzz__Delegate_def.hpp"
-#include "UnityEngine/UIElements/zzzz__CallbackPhase_def.hpp"
+#include "UnityEngine/UIElements/zzzz__PropagationPhase_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::EventCallbackFunctorBase.get_phase
 template <>
 

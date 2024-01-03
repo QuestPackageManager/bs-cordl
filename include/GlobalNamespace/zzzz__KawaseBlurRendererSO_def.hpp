@@ -11,17 +11,17 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(KawaseBlurRendererSO)
+namespace GlobalNamespace {
+class __KawaseBlurRendererSO__BloomKernel;
+}
 namespace UnityEngine {
-class Texture;
+class Material;
 }
 namespace GlobalNamespace {
 struct __KawaseBlurRendererSO__Pass;
 }
-namespace UnityEngine {
-class RenderTexture;
-}
-namespace UnityEngine {
-class Texture2D;
+namespace GlobalNamespace {
+struct __KawaseBlurRendererSO__KernelSize;
 }
 namespace UnityEngine::Rendering {
 class CommandBuffer;
@@ -29,17 +29,17 @@ class CommandBuffer;
 namespace UnityEngine {
 class Shader;
 }
-namespace GlobalNamespace {
-struct __KawaseBlurRendererSO__KernelSize;
-}
 namespace UnityEngine {
-class Material;
+class Texture2D;
 }
 namespace GlobalNamespace {
 struct __KawaseBlurRendererSO__WeightsType;
 }
-namespace GlobalNamespace {
-class __KawaseBlurRendererSO__BloomKernel;
+namespace UnityEngine {
+class Texture;
+}
+namespace UnityEngine {
+class RenderTexture;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -195,7 +195,7 @@ static_assert(offsetof(::GlobalNamespace::__KawaseBlurRendererSO__WeightsType, v
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14503)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(14503))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14505))
 // CS Name: ::KawaseBlurRendererSO::BloomKernel*
 class CORDL_TYPE __KawaseBlurRendererSO__BloomKernel : public ::System::Object {

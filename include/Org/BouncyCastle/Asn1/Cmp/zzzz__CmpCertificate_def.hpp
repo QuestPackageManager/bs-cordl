@@ -4,14 +4,14 @@
 CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 CORDL_MODULE_EXPORT(CmpCertificate)
-namespace Org::BouncyCastle::Asn1::X509 {
-class AttributeCertificate;
+namespace System {
+class Object;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class X509CertificateStructure;
 }
-namespace System {
-class Object;
+namespace Org::BouncyCastle::Asn1::X509 {
+class AttributeCertificate;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;

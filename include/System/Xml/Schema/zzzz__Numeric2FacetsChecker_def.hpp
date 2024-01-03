@@ -5,20 +5,20 @@ CORDL_MODULE_INIT
 #include "System/Xml/Schema/zzzz__FacetsChecker_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(Numeric2FacetsChecker)
-namespace System {
-class Exception;
-}
-namespace System {
-class Object;
+namespace System::Xml::Schema {
+class XmlSchemaDatatype;
 }
 namespace System::Collections {
 class ArrayList;
 }
-namespace System::Xml::Schema {
-class XmlValueConverter;
+namespace System {
+class Object;
+}
+namespace System {
+class Exception;
 }
 namespace System::Xml::Schema {
-class XmlSchemaDatatype;
+class XmlValueConverter;
 }
 // Forward declare root types
 namespace System::Xml::Schema {

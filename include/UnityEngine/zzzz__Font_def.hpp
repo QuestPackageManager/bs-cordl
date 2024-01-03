@@ -8,13 +8,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Font)
 namespace UnityEngine {
+class Material;
+}
+namespace UnityEngine {
 class __Font__FontTextureRebuildCallback;
 }
 namespace System {
 template <typename T> class Action_1;
-}
-namespace UnityEngine {
-class Material;
 }
 namespace System {
 class Object;

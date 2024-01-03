@@ -21,7 +21,7 @@ MARK_REF_PTR_T(::UnityEngine::Timeline::TrackBindingTypeAttribute);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547)), TypeDefinitionIndex(TypeDefinitionIndex(13917))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13917)), TypeDefinitionIndex(TypeDefinitionIndex(2547))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13918))
 // CS Name: ::UnityEngine.Timeline::TrackBindingTypeAttribute*
 class CORDL_TYPE TrackBindingTypeAttribute : public ::System::Attribute {

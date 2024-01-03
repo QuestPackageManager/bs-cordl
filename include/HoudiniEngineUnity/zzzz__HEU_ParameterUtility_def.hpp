@@ -16,13 +16,13 @@ namespace HoudiniEngineUnity {
 class HEU_SessionBase;
 }
 namespace UnityEngine {
+class GameObject;
+}
+namespace UnityEngine {
 struct Color;
 }
 namespace HoudiniEngineUnity {
 class HEU_HoudiniAsset;
-}
-namespace UnityEngine {
-class GameObject;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {

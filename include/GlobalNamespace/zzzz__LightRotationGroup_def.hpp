@@ -17,9 +17,8 @@ MARK_REF_PTR_T(::GlobalNamespace::LightRotationGroup);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4943)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(4943), inst: 3959 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(4932)), TypeDefinitionIndex(TypeDefinitionIndex(4933)), TypeDefinitionIndex(TypeDefinitionIndex(4934))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4939))
-// CS Name: ::LightRotationGroup*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4932)), TypeDefinitionIndex(TypeDefinitionIndex(4943)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(4943), inst: 3959
+// }), TypeDefinitionIndex(TypeDefinitionIndex(4934)), TypeDefinitionIndex(TypeDefinitionIndex(4933))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4939)) CS Name: ::LightRotationGroup*
 class CORDL_TYPE LightRotationGroup : public ::GlobalNamespace::LightTransformGroup_3<::GlobalNamespace::LightGroupRotationXTransform*, ::GlobalNamespace::LightGroupRotationYTransform*,
                                                                                       ::GlobalNamespace::LightGroupRotationZTransform*> {
 public:

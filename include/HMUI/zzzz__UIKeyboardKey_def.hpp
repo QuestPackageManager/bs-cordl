@@ -22,7 +22,7 @@ MARK_REF_PTR_T(::HMUI::UIKeyboardKey);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 49, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10058))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10058)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13540))
 // CS Name: ::HMUI::UIKeyboardKey*
 class CORDL_TYPE UIKeyboardKey : public ::UnityEngine::MonoBehaviour {

@@ -8,13 +8,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(GMac)
 namespace Org::BouncyCastle::Crypto {
+class ICipherParameters;
+}
+namespace Org::BouncyCastle::Crypto {
 class IMac;
 }
 namespace Org::BouncyCastle::Crypto::Modes {
 class GcmBlockCipher;
-}
-namespace Org::BouncyCastle::Crypto {
-class ICipherParameters;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Macs {

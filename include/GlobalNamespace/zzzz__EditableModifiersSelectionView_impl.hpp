@@ -1,9 +1,9 @@
 #pragma once
 #include "GlobalNamespace/zzzz__ModifiersSelectionView_impl.hpp"
 #include "GlobalNamespace/zzzz__EditableModifiersSelectionView_def.hpp"
+#include "GlobalNamespace/zzzz__GameplayModifiers_def.hpp"
 #include "UnityEngine/zzzz__CanvasGroup_def.hpp"
 #include "UnityEngine/UI/zzzz__Button_def.hpp"
-#include "GlobalNamespace/zzzz__GameplayModifiers_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::EditableModifiersSelectionView.get_editButton
 template <>
 

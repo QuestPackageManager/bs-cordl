@@ -7,26 +7,26 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(Ed25519)
-namespace Org::BouncyCastle::Crypto {
-class IDigest;
+namespace System {
+class Object;
 }
 namespace Org::BouncyCastle::Math::EC::Rfc8032 {
 struct __Ed25519__Algorithm;
 }
 namespace Org::BouncyCastle::Math::EC::Rfc8032 {
-class __Ed25519__PointPrecomp;
-}
-namespace Org::BouncyCastle::Math::EC::Rfc8032 {
 class __Ed25519__PointAccum;
 }
-namespace System {
-class Object;
+namespace Org::BouncyCastle::Math::EC::Rfc8032 {
+class __Ed25519__PointExt;
+}
+namespace Org::BouncyCastle::Math::EC::Rfc8032 {
+class __Ed25519__PointPrecomp;
 }
 namespace Org::BouncyCastle::Security {
 class SecureRandom;
 }
-namespace Org::BouncyCastle::Math::EC::Rfc8032 {
-class __Ed25519__PointExt;
+namespace Org::BouncyCastle::Crypto {
+class IDigest;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Math::EC::Rfc8032 {

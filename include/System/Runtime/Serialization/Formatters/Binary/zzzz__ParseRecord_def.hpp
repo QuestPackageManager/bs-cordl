@@ -14,20 +14,20 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ParseRecord)
+namespace System::Runtime::Serialization::Formatters::Binary {
+class ReadObjectInfo;
+}
 namespace System {
 class Object;
-}
-namespace System::Runtime::Serialization {
-class SerializationInfo;
 }
 namespace System {
 class Type;
 }
 namespace System::Runtime::Serialization::Formatters::Binary {
-class ReadObjectInfo;
-}
-namespace System::Runtime::Serialization::Formatters::Binary {
 class PrimitiveArray;
+}
+namespace System::Runtime::Serialization {
+class SerializationInfo;
 }
 // Forward declare root types
 namespace System::Runtime::Serialization::Formatters::Binary {
@@ -39,9 +39,9 @@ MARK_REF_PTR_T(::System::Runtime::Serialization::Formatters::Binary::ParseRecord
 // SizeInfo { instance_size: 288, native_size: -1, calculated_instance_size: 288, calculated_native_size: 284, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization::Formatters::Binary {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3248)), TypeDefinitionIndex(TypeDefinitionIndex(3252)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3247)), TypeDefinitionIndex(TypeDefinitionIndex(3251)), TypeDefinitionIndex(TypeDefinitionIndex(3250)), TypeDefinitionIndex(TypeDefinitionIndex(3249)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3253))} Self: TypeDefinitionIndex(TypeDefinitionIndex(3291)) CS Name: ::System.Runtime.Serialization.Formatters.Binary::ParseRecord*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3252)), TypeDefinitionIndex(TypeDefinitionIndex(3248)), TypeDefinitionIndex(TypeDefinitionIndex(3249)),
+// TypeDefinitionIndex(TypeDefinitionIndex(3250)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3251)), TypeDefinitionIndex(TypeDefinitionIndex(3253)),
+// TypeDefinitionIndex(TypeDefinitionIndex(3247))} Self: TypeDefinitionIndex(TypeDefinitionIndex(3291)) CS Name: ::System.Runtime.Serialization.Formatters.Binary::ParseRecord*
 class CORDL_TYPE ParseRecord : public ::System::Object {
 public:
   // Declarations

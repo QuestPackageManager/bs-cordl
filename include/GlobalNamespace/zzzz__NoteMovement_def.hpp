@@ -9,14 +9,14 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(NoteMovement)
-namespace UnityEngine {
-struct Quaternion;
-}
-namespace System {
-class Action;
+namespace GlobalNamespace {
+class NoteFloorMovement;
 }
 namespace GlobalNamespace {
 class NoteJump;
+}
+namespace UnityEngine {
+struct Quaternion;
 }
 namespace GlobalNamespace {
 struct __NoteMovement__MovementPhase;
@@ -25,10 +25,10 @@ namespace UnityEngine {
 struct Vector3;
 }
 namespace System {
-template <typename T> class Action_1;
+class Action;
 }
-namespace GlobalNamespace {
-class NoteFloorMovement;
+namespace System {
+template <typename T> class Action_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -98,7 +98,7 @@ static_assert(offsetof(::GlobalNamespace::__NoteMovement__MovementPhase, value__
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 156, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(4782))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(4782))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4783))
 // CS Name: ::NoteMovement*
 class CORDL_TYPE NoteMovement : public ::UnityEngine::MonoBehaviour {

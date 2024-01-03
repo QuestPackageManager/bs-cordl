@@ -8,10 +8,10 @@ namespace System {
 class Delegate;
 }
 namespace System {
-class IAsyncResult;
+class Object;
 }
 namespace System {
-class Object;
+class IAsyncResult;
 }
 // Forward declare root types
 namespace System::ComponentModel {

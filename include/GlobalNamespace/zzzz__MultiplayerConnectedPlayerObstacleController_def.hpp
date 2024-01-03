@@ -6,14 +6,14 @@ CORDL_MODULE_INIT
 #include "Zenject/zzzz__MonoMemoryPool_1_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(MultiplayerConnectedPlayerObstacleController)
-namespace UnityEngine {
-struct Vector3;
+namespace GlobalNamespace {
+class MultiplayerConnectedPlayerObstacleClippingController;
 }
 namespace GlobalNamespace {
 class __MultiplayerConnectedPlayerObstacleController__Pool;
 }
-namespace GlobalNamespace {
-class MultiplayerConnectedPlayerObstacleClippingController;
+namespace UnityEngine {
+struct Vector3;
 }
 namespace GlobalNamespace {
 class ObstacleData;
@@ -89,8 +89,8 @@ static_assert(offsetof(::GlobalNamespace::MultiplayerConnectedPlayerObstacleCont
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11050), inst: 2820 }), TypeDefinitionIndex(TypeDefinitionIndex(11050)),
-// TypeDefinitionIndex(TypeDefinitionIndex(5142))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5141)) CS Name: ::MultiplayerConnectedPlayerObstacleController::Pool*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5142)), TypeDefinitionIndex(TypeDefinitionIndex(11050)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11050), inst:
+// 2820 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(5141)) CS Name: ::MultiplayerConnectedPlayerObstacleController::Pool*
 class CORDL_TYPE __MultiplayerConnectedPlayerObstacleController__Pool : public ::Zenject::MonoMemoryPool_1<::GlobalNamespace::MultiplayerConnectedPlayerObstacleController*> {
 public:
   // Declarations

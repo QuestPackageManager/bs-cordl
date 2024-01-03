@@ -8,37 +8,37 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(LocalLeaderboardViewController)
 namespace GlobalNamespace {
-class IDifficultyBeatmap;
+class ISaveData;
 }
 namespace GlobalNamespace {
-struct __LocalLeaderboardsModel__LeaderboardType;
+class IDifficultyBeatmap;
 }
-namespace UnityEngine {
-class Sprite;
+namespace HMUI {
+class SegmentedControl;
+}
+namespace GlobalNamespace {
+class LocalLeaderboardTableView;
 }
 namespace HMUI {
 class IconSegmentedControl;
 }
 namespace GlobalNamespace {
-class ISaveData;
+struct __LocalLeaderboardsModel__LeaderboardType;
 }
 namespace GlobalNamespace {
 class PlayerDataModel;
 }
-namespace GlobalNamespace {
-class LocalLeaderboardTableView;
+namespace HMUI {
+class NoTransitionsButton;
 }
 namespace GlobalNamespace {
 class LocalLeaderboardsModel;
 }
 namespace UnityEngine {
+class Sprite;
+}
+namespace UnityEngine {
 class GameObject;
-}
-namespace HMUI {
-class NoTransitionsButton;
-}
-namespace HMUI {
-class SegmentedControl;
 }
 // Forward declare root types
 namespace GlobalNamespace {

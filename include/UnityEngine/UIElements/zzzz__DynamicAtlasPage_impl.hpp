@@ -5,16 +5,16 @@
 #include "UnityEngine/zzzz__RenderTextureFormat_impl.hpp"
 #include "UnityEngine/zzzz__Vector2Int_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__DynamicAtlasPage_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
-#include "UnityEngine/zzzz__FilterMode_def.hpp"
 #include "UnityEngine/zzzz__RenderTexture_def.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__Allocator2D_def.hpp"
-#include "UnityEngine/UIElements/UIR/zzzz__TextureBlitter_def.hpp"
-#include "UnityEngine/zzzz__RectInt_def.hpp"
-#include "UnityEngine/zzzz__Texture2D_def.hpp"
-#include "UnityEngine/zzzz__RenderTextureFormat_def.hpp"
 #include "UnityEngine/UIElements/zzzz__TextureId_def.hpp"
+#include "UnityEngine/zzzz__Texture2D_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
+#include "UnityEngine/zzzz__RenderTextureFormat_def.hpp"
+#include "UnityEngine/zzzz__FilterMode_def.hpp"
 #include "UnityEngine/zzzz__Vector2Int_def.hpp"
+#include "UnityEngine/zzzz__RectInt_def.hpp"
+#include "UnityEngine/UIElements/UIR/zzzz__TextureBlitter_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::DynamicAtlasPage.get_textureId
 template <>
 

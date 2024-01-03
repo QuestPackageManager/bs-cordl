@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__ObstacleDissolve_def.hpp"
-#include "GlobalNamespace/zzzz__ObstacleControllerBase_def.hpp"
 #include "GlobalNamespace/zzzz__CutoutAnimateEffect_def.hpp"
+#include "GlobalNamespace/zzzz__ObstacleControllerBase_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::ObstacleDissolve.Awake
 template <>
 

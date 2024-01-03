@@ -8,11 +8,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(MarshalAsAttribute)
-namespace System::Runtime::InteropServices {
-struct UnmanagedType;
-}
 namespace System {
 class Type;
+}
+namespace System::Runtime::InteropServices {
+struct UnmanagedType;
 }
 // Forward declare root types
 namespace System::Runtime::InteropServices {
@@ -24,7 +24,7 @@ MARK_REF_PTR_T(::System::Runtime::InteropServices::MarshalAsAttribute);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 70, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::InteropServices {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547)), TypeDefinitionIndex(TypeDefinitionIndex(3320)), TypeDefinitionIndex(TypeDefinitionIndex(3321))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547)), TypeDefinitionIndex(TypeDefinitionIndex(3321)), TypeDefinitionIndex(TypeDefinitionIndex(3320))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3341))
 // CS Name: ::System.Runtime.InteropServices::MarshalAsAttribute*
 class CORDL_TYPE MarshalAsAttribute : public ::System::Attribute {

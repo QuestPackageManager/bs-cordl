@@ -2,9 +2,9 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "Zenject/zzzz__ZenjectBinding_impl.hpp"
 #include "Zenject/zzzz__ZenjectBinding_def.hpp"
+#include "UnityEngine/zzzz__Component_def.hpp"
 #include "Zenject/zzzz__ZenjectBinding_def.hpp"
 #include "Zenject/zzzz__Context_def.hpp"
-#include "UnityEngine/zzzz__Component_def.hpp"
 #include "Zenject/zzzz__InjectTypeInfo_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::Zenject::__ZenjectBinding__BindTypes::__ZenjectBinding__BindTypes(int32_t value__) noexcept {

@@ -7,8 +7,23 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(HttpListenerResponse)
+namespace System::Text {
+class Encoding;
+}
 namespace System::IO {
 class Stream;
+}
+namespace System::Net {
+class Cookie;
+}
+namespace System::Net {
+class WebHeaderCollection;
+}
+namespace System::IO {
+class MemoryStream;
+}
+namespace System::Net {
+class HttpListenerContext;
 }
 namespace System {
 class IDisposable;
@@ -16,29 +31,14 @@ class IDisposable;
 namespace System::Net {
 class CookieCollection;
 }
-namespace System::Net {
-class WebHeaderCollection;
-}
-namespace System::Net {
-class ResponseStream;
-}
-namespace System::Text {
-class Encoding;
-}
 namespace System {
 class Version;
 }
 namespace System {
 class Object;
 }
-namespace System::IO {
-class MemoryStream;
-}
 namespace System::Net {
-class Cookie;
-}
-namespace System::Net {
-class HttpListenerContext;
+class ResponseStream;
 }
 // Forward declare root types
 namespace System::Net {

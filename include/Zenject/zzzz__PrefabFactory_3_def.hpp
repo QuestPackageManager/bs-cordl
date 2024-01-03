@@ -6,19 +6,19 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(PrefabFactory_3)
 namespace Zenject {
+class InjectTypeInfo;
+}
+namespace Zenject {
 class IFactory;
 }
 namespace Zenject {
 template <typename TParam1, typename TParam2, typename TParam3, typename TValue> class IFactory_4;
 }
 namespace Zenject {
-class InjectTypeInfo;
+class DiContainer;
 }
 namespace UnityEngine {
 class Object;
-}
-namespace Zenject {
-class DiContainer;
 }
 namespace System {
 class Object;

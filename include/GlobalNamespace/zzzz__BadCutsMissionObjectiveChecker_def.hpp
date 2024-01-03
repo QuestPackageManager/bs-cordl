@@ -9,10 +9,10 @@ namespace GlobalNamespace {
 class NoteController;
 }
 namespace GlobalNamespace {
-struct NoteCutInfo;
+class BeatmapObjectManager;
 }
 namespace GlobalNamespace {
-class BeatmapObjectManager;
+struct NoteCutInfo;
 }
 // Forward declare root types
 namespace GlobalNamespace {

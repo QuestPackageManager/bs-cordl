@@ -9,16 +9,16 @@ namespace System {
 class Attribute;
 }
 namespace System::ComponentModel {
-class ITypeDescriptorContext;
-}
-namespace System {
-class Object;
+class PropertyDescriptorCollection;
 }
 namespace System {
 class Type;
 }
+namespace System {
+class Object;
+}
 namespace System::ComponentModel {
-class PropertyDescriptorCollection;
+class ITypeDescriptorContext;
 }
 // Forward declare root types
 namespace System::ComponentModel {

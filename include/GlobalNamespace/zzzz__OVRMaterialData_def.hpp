@@ -7,14 +7,14 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVRMaterialData)
+namespace UnityEngine {
+class Shader;
+}
 namespace GlobalNamespace {
 struct OVRTextureData;
 }
 namespace UnityEngine {
 struct Color;
-}
-namespace UnityEngine {
-class Shader;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -26,7 +26,7 @@ MARK_VAL_T(::GlobalNamespace::OVRMaterialData);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(7568))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7568)), TypeDefinitionIndex(TypeDefinitionIndex(10251))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7566))
 // CS Name: ::OVRMaterialData
 struct CORDL_TYPE OVRMaterialData {

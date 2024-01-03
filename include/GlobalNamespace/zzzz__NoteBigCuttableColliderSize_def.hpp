@@ -5,17 +5,17 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 CORDL_MODULE_EXPORT(NoteBigCuttableColliderSize)
-namespace UnityEngine {
-class BoxCollider;
-}
-namespace GlobalNamespace {
-class NoteControllerBase;
-}
 namespace GlobalNamespace {
 class INoteControllerDidInitEvent;
 }
 namespace GlobalNamespace {
 class NoteController;
+}
+namespace UnityEngine {
+class BoxCollider;
+}
+namespace GlobalNamespace {
+class NoteControllerBase;
 }
 // Forward declare root types
 namespace GlobalNamespace {

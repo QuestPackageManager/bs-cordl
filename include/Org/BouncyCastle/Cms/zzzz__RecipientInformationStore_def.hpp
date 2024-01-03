@@ -12,13 +12,13 @@ namespace System::Collections {
 class ICollection;
 }
 namespace System::Collections {
-class IList;
-}
-namespace System::Collections {
 class IDictionary;
 }
 namespace Org::BouncyCastle::Cms {
 class RecipientInformation;
+}
+namespace System::Collections {
+class IList;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Cms {

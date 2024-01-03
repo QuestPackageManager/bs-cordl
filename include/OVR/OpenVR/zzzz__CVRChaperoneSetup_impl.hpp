@@ -2,10 +2,10 @@
 #include "OVR/OpenVR/zzzz__IVRChaperoneSetup_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "OVR/OpenVR/zzzz__CVRChaperoneSetup_def.hpp"
-#include "OVR/OpenVR/zzzz__HmdMatrix34_t_def.hpp"
-#include "OVR/OpenVR/zzzz__HmdQuad_t_def.hpp"
 #include "System/Text/zzzz__StringBuilder_def.hpp"
 #include "OVR/OpenVR/zzzz__EChaperoneConfigFile_def.hpp"
+#include "OVR/OpenVR/zzzz__HmdQuad_t_def.hpp"
+#include "OVR/OpenVR/zzzz__HmdMatrix34_t_def.hpp"
 //  Writing Method size for method: ::OVR::OpenVR::CVRChaperoneSetup._ctor
 template <>
 

@@ -9,20 +9,20 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(AnimationOutputWeightProcessor)
-namespace UnityEngine::Playables {
-struct Playable;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace UnityEngine::Timeline {
-class ITimelineEvaluateCallback;
+namespace UnityEngine::Animations {
+struct AnimationPlayableOutput;
 }
 namespace UnityEngine::Timeline {
 struct __AnimationOutputWeightProcessor__WeightInfo;
 }
-namespace UnityEngine::Animations {
-struct AnimationPlayableOutput;
+namespace UnityEngine::Playables {
+struct Playable;
+}
+namespace UnityEngine::Timeline {
+class ITimelineEvaluateCallback;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 // Forward declare root types
 namespace UnityEngine::Timeline {
@@ -80,7 +80,7 @@ static_assert(offsetof(::UnityEngine::Timeline::__AnimationOutputWeightProcessor
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14898)), TypeDefinitionIndex(TypeDefinitionIndex(14901)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(14901)), TypeDefinitionIndex(TypeDefinitionIndex(14898))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13830))
 // CS Name: ::UnityEngine.Timeline::AnimationOutputWeightProcessor*
 class CORDL_TYPE AnimationOutputWeightProcessor : public ::System::Object {

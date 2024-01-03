@@ -1,8 +1,8 @@
 #pragma once
 #include "Zenject/zzzz__Installer_1_impl.hpp"
 #include "Zenject/zzzz__ZenjectManagersInstaller_def.hpp"
-#include "Zenject/zzzz__InjectTypeInfo_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "Zenject/zzzz__InjectTypeInfo_def.hpp"
 //  Writing Method size for method: ::Zenject::ZenjectManagersInstaller.InstallBindings
 template <>
 

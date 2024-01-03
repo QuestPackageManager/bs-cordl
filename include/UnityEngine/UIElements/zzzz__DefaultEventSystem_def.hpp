@@ -13,50 +13,50 @@ CORDL_MODULE_EXPORT(DefaultEventSystem)
 namespace System {
 template <typename T, typename TResult> class Func_2;
 }
-namespace UnityEngine {
-struct EventModifiers;
-}
-namespace System {
-template <typename T1, typename T2, typename T3, typename TResult> class Func_4;
-}
-namespace UnityEngine::UIElements {
-class EventBase;
-}
-namespace UnityEngine::UIElements {
-class __DefaultEventSystem__Input;
-}
-namespace UnityEngine {
-struct Vector2;
-}
 namespace System {
 template <typename T> struct Nullable_1;
-}
-namespace UnityEngine::UIElements {
-class __DefaultEventSystem__NoInput;
 }
 namespace System {
 template <typename TResult> class Func_1;
 }
 namespace UnityEngine {
-class Event;
+struct Vector3;
+}
+namespace UnityEngine::UIElements {
+class __DefaultEventSystem__NoInput;
 }
 namespace UnityEngine::UIElements {
 class __DefaultEventSystem__IInput;
 }
-namespace UnityEngine::UIElements {
-class __DefaultEventSystem____c;
-}
-namespace UnityEngine::UIElements {
-class BaseRuntimePanel;
-}
 namespace UnityEngine {
-struct Vector3;
+class Event;
 }
 namespace UnityEngine {
 struct Touch;
 }
 namespace UnityEngine::UIElements {
+class BaseRuntimePanel;
+}
+namespace UnityEngine::UIElements {
 struct __DefaultEventSystem__UpdateMode;
+}
+namespace UnityEngine {
+struct Vector2;
+}
+namespace UnityEngine {
+struct EventModifiers;
+}
+namespace UnityEngine::UIElements {
+class EventBase;
+}
+namespace UnityEngine::UIElements {
+class __DefaultEventSystem____c;
+}
+namespace UnityEngine::UIElements {
+class __DefaultEventSystem__Input;
+}
+namespace System {
+template <typename T1, typename T2, typename T3, typename TResult> class Func_4;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -415,7 +415,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__Defau
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10243))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(6763)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6768))
 // CS Name: ::UnityEngine.UIElements::DefaultEventSystem*
 class CORDL_TYPE DefaultEventSystem : public ::System::Object {

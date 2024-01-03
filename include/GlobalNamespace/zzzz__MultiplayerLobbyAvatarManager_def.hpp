@@ -9,37 +9,37 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(MultiplayerLobbyAvatarManager)
 namespace GlobalNamespace {
-class IConnectedPlayer;
-}
-namespace GlobalNamespace {
-class __MultiplayerLobbyAvatarController__Factory;
-}
-namespace GlobalNamespace {
 class MultiplayerLobbyAvatarController;
-}
-namespace GlobalNamespace {
-class ILobbyStateDataModel;
 }
 namespace System::Collections {
 class IEnumerator;
 }
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
+namespace GlobalNamespace {
+class ILobbyStateDataModel;
+}
+namespace GlobalNamespace {
+class __MultiplayerLobbyAvatarManager___RemovePlayerAndDestroy_d__13;
 }
 namespace System::Collections::Generic {
 template <typename T> class HashSet_1;
 }
 namespace GlobalNamespace {
-class __MultiplayerLobbyAvatarManager___RemovePlayerAndDestroy_d__13;
+class __MultiplayerLobbyAvatarController__Factory;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace GlobalNamespace {
+class IConnectedPlayer;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
 }
 namespace System {
 class IDisposable;
 }
 namespace System {
 class Object;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {

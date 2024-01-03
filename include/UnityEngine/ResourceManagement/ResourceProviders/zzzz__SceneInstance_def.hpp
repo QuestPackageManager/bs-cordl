@@ -6,14 +6,14 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(SceneInstance)
-namespace UnityEngine {
-class AsyncOperation;
-}
 namespace System {
 class Object;
 }
 namespace UnityEngine::SceneManagement {
 struct Scene;
+}
+namespace UnityEngine {
+class AsyncOperation;
 }
 // Forward declare root types
 namespace UnityEngine::ResourceManagement::ResourceProviders {

@@ -10,13 +10,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(BaseNetworkPlayerModel)
 namespace GlobalNamespace {
-class __BaseNetworkPlayerModel___GetPartyPlayers_d__55;
+struct DisconnectedReason;
 }
 namespace GlobalNamespace {
-struct ConnectionFailedReason;
+class __BaseNetworkPlayerModel___GetOtherPlayers_d__56;
 }
 namespace GlobalNamespace {
-class INetworkPlayer;
+class IConnectedPlayer;
 }
 namespace GlobalNamespace {
 template <typename T> class INetworkPlayerModelPartyConfig_1;
@@ -24,20 +24,14 @@ template <typename T> class INetworkPlayerModelPartyConfig_1;
 namespace GlobalNamespace {
 struct GameplayServerConfiguration;
 }
-namespace System {
-template <typename T> class Action_1;
-}
-namespace GlobalNamespace {
-class __BaseNetworkPlayerModel__PartyConfig;
-}
 namespace GlobalNamespace {
 class INetworkPlayerModel;
 }
 namespace GlobalNamespace {
-class __BaseNetworkPlayerModel___GetOtherPlayers_d__56;
+class __BaseNetworkPlayerModel__PartyConfig;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
+namespace System {
+template <typename T> class Action_1;
 }
 namespace GlobalNamespace {
 class ConnectedPlayerManager;
@@ -45,29 +39,35 @@ class ConnectedPlayerManager;
 namespace GlobalNamespace {
 struct BeatmapLevelSelectionMask;
 }
-namespace GlobalNamespace {
-class IConnectedPlayer;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
 }
 namespace GlobalNamespace {
-struct DisconnectedReason;
+struct ConnectionFailedReason;
 }
 namespace GlobalNamespace {
 template <typename T> class IConnectionInitParams_1;
 }
-namespace System::Collections {
-class IEnumerable;
+namespace GlobalNamespace {
+class INetworkPlayer;
+}
+namespace GlobalNamespace {
+class __BaseNetworkPlayerModel___GetPartyPlayers_d__55;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
 namespace System {
-class Object;
+class IDisposable;
+}
+namespace System::Collections {
+class IEnumerable;
 }
 namespace System::Collections {
 class IEnumerator;
 }
 namespace System {
-class IDisposable;
+class Object;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -402,7 +402,7 @@ static_assert(offsetof(::GlobalNamespace::__BaseNetworkPlayerModel___GetOtherPla
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12686)), TypeDefinitionIndex(TypeDefinitionIndex(12966)), TypeDefinitionIndex(TypeDefinitionIndex(12758))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12758)), TypeDefinitionIndex(TypeDefinitionIndex(12966)), TypeDefinitionIndex(TypeDefinitionIndex(12686))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14940))
 // CS Name: ::BaseNetworkPlayerModel*
 class CORDL_TYPE BaseNetworkPlayerModel : public ::GlobalNamespace::StandaloneMonobehavior {

@@ -2,8 +2,8 @@
 #include "GlobalNamespace/zzzz__BeatmapDataItem_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatmapDataItem_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapDataItem_def.hpp"
 #include "System/zzzz__IComparable_1_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapDataItem_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::GlobalNamespace::__BeatmapDataItem__BeatmapDataItemType::__BeatmapDataItem__BeatmapDataItemType(int32_t value__) noexcept {
   this->value__ = value__;

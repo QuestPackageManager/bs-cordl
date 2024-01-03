@@ -3,13 +3,13 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/XR/zzzz__XRNode_impl.hpp"
 #include "GlobalNamespace/zzzz__UnityXRController_def.hpp"
-#include "GlobalNamespace/zzzz__IUnityXRHapticsHandler_def.hpp"
 #include "UnityEngine/XR/zzzz__XRNode_def.hpp"
+#include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "UnityEngine/XR/zzzz__InputDevice_def.hpp"
 #include "GlobalNamespace/zzzz__UnityXRController_def.hpp"
-#include "UnityEngine/InputSystem/zzzz__InputAction_def.hpp"
 #include "GlobalNamespace/zzzz__UnityXRHelper_def.hpp"
-#include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
+#include "GlobalNamespace/zzzz__IUnityXRHapticsHandler_def.hpp"
+#include "UnityEngine/InputSystem/zzzz__InputAction_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputActionReference_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::__UnityXRController__Configuration.get_positionActionReference
 template <>

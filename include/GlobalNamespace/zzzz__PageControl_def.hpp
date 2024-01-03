@@ -6,17 +6,17 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(PageControl)
-namespace GlobalNamespace {
-class PageControlElement;
-}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
-namespace UnityEngine {
-class RectTransform;
-}
 namespace System::Collections::Generic {
 template <typename T> class Queue_1;
+}
+namespace GlobalNamespace {
+class PageControlElement;
+}
+namespace UnityEngine {
+class RectTransform;
 }
 // Forward declare root types
 namespace GlobalNamespace {

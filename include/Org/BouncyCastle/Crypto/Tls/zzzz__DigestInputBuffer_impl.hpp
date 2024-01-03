@@ -2,8 +2,8 @@
 #include "Org/BouncyCastle/Utilities/IO/zzzz__BaseOutputStream_impl.hpp"
 #include "System/IO/zzzz__MemoryStream_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__DigestInputBuffer_def.hpp"
-#include "Org/BouncyCastle/Crypto/Tls/zzzz__DigestInputBuffer_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__IDigest_def.hpp"
+#include "Org/BouncyCastle/Crypto/Tls/zzzz__DigestInputBuffer_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Tls::__DigestInputBuffer__DigStream._ctor
 template <>
 

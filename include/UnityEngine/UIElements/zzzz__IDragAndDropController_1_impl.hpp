@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/UIElements/zzzz__IDragAndDropController_1_def.hpp"
-#include "UnityEngine/UIElements/zzzz__DragVisualMode_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__StartDragArgs_def.hpp"
+#include "UnityEngine/UIElements/zzzz__DragVisualMode_def.hpp"
 template <typename TArgs> inline bool UnityEngine::UIElements::IDragAndDropController_1<TArgs>::CanStartDrag(::System::Collections::Generic::IEnumerable_1<int32_t>* itemIndices) {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),

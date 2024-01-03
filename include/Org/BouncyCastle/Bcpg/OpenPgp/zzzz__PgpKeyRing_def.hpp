@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Bcpg/OpenPgp/zzzz__PgpObject_def.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 CORDL_MODULE_EXPORT(PgpKeyRing)
-namespace Org::BouncyCastle::Bcpg {
-class TrustPacket;
-}
 namespace System::Collections {
 class IList;
+}
+namespace Org::BouncyCastle::Bcpg {
+class TrustPacket;
 }
 namespace Org::BouncyCastle::Bcpg {
 class BcpgInputStream;

@@ -12,10 +12,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(FormattedFloatListSettingsValueController)
 namespace GlobalNamespace {
-struct __FormattedFloatListSettingsValueController__ValueType;
+class FloatSO;
 }
 namespace GlobalNamespace {
-class FloatSO;
+struct __FormattedFloatListSettingsValueController__ValueType;
 }
 // Forward declare root types
 namespace GlobalNamespace {

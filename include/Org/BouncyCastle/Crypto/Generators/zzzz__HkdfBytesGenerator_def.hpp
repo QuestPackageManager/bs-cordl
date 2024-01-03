@@ -6,20 +6,20 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(HkdfBytesGenerator)
-namespace Org::BouncyCastle::Crypto {
-class IDerivationParameters;
+namespace Org::BouncyCastle::Crypto::Macs {
+class HMac;
 }
 namespace Org::BouncyCastle::Crypto {
 class IDigest;
-}
-namespace Org::BouncyCastle::Crypto::Macs {
-class HMac;
 }
 namespace Org::BouncyCastle::Crypto {
 class IDerivationFunction;
 }
 namespace Org::BouncyCastle::Crypto::Parameters {
 class KeyParameter;
+}
+namespace Org::BouncyCastle::Crypto {
+class IDerivationParameters;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Generators {

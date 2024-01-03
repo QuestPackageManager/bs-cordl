@@ -3,10 +3,10 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__LeaderboardTableView_def.hpp"
 #include "HMUI/zzzz__TableCell_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "GlobalNamespace/zzzz__LeaderboardTableCell_def.hpp"
 #include "HMUI/zzzz__TableView_def.hpp"
 #include "GlobalNamespace/zzzz__LeaderboardTableView_def.hpp"
-#include "GlobalNamespace/zzzz__LeaderboardTableCell_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::__LeaderboardTableView__ScoreData.get_score
 template <>
 

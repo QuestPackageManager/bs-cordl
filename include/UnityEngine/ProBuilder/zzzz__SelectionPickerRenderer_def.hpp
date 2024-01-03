@@ -11,64 +11,64 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(SelectionPickerRenderer)
 namespace UnityEngine {
-struct Color32;
-}
-namespace UnityEngine::ProBuilder {
-template <typename T1, typename T2> struct SimpleTuple_2;
-}
-namespace UnityEngine::ProBuilder {
-class __SelectionPickerRenderer__SelectionPickerRendererStandard;
-}
-namespace UnityEngine {
-struct RenderTextureFormat;
-}
-namespace UnityEngine::ProBuilder {
-class ProBuilderMesh;
-}
-namespace System::Collections::Generic {
-template <typename T> class HashSet_1;
-}
-namespace UnityEngine::ProBuilder {
-class __SelectionPickerRenderer____c__DisplayClass19_0;
-}
-namespace UnityEngine::ProBuilder {
-struct Edge;
-}
-namespace UnityEngine::ProBuilder {
-class Face;
-}
-namespace UnityEngine {
-class Texture2D;
-}
-namespace UnityEngine {
-struct TextureFormat;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace UnityEngine {
 struct Rect;
-}
-namespace System::Collections::Generic {
-template <typename T> class IList_1;
-}
-namespace UnityEngine::ProBuilder {
-class __SelectionPickerRenderer__SelectionPickerRendererHDRP;
-}
-namespace UnityEngine {
-class Camera;
-}
-namespace UnityEngine {
-class Mesh;
 }
 namespace UnityEngine::ProBuilder {
 class __SelectionPickerRenderer__ISelectionPickerRenderer;
 }
 namespace UnityEngine::ProBuilder {
-class __SelectionPickerRenderer____c;
+class __SelectionPickerRenderer__SelectionPickerRendererStandard;
+}
+namespace UnityEngine {
+class Mesh;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace UnityEngine::ProBuilder {
+template <typename T1, typename T2> struct SimpleTuple_2;
+}
+namespace UnityEngine::ProBuilder {
+class __SelectionPickerRenderer__SelectionPickerRendererHDRP;
 }
 namespace UnityEngine {
 class GameObject;
+}
+namespace UnityEngine {
+class Camera;
+}
+namespace UnityEngine::ProBuilder {
+struct Edge;
+}
+namespace UnityEngine::ProBuilder {
+class __SelectionPickerRenderer____c__DisplayClass19_0;
+}
+namespace UnityEngine::ProBuilder {
+class __SelectionPickerRenderer____c;
+}
+namespace System::Collections::Generic {
+template <typename T> class IList_1;
+}
+namespace UnityEngine {
+struct Color32;
+}
+namespace System::Collections::Generic {
+template <typename T> class HashSet_1;
+}
+namespace UnityEngine {
+struct TextureFormat;
+}
+namespace UnityEngine::ProBuilder {
+class ProBuilderMesh;
+}
+namespace UnityEngine {
+struct RenderTextureFormat;
+}
+namespace UnityEngine {
+class Texture2D;
+}
+namespace UnityEngine::ProBuilder {
+class Face;
 }
 namespace UnityEngine {
 class Shader;
@@ -79,11 +79,11 @@ template <typename T> class IEnumerable_1;
 namespace System {
 template <typename T, typename TResult> class Func_2;
 }
-namespace UnityEngine::ProBuilder {
-class SharedVertex;
-}
 namespace UnityEngine {
 struct Vector3;
+}
+namespace UnityEngine::ProBuilder {
+class SharedVertex;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder {
@@ -347,7 +347,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::__Selec
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10117)), TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(10117)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12190))
 // CS Name: ::UnityEngine.ProBuilder::SelectionPickerRenderer*
 class CORDL_TYPE SelectionPickerRenderer : public ::System::Object {

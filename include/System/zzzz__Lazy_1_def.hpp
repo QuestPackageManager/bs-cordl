@@ -8,11 +8,11 @@ CORDL_MODULE_EXPORT(Lazy_1)
 namespace System {
 template <typename TResult> class Func_1;
 }
-namespace System::Threading {
-struct LazyThreadSafetyMode;
-}
 namespace System {
 class LazyHelper;
+}
+namespace System::Threading {
+struct LazyThreadSafetyMode;
 }
 // Forward declare root types
 namespace System {

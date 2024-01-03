@@ -10,11 +10,11 @@ CORDL_MODULE_EXPORT(DownloadHandlerAudioClip)
 namespace UnityEngine {
 struct AudioType;
 }
-namespace Unity::Collections {
-template <typename T> struct NativeArray_1;
-}
 namespace UnityEngine::Networking {
 class UnityWebRequest;
+}
+namespace Unity::Collections {
+template <typename T> struct NativeArray_1;
 }
 namespace UnityEngine {
 class AudioClip;
@@ -29,8 +29,8 @@ MARK_REF_PTR_T(::UnityEngine::Networking::DownloadHandlerAudioClip);
 // SizeInfo { instance_size: 40, native_size: 24, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Networking {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15580)), TypeDefinitionIndex(TypeDefinitionIndex(9999)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 741
-// })} Self: TypeDefinitionIndex(TypeDefinitionIndex(16162)) CS Name: ::UnityEngine.Networking::DownloadHandlerAudioClip*
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 741 }), TypeDefinitionIndex(TypeDefinitionIndex(9999)),
+// TypeDefinitionIndex(TypeDefinitionIndex(15580))} Self: TypeDefinitionIndex(TypeDefinitionIndex(16162)) CS Name: ::UnityEngine.Networking::DownloadHandlerAudioClip*
 class CORDL_TYPE DownloadHandlerAudioClip : public ::UnityEngine::Networking::DownloadHandler {
 public:
   // Declarations

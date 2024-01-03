@@ -4,6 +4,9 @@
 CORDL_MODULE_INIT
 #include "Newtonsoft/Json/Bson/zzzz__BsonToken_def.hpp"
 CORDL_MODULE_EXPORT(BsonArray)
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
 namespace Newtonsoft::Json::Bson {
 struct BsonType;
 }
@@ -11,16 +14,13 @@ namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
 namespace System::Collections {
+class IEnumerable;
+}
+namespace System::Collections {
 class IEnumerator;
 }
 namespace Newtonsoft::Json::Bson {
 class BsonToken;
-}
-namespace System::Collections {
-class IEnumerable;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;

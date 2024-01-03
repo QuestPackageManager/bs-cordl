@@ -5,9 +5,6 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(ResultObjectiveListItem)
-namespace UnityEngine {
-struct Color;
-}
 namespace TMPro {
 class TextMeshProUGUI;
 }
@@ -16,6 +13,9 @@ class Image;
 }
 namespace UnityEngine {
 class Sprite;
+}
+namespace UnityEngine {
+struct Color;
 }
 // Forward declare root types
 namespace GlobalNamespace {

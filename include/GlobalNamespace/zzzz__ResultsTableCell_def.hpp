@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__TableCellWithSeparator_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ResultsTableCell)
-namespace GlobalNamespace {
-class LevelCompletionResults;
+namespace TMPro {
+class TextMeshProUGUI;
 }
 namespace GlobalNamespace {
 class IConnectedPlayer;
 }
-namespace TMPro {
-class TextMeshProUGUI;
+namespace GlobalNamespace {
+class LevelCompletionResults;
 }
 namespace UnityEngine {
 class GameObject;

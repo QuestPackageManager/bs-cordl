@@ -9,16 +9,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(GridLayoutGroup)
 namespace UnityEngine::UI {
-struct __GridLayoutGroup__Axis;
-}
-namespace UnityEngine::UI {
-struct __GridLayoutGroup__Constraint;
-}
-namespace UnityEngine::UI {
 struct __GridLayoutGroup__Corner;
 }
 namespace UnityEngine {
 struct Vector2;
+}
+namespace UnityEngine::UI {
+struct __GridLayoutGroup__Axis;
+}
+namespace UnityEngine::UI {
+struct __GridLayoutGroup__Constraint;
 }
 // Forward declare root types
 namespace UnityEngine::UI {
@@ -204,8 +204,8 @@ static_assert(offsetof(::UnityEngine::UI::__GridLayoutGroup__Constraint, value__
 // SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 120, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13078)), TypeDefinitionIndex(TypeDefinitionIndex(13091)), TypeDefinitionIndex(TypeDefinitionIndex(13079)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(13080))} Self: TypeDefinitionIndex(TypeDefinitionIndex(13081)) CS Name: ::UnityEngine.UI::GridLayoutGroup*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13080)), TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(13078)),
+// TypeDefinitionIndex(TypeDefinitionIndex(13091)), TypeDefinitionIndex(TypeDefinitionIndex(13079))} Self: TypeDefinitionIndex(TypeDefinitionIndex(13081)) CS Name: ::UnityEngine.UI::GridLayoutGroup*
 class CORDL_TYPE GridLayoutGroup : public ::UnityEngine::UI::LayoutGroup {
 public:
   // Declarations

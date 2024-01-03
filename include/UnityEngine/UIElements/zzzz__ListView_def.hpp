@@ -9,77 +9,77 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ListView)
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
-namespace UnityEngine::UIElements {
-class VisualElement;
-}
 namespace UnityEngine::UIElements {
 class TextField;
-}
-namespace UnityEngine::UIElements {
-class ICollectionDragAndDropController;
-}
-namespace UnityEngine::UIElements {
-struct ListViewReorderMode;
-}
-namespace System {
-class Action;
-}
-namespace UnityEngine::UIElements {
-class ListViewDragger;
-}
-namespace UnityEngine::UIElements {
-class __ListView__UxmlFactory;
-}
-namespace System {
-template <typename T> class Action_1;
-}
-namespace UnityEngine::UIElements {
-class ListViewController;
-}
-namespace UnityEngine::UIElements {
-template <typename T> class ChangeEvent_1;
-}
-namespace UnityEngine::UIElements {
-class __ListView__UxmlTraits;
-}
-namespace UnityEngine::UIElements {
-class Foldout;
 }
 namespace UnityEngine::UIElements {
 class Button;
 }
 namespace UnityEngine::UIElements {
+template <typename T> class ChangeEvent_1;
+}
+namespace UnityEngine::UIElements {
+class ListViewController;
+}
+namespace UnityEngine::UIElements {
+class ICollectionDragAndDropController;
+}
+namespace UnityEngine::UIElements {
 class Label;
 }
-namespace UnityEngine::UIElements {
-struct CollectionVirtualizationMethod;
+namespace System {
+class Action;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
+namespace System {
+template <typename T> class Action_1;
 }
 namespace UnityEngine::UIElements {
-struct AlternatingRowBackground;
+class Foldout;
 }
 namespace UnityEngine::UIElements {
-struct CreationContext;
+class VisualElement;
 }
 namespace UnityEngine::UIElements {
-class IUxmlAttributes;
+class __ListView__UxmlFactory;
 }
 namespace UnityEngine::UIElements {
-struct SelectionType;
+class __ListView__UxmlTraits;
 }
 namespace UnityEngine::UIElements {
-class UxmlIntAttributeDescription;
+struct ListViewReorderMode;
 }
 namespace UnityEngine::UIElements {
-class UxmlBoolAttributeDescription;
+class ListViewDragger;
 }
 namespace UnityEngine::UIElements {
 class UxmlStringAttributeDescription;
 }
 namespace UnityEngine::UIElements {
+struct CollectionVirtualizationMethod;
+}
+namespace UnityEngine::UIElements {
+class UxmlBoolAttributeDescription;
+}
+namespace UnityEngine::UIElements {
+class UxmlIntAttributeDescription;
+}
+namespace UnityEngine::UIElements {
+struct SelectionType;
+}
+namespace UnityEngine::UIElements {
+class IUxmlAttributes;
+}
+namespace UnityEngine::UIElements {
 template <typename T> class UxmlEnumAttributeDescription_1;
+}
+namespace UnityEngine::UIElements {
+struct CreationContext;
+}
+namespace UnityEngine::UIElements {
+struct AlternatingRowBackground;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -310,7 +310,7 @@ static_assert(offsetof(::UnityEngine::UIElements::__ListView__UxmlTraits, ___m_H
 // SizeInfo { instance_size: 1288, native_size: -1, calculated_instance_size: 1288, calculated_native_size: 1284, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7068)), TypeDefinitionIndex(TypeDefinitionIndex(7143))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7143)), TypeDefinitionIndex(TypeDefinitionIndex(7068))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7071))
 // CS Name: ::UnityEngine.UIElements::ListView*
 class CORDL_TYPE ListView : public ::UnityEngine::UIElements::BaseVerticalCollectionView {
@@ -786,8 +786,8 @@ static_assert(offsetof(::UnityEngine::UIElements::ListView, ___m_ReorderMode) ==
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6997)), TypeDefinitionIndex(TypeDefinitionIndex(7071)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6997), inst: 5267
-// }), TypeDefinitionIndex(TypeDefinitionIndex(7070))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7069)) CS Name: ::ListView::UxmlFactory*
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6997), inst: 5267 }), TypeDefinitionIndex(TypeDefinitionIndex(6997)),
+// TypeDefinitionIndex(TypeDefinitionIndex(7071)), TypeDefinitionIndex(TypeDefinitionIndex(7070))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7069)) CS Name: ::ListView::UxmlFactory*
 class CORDL_TYPE __ListView__UxmlFactory : public ::UnityEngine::UIElements::UxmlFactory_2<::UnityEngine::UIElements::ListView*, ::UnityEngine::UIElements::__ListView__UxmlTraits*> {
 public:
   // Declarations

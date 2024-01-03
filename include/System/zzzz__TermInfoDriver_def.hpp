@@ -9,26 +9,26 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(TermInfoDriver)
-namespace System {
-class IConsoleDriver;
-}
-namespace System {
-struct TermInfoStrings;
-}
 namespace System::Collections {
 class Hashtable;
 }
 namespace System {
-class TermInfoReader;
-}
-namespace System::IO {
-class StreamReader;
+class IConsoleDriver;
 }
 namespace System {
 class ByteMatcher;
 }
 namespace System::IO {
+class StreamReader;
+}
+namespace System {
+class TermInfoReader;
+}
+namespace System::IO {
 class CStreamWriter;
+}
+namespace System {
+struct TermInfoStrings;
 }
 namespace System {
 class Object;
@@ -46,7 +46,7 @@ MARK_REF_PTR_T(::System::TermInfoDriver);
 // SizeInfo { instance_size: 288, native_size: -1, calculated_instance_size: 288, calculated_native_size: 284, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2518))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2518)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2619))
 // CS Name: ::System::TermInfoDriver*
 class CORDL_TYPE TermInfoDriver : public ::System::Object {

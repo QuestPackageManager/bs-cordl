@@ -1,11 +1,11 @@
 #pragma once
 #include "System/Xml/Linq/zzzz__XContainer_impl.hpp"
 #include "System/Xml/Linq/zzzz__XDocument_def.hpp"
+#include "System/Xml/Linq/zzzz__XDeclaration_def.hpp"
 #include "System/Xml/zzzz__XmlWriter_def.hpp"
 #include "System/Xml/zzzz__XmlNodeType_def.hpp"
-#include "System/Xml/Linq/zzzz__XElement_def.hpp"
-#include "System/Xml/Linq/zzzz__XDeclaration_def.hpp"
 #include "System/Xml/Linq/zzzz__XAttribute_def.hpp"
+#include "System/Xml/Linq/zzzz__XElement_def.hpp"
 #include "System/Xml/Linq/zzzz__XNode_def.hpp"
 //  Writing Method size for method: ::System::Xml::Linq::XDocument._ctor
 template <>

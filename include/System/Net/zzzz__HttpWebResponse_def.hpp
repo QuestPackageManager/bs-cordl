@@ -7,41 +7,41 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(HttpWebResponse)
-namespace System::Runtime::Serialization {
-class ISerializable;
+namespace System {
+class IDisposable;
 }
 namespace System {
 class Uri;
 }
 namespace System::Net {
-class CookieContainer;
-}
-namespace System {
-class Version;
+class WebHeaderCollection;
 }
 namespace System::IO {
 class Stream;
-}
-namespace System::Runtime::Serialization {
-struct StreamingContext;
-}
-namespace System::Net {
-class CookieCollection;
-}
-namespace System {
-class IDisposable;
-}
-namespace System::Net {
-class WebHeaderCollection;
 }
 namespace System::Net {
 struct HttpStatusCode;
 }
 namespace System::Net {
-class WebResponseStream;
+class CookieCollection;
+}
+namespace System::Runtime::Serialization {
+class ISerializable;
+}
+namespace System {
+class Version;
+}
+namespace System::Net {
+class CookieContainer;
 }
 namespace System::Runtime::Serialization {
 class SerializationInfo;
+}
+namespace System::Runtime::Serialization {
+struct StreamingContext;
+}
+namespace System::Net {
+class WebResponseStream;
 }
 // Forward declare root types
 namespace System::Net {
@@ -53,7 +53,7 @@ MARK_REF_PTR_T(::System::Net::HttpWebResponse);
 // SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9097)), TypeDefinitionIndex(TypeDefinitionIndex(9027))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9027)), TypeDefinitionIndex(TypeDefinitionIndex(9097))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9187))
 // CS Name: ::System.Net::HttpWebResponse*
 class CORDL_TYPE HttpWebResponse : public ::System::Net::WebResponse {

@@ -6,28 +6,28 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/byref.hpp"
 CORDL_MODULE_EXPORT(PoolableMemoryPoolProvider_2)
 namespace Zenject {
-class DiContainer;
-}
-namespace System {
-class Action;
-}
-namespace Zenject {
-class InjectContext;
-}
-namespace Zenject {
 class IValidatable;
+}
+namespace Zenject {
+class DiContainer;
 }
 namespace System {
 struct Guid;
 }
 namespace Zenject {
-struct TypeValuePair;
-}
-namespace System {
-class Object;
+class InjectContext;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
+}
+namespace Zenject {
+struct TypeValuePair;
+}
+namespace System {
+class Action;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace Zenject {

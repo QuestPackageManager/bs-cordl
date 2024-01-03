@@ -1,8 +1,8 @@
 #pragma once
 #include "System/Xml/Schema/zzzz__Datatype_string_impl.hpp"
 #include "System/Xml/Schema/zzzz__Datatype_normalizedString_def.hpp"
-#include "System/Xml/Schema/zzzz__XmlTypeCode_def.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaWhiteSpace_def.hpp"
+#include "System/Xml/Schema/zzzz__XmlTypeCode_def.hpp"
 //  Writing Method size for method: ::System::Xml::Schema::Datatype_normalizedString.get_TypeCode
 template <>
 

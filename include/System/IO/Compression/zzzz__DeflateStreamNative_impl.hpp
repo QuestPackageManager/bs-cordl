@@ -4,10 +4,10 @@
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/IO/Compression/zzzz__DeflateStreamNative_def.hpp"
-#include "System/IO/Compression/zzzz__DeflateStreamNative_def.hpp"
-#include "System/IO/zzzz__Stream_def.hpp"
 #include "System/zzzz__Exception_def.hpp"
 #include "System/IO/Compression/zzzz__CompressionMode_def.hpp"
+#include "System/IO/Compression/zzzz__DeflateStreamNative_def.hpp"
+#include "System/IO/zzzz__Stream_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::System::IO::Compression::__DeflateStreamNative__UnmanagedReadOrWrite._ctor
 template <>

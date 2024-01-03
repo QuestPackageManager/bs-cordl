@@ -8,17 +8,20 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(VisualElementFocusRing)
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace UnityEngine::UIElements {
+class FocusChangeDirection;
 }
 namespace UnityEngine::UIElements {
 class VisualElement;
 }
 namespace UnityEngine::UIElements {
-class EventBase;
+class IFocusRing;
 }
 namespace UnityEngine::UIElements {
-struct __VisualElementFocusRing__DefaultFocusOrder;
+class Focusable;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace UnityEngine::UIElements {
 class __VisualElementFocusRing__FocusRingRecord;
@@ -27,13 +30,10 @@ namespace UnityEngine::UIElements {
 class FocusController;
 }
 namespace UnityEngine::UIElements {
-class FocusChangeDirection;
+class EventBase;
 }
 namespace UnityEngine::UIElements {
-class Focusable;
-}
-namespace UnityEngine::UIElements {
-class IFocusRing;
+struct __VisualElementFocusRing__DefaultFocusOrder;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

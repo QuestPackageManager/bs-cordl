@@ -10,61 +10,61 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Hashtable)
 namespace System::Collections {
-class __Hashtable__SyncHashtable;
-}
-namespace System::Collections {
-class IEnumerable;
-}
-namespace System::Runtime::Serialization {
-class IDeserializationCallback;
-}
-namespace System::Runtime::Serialization {
-class ISerializable;
-}
-namespace System::Runtime::Serialization {
-struct StreamingContext;
-}
-namespace System::Runtime::Serialization {
-class SerializationInfo;
-}
-namespace System::Collections {
-struct __Hashtable__bucket;
-}
-namespace System::Collections {
-class IDictionaryEnumerator;
+class IEqualityComparer;
 }
 namespace System::Collections {
 class __Hashtable__ValueCollection;
 }
-namespace System::Collections {
-class __Hashtable__HashtableDebugView;
-}
-namespace System {
-class Array;
-}
 namespace System::Runtime::CompilerServices {
 template <typename TKey, typename TValue> class ConditionalWeakTable_2;
-}
-namespace System::Collections {
-class IDictionary;
-}
-namespace System::Collections {
-class __Hashtable__KeyCollection;
-}
-namespace System::Collections {
-class ICollection;
-}
-namespace System {
-class Object;
 }
 namespace System {
 class ICloneable;
 }
 namespace System::Collections {
-class __Hashtable__HashtableEnumerator;
+class IDictionary;
+}
+namespace System::Runtime::Serialization {
+class IDeserializationCallback;
 }
 namespace System::Collections {
-class IEqualityComparer;
+class IDictionaryEnumerator;
+}
+namespace System::Runtime::Serialization {
+class ISerializable;
+}
+namespace System::Collections {
+class __Hashtable__KeyCollection;
+}
+namespace System::Collections {
+class __Hashtable__HashtableEnumerator;
+}
+namespace System {
+class Object;
+}
+namespace System::Collections {
+class __Hashtable__SyncHashtable;
+}
+namespace System::Collections {
+struct __Hashtable__bucket;
+}
+namespace System::Collections {
+class ICollection;
+}
+namespace System::Runtime::Serialization {
+class SerializationInfo;
+}
+namespace System::Collections {
+class IEnumerable;
+}
+namespace System::Collections {
+class __Hashtable__HashtableDebugView;
+}
+namespace System::Runtime::Serialization {
+struct StreamingContext;
+}
+namespace System {
+class Array;
 }
 namespace System::Collections {
 class IEnumerator;

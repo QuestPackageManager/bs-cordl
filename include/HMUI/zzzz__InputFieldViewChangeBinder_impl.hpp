@@ -3,9 +3,9 @@
 #include "HMUI/zzzz__InputFieldViewChangeBinder_def.hpp"
 #include "HMUI/zzzz__InputFieldView_def.hpp"
 #include "UnityEngine/Events/zzzz__UnityAction_1_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
 #include "System/zzzz__Tuple_2_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
 //  Writing Method size for method: ::HMUI::InputFieldViewChangeBinder._ctor
 template <>
 

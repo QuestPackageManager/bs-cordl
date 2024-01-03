@@ -10,25 +10,25 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(BakerHumanoidQT)
 namespace UnityEngine {
-struct Vector3;
-}
-namespace UnityEngine {
-struct AvatarIKGoal;
-}
-namespace UnityEngine {
-class AnimationClip;
-}
-namespace UnityEngine {
 class Transform;
-}
-namespace UnityEngine {
-struct Quaternion;
 }
 namespace UnityEngine {
 class AnimationCurve;
 }
 namespace UnityEngine {
 class Avatar;
+}
+namespace UnityEngine {
+struct Vector3;
+}
+namespace UnityEngine {
+class AnimationClip;
+}
+namespace UnityEngine {
+struct AvatarIKGoal;
+}
+namespace UnityEngine {
+struct Quaternion;
 }
 // Forward declare root types
 namespace RootMotion {
@@ -40,7 +40,7 @@ MARK_REF_PTR_T(::RootMotion::BakerHumanoidQT);
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 157, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(14871)), TypeDefinitionIndex(TypeDefinitionIndex(10252))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(14871))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12476))
 // CS Name: ::RootMotion::BakerHumanoidQT*
 class CORDL_TYPE BakerHumanoidQT : public ::System::Object {

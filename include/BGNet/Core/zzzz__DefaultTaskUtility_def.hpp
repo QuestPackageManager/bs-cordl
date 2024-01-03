@@ -2,13 +2,23 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/Threading/zzzz__CancellationToken_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(DefaultTaskUtility)
 namespace System {
-template <typename TResult> class Func_1;
+template <typename T, typename TResult> class Func_2;
 }
 namespace System {
 struct TimeSpan;
+}
+namespace System::Threading::Tasks {
+class Task;
+}
+namespace BGNet::Core {
+class ITaskUtility;
+}
+namespace System {
+template <typename TResult> class Func_1;
 }
 namespace System::Threading {
 struct CancellationToken;
@@ -18,15 +28,6 @@ template <typename TResult> class Task_1;
 }
 namespace System {
 class Action;
-}
-namespace System {
-template <typename T, typename TResult> class Func_2;
-}
-namespace System::Threading::Tasks {
-class Task;
-}
-namespace BGNet::Core {
-class ITaskUtility;
 }
 // Forward declare root types
 namespace BGNet::Core {
@@ -38,7 +39,7 @@ MARK_REF_PTR_T(::BGNet::Core::DefaultTaskUtility);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace BGNet::Core {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13000))
 // CS Name: ::BGNet.Core::DefaultTaskUtility*
 class CORDL_TYPE DefaultTaskUtility : public ::System::Object {

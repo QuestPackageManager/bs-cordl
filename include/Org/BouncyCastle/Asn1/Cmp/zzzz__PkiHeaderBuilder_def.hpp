@@ -10,34 +10,34 @@ namespace Org::BouncyCastle::Asn1 {
 class DerGeneralizedTime;
 }
 namespace Org::BouncyCastle::Asn1::Cmp {
-class PkiHeader;
-}
-namespace Org::BouncyCastle::Asn1 {
-class DerInteger;
+class InfoTypeAndValue;
 }
 namespace Org::BouncyCastle::Asn1::Cmp {
 class PkiFreeText;
 }
-namespace Org::BouncyCastle::Asn1::X509 {
-class AlgorithmIdentifier;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class GeneralName;
-}
 namespace Org::BouncyCastle::Asn1::Cmp {
-class InfoTypeAndValue;
+class PkiHeader;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Encodable;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1OctetString;
+class Asn1EncodableVector;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1EncodableVector;
+class Asn1OctetString;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Encodable;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class GeneralName;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class AlgorithmIdentifier;
+}
+namespace Org::BouncyCastle::Asn1 {
+class DerInteger;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Cmp {

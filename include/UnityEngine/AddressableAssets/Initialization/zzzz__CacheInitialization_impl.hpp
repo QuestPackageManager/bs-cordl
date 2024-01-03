@@ -3,11 +3,11 @@
 #include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__AsyncOperationBase_1_impl.hpp"
 #include "UnityEngine/AddressableAssets/Initialization/zzzz__CacheInitialization_def.hpp"
 #include "UnityEngine/AddressableAssets/Initialization/zzzz__CacheInitialization_def.hpp"
-#include "UnityEngine/ResourceManagement/zzzz__ResourceManager_def.hpp"
 #include "UnityEngine/ResourceManagement/Util/zzzz__IInitializableObject_def.hpp"
+#include "UnityEngine/ResourceManagement/zzzz__ResourceManager_def.hpp"
 #include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__AsyncOperationHandle_1_def.hpp"
-#include "System/zzzz__Func_1_def.hpp"
 #include "UnityEngine/ResourceManagement/zzzz__IUpdateReceiver_def.hpp"
+#include "System/zzzz__Func_1_def.hpp"
 //  Writing Method size for method: ::UnityEngine::AddressableAssets::Initialization::__CacheInitialization__CacheInitOp.Init
 template <>
 

@@ -12,31 +12,31 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(GUI)
 namespace UnityEngine {
-struct Color;
-}
-namespace UnityEngineInternal {
-class GenericStack;
+class __GUI__WindowFunction;
 }
 namespace UnityEngine {
 class GUIStyle;
 }
 namespace UnityEngine {
-class __GUI__WindowFunction;
+struct Color;
+}
+namespace UnityEngine {
+class GUISkin;
+}
+namespace UnityEngine {
+struct Rect;
 }
 namespace UnityEngine {
 struct Matrix4x4;
 }
-namespace UnityEngine {
-class GUIContent;
-}
-namespace UnityEngine {
-class GUISkin;
+namespace UnityEngineInternal {
+class GenericStack;
 }
 namespace System {
 struct DateTime;
 }
 namespace UnityEngine {
-struct Rect;
+class GUIContent;
 }
 namespace System {
 class Object;
@@ -93,7 +93,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::__GUI__WindowFuncti
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10165)), TypeDefinitionIndex(TypeDefinitionIndex(2368))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2368)), TypeDefinitionIndex(TypeDefinitionIndex(10165)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14595))
 // CS Name: ::UnityEngine::GUI*
 class CORDL_TYPE GUI : public ::System::Object {

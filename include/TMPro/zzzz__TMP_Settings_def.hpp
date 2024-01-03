@@ -10,25 +10,25 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(TMP_Settings)
 namespace UnityEngine {
-class TextAsset;
-}
-namespace TMPro {
-class TMP_FontAsset;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace UnityEngine {
 struct Vector2;
-}
-namespace TMPro {
-class TMP_SpriteAsset;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
+namespace UnityEngine {
+class TextAsset;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
+}
 namespace TMPro {
 class __TMP_Settings__LineBreakingTable;
+}
+namespace TMPro {
+class TMP_SpriteAsset;
+}
+namespace TMPro {
+class TMP_FontAsset;
 }
 namespace TMPro {
 class TMP_StyleSheet;
@@ -110,7 +110,7 @@ static_assert(offsetof(::TMPro::__TMP_Settings__LineBreakingTable, ___followingC
 // SizeInfo { instance_size: 184, native_size: -1, calculated_instance_size: 184, calculated_native_size: 177, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(10210))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10210)), TypeDefinitionIndex(TypeDefinitionIndex(10243))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12415))
 // CS Name: ::TMPro::TMP_Settings*
 class CORDL_TYPE TMP_Settings : public ::UnityEngine::ScriptableObject {

@@ -18,11 +18,11 @@ class __TextAsset__EncodingUtility;
 namespace Unity::Collections {
 template <typename T> struct NativeArray_1;
 }
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> struct KeyValuePair_2;
-}
 namespace System::Text {
 class Encoding;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> struct KeyValuePair_2;
 }
 // Forward declare root types
 namespace UnityEngine {

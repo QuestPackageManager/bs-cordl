@@ -5,13 +5,13 @@ CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__BaseNetworkPlayerModel_def.hpp"
 CORDL_MODULE_EXPORT(PlatformNetworkPlayerModel)
 namespace GlobalNamespace {
+class INetworkPlayer;
+}
+namespace GlobalNamespace {
 class __PlatformNetworkPlayerModel__CreatePartyConfig;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
-}
-namespace GlobalNamespace {
-class INetworkPlayer;
 }
 namespace GlobalNamespace {
 template <typename T> class INetworkPlayerModelPartyConfig_1;

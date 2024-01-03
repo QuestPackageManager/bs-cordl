@@ -2,9 +2,9 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__MockMultiplayerStatusModel_def.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerStatusData_def.hpp"
+#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
 #include "System/Threading/zzzz__CancellationToken_def.hpp"
 #include "GlobalNamespace/zzzz__IMultiplayerStatusModel_def.hpp"
-#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::MockMultiplayerStatusModel.GetMultiplayerStatusAsync
 template <>
 

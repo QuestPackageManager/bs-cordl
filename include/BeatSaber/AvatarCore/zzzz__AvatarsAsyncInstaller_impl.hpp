@@ -2,10 +2,10 @@
 #include "BGLib/AppFlow/Initialization/zzzz__AddressablesAsyncInstaller_1_impl.hpp"
 #include "BeatSaber/AvatarCore/zzzz__AbstractAdapterInstallerSO_impl.hpp"
 #include "BeatSaber/AvatarCore/zzzz__AvatarsAsyncInstaller_def.hpp"
-#include "BGLib/AppFlow/Initialization/zzzz__AsyncInstaller_def.hpp"
-#include "UnityEngine/AddressableAssets/zzzz__AssetLabelReference_def.hpp"
-#include "System/Collections/Generic/zzzz__IList_1_def.hpp"
 #include "BeatSaber/AvatarCore/zzzz__AbstractAdapterInstallerSO_def.hpp"
+#include "UnityEngine/AddressableAssets/zzzz__AssetLabelReference_def.hpp"
+#include "BGLib/AppFlow/Initialization/zzzz__AsyncInstaller_def.hpp"
+#include "System/Collections/Generic/zzzz__IList_1_def.hpp"
 //  Writing Method size for method: ::BeatSaber::AvatarCore::AvatarsAsyncInstaller.get_assetLabel
 template <>
 

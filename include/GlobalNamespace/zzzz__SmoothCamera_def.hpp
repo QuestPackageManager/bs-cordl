@@ -7,13 +7,13 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(SmoothCamera)
 namespace UnityEngine {
-struct Vector3;
-}
-namespace UnityEngine {
 class Camera;
 }
 namespace GlobalNamespace {
 class MainCamera;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace GlobalNamespace {

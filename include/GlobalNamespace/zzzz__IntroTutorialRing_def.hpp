@@ -7,26 +7,26 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(IntroTutorialRing)
-namespace GlobalNamespace {
-struct SaberType;
-}
-namespace UnityEngine {
-class ParticleSystem;
+namespace System::Collections::Generic {
+template <typename T> class HashSet_1;
 }
 namespace UnityEngine {
 class CanvasGroup;
+}
+namespace UnityEngine {
+class Collider;
+}
+namespace GlobalNamespace {
+class ColorManager;
+}
+namespace UnityEngine {
+class ParticleSystem;
 }
 namespace UnityEngine::UI {
 class Image;
 }
 namespace GlobalNamespace {
-class ColorManager;
-}
-namespace System::Collections::Generic {
-template <typename T> class HashSet_1;
-}
-namespace UnityEngine {
-class Collider;
+struct SaberType;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -38,7 +38,7 @@ MARK_REF_PTR_T(::GlobalNamespace::IntroTutorialRing);
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 105, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15036)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(15036))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5337))
 // CS Name: ::IntroTutorialRing*
 class CORDL_TYPE IntroTutorialRing : public ::UnityEngine::MonoBehaviour {

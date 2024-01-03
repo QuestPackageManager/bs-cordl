@@ -4,20 +4,20 @@
 CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(MainEffectController)
+namespace GlobalNamespace {
+class FloatSO;
+}
+namespace System {
+template <typename T> class Action_1;
+}
 namespace UnityEngine {
 class RenderTexture;
 }
 namespace GlobalNamespace {
 class MainEffectContainerSO;
 }
-namespace System {
-template <typename T> class Action_1;
-}
 namespace GlobalNamespace {
 class ImageEffectController;
-}
-namespace GlobalNamespace {
-class FloatSO;
 }
 // Forward declare root types
 namespace GlobalNamespace {

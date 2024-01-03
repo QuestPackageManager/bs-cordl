@@ -12,31 +12,31 @@ namespace GlobalNamespace {
 class NoteData;
 }
 namespace GlobalNamespace {
-template <typename T> class __BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1;
-}
-namespace GlobalNamespace {
-class __BeatmapObjectsInTimeRowProcessor____c__DisplayClass17_0;
-}
-namespace GlobalNamespace {
-struct ColorType;
+class __BeatmapObjectsInTimeRowProcessor__SliderTailData;
 }
 namespace GlobalNamespace {
 class SliderData;
 }
-namespace GlobalNamespace {
-class BeatmapDataItem;
-}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace GlobalNamespace {
 class __BeatmapObjectsInTimeRowProcessor____c;
 }
 namespace GlobalNamespace {
-class __BeatmapObjectsInTimeRowProcessor__SliderTailData;
+class BeatmapDataItem;
+}
+namespace GlobalNamespace {
+template <typename T> class __BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1;
+}
+namespace GlobalNamespace {
+class __BeatmapObjectsInTimeRowProcessor____c__DisplayClass17_0;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace GlobalNamespace {
+struct ColorType;
 }
 namespace System::Collections::Generic {
 template <typename T> class IReadOnlyList_1;

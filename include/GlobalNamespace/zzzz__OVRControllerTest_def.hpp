@@ -10,20 +10,20 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVRControllerTest)
-namespace GlobalNamespace {
-class __OVRControllerTest__BoolMonitor;
-}
-namespace System::Text {
-class StringBuilder;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
 namespace UnityEngine::UI {
 class Text;
 }
 namespace GlobalNamespace {
+class __OVRControllerTest__BoolMonitor;
+}
+namespace GlobalNamespace {
 class __OVRControllerTest____c;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace System::Text {
+class StringBuilder;
 }
 namespace GlobalNamespace {
 class __OVRControllerTest__BoolMonitor__BoolGenerator;

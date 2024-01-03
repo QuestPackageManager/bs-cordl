@@ -8,37 +8,37 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(DtlsRecordLayer)
 namespace Org::BouncyCastle::Crypto::Tls {
-class TlsPeer;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
-class DtlsEpoch;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
-class TlsCipher;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
-class TlsContext;
-}
-namespace System {
-class Exception;
+class TlsCloseable;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class ProtocolVersion;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class Timeout;
+class TlsCipher;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class DtlsHandshakeRetransmit;
+class TlsPeer;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class TlsContext;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class DtlsEpoch;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class ByteQueue;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class DatagramTransport;
+class DtlsHandshakeRetransmit;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class TlsCloseable;
+class DatagramTransport;
+}
+namespace System {
+class Exception;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class Timeout;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {

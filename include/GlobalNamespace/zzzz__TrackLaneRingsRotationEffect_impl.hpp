@@ -2,8 +2,8 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__TrackLaneRingsRotationEffect_def.hpp"
-#include "GlobalNamespace/zzzz__TrackLaneRingsManager_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "GlobalNamespace/zzzz__TrackLaneRingsManager_def.hpp"
 #include "GlobalNamespace/zzzz__TrackLaneRingsRotationEffect_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::__TrackLaneRingsRotationEffect__RingRotationEffect._ctor
 template <>

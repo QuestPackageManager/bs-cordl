@@ -11,11 +11,8 @@ CORDL_MODULE_EXPORT(LeaderboardTableView)
 namespace HMUI {
 class TableCell;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace HMUI {
-class TableView;
+namespace GlobalNamespace {
+class LeaderboardTableCell;
 }
 namespace HMUI {
 class __TableView__IDataSource;
@@ -23,8 +20,11 @@ class __TableView__IDataSource;
 namespace GlobalNamespace {
 class __LeaderboardTableView__ScoreData;
 }
-namespace GlobalNamespace {
-class LeaderboardTableCell;
+namespace HMUI {
+class TableView;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {

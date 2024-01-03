@@ -7,22 +7,22 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/byref.hpp"
 CORDL_MODULE_EXPORT(NoteCutFloorLightStreakTileEffectSpawner)
 namespace GlobalNamespace {
-class BeatmapObjectManager;
-}
-namespace GlobalNamespace {
-struct NoteCutInfo;
-}
-namespace UnityEngine {
-struct Color;
-}
-namespace GlobalNamespace {
 class ColorManager;
 }
 namespace Ice {
 class FloorLightStreakTileEffect;
 }
 namespace GlobalNamespace {
+class BeatmapObjectManager;
+}
+namespace GlobalNamespace {
 class NoteController;
+}
+namespace UnityEngine {
+struct Color;
+}
+namespace GlobalNamespace {
+struct NoteCutInfo;
 }
 // Forward declare root types
 namespace Ice {

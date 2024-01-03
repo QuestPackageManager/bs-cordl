@@ -6,20 +6,20 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(UnityEvent)
+namespace UnityEngine::Events {
+class BaseInvokableCall;
+}
 namespace System {
 class Object;
 }
 namespace System::Reflection {
 class MethodInfo;
 }
-namespace UnityEngine::Events {
-class UnityAction;
-}
-namespace UnityEngine::Events {
-class BaseInvokableCall;
-}
 namespace System {
 class Type;
+}
+namespace UnityEngine::Events {
+class UnityAction;
 }
 // Forward declare root types
 namespace UnityEngine::Events {

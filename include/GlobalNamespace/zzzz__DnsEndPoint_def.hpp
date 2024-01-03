@@ -15,11 +15,11 @@ class Object;
 namespace System::Net {
 class IPEndPoint;
 }
-namespace System {
-template <typename T> class IEquatable_1;
-}
 namespace System::Threading::Tasks {
 template <typename TResult> class Task_1;
+}
+namespace System {
+template <typename T> class IEquatable_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {

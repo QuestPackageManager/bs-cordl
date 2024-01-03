@@ -5,20 +5,20 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__Color_def.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(GameplayModifierToggle)
-namespace UnityEngine::UI {
-class Image;
-}
 namespace HMUI {
 class HoverTextSetter;
 }
 namespace UnityEngine::UI {
 class Toggle;
 }
+namespace TMPro {
+class TextMeshProUGUI;
+}
 namespace GlobalNamespace {
 class GameplayModifierParamsSO;
 }
-namespace TMPro {
-class TextMeshProUGUI;
+namespace UnityEngine::UI {
+class Image;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -30,7 +30,7 @@ MARK_REF_PTR_T(::GlobalNamespace::GameplayModifierToggle);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10251))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5530))
 // CS Name: ::GameplayModifierToggle*
 class CORDL_TYPE GameplayModifierToggle : public ::UnityEngine::MonoBehaviour {

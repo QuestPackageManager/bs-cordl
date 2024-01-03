@@ -7,14 +7,14 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(HighlightState)
-namespace System {
-class Object;
-}
 namespace TMPro {
 struct TMP_Offset;
 }
 namespace UnityEngine {
 struct Color32;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace TMPro {

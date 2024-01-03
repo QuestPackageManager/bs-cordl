@@ -1,10 +1,10 @@
 #pragma once
 #include "HMUI/zzzz__TableView_impl.hpp"
 #include "GlobalNamespace/zzzz__TableViewWithDetailCell_def.hpp"
-#include "HMUI/zzzz__TableCell_def.hpp"
 #include "System/zzzz__Action_2_def.hpp"
-#include "HMUI/zzzz__TableView_def.hpp"
 #include "GlobalNamespace/zzzz__TableViewWithDetailCell_def.hpp"
+#include "HMUI/zzzz__TableView_def.hpp"
+#include "HMUI/zzzz__TableCell_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::__TableViewWithDetailCell__IDataSource.CellSize
 template <>
 

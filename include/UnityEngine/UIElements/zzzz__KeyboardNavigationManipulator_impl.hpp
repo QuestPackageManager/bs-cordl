@@ -1,14 +1,14 @@
 #pragma once
 #include "UnityEngine/UIElements/zzzz__Manipulator_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__KeyboardNavigationManipulator_def.hpp"
-#include "UnityEngine/UIElements/zzzz__EventBase_def.hpp"
-#include "UnityEngine/UIElements/zzzz__NavigationSubmitEvent_def.hpp"
-#include "UnityEngine/UIElements/zzzz__NavigationCancelEvent_def.hpp"
+#include "UnityEngine/UIElements/zzzz__KeyDownEvent_def.hpp"
 #include "UnityEngine/UIElements/zzzz__KeyboardNavigationManipulator_def.hpp"
 #include "UnityEngine/UIElements/zzzz__NavigationMoveEvent_def.hpp"
+#include "UnityEngine/UIElements/zzzz__NavigationCancelEvent_def.hpp"
 #include "System/zzzz__Action_2_def.hpp"
+#include "UnityEngine/UIElements/zzzz__NavigationSubmitEvent_def.hpp"
 #include "UnityEngine/UIElements/zzzz__KeyboardNavigationOperation_def.hpp"
-#include "UnityEngine/UIElements/zzzz__KeyDownEvent_def.hpp"
+#include "UnityEngine/UIElements/zzzz__EventBase_def.hpp"
 // Ctor Parameters [CppParam { name: "evt", ty: "::UnityEngine::UIElements::KeyDownEvent*", modifiers: "", def_value: Some("nullptr") }]
 constexpr ::UnityEngine::UIElements::__KeyboardNavigationManipulator____c__DisplayClass5_0::__KeyboardNavigationManipulator____c__DisplayClass5_0(
     ::UnityEngine::UIElements::KeyDownEvent* evt) noexcept {

@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(CustomizableEnvironmentCommandLineArgsProviderSO)
 namespace GlobalNamespace {
-class EnvironmentCommandLineArgsProvider;
+class ICommandLineArgsProvider;
 }
 namespace GlobalNamespace {
-class ICommandLineArgsProvider;
+class EnvironmentCommandLineArgsProvider;
 }
 // Forward declare root types
 namespace GlobalNamespace {

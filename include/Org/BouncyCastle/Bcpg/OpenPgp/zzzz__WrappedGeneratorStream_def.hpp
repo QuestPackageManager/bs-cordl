@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Utilities/IO/zzzz__FilterStream_def.hpp"
 CORDL_MODULE_EXPORT(WrappedGeneratorStream)
-namespace System::IO {
-class Stream;
-}
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
 class IStreamGenerator;
+}
+namespace System::IO {
+class Stream;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Bcpg::OpenPgp {

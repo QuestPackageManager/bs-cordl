@@ -8,32 +8,32 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(X509Certificate)
+namespace System::Runtime::Serialization {
+class SerializationInfo;
+}
+namespace System::Runtime::Serialization {
+struct StreamingContext;
+}
 namespace System {
-class Object;
+struct DateTime;
 }
 namespace System {
 class IDisposable;
 }
 namespace System::Runtime::Serialization {
-class IDeserializationCallback;
-}
-namespace System::Runtime::Serialization {
-struct StreamingContext;
-}
-namespace System::Runtime::Serialization {
 class ISerializable;
+}
+namespace System {
+class Object;
 }
 namespace System::Security::Cryptography::X509Certificates {
 struct X509KeyStorageFlags;
-}
-namespace System {
-struct DateTime;
 }
 namespace System::Security::Cryptography::X509Certificates {
 class X509CertificateImpl;
 }
 namespace System::Runtime::Serialization {
-class SerializationInfo;
+class IDeserializationCallback;
 }
 // Forward declare root types
 namespace System::Security::Cryptography::X509Certificates {
@@ -45,7 +45,7 @@ MARK_REF_PTR_T(::System::Security::Cryptography::X509Certificates::X509Certifica
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Cryptography::X509Certificates {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2368)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2368))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2991))
 // CS Name: ::System.Security.Cryptography.X509Certificates::X509Certificate*
 class CORDL_TYPE X509Certificate : public ::System::Object {

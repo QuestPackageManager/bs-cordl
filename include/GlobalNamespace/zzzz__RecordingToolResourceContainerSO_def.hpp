@@ -4,17 +4,17 @@
 CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_def.hpp"
 CORDL_MODULE_EXPORT(RecordingToolResourceContainerSO)
-namespace GlobalNamespace {
-class IBeatmapLevelPack;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace GlobalNamespace {
 class BeatmapLevelPackCollectionSO;
 }
 namespace GlobalNamespace {
-class EnvironmentsListSO;
+class IBeatmapLevelPack;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace GlobalNamespace {
+class EnvironmentsListSO;
 }
 // Forward declare root types
 namespace GlobalNamespace {

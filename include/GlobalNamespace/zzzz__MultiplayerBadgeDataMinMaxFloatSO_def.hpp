@@ -7,19 +7,19 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(MultiplayerBadgeDataMinMaxFloatSO)
 namespace GlobalNamespace {
+class MultiplayerPlayerResultsData;
+}
+namespace GlobalNamespace {
 class MultiplayerBadgeAwardData;
 }
 namespace GlobalNamespace {
 class PlayerDataModel;
 }
 namespace GlobalNamespace {
-class MultiplayerPlayerResultsData;
+class IDifficultyBeatmap;
 }
 namespace System::Collections::Generic {
 template <typename T> class IReadOnlyList_1;
-}
-namespace GlobalNamespace {
-class IDifficultyBeatmap;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -31,7 +31,7 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerBadgeDataMinMaxFloatSO);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5108)), TypeDefinitionIndex(TypeDefinitionIndex(5109))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5109)), TypeDefinitionIndex(TypeDefinitionIndex(5108))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5103))
 // CS Name: ::MultiplayerBadgeDataMinMaxFloatSO*
 class CORDL_TYPE MultiplayerBadgeDataMinMaxFloatSO : public ::GlobalNamespace::MultiplayerBadgeDataSO {

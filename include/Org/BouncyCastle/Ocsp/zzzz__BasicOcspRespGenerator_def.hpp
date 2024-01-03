@@ -6,26 +6,20 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(BasicOcspRespGenerator)
-namespace System {
-struct DateTime;
-}
-namespace Org::BouncyCastle::Ocsp {
-class CertificateID;
+namespace System::Collections {
+class IEnumerable;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class X509Extensions;
 }
-namespace System::Collections {
-class IEnumerable;
-}
 namespace Org::BouncyCastle::Crypto {
-class ISignatureFactory;
+class AsymmetricKeyParameter;
 }
 namespace Org::BouncyCastle::Ocsp {
 class RespID;
 }
-namespace Org::BouncyCastle::Crypto {
-class AsymmetricKeyParameter;
+namespace System {
+struct DateTime;
 }
 namespace Org::BouncyCastle::Ocsp {
 class CertificateStatus;
@@ -33,14 +27,20 @@ class CertificateStatus;
 namespace Org::BouncyCastle::Ocsp {
 class __BasicOcspRespGenerator__ResponseObject;
 }
+namespace Org::BouncyCastle::Ocsp {
+class CertificateID;
+}
 namespace System::Collections {
 class IList;
 }
-namespace Org::BouncyCastle::X509 {
-class X509Certificate;
+namespace Org::BouncyCastle::Crypto {
+class ISignatureFactory;
 }
 namespace Org::BouncyCastle::Ocsp {
 class BasicOcspResp;
+}
+namespace Org::BouncyCastle::X509 {
+class X509Certificate;
 }
 namespace Org::BouncyCastle::Security {
 class SecureRandom;

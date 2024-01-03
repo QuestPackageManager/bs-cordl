@@ -10,49 +10,49 @@ namespace Zenject {
 template <typename TContract> class __FactorySubContainerBinderBase_1____c__DisplayClass29_0;
 }
 namespace Zenject {
-class FactoryBindInfo;
-}
-namespace Zenject {
 class DiContainer;
 }
 namespace Zenject {
-class ScopeConcreteIdArgConditionCopyNonLazyBinder;
-}
-namespace Zenject {
-template <typename TContract> class __FactorySubContainerBinderBase_1____c__DisplayClass25_0;
-}
-namespace Zenject {
 class NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder;
-}
-namespace System {
-class Object;
-}
-namespace Zenject {
-template <typename TContract> class __FactorySubContainerBinderBase_1____c__DisplayClass27_0;
-}
-namespace System {
-class Type;
-}
-namespace UnityEngine {
-class Object;
-}
-namespace Zenject {
-class BindInfo;
 }
 namespace Zenject {
 class IProvider;
 }
 namespace System {
+class Type;
+}
+namespace Zenject {
+template <typename TContract> class __FactorySubContainerBinderBase_1____c__DisplayClass27_0;
+}
+namespace System {
 template <typename T, typename TResult> class Func_2;
+}
+namespace Zenject {
+class BindInfo;
+}
+namespace Zenject {
+class FactoryBindInfo;
+}
+namespace Zenject {
+class ScopeConcreteIdArgConditionCopyNonLazyBinder;
+}
+namespace System {
+class Object;
 }
 namespace Zenject {
 template <typename TContract> class __FactorySubContainerBinderBase_1____c__DisplayClass23_0;
 }
 namespace Zenject {
-class SubContainerCreatorBindInfo;
+template <typename TContract> class __FactorySubContainerBinderBase_1____c__DisplayClass25_0;
+}
+namespace UnityEngine {
+class Object;
 }
 namespace Zenject {
 class InjectTypeInfo;
+}
+namespace Zenject {
+class SubContainerCreatorBindInfo;
 }
 namespace Zenject {
 class GameObjectCreationParameters;

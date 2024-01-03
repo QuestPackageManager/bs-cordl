@@ -10,16 +10,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(AudioSettings)
 namespace UnityEngine {
+class __AudioSettings__AudioConfigurationChangeHandler;
+}
+namespace UnityEngine {
 struct AudioConfiguration;
 }
 namespace UnityEngine {
-class __AudioSettings__AudioConfigurationChangeHandler;
+class __AudioSettings__Mobile;
 }
 namespace System {
 class Action;
-}
-namespace UnityEngine {
-class __AudioSettings__Mobile;
 }
 namespace System {
 class Object;

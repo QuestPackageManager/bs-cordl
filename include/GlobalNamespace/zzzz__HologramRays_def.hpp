@@ -14,40 +14,40 @@ namespace GlobalNamespace {
 class TubeBloomPrePassLight;
 }
 namespace UnityEngine {
+class MeshRenderer;
+}
+namespace GlobalNamespace {
+struct EaseType;
+}
+namespace UnityEngine {
 class Transform;
 }
 namespace UnityEngine {
 class MaterialPropertyBlock;
 }
-namespace Tweening {
-class TimeTweeningManager;
+namespace UnityEngine {
+class Mesh;
 }
 namespace GlobalNamespace {
 class __HologramRays___FadingCoroutine_d__28;
 }
-namespace GlobalNamespace {
-struct EaseType;
+namespace Tweening {
+class FloatTween;
+}
+namespace Tweening {
+class TimeTweeningManager;
 }
 namespace System::Collections {
 class IEnumerator;
 }
-namespace UnityEngine {
-class MeshRenderer;
-}
-namespace Tweening {
-class FloatTween;
-}
-namespace UnityEngine {
-class Mesh;
-}
 namespace System {
 class Object;
 }
-namespace System {
-class IDisposable;
-}
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
+}
+namespace System {
+class IDisposable;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -210,7 +210,7 @@ static_assert(offsetof(::GlobalNamespace::__HologramRays___FadingCoroutine_d__28
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 157, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5115))
 // CS Name: ::HologramRays*
 class CORDL_TYPE HologramRays : public ::UnityEngine::MonoBehaviour {

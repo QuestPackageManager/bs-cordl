@@ -4,17 +4,17 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(DefaultTlsSrpGroupVerifier)
-namespace System::Collections {
-class IList;
-}
 namespace Org::BouncyCastle::Crypto::Tls {
 class TlsSrpGroupVerifier;
+}
+namespace Org::BouncyCastle::Math {
+class BigInteger;
 }
 namespace Org::BouncyCastle::Crypto::Parameters {
 class Srp6GroupParameters;
 }
-namespace Org::BouncyCastle::Math {
-class BigInteger;
+namespace System::Collections {
+class IList;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {

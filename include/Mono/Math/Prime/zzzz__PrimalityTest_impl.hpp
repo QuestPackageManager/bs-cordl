@@ -1,15 +1,15 @@
 #pragma once
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "Mono/Math/Prime/zzzz__PrimalityTest_def.hpp"
+#include "Mono/Math/zzzz__BigInteger_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "Mono/Math/Prime/zzzz__ConfidenceFactor_def.hpp"
-#include "Mono/Math/zzzz__BigInteger_def.hpp"
 //  Writing Method size for method: ::Mono::Math::Prime::PrimalityTest._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Math::Prime::PrimalityTest::*)(::System::Object*, void*)>(&::Mono::Math::Prime::PrimalityTest::_ctor)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x240fe24;
+  constexpr static std::size_t addrs = 0x242b2e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Mono::Math::Prime::PrimalityTest::*)(::Mono::Math::BigInteger*, ::Mono::Math::Prime::ConfidenceFactor)>(
     &::Mono::Math::Prime::PrimalityTest::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x240ff54;
+  constexpr static std::size_t addrs = 0x242b418;
 
   inline static ::MethodInfo const* methodInfo() {
 

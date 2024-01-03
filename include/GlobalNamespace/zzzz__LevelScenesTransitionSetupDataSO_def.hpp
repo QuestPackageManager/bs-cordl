@@ -9,25 +9,25 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(LevelScenesTransitionSetupDataSO)
 namespace GlobalNamespace {
-struct __LevelScenesTransitionSetupDataSO___BeforeScenesWillBeActivatedAsync_d__6;
+class GameplayCoreSceneSetupData;
 }
 namespace GlobalNamespace {
 class IReadonlyBeatmapData;
 }
+namespace GlobalNamespace {
+struct __LevelScenesTransitionSetupDataSO___BeforeScenesWillBeActivatedAsync_d__6;
+}
 namespace System::Threading::Tasks {
 class Task;
 }
-namespace GlobalNamespace {
-class GameplayCoreSceneSetupData;
+namespace System::Runtime::CompilerServices {
+class IAsyncStateMachine;
 }
 namespace System::Runtime::CompilerServices {
 struct TaskAwaiter;
 }
 namespace System::Runtime::CompilerServices {
 struct AsyncTaskMethodBuilder;
-}
-namespace System::Runtime::CompilerServices {
-class IAsyncStateMachine;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -43,7 +43,7 @@ MARK_VAL_T(::GlobalNamespace::__LevelScenesTransitionSetupDataSO___BeforeScenesW
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3401)), TypeDefinitionIndex(TypeDefinitionIndex(3393))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3393)), TypeDefinitionIndex(TypeDefinitionIndex(3401))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6066))
 // CS Name: ::LevelScenesTransitionSetupDataSO::<BeforeScenesWillBeActivatedAsync>d__6
 struct CORDL_TYPE __LevelScenesTransitionSetupDataSO___BeforeScenesWillBeActivatedAsync_d__6 {

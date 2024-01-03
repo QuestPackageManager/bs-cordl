@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__VRControllerTransformOffset_def.hpp"
-#include "UnityEngine/zzzz__Pose_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "UnityEngine/zzzz__Pose_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::VRControllerTransformOffset.get_poseOffset
 template <>
 

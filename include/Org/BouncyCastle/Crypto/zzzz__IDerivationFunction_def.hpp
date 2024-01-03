@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(IDerivationFunction)
 namespace Org::BouncyCastle::Crypto {
-class IDerivationParameters;
+class IDigest;
 }
 namespace Org::BouncyCastle::Crypto {
-class IDigest;
+class IDerivationParameters;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto {

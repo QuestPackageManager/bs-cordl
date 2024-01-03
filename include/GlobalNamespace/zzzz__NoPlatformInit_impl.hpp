@@ -1,9 +1,9 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__NoPlatformInit_def.hpp"
-#include "GlobalNamespace/zzzz__IPlatformInit_def.hpp"
-#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
 #include "Zenject/zzzz__IInitializable_def.hpp"
+#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
+#include "GlobalNamespace/zzzz__IPlatformInit_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::NoPlatformInit.Initialize
 template <>
 

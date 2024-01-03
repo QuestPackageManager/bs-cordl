@@ -1,9 +1,9 @@
 #pragma once
 #include "UnityEngine/TextCore/zzzz__Glyph_impl.hpp"
 #include "TMPro/zzzz__TMP_SpriteGlyph_def.hpp"
-#include "UnityEngine/TextCore/zzzz__GlyphRect_def.hpp"
 #include "UnityEngine/zzzz__Sprite_def.hpp"
 #include "UnityEngine/TextCore/zzzz__GlyphMetrics_def.hpp"
+#include "UnityEngine/TextCore/zzzz__GlyphRect_def.hpp"
 //  Writing Method size for method: ::TMPro::TMP_SpriteGlyph._ctor
 template <>
 

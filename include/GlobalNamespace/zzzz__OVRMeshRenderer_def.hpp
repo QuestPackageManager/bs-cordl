@@ -7,11 +7,8 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVRMeshRenderer)
-namespace UnityEngine {
-class SkinnedMeshRenderer;
-}
 namespace GlobalNamespace {
-class OVRSkeleton;
+struct __OVRMeshRenderer__MeshRendererData;
 }
 namespace GlobalNamespace {
 class __OVRMeshRenderer__IOVRMeshRendererDataProvider;
@@ -20,16 +17,19 @@ namespace GlobalNamespace {
 struct __OVRMeshRenderer__ConfidenceBehavior;
 }
 namespace GlobalNamespace {
-struct __OVRMeshRenderer__MeshRendererData;
+class OVRMesh;
+}
+namespace UnityEngine {
+class Material;
 }
 namespace GlobalNamespace {
 struct __OVRMeshRenderer__SystemGestureBehavior;
 }
 namespace GlobalNamespace {
-class OVRMesh;
+class OVRSkeleton;
 }
 namespace UnityEngine {
-class Material;
+class SkinnedMeshRenderer;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -248,7 +248,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRMeshRenderer__SystemGestureBehavi
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 84, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8131)), TypeDefinitionIndex(TypeDefinitionIndex(8130)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8130)), TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(8131))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8132))
 // CS Name: ::OVRMeshRenderer*
 class CORDL_TYPE OVRMeshRenderer : public ::UnityEngine::MonoBehaviour {

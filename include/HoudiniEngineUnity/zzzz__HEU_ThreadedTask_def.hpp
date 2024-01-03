@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(HEU_ThreadedTask)
-namespace System::Threading {
-class Thread;
-}
 namespace System {
 class Object;
+}
+namespace System::Threading {
+class Thread;
 }
 namespace System::Threading {
 struct ThreadPriority;

@@ -9,16 +9,25 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Datatype_dateTimeBase)
 namespace System::Xml::Schema {
-struct XsdDateTimeFlags;
-}
-namespace System::Xml::Schema {
-class XmlValueConverter;
-}
-namespace System {
-class Object;
+struct XmlTypeCode;
 }
 namespace System::Xml {
 class XmlNameTable;
+}
+namespace System::Xml::Schema {
+struct XsdDateTimeFlags;
+}
+namespace System {
+class Type;
+}
+namespace System::Xml::Schema {
+class FacetsChecker;
+}
+namespace System::Xml::Schema {
+class XmlSchemaType;
+}
+namespace System {
+class Object;
 }
 namespace System::Xml {
 class IXmlNamespaceResolver;
@@ -27,19 +36,10 @@ namespace System {
 class Exception;
 }
 namespace System::Xml::Schema {
-class FacetsChecker;
+class XmlValueConverter;
 }
 namespace System::Xml::Schema {
 struct XmlSchemaWhiteSpace;
-}
-namespace System::Xml::Schema {
-class XmlSchemaType;
-}
-namespace System::Xml::Schema {
-struct XmlTypeCode;
-}
-namespace System {
-class Type;
 }
 // Forward declare root types
 namespace System::Xml::Schema {

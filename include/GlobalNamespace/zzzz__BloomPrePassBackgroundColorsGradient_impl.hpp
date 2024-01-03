@@ -3,9 +3,9 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"
 #include "GlobalNamespace/zzzz__BloomPrePassBackgroundColorsGradient_def.hpp"
-#include "UnityEngine/zzzz__Color_def.hpp"
-#include "GlobalNamespace/zzzz__BloomPrePassBackgroundColorsGradient_def.hpp"
 #include "UnityEngine/zzzz__Color32_def.hpp"
+#include "GlobalNamespace/zzzz__BloomPrePassBackgroundColorsGradient_def.hpp"
+#include "UnityEngine/zzzz__Color_def.hpp"
 #include "Unity/Collections/zzzz__NativeArray_1_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::__BloomPrePassBackgroundColorsGradient__Element._ctor
 template <>

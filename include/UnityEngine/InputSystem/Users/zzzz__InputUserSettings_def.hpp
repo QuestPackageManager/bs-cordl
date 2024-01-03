@@ -23,8 +23,8 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::Users::InputUserSettings);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Users {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2448)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 391 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(2613))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6368)) CS Name: ::UnityEngine.InputSystem.Users::InputUserSettings*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 391
+// })} Self: TypeDefinitionIndex(TypeDefinitionIndex(6368)) CS Name: ::UnityEngine.InputSystem.Users::InputUserSettings*
 class CORDL_TYPE InputUserSettings : public ::System::Object {
 public:
   // Declarations

@@ -9,19 +9,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(NavigateFocusRing)
 namespace UnityEngine::UIElements {
-class __NavigateFocusRing__ChangeDirection;
-}
-namespace UnityEngine::UIElements {
 class EventBase;
-}
-namespace UnityEngine::UIElements {
-class IFocusRing;
 }
 namespace UnityEngine::UIElements {
 class VisualElementFocusRing;
 }
 namespace UnityEngine::UIElements {
-class FocusChangeDirection;
+class Focusable;
+}
+namespace UnityEngine::UIElements {
+class __NavigateFocusRing__ChangeDirection;
 }
 namespace UnityEngine::UIElements {
 class FocusController;
@@ -30,10 +27,13 @@ namespace UnityEngine::UIElements {
 class VisualElement;
 }
 namespace UnityEngine::UIElements {
+class IFocusRing;
+}
+namespace UnityEngine::UIElements {
 struct __NavigateFocusRing__FocusableHierarchyTraversal;
 }
 namespace UnityEngine::UIElements {
-class Focusable;
+class FocusChangeDirection;
 }
 namespace UnityEngine {
 struct Rect;

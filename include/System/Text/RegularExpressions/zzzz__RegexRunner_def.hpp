@@ -7,14 +7,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(RegexRunner)
+namespace System::Text::RegularExpressions {
+class Match;
+}
 namespace System {
 struct TimeSpan;
 }
 namespace System::Text::RegularExpressions {
 class Regex;
-}
-namespace System::Text::RegularExpressions {
-class Match;
 }
 // Forward declare root types
 namespace System::Text::RegularExpressions {

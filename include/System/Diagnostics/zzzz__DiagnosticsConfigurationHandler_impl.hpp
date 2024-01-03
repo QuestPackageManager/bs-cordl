@@ -1,9 +1,9 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Diagnostics/zzzz__DiagnosticsConfigurationHandler_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 #include "System/Configuration/zzzz__IConfigurationSectionHandler_def.hpp"
 #include "System/Xml/zzzz__XmlNode_def.hpp"
-#include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::System::Diagnostics::DiagnosticsConfigurationHandler._ctor
 template <>
 

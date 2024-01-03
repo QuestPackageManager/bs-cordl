@@ -10,26 +10,26 @@ CORDL_MODULE_EXPORT(ProjectKernel)
 namespace Zenject {
 class SceneContextRegistry;
 }
-namespace System {
-class Object;
-}
 namespace Zenject {
 class __ProjectKernel____c__DisplayClass4_0;
-}
-namespace Zenject {
-class InjectTypeInfo;
 }
 namespace Zenject {
 class ZenjectSettings;
 }
 namespace System {
-template <typename T, typename TResult> class Func_2;
+class Object;
+}
+namespace Zenject {
+class InjectTypeInfo;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace UnityEngine::SceneManagement {
 struct Scene;
+}
+namespace System {
+template <typename T, typename TResult> class Func_2;
 }
 namespace Zenject {
 class SceneContext;

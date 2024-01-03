@@ -5,19 +5,19 @@ CORDL_MODULE_INIT
 #include "UnityEngine/ProBuilder/Poly2Tri/zzzz__TriangulationDebugContext_def.hpp"
 CORDL_MODULE_EXPORT(DTSweepDebugContext)
 namespace UnityEngine::ProBuilder::Poly2Tri {
-class DelaunayTriangle;
+class AdvancingFrontNode;
+}
+namespace UnityEngine::ProBuilder::Poly2Tri {
+class DTSweepContext;
 }
 namespace UnityEngine::ProBuilder::Poly2Tri {
 class TriangulationPoint;
 }
 namespace UnityEngine::ProBuilder::Poly2Tri {
-class AdvancingFrontNode;
+class DelaunayTriangle;
 }
 namespace UnityEngine::ProBuilder::Poly2Tri {
 class DTSweepConstraint;
-}
-namespace UnityEngine::ProBuilder::Poly2Tri {
-class DTSweepContext;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder::Poly2Tri {

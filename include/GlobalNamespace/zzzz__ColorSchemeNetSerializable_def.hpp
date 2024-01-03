@@ -5,20 +5,20 @@ CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__ColorNoAlphaSerializable_def.hpp"
 #include <cstddef>
 CORDL_MODULE_EXPORT(ColorSchemeNetSerializable)
-namespace GlobalNamespace {
-struct ColorNoAlphaSerializable;
-}
 namespace LiteNetLib::Utils {
-class NetDataWriter;
-}
-namespace LiteNetLib::Utils {
-class INetSerializable;
+class NetDataReader;
 }
 namespace UnityEngine {
 struct Color;
 }
 namespace LiteNetLib::Utils {
-class NetDataReader;
+class INetSerializable;
+}
+namespace GlobalNamespace {
+struct ColorNoAlphaSerializable;
+}
+namespace LiteNetLib::Utils {
+class NetDataWriter;
 }
 // Forward declare root types
 namespace GlobalNamespace {

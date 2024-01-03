@@ -11,13 +11,16 @@ namespace UnityEngine::UIElements {
 class __TextField__UxmlFactory;
 }
 namespace UnityEngine::UIElements {
-class __TextField__TextInput;
-}
-namespace UnityEngine::UIElements {
 class __TextField__UxmlTraits;
 }
 namespace UnityEngine::UIElements {
+class __TextField__TextInput;
+}
+namespace UnityEngine::UIElements {
 class EventBase;
+}
+namespace UnityEngine::UIElements {
+struct CreationContext;
 }
 namespace UnityEngine::UIElements {
 class IUxmlAttributes;
@@ -27,9 +30,6 @@ class VisualElement;
 }
 namespace UnityEngine::UIElements {
 class UxmlBoolAttributeDescription;
-}
-namespace UnityEngine::UIElements {
-struct CreationContext;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -53,7 +53,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::__TextField__UxmlTraits);
 // SizeInfo { instance_size: 192, native_size: -1, calculated_instance_size: 192, calculated_native_size: 192, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7096), inst: 397 }), TypeDefinitionIndex(TypeDefinitionIndex(7096))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7096)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7096), inst: 397 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7059))
 // CS Name: ::TextField::UxmlTraits*
 class CORDL_TYPE __TextField__UxmlTraits : public ::UnityEngine::UIElements::__TextInputBaseField_1__UxmlTraits<::StringW> {
@@ -201,8 +201,8 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::TextFie
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6997)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6997), inst: 5280 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(7059)), TypeDefinitionIndex(TypeDefinitionIndex(7061))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7058)) CS Name: ::TextField::UxmlFactory*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7061)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6997), inst: 5280 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(6997)), TypeDefinitionIndex(TypeDefinitionIndex(7059))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7058)) CS Name: ::TextField::UxmlFactory*
 class CORDL_TYPE __TextField__UxmlFactory : public ::UnityEngine::UIElements::UxmlFactory_2<::UnityEngine::UIElements::TextField*, ::UnityEngine::UIElements::__TextField__UxmlTraits*> {
 public:
   // Declarations
@@ -235,7 +235,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__TextF
 // SizeInfo { instance_size: 1048, native_size: -1, calculated_instance_size: 1048, calculated_native_size: 1041, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7097)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7097), inst: 397 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7097), inst: 397 }), TypeDefinitionIndex(TypeDefinitionIndex(7097))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7060))
 // CS Name: ::TextField::TextInput*
 class CORDL_TYPE __TextField__TextInput : public ::UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<::StringW> {

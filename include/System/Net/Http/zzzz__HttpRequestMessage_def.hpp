@@ -5,20 +5,20 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(HttpRequestMessage)
-namespace System::Net::Http {
-class HttpMethod;
-}
-namespace System::Net::Http::Headers {
-class HttpRequestHeaders;
-}
-namespace System {
-class Version;
-}
 namespace System {
 class Uri;
 }
 namespace System::Net::Http {
 class HttpContent;
+}
+namespace System::Net::Http {
+class HttpMethod;
+}
+namespace System {
+class Version;
+}
+namespace System::Net::Http::Headers {
+class HttpRequestHeaders;
 }
 namespace System {
 class IDisposable;

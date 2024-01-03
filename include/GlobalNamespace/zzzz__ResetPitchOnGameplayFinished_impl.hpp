@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__ResetPitchOnGameplayFinished_def.hpp"
-#include "GlobalNamespace/zzzz__GameplayLevelSceneTransitionEvents_def.hpp"
 #include "GlobalNamespace/zzzz__AudioManagerSO_def.hpp"
+#include "GlobalNamespace/zzzz__GameplayLevelSceneTransitionEvents_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::ResetPitchOnGameplayFinished._ctor
 template <>
 

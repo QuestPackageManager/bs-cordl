@@ -7,13 +7,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(TutorialScenesTransitionSetupDataSO)
 namespace GlobalNamespace {
-class SceneInfo;
-}
-namespace GlobalNamespace {
 struct __TutorialScenesTransitionSetupDataSO__TutorialEndStateType;
 }
 namespace GlobalNamespace {
 class EnvironmentInfoSO;
+}
+namespace GlobalNamespace {
+class SceneInfo;
 }
 namespace System {
 template <typename T1, typename T2> class Action_2;

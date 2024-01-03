@@ -8,7 +8,34 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(BeatmapCallbacksController)
 namespace GlobalNamespace {
-class __BeatmapCallbacksController__ICallCallbacksBehavior;
+class CallbacksInTime;
+}
+namespace System {
+class IDisposable;
+}
+namespace GlobalNamespace {
+class __BeatmapCallbacksController__CallCallbacksBehavior;
+}
+namespace System::Collections::Generic {
+template <typename T> class LinkedListNode_1;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace GlobalNamespace {
+class __BeatmapCallbacksController__InitData;
+}
+namespace GlobalNamespace {
+class BeatmapDataItem;
+}
+namespace GlobalNamespace {
+class __BeatmapCallbacksController__CallCallbacksBehaviorWithLastState;
+}
+namespace GlobalNamespace {
+class BeatmapDataCallbackWrapper;
+}
+namespace System {
+class Action;
 }
 namespace GlobalNamespace {
 class IReadonlyBeatmapData;
@@ -17,37 +44,10 @@ namespace GlobalNamespace {
 class BeatmapEventData;
 }
 namespace GlobalNamespace {
-class BeatmapDataCallbackWrapper;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace GlobalNamespace {
-class __BeatmapCallbacksController__CallCallbacksBehaviorWithLastState;
-}
-namespace GlobalNamespace {
 template <typename T> class BeatmapDataCallback_1;
 }
 namespace GlobalNamespace {
-class CallbacksInTime;
-}
-namespace GlobalNamespace {
-class BeatmapDataItem;
-}
-namespace System {
-class Action;
-}
-namespace GlobalNamespace {
-class __BeatmapCallbacksController__InitData;
-}
-namespace System::Collections::Generic {
-template <typename T> class LinkedListNode_1;
-}
-namespace GlobalNamespace {
-class __BeatmapCallbacksController__CallCallbacksBehavior;
-}
-namespace System {
-class IDisposable;
+class __BeatmapCallbacksController__ICallCallbacksBehavior;
 }
 namespace System {
 class Type;

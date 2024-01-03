@@ -7,8 +7,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(PgpSignatureSubpacketVector)
-namespace System {
-struct DateTime;
+namespace Org::BouncyCastle::Bcpg::Sig {
+class NotationData;
+}
+namespace Org::BouncyCastle::Bcpg {
+class SignatureSubpacket;
 }
 namespace Org::BouncyCastle::Bcpg::Sig {
 class Features;
@@ -16,11 +19,8 @@ class Features;
 namespace Org::BouncyCastle::Bcpg {
 struct SignatureSubpacketTag;
 }
-namespace Org::BouncyCastle::Bcpg {
-class SignatureSubpacket;
-}
-namespace Org::BouncyCastle::Bcpg::Sig {
-class NotationData;
+namespace System {
+struct DateTime;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Bcpg::OpenPgp {

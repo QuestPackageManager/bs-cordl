@@ -10,34 +10,34 @@ namespace Org::BouncyCastle::Utilities::Collections {
 class ISet;
 }
 namespace Org::BouncyCastle::Asn1 {
-class DerObjectIdentifier;
+class Asn1Encodable;
 }
 namespace Org::BouncyCastle::Crypto {
 class AsymmetricKeyParameter;
 }
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Set;
+}
 namespace Org::BouncyCastle::Crypto {
 class ISigner;
 }
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Encodable;
+namespace Org::BouncyCastle::Crypto {
+class IDigest;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class AlgorithmIdentifier;
 }
+namespace Org::BouncyCastle::X509::Store {
+class IX509Store;
+}
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Set;
+class DerObjectIdentifier;
 }
 namespace System::Collections {
 class IList;
 }
-namespace Org::BouncyCastle::X509::Store {
-class IX509Store;
-}
 namespace System::Collections {
 class IDictionary;
-}
-namespace Org::BouncyCastle::Crypto {
-class IDigest;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Cms {

@@ -9,11 +9,11 @@ CORDL_MODULE_EXPORT(ConnectionErrorDialogViewController)
 namespace GlobalNamespace {
 class __ConnectionErrorDialogViewController____c__DisplayClass0_0;
 }
-namespace GlobalNamespace {
-struct DisconnectedReason;
-}
 namespace System {
 class Action;
+}
+namespace GlobalNamespace {
+struct DisconnectedReason;
 }
 // Forward declare root types
 namespace GlobalNamespace {

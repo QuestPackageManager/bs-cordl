@@ -27,7 +27,7 @@ MARK_VAL_T(::LIV::SDK::Unity::SDKTrackedSpace);
 // SizeInfo { instance_size: 168, native_size: 168, calculated_instance_size: 168, calculated_native_size: 184, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace LIV::SDK::Unity {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15110)), TypeDefinitionIndex(TypeDefinitionIndex(15109)), TypeDefinitionIndex(TypeDefinitionIndex(15111))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15111)), TypeDefinitionIndex(TypeDefinitionIndex(15109)), TypeDefinitionIndex(TypeDefinitionIndex(15110))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15117))
 // CS Name: ::LIV.SDK.Unity::SDKTrackedSpace
 struct CORDL_TYPE SDKTrackedSpace {

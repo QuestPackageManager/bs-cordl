@@ -8,14 +8,14 @@ CORDL_MODULE_EXPORT(ZenjectStateMachineBehaviourAutoInjecter)
 namespace Zenject {
 class DiContainer;
 }
-namespace UnityEngine {
-class Animator;
+namespace Zenject {
+class InjectTypeInfo;
 }
 namespace System {
 class Object;
 }
-namespace Zenject {
-class InjectTypeInfo;
+namespace UnityEngine {
+class Animator;
 }
 // Forward declare root types
 namespace Zenject {

@@ -5,6 +5,7 @@ CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__ArcVisibilityType_def.hpp"
 #include "GlobalNamespace/zzzz__EnvironmentEffectsFilterPreset_def.hpp"
 #include "GlobalNamespace/zzzz__NoteJumpDurationTypeSettings_def.hpp"
+#include "System/zzzz__Nullable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(PlayerSpecificSettings)
@@ -15,13 +16,10 @@ namespace GlobalNamespace {
 struct NoteJumpDurationTypeSettings;
 }
 namespace GlobalNamespace {
-struct EnvironmentEffectsFilterPreset;
-}
-namespace GlobalNamespace {
 struct ArcVisibilityType;
 }
-namespace System {
-template <typename T> struct Nullable_1;
+namespace GlobalNamespace {
+struct EnvironmentEffectsFilterPreset;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -33,8 +31,11 @@ MARK_REF_PTR_T(::GlobalNamespace::PlayerSpecificSettings);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 76, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(4621)), TypeDefinitionIndex(TypeDefinitionIndex(4622)),
-// TypeDefinitionIndex(TypeDefinitionIndex(4606))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4659)) CS Name: ::PlayerSpecificSettings*
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 391 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 4729 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2448)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 4748 }),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 4736 }), TypeDefinitionIndex(TypeDefinitionIndex(4622)), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(2448), inst: 105 }), TypeDefinitionIndex(TypeDefinitionIndex(4606)), TypeDefinitionIndex(TypeDefinitionIndex(4621))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4659)) CS
+// Name: ::PlayerSpecificSettings*
 class CORDL_TYPE PlayerSpecificSettings : public ::System::Object {
 public:
   // Declarations

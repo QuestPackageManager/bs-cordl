@@ -7,14 +7,14 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVRPermissionsRequester)
-namespace System {
-template <typename T> class Action_1;
-}
 namespace GlobalNamespace {
 class __OVRPermissionsRequester____c;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
+}
+namespace System {
+template <typename T> class Action_1;
 }
 namespace GlobalNamespace {
 struct __OVRPermissionsRequester__Permission;

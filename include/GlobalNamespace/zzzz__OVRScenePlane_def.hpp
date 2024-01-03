@@ -12,17 +12,11 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVRScenePlane)
-namespace UnityEngine {
-struct Vector2;
+namespace GlobalNamespace {
+class OVRSceneAnchor;
 }
 namespace GlobalNamespace {
 struct __OVRScenePlane__GetBoundaryJob;
-}
-namespace System::Collections::Generic {
-template <typename T> class IReadOnlyList_1;
-}
-namespace GlobalNamespace {
-class OVRSceneAnchor;
 }
 namespace GlobalNamespace {
 class IOVRSceneComponent;
@@ -33,11 +27,17 @@ template <typename T> class List_1;
 namespace GlobalNamespace {
 struct __OVRScenePlane__GetBoundaryLengthJob;
 }
-namespace GlobalNamespace {
-struct OVRSpace;
+namespace System::Collections::Generic {
+template <typename T> class IReadOnlyList_1;
+}
+namespace UnityEngine {
+struct Vector2;
 }
 namespace Unity::Jobs {
 class IJob;
+}
+namespace GlobalNamespace {
+struct OVRSpace;
 }
 namespace Unity::Collections {
 template <typename T> struct NativeArray_1;
@@ -60,8 +60,8 @@ MARK_VAL_T(::GlobalNamespace::__OVRScenePlane__GetBoundaryLengthJob);
 // SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9999)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 98 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(7991))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7974)) CS Name: ::OVRScenePlane::GetBoundaryLengthJob
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 98 }), TypeDefinitionIndex(TypeDefinitionIndex(7991)),
+// TypeDefinitionIndex(TypeDefinitionIndex(9999))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7974)) CS Name: ::OVRScenePlane::GetBoundaryLengthJob
 struct CORDL_TYPE __OVRScenePlane__GetBoundaryLengthJob {
 public:
   // Declarations
@@ -102,8 +102,8 @@ static_assert(offsetof(::GlobalNamespace::__OVRScenePlane__GetBoundaryLengthJob,
 // SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(7991)), TypeDefinitionIndex(TypeDefinitionIndex(9999)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 411 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(7975)) CS Name: ::OVRScenePlane::GetBoundaryJob
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10243)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 411 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(9999)), TypeDefinitionIndex(TypeDefinitionIndex(7991))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7975)) CS Name: ::OVRScenePlane::GetBoundaryJob
 struct CORDL_TYPE __OVRScenePlane__GetBoundaryJob {
 public:
   // Declarations
@@ -157,10 +157,10 @@ static_assert(offsetof(::GlobalNamespace::__OVRScenePlane__GetBoundaryJob, Previ
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 98 }), TypeDefinitionIndex(TypeDefinitionIndex(9999)), GenericInstantiation(GenericInstantiation {
-// tdi: TypeDefinitionIndex(9999), inst: 411 }), TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(9977)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 4742 }), TypeDefinitionIndex(TypeDefinitionIndex(10225))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7976)) CS
-// Name: ::OVRScenePlane*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(9999)), TypeDefinitionIndex(TypeDefinitionIndex(9977)),
+// TypeDefinitionIndex(TypeDefinitionIndex(2448)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 411 }), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(9999), inst: 98 }), TypeDefinitionIndex(TypeDefinitionIndex(10243)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 4742 })} Self:
+// TypeDefinitionIndex(TypeDefinitionIndex(7976)) CS Name: ::OVRScenePlane*
 class CORDL_TYPE OVRScenePlane : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations

@@ -7,13 +7,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(SByteConverter)
 namespace System {
+class Type;
+}
+namespace System {
 class Object;
 }
 namespace System::Globalization {
 class NumberFormatInfo;
-}
-namespace System {
-class Type;
 }
 // Forward declare root types
 namespace System::ComponentModel {

@@ -4,9 +4,9 @@
 #include "UnityEngine/UIElements/zzzz__UxmlAttributeDescription_def.hpp"
 #include "UnityEngine/UIElements/zzzz__CreationContext_def.hpp"
 #include "System/zzzz__Func_3_def.hpp"
+#include "UnityEngine/UIElements/zzzz__UxmlTypeRestriction_def.hpp"
 #include "UnityEngine/UIElements/zzzz__UxmlAttributeDescription_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "UnityEngine/UIElements/zzzz__UxmlTypeRestriction_def.hpp"
 #include "UnityEngine/UIElements/zzzz__IUxmlAttributes_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::UIElements::__UxmlAttributeDescription__Use::__UxmlAttributeDescription__Use(int32_t value__) noexcept {

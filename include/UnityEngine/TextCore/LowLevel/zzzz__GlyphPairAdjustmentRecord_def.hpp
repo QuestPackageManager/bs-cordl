@@ -7,17 +7,17 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(GlyphPairAdjustmentRecord)
-namespace UnityEngine::TextCore::LowLevel {
-struct GlyphAdjustmentRecord;
+namespace System {
+class Object;
 }
 namespace System {
 template <typename T> class IEquatable_1;
 }
-namespace System {
-class Object;
-}
 namespace UnityEngine::TextCore::LowLevel {
 struct FontFeatureLookupFlags;
+}
+namespace UnityEngine::TextCore::LowLevel {
+struct GlyphAdjustmentRecord;
 }
 // Forward declare root types
 namespace UnityEngine::TextCore::LowLevel {
@@ -29,7 +29,7 @@ MARK_VAL_T(::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord);
 // SizeInfo { instance_size: 44, native_size: 44, calculated_instance_size: 44, calculated_native_size: 60, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::TextCore::LowLevel {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15539)), TypeDefinitionIndex(TypeDefinitionIndex(15541))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15541)), TypeDefinitionIndex(TypeDefinitionIndex(15539))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15542))
 // CS Name: ::UnityEngine.TextCore.LowLevel::GlyphPairAdjustmentRecord
 struct CORDL_TYPE GlyphPairAdjustmentRecord {

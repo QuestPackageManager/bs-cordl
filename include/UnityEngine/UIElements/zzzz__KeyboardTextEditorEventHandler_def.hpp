@@ -7,43 +7,43 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(KeyboardTextEditorEventHandler)
 namespace UnityEngine::UIElements {
-class BlurEvent;
-}
-namespace UnityEngine::UIElements {
-class MouseMoveEvent;
-}
-namespace UnityEngine::UIElements {
-class MouseUpEvent;
-}
-namespace UnityEngine::UIElements {
-class FocusEvent;
-}
-namespace UnityEngine::UIElements {
 class ExecuteCommandEvent;
 }
 namespace UnityEngine::UIElements {
-class ITextInputField;
-}
-namespace UnityEngine::UIElements {
-class KeyDownEvent;
-}
-namespace UnityEngine {
-class Event;
-}
-namespace UnityEngine::UIElements {
-class TextEditorEngine;
-}
-namespace UnityEngine::UIElements {
-class EventBase;
+class BlurEvent;
 }
 namespace UnityEngine::UIElements {
 class MouseDownEvent;
 }
 namespace UnityEngine::UIElements {
-class ValidateCommandEvent;
+class KeyDownEvent;
+}
+namespace UnityEngine::UIElements {
+class MouseMoveEvent;
+}
+namespace UnityEngine::UIElements {
+class FocusEvent;
+}
+namespace UnityEngine {
+class Event;
+}
+namespace UnityEngine::UIElements {
+class EventBase;
+}
+namespace UnityEngine::UIElements {
+class TextEditorEngine;
 }
 namespace UnityEngine {
 struct Vector2;
+}
+namespace UnityEngine::UIElements {
+class ValidateCommandEvent;
+}
+namespace UnityEngine::UIElements {
+class ITextInputField;
+}
+namespace UnityEngine::UIElements {
+class MouseUpEvent;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -55,7 +55,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::KeyboardTextEditorEventHandler);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(7094))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7094)), TypeDefinitionIndex(TypeDefinitionIndex(10243))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7041))
 // CS Name: ::UnityEngine.UIElements::KeyboardTextEditorEventHandler*
 class CORDL_TYPE KeyboardTextEditorEventHandler : public ::UnityEngine::UIElements::TextEditorEventHandler {

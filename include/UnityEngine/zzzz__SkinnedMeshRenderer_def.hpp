@@ -11,9 +11,6 @@ namespace UnityEngine {
 struct SkinQuality;
 }
 namespace UnityEngine {
-class Mesh;
-}
-namespace UnityEngine {
 struct __GraphicsBuffer__Target;
 }
 namespace UnityEngine {
@@ -21,6 +18,9 @@ class GraphicsBuffer;
 }
 namespace UnityEngine {
 class Transform;
+}
+namespace UnityEngine {
+class Mesh;
 }
 // Forward declare root types
 namespace UnityEngine {

@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(FlyingGameHUDRotation)
 namespace GlobalNamespace {
-class BeatLineManager;
+class EnvironmentSpawnRotation;
 }
 namespace GlobalNamespace {
-class EnvironmentSpawnRotation;
+class BeatLineManager;
 }
 // Forward declare root types
 namespace GlobalNamespace {

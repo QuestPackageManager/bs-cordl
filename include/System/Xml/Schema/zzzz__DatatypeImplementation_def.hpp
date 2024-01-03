@@ -9,56 +9,56 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(DatatypeImplementation)
-namespace System::Collections {
-class Hashtable;
-}
-namespace System::Xml::Schema {
-struct XmlTypeCode;
-}
 namespace System::Xml::Schema {
 class RestrictionFacets;
 }
 namespace System::Xml::Schema {
-class XmlSchemaType;
-}
-namespace System::Xml {
-struct XmlTokenizedType;
+class __DatatypeImplementation__SchemaDatatypeMap;
 }
 namespace System::Xml::Schema {
-class FacetsChecker;
+class XmlSchemaType;
 }
 namespace System::Xml::Schema {
 struct XmlSchemaWhiteSpace;
 }
 namespace System::Xml::Schema {
-class XmlSchemaSimpleType;
+struct XmlTypeCode;
 }
-namespace System::Xml::Schema {
-struct XmlSchemaDatatypeVariety;
-}
-namespace System {
-class Type;
+namespace System::Collections {
+class Hashtable;
 }
 namespace System::Xml {
 class XmlNameTable;
 }
+namespace System {
+class Type;
+}
 namespace System::Xml::Schema {
 class XmlSchemaDatatype;
 }
+namespace System::Xml::Schema {
+class XmlSchemaSimpleType;
+}
 namespace System::Xml {
-class IXmlNamespaceResolver;
+struct XmlTokenizedType;
 }
 namespace System::Xml {
 class XmlQualifiedName;
 }
 namespace System::Xml::Schema {
-class __DatatypeImplementation__SchemaDatatypeMap;
+class XmlValueConverter;
+}
+namespace System::Xml::Schema {
+class FacetsChecker;
 }
 namespace System {
 class Object;
 }
+namespace System::Xml {
+class IXmlNamespaceResolver;
+}
 namespace System::Xml::Schema {
-class XmlValueConverter;
+struct XmlSchemaDatatypeVariety;
 }
 namespace System {
 class IComparable;

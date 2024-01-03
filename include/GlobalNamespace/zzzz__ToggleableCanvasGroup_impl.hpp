@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__ToggleableCanvasGroup_def.hpp"
-#include "UnityEngine/zzzz__CanvasGroup_def.hpp"
 #include "UnityEngine/UI/zzzz__Toggle_def.hpp"
+#include "UnityEngine/zzzz__CanvasGroup_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::ToggleableCanvasGroup.OnEnable
 template <>
 

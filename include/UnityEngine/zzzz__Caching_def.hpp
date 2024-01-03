@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(Caching)
 namespace UnityEngine {
-struct CachedAssetBundle;
+struct Hash128;
 }
 namespace UnityEngine {
-struct Hash128;
+struct CachedAssetBundle;
 }
 namespace UnityEngine {
 struct Cache;

@@ -8,41 +8,8 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(ExecutionContext)
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace System::Runtime::Remoting::Messaging {
-class IllogicalCallContext;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace System::Runtime::Serialization {
-class SerializationInfo;
-}
-namespace System::Threading {
-class ContextCallback;
-}
-namespace System::Runtime::Remoting::Messaging {
-class LogicalCallContext;
-}
-namespace System {
-class Object;
-}
-namespace System::Threading {
-class SynchronizationContext;
-}
 namespace System::Runtime::Serialization {
 struct StreamingContext;
-}
-namespace System::Threading {
-struct StackCrawlMark;
-}
-namespace System {
-class IDisposable;
-}
-namespace System::Runtime::Serialization {
-class ISerializable;
 }
 namespace System::Threading {
 class Thread;
@@ -51,16 +18,49 @@ namespace System::Threading {
 struct ExecutionContextSwitcher;
 }
 namespace System::Threading {
-struct __ExecutionContext__Reader;
+struct __ExecutionContext__Flags;
+}
+namespace System {
+class IDisposable;
 }
 namespace System::Threading {
-struct __ExecutionContext__Flags;
+class ContextCallback;
+}
+namespace System::Threading {
+struct __ExecutionContext__Reader;
+}
+namespace System::Runtime::Serialization {
+class SerializationInfo;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace System {
+class Object;
 }
 namespace System::Threading {
 struct __ExecutionContext__CaptureOptions;
 }
 namespace System::Threading {
+struct StackCrawlMark;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace System::Runtime::Serialization {
+class ISerializable;
+}
+namespace System::Threading {
 class IAsyncLocal;
+}
+namespace System::Runtime::Remoting::Messaging {
+class IllogicalCallContext;
+}
+namespace System::Threading {
+class SynchronizationContext;
+}
+namespace System::Runtime::Remoting::Messaging {
+class LogicalCallContext;
 }
 namespace System::Runtime::Remoting::Messaging {
 struct __LogicalCallContext__Reader;

@@ -8,13 +8,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(NetworkConfigSO)
 namespace GlobalNamespace {
+class DnsEndPoint;
+}
+namespace GlobalNamespace {
 class INetworkConfig;
 }
 namespace GlobalNamespace {
 struct ServiceEnvironment;
-}
-namespace GlobalNamespace {
-class DnsEndPoint;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -26,7 +26,7 @@ MARK_REF_PTR_T(::GlobalNamespace::NetworkConfigSO);
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12740)), TypeDefinitionIndex(TypeDefinitionIndex(15857))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15857)), TypeDefinitionIndex(TypeDefinitionIndex(12740))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14952))
 // CS Name: ::NetworkConfigSO*
 class CORDL_TYPE NetworkConfigSO : public ::GlobalNamespace::PersistentScriptableObject {

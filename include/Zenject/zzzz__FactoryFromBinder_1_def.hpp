@@ -7,59 +7,59 @@ CORDL_MODULE_INIT
 #include "Zenject/zzzz__InjectSources_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(FactoryFromBinder_1)
-namespace System {
-template <typename T, typename TResult> class Func_2;
-}
-namespace Zenject {
-template <typename TContract> class __FactoryFromBinder_1____c__DisplayClass4_0;
-}
-namespace Zenject {
-class DiContainer;
-}
-namespace Zenject {
-class ConditionCopyNonLazyBinder;
-}
-namespace Zenject {
-template <typename TContract, typename TObj> class __FactoryFromBinder_1____c__DisplayClass3_0_1;
-}
-namespace System {
-class Object;
-}
-namespace Zenject {
-template <typename TContract> class __FactoryFromBinder_1____c;
-}
-namespace Zenject {
-class FactoryBindInfo;
-}
-namespace Zenject {
-class ArgConditionCopyNonLazyBinder;
-}
-namespace Zenject {
-template <typename TContract, typename TSubFactory> class __FactoryFromBinder_1____c__5_1;
-}
-namespace Zenject {
-template <typename TContract> class __FactoryFromBinder_1____c__DisplayClass8_0;
-}
 namespace Zenject {
 class BindInfo;
 }
 namespace Zenject {
 struct InjectSources;
 }
+namespace System {
+class Object;
+}
+namespace Zenject {
+template <typename TContract, typename TSubFactory> class __FactoryFromBinder_1____c__5_1;
+}
+namespace Zenject {
+class DiContainer;
+}
 namespace Zenject {
 template <typename TContract> class FactorySubContainerBinder_1;
 }
 namespace Zenject {
-class InjectTypeInfo;
+template <typename TContract, typename TObj> class __FactoryFromBinder_1____c__DisplayClass3_0_1;
 }
 namespace Zenject {
-template <typename TContract> class ConcreteBinderGeneric_1;
+template <typename TContract> class __FactoryFromBinder_1____c__DisplayClass4_0;
+}
+namespace Zenject {
+class FactoryBindInfo;
+}
+namespace System {
+template <typename T, typename TResult> class Func_2;
+}
+namespace Zenject {
+class ArgConditionCopyNonLazyBinder;
+}
+namespace Zenject {
+class ConditionCopyNonLazyBinder;
+}
+namespace Zenject {
+template <typename TContract> class __FactoryFromBinder_1____c;
+}
+namespace Zenject {
+template <typename TContract> class __FactoryFromBinder_1____c__DisplayClass8_0;
+}
+namespace Zenject {
+class InjectTypeInfo;
 }
 namespace Zenject {
 template <typename TValue> class IFactory_1;
 }
 namespace System {
 template <typename T> class Action_1;
+}
+namespace Zenject {
+template <typename TContract> class ConcreteBinderGeneric_1;
 }
 namespace Zenject {
 class IProvider;
@@ -99,7 +99,7 @@ namespace Zenject {
 // cpp template
 template <typename TContract, typename TObj>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15712))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15712)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10711))
 // CS Name: ::FactoryFromBinder`1::<>c__DisplayClass3_0`1<TContract,TObj>*
 class CORDL_TYPE __FactoryFromBinder_1____c__DisplayClass3_0_1 : public ::System::Object {

@@ -7,14 +7,14 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__ScriptableObject_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(LocalizedAudioClipSO)
-namespace UnityEngine {
-class AudioClip;
-}
 namespace GlobalNamespace {
 class __LocalizedAudioClipSO__LocalizedAudioClipInfo;
 }
 namespace GlobalNamespace {
 class __LocalizedAudioClipSO____c__DisplayClass4_0;
+}
+namespace UnityEngine {
+class AudioClip;
 }
 // Forward declare root types
 namespace GlobalNamespace {

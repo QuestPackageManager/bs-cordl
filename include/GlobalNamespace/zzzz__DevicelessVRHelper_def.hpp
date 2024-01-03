@@ -8,23 +8,17 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(DevicelessVRHelper)
+namespace GlobalNamespace {
+class IVRPlatformHelper;
+}
 namespace System {
 class Action;
 }
 namespace UnityEngine {
-struct Quaternion;
-}
-namespace GlobalNamespace {
-struct VRPlatformSDK;
+struct Pose;
 }
 namespace UnityEngine::XR {
 struct XRNode;
-}
-namespace UnityEngine {
-struct Pose;
-}
-namespace UnityEngine {
-struct Vector3;
 }
 namespace GlobalNamespace {
 class IVerboseLogger;
@@ -32,8 +26,14 @@ class IVerboseLogger;
 namespace UnityEngine {
 struct Vector2;
 }
+namespace UnityEngine {
+struct Quaternion;
+}
 namespace GlobalNamespace {
-class IVRPlatformHelper;
+struct VRPlatformSDK;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace GlobalNamespace {

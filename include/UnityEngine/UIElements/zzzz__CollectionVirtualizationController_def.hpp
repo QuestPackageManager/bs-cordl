@@ -6,20 +6,20 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(CollectionVirtualizationController)
-namespace UnityEngine::UIElements {
-class ReusableCollectionItem;
-}
 namespace UnityEngine {
 struct Vector2;
-}
-namespace UnityEngine::UIElements {
-class ScrollView;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
 namespace UnityEngine::UIElements {
+class ScrollView;
+}
+namespace UnityEngine::UIElements {
 class VisualElement;
+}
+namespace UnityEngine::UIElements {
+class ReusableCollectionItem;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

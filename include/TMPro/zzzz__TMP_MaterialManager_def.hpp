@@ -6,28 +6,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(TMP_MaterialManager)
 namespace TMPro {
-class __TMP_MaterialManager____c__DisplayClass13_0;
-}
-namespace UnityEngine {
-class Material;
-}
-namespace TMPro {
-class __TMP_MaterialManager____c__DisplayClass9_0;
-}
-namespace TMPro {
-class __TMP_MaterialManager____c__DisplayClass11_0;
+class __TMP_MaterialManager__FallbackMaterial;
 }
 namespace UnityEngine::UI {
 class MaskableGraphic;
 }
 namespace UnityEngine {
+class Material;
+}
+namespace UnityEngine {
 class Transform;
 }
 namespace TMPro {
-class TMP_FontAsset;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+class __TMP_MaterialManager____c__DisplayClass9_0;
 }
 namespace TMPro {
 class __TMP_MaterialManager__MaskingMaterial;
@@ -35,14 +26,23 @@ class __TMP_MaterialManager__MaskingMaterial;
 namespace TMPro {
 class __TMP_MaterialManager____c__DisplayClass12_0;
 }
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
 namespace TMPro {
-class __TMP_MaterialManager__FallbackMaterial;
+class __TMP_MaterialManager____c__DisplayClass13_0;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace UnityEngine {
 class GameObject;
+}
+namespace TMPro {
+class __TMP_MaterialManager____c__DisplayClass11_0;
+}
+namespace TMPro {
+class TMP_FontAsset;
 }
 // Forward declare root types
 namespace TMPro {

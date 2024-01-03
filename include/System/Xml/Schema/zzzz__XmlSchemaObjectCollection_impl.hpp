@@ -1,8 +1,8 @@
 #pragma once
 #include "System/Collections/zzzz__CollectionBase_impl.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaObjectCollection_def.hpp"
-#include "System/zzzz__Object_def.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaObject_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::System::Xml::Schema::XmlSchemaObjectCollection._ctor
 template <>
 

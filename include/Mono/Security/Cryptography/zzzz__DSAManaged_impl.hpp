@@ -2,10 +2,10 @@
 #include "System/Security/Cryptography/zzzz__DSA_impl.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "Mono/Security/Cryptography/zzzz__DSAManaged_def.hpp"
+#include "System/Security/Cryptography/zzzz__DSAParameters_def.hpp"
 #include "Mono/Security/Cryptography/zzzz__DSAManaged_def.hpp"
 #include "Mono/Math/zzzz__BigInteger_def.hpp"
 #include "System/Security/Cryptography/zzzz__RandomNumberGenerator_def.hpp"
-#include "System/Security/Cryptography/zzzz__DSAParameters_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__EventArgs_def.hpp"
 //  Writing Method size for method: ::Mono::Security::Cryptography::__DSAManaged__KeyGeneratedEventHandler._ctor

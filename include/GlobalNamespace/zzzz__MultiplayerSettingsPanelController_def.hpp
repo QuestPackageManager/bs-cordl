@@ -5,26 +5,26 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(MultiplayerSettingsPanelController)
-namespace GlobalNamespace {
-class ILobbyPlayerData;
-}
-namespace UnityEngine {
-class GameObject;
-}
-namespace GlobalNamespace {
-class ServerCodeView;
-}
 namespace UnityEngine::UI {
 class Toggle;
-}
-namespace System {
-template <typename T> class Action_1;
 }
 namespace HMUI {
 class ToggleBinder;
 }
 namespace GlobalNamespace {
+class ILobbyPlayerData;
+}
+namespace GlobalNamespace {
 class IRefreshable;
+}
+namespace GlobalNamespace {
+class ServerCodeView;
+}
+namespace System {
+template <typename T> class Action_1;
+}
+namespace UnityEngine {
+class GameObject;
 }
 // Forward declare root types
 namespace GlobalNamespace {

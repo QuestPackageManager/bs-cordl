@@ -11,8 +11,17 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(CertificateData)
-namespace System {
-class IDisposable;
+namespace System::Security::Cryptography {
+class DerSequenceReader;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> struct KeyValuePair_2;
+}
+namespace System::Collections {
+class IEnumerable;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
@@ -20,17 +29,11 @@ template <typename T> class IEnumerator_1;
 namespace System {
 class Object;
 }
-namespace System::Security::Cryptography {
-class DerSequenceReader;
+namespace System {
+class IDisposable;
 }
 namespace System::Collections::Generic {
 template <typename T> class Stack_1;
-}
-namespace System::Collections {
-class IEnumerable;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
 }
 namespace System::Collections {
 class IEnumerator;
@@ -38,29 +41,26 @@ class IEnumerator;
 namespace System::Security::Cryptography::X509Certificates {
 class X500DistinguishedName;
 }
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> struct KeyValuePair_2;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
 namespace Internal::Cryptography::Pal {
 class __CertificateData___ReadReverseRdns_d__21;
-}
-namespace Internal::Cryptography::Pal {
-struct __CertificateData__AlgorithmIdentifier;
-}
-namespace System::Security::Cryptography::X509Certificates {
-class X509Extension;
-}
-namespace Internal::Cryptography::Pal {
-struct GeneralNameType;
 }
 namespace System::Security::Cryptography::X509Certificates {
 struct X509NameType;
 }
+namespace System::Security::Cryptography::X509Certificates {
+class X509Extension;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
 namespace System {
 struct DateTime;
+}
+namespace Internal::Cryptography::Pal {
+struct __CertificateData__AlgorithmIdentifier;
+}
+namespace Internal::Cryptography::Pal {
+struct GeneralNameType;
 }
 // Forward declare root types
 namespace Internal::Cryptography::Pal {

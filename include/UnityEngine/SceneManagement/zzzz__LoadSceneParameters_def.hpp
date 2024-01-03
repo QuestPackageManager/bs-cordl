@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include <cstddef>
 CORDL_MODULE_EXPORT(LoadSceneParameters)
 namespace UnityEngine::SceneManagement {
-struct LocalPhysicsMode;
+struct LoadSceneMode;
 }
 namespace UnityEngine::SceneManagement {
-struct LoadSceneMode;
+struct LocalPhysicsMode;
 }
 // Forward declare root types
 namespace UnityEngine::SceneManagement {

@@ -4,20 +4,20 @@
 CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__ScriptableObject_def.hpp"
 CORDL_MODULE_EXPORT(MultiplayerMockSettings)
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace GlobalNamespace {
-class QuickPlaySetupData;
-}
 namespace GlobalNamespace {
 class MultiplayerStatusData;
 }
 namespace GlobalNamespace {
 class MockPlayerSettings;
 }
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
 namespace GlobalNamespace {
 class MockServerSettings;
+}
+namespace GlobalNamespace {
+class QuickPlaySetupData;
 }
 // Forward declare root types
 namespace GlobalNamespace {

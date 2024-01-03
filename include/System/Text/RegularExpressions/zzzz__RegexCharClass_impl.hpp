@@ -2,11 +2,11 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Text/RegularExpressions/zzzz__RegexCharClass_def.hpp"
 #include "System/Text/RegularExpressions/zzzz__RegexCharClass_def.hpp"
-#include "System/Globalization/zzzz__CultureInfo_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "System/Globalization/zzzz__UnicodeCategory_def.hpp"
 #include "System/Text/zzzz__StringBuilder_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
-#include "System/Globalization/zzzz__UnicodeCategory_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "System/Globalization/zzzz__CultureInfo_def.hpp"
 #include "System/Collections/Generic/zzzz__IComparer_1_def.hpp"
 //  Writing Method size for method: ::System::Text::RegularExpressions::__RegexCharClass__LowerCaseMapping._ctor
 template <>

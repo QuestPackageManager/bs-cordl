@@ -2,9 +2,9 @@
 #include "GlobalNamespace/zzzz__NoteJumpDurationTypeSettings_impl.hpp"
 #include "GlobalNamespace/zzzz__ValueDropdownController_1_impl.hpp"
 #include "GlobalNamespace/zzzz__NoteJumpDurationTypeSettingsDropdown_def.hpp"
+#include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
 #include "GlobalNamespace/zzzz__NoteJumpDurationTypeSettings_def.hpp"
 #include "System/zzzz__Tuple_2_def.hpp"
-#include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::NoteJumpDurationTypeSettingsDropdown.GetNamedValues
 template <>
 

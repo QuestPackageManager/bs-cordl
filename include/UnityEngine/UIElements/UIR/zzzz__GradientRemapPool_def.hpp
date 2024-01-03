@@ -9,14 +9,14 @@ CORDL_MODULE_EXPORT(GradientRemapPool)
 namespace UnityEngine::UIElements::UIR {
 class __GradientRemapPool____c;
 }
-namespace UnityEngine::UIElements::UIR {
-class GradientRemap;
+namespace System {
+template <typename TResult> class Func_1;
 }
 namespace System {
 template <typename T> class Action_1;
 }
-namespace System {
-template <typename TResult> class Func_1;
+namespace UnityEngine::UIElements::UIR {
+class GradientRemap;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements::UIR {

@@ -6,37 +6,37 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(Kernel)
 namespace Zenject {
-class IInitializable;
-}
-namespace Zenject {
 class ILateDisposable;
-}
-namespace Zenject {
-class TickableManager;
-}
-namespace System {
-class IDisposable;
 }
 namespace Zenject {
 class ITickable;
 }
 namespace Zenject {
-class ILateTickable;
-}
-namespace Zenject {
 class InitializableManager;
 }
-namespace System {
-class Object;
+namespace Zenject {
+class IInitializable;
+}
+namespace Zenject {
+class TickableManager;
 }
 namespace Zenject {
 class DisposableManager;
 }
 namespace Zenject {
-class InjectTypeInfo;
+class IFixedTickable;
 }
 namespace Zenject {
-class IFixedTickable;
+class ILateTickable;
+}
+namespace System {
+class IDisposable;
+}
+namespace System {
+class Object;
+}
+namespace Zenject {
+class InjectTypeInfo;
 }
 // Forward declare root types
 namespace Zenject {

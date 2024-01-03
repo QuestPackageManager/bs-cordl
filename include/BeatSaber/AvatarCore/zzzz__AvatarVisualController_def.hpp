@@ -10,14 +10,14 @@ CORDL_MODULE_EXPORT(AvatarVisualController)
 namespace BeatSaber::AvatarCore {
 class __AvatarVisualController___WaitForAvatarLoadAndSetLightColor_d__2;
 }
-namespace BeatSaber::AvatarCore {
-class AvatarController;
-}
 namespace UnityEngine {
 struct Color;
 }
 namespace System::Collections {
 class IEnumerator;
+}
+namespace BeatSaber::AvatarCore {
+class AvatarController;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
@@ -42,7 +42,7 @@ MARK_REF_PTR_T(::BeatSaber::AvatarCore::__AvatarVisualController___WaitForAvatar
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace BeatSaber::AvatarCore {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10251))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15184))
 // CS Name: ::AvatarVisualController::<WaitForAvatarLoadAndSetLightColor>d__2*
 class CORDL_TYPE __AvatarVisualController___WaitForAvatarLoadAndSetLightColor_d__2 : public ::System::Object {

@@ -1,17 +1,17 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__GroupPresenceSample_def.hpp"
-#include "UnityEngine/UI/zzzz__Text_def.hpp"
-#include "Oculus/Platform/Models/zzzz__GroupPresenceJoinIntent_def.hpp"
-#include "Oculus/Platform/zzzz__Message_1_def.hpp"
-#include "Oculus/Platform/Models/zzzz__LaunchInvitePanelFlowResult_def.hpp"
 #include "Oculus/Platform/Models/zzzz__User_def.hpp"
-#include "Oculus/Platform/Models/zzzz__PlatformInitialize_def.hpp"
-#include "Oculus/Platform/zzzz__Message_def.hpp"
-#include "Oculus/Platform/Models/zzzz__InvitePanelResultInfo_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "Oculus/Platform/Models/zzzz__DestinationList_def.hpp"
+#include "Oculus/Platform/Models/zzzz__GroupPresenceJoinIntent_def.hpp"
 #include "Oculus/Platform/Models/zzzz__GroupPresenceLeaveIntent_def.hpp"
+#include "Oculus/Platform/Models/zzzz__PlatformInitialize_def.hpp"
+#include "Oculus/Platform/zzzz__Message_1_def.hpp"
+#include "Oculus/Platform/Models/zzzz__InvitePanelResultInfo_def.hpp"
+#include "Oculus/Platform/zzzz__Message_def.hpp"
+#include "UnityEngine/UI/zzzz__Text_def.hpp"
+#include "Oculus/Platform/Models/zzzz__DestinationList_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "Oculus/Platform/Models/zzzz__LaunchInvitePanelFlowResult_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::GroupPresenceSample.Start
 template <>
 

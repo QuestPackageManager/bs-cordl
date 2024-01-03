@@ -1,9 +1,9 @@
 #pragma once
 #include "System/Net/Http/Headers/zzzz__HttpHeaders_impl.hpp"
 #include "System/Net/Http/Headers/zzzz__HttpContentHeaders_def.hpp"
+#include "System/Net/Http/Headers/zzzz__MediaTypeHeaderValue_def.hpp"
 #include "System/zzzz__Nullable_1_def.hpp"
 #include "System/Net/Http/zzzz__HttpContent_def.hpp"
-#include "System/Net/Http/Headers/zzzz__MediaTypeHeaderValue_def.hpp"
 //  Writing Method size for method: ::System::Net::Http::Headers::HttpContentHeaders._ctor
 template <>
 

@@ -5,19 +5,19 @@ CORDL_MODULE_INIT
 #include "UnityEngine/InputSystem/XR/zzzz__XRController_def.hpp"
 CORDL_MODULE_EXPORT(GearVRTrackedController)
 namespace UnityEngine::InputSystem::Controls {
+class Vector2Control;
+}
+namespace UnityEngine::InputSystem::Controls {
 class ButtonControl;
 }
 namespace UnityEngine::InputSystem::Controls {
-class QuaternionControl;
-}
-namespace UnityEngine::InputSystem::Controls {
-class Vector2Control;
+class Vector3Control;
 }
 namespace UnityEngine::InputSystem::Controls {
 class AxisControl;
 }
 namespace UnityEngine::InputSystem::Controls {
-class Vector3Control;
+class QuaternionControl;
 }
 namespace UnityEngine::InputSystem::Controls {
 class IntegerControl;

@@ -8,19 +8,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(AuthenticationHeaderValue)
 namespace System {
-class ICloneable;
-}
-namespace System::Net::Http::Headers {
-struct Token;
-}
-namespace System {
 class Object;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
+namespace System {
+class ICloneable;
+}
 namespace System::Net::Http::Headers {
 class Lexer;
+}
+namespace System::Net::Http::Headers {
+struct Token;
 }
 // Forward declare root types
 namespace System::Net::Http::Headers {

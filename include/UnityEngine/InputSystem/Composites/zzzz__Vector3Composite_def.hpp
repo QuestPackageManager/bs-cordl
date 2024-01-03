@@ -9,11 +9,11 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(Vector3Composite)
-namespace UnityEngine::InputSystem::Composites {
-struct __Vector3Composite__Mode;
-}
 namespace UnityEngine::InputSystem {
 struct InputBindingCompositeContext;
+}
+namespace UnityEngine::InputSystem::Composites {
+struct __Vector3Composite__Mode;
 }
 namespace UnityEngine {
 struct Vector3;
@@ -86,8 +86,8 @@ static_assert(offsetof(::UnityEngine::InputSystem::Composites::__Vector3Composit
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Composites {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6190), inst: 412 }), TypeDefinitionIndex(TypeDefinitionIndex(6190)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(6721))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6722)) CS Name:
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6721)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6190), inst: 412 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(6190))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6722)) CS Name:
 // ::UnityEngine.InputSystem.Composites::Vector3Composite*
 class CORDL_TYPE Vector3Composite : public ::UnityEngine::InputSystem::InputBindingComposite_1<::UnityEngine::Vector3> {
 public:

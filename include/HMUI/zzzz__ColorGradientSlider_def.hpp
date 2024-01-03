@@ -8,29 +8,29 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(ColorGradientSlider)
+namespace UnityEngine::EventSystems {
+class IPointerUpHandler;
+}
+namespace UnityEngine::EventSystems {
+class IEventSystemHandler;
+}
 namespace GlobalNamespace {
 struct ColorChangeUIEventType;
 }
-namespace UnityEngine::EventSystems {
-class IPointerUpHandler;
+namespace System {
+template <typename T1, typename T2, typename T3> class Action_3;
 }
 namespace UnityEngine::EventSystems {
 class PointerEventData;
 }
 namespace HMUI {
-class ImageView;
-}
-namespace System {
-template <typename T1, typename T2, typename T3> class Action_3;
+class TextSlider;
 }
 namespace HMUI {
-class TextSlider;
+class ImageView;
 }
 namespace System::Text {
 class StringBuilder;
-}
-namespace UnityEngine::EventSystems {
-class IEventSystemHandler;
 }
 namespace UnityEngine {
 struct Color;

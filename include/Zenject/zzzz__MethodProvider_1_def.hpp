@@ -5,26 +5,26 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 CORDL_MODULE_EXPORT(MethodProvider_1)
-namespace Zenject {
-class InjectContext;
+namespace System {
+template <typename T, typename TResult> class Func_2;
 }
-namespace Zenject {
-class IProvider;
+namespace System {
+class Action;
 }
 namespace Zenject {
 struct TypeValuePair;
 }
 namespace Zenject {
+class IProvider;
+}
+namespace Zenject {
 class DiContainer;
 }
-namespace System {
-template <typename T, typename TResult> class Func_2;
+namespace Zenject {
+class InjectContext;
 }
 namespace System {
 class Object;
-}
-namespace System {
-class Action;
 }
 namespace System {
 class Type;

@@ -7,19 +7,19 @@ namespace System {
 template <typename T> class Action_1;
 }
 namespace GlobalNamespace {
-class NoteCutInfoNetSerializable;
-}
-namespace GlobalNamespace {
-class SliderSpawnInfoNetSerializable;
+class ObstacleSpawnInfoNetSerializable;
 }
 namespace GlobalNamespace {
 class NoteMissInfoNetSerializable;
 }
 namespace GlobalNamespace {
+class SliderSpawnInfoNetSerializable;
+}
+namespace GlobalNamespace {
 class NoteSpawnInfoNetSerializable;
 }
 namespace GlobalNamespace {
-class ObstacleSpawnInfoNetSerializable;
+class NoteCutInfoNetSerializable;
 }
 // Forward declare root types
 namespace GlobalNamespace {

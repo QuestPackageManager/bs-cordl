@@ -1,10 +1,10 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Crmf/zzzz__PKMacFactory_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__IStreamCalculator_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__IMacFactory_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "Org/BouncyCastle/Asn1/Cmp/zzzz__PbmParameter_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__IMacFactory_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__IStreamCalculator_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Crmf::PKMacFactory._ctor
 template <>
 

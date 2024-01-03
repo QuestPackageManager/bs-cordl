@@ -1,8 +1,8 @@
 #pragma once
 #include "Newtonsoft/Json/Converters/zzzz__XObjectWrapper_impl.hpp"
 #include "Newtonsoft/Json/Converters/zzzz__XTextWrapper_def.hpp"
-#include "System/Xml/Linq/zzzz__XText_def.hpp"
 #include "Newtonsoft/Json/Converters/zzzz__IXmlNode_def.hpp"
+#include "System/Xml/Linq/zzzz__XText_def.hpp"
 //  Writing Method size for method: ::Newtonsoft::Json::Converters::XTextWrapper.get_Text
 template <>
 

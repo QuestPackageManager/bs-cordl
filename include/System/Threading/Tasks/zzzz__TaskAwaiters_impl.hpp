@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Threading/Tasks/zzzz__TaskAwaiters_def.hpp"
-#include "System/Threading/Tasks/zzzz__Task_def.hpp"
 #include "System/Threading/Tasks/zzzz__ForceAsyncAwaiter_def.hpp"
+#include "System/Threading/Tasks/zzzz__Task_def.hpp"
 //  Writing Method size for method: ::System::Threading::Tasks::TaskAwaiters.ForceAsync
 template <>
 

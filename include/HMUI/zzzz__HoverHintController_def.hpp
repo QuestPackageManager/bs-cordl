@@ -14,6 +14,9 @@ namespace HMUI {
 class __HoverHintController___HideHintAfterDelay_d__11;
 }
 namespace HMUI {
+class HoverHint;
+}
+namespace HMUI {
 class HoverHintPanel;
 }
 namespace System::Collections {
@@ -22,17 +25,14 @@ class IEnumerator;
 namespace UnityEngine {
 class Transform;
 }
-namespace HMUI {
-class HoverHint;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
 }
 namespace System {
 class Object;
 }
 namespace System {
 class IDisposable;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
 }
 // Forward declare root types
 namespace HMUI {

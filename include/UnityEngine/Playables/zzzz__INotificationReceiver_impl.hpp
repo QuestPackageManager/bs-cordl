@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/Playables/zzzz__INotificationReceiver_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/Playables/zzzz__Playable_def.hpp"
 #include "UnityEngine/Playables/zzzz__INotification_def.hpp"
-#include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Playables::INotificationReceiver.OnNotify
 template <>
 

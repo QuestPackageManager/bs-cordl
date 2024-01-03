@@ -28,7 +28,7 @@ MARK_REF_PTR_T(::UnityOpus::Decoder);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityOpus {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(16215)), TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(16215))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(16212))
 // CS Name: ::UnityOpus::Decoder*
 class CORDL_TYPE Decoder : public ::System::Object {

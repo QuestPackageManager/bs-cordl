@@ -8,14 +8,14 @@ CORDL_MODULE_EXPORT(Test_Transform_Extensions)
 namespace HoudiniEngineUnity {
 class __Test_Transform_Extensions____c;
 }
-namespace UnityEngine {
-class Transform;
-}
 namespace HoudiniEngineUnity {
 class Test_Transform;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
+}
+namespace UnityEngine {
+class Transform;
 }
 namespace System {
 template <typename TInput, typename TOutput> class Converter_2;

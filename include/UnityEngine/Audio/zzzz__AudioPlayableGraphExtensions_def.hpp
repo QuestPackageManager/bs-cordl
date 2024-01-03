@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(AudioPlayableGraphExtensions)
 namespace UnityEngine::Playables {
-struct PlayableGraph;
+struct PlayableOutputHandle;
 }
 namespace UnityEngine::Playables {
-struct PlayableOutputHandle;
+struct PlayableGraph;
 }
 // Forward declare root types
 namespace UnityEngine::Audio {

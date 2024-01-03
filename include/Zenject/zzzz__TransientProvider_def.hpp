@@ -8,37 +8,37 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(TransientProvider)
 namespace System {
-template <typename T1, typename T2> class Action_2;
-}
-namespace System {
-class Type;
-}
-namespace System {
 class Action;
-}
-namespace Zenject {
-class IProvider;
-}
-namespace Zenject {
-class DiContainer;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
 }
 namespace Zenject {
 class __TransientProvider____c__DisplayClass11_0;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace Zenject {
-class InjectContext;
+namespace System {
+template <typename T1, typename T2> class Action_2;
 }
 namespace System {
 class Object;
 }
 namespace Zenject {
 struct TypeValuePair;
+}
+namespace Zenject {
+class DiContainer;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace System {
+class Type;
+}
+namespace Zenject {
+class IProvider;
+}
+namespace Zenject {
+class InjectContext;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
 }
 namespace Zenject {
 class InjectTypeInfo;

@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__SmoothCameraController_def.hpp"
-#include "GlobalNamespace/zzzz__SmoothCamera_def.hpp"
 #include "GlobalNamespace/zzzz__MainSettingsModelSO_def.hpp"
+#include "GlobalNamespace/zzzz__SmoothCamera_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::SmoothCameraController.Start
 template <>
 

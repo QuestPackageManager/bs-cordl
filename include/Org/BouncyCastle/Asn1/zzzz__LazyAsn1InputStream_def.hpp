@@ -7,13 +7,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(LazyAsn1InputStream)
 namespace Org::BouncyCastle::Asn1 {
-class DerSet;
-}
-namespace Org::BouncyCastle::Asn1 {
 class DefiniteLengthInputStream;
 }
 namespace System::IO {
 class Stream;
+}
+namespace Org::BouncyCastle::Asn1 {
+class DerSet;
 }
 namespace Org::BouncyCastle::Asn1 {
 class DerSequence;

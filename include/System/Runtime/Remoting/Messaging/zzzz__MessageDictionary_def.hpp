@@ -7,32 +7,32 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(MessageDictionary)
-namespace System::Runtime::Remoting::Messaging {
-class IMethodMessage;
-}
-namespace System::Collections {
-class ICollection;
-}
-namespace System::Runtime::Remoting::Messaging {
-class __MessageDictionary__DictionaryEnumerator;
-}
-namespace System::Collections {
-class IEnumerator;
-}
 namespace System::Collections {
 class IEnumerable;
 }
 namespace System::Collections {
-class IDictionary;
-}
-namespace System::Collections {
-class IDictionaryEnumerator;
+class IEnumerator;
 }
 namespace System {
 class Array;
 }
+namespace System::Runtime::Remoting::Messaging {
+class __MessageDictionary__DictionaryEnumerator;
+}
 namespace System {
 class Object;
+}
+namespace System::Collections {
+class ICollection;
+}
+namespace System::Collections {
+class IDictionaryEnumerator;
+}
+namespace System::Runtime::Remoting::Messaging {
+class IMethodMessage;
+}
+namespace System::Collections {
+class IDictionary;
 }
 namespace System::Collections {
 struct DictionaryEntry;

@@ -8,40 +8,43 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(AudioTrack)
 namespace UnityEngine::Timeline {
-template <typename T> class IntervalTree_1;
+class RuntimeElement;
 }
 namespace UnityEngine::Playables {
 struct PlayableGraph;
 }
-namespace UnityEngine::Timeline {
-class __AudioTrack___get_outputs_d__4;
-}
 namespace UnityEngine {
 class GameObject;
 }
+namespace UnityEngine {
+class AudioClip;
+}
 namespace UnityEngine::Timeline {
 class TimelineClip;
-}
-namespace UnityEngine::Timeline {
-class AudioMixerProperties;
-}
-namespace UnityEngine::Playables {
-struct PlayableBinding;
-}
-namespace UnityEngine::Playables {
-struct Playable;
-}
-namespace System::Collections::Generic {
-template <typename T> class IList_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
 namespace UnityEngine::Timeline {
-class RuntimeElement;
+class AudioMixerProperties;
 }
-namespace UnityEngine {
-class AudioClip;
+namespace UnityEngine::Timeline {
+template <typename T> class IntervalTree_1;
+}
+namespace UnityEngine::Playables {
+struct Playable;
+}
+namespace UnityEngine::Timeline {
+class __AudioTrack___get_outputs_d__4;
+}
+namespace UnityEngine::Playables {
+struct PlayableBinding;
+}
+namespace System::Collections::Generic {
+template <typename T> class IList_1;
+}
+namespace System {
+class Object;
 }
 namespace System::Collections {
 class IEnumerable;
@@ -51,9 +54,6 @@ template <typename T> class IEnumerator_1;
 }
 namespace System::Collections {
 class IEnumerator;
-}
-namespace System {
-class Object;
 }
 namespace System {
 class IDisposable;
@@ -72,7 +72,7 @@ MARK_REF_PTR_T(::UnityEngine::Timeline::__AudioTrack___get_outputs_d__4);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10431)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10431))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13869))
 // CS Name: ::AudioTrack::<get_outputs>d__4*
 class CORDL_TYPE __AudioTrack___get_outputs_d__4 : public ::System::Object {

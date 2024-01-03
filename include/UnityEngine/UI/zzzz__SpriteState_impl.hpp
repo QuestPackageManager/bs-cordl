@@ -1,7 +1,7 @@
 #pragma once
 #include "UnityEngine/UI/zzzz__SpriteState_def.hpp"
-#include "UnityEngine/zzzz__Sprite_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
+#include "UnityEngine/zzzz__Sprite_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UI::SpriteState.get_highlightedSprite
 template <>
 

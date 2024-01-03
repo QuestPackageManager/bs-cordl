@@ -8,10 +8,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ifreq)
 namespace System::Net::NetworkInformation::AixStructs {
-struct __ifreq___ifr_name_e__FixedBuffer;
+struct sockaddr;
 }
 namespace System::Net::NetworkInformation::AixStructs {
-struct sockaddr;
+struct __ifreq___ifr_name_e__FixedBuffer;
 }
 // Forward declare root types
 namespace System::Net::NetworkInformation::AixStructs {
@@ -63,7 +63,7 @@ static_assert(offsetof(::System::Net::NetworkInformation::AixStructs::__ifreq___
 // SizeInfo { instance_size: 18, native_size: 18, calculated_instance_size: 18, calculated_native_size: 34, minimum_alignment: 1, natural_alignment: 1, packing: Some(1), specified_packing: Some(0) }
 namespace System::Net::NetworkInformation::AixStructs {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9307)), TypeDefinitionIndex(TypeDefinitionIndex(9301))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9301)), TypeDefinitionIndex(TypeDefinitionIndex(9307))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9302))
 // CS Name: ::System.Net.NetworkInformation.AixStructs::ifreq
 #pragma pack(push, 0)

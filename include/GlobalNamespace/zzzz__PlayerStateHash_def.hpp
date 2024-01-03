@@ -9,26 +9,26 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(PlayerStateHash)
-namespace System {
-class Object;
-}
-namespace LiteNetLib::Utils {
-class NetDataReader;
-}
-namespace LiteNetLib::Utils {
-class NetDataWriter;
+namespace GlobalNamespace {
+struct BitMask128;
 }
 namespace System {
 template <typename T> class IEquatable_1;
 }
-namespace LiteNetLib::Utils {
-template <typename T> class INetImmutableSerializable_1;
-}
-namespace GlobalNamespace {
-struct BitMask128;
-}
 namespace System::Collections::Generic {
 template <typename T> class HashSet_1;
+}
+namespace LiteNetLib::Utils {
+class NetDataReader;
+}
+namespace System {
+class Object;
+}
+namespace LiteNetLib::Utils {
+class NetDataWriter;
+}
+namespace LiteNetLib::Utils {
+template <typename T> class INetImmutableSerializable_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {

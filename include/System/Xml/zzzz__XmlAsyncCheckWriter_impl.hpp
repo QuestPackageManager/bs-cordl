@@ -1,9 +1,9 @@
 #pragma once
 #include "System/Xml/zzzz__XmlWriter_impl.hpp"
 #include "System/Xml/zzzz__XmlAsyncCheckWriter_def.hpp"
+#include "System/Xml/zzzz__WriteState_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_def.hpp"
 #include "System/Xml/zzzz__XmlWriter_def.hpp"
-#include "System/Xml/zzzz__WriteState_def.hpp"
 //  Writing Method size for method: ::System::Xml::XmlAsyncCheckWriter._ctor
 template <>
 

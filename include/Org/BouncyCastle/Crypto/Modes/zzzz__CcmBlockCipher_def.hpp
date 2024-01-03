@@ -7,14 +7,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(CcmBlockCipher)
-namespace Org::BouncyCastle::Crypto {
-class IBlockCipher;
+namespace System::IO {
+class MemoryStream;
 }
 namespace Org::BouncyCastle::Crypto::Modes {
 class IAeadCipher;
 }
-namespace System::IO {
-class MemoryStream;
+namespace Org::BouncyCastle::Crypto {
+class IBlockCipher;
 }
 namespace Org::BouncyCastle::Crypto::Modes {
 class IAeadBlockCipher;

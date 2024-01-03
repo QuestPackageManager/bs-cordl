@@ -2,14 +2,14 @@
 #include "GlobalNamespace/zzzz__LightAxis_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__LightRotationGroupEffect_def.hpp"
+#include "GlobalNamespace/zzzz__LightRotationDirection_def.hpp"
 #include "GlobalNamespace/zzzz__LightRotationGroupEffect_def.hpp"
-#include "GlobalNamespace/zzzz__LightRotationBeatmapEventData_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapCallbacksController_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapDataCallbackWrapper_def.hpp"
+#include "GlobalNamespace/zzzz__LightRotationBeatmapEventData_def.hpp"
+#include "UnityEngine/zzzz__Transform_def.hpp"
 #include "Tweening/zzzz__SongTimeTweeningManager_def.hpp"
 #include "Tweening/zzzz__FloatTween_def.hpp"
-#include "UnityEngine/zzzz__Transform_def.hpp"
-#include "GlobalNamespace/zzzz__LightRotationDirection_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapDataCallbackWrapper_def.hpp"
 #include "GlobalNamespace/zzzz__LightAxis_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::__LightRotationGroupEffect__InitData._ctor
 template <>

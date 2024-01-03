@@ -14,34 +14,46 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ScrollView)
 namespace UnityEngine::UIElements {
-struct __ScrollView__NestedInteractionKind;
-}
-namespace UnityEngine::UIElements {
-class PointerMoveEvent;
-}
-namespace UnityEngine::UIElements {
-class PointerCaptureOutEvent;
-}
-namespace UnityEngine::UIElements {
-class IEventHandler;
-}
-namespace UnityEngine::UIElements {
-class __ScrollView__UxmlTraits;
+struct __ScrollView__TouchScrollBehavior;
 }
 namespace UnityEngine::UIElements {
 struct ScrollerVisibility;
 }
 namespace UnityEngine::UIElements {
-class WheelEvent;
+class Scroller;
 }
 namespace UnityEngine::UIElements {
-struct __ScrollView__TouchScrollBehavior;
+class AttachToPanelEvent;
 }
 namespace UnityEngine::UIElements {
-class GeometryChangedEvent;
+class PointerDownEvent;
 }
 namespace UnityEngine::UIElements {
 class PointerCancelEvent;
+}
+namespace UnityEngine::UIElements {
+class WheelEvent;
+}
+namespace UnityEngine::UIElements {
+struct __ScrollView__TouchScrollingResult;
+}
+namespace UnityEngine::UIElements {
+class CustomStyleResolvedEvent;
+}
+namespace UnityEngine::UIElements {
+class PointerCaptureOutEvent;
+}
+namespace UnityEngine::UIElements {
+struct __ScrollView__NestedInteractionKind;
+}
+namespace UnityEngine::UIElements {
+class PointerCaptureEvent;
+}
+namespace UnityEngine::UIElements {
+class __ScrollView__UxmlTraits;
+}
+namespace UnityEngine::UIElements {
+class DetachFromPanelEvent;
 }
 namespace UnityEngine::UIElements {
 class IVisualElementScheduledItem;
@@ -50,40 +62,34 @@ namespace UnityEngine {
 struct Vector2;
 }
 namespace UnityEngine::UIElements {
-struct __ScrollView__TouchScrollingResult;
+class IEventHandler;
 }
 namespace UnityEngine::UIElements {
-class __ScrollView__UxmlFactory;
+class PointerMoveEvent;
 }
 namespace UnityEngine::UIElements {
 template <typename TEventType> class EventCallback_1;
 }
 namespace UnityEngine::UIElements {
-class PointerDownEvent;
-}
-namespace UnityEngine::UIElements {
-class DetachFromPanelEvent;
-}
-namespace UnityEngine::UIElements {
-class VisualElement;
-}
-namespace UnityEngine::UIElements {
 class PointerUpEvent;
-}
-namespace UnityEngine::UIElements {
-class CustomStyleResolvedEvent;
 }
 namespace UnityEngine::UIElements {
 struct ScrollViewMode;
 }
 namespace UnityEngine::UIElements {
-class Scroller;
+class GeometryChangedEvent;
 }
 namespace UnityEngine::UIElements {
-class PointerCaptureEvent;
+class VisualElement;
 }
 namespace UnityEngine::UIElements {
-class AttachToPanelEvent;
+class __ScrollView__UxmlFactory;
+}
+namespace UnityEngine::UIElements {
+template <typename T> class UxmlEnumAttributeDescription_1;
+}
+namespace UnityEngine::UIElements {
+struct CreationContext;
 }
 namespace UnityEngine::UIElements {
 class UxmlFloatAttributeDescription;
@@ -93,12 +99,6 @@ class UxmlBoolAttributeDescription;
 }
 namespace UnityEngine::UIElements {
 class IUxmlAttributes;
-}
-namespace UnityEngine::UIElements {
-struct CreationContext;
-}
-namespace UnityEngine::UIElements {
-template <typename T> class UxmlEnumAttributeDescription_1;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -441,8 +441,8 @@ static_assert(offsetof(::UnityEngine::UIElements::__ScrollView__NestedInteractio
 // SizeInfo { instance_size: 1128, native_size: -1, calculated_instance_size: 1128, calculated_native_size: 1128, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7043)), TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(6744)),
-// TypeDefinitionIndex(TypeDefinitionIndex(7047)), TypeDefinitionIndex(TypeDefinitionIndex(7046)), TypeDefinitionIndex(TypeDefinitionIndex(7042))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7049))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7043)), TypeDefinitionIndex(TypeDefinitionIndex(7042)), TypeDefinitionIndex(TypeDefinitionIndex(10243)),
+// TypeDefinitionIndex(TypeDefinitionIndex(6744)), TypeDefinitionIndex(TypeDefinitionIndex(7047)), TypeDefinitionIndex(TypeDefinitionIndex(7046))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7049))
 // CS Name: ::UnityEngine.UIElements::ScrollView*
 class CORDL_TYPE ScrollView : public ::UnityEngine::UIElements::VisualElement {
 public:
@@ -1253,8 +1253,8 @@ static_assert(offsetof(::UnityEngine::UIElements::ScrollView, ___m_PostPointerUp
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6997)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6997), inst: 5274 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(7045)), TypeDefinitionIndex(TypeDefinitionIndex(7049))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7044)) CS Name: ::ScrollView::UxmlFactory*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7049)), TypeDefinitionIndex(TypeDefinitionIndex(6997)), TypeDefinitionIndex(TypeDefinitionIndex(7045)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6997), inst: 5274 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(7044)) CS Name: ::ScrollView::UxmlFactory*
 class CORDL_TYPE __ScrollView__UxmlFactory : public ::UnityEngine::UIElements::UxmlFactory_2<::UnityEngine::UIElements::ScrollView*, ::UnityEngine::UIElements::__ScrollView__UxmlTraits*> {
 public:
   // Declarations

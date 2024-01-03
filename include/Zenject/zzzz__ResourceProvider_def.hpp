@@ -9,8 +9,8 @@ CORDL_MODULE_EXPORT(ResourceProvider)
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
-namespace System {
-class Action;
+namespace Zenject {
+class InjectContext;
 }
 namespace System {
 class Type;
@@ -18,14 +18,14 @@ class Type;
 namespace Zenject {
 class IProvider;
 }
-namespace Zenject {
-struct TypeValuePair;
-}
 namespace System {
 class Object;
 }
+namespace System {
+class Action;
+}
 namespace Zenject {
-class InjectContext;
+struct TypeValuePair;
 }
 // Forward declare root types
 namespace Zenject {

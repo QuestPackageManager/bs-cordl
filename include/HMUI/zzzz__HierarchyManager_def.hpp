@@ -5,16 +5,16 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(HierarchyManager)
 namespace HMUI {
-class ScreenSystem;
-}
-namespace GlobalNamespace {
-class GameScenesManager;
-}
-namespace HMUI {
 class FlowCoordinator;
 }
 namespace GlobalNamespace {
 class ScenesTransitionSetupDataSO;
+}
+namespace HMUI {
+class ScreenSystem;
+}
+namespace GlobalNamespace {
+class GameScenesManager;
 }
 namespace Zenject {
 class DiContainer;

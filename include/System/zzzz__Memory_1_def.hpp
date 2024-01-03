@@ -8,16 +8,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Memory_1)
 namespace System {
-class Object;
+template <typename T> struct ReadOnlyMemory_1;
 }
 namespace System {
-template <typename T> struct ReadOnlyMemory_1;
+template <typename T> class IEquatable_1;
 }
 namespace System {
 template <typename T> struct Span_1;
 }
 namespace System {
-template <typename T> class IEquatable_1;
+class Object;
 }
 namespace System::Buffers {
 struct MemoryHandle;

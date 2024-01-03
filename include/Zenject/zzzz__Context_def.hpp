@@ -10,37 +10,37 @@ namespace Zenject {
 class InjectTypeInfo;
 }
 namespace Zenject {
-class MonoInstaller;
-}
-namespace UnityEngine {
-class GameObject;
-}
-namespace Zenject {
-class ScriptableObjectInstaller;
-}
-namespace UnityEngine {
-class MonoBehaviour;
-}
-namespace Zenject {
-class InstallerBase;
+class DiContainer;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
-}
-namespace System {
-class Type;
 }
 namespace Zenject {
 class ZenjectBinding;
 }
 namespace Zenject {
-class DiContainer;
+class MonoInstaller;
+}
+namespace UnityEngine {
+class MonoBehaviour;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace Zenject {
 class __Context____c;
+}
+namespace Zenject {
+class ScriptableObjectInstaller;
+}
+namespace UnityEngine {
+class GameObject;
+}
+namespace System {
+class Type;
+}
+namespace Zenject {
+class InstallerBase;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;

@@ -11,26 +11,26 @@ CORDL_MODULE_EXPORT(HttpListenerRequestUriBuilder)
 namespace System::Text {
 class StringBuilder;
 }
+namespace System::Net {
+struct __HttpListenerRequestUriBuilder__EncodingType;
+}
+namespace System {
+class Object;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
 namespace System::Text {
 class Encoding;
+}
+namespace System::Net {
+struct __HttpListenerRequestUriBuilder__ParsingResult;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
 namespace System {
-class Object;
-}
-namespace System::Net {
-struct __HttpListenerRequestUriBuilder__ParsingResult;
-}
-namespace System::Net {
-struct __HttpListenerRequestUriBuilder__EncodingType;
-}
-namespace System {
 class Uri;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
 }
 // Forward declare root types
 namespace System::Net {

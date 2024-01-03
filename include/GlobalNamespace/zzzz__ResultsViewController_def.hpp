@@ -8,52 +8,52 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ResultsViewController)
 namespace GlobalNamespace {
-class ResultsEnvironmentManager;
-}
-namespace UnityEngine {
-class Coroutine;
-}
-namespace UnityEngine::UI {
-class Button;
-}
-namespace UnityEngine {
-class AudioClip;
-}
-namespace UnityEngine {
-class GameObject;
-}
-namespace GlobalNamespace {
-class __ResultsViewController___StartFireworksAfterDelay_d__33;
-}
-namespace GlobalNamespace {
-class SongPreviewPlayer;
-}
-namespace TMPro {
-class TextMeshProUGUI;
-}
-namespace GlobalNamespace {
 class FireworksController;
 }
 namespace GlobalNamespace {
-class MenuDestination;
-}
-namespace GlobalNamespace {
-class LevelCompletionResults;
+class SongPreviewPlayer;
 }
 namespace GlobalNamespace {
 class LevelBar;
 }
 namespace GlobalNamespace {
-class IDifficultyBeatmap;
+class ResultsEnvironmentManager;
 }
 namespace GlobalNamespace {
-class IReadonlyBeatmapData;
+class __ResultsViewController___StartFireworksAfterDelay_d__33;
 }
 namespace System {
 template <typename T> class Action_1;
 }
+namespace TMPro {
+class TextMeshProUGUI;
+}
+namespace GlobalNamespace {
+class IDifficultyBeatmap;
+}
+namespace UnityEngine {
+class AudioClip;
+}
+namespace UnityEngine::UI {
+class Button;
+}
+namespace GlobalNamespace {
+class IReadonlyBeatmapData;
+}
+namespace UnityEngine {
+class Coroutine;
+}
+namespace GlobalNamespace {
+class LevelCompletionResults;
+}
 namespace System::Collections {
 class IEnumerator;
+}
+namespace GlobalNamespace {
+class MenuDestination;
+}
+namespace UnityEngine {
+class GameObject;
 }
 namespace System {
 class IDisposable;

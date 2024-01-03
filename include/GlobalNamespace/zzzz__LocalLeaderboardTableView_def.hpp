@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__LeaderboardTableView_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(LocalLeaderboardTableView)
-namespace GlobalNamespace {
-class __LocalLeaderboardsModel__ScoreData;
-}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
+}
+namespace GlobalNamespace {
+class __LocalLeaderboardsModel__ScoreData;
 }
 // Forward declare root types
 namespace GlobalNamespace {

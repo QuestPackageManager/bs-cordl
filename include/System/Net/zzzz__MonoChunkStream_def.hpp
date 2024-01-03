@@ -12,20 +12,26 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(MonoChunkStream)
+namespace System::Net {
+struct __MonoChunkStream___ProcessReadAsync_d__7;
+}
 namespace System::IO {
 class Stream;
-}
-namespace System::Net {
-class WebHeaderCollection;
 }
 namespace System::Threading {
 struct CancellationToken;
 }
 namespace System::Net {
-struct __MonoChunkStream___FinishReading_d__8;
+class WebOperation;
 }
 namespace System::Net {
 class MonoChunkParser;
+}
+namespace System::Net {
+class WebHeaderCollection;
+}
+namespace System::Net {
+struct __MonoChunkStream___FinishReading_d__8;
 }
 namespace System::Threading::Tasks {
 template <typename TResult> class Task_1;
@@ -33,23 +39,17 @@ template <typename TResult> class Task_1;
 namespace System::Threading::Tasks {
 class Task;
 }
-namespace System::Net {
-struct __MonoChunkStream___ProcessReadAsync_d__7;
-}
-namespace System::Net {
-class WebOperation;
-}
-namespace System::Runtime::CompilerServices {
-struct __ConfiguredTaskAwaitable__ConfiguredTaskAwaiter;
-}
-namespace System::Runtime::CompilerServices {
-class IAsyncStateMachine;
-}
 namespace System::Runtime::CompilerServices {
 template <typename TResult> struct __ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter;
 }
 namespace System::Runtime::CompilerServices {
 struct AsyncTaskMethodBuilder;
+}
+namespace System::Runtime::CompilerServices {
+class IAsyncStateMachine;
+}
+namespace System::Runtime::CompilerServices {
+struct __ConfiguredTaskAwaitable__ConfiguredTaskAwaiter;
 }
 namespace System::Runtime::CompilerServices {
 template <typename TResult> struct AsyncTaskMethodBuilder_1;
@@ -72,9 +72,9 @@ MARK_VAL_T(::System::Net::__MonoChunkStream___ProcessReadAsync_d__7);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 98
-// }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 98 }), TypeDefinitionIndex(TypeDefinitionIndex(3397))} Self: TypeDefinitionIndex(TypeDefinitionIndex(9194)) CS
-// Name: ::MonoChunkStream::<ProcessReadAsync>d__7
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 98 }), TypeDefinitionIndex(TypeDefinitionIndex(3397)),
+// TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(2677)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 98 })} Self:
+// TypeDefinitionIndex(TypeDefinitionIndex(9194)) CS Name: ::MonoChunkStream::<ProcessReadAsync>d__7
 struct CORDL_TYPE __MonoChunkStream___ProcessReadAsync_d__7 {
 public:
   // Declarations
@@ -160,8 +160,8 @@ static_assert(offsetof(::System::Net::__MonoChunkStream___ProcessReadAsync_d__7,
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3401)), TypeDefinitionIndex(TypeDefinitionIndex(3395)), TypeDefinitionIndex(TypeDefinitionIndex(2677)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3397)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 98 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(9195)) CS
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3401)), TypeDefinitionIndex(TypeDefinitionIndex(3395)), TypeDefinitionIndex(TypeDefinitionIndex(3397)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 98 }), TypeDefinitionIndex(TypeDefinitionIndex(2677))} Self: TypeDefinitionIndex(TypeDefinitionIndex(9195)) CS
 // Name: ::MonoChunkStream::<FinishReading>d__8
 struct CORDL_TYPE __MonoChunkStream___FinishReading_d__8 {
 public:

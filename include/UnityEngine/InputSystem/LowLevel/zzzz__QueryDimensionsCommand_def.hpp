@@ -7,17 +7,17 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(QueryDimensionsCommand)
-namespace UnityEngine::InputSystem::LowLevel {
-class IInputDeviceCommandInfo;
-}
-namespace UnityEngine {
-struct Vector2;
-}
 namespace UnityEngine::InputSystem::Utilities {
 struct FourCC;
 }
 namespace UnityEngine::InputSystem::LowLevel {
 struct InputDeviceCommand;
+}
+namespace UnityEngine {
+struct Vector2;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+class IInputDeviceCommandInfo;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::LowLevel {

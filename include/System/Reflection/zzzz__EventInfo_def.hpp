@@ -6,26 +6,26 @@ CORDL_MODULE_INIT
 #include "System/zzzz__MulticastDelegate_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(EventInfo)
-namespace System::Reflection {
-struct MemberTypes;
-}
-namespace Mono {
-struct RuntimeEventHandle;
-}
 namespace System {
 class Object;
-}
-namespace System::Reflection {
-class MethodInfo;
-}
-namespace System {
-struct RuntimeTypeHandle;
 }
 namespace System::Reflection {
 class __EventInfo__AddEventAdapter;
 }
 namespace System {
+struct RuntimeTypeHandle;
+}
+namespace System::Reflection {
+struct MemberTypes;
+}
+namespace System {
 class Type;
+}
+namespace System::Reflection {
+class MethodInfo;
+}
+namespace Mono {
+struct RuntimeEventHandle;
 }
 namespace System {
 class Delegate;

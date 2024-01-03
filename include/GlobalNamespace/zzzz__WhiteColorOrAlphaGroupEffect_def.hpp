@@ -12,23 +12,23 @@ struct Color;
 namespace GlobalNamespace {
 struct EnvironmentColorType;
 }
+namespace Tweening {
+class SongTimeTweeningManager;
+}
 namespace GlobalNamespace {
-class __LightColorGroupEffect__InitData;
+class LightWithIdManager;
+}
+namespace GlobalNamespace {
+class IBpmController;
 }
 namespace GlobalNamespace {
 class ColorManager;
 }
 namespace GlobalNamespace {
+class __LightColorGroupEffect__InitData;
+}
+namespace GlobalNamespace {
 class BeatmapCallbacksController;
-}
-namespace GlobalNamespace {
-class LightWithIdManager;
-}
-namespace Tweening {
-class SongTimeTweeningManager;
-}
-namespace GlobalNamespace {
-class IBpmController;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -40,7 +40,7 @@ MARK_REF_PTR_T(::GlobalNamespace::WhiteColorOrAlphaGroupEffect);
 // SizeInfo { instance_size: 184, native_size: -1, calculated_instance_size: 184, calculated_native_size: 180, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(4923))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4923)), TypeDefinitionIndex(TypeDefinitionIndex(10251))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4926))
 // CS Name: ::WhiteColorOrAlphaGroupEffect*
 class CORDL_TYPE WhiteColorOrAlphaGroupEffect : public ::GlobalNamespace::LightColorGroupEffect {

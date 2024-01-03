@@ -7,14 +7,17 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(StablePriorityQueue_1)
-namespace Priority_Queue {
-template <typename TItem, typename TPriority> class IPriorityQueue_2;
-}
 namespace System::Collections {
-class IEnumerator;
+class IEnumerable;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
 }
 namespace Priority_Queue {
 template <typename T> class __StablePriorityQueue_1___GetEnumerator_d__22;
+}
+namespace System::Collections {
+class IEnumerator;
 }
 namespace Priority_Queue {
 template <typename TItem, typename TPriority> class IFixedSizePriorityQueue_2;
@@ -22,11 +25,8 @@ template <typename TItem, typename TPriority> class IFixedSizePriorityQueue_2;
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
-namespace System::Collections {
-class IEnumerable;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
+namespace Priority_Queue {
+template <typename TItem, typename TPriority> class IPriorityQueue_2;
 }
 namespace System {
 class IDisposable;

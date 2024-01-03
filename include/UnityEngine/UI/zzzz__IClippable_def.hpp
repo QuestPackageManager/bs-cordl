@@ -4,16 +4,16 @@
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IClippable)
 namespace UnityEngine {
-struct Vector2;
-}
-namespace UnityEngine {
-class RectTransform;
-}
-namespace UnityEngine {
 class GameObject;
 }
 namespace UnityEngine {
+struct Vector2;
+}
+namespace UnityEngine {
 struct Rect;
+}
+namespace UnityEngine {
+class RectTransform;
 }
 // Forward declare root types
 namespace UnityEngine::UI {

@@ -8,19 +8,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(RelativeScoreAndImmediateRankCounter)
 namespace GlobalNamespace {
-struct __RankModel__Rank;
+class IScoreController;
+}
+namespace GlobalNamespace {
+class GameplayModifiers;
 }
 namespace System {
 class Action;
 }
 namespace GlobalNamespace {
+struct __RankModel__Rank;
+}
+namespace GlobalNamespace {
 class GameplayModifiersModelSO;
-}
-namespace GlobalNamespace {
-class IScoreController;
-}
-namespace GlobalNamespace {
-class GameplayModifiers;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -32,7 +32,7 @@ MARK_REF_PTR_T(::GlobalNamespace::RelativeScoreAndImmediateRankCounter);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15034)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(15034))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5042))
 // CS Name: ::RelativeScoreAndImmediateRankCounter*
 class CORDL_TYPE RelativeScoreAndImmediateRankCounter : public ::UnityEngine::MonoBehaviour {

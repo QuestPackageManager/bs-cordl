@@ -37,62 +37,29 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(TMP_Text)
-namespace TMPro {
-class __TMP_Text____c;
-}
 namespace UnityEngine {
-struct Color;
-}
-namespace TMPro {
-struct WordWrapState;
-}
-namespace System {
-template <typename T1, typename T2, typename TResult> class Func_3;
-}
-namespace TMPro {
-template <typename T> struct TMP_TextProcessingStack_1;
-}
-namespace TMPro {
-class TMP_FontAsset;
-}
-namespace TMPro {
-class TMP_TextInfo;
-}
-namespace TMPro {
-class TMP_TextElement;
-}
-namespace TMPro {
-struct VertexSortingOrder;
-}
-namespace UnityEngine {
-struct Color32;
-}
-namespace UnityEngine {
-struct Bounds;
-}
-namespace TMPro {
-struct __TMP_Text__TextBackingContainer;
-}
-namespace TMPro {
-struct __TMP_Text__UnicodeChar;
-}
-namespace System {
-struct Decimal;
-}
-namespace TMPro {
-struct VertexGradient;
+class Transform;
 }
 namespace TMPro {
 struct TextOverflowModes;
 }
-namespace UnityEngine {
-class Material;
-}
-namespace TMPro {
-struct __TMP_Text__SpecialCharacter;
+namespace System::Text {
+class StringBuilder;
 }
 namespace TMPro {
 class ITextPreprocessor;
+}
+namespace TMPro {
+struct TextureMappingOptions;
+}
+namespace TMPro {
+class TMP_SpriteAnimator;
+}
+namespace UnityEngine::UI {
+class LayoutElement;
+}
+namespace TMPro {
+struct HorizontalAlignmentOptions;
 }
 namespace TMPro {
 struct RichTextTagAttribute;
@@ -100,86 +67,119 @@ struct RichTextTagAttribute;
 namespace TMPro {
 struct FontWeight;
 }
-namespace TMPro {
-struct VerticalAlignmentOptions;
+namespace System {
+template <typename T> class Action_1;
 }
 namespace UnityEngine {
-class Mesh;
-}
-namespace TMPro {
-class TMP_SpriteAsset;
-}
-namespace TMPro {
-struct HorizontalAlignmentOptions;
-}
-namespace UnityEngine {
-struct Vector4;
-}
-namespace UnityEngine::UI {
-class LayoutElement;
-}
-namespace System::Text {
-class StringBuilder;
-}
-namespace TMPro {
-struct MaterialReference;
-}
-namespace TMPro {
-struct TextAlignmentOptions;
-}
-namespace UnityEngine {
-struct Vector3;
-}
-namespace UnityEngine {
-class Transform;
-}
-namespace TMPro {
-struct TextRenderFlags;
-}
-namespace TMPro {
-struct TMP_VertexDataUpdateFlags;
-}
-namespace UnityEngine {
-class RectTransform;
+class Material;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
+namespace UnityEngine {
+class RectTransform;
+}
+namespace UnityEngine {
+struct Vector4;
+}
+namespace TMPro {
+struct TMP_VertexDataUpdateFlags;
+}
+namespace TMPro {
+struct TMP_CharacterInfo;
+}
+namespace UnityEngine {
+struct Color;
+}
+namespace TMPro {
+struct VertexGradient;
+}
+namespace TMPro {
+class TMP_SpriteAsset;
+}
+namespace System {
+template <typename T1, typename T2, typename TResult> class Func_3;
+}
 namespace TMPro {
 class TMP_Style;
 }
-namespace TMPro {
-class TMP_ColorGradient;
-}
-namespace System {
-template <typename T> class Action_1;
-}
-namespace TMPro {
-class TMP_SpriteAnimator;
-}
-namespace TMPro {
-struct FontStyles;
-}
-namespace TMPro {
-struct TextureMappingOptions;
-}
 namespace UnityEngine {
-struct Vector2;
+struct Color32;
 }
 namespace UnityEngine {
 struct Rect;
 }
 namespace TMPro {
+struct WordWrapState;
+}
+namespace System {
+struct Decimal;
+}
+namespace TMPro {
+struct __TMP_Text__TextBackingContainer;
+}
+namespace TMPro {
+class TMP_FontAsset;
+}
+namespace TMPro {
+struct __TMP_Text__CharacterSubstitution;
+}
+namespace TMPro {
+class __TMP_Text____c;
+}
+namespace TMPro {
+struct TextAlignmentOptions;
+}
+namespace UnityEngine {
+struct Vector2;
+}
+namespace TMPro {
 class TMP_StyleSheet;
 }
 namespace TMPro {
-struct TMP_CharacterInfo;
+struct VertexSortingOrder;
+}
+namespace UnityEngine {
+struct Bounds;
+}
+namespace TMPro {
+class TMP_ColorGradient;
+}
+namespace UnityEngine {
+class Mesh;
+}
+namespace TMPro {
+struct TextRenderFlags;
 }
 namespace TMPro {
 struct __TMP_Text__TextInputSources;
 }
 namespace TMPro {
-struct __TMP_Text__CharacterSubstitution;
+template <typename T> struct TMP_TextProcessingStack_1;
+}
+namespace TMPro {
+struct VerticalAlignmentOptions;
+}
+namespace TMPro {
+struct MaterialReference;
+}
+namespace TMPro {
+class TMP_TextElement;
+}
+namespace TMPro {
+struct __TMP_Text__SpecialCharacter;
+}
+namespace UnityEngine {
+struct Vector3;
+}
+namespace TMPro {
+struct FontStyles;
+}
+namespace TMPro {
+class TMP_TextInfo;
+}
+namespace TMPro {
+struct __TMP_Text__UnicodeChar;
 }
 namespace TMPro {
 class TMP_Character;
@@ -524,19 +524,19 @@ static_assert(::cordl_internals::size_check_v<::TMPro::__TMP_Text____c, 0x10>, "
 // SizeInfo { instance_size: 1728, native_size: -1, calculated_instance_size: 1728, calculated_native_size: 1728, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12453), inst: 391 }), TypeDefinitionIndex(TypeDefinitionIndex(12452)), GenericInstantiation(GenericInstantiation
-// { tdi: TypeDefinitionIndex(12453), inst: 5050 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12453), inst: 5051 }), TypeDefinitionIndex(TypeDefinitionIndex(10246)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12453), inst: 742 }), TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(9966)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10245)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12453), inst: 5055 }), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(12453), inst: 5053 }), TypeDefinitionIndex(TypeDefinitionIndex(12429)), TypeDefinitionIndex(TypeDefinitionIndex(12433)), TypeDefinitionIndex(TypeDefinitionIndex(12322)),
-// TypeDefinitionIndex(TypeDefinitionIndex(12443)), TypeDefinitionIndex(TypeDefinitionIndex(12444)), TypeDefinitionIndex(TypeDefinitionIndex(12333)), TypeDefinitionIndex(TypeDefinitionIndex(12432)),
-// TypeDefinitionIndex(TypeDefinitionIndex(12317)), TypeDefinitionIndex(TypeDefinitionIndex(12435)), TypeDefinitionIndex(TypeDefinitionIndex(12439)), TypeDefinitionIndex(TypeDefinitionIndex(12437)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12453), inst: 5052 }), TypeDefinitionIndex(TypeDefinitionIndex(12304)), TypeDefinitionIndex(TypeDefinitionIndex(12331)),
-// TypeDefinitionIndex(TypeDefinitionIndex(12438)), TypeDefinitionIndex(TypeDefinitionIndex(12324)), TypeDefinitionIndex(TypeDefinitionIndex(12441)), TypeDefinitionIndex(TypeDefinitionIndex(10251)),
-// TypeDefinitionIndex(TypeDefinitionIndex(12453)), TypeDefinitionIndex(TypeDefinitionIndex(10250)), TypeDefinitionIndex(TypeDefinitionIndex(12431)), TypeDefinitionIndex(TypeDefinitionIndex(12404)),
-// TypeDefinitionIndex(TypeDefinitionIndex(13099)), TypeDefinitionIndex(TypeDefinitionIndex(12430)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12453), inst: 5054 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(12334)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12453), inst: 98 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(12446)) CS
-// Name: ::TMPro::TMP_Text*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12452)), TypeDefinitionIndex(TypeDefinitionIndex(12432)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12453), inst:
+// 5052 }), TypeDefinitionIndex(TypeDefinitionIndex(12322)), TypeDefinitionIndex(TypeDefinitionIndex(12441)), TypeDefinitionIndex(TypeDefinitionIndex(10250)),
+// TypeDefinitionIndex(TypeDefinitionIndex(12304)), TypeDefinitionIndex(TypeDefinitionIndex(12324)), TypeDefinitionIndex(TypeDefinitionIndex(12429)), TypeDefinitionIndex(TypeDefinitionIndex(10246)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12453), inst: 5051 }), TypeDefinitionIndex(TypeDefinitionIndex(12331)), TypeDefinitionIndex(TypeDefinitionIndex(12444)),
+// TypeDefinitionIndex(TypeDefinitionIndex(12435)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12453), inst: 5055 }), TypeDefinitionIndex(TypeDefinitionIndex(12404)),
+// TypeDefinitionIndex(TypeDefinitionIndex(12334)), TypeDefinitionIndex(TypeDefinitionIndex(12443)), TypeDefinitionIndex(TypeDefinitionIndex(12433)), TypeDefinitionIndex(TypeDefinitionIndex(10243)),
+// TypeDefinitionIndex(TypeDefinitionIndex(13099)), TypeDefinitionIndex(TypeDefinitionIndex(12317)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12453), inst: 98 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(12431)), TypeDefinitionIndex(TypeDefinitionIndex(12453)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12453), inst: 5050 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(12439)), TypeDefinitionIndex(TypeDefinitionIndex(9966)), TypeDefinitionIndex(TypeDefinitionIndex(10251)), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(12453), inst: 5053 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12453), inst: 5054 }), TypeDefinitionIndex(TypeDefinitionIndex(12333)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12453), inst: 391 }), TypeDefinitionIndex(TypeDefinitionIndex(10245)), TypeDefinitionIndex(TypeDefinitionIndex(12437)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12453), inst: 742 }), TypeDefinitionIndex(TypeDefinitionIndex(12430)), TypeDefinitionIndex(TypeDefinitionIndex(12438))} Self:
+// TypeDefinitionIndex(TypeDefinitionIndex(12446)) CS Name: ::TMPro::TMP_Text*
 class CORDL_TYPE TMP_Text : public ::UnityEngine::UI::MaskableGraphic {
 public:
   // Declarations

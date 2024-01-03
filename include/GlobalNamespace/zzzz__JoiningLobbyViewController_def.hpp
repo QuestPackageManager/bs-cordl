@@ -8,11 +8,11 @@ CORDL_MODULE_EXPORT(JoiningLobbyViewController)
 namespace UnityEngine::UI {
 class Button;
 }
-namespace GlobalNamespace {
-class LoadingControl;
-}
 namespace System {
 class Action;
+}
+namespace GlobalNamespace {
+class LoadingControl;
 }
 // Forward declare root types
 namespace GlobalNamespace {

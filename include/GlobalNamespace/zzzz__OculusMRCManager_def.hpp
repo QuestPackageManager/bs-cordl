@@ -9,6 +9,15 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(OculusMRCManager)
+namespace UnityEngine {
+class GameObject;
+}
+namespace GlobalNamespace {
+struct __OVRManager__MrcActivationMode;
+}
+namespace UnityEngine {
+struct LayerMask;
+}
 namespace GlobalNamespace {
 class OVRMixedRealityCaptureConfiguration;
 }
@@ -16,34 +25,25 @@ namespace System {
 template <typename T, typename TResult> class Func_2;
 }
 namespace GlobalNamespace {
-struct __OVRManager__DepthQuality;
+class __OVRManager__InstantiateMrcCameraDelegate;
 }
 namespace GlobalNamespace {
 struct __OVRManager__MrcCameraType;
 }
 namespace GlobalNamespace {
+class IVRPlatformHelper;
+}
+namespace GlobalNamespace {
 struct __OVRManager__CompositionMethod;
-}
-namespace GlobalNamespace {
-class __OVRManager__InstantiateMrcCameraDelegate;
-}
-namespace GlobalNamespace {
-struct __OVRManager__MrcActivationMode;
 }
 namespace UnityEngine {
 struct Color;
 }
 namespace GlobalNamespace {
-class IVRPlatformHelper;
-}
-namespace UnityEngine {
-struct LayerMask;
-}
-namespace UnityEngine {
-class GameObject;
+struct __OVRManager__CameraDevice;
 }
 namespace GlobalNamespace {
-struct __OVRManager__CameraDevice;
+struct __OVRManager__DepthQuality;
 }
 namespace GlobalNamespace {
 struct __OVRManager__VirtualGreenScreenType;
@@ -58,9 +58,9 @@ MARK_REF_PTR_T(::GlobalNamespace::OculusMRCManager);
 // SizeInfo { instance_size: 200, native_size: -1, calculated_instance_size: 200, calculated_native_size: 200, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7640)), TypeDefinitionIndex(TypeDefinitionIndex(10204)), TypeDefinitionIndex(TypeDefinitionIndex(10225)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(7641)), TypeDefinitionIndex(TypeDefinitionIndex(7642)), TypeDefinitionIndex(TypeDefinitionIndex(7643)),
-// TypeDefinitionIndex(TypeDefinitionIndex(7644))} Self: TypeDefinitionIndex(TypeDefinitionIndex(14418)) CS Name: ::OculusMRCManager*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7640)), TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(10204)),
+// TypeDefinitionIndex(TypeDefinitionIndex(7641)), TypeDefinitionIndex(TypeDefinitionIndex(7642)), TypeDefinitionIndex(TypeDefinitionIndex(7644)), TypeDefinitionIndex(TypeDefinitionIndex(10225)),
+// TypeDefinitionIndex(TypeDefinitionIndex(7643))} Self: TypeDefinitionIndex(TypeDefinitionIndex(14418)) CS Name: ::OculusMRCManager*
 class CORDL_TYPE OculusMRCManager : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations

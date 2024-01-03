@@ -14,10 +14,10 @@ namespace System {
 class Object;
 }
 namespace System::Reflection {
-class Binder;
+struct MemberTypes;
 }
 namespace System::Reflection {
-struct MemberTypes;
+class Binder;
 }
 namespace System::Globalization {
 class CultureInfo;

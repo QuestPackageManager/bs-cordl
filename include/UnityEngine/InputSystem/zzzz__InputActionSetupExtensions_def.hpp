@@ -3,6 +3,7 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
+#include "UnityEngine/InputSystem/zzzz__InputActionType_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputBinding_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputControlScheme_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
@@ -10,40 +11,37 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(InputActionSetupExtensions)
 namespace UnityEngine::InputSystem {
-struct __InputActionSetupExtensions__CompositeSyntax;
-}
-namespace UnityEngine::InputSystem {
-class InputControl;
-}
-namespace UnityEngine::InputSystem {
 struct __InputActionSetupExtensions__BindingSyntax;
-}
-namespace UnityEngine::InputSystem {
-struct InputActionType;
-}
-namespace System {
-struct Guid;
-}
-namespace UnityEngine::InputSystem {
-class InputActionMap;
-}
-namespace UnityEngine::InputSystem {
-struct InputControlScheme;
-}
-namespace UnityEngine::InputSystem {
-struct InputBinding;
-}
-namespace UnityEngine::InputSystem {
-struct __InputActionSetupExtensions__ControlSchemeSyntax;
-}
-namespace UnityEngine::InputSystem {
-class InputActionAsset;
 }
 namespace UnityEngine::InputSystem {
 class __InputActionSetupExtensions____c__DisplayClass5_0;
 }
 namespace UnityEngine::InputSystem {
+class InputActionMap;
+}
+namespace UnityEngine::InputSystem {
+struct __InputActionSetupExtensions__ControlSchemeSyntax;
+}
+namespace UnityEngine::InputSystem {
+class InputControl;
+}
+namespace UnityEngine::InputSystem {
+struct InputControlScheme;
+}
+namespace UnityEngine::InputSystem {
 class InputAction;
+}
+namespace System {
+struct Guid;
+}
+namespace UnityEngine::InputSystem {
+class InputActionAsset;
+}
+namespace UnityEngine::InputSystem {
+struct __InputActionSetupExtensions__CompositeSyntax;
+}
+namespace UnityEngine::InputSystem {
+struct InputBinding;
 }
 namespace GlobalNamespace {
 struct __InputControlScheme__DeviceRequirement__Flags;
@@ -348,7 +346,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::__InputActionSetupExtensions_
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(6187))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6187)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6169))
 // CS Name: ::InputActionSetupExtensions::<>c__DisplayClass5_0*
 class CORDL_TYPE __InputActionSetupExtensions____c__DisplayClass5_0 : public ::System::Object {
@@ -400,7 +398,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::__InputActionSetupExtensions_
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(6187)), TypeDefinitionIndex(TypeDefinitionIndex(6182))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6170))
 // CS Name: ::UnityEngine.InputSystem::InputActionSetupExtensions*
 class CORDL_TYPE InputActionSetupExtensions : public ::System::Object {

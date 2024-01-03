@@ -1,12 +1,12 @@
 #pragma once
 #include "System/ComponentModel/zzzz__TypeDescriptionProvider_impl.hpp"
 #include "System/ComponentModel/zzzz__DelegatingTypeDescriptionProvider_def.hpp"
-#include "System/zzzz__Object_def.hpp"
-#include "System/ComponentModel/zzzz__TypeDescriptionProvider_def.hpp"
-#include "System/zzzz__Type_def.hpp"
-#include "System/ComponentModel/zzzz__ICustomTypeDescriptor_def.hpp"
-#include "System/Collections/zzzz__IDictionary_def.hpp"
 #include "System/ComponentModel/zzzz__IExtenderProvider_def.hpp"
+#include "System/zzzz__Type_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+#include "System/ComponentModel/zzzz__ICustomTypeDescriptor_def.hpp"
+#include "System/ComponentModel/zzzz__TypeDescriptionProvider_def.hpp"
+#include "System/Collections/zzzz__IDictionary_def.hpp"
 //  Writing Method size for method: ::System::ComponentModel::DelegatingTypeDescriptionProvider._ctor
 template <>
 

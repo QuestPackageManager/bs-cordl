@@ -18,14 +18,14 @@ class IEnumerator;
 namespace GlobalNamespace {
 class GameplayCoreSceneSetupData;
 }
+namespace System {
+class IDisposable;
+}
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
 namespace System {
 class Object;
-}
-namespace System {
-class IDisposable;
 }
 // Forward declare root types
 namespace GlobalNamespace {

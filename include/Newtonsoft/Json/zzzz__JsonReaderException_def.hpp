@@ -6,17 +6,17 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(JsonReaderException)
-namespace System {
-class Exception;
-}
-namespace Newtonsoft::Json {
-class JsonReader;
-}
 namespace System::Runtime::Serialization {
 struct StreamingContext;
 }
 namespace Newtonsoft::Json {
 class IJsonLineInfo;
+}
+namespace System {
+class Exception;
+}
+namespace Newtonsoft::Json {
+class JsonReader;
 }
 namespace System::Runtime::Serialization {
 class SerializationInfo;

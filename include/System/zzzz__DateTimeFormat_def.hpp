@@ -10,25 +10,25 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(DateTimeFormat)
 namespace System {
-struct TimeSpan;
-}
-namespace System::Text {
-class StringBuilder;
+struct DateTime;
 }
 namespace System {
 template <typename T> struct Span_1;
+}
+namespace System {
+template <typename T> struct ReadOnlySpan_1;
+}
+namespace System::Text {
+class StringBuilder;
 }
 namespace System::Globalization {
 class DateTimeFormatInfo;
 }
 namespace System {
-template <typename T> struct ReadOnlySpan_1;
-}
-namespace System {
-struct DateTime;
-}
-namespace System {
 class IFormatProvider;
+}
+namespace System {
+struct TimeSpan;
 }
 // Forward declare root types
 namespace System {
@@ -40,7 +40,7 @@ MARK_REF_PTR_T(::System::DateTimeFormat);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2484))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2484)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2385))
 // CS Name: ::System::DateTimeFormat*
 class CORDL_TYPE DateTimeFormat : public ::System::Object {

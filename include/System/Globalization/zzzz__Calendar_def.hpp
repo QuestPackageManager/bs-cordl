@@ -8,9 +8,6 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Calendar)
 namespace System {
-class Object;
-}
-namespace System {
 struct DayOfWeek;
 }
 namespace System {
@@ -18,6 +15,9 @@ struct DateTime;
 }
 namespace System {
 class ICloneable;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::Globalization {

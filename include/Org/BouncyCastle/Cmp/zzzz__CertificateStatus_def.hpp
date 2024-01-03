@@ -4,23 +4,23 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(CertificateStatus)
+namespace Org::BouncyCastle::Cms {
+class DefaultSignatureAlgorithmIdentifierFinder;
+}
 namespace Org::BouncyCastle::Asn1::Cmp {
-class PkiStatusInfo;
+class CertStatus;
 }
 namespace Org::BouncyCastle::Cms {
 class DefaultDigestAlgorithmIdentifierFinder;
 }
 namespace Org::BouncyCastle::Asn1::Cmp {
-class CertStatus;
+class PkiStatusInfo;
 }
 namespace Org::BouncyCastle::Math {
 class BigInteger;
 }
 namespace Org::BouncyCastle::X509 {
 class X509Certificate;
-}
-namespace Org::BouncyCastle::Cms {
-class DefaultSignatureAlgorithmIdentifierFinder;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Cmp {

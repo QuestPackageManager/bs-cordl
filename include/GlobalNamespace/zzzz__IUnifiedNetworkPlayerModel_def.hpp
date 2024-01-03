@@ -10,17 +10,17 @@ class INetworkPlayer;
 namespace GlobalNamespace {
 class INetworkPlayerModel;
 }
+namespace System {
+class Action;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
 namespace GlobalNamespace {
 struct BeatmapLevelSelectionMask;
 }
 namespace GlobalNamespace {
 struct GameplayServerConfiguration;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
-namespace System {
-class Action;
 }
 namespace GlobalNamespace {
 struct __UnifiedNetworkPlayerModel__ActiveNetworkPlayerModelType;

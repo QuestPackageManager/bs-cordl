@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include "RootMotion/FinalIK/zzzz__IK_def.hpp"
 CORDL_MODULE_EXPORT(CCDIK)
 namespace RootMotion::FinalIK {
-class IKSolver;
+class IKSolverCCD;
 }
 namespace RootMotion::FinalIK {
-class IKSolverCCD;
+class IKSolver;
 }
 // Forward declare root types
 namespace RootMotion::FinalIK {

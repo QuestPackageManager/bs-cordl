@@ -1,12 +1,12 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Runtime/Remoting/zzzz__ConfigHandler_def.hpp"
-#include "System/Runtime/Remoting/zzzz__ChannelData_def.hpp"
 #include "Mono/Xml/zzzz__SmallXmlParser_def.hpp"
-#include "System/Runtime/Remoting/zzzz__ProviderData_def.hpp"
-#include "System/Collections/zzzz__ArrayList_def.hpp"
 #include "System/zzzz__TimeSpan_def.hpp"
+#include "System/Collections/zzzz__ArrayList_def.hpp"
+#include "System/Runtime/Remoting/zzzz__ChannelData_def.hpp"
 #include "System/Collections/zzzz__Stack_def.hpp"
+#include "System/Runtime/Remoting/zzzz__ProviderData_def.hpp"
 //  Writing Method size for method: ::System::Runtime::Remoting::ConfigHandler._ctor
 template <>
 

@@ -20,7 +20,7 @@ namespace IgnoranceThirdparty {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15211)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15211))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15210))
 // CS Name: ::IgnoranceThirdparty::RingBuffer`1<T>*
 class CORDL_TYPE RingBuffer_1 : public ::System::Object {

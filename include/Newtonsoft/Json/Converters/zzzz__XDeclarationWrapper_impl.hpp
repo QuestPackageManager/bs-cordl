@@ -2,8 +2,8 @@
 #include "Newtonsoft/Json/Converters/zzzz__XObjectWrapper_impl.hpp"
 #include "Newtonsoft/Json/Converters/zzzz__XDeclarationWrapper_def.hpp"
 #include "System/Xml/Linq/zzzz__XDeclaration_def.hpp"
-#include "System/Xml/zzzz__XmlNodeType_def.hpp"
 #include "Newtonsoft/Json/Converters/zzzz__IXmlNode_def.hpp"
+#include "System/Xml/zzzz__XmlNodeType_def.hpp"
 #include "Newtonsoft/Json/Converters/zzzz__IXmlDeclaration_def.hpp"
 //  Writing Method size for method: ::Newtonsoft::Json::Converters::XDeclarationWrapper.get_Declaration
 template <>

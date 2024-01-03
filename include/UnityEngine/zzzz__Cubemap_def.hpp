@@ -6,6 +6,9 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Cubemap)
+namespace UnityEngine {
+struct TextureFormat;
+}
 namespace UnityEngine::Experimental::Rendering {
 struct TextureCreationFlags;
 }
@@ -14,9 +17,6 @@ struct Color;
 }
 namespace UnityEngine::Experimental::Rendering {
 struct GraphicsFormat;
-}
-namespace UnityEngine {
-struct TextureFormat;
 }
 namespace UnityEngine {
 struct CubemapFace;

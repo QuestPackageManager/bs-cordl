@@ -108,7 +108,7 @@ static_assert(offsetof(::GlobalNamespace::__LocalizedTextAsset__TextInfo, ___loc
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15554)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15554))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5873))
 // CS Name: ::LocalizedTextAsset::<>c__DisplayClass6_0*
 class CORDL_TYPE __LocalizedTextAsset____c__DisplayClass6_0 : public ::System::Object {

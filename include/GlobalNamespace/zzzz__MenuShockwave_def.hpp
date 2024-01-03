@@ -9,11 +9,11 @@ CORDL_MODULE_EXPORT(MenuShockwave)
 namespace GlobalNamespace {
 class Signal;
 }
-namespace UnityEngine {
-class ParticleSystem;
-}
 namespace VRUIControls {
 class VRPointer;
+}
+namespace UnityEngine {
+class ParticleSystem;
 }
 namespace UnityEngine {
 struct Vector3;

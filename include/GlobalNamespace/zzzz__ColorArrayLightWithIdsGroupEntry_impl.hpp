@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__ColorArrayLightWithIdsGroupEntry_def.hpp"
-#include "GlobalNamespace/zzzz__LightGroupSO_def.hpp"
 #include "GlobalNamespace/zzzz__ColorArrayLightWithIds_def.hpp"
+#include "GlobalNamespace/zzzz__LightGroupSO_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::ColorArrayLightWithIdsGroupEntry.get_lightGroups
 template <>
 

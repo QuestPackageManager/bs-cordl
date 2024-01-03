@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(BeatmapDataNoArrowsTransform)
 namespace GlobalNamespace {
-class BeatmapDataItem;
+class IReadonlyBeatmapData;
 }
 namespace GlobalNamespace {
-class IReadonlyBeatmapData;
+class BeatmapDataItem;
 }
 // Forward declare root types
 namespace GlobalNamespace {

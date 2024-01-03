@@ -6,16 +6,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(PacketPool_1)
 namespace GlobalNamespace {
-class IPacketPool;
+template <typename T> class IPacketPool_1;
 }
 namespace GlobalNamespace {
-class IPoolablePacket;
+class IPacketPool;
 }
 namespace System::Collections::Concurrent {
 template <typename T> class ConcurrentBag_1;
 }
 namespace GlobalNamespace {
-template <typename T> class IPacketPool_1;
+class IPoolablePacket;
 }
 // Forward declare root types
 namespace GlobalNamespace {

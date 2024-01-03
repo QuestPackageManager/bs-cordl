@@ -11,16 +11,16 @@ namespace UnityEngine {
 class Transform;
 }
 namespace GlobalNamespace {
-class SongTimeFixedUpdateController;
-}
-namespace GlobalNamespace {
-class BeatmapCallbacksController;
-}
-namespace GlobalNamespace {
 class BeatmapDataCallbackWrapper;
 }
 namespace GlobalNamespace {
+class SongTimeFixedUpdateController;
+}
+namespace GlobalNamespace {
 class BasicBeatmapEventData;
+}
+namespace GlobalNamespace {
+class BeatmapCallbacksController;
 }
 // Forward declare root types
 namespace GlobalNamespace {

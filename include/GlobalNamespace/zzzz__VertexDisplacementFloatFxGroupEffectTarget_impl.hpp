@@ -3,10 +3,10 @@
 #include "UnityEngine/zzzz__Bounds_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "GlobalNamespace/zzzz__VertexDisplacementFloatFxGroupEffectTarget_def.hpp"
+#include "UnityEngine/zzzz__Renderer_def.hpp"
 #include "UnityEngine/zzzz__Vector4_def.hpp"
 #include "UnityEngine/zzzz__AnimationCurve_def.hpp"
 #include "GlobalNamespace/zzzz__MaterialPropertyBlockController_def.hpp"
-#include "UnityEngine/zzzz__Renderer_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::VertexDisplacementFloatFxGroupEffectTarget.OnEnable
 template <>
 

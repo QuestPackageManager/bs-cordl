@@ -2,10 +2,10 @@
 #include "System/Diagnostics/zzzz__TraceOptions_impl.hpp"
 #include "System/zzzz__MarshalByRefObject_impl.hpp"
 #include "System/Diagnostics/zzzz__TraceListener_def.hpp"
-#include "System/Diagnostics/zzzz__TraceEventType_def.hpp"
 #include "System/Diagnostics/zzzz__TraceOptions_def.hpp"
 #include "System/Diagnostics/zzzz__TraceEventCache_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
+#include "System/Diagnostics/zzzz__TraceEventType_def.hpp"
 #include "System/Diagnostics/zzzz__TraceFilter_def.hpp"
 //  Writing Method size for method: ::System::Diagnostics::TraceListener._ctor
 template <>

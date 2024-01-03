@@ -4,8 +4,8 @@
 CORDL_MODULE_INIT
 #include "UnityEngine/Playables/zzzz__PlayableAsset_def.hpp"
 CORDL_MODULE_EXPORT(TubeLightAsset)
-namespace UnityEngine::Playables {
-struct Playable;
+namespace UnityEngine {
+class GameObject;
 }
 namespace GlobalNamespace {
 class TubeLightBehaviour;
@@ -13,14 +13,14 @@ class TubeLightBehaviour;
 namespace UnityEngine::Timeline {
 struct ClipCaps;
 }
-namespace UnityEngine::Timeline {
-class ITimelineClipAsset;
-}
 namespace UnityEngine::Playables {
 struct PlayableGraph;
 }
-namespace UnityEngine {
-class GameObject;
+namespace UnityEngine::Playables {
+struct Playable;
+}
+namespace UnityEngine::Timeline {
+class ITimelineClipAsset;
 }
 // Forward declare root types
 namespace GlobalNamespace {

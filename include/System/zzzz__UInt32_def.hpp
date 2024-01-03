@@ -2,6 +2,7 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/zzzz__ReadOnlySpan_1_def.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
@@ -9,49 +10,46 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(UInt32)
 namespace System {
-class IFormattable;
-}
-namespace System {
-template <typename T> struct ReadOnlySpan_1;
-}
-namespace System {
-class Type;
-}
-namespace System {
-class IConvertible;
-}
-namespace System {
-class ISpanFormattable;
+class Object;
 }
 namespace System {
 class IFormatProvider;
 }
 namespace System {
-class IComparable;
+struct DateTime;
 }
 namespace System {
-template <typename T> class IEquatable_1;
+class ISpanFormattable;
+}
+namespace System {
+template <typename T> class IComparable_1;
+}
+namespace System {
+class Type;
 }
 namespace System {
 template <typename T> struct Span_1;
 }
 namespace System {
-class Object;
-}
-namespace System::Globalization {
-struct NumberStyles;
-}
-namespace System {
-struct DateTime;
-}
-namespace System {
 struct TypeCode;
+}
+namespace System {
+class IComparable;
+}
+namespace System {
+class IConvertible;
 }
 namespace System {
 struct Decimal;
 }
 namespace System {
-template <typename T> class IComparable_1;
+template <typename T> class IEquatable_1;
+}
+namespace System {
+class IFormattable;
+}
+namespace System::Globalization {
+struct NumberStyles;
 }
 // Forward declare root types
 namespace System {
@@ -63,7 +61,7 @@ MARK_VAL_T(::System::UInt32);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2464)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2464), inst: 292 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2499))
 // CS Name: ::System::UInt32
 struct CORDL_TYPE UInt32 {

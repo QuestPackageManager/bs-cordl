@@ -8,10 +8,10 @@ namespace UnityEngine {
 class __UnhandledExceptionHandler____c;
 }
 namespace System {
-class UnhandledExceptionEventArgs;
+class Object;
 }
 namespace System {
-class Object;
+class UnhandledExceptionEventArgs;
 }
 namespace System {
 class UnhandledExceptionEventHandler;

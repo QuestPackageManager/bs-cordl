@@ -7,17 +7,17 @@ CORDL_MODULE_EXPORT(IAuthenticationTokenProvider)
 namespace GlobalNamespace {
 struct AuthenticationToken;
 }
-namespace GlobalNamespace {
-struct __AuthenticationToken__Platform;
-}
 namespace System::Threading::Tasks {
 template <typename TResult> class Task_1;
 }
 namespace GlobalNamespace {
-class XPlatformAccessTokenData;
+struct __AuthenticationToken__Platform;
 }
 namespace System::Threading {
 struct CancellationToken;
+}
+namespace GlobalNamespace {
+class XPlatformAccessTokenData;
 }
 namespace GlobalNamespace {
 struct PlatformEnvironment;

@@ -6,28 +6,28 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/byref.hpp"
 CORDL_MODULE_EXPORT(SubContainerDependencyProvider)
 namespace Zenject {
-class DiContainer;
-}
-namespace Zenject {
-struct TypeValuePair;
-}
-namespace Zenject {
 class ISubContainerCreator;
-}
-namespace System {
-class Action;
-}
-namespace Zenject {
-class IProvider;
-}
-namespace System {
-class Type;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace Zenject {
+class DiContainer;
+}
+namespace Zenject {
 class InjectContext;
+}
+namespace Zenject {
+struct TypeValuePair;
+}
+namespace System {
+class Action;
+}
+namespace System {
+class Type;
+}
+namespace Zenject {
+class IProvider;
 }
 namespace System {
 class Object;

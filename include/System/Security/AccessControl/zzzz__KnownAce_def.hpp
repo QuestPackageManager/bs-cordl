@@ -7,13 +7,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(KnownAce)
 namespace System::Security::AccessControl {
-struct AceType;
+struct AceFlags;
 }
 namespace System::Security::Principal {
 class SecurityIdentifier;
 }
 namespace System::Security::AccessControl {
-struct AceFlags;
+struct AceType;
 }
 // Forward declare root types
 namespace System::Security::AccessControl {

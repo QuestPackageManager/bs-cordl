@@ -7,11 +7,11 @@ CORDL_MODULE_EXPORT(CustomControlPlayableAsset)
 namespace UnityEngine::Timeline {
 class ITimelineClipAsset;
 }
-namespace UnityEngine::Timeline {
-struct ClipCaps;
-}
 namespace GlobalNamespace {
 class AvatarColorBehaviour;
+}
+namespace UnityEngine::Timeline {
+struct ClipCaps;
 }
 // Forward declare root types
 namespace GlobalNamespace {

@@ -5,13 +5,13 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(IDtdInfo)
 namespace System::Xml {
-class IDtdEntityInfo;
-}
-namespace System::Xml {
 class XmlQualifiedName;
 }
 namespace System::Xml {
 class IDtdAttributeListInfo;
+}
+namespace System::Xml {
+class IDtdEntityInfo;
 }
 // Forward declare root types
 namespace System::Xml {

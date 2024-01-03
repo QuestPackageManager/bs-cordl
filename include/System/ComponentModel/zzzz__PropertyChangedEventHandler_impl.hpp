@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/ComponentModel/zzzz__PropertyChangedEventHandler_def.hpp"
-#include "System/ComponentModel/zzzz__PropertyChangedEventArgs_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "System/ComponentModel/zzzz__PropertyChangedEventArgs_def.hpp"
 //  Writing Method size for method: ::System::ComponentModel::PropertyChangedEventHandler._ctor
 template <>
 

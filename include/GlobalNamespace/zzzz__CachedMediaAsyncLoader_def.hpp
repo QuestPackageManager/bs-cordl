@@ -11,17 +11,17 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(CachedMediaAsyncLoader)
-namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
+namespace GlobalNamespace {
+template <typename TKey, typename TValue> class AsyncCachedLoader_2;
 }
 namespace System::Threading {
 struct CancellationToken;
 }
-namespace GlobalNamespace {
-template <typename TKey, typename TValue> class AsyncCachedLoader_2;
-}
 namespace UnityEngine {
 class Sprite;
+}
+namespace System::Threading::Tasks {
+template <typename TResult> class Task_1;
 }
 namespace GlobalNamespace {
 struct __CachedMediaAsyncLoader___LoadSpriteAsync_d__3;
@@ -30,13 +30,13 @@ namespace GlobalNamespace {
 class ISpriteAsyncLoader;
 }
 namespace System::Runtime::CompilerServices {
-template <typename TResult> struct AsyncTaskMethodBuilder_1;
+class IAsyncStateMachine;
 }
 namespace System::Runtime::CompilerServices {
 template <typename TResult> struct TaskAwaiter_1;
 }
 namespace System::Runtime::CompilerServices {
-class IAsyncStateMachine;
+template <typename TResult> struct AsyncTaskMethodBuilder_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -52,9 +52,9 @@ MARK_VAL_T(::GlobalNamespace::__CachedMediaAsyncLoader___LoadSpriteAsync_d__3);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 777 }), TypeDefinitionIndex(TypeDefinitionIndex(2677)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10291)), TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 777 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(3394))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5910)) CS Name: ::CachedMediaAsyncLoader::<LoadSpriteAsync>d__3
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(10291)), TypeDefinitionIndex(TypeDefinitionIndex(3402)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 777 }), TypeDefinitionIndex(TypeDefinitionIndex(3394)), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(3394), inst: 777 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(5910)) CS Name: ::CachedMediaAsyncLoader::<LoadSpriteAsync>d__3
 struct CORDL_TYPE __CachedMediaAsyncLoader___LoadSpriteAsync_d__3 {
 public:
   // Declarations

@@ -6,22 +6,22 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(EnvelopedData)
 namespace Org::BouncyCastle::Asn1::Cms {
-class EncryptedContentInfo;
+class OriginatorInfo;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Set;
 }
 namespace Org::BouncyCastle::Asn1::Cms {
-class OriginatorInfo;
+class EncryptedContentInfo;
 }
 namespace System {
 class Object;
 }
 namespace Org::BouncyCastle::Asn1 {
-class DerInteger;
-}
-namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Set;
+class Asn1Sequence;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1TaggedObject;
@@ -30,7 +30,7 @@ namespace Org::BouncyCastle::Asn1::Cms {
 class Attributes;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
+class DerInteger;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Cms {

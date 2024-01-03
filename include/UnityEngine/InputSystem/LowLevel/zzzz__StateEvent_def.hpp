@@ -2,6 +2,7 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "Unity/Collections/zzzz__Allocator_def.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__InputEvent_def.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__StateEvent_def.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__FourCC_def.hpp"
@@ -9,29 +10,29 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(StateEvent)
-namespace Unity::Collections {
-struct Allocator;
-}
 namespace UnityEngine::InputSystem::LowLevel {
-struct InputEvent;
+struct InputEventPtr;
 }
 namespace Unity::Collections {
 template <typename T> struct NativeArray_1;
 }
 namespace UnityEngine::InputSystem::LowLevel {
-struct InputEventPtr;
+struct InputEvent;
 }
 namespace UnityEngine::InputSystem::Utilities {
 struct FourCC;
 }
-namespace UnityEngine::InputSystem {
-class InputDevice;
+namespace Unity::Collections {
+struct Allocator;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+class IInputEventTypeInfo;
 }
 namespace UnityEngine::InputSystem::LowLevel {
 struct __StateEvent___stateData_e__FixedBuffer;
 }
-namespace UnityEngine::InputSystem::LowLevel {
-class IInputEventTypeInfo;
+namespace UnityEngine::InputSystem {
+class InputDevice;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::LowLevel {
@@ -80,9 +81,8 @@ static_assert(offsetof(::UnityEngine::InputSystem::LowLevel::__StateEvent___stat
 // SizeInfo { instance_size: 25, native_size: 25, calculated_instance_size: 25, calculated_native_size: 41, minimum_alignment: 1, natural_alignment: 8, packing: Some(1), specified_packing: Some(1) }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6530)), TypeDefinitionIndex(TypeDefinitionIndex(6545)), TypeDefinitionIndex(TypeDefinitionIndex(6667))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6546))
-// CS Name: ::UnityEngine.InputSystem.LowLevel::StateEvent
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6530)), TypeDefinitionIndex(TypeDefinitionIndex(6667)), TypeDefinitionIndex(TypeDefinitionIndex(6545)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10003))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6546)) CS Name: ::UnityEngine.InputSystem.LowLevel::StateEvent
 #pragma pack(push, 1)
 struct CORDL_TYPE StateEvent {
 public:

@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(Media)
-namespace Oculus::Platform {
-template <typename T> class Request_1;
+namespace Oculus::Platform::Models {
+class ShareMediaResult;
 }
 namespace Oculus::Platform {
 struct MediaContentType;
 }
-namespace Oculus::Platform::Models {
-class ShareMediaResult;
+namespace Oculus::Platform {
+template <typename T> class Request_1;
 }
 // Forward declare root types
 namespace Oculus::Platform {

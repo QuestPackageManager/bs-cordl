@@ -9,20 +9,20 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(StyleLength)
-namespace UnityEngine::UIElements {
-template <typename T> class IStyleValue_1;
+namespace System {
+template <typename T> class IEquatable_1;
 }
 namespace UnityEngine::UIElements {
 struct Length;
 }
-namespace UnityEngine::UIElements {
-struct StyleKeyword;
-}
 namespace System {
 class Object;
 }
-namespace System {
-template <typename T> class IEquatable_1;
+namespace UnityEngine::UIElements {
+template <typename T> class IStyleValue_1;
+}
+namespace UnityEngine::UIElements {
+struct StyleKeyword;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -34,7 +34,7 @@ MARK_VAL_T(::UnityEngine::UIElements::StyleLength);
 // SizeInfo { instance_size: 12, native_size: 12, calculated_instance_size: 12, calculated_native_size: 28, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7300)), TypeDefinitionIndex(TypeDefinitionIndex(7313))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7313)), TypeDefinitionIndex(TypeDefinitionIndex(7300))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7298))
 // CS Name: ::UnityEngine.UIElements::StyleLength
 struct CORDL_TYPE StyleLength {

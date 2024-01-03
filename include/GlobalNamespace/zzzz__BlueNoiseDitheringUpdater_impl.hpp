@@ -1,9 +1,9 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__BlueNoiseDitheringUpdater_def.hpp"
+#include "UnityEngine/zzzz__Camera_def.hpp"
 #include "GlobalNamespace/zzzz__BlueNoiseDithering_def.hpp"
 #include "GlobalNamespace/zzzz__RandomValueToShader_def.hpp"
-#include "UnityEngine/zzzz__Camera_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::BlueNoiseDitheringUpdater.OnEnable
 template <>
 

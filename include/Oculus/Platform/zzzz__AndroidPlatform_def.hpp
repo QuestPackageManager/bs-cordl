@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(AndroidPlatform)
-namespace Oculus::Platform::Models {
-class PlatformInitialize;
-}
 namespace Oculus::Platform {
 template <typename T> class Request_1;
+}
+namespace Oculus::Platform::Models {
+class PlatformInitialize;
 }
 // Forward declare root types
 namespace Oculus::Platform {

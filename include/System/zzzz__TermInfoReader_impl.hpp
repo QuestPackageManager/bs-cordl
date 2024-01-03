@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__TermInfoReader_def.hpp"
-#include "System/zzzz__TermInfoStrings_def.hpp"
 #include "System/zzzz__TermInfoNumbers_def.hpp"
+#include "System/zzzz__TermInfoStrings_def.hpp"
 //  Writing Method size for method: ::System::TermInfoReader._ctor
 template <>
 

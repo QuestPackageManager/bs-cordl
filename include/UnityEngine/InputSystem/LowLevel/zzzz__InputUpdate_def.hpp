@@ -123,7 +123,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::LowLevel::__InputUpdate__Seri
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6553)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(6554))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(6553)), TypeDefinitionIndex(TypeDefinitionIndex(6554))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6556))
 // CS Name: ::UnityEngine.InputSystem.LowLevel::InputUpdate*
 class CORDL_TYPE InputUpdate : public ::System::Object {

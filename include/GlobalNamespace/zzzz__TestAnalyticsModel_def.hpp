@@ -8,17 +8,17 @@ CORDL_MODULE_EXPORT(TestAnalyticsModel)
 namespace GlobalNamespace {
 class __TestAnalyticsModel____c;
 }
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
+}
 namespace GlobalNamespace {
 class IAnalyticsModel;
 }
 namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
+template <typename TKey, typename TValue> struct KeyValuePair_2;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> struct KeyValuePair_2;
 }
 // Forward declare root types
 namespace GlobalNamespace {

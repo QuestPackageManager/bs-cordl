@@ -8,10 +8,10 @@ namespace UnityEngine::UIElements {
 class EventBase;
 }
 namespace UnityEngine::UIElements {
-class DropdownMenu;
+class IEventHandler;
 }
 namespace UnityEngine::UIElements {
-class IEventHandler;
+class DropdownMenu;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

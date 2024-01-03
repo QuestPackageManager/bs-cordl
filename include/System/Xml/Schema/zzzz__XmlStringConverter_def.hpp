@@ -8,11 +8,11 @@ CORDL_MODULE_EXPORT(XmlStringConverter)
 namespace System::Xml::Schema {
 class XmlValueConverter;
 }
-namespace System::Xml::Schema {
-class XmlSchemaType;
-}
 namespace System {
 class Object;
+}
+namespace System::Xml::Schema {
+class XmlSchemaType;
 }
 namespace System {
 class Type;

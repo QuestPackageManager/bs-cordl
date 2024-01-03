@@ -5,23 +5,23 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(PlayerHeightSettingsController)
-namespace UnityEngine::UI {
-class Button;
-}
 namespace HMUI {
 class ButtonBinder;
 }
-namespace System {
-template <typename T> class Action_1;
-}
-namespace GlobalNamespace {
-class Vector3SO;
+namespace UnityEngine::UI {
+class Button;
 }
 namespace TMPro {
 class TextMeshProUGUI;
 }
 namespace GlobalNamespace {
 class IVRPlatformHelper;
+}
+namespace System {
+template <typename T> class Action_1;
+}
+namespace GlobalNamespace {
+class Vector3SO;
 }
 // Forward declare root types
 namespace GlobalNamespace {

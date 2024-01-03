@@ -4,14 +4,14 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(AddressablesExtensions)
+namespace System::Threading::Tasks {
+template <typename TResult> class Task_1;
+}
 namespace UnityEngine::ResourceManagement::AsyncOperations {
 template <typename TObject> struct AsyncOperationHandle_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class IList_1;
-}
-namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
 }
 namespace UnityEngine::AddressableAssets {
 class IKeyEvaluator;

@@ -7,25 +7,25 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(InjectTypeInfo)
 namespace Zenject {
-class __InjectTypeInfo__InjectMemberInfo;
-}
-namespace Zenject {
-class InjectableInfo;
+class __InjectTypeInfo__InjectMethodInfo;
 }
 namespace Zenject {
 class __InjectTypeInfo__InjectConstructorInfo;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
+namespace System {
+class Type;
+}
+namespace Zenject {
+class InjectableInfo;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;
 }
 namespace Zenject {
-class __InjectTypeInfo__InjectMethodInfo;
+class __InjectTypeInfo__InjectMemberInfo;
 }
-namespace System {
-class Type;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
 }
 namespace Zenject {
 class ZenFactoryMethod;

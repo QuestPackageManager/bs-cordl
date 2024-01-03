@@ -7,43 +7,43 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(ConcreteBinderGeneric_1)
 namespace Zenject {
-template <typename TContract> class __ConcreteBinderGeneric_1____c__DisplayClass5_0;
-}
-namespace Zenject {
-class ConventionSelectTypesBinder;
-}
-namespace System {
-class Type;
-}
-namespace Zenject {
-template <typename TContract> class FromBinderGeneric_1;
-}
-namespace System {
-template <typename T> class Action_1;
-}
-namespace Zenject {
 class BindStatement;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
-namespace Zenject {
-class FromBinderNonGeneric;
-}
-namespace Zenject {
-class IProvider;
-}
-namespace Zenject {
-class DiContainer;
 }
 namespace Zenject {
 class BindInfo;
 }
 namespace Zenject {
-class InjectTypeInfo;
+template <typename TContract> class __ConcreteBinderGeneric_1____c__DisplayClass5_0;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
+namespace System {
+template <typename T> class Action_1;
+}
+namespace Zenject {
+class IProvider;
+}
+namespace System {
+class Type;
+}
+namespace Zenject {
+class FromBinderNonGeneric;
+}
+namespace Zenject {
+class DiContainer;
+}
+namespace Zenject {
+class ConventionSelectTypesBinder;
+}
+namespace Zenject {
+template <typename TContract> class FromBinderGeneric_1;
 }
 namespace System {
 class Object;
+}
+namespace Zenject {
+class InjectTypeInfo;
 }
 // Forward declare root types
 namespace Zenject {
@@ -117,7 +117,7 @@ namespace Zenject {
 // cpp template
 template <typename TContract>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10914)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10914), inst: 1990 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10914), inst: 1990 }), TypeDefinitionIndex(TypeDefinitionIndex(10914))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10671))
 // CS Name: ::Zenject::ConcreteBinderGeneric`1<TContract>*
 class CORDL_TYPE ConcreteBinderGeneric_1 : public ::Zenject::FromBinderGeneric_1<TContract> {

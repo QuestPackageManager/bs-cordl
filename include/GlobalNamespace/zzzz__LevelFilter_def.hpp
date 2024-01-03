@@ -19,71 +19,71 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(LevelFilter)
-namespace System {
-template <typename T> class Comparison_1;
-}
 namespace GlobalNamespace {
 class IPreviewBeatmapLevel;
 }
 namespace System {
 template <typename T1, typename T2> struct ValueTuple_2;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace GlobalNamespace {
-class PlayerDataModel;
-}
-namespace GlobalNamespace {
-class PreviewDifficultyBeatmapSet;
-}
-namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
-}
-namespace GlobalNamespace {
-struct PlayerSensitivityFlag;
-}
-namespace System::Collections::Generic {
-template <typename T> class IReadOnlyList_1;
-}
-namespace GlobalNamespace {
-struct SongPackMask;
-}
-namespace GlobalNamespace {
-class IBeatmapLevelCollection;
-}
-namespace GlobalNamespace {
-class __LevelFilter____c;
-}
-namespace GlobalNamespace {
-struct BeatmapDifficultyMask;
-}
-namespace System::Threading {
-struct CancellationToken;
+namespace System {
+template <typename T> class Comparison_1;
 }
 namespace GlobalNamespace {
 class IBeatmapLevelPack;
 }
 namespace GlobalNamespace {
-struct __LevelFilter___FilterLevelsAsync_d__13;
+class __LevelFilter____c;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class IReadOnlyList_1;
+}
+namespace System::Threading::Tasks {
+template <typename TResult> class Task_1;
+}
+namespace GlobalNamespace {
+class PreviewDifficultyBeatmapSet;
+}
+namespace System::Threading {
+struct CancellationToken;
 }
 namespace GlobalNamespace {
 class IAdditionalContentModel;
 }
 namespace GlobalNamespace {
-struct EntitlementStatus;
+class PlayerDataModel;
 }
-namespace System::Runtime::CompilerServices {
-class IAsyncStateMachine;
+namespace GlobalNamespace {
+struct PlayerSensitivityFlag;
+}
+namespace GlobalNamespace {
+struct SongPackMask;
+}
+namespace GlobalNamespace {
+struct BeatmapDifficultyMask;
+}
+namespace GlobalNamespace {
+class IBeatmapLevelCollection;
+}
+namespace GlobalNamespace {
+struct __LevelFilter___FilterLevelsAsync_d__13;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
+}
+namespace System::Runtime::CompilerServices {
+class IAsyncStateMachine;
 }
 namespace System::Runtime::CompilerServices {
 template <typename TResult> struct AsyncTaskMethodBuilder_1;
 }
 namespace System::Runtime::CompilerServices {
 template <typename TResult> struct TaskAwaiter_1;
+}
+namespace GlobalNamespace {
+struct EntitlementStatus;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -103,7 +103,7 @@ MARK_VAL_T(::GlobalNamespace::__LevelFilter___FilterLevelsAsync_d__13);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15047)), TypeDefinitionIndex(TypeDefinitionIndex(14719)), TypeDefinitionIndex(TypeDefinitionIndex(4658))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4658)), TypeDefinitionIndex(TypeDefinitionIndex(15047)), TypeDefinitionIndex(TypeDefinitionIndex(14719))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4402))
 // CS Name: ::LevelFilter
 struct CORDL_TYPE LevelFilter {
@@ -228,10 +228,10 @@ static_assert(offsetof(::GlobalNamespace::LevelFilter, limitIds) == 0x48, "Offse
 // SizeInfo { instance_size: 192, native_size: -1, calculated_instance_size: 192, calculated_native_size: 208, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(16270)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 880 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(4402)), TypeDefinitionIndex(TypeDefinitionIndex(2677)), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(3402), inst: 888 }), TypeDefinitionIndex(TypeDefinitionIndex(4344)), TypeDefinitionIndex(TypeDefinitionIndex(3394))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4400)) CS
-// Name: ::LevelFilter::<FilterLevelsAsync>d__13
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 888 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 880 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(4402)), TypeDefinitionIndex(TypeDefinitionIndex(4344)), TypeDefinitionIndex(TypeDefinitionIndex(3402)),
+// TypeDefinitionIndex(TypeDefinitionIndex(16270)), TypeDefinitionIndex(TypeDefinitionIndex(3394))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4400)) CS Name:
+// ::LevelFilter::<FilterLevelsAsync>d__13
 struct CORDL_TYPE __LevelFilter___FilterLevelsAsync_d__13 {
 public:
   // Declarations

@@ -6,11 +6,11 @@
 #include "RootMotion/FinalIK/zzzz__InteractionTrigger_def.hpp"
 #include "RootMotion/FinalIK/zzzz__InteractionObject_def.hpp"
 #include "RootMotion/FinalIK/zzzz__FullBodyBipedEffector_def.hpp"
-#include "RootMotion/FinalIK/zzzz__InteractionTrigger_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
 #include "UnityEngine/zzzz__RaycastHit_def.hpp"
-#include "UnityEngine/zzzz__Collider_def.hpp"
+#include "RootMotion/FinalIK/zzzz__InteractionTrigger_def.hpp"
 #include "UnityEngine/zzzz__Quaternion_def.hpp"
+#include "UnityEngine/zzzz__Collider_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 //  Writing Method size for method: ::RootMotion::FinalIK::__InteractionTrigger__CharacterPosition.get_offset3D
 template <>

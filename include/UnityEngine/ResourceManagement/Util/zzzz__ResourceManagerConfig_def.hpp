@@ -10,11 +10,11 @@ CORDL_MODULE_EXPORT(ResourceManagerConfig)
 namespace System {
 class Type;
 }
-namespace System {
-class Object;
-}
 namespace System::Collections {
 class IList;
+}
+namespace System {
+class Object;
 }
 namespace UnityEngine {
 class Object;

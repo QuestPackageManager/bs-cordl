@@ -11,50 +11,50 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(Slider)
+namespace UnityEngine::EventSystems {
+class IEventSystemHandler;
+}
 namespace UnityEngine {
 class Transform;
 }
-namespace UnityEngine::EventSystems {
-class IInitializePotentialDragHandler;
+namespace UnityEngine::UI {
+struct __Slider__Direction;
 }
 namespace UnityEngine {
 class Camera;
 }
 namespace UnityEngine::EventSystems {
-class PointerEventData;
+class AxisEventData;
 }
 namespace UnityEngine::UI {
-struct CanvasUpdate;
-}
-namespace UnityEngine::UI {
-struct __Slider__Direction;
-}
-namespace UnityEngine::EventSystems {
-class IDragHandler;
-}
-namespace UnityEngine::EventSystems {
-class IEventSystemHandler;
+class ICanvasElement;
 }
 namespace UnityEngine {
 class RectTransform;
 }
 namespace UnityEngine::UI {
-class Image;
-}
-namespace UnityEngine::UI {
 class __Slider__SliderEvent;
 }
-namespace UnityEngine::EventSystems {
-class AxisEventData;
+namespace UnityEngine::UI {
+struct __Slider__Axis;
 }
 namespace UnityEngine::UI {
 class Selectable;
 }
-namespace UnityEngine::UI {
-class ICanvasElement;
+namespace UnityEngine::EventSystems {
+class PointerEventData;
+}
+namespace UnityEngine::EventSystems {
+class IDragHandler;
 }
 namespace UnityEngine::UI {
-struct __Slider__Axis;
+class Image;
+}
+namespace UnityEngine::UI {
+struct CanvasUpdate;
+}
+namespace UnityEngine::EventSystems {
+class IInitializePotentialDragHandler;
 }
 // Forward declare root types
 namespace UnityEngine::UI {
@@ -136,7 +136,7 @@ static_assert(offsetof(::UnityEngine::UI::__Slider__Direction, value__) == 0x0, 
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10465), inst: 391 }), TypeDefinitionIndex(TypeDefinitionIndex(10465))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10465)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10465), inst: 391 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13122))
 // CS Name: ::Slider::SliderEvent*
 class CORDL_TYPE __Slider__SliderEvent : public ::UnityEngine::Events::UnityEvent_1<float_t> {
@@ -221,8 +221,8 @@ static_assert(offsetof(::UnityEngine::UI::__Slider__Axis, value__) == 0x0, "Offs
 // SizeInfo { instance_size: 352, native_size: -1, calculated_instance_size: 352, calculated_native_size: 346, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13121)), TypeDefinitionIndex(TypeDefinitionIndex(13119)), TypeDefinitionIndex(TypeDefinitionIndex(10278)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10243))} Self: TypeDefinitionIndex(TypeDefinitionIndex(13124)) CS Name: ::UnityEngine.UI::Slider*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(10278)), TypeDefinitionIndex(TypeDefinitionIndex(13119)),
+// TypeDefinitionIndex(TypeDefinitionIndex(13121))} Self: TypeDefinitionIndex(TypeDefinitionIndex(13124)) CS Name: ::UnityEngine.UI::Slider*
 class CORDL_TYPE Slider : public ::UnityEngine::UI::Selectable {
 public:
   // Declarations

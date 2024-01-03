@@ -6,47 +6,47 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__DrivenRectTransformTracker_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
 CORDL_MODULE_EXPORT(Slider2D)
-namespace UnityEngine::EventSystems {
-class IDragHandler;
-}
 namespace UnityEngine::UI {
-struct __Selectable__SelectionState;
-}
-namespace UnityEngine {
-struct Color;
-}
-namespace UnityEngine::EventSystems {
-class IEventSystemHandler;
+struct CanvasUpdate;
 }
 namespace UnityEngine::EventSystems {
 class IInitializePotentialDragHandler;
 }
 namespace UnityEngine {
-class Transform;
-}
-namespace UnityEngine {
 class RectTransform;
 }
-namespace System {
-template <typename T1, typename T2> class Action_2;
+namespace UnityEngine {
+struct Color;
 }
 namespace UnityEngine::EventSystems {
-class IBeginDragHandler;
-}
-namespace UnityEngine {
-struct Vector2;
+class IDragHandler;
 }
 namespace UnityEngine::UI {
 class ICanvasElement;
 }
-namespace UnityEngine::UI {
-class Graphic;
-}
-namespace UnityEngine::UI {
-struct CanvasUpdate;
-}
 namespace UnityEngine::EventSystems {
 class PointerEventData;
+}
+namespace UnityEngine {
+struct Vector2;
+}
+namespace UnityEngine::EventSystems {
+class IEventSystemHandler;
+}
+namespace UnityEngine::UI {
+struct __Selectable__SelectionState;
+}
+namespace UnityEngine {
+class Transform;
+}
+namespace UnityEngine::EventSystems {
+class IBeginDragHandler;
+}
+namespace System {
+template <typename T1, typename T2> class Action_2;
+}
+namespace UnityEngine::UI {
+class Graphic;
 }
 // Forward declare root types
 namespace HMUI {
@@ -58,7 +58,7 @@ MARK_REF_PTR_T(::HMUI::Slider2D);
 // SizeInfo { instance_size: 296, native_size: -1, calculated_instance_size: 296, calculated_native_size: 289, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10278)), TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(13119))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10278)), TypeDefinitionIndex(TypeDefinitionIndex(13119)), TypeDefinitionIndex(TypeDefinitionIndex(10243))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13559))
 // CS Name: ::HMUI::Slider2D*
 class CORDL_TYPE Slider2D : public ::UnityEngine::UI::Selectable {

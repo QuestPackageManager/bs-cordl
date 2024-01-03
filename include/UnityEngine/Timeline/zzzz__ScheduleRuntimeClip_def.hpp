@@ -7,13 +7,13 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(ScheduleRuntimeClip)
 namespace UnityEngine::Playables {
-struct FrameData;
-}
-namespace UnityEngine::Playables {
 struct Playable;
 }
 namespace UnityEngine::Timeline {
 class TimelineClip;
+}
+namespace UnityEngine::Playables {
+struct FrameData;
 }
 // Forward declare root types
 namespace UnityEngine::Timeline {

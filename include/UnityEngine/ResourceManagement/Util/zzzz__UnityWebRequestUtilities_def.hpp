@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 CORDL_MODULE_EXPORT(UnityWebRequestUtilities)
-namespace UnityEngine::Networking {
-class UnityWebRequest;
+namespace UnityEngine::ResourceManagement::Util {
+class UnityWebRequestResult;
 }
 namespace UnityEngine::Networking {
 class UnityWebRequestAsyncOperation;
 }
-namespace UnityEngine::ResourceManagement::Util {
-class UnityWebRequestResult;
+namespace UnityEngine::Networking {
+class UnityWebRequest;
 }
 // Forward declare root types
 namespace UnityEngine::ResourceManagement::Util {

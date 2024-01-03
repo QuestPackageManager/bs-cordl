@@ -4,23 +4,23 @@
 CORDL_MODULE_INIT
 #include "UnityEngine/Playables/zzzz__PlayableAsset_def.hpp"
 CORDL_MODULE_EXPORT(BloomFogParamsAsset)
-namespace UnityEngine {
-class GameObject;
-}
 namespace UnityEngine::Playables {
 struct Playable;
-}
-namespace GlobalNamespace {
-class BloomFogParamsBehaviour;
-}
-namespace UnityEngine::Playables {
-struct PlayableGraph;
 }
 namespace UnityEngine::Timeline {
 struct ClipCaps;
 }
+namespace GlobalNamespace {
+class BloomFogParamsBehaviour;
+}
 namespace UnityEngine::Timeline {
 class ITimelineClipAsset;
+}
+namespace UnityEngine {
+class GameObject;
+}
+namespace UnityEngine::Playables {
+struct PlayableGraph;
 }
 // Forward declare root types
 namespace GlobalNamespace {

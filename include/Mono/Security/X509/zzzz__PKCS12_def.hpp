@@ -8,11 +8,35 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(PKCS12)
-namespace System::Security::Cryptography {
-class SymmetricAlgorithm;
+namespace Mono::Security::Cryptography {
+class __PKCS8__PrivateKeyInfo;
 }
 namespace Mono::Security::X509 {
 class __PKCS12__DeriveBytes;
+}
+namespace System::Collections {
+class ArrayList;
+}
+namespace Mono::Security {
+class __PKCS7__ContentInfo;
+}
+namespace Mono::Security {
+class ASN1;
+}
+namespace System::Security::Cryptography {
+struct DSAParameters;
+}
+namespace System::Collections {
+class IDictionary;
+}
+namespace System {
+class Object;
+}
+namespace System::Security::Cryptography {
+class RandomNumberGenerator;
+}
+namespace System::Security::Cryptography {
+class SymmetricAlgorithm;
 }
 namespace Mono::Security::X509 {
 class X509Certificate;
@@ -25,30 +49,6 @@ class X509CertificateCollection;
 }
 namespace Mono::Security {
 class __PKCS7__EncryptedData;
-}
-namespace System::Collections {
-class ArrayList;
-}
-namespace System::Security::Cryptography {
-struct DSAParameters;
-}
-namespace System::Security::Cryptography {
-class RandomNumberGenerator;
-}
-namespace Mono::Security::Cryptography {
-class __PKCS8__PrivateKeyInfo;
-}
-namespace System::Collections {
-class IDictionary;
-}
-namespace Mono::Security {
-class ASN1;
-}
-namespace Mono::Security {
-class __PKCS7__ContentInfo;
-}
-namespace System {
-class Object;
 }
 // Forward declare root types
 namespace Mono::Security::X509 {

@@ -9,17 +9,17 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(HEU_InputMeshUtility)
+namespace HoudiniEngineUnity {
+struct HAPI_PartInfo;
+}
+namespace UnityEngine {
+struct Vector3;
+}
 namespace UnityEngine {
 class Mesh;
 }
 namespace UnityEngine {
 struct Vector3Int;
-}
-namespace UnityEngine {
-struct Vector3;
-}
-namespace HoudiniEngineUnity {
-struct HAPI_PartInfo;
 }
 namespace HoudiniEngineUnity {
 class HEU_SessionBase;

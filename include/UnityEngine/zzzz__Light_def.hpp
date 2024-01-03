@@ -8,19 +8,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Light)
 namespace UnityEngine {
-struct LightBakingOutput;
-}
-namespace UnityEngine {
-struct Color;
-}
-namespace UnityEngine {
-class Texture;
+struct LightType;
 }
 namespace UnityEngine {
 struct LightShadows;
 }
 namespace UnityEngine {
-struct LightType;
+class Texture;
+}
+namespace UnityEngine {
+struct Color;
+}
+namespace UnityEngine {
+struct LightBakingOutput;
 }
 // Forward declare root types
 namespace UnityEngine {

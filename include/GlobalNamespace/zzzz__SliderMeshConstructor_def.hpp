@@ -6,20 +6,20 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(SliderMeshConstructor)
-namespace GlobalNamespace {
-class VertexPath;
+namespace UnityEngine {
+class Mesh;
 }
 namespace UnityEngine {
 struct Vector2;
 }
 namespace UnityEngine {
-class Mesh;
+class MeshFilter;
 }
 namespace UnityEngine {
 struct Vector3;
 }
-namespace UnityEngine {
-class MeshFilter;
+namespace GlobalNamespace {
+class VertexPath;
 }
 // Forward declare root types
 namespace GlobalNamespace {

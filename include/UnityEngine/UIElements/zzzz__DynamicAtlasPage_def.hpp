@@ -10,38 +10,38 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(DynamicAtlasPage)
+namespace UnityEngine {
+class RenderTexture;
+}
+namespace UnityEngine::UIElements::UIR {
+struct __Allocator2D__Alloc2D;
+}
+namespace UnityEngine::UIElements {
+struct TextureId;
+}
+namespace UnityEngine::UIElements::UIR {
+class Allocator2D;
+}
+namespace UnityEngine {
+class Texture2D;
+}
 namespace System {
 class IDisposable;
+}
+namespace UnityEngine {
+struct RenderTextureFormat;
 }
 namespace UnityEngine {
 struct FilterMode;
 }
 namespace UnityEngine {
-class RenderTexture;
-}
-namespace UnityEngine::UIElements::UIR {
-class Allocator2D;
-}
-namespace UnityEngine::UIElements::UIR {
-class TextureBlitter;
-}
-namespace UnityEngine::UIElements::UIR {
-struct __Allocator2D__Alloc2D;
+struct Vector2Int;
 }
 namespace UnityEngine {
 struct RectInt;
 }
-namespace UnityEngine {
-class Texture2D;
-}
-namespace UnityEngine {
-struct RenderTextureFormat;
-}
-namespace UnityEngine::UIElements {
-struct TextureId;
-}
-namespace UnityEngine {
-struct Vector2Int;
+namespace UnityEngine::UIElements::UIR {
+class TextureBlitter;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -53,8 +53,8 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::DynamicAtlasPage);
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 89, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10113)), TypeDefinitionIndex(TypeDefinitionIndex(10244)),
-// TypeDefinitionIndex(TypeDefinitionIndex(7339)), TypeDefinitionIndex(TypeDefinitionIndex(10117))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7342)) CS Name:
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(7339)), TypeDefinitionIndex(TypeDefinitionIndex(10113)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10117)), TypeDefinitionIndex(TypeDefinitionIndex(10244))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7342)) CS Name:
 // ::UnityEngine.UIElements::DynamicAtlasPage*
 class CORDL_TYPE DynamicAtlasPage : public ::System::Object {
 public:

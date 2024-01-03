@@ -4,8 +4,8 @@
 #include "GlobalNamespace/zzzz__NamedPresetsSO_impl.hpp"
 #include "UnityEngine/zzzz__LayerMask_impl.hpp"
 #include "GlobalNamespace/zzzz__MirrorRendererGraphicsSettingsPresets_def.hpp"
-#include "GlobalNamespace/zzzz__MirrorRendererGraphicsSettingsPresets_def.hpp"
 #include "GlobalNamespace/zzzz__NamedPreset_def.hpp"
+#include "GlobalNamespace/zzzz__MirrorRendererGraphicsSettingsPresets_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::GlobalNamespace::__MirrorRendererGraphicsSettingsPresets__Preset__MirrorType::__MirrorRendererGraphicsSettingsPresets__Preset__MirrorType(int32_t value__) noexcept {
   this->value__ = value__;

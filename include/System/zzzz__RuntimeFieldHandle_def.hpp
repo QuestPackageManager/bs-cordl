@@ -7,17 +7,14 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(RuntimeFieldHandle)
-namespace System::Reflection {
-class FieldInfo;
+namespace System::Runtime::Serialization {
+struct StreamingContext;
 }
 namespace System {
-class Object;
+class RuntimeType;
 }
 namespace System::Runtime::Serialization {
 class SerializationInfo;
-}
-namespace System::Runtime::Serialization {
-struct StreamingContext;
 }
 namespace System::Reflection {
 struct FieldAttributes;
@@ -25,11 +22,14 @@ struct FieldAttributes;
 namespace System::Reflection {
 class RuntimeFieldInfo;
 }
+namespace System {
+class Object;
+}
 namespace System::Runtime::Serialization {
 class ISerializable;
 }
-namespace System {
-class RuntimeType;
+namespace System::Reflection {
+class FieldInfo;
 }
 // Forward declare root types
 namespace System {

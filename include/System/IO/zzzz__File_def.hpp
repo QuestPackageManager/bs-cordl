@@ -10,38 +10,38 @@ CORDL_MODULE_EXPORT(File)
 namespace System::Text {
 class Encoding;
 }
-namespace System::Security::AccessControl {
-struct AccessControlSections;
-}
 namespace System::IO {
 struct FileAccess;
 }
-namespace System::IO {
-class StreamReader;
-}
-namespace System::IO {
-class StreamWriter;
-}
-namespace System::IO {
-struct FileShare;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
 }
 namespace System::IO {
 class FileStream;
 }
 namespace System::IO {
-struct FileMode;
+struct FileShare;
 }
 namespace System::IO {
-struct FileAttributes;
+class TextWriter;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
+namespace System::Security::AccessControl {
+struct AccessControlSections;
 }
 namespace System::Security::AccessControl {
 class FileSecurity;
 }
 namespace System::IO {
-class TextWriter;
+class StreamReader;
+}
+namespace System::IO {
+struct FileAttributes;
+}
+namespace System::IO {
+struct FileMode;
+}
+namespace System::IO {
+class StreamWriter;
 }
 // Forward declare root types
 namespace System::IO {

@@ -8,16 +8,16 @@ namespace GlobalNamespace {
 class IConnectedPlayer;
 }
 namespace GlobalNamespace {
-class BeatmapObjectManager;
+class IMultiplayerSessionManager;
 }
 namespace GlobalNamespace {
-class VFXController;
+class BeatmapObjectManager;
 }
 namespace System {
 class Action;
 }
 namespace GlobalNamespace {
-class IMultiplayerSessionManager;
+class VFXController;
 }
 // Forward declare root types
 namespace GlobalNamespace {

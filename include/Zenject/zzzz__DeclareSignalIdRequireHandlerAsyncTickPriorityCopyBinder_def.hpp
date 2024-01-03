@@ -5,13 +5,13 @@ CORDL_MODULE_INIT
 #include "Zenject/zzzz__DeclareSignalRequireHandlerAsyncTickPriorityCopyBinder_def.hpp"
 CORDL_MODULE_EXPORT(DeclareSignalIdRequireHandlerAsyncTickPriorityCopyBinder)
 namespace Zenject {
-class DeclareSignalRequireHandlerAsyncTickPriorityCopyBinder;
-}
-namespace Zenject {
 class SignalDeclarationBindInfo;
 }
 namespace System {
 class Object;
+}
+namespace Zenject {
+class DeclareSignalRequireHandlerAsyncTickPriorityCopyBinder;
 }
 // Forward declare root types
 namespace Zenject {

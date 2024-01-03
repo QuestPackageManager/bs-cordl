@@ -9,23 +9,23 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Face)
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
+namespace UnityEngine::ProBuilder {
+struct Edge;
 }
 namespace UnityEngine::ProBuilder {
 struct AutoUnwrapSettings;
 }
-namespace System::Collections::ObjectModel {
-template <typename T> class ReadOnlyCollection_1;
-}
 namespace UnityEngine {
 class Material;
 }
-namespace UnityEngine::ProBuilder {
-struct Edge;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
+}
+namespace System::Collections::ObjectModel {
+template <typename T> class ReadOnlyCollection_1;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder {
@@ -37,7 +37,7 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::Face);
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12100))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12100)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12124))
 // CS Name: ::UnityEngine.ProBuilder::Face*
 class CORDL_TYPE Face : public ::System::Object {

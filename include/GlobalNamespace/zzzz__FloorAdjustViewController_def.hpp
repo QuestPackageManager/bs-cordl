@@ -8,14 +8,14 @@ CORDL_MODULE_EXPORT(FloorAdjustViewController)
 namespace GlobalNamespace {
 class Vector3SO;
 }
+namespace TMPro {
+class TextMeshProUGUI;
+}
 namespace GlobalNamespace {
 class IVRPlatformHelper;
 }
 namespace UnityEngine::UI {
 class Button;
-}
-namespace TMPro {
-class TextMeshProUGUI;
 }
 // Forward declare root types
 namespace GlobalNamespace {

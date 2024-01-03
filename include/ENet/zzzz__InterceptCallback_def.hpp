@@ -7,19 +7,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(InterceptCallback)
 namespace System {
-class Object;
+class IAsyncResult;
 }
 namespace ENet {
 struct Address;
 }
 namespace System {
-class IAsyncResult;
-}
-namespace ENet {
-struct Event;
+class Object;
 }
 namespace System {
 class AsyncCallback;
+}
+namespace ENet {
+struct Event;
 }
 // Forward declare root types
 namespace ENet {

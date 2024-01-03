@@ -16,13 +16,10 @@ namespace UnityEngine {
 struct Matrix4x4;
 }
 namespace GlobalNamespace {
-class Parametric3SliceSpriteController;
+class ParametricBoxController;
 }
 namespace GlobalNamespace {
-class BoolSO;
-}
-namespace UnityEngine {
-class AnimationCurve;
+class Parametric3SliceSpriteController;
 }
 namespace UnityEngine {
 class Transform;
@@ -36,11 +33,14 @@ struct __BloomPrePassLight__QuadData;
 namespace UnityEngine {
 struct Color;
 }
+namespace GlobalNamespace {
+class BoolSO;
+}
+namespace UnityEngine {
+class AnimationCurve;
+}
 namespace System {
 class Action;
-}
-namespace GlobalNamespace {
-class ParametricBoxController;
 }
 // Forward declare root types
 namespace GlobalNamespace {

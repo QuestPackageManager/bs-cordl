@@ -15,7 +15,7 @@ MARK_REF_PTR_T(::GlobalNamespace::CameraDepthTextureMode);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10108)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10108))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14354))
 // CS Name: ::CameraDepthTextureMode*
 class CORDL_TYPE CameraDepthTextureMode : public ::UnityEngine::MonoBehaviour {

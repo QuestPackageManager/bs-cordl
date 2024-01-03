@@ -4,14 +4,8 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(ForDeviceEventObservable)
-namespace UnityEngine::InputSystem::Utilities {
-class __ForDeviceEventObservable__ForDevice;
-}
-namespace System {
-template <typename T> class IObservable_1;
-}
-namespace System {
-class IDisposable;
+namespace UnityEngine::InputSystem {
+class InputDevice;
 }
 namespace System {
 class Type;
@@ -19,11 +13,17 @@ class Type;
 namespace UnityEngine::InputSystem::LowLevel {
 struct InputEventPtr;
 }
-namespace UnityEngine::InputSystem {
-class InputDevice;
-}
 namespace System {
 template <typename T> class IObserver_1;
+}
+namespace System {
+class IDisposable;
+}
+namespace UnityEngine::InputSystem::Utilities {
+class __ForDeviceEventObservable__ForDevice;
+}
+namespace System {
+template <typename T> class IObservable_1;
 }
 namespace System {
 class Exception;

@@ -2,12 +2,12 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__ValueDropdownController_1_def.hpp"
-#include "GlobalNamespace/zzzz__ValueDropdownController_1_def.hpp"
-#include "System/zzzz__Action_2_def.hpp"
-#include "HMUI/zzzz__SimpleTextDropdown_def.hpp"
 #include "System/zzzz__Tuple_2_def.hpp"
 #include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
 #include "HMUI/zzzz__DropdownWithTableView_def.hpp"
+#include "GlobalNamespace/zzzz__ValueDropdownController_1_def.hpp"
+#include "System/zzzz__Action_2_def.hpp"
+#include "HMUI/zzzz__SimpleTextDropdown_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
 template <typename T> inline void GlobalNamespace::__ValueDropdownController_1____c<T>::setStaticF___9(::GlobalNamespace::__ValueDropdownController_1____c<T>* value) {
   ::cordl_internals::setStaticField<::GlobalNamespace::__ValueDropdownController_1____c<T>*, "<>9",

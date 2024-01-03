@@ -10,17 +10,14 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(StandardLevelDetailView)
-namespace TMPro {
-class TextMeshProUGUI;
-}
 namespace GlobalNamespace {
 class LevelBar;
 }
 namespace GlobalNamespace {
-class BeatmapDifficultySegmentedControlController;
+class BeatmapCharacteristicSegmentedControlController;
 }
-namespace UnityEngine::UI {
-class Button;
+namespace TMPro {
+class TextMeshProUGUI;
 }
 namespace GlobalNamespace {
 class LevelParamsPanel;
@@ -35,31 +32,34 @@ namespace System {
 template <typename T1, typename T2> class Action_2;
 }
 namespace GlobalNamespace {
-class BeatmapCharacteristicSegmentedControlController;
+class IBeatmapLevel;
+}
+namespace GlobalNamespace {
+class PlayerData;
 }
 namespace GlobalNamespace {
 class BeatmapCharacteristicSO;
 }
 namespace GlobalNamespace {
-class IBeatmapLevel;
-}
-namespace GlobalNamespace {
 struct BeatmapDifficulty;
-}
-namespace HMUI {
-class ToggleBinder;
 }
 namespace UnityEngine::UI {
 class Toggle;
 }
 namespace GlobalNamespace {
-class PlayerData;
+class BeatmapDifficultySegmentedControlController;
 }
-namespace System::Runtime::CompilerServices {
-class IAsyncStateMachine;
+namespace UnityEngine::UI {
+class Button;
+}
+namespace HMUI {
+class ToggleBinder;
 }
 namespace System::Runtime::CompilerServices {
 struct AsyncVoidMethodBuilder;
+}
+namespace System::Runtime::CompilerServices {
+class IAsyncStateMachine;
 }
 namespace System::Runtime::CompilerServices {
 template <typename TResult> struct TaskAwaiter_1;
@@ -81,7 +81,7 @@ MARK_VAL_T(::GlobalNamespace::__StandardLevelDetailView___SetContentForBeatmapDa
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3400)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(4258)),
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4258)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(3400)),
 // GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 886 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(5814)) CS Name:
 // ::StandardLevelDetailView::<SetContentForBeatmapDataAsync>d__34
 struct CORDL_TYPE __StandardLevelDetailView___SetContentForBeatmapDataAsync_d__34 {

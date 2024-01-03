@@ -9,16 +9,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(SecurityIdentifier)
 namespace System {
-class Object;
+class Type;
 }
 namespace System {
 template <typename T> class IComparable_1;
 }
+namespace System {
+class Object;
+}
 namespace System::Security::Principal {
 class IdentityReference;
-}
-namespace System {
-class Type;
 }
 // Forward declare root types
 namespace System::Security::Principal {

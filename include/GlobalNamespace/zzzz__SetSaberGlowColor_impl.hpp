@@ -4,12 +4,12 @@
 #include "UnityEngine/zzzz__Color_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__SetSaberGlowColor_def.hpp"
-#include "GlobalNamespace/zzzz__ColorManager_def.hpp"
-#include "UnityEngine/zzzz__MaterialPropertyBlock_def.hpp"
-#include "GlobalNamespace/zzzz__SetSaberGlowColor_def.hpp"
+#include "GlobalNamespace/zzzz__SaberTypeObject_def.hpp"
 #include "UnityEngine/zzzz__MeshRenderer_def.hpp"
 #include "GlobalNamespace/zzzz__SaberType_def.hpp"
-#include "GlobalNamespace/zzzz__SaberTypeObject_def.hpp"
+#include "GlobalNamespace/zzzz__SetSaberGlowColor_def.hpp"
+#include "GlobalNamespace/zzzz__ColorManager_def.hpp"
+#include "UnityEngine/zzzz__MaterialPropertyBlock_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::__SetSaberGlowColor__PropertyTintColorPair._ctor
 template <>
 

@@ -15,14 +15,14 @@ class __Inertia__Body;
 namespace RootMotion::FinalIK {
 class __OffsetModifier__OffsetLimits;
 }
+namespace RootMotion::FinalIK {
+class IKSolverFullBodyBiped;
+}
 namespace GlobalNamespace {
 class __Inertia__Body__EffectorLink;
 }
 namespace UnityEngine {
 class Transform;
-}
-namespace RootMotion::FinalIK {
-class IKSolverFullBodyBiped;
 }
 // Forward declare root types
 namespace GlobalNamespace {

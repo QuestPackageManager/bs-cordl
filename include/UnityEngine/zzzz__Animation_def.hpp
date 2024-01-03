@@ -13,34 +13,34 @@ namespace UnityEngine {
 struct AnimationCullingType;
 }
 namespace UnityEngine {
-class AnimationState;
-}
-namespace UnityEngine {
-class __Animation__Enumerator;
-}
-namespace UnityEngine {
-struct QueueMode;
-}
-namespace UnityEngine {
-struct WrapMode;
-}
-namespace UnityEngine {
-class AnimationClip;
+struct PlayMode;
 }
 namespace UnityEngine {
 struct Bounds;
 }
 namespace UnityEngine {
-struct PlayMode;
+class AnimationClip;
 }
-namespace System::Collections {
-class IEnumerator;
+namespace UnityEngine {
+class __Animation__Enumerator;
+}
+namespace UnityEngine {
+struct WrapMode;
 }
 namespace System::Collections {
 class IEnumerable;
 }
 namespace UnityEngine {
+class AnimationState;
+}
+namespace UnityEngine {
+struct QueueMode;
+}
+namespace UnityEngine {
 struct AnimationPlayMode;
+}
+namespace System::Collections {
+class IEnumerator;
 }
 namespace System {
 class Object;

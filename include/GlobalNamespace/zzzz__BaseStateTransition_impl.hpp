@@ -1,9 +1,9 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__BaseStateTransition_def.hpp"
-#include "GlobalNamespace/zzzz__SelectableStateController_def.hpp"
-#include "GlobalNamespace/zzzz__BaseTransitionSO_def.hpp"
 #include "Tweening/zzzz__TimeTweeningManager_def.hpp"
+#include "GlobalNamespace/zzzz__BaseTransitionSO_def.hpp"
+#include "GlobalNamespace/zzzz__SelectableStateController_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::BaseStateTransition.get_tweeningManager
 template <>
 

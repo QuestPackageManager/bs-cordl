@@ -1,19 +1,19 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__ColorsOverrideSettingsPanelController_def.hpp"
-#include "GlobalNamespace/zzzz__IAnalyticsModel_def.hpp"
-#include "UnityEngine/zzzz__GameObject_def.hpp"
-#include "GlobalNamespace/zzzz__ColorSchemesSettings_def.hpp"
-#include "HMUI/zzzz__ButtonBinder_def.hpp"
-#include "UnityEngine/UI/zzzz__Button_def.hpp"
 #include "GlobalNamespace/zzzz__IRefreshable_def.hpp"
-#include "GlobalNamespace/zzzz__ColorScheme_def.hpp"
-#include "HMUI/zzzz__DropdownWithTableView_def.hpp"
 #include "UnityEngine/UI/zzzz__Toggle_def.hpp"
 #include "GlobalNamespace/zzzz__ColorSchemeDropdown_def.hpp"
+#include "HMUI/zzzz__ButtonBinder_def.hpp"
+#include "HMUI/zzzz__DropdownWithTableView_def.hpp"
 #include "GlobalNamespace/zzzz__EditColorSchemeController_def.hpp"
+#include "UnityEngine/zzzz__GameObject_def.hpp"
 #include "HMUI/zzzz__ModalView_def.hpp"
+#include "UnityEngine/UI/zzzz__Button_def.hpp"
 #include "HMUI/zzzz__PanelAnimationSO_def.hpp"
+#include "GlobalNamespace/zzzz__IAnalyticsModel_def.hpp"
+#include "GlobalNamespace/zzzz__ColorSchemesSettings_def.hpp"
+#include "GlobalNamespace/zzzz__ColorScheme_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::ColorsOverrideSettingsPanelController.SetData
 template <>
 

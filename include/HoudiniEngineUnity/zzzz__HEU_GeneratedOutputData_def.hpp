@@ -5,20 +5,20 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(HEU_GeneratedOutputData)
-namespace UnityEngine {
-class Collider;
+namespace HoudiniEngineUnity {
+template <typename T> class IEquivable_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace UnityEngine {
+class Material;
+}
+namespace UnityEngine {
 class GameObject;
 }
 namespace UnityEngine {
-class Material;
-}
-namespace HoudiniEngineUnity {
-template <typename T> class IEquivable_1;
+class Collider;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {

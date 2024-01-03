@@ -5,11 +5,11 @@
 #include "LIV/SDK/Unity/zzzz__SDKPriority_impl.hpp"
 #include "LIV/SDK/Unity/zzzz__SDKTransform_impl.hpp"
 #include "LIV/SDK/Unity/zzzz__SDKInputFrame_def.hpp"
+#include "LIV/SDK/Unity/zzzz__SDKPriority_def.hpp"
+#include "LIV/SDK/Unity/zzzz__SDKPose_def.hpp"
 #include "LIV/SDK/Unity/zzzz__SDKTransform_def.hpp"
 #include "LIV/SDK/Unity/zzzz__FEATURES_def.hpp"
-#include "LIV/SDK/Unity/zzzz__SDKPose_def.hpp"
 #include "LIV/SDK/Unity/zzzz__SDKClipPlane_def.hpp"
-#include "LIV/SDK/Unity/zzzz__SDKPriority_def.hpp"
 //  Writing Method size for method: ::LIV::SDK::Unity::SDKInputFrame.get_empty
 template <>
 

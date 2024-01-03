@@ -8,14 +8,14 @@ CORDL_MODULE_EXPORT(IBeatmapObjectSpawnController)
 namespace GlobalNamespace {
 struct NoteLineLayer;
 }
+namespace GlobalNamespace {
+class BeatmapObjectSpawnMovementData;
+}
 namespace UnityEngine {
 struct Vector2;
 }
 namespace System {
 class Action;
-}
-namespace GlobalNamespace {
-class BeatmapObjectSpawnMovementData;
 }
 // Forward declare root types
 namespace GlobalNamespace {

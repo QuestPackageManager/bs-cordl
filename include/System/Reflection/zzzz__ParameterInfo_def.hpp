@@ -8,29 +8,29 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ParameterInfo)
-namespace System::Runtime::Serialization {
-class IObjectReference;
-}
 namespace System::Reflection {
 class MemberInfo;
 }
-namespace System::Reflection {
-class ICustomAttributeProvider;
-}
-namespace System::Runtime::Serialization {
-struct StreamingContext;
+namespace System {
+class Object;
 }
 namespace System::Runtime::InteropServices {
 class _ParameterInfo;
 }
-namespace System {
-class Object;
+namespace System::Runtime::Serialization {
+class IObjectReference;
+}
+namespace System::Reflection {
+class ICustomAttributeProvider;
 }
 namespace System {
 class Type;
 }
 namespace System::Reflection {
 struct ParameterAttributes;
+}
+namespace System::Runtime::Serialization {
+struct StreamingContext;
 }
 // Forward declare root types
 namespace System::Reflection {

@@ -8,31 +8,13 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(FactorySubContainerBinder_2)
 namespace Zenject {
-class BindInfo;
-}
-namespace System {
-class Object;
-}
-namespace Zenject {
-template <typename TParam1, typename TContract> class __FactorySubContainerBinder_2____c__DisplayClass4_0;
+class NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder;
 }
 namespace System {
 template <typename T1, typename T2> class Action_2;
 }
-namespace Zenject {
-class NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder;
-}
-namespace Zenject {
-class DiContainer;
-}
-namespace Zenject {
-template <typename TParam1, typename TContract> class __FactorySubContainerBinder_2____c__DisplayClass1_0;
-}
-namespace Zenject {
-template <typename TParam1, typename TContract> class __FactorySubContainerBinder_2____c__DisplayClass2_0;
-}
-namespace Zenject {
-class ScopeConcreteIdArgConditionCopyNonLazyBinder;
+namespace System {
+class Object;
 }
 namespace Zenject {
 class FactoryBindInfo;
@@ -44,10 +26,28 @@ namespace UnityEngine {
 class Object;
 }
 namespace Zenject {
-class IProvider;
+class DiContainer;
+}
+namespace Zenject {
+class BindInfo;
+}
+namespace Zenject {
+class ScopeConcreteIdArgConditionCopyNonLazyBinder;
+}
+namespace Zenject {
+template <typename TParam1, typename TContract> class __FactorySubContainerBinder_2____c__DisplayClass4_0;
+}
+namespace Zenject {
+template <typename TParam1, typename TContract> class __FactorySubContainerBinder_2____c__DisplayClass1_0;
+}
+namespace Zenject {
+template <typename TParam1, typename TContract> class __FactorySubContainerBinder_2____c__DisplayClass2_0;
 }
 namespace Zenject {
 class SubContainerCreatorBindInfo;
+}
+namespace Zenject {
+class IProvider;
 }
 namespace Zenject {
 class InjectTypeInfo;

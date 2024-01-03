@@ -6,16 +6,16 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(ExtendedProtectionPolicy)
 namespace System::Runtime::Serialization {
-struct StreamingContext;
+class ISerializable;
 }
 namespace System::Runtime::Serialization {
-class ISerializable;
+class SerializationInfo;
 }
 namespace System::Security::Authentication::ExtendedProtection {
 struct PolicyEnforcement;
 }
 namespace System::Runtime::Serialization {
-class SerializationInfo;
+struct StreamingContext;
 }
 // Forward declare root types
 namespace System::Security::Authentication::ExtendedProtection {

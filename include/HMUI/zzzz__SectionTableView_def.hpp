@@ -10,19 +10,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(SectionTableView)
 namespace HMUI {
-class TableCell;
-}
-namespace HMUI {
-struct __SectionTableView__Section;
+class __TableView__IDataSource;
 }
 namespace System {
 template <typename T1, typename T2> class Action_2;
 }
-namespace System {
-template <typename T1, typename T2, typename T3> class Action_3;
+namespace HMUI {
+struct __TableView__ScrollPositionType;
 }
 namespace HMUI {
-class __TableView__IDataSource;
+class TableCell;
 }
 namespace HMUI {
 class __SectionTableView__IDataSource;
@@ -30,8 +27,11 @@ class __SectionTableView__IDataSource;
 namespace HMUI {
 class TableView;
 }
+namespace System {
+template <typename T1, typename T2, typename T3> class Action_3;
+}
 namespace HMUI {
-struct __TableView__ScrollPositionType;
+struct __SectionTableView__Section;
 }
 // Forward declare root types
 namespace HMUI {

@@ -8,17 +8,26 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ReflectPropertyDescriptor)
+namespace System {
+class Attribute;
+}
 namespace System::ComponentModel {
 class IExtenderProvider;
 }
-namespace System::ComponentModel {
-class PropertyDescriptor;
-}
-namespace System {
-class Object;
+namespace System::Reflection {
+class PropertyInfo;
 }
 namespace System::Reflection {
 class MethodInfo;
+}
+namespace System::Diagnostics {
+class TraceSwitch;
+}
+namespace System {
+class Type;
+}
+namespace System::ComponentModel {
+class PropertyDescriptor;
 }
 namespace System::Collections {
 class IList;
@@ -26,20 +35,11 @@ class IList;
 namespace System {
 class EventArgs;
 }
-namespace System::Diagnostics {
-class TraceSwitch;
-}
 namespace System {
-class Attribute;
+class Object;
 }
 namespace System::ComponentModel {
 class EventDescriptor;
-}
-namespace System {
-class Type;
-}
-namespace System::Reflection {
-class PropertyInfo;
 }
 // Forward declare root types
 namespace System::ComponentModel {
@@ -51,7 +51,7 @@ MARK_REF_PTR_T(::System::ComponentModel::ReflectPropertyDescriptor);
 // SizeInfo { instance_size: 224, native_size: -1, calculated_instance_size: 224, calculated_native_size: 224, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::ComponentModel {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9507)), TypeDefinitionIndex(TypeDefinitionIndex(9444))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9444)), TypeDefinitionIndex(TypeDefinitionIndex(9507))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9475))
 // CS Name: ::System.ComponentModel::ReflectPropertyDescriptor*
 class CORDL_TYPE ReflectPropertyDescriptor : public ::System::ComponentModel::PropertyDescriptor {

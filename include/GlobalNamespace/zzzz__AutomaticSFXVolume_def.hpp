@@ -9,13 +9,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(AutomaticSFXVolume)
 namespace GlobalNamespace {
-class __AutomaticSFXVolume__InitData;
+class AudioManagerSO;
 }
 namespace GlobalNamespace {
 class AutomaticSFXVolumeParamsSO;
 }
 namespace GlobalNamespace {
-class AudioManagerSO;
+class __AutomaticSFXVolume__InitData;
 }
 // Forward declare root types
 namespace GlobalNamespace {

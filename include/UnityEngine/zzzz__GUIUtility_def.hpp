@@ -15,40 +15,40 @@ namespace UnityEngine {
 struct FocusType;
 }
 namespace System {
-template <typename TResult> class Func_1;
+template <typename T1, typename T2, typename TResult> class Func_3;
+}
+namespace UnityEngine {
+class ObjectGUIState;
 }
 namespace UnityEngine {
 struct Vector2;
 }
 namespace System {
-class Object;
-}
-namespace System {
-template <typename T1, typename T2, typename TResult> class Func_3;
-}
-namespace System {
 template <typename T, typename TResult> class Func_2;
-}
-namespace UnityEngine {
-class GUISkin;
-}
-namespace System {
-class Action;
-}
-namespace UnityEngine {
-class ScriptableObject;
 }
 namespace UnityEngine {
 struct Rect;
 }
+namespace System {
+class Action;
+}
+namespace System {
+class Object;
+}
+namespace System {
+template <typename TResult> class Func_1;
+}
 namespace UnityEngine {
-class ObjectGUIState;
+class GUISkin;
 }
 namespace UnityEngine {
 class Event;
 }
 namespace System {
 class Exception;
+}
+namespace UnityEngine {
+class ScriptableObject;
 }
 // Forward declare root types
 namespace UnityEngine {

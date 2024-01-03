@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(HeadObstacleLowPassAudioEffect)
 namespace GlobalNamespace {
-class PlayerHeadAndObstacleInteraction;
+class MainAudioEffects;
 }
 namespace GlobalNamespace {
-class MainAudioEffects;
+class PlayerHeadAndObstacleInteraction;
 }
 // Forward declare root types
 namespace GlobalNamespace {

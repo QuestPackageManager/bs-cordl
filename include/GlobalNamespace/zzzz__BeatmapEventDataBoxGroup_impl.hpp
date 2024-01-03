@@ -1,18 +1,18 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatmapEventDataBoxGroup_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapEventDataBoxGroup_def.hpp"
-#include "System/zzzz__ValueTuple_3_def.hpp"
 #include "System/Collections/Generic/zzzz__IReadOnlyDictionary_2_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapData_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapEventDataBox_def.hpp"
-#include "System/zzzz__Type_def.hpp"
-#include "System/zzzz__IComparable_1_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapEventData_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapData_def.hpp"
+#include "GlobalNamespace/zzzz__IBeatToTimeConvertor_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapEventDataBox_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "System/Collections/Generic/zzzz__IReadOnlyCollection_1_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "GlobalNamespace/zzzz__IBeatToTimeConvertor_def.hpp"
+#include "System/zzzz__Type_def.hpp"
+#include "System/zzzz__ValueTuple_3_def.hpp"
+#include "System/zzzz__IComparable_1_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapEventDataBoxGroup_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::__BeatmapEventDataBoxGroup__ElementData.get_next
 template <>
 

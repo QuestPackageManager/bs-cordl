@@ -3,8 +3,8 @@
 #include "GlobalNamespace/zzzz__OVRHaptics_def.hpp"
 #include "GlobalNamespace/zzzz__OVRHaptics_def.hpp"
 #include "GlobalNamespace/zzzz__OVRHapticsClip_def.hpp"
-#include "GlobalNamespace/zzzz__OVRNativeBuffer_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "GlobalNamespace/zzzz__OVRNativeBuffer_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::__OVRHaptics__Config.get_SampleRateHz
 template <>
 

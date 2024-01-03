@@ -10,10 +10,10 @@ namespace UnityEngine {
 class AnimationCurve;
 }
 namespace UnityEngine {
-struct Quaternion;
+struct Keyframe;
 }
 namespace UnityEngine {
-struct Keyframe;
+struct Quaternion;
 }
 // Forward declare root types
 namespace RootMotion {

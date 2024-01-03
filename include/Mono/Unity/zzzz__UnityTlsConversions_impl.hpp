@@ -1,12 +1,13 @@
 #pragma once
+#include "Mono/Security/Interface/zzzz__AlertDescription_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Mono/Unity/zzzz__UnityTlsConversions_def.hpp"
-#include "System/Security/Authentication/zzzz__SslProtocols_def.hpp"
-#include "Mono/Security/Interface/zzzz__AlertDescription_def.hpp"
-#include "System/Net/Security/zzzz__SslPolicyErrors_def.hpp"
-#include "Mono/Unity/zzzz__UnityTls_def.hpp"
-#include "Mono/Security/Interface/zzzz__TlsProtocols_def.hpp"
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509ChainStatusFlags_def.hpp"
+#include "Mono/Security/Interface/zzzz__TlsProtocols_def.hpp"
+#include "System/Net/Security/zzzz__SslPolicyErrors_def.hpp"
+#include "System/Security/Authentication/zzzz__SslProtocols_def.hpp"
+#include "Mono/Unity/zzzz__UnityTls_def.hpp"
+#include "Mono/Security/Interface/zzzz__AlertDescription_def.hpp"
 //  Writing Method size for method: ::Mono::Unity::UnityTlsConversions.GetMinProtocol
 template <>
 

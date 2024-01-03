@@ -10,49 +10,49 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(CultureInfo)
 namespace System::Globalization {
-struct __CultureInfo__Data;
-}
-namespace System {
-class Exception;
+class Calendar;
 }
 namespace System::Globalization {
-class CultureData;
+class TextInfo;
 }
-namespace System {
-class Type;
+namespace System::Globalization {
+class CompareInfo;
 }
 namespace System {
 class IFormatProvider;
 }
 namespace System::Globalization {
-class TextInfo;
+class __CultureInfo__OnCultureInfoChangedDelegate;
+}
+namespace System {
+class Type;
 }
 namespace System {
 class ICloneable;
-}
-namespace System {
-class Object;
-}
-namespace System::Globalization {
-struct CultureTypes;
-}
-namespace System::Globalization {
-class Calendar;
-}
-namespace System::Globalization {
-class DateTimeFormatInfo;
 }
 namespace System::Globalization {
 class NumberFormatInfo;
 }
 namespace System::Globalization {
-class __CultureInfo__OnCultureInfoChangedDelegate;
+class DateTimeFormatInfo;
+}
+namespace System {
+class Object;
+}
+namespace System::Globalization {
+struct __CultureInfo__Data;
+}
+namespace System::Globalization {
+class CultureData;
+}
+namespace System::Globalization {
+struct CultureTypes;
+}
+namespace System {
+class Exception;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace System::Globalization {
-class CompareInfo;
 }
 // Forward declare root types
 namespace System::Globalization {

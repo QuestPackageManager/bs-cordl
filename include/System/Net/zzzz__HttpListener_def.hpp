@@ -7,23 +7,29 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(HttpListener)
+namespace System::Net {
+class AuthenticationSchemeSelector;
+}
+namespace Mono::Security::Interface {
+class MonoTlsSettings;
+}
+namespace System {
+class Object;
+}
 namespace System::Security::Cryptography::X509Certificates {
 class X509Certificate;
 }
+namespace Mono::Security::Interface {
+class MonoTlsProvider;
+}
+namespace System::IO {
+class Stream;
+}
+namespace System::Net::Security {
+class RemoteCertificateValidationCallback;
+}
 namespace System::Collections {
 class Hashtable;
-}
-namespace System::Collections {
-class ArrayList;
-}
-namespace System::Net {
-class ServiceNameStore;
-}
-namespace System {
-class AsyncCallback;
-}
-namespace System::Net {
-class IPAddress;
 }
 namespace System {
 class IAsyncResult;
@@ -32,40 +38,34 @@ namespace System::Net {
 class HttpListenerPrefixCollection;
 }
 namespace System::Net {
+class ServiceNameStore;
+}
+namespace System::Collections {
+class ArrayList;
+}
+namespace System::Net {
+struct AuthenticationSchemes;
+}
+namespace System::Net {
+class IPAddress;
+}
+namespace System {
+class IDisposable;
+}
+namespace System::Net {
 class HttpListenerContext;
 }
 namespace System::Net {
 class HttpConnection;
 }
 namespace System {
-class Object;
+class AsyncCallback;
 }
 namespace System::Security::Authentication::ExtendedProtection {
 class ExtendedProtectionPolicy;
 }
-namespace System {
-class IDisposable;
-}
-namespace System::Net {
-class AuthenticationSchemeSelector;
-}
 namespace System::Net::Security {
 class SslStream;
-}
-namespace System::Net {
-struct AuthenticationSchemes;
-}
-namespace System::Net::Security {
-class RemoteCertificateValidationCallback;
-}
-namespace Mono::Security::Interface {
-class MonoTlsSettings;
-}
-namespace System::IO {
-class Stream;
-}
-namespace Mono::Security::Interface {
-class MonoTlsProvider;
 }
 // Forward declare root types
 namespace System::Net {
@@ -77,7 +77,7 @@ MARK_REF_PTR_T(::System::Net::HttpListener);
 // SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 136, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9056))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9056)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9171))
 // CS Name: ::System.Net::HttpListener*
 class CORDL_TYPE HttpListener : public ::System::Object {

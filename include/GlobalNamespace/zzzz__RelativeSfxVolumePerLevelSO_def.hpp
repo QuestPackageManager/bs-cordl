@@ -23,11 +23,11 @@ class __RelativeSfxVolumePerLevelSO__RelativeSfxVolumePerPackPair____c;
 namespace GlobalNamespace {
 class PreviewBeatmapLevelCollectionSO;
 }
-namespace System {
-template <typename T, typename TResult> class Func_2;
-}
 namespace GlobalNamespace {
 class IPreviewBeatmapLevel;
+}
+namespace System {
+template <typename T, typename TResult> class Func_2;
 }
 // Forward declare root types
 namespace GlobalNamespace {

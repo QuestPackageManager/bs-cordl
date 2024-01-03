@@ -8,9 +8,6 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(AnimationRemoveScalePlayable)
 namespace UnityEngine::Playables {
-struct Playable;
-}
-namespace UnityEngine::Playables {
 struct PlayableHandle;
 }
 namespace UnityEngine::Playables {
@@ -18,6 +15,9 @@ struct PlayableGraph;
 }
 namespace UnityEngine::Playables {
 class IPlayable;
+}
+namespace UnityEngine::Playables {
+struct Playable;
 }
 namespace System {
 template <typename T> class IEquatable_1;

@@ -6,29 +6,29 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(TimeStampTokenGenerator)
-namespace System {
-struct DateTime;
+namespace Org::BouncyCastle::Crypto {
+class AsymmetricKeyParameter;
 }
 namespace Org::BouncyCastle::X509::Store {
 class IX509Store;
 }
-namespace Org::BouncyCastle::X509 {
-class X509Certificate;
-}
 namespace Org::BouncyCastle::Tsp {
 class TimeStampToken;
+}
+namespace Org::BouncyCastle::X509 {
+class X509Certificate;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class GeneralName;
 }
-namespace Org::BouncyCastle::Asn1::Cms {
-class AttributeTable;
-}
 namespace Org::BouncyCastle::Math {
 class BigInteger;
 }
-namespace Org::BouncyCastle::Crypto {
-class AsymmetricKeyParameter;
+namespace System {
+struct DateTime;
+}
+namespace Org::BouncyCastle::Asn1::Cms {
+class AttributeTable;
 }
 namespace Org::BouncyCastle::Tsp {
 class TimeStampRequest;

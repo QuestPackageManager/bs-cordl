@@ -12,17 +12,17 @@ CORDL_MODULE_EXPORT(GrounderFBBIK)
 namespace RootMotion::FinalIK {
 class __Grounding__Leg;
 }
-namespace UnityEngine {
-class Transform;
-}
 namespace RootMotion::FinalIK {
 class FullBodyBipedIK;
 }
 namespace RootMotion::FinalIK {
-class IKEffector;
+class __GrounderFBBIK__SpineEffector;
+}
+namespace UnityEngine {
+class Transform;
 }
 namespace RootMotion::FinalIK {
-class __GrounderFBBIK__SpineEffector;
+class IKEffector;
 }
 namespace RootMotion::FinalIK {
 struct FullBodyBipedEffector;

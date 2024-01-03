@@ -10,10 +10,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(GlyphMarshallingStruct)
 namespace UnityEngine::TextCore {
-struct GlyphClassDefinitionType;
+struct GlyphMetrics;
 }
 namespace UnityEngine::TextCore {
-struct GlyphMetrics;
+struct GlyphClassDefinitionType;
 }
 namespace UnityEngine::TextCore {
 struct GlyphRect;

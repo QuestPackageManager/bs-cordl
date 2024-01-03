@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "OVR/OpenVR/zzzz__OpenVRInterop_def.hpp"
-#include "OVR/OpenVR/zzzz__EVRApplicationType_def.hpp"
 #include "OVR/OpenVR/zzzz__EVRInitError_def.hpp"
+#include "OVR/OpenVR/zzzz__EVRApplicationType_def.hpp"
 //  Writing Method size for method: ::OVR::OpenVR::OpenVRInterop.InitInternal
 template <>
 

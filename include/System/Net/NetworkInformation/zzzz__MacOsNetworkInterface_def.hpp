@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(MacOsNetworkInterface)
 namespace System::Net::NetworkInformation {
-struct OperationalStatus;
+class IPInterfaceProperties;
 }
 namespace System::Net::NetworkInformation {
-class IPInterfaceProperties;
+struct OperationalStatus;
 }
 // Forward declare root types
 namespace System::Net::NetworkInformation {

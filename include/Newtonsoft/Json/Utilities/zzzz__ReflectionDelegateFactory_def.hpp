@@ -7,26 +7,11 @@ CORDL_MODULE_EXPORT(ReflectionDelegateFactory)
 namespace System {
 class Object;
 }
+namespace System {
+class Type;
+}
 namespace System::Reflection {
 class PropertyInfo;
-}
-namespace System::Reflection {
-class FieldInfo;
-}
-namespace System {
-template <typename TResult> class Func_1;
-}
-namespace System::Reflection {
-class MemberInfo;
-}
-namespace System {
-template <typename T, typename TResult> class Func_2;
-}
-namespace System {
-template <typename T1, typename T2> class Action_2;
-}
-namespace System::Reflection {
-class MethodBase;
 }
 namespace Newtonsoft::Json::Utilities {
 template <typename T, typename TResult> class MethodCall_2;
@@ -35,7 +20,22 @@ namespace Newtonsoft::Json::Serialization {
 template <typename T> class ObjectConstructor_1;
 }
 namespace System {
-class Type;
+template <typename TResult> class Func_1;
+}
+namespace System {
+template <typename T, typename TResult> class Func_2;
+}
+namespace System::Reflection {
+class MemberInfo;
+}
+namespace System {
+template <typename T1, typename T2> class Action_2;
+}
+namespace System::Reflection {
+class MethodBase;
+}
+namespace System::Reflection {
+class FieldInfo;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Utilities {

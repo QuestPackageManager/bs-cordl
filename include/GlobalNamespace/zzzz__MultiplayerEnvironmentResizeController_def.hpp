@@ -10,8 +10,8 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(MultiplayerEnvironmentResizeController)
-namespace UnityEngine {
-class Transform;
+namespace GlobalNamespace {
+struct __MultiplayerEnvironmentResizeController__ResizeType;
 }
 namespace GlobalNamespace {
 class MultiplayerCenterResizeController;
@@ -20,13 +20,13 @@ namespace System {
 class Action;
 }
 namespace GlobalNamespace {
-struct __MultiplayerEnvironmentResizeController__ResizeType;
+class BeatmapObjectSpawnCenter;
+}
+namespace UnityEngine {
+class Transform;
 }
 namespace GlobalNamespace {
 class __MultiplayerEnvironmentResizeController__ResizeData;
-}
-namespace GlobalNamespace {
-class BeatmapObjectSpawnCenter;
 }
 namespace GlobalNamespace {
 class TubeBloomPrePassLight;

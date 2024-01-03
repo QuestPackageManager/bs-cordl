@@ -3,8 +3,8 @@
 #include "GlobalNamespace/zzzz__SpriteLightWithId_impl.hpp"
 #include "GlobalNamespace/zzzz__SpriteLightWithId_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
-#include "GlobalNamespace/zzzz__SpriteLightWithId_def.hpp"
 #include "UnityEngine/zzzz__SpriteRenderer_def.hpp"
+#include "GlobalNamespace/zzzz__SpriteLightWithId_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::GlobalNamespace::__SpriteLightWithId__MultiplyColorByAlphaType::__SpriteLightWithId__MultiplyColorByAlphaType(int32_t value__) noexcept {
   this->value__ = value__;

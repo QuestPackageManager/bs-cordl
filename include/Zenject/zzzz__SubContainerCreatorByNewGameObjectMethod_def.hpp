@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include "Zenject/zzzz__SubContainerCreatorByNewGameObjectDynamicContext_def.hpp"
 CORDL_MODULE_EXPORT(SubContainerCreatorByNewGameObjectMethod)
-namespace Zenject {
-class GameObjectContext;
+namespace System {
+template <typename T> class Action_1;
 }
 namespace Zenject {
-struct TypeValuePair;
+class GameObjectContext;
 }
 namespace Zenject {
 class GameObjectCreationParameters;
@@ -16,11 +16,11 @@ class GameObjectCreationParameters;
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
-namespace System {
-template <typename T> class Action_1;
-}
 namespace Zenject {
 class DiContainer;
+}
+namespace Zenject {
+struct TypeValuePair;
 }
 // Forward declare root types
 namespace Zenject {

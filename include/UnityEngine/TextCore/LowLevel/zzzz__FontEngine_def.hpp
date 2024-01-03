@@ -8,47 +8,47 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(FontEngine)
-namespace UnityEngine::TextCore::LowLevel {
-struct GlyphPackingMode;
-}
-namespace UnityEngine::TextCore {
-class Glyph;
-}
-namespace UnityEngine::TextCore::LowLevel {
-struct GlyphLoadFlags;
-}
-namespace UnityEngine::TextCore::LowLevel {
-struct FontEngineError;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace UnityEngine::TextCore::LowLevel {
-struct GlyphMarshallingStruct;
-}
-namespace UnityEngine::TextCore::LowLevel {
-struct GlyphPairAdjustmentRecord;
-}
-namespace UnityEngine::TextCore::LowLevel {
-struct FontReference;
-}
-namespace UnityEngine {
-class Texture2D;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
 namespace UnityEngine::TextCore {
 struct GlyphRect;
-}
-namespace UnityEngine {
-class Font;
 }
 namespace UnityEngine::TextCore {
 struct FaceInfo;
 }
 namespace UnityEngine::TextCore::LowLevel {
+struct FontEngineError;
+}
+namespace UnityEngine::TextCore::LowLevel {
+struct GlyphPairAdjustmentRecord;
+}
+namespace UnityEngine::TextCore::LowLevel {
+struct GlyphLoadFlags;
+}
+namespace UnityEngine::TextCore::LowLevel {
+struct FontReference;
+}
+namespace UnityEngine {
+class Font;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace UnityEngine::TextCore::LowLevel {
 struct GlyphRenderMode;
+}
+namespace UnityEngine::TextCore {
+class Glyph;
+}
+namespace UnityEngine::TextCore::LowLevel {
+struct GlyphMarshallingStruct;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace UnityEngine::TextCore::LowLevel {
+struct GlyphPackingMode;
+}
+namespace UnityEngine {
+class Texture2D;
 }
 // Forward declare root types
 namespace UnityEngine::TextCore::LowLevel {

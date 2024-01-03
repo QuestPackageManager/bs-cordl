@@ -10,6 +10,9 @@ namespace UnityEngine::UIElements {
 class VisualElement;
 }
 namespace UnityEngine::UIElements {
+class Label;
+}
+namespace UnityEngine::UIElements {
 class GeometryChangedEvent;
 }
 namespace UnityEngine::UIElements {
@@ -17,9 +20,6 @@ template <typename T> class INotifyValueChanged_1;
 }
 namespace UnityEngine::UIElements {
 class __AbstractProgressBar__UxmlTraits;
-}
-namespace UnityEngine::UIElements {
-class Label;
 }
 namespace UnityEngine::UIElements {
 class IUxmlAttributes;

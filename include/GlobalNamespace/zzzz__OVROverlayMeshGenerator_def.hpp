@@ -12,41 +12,41 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVROverlayMeshGenerator)
-namespace UnityEngine {
-struct Rect;
-}
-namespace UnityEngine {
-class Mesh;
-}
-namespace UnityEngine {
-class MeshCollider;
-}
 namespace GlobalNamespace {
 struct __OVROverlayMeshGenerator__CubeFace;
-}
-namespace UnityEngine {
-class MeshRenderer;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace UnityEngine {
-class MeshFilter;
 }
 namespace GlobalNamespace {
 class OVROverlay;
 }
 namespace UnityEngine {
-class Transform;
+class MeshRenderer;
+}
+namespace UnityEngine {
+struct Rect;
 }
 namespace UnityEngine {
 struct Quaternion;
 }
 namespace UnityEngine {
-struct Vector2;
+struct Vector3;
 }
 namespace UnityEngine {
-struct Vector3;
+class Transform;
+}
+namespace UnityEngine {
+class MeshFilter;
+}
+namespace UnityEngine {
+class Mesh;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace UnityEngine {
+class MeshCollider;
+}
+namespace UnityEngine {
+struct Vector2;
 }
 namespace GlobalNamespace {
 struct __OVROverlay__OverlayShape;
@@ -138,8 +138,8 @@ static_assert(offsetof(::GlobalNamespace::__OVROverlayMeshGenerator__CubeFace, v
 // SizeInfo { instance_size: 216, native_size: -1, calculated_instance_size: 216, calculated_native_size: 209, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7654)), TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10252)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10165))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7660)) CS Name: ::OVROverlayMeshGenerator*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10252)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10165)), TypeDefinitionIndex(TypeDefinitionIndex(7654))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7660)) CS Name: ::OVROverlayMeshGenerator*
 class CORDL_TYPE OVROverlayMeshGenerator : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations

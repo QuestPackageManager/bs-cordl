@@ -2,8 +2,8 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "VRUIControls/zzzz__MouseState_def.hpp"
 #include "UnityEngine/EventSystems/zzzz__PointerEventData_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "VRUIControls/zzzz__ButtonState_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 //  Writing Method size for method: ::VRUIControls::MouseState.AnyPressesThisFrame
 template <>
 

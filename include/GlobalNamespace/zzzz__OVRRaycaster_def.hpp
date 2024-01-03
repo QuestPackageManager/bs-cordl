@@ -10,46 +10,46 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVRRaycaster)
 namespace UnityEngine::EventSystems {
-class IPointerEnterHandler;
+struct RaycastResult;
 }
 namespace UnityEngine {
-class Camera;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace UnityEngine::EventSystems {
-class IEventSystemHandler;
-}
-namespace UnityEngine {
-class RectTransform;
-}
-namespace UnityEngine {
-struct Vector3;
+class GameObject;
 }
 namespace UnityEngine {
 class Canvas;
 }
 namespace UnityEngine {
-struct Vector2;
-}
-namespace UnityEngine {
-class GameObject;
-}
-namespace UnityEngine::EventSystems {
-struct RaycastResult;
-}
-namespace GlobalNamespace {
-struct __OVRRaycaster__RaycastHit;
+class Camera;
 }
 namespace GlobalNamespace {
 class __OVRRaycaster____c;
+}
+namespace UnityEngine {
+class RectTransform;
+}
+namespace UnityEngine {
+struct Ray;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace UnityEngine::EventSystems {
+class IPointerEnterHandler;
+}
+namespace UnityEngine::EventSystems {
+class IEventSystemHandler;
 }
 namespace UnityEngine::EventSystems {
 class PointerEventData;
 }
 namespace UnityEngine {
-struct Ray;
+struct Vector2;
+}
+namespace GlobalNamespace {
+struct __OVRRaycaster__RaycastHit;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 namespace System {
 template <typename T> class Comparison_1;

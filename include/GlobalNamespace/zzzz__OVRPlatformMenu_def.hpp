@@ -12,14 +12,14 @@ CORDL_MODULE_EXPORT(OVRPlatformMenu)
 namespace System {
 template <typename TResult> class Func_1;
 }
-namespace System::Collections::Generic {
-template <typename T> class Stack_1;
+namespace GlobalNamespace {
+struct __OVRPlatformMenu__eHandler;
 }
 namespace GlobalNamespace {
 struct __OVRPlatformMenu__eBackButtonAction;
 }
-namespace GlobalNamespace {
-struct __OVRPlatformMenu__eHandler;
+namespace System::Collections::Generic {
+template <typename T> class Stack_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {

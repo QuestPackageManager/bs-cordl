@@ -9,22 +9,22 @@ namespace System::Threading {
 class Lock;
 }
 namespace System::Threading::Tasks {
-class Task;
+class UnobservedTaskExceptionEventArgs;
 }
 namespace System::Threading::Tasks {
 class __TaskScheduler__SystemThreadingTasks_TaskSchedulerDebugView;
 }
-namespace System {
-template <typename TEventArgs> class EventHandler_1;
-}
-namespace System {
-class Object;
-}
 namespace System::Runtime::CompilerServices {
 template <typename TKey, typename TValue> class ConditionalWeakTable_2;
 }
+namespace System {
+template <typename TEventArgs> class EventHandler_1;
+}
 namespace System::Threading::Tasks {
-class UnobservedTaskExceptionEventArgs;
+class Task;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::Threading::Tasks {

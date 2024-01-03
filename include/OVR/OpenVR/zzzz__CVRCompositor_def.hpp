@@ -9,41 +9,41 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(CVRCompositor)
-namespace System::Text {
-class StringBuilder;
-}
 namespace OVR::OpenVR {
 struct EVREye;
 }
-namespace OVR::OpenVR {
-struct EVRCompositorTimingMode;
-}
-namespace OVR::OpenVR {
-struct Compositor_FrameTiming;
-}
-namespace OVR::OpenVR {
-struct TrackedDevicePose_t;
-}
-namespace OVR::OpenVR {
-struct EVRSubmitFlags;
-}
-namespace OVR::OpenVR {
-struct Compositor_CumulativeStats;
-}
-namespace OVR::OpenVR {
-struct ETrackingUniverseOrigin;
-}
-namespace OVR::OpenVR {
-struct Texture_t;
+namespace System::Text {
+class StringBuilder;
 }
 namespace OVR::OpenVR {
 struct HmdColor_t;
 }
 namespace OVR::OpenVR {
+struct VRTextureBounds_t;
+}
+namespace OVR::OpenVR {
+struct Compositor_CumulativeStats;
+}
+namespace OVR::OpenVR {
+struct EVRCompositorTimingMode;
+}
+namespace OVR::OpenVR {
+struct Texture_t;
+}
+namespace OVR::OpenVR {
+struct TrackedDevicePose_t;
+}
+namespace OVR::OpenVR {
 struct EVRCompositorError;
 }
 namespace OVR::OpenVR {
-struct VRTextureBounds_t;
+struct Compositor_FrameTiming;
+}
+namespace OVR::OpenVR {
+struct ETrackingUniverseOrigin;
+}
+namespace OVR::OpenVR {
+struct EVRSubmitFlags;
 }
 // Forward declare root types
 namespace OVR::OpenVR {
@@ -55,7 +55,7 @@ MARK_REF_PTR_T(::OVR::OpenVR::CVRCompositor);
 // SizeInfo { instance_size: 360, native_size: -1, calculated_instance_size: 360, calculated_native_size: 360, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8387))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8387)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8564))
 // CS Name: ::OVR.OpenVR::CVRCompositor*
 class CORDL_TYPE CVRCompositor : public ::System::Object {

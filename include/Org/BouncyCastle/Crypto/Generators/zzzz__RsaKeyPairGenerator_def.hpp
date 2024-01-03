@@ -7,19 +7,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(RsaKeyPairGenerator)
 namespace Org::BouncyCastle::Crypto {
-class AsymmetricCipherKeyPair;
-}
-namespace Org::BouncyCastle::Crypto {
-class KeyGenerationParameters;
+class IAsymmetricCipherKeyPairGenerator;
 }
 namespace Org::BouncyCastle::Crypto::Parameters {
 class RsaKeyGenerationParameters;
+}
+namespace Org::BouncyCastle::Crypto {
+class KeyGenerationParameters;
 }
 namespace Org::BouncyCastle::Math {
 class BigInteger;
 }
 namespace Org::BouncyCastle::Crypto {
-class IAsymmetricCipherKeyPairGenerator;
+class AsymmetricCipherKeyPair;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Generators {

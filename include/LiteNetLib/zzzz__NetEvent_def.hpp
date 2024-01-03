@@ -10,26 +10,26 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(NetEvent)
-namespace LiteNetLib {
-class NetPacketReader;
-}
-namespace LiteNetLib {
-class NetManager;
-}
 namespace System::Net {
 class IPEndPoint;
 }
 namespace LiteNetLib {
-struct __NetEvent__EType;
-}
-namespace System {
-class Object;
+class NetPeer;
 }
 namespace LiteNetLib {
 class ConnectionRequest;
 }
 namespace LiteNetLib {
-class NetPeer;
+class NetManager;
+}
+namespace LiteNetLib {
+class NetPacketReader;
+}
+namespace System {
+class Object;
+}
+namespace LiteNetLib {
+struct __NetEvent__EType;
 }
 // Forward declare root types
 namespace LiteNetLib {
@@ -123,8 +123,8 @@ static_assert(offsetof(::LiteNetLib::__NetEvent__EType, value__) == 0x0, "Offset
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace LiteNetLib {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14163)), TypeDefinitionIndex(TypeDefinitionIndex(14155)), TypeDefinitionIndex(TypeDefinitionIndex(2613)),
-// TypeDefinitionIndex(TypeDefinitionIndex(9347)), TypeDefinitionIndex(TypeDefinitionIndex(14131))} Self: TypeDefinitionIndex(TypeDefinitionIndex(14164)) CS Name: ::LiteNetLib::NetEvent*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(14163)), TypeDefinitionIndex(TypeDefinitionIndex(14131)),
+// TypeDefinitionIndex(TypeDefinitionIndex(9347)), TypeDefinitionIndex(TypeDefinitionIndex(14155))} Self: TypeDefinitionIndex(TypeDefinitionIndex(14164)) CS Name: ::LiteNetLib::NetEvent*
 class CORDL_TYPE NetEvent : public ::System::Object {
 public:
   // Declarations

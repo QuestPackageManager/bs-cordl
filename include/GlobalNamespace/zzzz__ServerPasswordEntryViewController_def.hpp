@@ -11,11 +11,11 @@ class UIKeyboard;
 namespace GlobalNamespace {
 class INetworkPlayer;
 }
-namespace System {
-template <typename T1, typename T2> class Action_2;
-}
 namespace HMUI {
 class InputFieldView;
+}
+namespace System {
+template <typename T1, typename T2> class Action_2;
 }
 // Forward declare root types
 namespace GlobalNamespace {

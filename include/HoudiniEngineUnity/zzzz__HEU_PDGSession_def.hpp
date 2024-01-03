@@ -11,7 +11,22 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(HEU_PDGSession)
 namespace HoudiniEngineUnity {
-class HEU_TOPNetworkData;
+struct __HEU_PDGSession__EventMessageColor;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace HoudiniEngineUnity {
+struct HAPI_PDG_EventInfo;
+}
+namespace HoudiniEngineUnity {
+struct __HEU_TOPNodeData__PDGState;
+}
+namespace HoudiniEngineUnity {
+class HEU_TOPNodeData;
+}
+namespace HoudiniEngineUnity {
+class HEU_PDGAssetLink;
 }
 namespace System::Text {
 class StringBuilder;
@@ -20,22 +35,7 @@ namespace HoudiniEngineUnity {
 class HEU_SessionBase;
 }
 namespace HoudiniEngineUnity {
-struct __HEU_PDGSession__EventMessageColor;
-}
-namespace HoudiniEngineUnity {
-class HEU_PDGAssetLink;
-}
-namespace HoudiniEngineUnity {
-class HEU_TOPNodeData;
-}
-namespace HoudiniEngineUnity {
-struct __HEU_TOPNodeData__PDGState;
-}
-namespace HoudiniEngineUnity {
-struct HAPI_PDG_EventInfo;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+class HEU_TOPNetworkData;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {

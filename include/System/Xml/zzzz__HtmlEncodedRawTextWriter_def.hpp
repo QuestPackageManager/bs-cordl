@@ -12,17 +12,17 @@ CORDL_MODULE_EXPORT(HtmlEncodedRawTextWriter)
 namespace System::Xml {
 class XmlWriterSettings;
 }
-namespace System::Xml {
-struct XmlStandalone;
-}
 namespace System::IO {
 class Stream;
+}
+namespace System::IO {
+class TextWriter;
 }
 namespace System::Xml {
 class ByteStack;
 }
-namespace System::IO {
-class TextWriter;
+namespace System::Xml {
+struct XmlStandalone;
 }
 namespace System::Xml {
 class TernaryTreeReadOnly;
@@ -37,7 +37,7 @@ MARK_REF_PTR_T(::System::Xml::HtmlEncodedRawTextWriter);
 // SizeInfo { instance_size: 232, native_size: -1, calculated_instance_size: 232, calculated_native_size: 225, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11437)), TypeDefinitionIndex(TypeDefinitionIndex(11449)), TypeDefinitionIndex(TypeDefinitionIndex(11438))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11437)), TypeDefinitionIndex(TypeDefinitionIndex(11438)), TypeDefinitionIndex(TypeDefinitionIndex(11449))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11416))
 // CS Name: ::System.Xml::HtmlEncodedRawTextWriter*
 class CORDL_TYPE HtmlEncodedRawTextWriter : public ::System::Xml::XmlEncodedRawTextWriter {

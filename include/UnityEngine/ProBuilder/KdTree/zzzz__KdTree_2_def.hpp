@@ -9,6 +9,24 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(KdTree_2)
+namespace System::Collections {
+class IEnumerator;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
+namespace UnityEngine::ProBuilder::KdTree {
+template <typename TKey, typename TValue> class IKdTree_2;
+}
+namespace System::Collections {
+class IEnumerable;
+}
+namespace UnityEngine::ProBuilder::KdTree {
+template <typename TKey, typename TValue> class __KdTree_2____c__DisplayClass33_0;
+}
+namespace UnityEngine::ProBuilder::KdTree {
+template <typename T> class ITypeMath_1;
+}
 namespace System::Text {
 class StringBuilder;
 }
@@ -16,40 +34,22 @@ namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace UnityEngine::ProBuilder::KdTree {
+template <typename TKey, typename TValue> class __KdTree_2___GetEnumerator_d__33;
+}
+namespace UnityEngine::ProBuilder::KdTree {
 template <typename TItem, typename TDistance> class NearestNeighbourList_2;
-}
-namespace UnityEngine::ProBuilder::KdTree {
-struct AddDuplicateBehavior;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
-}
-namespace System::Collections {
-class IEnumerator;
-}
-namespace UnityEngine::ProBuilder::KdTree {
-template <typename T> class ITypeMath_1;
-}
-namespace UnityEngine::ProBuilder::KdTree {
-template <typename TKey, typename TValue> class IKdTree_2;
 }
 namespace UnityEngine::ProBuilder::KdTree {
 template <typename TKey, typename TValue> class KdTreeNode_2;
 }
 namespace UnityEngine::ProBuilder::KdTree {
-template <typename TKey, typename TValue> class __KdTree_2____c__DisplayClass33_0;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
-namespace UnityEngine::ProBuilder::KdTree {
-template <typename TKey, typename TValue> class __KdTree_2___GetEnumerator_d__33;
-}
-namespace System::Collections {
-class IEnumerable;
+struct AddDuplicateBehavior;
 }
 namespace UnityEngine::ProBuilder::KdTree {
 template <typename T> struct HyperRect_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
 }
 namespace System {
 template <typename T> class Action_1;

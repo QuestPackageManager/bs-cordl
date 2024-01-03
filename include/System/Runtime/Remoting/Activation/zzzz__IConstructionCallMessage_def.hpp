@@ -8,20 +8,20 @@ CORDL_MODULE_EXPORT(IConstructionCallMessage)
 namespace System::Runtime::Remoting::Messaging {
 class IMethodMessage;
 }
-namespace System::Runtime::Remoting::Activation {
-class IActivator;
+namespace System {
+class Object;
 }
 namespace System {
 class Type;
 }
-namespace System::Collections {
-class IList;
-}
 namespace System::Runtime::Remoting::Messaging {
 class IMessage;
 }
-namespace System {
-class Object;
+namespace System::Runtime::Remoting::Activation {
+class IActivator;
+}
+namespace System::Collections {
+class IList;
 }
 namespace System::Runtime::Remoting::Messaging {
 class IMethodCallMessage;

@@ -2,32 +2,27 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/zzzz__Nullable_1_def.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__InputStateHistory_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(InputStateHistory_1)
-namespace System::Collections::Generic {
-template <typename T> class IReadOnlyList_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class IReadOnlyCollection_1;
-}
 namespace UnityEngine::InputSystem::LowLevel {
 template <typename TValue> struct __InputStateHistory_1__Record;
 }
 namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
+template <typename T> class IEnumerable_1;
 }
 namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
+template <typename T> class IEnumerator_1;
 }
 namespace System::Collections {
 class IEnumerator;
 }
-namespace System {
-template <typename T> struct Nullable_1;
+namespace System::Collections::Generic {
+template <typename T> class IReadOnlyCollection_1;
 }
 namespace System::Collections {
 class IEnumerable;
@@ -38,17 +33,20 @@ template <typename TValue> class InputControl_1;
 namespace UnityEngine::InputSystem::LowLevel {
 template <typename TValue> struct __InputStateHistory_1__Enumerator;
 }
+namespace System::Collections::Generic {
+template <typename T> class IReadOnlyList_1;
+}
 namespace System {
 class Object;
 }
 namespace System {
 class IDisposable;
 }
-namespace System {
-template <typename T> class IEquatable_1;
-}
 namespace UnityEngine::InputSystem::LowLevel {
 struct __InputStateHistory__RecordHeader;
+}
+namespace System {
+template <typename T> class IEquatable_1;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::LowLevel {
@@ -258,9 +256,8 @@ namespace UnityEngine::InputSystem::LowLevel {
 // cpp template
 template <typename TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6574))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6577))
-// CS Name: ::UnityEngine.InputSystem.LowLevel::InputStateHistory`1<TValue>*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6574)), TypeDefinitionIndex(TypeDefinitionIndex(2448)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 98
+// })} Self: TypeDefinitionIndex(TypeDefinitionIndex(6577)) CS Name: ::UnityEngine.InputSystem.LowLevel::InputStateHistory`1<TValue>*
 class CORDL_TYPE InputStateHistory_1 : public ::UnityEngine::InputSystem::LowLevel::InputStateHistory {
 public:
   // Declarations

@@ -13,16 +13,16 @@ namespace UnityEngine {
 class IExposedPropertyTable;
 }
 namespace UnityEngine::Playables {
-struct PlayableOutputHandle;
-}
-namespace UnityEngine::Playables {
-struct FrameRate;
+struct PlayableHandle;
 }
 namespace UnityEngine::Playables {
 struct Playable;
 }
 namespace UnityEngine::Playables {
-struct PlayableHandle;
+struct PlayableOutputHandle;
+}
+namespace UnityEngine::Playables {
+struct FrameRate;
 }
 // Forward declare root types
 namespace UnityEngine::Playables {

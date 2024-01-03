@@ -6,6 +6,21 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(EnvironmentInfoSO)
 namespace GlobalNamespace {
+class EnvironmentIntensityReductionOptions;
+}
+namespace GlobalNamespace {
+class DefaultEnvironmentEvents;
+}
+namespace BeatmapSaveDataVersion3 {
+class BeatmapLightshowSaveData;
+}
+namespace System::Collections::Generic {
+template <typename T> class IReadOnlyList_1;
+}
+namespace GlobalNamespace {
+class EnvironmentLightGroups;
+}
+namespace GlobalNamespace {
 class EnvironmentTypeSO;
 }
 namespace GlobalNamespace {
@@ -15,25 +30,10 @@ namespace GlobalNamespace {
 class SceneInfo;
 }
 namespace GlobalNamespace {
-class EnvironmentLightGroups;
-}
-namespace System::Collections::Generic {
-template <typename T> class IReadOnlyList_1;
-}
-namespace GlobalNamespace {
-class EnvironmentIntensityReductionOptions;
-}
-namespace GlobalNamespace {
 class EnvironmentSizeData;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
-}
-namespace GlobalNamespace {
-class DefaultEnvironmentEvents;
-}
-namespace BeatmapSaveDataVersion3 {
-class BeatmapLightshowSaveData;
 }
 // Forward declare root types
 namespace GlobalNamespace {

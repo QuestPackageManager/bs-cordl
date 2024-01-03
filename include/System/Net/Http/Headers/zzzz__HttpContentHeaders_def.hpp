@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "System/Net/Http/Headers/zzzz__HttpHeaders_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(HttpContentHeaders)
+namespace System::Net::Http::Headers {
+class MediaTypeHeaderValue;
+}
 namespace System {
 template <typename T> struct Nullable_1;
 }
 namespace System::Net::Http {
 class HttpContent;
-}
-namespace System::Net::Http::Headers {
-class MediaTypeHeaderValue;
 }
 // Forward declare root types
 namespace System::Net::Http::Headers {

@@ -9,74 +9,74 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ObjectReader)
-namespace System::Runtime::Serialization::Formatters::Binary {
-class __ObjectReader__TypeNAssembly;
-}
-namespace System::Runtime::Serialization {
-class ISurrogateSelector;
-}
-namespace System::Runtime::Serialization::Formatters::Binary {
-class SerStack;
-}
-namespace System::Runtime::Serialization {
-class IFormatterConverter;
+namespace System {
+class Type;
 }
 namespace System::Runtime::Serialization::Formatters::Binary {
 class __ObjectReader__TopLevelAssemblyTypeResolver;
 }
-namespace System::IO {
-class Stream;
-}
-namespace System::Runtime::Serialization {
-class ObjectManager;
-}
-namespace System::Runtime::Serialization::Formatters::Binary {
-class ReadObjectInfo;
-}
-namespace System::Reflection {
-class Assembly;
-}
-namespace System::Runtime::Remoting::Messaging {
-class HeaderHandler;
-}
-namespace System::Runtime::Serialization::Formatters::Binary {
-class NameCache;
-}
-namespace System::Runtime::Serialization::Formatters::Binary {
-class SerObjectInfoInit;
-}
-namespace System::Runtime::Serialization::Formatters::Binary {
-class __BinaryParser;
-}
-namespace System::Runtime::Serialization::Formatters::Binary {
-class InternalFE;
-}
-namespace System::Runtime::Serialization::Formatters::Binary {
-class BinaryAssemblyInfo;
-}
-namespace System::Runtime::Remoting::Messaging {
-class Header;
-}
 namespace System::Runtime::Serialization::Formatters::Binary {
 class ParseRecord;
 }
-namespace System {
-class Type;
+namespace System::Reflection {
+class Assembly;
 }
 namespace System {
 class Object;
 }
 namespace System::Runtime::Serialization::Formatters::Binary {
-class IntSizedArray;
+class BinaryAssemblyInfo;
 }
-namespace System::Runtime::Serialization {
-struct StreamingContext;
+namespace System::Runtime::Serialization::Formatters::Binary {
+class InternalFE;
+}
+namespace System::Reflection {
+class AssemblyName;
+}
+namespace System::Runtime::Serialization::Formatters::Binary {
+class __ObjectReader__TypeNAssembly;
 }
 namespace System::Runtime::Serialization {
 class SerializationBinder;
 }
-namespace System::Reflection {
-class AssemblyName;
+namespace System::Runtime::Serialization::Formatters::Binary {
+class SerObjectInfoInit;
+}
+namespace System::Runtime::Remoting::Messaging {
+class HeaderHandler;
+}
+namespace System::Runtime::Serialization {
+class ISurrogateSelector;
+}
+namespace System::Runtime::Serialization::Formatters::Binary {
+class IntSizedArray;
+}
+namespace System::Runtime::Serialization::Formatters::Binary {
+class SerStack;
+}
+namespace System::Runtime::Serialization {
+struct StreamingContext;
+}
+namespace System::Runtime::Remoting::Messaging {
+class Header;
+}
+namespace System::IO {
+class Stream;
+}
+namespace System::Runtime::Serialization {
+class IFormatterConverter;
+}
+namespace System::Runtime::Serialization::Formatters::Binary {
+class __BinaryParser;
+}
+namespace System::Runtime::Serialization {
+class ObjectManager;
+}
+namespace System::Runtime::Serialization::Formatters::Binary {
+class NameCache;
+}
+namespace System::Runtime::Serialization::Formatters::Binary {
+class ReadObjectInfo;
 }
 // Forward declare root types
 namespace System::Runtime::Serialization::Formatters::Binary {

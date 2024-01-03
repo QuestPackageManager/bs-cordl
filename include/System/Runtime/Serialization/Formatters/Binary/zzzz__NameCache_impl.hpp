@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Runtime/Serialization/Formatters/Binary/zzzz__NameCache_def.hpp"
-#include "System/Collections/Concurrent/zzzz__ConcurrentDictionary_2_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "System/Collections/Concurrent/zzzz__ConcurrentDictionary_2_def.hpp"
 //  Writing Method size for method: ::System::Runtime::Serialization::Formatters::Binary::NameCache.GetCachedValue
 template <>
 

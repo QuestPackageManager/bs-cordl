@@ -7,14 +7,14 @@ CORDL_MODULE_EXPORT(PkixCertPathValidator)
 namespace Org::BouncyCastle::Pkix {
 class PkixCertPathValidatorResult;
 }
-namespace Org::BouncyCastle::X509 {
-class X509Certificate;
-}
 namespace Org::BouncyCastle::Pkix {
 class PkixCertPath;
 }
 namespace Org::BouncyCastle::Pkix {
 class PkixParameters;
+}
+namespace Org::BouncyCastle::X509 {
+class X509Certificate;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Pkix {

@@ -1,10 +1,10 @@
 #pragma once
 #include "UnityEngine/ProBuilder/Poly2Tri/zzzz__PointSet_impl.hpp"
 #include "UnityEngine/ProBuilder/Poly2Tri/zzzz__ConstrainedPointSet_def.hpp"
+#include "UnityEngine/ProBuilder/Poly2Tri/zzzz__TriangulationMode_def.hpp"
 #include "UnityEngine/ProBuilder/Poly2Tri/zzzz__TriangulationPoint_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "UnityEngine/ProBuilder/Poly2Tri/zzzz__TriangulationContext_def.hpp"
-#include "UnityEngine/ProBuilder/Poly2Tri/zzzz__TriangulationMode_def.hpp"
 //  Writing Method size for method: ::UnityEngine::ProBuilder::Poly2Tri::ConstrainedPointSet.get_EdgeIndex
 template <>
 

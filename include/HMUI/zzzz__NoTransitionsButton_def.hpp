@@ -7,14 +7,14 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(NoTransitionsButton)
-namespace UnityEngine::UI {
-struct __Selectable__SelectionState;
-}
 namespace System {
 template <typename T> class Action_1;
 }
 namespace HMUI {
 struct __NoTransitionsButton__SelectionState;
+}
+namespace UnityEngine::UI {
+struct __Selectable__SelectionState;
 }
 // Forward declare root types
 namespace HMUI {
@@ -88,7 +88,7 @@ static_assert(offsetof(::HMUI::__NoTransitionsButton__SelectionState, value__) =
 // SizeInfo { instance_size: 272, native_size: -1, calculated_instance_size: 272, calculated_native_size: 268, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13622)), TypeDefinitionIndex(TypeDefinitionIndex(13019))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13019)), TypeDefinitionIndex(TypeDefinitionIndex(13622))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13623))
 // CS Name: ::HMUI::NoTransitionsButton*
 class CORDL_TYPE NoTransitionsButton : public ::UnityEngine::UI::Button {

@@ -8,25 +8,25 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(CacheInitialization)
 namespace UnityEngine::AddressableAssets::Initialization {
-class __CacheInitialization__CacheInitOp;
-}
-namespace UnityEngine::AddressableAssets::Initialization {
 class __CacheInitialization____c__DisplayClass1_0;
 }
-namespace UnityEngine::ResourceManagement {
-class ResourceManager;
+namespace UnityEngine::AddressableAssets::Initialization {
+class __CacheInitialization__CacheInitOp;
 }
 namespace UnityEngine::ResourceManagement::Util {
 class IInitializableObject;
 }
+namespace UnityEngine::ResourceManagement {
+class ResourceManager;
+}
 namespace UnityEngine::ResourceManagement::AsyncOperations {
 template <typename TObject> struct AsyncOperationHandle_1;
 }
-namespace System {
-template <typename TResult> class Func_1;
-}
 namespace UnityEngine::ResourceManagement {
 class IUpdateReceiver;
+}
+namespace System {
+template <typename TResult> class Func_1;
 }
 // Forward declare root types
 namespace UnityEngine::AddressableAssets::Initialization {
@@ -46,7 +46,7 @@ MARK_REF_PTR_T(::UnityEngine::AddressableAssets::Initialization::__CacheInitiali
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 145, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::AddressableAssets::Initialization {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14032), inst: 105 }), TypeDefinitionIndex(TypeDefinitionIndex(14032))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14032)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14032), inst: 105 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14117))
 // CS Name: ::CacheInitialization::CacheInitOp*
 class CORDL_TYPE __CacheInitialization__CacheInitOp : public ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<bool> {

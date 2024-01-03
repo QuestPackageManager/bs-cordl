@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(AuthenticatorControl)
 namespace Org::BouncyCastle::Asn1 {
-class DerObjectIdentifier;
+class Asn1Encodable;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Encodable;
+class DerObjectIdentifier;
 }
 namespace Org::BouncyCastle::Asn1 {
 class DerUtf8String;

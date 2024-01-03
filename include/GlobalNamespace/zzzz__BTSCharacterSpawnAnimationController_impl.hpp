@@ -2,12 +2,12 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__BTSCharacterSpawnAnimationController_def.hpp"
 #include "GlobalNamespace/zzzz__SongSpeedData_def.hpp"
-#include "GlobalNamespace/zzzz__MaterialPropertyBlockColorSetter_def.hpp"
-#include "GlobalNamespace/zzzz__JumpReceiver_def.hpp"
-#include "GlobalNamespace/zzzz__BTSCharacter_def.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableDirector_def.hpp"
-#include "GlobalNamespace/zzzz__MaterialPropertyBlockFloatAnimator_def.hpp"
+#include "GlobalNamespace/zzzz__BTSCharacter_def.hpp"
+#include "GlobalNamespace/zzzz__MaterialPropertyBlockColorSetter_def.hpp"
 #include "UnityEngine/Timeline/zzzz__ActivationTrack_def.hpp"
+#include "GlobalNamespace/zzzz__JumpReceiver_def.hpp"
+#include "GlobalNamespace/zzzz__MaterialPropertyBlockFloatAnimator_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::BTSCharacterSpawnAnimationController.get_isCharacterVisible
 template <>
 

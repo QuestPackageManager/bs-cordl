@@ -9,35 +9,35 @@ CORDL_MODULE_EXPORT(ExpiringDictionary_2)
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
-namespace GlobalNamespace {
-template <typename TKey, typename TValue> class __ExpiringDictionary_2___Enumerate_d__14;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace System::Collections {
-class IEnumerable;
-}
-namespace System::Collections {
-class IEnumerator;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
-}
 namespace BGNet::Core {
 class ITimeProvider;
 }
 namespace System {
 class IDisposable;
 }
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace GlobalNamespace {
+template <typename TKey, typename TValue> class __ExpiringDictionary_2___Enumerate_d__14;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
+}
 namespace GlobalNamespace {
 template <typename TKey, typename TValue> class __ExpiringDictionary_2__Entry;
 }
 namespace GlobalNamespace {
 template <typename T> class OrderedSet_1;
+}
+namespace System::Collections {
+class IEnumerator;
+}
+namespace System::Collections {
+class IEnumerable;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace System {
 class Object;

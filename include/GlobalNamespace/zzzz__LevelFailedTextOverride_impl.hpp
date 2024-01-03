@@ -3,11 +3,11 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__LevelFailedTextOverride_def.hpp"
-#include "GlobalNamespace/zzzz__PreviewBeatmapLevelPackSO_def.hpp"
 #include "GlobalNamespace/zzzz__LevelFailedTextOverride_def.hpp"
+#include "GlobalNamespace/zzzz__IDifficultyBeatmap_def.hpp"
 #include "GlobalNamespace/zzzz__PreviewBeatmapLevelSO_def.hpp"
 #include "GlobalNamespace/zzzz__LevelFailedText_def.hpp"
-#include "GlobalNamespace/zzzz__IDifficultyBeatmap_def.hpp"
+#include "GlobalNamespace/zzzz__PreviewBeatmapLevelPackSO_def.hpp"
 #include "Polyglot/zzzz__Language_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::__LevelFailedTextOverride__LanguageOverride.get_language
 template <>

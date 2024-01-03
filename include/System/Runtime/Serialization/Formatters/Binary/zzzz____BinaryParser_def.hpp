@@ -9,11 +9,41 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(__BinaryParser)
+namespace System {
+struct TimeSpan;
+}
+namespace System {
+class Object;
+}
 namespace System::Runtime::Serialization::Formatters::Binary {
 class ObjectReader;
 }
+namespace System::IO {
+class Stream;
+}
+namespace System::Runtime::Serialization::Formatters::Binary {
+class BinaryObjectString;
+}
+namespace System::Runtime::Serialization::Formatters::Binary {
+class BinaryObjectWithMap;
+}
+namespace System::Runtime::Serialization::Formatters::Binary {
+class MemberPrimitiveTyped;
+}
 namespace System::Runtime::Serialization::Formatters::Binary {
 class ObjectNull;
+}
+namespace System::Runtime::Serialization::Formatters::Binary {
+class MemberReference;
+}
+namespace System::Runtime::Serialization::Formatters::Binary {
+class MessageEnd;
+}
+namespace System {
+struct Decimal;
+}
+namespace System::Runtime::Serialization::Formatters::Binary {
+class BinaryObjectWithMapTyped;
 }
 namespace System::Runtime::Serialization::Formatters::Binary {
 struct BinaryHeaderEnum;
@@ -21,68 +51,38 @@ struct BinaryHeaderEnum;
 namespace System::Runtime::Serialization::Formatters::Binary {
 struct InternalPrimitiveTypeE;
 }
-namespace System::IO {
-class Stream;
-}
-namespace System {
-struct TimeSpan;
+namespace System::Runtime::Serialization::Formatters::Binary {
+class ObjectProgress;
 }
 namespace System::Runtime::Serialization::Formatters::Binary {
-class SizedArray;
+class BinaryAssemblyInfo;
 }
 namespace System::Text {
 class Encoding;
-}
-namespace System::IO {
-class BinaryReader;
-}
-namespace System::Runtime::Serialization::Formatters::Binary {
-class MessageEnd;
-}
-namespace System::Runtime::Serialization::Formatters::Binary {
-class ParseRecord;
-}
-namespace System::Runtime::Serialization::Formatters::Binary {
-class MemberPrimitiveUnTyped;
-}
-namespace System::Runtime::Serialization::Formatters::Binary {
-class BinaryObjectWithMapTyped;
-}
-namespace System {
-class Object;
-}
-namespace System::Runtime::Serialization::Formatters::Binary {
-class BinaryObject;
-}
-namespace System::Runtime::Serialization::Formatters::Binary {
-class BinaryObjectWithMap;
-}
-namespace System::Runtime::Serialization::Formatters::Binary {
-class BinaryObjectString;
-}
-namespace System::Runtime::Serialization::Formatters::Binary {
-class MemberPrimitiveTyped;
-}
-namespace System {
-struct Decimal;
-}
-namespace System::Runtime::Serialization::Formatters::Binary {
-class SerStack;
-}
-namespace System {
-struct DateTime;
-}
-namespace System::Runtime::Serialization::Formatters::Binary {
-class ObjectProgress;
 }
 namespace System::Runtime::Serialization::Formatters::Binary {
 class BinaryCrossAppDomainString;
 }
 namespace System::Runtime::Serialization::Formatters::Binary {
-class BinaryAssemblyInfo;
+class MemberPrimitiveUnTyped;
 }
 namespace System::Runtime::Serialization::Formatters::Binary {
-class MemberReference;
+class ParseRecord;
+}
+namespace System::Runtime::Serialization::Formatters::Binary {
+class SizedArray;
+}
+namespace System::Runtime::Serialization::Formatters::Binary {
+class SerStack;
+}
+namespace System::IO {
+class BinaryReader;
+}
+namespace System::Runtime::Serialization::Formatters::Binary {
+class BinaryObject;
+}
+namespace System {
+struct DateTime;
 }
 // Forward declare root types
 namespace System::Runtime::Serialization::Formatters::Binary {

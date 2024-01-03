@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(Marker)
 namespace UnityEngine::Timeline {
-class TrackAsset;
+class IMarker;
 }
 namespace UnityEngine::Timeline {
-class IMarker;
+class TrackAsset;
 }
 // Forward declare root types
 namespace UnityEngine::Timeline {

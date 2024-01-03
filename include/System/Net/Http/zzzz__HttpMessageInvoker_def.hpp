@@ -10,14 +10,14 @@ class HttpMessageHandler;
 namespace System::Net::Http {
 class HttpRequestMessage;
 }
-namespace System {
-class IDisposable;
-}
 namespace System::Threading {
 struct CancellationToken;
 }
 namespace System::Net::Http {
 class HttpResponseMessage;
+}
+namespace System {
+class IDisposable;
 }
 namespace System::Threading::Tasks {
 template <typename TResult> class Task_1;

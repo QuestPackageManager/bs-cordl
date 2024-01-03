@@ -1,10 +1,10 @@
 #pragma once
 #include "System/Security/Principal/zzzz__IdentityReference_impl.hpp"
 #include "System/Security/Principal/zzzz__SecurityIdentifier_def.hpp"
-#include "System/zzzz__Object_def.hpp"
-#include "System/zzzz__IComparable_1_def.hpp"
-#include "System/Security/Principal/zzzz__IdentityReference_def.hpp"
 #include "System/zzzz__Type_def.hpp"
+#include "System/zzzz__IComparable_1_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+#include "System/Security/Principal/zzzz__IdentityReference_def.hpp"
 //  Writing Method size for method: ::System::Security::Principal::SecurityIdentifier._ctor
 template <>
 

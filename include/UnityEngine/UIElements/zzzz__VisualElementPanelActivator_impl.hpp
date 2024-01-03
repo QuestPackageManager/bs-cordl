@@ -1,9 +1,9 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualElementPanelActivator_def.hpp"
+#include "UnityEngine/UIElements/zzzz__IVisualElementPanelActivatable_def.hpp"
 #include "UnityEngine/UIElements/zzzz__DetachFromPanelEvent_def.hpp"
 #include "UnityEngine/UIElements/zzzz__AttachToPanelEvent_def.hpp"
-#include "UnityEngine/UIElements/zzzz__IVisualElementPanelActivatable_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::VisualElementPanelActivator.get_isActive
 template <>
 

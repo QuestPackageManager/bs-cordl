@@ -7,38 +7,38 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 CORDL_MODULE_EXPORT(LogicalCallContext)
-namespace System::Runtime::Remoting::Messaging {
-class CallContextRemotingData;
-}
-namespace System::Runtime::Serialization {
-class ISerializable;
-}
-namespace System {
-class Type;
-}
 namespace System {
 class Object;
 }
 namespace System::Collections {
 class Hashtable;
 }
-namespace System::Runtime::Remoting::Messaging {
-class Header;
+namespace System::Runtime::Serialization {
+struct StreamingContext;
+}
+namespace System {
+class Type;
 }
 namespace System::Runtime::Serialization {
 class SerializationInfo;
 }
 namespace System::Runtime::Remoting::Messaging {
+class CallContextRemotingData;
+}
+namespace System::Runtime::Remoting::Messaging {
 class CallContextSecurityData;
+}
+namespace System {
+class ICloneable;
+}
+namespace System::Runtime::Serialization {
+class ISerializable;
 }
 namespace System::Runtime::Remoting::Messaging {
 struct __LogicalCallContext__Reader;
 }
-namespace System::Runtime::Serialization {
-struct StreamingContext;
-}
-namespace System {
-class ICloneable;
+namespace System::Runtime::Remoting::Messaging {
+class Header;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting::Messaging {

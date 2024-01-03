@@ -12,7 +12,16 @@ namespace UnityEngine {
 class GameObject;
 }
 namespace GlobalNamespace {
-class OverrideEnvironmentSettings;
+class __EnvironmentOverrideSettingsPanelController____c;
+}
+namespace GlobalNamespace {
+class __EnvironmentOverrideSettingsPanelController__Elements;
+}
+namespace GlobalNamespace {
+class IRefreshable;
+}
+namespace HMUI {
+class DropdownWithTableView;
 }
 namespace GlobalNamespace {
 class IAnalyticsModel;
@@ -20,23 +29,17 @@ class IAnalyticsModel;
 namespace GlobalNamespace {
 class EnvironmentsListSO;
 }
-namespace HMUI {
-class DropdownWithTableView;
+namespace UnityEngine::UI {
+class Toggle;
 }
 namespace HMUI {
 class PanelAnimationSO;
 }
 namespace GlobalNamespace {
-class IRefreshable;
+class OverrideEnvironmentSettings;
 }
-namespace UnityEngine::UI {
-class Toggle;
-}
-namespace GlobalNamespace {
-class __EnvironmentOverrideSettingsPanelController__Elements;
-}
-namespace GlobalNamespace {
-class __EnvironmentOverrideSettingsPanelController____c;
+namespace TMPro {
+class TextMeshProUGUI;
 }
 namespace HMUI {
 class SimpleTextDropdown;
@@ -44,14 +47,11 @@ class SimpleTextDropdown;
 namespace GlobalNamespace {
 class EnvironmentTypeSO;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace TMPro {
-class TextMeshProUGUI;
-}
 namespace GlobalNamespace {
 class EnvironmentInfoSO;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;

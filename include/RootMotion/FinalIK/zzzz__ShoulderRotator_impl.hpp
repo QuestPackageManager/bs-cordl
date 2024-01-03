@@ -1,9 +1,9 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "RootMotion/FinalIK/zzzz__ShoulderRotator_def.hpp"
+#include "RootMotion/FinalIK/zzzz__FullBodyBipedChain_def.hpp"
 #include "RootMotion/FinalIK/zzzz__IKMapping_def.hpp"
 #include "RootMotion/FinalIK/zzzz__FullBodyBipedIK_def.hpp"
-#include "RootMotion/FinalIK/zzzz__FullBodyBipedChain_def.hpp"
 //  Writing Method size for method: ::RootMotion::FinalIK::ShoulderRotator.Start
 template <>
 

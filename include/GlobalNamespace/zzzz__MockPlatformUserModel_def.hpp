@@ -2,32 +2,33 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/Threading/zzzz__CancellationToken_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(MockPlatformUserModel)
+namespace System {
+template <typename T> class Action_1;
+}
+namespace System::Threading::Tasks {
+template <typename TResult> class Task_1;
+}
 namespace GlobalNamespace {
-class UserInfo;
+class IPlatformUserModel;
+}
+namespace GlobalNamespace {
+class XPlatformAccessTokenData;
+}
+namespace System::Threading {
+struct CancellationToken;
 }
 namespace System::Collections::Generic {
 template <typename T> class IReadOnlyList_1;
 }
 namespace GlobalNamespace {
-class XPlatformAccessTokenData;
+class UserInfo;
 }
 namespace GlobalNamespace {
 class PlatformUserAuthTokenData;
-}
-namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
-}
-namespace System {
-template <typename T> class Action_1;
-}
-namespace GlobalNamespace {
-class IPlatformUserModel;
-}
-namespace System::Threading {
-struct CancellationToken;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -39,7 +40,7 @@ MARK_REF_PTR_T(::GlobalNamespace::MockPlatformUserModel);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2677))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15984))
 // CS Name: ::MockPlatformUserModel*
 class CORDL_TYPE MockPlatformUserModel : public ::System::Object {

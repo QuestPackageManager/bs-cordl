@@ -7,14 +7,14 @@ CORDL_MODULE_EXPORT(ElGamalKeyPairGenerator)
 namespace Org::BouncyCastle::Crypto {
 class IAsymmetricCipherKeyPairGenerator;
 }
+namespace Org::BouncyCastle::Crypto {
+class KeyGenerationParameters;
+}
 namespace Org::BouncyCastle::Crypto::Parameters {
 class ElGamalKeyGenerationParameters;
 }
 namespace Org::BouncyCastle::Crypto {
 class AsymmetricCipherKeyPair;
-}
-namespace Org::BouncyCastle::Crypto {
-class KeyGenerationParameters;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Generators {

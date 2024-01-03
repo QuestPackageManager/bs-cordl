@@ -7,19 +7,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(RegisteredWaitHandle)
 namespace System {
-class Object;
+struct TimeSpan;
 }
-namespace System::Threading {
-class WaitHandle;
+namespace System {
+class Object;
 }
 namespace System::Threading {
 class WaitOrTimerCallback;
 }
 namespace System::Threading {
-class ManualResetEvent;
+class WaitHandle;
 }
-namespace System {
-struct TimeSpan;
+namespace System::Threading {
+class ManualResetEvent;
 }
 // Forward declare root types
 namespace System::Threading {

@@ -8,17 +8,17 @@ CORDL_MODULE_EXPORT(BerTaggedObjectParser)
 namespace Org::BouncyCastle::Asn1 {
 class IAsn1Convertible;
 }
-namespace Org::BouncyCastle::Asn1 {
-class Asn1StreamParser;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
-}
 namespace System::IO {
 class Stream;
 }
 namespace Org::BouncyCastle::Asn1 {
+class Asn1Object;
+}
+namespace Org::BouncyCastle::Asn1 {
 class Asn1TaggedObjectParser;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1StreamParser;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1 {

@@ -6,16 +6,16 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(OtherSigningCertificate)
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class PolicyInformation;
+class Asn1Object;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
+class Asn1Sequence;
 }
 namespace System {
 class Object;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class PolicyInformation;
 }
 namespace Org::BouncyCastle::Asn1::Ess {
 class OtherCertID;

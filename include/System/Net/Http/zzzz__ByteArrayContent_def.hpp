@@ -7,14 +7,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ByteArrayContent)
+namespace System::IO {
+class Stream;
+}
 namespace System::Threading::Tasks {
 class Task;
 }
 namespace System::Net {
 class TransportContext;
-}
-namespace System::IO {
-class Stream;
 }
 // Forward declare root types
 namespace System::Net::Http {

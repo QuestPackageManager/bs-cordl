@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(ITextInputField)
 namespace UnityEngine::UIElements {
-class IEventHandler;
+class TextEditorEngine;
 }
 namespace UnityEngine::UIElements {
-class TextEditorEngine;
+class IEventHandler;
 }
 namespace UnityEngine::UIElements {
 class ITextElement;

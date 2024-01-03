@@ -23,7 +23,7 @@ MARK_REF_PTR_T(::Mono::Security::Interface::Alert);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 18, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace Mono::Security::Interface {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(13773)), TypeDefinitionIndex(TypeDefinitionIndex(13772))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13773)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(13772))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13774))
 // CS Name: ::Mono.Security.Interface::Alert*
 class CORDL_TYPE Alert : public ::System::Object {

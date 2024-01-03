@@ -8,29 +8,29 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(AsyncOperationBase_1)
-namespace UnityEngine::ResourceManagement::AsyncOperations {
-class IAsyncOperation;
+namespace System::Threading::Tasks {
+template <typename TResult> class Task_1;
 }
 namespace System::Threading::Tasks {
 template <typename TResult> class TaskCompletionSource_1;
 }
-namespace GlobalNamespace {
-template <typename T> class DelegateList_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
 namespace UnityEngine::ResourceManagement::AsyncOperations {
-template <typename TObject> class __AsyncOperationBase_1____c__DisplayClass57_0;
+class IAsyncOperation;
+}
+namespace System {
+class Type;
+}
+namespace UnityEngine::ResourceManagement {
+class ResourceManager;
+}
+namespace System {
+class Object;
+}
+namespace System {
+class Exception;
 }
 namespace UnityEngine::ResourceManagement::AsyncOperations {
 template <typename TObject> struct AsyncOperationHandle_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class HashSet_1;
-}
-namespace UnityEngine::ResourceManagement::AsyncOperations {
-struct AsyncOperationStatus;
 }
 namespace UnityEngine::ResourceManagement::AsyncOperations {
 template <typename TObject> class __AsyncOperationBase_1____c__DisplayClass58_0;
@@ -38,26 +38,26 @@ template <typename TObject> class __AsyncOperationBase_1____c__DisplayClass58_0;
 namespace UnityEngine::ResourceManagement::AsyncOperations {
 struct AsyncOperationHandle;
 }
+namespace UnityEngine::ResourceManagement::AsyncOperations {
+template <typename TObject> class __AsyncOperationBase_1____c__DisplayClass57_0;
+}
+namespace UnityEngine::ResourceManagement::AsyncOperations {
+struct AsyncOperationStatus;
+}
 namespace System {
-class Object;
+template <typename T> class Action_1;
 }
-namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
-namespace UnityEngine::ResourceManagement {
-class ResourceManager;
+namespace System::Collections::Generic {
+template <typename T> class HashSet_1;
 }
 namespace UnityEngine::ResourceManagement::AsyncOperations {
 struct DownloadStatus;
 }
-namespace System {
-class Type;
-}
-namespace System {
-class Exception;
-}
-namespace System {
-template <typename T> class Action_1;
+namespace GlobalNamespace {
+template <typename T> class DelegateList_1;
 }
 // Forward declare root types
 namespace UnityEngine::ResourceManagement::AsyncOperations {

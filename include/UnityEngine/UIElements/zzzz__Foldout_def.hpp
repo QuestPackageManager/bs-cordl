@@ -8,16 +8,7 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Foldout)
 namespace UnityEngine::UIElements {
-class Toggle;
-}
-namespace UnityEngine::UIElements {
-template <typename T> class ChangeEvent_1;
-}
-namespace UnityEngine::UIElements {
 template <typename T> class INotifyValueChanged_1;
-}
-namespace UnityEngine::UIElements {
-class VisualElement;
 }
 namespace UnityEngine::UIElements {
 class __Foldout__UxmlFactory;
@@ -26,16 +17,25 @@ namespace UnityEngine::UIElements {
 class __Foldout__UxmlTraits;
 }
 namespace UnityEngine::UIElements {
+class Toggle;
+}
+namespace UnityEngine::UIElements {
+template <typename T> class ChangeEvent_1;
+}
+namespace UnityEngine::UIElements {
 class AttachToPanelEvent;
+}
+namespace UnityEngine::UIElements {
+class VisualElement;
 }
 namespace UnityEngine::UIElements {
 class IUxmlAttributes;
 }
 namespace UnityEngine::UIElements {
-class UxmlStringAttributeDescription;
+struct CreationContext;
 }
 namespace UnityEngine::UIElements {
-struct CreationContext;
+class UxmlStringAttributeDescription;
 }
 namespace UnityEngine::UIElements {
 class UxmlBoolAttributeDescription;
@@ -294,8 +294,8 @@ static_assert(offsetof(::UnityEngine::UIElements::Foldout, ___m_Value) == 0x3d0,
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7086)), TypeDefinitionIndex(TypeDefinitionIndex(7087)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6997), inst: 5260
-// }), TypeDefinitionIndex(TypeDefinitionIndex(6997))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7085)) CS Name: ::Foldout::UxmlFactory*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6997)), TypeDefinitionIndex(TypeDefinitionIndex(7087)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6997), inst: 5260
+// }), TypeDefinitionIndex(TypeDefinitionIndex(7086))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7085)) CS Name: ::Foldout::UxmlFactory*
 class CORDL_TYPE __Foldout__UxmlFactory : public ::UnityEngine::UIElements::UxmlFactory_2<::UnityEngine::UIElements::Foldout*, ::UnityEngine::UIElements::__Foldout__UxmlTraits*> {
 public:
   // Declarations

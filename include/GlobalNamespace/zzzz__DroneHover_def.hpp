@@ -7,20 +7,20 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(DroneHover)
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace GlobalNamespace {
+class __DroneHover__SineLayer;
+}
+namespace UnityEngine {
+struct Vector3;
+}
 namespace UnityEngine {
 class Transform;
 }
 namespace UnityEngine {
 class Cloth;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace UnityEngine {
-struct Vector3;
-}
-namespace GlobalNamespace {
-class __DroneHover__SineLayer;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -99,7 +99,7 @@ static_assert(offsetof(::GlobalNamespace::__DroneHover__SineLayer, ___offset) ==
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4013))
 // CS Name: ::DroneHover*
 class CORDL_TYPE DroneHover : public ::UnityEngine::MonoBehaviour {

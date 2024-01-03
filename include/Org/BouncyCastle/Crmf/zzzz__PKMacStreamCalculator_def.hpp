@@ -4,8 +4,8 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(PKMacStreamCalculator)
-namespace Org::BouncyCastle::Crypto::IO {
-class MacSink;
+namespace Org::BouncyCastle::Crypto {
+class IStreamCalculator;
 }
 namespace Org::BouncyCastle::Crypto {
 class IMac;
@@ -13,11 +13,11 @@ class IMac;
 namespace System {
 class Object;
 }
-namespace Org::BouncyCastle::Crypto {
-class IStreamCalculator;
-}
 namespace System::IO {
 class Stream;
+}
+namespace Org::BouncyCastle::Crypto::IO {
+class MacSink;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crmf {

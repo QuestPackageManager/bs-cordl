@@ -7,11 +7,11 @@ CORDL_MODULE_EXPORT(CoroutineStarter)
 namespace System::Collections {
 class IEnumerator;
 }
-namespace UnityEngine {
-class Coroutine;
-}
 namespace GlobalNamespace {
 class ICoroutineStarter;
+}
+namespace UnityEngine {
+class Coroutine;
 }
 // Forward declare root types
 namespace GlobalNamespace {

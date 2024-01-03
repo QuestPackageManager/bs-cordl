@@ -1,7 +1,7 @@
 #pragma once
 #include "UnityEngine/UIElements/zzzz__CustomStyleProperty_1_def.hpp"
-#include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "System/zzzz__IEquatable_1_def.hpp"
 /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::CustomStyleProperty_1<T>>"
 template <typename T> constexpr UnityEngine::UIElements::CustomStyleProperty_1<T>::operator ::System::IEquatable_1<::UnityEngine::UIElements::CustomStyleProperty_1<T>>*() {
   return static_cast<::System::IEquatable_1<::UnityEngine::UIElements::CustomStyleProperty_1<T>>*>(static_cast<void*>(::cordl_internals::Box(this)));

@@ -1,9 +1,9 @@
 #pragma once
 #include "Newtonsoft/Json/Converters/zzzz__XmlNodeWrapper_impl.hpp"
 #include "Newtonsoft/Json/Converters/zzzz__XmlDocumentTypeWrapper_def.hpp"
-#include "Newtonsoft/Json/Converters/zzzz__IXmlDocumentType_def.hpp"
-#include "Newtonsoft/Json/Converters/zzzz__IXmlNode_def.hpp"
 #include "System/Xml/zzzz__XmlDocumentType_def.hpp"
+#include "Newtonsoft/Json/Converters/zzzz__IXmlNode_def.hpp"
+#include "Newtonsoft/Json/Converters/zzzz__IXmlDocumentType_def.hpp"
 //  Writing Method size for method: ::Newtonsoft::Json::Converters::XmlDocumentTypeWrapper._ctor
 template <>
 

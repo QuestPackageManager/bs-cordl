@@ -8,13 +8,13 @@ namespace System {
 class Object;
 }
 namespace Zenject {
-class DiContainer;
-}
-namespace Zenject {
 class IInstaller;
 }
 namespace Zenject {
 class InjectTypeInfo;
+}
+namespace Zenject {
+class DiContainer;
 }
 // Forward declare root types
 namespace Zenject {

@@ -10,44 +10,44 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(FileStream)
+namespace System {
+class IAsyncResult;
+}
 namespace System::IO {
-struct FileOptions;
+struct SeekOrigin;
+}
+namespace System::Runtime::InteropServices {
+class SafeHandle;
+}
+namespace System::Threading::Tasks {
+class Task;
 }
 namespace System::IO {
 struct FileAccess;
 }
-namespace Microsoft::Win32::SafeHandles {
-class SafeFileHandle;
+namespace System::Threading {
+struct CancellationToken;
+}
+namespace System::IO {
+struct FileMode;
+}
+namespace System::IO {
+class __FileStream__WriteDelegate;
 }
 namespace System {
 class AsyncCallback;
+}
+namespace Microsoft::Win32::SafeHandles {
+class SafeFileHandle;
+}
+namespace System::IO {
+struct FileOptions;
 }
 namespace System::IO {
 class __FileStream__ReadDelegate;
 }
 namespace System {
 class Object;
-}
-namespace System::Runtime::InteropServices {
-class SafeHandle;
-}
-namespace System::IO {
-struct SeekOrigin;
-}
-namespace System::Threading::Tasks {
-class Task;
-}
-namespace System::Threading {
-struct CancellationToken;
-}
-namespace System {
-class IAsyncResult;
-}
-namespace System::IO {
-class __FileStream__WriteDelegate;
-}
-namespace System::IO {
-struct FileMode;
 }
 namespace System::Threading::Tasks {
 template <typename TResult> class Task_1;
@@ -161,7 +161,7 @@ static_assert(::cordl_internals::size_check_v<::System::IO::__FileStream__WriteD
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::IO {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3559)), TypeDefinitionIndex(TypeDefinitionIndex(3619))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3619)), TypeDefinitionIndex(TypeDefinitionIndex(3559))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3627))
 // CS Name: ::System.IO::FileStream*
 class CORDL_TYPE FileStream : public ::System::IO::Stream {

@@ -13,6 +13,12 @@ namespace HMUI {
 class __IconSegmentedControl__DataItem;
 }
 namespace HMUI {
+class __SegmentedControl__IDataSource;
+}
+namespace Zenject {
+class DiContainer;
+}
+namespace HMUI {
 class IconSegmentedControlCell;
 }
 namespace HMUI {
@@ -20,12 +26,6 @@ class SegmentedControlCell;
 }
 namespace UnityEngine {
 class Object;
-}
-namespace HMUI {
-class __SegmentedControl__IDataSource;
-}
-namespace Zenject {
-class DiContainer;
 }
 namespace UnityEngine {
 class Sprite;

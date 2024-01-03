@@ -7,14 +7,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(UserAttributeSubpacket)
-namespace System {
-class Object;
+namespace Org::BouncyCastle::Bcpg {
+struct UserAttributeSubpacketTag;
 }
 namespace System::IO {
 class Stream;
 }
-namespace Org::BouncyCastle::Bcpg {
-struct UserAttributeSubpacketTag;
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Bcpg {
@@ -26,7 +26,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Bcpg::UserAttributeSubpacket);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Bcpg {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(599))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(599)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(528))
 // CS Name: ::Org.BouncyCastle.Bcpg::UserAttributeSubpacket*
 class CORDL_TYPE UserAttributeSubpacket : public ::System::Object {

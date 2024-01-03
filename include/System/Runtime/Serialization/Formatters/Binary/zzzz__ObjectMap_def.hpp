@@ -8,29 +8,29 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ObjectMap)
-namespace System {
-class Type;
+namespace System::Runtime::Serialization {
+class SerializationInfo;
 }
 namespace System::Runtime::Serialization::Formatters::Binary {
 class ReadObjectInfo;
 }
-namespace System::Runtime::Serialization {
-class SerializationInfo;
-}
-namespace System {
-class Object;
-}
 namespace System::Runtime::Serialization::Formatters::Binary {
 class SizedArray;
+}
+namespace System {
+class Type;
 }
 namespace System::Runtime::Serialization::Formatters::Binary {
 class ObjectReader;
 }
 namespace System::Runtime::Serialization::Formatters::Binary {
-class BinaryAssemblyInfo;
+struct BinaryTypeEnum;
 }
 namespace System::Runtime::Serialization::Formatters::Binary {
-struct BinaryTypeEnum;
+class BinaryAssemblyInfo;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::Runtime::Serialization::Formatters::Binary {

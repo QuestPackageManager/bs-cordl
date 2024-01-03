@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(IXboxOneRumble)
 namespace UnityEngine::InputSystem::Haptics {
-class IHaptics;
+class IDualMotorRumble;
 }
 namespace UnityEngine::InputSystem::Haptics {
-class IDualMotorRumble;
+class IHaptics;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::XInput {

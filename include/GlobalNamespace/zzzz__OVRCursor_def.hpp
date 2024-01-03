@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(OVRCursor)
 namespace UnityEngine {
-class Transform;
+struct Vector3;
 }
 namespace UnityEngine {
-struct Vector3;
+class Transform;
 }
 // Forward declare root types
 namespace GlobalNamespace {

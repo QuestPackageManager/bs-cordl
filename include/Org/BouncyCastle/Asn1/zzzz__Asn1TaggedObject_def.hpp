@@ -10,13 +10,13 @@ namespace Org::BouncyCastle::Asn1 {
 class Asn1Encodable;
 }
 namespace Org::BouncyCastle::Asn1 {
-class IAsn1Convertible;
-}
-namespace Org::BouncyCastle::Asn1 {
 class Asn1TaggedObjectParser;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
+}
+namespace Org::BouncyCastle::Asn1 {
+class IAsn1Convertible;
 }
 namespace System {
 class Object;

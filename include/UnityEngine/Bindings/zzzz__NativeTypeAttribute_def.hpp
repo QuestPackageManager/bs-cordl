@@ -19,7 +19,7 @@ MARK_REF_PTR_T(::UnityEngine::Bindings::NativeTypeAttribute);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Bindings {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547)), TypeDefinitionIndex(TypeDefinitionIndex(16020))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(16020)), TypeDefinitionIndex(TypeDefinitionIndex(2547))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(16022))
 // CS Name: ::UnityEngine.Bindings::NativeTypeAttribute*
 class CORDL_TYPE NativeTypeAttribute : public ::System::Attribute {

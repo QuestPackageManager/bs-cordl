@@ -9,14 +9,14 @@ CORDL_MODULE_EXPORT(GetHapticCapabilitiesCommand)
 namespace UnityEngine::InputSystem::LowLevel {
 struct InputDeviceCommand;
 }
+namespace UnityEngine::InputSystem::LowLevel {
+class IInputDeviceCommandInfo;
+}
 namespace UnityEngine::InputSystem::Utilities {
 struct FourCC;
 }
 namespace UnityEngine::InputSystem::XR::Haptics {
 struct HapticCapabilities;
-}
-namespace UnityEngine::InputSystem::LowLevel {
-class IInputDeviceCommandInfo;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::XR::Haptics {

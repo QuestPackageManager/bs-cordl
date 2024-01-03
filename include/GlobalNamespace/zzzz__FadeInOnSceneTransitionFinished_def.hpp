@@ -10,22 +10,22 @@ namespace GlobalNamespace {
 class __FadeInOnSceneTransitionFinished___FadeCoroutine_d__4;
 }
 namespace GlobalNamespace {
+class GameScenesManager;
+}
+namespace GlobalNamespace {
 class FadeInOutController;
 }
 namespace System::Collections {
 class IEnumerator;
 }
-namespace GlobalNamespace {
-class GameScenesManager;
-}
-namespace System {
-class IDisposable;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
 }
 namespace System {
 class Object;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
+namespace System {
+class IDisposable;
 }
 // Forward declare root types
 namespace GlobalNamespace {

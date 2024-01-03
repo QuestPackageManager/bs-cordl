@@ -9,19 +9,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(GameObjectIntSwitchEventEffect)
 namespace GlobalNamespace {
-class BasicBeatmapEventData;
-}
-namespace GlobalNamespace {
-class BeatmapCallbacksController;
+class __GameObjectIntSwitchEventEffect__GameObjectValueList;
 }
 namespace GlobalNamespace {
 class BeatmapDataCallbackWrapper;
+}
+namespace GlobalNamespace {
+class BeatmapCallbacksController;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace GlobalNamespace {
-class __GameObjectIntSwitchEventEffect__GameObjectValueList;
+class BasicBeatmapEventData;
 }
 namespace UnityEngine {
 class GameObject;
@@ -128,7 +128,7 @@ static_assert(offsetof(::GlobalNamespace::__GameObjectIntSwitchEventEffect__Game
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 68, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14724)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(14724))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4899))
 // CS Name: ::GameObjectIntSwitchEventEffect*
 class CORDL_TYPE GameObjectIntSwitchEventEffect : public ::UnityEngine::MonoBehaviour {

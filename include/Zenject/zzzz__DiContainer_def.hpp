@@ -8,111 +8,88 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(DiContainer)
-namespace Zenject {
-template <typename TContract> class ConcreteBinderGeneric_1;
-}
-namespace Zenject {
-class BindInfo;
-}
-namespace Zenject {
-class InjectContext;
-}
-namespace System {
-class Type;
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace UnityEngine {
-struct Quaternion;
+class GameObject;
+}
+namespace System {
+template <typename T> struct Nullable_1;
 }
 namespace Zenject {
 class FromBinderNonGeneric;
 }
-namespace Zenject {
-class ZenjectSettings;
+namespace Zenject::Internal {
+class LookupId;
 }
 namespace Zenject {
-class __DiContainer____c;
+class ConventionSelectTypesBinder;
 }
 namespace Zenject {
-template <typename TParam1, typename TContract> class FactoryToChoiceIdBinder_2;
-}
-namespace System::Collections::Generic {
-template <typename T> class Queue_1;
-}
-namespace Zenject {
-class IdScopeConcreteIdArgConditionCopyNonLazyBinder;
+template <typename TContract> class ConcreteIdBinderGeneric_1;
 }
 namespace Zenject {
 class BindStatement;
 }
 namespace Zenject {
+template <typename TContract> class FactoryToChoiceIdBinder_1;
+}
+namespace Zenject {
+class BindInfo;
+}
+namespace Zenject {
 class __DiContainer____c__DisplayClass178_0;
-}
-namespace UnityEngine {
-class Transform;
-}
-namespace Zenject {
-template <typename TContract> class DecoratorToChoiceFromBinder_1;
-}
-namespace Zenject {
-class __DiContainer__ProviderInfo;
-}
-namespace System {
-template <typename T> struct Nullable_1;
-}
-namespace UnityEngine {
-class Object;
-}
-namespace System {
-template <typename T> class Action_1;
-}
-namespace Zenject {
-struct BindingId;
 }
 namespace Zenject {
 class InjectTypeInfo;
 }
 namespace Zenject {
-class __DiContainer___GetDependencyContracts_d__96;
-}
-namespace Zenject {
-class CopyNonLazyBinder;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
+template <typename TParam1, typename TParam2, typename TParam3, typename TContract> class FactoryToChoiceIdBinder_4;
 }
 namespace Zenject {
 struct TypeValuePair;
 }
-namespace System::Collections::Generic {
-template <typename T> class HashSet_1;
+namespace System::Collections {
+class IList;
 }
 namespace Zenject {
-template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TParam7, typename TParam8, typename TParam9, typename TParam10,
-          typename TContract>
-class FactoryToChoiceIdBinder_11;
+struct BindingId;
 }
 namespace Zenject {
-template <typename TContract> class __DiContainer____c__DisplayClass203_0_1;
-}
-namespace Zenject {
-template <typename TContract> class ConcreteIdBinderGeneric_1;
+template <typename TContract> class DecoratorToChoiceFromBinder_1;
 }
 namespace Zenject::Internal {
-class IDecoratorProvider;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+class SingletonMarkRegistry;
 }
 namespace Zenject {
-class ConcreteIdBinderNonGeneric;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
+template <typename TParam1, typename TParam2, typename TContract> class FactoryToChoiceIdBinder_3;
 }
 namespace Zenject {
-class LazyInstanceInjector;
+struct InjectSources;
+}
+namespace Zenject {
+template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TContract> class FactoryToChoiceIdBinder_7;
+}
+namespace UnityEngine {
+struct Vector3;
+}
+namespace Zenject {
+class InjectContext;
 }
 namespace System {
+template <typename T> class Action_1;
+}
+namespace Zenject {
+template <typename TContract> class MemoryPoolIdInitialSizeMaxSizeBinder_1;
+}
+namespace Zenject {
+template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TContract> class FactoryToChoiceIdBinder_5;
+}
+namespace UnityEngine {
+class Transform;
+}
+namespace UnityEngine {
 class Object;
 }
 namespace Zenject {
@@ -121,65 +98,91 @@ class IInstantiator;
 namespace Zenject {
 class ConcreteBinderNonGeneric;
 }
+namespace Zenject {
+template <typename TParam1, typename TContract> class FactoryToChoiceIdBinder_2;
+}
+namespace Zenject {
+class BindingCondition;
+}
+namespace Zenject {
+class __DiContainer__ProviderInfo;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
+namespace Zenject {
+template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TContract> class FactoryToChoiceIdBinder_6;
+}
 namespace UnityEngine {
 class Component;
 }
 namespace Zenject {
-template <typename TParam1, typename TParam2, typename TParam3, typename TContract> class FactoryToChoiceIdBinder_4;
+template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TParam7, typename TParam8, typename TParam9, typename TParam10,
+          typename TContract>
+class FactoryToChoiceIdBinder_11;
 }
-namespace UnityEngine {
-struct Vector3;
-}
-namespace Zenject {
-template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TContract> class FactoryToChoiceIdBinder_7;
+namespace System {
+class Type;
 }
 namespace Zenject {
 class IValidatable;
 }
-namespace System::Collections {
-class IList;
+namespace UnityEngine {
+struct Quaternion;
 }
-namespace Zenject {
-class ConventionSelectTypesBinder;
+namespace System {
+class Object;
 }
-namespace Zenject {
-struct InjectSources;
-}
-namespace Zenject {
-template <typename TContract> class MemoryPoolIdInitialSizeMaxSizeBinder_1;
-}
-namespace Zenject::Internal {
-class SingletonMarkRegistry;
-}
-namespace Zenject {
-class __DiContainer____c__DisplayClass86_0;
-}
-namespace Zenject {
-template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TContract> class FactoryToChoiceIdBinder_5;
-}
-namespace Zenject {
-template <typename TContract> class FactoryToChoiceIdBinder_1;
+namespace System::Collections::Generic {
+template <typename T> class Queue_1;
 }
 namespace Zenject {
 class IProvider;
 }
 namespace Zenject {
-class BindingCondition;
-}
-namespace UnityEngine {
-class GameObject;
+class __DiContainer____c__DisplayClass86_0;
 }
 namespace Zenject::Internal {
-class LookupId;
+class IDecoratorProvider;
 }
 namespace Zenject {
-template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TContract> class FactoryToChoiceIdBinder_6;
+template <typename TContract> class ConcreteBinderGeneric_1;
+}
+namespace Zenject {
+class IdScopeConcreteIdArgConditionCopyNonLazyBinder;
+}
+namespace Zenject {
+template <typename TContract> class __DiContainer____c__DisplayClass203_0_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace Zenject {
+class ZenjectSettings;
+}
+namespace Zenject {
+class CopyNonLazyBinder;
+}
+namespace Zenject {
+class ConcreteIdBinderNonGeneric;
+}
+namespace Zenject {
+class LazyInstanceInjector;
+}
+namespace Zenject {
+class __DiContainer____c;
+}
+namespace System::Collections::Generic {
+template <typename T> class HashSet_1;
+}
+namespace Zenject {
+class __DiContainer___GetDependencyContracts_d__96;
 }
 namespace Zenject {
 class GameObjectCreationParameters;
 }
-namespace Zenject {
-template <typename TParam1, typename TParam2, typename TContract> class FactoryToChoiceIdBinder_3;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
 }
 namespace System::Collections {
 class IEnumerable;
@@ -187,14 +190,11 @@ class IEnumerable;
 namespace Zenject {
 class InjectableInfo;
 }
-namespace System {
-class IDisposable;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
-}
 namespace System::Collections {
 class IEnumerator;
+}
+namespace System {
+class IDisposable;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;

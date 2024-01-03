@@ -10,20 +10,20 @@ CORDL_MODULE_EXPORT(PgpSignatureSubpacketGenerator)
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
 class PgpSignatureSubpacketVector;
 }
-namespace Org::BouncyCastle::Bcpg {
-struct RevocationReasonTag;
-}
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
 class PgpSignature;
 }
 namespace System::Collections {
 class IList;
 }
+namespace System {
+struct DateTime;
+}
 namespace Org::BouncyCastle::Bcpg {
 struct PublicKeyAlgorithmTag;
 }
-namespace System {
-struct DateTime;
+namespace Org::BouncyCastle::Bcpg {
+struct RevocationReasonTag;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Bcpg::OpenPgp {

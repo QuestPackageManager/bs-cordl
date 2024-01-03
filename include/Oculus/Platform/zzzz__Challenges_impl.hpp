@@ -1,14 +1,14 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "Oculus/Platform/zzzz__Challenges_def.hpp"
+#include "Oculus/Platform/Models/zzzz__ChallengeList_def.hpp"
+#include "Oculus/Platform/zzzz__LeaderboardStartAt_def.hpp"
+#include "Oculus/Platform/zzzz__ChallengeOptions_def.hpp"
 #include "Oculus/Platform/Models/zzzz__Challenge_def.hpp"
 #include "Oculus/Platform/Models/zzzz__ChallengeEntryList_def.hpp"
-#include "Oculus/Platform/zzzz__LeaderboardStartAt_def.hpp"
-#include "Oculus/Platform/Models/zzzz__ChallengeList_def.hpp"
-#include "Oculus/Platform/zzzz__Request_1_def.hpp"
-#include "Oculus/Platform/zzzz__ChallengeOptions_def.hpp"
-#include "Oculus/Platform/zzzz__Request_def.hpp"
 #include "Oculus/Platform/zzzz__LeaderboardFilterType_def.hpp"
+#include "Oculus/Platform/zzzz__Request_1_def.hpp"
+#include "Oculus/Platform/zzzz__Request_def.hpp"
 //  Writing Method size for method: ::Oculus::Platform::Challenges.GetNextEntries
 template <>
 

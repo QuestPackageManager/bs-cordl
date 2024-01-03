@@ -2,11 +2,11 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "System/IO/zzzz__BinaryWriter_def.hpp"
 #include "System/Text/zzzz__Encoding_def.hpp"
+#include "System/Threading/Tasks/zzzz__ValueTask_def.hpp"
+#include "System/zzzz__IAsyncDisposable_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"
 #include "System/Text/zzzz__Encoder_def.hpp"
-#include "System/zzzz__IAsyncDisposable_def.hpp"
-#include "System/Threading/Tasks/zzzz__ValueTask_def.hpp"
 //  Writing Method size for method: ::System::IO::BinaryWriter._ctor
 template <>
 

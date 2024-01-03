@@ -5,17 +5,17 @@ CORDL_MODULE_INIT
 #include "System/Configuration/zzzz__ConfigurationSection_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(IgnoreSection)
+namespace System::Configuration {
+class ConfigurationPropertyCollection;
+}
 namespace System::Xml {
 class XmlReader;
 }
 namespace System::Configuration {
-class ConfigurationElement;
-}
-namespace System::Configuration {
-class ConfigurationPropertyCollection;
-}
-namespace System::Configuration {
 struct ConfigurationSaveMode;
+}
+namespace System::Configuration {
+class ConfigurationElement;
 }
 // Forward declare root types
 namespace System::Configuration {

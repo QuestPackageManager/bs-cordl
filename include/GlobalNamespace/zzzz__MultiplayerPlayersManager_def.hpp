@@ -10,43 +10,49 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(MultiplayerPlayersManager)
 namespace GlobalNamespace {
-class __MultiplayerConnectedPlayerFacade__Factory;
+class BeatmapObjectSpawnCenter;
+}
+namespace System::Collections::Generic {
+template <typename T> class IReadOnlyList_1;
+}
+namespace System {
+class Action;
 }
 namespace GlobalNamespace {
-class __MultiplayerPlayersManager___SwitchLocalPlayerToInactiveCoroutine_d__51;
-}
-namespace GlobalNamespace {
-class IMultiplayerLevelEndActionsPublisher;
-}
-namespace GlobalNamespace {
-class IConnectedPlayer;
-}
-namespace UnityEngine {
-class Transform;
+class __MultiplayerLocalInactivePlayerFacade__Factory;
 }
 namespace GlobalNamespace {
 struct MultiplayerPlayerLayout;
 }
 namespace GlobalNamespace {
+class MultiplayerLayoutProvider;
+}
+namespace GlobalNamespace {
+class IMultiplayerLevelEndActionsPublisher;
+}
+namespace GlobalNamespace {
+class MultiplayerLocalActivePlayerFacade;
+}
+namespace GlobalNamespace {
+class __MultiplayerConnectedPlayerFacade__Factory;
+}
+namespace GlobalNamespace {
+class IStartSeekSongControllerProvider;
+}
+namespace GlobalNamespace {
 class MultiplayerLocalInactivePlayerFacade;
 }
 namespace GlobalNamespace {
-class IMultiplayerSessionManager;
-}
-namespace GlobalNamespace {
-class MultiplayerLayoutProvider;
+class __MultiplayerPlayersManager___SwitchLocalPlayerToInactiveCoroutine_d__51;
 }
 namespace System {
 template <typename T> class Action_1;
 }
 namespace GlobalNamespace {
-class BeatmapObjectSpawnCenter;
+class IConnectedPlayer;
 }
-namespace Zenject {
-class DiContainer;
-}
-namespace System {
-class Action;
+namespace GlobalNamespace {
+class MultiplayerConnectedPlayerFacade;
 }
 namespace GlobalNamespace {
 class MultiplayerLevelCompletionResults;
@@ -54,41 +60,35 @@ class MultiplayerLevelCompletionResults;
 namespace GlobalNamespace {
 class __MultiplayerLocalActivePlayerFacade__Factory;
 }
-namespace GlobalNamespace {
-struct MultiplayerPlayerStartState;
-}
-namespace GlobalNamespace {
-class FadeInOutController;
-}
-namespace GlobalNamespace {
-class __MultiplayerLocalInactivePlayerFacade__Factory;
-}
-namespace GlobalNamespace {
-class MultiplayerLocalActivePlayerFacade;
-}
-namespace GlobalNamespace {
-class IStartSeekSongControllerProvider;
-}
-namespace GlobalNamespace {
-class MultiplayerConnectedPlayerFacade;
-}
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace UnityEngine {
+class Transform;
+}
+namespace GlobalNamespace {
+struct MultiplayerPlayerStartState;
 }
 namespace System::Collections {
 class IEnumerator;
 }
-namespace System::Collections::Generic {
-template <typename T> class IReadOnlyList_1;
+namespace GlobalNamespace {
+class FadeInOutController;
 }
-namespace System {
-class IDisposable;
+namespace Zenject {
+class DiContainer;
+}
+namespace GlobalNamespace {
+class IMultiplayerSessionManager;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
 }
 namespace System {
 class Object;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
+namespace System {
+class IDisposable;
 }
 // Forward declare root types
 namespace GlobalNamespace {

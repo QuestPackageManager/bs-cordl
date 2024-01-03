@@ -7,17 +7,17 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(StyleInt)
-namespace System {
-class Object;
-}
 namespace UnityEngine::UIElements {
 template <typename T> class IStyleValue_1;
 }
-namespace UnityEngine::UIElements {
-struct StyleKeyword;
+namespace System {
+class Object;
 }
 namespace System {
 template <typename T> class IEquatable_1;
+}
+namespace UnityEngine::UIElements {
+struct StyleKeyword;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

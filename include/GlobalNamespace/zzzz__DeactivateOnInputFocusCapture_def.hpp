@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(DeactivateOnInputFocusCapture)
 namespace GlobalNamespace {
-class IVRPlatformHelper;
+class IVerboseLogger;
 }
 namespace GlobalNamespace {
-class IVerboseLogger;
+class IVRPlatformHelper;
 }
 // Forward declare root types
 namespace GlobalNamespace {

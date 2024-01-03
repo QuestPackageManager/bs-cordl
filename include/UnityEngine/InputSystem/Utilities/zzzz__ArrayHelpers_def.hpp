@@ -3,24 +3,28 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
+#include "Unity/Collections/zzzz__Allocator_def.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ArrayHelpers)
-namespace System {
-template <typename TResult> class Func_1;
-}
 namespace Unity::Collections {
-template <typename T> struct NativeArray_1;
+struct Allocator;
 }
 namespace UnityEngine::InputSystem::Utilities {
 template <typename TValue> class __ArrayHelpers____c__DisplayClass34_0_1;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
+namespace UnityEngine::InputSystem::Utilities {
+template <typename TValue> class __ArrayHelpers____c__DisplayClass33_0_1;
 }
 namespace System {
-template <typename T, typename TResult> class Func_2;
+template <typename T> class Predicate_1;
+}
+namespace System {
+template <typename TResult> class Func_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEqualityComparer_1;
@@ -28,14 +32,11 @@ template <typename T> class IEqualityComparer_1;
 namespace UnityEngine::InputSystem::Utilities {
 template <typename TValue> class __ArrayHelpers____c__DisplayClass34_1_1;
 }
-namespace Unity::Collections {
-struct Allocator;
-}
 namespace System {
-template <typename T> class Predicate_1;
+template <typename T, typename TResult> class Func_2;
 }
-namespace UnityEngine::InputSystem::Utilities {
-template <typename TValue> class __ArrayHelpers____c__DisplayClass33_0_1;
+namespace Unity::Collections {
+template <typename T> struct NativeArray_1;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::Utilities {
@@ -218,7 +219,7 @@ public:
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Utilities {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10003))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6659))
 // CS Name: ::UnityEngine.InputSystem.Utilities::ArrayHelpers*
 class CORDL_TYPE ArrayHelpers : public ::System::Object {

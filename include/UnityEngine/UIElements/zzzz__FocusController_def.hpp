@@ -3,21 +3,22 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
+#include "UnityEngine/UIElements/zzzz__DispatchMode_def.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(FocusController)
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
 namespace UnityEngine::UIElements {
 class Focusable;
 }
 namespace UnityEngine::UIElements {
-class FocusChangeDirection;
+struct __FocusController__FocusedElement;
 }
 namespace UnityEngine::UIElements {
-class EventBase;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+class FocusChangeDirection;
 }
 namespace UnityEngine::UIElements {
 class IFocusRing;
@@ -29,7 +30,7 @@ namespace UnityEngine::UIElements {
 struct DispatchMode;
 }
 namespace UnityEngine::UIElements {
-struct __FocusController__FocusedElement;
+class EventBase;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -82,7 +83,7 @@ static_assert(offsetof(::UnityEngine::UIElements::__FocusController__FocusedElem
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(6911))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6884))
 // CS Name: ::UnityEngine.UIElements::FocusController*
 class CORDL_TYPE FocusController : public ::System::Object {

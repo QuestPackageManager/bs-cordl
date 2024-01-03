@@ -10,11 +10,11 @@ CORDL_MODULE_EXPORT(PemWriter)
 namespace Org::BouncyCastle::Utilities::IO::Pem {
 class PemObjectGenerator;
 }
-namespace Org::BouncyCastle::Utilities::IO::Pem {
-class PemObject;
-}
 namespace System::IO {
 class TextWriter;
+}
+namespace Org::BouncyCastle::Utilities::IO::Pem {
+class PemObject;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Utilities::IO::Pem {

@@ -9,14 +9,14 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(AutoUnwrapSettings)
-namespace UnityEngine {
-struct Vector2;
-}
 namespace UnityEngine::ProBuilder {
 struct __AutoUnwrapSettings__Anchor;
 }
 namespace UnityEngine::ProBuilder {
 struct __AutoUnwrapSettings__Fill;
+}
+namespace UnityEngine {
+struct Vector2;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder {

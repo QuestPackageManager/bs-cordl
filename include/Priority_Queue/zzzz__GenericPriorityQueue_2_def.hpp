@@ -6,32 +6,32 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(GenericPriorityQueue_2)
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
+}
 namespace System::Collections {
 class IEnumerator;
 }
 namespace System::Collections::Generic {
 template <typename T> class IComparer_1;
 }
-namespace System::Collections {
-class IEnumerable;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
-}
 namespace Priority_Queue {
 template <typename TItem, typename TPriority> class __GenericPriorityQueue_2___GetEnumerator_d__25;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
-namespace System {
-template <typename T> class Comparison_1;
+namespace Priority_Queue {
+template <typename TItem, typename TPriority> class IFixedSizePriorityQueue_2;
 }
 namespace Priority_Queue {
 template <typename TItem, typename TPriority> class IPriorityQueue_2;
 }
-namespace Priority_Queue {
-template <typename TItem, typename TPriority> class IFixedSizePriorityQueue_2;
+namespace System {
+template <typename T> class Comparison_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
+namespace System::Collections {
+class IEnumerable;
 }
 namespace System {
 class Object;

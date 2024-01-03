@@ -8,20 +8,20 @@ CORDL_MODULE_EXPORT(AvatarSelectionView)
 namespace UnityEngine {
 class RectTransform;
 }
+namespace UnityEngine::UI {
+class Button;
+}
 namespace HMUI {
 class ButtonBinder;
+}
+namespace HMUI {
+class ImageView;
 }
 namespace System {
 class Action;
 }
 namespace TMPro {
 class TextMeshProUGUI;
-}
-namespace UnityEngine::UI {
-class Button;
-}
-namespace HMUI {
-class ImageView;
 }
 // Forward declare root types
 namespace BeatSaber::AvatarCore {

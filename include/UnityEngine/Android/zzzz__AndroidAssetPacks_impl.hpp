@@ -7,9 +7,9 @@
 #include "System/zzzz__Action_1_def.hpp"
 #include "UnityEngine/Android/zzzz__AndroidAssetPackInfo_def.hpp"
 #include "UnityEngine/Android/zzzz__AndroidAssetPackUseMobileDataRequestResult_def.hpp"
+#include "System/zzzz__Action_2_def.hpp"
 #include "UnityEngine/Android/zzzz__AndroidAssetPackState_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "System/zzzz__Action_2_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Android::__AndroidAssetPacks__AssetPackManagerDownloadStatusCallback._ctor
 template <>
 

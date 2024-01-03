@@ -6,20 +6,20 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(IntVfxBeatmapEventDataBox)
-namespace GlobalNamespace {
-class IndexFilter;
-}
-namespace GlobalNamespace {
-class IBeatToTimeConvertor;
-}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace GlobalNamespace {
-struct EaseType;
+class IndexFilter;
 }
 namespace System::Collections::Generic {
 template <typename T> class IReadOnlyList_1;
+}
+namespace GlobalNamespace {
+struct EaseType;
+}
+namespace GlobalNamespace {
+class IBeatToTimeConvertor;
 }
 namespace GlobalNamespace {
 struct __BeatmapEventDataBox__DistributionParamType;

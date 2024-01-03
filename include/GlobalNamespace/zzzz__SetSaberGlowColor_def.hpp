@@ -10,13 +10,7 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(SetSaberGlowColor)
 namespace GlobalNamespace {
-class ColorManager;
-}
-namespace UnityEngine {
-class MaterialPropertyBlock;
-}
-namespace GlobalNamespace {
-class __SetSaberGlowColor__PropertyTintColorPair;
+class SaberTypeObject;
 }
 namespace UnityEngine {
 class MeshRenderer;
@@ -25,7 +19,13 @@ namespace GlobalNamespace {
 struct SaberType;
 }
 namespace GlobalNamespace {
-class SaberTypeObject;
+class __SetSaberGlowColor__PropertyTintColorPair;
+}
+namespace GlobalNamespace {
+class ColorManager;
+}
+namespace UnityEngine {
+class MaterialPropertyBlock;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -104,7 +104,7 @@ static_assert(offsetof(::GlobalNamespace::__SetSaberGlowColor__PropertyTintColor
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 68, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(15036))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15036)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5308))
 // CS Name: ::SetSaberGlowColor*
 class CORDL_TYPE SetSaberGlowColor : public ::UnityEngine::MonoBehaviour {

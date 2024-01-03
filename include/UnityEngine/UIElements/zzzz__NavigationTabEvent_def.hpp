@@ -78,8 +78,8 @@ static_assert(offsetof(::UnityEngine::UIElements::__NavigationTabEvent__Directio
 // SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7248)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7248), inst: 4704 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(7251))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7252)) CS Name: ::UnityEngine.UIElements::NavigationTabEvent*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7248)), TypeDefinitionIndex(TypeDefinitionIndex(7251)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7248), inst: 4704
+// })} Self: TypeDefinitionIndex(TypeDefinitionIndex(7252)) CS Name: ::UnityEngine.UIElements::NavigationTabEvent*
 class CORDL_TYPE NavigationTabEvent : public ::UnityEngine::UIElements::NavigationEventBase_1<::UnityEngine::UIElements::NavigationTabEvent*> {
 public:
   // Declarations

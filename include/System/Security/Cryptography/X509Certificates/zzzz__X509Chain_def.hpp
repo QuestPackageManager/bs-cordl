@@ -10,16 +10,16 @@ namespace System::Security::Cryptography::X509Certificates {
 struct X509ChainStatus;
 }
 namespace System::Security::Cryptography::X509Certificates {
-class X509Certificate2;
-}
-namespace System::Security::Cryptography::X509Certificates {
 class X509ChainImpl;
 }
 namespace System::Security::Cryptography::X509Certificates {
-class X509ChainElementCollection;
+class X509Certificate2;
 }
 namespace System {
 class IDisposable;
+}
+namespace System::Security::Cryptography::X509Certificates {
+class X509ChainElementCollection;
 }
 namespace System::Security::Cryptography::X509Certificates {
 class X509ChainPolicy;
