@@ -41,7 +41,7 @@ jobs:
 
       - name: Create ndkpath.txt
         run: |
-          echo ${{ steps.setup-ndk.outputs.path }} > ${GITHUB_WORKSPACE}/ndkpath.txt
+          echo ${{ steps.setup-ndk.outputs.ndk-path }} > ${GITHUB_WORKSPACE}/ndkpath.txt
           cat ${GITHUB_WORKSPACE}/ndkpath.txt
 
       - name: Setup qpm for regular build
