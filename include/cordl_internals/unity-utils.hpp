@@ -103,7 +103,7 @@ struct BS_HOOKS_HIDDEN ::il2cpp_utils::il2cpp_type_check::need_box<UnityW<T>> {
 
 template <class T>
 struct ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<UnityW<T>> {
-  static inline Il2CppClass *get() {
+  static inline const Il2CppType* get() {
     // don't double cache here, just inline
     return ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<T *>::get();
   }
