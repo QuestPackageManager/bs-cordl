@@ -36,7 +36,7 @@ template <typename T> struct UnityW {
     return UnityW<U>(::il2cpp_utils::cast<U>(const_cast<T *>(this->innerPtr)));
   }
 
-  template <typename U> inline std::optional<UnityW<U>> cast() const {
+  template <typename U> inline std::optional<UnityW<U>> try_cast() const {
     auto attemptedCast =
         ::il2cpp_utils::try_cast<U>(const_cast<T *>(this->innerPtr));
     if (!attemptedCast)
